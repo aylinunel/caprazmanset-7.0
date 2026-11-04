@@ -1,0 +1,52 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Cumhurbaşkanı Erdoğan'dan Devlet Bahçeli'ye taziye mesajı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Cumhurbaşkanı Erdoğan'dan Serpil Bahçeli için taziye mesajı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Başkan Erdoğan'dan Devlet Bahçeli'ye başsağlığı mesajı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı taziye mesajı alıcı veya vefat eden kişi üzerinden farklı biçimde başlıklandırılmış; anlamlı bir değerlik farkı yok.",
+   "alternative_explanation": "Farklar sıradan başlık tercihleri ve unvan kullanımından ibaret olabilir.",
+   "missing_context": [
+    "Sunum farkının bir yargıyı değiştirdiğine dair herhangi bir kanıt"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[karar · 11:22] Balıkesir’de işçi servisi ile hafif ticari araç kafa kafaya çarpıştı: 9 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "[aksam · 11:23] Balıkesir'de feci kaza: 10 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 11:33] Balıkesir'de işçi servis minibüsü ile otomobil çarpıştı. 10 yaralı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Yaralı sayısı (9/10) ve araç türü (hafif ticari araç/otomobil) kurumlar arasında farklı aktarılıyor.",
+ "alternative_explanation": "Erken saatlerdeki farklı kaynaklar ve güncellenen yaralı sayısı farkı açıklayabilir.",
+ "missing_context": ["Resmi yaralı sayısı", "Farkın bir sonuca etkisi", "Listedeki tır/kamyonet başlıklarının aynı olaya ait olup olmadığı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[sabah · 11:11] Balıkesir'de feci kaza! Servis minibüsü ile ticari araç çarpıştı: Yaralılar var!", "kind": "behavioral"},
+  {"source": "text", "quote": "[haberler · 11:03] Balıkesir Susurluk'ta işçi servisi ile hafif ticari araç çarpıştı, 9 kişi yaralandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "'Feci kaza!' gibi duygusal vurgu bazı başlıklarda öne çıkarken diğerleri olgusal kalıyor.",
+ "alternative_explanation": "Sansasyonel üslup kurumun genel başlık tarzı olabilir; bir yargıyı yönlendirdiği gösterilmiyor.",
+ "missing_context": ["Vurgunun bir yargıya bağlandığını gösteren ifade"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[star · 11:30] Balıkesir'de feci kaza! Ticari araçla minibüs çarpıştı: 10 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "[turkiyegz · 11:36] Balıkesir'de hafif ticari araç ve minibüs çarpıştı: 10 kişi yaralandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı bilgi bir kurumda 'feci kaza' çerçevesiyle, diğerinde nötr biçimde veriliyor.",
+ "alternative_explanation": "Üslup farkı tek başına bir tercih ya da değerlendirme değişikliği göstermez.",
+ "missing_context": ["Çerçeve farkının bir değerlendirmeye bağlandığına dair açık ifade"]}
+]}

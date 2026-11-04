@@ -1,0 +1,140 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Ahmet Davutoğlu Hakkında Şok Haber: Soruşturma Başlatıldı!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Cumhurbaşkanına hakaret içerdiği iddia edilen ifadeler",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Cumhurbaşkanına hakaret içerdiği değerlendirilen ifadeleri",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "'Şüpheli' sıfatıyla ifade verdi",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı soruşturma bazı kurumlarda 'iddia edilen', bazılarında 'değerlendirilen' ifadesiyle ve 'şüpheli' vurgusuyla farklı çerçevelenmiş.",
+   "alternative_explanation": "Sözcük seçimleri ajans metnine ve kurum üslubuna bağlı olabilir; bir yargı değişimi açıkça gösterilmiyor.",
+   "missing_context": [
+    "Çerçevenin okur değerlendirmesini etkilediğine dair kanıt",
+    "Kaynak ajans metninin aslı"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Ahmet Davutoğlu Hakkında Şok Haber",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Pazartesi günü ifade verecek!",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bazı başlıklar 'şok' ve ünlem kullanarak olayı çarpıcı hale getiriyor.",
+   "alternative_explanation": "Siyasi figür hakkındaki soruşturma doğal olarak yüksek haber değerine sahiptir.",
+   "missing_context": [
+    "Belirginliğin bir yargıyı haksız biçimde yönlendirdiğine dair ifade"
+   ]
+  },
+  {
+   "card_id": "source-confusion",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Davutoğlu'nun 7 Eylül Pazartesi günü 15.00'te şüpheli sıfatıyla Ankara Adliyesinde ifade",
+     "kind": "statement"
+    },
+    {
+     "source": "text",
+     "quote": "'Şüpheli' sıfatıyla ifade verdi",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bir kurum ifadenin verildiğini, diğerleri verileceğini yazıyor; ancak bu bir hatırlanan bilginin kaynağının karıştırılması değil.",
+   "alternative_explanation": "Zaman farkı başlık kısaltması veya güncelleme farkından kaynaklanabilir.",
+   "missing_context": [
+    "Hatırlanan bilgi ve atfedilen kaynak arasında açık uyuşmazlık",
+    "Kaydın doğruluğunu gösteren belge"
+   ]
+  }
+ ]
+}

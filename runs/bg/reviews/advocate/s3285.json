@@ -1,0 +1,78 @@
+{"role": "advocate", "assessments": [
+{"card_id": "hindsight-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 13:52] Maltepe'de göz göre göre gelen facia: Çöken binanın çatlak görüntüleri ortaya çıktı!", "kind": "behavioral"},
+  {"source": "text", "quote": "bina çökmeden önce duvarlarda oluşan çatlakların görüntülendiği ortaya çıktı", "kind": "statement"},
+  {"source": "text", "quote": "Binada kolon kesildiği iddialarını yalanlayan Kaya", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0]}
+ ],
+ "mechanism": "Çökme sonrası 'göz göre göre gelen facia' ifadesiyle olay önceden açıkça görülebilir olarak nitelendiriliyor.",
+ "alternative_explanation": "Olay öncesi çatlak görüntüleri çağdaş bir kayıt olabilir; bu öngörülebilirlik iddiasını meşru kılabilir.",
+ "missing_context": ["Çatlakların olay öncesinde uzmanlarca ne kadar riskli değerlendirildiği", "Öngörülebilirlik iddiasının sorumluluk atfını etkilediğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[ntv · 08:56] Maltepe'de çöken binanın molozlarından deniz kabuğu çıktı", "kind": "behavioral"},
+  {"source": "text", "quote": "Binanın yapı malzemelerinin niteliği tekrar gündeme geldi.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0]}
+ ],
+ "mechanism": "Deniz kabuğu gibi çarpıcı bir ayrıntı, yapı malzemesi niteliği yargısına açıkça bağlanıyor.",
+ "alternative_explanation": "Betonda deniz kabuğu bulunması malzeme kalitesiyle doğrudan ilgili, ilgili bir kanıt olabilir.",
+ "missing_context": ["Laboratuvar analiz sonuçları", "Ayrıntının karşı kanıtları göz ardı ettirdiğine dair ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[milligazete · 10:39] Maltepe’de çöken binanın geçmişi ortaya çıktı: Kaçak katlar var kolon kesme var", "kind": "behavioral"},
+  {"source": "text", "quote": "Binada kolon kesildiği iddialarını yalanlayan Kaya", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Milli Gazete kolon kesme iddiasını başlıkta kesin bilgi gibi keskinleştirirken başka bir kaynak bu iddiayı yalanlıyor.",
+ "alternative_explanation": "Kurumlar farklı tanıklara ulaşmış olabilir; iddia henüz doğrulanmamış bir aşamadadır.",
+ "missing_context": ["Kolon kesme iddiasının resmi inceleme sonucu", "Başlık farkının bir sonuca etkisi"]},
+{"card_id": "illusory-correlation", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "binanın üzerine sonradan yaklaşık 2 kaçak kat eklendiği ortaya çıktı", "kind": "statement"},
+  {"source": "text", "quote": "Binanın yapı malzemelerinin niteliği tekrar gündeme geldi.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kaçak katlar ve malzeme ayrıntıları çökmeyle yan yana sunularak örtük bir nedensellik ilişkisi düşündürüyor.",
+ "alternative_explanation": "Kaçak kat ve kötü malzeme çökme için makul ve olası nedenlerdir; ilişki gerçek olabilir.",
+ "missing_context": ["Bilirkişi raporu", "Açık nedensellik iddiası ve karşılaştırma verisi"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 13:52] Maltepe'de göz göre göre gelen facia", "kind": "behavioral"},
+  {"source": "text", "quote": "[dirilis · 09:25] Maltepe'de çöken binanın enkaz çalışmaları sona erdi!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olay bir kurumda ihmal çerçevesiyle, diğerinde operasyonel ilerleme çerçevesiyle sunuluyor.",
+ "alternative_explanation": "Başlıklar olayın farklı aşamalarını ve farklı yeni bilgileri aktarıyor; eşdeğer bilgiler değil.",
+ "missing_context": ["Eşdeğer bilginin farklı sunulduğunun açıkça kurulması"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde iç durumun başkalarınca algılanacağına dair bir inanç atfı bulunmuyor.",
+ "alternative_explanation": "Haberler olgusal gelişmeleri aktarıyor.",
+ "missing_context": ["Bir kişinin düşüncelerinin anlaşıldığını varsaydığını gösteren ifade"]}
+]}

@@ -1,0 +1,138 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "authority-bias",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "İçişleri Bakanlığı duyurdu: 11 ilde dev siber operasyon",
+     "kind": "statement"
+    },
+    {
+     "source": "text",
+     "quote": "İçişleri Bakanlığı'ndan yapılan açıklamada",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Haberler bakanlık açıklamasına dayanıyor; ancak statünün belirleyici ağırlık verip karşıt kanıtı bastırdığı gösterilmiyor.",
+   "alternative_explanation": "Resmi kurum açıklamasını kaynak göstermek olağan gazetecilik pratiğidir.",
+   "missing_context": [
+    "Bağımsız doğrulama veya karşıt açıklama",
+    "Kaynak statüsünün değerlendirmeyi ikame ettiğine dair ifade"
+   ]
+  },
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "11 ilde dev siber operasyon: 120 şüpheli yakalandı, 86 tutuklama",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Siber operasyon: 86 tutuklama!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Siber suçlarla mücadele operasyonlarında 86 şüpheli tutuklandı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı operasyon bazı kurumlarda 'dev' ve ünlemle, bazılarında yalın biçimde sunulmuş.",
+   "alternative_explanation": "Üslup farkı kurum tarzından kaynaklanabilir; bir tercih değişimi gösterilmiyor.",
+   "missing_context": [
+    "Çerçevenin okur yargısını etkilediğine dair kanıt"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Siber operasyon: 86 tutuklama!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Şüphelilerin 86’sı tutuklandı. 25’i hakkında adli kontrol hükümleri uygulandı.",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    }
+   ],
+   "mechanism": "Başlıklar çoğunlukla çarpıcı 86 tutuklama rakamını öne çıkarıyor; adli kontrol ve süren işlemler geri planda.",
+   "alternative_explanation": "Tutuklama sayısı haberin en somut ve haber değeri en yüksek unsuru olabilir.",
+   "missing_context": [
+    "Belirginliğin haksız bir çıkarımı yönlendirdiğine dair açık ifade",
+    "Suç sıklığına ilişkin taban oranlar"
+   ]
+  }
+ ]
+}

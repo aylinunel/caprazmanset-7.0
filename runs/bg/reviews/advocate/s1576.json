@@ -1,0 +1,133 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "AKP'li Üsküdar Başkan Vekili Dündar Ziya Gültekin hayatını kaybetti",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin vefat etti",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Rahmetli Ziya Başkanımız, abimiz, komşumuz",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı ölüm haberi bazı kurumlarda parti kimliğiyle, bazılarında yalnızca unvanla, birinde ise sahiplenici taziye diliyle verilmiş.",
+   "alternative_explanation": "Parti bilgisi okura bağlam sunmak için eklenmiş olabilir; taziye dili ilan niteliğinde olabilir.",
+   "missing_context": [
+    "Çerçevenin okur yargısını değiştirdiğine dair kanıt"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Düzce'de feci kaza",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "kalp krizi geçiren Üsküdar Belediye Başkan Vekili",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bazı başlıklar 'feci kaza' vurgusu yapıyor; ölüm nedenine ilişkin ayrıntılar (kalp krizi) farklı ölçüde öne çıkarılıyor.",
+   "alternative_explanation": "Ölümlü kaza haberinde dramatik dil yaygındır.",
+   "missing_context": [
+    "Belirginliğin haksız bir çıkarımı yönlendirdiğine dair ifade"
+   ]
+  },
+  {
+   "card_id": "in-group-bias",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Rahmetli Ziya Başkanımız, abimiz, komşumuz",
+     "kind": "statement"
+    },
+    {
+     "source": "text",
+     "quote": "AKP'li Üsküdar Belediye Başkan Vekili",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bir kurum sahiplenici ve övücü dil kullanıyor; ancak grup üyeliğine bağlı farklı standart açıkça gösterilmiyor.",
+   "alternative_explanation": "Taziye metinlerinde övgü olağandır.",
+   "missing_context": [
+    "Benzer durumdaki başka grup üyelerine farklı muamele karşılaştırması"
+   ]
+  }
+ ]
+}

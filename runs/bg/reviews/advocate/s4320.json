@@ -1,0 +1,133 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Savunmada yeni nesil füze hamlesi!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Aselsan 523 milyon euroluk iş aldı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "ASELSAN ile SSB arasında 523 milyon avroluk sözleşme imzalandı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı 523 milyon avroluk sözleşme bazı kurumlarda 'hamle' ve 'yeni dönem' gibi övgü çerçevesiyle, bazılarında yalın sözleşme haberi olarak sunulmuş.",
+   "alternative_explanation": "Başlık üslubu kurumun editoryal tarzı ve okur çekme amacından kaynaklanabilir; bir tercih ya da yargı değişimi gösterilmiyor.",
+   "missing_context": [
+    "Çerçevenin bir yargı veya kararı etkilediğine dair açık ifade",
+    "Okur tepkisi veya karşılaştırmalı etki verisi"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Hava ve füze savunmasında yeni dönem!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "context",
+     "quote": "Olayı vermeyen etkin kurumlar: ahaber, akit, aydinlik, cumhuriyet, diken, hurriyet, karar, sozcu, takvim",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    }
+   ],
+   "mechanism": "Bazı kurumlar haberi ünlemli ve çarpıcı başlıklarla öne çıkarmış, bazıları ise hiç vermemiş.",
+   "alternative_explanation": "Savunma sanayii haberlerinin vurgulanması haber değeri ve hedef kitleyle açıklanabilir.",
+   "missing_context": [
+    "Belirgin ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair açık ifade",
+    "Sayfa yerleşimi ve önem sıralaması verisi"
+   ]
+  },
+  {
+   "card_id": "optimism-bias",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "ASELSAN'dan 523 milyon Euroluk imza! Yeni savunma sistemi geliyor",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "'Yeni savunma sistemi geliyor' ifadesi olumlu bir beklenti içeriyor ancak olasılık tahmini veya karşıt taban oranı yok.",
+   "alternative_explanation": "Sözleşmenin konusunu aktaran olağan bir haber dili olabilir.",
+   "missing_context": [
+    "Proje teslim süreleri veya geçmiş benzer projelerin başarı oranları",
+    "Açık olasılık tahmini"
+   ]
+  }
+ ]
+}

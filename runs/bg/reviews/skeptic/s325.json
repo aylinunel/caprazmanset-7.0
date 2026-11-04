@@ -1,0 +1,55 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "İstanbul Maltepe'de çöken binada korkunç detay: Üst iki katı kaçak!", "kind": "behavioral"},
+ {"source": "text", "quote": "7 katlı binanın ilk üç katı henüz belirlenemeyen bir nedenle çöktü", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum kaçak kat ayrıntısını başlığa taşırken diğerleri nedenin belirsiz olduğunu yazıyor; vurgu farkı var ama bir özgün kayda göre çarpıtma gösterilmiyor.",
+ "alternative_explanation": "Farklar haberlerin farklı saatlerde ve farklı kaynaklara (belediye başkanı, kurtulanlar) dayanmasından kaynaklanan olağan güncelleme olabilir.",
+ "missing_context": ["Belediye başkanının canlı yayındaki tam açıklaması", "Resmi çökme nedeni raporu", "Ayrıntının bir sonuca etki ettiğini gösteren kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "İstanbul Maltepe'de çöken binada korkunç detay: Üst iki katı kaçak!", "kind": "behavioral"},
+ {"source": "text", "quote": "binanın üstteki iki katının kaçak olduğunu açıkladı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0]}],
+ "mechanism": "Çarpıcı kaçak kat ayrıntısı başlıkta öne çıkarılıyor; ancak bunun bir yargıyı haksız biçimde belirlediği metinde açık değil.",
+ "alternative_explanation": "Ayrıntı resmi bir yetkilinin açıklamasına dayanıyor ve çökme nedeni açısından haber değeri taşıyor; öne çıkarılması orantılı olabilir.",
+ "missing_context": ["Kaçak katların çökmeyle ilişkisine dair teknik bulgu", "Kurumun diğer ayrıntıları nasıl ağırlıklandırdığı"]},
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde eşdeğer seçeneklerin farklı sunumu ve buna bağlanan bir tercih bulunmuyor.",
+ "alternative_explanation": "Başlık farkları yalnızca farklı saatlerdeki bilgi düzeyini ve editoryal üslubu yansıtıyor.",
+ "missing_context": ["Eşdeğerliği açıkça belirten bir karşılaştırma", "Sunuma bağlı bir yargı veya karar"]},
+{"card_id": "negativity-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Maltepe'de çöken binada acı bilanço: Can kaybı 3'e çıktı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz dil, ölümlü bir çökme olayının kendisinden kaynaklanıyor; karşılaştırılabilir olumlu bilginin küçümsendiği gösterilmiyor.",
+ "alternative_explanation": "Can kayıplı bir felakette olumsuz vurgu olayın ciddiyetine orantılı bir tepkidir.",
+ "missing_context": ["Kurtarılanlar gibi olumlu bilgilerin sistematik olarak dışlandığını gösteren karşılaştırma"]},
+{"card_id": "hindsight-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "yapının çatlak olduğunu ve kentsel dönüşüm için görüşmeler yapıldığını ancak sürecin sonuçlanmadığını belirtti", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kurtulanın çatlak ve kentsel dönüşüm görüşmelerine dair anlatımı var, ancak sonucun önceden bilindiği iddiası veya çelişen önceki bir tahmin yok.",
+ "alternative_explanation": "Önceden belgelenmiş çatlaklar ve dönüşüm görüşmeleri gerçek ön uyarı işaretleri olabilir; bu geriye dönük çarpıtma değildir.",
+ "missing_context": ["Çökme öncesine ait tarihli hasar tespit veya dönüşüm kayıtları", "Sorumluluk atfeden açık bir ifade"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde birinin içsel durumunun başkalarınca anlaşıldığına dair bir inanç atfı yok.",
+ "alternative_explanation": "Haberler olay bilgisini aktarıyor; bu kartla ilgili bir iletişim varsayımı içermiyor.",
+ "missing_context": ["Kişinin dinleyicinin ne anladığına dair inancını gösteren ifade"]}
+]}

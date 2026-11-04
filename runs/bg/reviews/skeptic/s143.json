@@ -1,0 +1,46 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Euro Bölgesi ağustos ayı enflasyonu belli oldu: Veriler yeniden yükselişte", "kind": "behavioral"},
+  {"source": "text", "quote": "Memur ve emeklinin gözü buradaydı: Ağustos enflasyonu açıklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Ağustos ayında enflasyon beklentilerin ılımlı bir şekilde altında kaldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı TÜİK verisi bazı kurumlarda memur/emekli kaygısı, bazılarında beklenti altı kalma vurgusuyla sunuluyor; ancak sunumun okur yargısını değiştirdiğine dair metinde açık bağ yok.",
+ "alternative_explanation": "Farklı vurgular hedef kitle ve servis türü (ekonomi kanalı, genel gündem) farkından kaynaklanabilir; cumhuriyet haberi ayrı bir olay (Euro Bölgesi) ile ilgili.",
+ "missing_context": ["Haberlerin tam metinleri", "Kurumların önceki aylardaki başlık tercihleri", "Okur yargısına etkiye dair veri"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Ekonomistlerin ağustos ayı enflasyon beklentisi yüzde 1,86 seviyesinde bulunuyor", "kind": "statement"},
+  {"source": "text", "quote": "Ağustos ayında enflasyon beklentilerin ılımlı bir şekilde altında kaldı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Piyasa beklentisi referans noktası olarak anılıyor ve sonuç ona göre değerlendiriliyor; bu standart ekonomi haberciliği, çarpık bir yargı gösterilmiyor.",
+ "alternative_explanation": "Gerçekleşmeyi konsensüs beklentiyle kıyaslamak meşru ve bilgilendirici bir karşılaştırmadır.",
+ "missing_context": ["Beklentinin kaynağı ve yöntemi", "Beklentinin sonraki yorumları gerekçesiz biçimde sınırladığına dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "milyonlarca memur, emekli, ev sahibi ve kiracının nefesini tutarak beklediği ağustos ayı enflasyon verileri", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygusal vurgu var ama bunun bir yargıyı gerekçesiz yönlendirdiği metinde görünmüyor.",
+ "alternative_explanation": "Verinin kira ve maaş zamlarına doğrudan etkisi nedeniyle bu kesimlerin vurgulanması haber değeri açısından makul.",
+ "missing_context": ["Daha az çarpıcı bilgilerin göz ardı edildiğine dair karşılaştırma", "Haberin tam metni"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Hazine ve Maliye Bakanı Şimşek, 'Dönemsel eğitim fiyat artışlarına ve savaşın", "kind": "statement"},
+  {"source": "text", "quote": "Bağımsız akademisyen ve ekonomistlerden oluşan ENAG", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bakan açıklaması ve ENAG kimliği aktarılıyor; statünün iddiayı tek başına doğruladığı veya karşı kanıtı bastırdığı gösterilmiyor.",
+ "alternative_explanation": "Resmi veri sonrası ilgili bakanın yorumunu aktarmak rutin habercilik; kesik lede nedeniyle karşı görüş yer almış olabilir.",
+ "missing_context": ["Bakan açıklamasının tam metni ve habere yerleşimi", "Karşı görüşlere yer verilip verilmediği"]}
+]}

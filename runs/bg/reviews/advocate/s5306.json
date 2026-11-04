@@ -1,0 +1,95 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Musk'tan Grok itirafı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Elon Musk Grok'un maliyetinden dert yandı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Musk'tan Grok'un maliyeti ve geliri yorumu",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı açıklama bazı kurumlarda 'itiraf' ve 'dert yandı' olarak, bazılarında nötr 'yorum' olarak çerçevelenmiş.",
+   "alternative_explanation": "Sözcük seçimi kurum üslubundan kaynaklanabilir.",
+   "missing_context": [
+    "Çerçevenin bir yargıyı değiştirdiğine dair kanıt",
+    "Musk'ın paylaşımının tam metni"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Musk, Grok'un maliyeti geliri aştığını onayladı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Elon Musk’dan ‘Grok’ itirafı: Sürdürülemez seviyede",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "'Sürdürülemez' ifadesi başlıklarda çarpıcı unsur olarak öne çıkarılmış; bağlam (limit talebine yanıt) geri planda.",
+   "alternative_explanation": "Doğrudan alıntı haberin özüdür ve öne çıkarılması makuldür.",
+   "missing_context": [
+    "Belirginliğin haksız bir çıkarımı yönlendirdiğine dair açık ifade",
+    "Grok'un gelir/maliyet verisi"
+   ]
+  }
+ ]
+}

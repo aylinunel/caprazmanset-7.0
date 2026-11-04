@@ -9,7 +9,10 @@ a section on each reviewed event's page, and Yöntem § 11.
 | | |
 |---|---|
 | Window | 1 September – 3 November 2026 (Türkiye time); 29–30 October are missing from the collector, 4 November was a partial day and is left out |
-| Articles | see `docs/build-report.json` and the site's Yöntem page |
+| Articles | 245,935 (181,274 with a lede), 33 outlets, no sampling |
+| Events | 5,341 (5,201 automatic, 140 hand-checked and unchanged) |
+| Active outlets | 17 (4 left, 2 middle, 11 right by the supplied placements) |
+| Validation | clustering pair F1 0.845 against the reference events; event-topic micro-F1 0.755 (`docs/build-report.json`) |
 | Source | `backfill-data` branch of `aylinunel/turkish-news-scraper` (runs and `data/recent` up to 4 Nov 14:42 UTC) |
 | BiasGuard | 116-concept catalog, top events by outlet count, reviewed by separate Claude Code agents (no API key); see `biasguard/AGENT_REVIEW.md` |
 

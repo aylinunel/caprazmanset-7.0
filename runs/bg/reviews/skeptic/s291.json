@@ -1,0 +1,64 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İftiralara hodri meydan: Belgesi varsa açıklasın!", "kind": "behavioral"},
+  {"source": "text", "quote": "Akın Gürlek'ten Ahmet Şık'a dava! Avukatı gerçeği açıkladı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon krizi ve Süzer Plaza iddiaları gündem olmuştu: Akın Gürlek'ten, Ahmet Şık hakkında suç duyurusu!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı suç duyurusu bazı kurumlarda tarafın iddiası 'gerçek' ve 'iftira' olarak, bazılarında iddiaların bağlamıyla sunulmuş; çerçeve farkı belirgin ancak bir okur yargısının buna bağlandığı metinde yok.",
+ "alternative_explanation": "Başlıklar avukatın kendi ifadelerini aktarıyor olabilir; 'Belgen varsa açıkla' doğrudan alıntıdır ve çerçeve farkı kaynağa yakınlıktan doğabilir.",
+ "missing_context": ["İddiaların ve yanıtın belgesel dayanağı", "Ahmet Şık'ın yanıtı", "Kurumların karşı tarafın görüşüne yer verip vermediği"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Adalet Bakanı Akın Gürlek'in avukatı, Ahmet Şık'ın kira iddialarını yalanlayarak lojmanda yaşadıklarını belirtti", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bakan ve avukatı yetkili konumda tanımlanıyor; ancak bir iddianın yalnız statü nedeniyle kabul edildiğini açıkça gösteren gerekçe yok.",
+ "alternative_explanation": "Haberler tarafların açıklamasını aktarıyor; lojman bilgisi doğrulanabilir bir olgu iddiasıdır, statüye dayalı akıl yürütme değil.",
+ "missing_context": ["Lojman tahsisine dair bağımsız belge", "Kurumların karşı iddiaya verdiği yer"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Adalet Bakanı Gürlek'ten TİP'li Ahmet Şık hakkında suç duyurusu", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Parti etiketi geçiyor ama grup üyeliğine bağlı farklı standart ya da değerlendirme gösterilmiyor.",
+ "alternative_explanation": "Parti üyeliği milletvekili kimliğinin olağan tanımıdır.",
+ "missing_context": ["Benzer iddialarda farklı gruplara yönelik haberlerin karşılaştırması"]},
+{"card_id": "illusory-truth-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İddiaları “gerçek dışı ve iftira niteliğinde” olarak nitelendiren Adır", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "İddiaların yanlışlığı yalnız taraf avukatınca ileri sürülüyor, bağımsız olarak kanıtlanmış değil; tekrar yoluyla kabul edildiğine dair kayıt yok.",
+ "alternative_explanation": "Tartışmalı bir iddianın karşılıklı açıklamalarla haberleşmesi yanılsamalı doğruluk göstermez.",
+ "missing_context": ["İddianın doğruluğuna dair bağımsız kanıt", "Zaman içinde maruz kalma ve kabul verisi"]},
+{"card_id": "reactive-devaluation", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Şık hakkında suç duyurusunda bulunarak manevi tazminat davası açtı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde koşulları belirli bir öneri veya teklif yok; yalnız iddia ve hukuki yanıt var.",
+ "alternative_explanation": "İddianın reddi, önerenin kimliğinden değil olgusal itirazdan (lojman) kaynaklandığı ifade ediliyor.",
+ "missing_context": ["Herhangi bir öneri ve koşulları"]}
+]}

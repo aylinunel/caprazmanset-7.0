@@ -1,0 +1,53 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türk futbolunda deprem! MHK Başkanı Ferhat Gündoğdu tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "MHK Başkanı Ferhat Gündoğdu ve 6 kişi adliyeye sevk edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı gelişme bir kurumda 'deprem' dramatik çerçevesiyle, diğerlerinde nötr usul diliyle veriliyor; ancak çerçeveye dayalı bir tercih metinde yok.",
+ "alternative_explanation": "Başlıklar farklı zamanlarda, sürecin farklı aşamalarında yazılmış olabilir.",
+ "missing_context": ["Yayın tarihleri", "Okur yargısına etkisini gösteren kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türk futbolunda deprem! MHK Başkanı Ferhat Gündoğdu tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "7 şüpheli tutuklama talebiyle mahkemeye sevk edildi.", "kind": "statement"},
+  {"source": "text", "quote": "Ferhat Gündoğdu ve 4 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Ferhat Gündoğdu dahil 5 kişi tutuklandı.", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Takvim başlığı 'tutuklandı' derken aynı haberin girişi yalnızca tutuklama talebiyle sevki aktarıyor; başlık detayı keskinleştiriyor gibi görünüyor.",
+ "alternative_explanation": "Başlık sonradan güncellenmiş veya giriş metni eski kalmış olabilir; sayı farkı da sürecin farklı anlarını yansıtabilir.",
+ "missing_context": ["Başlık ve girişin güncellenme zamanları", "Farkın bir sonucu etkilediğine dair kanıt"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türk futbolunda deprem: MHK Başkanı Ferhat Gündoğdu ve 4 kişi tutuklandı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz gelişme dramatik dille vurgulanıyor; ancak karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık gösterilmiyor.",
+ "alternative_explanation": "Federasyon hakem başkanının tutuklanması gerçekten önemli bir gelişmedir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi ve ağırlıklandırma kanıtı"]},
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Mali Suçlarla Mücadele Şube Müdürlüğü’nce ’Evrakta Sahtecilik’ suçundan gözaltına alınmıştı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Suç tanımları kurumlar arasında küçük farklarla aktarılıyor; hatırlanan bir öğenin kaynağının yanlış atfedildiğine dair açık uyumsuzluk yok.",
+ "alternative_explanation": "Farklı resmi kaynaklardan veya özetlemeden kaynaklanan ifade farkı.",
+ "missing_context": ["Özgün emniyet/savcılık açıklaması"]}
+]}

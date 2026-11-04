@@ -1,0 +1,86 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Beşiktaş - Crystal Palace maçına Hollandalı hakem",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Beşiktaş-Crystal Palace maçının hakemi belli oldu!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Crystal Palace ile deplasmanda karşı karşıya geleceği",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Hakem haberi kurumlar arasında benzer biçimde verilmiş; bir değerlik farkı veya yargı değişimi yok.",
+   "alternative_explanation": "Farklar olağan başlık varyasyonlarıdır; deplasman ifadesi bir hata olabilir.",
+   "missing_context": [
+    "Çerçevenin bir yargıyı etkilediğine dair kanıt"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Beşiktaş 10 kişi kaldığı maçta Crystal Palace ile 2-2 berabere kaldı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bir kurum 10 kişi kalma ayrıntısını öne çıkarmış; ancak bunun bir yargıyı haksız etkilediği gösterilmiyor.",
+   "alternative_explanation": "Kırmızı kart maçın önemli olayıdır.",
+   "missing_context": [
+    "Belirginliğin bir çıkarımı yönlendirdiğine dair ifade"
+   ]
+  }
+ ]
+}

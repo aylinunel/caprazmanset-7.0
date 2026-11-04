@@ -1,0 +1,43 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yahşihan Belediyesi soruşturması: Eski AKP ve MHP'li başkanlar dahil 15 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Yahşihan Belediyesi soruşturmasında 15 tutuklama", "kind": "behavioral"},
+  {"source": "text", "quote": "İki eski başkan dahil 16 tutuklama", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı tutuklama haberi kimi başlıkta parti kimliğiyle, kimi başlıkta kimliksiz veriliyor; ancak bu farkın bir yargıyı değiştirdiği metinde yer almıyor.",
+ "alternative_explanation": "Parti kimliğinin belirtilmesi kamu yararı açısından ilgili bilgi olabilir; atlanması da başlık uzunluğu gibi pratik nedenlerden kaynaklanabilir. 15/16 sayı farkı ayrıca doğrulanmalı.",
+ "missing_context": ["Tutuklu sayısının resmi kaynağı (15 mi 16 mı)", "Kurumların benzer soruşturmalarda parti kimliğini nasıl verdiği"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "AKP'li ve MHP'li eski başkanlar da cezaevine gönderildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Eski başkanların tutuklanması öne çıkarılıyor; ancak bunun orantısız ağırlık verdiği veya bir yargıyı çarpıttığı gösterilmiyor.",
+ "alternative_explanation": "Eski belediye başkanlarının tutuklanması, soruşturmanın en haber değeri yüksek unsurudur.",
+ "missing_context": ["Diğer şüphelilerin rolleri ve suçlamaların içeriği"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "aralarında AKP’li eski Belediye Başkanı Ahmet Sungur ile MHP’li eski Belediye Başkanı Osman Türkyılmaz’ın da bulunduğu 15 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Aralarında eski belediye başkanları Ahmet Sungur ve Osman Türkyılmaz’ın da bulunduğu şüpheliler adliyeye sevk edildi.", "kind": "behavioral"},
+  {"source": "context", "quote": "sozcu: sol (42)", "kind": "statement"},
+  {"source": "context", "quote": "sabah: sağ (80)", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sol konumlu kurumlar parti kimliğini belirtirken bazı sağ konumlu kurumlar belirtmiyor; ancak bunun grup aidiyetine dayalı tutarsız bir standart olduğu kanıtlanmıyor.",
+ "alternative_explanation": "Haberler farklı aşamalara (sevk ve tutuklama) ait; parti bilgisinin verilip verilmemesi ajans metnine veya habercilik pratiğine bağlı olabilir.",
+ "missing_context": ["Aynı kurumların muhalefet partili başkanlara yönelik soruşturmalarda parti kimliğini verip vermediği", "Haber gövdelerinin tamamı"]}
+]}

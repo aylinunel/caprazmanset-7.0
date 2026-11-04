@@ -1,0 +1,171 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "source-confusion",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "TFF yetkililerinin Sergen Yalçın ile görüşme yaptığı ve deneyimli hocanın kendisine gelen teklifi kabul ederek anlaşmaya vardığı öğrenildi.",
+     "kind": "statement"
+    },
+    {
+     "source": "text",
+     "quote": "A Milli Takım'ın başına Sergen Yalçın'ın getirileceği iddia edildi",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "A Milli Takım'ın yeni teknik direktörü belli oldu: Sergen Yalçın!",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı gün bazı kurumlar bilgiyi 'iddia' veya 'öğrenildi' olarak kaynaklandırırken, diğerleri resmi açıklama öncesinde kesinleşmiş gibi sunmuş.",
+   "alternative_explanation": "Kurumlar farklı kaynaklara erişmiş olabilir; daha sonra resmi atama gerçekleşmiş görünüyor.",
+   "missing_context": [
+    "Kaynağın yanlış atfedildiğine dair kayıt",
+    "Resmi açıklamanın zamanı"
+   ]
+  },
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "TFF'den ters köşe! Milli Takım'da Sergen Yalçın sesleri",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "A Milli Takım'da Sergen Yalçın dönemi! Prensip anlaşma tamam...",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Karar yarınki toplantı sonrası verilecek...",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı gelişme 'ters köşe', 'dönem' ya da 'karar yarın' çerçeveleriyle farklı kesinlik düzeylerinde sunulmuş.",
+   "alternative_explanation": "Farklar kurumların bilgi kaynaklarındaki farklılıktan doğabilir.",
+   "missing_context": [
+    "Çerçevenin okur yargısını etkilediğine dair kanıt"
+   ]
+  },
+  {
+   "card_id": "bandwagon-effect",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "A Milli Takım'da Sergen Yalçın dönemi",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Çok sayıda kurum benzer başlık kullanmış ancak popülerliğin bir kararın gerekçesi yapıldığı gösterilmiyor.",
+   "alternative_explanation": "Benzer başlıklar ortak kaynak veya ajans kullanımından doğabilir.",
+   "missing_context": [
+    "Popülerliği gerekçe olarak sunan açık ifade"
+   ]
+  },
+  {
+   "card_id": "illusory-truth-effect",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Sergen Yalçın'ın getirileceği iddia edildi",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Haber tekrarlanmış ancak iddia yanlış çıkmamış görünüyor; tekrarın kabulü artırdığına dair kanıt yok.",
+   "alternative_explanation": "İddia sonradan resmi atamayla doğrulanmış olabilir.",
+   "missing_context": [
+    "İddianın yanlışlığını gösteren bağımsız kanıt",
+    "Tekrarın kabulü etkilediğine dair zamansal veri"
+   ]
+  }
+ ]
+}

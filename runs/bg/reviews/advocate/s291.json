@@ -1,0 +1,201 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "İftiralara hodri meydan: Belgesi varsa açıklasın!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Fon krizi ve Süzer Plaza iddiaları gündem olmuştu",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Avukatı gerçeği açıkladı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı suç duyurusu bazı kurumlarda iddiaları 'iftira' ve 'gerçek' olarak, bazılarında iddiaların gündem olduğu bağlamla sunulmuş.",
+   "alternative_explanation": "Kurumlar farklı tarafların açıklamalarını öne çıkarıyor olabilir; bu başlı başına çerçeveye dayalı bir yargı hatası değildir.",
+   "missing_context": [
+    "Çerçevenin bir tercih veya yargıyı değiştirdiğine dair açık ifade"
+   ]
+  },
+  {
+   "card_id": "authority-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Avukatı gerçeği açıkladı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Ahmet Şık'ın kira iddialarını yalanlayarak lojmanda yaşadıklarını belirtti",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      1
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bir başlık bakanın avukatının açıklamasını doğrudan 'gerçek' olarak sunuyor; bu, tarafın beyanının doğrulanmadan kesin kabul edilmesine işaret edebilir.",
+   "alternative_explanation": "Kurum kendi doğrulamasına dayanıyor olabilir veya avukatın beyanını özetliyordur.",
+   "missing_context": [
+    "Lojman iddiasına ilişkin bağımsız belge",
+    "Karşı tarafın yanıtı"
+   ]
+  },
+  {
+   "card_id": "in-group-bias",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "TİP İstanbul Milletvekili Ahmet Şık",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Taraflar parti/kurum kimliğiyle anılıyor ama grup üyeliğine bağlı farklı bir standart açıkça gösterilmiyor.",
+   "alternative_explanation": "Unvan ve parti bilgisi olağan kimlik tanıtımıdır.",
+   "missing_context": [
+    "Benzer vakalarda farklı standart uygulandığına dair karşılaştırma"
+   ]
+  },
+  {
+   "card_id": "illusory-truth-effect",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "İddiaları “gerçek dışı ve iftira niteliğinde” olarak nitelendiren Adır",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "İddiaların doğruluğu tartışmalı; tekrar yoluyla kabul edildiğine dair kanıt yok.",
+   "alternative_explanation": "Haberler tarafların beyanlarını aktarıyor.",
+   "missing_context": [
+    "İddianın bağımsız olarak yanlışlandığına dair kanıt",
+    "Tekrarın kabulü artırdığına dair zamansal veri"
+   ]
+  },
+  {
+   "card_id": "reactive-devaluation",
+   "verdict": "not_supported",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "“Belgen varsa açıkla”",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Ortada şartları belirli bir öneri yok; iddiaya yanıt var.",
+   "alternative_explanation": "Bir iddianın reddi öneri kaynaklı değersizleştirme değildir.",
+   "missing_context": [
+    "Somut bir öneri ve şartları"
+   ]
+  }
+ ]
+}
