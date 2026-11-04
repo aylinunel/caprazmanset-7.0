@@ -1,0 +1,12 @@
+{
+ "candidate_ids": [
+  "authority-bias",
+  "framing-effect",
+  "leveling-and-sharpening",
+  "salience-bias"
+ ],
+ "selection_uncertainty": [
+  "Tüm haberler tek resmi açıklamaya dayanıyor; bağımsız bilgi yok."
+ ],
+ "selection_note": "Tek kaynaklı bakanlık açıklamasına dayanma, 'ağır darbe' çerçevesi ve gözaltı/tutuklama sayılarının seçici öne çıkarılması değerlendirilebilir."
+}

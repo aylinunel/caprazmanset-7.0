@@ -1,0 +1,12 @@
+{
+ "candidate_ids": [
+  "framing-effect",
+  "leveling-and-sharpening",
+  "source-confusion",
+  "salience-bias"
+ ],
+ "selection_uncertainty": [
+  "'Görevden alındı' ile 'istifa etti' anlatımları arasındaki çelişkinin hangisinin doğru olduğu metinden belirlenemiyor."
+ ],
+ "selection_note": "Ayrılığın görevden alma mı istifa mı olarak çerçevelendiği ve Azerbaycan bağlamının seçici verilmesi incelenebilir."
+}

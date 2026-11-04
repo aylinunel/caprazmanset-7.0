@@ -1,0 +1,13 @@
+{
+ "candidate_ids": [
+  "salience-bias",
+  "framing-effect",
+  "negativity-bias",
+  "leveling-and-sharpening",
+  "source-confusion"
+ ],
+ "selection_uncertainty": [
+  "Bazı başlıklar (3.8 Girit, Kolombiya, Ege Denizi) farklı depremlere ait olabilir; kümeleme hatası olasılığı var."
+ ],
+ "selection_note": "Deprem konumunun 'Muğla açıkları' olarak sunulması ile merkez üssünün 253 km uzaklıkta olması arasında çerçeveleme ve vurgu farkı olabilir; 'korkutan' gibi duygusal sıfatlar dikkat çekiyor."
+}

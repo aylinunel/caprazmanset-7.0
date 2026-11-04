@@ -1,0 +1,13 @@
+{
+ "candidate_ids": [
+  "automation-bias",
+  "authority-bias",
+  "framing-effect",
+  "salience-bias",
+  "leveling-and-sharpening"
+ ],
+ "selection_uncertainty": [
+  "Kümede farklı il merkezli ayrı operasyonlar karışmış olabilir; sayılar arasındaki fark kümeleme kaynaklı olabilir."
+ ],
+ "selection_note": "Yapay zeka destekli AVCI vurgusu ve Bakanlık açıklamasına dayanma çerçeveleme ve otomasyon/otorite açısından aday olabilir."
+}

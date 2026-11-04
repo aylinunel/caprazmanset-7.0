@@ -7917,7 +7917,7 @@ function pgBG7() {
     [S.uncertain, "bağlam gerekli / ayrışma"], [S.quotesVerified, "doğrulanmış alıntı"]
   ].map(function (x) { return '<div class="mh-stat" style="background:var(--surface)"><div class="v" style="color:var(--ink)">' + x[0] +
     '</div><div class="l" style="color:var(--muted)">' + esc(x[1]) + "</div></div>"; }).join("") + "</div>";
-  if (S.breakerTripped) h += '<div class="note warn" style="margin-top:12px">Art arda 5 inceleme grubu başarısız olduğu için çalışma durduruldu; kalan olaylar “çalıştırılmadı” olarak işaretlendi.</div>";
+  if (S.breakerTripped) h += '<div class="note warn" style="margin-top:12px">Art arda 5 inceleme grubu başarısız olduğu için çalışma durduruldu; kalan olaylar “çalıştırılmadı” olarak işaretlendi.</div>';
   h += '<section class="sec"><h2>Kavramlar</h2><p class="sub">Tamamlanan incelemelerde bir kavramın kaç olayda desteklendiği ya da bağlam istediği. ' +
     "Kavram adları ve tanımları kaynak katalogdaki gibidir (The Decision Lab’den uyarlama).</p>";
   h += S.cards.length ? '<div class="scroller panel"><table><thead><tr><th>Kavram</th><th class="r">Desteklendi</th><th class="r">Bağlam gerekli / ayrışma</th></tr></thead><tbody>' +
