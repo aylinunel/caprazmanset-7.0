@@ -1,0 +1,36 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sarıgül ailesine yönelik soruşturma! Emir Sarıgül tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Sarıgül soruşturmasında Emir Sarıgül adliyeye sevk edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Siyaset, medya ve iş dünyasını sarsan milyar avroluk kara para aklama soruşturmasında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "ahaber aynı saatlerde 'tutuklandı' derken diğerleri 'adliyeye sevk edildi' diyor ve bazı kurumlar 'aile' çerçevesini kullanıyor; tercih etkisi metinde gösterilmiyor.",
+ "alternative_explanation": "Saat farkları, güncelleme zamanları ve soruşturmanın resmi adı ('Sarıgül' soruşturması) farkı açıklayabilir.",
+ "missing_context": ["Tutuklama kararının kesin saati", "Başlıkların güncelleme geçmişi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "aralarında kardeşi Ömer Sarıgül, annesi Aylin Kotil ve gazeteci Murat Ağırel'in de", "kind": "behavioral"},
+  {"source": "text", "quote": "YENİ Parti Milletvekili Mustafa Sarıgül’ün oğlu Emir Sarıgül tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Emir Sarıgül tutuklandı, işte 16 kişilik tutuklu listesi!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kurumlar farklı ayrıntıları (aile bağı, siyasi kimlik, gazeteci isimleri) öne çıkarıyor; bunun bir sonucu çarpıttığı gösterilmiyor.",
+ "alternative_explanation": "Ayrıntı seçimi haber uzunluğu ve bağlam verme ihtiyacından kaynaklanabilir; sayılar (15 ve 16) olay sırasıyla tutarlı.",
+ "missing_context": ["Soruşturmanın resmi şüpheli listesi", "Haberlerin tam metinleri"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Siyaset, medya ve iş dünyasını sarsan milyar avroluk kara para aklama soruşturmasında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı büyüklük vurgusu var ancak bunun bir yargıyı gerekçesiz yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Soruşturmanın ölçeği resmi iddialara dayanıyor olabilir.",
+ "missing_context": ["'Milyar avro' rakamının kaynağı"]}
+]}

@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "Afyonkarahisar Vali Yardımcısı İhsan Ayrancı vefat etti", "kind": "behavioral"},
+ {"source": "text", "quote": "Afyonkarahisar'da vali yardımcısı intihar etti", "kind": "behavioral"},
+ {"source": "text", "quote": "Olayla ilgili adli ve idari tahkikat sürüyor.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar ölüm nedenini atlıyor, bazıları tahkikat sürerken intiharı kesin olarak başlığa taşıyor; özgün resmi açıklama olmadan çarpıtma saptanamıyor.",
+ "alternative_explanation": "Kurumlar farklı kaynaklara (valilik, emniyet) dayanmış olabilir; ölüm nedenini belirtmemek hassasiyet tercihi olabilir.",
+ "missing_context": ["Valilik ve emniyetin resmi açıklamaları", "Otopsi ve tahkikat sonucu"]},
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "İhsan Ayrancı neden öldü, cinayet mi intihar mı?", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Soru biçimli başlık farklı bir sunum, ancak eşdeğerliğe rağmen sunuma bağlı bir tercih metinde yok.",
+ "alternative_explanation": "Tahkikat sürdüğü için soru biçimi belirsizliği yansıtan bir tercih olabilir.",
+ "missing_context": ["Sunuma bağlı bir yargı veya karar"]},
+{"card_id": "salience-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "İntihar ettiği ortaya çıktı: Silahla vurulmuş halde bulunan Afyonkarahisar Vali Yardımcısı hayatını kaybetti!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı ölüm biçimi başlıkta öne çıkıyor, ancak bunun bir yargıyı haksız biçimde belirlediği gösterilmiyor.",
+ "alternative_explanation": "Ölüm nedeni olayın temel bilgisidir; öne çıkarılması orantılı olabilir.",
+ "missing_context": ["Vurgunun bir sonuca etkisini gösteren karşılaştırma"]},
+{"card_id": "authority-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Valiliğin sosyal medya hesabından yapılan açıklamada", "kind": "statement"},
+ {"source": "text", "quote": "Yapılan incelemede Ayrancı'nın kendi beylik silahıyla intihar ettiği belirlendi.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Valilik resmi kaynak olarak anılıyor; ancak statünün kanıtın yerine geçtiği veya karşı kanıtın yok sayıldığı açıkça görülmüyor.",
+ "alternative_explanation": "Resmi kurum açıklamasını aktarmak olağan habercilik pratiğidir.",
+ "missing_context": ["'İncelemenin' kim tarafından yapıldığı", "Aksi yöndeki kanıt veya iddiaların varlığı"]}
+]}

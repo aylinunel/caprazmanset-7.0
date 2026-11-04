@@ -1,0 +1,13 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Kasımpaşa - Beşiktaş maçının VAR'ına Rumen hakem", "kind": "behavioral"},
+  {"source": "text", "quote": "Kasımpaşa-Beşiktaş maçının VAR hakemi Christian-Petru Ciochirca oldu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlıklar hakemin adı veya uyruğu ile küçük ifade farkları gösteriyor; değerlendirici bir çerçeve veya tercihe bağlanma yok.",
+ "alternative_explanation": "Uyruk vurgusu yabancı VAR hakemi atamasının haber değerini yansıtan olgusal bir ayrıntı.",
+ "missing_context": ["Okur yargısının sunuma bağlandığına dair kanıt"]}
+]}

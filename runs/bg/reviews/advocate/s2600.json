@@ -1,0 +1,69 @@
+{"role": "advocate", "assessments": [
+{"card_id": "source-confusion", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kurtlar Vadisi Pusu dizisinde Kaşif Kozinoğlu'nu canlandıran Sedat Savtak ifadeye çağrıldı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Kurtlar Vadisi Pusu’da Kozinoğlu’ndan esinlenildiği öne sürülen ‘Kazım Kaşifoğlu’ karakterini canlandıran Sedat Savtak", "kind": "statement"},
+  {"source": "text", "quote": "[milligazete · 16:05] Kurtlar Vadisi Pusu dizisinde Kaşif Kozinoğlu'nu canlandıran Sedat Savtak ifadeye çağrıldı!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurgusal karakter 'Kazım Kaşifoğlu' ile gerçek kişi 'Kaşif Kozinoğlu' bazı başlıklarda karıştırılıyor; diğer kurumlar karakterin yalnızca esinlenildiğinin öne sürüldüğünü belirtiyor.",
+ "alternative_explanation": "Kısaltma veya editoryal hata olabilir; bu karışıklığın bir iddiayı yönlendirdiği gösterilmiyor.",
+ "missing_context": ["Karışıklığın bir iddia ya da sonucu etkilediğine dair kanıt", "Haberlerin sonradan düzeltilip düzeltilmediği"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[star · 15:59] Kurtlar Vadisi'nde Kozinoğlu canlandırması! Sedat Savtak ifadeye çağrıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Soruşturmada şu ana kadar 8 kişi tutuklandı.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0]}
+ ],
+ "mechanism": "Ünlü oyuncunun ifadesi başlıklarda öne çıkarken soruşturmadaki tutuklamalar gibi bilgiler geride kalıyor.",
+ "alternative_explanation": "Tanınmış bir kişinin ifade vermesi haber değeri taşıyan yeni gelişmedir.",
+ "missing_context": ["Vurgunun bir yargıyı haksız biçimde yönlendirdiğine dair ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kurtlar Vadisi dizisinin oyuncusu Sedat Savtak \"tanık\" sıfatıyla ifade verdi", "kind": "behavioral"},
+  {"source": "text", "quote": "Sedat Savtak, bilgi sahibi sıfatıyla ifade verecek.", "kind": "behavioral"},
+  {"source": "text", "quote": "Kurtlar Vadisi Pusu dizisinde Kaşif Kozinoğlu'nu canlandıran Sedat Savtak ifadeye çağrıldı.", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "İfade sıfatı ('tanık'/'bilgi sahibi') ve canlandırılan karakter kurumlar arasında farklı aktarılıyor.",
+ "alternative_explanation": "Hukuki sıfatlar gazetecilikte gevşek kullanılabiliyor; fark önemsiz olabilir.",
+ "missing_context": ["Resmi ifade sıfatı", "Farkın bir sonuca etkisi"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[sabah · 15:46] SON DAKİKA | Kurtlar Vadisi Pusu dizisinde 'Kazım Kaşifoğlu' karakterini canlandıran Sedat Savtak ifade verecek", "kind": "behavioral"},
+  {"source": "text", "quote": "[karar · 15:50] Kaşif Kozinoğlu’nu canlandırmıştı: Sedat Savtak ifade için adliyede", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Soruşturma haberi oyuncu ve dizi üzerinden çerçeveleniyor.",
+ "alternative_explanation": "Oyuncu kimliği okur için tanıtıcı bilgidir; bir tercih değişikliği gösterilmiyor.",
+ "missing_context": ["Eşdeğerliğin ve çerçeveye bağlı yargının açıkça kurulması"]},
+{"card_id": "representativeness-heuristic", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kozinoğlu’ndan esinlenildiği öne sürülen ‘Kazım Kaşifoğlu’ karakterini canlandıran", "kind": "statement"},
+  {"source": "text", "quote": "[star · 15:59] Kurtlar Vadisi'nde Kozinoğlu canlandırması!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Karakterin gerçek kişiye benzerliği, oyuncunun soruşturmayla ilişkisini açıklayan çerçeve olarak öne çıkıyor.",
+ "alternative_explanation": "Oyuncunun ifadesinin nedeni metinde belirtilmiyor; benzerlik yalnızca tanıtıcı bilgi olabilir.",
+ "missing_context": ["Savcılığın oyuncuyu çağırma gerekçesi", "Benzerliğin bir olasılık yargısında kanıt olarak kullanıldığına dair ifade"]}
+]}

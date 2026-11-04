@@ -1,0 +1,50 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Mersin'de 'yolsuzluk' operasyonu! CHP'li başkan Vahap Seçer tutuklandı", "kind": "behavioral"},
+ {"source": "text", "quote": "Mersin Büyükşehir Belediye Başkanı Vahap Seçer adliyeye sevk edildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kurumlar parti etiketi ve 'yolsuzluk' vurgusu kullanımında farklılaşıyor; ancak eşdeğerlik ve sunuma bağlı bir yargı açıkça kurulmuyor.",
+ "alternative_explanation": "Başlık farkları büyük ölçüde haberin farklı aşamalarda (sevk, tutuklama) yazılmasından kaynaklanıyor.",
+ "missing_context": ["Sunum farkının bir yargıyı değiştirdiğine dair kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "Mersin'de 3 belediye başkanına tutuklama talebi, biri tutuklandı", "kind": "behavioral"},
+ {"source": "text", "quote": "Vahap Seçer dahil 34 kişi tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tutuklanan kişi sayıları ve kimin tutuklandığı kurumlar arasında farklı; özgün karar metni olmadan çarpıtma saptanamıyor.",
+ "alternative_explanation": "Farklar haberlerin farklı saatlerde, kararın açıklanma sürecinin farklı aşamalarında yazılmasından kaynaklanabilir.",
+ "missing_context": ["Sulh ceza hakimliğinin kesin kararı", "Toplam tutuklu sayısının resmi kaydı"]},
+{"card_id": "salience-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Son dakika: Mersin Belediyesine yolsuzluk operasyonu: Vahap Seçer tutuklandı!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ünlem ve 'son dakika' biçimsel vurgudur; bir yargının haksız etkilendiği gösterilmiyor.",
+ "alternative_explanation": "Büyükşehir belediye başkanının tutuklanması haber değeri yüksek bir gelişmedir.",
+ "missing_context": ["Vurgunun bir yargı veya seçimle ilişkisi"]},
+{"card_id": "in-group-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "CHP'li başkan Vahap Seçer tutuklandı", "kind": "behavioral"},
+ {"source": "text", "quote": "CHP'li Mersin Büyükşehir Belediye Başkanı Vahap Seçer tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Parti etiketi hem sağ hem sol yerleşimli kurumlarda kullanılıyor; gruba dayalı farklı standart uygulandığı görülmüyor.",
+ "alternative_explanation": "Siyasi parti üyeliği, seçilmiş bir yöneticinin tutuklanması haberinde ilgili bir bağlam bilgisidir.",
+ "missing_context": ["Karşılaştırılabilir başka parti üyelerine ilişkin haberlerin nasıl sunulduğu"]},
+{"card_id": "authority-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Mersin Cumhuriyet Başsavcılığı'nca yürütülen soruşturma kapsamında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Savcılık yetkili kaynak olarak anılıyor; ancak statünün kanıtların yerine geçtiğine veya karşı kanıtın yok sayıldığına dair ifade yok.",
+ "alternative_explanation": "Yargısal süreçte savcılığı kaynak göstermek olağan ve ilgili bir atıftır.",
+ "missing_context": ["Suçlamaların içeriği ve savunma açıklamaları", "Karşı kanıtın göz ardı edildiğine dair ifade"]}
+]}

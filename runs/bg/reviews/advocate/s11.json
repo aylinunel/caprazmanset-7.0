@@ -1,0 +1,68 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fuhuş ve LGBT propagandasına geçit yok! Ailem Güvende operasyonunda 28 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Mersin'de \"Ailem Güvende\" operasyonu. 28 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "6 LGBTİ+ derneğini de kapsayan", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı tutuklamalar bir kurumda onaylayıcı slogan çerçevesiyle, diğerlerinde nötr sayı bildirimiyle veriliyor; çerçeveye bağlı yargı metinde gösterilmiyor.",
+ "alternative_explanation": "Başlık üslubu editoryal çizgiyi yansıtır; bu tek başına akıl yürütme hatası değildir.",
+ "missing_context": ["Okur/karar verici yargısına dair kanıt"]},
+{"card_id": "representativeness-heuristic", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "fuhuş ve LGBT derneklerine yönelik çalışmalarda 36 şüpheli gözaltına alındı", "kind": "statement"},
+  {"source": "text", "quote": "müstehcenlik, fuhuşa teşvik, aracılık ve zorlama ile LGBT derneklerine yönelik gerçekleştirildiği belirtildi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "LGBT dernekleri suç kategorileriyle aynı operasyon tanımında birlikte anılıyor; ancak benzerliğin suç olasılığına kanıt sayıldığı açıkça ifade edilmiyor.",
+ "alternative_explanation": "Kurumlar yalnızca resmi operasyon kapsamını aktarıyor olabilir.",
+ "missing_context": ["Hangi şüphelinin hangi suçtan tutuklandığı", "Savcılık açıklamasının tam metni"]},
+{"card_id": "illusory-correlation", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fuhuş ve LGBT propagandasına geçit yok!", "kind": "statement"},
+  {"source": "text", "quote": "Mersin’de müstehcenlik, fuhuş ve çeşitli suçlara yönelik düzenlenen Ailem Güvende operasyonunda", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başlık iki olguyu yan yana koyarak bir ilişki ima ediyor; açık bir ilişki iddiası ve aksi yönde karşılaştırmalı kanıt metinde yok.",
+ "alternative_explanation": "Yan yana anma, operasyonun resmi kapsamının özetlenmesinden kaynaklanabilir.",
+ "missing_context": ["Açık ilişki iddiası", "Suç kategorilerine göre tutuklama dağılımı"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Adalet Bakanı Akın Gürlek'in duyurduğu ve 15 ili kapsayan 'Ailem Güvende' operasyonunda", "kind": "statement"},
+  {"source": "text", "quote": "Mersin Cumhuriyet Başsavcılığı koordinesinde 4 ilde Ailem Güvende operasyonu kapsamında", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bakan ve başsavcılık operasyonun kaynağı olarak anılıyor; statünün iddiayı kanıtlamaya yettiği açıkça ileri sürülmüyor.",
+ "alternative_explanation": "Resmi makamın belirtilmesi standart kaynak gösterimidir.",
+ "missing_context": ["Operasyon gerekçesinin değerlendirilip değerlendirilmediği", "Derneklerin veya savunmanın görüşleri"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fuhuş ve LGBT propagandasına geçit yok!", "kind": "behavioral"},
+  {"source": "text", "quote": "Mersin merkezinde faaliyet gösteren 2 LGBT derneğinin kapatılması için gerekli yazışmalar başlatıldı.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir grup (LGBT dernekleri) operasyonun hedefi olarak adlandırılıyor; ancak grup üyeliğine bağlı tutarsız standart metinde açıkça gösterilmiyor.",
+ "alternative_explanation": "Kapatma işlemleri derneklere yönelik somut hukuki iddialara dayanıyor olabilir.",
+ "missing_context": ["Kapatma gerekçeleri", "Karşılaştırılabilir vakalarda uygulanan standartlar"]}
+]}
