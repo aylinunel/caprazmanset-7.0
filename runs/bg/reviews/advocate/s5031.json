@@ -1,0 +1,45 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "context", "quote": "Olay: SPK Başkanlığına Muhsin Atcı atandı", "kind": "statement"},
+  {"source": "text", "quote": "Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı", "kind": "behavioral"},
+  {"source": "text", "quote": "Merakla bekleniyordu! SPK Başkanlığına Muhsin Atcı atandı", "kind": "behavioral"},
+  {"source": "text", "quote": "SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı atama bir kurumda soruşturma gölgesi ve atayan kişi üzerinden, diğerlerinde nötr ya da beklenen gelişme olarak çerçevelenmiş.",
+ "alternative_explanation": "Soruşturma bağlamı atamanın zamanlamasını açıklayan ilgili bir olgu olabilir.",
+ "missing_context": ["Çerçevenin okur ya da kurum yargısını değiştirdiğine dair açık ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sermaye piyasalarını sarsan fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'un örgüt üyeliği ve rüşvet suçlamalarıyla gözaltına alınmasının ardından SPK yeni yönetimi de belli oldu.", "kind": "behavioral"},
+  {"source": "text", "quote": "Yeni SPK Başkanı Muhsin Atcı kim, nereli? Eğitimi, eşi, çocukları, kariyeri ve önceki görevleri", "kind": "behavioral"},
+  {"source": "text", "quote": "SPK Başkanlığına Muhsin Atcı atandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Çarpıcı soruşturma ayrıntısı bir kurumda atama haberinin önüne geçirilmiş; diğerleri yalnızca atamayı vermiş.",
+ "alternative_explanation": "Soruşturma, atamanın gerekçesini anlamak için ilgili bağlam olabilir.",
+ "missing_context": ["Öne çıkarılan ayrıntının bir yargıyı haksız biçimde yönlendirdiğini gösteren ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "6362 sayılı Sermaye Piyasası Kanunu'nun 119. maddesi ile 3 sayılı Cumhurbaşkanlığı Kararnamesi'nin 2, 3 ve 7. maddeleri gereğince SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin", "kind": "statement"},
+  {"source": "text", "quote": "Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı", "kind": "behavioral"},
+  {"source": "text", "quote": "Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [1, 2]}
+ ],
+ "mechanism": "Resmi Gazete kararı temel alındığında bazı başlıklar önceki görevi düzleştirmiş, biri soruşturma bağlamını keskinleştirmiş.",
+ "alternative_explanation": "Başlık kısalığı ve farklı haber açıları olağan özetleme farkları olabilir.",
+ "missing_context": ["Farkın maddi olduğunu ve bir sonuca etki ettiğini gösteren kanıt"]}
+]}

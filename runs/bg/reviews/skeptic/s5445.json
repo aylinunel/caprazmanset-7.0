@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bahçeli'nin acı günü: Ablası Serpil Bahçeli hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar akrabalık ilişkisini 'abla' ve 'kız kardeş' olarak farklı veriyor; tutarsızlık var, ancak önemli bir sonucu etkilediği gösterilmiyor.",
+ "alternative_explanation": "'Kız kardeş' Türkçede genel kız kardeş anlamında kullanılabilir; fark sözcük seçiminden kaynaklanabilir.",
+ "missing_context": ["Ailenin veya partinin resmi açıklaması", "Farkın herhangi bir yargıya etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli'den acı haber! Başkan Erdoğan'dan taziye", "kind": "behavioral"},
+  {"source": "text", "quote": "Devlet Bahçeli'nin kız kardeşi hayatını kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar Erdoğan'ın taziyesini başlığa taşıyor; bu bir öne çıkarma olsa da haksız bir yargı etkisi metinde görünmüyor.",
+ "alternative_explanation": "Cumhurbaşkanının taziyesi haber değeri taşıyan gerçek bir gelişmedir.",
+ "missing_context": ["Diğer siyasilerin taziyelerinin nasıl verildiği", "Vurguya bağlanan açık bir çıkarım"]},
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Devlet Bahçeli'nin kız kardeşi yaşamını yitirdi", "kind": "behavioral"},
+  {"source": "text", "quote": "MHP Lideri Devlet Bahçeli’nin acı kaybı!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başlıklar yalın ve duygusal ifadeler arasında değişiyor; sunuma dayalı bir tercih veya yargı metinde yok.",
+ "alternative_explanation": "Taziye üslubu farklılıkları olağan editoryal tercihtir.",
+ "missing_context": ["Sunum farkına bağlanan açık bir değerlendirme"]}
+]}

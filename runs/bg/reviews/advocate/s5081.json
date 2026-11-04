@@ -1,0 +1,42 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi", "kind": "statement"},
+  {"source": "text", "quote": "Borsa İstanbul Genel Müdürü Atila Türeli oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul'da görev değişikliği! Enes Ergun'un yerine Atila Türeli atandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [1, 2]}
+ ],
+ "mechanism": "AA'nın 'vekaleten' ifadesine göre bazı başlıklar görevin geçici niteliğini düzleştirmiş.",
+ "alternative_explanation": "Başlık kısaltması; metin gövdesinde vekalet bilgisi verilmiş olabilir.",
+ "missing_context": ["Haber gövdelerinin tam metni", "Farkın bir sonuca etkisi"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Genel müdürü fon soruşturmasında gözaltına alındı: Borsa İstanbul'un başına 'vekaleten' Atila Türeli getirildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul Genel Müdür Vekilliği görevine Atila Türeli getirildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı görevlendirme bir kurumda gözaltı bağlamı ve tırnaklı 'vekaleten' vurgusuyla, diğerinde nötr biçimde sunulmuş.",
+ "alternative_explanation": "Gözaltı, görev değişikliğinin nedenini açıklayan ilgili bilgi olabilir.",
+ "missing_context": ["Sunuma bağlı bir yargıyı gösteren açık ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürlüğüne Atila Türeli getirildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul'da yönetim değişikliği! Atila Türeli görevi vekaleten üstlendi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Soruşturma bağlantısı bazı başlıklarda öne çıkarılmış, diğerlerinde yalın atama verilmiş.",
+ "alternative_explanation": "Soruşturma bağlantısı olayın anlaşılması için ilgili olabilir.",
+ "missing_context": ["Öne çıkarılan unsurun haksız etkisini gösteren ifade"]}
+]}

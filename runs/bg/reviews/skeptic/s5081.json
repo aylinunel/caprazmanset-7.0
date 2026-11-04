@@ -1,0 +1,42 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Borsa İstanbul Genel Müdürü Atila Türeli oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul'da Enes Ergun'un yerine Atila Türeli geldi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "AA'nın 'vekaleten' ibaresi bazı başlıklarda düşüyor; bu bir düzleştirme olabilir, ancak bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "Başlık kısaltması nedeniyle ibare düşmüş olabilir; haber gövdesinde yer alıyor olabilir.",
+ "missing_context": ["Haber gövdelerinin tam metni", "Atamanın kalıcı mı vekaleten mi olduğu", "İbare eksikliğinin okur yargısına etkisi"]},
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Borsa İstanbul'un başına 'vekaleten' Atila Türeli getirildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul'da yönetim değişikliği! Atila Türeli görevi vekaleten üstlendi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir kurum 'vekaleten' sözcüğünü tırnakla vurguluyor; ancak sunum farkına bağlanan bir tercih ya da yargı metinde yok.",
+ "alternative_explanation": "Tırnak, resmi ifadeyi aktarmak veya geçici durumu belirtmek için kullanılmış olabilir.",
+ "missing_context": ["Tırnak kullanımının editoryal gerekçesi", "Okur yargısına etkisini gösteren veri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturmasında gözaltı sonrası Borsa İstanbul’da yönetim değişti", "kind": "behavioral"},
+  {"source": "text", "quote": "Genel müdürü fon soruşturmasında gözaltına alındı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar gözaltı bağlamını başlığa taşıyor; bunun haksız bir yargıya yol açtığı metinde gösterilmiyor.",
+ "alternative_explanation": "Gözaltı, atamanın doğrudan nedeni olduğu için ilgili ve orantılı bir bağlam bilgisidir.",
+ "missing_context": ["Atamanın gerekçesine dair resmi açıklama", "Vurgunun bir çıkarıma dönüşüp dönüşmediği"]}
+]}

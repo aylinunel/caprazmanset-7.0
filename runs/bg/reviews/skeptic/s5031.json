@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı", "kind": "behavioral"},
+  {"source": "text", "quote": "SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir kurum atamayı soruşturma bağlamıyla, diğerleri yalın atama olarak veriyor; fakat sunuma dayalı bir tercih ya da yargı metinde açıkça kurulmuyor.",
+ "alternative_explanation": "Soruşturma bağlamı habere ilgili ve doğrulanabilir bir arka plan ekliyor olabilir; bu meşru bir haber değeri seçimidir.",
+ "missing_context": ["Atamanın soruşturmayla gerçek ilişkisi", "Okur yargısına etkisini gösteren veri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Merakla bekleniyordu! SPK Başkanlığına Muhsin Atcı atandı", "kind": "behavioral"},
+  {"source": "text", "quote": "SPK'da üst düzey atama! Yeni başkan Muhsin Atcı oldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ünlem ve vurgulu ifadeler dikkat çekiyor; ancak çarpıcılığın bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Vurgulu başlıklar tıklanma odaklı biçimsel tercihlerdir; içerik yalın atama bilgisidir.",
+ "missing_context": ["Vurgunun içerikle ilgili bir çıkarıma dönüşüp dönüşmediği", "Kurumların genel başlık üslubu"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sermaye piyasalarını sarsan fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'un örgüt üyeliği ve rüşvet suçlamalarıyla gözaltına alınmasının ardından", "kind": "behavioral"},
+  {"source": "text", "quote": "6362 sayılı Sermaye Piyasası Kanunu'nun 119. maddesi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar farklı ayrıntıları (soruşturma bağlamı, yasal dayanak) seçiyor; ancak Resmi Gazete metni gibi bir temel kayıt sunulmadığından atlama ya da büyütme doğrulanamıyor.",
+ "alternative_explanation": "Farklı ayrıntı seçimi kısa haber özetlerinin olağan sonucudur ve anlamı değiştirmeyebilir.",
+ "missing_context": ["Resmi Gazete'deki atama kararının tam metni", "Ayrıntı farklarının bir sonuca etkisi"]}
+]}

@@ -1,0 +1,42 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "context", "quote": "Olay: Cumhurbaşkanı Erdoğan Güney Kore'de", "kind": "statement"},
+  {"source": "text", "quote": "Başkan Erdoğan'dan Güney Kore'ye kritik ziyaret", "kind": "behavioral"},
+  {"source": "text", "quote": "Erdoğan Güney Kore'ye gidecek", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı ziyaret 'Başkan' unvanı ve 'kritik/önemli' nitelemesiyle ya da unvansız yalın ifadeyle sunulmuş.",
+ "alternative_explanation": "Kurumların üslup rehberleri ve unvan kullanım alışkanlıkları farkı açıklayabilir.",
+ "missing_context": ["Çerçeveye bağlı bir tercih ya da yargı gösteren açık ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan'dan 8 yıl sonra Güney Kore'ye kritik ziyaret! Seul'de anlaşmalar imzalanacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Nükleer santral inşası, savunma sanayii gündemde", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Bazı kurumlar beklenen anlaşmaları ve gündem başlıklarını öne çıkarmış, diğerleri yalnızca ziyareti duyurmuş.",
+ "alternative_explanation": "Gündem bilgisi okur için ilgili ve olgusal olabilir.",
+ "missing_context": ["Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair açık ifade"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Başkan Erdoğan'dan Güney Kore'ye önemli ziyaret", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Otorite figürü tanımlanmış; ancak statünün bir iddiayı belirleyici biçimde desteklediğine dair gerekçe yok.",
+ "alternative_explanation": "Resmi ziyaret haberinde unvan kullanımı olağandır.",
+ "missing_context": ["Statüye dayanan bir iddia ya da karar gerekçesi"]}
+]}

@@ -1,0 +1,42 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe, Teknik Direktörlük İçin Sergio Conceição ile Anlaştı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'de flaş gelişme: Emre Belözoğlu ile anlaşma sağlandı! Conceiçao olmadı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'de Emre Belözoğlu sürprizi: Görüşmeler başladı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar aynı süreçte çelişen durumları (Conceição ile anlaşma, Belözoğlu ile anlaşma, görüşmeler başladı) veriyor; ancak bunun hafıza kaynaklı bir sapma ve önemli bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "Hızla değişen transfer sürecinde farklı saatlerdeki kaynaklara dayanan haberler doğal olarak çelişebilir.",
+ "missing_context": ["Kulübün resmi açıklaması ve saati", "Haberlerin dayandığı kaynaklar"]},
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe'de bomba gelişme: Emre Belözoğlu ile anlaşma sağlandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe yeni teknik direktörünü buldu: Emre Belözoğlu ile anlaşma sağlandı!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı bilgi farklı tonlarda veriliyor; sunuma bağlanan bir tercih veya yargı metinde yok.",
+ "alternative_explanation": "Spor haberciliğinde vurgulu üslup olağandır.",
+ "missing_context": ["Sunum farkına bağlı açık bir değerlendirme"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Uçak kalktı geliyor! İşte Fenerbahçe'nin yeni teknik direktörü", "kind": "behavioral"},
+  {"source": "text", "quote": "Emre Belözoğlu'na Fenerbahçe öncesi PFDK sevki!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı başlıklar çarpıcı ya da farklı ayrıntıları öne çıkarıyor; bunun haksız bir yargıyı yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Merak uyandıran başlıklar ve PFDK sevki gibi ilgili gelişmeler olağan haber seçimleridir.",
+ "missing_context": ["PFDK sevkinin içeriği", "Vurguya bağlanan açık bir çıkarım"]}
+]}

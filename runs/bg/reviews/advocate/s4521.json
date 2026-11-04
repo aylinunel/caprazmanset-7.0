@@ -1,0 +1,80 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Antalya'da hortum nedeniyle parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı", "kind": "statement"},
+  {"source": "text", "quote": "Antalya'da hortum faciası! 2 konteyner savruldu, 5 işçi öldü", "kind": "behavioral"},
+  {"source": "text", "quote": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "Antalya'da hortum ve fırtına 4 can aldı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [1, 2]}
+ ],
+ "mechanism": "AA'nın 4 ölü 1 yaralı aktarımına göre bir kurum ölü sayısını 5'e, bazıları yaralı sayısını 2'ye çıkarmış; maddi bir ayrıntı farklılaşmış.",
+ "alternative_explanation": "Erken saatlerde sayılar netleşmemiş olabilir; fark güncellenen ilk bilgilerden kaynaklanabilir.",
+ "missing_context": ["Resmi kesin kayıp ve yaralı sayıları", "Farkın bir sonuca etkisi"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "context", "quote": "Olay: Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı", "kind": "statement"},
+  {"source": "text", "quote": "Antalya'da akılalmaz kaza: Hortumda parçalanan konteynerde bulunan 4 işçi hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu: 4 işçi hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Antalya'da hortum afeti: Parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olay 'kaza', 'afet', 'facia' ya da önceden uyarı verilmiş bir olay olarak farklı sorumluluk çerçeveleriyle sunulmuş.",
+ "alternative_explanation": "Sözcük seçimi üslup farkı olabilir; uyarı bilgisi olgusal bağlamdır.",
+ "missing_context": ["Çerçevenin bir yargı ya da tercihi değiştirdiğini gösteren açık ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu", "kind": "behavioral"},
+  {"source": "text", "quote": "Antalya'da hortum faciası: 4 kişi hayatını kaybetti! 4 şüpheli gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Antalya'da hortum! Kepez'de 4 işçi hayatını kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Kurumlar farklı unsurları (uyarı, gözaltı, konteyner savrulması) başlığa taşıyarak farklı ayrıntıları öne çıkarmış.",
+ "alternative_explanation": "Her unsur olgusal ve haber değeri taşıyan bilgi olabilir.",
+ "missing_context": ["Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair ifade"]},
+{"card_id": "normalcy-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Antalya'da sarı kodlu uyarı verilmişti!", "kind": "statement"},
+  {"source": "text", "quote": "İşçilerin kaldığı 2 konteyner havaya savruldu!", "kind": "statement"},
+  {"source": "text", "quote": "4 şüpheli gözaltına alındı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [1, 2]}
+ ],
+ "mechanism": "Belirli bir meteorolojik uyarı varken işçilerin konteynerlerde kalması uyarının göz ardı edildiğini düşündürebilir; ancak gerekçe metinde yok.",
+ "alternative_explanation": "Sarı kod hortumu öngörmeyebilir; konaklama kararı uyarıdan bağımsız olabilir.",
+ "missing_context": ["Uyarıya karşı alınan önlemler", "Sorumluların açık gerekçesi", "Gözaltıların nedeni"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde bir kişinin iç durumunun başkalarınca anlaşılabileceğine dair inanç yok.",
+ "alternative_explanation": "Haber bir doğal afet ve kayıplarını aktarıyor; kart konuyla ilgisiz.",
+ "missing_context": ["Kişinin algılanabilirlik inancına dair açık ifade"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde bir eyleme bağlı ödül ya da ceza tanımlanmıyor.",
+ "alternative_explanation": "Gözaltılar soruşturma işlemidir; teşvik niteliği taşımaz.",
+ "missing_context": ["Eyleme bağlı ödül/ceza ve davranış etkisi kanıtı"]}
+]}

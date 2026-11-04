@@ -1,0 +1,56 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "context", "quote": "Olay: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturmasında gözaltına alındı", "kind": "statement"},
+  {"source": "text", "quote": "Fon soruşturması Borsa İstanbul'a uzandı: Genel Müdür Korkmaz Enes Ergun gözaltında", "kind": "behavioral"},
+  {"source": "text", "quote": "Türkiye'de sermaye piyasalarını sarsan fon soruşturmasında kritik bir gelişme yaşandı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı gözaltı bir kurumda 'sarsan', 'uzandı' gibi yayılma çerçevesiyle, diğerlerinde yalın biçimde verilmiş.",
+ "alternative_explanation": "Soruşturmanın kapsamını anlatmak için olgusal bağlam olabilir.",
+ "missing_context": ["Çerçeveye bağlı bir tercih ya da yargı gösteren açık ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Borsa İstanbul Genel Müdürü Ergun rüşvet ve örgüt üyeliği iddiasıyla gözaltına alındı", "kind": "statement"},
+  {"source": "text", "quote": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [1, 2]}
+ ],
+ "mechanism": "Suçlamaları belirten ilk habere göre çoğu başlık suçlama ayrıntısını düzleştirmiş.",
+ "alternative_explanation": "Başlık uzunluğu sınırı; suçlamalar haber gövdesinde verilmiş olabilir.",
+ "missing_context": ["Haber gövdeleri", "Farkın bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türkiye'de sermaye piyasalarını sarsan fon soruşturmasında kritik bir gelişme yaşandı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Son dakika... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul Genel Müdürü Enes Ergun Gözaltına Alındı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Bazı kurumlar aciliyet ve sarsıcılık vurgusu kullanmış, diğerleri yalın aktarmış.",
+ "alternative_explanation": "Son dakika etiketi olağan yayın pratiğidir.",
+ "missing_context": ["Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair ifade"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Türkiye'de sermaye piyasalarını sarsan fon soruşturmasında kritik bir gelişme yaşandı.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz dil mevcut; ancak karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık gösterilmemiş.",
+ "alternative_explanation": "Gözaltı haberinin olumsuz tonu olayla orantılı olabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu kanıt", "Karar etkisini gösteren kanıt"]}
+]}

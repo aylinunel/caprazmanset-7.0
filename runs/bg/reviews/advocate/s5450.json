@@ -1,0 +1,44 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kanser tedavisi görüyordu! İş adamı Ahmet Nazif Zorlu hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Ahmet Nazif Zorlu Neden Öldü, Hastalığı Neydi?", "kind": "behavioral"},
+  {"source": "text", "quote": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Bazı kurumlar hastalık ayrıntısını başlığa taşıyarak çarpıcı unsuru öne çıkarmış; diğerleri kurumsal unvanla nötr başlık atmış.",
+ "alternative_explanation": "Hastalık bilgisi okur merakına yanıt veren olgusal bir ayrıntı olabilir; arama odaklı başlık pratiği de açıklayabilir.",
+ "missing_context": ["Başlık seçiminin bir yargıya etkisini gösteren açık ifade", "Kurumların editoryal ve SEO pratikleri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ahmet Zorlu'yu bugün, bir süredir tedavi gördüğü hastanede kaybetmenin derin üzüntüsünü yaşıyoruz", "kind": "statement"},
+  {"source": "text", "quote": "Kanser tedavisi görüyordu! İş adamı Ahmet Nazif Zorlu hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "akciğer kanseri nedeniyle tedavi gördüğü hastanede 82 yaşında hayatını kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [1, 2]}
+ ],
+ "mechanism": "Holdingin açıklamasında yalnızca 'tedavi' geçerken bazı kurumlar kanser ayrıntısını keskinleştirerek başlığa taşımış.",
+ "alternative_explanation": "Kanser bilgisi başka doğrulanmış kaynaklardan gelmiş olabilir; ayrıntı eklemek çarpıtma değil bilgilendirme olabilir.",
+ "missing_context": ["Hastalık bilgisinin kaynağı", "Farkın bir sonuca etkisini gösteren kanıt"]},
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "context", "quote": "Olay: AHMET NAZİF ZORLU HAYATINI KAYBETTİ!", "kind": "statement"},
+  {"source": "text", "quote": "İş dünyasının acı kaybı: Ahmet Nazif Zorlu vefat etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Ünlü iş adamından acı haber... Ahmet Nazif Zorlu hayatını kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı ölüm haberi farklı duygusal tonlarla verilmiş; ancak bir tercihe ya da yargıya bağlanmamış.",
+ "alternative_explanation": "Taziye dili ölüm haberlerinde olağan bir üslup tercihidir.",
+ "missing_context": ["Sunuma bağlı bir yargı ya da tercih gösteren ifade"]}
+]}

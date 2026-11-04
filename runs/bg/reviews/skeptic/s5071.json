@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Başkan Erdoğan'dan Güney Kore'ye kritik ziyaret", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar 'kritik' ve 'Başkan' gibi nitelemeler kullanıyor; ancak eşdeğer seçenekler arasında sunuma dayalı bir tercih metinde yok.",
+ "alternative_explanation": "Nitelemeler kurumların yerleşik üslubu veya ziyaretin gündemindeki anlaşmaların önemini yansıtıyor olabilir.",
+ "missing_context": ["Ziyaretin gerçek gündemi ve sonuçları", "Okur yargısına etkisini gösteren veri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan'dan 8 yıl sonra Güney Kore'ye kritik ziyaret! Seul'de anlaşmalar imzalanacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Nükleer santral inşası, savunma sanayii gündemde", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı başlıklar '8 yıl sonra' ve gündem maddeleri gibi dikkat çekici ayrıntıları öne çıkarıyor; haksız bir ağırlıklandırma gösterilmiyor.",
+ "alternative_explanation": "Bu ayrıntılar ziyaretin haber değerini açıklayan ilgili bilgilerdir.",
+ "missing_context": ["Ayrıntıların doğruluğu", "Vurguya bağlanan bir yargı veya çıkarım"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Kore Cumhuriyeti Cumhurbaşkanı Lee Jae Myung’un davetine icabetle", "kind": "statement"},
+  {"source": "text", "quote": "Başkan Erdoğan'dan Güney Kore'ye önemli ziyaret", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metin makam sahiplerini tanımlıyor; ancak bir iddiayı statüye dayanarak kabul eden veya karşı kanıtı göz ardı eden bir gerekçe yok.",
+ "alternative_explanation": "Unvan kullanımı protokol ve haber dilinin olağan gereğidir; bir iddianın gerekçesi değildir.",
+ "missing_context": ["Statüye dayanan açık bir iddia", "Göz ardı edilen karşı görüş veya kanıt"]}
+]}

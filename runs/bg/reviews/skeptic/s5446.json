@@ -1,0 +1,53 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Fon vurgunu soruşturması: Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi", "kind": "behavioral"},
+  {"source": "text", "quote": "Sermaye piyasası işlemleri soruşturmasında Korkmaz Enes Ergun adliyede", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı soruşturma 'fon vurgunu' ile 'sermaye piyasası işlemleri' gibi farklı değerlerle adlandırılıyor; ancak eşdeğerlik ve buna bağlı bir tercih metinde açıkça kurulmuyor.",
+ "alternative_explanation": "Farklı adlandırmalar kamuoyunda yerleşik kısa adlar veya resmi ifade tercihleri olabilir.",
+ "missing_context": ["Savcılığın soruşturma için kullandığı resmi ifade", "Sunumun okur yargısına etkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "rüşvet almak suçundan tutuklama talebiyle sulh ceza hakimliğine sevk edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "suçlamalarıyla gözaltına alınan Borsa İstanbul eski Genel Müdürü Korkmaz Enes Ergun", "kind": "behavioral"},
+  {"source": "text", "quote": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama istemi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar arası karşılaştırmada bir kurum yalnız rüşvet suçlamasını, diğeri iki suçlamayı veriyor; unvan da 'eski' ile ve 'eski'siz değişiyor. Farkların önemli ve haksız olduğu ise gösterilmiyor.",
+ "alternative_explanation": "Sevk yazısı yalnız rüşvet suçunu içeriyor olabilir; 'eski' ibaresinin yokluğu görevden alınmanın henüz yansımamasından kaynaklanabilir.",
+ "missing_context": ["Savcılık sevk yazısının içeriği", "Ergun'un görevden alınma tarihi", "Farkın bir yargıya etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türkiye'yi sarsan fon skandalının ardından", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasında yeni gelişme: Korkmaz Enes Ergun tutuklamaya sevk edildi!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar 'sarsan skandal' gibi çarpıcı ifadeler kullanıyor; bunun bir sıklık ya da suç yargısını haksızca beslediği metinde yok.",
+ "alternative_explanation": "Soruşturmanın kapsamı gerçekten geniş olabilir; vurgu olayın önemini yansıtabilir.",
+ "missing_context": ["Soruşturmanın gerçek kapsamı", "Çarpıcı ifadeye bağlanan açık bir çıkarım"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Haber doğası gereği olumsuz bir gelişmeyi aktarıyor; karşılaştırılabilir olumlu kanıtın daha az tartıldığına dair bir veri yok.",
+ "alternative_explanation": "Tutuklama haberi olumsuzdur ama bu orantılı bir aktarımdır; savunma beyanı gibi olumlu bilginin varlığı bilinmiyor.",
+ "missing_context": ["Savunma veya karşı açıklamaların olup olmadığı", "Olumlu-olumsuz kanıtların karşılaştırması"]}
+]}

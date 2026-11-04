@@ -1,0 +1,43 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bahçeli'nin acı günü: Ablası Serpil Bahçeli hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "MHP Genel Başkanı Devlet Bahçeli'nin acı günü! Kız kardeşi Serpil Bahçeli hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Kız kardeşi Serpil Bahçeli son yolculuğuna uğurlandı: Başkan Erdoğan'dan taziye mesajı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bağımsız anlatımlar akrabalık ayrıntısında ('abla' / 'kız kardeş') çelişiyor; bazıları taziye ayrıntısını keskinleştirmiş.",
+ "alternative_explanation": "'Kız kardeş' Türkçede abla için de kullanılabilir; fark maddi olmayabilir.",
+ "missing_context": ["Doğrulanmış akrabalık bilgisi", "Farkın bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli'den acı haber! Başkan Erdoğan'dan taziye", "kind": "behavioral"},
+  {"source": "text", "quote": "Devlet Bahçeli'nin ablası Serpil Bahçeli kim, kiminle evli, mesleği ne? Hiç evlendi mi, çocuğu var mı, nereli?", "kind": "behavioral"},
+  {"source": "text", "quote": "Devlet Bahçeli'nin kız kardeşi yaşamını yitirdi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Bazı kurumlar taziye veren siyasi figürü veya kişisel yaşam ayrıntılarını öne çıkarmış.",
+ "alternative_explanation": "Okur merakına ve arama trafiğine yönelik olağan başlık pratiği olabilir.",
+ "missing_context": ["Öne çıkarmanın bir yargıya haksız etkisini gösteren ifade"]},
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "context", "quote": "Olay: Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti", "kind": "statement"},
+  {"source": "text", "quote": "MHP Genel Başkanı Bahçeli'nin kız kardeşi Serpil Bahçeli vefat etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olay farklı duygusal tonla verilmiş; ancak sunuma bağlı bir tercih ya da yargı yok.",
+ "alternative_explanation": "Taziye dili vefat haberlerinde olağan üsluptur.",
+ "missing_context": ["Çerçeveye bağlı yargı gösteren açık ifade"]}
+]}

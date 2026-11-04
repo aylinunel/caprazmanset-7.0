@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kanser tedavisi görüyordu! İş adamı Ahmet Nazif Zorlu hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Ahmet Nazif Zorlu Neden Öldü, Hastalığı Neydi?", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar hastalık ayrıntısını başlığa taşıyarak dikkat çekici unsuru öne çıkarıyor; ancak bunun bir yargıyı haksız biçimde yönlendirdiği metinde gösterilmiyor.",
+ "alternative_explanation": "Hastalık bilgisi okur merakına yanıt veren, doğrulanabilir bir haber unsuru olabilir; arama odaklı başlık pratiği de açıklayıcıdır.",
+ "missing_context": ["Hastalık bilgisinin kaynağı ve doğruluğu", "Başlık seçiminin editoryal gerekçesi", "Kurumların benzer vefat haberlerindeki genel pratiği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ahmet Zorlu'yu bugün, bir süredir tedavi gördüğü hastanede kaybetmenin derin üzüntüsünü yaşıyoruz", "kind": "statement"},
+  {"source": "text", "quote": "akciğer kanseri nedeniyle tedavi gördüğü hastanede 82 yaşında hayatını kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Holding açıklaması hastalığı belirtmezken bazı kurumlar kanser ayrıntısını ekliyor; bu bir keskinleştirme olabilir ama önemli ve haksız bir sapma olduğu kanıtlanmıyor.",
+ "alternative_explanation": "Kanser bilgisi başka bir doğrulanmış kaynaktan alınmış olabilir; özet başlıkların ayrıntı atlaması olağan kısaltmadır.",
+ "missing_context": ["Kanser bilgisinin kaynağı", "Holdingin tam açıklama metni", "Ayrıntının bir sonuca etki edip etmediği"]},
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İş dünyasının acı kaybı: Ahmet Nazif Zorlu vefat etti", "kind": "behavioral"},
+  {"source": "text", "quote": "İş insanı Ahmet Nazif Zorlu hayatını kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başlıklar farklı ton ve kelimelerle aynı olayı veriyor; ancak eşdeğerliğe rağmen sunuma dayalı bir tercih veya yargı metinde yok.",
+ "alternative_explanation": "Taziye dili ve üslup farkı kurumların olağan yazım tercihidir; karar verme içeren bir çerçeveleme yoktur.",
+ "missing_context": ["Okur yargısını ölçen veri", "Sunum farkına bağlanan açık bir tercih"]}
+]}

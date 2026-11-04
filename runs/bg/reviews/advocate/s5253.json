@@ -1,0 +1,45 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "context", "quote": "Olay: Fenerbahçe'nin Yeni Teknik Direktörü Emre Belözoğlu Oldu", "kind": "statement"},
+  {"source": "text", "quote": "Fenerbahçe, Teknik Direktörlük İçin Sergio Conceição ile Anlaştı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe’nin yeni teknik direktörü belli oldu iddiası", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'nin yeni teknik direktörü belli oldu: İstanbul'a geliyor", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [1, 2, 3]}
+ ],
+ "mechanism": "Bir kurum 'iddia' niteliğini düşürerek kesin anlaşma olarak vermiş; sonuçtaki olay farklı bir isimle gerçekleşmiş.",
+ "alternative_explanation": "Gelişen transfer sürecinde o anki bilgiye dayalı yanlış erken haber olabilir.",
+ "missing_context": ["Haberin dayandığı kaynak", "Farkın bir sonuca etkisi"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe'de bomba gelişme: Emre Belözoğlu ile anlaşma sağlandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'de Emre Belözoğlu sürprizi: Görüşmeler başladı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'nin yeni teknik direktörü Emre Belözoğlu oldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı gelişme 'bomba', 'sürpriz' ya da yalın atama olarak farklı vurgularla çerçevelenmiş.",
+ "alternative_explanation": "Spor haberciliğinde heyecanlı üslup olağandır; aşama farkları (görüşme/anlaşma) zamanlamadan kaynaklanabilir.",
+ "missing_context": ["Çerçeveye bağlı bir yargıyı gösteren açık ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Emre Belözoğlu'na Fenerbahçe öncesi PFDK sevki!", "kind": "behavioral"},
+  {"source": "text", "quote": "Uçak kalktı geliyor! İşte Fenerbahçe'nin yeni teknik direktörü", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Bir kurum atama yerine disiplin sevkini, bir diğeri merak uyandıran ayrıntıyı başlığa taşımış.",
+ "alternative_explanation": "PFDK sevki olgusal ve haber değeri olan ayrı bir gelişme olabilir.",
+ "missing_context": ["Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair ifade"]}
+]}
