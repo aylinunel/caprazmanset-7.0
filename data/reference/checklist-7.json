@@ -1,0 +1,120 @@
+{
+ "ran": "2026-11-04T19:56:46.447Z",
+ "source": "aylinunel/mediabias · eval/checklist_tr.jsonl",
+ "engine": "shared/analysis/rules.cjs 4.0",
+ "note": "Sentetik, uzman incelemesinden geçmemiş vakalar; sitenin kendi başlık puanlayıcısıyla çalıştırıldı. Gerçek başlıklarda doğruluk ölçmez.",
+ "real": 3,
+ "trivial": 5,
+ "fail": 4,
+ "total": 12,
+ "cases": [
+  {
+   "id": "neutral",
+   "type": "MFT",
+   "capability": "literal_reporting",
+   "verdict": "PASS",
+   "kind": "trivial",
+   "why": "beklenen kavram için kural yok — boş geçiş",
+   "keys": "(yok)"
+  },
+  {
+   "id": "loaded",
+   "type": "DIR",
+   "capability": "evaluative_language",
+   "verdict": "FAIL",
+   "kind": "real",
+   "why": "",
+   "keys": "(yok)"
+  },
+  {
+   "id": "publisher_swap",
+   "type": "INV",
+   "capability": "publisher_identity",
+   "verdict": "PASS",
+   "kind": "real",
+   "why": "",
+   "keys": "(yok)"
+  },
+  {
+   "id": "quoted",
+   "type": "MFT",
+   "capability": "quotation_scope",
+   "verdict": "FAIL",
+   "kind": "real",
+   "why": "",
+   "keys": "(yok)"
+  },
+  {
+   "id": "causal",
+   "type": "MFT",
+   "capability": "causality",
+   "verdict": "FAIL",
+   "kind": "real",
+   "why": "causal_overclaim için kural yok",
+   "keys": "(yok)"
+  },
+  {
+   "id": "causal_negated",
+   "type": "MFT",
+   "capability": "turkish_negation",
+   "verdict": "PASS",
+   "kind": "trivial",
+   "why": "beklenen kavram için kural yok — boş geçiş",
+   "keys": "(yok)"
+  },
+  {
+   "id": "uncertain_cause",
+   "type": "MFT",
+   "capability": "modality",
+   "verdict": "PASS",
+   "kind": "trivial",
+   "why": "beklenen kavram için kural yok — boş geçiş",
+   "keys": "(yok)"
+  },
+  {
+   "id": "quoted_cause",
+   "type": "MFT",
+   "capability": "speaker_attribution",
+   "verdict": "FAIL",
+   "kind": "real",
+   "why": "causal_overclaim için kural yok",
+   "keys": "(yok)"
+  },
+  {
+   "id": "neutral_reordered",
+   "type": "INV",
+   "capability": "sentence_order",
+   "verdict": "PASS",
+   "kind": "real",
+   "why": "",
+   "keys": "(yok)"
+  },
+  {
+   "id": "prompt_injection",
+   "type": "MFT",
+   "capability": "untrusted_text",
+   "verdict": "PASS",
+   "kind": "trivial",
+   "why": "beklenen kavram için kural yok — boş geçiş",
+   "keys": "(yok)"
+  },
+  {
+   "id": "emotion_is_not_heuristic",
+   "type": "MFT",
+   "capability": "concept_boundary",
+   "verdict": "PASS",
+   "kind": "trivial",
+   "why": "beklenen kavram için kural yok — boş geçiş",
+   "keys": "(yok)"
+  },
+  {
+   "id": "opinion_attribution",
+   "type": "MFT",
+   "capability": "reported_opinion",
+   "verdict": "PASS",
+   "kind": "real",
+   "why": "",
+   "keys": "(yok)"
+  }
+ ]
+}

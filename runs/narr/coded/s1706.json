@@ -1,0 +1,16 @@
+{"q": {"happened": "İstanbul'daki soruşturma kapsamında Emir Sarıgül adliyeye sevk edildi ve tutuklandı.", "agree": "Emir Sarıgül'ün bir soruşturma kapsamında adliyeye çıkarıldığı ortak.", "differ": "dirilis, star, mynet ve trthaber soruşturmayı 'kara para (aklama)' olarak adlandırıyor; sabah, ahaber, cumhuriyet ve sozcu 'Sarıgül(ler)' soruşturması diyor, ahaber 'Sarıgül ailesine yönelik' ifadesini kullanıyor; milligazete onu Mustafa Sarıgül'ün oğlu olarak tanıtıyor; karar, haberturk, diken ve yeniasya suçlama adı vermiyor. Bir kısmı yalnızca sevki, bir kısmı tutuklamayı aktarıyor.", "care": "Soruşturmanın 'kara para' diye adlandırılması suçlamayı başlığa taşırken aile adı ve Mustafa Sarıgül bağı olayı bir siyasi ailenin hikâyesine çeviriyor."}, "rows": [
+{"s": "dirilis", "frame": "Kara para soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "Kara para aklama", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Sarıgül soruşturması", "hero": "Emir Sarıgül", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Sarıgül soruşturması", "hero": "Emir Sarıgül", "blame": "Sarıgül ailesi", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "Emir Sarıgül", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Sarıgül soruşturması", "hero": "Emir Sarıgül", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Sarıgül soruşturması", "hero": "Emir Sarıgül", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Emir Sarıgül", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Olgu aktarımı", "hero": "Emir Sarıgül", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Kara para soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "Kara para aklama", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Kara para soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "Kara para aklama", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Kara para soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "Kara para aklama", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Aile bağı", "hero": "Emir Sarıgül", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "Sarıgül ailesi", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Olgu aktarımı", "hero": "Emir Sarıgül", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yeniasya", "frame": "Olgu aktarımı", "hero": "Emir Sarıgül", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

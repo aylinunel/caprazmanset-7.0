@@ -1,0 +1,130 @@
+{
+ "q": {
+  "happened": "Türkiye Belediyeler Birliği başkanvekilliği seçimini Ayşe Ünlüce kazandı.",
+  "agree": "Ünlüce'nin TBB başkanvekili seçildiği ortak; seçim öncesi başlıklar bunu henüz bildirmiyor.",
+  "differ": "cumhuriyet Ünlüce'yi YENİ Parti'nin adayı olarak sunuyor; sozcu 'Ayşe Abla' diyerek samimi bir dil kullanıyor; haberturk ve karar seçim sürecini aktarıyor; milligazete rakip Tahir Büyükakın'ı soruyor; diğerleri sonucu yalın veriyor.",
+  "care": "Ünlüce'nin parti kimliğiyle ya da samimi bir lakapla anılması, seçimin parti rekabeti mi yoksa kişisel başarı mı olarak okunacağını etkiler."
+ },
+ "rows": [
+  {
+   "s": "cumhuriyet",
+   "frame": "Parti siyaseti",
+   "hero": "YENİ Parti",
+   "blame": "",
+   "cause": "",
+   "cons": "Adaylık",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Kişiselleştirme",
+   "hero": "Ayşe Ünlüce",
+   "blame": "",
+   "cause": "",
+   "cons": "Başkanvekili seçildi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Ayşe Ünlüce",
+   "blame": "",
+   "cause": "",
+   "cons": "Başkanvekili seçildi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Seçim süreci",
+   "hero": "TBB",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Seçim süreci",
+   "hero": "TBB",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Seçim yarışı",
+   "hero": "Ayşe Ünlüce",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Ayşe Ünlüce",
+   "blame": "",
+   "cause": "",
+   "cons": "Başkanvekili seçildi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Olgu aktarımı",
+   "hero": "Ayşe Ünlüce",
+   "blame": "",
+   "cause": "",
+   "cons": "Başkanvekili seçildi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "Ayşe Ünlüce",
+   "blame": "",
+   "cause": "",
+   "cons": "Başkanvekili seçildi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Olgu aktarımı",
+   "hero": "Ayşe Ünlüce",
+   "blame": "",
+   "cause": "",
+   "cons": "Başkanvekili seçildi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "q": {
+  "happened": "Anayasa Mahkemesi, YENİ Parti'nin isminin değiştirilmesine ilişkin talebi görüştü ve ismin değişmeyeceğine karar verdi.",
+  "agree": "Konunun AYM'de olduğu ortak; sonucu veren başlıkların tamamı ismin değişmeyeceğini bildiriyor.",
+  "differ": "Sabah, Cumhuriyet, A Haber ve Sözcü kararı bekleyen ya da soru soran başlıklar atıyor (Sabah 'hükümsüz mü sayılacak?' diyor); Türkiye Gazetesi ve Milli Gazete karar çıktıktan sonra da 'değişecek mi?' sorusuyla veriyor; Takvim, Mynet, BirGün, Karar, Hürriyet, Diken, TRT Haber ve Tele1 sonucu doğrudan duyuruyor.",
+  "care": "Sonucu soru biçiminde veren başlıklar, karar verilmiş bir konuyu hâlâ belirsizmiş gibi sunarak okurun partinin hukuki durumuna dair algısını bulanıklaştırabilir."
+ },
+ "rows": [
+  {
+   "s": "sabah",
+   "frame": "Beklenti",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "İsmin hükümsüzlüğü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Beklenti",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Beklenti",
+   "hero": "YENİ Parti",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Olgu aktarımı",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "İsim korunuyor",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Beklenti",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Olgu aktarımı",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "İsim korunuyor",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "birgun",
+   "frame": "Olgu aktarımı",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "İsim korunuyor",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Merak uyandırma",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "İsim korunuyor",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "hurriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "İsim korunuyor",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "YENİ Parti",
+   "blame": "",
+   "cause": "",
+   "cons": "İsim korunuyor",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "İsim korunuyor",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Merak uyandırma",
+   "hero": "AYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "tele1",
+   "frame": "Olgu aktarımı",
+   "hero": "YENİ Parti",
+   "blame": "",
+   "cause": "",
+   "cons": "İsim korunuyor",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

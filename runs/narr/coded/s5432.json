@@ -1,0 +1,18 @@
+{"q": {"happened": "Mersin'de 19 yıl önce işlenen 'mumya ceset' cinayetinde 6 şüpheli gözaltına alındı, 3'ü tutuklandı.", "agree": "19 yıllık 'mumya ceset' cinayetinde soruşturmanın ilerlediği ortak.", "differ": "sondakika, haberler, hurriyet, karar, sozcu ve akit gözaltı ve tutuklamayı aktarıyor; yenisafak, tgrt, haberturk, cumhuriyet, ntv ve aksam 'buzdolabına sığmayınca' itirafını vahşet detayıyla öne çıkarıyor; takvim ve sabah cinayetin 'çözüldüğünü' söylüyor, takvim altın ve para paylaşımını, mynet ise 'namus meselesi' iddiasını neden olarak sunuyor.", "care": "Vahşet detayının başlığa taşınması haberi sansasyonel bir okumaya yöneltirken, 'çözüldü' ifadesi yargı süreci bitmeden suçun kesinleştiği izlenimi veriyor; neden olarak altın/para ya da namus gösterilmesi de olayın anlamını değiştiriyor."}, "rows": [
+{"s": "sondakika", "frame": "Soruşturma gelişmesi", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "takvim", "frame": "Cinayet çözüldü", "hero": "", "blame": "Şüpheliler", "cause": "Altın ve para", "cons": "", "aff": "Maktul", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "yenisafak", "frame": "Vahşet detayı", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "İtiraf", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Vahşet detayı", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "İtiraf", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "haberturk", "frame": "Vahşet detayı", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "İtiraf", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "haberler", "frame": "Soruşturma gelişmesi", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "cumhuriyet", "frame": "Vahşet detayı", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Vahşet detayı", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "İtiraf", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "aksam", "frame": "Vahşet detayı", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "İtiraf", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "mynet", "frame": "Namus cinayeti", "hero": "", "blame": "", "cause": "Namus meselesi", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Cinayet çözüldü", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "ahaber", "frame": "Soruşturma gelişmesi", "hero": "Savcılık", "blame": "", "cause": "", "cons": "İfadeler", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "hurriyet", "frame": "Soruşturma gelişmesi", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "karar", "frame": "Soruşturma gelişmesi", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"},
+{"s": "sozcu", "frame": "Soruşturma gelişmesi", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "akit", "frame": "Soruşturma gelişmesi", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": "19 yıl önceki cinayet"}
+]}

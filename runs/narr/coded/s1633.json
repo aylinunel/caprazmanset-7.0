@@ -1,0 +1,130 @@
+{
+ "q": {
+  "happened": "Selden etkilenen esnafa nakdi destek verileceği açıklandı; başlıkların çoğu tutarı 80 milyon lira olarak veriyor.",
+  "agree": "Selden etkilenen esnafa destek sağlanacağı ortak.",
+  "differ": "cumhuriyet, sabah ve ntv desteği Bakan Bolat'ın duyurusu olarak veriyor; ahaber 'yaralar sarılıyor' diyerek dayanışma vurgusu yapıyor; star ise Sakarya'daki ailelere 10 bin liralık farklı bir desteği aktarıyor.",
+  "care": "Desteğin bir bakanın adıyla ya da 'yaraları sarma' diliyle sunulması, olayı hükümetin başarısı olarak çerçeveler; star'ın başlığı ise farklı bir yer ve kesimden söz ediyor."
+ },
+ "rows": [
+  {
+   "s": "cumhuriyet",
+   "frame": "Devlet desteği",
+   "hero": "Bakan Bolat",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Esnaf",
+   "sol": "Nakdi destek",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "bloomberght",
+   "frame": "Devlet desteği",
+   "hero": "Devlet",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Esnaf",
+   "sol": "Nakdi destek",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Devlet desteği",
+   "hero": "Devlet",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Esnaf",
+   "sol": "Nakdi destek",
+   "moral": "Dayanışma",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Devlet desteği",
+   "hero": "Bakan Bolat",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Esnaf",
+   "sol": "Nakdi destek",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Devlet desteği",
+   "hero": "Devlet",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Esnaf",
+   "sol": "Nakdi destek",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Devlet desteği",
+   "hero": "Devlet",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Esnaf",
+   "sol": "Nakdi destek",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Devlet desteği",
+   "hero": "Bakan Bolat",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Esnaf",
+   "sol": "Nakdi destek",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Devlet desteği",
+   "hero": "Devlet",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Esnaf",
+   "sol": "Nakdi destek",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Devlet desteği",
+   "hero": "Devlet",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Esnaf",
+   "sol": "Nakdi destek",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Devlet desteği",
+   "hero": "Devlet",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "",
+   "aff": "Selzede aileler",
+   "sol": "Nakdi destek",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

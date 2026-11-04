@@ -1,0 +1,14 @@
+{"q": {"happened": "İstanbul'daki sel felaketinde can kaybı arttı ve kayıp kişilerin aranması sürüyor.", "agree": "Selde can kaybının yükseldiği ortak.", "differ": "Kurumlar farklı sayılar veriyor: mynet, karar, turkiyegz ve cumhuriyet 5; sozcu, trthaber, sabah, milligazete ve yeniasya 6; dirilis 7; diken 8; ntv ise Kocaeli'yi de katarak 10 diyor. karar ve sabah kayıpların arandığını, turkiyegz Murat Babajanov'un cesedinin bulunduğunu ekliyor; ntv, mynet, turkiyegz ve milligazete 'felaket' ve 'acı haber' diliyle yazıyor.", "care": "Can kaybı rakamlarının kuruma ve habere göre 5 ile 10 arasında değişmesi, okurun felaketin büyüklüğünü hangi kaynağı okuduğuna göre farklı algılamasına yol açıyor."}, "rows": [
+{"s": "ntv", "frame": "Felaket", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "İstanbul ve Kocaeli", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Felaket", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "Kayıp kişiler", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Felaket", "hero": "Murat Babajanov", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Felaket", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Felaket", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Can kaybı arttı", "aff": "Kayıp kişiler", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Felaket", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yeniasya", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Sel", "cons": "Can kaybı arttı", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

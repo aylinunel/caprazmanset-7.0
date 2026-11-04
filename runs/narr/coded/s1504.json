@@ -1,0 +1,190 @@
+{
+ "q": {
+  "happened": "Rusya ile Ukrayna arasında enerji ateşkesi duyuruldu; başlıkların çoğu duyuruyu Trump'a dayandırıyor.",
+  "agree": "Enerji ateşkesinin gündemde olduğu ortak.",
+  "differ": "Çoğu kurum ateşkesi 'Trump duyurdu' kalıbıyla veriyor; Bloomberg HT bunu bir 'iddia' olarak sunuyor; Habertürk, Karar ve Yeni Asya kaynak belirtmeden aktarıyor; Diriliş AB'nin desteğini öne çıkarıyor.",
+  "care": "Ateşkesi kesinleşmiş olgu ya da tek bir liderin iddiası olarak sunmak, okurun anlaşmanın sağlamlığına dair algısını belirler."
+ },
+ "rows": [
+  {
+   "s": "sabah",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Trump duyurusu",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Rusya-Ukrayna savaşı"
+  },
+  {
+   "s": "bloomberght",
+   "frame": "Doğrulanmamış iddia",
+   "hero": "Donald Trump",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Rusya ve Ukrayna",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "Rusya ve Ukrayna",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Olgu aktarımı",
+   "hero": "Rusya ve Ukrayna",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Uluslararası destek",
+   "hero": "AB",
+   "blame": "",
+   "cause": "",
+   "cons": "Enerji ateşkesi",
+   "aff": "",
+   "sol": "Enerji ateşkesi",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

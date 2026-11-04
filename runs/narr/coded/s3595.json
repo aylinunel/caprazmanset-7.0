@@ -1,0 +1,142 @@
+{
+ "q": {
+  "happened": "Halk TV'ye kayyum atandı; birçok başlığa göre kanalın yayını durduruldu.",
+  "agree": "Halk TV'ye kayyum atandığı tüm başlıklarda ortak.",
+  "differ": "karar ve cumhuriyet olayı 'şafak operasyonu/baskını' ve yayının durdurulması üzerinden veriyor, yeniasya tepkileri öne çıkarıyor; ahaber ve star ise Cafer Mahiroğlu'nun 'rüşvet çarkı' ve gözaltıları üzerinden yolsuzluk çerçevesi kuruyor.",
+  "care": "Odak yayının susturulmasında ise olay bir basın özgürlüğü meselesi, kanal sahibine yönelik rüşvet iddiasında ise bir yolsuzluk operasyonu olarak okunur."
+ },
+ "rows": [
+  {
+   "s": "karar",
+   "frame": "Medyaya müdahale",
+   "hero": "TMSF",
+   "blame": "",
+   "cause": "",
+   "cons": "Yayın durduruldu",
+   "aff": "Halk TV",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Olgu aktarımı",
+   "hero": "Polis",
+   "blame": "",
+   "cause": "",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "Halk TV",
+   "blame": "",
+   "cause": "",
+   "cons": "Yayın durduruldu",
+   "aff": "Halk TV",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Medyaya müdahale",
+   "hero": "Halk TV",
+   "blame": "",
+   "cause": "",
+   "cons": "Yayın durduruldu",
+   "aff": "Halk TV",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Halk TV",
+   "blame": "",
+   "cause": "",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Olgu aktarımı",
+   "hero": "Halk TV",
+   "blame": "",
+   "cause": "",
+   "cons": "Yayın durduruldu",
+   "aff": "Halk TV",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Yolsuzluk",
+   "hero": "Cafer Mahiroğlu",
+   "blame": "Cafer Mahiroğlu",
+   "cause": "Rüşvet çarkı",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "Hesap verebilirlik",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Polis",
+   "blame": "",
+   "cause": "",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "Halk TV",
+   "blame": "",
+   "cause": "",
+   "cons": "Yayın durduruldu",
+   "aff": "Halk TV",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Tepki",
+   "hero": "Siyasiler ve meslek örgütleri",
+   "blame": "",
+   "cause": "",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Yolsuzluk",
+   "hero": "Cafer Mahiroğlu",
+   "blame": "Cafer Mahiroğlu",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

@@ -1,0 +1,934 @@
+{
+ "dimensions": {
+  "frame": "Çerçeve",
+  "hero": "Merkezdeki aktör",
+  "blame": "Sorumlu tutulan",
+  "cause": "Sunulan neden",
+  "cons": "Öne çıkan sonuç",
+  "aff": "Etkilenen kesim",
+  "sol": "Meşrulaştırılan çözüm",
+  "moral": "Ahlaki çerçeve",
+  "start": "Hikâyenin başlangıcı"
+ },
+ "examples_from_hand_coded_weeks": [
+  {
+   "q": {
+    "happened": "İçişleri Bakanlığı, Yahşihan Belediyesi'ne yönelik yolsuzluk soruşturması kapsamında Belediye Başkan Vekili Aydın Demirdirek'i görevden uzaklaştırdı.",
+    "agree": "Görevden uzaklaştırma ortak.",
+    "differ": "Soldaki kurumlar Demirdirek'in partisini ('AKP'li') ya da yolsuzluk operasyonunu başlığa taşıyor; sağdaki kurumlar kararı İçişleri Bakanlığı'nın adıyla duyuruyor.",
+    "care": "Bir belediye yöneticisinin partisinin başlıkta yer alıp almaması, yolsuzluk haberlerinin siyasi yükünü belirler; bu olayda partisi yalnızca soldaki bir kurum tarafından anılıyor."
+   },
+   "rows": [
+    {
+     "s": "birgun",
+     "hl": "Yahşihan Belediyesi'ne yönelik yolsuzluk operasyonu: Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Yahşihan Belediyesi Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Siyasi sorumluluk",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "AKP'li başkan vekili",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Hesap verebilirlik",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika...Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Yahşıyan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı - Politika Siyaset Haberleri",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ntv",
+     "hl": "Yahşihan Belediyesi soruşturması. Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Yahşihan Belediye Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yahşihan Belediye Başkan Vekili görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKiKA I İçişleri Bakanlığı duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı!",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Bakanlık duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "Yahşihan’da tutuklama sonrası kritik karar! Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "İçişleri duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "frame",
+    "hero"
+   ]
+  },
+  {
+   "q": {
+    "happened": "Fon soruşturması kapsamında gözaltına alınan gazeteciler Mustafa Balcı ve Şaban Sevinç tutuklandı.",
+    "agree": "Tutuklama ortak.",
+    "differ": "Soldaki kurumlar ikisini 'gazeteci' kimliğiyle ve Balcı'yı Sözcü editörü olarak tanıtıyor; sağdaki kurumlar haberi 'fon soruşturması' ya da 'dezenformasyon' çerçevesine yerleştiriyor; bir kurum 'Fon'daşlar kodese' diye alaycı bir başlık atıyor.",
+    "care": "Tutuklanan kişilerin 'gazeteci' kimliğinin başlıkta olması olayı bir basın özgürlüğü meselesi yapar; 'Fon'daşlar kodese' ifadesi ise kişileri yargı kararından önce bir suç grubunun üyeleri olarak etiketler."
+   },
+   "rows": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı tutuklama talebiyle hakimliğe sevk edildi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı gözaltına alındı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "aydinlik",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sözcü.com.tr editörü Mustafa Balcı ve gazeteci Şaban Sevinç hakkında karar çıktı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı, İsmail Saymaz ve Murat Ağırel'e adli kontrol",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "haberturk",
+     "hl": "Gazeteci Mustafa Balcı ve Şaban Sevinç tutuklandı - Habertürk Son Dakika Haber",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Şaban Sevinç ve Mustafa Balcı hakkında tutuklama talebi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA… Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında dezenformasyon: Şaban Sevinç ve Mustafa Balcı'ya tutuklama talebi",
+     "frame": "Dezenformasyon",
+     "hero": "Savcılık",
+     "blame": "Gazeteciler",
+     "cause": "Dezenformasyon iddiası",
+     "cons": "Tutuklama talebi",
+     "aff": "",
+     "sol": "",
+     "moral": "Doğru bilgi",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Şaban Sevinç fon soruşturmasında tutuklandı! İsmail Saymaz, Murat Ağırel ve Mustafa Balcı ne dedi? Neden gözaltına alındı?",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı, İsmail Saymaz ve Murat Ağırel'e ev hapsi",
+     "frame": "Alay / etiketleme",
+     "hero": "Savcılık",
+     "blame": "'Fon'daşlar'",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "Cezalandırma",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fon soruşturması kapsamında Şaban Sevinç ve Mustafa Balcı tutuklandı! Murat Ağırel ve İsmail Saymaz'a ev...",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "blame",
+    "frame",
+    "moral",
+    "hero"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "event": "s3915",
+   "week": "w8",
+   "title": "Beşiktaş - Crystal Palace maçının hakemi belli oldu! - Beşiktaş Haberler - Habertürk Spor",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "Beşiktaş - Crystal Palace maçının hakemi belli oldu! - Beşiktaş Haberler - Habertürk Spor"
+    },
+    {
+     "s": "sabah",
+     "hl": "Beşiktaş-Crystal Palace maçının hakemi belli oldu."
+    },
+    {
+     "s": "sozcu",
+     "hl": "Beşiktaş - Crystal Palace maçına Hollandalı hakem"
+    },
+    {
+     "s": "star",
+     "hl": "Beşiktaş-Crystal Palace maçına Hollandalı hakem"
+    },
+    {
+     "s": "karar",
+     "hl": "Beşiktaş-Crystal Palace maçını Hollandalı hakem yönetecek"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Beşiktaş-Crystal Palace maçını Hollandalı hakem Danny Makkelie yönetecek"
+    },
+    {
+     "s": "takvim",
+     "hl": "Beşiktaş-Crystal Palace maçının hakemi belli oldu!"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Beşiktaş Avrupa maçı ne zaman? Crystal Palace karşılaşmasını Hollandalı hakem Danny Makkelie yönetecek"
+    },
+    {
+     "s": "ntv",
+     "hl": "Beşiktaş 10 kişi kaldığı maçta Crystal Palace ile 2-2 berabere kaldı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Beşiktaş Crystal Palace maçının hakemi kim? Danny Makkelie ve VAR ekibi açıklandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Dört gollü düelloda kazanan çıkmadı: Beşiktaş 2-2 Crystal Palace"
+    },
+    {
+     "s": "diken",
+     "hl": "Beşiktaş ve Crystal Palace'ın 11'leri belli oldu"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Beşiktaş Crystal Palace ile berabere kaldı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Beşiktaş, Crystal Palace ile berabere kaldı"
+    }
+   ]
+  },
+  {
+   "event": "s1819",
+   "week": "w8",
+   "title": "Ağrı'da tır ile otomobil çarpıştı: 4 kişi hayatını kaybetti",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Nevşehir’de tır ile otomobil çarpıştı: 2 ölü"
+    },
+    {
+     "s": "star",
+     "hl": "Ağrı'da feci kaza! Tır ile otomobilin çarpıştı: 4 kişi hayatını kaybetti"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Ağrı'da feci kaza: Otomobil tırın altına girdi, 4 kişi hayatını kaybetti"
+    },
+    {
+     "s": "haberturk",
+     "hl": "TIR ve otomobil çarpıştı! Feci kazada 4 kişi öldü!"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Tır ile otomobil çarpıştı! Can pazarına dönen kazada 4 ölü"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Ağrı'da tır ile otomobil çarpıştı: 4 kişi hayatını kaybetti"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Ağrı'da tır ile otomobil çarpıştı: 4 ölü"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Ağrı'da katliam gibi kaza! Tır ile otomobil çarpıştı: 4 kişi hayatını kaybetti"
+    },
+    {
+     "s": "takvim",
+     "hl": "Ağrı’da otomobil tırla çarpıştı! Aynı araçtaki 4 kişi hayatını kaybetti"
+    },
+    {
+     "s": "ntv",
+     "hl": "Ağrı'da TIR ile otomobil çarpıştı: Dört can kaybı"
+    },
+    {
+     "s": "karar",
+     "hl": "Ağrı’da pancar yüklü tır ile otomobil çarpıştı: 4 ölü, 1 yaralı"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA! Ağrı'da katliam gibi kaza! Pancar yüklü TIR'ın altında kalan otomobilde 4 kişi hayatını kaybetti"
+    }
+   ]
+  },
+  {
+   "event": "s1727",
+   "week": "w8",
+   "title": "Adalet Bakanı Gürlek duyurdu: Üç faili meçhul cinayet daha aydınlatıldı",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "Adalet Bakanı Gürlek, 3 faili meçhul cinayetin aydınlatıldığını bildirdi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "3 faili meçhul dosyasında yeni gelişme"
+    },
+    {
+     "s": "ahaber",
+     "hl": "3 faili meçhul dosya aydınlatıldı! Bakan Akın Gürlek: Peşini bırakmayacağız"
+    },
+    {
+     "s": "star",
+     "hl": "Adalet Bakanı Gürlek: 3 faili meçhul cinayet aydınlatıldı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Müge Anlı’ya konu olan dosyada yeni gelişme! Bakan Gürlek: 71 cinayeti faili meçhul olmaktan çıkardık"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Son dakika: Üç faili meçhul dosya daha aydınlatıldı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Bakan Gürlek duyurdu! 3 faili meçhul dosya daha aydınlatıldı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Adaletin hafızası hep diri! Bakan Gürlek duyurdu... Üç ayrı faili meçhul dosyası daha aydınlatıldı"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA! Bakan Gürlek duyurdu: Üç faili meçhul dosya daha aydınlatıldı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Adalet Bakanı Gürlek duyurdu: Üç faili meçhul cinayet daha aydınlatıldı"
+    },
+    {
+     "s": "tele1",
+     "hl": "Bakan Gürlek: 64 dosyada 71 cinayeti faili meçhul olmaktan çıkardık"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Bakan Gürlek duyurdu: 3 faili meçhul dosyada yeni gelişme! 10 yıl sonra cinayet itirafı geldi"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Gürlek: 3 faili meçhul cinayet aydınlatıldı"
+    }
+   ]
+  },
+  {
+   "event": "s1641",
+   "week": "w8",
+   "title": "İstanbul'daki sel felaketinde can kaybı 6'ya yükseldi",
+   "headlines": [
+    {
+     "s": "ntv",
+     "hl": "Sel felaketinden bir acı haber daha: İstanbul ve Kocaeli'de can kaybı 10'a yükseldi"
+    },
+    {
+     "s": "mynet",
+     "hl": "Son dakika | Sel felaketinden acı haberler günler sonra art arda geldi! İstanbul'da can kaybı 5'e yükseldi"
+    },
+    {
+     "s": "karar",
+     "hl": "İstanbul'da selde can kaybı 5'e yükseldi: Kayıp 2 kişi aranıyor"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "İstanbul'daki sel felaketinde can kaybı 5'e yükseldi! Murat Babajanov'un cansız bedeni Haliç'te bulundu"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika... İstanbul'da sel felaketinde can kaybı 6'ya yükseldi"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son Dakika... İstanbul'daki sel felaketinde can kaybı 5'e yükseldi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Selde can kaybı 6'ya yükseldi"
+    },
+    {
+     "s": "sabah",
+     "hl": "Can kaybı 6’ya yükseldi 3 kişi aranıyor"
+    },
+    {
+     "s": "milligazete",
+     "hl": "İstanbul'daki sel felaketinde acı haber! Can kaybı 6'ya çıktı"
+    },
+    {
+     "s": "diken",
+     "hl": "Sel: Can kaybı sekize yükseldi"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "İstanbul’daki selde can kaybı 6’ya yükseldi"
+    },
+    {
+     "s": "dirilis",
+     "hl": "İstanbul’da selde can kaybı 7’ye yükseldi!"
+    }
+   ]
+  },
+  {
+   "event": "s1706",
+   "week": "w8",
+   "title": "SON DAKİKA | Kara para aklama soruşturmasında yeni gelişme: Emir Sarıgül tutuklandı",
+   "headlines": [
+    {
+     "s": "dirilis",
+     "hl": "Kara para soruşturmasında Emir Sarıgül adliyede"
+    },
+    {
+     "s": "sabah",
+     "hl": "Son dakika | Sarıgüller soruşturmasında yeni gelişme: Emir Sarıgül adliyeye sevk edildi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Sarıgül ailesine yönelik soruşturma! Emir Sarıgül tutuklandı"
+    },
+    {
+     "s": "karar",
+     "hl": "Emir Sarıgül adliyeye sevk edildi"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "'Sarıgül' soruşturmasında yeni gelişme: Emir Sarıgül adliyeye sevk edildi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sarıgül soruşturmasında Emir Sarıgül adliyeye sevk edildi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Son dakika haberler: Emir Sarıgül adliyeye sevk edildi"
+    },
+    {
+     "s": "takvim",
+     "hl": "Emir Sarıgül tutuklandı, işte 16 kişilik tutuklu listesi!"
+    },
+    {
+     "s": "star",
+     "hl": "Kara para soruşturması: Emir Sarıgül tutuklandı"
+    },
+    {
+     "s": "mynet",
+     "hl": "İstanbul'da kara para aklama soruşturmasında gözaltına alınan Emir Sarıgül tutuklandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "İstanbul'da kara para soruşturmasında Sarıgül tutuklandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Mustafa Sarıgül'ün oğlu Emir Sarıgül de tutuklanarak cezaevine gönderildi"
+    },
+    {
+     "s": "diken",
+     "hl": "Emir Sarıgül tutuklandı"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Emir Sarıgül tutuklandı"
+    }
+   ]
+  },
+  {
+   "event": "s4196",
+   "week": "w8",
+   "title": "El Clasico'da Mbappe şov! Real Madrid, Barcelona'yı yıktı",
+   "headlines": [
+    {
+     "s": "sozcu",
+     "hl": "El Clasico öncesi Barcelona'yı Arda Güler korkusu sardı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Katalanların serisi sona erdi! Real Madrid Barcelona'yı 2-1 yendi"
+    },
+    {
+     "s": "sabah",
+     "hl": "Real Madrid, Barcelona'yı 87'de devirdi! Arda Güler, 90+'da çıktı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "El Clasico'da Arda Gülerli Real Madrid, Barcelona'yı devirdi! LaLiga'da zirve yarışı kızıştı"
+    },
+    {
+     "s": "mynet",
+     "hl": "El Clasico'da sevinen taraf Real Madrid! Arda Güler ve Mbappe, Lamine Yamal'ı yıktı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "El Clasico'da zafer Real Madrid'in! Eflatun-beyazlılar, Barcelona'yı 2-1 yendi"
+    },
+    {
+     "s": "karar",
+     "hl": "El Clasico'da Mbappe şov! Real Madrid, Barcelona'yı yıktı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "El Clasico'da kazanan Real Madrid! Barcelona'nın serisi sona erdi..."
+    },
+    {
+     "s": "aa",
+     "hl": "Mbappe brace gives Real Madrid 2-1 El Clasico victory"
+    },
+    {
+     "s": "dirilis",
+     "hl": "El Clasico’da kazanan Real Madrid oldu!"
+    },
+    {
+     "s": "ahaber",
+     "hl": "El Clasico'da Mbappe fırtınası! Real Madrid, Camp Nou'da Barcelona'yı yıktı"
+    },
+    {
+     "s": "ntv",
+     "hl": "El Clasico'ya Mbappe damgası. İki golle Barcelona'yı Camp Nou'da yıktı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Real Madrid, El Clasico'da Barcelona'yı 2-1 yenerek rakibinin serisini bitirdi"
+    }
+   ]
+  },
+  {
+   "event": "s3807",
+   "week": "w8",
+   "title": "Türk sanatının usta ismi Süleyman Saim Tekcan 86 yaşında hayatını kaybetti",
+   "headlines": [
+    {
+     "s": "trthaber",
+     "hl": "Sanatçı Süleyman Saim Tekcan vefat etti"
+    },
+    {
+     "s": "star",
+     "hl": "Başkan Erdoğan'ın elinden ödül almıştı! Süleyman Saim Tekcan vefat etti"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Sanatçı Süleyman Saim Tekcan hayatını kaybetti! Ailesi açıkladı: \"Kıymetli bir miras bıraktı\""
+    },
+    {
+     "s": "diken",
+     "hl": "Ressam Süleyman Saim Tekcan hayatını kaybetti"
+    },
+    {
+     "s": "karar",
+     "hl": "Usta sanatçı Süleyman Saim Tekcan vefat etti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Türk sanatının usta ismi Süleyman Saim Tekcan 86 yaşında hayatını kaybetti"
+    },
+    {
+     "s": "ntv",
+     "hl": "Sanatçı Süleyman Saim Tekcan yaşamını yitirdi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Süleyman Saim Tekcan hayatını kaybetti - Magazin Haber - HT Magazin"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Süleyman Saim Tekcan neden öldü? Hastalığı neydi? Kaç yaşındaydı? Cenazesi ne zaman?"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Özgün baskı sanatının öncü ismi Süleyman Saim Tekcan yaşamını yitirdi"
+    },
+    {
+     "s": "sabah",
+     "hl": "Türk sanatının acı kaybı! 86 yaşındaki Ressam Süleyman Saim Tekcan hayatını kaybetti!"
+    },
+    {
+     "s": "takvim",
+     "hl": "Sanat dünyasının başı sağ olsun! Usta ressam Süleyman Saim Tekcan nerede toprağa verilecek?"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Baskı sanatının öncü ismi: Süleyman Saim Tekcan"
+    }
+   ]
+  },
+  {
+   "event": "s1777",
+   "week": "w8",
+   "title": "Pendik'te hafriyat kamyonu eczaneye daldı: 7 yaralı",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "Son dakika: Kamyon eczaneye daldı! Yaralılar var!"
+    },
+    {
+     "s": "karar",
+     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: Yaralılar var"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: 7 yaralı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Pendik'te kamyon eczaneye çarptı: 7 yaralı"
+    },
+    {
+     "s": "star",
+     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: Çok sayıda yaralı var"
+    },
+    {
+     "s": "mynet",
+     "hl": "Freni boşalan hafriyat kamyonu eczaneye daldı! Ortalık savaş alanına döndü"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "İstanbul Pendik'te hafriyat kamyonu eczaneye daldı: 7 kişi yaralandı!"
+    },
+    {
+     "s": "sabah",
+     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: 7 kişi yaralandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Pendik'te dehşet anları! Hafriyat kamyonu eczaneye daldı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Pendik'te kamyon eczaneye girdi. 7 kişi yaralandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: 7 yaralı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Pendik'te can pazarı! Hafriyat kamyonu eczaneye daldı, yaralılar var"
+    }
+   ]
+  },
+  {
+   "event": "s3974",
+   "week": "w8",
+   "title": "Afyonkarahisar'da iki otomobil kafa kafaya çarpıştı: 4 ölü",
+   "headlines": [
+    {
+     "s": "trthaber",
+     "hl": "Afyonkarahisar'da iki otomobil kafa kafaya çarpıştı: 4 ölü"
+    },
+    {
+     "s": "star",
+     "hl": "Afyonkarahisar'da feci kaza! 2 otomobil kafa kafaya çarpıştı: 4 ölü"
+    },
+    {
+     "s": "mynet",
+     "hl": "SON DAKİKA | Afyonkarahisar'da feci kaza! Kafa kafaya çarpıştılar: 4 ölü"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Afyonkarahisar’daki feci kazada iki otomobil kafa kafaya çarpıştı: 4 kişi vefat etti"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Afyonkarahisar'da katliam gibi kaza: 4 ölü"
+    },
+    {
+     "s": "sabah",
+     "hl": "Afyonkarahisar’da acı kaza! İki otomobil kafa kafaya çarpıştı: 4 kişi hayatını kaybetti!"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Afyonkarahisar'da feci kaza! İki otomobil kafa kafaya çarpıştı: 4 ölü"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Afyonkarahisar'da iki otomobil kafa kafaya çarpıştı! 4 kişi hayatını kaybetti"
+    },
+    {
+     "s": "karar",
+     "hl": "Afyonkarahisar'da can pazarı: İki otomobil kafa kafaya çarpıştı 4 kişi öldü"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Afyonkarahisar'da kafa kafaya facia! Ölü ve yaralılar var"
+    },
+    {
+     "s": "ntv",
+     "hl": "Afyonkarahisar'da kafa kafaya facia: 4 ölü"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Afyonkarahisar’da katliam gibi kaza... İki otomobil kafa kafaya çarpıştı: Ölü ve yaralılar var"
+    }
+   ]
+  }
+ ]
+}

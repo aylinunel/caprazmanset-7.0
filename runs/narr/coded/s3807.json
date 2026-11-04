@@ -1,0 +1,15 @@
+{"q": {"happened": "Ressam ve baskı sanatçısı Süleyman Saim Tekcan 86 yaşında hayatını kaybetti.", "agree": "Tekcan'ın vefatı ortak.", "differ": "karar, sozcu, cumhuriyet, sabah, takvim, ahaber ve dirilis onu 'usta', 'öncü' ya da 'acı kayıp' diye anıyor; star 'Başkan Erdoğan'ın elinden ödül almıştı' diyerek Erdoğan bağlantısını öne çıkarıyor; milligazete ölüm nedeni ve cenazeye dair sorular soruyor; haberturk magazin başlığıyla veriyor; trthaber, diken ve ntv sade aktarıyor.", "care": "Bir sanatçının vefatının Cumhurbaşkanı'ndan aldığı ödülle tanıtılması, onu sanatından çok siyasi otoriteyle ilişkisi üzerinden tanımlıyor."}, "rows": [
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Erdoğan bağlantısı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "", "sol": "", "moral": "", "start": "Erdoğan'dan ödül"},
+{"s": "ahaber", "frame": "Sanatçıya saygı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "", "sol": "", "moral": "Sanat mirası", "start": ""},
+{"s": "diken", "frame": "Olgu aktarımı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Sanatçıya saygı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Sanatçıya saygı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Magazin", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Merak / soru", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "Hastalık", "cons": "Vefat", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Sanatçıya saygı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Sanatçıya saygı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "Türk sanatı", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Sanatçıya saygı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "Vefat", "aff": "Sanat dünyası", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Sanatçıya saygı", "hero": "Süleyman Saim Tekcan", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

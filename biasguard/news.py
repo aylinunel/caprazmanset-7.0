@@ -247,6 +247,9 @@ def main() -> None:
         core_path = a.build / "core.bin"
         core = _load(core_path)
         core["BG"] = json.loads((a.build / "biasguard.json").read_text())
+        import sys; sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "pipeline"))
+        from capraz_pipeline.narratives import merge
+        merge(core)
         core["BGS"] = json.loads((Path(__file__).resolve().parents[1] / "docs" / "biasguard-simulation" / "summary.json").read_text())
         core_path.write_bytes(gzip.compress(json.dumps(core, ensure_ascii=False, separators=(",", ":")).encode()))
         print(core_path)

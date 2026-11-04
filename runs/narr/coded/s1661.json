@@ -1,0 +1,202 @@
+{
+ "q": {
+  "happened": "Fransa'da hükümet, protestolar sonrasında bazı kentlerde kısmi sokağa çıkma yasağı ilan etti; TRT Haber'e göre Paris ve Lyon'da yasak bir gün uzatıldı.",
+  "agree": "Fransa'nın bazı kentlerinde sokağa çıkma yasağı uygulandığı ortak.",
+  "differ": "Türkiye Gazetesi, Milli Gazete, Star ve Mynet protestoların 'durdurulamadığı', 'kontrolden çıktığı', 'Avrupa'nın alev alev yandığı' bir kaos çerçevesi kuruyor; Sözcü ve Cumhuriyet OHAL ihtimalini öne çıkarıyor; NTV, Diken, Diriliş, Yeni Asya ve Sabah yasağı düz bir karar olarak aktarıyor.",
+  "care": "Kaos çerçevesi yasağı protestoculara karşı zorunlu bir önlem olarak meşrulaştırırken, olgusal başlıklar protestoların nedenini ve devlet müdahalesinin ölçüsünü açık bırakıyor."
+ },
+ "rows": [
+  {
+   "s": "turkiyegz",
+   "frame": "Kaos",
+   "hero": "Fransa hükümeti",
+   "blame": "Protestocular",
+   "cause": "Protestolar",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "Sokağa çıkma yasağı",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olağanüstü önlemler",
+   "hero": "Fransa hükümeti",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "bloomberght",
+   "frame": "Devlet otoritesi",
+   "hero": "Fransa hükümeti",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Kaos",
+   "hero": "Fransa hükümeti",
+   "blame": "",
+   "cause": "Protestolar",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "Sokağa çıkma yasağı",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Fransa hükümeti",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Devlet otoritesi",
+   "hero": "Fransa hükümeti",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Kaos",
+   "hero": "Ordu",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "Avrupa",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Devlet otoritesi",
+   "hero": "Fransa Başbakanı",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olağanüstü önlemler",
+   "hero": "Fransa Başbakanı",
+   "blame": "",
+   "cause": "Protestolar",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Kaos",
+   "hero": "Fransa hükümeti",
+   "blame": "Protestocular",
+   "cause": "Protestolar",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "Sokağa çıkma yasağı",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Güvenlik",
+   "hero": "Fransa hükümeti",
+   "blame": "",
+   "cause": "",
+   "cons": "Sokağa çıkma yasağı",
+   "aff": "",
+   "sol": "Güvenlik önlemleri",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yasağın uzatılması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

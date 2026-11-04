@@ -1,0 +1,166 @@
+{
+ "q": {
+  "happened": "Antalya'da planlanan çocuk güzellik yarışması hakkında suç duyurusunda bulunuldu ve etkinlik iptal edildi.",
+  "agree": "Yarışmanın tartışma konusu olduğu ortak.",
+  "differ": "TRT Haber, NTV, Karar, Cumhuriyet ve Diken suç duyurusunu aktarıyor; Habertürk ve Yeni Asya bunu Bakanlığın girişimi olarak sunuyor; Mynet, Sözcü, Takvim ve Milli Gazete iptali öne çıkarıyor; Sabah yasaklanmasını savunuyor, Takvim çocukların korunması çağrısı yapıyor, Takvim ve Milli Gazete 'skandal' diyor, A Haber tepkilere odaklanıyor.",
+  "care": "Kimi kurumlar olayı hukuki bir süreç olarak aktarırken kimileri açıkça yasak ve koruma talep ederek ahlaki bir tutum alıyor; bu, okura olayın nasıl değerlendirilmesi gerektiğini doğrudan söyler."
+ },
+ "rows": [
+  {
+   "s": "trthaber",
+   "frame": "Hukuki süreç",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Suç duyurusu",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Hukuki süreç",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Suç duyurusu",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Hukuki süreç",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Suç duyurusu",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Hukuki süreç",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Suç duyurusu",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Hukuki süreç",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Suç duyurusu",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Devlet müdahalesi",
+   "hero": "Bakanlık",
+   "blame": "",
+   "cause": "",
+   "cons": "Suç duyurusu",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Devlet müdahalesi",
+   "hero": "Bakanlık",
+   "blame": "",
+   "cause": "",
+   "cons": "Suç duyurusu",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Hukuki süreç",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "İptal",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "İptal",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Skandal",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "İptal",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Skandal",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "İptal",
+   "aff": "Çocuklar",
+   "sol": "Çocukları koruma",
+   "moral": "Çocuk koruma",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Çocuk koruma",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "Çocuklar",
+   "sol": "Yasaklama",
+   "moral": "Çocuk koruma",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Kamuoyu tepkisi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Tepki",
+   "aff": "Çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

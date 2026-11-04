@@ -19,7 +19,7 @@ from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from . import analyze as an
-from . import classify, cluster, events as ev, score, topics
+from . import classify, cluster, events as ev, narratives, score, topics
 from .config import PARAMS, REPO, params_dict
 from .derived import DayCache
 from .events import WORD, STOP
@@ -205,6 +205,7 @@ def build(root: Path, ref: Path, out: Path, since: str | None = None, until: str
     for key, path in (("BG", out / "biasguard.json"), ("BGS", REPO / "docs" / "biasguard-simulation" / "summary.json")):
         if path.exists():
             core[key] = json.loads(path.read_text())
+    narratives.merge(core)  # 7.0: agent-coded Anlatı haritası weeks after the hand-coded period
     report["sizes"] = sizes
     report["seconds"] = round(time.time() - t0, 1)
     meta["validation"] = {k: report[k] for k in ("classify", "cluster", "eventTopics") if k in report}

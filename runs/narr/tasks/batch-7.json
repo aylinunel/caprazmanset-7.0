@@ -1,0 +1,1110 @@
+{
+ "dimensions": {
+  "frame": "Çerçeve",
+  "hero": "Merkezdeki aktör",
+  "blame": "Sorumlu tutulan",
+  "cause": "Sunulan neden",
+  "cons": "Öne çıkan sonuç",
+  "aff": "Etkilenen kesim",
+  "sol": "Meşrulaştırılan çözüm",
+  "moral": "Ahlaki çerçeve",
+  "start": "Hikâyenin başlangıcı"
+ },
+ "examples_from_hand_coded_weeks": [
+  {
+   "q": {
+    "happened": "İçişleri Bakanlığı, Yahşihan Belediyesi'ne yönelik yolsuzluk soruşturması kapsamında Belediye Başkan Vekili Aydın Demirdirek'i görevden uzaklaştırdı.",
+    "agree": "Görevden uzaklaştırma ortak.",
+    "differ": "Soldaki kurumlar Demirdirek'in partisini ('AKP'li') ya da yolsuzluk operasyonunu başlığa taşıyor; sağdaki kurumlar kararı İçişleri Bakanlığı'nın adıyla duyuruyor.",
+    "care": "Bir belediye yöneticisinin partisinin başlıkta yer alıp almaması, yolsuzluk haberlerinin siyasi yükünü belirler; bu olayda partisi yalnızca soldaki bir kurum tarafından anılıyor."
+   },
+   "rows": [
+    {
+     "s": "birgun",
+     "hl": "Yahşihan Belediyesi'ne yönelik yolsuzluk operasyonu: Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Yahşihan Belediyesi Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Siyasi sorumluluk",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "AKP'li başkan vekili",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Hesap verebilirlik",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika...Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Yahşıyan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı - Politika Siyaset Haberleri",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ntv",
+     "hl": "Yahşihan Belediyesi soruşturması. Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Yahşihan Belediye Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yahşihan Belediye Başkan Vekili görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKiKA I İçişleri Bakanlığı duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı!",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Bakanlık duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "Yahşihan’da tutuklama sonrası kritik karar! Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "İçişleri duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "frame",
+    "hero"
+   ]
+  },
+  {
+   "q": {
+    "happened": "Fon soruşturması kapsamında gözaltına alınan gazeteciler Mustafa Balcı ve Şaban Sevinç tutuklandı.",
+    "agree": "Tutuklama ortak.",
+    "differ": "Soldaki kurumlar ikisini 'gazeteci' kimliğiyle ve Balcı'yı Sözcü editörü olarak tanıtıyor; sağdaki kurumlar haberi 'fon soruşturması' ya da 'dezenformasyon' çerçevesine yerleştiriyor; bir kurum 'Fon'daşlar kodese' diye alaycı bir başlık atıyor.",
+    "care": "Tutuklanan kişilerin 'gazeteci' kimliğinin başlıkta olması olayı bir basın özgürlüğü meselesi yapar; 'Fon'daşlar kodese' ifadesi ise kişileri yargı kararından önce bir suç grubunun üyeleri olarak etiketler."
+   },
+   "rows": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı tutuklama talebiyle hakimliğe sevk edildi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı gözaltına alındı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "aydinlik",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sözcü.com.tr editörü Mustafa Balcı ve gazeteci Şaban Sevinç hakkında karar çıktı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı, İsmail Saymaz ve Murat Ağırel'e adli kontrol",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "haberturk",
+     "hl": "Gazeteci Mustafa Balcı ve Şaban Sevinç tutuklandı - Habertürk Son Dakika Haber",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Şaban Sevinç ve Mustafa Balcı hakkında tutuklama talebi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA… Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında dezenformasyon: Şaban Sevinç ve Mustafa Balcı'ya tutuklama talebi",
+     "frame": "Dezenformasyon",
+     "hero": "Savcılık",
+     "blame": "Gazeteciler",
+     "cause": "Dezenformasyon iddiası",
+     "cons": "Tutuklama talebi",
+     "aff": "",
+     "sol": "",
+     "moral": "Doğru bilgi",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Şaban Sevinç fon soruşturmasında tutuklandı! İsmail Saymaz, Murat Ağırel ve Mustafa Balcı ne dedi? Neden gözaltına alındı?",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı, İsmail Saymaz ve Murat Ağırel'e ev hapsi",
+     "frame": "Alay / etiketleme",
+     "hero": "Savcılık",
+     "blame": "'Fon'daşlar'",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "Cezalandırma",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fon soruşturması kapsamında Şaban Sevinç ve Mustafa Balcı tutuklandı! Murat Ağırel ve İsmail Saymaz'a ev...",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "blame",
+    "frame",
+    "moral",
+    "hero"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "event": "s5527",
+   "week": "w10",
+   "title": "İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 25 şüpheli gözaltına alındı",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "AVCI projesiyle 39 ilde yasa dışı bahis operasyonlarında 151 şüpheli yakalandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Yasa dışı bahis çetesini AVCI yakaladı! İstanbul merkezli 39 ilde operasyon: Çok sayıda gözaltı var"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "39 ilde 'Avcı' kıskacı! Yasa dışı bahis operasyonunda 151 şüpheli gözaltına alındı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Yapay zeka destekli AVCI projesiyle 39 ilde yasa dışı bahis operasyonu! 151 şüpheli yakalandı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yapay zeka destekli AVCI ile yasa dışı bahis ağına darbe: 151 gözaltı"
+    },
+    {
+     "s": "karar",
+     "hl": "İstanbul merkezli 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı"
+    },
+    {
+     "s": "ntv",
+     "hl": "İzmir merkezli yasa dışı bahis operasyonunda 25 gözaltı"
+    },
+    {
+     "s": "aa",
+     "hl": "İstanbul merkezli 39 ildeki yasa dışı bahis operasyonlarında 151 şüpheli yakalandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yapay zeka destekli yasa dışı bahis operasyonu: 151 gözaltı"
+    },
+    {
+     "s": "haberler",
+     "hl": "51 şüpheliden 25'i, İzmir merkezli yasa dışı bahis operasyonunda gözaltına alındı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "GÜNCELLEME - İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 40 zanlı yakalandı"
+    },
+    {
+     "s": "star",
+     "hl": "Yasa dışı bahis ağına 17 ilde operasyon! 51 şüpheliden 25'i yakalandı"
+    },
+    {
+     "s": "mynet",
+     "hl": "İstanbul merkezli 39 ilde yapay zeka destekli 'Yasa dışı bahis' operasyonu! 151 şüpheli yakalandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "İstanbul ve İzmir merkezli yasa dışı bahis operasyonlarında 176 şüpheli yakalandı!"
+    },
+    {
+     "s": "birgun",
+     "hl": "39 ilde yasa dışı bahis operasyonu: 151 kişi gözaltına alındı"
+    },
+    {
+     "s": "aksam",
+     "hl": "14 ilde yasa dışı bahis operasyonu: 33 gözaltı"
+    },
+    {
+     "s": "sabah",
+     "hl": "34 ilde 'Yasa Dışı Bahis Kara para Aklama' operasyonu: 100 şüpheli yakalandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Nevşehir merkezli 34 ilde yasa dışı bahis operasyonu! 20 milyarlık ağda 100 gözaltı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "İçişleri duyurdu: 34 ildeki yasa dışı bahis operasyonunda 100 kişi yakalandı"
+    }
+   ]
+  },
+  {
+   "event": "s5316",
+   "week": "w10",
+   "title": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Jandarmanın 32 ilde FETÖ'ye yönelik operasyonlarında 72 şüpheli yakalandı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı"
+    },
+    {
+     "s": "haberler",
+     "hl": "İçişleri Bakanlığı: \"32 ilde FETÖ’ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı.\""
+    },
+    {
+     "s": "aksam",
+     "hl": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "İçişleri Bakanlığı'ndan 32 ilde FETÖ operasyonu: 72 şüpheli yakalandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "32 ilde FETÖ operasyonu: 41 tutuklama"
+    },
+    {
+     "s": "star",
+     "hl": "32 ilde FETÖ operasyonu! 72 şüpheli yakalandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı"
+    },
+    {
+     "s": "ntv",
+     "hl": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "32 ilde FETÖ operasyonu: 72 gözaltı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Bakanlık duyurdu: 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı"
+    },
+    {
+     "s": "sabah",
+     "hl": "32 ilde FETÖ operasyonu! Sözde yardım kuruluşlarına finans sağlamışlar: 72 şüpheliden 41’i tutuklandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "İçişleri duyurdu... 32 ilde FETÖ operasyonu: 41 kişi tutuklandı"
+    },
+    {
+     "s": "aa",
+     "hl": "FETÖ'ye yönelik 32 ilde düzenlenen operasyonlarda 41 şüpheli tutuklandı"
+    },
+    {
+     "s": "birgun",
+     "hl": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı"
+    },
+    {
+     "s": "karar",
+     "hl": "32 ilde FETÖ operasyonu: 72 gözaltı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "FETÖ'ye 32 ilde ağır darbe! 41 kişi tutuklandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "FETÖ operasyonlarında 72 şüpheli yakalandı 41'i tutuklandı"
+    }
+   ]
+  },
+  {
+   "event": "s5306",
+   "week": "w10",
+   "title": "Grok'un maliyeti \"sürdürülemez seviyede\"",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Musk, Grok'un işlem maliyetinin gelire göre sürdürülemez olduğunu söyledi"
+    },
+    {
+     "s": "karar",
+     "hl": "Elon Musk Grok'un maliyetinden dert yandı: Maliyeti sürdürülemez derecede yüksek"
+    },
+    {
+     "s": "haberler",
+     "hl": "Elon Musk, Grok'u çalıştırma maliyetini gelire göre sürdürülemez buldu"
+    },
+    {
+     "s": "birgun",
+     "hl": "Kullanıcılar limitlerden şikâyet etti: Musk, Grok'un maliyeti geliri aştığını onayladı"
+    },
+    {
+     "s": "aa",
+     "hl": "Musk, yapay zeka botu Grok'un maliyetinin gelirine kıyasla \"sürdürülemez seviyede\" olduğunu belirtti"
+    },
+    {
+     "s": "star",
+     "hl": "Musk'tan Grok itirafı: Yapay zekanın maliyeti sürdürülemez seviyede"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Musk, yapay zeka botu Grok'un maliyetinin gelirine kıyasla \"sürdürülemez seviyede\" olduğunu belirtti"
+    },
+    {
+     "s": "milliyet",
+     "hl": "Elon Musk: Grok'un gelirleri maliyetlerini karşılayamıyor"
+    },
+    {
+     "s": "aksam",
+     "hl": "Elon Musk açıkladı! Grok'un işletme maliyeti sürdürülemez seviyeye çıktı"
+    },
+    {
+     "s": "akit",
+     "hl": "Elon Musk’dan ‘Grok’ itirafı: Sürdürülemez seviyede"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Teknoloji milyarderi Musk, Grok'un maliyetinden yakındı: Sürdürülebilir değil:"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Musk'tan Grok'un maliyeti ve geliri yorumu"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Grok'un maliyeti \"sürdürülemez seviyede\""
+    },
+    {
+     "s": "onedio",
+     "hl": "Elon Musk Açıkladı: \"Grok Bot'un Maliyeti Gelirine Kıyasla Sürdürülemez Seviyede\""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Grok'un maliyeti getirisine kıyasla \"sürdürülemez seviyede\" olduğu belirtildi"
+    }
+   ]
+  },
+  {
+   "event": "s5463",
+   "week": "w10",
+   "title": "Van'da rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Van'dan kahreden haber! Uzman çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "tgrt",
+     "hl": "MSB'den acı haber: Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Van'da görev yapan uzman çavuş rahatsızlanarak şehit oldu"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Acı haberi MSB duyurdu: Piyade Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Van'dan acı haber! Bakan Güler duyurdu, Piyade Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "haberler",
+     "hl": "Van'dan kahreden haber! Uzman çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "MSB duyurdu: Piyade Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "aksam",
+     "hl": "Başımız sağ olsun: Van'da görev yapan Uzman Çavuş Şahin görevi başında rahatsızlanarak şehit oldu"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Van'da görev sırasında rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "mynet",
+     "hl": "Kahreden haber! Piyade Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "akit",
+     "hl": "Görev başında fenalaşan Piyade Uzman Çavuş Oğuz Şahin şehit düştü!"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Van'ın Çaldıran ilçesinde görev yapan Piyade Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "sabah",
+     "hl": "Piyade Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "ntv",
+     "hl": "Van'da rahatsızlanan uzman çavuş şehit oldu"
+    },
+    {
+     "s": "takvim",
+     "hl": "Yürek yakan haber Van’dan geldi! Rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "MSB: Van'da rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Şehit Oğuz Şahin kimdir, nereli, kaç yaşındaydı? Piyade Uzman Çavuş Oğuz Şahin neden şehit oldu, eşi ve çocuğu kim?"
+    },
+    {
+     "s": "star",
+     "hl": "Şehit Uzman Çavuş Şahin memleketine uğurlandı"
+    }
+   ]
+  },
+  {
+   "event": "s5095",
+   "week": "w10",
+   "title": "TOBB Nefes Kredisi'nde yeni dilim başvuruları 3 Kasım'da başlıyor",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "TOBB Nefes Kredisi'nde yeni dilim 3 Kasım'da başlıyor, firma başına limit 5 milyon TL"
+    },
+    {
+     "s": "haberler",
+     "hl": "TOBB Nefes Kredisi'nde yeni dilimle firma başına limit 5 milyon liraya çıktı"
+    },
+    {
+     "s": "aa",
+     "hl": "TOBB Nefes Kredisi'nde yeni dilim başvuruları 3 Kasım'da başlayacak"
+    },
+    {
+     "s": "diken",
+     "hl": "'Nefes kredisi' başvuruları başlıyor: Limit 5 milyon liraya çıktı"
+    },
+    {
+     "s": "mynet",
+     "hl": "TOBB Nefes Kredisi başvuruları 3 Kasım'da başlıyor: 50 milyar TL destek - Finans haberlerinin doğru adresi"
+    },
+    {
+     "s": "ntv",
+     "hl": "TOBB Nefes Kredisi'nde başvurular 3 Kasım'da başlıyor"
+    },
+    {
+     "s": "haberturk",
+     "hl": "TOBB Nefes Kredisi yeniden başlıyor"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "TOBB Nefes Kredisi'nde yeni dilim başvuruları 3 Kasım'da başlayacak"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "TOBB Nefes Kredisi başvuruları başladı mı, ne zaman başlayacak? Toplam limit ne kadar? İşte başvuru şartları ve tarihleri"
+    },
+    {
+     "s": "takvim",
+     "hl": "TOBB Nefes Kredisi başvuruları 3 Kasım'da başlıyor! 5 milyon TL kredi için şartlar neler, hangi bankalar veriyor?"
+    },
+    {
+     "s": "birgun",
+     "hl": "2026 TOBB Nefes Kredisi Başvuruları: Başvuru Şartları Neler, Başvurular Ne Zaman ve Nasıl Yapılır?"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "2026 TOBB Nefes Kredisi başvuruları başladı mı? TOBB Nefes Kredisi başvurusu nasıl yapılır?"
+    },
+    {
+     "s": "milligazete",
+     "hl": "TOBB Nefes Kredisi başvuru ekranı 2026! Nereden başvurulur, hangi belgeler gerekli, kimler alabilir, faiz ne kadar?"
+    },
+    {
+     "s": "karar",
+     "hl": "2026 TOBB Nefes Kredisi başvurusu başladı mı? 5 Milyon TL için faiz oranları, vade sayısı ve anlaşmalı bankalar hangileri?"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "TOBB Nefes Kredisi yeniden başladı! TOBB Nefes Kredisi nedir, hangi bankalar sunuyor?"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Milyonlarca KOBİ bekliyordu! TOBB Nefes Kredisi'ne başvurular başladı: İşte şartlar"
+    }
+   ]
+  },
+  {
+   "event": "s5432",
+   "week": "w10",
+   "title": "Mersin'deki 19 yıllık 'mumya ceset' cinayetinde 6 gözaltı, 3 şüpheli tutuklandı",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Mersin'de 'mumya ceset' cinayetinde 19 yıl sonra 6 şüpheli gözaltına alındı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Mersin'de 19 yıllık mumya ceset cinayeti çözüldü: Altın ve parayı paylaşıp Sefer'i gömmüşler!"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Mersin'de 'mumya ceset' cinayetinde kan donduran itiraf: Buzdolabına sığmayınca..."
+    },
+    {
+     "s": "tgrt",
+     "hl": "Mersin'de 19 yıllık 'Mumya ceset' cinayetinde kan donduran detay: Buzdolabına sığmayınca bacaklarını kesmişler"
+    },
+    {
+     "s": "haberturk",
+     "hl": "19 yıllık 'mumya ceset' cinayetinde kan donduran itiraf!"
+    },
+    {
+     "s": "haberler",
+     "hl": "Mersin'de 19 yıllık 'mumya ceset' dosyasında 6 şüpheli gözaltına alındı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "'Mumya ceset’ cinayetinde korkunç iddialar: 'Buzdolabına sığmayınca parçalamışlar'"
+    },
+    {
+     "s": "ntv",
+     "hl": "\"Mumya ceset\" cinayetinde 19 yıl sonra itiraf. Buzdolabına sığmayınca parçalamışlar"
+    },
+    {
+     "s": "aksam",
+     "hl": "19 yıllık \"mumya ceset\" cinayetinde kan donduran itiraf: Buzdolabına sığmayınca bacaklarını kesmişler"
+    },
+    {
+     "s": "mynet",
+     "hl": "Mersin'deki 'mumya ceset’ cinayetinde namus meselesi iddiası"
+    },
+    {
+     "s": "sabah",
+     "hl": "19 yıllık ‘mumya ceset’ cinayeti çözüldü"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Mersin'deki Mumya Ceset cinayetinde 19 yıl sonra yeni gelişme! Savcılık ifadeleri ortaya çıktı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "19 yıllık 'mumya ceset' cinayetinde yeni gelişme: 3 kişi tutuklandı"
+    },
+    {
+     "s": "karar",
+     "hl": "Mersin'deki 'mumya ceset' cinayetinde 19 yıl sonra yeni gelişme: 3 kişi tutuklandı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Mersin'deki 'mumya ceset’ cinayetinde 3 tutuklama"
+    },
+    {
+     "s": "akit",
+     "hl": "Mersin'deki 19 yıllık 'mumya ceset' cinayetinde 6 gözaltı, 3 şüpheli tutuklandı"
+    }
+   ]
+  },
+  {
+   "event": "s5642",
+   "week": "w10",
+   "title": "İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "İlyas Yalçıntaş imza yükümlülüğüyle tahliye edildi, duruşma 15 Aralık'a ertelendi"
+    },
+    {
+     "s": "onedio",
+     "hl": "İlyas Yalçıntaş Hakkında Tahliye Kararı Verildi"
+    },
+    {
+     "s": "haberler",
+     "hl": "Şarkıcı İlyas Yalçıntaş uyuşturucu davasında adli kontrolle tahliye edildi"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Uyuşturucu ticareti suçlamasıyla yargılanan İlyas Yalçıntaş tahliye edildi: Tutuksuz yargılanacak"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş hakkında yeni gelişme!"
+    },
+    {
+     "s": "birgun",
+     "hl": "Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş'ın tahliyesine karar verildi"
+    },
+    {
+     "s": "mynet",
+     "hl": "Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş için tahliye kararı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Uyuşturucu davasında İlyas Yalçıntaş'a tahliye kararı! Mahkemede dikkat çeken itiraf"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Şarkıcı İlyas Yalçıntaş'a tahliye kararı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "İlyas Yalçıntaş hakkında mahkeme kararını verdi"
+    },
+    {
+     "s": "ntv",
+     "hl": "Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Şarkıcı İlyas Yalçıntaş için karar verildi! 4 aydır cezaevindeydi"
+    },
+    {
+     "s": "karar",
+     "hl": "Şarkıcı İlyas Yalçıntaş tahliye edildi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Uyuşturucu davasında yargılanıyordu! İlyas Yalçıntaş hakkında karar verildi"
+    },
+    {
+     "s": "diken",
+     "hl": "Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı"
+    }
+   ]
+  },
+  {
+   "event": "s5198",
+   "week": "w10",
+   "title": "Kasım ayı kira artış oranı belli oldu",
+   "headlines": [
+    {
+     "s": "aksam",
+     "hl": "2026 Kasım kira artış oranı ne zaman, saat kaçta açıklanacak?"
+    },
+    {
+     "s": "haberler",
+     "hl": "Kasım ayı kira artış oranı 2026: Kasım ayında kiralara ne kadar zam gelecek? Kira artış oranı ne zaman, saat kaçta açıklanacak?"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "KASIM AYI KİRA ARTIŞ ORANI SON DURUM! Kasım ayı kira zammı ne kadar, yüzde kaç olacak? Konut, iş yeri kira oranı hesaplama"
+    },
+    {
+     "s": "birgun",
+     "hl": "Kasım Ayı Kira Artış Oranı Ne Zaman Açıklanacak? 2026 Kasım Ayı Kira Zammı Tahmini Yüzde Kaç?"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Kasım ayı kira zam oranı ne zaman açıklanacak? Kasım 2026 kira zammı nasıl hesaplanır? 10 bin TL kira kaç lira olacak?"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "KASIM AYI KİRA ARTIŞ ORANI 2026 | Kasım ayında kiralara ne kadar zam gelecek, TÜİK kira zammı ne olacak?"
+    },
+    {
+     "s": "haberturk",
+     "hl": "TEFE TÜFE TÜİK Kira artış oranı ne zaman açıklanacak? 2026 Kasım kira artış zammı ne kadar, kaç TL olacak?"
+    },
+    {
+     "s": "takvim",
+     "hl": "Kasım ayı kira artış oranı belli oluyor: Konut ve iş yeri sahiplerini ilgilendiren resmi takvim"
+    },
+    {
+     "s": "sabah",
+     "hl": "2026 Kasım kira artış oranı ne zaman açıklanacak, ne kadar olacak? Kira artış oranı hesaplama"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Kira artış oranı saat kaçta açıklanacak? Gözler Kasım ayı kira zam oranında"
+    },
+    {
+     "s": "mynet",
+     "hl": "Kasım kira artış oranı belli oldu! Ev sahibi ve kiracılar için rakam netleşti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika... Kasım ayı kira zam oranı belli oldu"
+    },
+    {
+     "s": "ntv",
+     "hl": "Kasım ayı kira zam oranı belli oldu. Ev sahibi ve kiracılar dikkat"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Kira artış oranı hesaplama Kasım 2026! Kasım ayı kira artış oranı yüzde kaç oldu? 2026 Kasım ayı kira zammı hesaplama"
+    },
+    {
+     "s": "onedio",
+     "hl": "Ekim Ayı Enflasyonu Açıklandı, Kasım Ayı Kira Zam Oranı Belli Oldu"
+    },
+    {
+     "s": "karar",
+     "hl": "Kasım ayı kira zam oranı belli oldu"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Ev sahibi ve kiracılar dikkat! 2026 Kasım ayı kira artış oranı belli oldu: İşte örnek zam hesabı"
+    },
+    {
+     "s": "akit",
+     "hl": "Milyonlarca kişi açıklanmasını bekliyordu! Kasım ayı kira artış oranları belli oldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "TÜİK eylül ayı enflasyon verilerini açıkladı: Kasım ayı kira artış oranı belli oldu"
+    }
+   ]
+  },
+  {
+   "event": "s5237",
+   "week": "w10",
+   "title": "Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Fenerbahçe tribün liderine silahlı eylem hazırlığı iddiasıyla 5 şüpheli yakalandı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Kamuoyunda \"Daltonlar\" olarak bilinen silahlı suç örgütüne yönelik yürütülen soruşturma kapsamında, Fenerbahçe tribün lideri Cem Gölbaşı’na yönelik silahlı eylem hazırlığında oldukları değerlendirilen 5 şüpheli yakalandı."
+    },
+    {
+     "s": "karar",
+     "hl": "Cem Gölbaşı'na saldırı hazırlığı iddiası: 4 şüpheli yakalandı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Cem Gölbaşı'na saldırı hazırlığında olan 4 kişi yakalandı! Silahlar ele geçirildi"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son Dakika... Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı eylem hazırlığı: 5 kişi yakalandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Fenerbahçe tribün liderine saldırı hazırlığı! Daltonlar soruşturmasında 5 gözaltı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı saldırı planı! Daltonlar'ın 5 şüphelisi yakalandı"
+    },
+    {
+     "s": "sabah",
+     "hl": "Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı'na suikast hazırlığı! Hücre evine operasyon: Uzun namlulu silah, 200 fişek..."
+    },
+    {
+     "s": "takvim",
+     "hl": "Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast planı! 5 şüpheli yakalandı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast hazırlığı: 5 kişi yakalandı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Daltonlar’dan Fenerbahçe tribün liderine suikast hazırlığı: 5 şüpheli yakalandı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Fenerbahçe tribün liderine saldırı hazırlığı. Daltonlar çetesi üyesi 5 şüpheli yakalandı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Cem Gölbaşı’na saldırı hazırlığındaki Daltonlar üyesi dört şüpheli yakalandı"
+    },
+    {
+     "s": "akit",
+     "hl": "“Daltonlar” operasyonunda 5 gözaltı! GFB lideri Cem Gölbaşı’na saldırı hazırlığı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Gölbaşı'na saldırı düzenleyeceklerdi: Daltonlar örgütünden 5 şüpheli yakalandı"
+    },
+    {
+     "s": "birgun",
+     "hl": "Fenerbahçe tribün liderine saldırı hazırlığı soruşturmasında Daltonlar mensubu 5 kişi yakalandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı saldırı hazırlığı! Daltonlar operasyonunda 5 gözaltı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "'Daltonlar'dan Fenerbahçe tribün liderine suikast girişimi"
+    }
+   ]
+  }
+ ]
+}

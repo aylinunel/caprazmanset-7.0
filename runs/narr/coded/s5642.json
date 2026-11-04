@@ -1,0 +1,20 @@
+{"q": {"happened": "Uyuşturucu davasında tutuklu yargılanan şarkıcı İlyas Yalçıntaş adli kontrolle tahliye edildi; duruşma 15 Aralık'a ertelendi.", "agree": "Mahkemenin Yalçıntaş hakkında tahliye kararı verdiği ortak.", "differ": "cumhuriyet, birgun, haberturk, ntv, karar, diken ve onedio yalnızca tahliye kararını aktarıyor; haberler, takvim, sozcu, hurriyet, mynet, turkiyegz, yenisafak ve ahaber uyuşturucu suçlamasını başlığa taşıyor, takvim 'uyuşturucu ticareti' diyor; sondakika ve haberler adli kontrol şartını, aksam 4 aylık tutukluluğu, turkiyegz 'dikkat çeken itiraf'ı öne çıkarıyor; tgrt, sozcu, aksam ve ahaber kararın ne olduğunu başlıkta söylemiyor.", "care": "Suçlamanın (özellikle 'ticaret') başlıkta yer alması tahliyeye rağmen kişiyi suçla özdeşleştirirken, kararı gizleyen başlıklar haberi tıklama merakına dönüştürüyor."}, "rows": [
+{"s": "sondakika", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "Adli kontrol", "moral": "", "start": ""},
+{"s": "onedio", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Uyuşturucu davası", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "Adli kontrol", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Uyuşturucu davası", "hero": "İlyas Yalçıntaş", "blame": "İlyas Yalçıntaş", "cause": "Uyuşturucu ticareti", "cons": "Tahliye", "aff": "", "sol": "Tutuksuz yargılama", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Uyuşturucu davası", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "Uyuşturucu soruşturması"},
+{"s": "birgun", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "hurriyet", "frame": "Uyuşturucu davası", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": "Uyuşturucu soruşturması"},
+{"s": "mynet", "frame": "Uyuşturucu davası", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": "Uyuşturucu soruşturması"},
+{"s": "turkiyegz", "frame": "Uyuşturucu davası", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Uyuşturucu davası", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "4 aylık tutukluluk"},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Uyuşturucu davası", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Olgu aktarımı", "hero": "İlyas Yalçıntaş", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

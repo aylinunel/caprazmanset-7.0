@@ -5837,7 +5837,7 @@ function checklistSection() {
     '<p class="sub">Yanlılık saptadığını söyleyen bir aracın, nerede sınandığını ve ' +
     "nerede başarısız olduğunu da söylemesi gerekir. Aşağıdaki " + C.total +
     " vaka, kardeş proje <b>Mercek</b>'in Türkçe davranış testi dizisinden geliyor ve " +
-    "kural motoru her yayından önce bunlara karşı çalıştırılıyor.</p>";
+    "sitenin kendi başlık puanlayıcısı her yapıda bunlara karşı yeniden çalıştırılıyor.</p>";
 
   h += '<div class="grid g3" style="margin-bottom:20px">' +
     '<div class="card" style="border-left:3px solid var(--ok)">' +
@@ -5888,17 +5888,13 @@ function checklistSection() {
         esc(c.keys || "—") + "</td></tr>";
     }).join("") + "</tbody></table></div>";
 
-  h += '<div class="note" style="margin-top:14px"><b>Bu testler motoru değiştirdi.</b> ' +
-    "İlk çalıştırmada dört vaka başarısız oldu ve hepsi gerçek kusurlara işaret " +
-    "ediyordu: “vatandaşın cebine darbe” gibi ders kitabı örneği bir yüklü başlık " +
-    "hiç saptanmıyordu, nedensellik iddiası için kural yoktu, alıntı içindeki dil " +
-    "tümüyle görünmezdi ve 60 karakterden uzun bir alıntı kurumun kendi cümlesi " +
-    "sayılıyordu. Dördü de düzeltildi. Düzeltme sırasında ayrıca sözlük eşleştirmesinin " +
-    "kelime sınırı gözetmediği ortaya çıktı: “onlar” kalıbı <b>milyonların</b>, " +
-    "<b>şampiyonlar</b> ve <b>fonlarında</b> içinde eşleşiyor, bu dönemdeki haberlerde 37 " +
-    "in-group-bias saptamasının 30'unu uyduruyordu. Bunlar artık bu dönemdeki haberlerden kalktı." +
+  var failed = C.cases.filter(function (c) { return c.verdict === "FAIL"; });
+  h += '<div class="note" style="margin-top:14px"><b>Bu çalıştırmada ' + (failed.length ? failed.length + " vaka başarısız.</b> " +
+      failed.map(function (c) { return esc(CAP[c.capability] || c.capability) + (c.why ? " (" + esc(c.why) + ")" : ""); }).join(", ") +
+      ". Başarısız vaka, puanlayıcının sözlüğünün o ifadeyi kapsamadığını ya da kavram için kuralı olmadığını gösterir; düzeltilene kadar burada kalır." :
+      "başarısız vaka yok.</b>") +
     '<br><span class="mono" style="font-size:11.5px;color:var(--muted)">Kaynak: ' +
-    esc(C.source) + " · son çalıştırma " +
+    esc(C.source) + (C.engine ? " · motor " + esc(C.engine) : "") + " · son çalıştırma " +
     esc(String(C.ran).slice(0, 16).replace("T", " ")) + " UTC</span></div>";
   return h + "</section>";
 }
@@ -6182,7 +6178,8 @@ function pgBias(q) {
           '<b style="font-size:15px">' + esc(f.en) + "</b>" +
           '<span style="color:var(--muted);font-size:13px">' + esc(f.tr) + "</span></div>" +
           '<p style="margin-top:8px;font-size:13.5px;color:var(--ink2);line-height:1.6">' + esc(f.df) + "</p>" +
-          (f.ex ? '<p style="margin-top:9px;font-size:13px;color:var(--muted);border-left:2px solid var(--line2);padding-left:10px">' + esc(f.ex) + "</p>" : "") +
+          '<p style="margin-top:9px;font-size:13px;color:var(--muted);border-left:2px solid var(--line2);padding-left:10px">' +
+            '<span class="eyebrow">' + esc(WIN.range) + "</span><br>" + formEx7(f) + "</p>" +
           (f.det ? '<p style="margin-top:9px;font-size:12.5px"><span class="eyebrow">Nasıl saptanır</span><br>' + esc(f.det) + "</p>" : "") +
           "</div>";
       });
@@ -6291,8 +6288,8 @@ function pgBias(q) {
       }).join("") + "</tbody></table></div>" +
       '<div class="note" style="margin-top:12px">Bu tablo, hangi iddianın hangi ' +
       "çalışmadan geldiğini gösterir. Bu sitede üretilen sayılar — yoğunluk puanları, " +
-      "kapsama oranları, yapı sıklıkları — <b>bu çalışmalardan gelmez</b>; 1–8 Eylül 2026 " +
-      "bu dönemdeki haberlerden hesaplanır. İkisi karıştırılmamalıdır.</div></section>";
+      "kapsama oranları, yapı sıklıkları — <b>bu çalışmalardan gelmez</b>; " + WIN.range + " " +
+      "dönemindeki haberlerden hesaplanır. İkisi karıştırılmamalıdır.</div></section>";
   }
   return h + "</div>";
 }
@@ -7607,7 +7604,7 @@ function openBias(key, hit) {
   } else if (ex) {
     h += "<p>Yukarıdaki haber bu yapının bu dönemdeki haberlerde en güçlü örneğidir.</p>";
   } else {
-    h += "<p>Bu yapı için 1–8 Eylül 2026 bu dönemdeki haberler arasında örnek yok" +
+    h += "<p>Bu yapı için " + WIN.range + " dönemindeki haberler arasında örnek yok" +
       (tier === "detected" ? " — kural bu pencerede hiç tetiklenmedi." :
         ". Otomatik saptanmadığı için bu dönemdeki haberlerden örnek eşleştirilmiyor.") +
       " Buraya uydurma bir örnek konmuyor.</p>";
@@ -8628,7 +8625,8 @@ function pgNarrative(q) {
     "<h1>Aynı olay, farklı hikâye</h1>" +
     '<p class="lede">Yüklü dil yoğunluğu bir başlığın ne kadar yüklü olduğunu ölçer. Anlatı haritası başka bir ' +
     "şey sorar: kurum bu olayı <b>hangi hikâyenin parçası</b> sayıyor? Burada yalnızca kurumların " +
-    "<b>en az iki boyutta</b> belirgin biçimde ayrıştığı olaylar var: elle ve makine desteğiyle kodlanan dönemde (1 Eylül – 10 Ekim) kodlanan " + pool +
+    "<b>en az iki boyutta</b> belirgin biçimde ayrıştığı olaylar var: " + (weeks.length ? weeks[0].l.split(/[–-]/)[0].trim() + " " + weeks[0].l.split(" ").pop() + " – " + weeks[weeks.length - 1].l.split(/[–-]/).pop().trim() : "") +
+    " döneminde kodlanan " + pool +
     " olaydan " + shown + " tanesi. Her olayda yalnızca gerçekten ayrışılan boyutlar çiziliyor.</p></div>";
   /* week strip: overview first, then weeks, v1 archive last */
   var strip = [{ k: "all", l: "Tüm haftalar", n: shown + " olay" }].concat(weeks.map(function (w) {
@@ -8665,7 +8663,8 @@ function pgNarrative(q) {
   h += '<div class="note warn" style="margin-top:22px"><b>Kodlama.</b> ' +
     (isV1 ? "1–8 Eylül arşivi: dört olay elle, diğerleri makine desteğiyle kodlandı; burada yalnızca en az beş " +
       "kurumu olan ve iki boyutta ayrışan olaylar gösteriliyor. " :
-      "Başlıklardan, tek kodlayıcıyla elle kodlandı; boş hücre “başlıkta yok” demektir. Seçim kuralı ve ölçüt için " +
+      (W.coded === "agent" ? "Başlıklardan otomatik kodlandı (Claude ajanı, insan denetimi yok); aynı şema ve seçim kuralı. " :
+        "Başlıklardan, tek kodlayıcıyla elle kodlandı. ") + "Boş hücre “başlıkta yok” demektir. Seçim kuralı ve ölçüt için " +
       '<a class="lnk" href="#/yontem?s=6">Yöntem § 6</a>. ') +
     "Seçili haftada " + coded + " kurum-satırı. Bir <b>örnek</b>tir, genelleme değil.</div>";
   return h + v5NarrAuto() + "</div>";
@@ -9122,7 +9121,7 @@ function advWeekLines() {
   var Y = function (v) { return h - pb - (h - pt - pb) * v / max; };
   var s = svg(w, h);
   [0, max / 2, max].forEach(function (v) { rule(s, pl, w - pr, Y(v)); tx(s, pl - 6, Y(v) + 4, "%" + Math.round(100 * v), { role: "val", anchor: "end", size: 10 }); });
-  wk.forEach(function (x, i) { tx(s, X(i), h - pb + 18, x.l.replace(" Eylül", " Eyl").replace(" Ekim", " Eki"), { role: "val", anchor: "middle", size: 9.5 }); });
+  wk.forEach(function (x, i) { tx(s, X(i), h - pb + 18, x.l.replace(" Eylül", " Eyl").replace(" Ekim", " Eki").replace(" Kasım", " Kas"), { role: "val", anchor: "middle", size: 9.5 }); });
   var d = th.map(function (t, i) { return { i: i, d: wk[wk.length - 1].sh[i] - wk[0].sh[i] }; });
   var up = d.slice().sort(function (a, b) { return b.d - a.d; })[0].i;
   var labY = [];
@@ -9260,7 +9259,10 @@ function methodPaper() {
     "<h3>6.1 Kodlama şeması</h3><p>Her kurumun bir olaydaki başlığı dokuz boyutta kodlanmıştır. Boyutlar, Entman’ın (1993) çerçevenin " +
     "dört işlevi (sorun tanımı, nedensel yorum, ahlaki değerlendirme, çözüm önerisi) ile Anlatı Politika Çerçevesi’nin karakter " +
     "kategorilerinden (kahraman, kötü, kurban; Shanahan vd., 2018) türetilmiştir (Şekil 3). Kodlama başlık düzeyinde ve tek kodlayıcıyla " +
-    "yapılmıştır; başlığın desteklemediği boyut boş bırakılmış, boş hücre “başlıkta yok” olarak yorumlanmıştır.</p>" +
+    "yapılmıştır; başlığın desteklemediği boyut boş bırakılmış, boş hücre “başlıkta yok” olarak yorumlanmıştır. " +
+    (function () { var ag = NW.filter(function (w) { return w.coded === "agent"; });
+      return ag.length ? ag.map(function (w) { return w.l; }).join(", ") + " haftaları aynı şemayla bir Claude ajanı tarafından otomatik kodlanmıştır; " +
+        "bu haftalarda insan kodlayıcı yoktur ve elle kodlanan haftalarla kodlayıcılar arası uyum ölçülmemiştir." : ""; })() + "</p>" +
     '<figure class="fig" style="margin-top:20px">' + diaScheme() + '<figcaption class="fig-take">Şekil 3. Dokuz boyutun kuramsal kaynakları.</figcaption></figure>' +
     "<h3>6.2 Örneklem</h3><p>Her hafta için (i) en çok kurumun verdiği 10 olay ve (ii) kapsama sıralamasında 11–40. sıradaki olaylar " +
     "arasından, kurumlar arası puan farkı ile başlıkların sözcük örtüşmesizliğinin (1 − ortalama Jaccard) toplamına göre ön elemeden " +
@@ -11456,6 +11458,60 @@ function bg7Method(sec) {
     '<a class="lnk" href="#/bulgular?t=bilissel">Sonuçlar →</a></p>';
 }
 
+
+/* 7.0: each production-stage card shows what this window's data says about that form, recomputed on
+   every build. Forms headlines cannot measure say so instead of carrying an old hand-written anecdote. */
+var FORMEX7 = {};
+function formEx7(f) {
+  if (FORMEX7[f.k] != null) return FORMEX7[f.k];
+  var act = function (s) { return ACT5.indexOf(s) >= 0; }, pc = function (x) { return "%" + Math.round(100 * x); };
+  var sides = ["left", "mid", "right"], out = "";
+  if (f.k === "event-selection") {
+    var bs = D.E.filter(function (e) { return e.bs; }), e0 = bs.slice().sort(function (a, b) { return b.s.length - a.s.length; })[0];
+    out = D.E.length.toLocaleString("tr") + " olaydan " + bs.length + " tanesi kör nokta kuralını karşılıyor" + (e0 ? ". En geniş olanı “" +
+      esc(storyLabel(e0, 80)) + "”: " + e0.s.length + " kurum verdi; sol " + e0.cov[0] + ", merkez " + e0.cov[1] + ", sağ " + e0.cov[2] + " kurum." : ".");
+  } else if (f.k === "source-selection") {
+    var q = {}, n = {};
+    D.A.forEach(function (a) { if (!a.p || !act(a.s)) return; var sd = bloc(a.s); n[sd] = (n[sd] || 0) + 1; if (/[“”"‘’']/.test(a.t)) q[sd] = (q[sd] || 0) + 1; });
+    out = "Başlıklar kaynağı çoğu zaman adlandırmaz; en yakın ölçü, tırnaklı alıntı taşıyan siyasi başlıkların payı: " +
+      sides.filter(function (s) { return n[s]; }).map(function (s) { return SIDE[s].toLocaleLowerCase("tr") + " " + pc((q[s] || 0) / n[s]); }).join(", ") + ".";
+  } else if (f.k === "commission-omission") {
+    var GP = (V5.gap || {}).outlets || {}, ks = Object.keys(GP).filter(act).sort(function (a, b) { return GP[b].cooler - GP[a].cooler; });
+    out = ks.length ? "Spotu başlığından belirgin biçimde daha yüklü olan haberlerin payı (yüklü bilgi başlığa taşınmamış): en yüksek " +
+      esc(srcName(ks[0])) + " " + pc(GP[ks[0]].cooler) + ", en düşük " + esc(srcName(ks[ks.length - 1])) + " " + pc(GP[ks[ks.length - 1]].cooler) + "." : "Spot verisi yok.";
+  } else if (f.k === "labeling" || f.k === "word-choice") {
+    if (f.k === "labeling") {
+      var c = {}, by = {};
+      D.A.forEach(function (a) { (a.e || []).forEach(function (x) { String(x[1] || "").split(/,\s*/).forEach(function (w) {
+        w = w.trim().toLocaleLowerCase("tr"); if (w.length < 4) return; c[w] = (c[w] || 0) + 1; (by[w] || (by[w] = {}))[a.s] = (by[w][a.s] || 0) + 1; }); }); });
+      var top = Object.keys(c).sort(function (a, b) { return c[b] - c[a]; }).slice(0, 3);
+      out = "Dönemin en sık işaretlenen yüklü sözcükleri ve onları en çok kullanan kurum: " + top.map(function (w) {
+        var s0 = Object.keys(by[w]).sort(function (a, b) { return by[w][b] - by[w][a]; })[0];
+        return "“" + esc(w) + "” (" + c[w].toLocaleString("tr") + " başlık; en çok " + esc(srcName(s0)) + ")"; }).join(", ") + ".";
+    } else {
+      var e1 = D.E.filter(function (e) { return e.s.length >= 8; }).sort(function (a, b) { return b.p - a.p; })[0];
+      var as = e1 ? e1.a.map(function (i) { return ART[i]; }).filter(Boolean).sort(function (a, b) { return a.v - b.v; }) : [];
+      out = as.length ? "En geniş yoğunluk aralığı (" + e1.p + " puan) “" + esc(storyLabel(e1, 70)) + "” olayında: “" + esc(as[0].t) + "” (" +
+        esc(srcName(as[0].s)) + ", " + as[0].v + ") ile “" + esc(as[as.length - 1].t) + "” (" + esc(srcName(as[as.length - 1].s)) + ", " + as[as.length - 1].v + ")." : "";
+    }
+  } else if (f.k === "story-placement") {
+    var LL = (V5.leadLag || {}).outlets || {}, ls = Object.keys(LL).filter(act).sort(function (a, b) { return LL[b].firstShare - LL[a].firstShare; });
+    out = ls.length ? "Sayfa düzeni verisi yok; zaman tarafı ölçülüyor. Olayı ilk veren olma payı: en yüksek " + esc(srcName(ls[0])) + " " +
+      pc(LL[ls[0]].firstShare) + ", en düşük " + esc(srcName(ls[ls.length - 1])) + " " + pc(LL[ls[ls.length - 1]].firstShare) + "." : "";
+  } else if (f.k === "size-allocation") {
+    var best = null;
+    D.E.forEach(function (e) { var k = {}; e.a.forEach(function (i) { var a = ART[i]; if (a) k[a.s] = (k[a.s] || 0) + 1; });
+      Object.keys(k).forEach(function (s) { if (!best || k[s] > best.n) best = { e: e, s: s, n: k[s], m: median5(Object.keys(k).map(function (x) { return k[x]; })) }; }); });
+    out = best ? "Manşet alanı ölçülmüyor; en yakın ölçü bir olaya ayrılan başlık sayısı. En çok: " + esc(srcName(best.s)) + ", “" +
+      esc(storyLabel(best.e, 70)) + "” olayına " + best.n + " başlık ayırdı (olayı veren kurumların ortancası " + best.m + ")." : "";
+  } else if (f.k === "spin") {
+    var sv = {}, sn = {};
+    D.A.forEach(function (a) { if (!a.p || !act(a.s)) return; var sd = bloc(a.s); sv[sd] = (sv[sd] || 0) + a.v; sn[sd] = (sn[sd] || 0) + 1; });
+    out = "Aşamaların toplamı tek bir sayıya inmez; en yakın özet, siyasi başlıklarda ortalama yüklü dil yoğunluğu: " +
+      sides.filter(function (s) { return sn[s]; }).map(function (s) { return SIDE[s].toLocaleLowerCase("tr") + " " + (sv[s] / sn[s]).toFixed(1); }).join(", ") + ".";
+  }
+  return (FORMEX7[f.k] = out || "Bu sitenin verisinde (başlık, spot, zaman) karşılığı yok; bu dönem için ölçülmedi.");
+}
 /* The measures are exposed for inspection. This is a research tool: anyone
    who wants to check a published number should be able to recompute it in the
    console against the same data the page used, rather than take it on trust. */

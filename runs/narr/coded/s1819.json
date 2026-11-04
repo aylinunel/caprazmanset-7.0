@@ -1,0 +1,14 @@
+{"q": {"happened": "Ağrı'da pancar yüklü bir tır ile otomobil çarpıştı; otomobildeki 4 kişi hayatını kaybetti.", "agree": "Tır ile otomobilin çarpıştığı ve 4 kişinin öldüğü ortak.", "differ": "star, tgrt, haberturk, turkiyegz, ahaber ve sabah 'feci', 'katliam gibi', 'can pazarı' gibi dramatik ifadeler kullanırken yenisafak, trthaber, ntv, takvim ve karar olguyu sade aktarıyor; karar 1 yaralıyı ekliyor; cumhuriyet'in başlığı ise Nevşehir'de 2 ölümlü farklı bir kazaya ait.", "care": "Dramatik dil kazayı bir trajedi olarak sunup duygusal etkiyi artırırken sade başlıklar kazayı rutin bir olgu olarak bırakıyor; cumhuriyet'in başlığı olayın kendisiyle eşleşmiyor."}, "rows": [
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "2 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "Otomobildekiler", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "Otomobildekiler", "sol": "", "moral": "", "start": ""}
+]}

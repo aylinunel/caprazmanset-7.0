@@ -1,0 +1,1338 @@
+{
+ "dimensions": {
+  "frame": "Çerçeve",
+  "hero": "Merkezdeki aktör",
+  "blame": "Sorumlu tutulan",
+  "cause": "Sunulan neden",
+  "cons": "Öne çıkan sonuç",
+  "aff": "Etkilenen kesim",
+  "sol": "Meşrulaştırılan çözüm",
+  "moral": "Ahlaki çerçeve",
+  "start": "Hikâyenin başlangıcı"
+ },
+ "examples_from_hand_coded_weeks": [
+  {
+   "q": {
+    "happened": "İçişleri Bakanlığı, Yahşihan Belediyesi'ne yönelik yolsuzluk soruşturması kapsamında Belediye Başkan Vekili Aydın Demirdirek'i görevden uzaklaştırdı.",
+    "agree": "Görevden uzaklaştırma ortak.",
+    "differ": "Soldaki kurumlar Demirdirek'in partisini ('AKP'li') ya da yolsuzluk operasyonunu başlığa taşıyor; sağdaki kurumlar kararı İçişleri Bakanlığı'nın adıyla duyuruyor.",
+    "care": "Bir belediye yöneticisinin partisinin başlıkta yer alıp almaması, yolsuzluk haberlerinin siyasi yükünü belirler; bu olayda partisi yalnızca soldaki bir kurum tarafından anılıyor."
+   },
+   "rows": [
+    {
+     "s": "birgun",
+     "hl": "Yahşihan Belediyesi'ne yönelik yolsuzluk operasyonu: Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Yahşihan Belediyesi Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Siyasi sorumluluk",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "AKP'li başkan vekili",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Hesap verebilirlik",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika...Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Yahşıyan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı - Politika Siyaset Haberleri",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ntv",
+     "hl": "Yahşihan Belediyesi soruşturması. Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Yahşihan Belediye Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yahşihan Belediye Başkan Vekili görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKiKA I İçişleri Bakanlığı duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı!",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Bakanlık duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "Yahşihan’da tutuklama sonrası kritik karar! Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "İçişleri duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "frame",
+    "hero"
+   ]
+  },
+  {
+   "q": {
+    "happened": "Fon soruşturması kapsamında gözaltına alınan gazeteciler Mustafa Balcı ve Şaban Sevinç tutuklandı.",
+    "agree": "Tutuklama ortak.",
+    "differ": "Soldaki kurumlar ikisini 'gazeteci' kimliğiyle ve Balcı'yı Sözcü editörü olarak tanıtıyor; sağdaki kurumlar haberi 'fon soruşturması' ya da 'dezenformasyon' çerçevesine yerleştiriyor; bir kurum 'Fon'daşlar kodese' diye alaycı bir başlık atıyor.",
+    "care": "Tutuklanan kişilerin 'gazeteci' kimliğinin başlıkta olması olayı bir basın özgürlüğü meselesi yapar; 'Fon'daşlar kodese' ifadesi ise kişileri yargı kararından önce bir suç grubunun üyeleri olarak etiketler."
+   },
+   "rows": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı tutuklama talebiyle hakimliğe sevk edildi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı gözaltına alındı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "aydinlik",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sözcü.com.tr editörü Mustafa Balcı ve gazeteci Şaban Sevinç hakkında karar çıktı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı, İsmail Saymaz ve Murat Ağırel'e adli kontrol",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "haberturk",
+     "hl": "Gazeteci Mustafa Balcı ve Şaban Sevinç tutuklandı - Habertürk Son Dakika Haber",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Şaban Sevinç ve Mustafa Balcı hakkında tutuklama talebi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA… Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında dezenformasyon: Şaban Sevinç ve Mustafa Balcı'ya tutuklama talebi",
+     "frame": "Dezenformasyon",
+     "hero": "Savcılık",
+     "blame": "Gazeteciler",
+     "cause": "Dezenformasyon iddiası",
+     "cons": "Tutuklama talebi",
+     "aff": "",
+     "sol": "",
+     "moral": "Doğru bilgi",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Şaban Sevinç fon soruşturmasında tutuklandı! İsmail Saymaz, Murat Ağırel ve Mustafa Balcı ne dedi? Neden gözaltına alındı?",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı, İsmail Saymaz ve Murat Ağırel'e ev hapsi",
+     "frame": "Alay / etiketleme",
+     "hero": "Savcılık",
+     "blame": "'Fon'daşlar'",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "Cezalandırma",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fon soruşturması kapsamında Şaban Sevinç ve Mustafa Balcı tutuklandı! Murat Ağırel ve İsmail Saymaz'a ev...",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "blame",
+    "frame",
+    "moral",
+    "hero"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "event": "s5450",
+   "week": "w10",
+   "title": "AHMET NAZİF ZORLU HAYATINI KAYBETTİ! Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu kimdir, nereli, neden öldü, hastalığı neydi?",
+   "headlines": [
+    {
+     "s": "milligazete",
+     "hl": "Ahmet Nazif Zorlu öldü mü, yaşıyor mu, hastalığı ne, sağlık durumu nasıl?"
+    },
+    {
+     "s": "sondakika",
+     "hl": "İş insanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "haberler",
+     "hl": "İş insanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "onedio",
+     "hl": "Ahmet Nazif Zorlu Kimdir? Ahmet Nazif Zorlu Öldü mü?"
+    },
+    {
+     "s": "mynet",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "tgrt",
+     "hl": "İş insanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu vefat etti!"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "karar",
+     "hl": "İş dünyasının acı kaybı: Ahmet Nazif Zorlu vefat etti"
+    },
+    {
+     "s": "birgun",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Kanser tedavisi görüyordu! İş adamı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "takvim",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "akit",
+     "hl": "İş insanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "diken",
+     "hl": "Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "sabah",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Son dakika... Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "aksam",
+     "hl": "Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "ntv",
+     "hl": "Ahmet Nazif Zorlu yaşamını yitirdi"
+    },
+    {
+     "s": "star",
+     "hl": "Ünlü iş adamından acı haber... Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Ahmet Nazif Zorlu Neden Öldü, Hastalığı Neydi? Ahmet Nazif Zorlu Kimdir, Kaç Yaşındaydı?"
+    },
+    {
+     "s": "aa",
+     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Ahmet Nazif Zorlu vefat etti"
+    }
+   ]
+  },
+  {
+   "event": "s5446",
+   "week": "w10",
+   "title": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı",
+   "headlines": [
+    {
+     "s": "bloomberght",
+     "hl": "Sermaye piyasası işlemleri soruşturmasında Korkmaz Enes Ergun adliyede"
+    },
+    {
+     "s": "birgun",
+     "hl": "Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Fon vurgunu soruşturması: Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama istemi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Fon soruşturmasında Korkmaz Enes Ergun için tutuklama talebi"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi"
+    },
+    {
+     "s": "haberler",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi"
+    },
+    {
+     "s": "karar",
+     "hl": "Fon soruşturması Borsa İstanbul'un yönetimine uzandı: Korkmaz Enes Ergun'a tutuklama talebi"
+    },
+    {
+     "s": "ntv",
+     "hl": "Fon soruşturması. Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi"
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında yeni gelişme... Korkmaz Enes Ergun için tutuklama talebi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi"
+    },
+    {
+     "s": "aksam",
+     "hl": "Sermaye piyasası soruşturması derinleşiyor: Borsa İstanbul eski yöneticisi Enes Ergun'e tutuklama talebi"
+    },
+    {
+     "s": "sabah",
+     "hl": "Fon soruşturmasında yeni gelişme: Korkmaz Enes Ergun tutuklamaya sevk edildi!"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Eski Borsa İstanbul Genel Müdürü Ergun'a tutuklama talebi"
+    },
+    {
+     "s": "diken",
+     "hl": "Eski Borsa İstanbul genel müdürüne tutuklama talebi"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi! Hakimliğe sevk edildi"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı!"
+    },
+    {
+     "s": "onedio",
+     "hl": "Fon Soruşturmasında Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun Tutuklandı"
+    },
+    {
+     "s": "akit",
+     "hl": "Korkmaz Enes Ergun tutuklandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun fon soruşturması kapsamında tutuklandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Korkmaz Enes Ergun tutuklandı: Fon soruşturmasında karar"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Borsa İstanbul Eski Genel Müdürü Korkmaz Enes Ergun Tutuklandı!"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Sermaye piyasası işlemlerine ilişkin soruşturmada Korkmaz Enes Ergun tutuklandı"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "KORKMAZ ENES ERGUN KİMDİR, KAÇ YAŞINDA NERELİ? Borsa İstanbul eski genel müdürü Korkmaz Enes Ergun neden tutuklandı?"
+    }
+   ]
+  },
+  {
+   "event": "s5081",
+   "week": "w10",
+   "title": "Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Borsa İstanbul'da Enes Ergun'un yerine Atila Türeli geldi"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "mynet",
+     "hl": "Son dakika! Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Borsa İstanbul Genel Müdürlüğü'ne Atila Türeli getirildi"
+    },
+    {
+     "s": "haberler",
+     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "akit",
+     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Genel müdürü fon soruşturmasında gözaltına alındı: Borsa İstanbul'un başına 'vekaleten' Atila Türeli getirildi"
+    },
+    {
+     "s": "star",
+     "hl": "Borsa İstanbul Genel Müdürü Atila Türeli oldu"
+    },
+    {
+     "s": "takvim",
+     "hl": "Borsa İstanbul'da yönetim değişikliği! Atila Türeli görevi vekaleten üstlendi"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Borsa İstanbul Genel Müdür Vekilliği görevine Atila Türeli getirildi"
+    },
+    {
+     "s": "birgun",
+     "hl": "Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "sabah",
+     "hl": "Borsa İstanbul A.Ş. Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?"
+    },
+    {
+     "s": "ntv",
+     "hl": "Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
+    },
+    {
+     "s": "diken",
+     "hl": "Borsa İstanbul genel müdürlüğüne Atila Türeli getirildi"
+    },
+    {
+     "s": "karar",
+     "hl": "Fon soruşturmasında gözaltı sonrası Borsa İstanbul’da yönetim değişti: Genel Müdürlüğe Atila Türeli getirildi"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Borsa İstanbul'da görev değişikliği! Enes Ergun'un yerine Atila Türeli atandı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürlüğüne Atila Türeli getirildi"
+    },
+    {
+     "s": "onedio",
+     "hl": "Atila Türeli Kimdir, Kaç Yaşında, Nereli? Borsa İstanbul'un Vekaleten Genel Müdürü Hakkında Bilinenler"
+    }
+   ]
+  },
+  {
+   "event": "s5071",
+   "week": "w10",
+   "title": "Cumhurbaşkanı Erdoğan Güney Kore'de",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor: Nükleer santral inşası, savunma sanayii gündemde"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
+    },
+    {
+     "s": "sabah",
+     "hl": "Başkan Erdoğan'dan Güney Kore'ye kritik ziyaret"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Başkan Erdoğan'dan Güney Kore'ye önemli ziyaret"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor"
+    },
+    {
+     "s": "haberler",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
+    },
+    {
+     "s": "karar",
+     "hl": "Cumhurbaşkanı Erdoğan Güney Kore’ye gidiyor"
+    },
+    {
+     "s": "aksam",
+     "hl": "Seul'den davet: Başkan Erdoğan, Güney Kore'ye gidecek"
+    },
+    {
+     "s": "birgun",
+     "hl": "Erdoğan Güney Kore'ye gidecek"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Cumhurbaşkanı Erdoğan'dan 8 yıl sonra Güney Kore'ye kritik ziyaret! Seul'de anlaşmalar imzalanacak"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Erdoğan 8 yıl sonra Güney Kore'ye gidiyor! Masada 3 kritik konu"
+    },
+    {
+     "s": "ntv",
+     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor"
+    },
+    {
+     "s": "mynet",
+     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'yi ziyaret edecek"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
+    },
+    {
+     "s": "milliyet",
+     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye hareket etti"
+    },
+    {
+     "s": "akit",
+     "hl": "Cumhurbaşkanı Erdoğan Güney Kore’ye gitti"
+    },
+    {
+     "s": "star",
+     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'ye gitti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Erdoğan'ın Güney Kore ziyareti başladı"
+    }
+   ]
+  },
+  {
+   "event": "s5445",
+   "week": "w10",
+   "title": "Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Devlet Bahçeli'nin kız kardeşi hayatını kaybetti"
+    },
+    {
+     "s": "karar",
+     "hl": "Bahçeli'nin acı günü: Ablası Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "haberler",
+     "hl": "Devlet Bahçeli'nin kız kardeşi hayatını kaybetti"
+    },
+    {
+     "s": "sabah",
+     "hl": "MHP Genel Başkanı Devlet Bahçeli'nin acı günü! Kız kardeşi Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "MHP lideri Devlet Bahçeli’nin acı günü! Kardeşi Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli'den acı haber! Başkan Erdoğan'dan taziye"
+    },
+    {
+     "s": "takvim",
+     "hl": "MHP Lideri Devlet Bahçeli’nin acı kaybı! Kız kardeşi Serpil Bahçeli son yolculuğuna uğurlandı: Başkan Erdoğan'dan taziye mesajı"
+    },
+    {
+     "s": "akit",
+     "hl": "Devlet Bahçeli'nin acı günü: Ablası hayatını kaybetti"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "MHP Lideri Bahçeli'nin acı günü.. Kız kardeşi Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "MHP lideri Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "onedio",
+     "hl": "MHP Lideri Devlet Bahçeli'nin Ablası Serpil Bahçeli Hayatını Kaybetti"
+    },
+    {
+     "s": "mynet",
+     "hl": "MHP lideri Devlet Bahçeli'nin acı günü! Ablası hayatını kaybetti"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Devlet Bahçeli'nin acı günü: Kız kardeşi hayatını kaybetti"
+    },
+    {
+     "s": "tgrt",
+     "hl": "MHP Lideri Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "birgun",
+     "hl": "Devlet Bahçeli'nin kız kardeşi yaşamını yitirdi"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Devlet Bahçeli'nin ablası Serpil Bahçeli kim, kiminle evli, mesleği ne? Hiç evlendi mi, çocuğu var mı, nereli?"
+    },
+    {
+     "s": "tele1",
+     "hl": "Devlet Bahçeli'nin acı günü: Kız kardeşi hayatını kaybetti"
+    },
+    {
+     "s": "star",
+     "hl": "MHP lideri Bahçeli'nin acı günü... Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "ntv",
+     "hl": "MHP Genel Başkanı Bahçeli'nin kız kardeşi Serpil Bahçeli vefat etti"
+    },
+    {
+     "s": "trthaber",
+     "hl": "MHP Genel Başkanı Bahçeli'nin kız kardeşi Serpil Bahçeli vefat etti"
+    },
+    {
+     "s": "aksam",
+     "hl": "Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Son dakika haberi: MHP Lideri Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti"
+    }
+   ]
+  },
+  {
+   "event": "s5253",
+   "week": "w10",
+   "title": "Fenerbahçe'nin Yeni Teknik Direktörü Emre Belözoğlu Oldu",
+   "headlines": [
+    {
+     "s": "sozcu",
+     "hl": "Fenerbahçe'nin başına mı geçecek? Emre Belözoğlu açıkladı"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Uçak kalktı geliyor! İşte Fenerbahçe'nin yeni teknik direktörü"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Fenerbahçe'nin yeni teknik direktörü belli oldu: İstanbul'a geliyor"
+    },
+    {
+     "s": "birgun",
+     "hl": "Fenerbahçe’nin yeni teknik direktörü belli oldu iddiası"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Fenerbahçe'nin yeni teknik direktörü belli oldu iddiası: Conceição İstanbul'a davet edildi"
+    },
+    {
+     "s": "onedio",
+     "hl": "Fenerbahçe, Teknik Direktörlük İçin Sergio Conceição ile Anlaştı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Fenerbahçe'de flaş gelişme: Emre Belözoğlu ile anlaşma sağlandı! Conceiçao olmadı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Fenerbahçe teknik direktör SON DAKİKA! Fenerbahçe'nin yeni teknik direktörü kim oldu?"
+    },
+    {
+     "s": "aa",
+     "hl": "Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi"
+    },
+    {
+     "s": "karar",
+     "hl": "Fenerbahçe'de Emre Belözoğlu sürprizi: Görüşmeler başladı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Conceição görüşmeleri tıkandı! Fenerbahçe'de ilk aday Emre Belözoğlu"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fenerbahçe'de Emre Belözoğlu dönemi başladı! Aziz Yıldırım görüştü, anlaşma sağlandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Fenerbahçe yeni teknik direktörünü buldu: Emre Belözoğlu ile anlaşma sağlandı!"
+    },
+    {
+     "s": "akit",
+     "hl": "Fenerbahçe'de bomba gelişme: Emre Belözoğlu ile anlaşma sağlandı"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA HABERİ | Emre Belözoğlu, Fenerbahçe ile anlaştı! Kasımpaşa kararını verdi"
+    },
+    {
+     "s": "ntv",
+     "hl": "Fenerbahçe'de Kocaman ya da Conceiçao derken 2. Emre Belözoğlu dönemi başlıyor"
+    },
+    {
+     "s": "aksam",
+     "hl": "Fenerbahçe'de Emre Belözoğlu dönemi! Yuvaya dönüyor"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Fenerbahçe'nin yeni teknik direktörü Emre Belözoğlu oldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Emre Belözoğlu'na Fenerbahçe öncesi PFDK sevki!"
+    },
+    {
+     "s": "mynet",
+     "hl": "Fenerbahçe'de teknik direktörlük koltuğu Emre Belözoğlu'na emanet!"
+    },
+    {
+     "s": "star",
+     "hl": "Kasımpaşa'da Emre Belözoğlu dönemi resmen sona erdi!"
+    },
+    {
+     "s": "diken",
+     "hl": "Fenerbahçe'de ikinci Emre Belözoğlu dönemi"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi"
+    }
+   ]
+  },
+  {
+   "event": "s5063",
+   "week": "w10",
+   "title": "Galatasaray'da Metin Öztürk istifa etti",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Galatasaray İkinci Başkanı Metin Öztürk, yönetim kurulu üyeliklerinden istifa etti"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Galatasaray'da Metin Öztürk yönetim kurulu görevinden istifa etti!"
+    },
+    {
+     "s": "sabah",
+     "hl": "Son dakika haberi: Galatasaray'da Metin Öztürk, istifa etti!"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Galatasaray'da deprem: İkinci Başkan Metin Öztürk şok iddialarla istifa etti"
+    },
+    {
+     "s": "takvim",
+     "hl": "Toplantıdaki olaylar bardağı taşırdı! Metin Öztürk Galatasaray'daki görevlerinden istifa etti"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Galatasaray'da Metin Öztürk istifa etti: 'Fiili saldırıya dönüşmüş eylemi kabullenemem'"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Galatasaray'da şok karar: İkinci Başkan Metin Öztürk istifa etti"
+    },
+    {
+     "s": "birgun",
+     "hl": "Galatasaray’da İkinci Başkan Metin Öztürk istifa etti"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Galatasaray yönetiminde kriz: Metin Öztürk'ten istifa kararı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Galatasaray'da Metin Öztürk istifa etti"
+    },
+    {
+     "s": "akit",
+     "hl": "Galatasaray'da şok istifa! İkinci başkan Metin Öztürk: Terbiyem el vermez"
+    },
+    {
+     "s": "star",
+     "hl": "Galatasaray'da Metin Öztürk istifa etti"
+    },
+    {
+     "s": "diken",
+     "hl": "Galatasaray ikinci başkanı Metin Öztürk istifa etti"
+    },
+    {
+     "s": "onedio",
+     "hl": "Galatasaray İkinci Başkanı Metin Öztürk İstifa Etti: \"Ölmüş Anneme Hakareti Kabul Edemem\""
+    },
+    {
+     "s": "karar",
+     "hl": "Galatasaray 2’nci Başkanı Metin Öztürk istifa etti"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Galatasaray'da Metin Öztürk istifa etti! Saldırı iddiası"
+    },
+    {
+     "s": "haberler",
+     "hl": "Metin Öztürk kimdir? Galatasaray'ın ikinci başkanı neden istifa etti?"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Metin Öztürk neden istifa etti? Galatasaray İkinci Başkanı"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "METİN ÖZTÜRK NEDEN İSTİFA ETTİ? Galatasaray 2’nci Başkanı Metin Öztürk Kimdir, Kaç Yaşında, Nereli, Ne İş Yapıyor?"
+    },
+    {
+     "s": "mynet",
+     "hl": "Metin Öztürk'ün ardından bir istifa daha! Galatasaray'da Abdullah Kavukcu görevi bıraktı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Galatasaray'da sular durulmuyor! Abdullah Kavukcu da istifa etti"
+    },
+    {
+     "s": "ntv",
+     "hl": "Galatasaray'da istifa krizi. Metin Öztürk'ün ardından Abdullah Kavukcu da istifa etti"
+    }
+   ]
+  },
+  {
+   "event": "s5339",
+   "week": "w10",
+   "title": "Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Google’a yapay zekâ freni! Haber özetlerine 'adil paylaşım' tedbiri"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA! Google'a yapay zeka kıskacı! Rekabet Kurumu duyurdu: Haber özetlerine 'adil paylaşım' tedbiri"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Google yapay zeka hizmetlerine rekabet soruşturması"
+    },
+    {
+     "s": "takvim",
+     "hl": "Google'a yapay zeka soruşturması! Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Google'ın yapay zeka özetlerine 'adil paylaşım' freni: Rekabet Kurumu harekete geçti"
+    },
+    {
+     "s": "birgun",
+     "hl": "Rekabet Kurumu'ndan Google'ın yapay zeka özetleri hakkında geçici tedbir kararı"
+    },
+    {
+     "s": "akit",
+     "hl": "Rekabet Kurumu'ndan Google kararı! Yapay zekâ özetlerine \"adil paylaşım\" tedbiri"
+    },
+    {
+     "s": "haberler",
+     "hl": "Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Rekabet Kurumu'ndan Google'a yapay zeka tedbiri: Adil paylaşım için harekete geçildi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Google'ın yapay zekâ hizmetlerine soruşturma! Rekabet Kurulundan geçici tedbir kararı"
+    },
+    {
+     "s": "aa",
+     "hl": "Rekabet Kurulundan Google'ın yapay zeka hizmetlerine soruşturma ve geçici tedbir kararı"
+    },
+    {
+     "s": "star",
+     "hl": "Google'ın yapay zeka moduna soruşturma"
+    },
+    {
+     "s": "aksam",
+     "hl": "Google'a yapay zeka kıskacı: Haber özetlerine \"adil paylaşım\" tedbiri"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Google'ın yapay zeka hizmetlerine rekabet soruşturması"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Google yapay zeka soruşturması: Rekabet Kurulu tedbir verdi"
+    },
+    {
+     "s": "diken",
+     "hl": "Rekabet Kurumu'ndan Google’ın yapay zeka özetlerine tedbir"
+    },
+    {
+     "s": "milliyet",
+     "hl": "Rekabet Kurulu'ndan Google'ın yapay zeka özelliklerine soruşturma"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Google'ın yapay zeka özetlerine Rekabet Kurumu incelemesi! Haber siteleri için yeni düzenleme gündemde"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Rekabet Kurumu'ndan Google'ın yapay zekâ özetlerine yönelik tedbir kararı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Rekabet Kurulu'ndan Google'a 'geçici tedbir' kararı"
+    }
+   ]
+  },
+  {
+   "event": "s5524",
+   "week": "w10",
+   "title": "Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Konya Hüyük'te yolcu otobüsü şarampole devrildi, 3'ü ağır 45 kişi yaralandı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Antalya-Iğdır seferini yapan yolcu otobüsü Konya'da şarampole devrildi! 45 yaralı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Gece yarısı şarampole yuvarlandı! Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Konya’da yolcu otobüsü şarampole devrildi! 45 yaralı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Konya’da yolcu otobüsü şarampole devrildi: 45 yaralı var"
+    },
+    {
+     "s": "ntv",
+     "hl": "Konya'da yolcu otobüsü devrildi, 45 yaralı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Konya'da yolcu otobüsü devrildi: 45 kişi yaralandı"
+    },
+    {
+     "s": "sabah",
+     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı"
+    },
+    {
+     "s": "aa",
+     "hl": "Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı"
+    },
+    {
+     "s": "karar",
+     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Konya'da yolcu otobüsü devrildi: 45 yaralı"
+    },
+    {
+     "s": "birgun",
+     "hl": "Konya'da yolcu otobüsü devrildi: 3'ü ağır 45 kişi yaralandı"
+    },
+    {
+     "s": "star",
+     "hl": "Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı"
+    },
+    {
+     "s": "akit",
+     "hl": "Konya'da yolcu otobüsü devrildi: Çok sayıda yaralı var!"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Konya'da yolcu otobüsü devrildi; 3'ü ağır 45 yaralı var!"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı, 3'ünün durumu ağır"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Konya'da yolcu otobüsü şarampole yuvarlandı: 45 kişi yaralandı"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
+    }
+   ]
+  }
+ ]
+}

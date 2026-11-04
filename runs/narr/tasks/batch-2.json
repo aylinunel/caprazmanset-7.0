@@ -1,0 +1,1054 @@
+{
+ "dimensions": {
+  "frame": "Çerçeve",
+  "hero": "Merkezdeki aktör",
+  "blame": "Sorumlu tutulan",
+  "cause": "Sunulan neden",
+  "cons": "Öne çıkan sonuç",
+  "aff": "Etkilenen kesim",
+  "sol": "Meşrulaştırılan çözüm",
+  "moral": "Ahlaki çerçeve",
+  "start": "Hikâyenin başlangıcı"
+ },
+ "examples_from_hand_coded_weeks": [
+  {
+   "q": {
+    "happened": "İçişleri Bakanlığı, Yahşihan Belediyesi'ne yönelik yolsuzluk soruşturması kapsamında Belediye Başkan Vekili Aydın Demirdirek'i görevden uzaklaştırdı.",
+    "agree": "Görevden uzaklaştırma ortak.",
+    "differ": "Soldaki kurumlar Demirdirek'in partisini ('AKP'li') ya da yolsuzluk operasyonunu başlığa taşıyor; sağdaki kurumlar kararı İçişleri Bakanlığı'nın adıyla duyuruyor.",
+    "care": "Bir belediye yöneticisinin partisinin başlıkta yer alıp almaması, yolsuzluk haberlerinin siyasi yükünü belirler; bu olayda partisi yalnızca soldaki bir kurum tarafından anılıyor."
+   },
+   "rows": [
+    {
+     "s": "birgun",
+     "hl": "Yahşihan Belediyesi'ne yönelik yolsuzluk operasyonu: Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Yahşihan Belediyesi Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Siyasi sorumluluk",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "AKP'li başkan vekili",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Hesap verebilirlik",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika...Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Yahşıyan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı - Politika Siyaset Haberleri",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ntv",
+     "hl": "Yahşihan Belediyesi soruşturması. Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Yahşihan Belediye Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yahşihan Belediye Başkan Vekili görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKiKA I İçişleri Bakanlığı duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı!",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Bakanlık duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "Yahşihan’da tutuklama sonrası kritik karar! Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "İçişleri duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "frame",
+    "hero"
+   ]
+  },
+  {
+   "q": {
+    "happened": "Fon soruşturması kapsamında gözaltına alınan gazeteciler Mustafa Balcı ve Şaban Sevinç tutuklandı.",
+    "agree": "Tutuklama ortak.",
+    "differ": "Soldaki kurumlar ikisini 'gazeteci' kimliğiyle ve Balcı'yı Sözcü editörü olarak tanıtıyor; sağdaki kurumlar haberi 'fon soruşturması' ya da 'dezenformasyon' çerçevesine yerleştiriyor; bir kurum 'Fon'daşlar kodese' diye alaycı bir başlık atıyor.",
+    "care": "Tutuklanan kişilerin 'gazeteci' kimliğinin başlıkta olması olayı bir basın özgürlüğü meselesi yapar; 'Fon'daşlar kodese' ifadesi ise kişileri yargı kararından önce bir suç grubunun üyeleri olarak etiketler."
+   },
+   "rows": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı tutuklama talebiyle hakimliğe sevk edildi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı gözaltına alındı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "aydinlik",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sözcü.com.tr editörü Mustafa Balcı ve gazeteci Şaban Sevinç hakkında karar çıktı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı, İsmail Saymaz ve Murat Ağırel'e adli kontrol",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "haberturk",
+     "hl": "Gazeteci Mustafa Balcı ve Şaban Sevinç tutuklandı - Habertürk Son Dakika Haber",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Şaban Sevinç ve Mustafa Balcı hakkında tutuklama talebi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA… Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında dezenformasyon: Şaban Sevinç ve Mustafa Balcı'ya tutuklama talebi",
+     "frame": "Dezenformasyon",
+     "hero": "Savcılık",
+     "blame": "Gazeteciler",
+     "cause": "Dezenformasyon iddiası",
+     "cons": "Tutuklama talebi",
+     "aff": "",
+     "sol": "",
+     "moral": "Doğru bilgi",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Şaban Sevinç fon soruşturmasında tutuklandı! İsmail Saymaz, Murat Ağırel ve Mustafa Balcı ne dedi? Neden gözaltına alındı?",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı, İsmail Saymaz ve Murat Ağırel'e ev hapsi",
+     "frame": "Alay / etiketleme",
+     "hero": "Savcılık",
+     "blame": "'Fon'daşlar'",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "Cezalandırma",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fon soruşturması kapsamında Şaban Sevinç ve Mustafa Balcı tutuklandı! Murat Ağırel ve İsmail Saymaz'a ev...",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "blame",
+    "frame",
+    "moral",
+    "hero"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "event": "s1772",
+   "week": "w8",
+   "title": "Zonguldak'ta maden ocağında patlama",
+   "headlines": [
+    {
+     "s": "turkiyegz",
+     "hl": "Zonguldak'ta maden ocağında patlama! 3 ölü, 5 yaralı"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Zonguldak'ta maden ocağında patlama! 3 ölü, 1'i ağır 5 yaralı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Zonguldak'ta maden ocağında grizu patlaması! 3 işçi vefat etti"
+    },
+    {
+     "s": "star",
+     "hl": "Zonguldak'ta maden ocağında patlama: 3 kişi hayatını kaybetti"
+    },
+    {
+     "s": "mynet",
+     "hl": "Son dakika | Zonguldak’ta maden ocağında patlama! Kahreden haber: 3 işçi öldü, 5 yaralı var"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Zonguldak'ta maden ocağında patlama! Ölü ve yaralılar var"
+    },
+    {
+     "s": "ntv",
+     "hl": "Zonguldak'ta maden ocağında patlama. 3 can kaybı"
+    },
+    {
+     "s": "karar",
+     "hl": "Zonguldak'ta maden ocağında patlama: 3 işçi hayatını kaybetti, 4 yaralı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Zonguldak'ta maden ocağından acı haber! İsimleri belli oldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika... Zonguldak'ta maden ocağında patlama: Ölü ve yaralılar var!"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Zonguldak'ta maden ocağında patlama! Can kayıpları var"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Zonguldak'ta maden ocağında patlama"
+    },
+    {
+     "s": "diken",
+     "hl": "Zonguldak'ta maden ocağında patlama: Üç işçi öldü"
+    },
+    {
+     "s": "aa",
+     "hl": "Zonguldak'ta maden ocağındaki grizu patlamasında 3 kişi öldü, 5 kişi yaralandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Zonguldak’ta maden ocağında grizu faciası!"
+    },
+    {
+     "s": "tele1",
+     "hl": "Zonguldak'ta maden ocağında patlama! 3 madenci can verdi, isimleri belli oldu"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Zonguldak maden ocağında grizu patlaması: 3 ölü, 5 yaralı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Maden ocağında patlama"
+    },
+    {
+     "s": "birgun",
+     "hl": "Zonguldak'ta maden ocağındaki grizu patlaması: 3 kişi tutuklandı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Zonguldak'taki maden ocağı patlamasında tutuklu sayısı 4 oldu"
+    }
+   ]
+  },
+  {
+   "event": "s4186",
+   "week": "w8",
+   "title": "Fon soruşturmasında Ertan Aydın tutuklandı",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Fon soruşturması: Eski AKP milletvekili Ertan Aydın adliyeye sevk edildi, Nusret Altınbaş gözaltına alındı"
+    },
+    {
+     "s": "sabah",
+     "hl": "Fon soruşturmasında yeni gelişme: Ertan Aydın hakkında karar verildi!"
+    },
+    {
+     "s": "diken",
+     "hl": "Fon soruşturması: Eski başbakan danışmanı Ertan Aydın hakkında tutuklama talebi"
+    },
+    {
+     "s": "aa",
+     "hl": "Sermaye piyasası işlemleri soruşturmasında Ertan Aydın tutuklandı"
+    },
+    {
+     "s": "birgun",
+     "hl": "Fon vurgunu soruşturması: Ertan Aydın ve Gürol Sami Özer gözaltına alındı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Eski AKP milletvekili Ertan Aydın yeniden gözaltına alındı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Fon soruşturması. Ertan Aydın ve Gürol Sami Özer tutuklandı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Fon soruşturmasında yeni gelişme! Ertan Aydın ve Gürol Sami Özer tutuklandı"
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında yeni gelişme! Ertan Aydın gözaltına alındı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Fon soruşturmasında Ertan Aydın tutuklandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Fon soruşturmasında yeni gelişme: Ertan Aydın tutuklandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında Ertan Aydın yeniden gözaltına alındı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Ertan Aydın hakkında fon soruşturmasında yakalama kararı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Ertan Aydın kimdir, kaç yaşında ve nereli? Ertan Aydın gözaltın alındı mı?"
+    },
+    {
+     "s": "karar",
+     "hl": "Son dakika! Fon soruşturmasında yeni karar: Ertan Aydın tutuklandı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Fon soruşturmasında yeniden gözaltına alınan eski AK Parti Milletvekili Ertan Aydın tutuklandı"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Ertan Aydın tutuklandı!"
+    }
+   ]
+  },
+  {
+   "event": "s1661",
+   "week": "w8",
+   "title": "Fransa'da sokaklar karıştı: Paris ve Lyon'da sokağa çıkma yasağı uzatıldı",
+   "headlines": [
+    {
+     "s": "turkiyegz",
+     "hl": "Fransa'da protestolar durdurulamıyor! Hükümetten sokağa çıkma yasağı talimatı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Fransa’da kısmi sokağa çıkma yasağı talimatı: OHAL de masada"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Fransa'dan sokağa çıkma yasağı hamlesi"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Fransa’da protestolar büyüyor! Sokağa çıkma yasağı talimatı verildi"
+    },
+    {
+     "s": "ntv",
+     "hl": "Fransa'da bazı kentlerde sokağa çıkma yasağı ilan edildi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Fransa'da hükümetten sokağa çıkma yasağı talimatı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi"
+    },
+    {
+     "s": "karar",
+     "hl": "Fransa’da kısmi sokağa çıkma yasağı kararı: Başbakandan valilere talimat"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Fransa'da protestoların ardından OHAL gündemde: Başbakan'dan sokağa çıkma yasağı talimatı"
+    },
+    {
+     "s": "diken",
+     "hl": "Fransa'da Lille dahil dört şehirde sokağa çıkma yasağı"
+    },
+    {
+     "s": "star",
+     "hl": "Protestolar kontrolden çıktı! Fransa'da sokağa çıkma yasağı ilan edildi"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Fransa’nın birçok kentinde kısmi sokağa çıkma yasağı ilan edildi"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Fransa'nın birçok şehrinde kısmi sokağa çıkma yasağı kararı"
+    },
+    {
+     "s": "sabah",
+     "hl": "Fransa’da sokağa çıkma yasakları devreye girdi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fransa'da sokağa çıkma yasakları ve yeni güvenlik önlemleri"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Paris ve Lyon'da kısmi sokağa çıkma yasağı 1 gün uzatıldı"
+    }
+   ]
+  },
+  {
+   "event": "s1700",
+   "week": "w8",
+   "title": "MERKEZ BANKASI FAİZ KARARI",
+   "headlines": [
+    {
+     "s": "dirilis",
+     "hl": "MERKEZ BANKASI FAİZ KARARI"
+    },
+    {
+     "s": "takvim",
+     "hl": "Merkez Bankası faiz kararı! 9 ay sonra ilk"
+    },
+    {
+     "s": "sabah",
+     "hl": "Merkez Bankası faiz kararı ne zaman, saat kaçta açıklanacak? Gözler TCMB'nin ekim ayı toplantısında!"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde?"
+    },
+    {
+     "s": "haberturk",
+     "hl": "TCMB FAİZ TOPLANTISI TAKVİMİ 2026 | Merkez Bankası faiz kararı ne zaman açıklanacak, faizler düşecek mi, sabit mi kalacak?"
+    },
+    {
+     "s": "mynet",
+     "hl": "Merkez Bankası faiz kararı bugün belli oluyor: İşte beklentiler"
+    },
+    {
+     "s": "ahaber",
+     "hl": "9 ay sonra ilk indirim! Merkez Bankası'nın faiz kararı belli oldu: Uzmanlar A Haber'de değerlendirdi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Merkez Bankası faiz kararı bugün! 9 ay sonra bir ilk bekleniyor"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Merkez Bankası faiz kararını açıkladı"
+    },
+    {
+     "s": "diken",
+     "hl": "Merkez Bankası faizi düşürdü"
+    },
+    {
+     "s": "ntv",
+     "hl": "Merkez Bankası faiz kararını açıkladı"
+    },
+    {
+     "s": "karar",
+     "hl": "9 ay sonra bir ilk: Merkez Bankası faizi indirdi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika... Merkez Bankası yılın yedinci faiz kararını açıkladı"
+    },
+    {
+     "s": "star",
+     "hl": "9 ay sonra bir ilk! Merkez Bankası faiz kararını duyurdu"
+    },
+    {
+     "s": "tele1",
+     "hl": "Merkez Bankası, faizi 1 puan indirdi"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Merkez Bankası faizi düşürdü"
+    }
+   ]
+  },
+  {
+   "event": "s1737",
+   "week": "w8",
+   "title": "Çukurova Belediye Başkanı Emrah Kozay görevden uzaklaştırıldı",
+   "headlines": [
+    {
+     "s": "takvim",
+     "hl": "Çukurova Belediyesinde 34 tutuklama! Emrah Kozay görevden uzaklaştırıldı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Çukurova Belediyesi'ne operasyon! Belediye Başkanı Emrah Kozay dahil 34 şüpheli tutuklandı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
+    },
+    {
+     "s": "karar",
+     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
+    },
+    {
+     "s": "star",
+     "hl": "Çukurova Belediyesi soruşturması: Mevcut başkan Emrah Kozay dahil 34 şüpheli için karar verildi"
+    },
+    {
+     "s": "sabah",
+     "hl": "Çukurova Belediyesine yönelik operasyonda Emrah Kozay ve Soner Çetin tutuklandı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Çukurova Belediyesi'ne operasyon: Başkan Emrah Kozay dahil 34 tutuklama"
+    },
+    {
+     "s": "diken",
+     "hl": "Çukurova Belediye Başkanı Emrah Kozay dahil 34 kişi tutuklandı"
+    },
+    {
+     "s": "aa",
+     "hl": "Çukurova Belediye Başkanı Kozay görevinden uzaklaştırıldı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
+    },
+    {
+     "s": "mynet",
+     "hl": "İçişleri Bakanlığı duyurdu: Çukurova Belediye Başkanı Emrah Kozay görevden uzaklaştırıldı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Çukurova Belediye Başkanı Kozay görevden uzaklaştırıldı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Çukurova Belediye Başkanı Emrah Kozay görevden uzaklaştırıldı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Çukurova Belediye Başkanı Emrah Kozay kimdir, eşi kim? Kaç çocuğu, nereli? Neden tutuklandı, hangi partiden?"
+    }
+   ]
+  },
+  {
+   "event": "s1650",
+   "week": "w8",
+   "title": "Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!",
+   "headlines": [
+    {
+     "s": "turkiyegz",
+     "hl": "Çukurova Belediyesi'ne yolsuzluk ve rüşvet operasyonu! Mevcut ve eski başkan dahil 44 gözaltı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Çukurova Belediyesi'ne operasyon! Belediye Başkanı Emrah Kozay dahil çok sayıda gözaltı"
+    },
+    {
+     "s": "star",
+     "hl": "Çukurova Belediyesi'ne rüşvet operasyonu! Eski ve yeni başkanlar gözaltında"
+    },
+    {
+     "s": "takvim",
+     "hl": "Çukurova Belediyesi'ne operasyon! Gözaltı kararları var"
+    },
+    {
+     "s": "sozcu",
+     "hl": "SON DAKİKA... Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı var"
+    },
+    {
+     "s": "ahaber",
+     "hl": "CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu: Başkan Kozay ve eski başkan Çetin de..."
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!"
+    },
+    {
+     "s": "ntv",
+     "hl": "Çukurova Belediyesi'ne operasyon: Belediye Başkanı Emrah Kozay dahil 34 tutuklama"
+    },
+    {
+     "s": "haberturk",
+     "hl": "SON DAKİKA HABERİ: Çukurova Belediyesi'ne operasyon: 44 gözaltı"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Çukurova Belediyesi’ne operasyon! Jandarma binada arama yapıyor çok sayıda gözaltı kararı"
+    },
+    {
+     "s": "karar",
+     "hl": "Adana'da Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Çukurova Belediyesinde operasyon: Çok sayıda gözaltı kararı var!"
+    },
+    {
+     "s": "tele1",
+     "hl": "Adana'da Çukurova Belediyesi'ne operasyon: 44 gözaltı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Çukurova Belediyesine yolsuzluk ve rüşvet operasyonu: 44 gözaltı"
+    },
+    {
+     "s": "diken",
+     "hl": "YENİ Partili Çukurova Belediyesi'ne operasyon: Başkan dahil 44 gözaltı"
+    }
+   ]
+  },
+  {
+   "event": "s1690",
+   "week": "w8",
+   "title": "Yeni Parti'nin ismi değişmeyecek",
+   "headlines": [
+    {
+     "s": "sabah",
+     "hl": "Yeni Parti'nin ismi hükümsüz mü sayılacak? AYM karara bağlayacak"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "YENİ Parti'nin ismi için kritik tarih belli oldu: AYM'nin gündemine alındı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "YENİ Parti'nin ismi değişecek mi?"
+    },
+    {
+     "s": "takvim",
+     "hl": "AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Yeni Parti’nin ismi için kritik karar! AYM talebi görüşecek"
+    },
+    {
+     "s": "ntv",
+     "hl": "AYM'den Yeni Parti'nin ismi için karar"
+    },
+    {
+     "s": "mynet",
+     "hl": "SON DAKİKA | Yeni Parti'nin ismi değişmeyecek! AYM kararını verdi"
+    },
+    {
+     "s": "birgun",
+     "hl": "AYM karar verdi: YENİ Parti'nin ismi değişmeyecek"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "AYM'den Yeni Parti kararı! İsmi değişecek mi?"
+    },
+    {
+     "s": "karar",
+     "hl": "AYM kararını verdi: YENİ Parti'nin ismi değişmeyecek"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "AYM karar verdi... Yeni Parti’nin ismi değişmeyecek"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yeni Parti'nin ismi değişmeyecek"
+    },
+    {
+     "s": "diken",
+     "hl": "AYM kararı: YENİ Parti'nin adı değişmeyecek"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yeni Parti'nin ismi değişecek mi? AYM kararını açıkladı"
+    },
+    {
+     "s": "tele1",
+     "hl": "Yeni Parti'nin ismi değişmeyecek"
+    }
+   ]
+  },
+  {
+   "event": "s1721",
+   "week": "w8",
+   "title": "Zonguldak'ta üç katlı bina çöktü: Bir ölü",
+   "headlines": [
+    {
+     "s": "sabah",
+     "hl": "Zonguldak’ta bir bina çöktü: 2 kişiden 1'i hayatını kaybetti!"
+    },
+    {
+     "s": "takvim",
+     "hl": "Zonguldak'ta bina çöktü! 7 bina tahliye edildi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Zonguldak'ta 2 katlı bina çöktü! Enkaz altında kalan 2 kardeşten biri kurtarılamadı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Zonguldak'ta bina çöktü: 1 kişi kurtarıldı, 1 kişi öldü"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Zonguldak'ta 3 katlı bina çöktü: Enkazdan acı haber geldi"
+    },
+    {
+     "s": "star",
+     "hl": "Zonguldak'ta bina çöktü: Göçük altında kalan 1 kişi öldü"
+    },
+    {
+     "s": "ntv",
+     "hl": "Zonguldak'ta 3 katlı bina çöktü. Enkaz altında kalan bir kişi hayatını kaybetti"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Zonguldak’ta 3 katlı bina çöktü: 1 kişi öldü, 1 kişi yaralı kurtarıldı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Zonguldak'ta 3 katlı bina çöktü: Enkaz altında kalan 1 kişi hayatını kaybetti"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Zonguldak'ta 3 katlı bina çöktü"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Zonguldak'ta 3 katlı bina çöktü: Enkaz altında can pazarı"
+    },
+    {
+     "s": "diken",
+     "hl": "Zonguldak'ta üç katlı bina çöktü: Bir ölü"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Zonguldak'ta 2 katlı bina çöktü: 1 ölü, 1 yaralı var"
+    },
+    {
+     "s": "karar",
+     "hl": "Zonguldak'ta 2 katlı ev çöktü: 1 ölü, 1 yaralı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Zonguldak'ta bina çöktü: Çevredeki 7 bina boşaltıldı!"
+    }
+   ]
+  },
+  {
+   "event": "s4029",
+   "week": "w8",
+   "title": "'Futbolda şike kumpası' soruşturmasında Lütfi Arıboğan'a 5 yıla kadar hapis istemi",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "FETÖ'nün \"futbolda şike kumpası\" soruşturmasında Lütfi Arıboğan'a 5 yıla kadar hapis istemi"
+    },
+    {
+     "s": "sabah",
+     "hl": "Son dakika: Lütfi Arıboğan'a FETÖ iddianamesi"
+    },
+    {
+     "s": "karar",
+     "hl": "Eski TFF Başkanı Lütfi Arıboğan hakkında iddianame hazırlandı: Yargılama süreci başlıyor"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Şike soruşturmasında yeni perde: Eski TFF Başkanvekili Lütfi Arıboğan’a dava"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Futbolda şike kumpası: Eski TFF Başkan Vekili Lütfi Arıboğan için FETÖ'ye yardımdan hapis talebi"
+    },
+    {
+     "s": "mynet",
+     "hl": "Son dakika | Lütfi Arıboğan hakkında hapis istemi! Suçlama belli oldu: \"Silahlı terör örgütüne bilerek ve isteyerek yardım etme\""
+    },
+    {
+     "s": "star",
+     "hl": "Lütfi Arıboğan'a ''FETÖ'ye yardım'' davası! İstenen ceza belli oldu"
+    },
+    {
+     "s": "diken",
+     "hl": "Eski TFF yöneticisi Lütfi Arıboğan hakkında 'FETÖ'ye yardım'dan ceza istendi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Şike soruşturmasında yeni gelişme: Eski TFF Başkan Vekili Lütfi Arıboğan hakkında hapis istemi"
+    },
+    {
+     "s": "takvim",
+     "hl": "Lütfi Arıboğan hakkında iddianame! FETÖ'ye yardımdan hapis talebi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "'Futbolda şike kumpası' soruşturmasında Lütfi Arıboğan'a 5 yıla kadar hapis istemi"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Lütfi Arıboğan hakkında FETÖ iddianamesi mahkemeden geçti!"
+    },
+    {
+     "s": "ntv",
+     "hl": "Lütfi Arıboğan'a 5 yıla kadar hapis istemi"
+    },
+    {
+     "s": "dirilis",
+     "hl": "FETÖ’nün “Şike Kumpası”nda Lütfi Arıboğan İçin 5 Yıla Kadar Hapis İstemi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Lütfi Arıboğan'a 5 yıla kadar hapis istemi!"
+    }
+   ]
+  }
+ ]
+}

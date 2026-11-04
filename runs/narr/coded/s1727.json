@@ -1,0 +1,15 @@
+{"q": {"happened": "Adalet Bakanı Akın Gürlek, üç faili meçhul cinayet dosyasının daha aydınlatıldığını duyurdu.", "agree": "Üç faili meçhul dosyada gelişme olduğu ortak.", "differ": "Çoğu kurum duyuruyu Bakan Gürlek'in ağzından bir başarı olarak veriyor; ahaber ('Peşini bırakmayacağız') ve takvim ('Adaletin hafızası hep diri') buna kararlılık vurgusu ekliyor; turkiyegz ve tele1 toplam 71 cinayete odaklanıyor; milligazete 10 yıl sonraki itirafı öne çıkarıyor; trthaber ve haberturk Bakan'ı anmadan aktarıyor.", "care": "Gelişmenin Bakan'ın kişisel başarısı ve devletin kararlılığı olarak sunulması, olayı bir adli gelişmeden çok bir hükümet başarısı anlatısına dönüştürüyor."}, "rows": [
+{"s": "aa", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Faili meçhul aydınlatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Yeni gelişme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Faili meçhul aydınlatıldı", "aff": "", "sol": "", "moral": "Adalet kararlılığı", "start": ""},
+{"s": "star", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Faili meçhul aydınlatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "71 cinayet aydınlatıldı", "aff": "", "sol": "", "moral": "", "start": "Müge Anlı dosyası"},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Faili meçhul aydınlatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Faili meçhul aydınlatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Faili meçhul aydınlatıldı", "aff": "", "sol": "", "moral": "Adalet kararlılığı", "start": ""},
+{"s": "sabah", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Faili meçhul aydınlatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Faili meçhul aydınlatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tele1", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "71 cinayet aydınlatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Cinayet itirafı", "aff": "", "sol": "", "moral": "", "start": "10 yıl önceki cinayet"},
+{"s": "dirilis", "frame": "Devlet başarısı", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Faili meçhul aydınlatıldı", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

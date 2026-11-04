@@ -1,0 +1,142 @@
+{
+ "q": {
+  "happened": "Fenerbahçe, Şampiyonlar Ligi'nde Aston Villa deplasmanında oynadı ve ahaber'e göre 6-0 mağlup oldu.",
+  "agree": "Fenerbahçe'nin Aston Villa ile deplasmanda karşılaştığı ortak.",
+  "differ": "sabah, karar, trthaber, star, ntv, milligazete ve diken maç öncesi başlıklar atıyor; ahaber ve yeniasya ağır yenilgiyi aktarıyor; sozcu yenilgiyi 'gençlerin' kaybı olarak sunuyor; mynet faturayı 'İki İsmail'e kesiyor.",
+  "care": "Yenilginin genç kadroya bağlanması onu hafifletirken, belirli kişilere fatura kesilmesi sorumluluğu bireylere yükler."
+ },
+ "rows": [
+  {
+   "s": "sabah",
+   "frame": "Maç önizleme",
+   "hero": "Fenerbahçe",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Maç önizleme",
+   "hero": "Fenerbahçe",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Maç önizleme",
+   "hero": "Fenerbahçe",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Maç önizleme",
+   "hero": "Fenerbahçe",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Olgu aktarımı",
+   "hero": "Fenerbahçe",
+   "blame": "",
+   "cause": "",
+   "cons": "Ağır yenilgi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Maç önizleme",
+   "hero": "Fenerbahçe",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Maç önizleme",
+   "hero": "Fenerbahçe",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Genç kadro",
+   "hero": "Fenerbahçe'nin gençleri",
+   "blame": "",
+   "cause": "Genç kadro",
+   "cons": "Yenilgi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Maç önizleme",
+   "hero": "Fenerbahçe",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Suçlu arayışı",
+   "hero": "Fenerbahçe",
+   "blame": "İki İsmail",
+   "cause": "",
+   "cons": "Ağır yenilgi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Olgu aktarımı",
+   "hero": "Fenerbahçe",
+   "blame": "",
+   "cause": "",
+   "cons": "Ağır yenilgi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

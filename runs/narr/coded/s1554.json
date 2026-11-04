@@ -1,0 +1,166 @@
+{
+ "q": {
+  "happened": "BUDO (Bursa Deniz Otobüsleri) seferleri iptal edildi.",
+  "agree": "Sefer iptali ortak.",
+  "differ": "Tele1, Diken ve Karar 4 sefer iptalinden, diğerleri 12 seferden söz ediyor; Sabah, Star ve Mynet nedeni olumsuz hava koşulları olarak veriyor; Cumhuriyet ve NTV iptali yarına, Diriliş ve Milli Gazete bugüne tarihliyor; Milli Gazete 'kötü haber' diyor.",
+  "care": "İptal edilen sefer sayısı ve tarihi farkı yolcular için doğrudan pratik önem taşıyor; neden belirtilmemesi okuru iptalin gerekçesinden habersiz bırakıyor."
+ },
+ "rows": [
+  {
+   "s": "tele1",
+   "frame": "Olgu aktarımı",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "4 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "4 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "4 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Hava koşulları",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "Olumsuz hava",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Hava koşulları",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "Olumsuz hava",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Hava koşulları",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "Olumsuz hava",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Kötü haber",
+   "hero": "BUDO",
+   "blame": "",
+   "cause": "",
+   "cons": "12 sefer iptali",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

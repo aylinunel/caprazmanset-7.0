@@ -1,0 +1,1290 @@
+{
+ "dimensions": {
+  "frame": "Çerçeve",
+  "hero": "Merkezdeki aktör",
+  "blame": "Sorumlu tutulan",
+  "cause": "Sunulan neden",
+  "cons": "Öne çıkan sonuç",
+  "aff": "Etkilenen kesim",
+  "sol": "Meşrulaştırılan çözüm",
+  "moral": "Ahlaki çerçeve",
+  "start": "Hikâyenin başlangıcı"
+ },
+ "examples_from_hand_coded_weeks": [
+  {
+   "q": {
+    "happened": "İçişleri Bakanlığı, Yahşihan Belediyesi'ne yönelik yolsuzluk soruşturması kapsamında Belediye Başkan Vekili Aydın Demirdirek'i görevden uzaklaştırdı.",
+    "agree": "Görevden uzaklaştırma ortak.",
+    "differ": "Soldaki kurumlar Demirdirek'in partisini ('AKP'li') ya da yolsuzluk operasyonunu başlığa taşıyor; sağdaki kurumlar kararı İçişleri Bakanlığı'nın adıyla duyuruyor.",
+    "care": "Bir belediye yöneticisinin partisinin başlıkta yer alıp almaması, yolsuzluk haberlerinin siyasi yükünü belirler; bu olayda partisi yalnızca soldaki bir kurum tarafından anılıyor."
+   },
+   "rows": [
+    {
+     "s": "birgun",
+     "hl": "Yahşihan Belediyesi'ne yönelik yolsuzluk operasyonu: Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Yahşihan Belediyesi Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Siyasi sorumluluk",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "AKP'li başkan vekili",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Hesap verebilirlik",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika...Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Yahşıyan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı - Politika Siyaset Haberleri",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ntv",
+     "hl": "Yahşihan Belediyesi soruşturması. Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Yahşihan Belediye Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yahşihan Belediye Başkan Vekili görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKiKA I İçişleri Bakanlığı duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı!",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Bakanlık duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "Yahşihan’da tutuklama sonrası kritik karar! Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "İçişleri duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "frame",
+    "hero"
+   ]
+  },
+  {
+   "q": {
+    "happened": "Fon soruşturması kapsamında gözaltına alınan gazeteciler Mustafa Balcı ve Şaban Sevinç tutuklandı.",
+    "agree": "Tutuklama ortak.",
+    "differ": "Soldaki kurumlar ikisini 'gazeteci' kimliğiyle ve Balcı'yı Sözcü editörü olarak tanıtıyor; sağdaki kurumlar haberi 'fon soruşturması' ya da 'dezenformasyon' çerçevesine yerleştiriyor; bir kurum 'Fon'daşlar kodese' diye alaycı bir başlık atıyor.",
+    "care": "Tutuklanan kişilerin 'gazeteci' kimliğinin başlıkta olması olayı bir basın özgürlüğü meselesi yapar; 'Fon'daşlar kodese' ifadesi ise kişileri yargı kararından önce bir suç grubunun üyeleri olarak etiketler."
+   },
+   "rows": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı tutuklama talebiyle hakimliğe sevk edildi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı gözaltına alındı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "aydinlik",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sözcü.com.tr editörü Mustafa Balcı ve gazeteci Şaban Sevinç hakkında karar çıktı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı, İsmail Saymaz ve Murat Ağırel'e adli kontrol",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "haberturk",
+     "hl": "Gazeteci Mustafa Balcı ve Şaban Sevinç tutuklandı - Habertürk Son Dakika Haber",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Şaban Sevinç ve Mustafa Balcı hakkında tutuklama talebi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA… Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında dezenformasyon: Şaban Sevinç ve Mustafa Balcı'ya tutuklama talebi",
+     "frame": "Dezenformasyon",
+     "hero": "Savcılık",
+     "blame": "Gazeteciler",
+     "cause": "Dezenformasyon iddiası",
+     "cons": "Tutuklama talebi",
+     "aff": "",
+     "sol": "",
+     "moral": "Doğru bilgi",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Şaban Sevinç fon soruşturmasında tutuklandı! İsmail Saymaz, Murat Ağırel ve Mustafa Balcı ne dedi? Neden gözaltına alındı?",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı, İsmail Saymaz ve Murat Ağırel'e ev hapsi",
+     "frame": "Alay / etiketleme",
+     "hero": "Savcılık",
+     "blame": "'Fon'daşlar'",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "Cezalandırma",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fon soruşturması kapsamında Şaban Sevinç ve Mustafa Balcı tutuklandı! Murat Ağırel ve İsmail Saymaz'a ev...",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "blame",
+    "frame",
+    "moral",
+    "hero"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "event": "s5031",
+   "week": "w9",
+   "title": "SPK Başkanlığına Muhsin Atcı atandı",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu"
+    },
+    {
+     "s": "mynet",
+     "hl": "Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | SPK Başkanlığına Muhsin Atcı atandı! Karar Resmi Gazete'de"
+    },
+    {
+     "s": "haberler",
+     "hl": "SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "SPK Başkanılığı'na Muhsin Atcı getirildi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "SPK'da üst düzey atama! Yeni başkan Muhsin Atcı oldu"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Karar Resmi Gazete'de: SPK Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "SPK Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı!"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "karar",
+     "hl": "Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "SPK Başkanlığına Muhsin Atcı atandı! Resmi Gazete'de yayımlandı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Sermaye Piyasası Kurulu Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Karar Resmi Gazete'de.... SPK'nın Yeni Başkanı Muhsin Atcı oldu"
+    },
+    {
+     "s": "akit",
+     "hl": "Merakla bekleniyordu! SPK Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "milliyet",
+     "hl": "Sermaye Piyasası Kurulu (SPK) Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yeni SPK Başkanı Muhsin Atcı kim, nereli? Eğitimi, eşi, çocukları, kariyeri ve önceki görevleri"
+    },
+    {
+     "s": "diken",
+     "hl": "SPK başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "star",
+     "hl": "Karar Resmi Gazete'de: SPK'nın Yeni Başkanı Muhsin Atcı oldu"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Muhsin Atcı, Sermaye Piyasası Kurulu Başkanlığına atandı"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "aa",
+     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
+    },
+    {
+     "s": "onedio",
+     "hl": "Muhsin Atcı Kimdir, Kaç Yaşında, Nereli? Yeni SPK Başkanı Muhsin Atcı Hakkında Bilinenler"
+    }
+   ]
+  },
+  {
+   "event": "s4987",
+   "week": "w9",
+   "title": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturmasında gözaltına alındı",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Borsa İstanbul Genel Müdürü Ergun rüşvet ve örgüt üyeliği iddiasıyla gözaltına alındı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturması kapsamında \"rüşvet almak\" ile \"örgüt üyeliği\" iddiasıyla gözaltına alındı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "birgun",
+     "hl": "Fon soruşturması: Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "akit",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "karar",
+     "hl": "Fon soruşturması Borsa İstanbul'a uzandı: Genel Müdür Korkmaz Enes Ergun gözaltında"
+    },
+    {
+     "s": "takvim",
+     "hl": "Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun’a gözaltı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Fon soruşturmasında yeni gelişme... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "onedio",
+     "hl": "Borsa İstanbul Genel Müdürü Enes Ergun Gözaltına Alındı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında"
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Fon soruşturması Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "sabah",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Fon soruşturması. Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Fon soruşturmasında gelişme... Borsa İstanbul Genel Müdürü Ergun gözaltına alındı"
+    },
+    {
+     "s": "diken",
+     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı"
+    }
+   ]
+  },
+  {
+   "event": "s4521",
+   "week": "w9",
+   "title": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı",
+   "headlines": [
+    {
+     "s": "trthaber",
+     "hl": "Antalya'da hortum ve fırtına 4 can aldı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Antalya'da hortum faciası! 2 konteyner savruldu, 5 işçi öldü"
+    },
+    {
+     "s": "mynet",
+     "hl": "Antalya'da hortum faciası! Konteynerleri parçaladı: 4 işçi öldü, 1 işçi yaralandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Antalya'da hortum konteynerleri vurdu, ölü sayısı 4 oldu, bir işçi hayata döndü"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu: 4 işçi hayatını kaybetti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 1 işçi yaralandı"
+    },
+    {
+     "s": "star",
+     "hl": "Antalya'da hortum faciası: 2 konteyner savruldu, 4 işçi hayatını kaybetti"
+    },
+    {
+     "s": "sabah",
+     "hl": "Antalya'da hortum faciası: İşçilerin kaldığı 2 konteyner havaya savruldu! 4 ölü, 2 yaralı"
+    },
+    {
+     "s": "karar",
+     "hl": "Antalya'da hortum faciası! İşçilerin kaldığı konteynerler parçalandı: 4 ölü, 1 yaralı"
+    },
+    {
+     "s": "aa",
+     "hl": "Antalya'da hortum nedeniyle parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Antalya'da akılalmaz kaza: Hortumda parçalanan konteynerde bulunan 4 işçi hayatını kaybetti"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Antalya'da hortum felaketi: 4 işçi ölü, 1 işçi yaralandı!"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Antalya’da hortum faciası: Konteynerdeki 4 işçi yaşamını yitirdi"
+    },
+    {
+     "s": "akit",
+     "hl": "Antalya’da hortum şantiyeyi vurdu: 4 işçi öldü, 1 işçi yaralandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Antalya'da hortum felaketi: Konteynerleri parçaladı, 4 işçi hayatını kaybetti"
+    },
+    {
+     "s": "ntv",
+     "hl": "Antalya'da hortum işçi konteynerini parçaladı. 4 işçi öldü, 1 işçi yaralandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Antalya'da hortum faciası: 4 kişi hayatını kaybetti! 4 şüpheli gözaltına alındı"
+    },
+    {
+     "s": "birgun",
+     "hl": "Antalya'da hortum felaketi: 4 işçi hayatını kaybetti, 1 işçi yaralandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Antalya'da hortum! Kepez'de 4 işçi hayatını kaybetti"
+    },
+    {
+     "s": "onedio",
+     "hl": "Antalya’da Hortum ve Sağanak Faciası: 4 İşçi Hayatını Kaybetti"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Antalya’da hortum faciası!"
+    },
+    {
+     "s": "diken",
+     "hl": "Antalya'da hortum: Dört işçi öldü"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Antalya'da hortum afeti: Parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı"
+    }
+   ]
+  },
+  {
+   "event": "s4989",
+   "week": "w9",
+   "title": "Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!"
+    },
+    {
+     "s": "aa",
+     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika: Akdeniz'de deprem!"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Akdeniz açıklarında 3.8 büyüklüğünde deprem"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Muğla açıklarında 5.1 büyüklüğünde deprem"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Datça açıklarında 5.1 büyüklüğünde deprem meydana geldi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Muğla açıklarında 5,1 büyüklüğünde deprem"
+    },
+    {
+     "s": "haberler",
+     "hl": "Muğla açıklarında 5.1 büyüklüğünde deprem"
+    },
+    {
+     "s": "sabah",
+     "hl": "Akdeniz'de deprem! AFAD açıkladı: Muğla Datça açıklarında 5.1 büyüklüğünde sarsıntı"
+    },
+    {
+     "s": "diken",
+     "hl": "Muğla açıklarında 5,1 büyüklüğünde deprem"
+    },
+    {
+     "s": "birgun",
+     "hl": "AFAD duyurdu: Datça açıklarında 5,1 büyüklüğünde deprem"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Muğla Datça açıklarında 5,1 büyüklüğünde deprem!"
+    },
+    {
+     "s": "onedio",
+     "hl": "AFAD Depremi Açıkladı: Muğla'da 5,1 Büyüklüğünde Deprem Oldu"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem"
+    },
+    {
+     "s": "star",
+     "hl": "AFAD büyüklüğünü açıkladı: Muğla açıklarında 5.1 büyüklüğünde deprem"
+    },
+    {
+     "s": "mynet",
+     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem!"
+    },
+    {
+     "s": "aksam",
+     "hl": "AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem"
+    },
+    {
+     "s": "ntv",
+     "hl": "Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "SON DAKİKA HABERİ: Muğla açıklarında 5.1 büyüklüğünde deprem"
+    },
+    {
+     "s": "milliyet",
+     "hl": "Kolombiya'da 5,4 büyüklüğünde deprem"
+    }
+   ]
+  },
+  {
+   "event": "s5051",
+   "week": "w9",
+   "title": "Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı",
+   "headlines": [
+    {
+     "s": "sabah",
+     "hl": "Dünya Gazetesi’nin sahibi gözaltında"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Dünya gazetesinin sahibi Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "birgun",
+     "hl": "Fon soruşturması: Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Dünya gazetesinin sahibi Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Son dakika | Dünya Gazetesi sahibi Umut Güner gözaltında! Fon soruşturmasında yeni gelişme"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Fon soruşturmasında yeni gelişme: Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "onedio",
+     "hl": "Dünya Gazetesi’nin Sahibi Umut Güner Gözaltına Alındı"
+    },
+    {
+     "s": "karar",
+     "hl": "Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Fon soruşturmasında yeni gelişme! Umut Güner gözaltında"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Dünya Gazetesi'nin patronu Umut Güner fon soruşturmasından gözaltında"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son Dakika... Fon soruşturmasında yeni gelişme: Dünya gazetesinin sahibi Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "akit",
+     "hl": "Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturması kapsamında Umut Güner gözaltında"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Umut Güner neden gözaltına alındı? Fon soruşturması"
+    },
+    {
+     "s": "diken",
+     "hl": "Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fon soruşturması kapsamında Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Fon soruşturmasında Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturması! Dünya gazetesinin sahibi Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Fon soruşturması derinleşiyor! Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Fon soruşturması. Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Fon soruşturmasında yeni gelişme! Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı"
+    }
+   ]
+  },
+  {
+   "event": "s4546",
+   "week": "w9",
+   "title": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı",
+   "headlines": [
+    {
+     "s": "star",
+     "hl": "Bakırköy Belediyesi'ne yolsuzluk operasyonu: Çok sayıda isim için gözaltı kararı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "SON DAKİKA...Bakırköy Belediyesi'ne operasyon: Çok sayıda gözaltı kararı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Bakırköy Belediyesine operasyon: 68 kişi hakkında gözaltı kararı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Bakırköy Belediyesine operasyon: 68 şüpheli hakkında gözaltı kararı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Bakırköy Belediyesi'ne ihale operasyonu: Başkan yardımcıları ve meclis üyelerinin de olduğu 68 kişi için gözaltı kararı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Bakırköy Belediyesi'ne yolsuzluk operasyonu: 58 kişi gözaltında"
+    },
+    {
+     "s": "mynet",
+     "hl": "Bakırköy Belediyesi'ne operasyon! 68 gözaltı kararı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika... Bakırköy Belediyesi’ne operasyon: Çok sayıda gözaltı kararı var"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı"
+    },
+    {
+     "s": "karar",
+     "hl": "Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Bakırköy Belediyesi'ne ihale ve irtikap soruşturması! 68 şüpheliden 58'i gözaltına alındı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı"
+    },
+    {
+     "s": "akit",
+     "hl": "Son dakika! Bakırköy Belediyesi'ne dev operasyon!"
+    },
+    {
+     "s": "haberler",
+     "hl": "Bakırköy Belediyesi'ndeki soruşturmada 68 şüpheli için gözaltı kararı çıkarıldı"
+    },
+    {
+     "s": "aa",
+     "hl": "Bakırköy Belediyesine yönelik soruşturmada 58 şüpheli gözaltına alındı"
+    },
+    {
+     "s": "tele1",
+     "hl": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Bakırköy Belediyesi'ne 'ihale' operasyonu: 68 gözaltı kararı! 2024-2026 yıllarına ait 42 ihale mercek altında"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Bakırköy Belediyesi'ne yolsuzluk operasyonu! 58 şüpheli gözaltına alındı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Bakırköy Belediyesi'ne operasyon. 68 şüpheli için gözaltı kararı"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Bakırköy Belediyesi'ne yönelik operasyonda 68 kişiden 57'si gözaltına alındı"
+    }
+   ]
+  },
+  {
+   "event": "s4678",
+   "week": "w9",
+   "title": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi",
+   "headlines": [
+    {
+     "s": "milligazete",
+     "hl": "İsmail Kartal Fenerbahçe'den ayrıldı mı, istifa etti mi? Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Fenerbahçe'de İsmail Kartal'ın 4. dönemi uzun sürmedi"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Fenerbahçe’de İsmail Kartal dönemi bitti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi"
+    },
+    {
+     "s": "star",
+     "hl": "Fenerbahçe'de kritik toplantı sona erdi! İsmail Kartal göreve devam edecek mi?"
+    },
+    {
+     "s": "karar",
+     "hl": "Fenerbahçe'de İsmail Kartal dönemi resmen sona erdi: Kulüpten ayrılık açıklaması"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Fenerbahçe'de kritik saatler... Derbi sonrası İsmail Kartal iddiası!"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "İstifasını sundu! Fenerbahçe'de İsmail Kartal dönemi sona erdi"
+    },
+    {
+     "s": "akit",
+     "hl": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi: İstifası kabul edildi! Yerine gelecek isim de belli oldu"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi!"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti"
+    },
+    {
+     "s": "mynet",
+     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi!"
+    },
+    {
+     "s": "haberler",
+     "hl": "Fenerbahçe’de İsmail Kartal dönemi bitti"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Fenerbahçe'de İsmail Kartal istifa etti"
+    },
+    {
+     "s": "onedio",
+     "hl": "Fenerbahçe'de İsmail Kartal Dönemi Sona Erdi: Galatasaray Derbisinin Ardından Yollar Ayrıldı!"
+    },
+    {
+     "s": "diken",
+     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi"
+    },
+    {
+     "s": "birgun",
+     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "İsmail Kartal dönemi sona erdi! Göztepe maçında takımın başında kim olacak?"
+    },
+    {
+     "s": "ntv",
+     "hl": "Fenerbahçe'de İsmail Kartal dönemi bitti"
+    }
+   ]
+  },
+  {
+   "event": "s4737",
+   "week": "w9",
+   "title": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi",
+   "headlines": [
+    {
+     "s": "haberler",
+     "hl": "Türkiye'den BM hamlesi! Feridun Sinirlioğlu, Genel Sekreterlik için resmen aday gösterildi"
+    },
+    {
+     "s": "aa",
+     "hl": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Türkiye'den Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için resmi başvuru!"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için başvuru yapıldı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Türkiye'den BM Genel Sekreterliği için resmi adım: Feridun Sinirlioğlu'na adaylık başvurusu"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Türkiye Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi"
+    },
+    {
+     "s": "akit",
+     "hl": "Türkiye’nin BM Genel Sekreterliği adayı Feridun Sinirlioğlu oldu"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Türkiye'nin BM Genel Sekreterliği adayı Sinirlioğlu"
+    },
+    {
+     "s": "sabah",
+     "hl": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Türkiye, BM Genel Sekreterliği için Sinirlioğlu'nu aday gösterdi"
+    },
+    {
+     "s": "takvim",
+     "hl": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliğine aday gösterdi: Resmi başvuru mektubu sunuldu"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Türkiye, Feridun Sinirlioğlu’nu BM Genel Sekreterliği’ne aday gösterdi"
+    },
+    {
+     "s": "karar",
+     "hl": "Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu"
+    },
+    {
+     "s": "mynet",
+     "hl": "Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu"
+    },
+    {
+     "s": "birgun",
+     "hl": "Türkiye'nin BM Genel Sekreterliği için gösterdiği aday belli oldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Türkiye’nin BM Genel Sekreterliği için adayı Feridun Sinirlioğlu oldu"
+    },
+    {
+     "s": "ntv",
+     "hl": "Türkiye'nin BM Genel Sekreter adayı Sinirlioğlu oldu"
+    },
+    {
+     "s": "star",
+     "hl": "Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı! Azerbaycan: Memnuniyete karşılıyoruz"
+    },
+    {
+     "s": "aksam",
+     "hl": "Feridun Sinirlioğlu BM Genel Sekreterliği adaylığı için vizyon belgesini açıkladı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Bakan Fidan duyurdu: Feridun Sinirlioğlu BM Genel Sekreterliği'ne aday"
+    }
+   ]
+  },
+  {
+   "event": "s4462",
+   "week": "w9",
+   "title": "2026 Ballon d'Or'un sahibi Harry Kane oldu",
+   "headlines": [
+    {
+     "s": "yenisafak",
+     "hl": "Ballon d'Or ödülünü kim kazandı? 2026 Ballon d'Or adayları kimler?"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Ballon D'or sıralaması: Güç sıralaması belli oldu! Ballon D'or saat kaçta?"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Ballon dor kim kazandı? 2026 Ballon d'Or ödülünü kim aldı, Altın top kimin oldu?"
+    },
+    {
+     "s": "ahaber",
+     "hl": "2026 Ballon d’Or sahibini buldu: Harry Kane kariyerinde bir ilki yaşadı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "2026 Ballon d'Or ödülü kime verildi? Harry Kane mi kazandı? Lamine Yamal mı? Mbappé mi?"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | 2026 Ballon d'Or'un sahibi kim oldu? İşte gecede ödül alan yıldızlar..."
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Ballon d'Or'un kazananı belli oldu"
+    },
+    {
+     "s": "onedio",
+     "hl": "70. Kez Düzenlenen Ballon D'Or Ödüllerinde Kazanan Harry Kane Oldu"
+    },
+    {
+     "s": "diken",
+     "hl": "Ballon d'Or Harry Kane'in"
+    },
+    {
+     "s": "aa",
+     "hl": "Harry Kane, Alexia Putellas win 2026 Ballon d'Or awards in London"
+    },
+    {
+     "s": "haberler",
+     "hl": "Ballon d'Or'un sahibi Harry Kane oldu! 25 yıl sonra ödülü kazanan ilk İngiliz"
+    },
+    {
+     "s": "ntv",
+     "hl": "Ballon d'Or ödülleri Londra'da sahiplerini buldu. Harry Kane yılın futbolcusu seçildi"
+    },
+    {
+     "s": "karar",
+     "hl": "2026 Ballon d'Or Harry Kane'in"
+    },
+    {
+     "s": "sozcu",
+     "hl": "2026 Ballon d'Or ödülü Harry Kane'in! 25 yıl sonra bir ilk"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "25 yıl sonra bir ilk: 2026 Ballon d'Or ödülünün sahibi belli oldu"
+    },
+    {
+     "s": "aksam",
+     "hl": "25 yıl sonra kazanan ilk İngiliz! Ballon d'Or'un sahibi Harry Kane"
+    },
+    {
+     "s": "birgun",
+     "hl": "Ballon d'Or ödülünü Harry Kane kazandı"
+    },
+    {
+     "s": "mynet",
+     "hl": "25 yıl sonra bir ilk! Ballon d'Or'un sahibi belli oldu"
+    },
+    {
+     "s": "tele1",
+     "hl": "2026 Ballon d'Or'un sahibi Harry Kane oldu"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Ballon d'Or 2026 kazananı Harry Kane oldu, Mbappe ikinci"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "BALLON D'OR KAZANANI: 2026 Ballon d'Or Ödülünün Sahibi Kim Oldu? Ballon d'Or Kim Aldı?"
+    }
+   ]
+  }
+ ]
+}

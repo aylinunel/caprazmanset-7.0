@@ -1,0 +1,202 @@
+{
+ "q": {
+  "happened": "Sarıgül soruşturmasında 4 şüpheli tutuklama talebiyle sevk edildi ve tutuklandı; bir kısmına adli kontrol uygulandı.",
+  "agree": "Soruşturmada yeni tutuklama sürecinin yaşandığı ortak.",
+  "differ": "Sondakika, Star ve Milli Gazete yalnızca tutuklama talebini, Akşam 2 tutuklamayı aktarırken çoğu kurum 4 tutuklama diyor; Sözcü kardeşin adli kontrolle serbest kaldığını, Haberler ve Hürriyet adli kontrolleri ekliyor; Sondakika ve NTV soruşturmayı 'Sarıgül ailesi'/'Sarıgüller' diye adlandırıyor; TGRT ayrıntı vermiyor.",
+  "care": "Talep ile karar arasındaki ve sayıdaki farklar, okurun sürecin hangi aşamada olduğunu ve kaç kişinin tutuklandığını farklı anlamasına yol açar."
+ },
+ "rows": [
+  {
+   "s": "aksam",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "tgrt",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "birgun",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sondakika",
+   "frame": "Olgu aktarımı",
+   "hero": "Savcılık",
+   "blame": "Sarıgül ailesi",
+   "cause": "",
+   "cons": "Tutuklama talebi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "Sarıgül'ün kardeşi",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Olgu aktarımı",
+   "hero": "Savcılık",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama talebi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberler",
+   "frame": "Olgu aktarımı",
+   "hero": "Savcılık",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama talebi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Olgu aktarımı",
+   "hero": "Savcılık",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama talebi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "Sarıgül ailesi",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cnnturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "hurriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

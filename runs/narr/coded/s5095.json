@@ -1,0 +1,18 @@
+{"q": {"happened": "TOBB Nefes Kredisi'nin yeni dilim başvuruları 3 Kasım'da başlıyor; firma başına limit 5 milyon TL.", "agree": "Nefes Kredisi başvurularının yeniden açıldığı ortak.", "differ": "sondakika, aa, ntv ve bloomberght tarihi duyuruyor; haberler ve diken limitin 5 milyon liraya çıkmasını, mynet 50 milyar TL toplam desteği, tgrt 'milyonlarca KOBİ'nin beklediğini' öne çıkarıyor; yenisafak, takvim, birgun, cumhuriyet, milligazete, karar ve turkiyegz soru-cevap tarzı başvuru rehberi sunuyor; turkiyegz ve tgrt başvuruların 'başladığını' söylüyor.", "care": "Haberin bir politika duyurusu mu yoksa başvuru rehberi mi olarak sunulduğu, kredinin kamu desteği olarak tartışılmasını mı yoksa yalnızca pratik bilgi olarak tüketilmesini mi belirliyor."}, "rows": [
+{"s": "sondakika", "frame": "Kredi desteği", "hero": "TOBB", "blame": "", "cause": "", "cons": "Başvuru başlangıcı", "aff": "Firmalar", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Kredi desteği", "hero": "TOBB", "blame": "", "cause": "", "cons": "Limit artışı", "aff": "Firmalar", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Kredi desteği", "hero": "TOBB", "blame": "", "cause": "", "cons": "Başvuru başlangıcı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Kredi desteği", "hero": "", "blame": "", "cause": "", "cons": "Limit artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Kredi desteği", "hero": "TOBB", "blame": "", "cause": "", "cons": "Başvuru başlangıcı", "aff": "", "sol": "Nefes Kredisi", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Kredi desteği", "hero": "TOBB", "blame": "", "cause": "", "cons": "Başvuru başlangıcı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Kredi desteği", "hero": "TOBB", "blame": "", "cause": "", "cons": "Başvuru başlangıcı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "bloomberght", "frame": "Kredi desteği", "hero": "TOBB", "blame": "", "cause": "", "cons": "Başvuru başlangıcı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Başvuru rehberi", "hero": "TOBB", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Başvuru rehberi", "hero": "TOBB", "blame": "", "cause": "", "cons": "Başvuru başlangıcı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Başvuru rehberi", "hero": "TOBB", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Başvuru rehberi", "hero": "TOBB", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Başvuru rehberi", "hero": "TOBB", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Başvuru rehberi", "hero": "TOBB", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Başvuru rehberi", "hero": "TOBB", "blame": "", "cause": "", "cons": "Başvuru başlangıcı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Kredi desteği", "hero": "TOBB", "blame": "", "cause": "", "cons": "Başvuru başlangıcı", "aff": "KOBİ'ler", "sol": "Nefes Kredisi", "moral": "", "start": ""}
+]}

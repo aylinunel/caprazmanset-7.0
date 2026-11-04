@@ -1,0 +1,178 @@
+{
+ "q": {
+  "happened": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin trafik kazası sonrası hayatını kaybetti.",
+  "agree": "Gültekin'in öldüğü ortak.",
+  "differ": "Cumhuriyet ve Diken Gültekin'i 'AKP'li' olarak tanıtıyor; Takvim ve Star 'feci kaza' vurgusuyla dramatize ediyor; Karar TBB seçimi için yola çıktığını hatırlatıyor; Sözcü biyografik soru biçimi kullanıyor.",
+  "care": "Parti kimliğinin başlığa taşınması bir kaza haberine siyasi bir boyut ekler; dramatik dil ise olayın trajedi yönünü öne çıkarır."
+ },
+ "rows": [
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "Trafik kazası",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Olgu aktarımı",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "Trafik kazası",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "Trafik kazası",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Olgu aktarımı",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "Trafik kazası",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "Trafik kazası",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Olgu aktarımı",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Parti kimliği",
+   "hero": "AKP'li başkan vekili",
+   "blame": "",
+   "cause": "Trafik kazası",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Parti kimliği",
+   "hero": "AKP'li başkan vekili",
+   "blame": "",
+   "cause": "Trafik kazası",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Trajedi",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "Trafik kazası",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Trajedi",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "Trafik kazası",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Görev yolunda ölüm",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "TBB seçimi yolculuğu"
+  },
+  {
+   "s": "sozcu",
+   "frame": "Biyografi",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Anma",
+   "hero": "Dündar Ziya Gültekin",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

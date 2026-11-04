@@ -1,0 +1,16 @@
+{"q": {"happened": "Beşiktaş ile Crystal Palace'ın Avrupa maçında hakem Hollandalı Danny Makkelie olarak açıklandı; maç 2-2 berabere bitti.", "agree": "Maçın Beşiktaş ile Crystal Palace arasında oynandığı ortak.", "differ": "haberturk, sabah, takvim, sozcu, star, karar, ahaber, turkiyegz ve milligazete maç öncesi hakem atamasını; ntv, cumhuriyet, trthaber ve dirilis 2-2'lik sonucu; diken ise ilk 11'leri öne çıkarıyor; yalnızca ntv Beşiktaş'ın 10 kişi kaldığını yazıyor.", "care": "Kurumlar aynı maçın farklı aşamalarını başlığa taşıyor; sonucun 10 kişiyle alındığını yalnızca ntv belirttiği için beraberliğin değerlendirmesi kuruma göre değişiyor."}, "rows": [
+{"s": "haberturk", "frame": "Maç öncesi bilgi", "hero": "Hakem", "blame": "", "cause": "", "cons": "Hakem açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Maç öncesi bilgi", "hero": "Hakem", "blame": "", "cause": "", "cons": "Hakem açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Maç öncesi bilgi", "hero": "Hollandalı hakem", "blame": "", "cause": "", "cons": "Hakem açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Maç öncesi bilgi", "hero": "Hollandalı hakem", "blame": "", "cause": "", "cons": "Hakem açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Maç öncesi bilgi", "hero": "Hollandalı hakem", "blame": "", "cause": "", "cons": "Hakem açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Maç öncesi bilgi", "hero": "Danny Makkelie", "blame": "", "cause": "", "cons": "Hakem açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Maç öncesi bilgi", "hero": "Hakem", "blame": "", "cause": "", "cons": "Hakem açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Maç öncesi bilgi", "hero": "Danny Makkelie", "blame": "", "cause": "", "cons": "Hakem açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Maç sonucu", "hero": "Beşiktaş", "blame": "", "cause": "Eksik kalma", "cons": "Beraberlik", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Maç öncesi bilgi", "hero": "Danny Makkelie", "blame": "", "cause": "", "cons": "Hakem açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Maç sonucu", "hero": "", "blame": "", "cause": "", "cons": "Beraberlik", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Maç öncesi bilgi", "hero": "", "blame": "", "cause": "", "cons": "Kadrolar açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Maç sonucu", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "Beraberlik", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Maç sonucu", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "Beraberlik", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

@@ -1,0 +1,15 @@
+{"q": {"happened": "Real Madrid, El Clasico'da Barcelona'yı Camp Nou'da 2-1 yendi; Mbappe iki gol attı ve Barcelona'nın serisi sona erdi.", "agree": "Real Madrid'in El Clasico'yu kazandığı ortak.", "differ": "karar, aa, ahaber ve ntv galibiyeti Mbappe'nin performansına bağlıyor; sabah, turkiyegz ve mynet Arda Güler'i öne çıkarıyor; takvim, cumhuriyet ve haberler Barcelona'nın serisinin bittiğini vurguluyor; sozcu'nun başlığı maç öncesine ait ('Arda Güler korkusu').", "care": "Türk okur için Arda Güler'in başlığa taşınması maçı ulusal bir gurur hikâyesine çeviriyor; Mbappe odaklı başlıklar ise sonucu yıldız oyuncuya bağlıyor."}, "rows": [
+{"s": "sozcu", "frame": "Maç öncesi", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "Barcelona'da endişe", "aff": "Barcelona", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Maç sonucu", "hero": "Real Madrid", "blame": "", "cause": "", "cons": "Barcelona'nın serisi bitti", "aff": "Barcelona", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Türk oyuncu odağı", "hero": "Real Madrid", "blame": "", "cause": "", "cons": "Real Madrid galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Türk oyuncu odağı", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "Zirve yarışı kızıştı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Türk oyuncu odağı", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "Real Madrid galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Maç sonucu", "hero": "Real Madrid", "blame": "", "cause": "", "cons": "Real Madrid galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Yıldız performansı", "hero": "Mbappe", "blame": "", "cause": "", "cons": "Real Madrid galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Maç sonucu", "hero": "Real Madrid", "blame": "", "cause": "", "cons": "Barcelona'nın serisi bitti", "aff": "Barcelona", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Yıldız performansı", "hero": "Mbappe", "blame": "", "cause": "", "cons": "Real Madrid galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Maç sonucu", "hero": "Real Madrid", "blame": "", "cause": "", "cons": "Real Madrid galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Yıldız performansı", "hero": "Mbappe", "blame": "", "cause": "", "cons": "Real Madrid galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Yıldız performansı", "hero": "Mbappe", "blame": "", "cause": "", "cons": "Real Madrid galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Maç sonucu", "hero": "Real Madrid", "blame": "", "cause": "", "cons": "Barcelona'nın serisi bitti", "aff": "Barcelona", "sol": "", "moral": "", "start": ""}
+]}

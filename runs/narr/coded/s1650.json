@@ -1,0 +1,190 @@
+{
+ "q": {
+  "happened": "Adana'da Çukurova Belediyesi'ne operasyon düzenlendi; başkan Emrah Kozay ve eski başkan dahil 44 kişi gözaltına alındı.",
+  "agree": "Çukurova Belediyesi'ne operasyon yapıldığı ve çok sayıda gözaltı olduğu ortak.",
+  "differ": "Türkiye Gazetesi, Star, A Haber ve TRT Haber operasyonu 'rüşvet ve yolsuzluk' operasyonu olarak adlandırıyor; A Haber belediyeyi 'CHP'li', Diken ise 'YENİ Partili' diye niteliyor; diğerleri suç türü belirtmeden gözaltı sayısını veriyor.",
+  "care": "Aynı belediyeye iki farklı parti etiketi yapıştırılması, okurun operasyonu hangi siyasi kampla ilişkilendireceğini doğrudan belirler; suç türünün başlıkta adlandırılması da şüphelileri yargı kararından önce yolsuzlukla eşleştirir."
+ },
+ "rows": [
+  {
+   "s": "turkiyegz",
+   "frame": "Yolsuzluk",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "Rüşvet ve yolsuzluk",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Operasyon",
+   "hero": "Çukurova Belediyesi",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Yolsuzluk",
+   "hero": "Savcılık",
+   "blame": "Eski ve yeni başkanlar",
+   "cause": "Rüşvet",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Operasyon",
+   "hero": "Çukurova Belediyesi",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Operasyon",
+   "hero": "Çukurova Belediyesi",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Siyasi sorumluluk",
+   "hero": "Savcılık",
+   "blame": "CHP'li belediye",
+   "cause": "Rüşvet ve yolsuzluk",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Operasyon",
+   "hero": "Çukurova Belediyesi",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Operasyon",
+   "hero": "Çukurova Belediyesi",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Operasyon",
+   "hero": "Çukurova Belediyesi",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Operasyon",
+   "hero": "Jandarma",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Operasyon",
+   "hero": "Çukurova Belediyesi",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Operasyon",
+   "hero": "Çukurova Belediyesi",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "tele1",
+   "frame": "Operasyon",
+   "hero": "Çukurova Belediyesi",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Yolsuzluk",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "Rüşvet ve yolsuzluk",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Siyasi sorumluluk",
+   "hero": "Savcılık",
+   "blame": "YENİ Partili belediye",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

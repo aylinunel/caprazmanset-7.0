@@ -1,0 +1,1142 @@
+{
+ "dimensions": {
+  "frame": "Çerçeve",
+  "hero": "Merkezdeki aktör",
+  "blame": "Sorumlu tutulan",
+  "cause": "Sunulan neden",
+  "cons": "Öne çıkan sonuç",
+  "aff": "Etkilenen kesim",
+  "sol": "Meşrulaştırılan çözüm",
+  "moral": "Ahlaki çerçeve",
+  "start": "Hikâyenin başlangıcı"
+ },
+ "examples_from_hand_coded_weeks": [
+  {
+   "q": {
+    "happened": "İçişleri Bakanlığı, Yahşihan Belediyesi'ne yönelik yolsuzluk soruşturması kapsamında Belediye Başkan Vekili Aydın Demirdirek'i görevden uzaklaştırdı.",
+    "agree": "Görevden uzaklaştırma ortak.",
+    "differ": "Soldaki kurumlar Demirdirek'in partisini ('AKP'li') ya da yolsuzluk operasyonunu başlığa taşıyor; sağdaki kurumlar kararı İçişleri Bakanlığı'nın adıyla duyuruyor.",
+    "care": "Bir belediye yöneticisinin partisinin başlıkta yer alıp almaması, yolsuzluk haberlerinin siyasi yükünü belirler; bu olayda partisi yalnızca soldaki bir kurum tarafından anılıyor."
+   },
+   "rows": [
+    {
+     "s": "birgun",
+     "hl": "Yahşihan Belediyesi'ne yönelik yolsuzluk operasyonu: Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Yahşihan Belediyesi Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Siyasi sorumluluk",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "AKP'li başkan vekili",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Hesap verebilirlik",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika...Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Yahşıyan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı - Politika Siyaset Haberleri",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ntv",
+     "hl": "Yahşihan Belediyesi soruşturması. Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Yahşihan Belediye Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yahşihan Belediye Başkan Vekili görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKiKA I İçişleri Bakanlığı duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı!",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Bakanlık duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "Yahşihan’da tutuklama sonrası kritik karar! Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "İçişleri duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "frame",
+    "hero"
+   ]
+  },
+  {
+   "q": {
+    "happened": "Fon soruşturması kapsamında gözaltına alınan gazeteciler Mustafa Balcı ve Şaban Sevinç tutuklandı.",
+    "agree": "Tutuklama ortak.",
+    "differ": "Soldaki kurumlar ikisini 'gazeteci' kimliğiyle ve Balcı'yı Sözcü editörü olarak tanıtıyor; sağdaki kurumlar haberi 'fon soruşturması' ya da 'dezenformasyon' çerçevesine yerleştiriyor; bir kurum 'Fon'daşlar kodese' diye alaycı bir başlık atıyor.",
+    "care": "Tutuklanan kişilerin 'gazeteci' kimliğinin başlıkta olması olayı bir basın özgürlüğü meselesi yapar; 'Fon'daşlar kodese' ifadesi ise kişileri yargı kararından önce bir suç grubunun üyeleri olarak etiketler."
+   },
+   "rows": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı tutuklama talebiyle hakimliğe sevk edildi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı gözaltına alındı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "aydinlik",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sözcü.com.tr editörü Mustafa Balcı ve gazeteci Şaban Sevinç hakkında karar çıktı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı, İsmail Saymaz ve Murat Ağırel'e adli kontrol",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "haberturk",
+     "hl": "Gazeteci Mustafa Balcı ve Şaban Sevinç tutuklandı - Habertürk Son Dakika Haber",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Şaban Sevinç ve Mustafa Balcı hakkında tutuklama talebi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA… Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında dezenformasyon: Şaban Sevinç ve Mustafa Balcı'ya tutuklama talebi",
+     "frame": "Dezenformasyon",
+     "hero": "Savcılık",
+     "blame": "Gazeteciler",
+     "cause": "Dezenformasyon iddiası",
+     "cons": "Tutuklama talebi",
+     "aff": "",
+     "sol": "",
+     "moral": "Doğru bilgi",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Şaban Sevinç fon soruşturmasında tutuklandı! İsmail Saymaz, Murat Ağırel ve Mustafa Balcı ne dedi? Neden gözaltına alındı?",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı, İsmail Saymaz ve Murat Ağırel'e ev hapsi",
+     "frame": "Alay / etiketleme",
+     "hero": "Savcılık",
+     "blame": "'Fon'daşlar'",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "Cezalandırma",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fon soruşturması kapsamında Şaban Sevinç ve Mustafa Balcı tutuklandı! Murat Ağırel ve İsmail Saymaz'a ev...",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "blame",
+    "frame",
+    "moral",
+    "hero"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "event": "s4471",
+   "week": "w9",
+   "title": "Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "Bayrampaşa'da yol çöktü!"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti"
+    },
+    {
+     "s": "mynet",
+     "hl": "Bayrampaşa'da yol çöktü! Ekipler sevk edildi: Acı haber geldi"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "İstanbul'da çalışma sırasında yol çöktü: Göçük altında kalan işçi hayatını kaybetti"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son Dakika... Bayrampaşa'da yol çöktü: 1 işçi hayatını kaybetti!"
+    },
+    {
+     "s": "haberler",
+     "hl": "Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti"
+    },
+    {
+     "s": "takvim",
+     "hl": "Bayrampaşa'da yol çalışması sırasında çöktü: Göçükte kalan işçi Ali Demirci hayatını kaybetti"
+    },
+    {
+     "s": "karar",
+     "hl": "Bayrampaşa’da göçük faciası: 1 işçi hayatını kaybetti"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti"
+    },
+    {
+     "s": "akit",
+     "hl": "Bayrampaşa'da yol çöktü; mahsur kalanlar var"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Bayrampaşa’da yol çöktü: Toprak altında kalan 1 işçi hayatını kaybetti"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Bayrampaşa'da yol çöktü! Göçük altında kalan işçiden acı haber"
+    },
+    {
+     "s": "birgun",
+     "hl": "Bayrampaşa'da çalışma sırasında yolda göçük meydana geldi: 1 işçi öldü"
+    },
+    {
+     "s": "ntv",
+     "hl": "Bayrampaşa'da yol çöktü. Bir işçi hayatını kaybetti"
+    },
+    {
+     "s": "aksam",
+     "hl": "Bayrampaşa'da İSKİ çalışmasında göçük: 1 işçi hayatını kaybetti"
+    },
+    {
+     "s": "star",
+     "hl": "Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti"
+    },
+    {
+     "s": "diken",
+     "hl": "Bayrampaşa'da yol çöktü: Bir ölü"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti"
+    },
+    {
+     "s": "onedio",
+     "hl": "Bayrampaşa'da İSKİ Çalışması Sırasında Çöken Yolda Bir İşçi Hayatını Kaybetti"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Bayrampaşa'da yol çöktü: 1 işçi can verdi"
+    }
+   ]
+  },
+  {
+   "event": "s4417",
+   "week": "w9",
+   "title": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu",
+   "headlines": [
+    {
+     "s": "haberler",
+     "hl": "Kütahya'daki Tavşanlı Höyük'te 4 bin yıllık köpek pati izi bulundu! Yangında yıkılan yapının kerpicinde korunmuş"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Dört bin yıllık pati izi bulundu: Tavşanlı Höyük’te bir köpeğin bıraktığı izler yıkılan evin duvarından çıktı"
+    },
+    {
+     "s": "sabah",
+     "hl": "Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu"
+    },
+    {
+     "s": "aa",
+     "hl": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu"
+    },
+    {
+     "s": "haberturk",
+     "hl": "4 bin yıllık pati izi bulundu"
+    },
+    {
+     "s": "akit",
+     "hl": "O ilimizde dört bin yıllık pati izi bulundu..."
+    },
+    {
+     "s": "aksam",
+     "hl": "Tavşanlı Höyük kazılarında şaşırtan pati izleri"
+    },
+    {
+     "s": "karar",
+     "hl": "Kütahya Tavşanlı Höyük’te 4 bin yıllık sürpriz: Yıkılan evin duvarından pati izi çıktı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Tavşanlı Höyük kazılarında tarihi keşif! 4 bin yıllık pati izleri bulundu"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Kütahya’da yaklaşık 4 bin yıllık köpek pati izleri bulundu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Arkeologları şaşırtan keşif: Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu"
+    },
+    {
+     "s": "ntv",
+     "hl": "Kütahya'da 4 bin yıllık köpek pati izleri bulundu"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Tavşanlı Höyük kazılarında 4 bin yıllık pati izleri bulundu"
+    },
+    {
+     "s": "diken",
+     "hl": "Kütahya'da yaklaşık 4 bin yıllık pati izleri bulundu"
+    },
+    {
+     "s": "onedio",
+     "hl": "Kütahya'da 4 Bin Yıllık Pati İzleri Bulundu"
+    },
+    {
+     "s": "takvim",
+     "hl": "4 bin yıllık kerpiçte köpek patisi izi: Tavşanlı Höyük kazılarında tarihi keşif"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Tavşanlı Höyük'te kerpiçte 4 bin yıllık pati izleri bulundu"
+    }
+   ]
+  },
+  {
+   "event": "s4709",
+   "week": "w9",
+   "title": "Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede",
+   "headlines": [
+    {
+     "s": "yeniasya",
+     "hl": "Polonya'da sıcak gelişmeler: Anayasa Mahkemesi polis ablukasına alındı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Polonya'da hareketli saatler: Anayasa Mahkemesi Başkanı ve yardımcısı görevden alındı! Cumhurbaşkanı yurt dışı ziyaretini yarıda kesti"
+    },
+    {
+     "s": "haberler",
+     "hl": "Polonya'da Anayasa Mahkemesi başkanı, zinciri keserek binaya girmeye çalıştı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Polonya karıştı: Darbe girişimi iddiası... Anayasa Mahkemesi polis ablukasına alındı! Cumhurbaşkanı uçağını geri çevirdi"
+    },
+    {
+     "s": "karar",
+     "hl": "Polonya'da anayasa krizi patladı: Polis Anayasa Mahkemesi'ni kuşattı, Cumhurbaşkanı uçağını geri çevirdi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Polonya polisinden Anayasa Mahkemesi'ne baskın"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Polonya’da Anayasa Mahkemesi krizi büyüyor!"
+    },
+    {
+     "s": "star",
+     "hl": "Polonya'da siyasi kaos! Nawrocki'nin Anayasa Mahkemesi'ne girişinde arbede"
+    },
+    {
+     "s": "takvim",
+     "hl": "Polonya'da Anayasa Mahkemesi önünde arbede! Ülkesine dönen Cumhurbaşkanı Nawrocki engellemeye rağmen binaya girdi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede"
+    },
+    {
+     "s": "ntv",
+     "hl": "Polonya'da kriz nasıl başladı? Polis Anayasa Mahkemesi'ni bastı, Cumhurbaşkanı yoldan döndü"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Anayasa Mahkemesi önünde polis, hükümete 'darbe' suçlaması: Polonya'da neler oluyor?"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Polonya'da neler oluyor: Anayasa Mahkemesi'nde polis krizi yaşandı Cumhurbaşkanı yoldan döndü"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Polonya'da Anayasa Mahkemesi krizi: Neler oldu?"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Polonya'da kim darbe yaptı, darbe mi oldu, ne yaşandı? Karol Nawrocki ile hakimler arasındaki Anayasa Mahkemesi krizi"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Polonya'da darbe suçlaması! Anayasa mahkemesi kimin elinde?"
+    }
+   ]
+  },
+  {
+   "event": "s4770",
+   "week": "w9",
+   "title": "Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı",
+   "headlines": [
+    {
+     "s": "hurriyet",
+     "hl": "Bakırköy Belediyesi'ne operasyon: 39 kişi tutuklandı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Bakırköy Belediyesi soruşturmasında Başsavcılık 40 kişi için tutuklama talep etti"
+    },
+    {
+     "s": "sabah",
+     "hl": "Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Bakırköy Belediyesi yolsuzluk soruşturması kapsamında 39 kişi tutuklandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Bakırköy Belediye'sine yolsuzluk soruşturması: 39 şüpheli tutuklandı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "SON DAKİKA... Bakırköy Belediyesi soruşturmasında karar çıktı! 39 kişi tutuklandı, başkanın babasına ev hapsi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı!"
+    },
+    {
+     "s": "mynet",
+     "hl": "Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!"
+    },
+    {
+     "s": "karar",
+     "hl": "Bakırköy Belediyesi operasyonunda 39 tutuklama: Başkan yardımcıları ve müdürler de listede"
+    },
+    {
+     "s": "akit",
+     "hl": "Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika... Bakırköy Belediyesi'ne operasyonda yeni gelişme: 39 kişi tutuklandı"
+    },
+    {
+     "s": "diken",
+     "hl": "Bakırköy Belediyesi soruşturması: Beş başkan yardımcısı dahil 39 tutuklama"
+    },
+    {
+     "s": "birgun",
+     "hl": "Bakırköy Belediyesi soruşturması: Başkan yardımcıları dahil 39 kişi tutuklandı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Bakırköy Belediyesi'ne yolsuzluk operasyonunda 39 tutuklama"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Bakırköy Belediyesi'ne yönelik soruşturmada 39 şüpheli tutuklandı"
+    },
+    {
+     "s": "star",
+     "hl": "Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı"
+    },
+    {
+     "s": "aa",
+     "hl": "Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Bakırköy Belediyesine yolsuzluk soruşturması: 39 tutuklama"
+    },
+    {
+     "s": "aksam",
+     "hl": "Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Bakırköy Belediyesi operasyonunda 39 tutuklama"
+    }
+   ]
+  },
+  {
+   "event": "s4217",
+   "week": "w9",
+   "title": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Brezilya'da başkanlık seçimi sonuçları belli oldu: Kazanan Lula da Silva"
+    },
+    {
+     "s": "sabah",
+     "hl": "Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Brezilya’da seçimin kazananı Lula da Silva oldu"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Brezilya’da seçimin ikinci turunu Lula da Silva kazandı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Brezilya'da tarihi geri dönüş! Resmi olmayan sonuçlara göre Lula da Silva 4. kez devlet başkanı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Brezilya'da seçimi Lula da Silva kazandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Brezilya'da seçimin galibi belli oldu! Lula da Silva yeniden Devlet Başkanı seçildi"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Brezilya'da Lula da Silva yeniden Devlet Başkanı seçildi"
+    },
+    {
+     "s": "mynet",
+     "hl": "Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz"
+    },
+    {
+     "s": "ntv",
+     "hl": "Brezilya'da Lula 4'üncü kez başkan"
+    },
+    {
+     "s": "birgun",
+     "hl": "Brezilya’da seçimin galibi sol: Lula yeniden başkan!"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Brezilya seçim sonucu: Lula yeniden devlet başkanı seçildi"
+    },
+    {
+     "s": "tele1",
+     "hl": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Lula da Silva kimdir? Brezilya Devlet Başkanı Lula da Silva'nın hayatı"
+    },
+    {
+     "s": "star",
+     "hl": "Lula da Silva yeniden başkan seçildi! Brezilya'da iktidarını dördüncü döneme taşıdı"
+    }
+   ]
+  },
+  {
+   "event": "s4931",
+   "week": "w9",
+   "title": "Sarıgül soruşturmasında 4 kişi daha tutuklandı",
+   "headlines": [
+    {
+     "s": "aksam",
+     "hl": "Sarıgül soruşturmasında yeni gelişme! 2 şüpheli tutuklandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Sarıgül soruşturmasında yeni gelişme"
+    },
+    {
+     "s": "birgun",
+     "hl": "Sarıgül soruşturmasında 4 kişi daha tutuklandı"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Sarıgül ailesi soruşturmasında 4 şüpheli tutuklama talebiyle hakimliğe sevk edildi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sarıgül soruşturmasında 4 tutuklama; kardeşi adli kontrolle serbest"
+    },
+    {
+     "s": "star",
+     "hl": "Sarıgül soruşturmasında 4 şüpheli tutuklama talebiyle mahkemeye sevk edildi"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika... Sarıgül soruşturmasında yeni gelişme: 4 kişi tutuklandı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Sarıgül soruşturmasında 4 şüpheli tutuklama talebiyle, 7'si adli kontrole sevk edildi"
+    },
+    {
+     "s": "karar",
+     "hl": "Sarıgül soruşturmasında 4 kişi tutuklandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Sarıgül soruşturmasında 4 kişiye tutuklama talep edildi!"
+    },
+    {
+     "s": "diken",
+     "hl": "Sarıgül soruşturması: Dört kişi daha tutuklandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Sarıgül soruşturmasında yeni tutuklama! Mahkemeye sevk edilen 4 şüpheli cezaevine gönderildi"
+    },
+    {
+     "s": "ntv",
+     "hl": "Sarıgüller soruşturmasında 4 kişi daha tutuklandı"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "SON DAKİKA HABERİ: Sarıgül soruşturmasında 4 tutuklama"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Sarıgül soruşturmasında 4 tutuklama, 8 adli kontrol"
+    },
+    {
+     "s": "sabah",
+     "hl": "Sarıgül soruşturmasında 4 tutuklama daha"
+    }
+   ]
+  },
+  {
+   "event": "s4577",
+   "week": "w9",
+   "title": "Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!",
+   "headlines": [
+    {
+     "s": "tele1",
+     "hl": "Merkezefendi Belediyesi'ne operasyon; Başkan Şeniz Doğan ve eşinin de olduğu şüphelilere gözaltı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Denizli’de Merkezefendi Belediyesi’ne operasyon! Başkan Şeniz Doğan ve eşi gözaltında"
+    },
+    {
+     "s": "birgun",
+     "hl": "Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Denizli’de Merkezefendi Belediyesi’ne operasyon: Belediye başkanı ve eşi de gözaltına alınanlar arasında!"
+    },
+    {
+     "s": "sabah",
+     "hl": "Merkezefendi Belediyesi'ne operasyon: Çok sayıda şüpheli gözaltına alındı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Son dakika | Merkezefendi Belediyesi'ne operasyon! Başkan Şeniz Doğan ve eşi gözaltına alındı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Denizli’de Merkezefendi Belediyesi’ne operasyon: Şeniz Doğan ve eşi gözaltında"
+    },
+    {
+     "s": "karar",
+     "hl": "Merkezefendi Belediyesi’ne operasyon: Başkan Şeniz Doğan ve eşi gözaltına alındı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika... Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi dahil çok sayıda gözaltı!"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Merkezefendi Belediyesi'ne sabah operasyonu! Başkan Şeniz Doğan ve eşi gözaltına alındı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Denizli Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşinin de aralarında olduğu şüphelilere gözaltı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Denizli'de Merkezefendi Belediyesi'ne sabah operasyonu! 27 kişi gözaltına alındı"
+    },
+    {
+     "s": "diken",
+     "hl": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Merkezefendi Belediyesi'ne operasyon! Başkan ve eşi dahil çok sayıda gözaltı var"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi de gözaltında"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Şeniz Doğan kimdir, kaç yaşında, Merkezefendi Belediyesi Başkanı Şeniz Doğan'ın eşi nereli ve ne iş yapıyor?"
+    },
+    {
+     "s": "aksam",
+     "hl": "Merkezefendi Belediyesi'nde imar vurgunu: 27 kişi gözaltında"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Merkezefendi Belediyesi'ndeki aramalar bitti, Şeniz Doğan dahil 27 kişi gözaltında"
+    },
+    {
+     "s": "ntv",
+     "hl": "Merkezefendi Belediyesi'ne operasyon. Belediye Başkanı Şeniz Doğan ve eşi dahil 17 gözaltı"
+    }
+   ]
+  },
+  {
+   "event": "s4884",
+   "week": "w9",
+   "title": "Trabzonspor, Gaziantep FK'yi 2-0 yendi",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "Trabzonspor, Süper Lig'de yarın Gaziantep FK'yi konuk edecek"
+    },
+    {
+     "s": "sabah",
+     "hl": "Trabzonspor, yarın Gaziantep FK'yi ağırlayacak!"
+    },
+    {
+     "s": "aa",
+     "hl": "Trabzonspor, Süper Lig'de bugün Gaziantep FK'yi konuk edecek"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Trabzonspor Gaziantep FK'ya hiç yenilmedi"
+    },
+    {
+     "s": "aksam",
+     "hl": "Trabzonspor sahasında Gaziantep FK'yı konuk edecek"
+    },
+    {
+     "s": "star",
+     "hl": "Trabzonspor evinde Gaziantep FK'yı ağırlayacak"
+    },
+    {
+     "s": "mynet",
+     "hl": "Trabzonspor, Gaziantep FK maçı hazırlıklarını tamamlandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "CANLI Trabzonspor'da hedef 5'te 5! Rakip Gaziantep FK"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Trabzonspor Gaziantep FK maçı canlı nereden izlenir, saat kaçta, rakip Gaziantep FK mi, yayın şifresiz mi?"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Trabzonspor Gaziantep FK maçına 3 değişiklikle çıktı, Onuachu döndü"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Trabzonspor - Gaziantep FK maçı CANLI SKOR - CANLI ANLATIM"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Reis ile üst üste 5. galibiyet... Trabzonspor, Gaziantep FK'yi 2 golle geçti"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Trabzonspor-Gaziantep FK maçının ilk 11'leri belli oldu"
+    },
+    {
+     "s": "akit",
+     "hl": "CANLI ANLATIM: Trabzonspor - Gaziantep FK"
+    },
+    {
+     "s": "haberler",
+     "hl": "Trabzonspor, Gaziantep FK maçına Rizespor 11'ine göre 3 değişiklikle çıktı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Süper Lig heyecanı. Trabzonspor-Gaziantep FK maçı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Trabzonspor, Gaziantep FK'yi 2-0 yendi"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Trabzonspor - Gaziantep FK | 11'ler belli oldu"
+    }
+   ]
+  },
+  {
+   "event": "s4998",
+   "week": "w9",
+   "title": "Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak?",
+   "headlines": [
+    {
+     "s": "sabah",
+     "hl": "Ekim ayı enflasyon verileri ne zaman açıklanacak? 2026 Ekim ayı enflasyon beklentisi belli oldu"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak?"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Maaş ve kira hesapları için beklenen veri: TÜİK Ekim 2026 enflasyon rakamları ne zaman, saat kaçta açıklanacak?"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "ENFLASYON AÇIKLANDI MI, NE ZAMAN AÇIKLANACAK? 2026 Ekim Ayı Enflasyon Oranları Saat Kaçta Açıklanır? Enflasyon Beklentisi Nedir?"
+    },
+    {
+     "s": "ntv",
+     "hl": "Enflasyon verileri ne zaman, saat kaçta açıklanacak? Ekim ayı enflasyon beklentisi belli oldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Enflasyon verileri ne zaman, saat kaçta açıklanacak? 2026 Ekim enflasyon beklentisi nedir?"
+    },
+    {
+     "s": "birgun",
+     "hl": "2026 Ekim Ayı Enflasyon Verileri Ne Zaman Açıklanacak? Ekim Ayı Enflasyon Beklentisi ve Anketleri"
+    },
+    {
+     "s": "haberler",
+     "hl": "Ekim ayı enflasyon beklentisi ne yönde? Ekim ayı enflasyon verileri ne zaman, saat kaçta açıklanacak?"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Ekim ayı enflasyon beklentisi belli oldu! Enflasyon ne zaman, saat kaçta açıklanacak?"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Enflasyon verileri bugün açıklanacak"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Ekim ayı enflasyon rakamları açıklanacak"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Ekim ayı enflasyon rakamları açıklanıyor! Emekli ve memur zammı ne kadar olacak?"
+    },
+    {
+     "s": "tgrt",
+     "hl": "TÜİK açıkladı! İşte 2026 Ekim ayı enflasyon verileri"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Enflasyon"
+    },
+    {
+     "s": "aa",
+     "hl": "Enflasyon rakamları açıklandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Enflasyon rakamları açıklandı... İşte detaylar!"
+    },
+    {
+     "s": "akit",
+     "hl": "Ekim ayı enflasyon rakamları açıklandı! En çok artış yapan ürünler belli oldu"
+    },
+    {
+     "s": "aksam",
+     "hl": "Enflasyon rakamları belli oldu"
+    },
+    {
+     "s": "star",
+     "hl": "Enflasyon rakamları belli oldu"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{"q": {"happened": "İstanbul Pendik'te bir hafriyat kamyonu eczaneye daldı ve 7 kişi yaralandı.", "agree": "Kamyonun Pendik'te eczaneye girdiği ortak.", "differ": "trthaber, turkiyegz, cumhuriyet, sabah, ntv ve dirilis 7 yaralı sayısını verirken haberturk, karar, star ve sozcu yalnızca 'yaralılar var' diyor; mynet freni boşalmasını neden olarak gösteriyor ve 'savaş alanı' diyor; takvim ('dehşet anları') ve sozcu ('can pazarı') dramatik dil kullanıyor.", "care": "Yalnızca mynet kazanın nedenini (fren arızası) başlığa taşıyor; diğerleri olayı nedeni belirsiz bir kaza ya da dehşet sahnesi olarak sunuyor."}, "rows": [
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Yaralılar var", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Yaralılar var", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "7 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "7 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Yaralılar var", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "Fren arızası", "cons": "Büyük hasar", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "7 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "7 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "7 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "7 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "Yaralılar var", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

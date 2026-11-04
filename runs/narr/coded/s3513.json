@@ -1,0 +1,130 @@
+{
+ "q": {
+  "happened": "2026 KPSS Ortaöğretim sınav giriş belgeleri ve sınav yerleri ÖSYM tarafından erişime açıldı ya da açılması bekleniyor.",
+  "agree": "Konunun ÖSYM'nin KPSS Ortaöğretim sınav yerleri duyurusu olduğu ortak.",
+  "differ": "hurriyet, ahaber ve star sınav yerlerinin açıklandığını bildiriyor; ntv, haberturk, sabah, cumhuriyet ve karar açıklanıp açıklanmadığını soruyor; milligazete memur adaylarının beklentisine odaklanıyor.",
+  "care": "Fark büyük ölçüde zamanlamadan kaynaklanıyor; adaylar için bilginin açıklanıp açıklanmadığı doğrudan pratik önem taşıyor."
+ },
+ "rows": [
+  {
+   "s": "ntv",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "Memur adayları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "hurriyet",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "Sınav yerleri açıklandı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "Sınav yerleri açıklandı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "Sınav yerleri açıklandı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Hizmet bilgisi",
+   "hero": "ÖSYM",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

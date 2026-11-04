@@ -1,0 +1,20 @@
+{"q": {"happened": "Jandarmanın 32 ilde FETÖ'ye yönelik düzenlediği operasyonlarda 72 şüpheli yakalandı, bunlardan 41'i tutuklandı.", "agree": "32 ilde FETÖ operasyonu yapıldığı ve şüphelilerin yakalandığı ortak.", "differ": "hurriyet, aksam, trthaber, tgrt, ntv, aa, birgun ve ahaber 41 tutuklamayı; sondakika, yenisafak, star, haberturk, mynet ve karar 72 gözaltıyı öne çıkarıyor; haberler, yenisafak, mynet ve cumhuriyet İçişleri Bakanlığı duyurusunu anıyor; sabah 'sözde yardım kuruluşlarına finans' gerekçesini, ahaber 'ağır darbe' ifadesini ekliyor.", "care": "Yalnızca sabah suçlamanın içeriğini (finansman) veriyor; diğerleri gerekçe vermeden sayıya odaklanıyor, ahaber ise olayı devletin başarısı olarak duygusal bir dille sunuyor."}, "rows": [
+{"s": "sondakika", "frame": "Terör operasyonu", "hero": "Jandarma", "blame": "FETÖ", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "hurriyet", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Devlet otoritesi", "hero": "İçişleri Bakanlığı", "blame": "FETÖ", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Devlet otoritesi", "hero": "İçişleri Bakanlığı", "blame": "FETÖ", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Devlet otoritesi", "hero": "İçişleri Bakanlığı", "blame": "FETÖ", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Terör finansmanı", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "Sözde yardım kuruluşlarına finans", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Devlet otoritesi", "hero": "İçişleri Bakanlığı", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Terörle mücadele başarısı", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "Terörle mücadele", "start": ""},
+{"s": "dirilis", "frame": "Terör operasyonu", "hero": "Güvenlik güçleri", "blame": "FETÖ", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

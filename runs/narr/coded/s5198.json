@@ -1,0 +1,21 @@
+{"q": {"happened": "Kasım ayı kira artış oranı enflasyon verisiyle açıklandı; başlıkların bir kısmı açıklama öncesi, bir kısmı sonrası yazılmış.", "agree": "Kasım ayı kira artış oranının ev sahibi ve kiracıları ilgilendiren bir veri olduğu ortak.", "differ": "aksam, haberler, yenisafak, birgun, milligazete, cnnturk, haberturk, sabah, turkiyegz ve tgrt oranı ne zaman açıklanacağı ve nasıl hesaplanacağı sorularıyla rehber tarzında veriyor; mynet, sozcu, ntv, karar, ahaber ve akit oranın 'belli olduğunu' duyuruyor; onedio ve cumhuriyet bunu enflasyon verisine bağlıyor (cumhuriyet 'eylül ayı' diyor); hiçbir başlık oranın kendisini vermiyor.", "care": "Oranı vermeyen soru kalıplı başlıklar haberi arama trafiğine yönelik bir hizmet içeriğine dönüştürüyor; kiraların enflasyona bağlı artışı ise yalnızca iki başlıkta neden olarak görünüyor."}, "rows": [
+{"s": "aksam", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cnnturk", "frame": "Hizmet haberi", "hero": "TÜİK", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Hizmet haberi", "hero": "TÜİK", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "Ev sahipleri ve kiracılar", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "Ev sahipleri ve kiracılar", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "Ev sahipleri ve kiracılar", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "onedio", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Enflasyon verisi", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Hizmet haberi", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "Ev sahipleri ve kiracılar", "sol": "", "moral": "", "start": ""},
+{"s": "akit", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Kira artışı", "aff": "Milyonlarca kişi", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "TÜİK", "blame": "", "cause": "Enflasyon verisi", "cons": "Kira artışı", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

@@ -1,0 +1,862 @@
+{
+ "dimensions": {
+  "frame": "Çerçeve",
+  "hero": "Merkezdeki aktör",
+  "blame": "Sorumlu tutulan",
+  "cause": "Sunulan neden",
+  "cons": "Öne çıkan sonuç",
+  "aff": "Etkilenen kesim",
+  "sol": "Meşrulaştırılan çözüm",
+  "moral": "Ahlaki çerçeve",
+  "start": "Hikâyenin başlangıcı"
+ },
+ "examples_from_hand_coded_weeks": [
+  {
+   "q": {
+    "happened": "İçişleri Bakanlığı, Yahşihan Belediyesi'ne yönelik yolsuzluk soruşturması kapsamında Belediye Başkan Vekili Aydın Demirdirek'i görevden uzaklaştırdı.",
+    "agree": "Görevden uzaklaştırma ortak.",
+    "differ": "Soldaki kurumlar Demirdirek'in partisini ('AKP'li') ya da yolsuzluk operasyonunu başlığa taşıyor; sağdaki kurumlar kararı İçişleri Bakanlığı'nın adıyla duyuruyor.",
+    "care": "Bir belediye yöneticisinin partisinin başlıkta yer alıp almaması, yolsuzluk haberlerinin siyasi yükünü belirler; bu olayda partisi yalnızca soldaki bir kurum tarafından anılıyor."
+   },
+   "rows": [
+    {
+     "s": "birgun",
+     "hl": "Yahşihan Belediyesi'ne yönelik yolsuzluk operasyonu: Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Yahşihan Belediyesi Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Siyasi sorumluluk",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "AKP'li başkan vekili",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Hesap verebilirlik",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika...Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Yahşıyan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı - Politika Siyaset Haberleri",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ntv",
+     "hl": "Yahşihan Belediyesi soruşturması. Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Yahşihan Belediye Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yahşihan Belediye Başkan Vekili görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKiKA I İçişleri Bakanlığı duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı!",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Bakanlık duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "Yahşihan’da tutuklama sonrası kritik karar! Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "İçişleri duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "frame",
+    "hero"
+   ]
+  },
+  {
+   "q": {
+    "happened": "Fon soruşturması kapsamında gözaltına alınan gazeteciler Mustafa Balcı ve Şaban Sevinç tutuklandı.",
+    "agree": "Tutuklama ortak.",
+    "differ": "Soldaki kurumlar ikisini 'gazeteci' kimliğiyle ve Balcı'yı Sözcü editörü olarak tanıtıyor; sağdaki kurumlar haberi 'fon soruşturması' ya da 'dezenformasyon' çerçevesine yerleştiriyor; bir kurum 'Fon'daşlar kodese' diye alaycı bir başlık atıyor.",
+    "care": "Tutuklanan kişilerin 'gazeteci' kimliğinin başlıkta olması olayı bir basın özgürlüğü meselesi yapar; 'Fon'daşlar kodese' ifadesi ise kişileri yargı kararından önce bir suç grubunun üyeleri olarak etiketler."
+   },
+   "rows": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı tutuklama talebiyle hakimliğe sevk edildi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı gözaltına alındı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "aydinlik",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sözcü.com.tr editörü Mustafa Balcı ve gazeteci Şaban Sevinç hakkında karar çıktı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı, İsmail Saymaz ve Murat Ağırel'e adli kontrol",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "haberturk",
+     "hl": "Gazeteci Mustafa Balcı ve Şaban Sevinç tutuklandı - Habertürk Son Dakika Haber",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Şaban Sevinç ve Mustafa Balcı hakkında tutuklama talebi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA… Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında dezenformasyon: Şaban Sevinç ve Mustafa Balcı'ya tutuklama talebi",
+     "frame": "Dezenformasyon",
+     "hero": "Savcılık",
+     "blame": "Gazeteciler",
+     "cause": "Dezenformasyon iddiası",
+     "cons": "Tutuklama talebi",
+     "aff": "",
+     "sol": "",
+     "moral": "Doğru bilgi",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Şaban Sevinç fon soruşturmasında tutuklandı! İsmail Saymaz, Murat Ağırel ve Mustafa Balcı ne dedi? Neden gözaltına alındı?",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı, İsmail Saymaz ve Murat Ağırel'e ev hapsi",
+     "frame": "Alay / etiketleme",
+     "hero": "Savcılık",
+     "blame": "'Fon'daşlar'",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "Cezalandırma",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fon soruşturması kapsamında Şaban Sevinç ve Mustafa Balcı tutuklandı! Murat Ağırel ve İsmail Saymaz'a ev...",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "blame",
+    "frame",
+    "moral",
+    "hero"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "event": "s1605",
+   "week": "w7",
+   "title": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti",
+   "headlines": [
+    {
+     "s": "ahaber",
+     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
+    },
+    {
+     "s": "mynet",
+     "hl": "Son Dakika | Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Muğla Büyükşehir Belediye Başkanı Aras, CHP'den istifa etti"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Muğla Büyükşehir Belediye Başkanı Ahmet Aras, CHP'den istifa etti"
+    },
+    {
+     "s": "star",
+     "hl": "CHP'de kriz devam ediyor! Muğla Büyükşehir Belediye Başkanı Aras istifa etti"
+    },
+    {
+     "s": "ntv",
+     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras, CHP'den istifa etti"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Muğla Belediye Başkanı Ahmet Aras CHP'den istifa etti"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP’den istifa etti"
+    },
+    {
+     "s": "karar",
+     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
+    },
+    {
+     "s": "diken",
+     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Bir büyükşehir belediye başkanı daha AK Parti’ye geçecek iddiaları vardı...Muğla Büyükşehir Belediye Başkanı CHP’den istifa etti"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Muğla Büyükşehir Belediye Başkanı CHP'den istifa etti"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
+    }
+   ]
+  },
+  {
+   "event": "s1573",
+   "week": "w7",
+   "title": "Reyhanlı saldırısı sanığı terörist Mihraç Ural yakalandı",
+   "headlines": [
+    {
+     "s": "trthaber",
+     "hl": "SANA: Reyhanlı saldırısı sanığı terörist 'Mihraç Ural' yakalandı"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Reyhanlı saldırısı sanığı terörist Mihraç Ural yakalandı: Kaçmaya çalışırken Suriye'de enselendi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Reyhanlı saldırısının sanığı Mihraç Ural Suriye’de yakalandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Mihraç Ural Suriye'de yakalandı! SANA duyurdu"
+    },
+    {
+     "s": "ntv",
+     "hl": "Reyhanlı saldırısı faili Mihraç Ural Suriye'de yakalandı"
+    },
+    {
+     "s": "karar",
+     "hl": "Reyhanlı saldırısının sanığı Mihraç Ural Suriye’de yakalandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Son dakika: Reyhanlı saldırısı sanığı terörist Mihraç Ural yakalandı!"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Reyhanlı saldırısı sanığı terörist Mihraç Ural yakalandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Reyhanlı saldırısı sanığı Mihraç Ural kimdir? 2013 saldırısının geçmişi"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Mihraç Ural Suriye'de yakalandı!"
+    },
+    {
+     "s": "mynet",
+     "hl": "SON DAKİKA | Mihraç Ural Suriye'de yakalandı! Fotoğrafları servis edildi"
+    },
+    {
+     "s": "star",
+     "hl": "Esad'ın köpeği Mihraç Ural yakalandı"
+    }
+   ]
+  },
+  {
+   "event": "s3595",
+   "week": "w7",
+   "title": "Halk TV’ye kayyum atandı, yayın durduruldu",
+   "headlines": [
+    {
+     "s": "karar",
+     "hl": "Halk TV’ye şafak operasyonu: TMSF kayyum olarak atandı, canlı yayın durduruldu"
+    },
+    {
+     "s": "mynet",
+     "hl": "Halk TV'ye kayyum atandı! Polisler binada arama yapıyor"
+    },
+    {
+     "s": "sozcu",
+     "hl": "SON DAKİKA... Halk TV'ye kayyum atandı: Yayın durduruldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika... Halk TV’ye şafak baskını: Kayyım atandı, yayın durduruldu"
+    },
+    {
+     "s": "diken",
+     "hl": "Halk TV'ye kayyım atandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Halk TV'ye operasyon: Kayyum atandı, yayın kesildi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Halk TV'ye kayyum atandı! Cafer Mahiroğlu'nun 30 milyarlık rüşvet çarkı deşifre oldu"
+    },
+    {
+     "s": "haberturk",
+     "hl": "SON DAKİKA HABERLERİ: Halk TV'de arama, kayyum atandı! Halk TV'ye neden kayyum atandı, ne oldu?"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Halk TV’ye kayyum atandı, yayın durduruldu"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Halk TV'ye kayyım atandı, siyasiler ve meslek örgütleri tepkili"
+    },
+    {
+     "s": "star",
+     "hl": "Halk TV'ye kayyum atandı! Cafer Mahiroğlu dahil 17 kişiye gözaltı"
+    }
+   ]
+  },
+  {
+   "event": "s1633",
+   "week": "w7",
+   "title": "Selden etkilenen esnafa 80 milyon lira destek",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Bakan Bolat duyurdu: İstanbul'da selden etkilenen esnafa 80 milyon TL destek sağlanacak"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Selden etkilenen esnafa 80 milyon lira destek"
+    },
+    {
+     "s": "ahaber",
+     "hl": "İstanbul’da sel felaketinin yaraları sarılıyor! Esnafa 80 milyon liralık destek"
+    },
+    {
+     "s": "sabah",
+     "hl": "Bakan Bolat duyurdu: İstanbul'da selden etkilenen esnafa dev destek!"
+    },
+    {
+     "s": "trthaber",
+     "hl": "İstanbul'da selden etkilenen esnafa 80 milyon lira nakdi destek"
+    },
+    {
+     "s": "karar",
+     "hl": "Selden etkilenen esnafa 80 milyon TL destek: Ödeme tarihi açıklandı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Bakan Bolat duyurdu. Selden etkilenen esnafa destek"
+    },
+    {
+     "s": "mynet",
+     "hl": "İstanbul'da selden etkilenen esnafa 80 milyon TL nakdi destek"
+    },
+    {
+     "s": "diken",
+     "hl": "Selden etkilenen esnafa nakit desteği"
+    },
+    {
+     "s": "star",
+     "hl": "Sakarya'da selden etkilenen ailelere 10 bin lira destek! Ödemeler başladı"
+    }
+   ]
+  },
+  {
+   "event": "s3556",
+   "week": "w7",
+   "title": "Fenerbahçe, Aston Villa'ya 6-0 mağlup oldu",
+   "headlines": [
+    {
+     "s": "sabah",
+     "hl": "Fenerbahçe, Şampiyonlar Ligi'nde Aston Villa'ya konuk olacak!"
+    },
+    {
+     "s": "karar",
+     "hl": "Fenerbahçe yarın Aston Villa deplasmanında"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fenerbahçe Aston Villa'ya konuk olacak"
+    },
+    {
+     "s": "star",
+     "hl": "Fenerbahçe yarın Aston Villa deplasmanında"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fenerbahçe, UEFA Şampiyonlar Ligi'nin 2. haftasında Aston Villa'ya deplasmanda 6-0 mağlup oldu"
+    },
+    {
+     "s": "ntv",
+     "hl": "Fenerbahçe, Şampiyonlar Ligi'nde Aston Villa deplasmanında. İlk 11'de sürpriz"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Fenerbahçe Aston Villa deplasmanında! Muhtemel 11’ler belli oldu"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Fenerbahçe'nin gençleri Aston Villa'ya kaybetti"
+    },
+    {
+     "s": "diken",
+     "hl": "Fenerbahçe-Aston Villa maçında ilk 11'ler belli oldu"
+    },
+    {
+     "s": "mynet",
+     "hl": "Fenerbahçe Aston Villa'ya farklı yenildi! Fatura onlara kesildi: 'İki İsmail'e yazar'"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Fenerbahçe, Aston Villa'ya farklı mağlup oldu"
+    }
+   ]
+  },
+  {
+   "event": "s1595",
+   "week": "w7",
+   "title": "Cafer Mahiroğlu soruşturması: 4 şüpheli tutuklandı",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Cafer Mahiroğlu soruşturmasında kritik iddia: Savcılık açıklamasında Cemil Tugay’ın ismi yok!"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Cafer Mahiroğlu soruşturmasında kritik iddia: İzmir'in adı var Cemil Tugay'ın yok"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Cafer Mahiroğlu soruşturmasında BUSTECH ödemeleri dosyada"
+    },
+    {
+     "s": "star",
+     "hl": "Cafer Mahiroğlu'na yolsuzluk soruşturması... Gözaltındaki 12 şüpheli adliyeye sevk edildi"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA... Cafer Mahiroğlu soruşturmasında yeni gelişme: 4 şüpheli tutuklandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Cafer Mahiroğlu’na yönelik soruşturmada 7 şüpheliye tutuklama talebi"
+    },
+    {
+     "s": "mynet",
+     "hl": "Cafer Mahiroğlu soruşturması: 4 kişi tutuklandı, 8 kişi adli kontrolle serbest bırakıldı"
+    },
+    {
+     "s": "diken",
+     "hl": "Cafer Mahiroğlu soruşturması: Dört kişi tutuklandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Halk TV sahibi Cafer Mahiroğlu soruşturmasında 4 zanlı tutuklandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Cafer Mahiroğlu'na yönelik soruşturmada 4 zanlı tutuklandı"
+    }
+   ]
+  },
+  {
+   "event": "s1566",
+   "week": "w7",
+   "title": "Türkiye Belediyeler Birliği Başkan Vekiliği’ne Ayşe Ünlüce, seçildi",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "YENİ Parti'nin Türkiye Belediyeler Birliği başkanvekili seçiminde adayı Ayşe Ünlüce oldu"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Belediyeler Birliği’ne Ayşe Abla"
+    },
+    {
+     "s": "ntv",
+     "hl": "Türkiye Belediyeler Birliği'nin (TBB) yeni başkanvekili Ayşe Ünlüce oldu"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Son dakika haberler: Türkiye Belediyeler Birliği'nde Başkan Vekili seçimi yapılıyor"
+    },
+    {
+     "s": "karar",
+     "hl": "Türkiye Belediyeler Birliği'nde Başkan Vekili seçimi bugün"
+    },
+    {
+     "s": "milligazete",
+     "hl": "TBB seçim sonuçları 2026, Ayşe Ünlüce kaç oy aldı? Tahir Büyükakın kazandı mı?"
+    },
+    {
+     "s": "diken",
+     "hl": "TBB'nin yeni başkan vekili Ayşe Ünlüce"
+    },
+    {
+     "s": "mynet",
+     "hl": "TBB Başkan Vekilliği seçimi sonuçlandı! Ayşe Ünlüce kazandı"
+    },
+    {
+     "s": "sabah",
+     "hl": "TBB Başkanvekilliğine Ayşe Ünlüce seçildi"
+    },
+    {
+     "s": "takvim",
+     "hl": "TBB Başkanvekili belli oldu: Eskişehir Büyükşehir Belediye Başkanı Ayşe Ünlüce seçildi"
+    }
+   ]
+  },
+  {
+   "event": "s3622",
+   "week": "w7",
+   "title": "Dusan Vlahovic'ten Beşiktaş'a kötü haber! Hoffenheim maçı kamp kadrosunda yok",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Kritik maç öncesi Dusan Vlahovic'ten Beşiktaş'a kötü haber"
+    },
+    {
+     "s": "takvim",
+     "hl": "Beşiktaş'ta Hoffenheim maçı öncesi Vlahovic şoku! Kadroda yok!"
+    },
+    {
+     "s": "mynet",
+     "hl": "Beşiktaş'ta kritik maç öncesi Vlahovic'ten kötü haber!"
+    },
+    {
+     "s": "star",
+     "hl": "Dusan Vlahovic'ten Beşiktaş'a kötü haber! Hoffenheim maçı kamp kadrosunda yok"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Beşiktaş'ta Vlahovic, Hoffenheim maçının kadrosuna alınmadı!"
+    },
+    {
+     "s": "sabah",
+     "hl": "Beşiktaş'ta Vlahovic, Hoffenheim maçı kadrosunda yok!"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Beşiktaş’ın Hoffenheim maçı kamp kadrosu açıklandı: 3 futbolcu yok"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Beşiktaş'ın Hoffenheim maçı kadrosu açıklandı: 3 yıldız kadroya alınmadı!"
+    },
+    {
+     "s": "karar",
+     "hl": "Beşiktaş'ın Hoffenheim maçı kamp kadrosu açıklandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Dusan Vlahovic Hoffenheim maçında neden oynamıyor? Hastalığı belli oldu"
+    }
+   ]
+  },
+  {
+   "event": "s3513",
+   "week": "w7",
+   "title": "KPSS ORTAÖĞRETİM SINAV GİRİŞ YERLERİ 2026 AÇIKLANDI! KPSS Lise sınav yerleri nasıl ve nereden öğrenilir? ÖSYM AİS KPSS Ortaöğretim sınav giriş belgesi sorgulama ekranı",
+   "headlines": [
+    {
+     "s": "ntv",
+     "hl": "KPSS ortaöğretim sınav yerleri sorgulama 2026: KPSS ortaöğretim (lise) sınav yerleri açıklandı mı?"
+    },
+    {
+     "s": "haberturk",
+     "hl": "KPSS ORTAÖĞRETİM SINAV GİRİŞ YERLERİ SORGULAMA EKRANI: 2026 KPSS Ortaöğretim sınav giriş belgesi yayımlandı mı, sınav yerleri ne zaman açıklanacak?"
+    },
+    {
+     "s": "sabah",
+     "hl": "KPSS ortaöğretim sınav yerleri ne zaman belli olacak? ÖSYM ile KPSS lise sınav yerleri bekleniyor!"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Memur Adaylarının Gözü ÖSYM'de: 2026 KPSS Ortaöğretim Sınav Yeri Öğrenme Ekranı ve Tarihleri"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "2026 KPSS ortaöğretim sınav yerleri açıklandı mı? ÖSYM sınava giriş belgelerini ne zaman açıklayacak?"
+    },
+    {
+     "s": "karar",
+     "hl": "2026 KPSS Ortaöğretim sınav yerleri bugün açıklanır mı? KPSS lise sınav yerleri e devletten nasıl bakılır?10.00 detayına dikkat"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "KPSS Ortaöğretim sınav yerleri belli oldu"
+    },
+    {
+     "s": "ahaber",
+     "hl": "2026 KPSS Ortaöğretim sınav giriş belgeleri yayımlandı: ÖSYM AİS sorgulama ekranı"
+    },
+    {
+     "s": "star",
+     "hl": "KPSS Ortaöğretim giriş belgeleri erişime açıldı"
+    },
+    {
+     "s": "takvim",
+     "hl": "KPSS Ortaöğretim sınav giriş belgesi sorgulama 2026"
+    }
+   ]
+  }
+ ]
+}

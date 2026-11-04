@@ -1,0 +1,202 @@
+{
+ "q": {
+  "happened": "Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi.",
+  "agree": "Soruşturma izninin verildiği ortak.",
+  "differ": "Star, Mynet, Diken, A Haber ve Takvim izni Bakan Mehmet Şimşek'in kararı olarak öne çıkarıyor; Karar soruşturmayı 'fon skandalı' bağlamına yerleştirip SPK'nın eski yönetimine uzandığını vurguluyor; diğerleri yalnızca izni aktarıyor.",
+  "care": "Kararı bir bakanın adıyla duyurmak siyasi irade vurgusu yapar; fon skandalı bağlamı ise olayı tekil bir soruşturmadan kurumsal bir skandala dönüştürür."
+ },
+ "rows": [
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "bloomberght",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Olgu aktarımı",
+   "hero": "İbrahim Ömer Gönül",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Bakan kararı",
+   "hero": "Mehmet Şimşek",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Bakan kararı",
+   "hero": "Mehmet Şimşek",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Bakan kararı",
+   "hero": "Mehmet Şimşek",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Bakan kararı",
+   "hero": "Mehmet Şimşek",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Bakan kararı",
+   "hero": "Mehmet Şimşek",
+   "blame": "",
+   "cause": "",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Fon skandalı",
+   "hero": "Mehmet Şimşek",
+   "blame": "SPK eski yönetimi",
+   "cause": "Fon skandalı",
+   "cons": "Soruşturma izni",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Fon skandalı"
+  }
+ ]
+}

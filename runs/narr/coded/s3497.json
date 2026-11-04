@@ -1,0 +1,166 @@
+{
+ "q": {
+  "happened": "2026 Nobel Ekonomi Ödülü'nün sahipleri açıklandı.",
+  "agree": "Ödülün verildiği ortak.",
+  "differ": "Çoğu kurum yalnızca sahiplerin belli olduğunu duyuruyor; Bloomberg HT kazananları 'Keynes'i yeniden yorumlayan kriz teorisyenleri' olarak tanımlıyor; Sabah ABD'li kimliğini, A Haber iki ekonomisti, Takvim Hall ve Woodford'un çalışmalarını, Milli Gazete Robert Hall'u öne çıkarıyor.",
+  "care": "Kazananları isim ya da çalışma içeriğiyle tanımlamak okura ödülün neden verildiğini anlatır; yalnızca duyuru yapan başlıklar bu bilgiyi vermiyor."
+ },
+ "rows": [
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Ödül sahipleri",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "Ödül sahipleri",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "Ödül sahipleri",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Ödül sahipleri",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "hurriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "Ödül sahipleri",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Olgu aktarımı",
+   "hero": "Ödül sahipleri",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Ödül sahipleri",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "Ödül sahipleri",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "bloomberght",
+   "frame": "Bilimsel katkı",
+   "hero": "Kriz teorisyenleri",
+   "blame": "",
+   "cause": "Keynes'i yeniden yorumlama",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Olgu aktarımı",
+   "hero": "İki ekonomist",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "ABD'li ekonomistler",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Bilimsel katkı",
+   "hero": "Hall ve Woodford",
+   "blame": "",
+   "cause": "Ödüllü çalışmalar",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Biyografi",
+   "hero": "Robert Hall",
+   "blame": "",
+   "cause": "",
+   "cons": "Nobel Ödülü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

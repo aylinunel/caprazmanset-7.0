@@ -1,0 +1,130 @@
+{
+ "q": {
+  "happened": "Cafer Mahiroğlu'na yönelik yolsuzluk soruşturmasında şüpheliler adliyeye sevk edildi ve 4 kişi tutuklandı.",
+  "agree": "Mahiroğlu soruşturmasının sürdüğü ve şüphelilerin yargıya sevk edildiği ortak.",
+  "differ": "cumhuriyet ve sozcu savcılık açıklamasında Cemil Tugay'ın adının olmadığını öne çıkarıyor; ahaber BUSTECH ödemelerine, star yolsuzluğa vurgu yapıyor; trthaber Mahiroğlu'nu 'Halk TV sahibi' olarak tanıtıyor; diğerleri tutuklama sayısını aktarıyor.",
+  "care": "Haberin bir muhalefet belediye başkanıyla ya da bir televizyon kanalıyla ilişkilendirilip ilişkilendirilmemesi, soruşturmanın siyasi yükünü belirler."
+ },
+ "rows": [
+  {
+   "s": "cumhuriyet",
+   "frame": "Siyasi bağlantı iddiası",
+   "hero": "Cemil Tugay",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Siyasi bağlantı iddiası",
+   "hero": "Cemil Tugay",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Yolsuzluk",
+   "hero": "Savcılık",
+   "blame": "Cafer Mahiroğlu",
+   "cause": "BUSTECH ödemeleri",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Yolsuzluk",
+   "hero": "Savcılık",
+   "blame": "Cafer Mahiroğlu",
+   "cause": "Yolsuzluk",
+   "cons": "Adliyeye sevk",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama talebi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "Halk TV sahibi",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Olgu aktarımı",
+   "hero": "Şüpheliler",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

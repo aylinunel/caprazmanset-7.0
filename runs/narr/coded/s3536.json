@@ -1,0 +1,166 @@
+{
+ "q": {
+  "happened": "Breaking Bad dizisiyle tanınan oyuncu RJ Mitte 34 yaşında hayatını kaybetti.",
+  "agree": "Mitte'nin öldüğü ve Breaking Bad ile tanındığı ortak.",
+  "differ": "Çoğu kurum ölümü düz aktarıyor; Sabah genç yaşı, Sözcü ve Mynet 'acı haber'i, Takvim 'trajik son'u öne çıkarıyor; Milli Gazete, A Haber ve Mynet ölüm nedenini soru olarak gündeme getiriyor.",
+  "care": "Ölüm nedenini soru olarak başlığa taşımak doğrulanmamış merak alanı açar; duygusal çerçeve ise haberi magazin dramına dönüştürür."
+ },
+ "rows": [
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Olgu aktarımı",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Erken ölüm",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Acı haber",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Biyografi",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Biyografi",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "Belirsiz ölüm nedeni",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Biyografi",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "Belirsiz ölüm nedeni",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Acı haber",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "Belirsiz ölüm nedeni",
+   "cons": "Ölüm",
+   "aff": "Sevenleri",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Trajedi",
+   "hero": "RJ Mitte",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Yeni film hazırlığı"
+  }
+ ]
+}

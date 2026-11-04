@@ -1,0 +1,166 @@
+{
+ "q": {
+  "happened": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti.",
+  "agree": "Aras'ın CHP'den istifası tüm başlıklarda ortak.",
+  "differ": "Kurumların çoğu istifayı yalın biçimde aktarıyor; star istifayı 'CHP'de kriz devam ediyor' çerçevesine oturtuyor, milligazete ise Aras'ın AK Parti'ye geçeceği iddialarını başlığa taşıyor.",
+  "care": "İstifanın tek bir kişisel karar mı yoksa CHP'deki bir krizin ya da AK Parti'ye geçiş dalgasının parçası mı olarak sunulduğu, olayın siyasi anlamını belirler."
+ },
+ "rows": [
+  {
+   "s": "ahaber",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Parti içi kriz",
+   "hero": "Ahmet Aras",
+   "blame": "CHP",
+   "cause": "CHP'deki kriz",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Parti değiştirme",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "AK Parti'ye geçiş iddiası",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "Ahmet Aras",
+   "blame": "",
+   "cause": "",
+   "cons": "CHP'den istifa",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

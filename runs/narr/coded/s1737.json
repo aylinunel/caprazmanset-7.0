@@ -1,0 +1,202 @@
+{
+ "q": {
+  "happened": "Çukurova Belediye Başkanı Emrah Kozay, belediyeye yönelik operasyon kapsamında tutuklandı ve görevden uzaklaştırıldı; birçok başlık toplam 34 tutuklamadan söz ediyor.",
+  "agree": "Emrah Kozay'ın tutuklandığı ya da görevden uzaklaştırıldığı ortak.",
+  "differ": "Takvim, A Haber, Star, NTV ve Diken olayı 34 kişilik bir operasyonun parçası olarak veriyor; Sözcü, Cumhuriyet, Habertürk, Karar ve Diriliş yalnızca Kozay'ın tutuklanmasını aktarıyor; AA, TRT Haber, Yeni Şafak ve Mynet görevden uzaklaştırmayı öne alıyor, Mynet bunu İçişleri Bakanlığı'nın adıyla duyuruyor; Milli Gazete kişi profili soruları soruyor.",
+  "care": "Toplu operasyon vurgusu belediyeyi örgütlü bir suç ortamı olarak resmederken, yalnızca tutuklamayı ya da idari kararı aktaran başlıklar olayı tek kişiye ve devlet işlemine odaklıyor."
+ },
+ "rows": [
+  {
+   "s": "takvim",
+   "frame": "Operasyon",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "",
+   "cons": "Görevden uzaklaştırma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Operasyon",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "Emrah Kozay",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "Emrah Kozay",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Emrah Kozay",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "Emrah Kozay",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Operasyon",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "",
+   "cons": "Yargı kararı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Operasyon",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Operasyon",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Operasyon",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "aa",
+   "frame": "Olgu aktarımı",
+   "hero": "Emrah Kozay",
+   "blame": "",
+   "cause": "",
+   "cons": "Görevden uzaklaştırma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "Emrah Kozay",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Devlet otoritesi",
+   "hero": "İçişleri Bakanlığı",
+   "blame": "",
+   "cause": "",
+   "cons": "Görevden uzaklaştırma",
+   "aff": "",
+   "sol": "",
+   "moral": "Kamu düzeni",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "Emrah Kozay",
+   "blame": "",
+   "cause": "",
+   "cons": "Görevden uzaklaştırma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yenisafak",
+   "frame": "Olgu aktarımı",
+   "hero": "Emrah Kozay",
+   "blame": "",
+   "cause": "",
+   "cons": "Görevden uzaklaştırma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Kişi profili",
+   "hero": "Emrah Kozay",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

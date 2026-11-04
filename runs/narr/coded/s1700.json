@@ -1,0 +1,202 @@
+{
+ "q": {
+  "happened": "Merkez Bankası ekim ayı faiz kararını açıkladı; kararı aktaran başlıklara göre faiz 9 ay sonra ilk kez indirildi (Tele1'e göre 1 puan).",
+  "agree": "Merkez Bankası'nın faiz kararı açıkladığı ortak; sonucu veren başlıklar indirim konusunda hemfikir.",
+  "differ": "Sabah, Cumhuriyet, Habertürk, Mynet ve Türkiye Gazetesi karar öncesi beklenti ve saat sorularıyla veriyor; Takvim, A Haber, Karar ve Star '9 ay sonra ilk' vurgusuyla kararı bir dönüm noktası olarak sunuyor; Diken, Tele1 ve Yeni Asya indirimi düz aktarıyor, TRT Haber ve NTV kararın yönünü belirtmiyor.",
+  "care": "'9 ay sonra ilk' vurgusu indirimi olumlu bir kırılma olarak öne çıkarırken, yönü belirtmeyen başlıklar okurun kararın içeriğini başlıktan öğrenmesini engelliyor."
+ },
+ "rows": [
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Dönüm noktası",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "9 aylık ara"
+  },
+  {
+   "s": "sabah",
+   "frame": "Beklenti",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Beklenti",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Beklenti",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Beklenti",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Dönüm noktası",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "Faiz indirimi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "9 aylık ara"
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Beklenti",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "9 aylık ara"
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "Faiz indirimi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Dönüm noktası",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "Faiz indirimi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "9 aylık ara"
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Dönüm noktası",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "9 aylık ara"
+  },
+  {
+   "s": "tele1",
+   "frame": "Olgu aktarımı",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "Faiz indirimi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Olgu aktarımı",
+   "hero": "Merkez Bankası",
+   "blame": "",
+   "cause": "",
+   "cons": "Faiz indirimi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

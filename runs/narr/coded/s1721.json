@@ -1,0 +1,190 @@
+{
+ "q": {
+  "happened": "Zonguldak'ta bir bina çöktü; enkaz altında kalan iki kişiden biri hayatını kaybetti, biri yaralı kurtarıldı.",
+  "agree": "Binanın çöktüğü ve bir kişinin öldüğü ortak.",
+  "differ": "Başlıklar binanın kat sayısında ayrışıyor (Türkiye Gazetesi, Yeni Asya ve Karar 2 kat, Sözcü, NTV, Cumhuriyet, Mynet, Habertürk, Milli Gazete ve Diken 3 kat); Takvim ve Diriliş can kaybı yerine çevredeki 7 binanın tahliyesini öne çıkarıyor; Türkiye Gazetesi ve Sözcü 'kardeş' ve 'acı haber' vurgusuyla trajedi dili kullanıyor.",
+  "care": "Tahliyeyi öne çıkaran başlıklar riskin yaygınlığına, can kaybını ve kardeşleri öne çıkaranlar ise bireysel acıya dikkat çekiyor; kat sayısındaki tutarsızlık temel olgunun bile doğrulanmadığını gösteriyor."
+ },
+ "rows": [
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "Enkazdakiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Tahliye",
+   "aff": "Çevre sakinleri",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Trajedi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "İki kardeş",
+   "sol": "",
+   "moral": "Yas",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "Enkazdakiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Trajedi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "",
+   "sol": "",
+   "moral": "Yas",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "Enkazdakiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "Enkazdakiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "Enkazdakiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "Enkazdakiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Bina çökmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Kurtarma çalışması",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "Enkazdakiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Can kaybı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Tahliye",
+   "aff": "Çevre sakinleri",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

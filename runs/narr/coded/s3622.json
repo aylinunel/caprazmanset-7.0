@@ -1,0 +1,130 @@
+{
+ "q": {
+  "happened": "Beşiktaş Hoffenheim maçının kamp kadrosunu açıkladı; Vlahovic kadroda yer almıyor.",
+  "agree": "Beşiktaş'ın Hoffenheim maçı öncesi kadro açıkladığı ve bazı oyuncuların kadroda olmadığı ortak.",
+  "differ": "cumhuriyet, mynet, star ve takvim Vlahovic'in yokluğunu 'kötü haber' ya da 'şok' diye sunuyor; ahaber, sozcu ve karar genel kadro duyurusu yapıyor; milligazete nedeni hastalık olarak veriyor.",
+  "care": "Yokluğun bir 'şok' olarak mı yoksa sıradan bir kadro bilgisi ya da sağlık nedeni olarak mı sunulduğu, olayın takım için önemini farklı gösterir."
+ },
+ "rows": [
+  {
+   "s": "cumhuriyet",
+   "frame": "Takım için kayıp",
+   "hero": "Dusan Vlahovic",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "Beşiktaş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Takım için kayıp",
+   "hero": "Dusan Vlahovic",
+   "blame": "",
+   "cause": "",
+   "cons": "Kadroda yok",
+   "aff": "Beşiktaş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Takım için kayıp",
+   "hero": "Dusan Vlahovic",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "Beşiktaş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Takım için kayıp",
+   "hero": "Dusan Vlahovic",
+   "blame": "",
+   "cause": "",
+   "cons": "Kadroda yok",
+   "aff": "Beşiktaş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Dusan Vlahovic",
+   "blame": "",
+   "cause": "",
+   "cons": "Kadroda yok",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "Dusan Vlahovic",
+   "blame": "",
+   "cause": "",
+   "cons": "Kadroda yok",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Kadro duyurusu",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "Kadro dışı oyuncular",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Kadro duyurusu",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "Kadro dışı oyuncular",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Kadro duyurusu",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Sağlık sorunu",
+   "hero": "Dusan Vlahovic",
+   "blame": "",
+   "cause": "Hastalık",
+   "cons": "Kadroda yok",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

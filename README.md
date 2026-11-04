@@ -52,6 +52,17 @@ cd pipeline && python -m capraz_pipeline build --since 2026-09-01 --until 2026-1
     neither is ever counted as "no bias";
   - a dispatch circuit breaker stops after five consecutive failed batches;
   - each review is capped at six concepts, one batch per role (the simulation had a length failure).
+- **Analyses brought up to date** (nothing on these pages is frozen at an older date any more):
+  - Anlatı haritası: four new weeks (11 Oct – 3 Nov), 72 candidate events coded with the 6.0 nine-dimension
+    scheme by Claude agents (`pipeline/capraz_pipeline/narratives.py`, `data/reference/narratives-7.json`),
+    then selected by the Yöntem § 6.3 rule; 10 events per week shown. Hand-coded weeks are unchanged and the
+    page says which weeks were coded by an agent.
+  - Çerçeveleme › Üretim aşamaları: each production-stage card now shows a measurement from this window's
+    data (blind spots, quoted-headline share, headline–lede gap, most-flagged loaded words, widest score
+    range, first-to-report share, headlines per event, mean load by bloc) instead of a 1 September anecdote.
+  - Çerçeveleme › Çözümleyici: Mercek's 12-case Turkish checklist re-run against the site's current scorer
+    (`pipeline/capraz_pipeline/checklist.cjs` → `data/reference/checklist-7.json`): 3 real passes, 5 empty
+    passes, 4 failures, shown as they are.
 - Version labels read 7.0.
 
 ## Boundaries

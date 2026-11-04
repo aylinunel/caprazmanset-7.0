@@ -1,0 +1,190 @@
+{
+ "q": {
+  "happened": "'Futbolda şike kumpası' soruşturmasında eski TFF yöneticisi Lütfi Arıboğan hakkında iddianame hazırlandı ve 5 yıla kadar hapis istendi.",
+  "agree": "Arıboğan hakkında iddianame düzenlendiği ve hapis istendiği ortak.",
+  "differ": "AA, A Haber ve Diriliş şike sürecini 'FETÖ'nün kumpası' olarak adlandırıyor; Sabah, Star, Takvim ve Milli Gazete suçlamayı 'FETÖ' iddianamesi/davası olarak öne çıkarıyor; Diken 'FETÖ'ye yardım' ifadesini tırnak içinde veriyor; Cumhuriyet ve Sözcü yalnızca 'şike soruşturması' diyor; NTV ve Habertürk ceza talebini düz aktarıyor.",
+  "care": "Şike sürecinin 'kumpas' olarak adlandırılması geçmiş şike davalarına dair resmi anlatıyı benimser; suçlamanın tırnak içinde verilmesi ise iddia ile kanıtlanmış olgu arasına mesafe koyar."
+ },
+ "rows": [
+  {
+   "s": "aa",
+   "frame": "FETÖ kumpası",
+   "hero": "Savcılık",
+   "blame": "FETÖ",
+   "cause": "FETÖ'ye yardım",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Şike kumpası"
+  },
+  {
+   "s": "sabah",
+   "frame": "FETÖ davası",
+   "hero": "Savcılık",
+   "blame": "Lütfi Arıboğan",
+   "cause": "",
+   "cons": "İddianame",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "Lütfi Arıboğan",
+   "blame": "",
+   "cause": "",
+   "cons": "İddianame",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Şike soruşturması",
+   "hero": "Lütfi Arıboğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Dava",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "FETÖ kumpası",
+   "hero": "Savcılık",
+   "blame": "Lütfi Arıboğan",
+   "cause": "FETÖ'ye yardım",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Şike kumpası"
+  },
+  {
+   "s": "mynet",
+   "frame": "Terör suçlaması",
+   "hero": "Savcılık",
+   "blame": "Lütfi Arıboğan",
+   "cause": "Terör örgütüne yardım",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "FETÖ davası",
+   "hero": "Savcılık",
+   "blame": "Lütfi Arıboğan",
+   "cause": "FETÖ'ye yardım",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "FETÖ davası",
+   "hero": "Lütfi Arıboğan",
+   "blame": "",
+   "cause": "'FETÖ'ye yardım' iddiası",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Şike soruşturması",
+   "hero": "Lütfi Arıboğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "FETÖ davası",
+   "hero": "Savcılık",
+   "blame": "Lütfi Arıboğan",
+   "cause": "FETÖ'ye yardım",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Şike kumpası",
+   "hero": "Savcılık",
+   "blame": "",
+   "cause": "",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Şike kumpası"
+  },
+  {
+   "s": "milligazete",
+   "frame": "FETÖ davası",
+   "hero": "Mahkeme",
+   "blame": "Lütfi Arıboğan",
+   "cause": "",
+   "cons": "İddianame kabulü",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Lütfi Arıboğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "FETÖ kumpası",
+   "hero": "Savcılık",
+   "blame": "FETÖ",
+   "cause": "",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Şike kumpası"
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Lütfi Arıboğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Hapis istemi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

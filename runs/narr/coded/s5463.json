@@ -1,0 +1,20 @@
+{"q": {"happened": "Van'da görev yapan Piyade Uzman Çavuş Oğuz Şahin görev başında rahatsızlanarak şehit oldu; ölümü MSB duyurdu.", "agree": "Uzman Çavuş Oğuz Şahin'in şehit olduğu ortak.", "differ": "sondakika, haberler, mynet, takvim, turkiyegz, tgrt ve aksam 'kahreden', 'acı', 'yürek yakan' gibi yas diliyle veriyor; cumhuriyet, sozcu ve yeniasya MSB duyurusunu, yenisafak, ntv, ahaber, akit ve takvim rahatsızlanma nedenini öne çıkarıyor; milligazete kişisel merak sorularına, star cenaze törenine odaklanıyor.", "care": "Ölüm nedeninin (rahatsızlanma) başlıkta olup olmaması, 'şehit' ifadesinin çatışma mı yoksa hastalık sonucu ölüm mü anlamına geldiğini okur için belirliyor."}, "rows": [
+{"s": "sondakika", "frame": "Yas", "hero": "Oğuz Şahin", "blame": "", "cause": "", "cons": "Şehadet", "aff": "", "sol": "", "moral": "Ulusal yas", "start": ""},
+{"s": "tgrt", "frame": "Yas", "hero": "Oğuz Şahin", "blame": "", "cause": "", "cons": "Şehadet", "aff": "", "sol": "", "moral": "Ulusal yas", "start": ""},
+{"s": "yenisafak", "frame": "Olgu aktarımı", "hero": "Oğuz Şahin", "blame": "", "cause": "Rahatsızlanma", "cons": "Şehadet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Resmi duyuru", "hero": "MSB", "blame": "", "cause": "", "cons": "Şehadet", "aff": "", "sol": "", "moral": "Ulusal yas", "start": ""},
+{"s": "turkiyegz", "frame": "Yas", "hero": "Oğuz Şahin", "blame": "", "cause": "", "cons": "Şehadet", "aff": "", "sol": "", "moral": "Ulusal yas", "start": ""},
+{"s": "haberler", "frame": "Yas", "hero": "Oğuz Şahin", "blame": "", "cause": "", "cons": "Şehadet", "aff": "", "sol": "", "moral": "Ulusal yas", "start": ""},
+{"s": "cumhuriyet", "frame": "Resmi duyuru", "hero": "MSB", "blame": "", "cause": "", "cons": "Şehadet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Yas", "hero": "Oğuz Şahin", "blame": "", "cause": "Rahatsızlanma", "cons": "Şehadet", "aff": "", "sol": "", "moral": "Ulusal yas", "start": ""},
+{"s": "ahaber", "frame": "Olgu aktarımı", "hero": "Oğuz Şahin", "blame": "", "cause": "Rahatsızlanma", "cons": "Şehadet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Yas", "hero": "Oğuz Şahin", "blame": "", "cause": "", "cons": "Şehadet", "aff": "", "sol": "", "moral": "Ulusal yas", "start": ""},
+{"s": "akit", "frame": "Olgu aktarımı", "hero": "Oğuz Şahin", "blame": "", "cause": "Rahatsızlanma", "cons": "Şehadet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Oğuz Şahin", "blame": "", "cause": "", "cons": "Şehadet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Olgu aktarımı", "hero": "Oğuz Şahin", "blame": "", "cause": "", "cons": "Şehadet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "Oğuz Şahin", "blame": "", "cause": "Rahatsızlanma", "cons": "Şehadet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Yas", "hero": "Oğuz Şahin", "blame": "", "cause": "Rahatsızlanma", "cons": "Şehadet", "aff": "", "sol": "", "moral": "Ulusal yas", "start": ""},
+{"s": "yeniasya", "frame": "Resmi duyuru", "hero": "MSB", "blame": "", "cause": "Rahatsızlanma", "cons": "Şehadet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Kişisel merak", "hero": "Oğuz Şahin", "blame": "", "cause": "", "cons": "Şehadet", "aff": "Ailesi", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Yas", "hero": "Oğuz Şahin", "blame": "", "cause": "", "cons": "Cenaze töreni", "aff": "", "sol": "", "moral": "Ulusal yas", "start": ""}
+]}

@@ -1,0 +1,978 @@
+{
+ "dimensions": {
+  "frame": "Çerçeve",
+  "hero": "Merkezdeki aktör",
+  "blame": "Sorumlu tutulan",
+  "cause": "Sunulan neden",
+  "cons": "Öne çıkan sonuç",
+  "aff": "Etkilenen kesim",
+  "sol": "Meşrulaştırılan çözüm",
+  "moral": "Ahlaki çerçeve",
+  "start": "Hikâyenin başlangıcı"
+ },
+ "examples_from_hand_coded_weeks": [
+  {
+   "q": {
+    "happened": "İçişleri Bakanlığı, Yahşihan Belediyesi'ne yönelik yolsuzluk soruşturması kapsamında Belediye Başkan Vekili Aydın Demirdirek'i görevden uzaklaştırdı.",
+    "agree": "Görevden uzaklaştırma ortak.",
+    "differ": "Soldaki kurumlar Demirdirek'in partisini ('AKP'li') ya da yolsuzluk operasyonunu başlığa taşıyor; sağdaki kurumlar kararı İçişleri Bakanlığı'nın adıyla duyuruyor.",
+    "care": "Bir belediye yöneticisinin partisinin başlıkta yer alıp almaması, yolsuzluk haberlerinin siyasi yükünü belirler; bu olayda partisi yalnızca soldaki bir kurum tarafından anılıyor."
+   },
+   "rows": [
+    {
+     "s": "birgun",
+     "hl": "Yahşihan Belediyesi'ne yönelik yolsuzluk operasyonu: Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Yahşihan Belediyesi Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Siyasi sorumluluk",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "AKP'li başkan vekili",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Hesap verebilirlik",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika...Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Yahşıyan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı - Politika Siyaset Haberleri",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ntv",
+     "hl": "Yahşihan Belediyesi soruşturması. Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Yahşihan Belediye Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Yahşihan Belediye Başkan Vekili görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "milligazete",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKiKA I İçişleri Bakanlığı duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı!",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Bakanlık duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Olgu aktarımı",
+     "hero": "Aydın Demirdirek",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "Yahşihan’da tutuklama sonrası kritik karar! Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Yolsuzluk",
+     "hero": "Savcılık",
+     "blame": "Belediye yönetimi",
+     "cause": "Yolsuzluk",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "İçişleri duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı",
+     "frame": "Devlet otoritesi",
+     "hero": "İçişleri Bakanlığı",
+     "blame": "",
+     "cause": "",
+     "cons": "Görevden uzaklaştırma",
+     "aff": "",
+     "sol": "",
+     "moral": "Kamu düzeni",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "frame",
+    "hero"
+   ]
+  },
+  {
+   "q": {
+    "happened": "Fon soruşturması kapsamında gözaltına alınan gazeteciler Mustafa Balcı ve Şaban Sevinç tutuklandı.",
+    "agree": "Tutuklama ortak.",
+    "differ": "Soldaki kurumlar ikisini 'gazeteci' kimliğiyle ve Balcı'yı Sözcü editörü olarak tanıtıyor; sağdaki kurumlar haberi 'fon soruşturması' ya da 'dezenformasyon' çerçevesine yerleştiriyor; bir kurum 'Fon'daşlar kodese' diye alaycı bir başlık atıyor.",
+    "care": "Tutuklanan kişilerin 'gazeteci' kimliğinin başlıkta olması olayı bir basın özgürlüğü meselesi yapar; 'Fon'daşlar kodese' ifadesi ise kişileri yargı kararından önce bir suç grubunun üyeleri olarak etiketler."
+   },
+   "rows": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı tutuklama talebiyle hakimliğe sevk edildi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "diken",
+     "hl": "Gazeteciler Şaban Sevinç ve Mustafa Balcı gözaltına alındı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "aydinlik",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sözcü.com.tr editörü Mustafa Balcı ve gazeteci Şaban Sevinç hakkında karar çıktı",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "mynet",
+     "hl": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı, İsmail Saymaz ve Murat Ağırel'e adli kontrol",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "haberturk",
+     "hl": "Gazeteci Mustafa Balcı ve Şaban Sevinç tutuklandı - Habertürk Son Dakika Haber",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "karar",
+     "hl": "Şaban Sevinç ve Mustafa Balcı hakkında tutuklama talebi",
+     "frame": "Basın özgürlüğü",
+     "hero": "Gazeteciler",
+     "blame": "Yargı",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "Gazeteciler",
+     "sol": "",
+     "moral": "Basın özgürlüğü",
+     "start": ""
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA… Fon soruşturmasında Şaban Sevinç ve Mustafa Balcı tutuklandı",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında dezenformasyon: Şaban Sevinç ve Mustafa Balcı'ya tutuklama talebi",
+     "frame": "Dezenformasyon",
+     "hero": "Savcılık",
+     "blame": "Gazeteciler",
+     "cause": "Dezenformasyon iddiası",
+     "cons": "Tutuklama talebi",
+     "aff": "",
+     "sol": "",
+     "moral": "Doğru bilgi",
+     "start": ""
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Şaban Sevinç fon soruşturmasında tutuklandı! İsmail Saymaz, Murat Ağırel ve Mustafa Balcı ne dedi? Neden gözaltına alındı?",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    },
+    {
+     "s": "takvim",
+     "hl": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı, İsmail Saymaz ve Murat Ağırel'e ev hapsi",
+     "frame": "Alay / etiketleme",
+     "hero": "Savcılık",
+     "blame": "'Fon'daşlar'",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "Cezalandırma",
+     "start": ""
+    },
+    {
+     "s": "ahaber",
+     "hl": "Fon soruşturması kapsamında Şaban Sevinç ve Mustafa Balcı tutuklandı! Murat Ağırel ve İsmail Saymaz'a ev...",
+     "frame": "Fon soruşturması",
+     "hero": "Savcılık",
+     "blame": "Şüpheliler",
+     "cause": "",
+     "cons": "Tutuklama",
+     "aff": "",
+     "sol": "",
+     "moral": "",
+     "start": ""
+    }
+   ],
+   "focus": [
+    "blame",
+    "frame",
+    "moral",
+    "hero"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "event": "s1562",
+   "week": "w7",
+   "title": "Eski SPK Başkanı Gönül hakkında soruşturma izni",
+   "headlines": [
+    {
+     "s": "star",
+     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni! Bakan Şimşek talimat verdi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Eski SPK Başkanı Gönül hakkında soruşturma izni"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA I Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi"
+    },
+    {
+     "s": "mynet",
+     "hl": "Bakan Şimşek, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Eski SPK Başkanı Gönül hakkında soruşturma izni"
+    },
+    {
+     "s": "diken",
+     "hl": "Mehmet Şimşek, eski SPK başkanı Ömer Gönül hakkında soruşturma izni verdi"
+    },
+    {
+     "s": "ntv",
+     "hl": "Eski SPK Başkanı Gönül hakkında soruşturma izni"
+    },
+    {
+     "s": "takvim",
+     "hl": "Bakan Şimşek'ten eski SPK Başkanı İbrahim Ömer Gönül hakkında kritik karar: Soruşturma izni verildi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Mehmet Şimşek’ten eski SPK Başkanı Gönül için soruşturma izni"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Eski SPK Başkanı Gönül hakkında soruşturma izni"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika... Eski SPK Başkanı Gönül hakkında soruşturma izni"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül’e soruşturma!"
+    },
+    {
+     "s": "karar",
+     "hl": "Fon skandalında soruşturma SPK'nın eski yönetimine uzandı: Şimşek'ten İbrahim Ömer Gönül için izin"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül Hakkında Soruşturma İzni verildi"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi"
+    }
+   ]
+  },
+  {
+   "event": "s3429",
+   "week": "w7",
+   "title": "2026-2027 GSB KYK burs ve kredi başvuruları başladı mı? KYK kredi ve burs başvurusu nasıl yapılır?",
+   "headlines": [
+    {
+     "s": "sabah",
+     "hl": "KYK burs ve kredi başvuruları başladı mı, ne zaman? 2026-2027 GSB KYK burs başvuru takvimi bekleniyor!"
+    },
+    {
+     "s": "ntv",
+     "hl": "KYK burs başvuru ekranı 2026-2027: KYK burs ve kredi başvurusu ne zaman başlayacak?"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Burs ve öğrenim kredisi başvuruları başladı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son Dakika... Burs ve öğrenim kredisi başvuruları başladı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika... Burs ve öğrenim kredisi başvuruları başladı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "2026-2027 KYK başvuruları başladı! Burs ve kredi için e-Devlet üzerinden işlem yapılacak"
+    },
+    {
+     "s": "takvim",
+     "hl": "KYK burs ve kredi başvuruları başladı mı? 2026-2027"
+    },
+    {
+     "s": "star",
+     "hl": "Burs ve öğrenim kredisi başvuruları başladı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Son dakika! Bakan Bak duyurdu: KYK Burs ve öğrenim kredisi başvuruları başladı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "GSB burs ve kredi başvuruları başladı"
+    },
+    {
+     "s": "karar",
+     "hl": "2026-2027 KYK burs başvuruları nasıl yapılır, kimlere çıkar? KYK bursunda YÖKSİS uyarısı! Başvuru yapmadan bilmeniz gerekenler"
+    },
+    {
+     "s": "diken",
+     "hl": "KYK burs ve kredi başvuruları başladı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "KYK burs ve kredi başvuruları başladı!"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Burs ve öğrenim kredisi başvuruları başladı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "KYK BURS BAŞVURU EKRANI E-DEVLET | 2026-2027 KYK burs ve kredi başvuruları başladı! GSB KYK burs ve kredi başvurusu nasıl yapılır, şartları neler, tutarı ne kadar?"
+    }
+   ]
+  },
+  {
+   "event": "s1504",
+   "week": "w7",
+   "title": "Rusya-Ukrayna arasında enerji ateşkesi",
+   "headlines": [
+    {
+     "s": "sabah",
+     "hl": "Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı!"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Rusya-Ukrayna arasında enerji ateşkesi"
+    },
+    {
+     "s": "mynet",
+     "hl": "Trump duyurdu! Rusya ile Ukrayna arasında enerji ateşkesine varıldı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Trump duyurdu: Rusya - Ukrayna arasında enerji ateşkesi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Trump duyurdu: Rusya ve Ukrayna arasında enerji ateşkesi!"
+    },
+    {
+     "s": "takvim",
+     "hl": "Trump ilan etti: Rusya-Ukrayna enerji ateşkesi sağlandı!"
+    },
+    {
+     "s": "ntv",
+     "hl": "Trump'tan ateşkes mesajı. \"Rusya ve Ukrayna enerji ateşkesinde anlaştı\""
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Trump duyurdu: Rusya ve Ukrayna arasında 'enerji' ateşkesi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Trump: Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir"
+    },
+    {
+     "s": "star",
+     "hl": "Trump duyurdu! Rusya ve Ukrayna arasında enerji ateşkesi"
+    },
+    {
+     "s": "karar",
+     "hl": "Rusya ve Ukrayna arasında 'enerji' ateşkesi"
+    },
+    {
+     "s": "diken",
+     "hl": "Trump: Rusya ile Ukrayna arasında enerji ateşkesi ilan edildi"
+    },
+    {
+     "s": "dirilis",
+     "hl": "AB, Rusya ve Ukrayna arasındaki enerji ateşkesini destekliyor"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Rusya ile Ukrayna arasında ''enerji ateşkesi''"
+    }
+   ]
+  },
+  {
+   "event": "s1576",
+   "week": "w7",
+   "title": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin kazada hayatını kaybetti!",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "SON DAKİKA HABERİ: Üsküdar Belediye Başkan Vekili kazada hayatını kaybetti"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin kazada hayatını kaybetti!"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Kazada ağır yaralanmıştı... AKP'li Üsküdar Başkan Vekili Dündar Ziya Gültekin hayatını kaybetti"
+    },
+    {
+     "s": "sabah",
+     "hl": "Son Dakika | Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin vefat etti: Düzce'deki zincirleme kazada ağır yaralanmıştı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti"
+    },
+    {
+     "s": "mynet",
+     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin, hayatını kaybetti"
+    },
+    {
+     "s": "takvim",
+     "hl": "Düzce'de feci kaza: Üsküdar Belediye Başkan Vekili Gültekin hayatını kaybetti"
+    },
+    {
+     "s": "karar",
+     "hl": "TBB seçimi için yola çıkmıştı! Üsküdar Belediye Başkan Vekili hayatını kaybetti"
+    },
+    {
+     "s": "star",
+     "hl": "Anadolu Otoyolu'nda feci kaza! Üsküdar Belediye Başkan Vekili Gültekin hayatını kaybetti"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin vefat etti"
+    },
+    {
+     "s": "diken",
+     "hl": "AKP'li Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin kimdir, aslen nereli ve yaşındaydı?"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti"
+    },
+    {
+     "s": "dirilis",
+     "hl": "DÜNDAR ZİYA GÜLTEKİN"
+    }
+   ]
+  },
+  {
+   "event": "s1526",
+   "week": "w7",
+   "title": "Etimesgut Belediyesi'ne operasyon! 25 kişi gözaltında",
+   "headlines": [
+    {
+     "s": "mynet",
+     "hl": "Etimesgut Belediyesi'ne operasyon! Çok sayıda gözaltı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Etimesgut Belediyesi'ne operasyon: Çok sayıda gözaltı var"
+    },
+    {
+     "s": "diken",
+     "hl": "Etimesgut Belediyesi'ne operasyon: Başkan yardımcıları dahil 25 gözaltı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "SON DAKİKA HABERİ: Etimesgut Belediyesi'ne operasyon! Çok sayıda gözaltı var"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Etimesgut Belediyesi'ne ikinci dalga operasyon: İki başkan yardımcısı dahil 25 şüpheli gözaltında"
+    },
+    {
+     "s": "ntv",
+     "hl": "Etimesgut Belediyesi'ne ikinci dalga operasyon. 7 kişi tutuklandı"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Etimesgut Belediyesi'ne 2. dalga yolsuzluk operasyonu! 25 gözaltı kararı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Etimesgut Belediyesi'ne operasyon! 25 kişi gözaltında"
+    },
+    {
+     "s": "karar",
+     "hl": "Etimesgut Belediyesi'ne operasyon: Çok sayıda gözaltı var"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika... Etimesgut Belediyesi'ne 2. dalga operasyon: Başkan yardımcıları dahil 25 kişi gözaltına alındı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Etimesgut'ta 2. dalga operasyon: İki başkan yardımcısı gözaltında"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Etimesgut Belediyesi'ne yolsuzluk soruşturması: 25 gözaltı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Etimesgut Belediyesi'ne ikinci dalga operasyon. 25 kişi gözaltına alındı"
+    },
+    {
+     "s": "star",
+     "hl": "Etimesgut Belediyesi'ne yeni dalga operasyon! Başkan yardımcıları dahil 25 gözaltı"
+    }
+   ]
+  },
+  {
+   "event": "s3536",
+   "week": "w7",
+   "title": "Breaking Bad'in yıldızı 34 yaşında hayatını kaybetti",
+   "headlines": [
+    {
+     "s": "diken",
+     "hl": "'Breaking Bad'deki rolüyle tanınan RJ Mitte hayatını kaybetti"
+    },
+    {
+     "s": "sabah",
+     "hl": "Henüz 34 yaşındaydı! Breaking Bad’in yıldızı RJ Mitte hayatını kaybetti"
+    },
+    {
+     "s": "karar",
+     "hl": "Breaking Bad'in Walter White Jr.'ı RJ Mitte 34 yaşında öldü"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Breaking Bad dizisinin yıldızından acı haber: 34 yaşında hayatını kaybetti"
+    },
+    {
+     "s": "ntv",
+     "hl": "Breaking Bad'in yıldızı 34 yaşında hayatını kaybetti"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "'Breaking Bad' dizisinin yıldızı, RJ Mitte 34 yaşında hayatını kaybetti"
+    },
+    {
+     "s": "haberturk",
+     "hl": "'Breaking Bad' dizisinin yıldızı RJ Mitte hayatını kaybetti! RJ Mitte kimdir, kaç yaşındaydı? - En Son Magazin Haberleri"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Breaking Bad dizisinin yıldızı RJ Mitte 34 yaşında hayatını kaybetti"
+    },
+    {
+     "s": "milligazete",
+     "hl": "RJ Mitte kimdir? Neden hayatını kaybetti, Breaking Bad yıldızının ölüm nedeni açıklandı mı?"
+    },
+    {
+     "s": "star",
+     "hl": "'Breaking Bad'deki rolüyle tanınan RJ Mitte hayatını kaybetti"
+    },
+    {
+     "s": "ahaber",
+     "hl": "RJ Mitte kimdir, neden öldü? Breaking Bad yıldızı 34 yaşındaydı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Breaking Bad yıldızı RJ Mitte neden öldü? Acı haber sevenlerini sarstı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Ölümünden günler önce yeni filmine hazırlanıyordu! Breaking Bad'in yıldızı RJ Mitte'nin trajik sonu"
+    }
+   ]
+  },
+  {
+   "event": "s1554",
+   "week": "w7",
+   "title": "BUDO'nun 4 seferi iptal edildi",
+   "headlines": [
+    {
+     "s": "tele1",
+     "hl": "BUDO'nun 4 seferi iptal edildi"
+    },
+    {
+     "s": "diken",
+     "hl": "BUDO'nun dört seferi iptal"
+    },
+    {
+     "s": "karar",
+     "hl": "BUDO'nun 4 seferi iptal edildi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Bursa Deniz Otobüslerinin 12 seferi iptal edildi"
+    },
+    {
+     "s": "sabah",
+     "hl": "BUDO'ya olumsuz hava engeli! 12 sefer iptal edildi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "BUDO'nun 12 seferi iptal edildi"
+    },
+    {
+     "s": "star",
+     "hl": "Bursa Deniz Otobüslerinin 12 seferi olumsuz hava koşulları nedeniyle iptal edildi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "BUDO'nun 12 seferi yapılmayacak!"
+    },
+    {
+     "s": "dirilis",
+     "hl": "BUDO’nun bugünkü 12 seferi iptal edildi"
+    },
+    {
+     "s": "milligazete",
+     "hl": "BUDO'dan kötü haber: Bugünkü 12 sefer birden iptal edildi!"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "BUDO'nun yarınki 12 seferi iptal edildi"
+    },
+    {
+     "s": "mynet",
+     "hl": "Olumsuz hava koşulları nedeniyle BUDO'nun 12 seferi iptal edildi"
+    },
+    {
+     "s": "ntv",
+     "hl": "BUDO'nun yarın yapılacak 12 seferi iptal edildi"
+    }
+   ]
+  },
+  {
+   "event": "s3497",
+   "week": "w7",
+   "title": "2026 Nobel Ekonomi Ödülü'nün sahibi belli oldu",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "2026 Nobel Ekonomi Ödülü'nün sahibi belli oldu"
+    },
+    {
+     "s": "bloomberght",
+     "hl": "Nobel Ekonomi Ödülü, Keynes'i yeniden yorumlayan kriz teorisyenlerine gitti"
+    },
+    {
+     "s": "karar",
+     "hl": "2026 Nobel Ekonomi Ödülü sahibini buldu"
+    },
+    {
+     "s": "sozcu",
+     "hl": "2026 Nobel Ekonomi Ödülü’nün sahipleri belli oldu!"
+    },
+    {
+     "s": "ntv",
+     "hl": "Nobel Ekonomi Ödülü'nü kazananlar belli oldu"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "2026 Nobel Ekonomi Ödülü'nün sahipleri açıklandı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "2026 Nobel Ekonomi Ödülü sahiplerini buldu: Ödül iki ekonomiste verildi"
+    },
+    {
+     "s": "sabah",
+     "hl": "2026 Nobel Ekonomi Ödülü'nün sahipleri belli oldu! İki ABD'li ekonomiste büyük ödül"
+    },
+    {
+     "s": "star",
+     "hl": "Nobel Ekonomi Ödülü sahiplerini buldu"
+    },
+    {
+     "s": "diken",
+     "hl": "2026 Nobel Ekonomi Ödülü sahiplerini buldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "2026 Nobel Ekonomi Ödülü’nün sahipleri belli oldu"
+    },
+    {
+     "s": "takvim",
+     "hl": "2026 Nobel Ekonomi Ödülü'nü kim kazandı? İşte Hall ve Woodford’un ödül getiren çalışmaları"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Robert Hall kimdir, kaç yaşında ve nereli? 2026 Nobel Ekonomi Ödülü'nü neden kazandı?"
+    }
+   ]
+  },
+  {
+   "event": "s1612",
+   "week": "w7",
+   "title": "Antalya'daki çocuk güzellik yarışmasına suç duyurusu",
+   "headlines": [
+    {
+     "s": "sabah",
+     "hl": "Çocuk güzellik yarışması yasaklanmalı!"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Antalya’da çocuk güzellik yarışması tepkilerin odağında!"
+    },
+    {
+     "s": "takvim",
+     "hl": "'Çocukları taçlandırmak yerine koruyun!' Antalya’da güzellik yarışması skandalı iptal edildi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Antalya'da planlanan &quot;çocuk güzellik yarışması&quot; hakkında suç duyurusu"
+    },
+    {
+     "s": "ntv",
+     "hl": "Antalya'da \"çocuk güzellik yarışmasına\" suç duyurusu"
+    },
+    {
+     "s": "diken",
+     "hl": "'Çocuk güzellik yarışması'na suç duyurusu: İnceleme başlatıldı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "SON DAKİKA HABERİ: Bakanlık harekete geçti! Çocuk güzellik yarışması hakkında suç duyurusu"
+    },
+    {
+     "s": "karar",
+     "hl": "Antalya'daki çocuk güzellik yarışmasına suç duyurusu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Antalya'daki 'çocuk güzellik yarışması' hakkında suç duyurusu"
+    },
+    {
+     "s": "mynet",
+     "hl": "Antalya'daki 'çocuk güzellik yarışması' iptal edildi!"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Çocuk güzellik yarışmasına suç duyurusu: Organizasyon iptal edildi"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Antalya'daki Çocuk Güzellik Yarışması skandalı: Etkinlik iptal edildi, suç duyurusunda bulunuldu"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Çocuk güzellik yarışmalarına Bakanlıktan suç duyurusu"
+    }
+   ]
+  }
+ ]
+}

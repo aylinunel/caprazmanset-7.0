@@ -1,0 +1,178 @@
+{
+ "q": {
+  "happened": "Etimesgut Belediyesi'ne yönelik operasyonda başkan yardımcıları dahil çok sayıda kişi gözaltına alındı.",
+  "agree": "Belediyeye operasyon yapıldığı ve gözaltılar olduğu ortak.",
+  "differ": "Sabah ve TRT Haber operasyonu açıkça 'yolsuzluk' olarak adlandırıyor; Diken, Cumhuriyet, A Haber, Star ve Milli Gazete başkan yardımcılarını öne çıkarıyor; birçok kurum 'ikinci dalga' diyerek önceki operasyona bağlıyor; NTV tutuklamaları başlığa taşıyor.",
+  "care": "Operasyonu yolsuzluk diye adlandırmak suçlamayı başlıkta yerleşik kılar; üst düzey yöneticilerin anılması da olayın belediye yönetimine dokunduğunu gösterir."
+ },
+ "rows": [
+  {
+   "s": "mynet",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Çok sayıda gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Çok sayıda gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Çok sayıda gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Çok sayıda gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "Başkan yardımcıları",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "Başkan yardımcıları",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Önceki operasyon"
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "Başkan yardımcıları",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Önceki operasyon"
+  },
+  {
+   "s": "milligazete",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "Başkan yardımcıları",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Önceki operasyon"
+  },
+  {
+   "s": "star",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "Başkan yardımcıları",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Önceki operasyon"
+  },
+  {
+   "s": "dirilis",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Önceki operasyon"
+  },
+  {
+   "s": "ntv",
+   "frame": "Operasyon",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Tutuklama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Önceki operasyon"
+  },
+  {
+   "s": "sabah",
+   "frame": "Yolsuzluk",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "Yolsuzluk",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Önceki operasyon"
+  },
+  {
+   "s": "trthaber",
+   "frame": "Yolsuzluk",
+   "hero": "Savcılık",
+   "blame": "Belediye yönetimi",
+   "cause": "Yolsuzluk",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "q": {
+  "happened": "2026-2027 dönemi KYK burs ve öğrenim kredisi başvuruları gündemde; çoğu başlık başvuruların başladığını duyuruyor.",
+  "agree": "Konunun KYK/GSB burs ve kredi başvuruları olduğu ortak.",
+  "differ": "TRT Haber, Cumhuriyet, Sözcü, Star, Milli Gazete, Hürriyet, Diken ve Diriliş başlamayı düz duyuruyor; Sabah ve NTV başvuruların henüz beklendiğini yazıyor, Takvim ve Karar soru-cevap rehber biçimi kullanıyor; Mynet duyuruyu Bakan Bak'a bağlıyor, A Haber ve Habertürk e-Devlet yolunu öne çıkarıyor.",
+  "care": "Başlıklar başvuruların başlayıp başlamadığı konusunda çelişiyor; bu, öğrencilerin başvuru zamanlamasını doğrudan etkileyen pratik bir bilgi farkı."
+ },
+ "rows": [
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "hurriyet",
+   "frame": "Olgu aktarımı",
+   "hero": "GSB",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Hizmet rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular bekleniyor",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Hizmet rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular bekleniyor",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Hizmet rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Hizmet rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "YÖKSİS uyarısı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Hizmet rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "e-Devlet başvurusu",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Hizmet rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "e-Devlet başvurusu",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Bakan duyurusu",
+   "hero": "Bakan Bak",
+   "blame": "",
+   "cause": "",
+   "cons": "Başvurular başladı",
+   "aff": "Öğrenciler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

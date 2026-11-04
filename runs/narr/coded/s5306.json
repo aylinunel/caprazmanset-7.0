@@ -1,0 +1,17 @@
+{"q": {"happened": "Elon Musk, yapay zeka botu Grok'un işletme maliyetinin gelirine kıyasla sürdürülemez seviyede olduğunu söyledi.", "agree": "Grok'un maliyetinin gelirini aştığı ve bunun sürdürülemez olduğu ortak.", "differ": "Çoğu kurum Musk'ın açıklamasını aktarırken star ve akit bunu 'itiraf', karar ve turkiyegz 'dert yanma/yakınma' olarak sunuyor; birgun açıklamayı kullanıcıların limit şikâyetlerine bağlıyor; haberturk ve cumhuriyet Musk'ın adını başlığa koymuyor.", "care": "'İtiraf' dili açıklamayı bir zaaf kabulü gibi gösterirken, birgun'un kullanıcı şikâyeti vurgusu sorunun kullanıcıya yansıyan sonucunu görünür kılıyor."}, "rows": [
+{"s": "sondakika", "frame": "Olgu aktarımı", "hero": "Elon Musk", "blame": "", "cause": "Maliyet gelirden yüksek", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Şikâyet", "hero": "Elon Musk", "blame": "", "cause": "", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Olgu aktarımı", "hero": "Elon Musk", "blame": "", "cause": "Maliyet gelirden yüksek", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Kullanıcı şikâyeti", "hero": "Elon Musk", "blame": "", "cause": "Maliyet gelirden yüksek", "cons": "Kullanım limitleri", "aff": "Kullanıcılar", "sol": "", "moral": "", "start": "Kullanıcı şikâyetleri"},
+{"s": "aa", "frame": "Olgu aktarımı", "hero": "Elon Musk", "blame": "", "cause": "Maliyet gelirden yüksek", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "İtiraf", "hero": "Elon Musk", "blame": "", "cause": "", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "Elon Musk", "blame": "", "cause": "Maliyet gelirden yüksek", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milliyet", "frame": "Olgu aktarımı", "hero": "Elon Musk", "blame": "", "cause": "Maliyet gelirden yüksek", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Olgu aktarımı", "hero": "Elon Musk", "blame": "", "cause": "", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "akit", "frame": "İtiraf", "hero": "Elon Musk", "blame": "", "cause": "", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Şikâyet", "hero": "Elon Musk", "blame": "", "cause": "", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "bloomberght", "frame": "Olgu aktarımı", "hero": "Elon Musk", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Grok", "blame": "", "cause": "", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "onedio", "frame": "Olgu aktarımı", "hero": "Elon Musk", "blame": "", "cause": "Maliyet gelirden yüksek", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "Grok", "blame": "", "cause": "Maliyet gelirden yüksek", "cons": "Sürdürülemez maliyet", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

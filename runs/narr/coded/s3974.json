@@ -1,0 +1,14 @@
+{"q": {"happened": "Afyonkarahisar'da iki otomobil kafa kafaya çarpıştı ve 4 kişi hayatını kaybetti.", "agree": "Kafa kafaya çarpışma ve can kaybı ortak.", "differ": "trthaber ve turkiyegz olguyu sade aktarıyor; star, mynet, milligazete, sabah, ahaber, karar, sozcu, ntv, haberturk ve cumhuriyet 'feci', 'acı', 'can pazarı', 'facia' ya da 'katliam gibi' ifadeleri kullanıyor; sozcu ve cumhuriyet sayı vermeden 'ölü ve yaralılar var' diyor.", "care": "Aynı kazanın çoğu kurumda 'katliam gibi' ya da 'facia' diye sunulması olayı sıradan bir trafik kazasından çok bir trajedi olarak algılatıyor."}, "rows": [
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "Ölü ve yaralılar", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Dram / sansasyon", "hero": "", "blame": "", "cause": "", "cons": "Ölü ve yaralılar", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

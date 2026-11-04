@@ -1,0 +1,154 @@
+{
+ "q": {
+  "happened": "Reyhanlı saldırısı sanığı Mihraç Ural Suriye'de yakalandı.",
+  "agree": "Ural'ın Suriye'de yakalandığı ve Reyhanlı saldırısıyla ilişkilendirildiği ortak.",
+  "differ": "trthaber, sabah, haberturk ve sozcu Ural'ı 'terörist' diye niteliyor; ahaber, karar ve ntv 'sanık/fail' diyor; takvim ve trthaber haberi SANA'ya dayandırıyor; star 'Esad'ın köpeği' ifadesiyle Esad rejimine bağlıyor; milligazete arka plana odaklanıyor.",
+  "care": "'Terörist', 'sanık' ya da 'Esad'ın köpeği' etiketleri, yargılanmamış bir kişiyi farklı derecelerde suçlu ilan eder ve olayı Suriye rejimiyle ilişkilendirip ilişkilendirmemeyi belirler."
+ },
+ "rows": [
+  {
+   "s": "trthaber",
+   "frame": "Terörle mücadele",
+   "hero": "Mihraç Ural",
+   "blame": "Mihraç Ural",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Reyhanlı saldırısı"
+  },
+  {
+   "s": "sabah",
+   "frame": "Terörle mücadele",
+   "hero": "Mihraç Ural",
+   "blame": "Mihraç Ural",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Reyhanlı saldırısı"
+  },
+  {
+   "s": "ahaber",
+   "frame": "Olgu aktarımı",
+   "hero": "Mihraç Ural",
+   "blame": "Mihraç Ural",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Reyhanlı saldırısı"
+  },
+  {
+   "s": "takvim",
+   "frame": "Olgu aktarımı",
+   "hero": "Mihraç Ural",
+   "blame": "",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Mihraç Ural",
+   "blame": "Mihraç Ural",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Reyhanlı saldırısı"
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "Mihraç Ural",
+   "blame": "Mihraç Ural",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Reyhanlı saldırısı"
+  },
+  {
+   "s": "haberturk",
+   "frame": "Terörle mücadele",
+   "hero": "Mihraç Ural",
+   "blame": "Mihraç Ural",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Reyhanlı saldırısı"
+  },
+  {
+   "s": "sozcu",
+   "frame": "Terörle mücadele",
+   "hero": "Mihraç Ural",
+   "blame": "Mihraç Ural",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Reyhanlı saldırısı"
+  },
+  {
+   "s": "milligazete",
+   "frame": "Arka plan",
+   "hero": "Mihraç Ural",
+   "blame": "Mihraç Ural",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Reyhanlı saldırısı"
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Olgu aktarımı",
+   "hero": "Mihraç Ural",
+   "blame": "",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Olgu aktarımı",
+   "hero": "Mihraç Ural",
+   "blame": "",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Alay / etiketleme",
+   "hero": "Mihraç Ural",
+   "blame": "Esad rejimi",
+   "cause": "",
+   "cons": "Yakalanma",
+   "aff": "",
+   "sol": "",
+   "moral": "Cezalandırma",
+   "start": ""
+  }
+ ]
+}
