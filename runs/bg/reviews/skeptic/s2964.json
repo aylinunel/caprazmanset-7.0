@@ -1,0 +1,32 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "Karar, Resmi Gazete'de yayımlanarak yürürlüğe girdi.", "kind": "behavioral"},
+ {"source": "text", "quote": "Karar, dokuz ay sonra yürürlüğe girecek.", "kind": "statement"},
+ {"source": "text", "quote": "Resmi Gazete'de yayınlanan kararla süresiz nafaka kaldırıldı.", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çoğu kurum dokuz aylık yürürlük süresini belirtirken bazıları kararın hemen yürürlüğe girdiğini veya nafakanın kalktığını yazıyor; önemli bir ayrıntı düzleşmiş görünüyor.",
+ "alternative_explanation": "Kısaltılmış başlık ve özetler hatalı ifade içerse de bunun okur kararını etkilediği gösterilmiyor; düzeltme yapılmış olabilir.",
+ "missing_context": ["Resmi Gazete'deki karar metni", "Yanlış ifadenin bir yargı veya karara etkisi"]},
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "'Süresiz nafaka' dönemi sona eriyor", "kind": "behavioral"},
+ {"source": "text", "quote": "Süresiz nafaka kararı iptal edildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı karar 'dönem sona eriyor' ve 'iptal edildi' gibi farklı sunuluyor; ancak sunuma bağlı bir tercih veya yargı metinde yok.",
+ "alternative_explanation": "Farklı ifadeler aynı hukuki sonucu özetleyen editoryal tercihlerdir.",
+ "missing_context": ["Sunuma bağlı bir yargı veya karar"]},
+{"card_id": "salience-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "SON DAKİKA HABERİ! AYM karar verdi! Süresiz nafaka kararı iptal edildi!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ünlemli 'son dakika' biçimi dikkat çekici, fakat biçimsel vurgu tek başına haksız bir yargı etkisi göstermez.",
+ "alternative_explanation": "Geniş kitleyi ilgilendiren bir hukuki değişiklikte vurgulu sunum olağan bir tercihtir.",
+ "missing_context": ["Vurgunun bir yargı veya seçimle bağlantısı"]}
+]}

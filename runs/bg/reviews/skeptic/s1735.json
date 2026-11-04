@@ -1,0 +1,55 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "16 kişinin hayatını kaybettiği, 65 kişinin yaralandığı bildirildi", "kind": "statement"},
+ {"source": "text", "quote": "16 kişi hayatını kaybetti, 32 kişi yaralandı", "kind": "statement"},
+ {"source": "text", "quote": "henüz can kaybı veya hasara ilişkin bir açıklama yapılmadı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yaralı sayısı (32/65) ve can kaybı bilgisi kurumlar arasında farklı; özgün resmi kayıt olmadan hangisinin çarpıtma olduğu belirlenemiyor.",
+ "alternative_explanation": "Sayılar zamanla güncellenmiş olabilir; ilk saatlerde açıklama yapılmaması da olağandır.",
+ "missing_context": ["Çin resmi makamlarının güncel bilançosu", "Haberlerin dayandığı ajans metni"]},
+{"card_id": "availability-heuristic", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "2025’teki deprem felaketi yeniden gündeme geldi", "kind": "statement"},
+ {"source": "text", "quote": "Ocak 2025’te meydana gelen 6,8 büyüklüğündeki depremde, 120 kişi hayatını kaybetmişti", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Geçmiş deprem hatırlatılıyor, ancak bir olasılık veya risk tahmini için gerekçe olarak kullanılmıyor.",
+ "alternative_explanation": "Aynı bölgedeki önceki deprem okura bağlam sunan ilgili bir arka plan bilgisidir.",
+ "missing_context": ["Hatırlatmaya dayanan bir tahmin veya genelleme"]},
+{"card_id": "salience-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Çin'in Tibet bölgesinde yer yerinden oynadı: 7 büyüklüğünde korkutan deprem", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygusal üslup var, fakat bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Can kayıplı büyük bir depremde dramatik üslup editoryal tercihtir.",
+ "missing_context": ["Vurgunun bir sonuca etkisini gösteren karşılaştırma"]},
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Eşdeğer seçeneklerin farklı sunumuna bağlı bir tercih metinde yok.",
+ "alternative_explanation": "Başlıklar büyük ölçüde aynı olguları aktarıyor.",
+ "missing_context": ["Sunuma bağlı bir yargı veya karar"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kimseye içsel durumunun başkalarınca anlaşıldığı inancı atfedilmiyor.",
+ "alternative_explanation": "Haberler olgusal deprem bilgisini aktarıyor.",
+ "missing_context": ["İlgili bir inanç atfı ve buna bağlı davranış"]},
+{"card_id": "incentivization", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir eyleme bağlı ödül veya ceza tanımlanmıyor.",
+ "alternative_explanation": "Olay doğal afet haberidir; teşvik unsuru içermiyor.",
+ "missing_context": ["Eyleme bağlı ödül/ceza ve davranış etkisi"]}
+]}
