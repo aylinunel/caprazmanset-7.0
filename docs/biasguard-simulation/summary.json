@@ -1,0 +1,26 @@
+{
+ "source": "BiasGuard extended simulation, run 2026-10-28, analysed 2026-11-04 (EXTENDED_SIMULATION_REPORT.md, metrics.json)",
+ "cases": 52, "families": 13, "catalog": 116,
+ "primaryCompleted": 23, "tasksPlanned": 60, "tasksCompleted": 24,
+ "failures": {"noChoice": 34, "schema": 1, "length": 1},
+ "byKind": [
+  {"k": "adversarial_positive", "planned": 12, "completed": 4},
+  {"k": "missing_evidence", "planned": 12, "completed": 6},
+  {"k": "benign_effect", "planned": 4, "completed": 0},
+  {"k": "mixed_positive", "planned": 12, "completed": 7},
+  {"k": "rational_control", "planned": 12, "completed": 6}
+ ],
+ "recall": {"captured": 24, "of": 26},
+ "fullCapture": {"cases": 9, "of": 11},
+ "yield": {"delivered": 24, "of": 62},
+ "rationalFlagged": {"n": 0, "of": 6},
+ "ambiguousForbidden": {"n": 0, "of": 6},
+ "ambiguousUncertainCovered": {"n": 14, "of": 15},
+ "conceptsCovered": {"n": 17, "of": 30},
+ "extras": 9,
+ "quotesVerified": 481,
+ "medianSeconds": 108.3,
+ "fixes": [
+  "evidenceKind", "breaker", "notAttempted", "smallBatches"
+ ]
+}

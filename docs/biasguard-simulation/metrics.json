@@ -1,0 +1,466 @@
+{
+  "by_kind": {
+    "adversarial_positive": {
+      "case_count": 12,
+      "known_forbidden_supported_count": 0,
+      "review_complete_count": 4,
+      "unadjudicated_extra_supported_count": 3
+    },
+    "ambiguous_context": {
+      "case_count": 12,
+      "known_forbidden_supported_count": 0,
+      "review_complete_count": 6,
+      "unadjudicated_extra_supported_count": 0
+    },
+    "benign_effect": {
+      "case_count": 4,
+      "known_forbidden_supported_count": 0,
+      "review_complete_count": 0,
+      "unadjudicated_extra_supported_count": 0
+    },
+    "mixed_positive": {
+      "case_count": 12,
+      "known_forbidden_supported_count": 0,
+      "review_complete_count": 7,
+      "unadjudicated_extra_supported_count": 6
+    },
+    "rational_control": {
+      "case_count": 12,
+      "known_forbidden_supported_count": 0,
+      "review_complete_count": 6,
+      "unadjudicated_extra_supported_count": 0
+    }
+  },
+  "call_tokens": {
+    "auxiliary": {
+      "note": "Provider-reported token fields are summed when present; no billing estimate is asserted.",
+      "reviewer_call_count": 27,
+      "tokens_reported_by_field": {
+        "completion_tokens": 97761,
+        "prompt_tokens": 259238,
+        "total_tokens": 356999
+      }
+    },
+    "main": {
+      "note": "Provider-reported token fields are summed when present; no billing estimate is asserted.",
+      "reviewer_call_count": 104,
+      "tokens_reported_by_field": {
+        "completion_tokens": 290532,
+        "prompt_tokens": 1625540,
+        "total_tokens": 1916072
+      }
+    }
+  },
+  "catalog_card_hash": "f16aa0f2b272843717d7f56fb09d8d76fa988438290cb4d3f44b8478526515ef",
+  "caveats": [
+    "This fixed 52-case dataset has 13 four-variant families; variants within a family are clustered and not independent observations.",
+    "Annotations were AI-authored/reviewed, not human gold labels; this analysis makes no trained-classifier claim.",
+    "Metrics describe this benchmark and execution state only; they are not global accuracy, real-world confidence, or clinical/decision validity claims.",
+    "Semantic adequacy of exact quotations is not established by offset integrity checks."
+  ],
+  "control_metrics": {
+    "ambiguous_context": [
+      {
+        "case_id": "migration-board--ambiguous",
+        "completed": true,
+        "expected_uncertain": [
+          "commitment-bias",
+          "planning-fallacy",
+          "the-sunk-cost-fallacy"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": [
+          "commitment-bias",
+          "planning-fallacy",
+          "the-sunk-cost-fallacy"
+        ]
+      },
+      {
+        "case_id": "emergency-response--ambiguous",
+        "completed": true,
+        "expected_uncertain": [
+          "availability-heuristic",
+          "normalcy-bias",
+          "salience-bias"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": [
+          "availability-heuristic",
+          "normalcy-bias",
+          "salience-bias"
+        ]
+      },
+      {
+        "case_id": "recruiting-panel--ambiguous",
+        "completed": true,
+        "expected_uncertain": [
+          "authority-bias",
+          "halo-effect",
+          "in-group-bias"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": [
+          "authority-bias",
+          "halo-effect",
+          "in-group-bias"
+        ]
+      },
+      {
+        "case_id": "ai-dispatch--ambiguous",
+        "completed": true,
+        "expected_uncertain": [
+          "automation-bias",
+          "delegation-creep"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": [
+          "automation-bias",
+          "delegation-creep"
+        ]
+      },
+      {
+        "case_id": "screening-allocation--ambiguous",
+        "completed": true,
+        "expected_uncertain": [
+          "base-rate-fallacy",
+          "representativeness-heuristic"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": [
+          "base-rate-fallacy",
+          "representativeness-heuristic"
+        ]
+      },
+      {
+        "case_id": "research-audit--ambiguous",
+        "completed": true,
+        "expected_uncertain": [
+          "look-elsewhere-effect",
+          "survivorship-bias"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": [
+          "look-elsewhere-effect"
+        ]
+      },
+      {
+        "case_id": "insurance-budget--ambiguous",
+        "completed": false,
+        "expected_uncertain": [
+          "omission-bias",
+          "zero-risk-bias"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": []
+      },
+      {
+        "case_id": "incident-review--ambiguous",
+        "completed": false,
+        "expected_uncertain": [
+          "fundamental-attribution-error",
+          "hindsight-bias",
+          "outcome-bias"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": []
+      },
+      {
+        "case_id": "supplier-negotiation--ambiguous",
+        "completed": false,
+        "expected_uncertain": [
+          "anchoring-bias",
+          "messenger-effect",
+          "reactive-devaluation"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": []
+      },
+      {
+        "case_id": "community-referendum--ambiguous",
+        "completed": false,
+        "expected_uncertain": [
+          "false-consensus-effect",
+          "pluralistic-ignorance"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": []
+      },
+      {
+        "case_id": "launch-forecast--ambiguous",
+        "completed": false,
+        "expected_uncertain": [
+          "illusion-of-validity",
+          "optimism-bias",
+          "planning-fallacy"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": []
+      },
+      {
+        "case_id": "consumer-program--ambiguous",
+        "completed": false,
+        "expected_uncertain": [
+          "cashless-effect",
+          "endowment-effect",
+          "mental-accounting"
+        ],
+        "forbidden_supported": [],
+        "uncertain_or_reviewer_disagreement_covered": []
+      }
+    ],
+    "benign_effects": [
+      {
+        "bias_error_findings": [],
+        "case_id": "learning-program--positive",
+        "completed": false,
+        "correct_contextual_route": [],
+        "expected_contextual": [
+          "levels-of-processing-effect",
+          "spacing-effect"
+        ],
+        "missing_expected_contextual": [
+          "levels-of-processing-effect",
+          "spacing-effect"
+        ]
+      },
+      {
+        "bias_error_findings": [],
+        "case_id": "learning-program--rational",
+        "completed": false,
+        "correct_contextual_route": [],
+        "expected_contextual": [
+          "take-the-best-heuristic"
+        ],
+        "missing_expected_contextual": [
+          "take-the-best-heuristic"
+        ]
+      },
+      {
+        "bias_error_findings": [],
+        "case_id": "learning-program--ambiguous",
+        "completed": false,
+        "correct_contextual_route": [],
+        "expected_contextual": [],
+        "missing_expected_contextual": []
+      },
+      {
+        "bias_error_findings": [],
+        "case_id": "learning-program--adversarial",
+        "completed": false,
+        "correct_contextual_route": [],
+        "expected_contextual": [
+          "levels-of-processing-effect",
+          "spacing-effect"
+        ],
+        "missing_expected_contextual": [
+          "levels-of-processing-effect",
+          "spacing-effect"
+        ]
+      }
+    ],
+    "rational_controls": [
+      {
+        "case_id": "migration-board--rational",
+        "completed": true,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "emergency-response--rational",
+        "completed": true,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "recruiting-panel--rational",
+        "completed": true,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "ai-dispatch--rational",
+        "completed": true,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "screening-allocation--rational",
+        "completed": true,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "research-audit--rational",
+        "completed": true,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "insurance-budget--rational",
+        "completed": false,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "incident-review--rational",
+        "completed": false,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "supplier-negotiation--rational",
+        "completed": false,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "community-referendum--rational",
+        "completed": false,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "launch-forecast--rational",
+        "completed": false,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      },
+      {
+        "case_id": "consumer-program--rational",
+        "completed": false,
+        "has_unapproved_supported": false,
+        "unapproved_supported": []
+      }
+    ]
+  },
+  "dataset_sha256": "2be0b8856def7c02f803e74b7d3e861de773267eb54ab3a1811a92bcde0515d8",
+  "known_forbidden_label_violations": {
+    "count": 0,
+    "labels": []
+  },
+  "latency": {
+    "auxiliary": {
+      "count": 8,
+      "mean_seconds": 110.38701260212497,
+      "median_seconds": 0.16158629850042416,
+      "p95_method": "nearest-rank",
+      "p95_seconds": 881.936667682
+    },
+    "main": {
+      "count": 52,
+      "mean_seconds": 54.53094553871147,
+      "median_seconds": 51.4408412734997,
+      "p95_method": "nearest-rank",
+      "p95_seconds": 135.831739234
+    }
+  },
+  "main_completion": {
+    "fixed_case_denominator": 52,
+    "incomplete_or_failed_case_ids": [
+      "emergency-response--adversarial",
+      "recruiting-panel--adversarial",
+      "insurance-budget--rational",
+      "insurance-budget--ambiguous",
+      "insurance-budget--adversarial",
+      "incident-review--positive",
+      "incident-review--rational",
+      "incident-review--ambiguous",
+      "incident-review--adversarial",
+      "supplier-negotiation--positive",
+      "supplier-negotiation--rational",
+      "supplier-negotiation--ambiguous",
+      "supplier-negotiation--adversarial",
+      "community-referendum--positive",
+      "community-referendum--rational",
+      "community-referendum--ambiguous",
+      "community-referendum--adversarial",
+      "launch-forecast--positive",
+      "launch-forecast--rational",
+      "launch-forecast--ambiguous",
+      "launch-forecast--adversarial",
+      "consumer-program--positive",
+      "consumer-program--rational",
+      "consumer-program--ambiguous",
+      "consumer-program--adversarial",
+      "learning-program--positive",
+      "learning-program--rational",
+      "learning-program--ambiguous",
+      "learning-program--adversarial"
+    ],
+    "incomplete_or_failed_count": 29,
+    "missing_result_case_ids": [],
+    "missing_result_count": 0,
+    "review_complete_count": 23
+  },
+  "supported_label_counts_descriptive": {
+    "authority-bias": 1,
+    "automation-bias": 2,
+    "availability-heuristic": 1,
+    "base-rate-fallacy": 3,
+    "belief-perseverance": 3,
+    "commitment-bias": 2,
+    "halo-effect": 1,
+    "illusion-of-validity": 4,
+    "in-group-bias": 1,
+    "look-elsewhere-effect": 2,
+    "messenger-effect": 1,
+    "normalcy-bias": 1,
+    "omission-bias": 1,
+    "planning-fallacy": 2,
+    "representativeness-heuristic": 2,
+    "salience-bias": 1,
+    "survivorship-bias": 2,
+    "the-sunk-cost-fallacy": 2,
+    "zero-risk-bias": 1
+  },
+  "target_metrics": {
+    "evidence_offset_integrity": {
+      "engine_downgraded_verdict_count": 4,
+      "engine_rejected_evidence_count": 0,
+      "invalid_offset_count": 0,
+      "invalid_quote_count": 0,
+      "published_quote_count": 481,
+      "valid_quote_count": 481
+    },
+    "full_target_capture": {
+      "scenarios_with_all_required_targets_supported": 9,
+      "target_bearing_all_first_attempt_scenario_denominator": 24,
+      "target_bearing_completed_scenario_denominator": 11,
+      "value": 0.8181818181818182
+    },
+    "micro_recall_all_attempts": {
+      "detected_required_targets": 24,
+      "execution_failure_targets_separate": 33,
+      "note": "One original attempt per fixed main case is retained; explicit later retries remain separately in the ledger.",
+      "required_targets_in_all_first_attempt_cases": 62,
+      "schemafail_targets_separate": 3,
+      "value": 0.3870967741935484
+    },
+    "micro_recall_completed_cases": {
+      "detected_required_targets": 24,
+      "required_targets_in_completed_cases": 26,
+      "value": 0.9230769230769231
+    },
+    "per_target_outcome_counts": {
+      "detected": 24,
+      "execution_failure": 33,
+      "missing_context": 2,
+      "schemafail": 3
+    }
+  },
+  "unadjudicated_extra_supported_labels": {
+    "count": 9,
+    "labels": [
+      "base-rate-fallacy",
+      "belief-perseverance",
+      "belief-perseverance",
+      "belief-perseverance",
+      "illusion-of-validity",
+      "illusion-of-validity",
+      "illusion-of-validity",
+      "illusion-of-validity",
+      "messenger-effect"
+    ],
+    "note": "Extras are not called false positives unless a case pre-labelled them forbidden or is a rational-control unapproved assertion."
+  }
+}

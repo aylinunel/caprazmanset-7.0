@@ -1,0 +1,582 @@
+[
+  {
+    "id": "accountability-diffusion-in-ai",
+    "name": "Accountability diffusion in AI",
+    "url": "https://thedecisionlab.com/biases/accountability-diffusion-in-ai"
+  },
+  {
+    "id": "action-bias",
+    "name": "Action Bias",
+    "url": "https://thedecisionlab.com/biases/action-bias"
+  },
+  {
+    "id": "affect-heuristic",
+    "name": "Affect Heuristic",
+    "url": "https://thedecisionlab.com/biases/affect-heuristic"
+  },
+  {
+    "id": "ai-literacy-gap",
+    "name": "AI Literacy Gap",
+    "url": "https://thedecisionlab.com/biases/ai-literacy-gap"
+  },
+  {
+    "id": "ambiguity-effect",
+    "name": "Ambiguity Effect",
+    "url": "https://thedecisionlab.com/biases/ambiguity-effect"
+  },
+  {
+    "id": "anchoring-bias",
+    "name": "Anchoring Bias",
+    "url": "https://thedecisionlab.com/biases/anchoring-bias"
+  },
+  {
+    "id": "attentional-bias",
+    "name": "Attentional Bias",
+    "url": "https://thedecisionlab.com/biases/attentional-bias"
+  },
+  {
+    "id": "authority-bias",
+    "name": "Authority Bias",
+    "url": "https://thedecisionlab.com/biases/authority-bias"
+  },
+  {
+    "id": "automation-bias",
+    "name": "Automation Bias",
+    "url": "https://thedecisionlab.com/biases/automation-bias"
+  },
+  {
+    "id": "availability-heuristic",
+    "name": "Availability Heuristic",
+    "url": "https://thedecisionlab.com/biases/availability-heuristic"
+  },
+  {
+    "id": "bandwagon-effect",
+    "name": "Bandwagon Effect",
+    "url": "https://thedecisionlab.com/biases/bandwagon-effect"
+  },
+  {
+    "id": "barnum-effect",
+    "name": "Barnum Effect",
+    "url": "https://thedecisionlab.com/biases/barnum-effect"
+  },
+  {
+    "id": "base-rate-fallacy",
+    "name": "Base Rate Fallacy",
+    "url": "https://thedecisionlab.com/biases/base-rate-fallacy"
+  },
+  {
+    "id": "belief-perseverance",
+    "name": "Belief Perseverance (The Backfire Effect)",
+    "url": "https://thedecisionlab.com/biases/belief-perseverance"
+  },
+  {
+    "id": "benjamin-franklin-effect",
+    "name": "Benjamin Franklin effect",
+    "url": "https://thedecisionlab.com/biases/benjamin-franklin-effect"
+  },
+  {
+    "id": "bikeshedding",
+    "name": "Bikeshedding",
+    "url": "https://thedecisionlab.com/biases/bikeshedding"
+  },
+  {
+    "id": "bottom-dollar-effect",
+    "name": "Bottom-Dollar Effect",
+    "url": "https://thedecisionlab.com/biases/bottom-dollar-effect"
+  },
+  {
+    "id": "bounded-rationality",
+    "name": "Bounded Rationality",
+    "url": "https://thedecisionlab.com/biases/bounded-rationality"
+  },
+  {
+    "id": "bundling-bias",
+    "name": "Bundling Bias",
+    "url": "https://thedecisionlab.com/biases/bundling-bias"
+  },
+  {
+    "id": "bye-now-effect",
+    "name": "Bye-Now Effect",
+    "url": "https://thedecisionlab.com/biases/bye-now-effect"
+  },
+  {
+    "id": "cashless-effect",
+    "name": "Cashless Effect",
+    "url": "https://thedecisionlab.com/biases/cashless-effect"
+  },
+  {
+    "id": "category-size-bias",
+    "name": "Category Size Bias",
+    "url": "https://thedecisionlab.com/biases/category-size-bias"
+  },
+  {
+    "id": "choice-overload-bias",
+    "name": "Choice Overload",
+    "url": "https://thedecisionlab.com/biases/choice-overload-bias"
+  },
+  {
+    "id": "cognitive-dissonance",
+    "name": "Cognitive Dissonance",
+    "url": "https://thedecisionlab.com/biases/cognitive-dissonance"
+  },
+  {
+    "id": "commitment-bias",
+    "name": "Commitment Bias",
+    "url": "https://thedecisionlab.com/biases/commitment-bias"
+  },
+  {
+    "id": "confirmation-bias",
+    "name": "Confirmation Bias",
+    "url": "https://thedecisionlab.com/biases/confirmation-bias"
+  },
+  {
+    "id": "decision-fatigue",
+    "name": "Decision Fatigue",
+    "url": "https://thedecisionlab.com/biases/decision-fatigue"
+  },
+  {
+    "id": "declinism",
+    "name": "Declinism",
+    "url": "https://thedecisionlab.com/biases/declinism"
+  },
+  {
+    "id": "decoy-effect",
+    "name": "Decoy Effect",
+    "url": "https://thedecisionlab.com/biases/decoy-effect"
+  },
+  {
+    "id": "delegation-creep",
+    "name": "Delegation Creep",
+    "url": "https://thedecisionlab.com/biases/delegation-creep"
+  },
+  {
+    "id": "disposition-effect",
+    "name": "Disposition Effect",
+    "url": "https://thedecisionlab.com/biases/disposition-effect"
+  },
+  {
+    "id": "distinction-bias",
+    "name": "Distinction Bias",
+    "url": "https://thedecisionlab.com/biases/distinction-bias"
+  },
+  {
+    "id": "dunning-kruger-effect",
+    "name": "Dunning–Kruger Effect",
+    "url": "https://thedecisionlab.com/biases/dunning-kruger-effect"
+  },
+  {
+    "id": "einstellung-effect",
+    "name": "Einstellung Effect",
+    "url": "https://thedecisionlab.com/biases/einstellung-effect"
+  },
+  {
+    "id": "empathy-gap",
+    "name": "Empathy Gap",
+    "url": "https://thedecisionlab.com/biases/empathy-gap"
+  },
+  {
+    "id": "endowment-effect",
+    "name": "Endowment Effect",
+    "url": "https://thedecisionlab.com/biases/endowment-effect"
+  },
+  {
+    "id": "extrinsic-incentive-bias",
+    "name": "Extrinsic Incentive Bias",
+    "url": "https://thedecisionlab.com/biases/extrinsic-incentive-bias"
+  },
+  {
+    "id": "false-consensus-effect",
+    "name": "False Consensus Effect",
+    "url": "https://thedecisionlab.com/biases/false-consensus-effect"
+  },
+  {
+    "id": "framing-effect",
+    "name": "Framing Effect",
+    "url": "https://thedecisionlab.com/biases/framing-effect"
+  },
+  {
+    "id": "functional-fixedness",
+    "name": "Functional Fixedness",
+    "url": "https://thedecisionlab.com/biases/functional-fixedness"
+  },
+  {
+    "id": "fundamental-attribution-error",
+    "name": "Fundamental Attribution Error",
+    "url": "https://thedecisionlab.com/biases/fundamental-attribution-error"
+  },
+  {
+    "id": "gamblers-fallacy",
+    "name": "Gambler's Fallacy",
+    "url": "https://thedecisionlab.com/biases/gamblers-fallacy"
+  },
+  {
+    "id": "google-effect",
+    "name": "Google Effect",
+    "url": "https://thedecisionlab.com/biases/google-effect"
+  },
+  {
+    "id": "halo-effect",
+    "name": "Halo Effect",
+    "url": "https://thedecisionlab.com/biases/halo-effect"
+  },
+  {
+    "id": "hard-easy-effect",
+    "name": "Hard-easy effect",
+    "url": "https://thedecisionlab.com/biases/hard-easy-effect"
+  },
+  {
+    "id": "heuristics",
+    "name": "Heuristics",
+    "url": "https://thedecisionlab.com/biases/heuristics"
+  },
+  {
+    "id": "hindsight-bias",
+    "name": "Hindsight Bias",
+    "url": "https://thedecisionlab.com/biases/hindsight-bias"
+  },
+  {
+    "id": "hot-hand-fallacy",
+    "name": "Hot Hand Fallacy",
+    "url": "https://thedecisionlab.com/biases/hot-hand-fallacy"
+  },
+  {
+    "id": "hyperbolic-discounting",
+    "name": "Hyperbolic Discounting",
+    "url": "https://thedecisionlab.com/biases/hyperbolic-discounting"
+  },
+  {
+    "id": "identifiable-victim-effect",
+    "name": "Identifiable Victim Effect",
+    "url": "https://thedecisionlab.com/biases/identifiable-victim-effect"
+  },
+  {
+    "id": "ikea-effect",
+    "name": "IKEA Effect",
+    "url": "https://thedecisionlab.com/biases/ikea-effect"
+  },
+  {
+    "id": "illusion-of-control",
+    "name": "Illusion of Control",
+    "url": "https://thedecisionlab.com/biases/illusion-of-control"
+  },
+  {
+    "id": "illusion-of-transparency",
+    "name": "Illusion of Transparency",
+    "url": "https://thedecisionlab.com/biases/illusion-of-transparency"
+  },
+  {
+    "id": "illusion-of-validity",
+    "name": "Illusion of Validity",
+    "url": "https://thedecisionlab.com/biases/illusion-of-validity"
+  },
+  {
+    "id": "illusory-correlation",
+    "name": "Illusory Correlation",
+    "url": "https://thedecisionlab.com/biases/illusory-correlation"
+  },
+  {
+    "id": "illusory-truth-effect",
+    "name": "Illusory Truth Effect",
+    "url": "https://thedecisionlab.com/biases/illusory-truth-effect"
+  },
+  {
+    "id": "impact-bias",
+    "name": "Impact Bias",
+    "url": "https://thedecisionlab.com/biases/impact-bias"
+  },
+  {
+    "id": "in-group-bias",
+    "name": "In-group Bias",
+    "url": "https://thedecisionlab.com/biases/in-group-bias"
+  },
+  {
+    "id": "incentivization",
+    "name": "Incentivization",
+    "url": "https://thedecisionlab.com/biases/incentivization"
+  },
+  {
+    "id": "just-world-hypothesis",
+    "name": "Just-world Hypothesis",
+    "url": "https://thedecisionlab.com/biases/just-world-hypothesis"
+  },
+  {
+    "id": "lag-effect",
+    "name": "Lag Effect",
+    "url": "https://thedecisionlab.com/biases/lag-effect"
+  },
+  {
+    "id": "law-of-the-instrument",
+    "name": "Law of the Instrument",
+    "url": "https://thedecisionlab.com/biases/law-of-the-instrument"
+  },
+  {
+    "id": "less-is-better-effect",
+    "name": "Less-is-Better Effect",
+    "url": "https://thedecisionlab.com/biases/less-is-better-effect"
+  },
+  {
+    "id": "leveling-and-sharpening",
+    "name": "Leveling and Sharpening",
+    "url": "https://thedecisionlab.com/biases/leveling-and-sharpening"
+  },
+  {
+    "id": "levels-of-processing-effect",
+    "name": "Levels of Processing",
+    "url": "https://thedecisionlab.com/biases/levels-of-processing-effect"
+  },
+  {
+    "id": "look-elsewhere-effect",
+    "name": "Look-elsewhere Effect",
+    "url": "https://thedecisionlab.com/biases/look-elsewhere-effect"
+  },
+  {
+    "id": "loss-aversion",
+    "name": "Loss Aversion",
+    "url": "https://thedecisionlab.com/biases/loss-aversion"
+  },
+  {
+    "id": "mental-accounting",
+    "name": "Mental Accounting",
+    "url": "https://thedecisionlab.com/biases/mental-accounting"
+  },
+  {
+    "id": "mere-exposure-effect",
+    "name": "Mere Exposure Effect",
+    "url": "https://thedecisionlab.com/biases/mere-exposure-effect"
+  },
+  {
+    "id": "messenger-effect",
+    "name": "Messenger Effect",
+    "url": "https://thedecisionlab.com/biases/messenger-effect"
+  },
+  {
+    "id": "motivating-uncertainty-effect",
+    "name": "Motivating Uncertainty Effect",
+    "url": "https://thedecisionlab.com/biases/motivating-uncertainty-effect"
+  },
+  {
+    "id": "naive-allocation",
+    "name": "Naive Allocation",
+    "url": "https://thedecisionlab.com/biases/naive-allocation"
+  },
+  {
+    "id": "naive-realism",
+    "name": "Naive Realism",
+    "url": "https://thedecisionlab.com/biases/naive-realism"
+  },
+  {
+    "id": "negativity-bias",
+    "name": "Negativity Bias",
+    "url": "https://thedecisionlab.com/biases/negativity-bias"
+  },
+  {
+    "id": "noble-edge-effect",
+    "name": "Noble Edge Effect",
+    "url": "https://thedecisionlab.com/biases/noble-edge-effect"
+  },
+  {
+    "id": "normalcy-bias",
+    "name": "Normalcy Bias",
+    "url": "https://thedecisionlab.com/biases/normalcy-bias"
+  },
+  {
+    "id": "nostalgia-effect",
+    "name": "Nostalgia Effect",
+    "url": "https://thedecisionlab.com/biases/nostalgia-effect"
+  },
+  {
+    "id": "observer-expectancy-effect",
+    "name": "Observer Expectancy Effect",
+    "url": "https://thedecisionlab.com/biases/observer-expectancy-effect"
+  },
+  {
+    "id": "omission-bias",
+    "name": "Omission Bias",
+    "url": "https://thedecisionlab.com/biases/omission-bias"
+  },
+  {
+    "id": "optimism-bias",
+    "name": "Optimism Bias",
+    "url": "https://thedecisionlab.com/biases/optimism-bias"
+  },
+  {
+    "id": "ostrich-effect",
+    "name": "Ostrich Effect",
+    "url": "https://thedecisionlab.com/biases/ostrich-effect"
+  },
+  {
+    "id": "outcome-bias",
+    "name": "Outcome bias",
+    "url": "https://thedecisionlab.com/biases/outcome-bias"
+  },
+  {
+    "id": "overjustification-effect",
+    "name": "Overjustification Effect",
+    "url": "https://thedecisionlab.com/biases/overjustification-effect"
+  },
+  {
+    "id": "parasocial-trust-in-ai",
+    "name": "Parasocial Trust in AI",
+    "url": "https://thedecisionlab.com/biases/parasocial-trust-in-ai"
+  },
+  {
+    "id": "peak-end-rule",
+    "name": "Peak-end Rule",
+    "url": "https://thedecisionlab.com/biases/peak-end-rule"
+  },
+  {
+    "id": "pessimism-bias",
+    "name": "Pessimism bias",
+    "url": "https://thedecisionlab.com/biases/pessimism-bias"
+  },
+  {
+    "id": "planning-fallacy",
+    "name": "Planning Fallacy",
+    "url": "https://thedecisionlab.com/biases/planning-fallacy"
+  },
+  {
+    "id": "pluralistic-ignorance",
+    "name": "Pluralistic Ignorance",
+    "url": "https://thedecisionlab.com/biases/pluralistic-ignorance"
+  },
+  {
+    "id": "present-bias",
+    "name": "Present Bias",
+    "url": "https://thedecisionlab.com/biases/present-bias"
+  },
+  {
+    "id": "primacy-effect",
+    "name": "Primacy Effect",
+    "url": "https://thedecisionlab.com/biases/primacy-effect"
+  },
+  {
+    "id": "priming",
+    "name": "Priming",
+    "url": "https://thedecisionlab.com/biases/priming"
+  },
+  {
+    "id": "projection-bias",
+    "name": "Projection Bias",
+    "url": "https://thedecisionlab.com/biases/projection-bias"
+  },
+  {
+    "id": "reactive-devaluation",
+    "name": "Reactive devaluation",
+    "url": "https://thedecisionlab.com/biases/reactive-devaluation"
+  },
+  {
+    "id": "recency-effect",
+    "name": "Recency Effect",
+    "url": "https://thedecisionlab.com/biases/recency-effect"
+  },
+  {
+    "id": "regret-aversion",
+    "name": "Regret Aversion",
+    "url": "https://thedecisionlab.com/biases/regret-aversion"
+  },
+  {
+    "id": "representativeness-heuristic",
+    "name": "Representativeness Heuristic",
+    "url": "https://thedecisionlab.com/biases/representativeness-heuristic"
+  },
+  {
+    "id": "response-bias",
+    "name": "Response Bias",
+    "url": "https://thedecisionlab.com/biases/response-bias"
+  },
+  {
+    "id": "restraint-bias",
+    "name": "Restraint Bias",
+    "url": "https://thedecisionlab.com/biases/restraint-bias"
+  },
+  {
+    "id": "rosy-retrospection",
+    "name": "Rosy Retrospection",
+    "url": "https://thedecisionlab.com/biases/rosy-retrospection"
+  },
+  {
+    "id": "salience-bias",
+    "name": "Salience Bias",
+    "url": "https://thedecisionlab.com/biases/salience-bias"
+  },
+  {
+    "id": "self-serving-bias",
+    "name": "Self-serving Bias",
+    "url": "https://thedecisionlab.com/biases/self-serving-bias"
+  },
+  {
+    "id": "serial-position-effect",
+    "name": "Serial Position Effect",
+    "url": "https://thedecisionlab.com/biases/serial-position-effect"
+  },
+  {
+    "id": "sexual-overperception-bias",
+    "name": "Sexual Overperception Bias",
+    "url": "https://thedecisionlab.com/biases/sexual-overperception-bias"
+  },
+  {
+    "id": "social-norms",
+    "name": "Social Norms",
+    "url": "https://thedecisionlab.com/biases/social-norms"
+  },
+  {
+    "id": "source-confusion",
+    "name": "Source Confusion",
+    "url": "https://thedecisionlab.com/biases/source-confusion"
+  },
+  {
+    "id": "spacing-effect",
+    "name": "Spacing Effect",
+    "url": "https://thedecisionlab.com/biases/spacing-effect"
+  },
+  {
+    "id": "spotlight-effect",
+    "name": "Spotlight Effect",
+    "url": "https://thedecisionlab.com/biases/spotlight-effect"
+  },
+  {
+    "id": "status-quo-bias",
+    "name": "Status Quo Bias",
+    "url": "https://thedecisionlab.com/biases/status-quo-bias"
+  },
+  {
+    "id": "suggestibility",
+    "name": "Suggestibility",
+    "url": "https://thedecisionlab.com/biases/suggestibility"
+  },
+  {
+    "id": "survivorship-bias",
+    "name": "Survivorship Bias",
+    "url": "https://thedecisionlab.com/biases/survivorship-bias"
+  },
+  {
+    "id": "take-the-best-heuristic",
+    "name": "Take-the-best Heuristic",
+    "url": "https://thedecisionlab.com/biases/take-the-best-heuristic"
+  },
+  {
+    "id": "telescoping-effect",
+    "name": "Telescoping Effect",
+    "url": "https://thedecisionlab.com/biases/telescoping-effect"
+  },
+  {
+    "id": "the-illusion-of-explanatory-depth",
+    "name": "The Illusion of Explanatory Depth",
+    "url": "https://thedecisionlab.com/biases/the-illusion-of-explanatory-depth"
+  },
+  {
+    "id": "the-pygmalion-effect",
+    "name": "The Pygmalion effect",
+    "url": "https://thedecisionlab.com/biases/the-pygmalion-effect"
+  },
+  {
+    "id": "the-sunk-cost-fallacy",
+    "name": "The Sunk Cost Fallacy",
+    "url": "https://thedecisionlab.com/biases/the-sunk-cost-fallacy"
+  },
+  {
+    "id": "zero-risk-bias",
+    "name": "Zero Risk Bias",
+    "url": "https://thedecisionlab.com/biases/zero-risk-bias"
+  }
+]

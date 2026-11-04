@@ -1,0 +1,12 @@
+{
+  "biasguard/__init__.py": "a6b6d8f9a119c5070aeff7864ae7512de294b398654ce6f9438747b0802abc9c",
+  "biasguard/__main__.py": "1372ad3bc93a46c22884f7e5d353eac320139a17aaf40112846f311a4002ae66",
+  "biasguard/catalog.py": "952b7137a3124799f60e79284b706da213c7a30dd4a2a447e0919195f7f78afe",
+  "biasguard/cli.py": "3790bc66a37cf75f32a5f8521dc3117ee53129650387dc504eb6306d80f1e545",
+  "biasguard/data/cards.json": "44a5714b4dcde668ae377ed748f3cb60427995747a9b1ecf404c6df91f17f87f",
+  "biasguard/data/source_index.json": "b4aaccea668eb11855c6298074f33f641524d02f1cc4d4ff5f3825762b85ed43",
+  "biasguard/engine.py": "932742f4c277a8f97d4156e92e9fd76c1449a59bdaf4424b890768f2c850715c",
+  "biasguard/providers.py": "e324032919cec60ea10f4450c6ab8076cbd3f6c65470894ae99631520395d7ff",
+  "biasguard/schemas.py": "58ea3154542728cf4bb8f0acbf5dc09b14d221511ab80c7f6af0541f1d27e413",
+  "pyproject.toml": "4e427a336a456cf5ace3845618a5bf899d0c9cd8626b76a2cad90416e2b3f823"
+}
