@@ -1,0 +1,3 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "serial-position-effect", "verdict": "not_supported", "evidence": [{"source": "text", "quote": "Fenerbahçe, Göztepe'ye 2-1 yenildikten sonra Liverpool maçının hazırlıklarına başladı", "kind": "statement"}], "necessary_conditions": [{"condition_index": 0, "status": "unknown", "evidence_indices": []}, {"condition_index": 1, "status": "unknown", "evidence_indices": []}, {"condition_index": 2, "status": "unknown", "evidence_indices": []}], "mechanism": "Metinde sıralı bir listeden hatırlama veya seçim bildirilmiyor.", "alternative_explanation": "Haberler hazırlık ve hakem atamasını aktaran olağan spor bilgilendirmesidir.", "missing_context": ["Sıra konumuna bağlı hatırlama veya seçim kanıtı"]}
+]}

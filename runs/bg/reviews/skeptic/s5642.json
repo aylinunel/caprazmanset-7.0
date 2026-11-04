@@ -1,0 +1,53 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Uyuşturucu davasında İlyas Yalçıntaş'a tahliye kararı! Mahkemede dikkat çeken itiraf", "kind": "behavioral"},
+  {"source": "text", "quote": "Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı tahliye kararı nötr biçimde veya suçlama/itiraf vurgusuyla verilmiş; tercih bağlantısı metinde yok.",
+ "alternative_explanation": "Davanın konusunu ve duruşmadaki savunmayı belirtmek bilgilendirici olabilir.",
+ "missing_context": ["Okur yargısının çerçeveye göre değiştiğine dair kanıt", "Savunmanın tam metni"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Mahkemede dikkat çeken itiraf", "kind": "behavioral"},
+  {"source": "text", "quote": "6 ay önce denemek amacıyla İngiltere’de bir İngiliz vatandaşıyla kokain kullanmıştım", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Savunmadaki kişisel kullanım beyanı 'itiraf' olarak öne çıkarılıyor; bunun bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Savunma beyanı duruşmanın haber değeri taşıyan bir parçası; aktarılması meşru.",
+ "missing_context": ["Beyanın suçlamayla ilişkisi (ticaret ve kullanım ayrımı)", "Mahkemenin tahliye gerekçesi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İlyas Yalçıntaş imza yükümlülüğüyle tahliye edildi, duruşma 15 Aralık'a ertelendi", "kind": "behavioral"},
+  {"source": "text", "quote": "Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş hakkında yeni gelişme!", "kind": "behavioral"},
+  {"source": "text", "quote": "İlyas Yalçıntaş hakkında mahkeme kararını verdi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı başlıklar kararın içeriğini (tahliye) atlayıp tutukluluk geçmişini öne çıkarıyor; maddi bir sonuç çarpıtması gösterilmiyor.",
+ "alternative_explanation": "Merak uyandırıcı başlık tarzı (tık odaklı) olabilir; haber gövdesinde tahliye bilgisi verilmiş olabilir.",
+ "missing_context": ["Belirsiz başlıkların haber gövdeleri", "Eksik bilginin okur sonucuna etkisi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz geçmiş vurgulanıyor; olumlu gelişmeye (tahliye) karşı orantısız ağırlık verildiği belgelenmiyor.",
+ "alternative_explanation": "Tutukluluk geçmişi tahliye haberini anlamak için gerekli bağlam.",
+ "missing_context": ["Karşılaştırmalı ağırlıklandırma kanıtı", "Bir değerlendirme veya karar üzerindeki etki"]}
+]}

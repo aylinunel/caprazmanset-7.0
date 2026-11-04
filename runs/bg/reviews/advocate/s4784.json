@@ -1,0 +1,56 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "15 yaş altına sosyal medya yasağı yarın başlıyor: Hesaplar tek tek silinecek", "kind": "behavioral"},
+  {"source": "text", "quote": "Sosyal medyada 15 yaş sınırı yürürlüğe girdi, yaş doğrulaması e-Devlet'ten yapılacak", "kind": "behavioral"},
+  {"source": "text", "quote": "15 yaş altına sosyal medya yasağı yarın başlıyor: Kimlik değil yaş doğrulanacak", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı düzenleme 'yasak' ve 'hesaplar silinecek' kayıp çerçevesiyle ya da 'yaş sınırı' gibi daha nötr bir ifadeyle sunuluyor.",
+ "alternative_explanation": "Düzenleme fiilen hesap kapatma içerdiği için 'yasak' ifadesi olgusal olarak savunulabilir.",
+ "missing_context": ["Çerçevenin bir tercih veya yargıyı değiştirdiğine dair açık ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Hesaplar tek tek silinecek", "kind": "behavioral"},
+  {"source": "text", "quote": "yaş doğrulama işlemleri ise e-Devlet üzerinden oluşturulacak belirteçlerle", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bir kurum hesapların 'tek tek silinmesi' gibi çarpıcı ayrıntıyı öne çıkarırken diğeri doğrulama yöntemini aktarıyor.",
+ "alternative_explanation": "Hesap kapatma düzenlemenin önemli bir sonucu olduğundan vurgulanması makul olabilir.",
+ "missing_context": ["Çarpıcı ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "15 yaşından küçüklerin sosyal medya hesapları kapatılacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Hesaplar tek tek silinecek", "kind": "behavioral"},
+  {"source": "text", "quote": "15 yaş altı sosyal medya yasağı başladı! Yaş doğrulaması nasıl yapılır", "kind": "behavioral"},
+  {"source": "text", "quote": "yönetmelik, 1 Kasım 2026 itibarıyla yürürlüğe giriyor", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Karar'daki 'hesaplar kapatılacak' ifadesi TGRT'de 'tek tek silinecek' olarak keskinleşiyor; Habertürk başlığı 'başladı' derken kendi özeti yürürlüğe girişi ileri tarihe koyuyor.",
+ "alternative_explanation": "Başlık güncellemesi ile özet metin farklı zamanlarda yazılmış olabilir; 'silme' ile 'kapatma' gündelik dilde eş anlamlı kullanılabilir.",
+ "missing_context": ["Yönetmeliğin resmi metni", "Farkın maddi bir sonuca etki ettiğine dair kanıt"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Göktaş duyurdu: Sosyal medya yasağı resmen başladı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Yasağın başladığı bilgisi bakan beyanına dayandırılıyor; makamın belirleyici ağırlık verdiği gösterilmiyor.",
+ "alternative_explanation": "Bir düzenlemenin yürürlüğe girişini ilgili bakana atfetmek olağan ve gerekçeli kaynak kullanımıdır.",
+ "missing_context": ["Karşıt kanıtın makam nedeniyle göz ardı edildiğine dair açık ifade"]}
+]}

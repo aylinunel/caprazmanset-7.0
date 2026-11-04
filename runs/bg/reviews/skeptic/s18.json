@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "KGK Başkanı İbrahim Ömer Gönül kimdir, babası kim, kaç yaşında, daha önce hangi görevlerde bulundu?", "kind": "behavioral"},
+{"source": "text", "quote": "Soruşturma eski SPK Başkanı’na uzandı: İbrahim Ömer Gönül 'şüpheli' sıfatıyla savcılıkta", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Bir kurum aynı kişiyi biyografi formatında ve 'KGK Başkanı' unvanıyla, diğerleri şüpheli sıfatıyla veriyor; bunun okur yargısını değiştirdiği metinde gösterilmiyor.",
+"alternative_explanation": "'Kimdir' haberleri arama trafiğine yönelik standart formattır; biyografi haberi soruşturmayı gizleme amacı taşımayabilir.",
+"missing_context": ["Biyografi haberinin tam metninde soruşturmaya değinilip değinilmediği", "Okur algısına etki verisi"]},
+{"card_id": "salience-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "Fon soruşturmasında gelişme! Eski SPK Başkanı İbrahim Ömer Gönül şüpheli sıfatıyla ifade verdi", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": []},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Başlıklar büyük ölçüde aynı olguyu benzer düzeyde veriyor; çarpıcı bir ayrıntının yargıyı haksız biçimde belirlediği görülmüyor.",
+"alternative_explanation": "Eski bir düzenleyici kurum başkanının şüpheli olması doğal olarak haber değeri taşır; vurgu orantılıdır.",
+"missing_context": ["Haberlerin sayfa yerleşimi ve tam metinleri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "Eski SPK Başkanı İbrahim Ömer Gönül şüpheli sıfatıyla ifade verdi", "kind": "behavioral"},
+{"source": "text", "quote": "Eski SPK Başkanı İbrahim Ömer Gönül şüpheli sıfatıyla ifade verecek", "kind": "behavioral"},
+{"source": "text", "quote": "Sermaye Piyasası Kurulu Başkanı Ömer Gönül, fon soruşturmasında 'şüpheli' sıfatıyla bugün ifade verecek.", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "11:38'de bir kurum 'ifade verdi' derken diğerleri 'verecek' diyor; bir kurum 'eski' nitelemesini düşürüyor. Fark gözlenebilir, sonuca etkisi gösterilmiyor.",
+"alternative_explanation": "Başlıklar sonradan güncellenmiş olabilir; 'eski' ifadesinin düşmesi basit bir yazım eksikliği olabilir.",
+"missing_context": ["Başlıkların güncelleme geçmişi", "İfadenin fiilen alındığı saat"]},
+{"card_id": "source-confusion", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "Sermaye Piyasası Kurulu Başkanı Ömer Gönül, fon soruşturmasında 'şüpheli' sıfatıyla bugün ifade verecek.", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": []},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Unvan eksikliği bir hafıza-kaynak hatası değil, yazım hatasıdır; hatırlanan bir bilginin kökeninin karıştırıldığı gösterilmiyor.",
+"alternative_explanation": "Haberler ortak ajans kaynağına dayanıyor; ifadelerdeki farklar editoryal kısaltmadır.",
+"missing_context": ["Kurumların bilgiyi aldıkları kaynak", "Kaynak uyumsuzluğunu gösteren düzeltme kaydı"]}
+]}

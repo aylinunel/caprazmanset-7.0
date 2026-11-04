@@ -1,0 +1,48 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Dünya Gazetesi’nin sahibi gözaltında", "kind": "behavioral"},
+  {"source": "text", "quote": "Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Dünya Gazetesi'nin patronu Umut Güner fon soruşturmasından gözaltında", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı kişi 'sahibi', 'patronu' ve 'ortağı' olarak farklı çerçevelerle sunulmuş; ancak bu sunuma dayalı bir tercih metinde yok.",
+ "alternative_explanation": "Ortaklık yapısının karmaşıklığı nedeniyle kurumlar farklı ama makul tanımlar seçmiş olabilir.",
+ "missing_context": ["Güner'in gazetedeki kesin rolü", "Sunuma bağlı bir yargı ya da karar"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Dünya Gazetesi’nin sahibi gözaltında", "kind": "behavioral"},
+  {"source": "text", "quote": "Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Güner’in ise doğrudan yüzde 10,22 sermaye payı bulunuyor", "kind": "statement"},
+  {"source": "text", "quote": "Fon soruşturması! Dünya gazetesinin sahibi Umut Güner gözaltına alındı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Karar'daki yüzde 10,22 doğrudan pay bilgisi temel alındığında 'sahibi' ifadesi rolü büyütüyor (keskinleştirme), 'ortaklarından' ise daha sınırlı bir rol veriyor.",
+ "alternative_explanation": "Aynı metinde Güner'in sahibi olduğu Dünya Holding'den söz edildiği için 'sahibi' ifadesi holding sahipliğine dayanabilir.",
+ "missing_context": ["Gazetenin hukuki sahiplik yapısı", "Farkın bir sonuca etkisini gösteren kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturması derinleşiyor! Umut Güner gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Bazı başlıklar 'derinleşiyor', 'sıcak gelişme' gibi çarpıcı ifadeler kullanmış; bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Süregelen bir soruşturmadaki yeni gözaltıyı vurgulamak olağan haber dili olabilir.",
+ "missing_context": ["Çarpıcı ayrıntının bir yargıya bağlandığı açık ifade", "Daha az çarpıcı bilgilerle karşılaştırmalı ağırlık"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığının yürüttüğü fon soruşturması kapsamında iş insanı Umut Güner gözaltına alındı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haber Başsavcılığı kaynak olarak gösteriyor; ancak bu otoritenin iddiaların değerlendirilmesinin yerine geçtiği belirtilmiyor.",
+ "alternative_explanation": "Resmi soruşturma bilgisini savcılığa atfetmek standart ve gerekçeli haber pratiğidir.",
+ "missing_context": ["Karşı tarafın açıklaması", "Otoriteye dayalı bir değerlendirme cümlesi"]}
+]}

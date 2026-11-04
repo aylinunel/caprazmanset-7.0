@@ -1,0 +1,47 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 11:54] Parti Yeni vurgun eski: Merkezefendi Belediye Başkanı Şeniz Doğan uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "[sozcu · 11:50] Son dakika... YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "[birgun · 11:45] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı görevden uzaklaştırma, Takvim'de yargılayıcı bir kalıpla (\"vurgun\"), diğerlerinde yalın veriliyor; bunun bir yargıyı değiştirdiğini gösteren açık gerekçe yok.",
+ "alternative_explanation": "Takvim tutuklama gerekçesini (rüşvet, ihaleye fesat) özetleyen bir söz oyunu kullanmış olabilir; parti bilgisi olgusal bir ayrıntı.",
+ "missing_context": ["Haber gövdeleri", "Sunum farkının okur yargısına etkisi"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 11:56] Rüşvetten tutuklanmıştı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tutuklama gerekçesi ünlemle öne çıkarılıyor; gerekçesiz bir yargıya bağlandığı açık değil.",
+ "alternative_explanation": "Uzaklaştırmanın nedeni olan tutuklamayı bildirmek olgusal bağlam sağlar.",
+ "missing_context": ["Öne çıkan ayrıntının bir sonucu çarpıttığına dair kanıt"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Parti Yeni vurgun eski", "kind": "statement"},
+  {"source": "text", "quote": "YENİ Partili Merkezefendi Belediye Başkanı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Parti üyeliği anılıyor; ancak hangi kurumun hangi gruba ait olduğu ve grup üyeliğinin değerlendirmeyi gerekçesiz değiştirdiği açıkça kurulmuyor.",
+ "alternative_explanation": "Parti bilgisi siyasi haberde olağan ve ilgili bir ayrıntı; farklı yelpazeden kurumlar (Sözcü, Takvim) aynı bilgiyi veriyor.",
+ "missing_context": ["Karşılaştırılabilir vakalarda aynı kurumların tutumu", "Kurumların grup aidiyetinin açık tanımı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[haberler · 11:54] Denizli Merkezefendi Belediye Başkanı Şeniz Doğğan rüşvet soruşturmasında tutuklandı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı", "kind": "statement"},
+  {"source": "text", "quote": "Rüşvet ve ihaleye fesattan tutuklanmıştı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "contradicted", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haberler.com olayın uzaklaştırma yönünü vermeyip tutuklamayı öne çıkarıyor; ancak tutuklama başka kurumlarca da doğrulanan önceki bir olgu, gerekçesiz bir çarpıtma görünmüyor.",
+ "alternative_explanation": "Başlık önceki tutuklama haberinden kalmış ya da eski içerik yeniden kullanılmış olabilir; isim yazımındaki hata dizgi hatası.",
+ "missing_context": ["Haberler.com içeriğinin ilk yayın tarihi"]}
+]}

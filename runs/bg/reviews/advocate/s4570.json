@@ -1,0 +1,60 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[sozcu · 09:30] Kırıkkale'de can pazarı: İşçileri taşıyan servis aracı devrildi, 14 yaralı!", "kind": "behavioral"},
+  {"source": "text", "quote": "[haberler · 09:36] Kırıkkale'de işçileri taşıyan midibüs devrildi, 1'i ağır 15 kişi yaralandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Sağanak sonrası feci kaza, Kırıkkale’de işçi servisi devrildi! 15 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "Kırıkkale'de servis midibüsü devrildi: Çok sayıda yaralı var!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yaralı sayısı 14 ve 15 arasında değişiyor; yalnızca bir kurum yağışı nedensel bağlam olarak ekliyor, bazıları ağır yaralı bilgisini düşürüyor.",
+ "alternative_explanation": "Sayı farkı farklı saatlerdeki resmî güncellemelerden kaynaklanabilir.",
+ "missing_context": ["Resmî yaralı sayısı ve zamanı", "Kaza nedenine dair resmî bilgi"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde kimsenin iç durumunun başkalarınca anlaşılacağına dair bir inanç yok.",
+ "alternative_explanation": "Haber bir trafik kazasını aktarıyor.",
+ "missing_context": ["Kişilerin beyanları"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir eyleme bağlı ödül veya ceza anlatılmıyor.",
+ "alternative_explanation": "Haber teşvik içermeyen bir kaza haberidir.",
+ "missing_context": ["Teşvik veya yaptırım bilgisi"]},
+{"card_id": "mental-accounting", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir kaynak tahsisi veya harcama kararı yok.",
+ "alternative_explanation": "Haber mali bir karar içermiyor.",
+ "missing_context": ["Harcama veya bütçe kararı"]},
+{"card_id": "the-illusion-of-explanatory-depth", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Sağanak sonrası feci kaza", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yağışa yapılan kısa atıf dışında nedensel bir açıklama ya da anlama iddiası yok.",
+ "alternative_explanation": "Hava durumu bilgisi yalnızca olay bağlamını aktarıyor.",
+ "missing_context": ["Kaza mekanizmasına dair iddia ve açıklama"]},
+{"card_id": "heuristics", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Belirsizlik altında belirli bir kısayolla verilmiş bir yargı anlatılmıyor.",
+ "alternative_explanation": "Haber olgusal bir kaza aktarımıdır.",
+ "missing_context": ["Kısayol ve etkisini gösteren ifade"]}
+]}

@@ -1,0 +1,34 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 23:28] Yürek yakan haber Van’dan geldi! Rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 23:03] Van'da rahatsızlanan uzman çavuş şehit oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "[sabah · 23:01] Piyade Uzman Çavuş Oğuz Şahin şehit oldu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı ölüm bazı kurumlarca duygusal çerçeveyle, bazılarınca yalın veriliyor; bazı başlıklar rahatsızlanma nedenini atlıyor. Sunumun bir yargıyı değiştirdiği açıkça gösterilmiyor.",
+ "alternative_explanation": "Taziye dili ve MSB açıklamasındaki \"şehit\" ifadesi kurumsal teamül; neden bilgisinin atlanması başlık kısalığından olabilir.",
+ "missing_context": ["MSB açıklamasının tam metni", "Sunum farkının okur yargısına etkisi"]},
+{"card_id": "identifiable-victim-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Piyade Uzman Çavuş Oğuz Şahin neden şehit oldu, eşi ve çocuğu kim?", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kimliği belirli bir kişi öne çıkıyor; ancak bir yardım/kaynak tahsisi kararı ve grupla karşılaştırma yok.",
+ "alternative_explanation": "Bireysel ölüm haberinde isim ve biyografi vermek olağan haber pratiği.",
+ "missing_context": ["Bir tahsis kararı ve karşılaştırılabilir bir grup"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[sondakika · 19:00] Van'dan kahreden haber!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygusal dil var; ancak duygunun bir risk/fayda tahminine ya da karara bağlandığı yok.",
+ "alternative_explanation": "Ölüm haberinde yas ifade etmek olağan; duygu tek başına hata kanıtı değil.",
+ "missing_context": ["Duygunun bir yargıyı çarpıttığına dair kanıt"]}
+]}

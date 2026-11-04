@@ -1,0 +1,39 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[star · 00:09] Ankara'dan kahreden haber! MSB açıkladı: Albay Sayit Gökgöz şehit oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 00:21] Askeri araç kazasında albay şehit oldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Duygusal nitelemeler ('kahreden', 'acı haber') bazı başlıklarda var; bir tercih veya yargının sunuma bağlandığı gösterilmiyor.",
+ "alternative_explanation": "Şehit haberlerinde taziye dili yerleşik bir gazetecilik geleneğidir; olgular tüm kurumlarda aynı.",
+ "missing_context": ["Okur yargısına etkiye dair veri"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "MSB acı haberi duyurdu: İstihbarat Albay Sayit Gökgöz şehit oldu", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar 'İstihbarat' unvanını öne çıkarıyor; bunun haksız bir çıkarıma yol açtığı yok.",
+ "alternative_explanation": "Unvan resmi açıklamadaki bilgidir; aktarılması doğal.",
+ "missing_context": ["Kazanın nedeni ve koşullarına dair bilgi"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 00:37] Ankara'dan acı haber! Albay Sayit Gökgöz şehit oldu", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Duygu ifadesi var ancak bir risk/fayda tahminine veya karara bağlanmıyor.",
+ "alternative_explanation": "Duygusal dil yas ve taziye bağlamındadır; bir karar veya tahmin içermez.",
+ "missing_context": ["Duygunun bir değerlendirmeye etkisini gösteren ifade"]}
+]}

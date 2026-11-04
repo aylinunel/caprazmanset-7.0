@@ -1,0 +1,40 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "AKP'li Cumhurbaşkanı Erdoğan, Nobel ödüllü bilim insanı Aziz Sancar'ı kabul etti", "kind": "behavioral"},
+{"source": "text", "quote": "Başkan Erdoğan Nobel ödüllü bilim insanı Aziz Sancar'ı kabul etti", "kind": "behavioral"},
+{"source": "text", "quote": "Erdoğan, Aziz Sancar ile görüştü", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Aynı kabul 'AKP'li Cumhurbaşkanı', 'Başkan' veya yalnızca 'Erdoğan' etiketleriyle veriliyor; etiket farkı görünür, ancak bir yargıya bağlandığı gösterilmiyor.",
+"alternative_explanation": "Etiketler kurumların yerleşik üslup kılavuzlarını yansıtabilir; olayın içeriğini değiştirmez.",
+"missing_context": ["Kurumların bu etiketleri diğer haberlerde de tutarlı kullanıp kullanmadığı", "Okur algısına etki verisi"]},
+{"card_id": "halo-effect", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "Nobel ödüllü isim Külliye’de! Başkan Erdoğan, Aziz Sancar’ı kabul etti", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "'Nobel ödüllü' niteliği anılıyor; ancak bu ödülden başka bir alanda olumlu bir yargı çıkarıldığı yok.",
+"alternative_explanation": "Nobel ödülü kişinin tanınırlığını açıklayan olgusal bir bilgidir; unvan tek başına hale etkisi kanıtı değildir.",
+"missing_context": ["Ödülden bağımsız bir alana taşınan olumlu yargı içeren ifade"]},
+{"card_id": "in-group-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "AKP'li Cumhurbaşkanı Erdoğan", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Parti etiketi grup üyeliğini belirtiyor; ancak buna bağlı farklı bir değerlendirme, suçlama veya standart metinde yok.",
+"alternative_explanation": "Parti aidiyetini belirtmek bilgilendirici bir editoryal tercih olabilir.",
+"missing_context": ["Aynı kurumun diğer partilerden siyasetçileri nasıl etiketlediği", "Grup üyeliğine bağlı farklı muamele gösteren karşılaştırma"]},
+{"card_id": "authority-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "Cumhurbaşkanı Recep Tayyip Erdoğan, Nobel ödüllü bilim insanı Prof. Dr. Aziz Sancar'ı ve eşini kabul etti.", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Unvanlar anılıyor ama hiçbir iddia otoriteye dayanarak gerekçelendirilmiyor.",
+"alternative_explanation": "Unvan kullanımı protokol ve tanıtım amaçlıdır; otoriteye haksız ağırlık verildiğini göstermez.",
+"missing_context": ["Statüye dayanarak bir iddianın kabul edildiği açık ifade"]}
+]}

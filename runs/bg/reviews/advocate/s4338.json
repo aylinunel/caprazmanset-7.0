@@ -1,0 +1,53 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul'a pazartesi kilidi: Trafik yoğunluğu yüzde 78 oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul'da trafik yoğunluğu yüzde 65'e ulaştı: Anadolu Yakası'nda yüzde 78", "kind": "behavioral"},
+  {"source": "text", "quote": "Kent genelinde trafik yoğunluk oranı saat 08.15 itibarıyla yüzde 65 olarak ölçüldü.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı sabahın verisi bir kurumda 'kilit' ve yüzde 78 (Anadolu Yakası değeri) ile, diğerlerinde kent geneli yüzde 65 ile sunuluyor; bir yargıya bağlandığı açık değil.",
+ "alternative_explanation": "Kurum farklı saatte ya da yaka bazlı veriyi kullanmış olabilir.",
+ "missing_context": ["Ölçüm saatleri ve veri kaynağı", "Çerçeveye bağlı açık değerlendirme"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul'da haftanın ilk iş günü trafiği: Anadolu Yakası'nda yoğunluk %78'e ulaştı", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul'da trafik yoğunluğu yüzde 65'e ulaştı! İşte 26 Ekim'de son durum", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı kurumlar en yüksek (yaka bazlı) değeri başlığa taşıyor; bunun bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "En yüksek değeri vermek okura pratik bilgi sunma tercihi olabilir.",
+ "missing_context": ["Açık bir yargı ya da seçim ifadesi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul'da sağanak alarmı! Trafik yoğunluğu yüzde 80'e dayandı: D-100 trafiğe kapandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz dil var, ancak karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık verildiği belgelenmiyor.",
+ "alternative_explanation": "Trafik ve yağış uyarısı olumsuz ama ilgili kamu bilgisidir.",
+ "missing_context": ["Olumlu/olumsuz bilginin karşılaştırmalı ağırlığı"]},
+{"card_id": "source-confusion", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul'a pazartesi kilidi: Trafik yoğunluğu yüzde 78 oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul'da trafik yoğunluğu yüzde 65'e ulaştı: Anadolu Yakası'nda yüzde 78", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Yüzde 78 değeri diğer kurumlarda Anadolu Yakası'na atfedilirken bir kurumda kent geneline atfediliyor gibi görünüyor; bu bir atıf karışıklığı olabilir ama hafıza kaynağı hatası olarak belgelenmiyor.",
+ "alternative_explanation": "Başlık kısaltması ya da farklı saatte ölçülen kent geneli değeri olabilir.",
+ "missing_context": ["Kurumun tam metni", "Ölçüm saati ve resmi veri"]}
+]}

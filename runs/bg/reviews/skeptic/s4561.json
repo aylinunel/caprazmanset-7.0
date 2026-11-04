@@ -1,0 +1,29 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan'dan Macron'a COP31 Liderler Zirvesi daveti", "kind": "behavioral"},
+  {"source": "text", "quote": "Macron ile telefonda görüşen Cumhurbaşkanı Erdoğan’dan BM’ye reform mesajı", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan, Macron ile telefonda görüştü", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Kurumlar görüşmenin farklı başlıklarını (COP31 daveti, BM reformu) öne çıkarıyor; bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Görüşmenin resmi açıklamasında birden çok başlık var; kurumların farklı birini seçmesi editoryal tercihtir.",
+ "missing_context": ["Resmi görüşme açıklamasının tam metni", "Macron tarafının açıklaması"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Görüşmede, ikili ilişkiler ile Birleşmiş Milletler'in yeni Genel Sekreteri'ni belirleme süreci ele alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Başkan Erdoğan Macron ile telefonda görüştü! Fransa Cuymhurbaşkanı'na COP31 Liderler Zirvesi daveti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir anlatım BM sürecini, diğeri COP31 davetini veriyor; her biri diğer konuyu başlıkta düzleştiriyor.",
+ "alternative_explanation": "Erken haber ilk açıklamaya, sonraki haberler ek bilgilere dayanıyor olabilir; başlık kısıtı ayrıntı eler.",
+ "missing_context": ["Açıklamaların yayımlanma sırası", "Haber gövdelerinde diğer konuların yer alıp almadığı"]}
+]}

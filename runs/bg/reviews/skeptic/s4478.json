@@ -1,0 +1,65 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[cumhuriyet · 20:07] AHG'nin İstanbul Barosu başkan adayı olan Osman Korkut Kanadoğlu'na soruşturma başlatıldı: İlk açıklamasını Cumhuriyet'e yaptı", "kind": "behavioral"},
+  {"source": "text", "quote": "[sabah · 20:07] İstanbul Barosu başkan adayı Kanadoğlu’nun sözlerine soruşturma", "kind": "behavioral"},
+  {"source": "text", "quote": "[turkiyegz · 20:53] Osman Korkut Kanadoğlu hakkında resen soruşturma kararı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar aynı soruşturmayı farklı vurgularla (grup kimliği, 'sözleri', 'resen') veriyor; ancak metin bir okur tercihinin sunuma bağlandığını göstermiyor.",
+ "alternative_explanation": "Başlık farkları kaynak erişimi, karakter sınırı ve editoryal üslupla açıklanabilir; olgular büyük ölçüde aynı.",
+ "missing_context": ["Okur veya karar etkisine dair veri", "Kurumların olağan başlık üslubu karşılaştırması"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[birgun · 20:46] İstanbul Barosu seçimindeki konuşması nedeniyle Prof. Dr. Kanadoğlu hakkında soruşturma başlatıldı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı başlıklar unvan veya gerekçeyi öne çıkarıyor; çarpıcı bir ayrıntının yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Gerekçe ve unvan, olayın temel bilgileridir; öne çıkarılmaları olağan haber yazımıdır.",
+ "missing_context": ["Hangi sözlerin soruşturmaya konu olduğu", "Taban oranı veya karşı kanıt karşılaştırması"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığı, İstanbul Barosunun Olağan Genel Kurulu'nda sarf ettiği sözler nedeniyle Avukat Hakları Grubu'nun adayı Osman Korkut Kanadoğlu hakkında resen soruşturma başlattı.", "kind": "statement"},
+  {"source": "text", "quote": "[sozcu · 20:18] Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ayrıntılı spot ile kısa başlıklar karşılaştırıldığında gerekçe ve 'resen' bilgisi bazı başlıklarda düşüyor.",
+ "alternative_explanation": "Kısa başlıklar ayrıntıyı habere bırakır; anlamı maddi olarak değiştiren bir eksiltme gösterilmiyor.",
+ "missing_context": ["Haberlerin tam metinleri", "Eksiltmenin bir sonuca etkisine dair kanıt"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[aksam · 20:56] İstanbul Cumhuriyet Başsavcılığı duyurdu: Aday Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başsavcılık kaynak olarak anılıyor; statünün bir iddiayı tek başına kanıtladığı veya karşı görüşün statü nedeniyle reddedildiği yok.",
+ "alternative_explanation": "Resmi kurumu kaynak göstermek standart atıf pratiğidir.",
+ "missing_context": ["Adayın veya baronun karşı açıklaması", "Soruşturma gerekçesinin içeriği"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "AHG'nin İstanbul Barosu başkan adayı olan Osman Korkut Kanadoğlu'na soruşturma başlatıldı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Grup aidiyeti (AHG) belirtiliyor; ancak grup üyeliğine bağlı farklı standart veya değerlendirme gösterilmiyor.",
+ "alternative_explanation": "Adayın grubunu belirtmek seçim haberinde ilgili bilgidir; özel açıklama alınması erişimle ilgilidir.",
+ "missing_context": ["Benzer durumdaki diğer adaylara yönelik haberler", "Kurumların grup ilişkilerine dair kanıt"]}
+]}

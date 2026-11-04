@@ -1,0 +1,53 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[sozcu · 15:03] Liverpool maçı öncesi Fenerbahçe'ye müjde", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 14:59] Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber", "kind": "behavioral"},
+  {"source": "text", "quote": "[sondakika · 17:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı haber kümesinde 'müjde' ve 'deprem/şok' gibi zıt değerlikli başlıklar var; NTV ikisinin ayrı olgular olduğunu ima ediyor.",
+ "alternative_explanation": "Müjde ve kötü haber farklı oyunculara ilişkin farklı olgular olabilir; eşdeğer bilgilerin farklı sunumu kanıtlanmıyor.",
+ "missing_context": ["'Müjde'nin hangi olguya dayandığı", "Haberlerin tam metinleri"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[akit · 15:23] Eyvah, bir bu eksikti! Fenerbahçe'de Liverpool maçı öncesi deprem...", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 14:59] Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Birçok başlık sakatlığı öne çıkarırken olumlu gelişme yalnızca birkaç kurumda yer alıyor; olumlu ve olumsuz bilginin eşdeğer önemde olduğu gösterilmiyor.",
+ "alternative_explanation": "Kilit bir stoperin sakatlığı maç açısından olumlu gelişmeden daha önemli olabilir; ayrıca haberler farklı günlere yayılıyor.",
+ "missing_context": ["Olumlu gelişmenin içeriği ve zamanı", "Kurumların olağan spor başlık üslubu"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe'ye Şampiyonlar Ligi'ndeki Liverpool maçı öncesi sakatlık şoku!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Çarpıcı kelimeler kullanılıyor; bir yargının bu çarpıcılık nedeniyle haksız biçimde oluştuğu gösterilmiyor.",
+ "alternative_explanation": "Spor basınında abartılı sözcükler yerleşik üsluptur.",
+ "missing_context": ["Karşılaştırmalı ağırlıklandırma kanıtı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Liverpool karşılaşmasında forma giymesinin beklenmediği öne sürüldü", "kind": "statement"},
+  {"source": "text", "quote": "[birgun · 09:38] Kojo Oppong, Liverpool maçında forma giyemeyecek", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Karar'ın 'öne sürüldü' şeklindeki belirsiz iddiası BirGün'de kesin ifadeye dönüşüyor.",
+ "alternative_explanation": "BirGün'ün haberi daha geç ve kulüp açıklamasına dayanıyor olabilir; kesinleşmiş bilgi aktarımı olabilir.",
+ "missing_context": ["Kulübün resmi sağlık açıklaması", "Haberlerin tarihleri"]}
+]}

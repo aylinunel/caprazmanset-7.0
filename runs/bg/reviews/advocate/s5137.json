@@ -1,0 +1,53 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Rusya’dan Ukrayna’ya yeşil ışık:", "kind": "behavioral"},
+  {"source": "text", "quote": "Moskova kapıyı araladı: Zelenski ararsa Putin telefonu açar", "kind": "behavioral"},
+  {"source": "text", "quote": "Kremlin'den Ukrayna'ya yeşil ışık:", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Rusya: Zelenskiy ararsa Putin telefonu açacak", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 4]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1, 2, 3]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı açıklama bazı kurumlarda nötr aktarılırken bazılarında 'yeşil ışık' veya 'kapıyı araladı' gibi olumlu bir çerçeveyle sunuluyor.",
+ "alternative_explanation": "Olumlu ifade, açıklamanın diplomatik anlamına dair makul bir editoryal yorum olabilir; okur tercihini değiştirdiği gösterilmiyor.",
+ "missing_context": ["Çerçevenin bir yargı veya tercih farkına yol açtığına dair kanıt", "Açıklamanın tam metni ve koşulları"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Uşakov, Zelenskiy'i Moskova'ya çağırdı, ararsa Putin'in telefonu açacağını söyledi", "kind": "behavioral"},
+  {"source": "text", "quote": "Uşakov, Putin'in hiçbir zaman görüşmekten vazgeçmediğini belirtti.", "kind": "behavioral"},
+  {"source": "text", "quote": "Uşakov, Ukrayna liderini Moskova'ya da davet etti.", "kind": "behavioral"},
+  {"source": "text", "quote": "Zelenskiy ararsa telefonu Putin açacak", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Moskova daveti ve Abu Dabi müzakereleri gibi ayrıntılar bazı haberlerde yer alırken çoğu başlıkta yalnızca telefon ifadesi keskinleştiriliyor.",
+ "alternative_explanation": "Telefon ifadesi açıklamanın en haber değeri taşıyan kısmı olduğu için öne çıkmış olabilir; diğer ayrıntıların atlanması maddi çarpıtma olmayabilir.",
+ "missing_context": ["Uşakov'un açıklamasının orijinal metni", "Atlanan davet koşullarının anlamı değiştirip değiştirmediği"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rusya'dan dikkat çeken açıklama!", "kind": "behavioral"},
+  {"source": "text", "quote": "Rusya ve Ukrayna arasında 'telefon' diplomasisi!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ünlem ve 'dikkat çeken' ifadesi telefon ayrıntısını çarpıcı hale getiriyor.",
+ "alternative_explanation": "Dikkat çekici başlık kullanımı biçimsel bir tercih olup yargı hatası göstermez.",
+ "missing_context": ["Çarpıcılığın bir değerlendirmeyi haksız biçimde yönlendirdiğine dair kanıt"]},
+{"card_id": "messenger-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kremlin Danışmanı Uşakov, Zelenskiy ararsa Putin'in telefonu açacağını söyledi", "kind": "behavioral"},
+  {"source": "text", "quote": "Kremlin: Zelenski'nin araması halinde Putin telefonu açacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Uşakov: Zelenskiy'nin araması halinde Putin telefonu açacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Rusya’dan Ukrayna’ya yeşil ışık:", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı iddia 'Rusya', 'Kremlin' veya 'Uşakov' gibi farklı kaynak etiketleriyle aktarılıyor ve bazı kurumlarca olumlu biçimde değerlendiriliyor.",
+ "alternative_explanation": "Kaynak etiketi farkları kısaltma alışkanlığından kaynaklanabilir; değerlendirmenin habercinin kimliğine bağlandığı gösterilmiyor.",
+ "missing_context": ["Değerlendirmenin kaynağa göre değiştiğine dair karşılaştırmalı kanıt"]}
+]}

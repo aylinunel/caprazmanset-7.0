@@ -1,0 +1,66 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "SON DAKİKA! Google'a yapay zeka kıskacı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Google yapay zeka hizmetlerine rekabet soruşturması", "kind": "behavioral"},
+  {"source": "text", "quote": "Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı karar 'kıskaç/fren' (Google'a yaptırım) veya 'haber sitelerini koruyacak' (kazanç) çerçeveleriyle sunulmuş; çerçeveye dayalı bir tercih metinde yok.",
+ "alternative_explanation": "Kararın gerekçesi yayıncıları korumak olduğundan farklı vurgular olgusal olarak savunulabilir.",
+ "missing_context": ["Kararın tam metni", "Sunuma bağlı açık bir yargı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rekabet Kurulu, Google hakkında yapay zeka ön izlemeleri ve yapay zeka modu hizmetlerine ilişkin soruşturma açılmasına ve geçici tedbir uygulanmasına karar verdi.", "kind": "statement"},
+  {"source": "text", "quote": "Google’a yapay zekâ freni! Haber özetlerine 'adil paylaşım' tedbiri", "kind": "behavioral"},
+  {"source": "text", "quote": "Google'ın yapay zeka özetlerine Rekabet Kurumu incelemesi! Haber siteleri için yeni düzenleme gündemde", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Star'ın soruşturma+geçici tedbir özeti temel alındığında bazı başlıklar soruşturmayı atlayıp 'fren' tedbirini büyütmüş, bazıları 'inceleme/düzenleme gündemde' diye yumuşatmış.",
+ "alternative_explanation": "Başlık kısalığı ve kurumların okur ilgisine göre farklı unsuru seçmesi farkı açıklayabilir.",
+ "missing_context": ["Kurul açıklamasının tam metni", "Farkın bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "SON DAKİKA! Google'a yapay zeka kıskacı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Google'a yapay zeka soruşturması! Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Çarpıcı 'kıskaç', 'kritik' ifadeleri kararın belirli yönünü öne çıkarıyor; haksız etki gösterilmiyor.",
+ "alternative_explanation": "Haber sitelerini doğrudan ilgilendiren bir karar olduğu için vurgu olağan olabilir.",
+ "missing_context": ["Çarpıcı unsurun bir yargıya açıkça bağlanması"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rekabet Kurumu duyurdu: Haber özetlerine 'adil paylaşım' tedbiri", "kind": "statement"},
+  {"source": "text", "quote": "Kurumun sitesinden yapılan açıklamaya göre", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haberler Rekabet Kurumu açıklamasına dayanıyor; bu otoritenin değerlendirmenin yerine geçtiği belirtilmiyor.",
+ "alternative_explanation": "Düzenleyici kararı resmi kaynağa atfetmek gerekçeli ve olağan bir pratiktir.",
+ "missing_context": ["Google'ın yanıtı", "Otoriteye dayalı açık bir değerlendirme cümlesi"]},
+{"card_id": "google-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metin bir rekabet kararını aktarıyor; dijital erişim beklentisi veya hatırlama ile ilgili bir gözlem yok.",
+ "alternative_explanation": "Konunun Google olması bu bellek etkisiyle ilişkili değildir.",
+ "missing_context": ["Hatırlama/öğrenme verisi"]},
+{"card_id": "dunning-kruger-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde herhangi bir kişinin öz değerlendirmesi veya performans verisi yok.",
+ "alternative_explanation": "Haber kurumsal bir karar aktarımıdır.",
+ "missing_context": ["Öz değerlendirme ve bağımsız performans kanıtı"]}
+]}

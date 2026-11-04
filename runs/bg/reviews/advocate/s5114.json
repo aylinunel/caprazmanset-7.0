@@ -1,0 +1,56 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "ABD'de Cadılar Bayramı kutlamaları kana bulandı: 8 ölü, 48 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "ABD'de Cadılar Bayramı kutlamaları sırasında düzenlenen silahlı saldırılarda en az 6 kişi yaşamını yitirdi", "kind": "behavioral"},
+  {"source": "text", "quote": "İlk belirlemelere göre 6 kişi öldü", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çoğu kurum 'en az 6 ölü' derken iki kurum '8 ölü, 48 yaralı' yazıyor; kayıp sayısı keskinleştirilmiş olabilir.",
+ "alternative_explanation": "Farklı sayılar farklı saatlerdeki güncel bilançoları yansıtabilir; sayının bir sonuca etkisi gösterilmiyor.",
+ "missing_context": ["Resmi kayıp bilançosu ve zamanı", "8 ölü rakamının kaynağı"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "ABD'de Cadılar Bayramı'nda dehşet anları! Çok sayıda ölü ve yaralı var", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz olay yoğun ifadelerle aktarılmış; olumlu-olumsuz kanıt karşılaştırması yok.",
+ "alternative_explanation": "Silahlı saldırı haberinde olumsuz vurgu olayın niteliğiyle orantılıdır.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi", "Bir değerlendirmeye etkiye dair kanıt"]},
+{"card_id": "affect-heuristic", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "ABD’de kanlı cadılar bayramı: 6 kişi öldü!", "kind": "statement"},
+  {"source": "text", "quote": "Cadılar Bayramı kana bulandı! ABD'de peş peşe silahlı saldırılar", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Kana bulandı', 'kanlı' gibi duygusal imgeler kullanılmış; bir risk tahminine bağlanmamış.",
+ "alternative_explanation": "Duygusal dil olayın ağırlığını iletir; bir yargının yerine geçtiği gösterilmiyor.",
+ "missing_context": ["Duygu ile risk değerlendirmesi arasında açık bağ"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Cadılar Bayramı kana bulandı! ABD'de peş peşe silahlı saldırılar", "kind": "statement"},
+  {"source": "text", "quote": "farklı kentlerin eğlence bölgelerinde meydana gelen silahlı saldırılarda", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Farklı kentlerdeki ayrı saldırılar tek bir çarpıcı 'kana bulanan bayram' anlatısında birleştirilmiş.",
+ "alternative_explanation": "Aynı gecedeki olayları birlikte vermek olağan bir haber derlemesidir; sıklık çıkarımı yapılmıyor.",
+ "missing_context": ["ABD'deki benzer dönemlerdeki silahlı şiddet taban oranları"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "ABD'de \"cadılar bayramı\" kutlamaları sırasında düzenlenen silahlı saldırılarda en az 6 kişi öldü", "kind": "behavioral"},
+  {"source": "text", "quote": "ABD'de Cadılar Bayramı kana bulandı! Silahlı saldırılarda en az 6 ölü, onlarca yaralı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı 'en az 6 ölü' bilgisi yalın veya 'kana bulandı' gibi duygusal çerçeveyle sunulmuş.",
+ "alternative_explanation": "Üslup farkı editoryal tercihtir; sunuluşa dayalı bir yargı metinde yok.",
+ "missing_context": ["Okur yargısının çerçeveye göre değiştiğine dair veri"]}
+]}

@@ -1,0 +1,52 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İsrail yanlısı Vucic 'öğrenciler' karşısında yenilgiyi kabul etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Sırbistan erken genel seçim: Vucic yenilgiyi kabul etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı başlıklar ek bir nitelendirme ekliyor; bu eşdeğer bilginin farklı sunumu değil, ek bir iddia olduğundan karttaki eşdeğerlik koşulu kurulmuyor.",
+ "alternative_explanation": "Vucic'in İsrail ile ilişkisi kurumlarca haber değeri taşıyan bir arka plan bilgisi olarak görülmüş olabilir.",
+ "missing_context": ["Nitelendirmenin dayandığı kaynak", "Bir tercih ya da yargının çerçeveye bağlandığı açık ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sırbistan’da 12 yıllık Vucic iktidarı son buldu", "kind": "behavioral"},
+  {"source": "text", "quote": "sandıkta ağır bir yenilgi alarak 14 yıllık iktidarını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Parlamentoda Öğrenci Listesi yaklaşık 135, biz ise yaklaşık 105 sandalye alacağız", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "İktidar süresi kurumlar arasında 12 ve 14 yıl olarak çelişiyor; bir kurum 'ağır yenilgi' diyerek sonucu keskinleştiriyor, sandalye rakamlarını veren başka bir kurum bunu doğrulamıyor.",
+ "alternative_explanation": "Süre farkı başbakanlık ve cumhurbaşkanlığı dönemlerinin farklı sayılmasından kaynaklanabilir; 'ağır' nitelemesi yorum olabilir.",
+ "missing_context": ["Vucic'in iktidar süresinin hesaplama yöntemi", "Resmi seçim sonuçları"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "12 yıllık iktidar sona erdi! İsrail ile yakınlığı dikkat çeken Vucic yenilgiyi kabul etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Sırbistan'da Vucic seçim yenilgisini kabul etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı kurumlar seçim haberinde İsrail bağlantısını öne çıkarıyor; bunun bir yargıyı haksız yönlendirdiği metinde açık değil.",
+ "alternative_explanation": "Türk okuru için dış politika bağlamı haber değeri taşıyabilir.",
+ "missing_context": ["İsrail bağlantısının seçimle ilgisine dair kaynak", "Kurumların benzer seçim haberlerindeki tutumu"]},
+{"card_id": "halo-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir alandaki olumlu izlenimin başka bir alana olumlu yargı olarak taşındığı görülmüyor.",
+ "alternative_explanation": "Nitelendirmeler varsa olumsuz yöndedir; kart yalnızca olumlu hale etkisini kapsar.",
+ "missing_context": ["Olumlu bir ipucu ile ayrı bir olumlu yargı arasındaki açık bağ"]}
+]}

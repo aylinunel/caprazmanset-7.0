@@ -1,0 +1,47 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yeni nesil suç örgülerine operasyon: 85 şüpheli gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Son dakika... 'Daltonlar' suç örgütüne 30 ilde dev operasyon", "kind": "behavioral"},
+  {"source": "text", "quote": "'Daltonlar' suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı operasyon 'yeni nesil suç örgütü', 'dev operasyon' veya nötr dille sunuluyor; çerçevenin bir yargıya bağlandığı görülmüyor.",
+ "alternative_explanation": "'Yeni nesil' nitelemesi örgütün sosyal medya üzerinden tetikçi temin etme yöntemine dayalı olabilir.",
+ "missing_context": ["Emniyet açıklamasının tam metni"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "SON DAKİKA | Daltonlar suç örgütüne büyük operasyon! 30 ilde 85 gözaltı var", "kind": "behavioral"},
+  {"source": "text", "quote": "30 ilde Daltonlar'a 'tetikçi' operasyonu: 30'u çocuk 85 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "Daltonlar suç örgütüne operasyon! 85 şüpheli gözaltına alındı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}],
+ "mechanism": "Kurumlar farklı çarpıcı öğeleri (ölçek, 'tetikçi', çocuk şüpheliler) öne çıkarıyor; karşılaştırmalı vurgu farkı var, hüküm etkisi gösterilmiyor.",
+ "alternative_explanation": "Çocuk şüpheli sayısı ve tetikçi yöntemi kamu yararı açısından önemli gerçek bilgilerdir.",
+ "missing_context": ["Okur tepkisi veya karar etkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "30'u suça sürüklenen çocuk olmak üzere 85 şüpheli yakalandı", "kind": "statement"},
+  {"source": "text", "quote": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı kararı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurumun aktardığı '30'u suça sürüklenen çocuk' ayrıntısı birçok başlıkta düşmüş; ayrıca 'gözaltı kararı' ile 'yakalandı' arasında fark var.",
+ "alternative_explanation": "Başlık uzunluğu sınırı ayrıntıların düşmesine yol açmış olabilir; haber gövdelerinde verilmiş olabilir.",
+ "missing_context": ["Haber gövdeleri", "Emniyetin resmi açıklaması"]},
+{"card_id": "availability-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yeni nesil suç örgütüne 30 ilde operasyon: 85 gözaltı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde kolay hatırlanabilirlik veya canlılığın bir sıklık/olasılık tahminine gerekçe yapıldığı açık bir ifade yok.",
+ "alternative_explanation": "Haberler tek bir operasyonu aktarıyor; genelleme veya sıklık iddiası bulunmuyor.",
+ "missing_context": ["Suç eğilimlerine dair genel bir iddia veya veri"]}
+]}

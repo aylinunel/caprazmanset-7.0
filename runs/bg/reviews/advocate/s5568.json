@@ -1,0 +1,54 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rakibi faul yaptı, kalbi durdu. Jesus de Miguel maç sonunda hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Kaleciyle çarpışan futbolcu Jesus De Miguel hayatını kaybetti!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olay bir kurumda rakibin faulü, diğerinde çarpışma olarak çerçevelenmiş.",
+ "alternative_explanation": "Kurumlar farklı görgü veya kulüp açıklamalarına dayanmış olabilir.",
+ "missing_context": ["Pozisyonun hakem değerlendirmesi", "Çerçevenin bir yargıyı değiştirdiğine dair kanıt"]},
+{"card_id": "fundamental-attribution-error", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Futbol dünyası şokta! Sert faule maruz kalan Jesus de Miguel hayatını kaybetti", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ölüm bir faule bağlanıyor, ancak kaleciye kalıcı bir kişilik özelliği atfedilmiyor.",
+ "alternative_explanation": "Olay anının aktarımı; eğilimsel yargı içermiyor.",
+ "missing_context": ["Oyuncunun karakterine dair değerlendirme", "Durumsal faktörlerin göz ardı edildiğine dair ifade"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sahada korkunç ölüm! Göğsüne gelen diz sonrası Jesus de Miguel hayatını kaybetti", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı başlıklar ölümün dehşet verici yönünü vurguluyor.",
+ "alternative_explanation": "Bir sporcunun sahada ölümü doğası gereği ağır bir olay; vurgu orantılı olabilir.",
+ "missing_context": ["Olumlu kanıta göre orantısız ağırlık verildiğine dair belge"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "kaleci Jesus Owono ile sert bir şekilde çarpışarak yere yığılan Jesus de Miguel'in vefat ettiğini açıkladı", "kind": "statement"},
+  {"source": "text", "quote": "Rakibi faul yaptı, kalbi durdu.", "kind": "behavioral"},
+  {"source": "text", "quote": "Sert faule maruz kalan Jesus de Miguel hayatını kaybetti", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kulüp açıklamasına dayanan 'çarpışma' anlatımı, bazı başlıklarda 'faul' unsuruyla keskinleştirilmiş görünüyor.",
+ "alternative_explanation": "Görüntülerde faul olarak değerlendirilebilecek bir temas bulunabilir.",
+ "missing_context": ["Kulübün özgün açıklaması", "Farkın bir sonuca etki ettiğine dair kanıt"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Futbol dünyasını yasa boğan haber!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygusal dil mevcut, ancak bir karar veya risk tahminine bağlanmıyor.",
+ "alternative_explanation": "Yas haberi için olağan duygu ifadesi.",
+ "missing_context": ["Duygunun bir değerlendirmeyi değiştirdiğine dair açık ifade"]}
+]}

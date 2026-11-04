@@ -1,0 +1,67 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "accountability-diffusion-in-ai", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde yapay zekâ etkili bir karar veya sorumluluk dağılımı yok.",
+ "alternative_explanation": "Haberler kupa fikstürü ve kura tarihine ilişkin rutin duyurulardır.",
+ "missing_context": ["Yapay zekâ kullanımına dair herhangi bir bilgi"]},
+{"card_id": "action-bias", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Eylem ile beklemek arasında karşılaştırmalı bir tercih anlatılmıyor.",
+ "alternative_explanation": "Duyurular takvim bilgisidir.",
+ "missing_context": ["Eylem-eylemsizlik karşılaştırması"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Türkiye Kupası'nda 3. eleme turu heyecanı!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Heyecan' sözcüğü bir risk/fayda tahminine bağlanmıyor.",
+ "alternative_explanation": "Kalıplaşmış spor başlığı ifadesidir.",
+ "missing_context": ["Duygunun bir karara etkisini gösteren ifade"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Yapay zekâ destekli bir görev yok.",
+ "alternative_explanation": "Haberler spor takvimi duyurusudur.",
+ "missing_context": ["Yapay zekâ kullanımına dair kayıt"]},
+{"card_id": "ambiguity-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bilinen ve bilinmeyen olasılıklı seçenekler arasında bir tercih yok.",
+ "alternative_explanation": "Kura ve maç programı duyurusu belirsizlik tercihi içermez.",
+ "missing_context": ["Karşılaştırılabilir seçenekler"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "yarın oynanacak 12 karşılaşmayla başlayacak", "kind": "statement"},
+  {"source": "text", "quote": "Ziraat Türkiye Kupası 3. eleme turuna 9 maçla başlandı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sayılar (12 karşılaşma, ilk gün 9 maç) var; ancak sonraki bir tahminin ilk değere bağlandığı yok.",
+ "alternative_explanation": "Toplam program ve ilk gün maç sayısı farklı olgulardır.",
+ "missing_context": ["Bir referans noktasına dayanan sonraki tahmin"]}
+]}

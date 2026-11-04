@@ -1,0 +1,47 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "FETÖ'nün \"futbolda şike kumpası\" soruşturmasında Lütfi Arıboğan'a 5 yıla kadar hapis istemi", "kind": "behavioral"},
+  {"source": "text", "quote": "Şike soruşturmasında yeni perde: Eski TFF Başkanvekili Lütfi Arıboğan’a dava", "kind": "behavioral"},
+  {"source": "text", "quote": "Son dakika | Lütfi Arıboğan hakkında hapis istemi!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı iddianame bazı kurumlarda 'FETÖ'nün şike kumpası', bazılarında 'şike soruşturması' çerçevesiyle sunulmuş.",
+ "alternative_explanation": "'Şike kumpası' resmi soruşturma adı olabilir; çerçeveye dayalı bir yargı metinde açık değil.",
+ "missing_context": ["Soruşturmanın resmi adı", "Okur yargısının çerçeveye göre değiştiğine dair veri"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen soruşturma kapsamında", "kind": "statement"},
+  {"source": "text", "quote": "Lütfi Arıboğan hakkında FETÖ iddianamesi mahkemeden geçti!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Suçlama savcılık ve mahkeme otoritesine dayanılarak aktarılıyor; savunma tarafı metinde yok.",
+ "alternative_explanation": "İddianame haberinde resmi kaynağı aktarmak olağandır; statünün itirazı bastırdığı gösterilmiyor.",
+ "missing_context": ["Arıboğan veya avukatının açıklaması", "İddianamedeki delillerin içeriği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Eski TFF Başkanı Lütfi Arıboğan hakkında iddianame hazırlandı", "kind": "behavioral"},
+  {"source": "text", "quote": "eski TFF Başkanvekili Lütfi Arıboğan hakkında yürütülen soruşturma tamamlandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Arıboğan, 2011’deki şike soruşturmasıyla bağlantılı usulsüzlük", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Karar başlığında unvan 'Başkanvekili' yerine 'Başkan' olarak büyütülmüş; Cumhuriyet ise 2011 soruşturmasıyla bağlantıyı ekliyor.",
+ "alternative_explanation": "Unvan farkı yazım/özet hatası olabilir; maddi bir sonuca etkisi gösterilmiyor.",
+ "missing_context": ["Arıboğan'ın TFF'deki resmi unvanı", "İddianamenin tam metni"]},
+{"card_id": "messenger-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İddianamede, Arıboğan’ın Silahlı terör örgütüne üye olmamakla birlikte yardım etme suçundan cezalandırılması talep edildi.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir iddianın mesajı verenin kimliğine göre kabul veya reddedildiğine dair ifade yok.",
+ "alternative_explanation": "Kurumlar iddianame içeriğini aktarıyor; kaynak etkisi gözlenmiyor.",
+ "missing_context": ["Aynı iddianın farklı kaynaklardan nasıl karşılandığına dair karşılaştırma"]}
+]}

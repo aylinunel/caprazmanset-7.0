@@ -1,0 +1,63 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi", "kind": "behavioral"},
+  {"source": "text", "quote": "Başbakan Lecornu, bazı kentlerde sınırlı sokağa çıkma yasakları uygulanacağını açıkladı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı karar bir kurumda 'sınırlı' önlem, diğerinde kıta çapında kaos olarak sunuluyor; yargıya bağlantı gösterilmiyor.",
+ "alternative_explanation": "Farklı kurumlar farklı zamanlarda ve farklı kapsamda (Avrupa geneli) bilgiye sahip olabilir.",
+ "missing_context": ["Ordunun gerçekten sokağa indiğine dair resmi kaynak", "Protestoların ülkelere göre ölçeği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "hayat pahalılığı ve eğitim koşullarına karşı başlayan protestoların", "kind": "behavioral"},
+  {"source": "text", "quote": "sarı yelekliler eylemlerinin ardından", "kind": "behavioral"},
+  {"source": "text", "quote": "Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Protestoların nedeni ve kapsamı kurumlar arasında farklı aktarılıyor; bazı ayrıntılar büyütülmüş görünüyor.",
+ "alternative_explanation": "Olay günler içinde gelişti; farklı kaynaklar ve zaman damgaları farklılığı açıklayabilir.",
+ "missing_context": ["Fransız resmi açıklamaları", "Hareketin örgütleyicileri hakkında güvenilir bilgi"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Halk ise yağmacılara sıcak sularla müdahale ediyor", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Canlı bir ayrıntı aktarılıyor; ancak bir yargının bu ayrıntıya dayandırıldığı gösterilmiyor.",
+ "alternative_explanation": "Görsel ve çarpıcı ayrıntılar haber anlatısının olağan parçasıdır.",
+ "missing_context": ["Ayrıntının kaynağı ve yaygınlığı"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Protestolar kontrolden çıktı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz dil var; karşılaştırılabilir olumlu kanıtın göz ardı edildiği gösterilmiyor.",
+ "alternative_explanation": "Şiddet ve sokağa çıkma yasağı gerçekten olumsuz bir gelişmedir; vurgu orantılı olabilir.",
+ "missing_context": ["Sakinleşme ya da müzakere haberleri", "Olay sayılarına dair veriler"]},
+{"card_id": "availability-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Avrupa, eylemcilere karşı kontrolü kaybediyor.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Genelleme yapılıyor; ancak metin bunu kolay hatırlama veya yakınlığa açıkça dayandırmıyor.",
+ "alternative_explanation": "Birden çok ülkedeki eş zamanlı olaylar genellemeyi kısmen destekleyebilir.",
+ "missing_context": ["Ülkeler bazında olay ve gözaltı sayıları"]},
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "sarı yelekliler eylemlerinin ardından", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum olayı farklı bir harekete bağlıyor; ancak hatırlanan bir öğenin kaynağının karıştırıldığına dair açık kayıt yok.",
+ "alternative_explanation": "Sarı yelekliler protestolara katılmış olabilir; farklı ajans kaynağı kullanılmış olabilir.",
+ "missing_context": ["Kurumun dayandığı ajans metni", "Protestoları örgütleyen grupların kimliği"]}
+]}

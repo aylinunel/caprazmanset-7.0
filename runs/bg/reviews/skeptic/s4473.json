@@ -1,0 +1,43 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[akit · 19:23] CHP'li Belediye Başkanı görevinden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "[star · 19:30] CHP'li belediyede rüşvet operasyonu: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "[sozcu · 19:16] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı görevden uzaklaştırma bazı kurumlarca parti kimliği öne çıkarılarak, bazılarınca isim ve görevle veriliyor; bunun bir yargıyı değiştirdiğine dair açık gerekçe yok.",
+ "alternative_explanation": "Parti bilgisi siyasi haberde ilgili bir olgu; Akit isim yerine parti etiketiyle kısa başlık kurmuş olabilir.",
+ "missing_context": ["Aynı kurumların başka partilerden belediye başkanları için başlık tercihleri"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "CHP'li belediyede rüşvet operasyonu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Parti üyeliği anılıyor; ancak grup üyeliğinin değerlendirmeyi gerekçesiz değiştirdiği ve karşılaştırılabilir vakalarda farklı standart uygulandığı gösterilmiyor.",
+ "alternative_explanation": "Parti aidiyeti haber değeri taşıyan olgusal bir bilgi.",
+ "missing_context": ["Karşılaştırılabilir vakalarda tutarsız standart kanıtı", "Kurumların grup aidiyetinin açık tanımı"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 19:44] Tutuklama sonrası düğmeye basıldı:", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Dramatik ifade kullanılıyor; bunun bir yargıyı gerekçesiz yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Tutuklama ile uzaklaştırma arasındaki sıralamayı bildiren üslup tercihi.",
+ "missing_context": ["Çarpıcılığın bir sonuca etkisine dair kanıt"]},
+{"card_id": "fundamental-attribution-error", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlıklar idari bir işlemi aktarıyor; bir davranışı kalıcı karakter özelliğine bağlayan ifade yok.",
+ "alternative_explanation": "Olgusal görevden uzaklaştırma haberi.",
+ "missing_context": ["Kişiye yönelik eğilimsel bir nitelendirme"]}
+]}

@@ -1,0 +1,26 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "MİT Başkanı İbrahim Kalın'dan BAE'ye kritik ziyaret", "kind": "behavioral"},
+  {"source": "text", "quote": "MİT Başkanı İbrahim Kalın'dan BAE'ye ziyaret: Ana gündem güvenlik", "kind": "behavioral"},
+  {"source": "text", "quote": "MİT Başkanı Kalın BAE'yi ziyaret etti", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: MİT Başkanı Kalın'dan BAE'ye ziyaret", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı ziyaret bazı kurumlarda 'kritik' veya 'ana gündem güvenlik' nitelemesiyle, diğerlerinde nötr sunuluyor.",
+ "alternative_explanation": "Nitelemeler kurumların ek bilgisine ya da olağan vurgu tercihine dayanabilir.",
+ "missing_context": ["'Kritik' ve 'güvenlik' nitelemelerinin dayanağı", "Çerçevenin bir yargıyı değiştirdiğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "BAE'ye kritik ziyaret", "kind": "behavioral"},
+  {"source": "text", "quote": "MİT Başkanı Kalın BAE’ye ziyarette bulundu!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Kritik' kelimesi ve ünlem ziyareti daha dikkat çekici kılıyor.",
+ "alternative_explanation": "Vurgu biçimsel bir tercih olup bir yargı hatası göstermez.",
+ "missing_context": ["Ziyaretin içeriğine dair bilgi", "Vurgunun yargıyı haksız biçimde yönlendirdiğine dair kanıt"]}
+]}

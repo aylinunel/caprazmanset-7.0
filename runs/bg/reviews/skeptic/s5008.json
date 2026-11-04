@@ -1,0 +1,31 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "negativity-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "Eskişehir'den Kayseri'ye giden treni özel kıyafetli ekipler durdurdu! Bir vagon karantinaya alındı", "kind": "statement"},
+{"source": "text", "quote": "nitrik asit bulunan vagonlardan birinde sızıntı tespit edildi", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+{"condition_index": 1, "status": "contradicted", "evidence_indices": [1]}],
+"mechanism": "Olumsuz ve alarm dili kullanılıyor; ancak nitrik asit sızıntısı somut bir risk olduğundan vurgu orantılı görünüyor.",
+"alternative_explanation": "Tehlikeli madde sızıntısı kamu güvenliği açısından haber değeri taşır; uyarı dili risk ile uyumludur.",
+"missing_context": ["Sızıntının boyutu ve yaralanma olup olmadığı", "Olumlu gelişmelerin (kontrol altına alınma) aktarılıp aktarılmadığı"]},
+{"card_id": "salience-bias", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "Kayseri’de nitrik asit alarmı! Yük trenindeki vagon karantinaya alındı", "kind": "behavioral"},
+{"source": "text", "quote": "Kayseri’de kimyasal sızıntı tespit edilen vagon, karantinaya alındı", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+"mechanism": "Bazı başlıklar 'alarm' ve ünlemle çarpıcılığı artırırken diğerleri nötr; haksız ağırlık tek metinden kanıtlanamaz.",
+"alternative_explanation": "Maddenin adını (nitrik asit) belirtmek bilgilendiricidir; 'alarm' ifadesi ajans başlığından gelmiş olabilir.",
+"missing_context": ["Ortak ajans başlığı", "Olayın gerçek risk düzeyi"]},
+{"card_id": "framing-effect", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "Eskişehir'den Kayseri'ye giden treni özel kıyafetli ekipler durdurdu!", "kind": "behavioral"},
+{"source": "text", "quote": "Yük treninde kimyasal sızıntı alarmı", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Bir kurum olayı 'özel kıyafetli ekiplerin treni durdurması' üzerinden dramatik bir sahne olarak çerçeveliyor; okur yargısına etkisi gösterilmiyor.",
+"alternative_explanation": "Geç yayınlanan haber farklı bir açı arayarak görsel bir ayrıntıyı öne çıkarmış olabilir; olgular aynıdır.",
+"missing_context": ["Haberin tam metni", "Okur algısına etki verisi"]}
+]}

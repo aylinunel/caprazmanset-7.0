@@ -1,0 +1,36 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "15 Temmuz Şehitler Köprüsü'nde feci kaza! Anadolu yakası yönünde trafik durdu", "kind": "behavioral"},
+  {"source": "text", "quote": "15 Temmuz Şehitler Köprüsü'nde zincirleme trafik kazası", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: 15 Temmuz Şehitler Köprüsü'nde kaza", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı kaza Akit'te 'feci kaza' ve 'trafik durdu' çerçevesiyle, TRT Haber ve Yeni Şafak'ta yalın verilmiş.",
+ "alternative_explanation": "Başlık üslubu farkı; trafiğin fiilen durmuş olması mümkün.",
+ "missing_context": ["Çerçevenin bir yargıyı değiştirdiğine dair kanıt", "Kazanın ağırlığına ilişkin resmi bilgi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul'u kilitleyen kaza", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz dil var, ancak karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık gösterilmiyor.",
+ "alternative_explanation": "Kaza haberinin doğası gereği olumsuz içerik.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi ve bir karara etkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul'u kilitleyen kaza: 15 Temmuz Şehitler Köprüsü'nde 4 araç birbirine girdi", "kind": "behavioral"},
+  {"source": "text", "quote": "15 Temmuz Şehitler Köprüsü'nde 5 araç birbirine girdi", "kind": "behavioral"},
+  {"source": "text", "quote": "Kaza nedeniyle Anadolu Yakası yönünde trafik yoğunluğu oluştu.", "kind": "behavioral"},
+  {"source": "text", "quote": "15 Temmuz Şehitler Köprüsü girişinde zincirleme kaza! Trafik kilitlendi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": []}],
+ "mechanism": "Karar'daki 'trafik yoğunluğu' ifadesi bazı başlıklarda 'İstanbul'u kilitleyen', 'trafik kilitlendi' olarak keskinleşmiş; araç sayısı Takvim'de 4'e düşmüş.",
+ "alternative_explanation": "Farklı anlarda gözlenen trafik durumu veya farklı ilk kaynaklar.",
+ "missing_context": ["Resmi kaza kaydı ve araç sayısı", "Farkın bir sonuca etkisi"]}
+]}

@@ -1,0 +1,41 @@
+{"role": "advocate", "assessments": [
+{"card_id": "anchoring-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "ekim ayı enflasyonu öncesinde Merkez Bankası'nın yıl sonu tahmini de güncellendi.", "kind": "statement"},
+  {"source": "text", "quote": "Ekim ayında enflasyon aylık yüzde 2,58 yıllık ise yüzde 29,77 arttı.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Açıklama öncesi beklenti ve tahminler, sonraki verinin değerlendirilmesinde referans noktası olabilir.",
+ "alternative_explanation": "Beklentiler olağan bilgi olarak veriliyor; açıklanan veri bağımsız resmi istatistik.",
+ "missing_context": ["Açıklanan verinin beklentiye göre yorumlandığını gösteren ifade"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ekim ayı enflasyon rakamları açıklanıyor! Emekli ve memur zammı ne kadar olacak?", "kind": "behavioral"},
+  {"source": "text", "quote": "Ekim ayı enflasyon rakamları açıklandı! En çok artış yapan ürünler belli oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Enflasyon rakamları açıklandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı veri A Haber'de maaş zammı, Akit'te fiyat artışı, AA'da nötr duyuru olarak çerçeveleniyor.",
+ "alternative_explanation": "Kurumlar okurlarının ilgi alanına göre farklı boyutları vurguluyor; tercih bağlantısı yok.",
+ "missing_context": ["Çerçeveye bağlı açık bir yargı veya tercih"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Enflasyona en yüksek katkı gıda ve alkolsüz içecekler grubundan geldi.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Belirli kalemlerin öne çıkarılması dikkati tek gruba yönlendirebilir.",
+ "alternative_explanation": "En yüksek katkı yapan grubu belirtmek TÜİK verisine dayalı olağan bilgidir.",
+ "missing_context": ["Belirgin ayrıntının haksız bir çıkarıma bağlandığını gösteren ifade"]}
+]}

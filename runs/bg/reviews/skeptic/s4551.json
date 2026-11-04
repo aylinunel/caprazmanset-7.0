@@ -1,0 +1,51 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika... 'Daltonlar' suç örgütüne 30 ilde dev operasyon", "kind": "behavioral"},
+  {"source": "text", "quote": "Yeni nesil suç örgülerine operasyon: 85 şüpheli gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı operasyon 'dev', 'yeni nesil' veya nötr ifadelerle sunulmuş; tercih veya yargı bağlantısı metinde yok.",
+ "alternative_explanation": "30 il ve 85 gözaltı ölçeği 'dev' nitelemesini olgusal olarak destekleyebilir.",
+ "missing_context": ["Okur yargısının çerçeveye göre değiştiğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "30 ilde Daltonlar'a 'tetikçi' operasyonu: 30'u çocuk 85 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "Daltonlar suç örgütüne operasyon! 85 şüpheli gözaltına alındı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı başlıklar çocuk şüpheli sayısını öne çıkarıyor; bunun haksız bir yargıya yol açtığı gösterilmiyor.",
+ "alternative_explanation": "Suça sürüklenen çocuk sayısı kamu yararı açısından önemli bir olgu.",
+ "missing_context": ["Vurgunun yargıya etkisine dair karşılaştırmalı veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "30'u suça sürüklenen çocuk olmak üzere 85 şüpheli yakalandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı kararı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Çocuk şüpheli ayrıntısı bazı başlıklarda var, bazılarında yok; 'gözaltı kararı' ile 'yakalandı' arasında da fark var; maddi etkisi gösterilmiyor.",
+ "alternative_explanation": "Başlık uzunluğu sınırı ve farklı kaynak saatleri olağan özetleme farkları yaratabilir.",
+ "missing_context": ["Resmi açıklamanın metni", "Farkların bir sonuca etkisi"]},
+{"card_id": "availability-heuristic", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde hatırlanabilirlik veya yakın tarihli örneklerin bir sıklık tahmininde kullanıldığına dair ifade yok.",
+ "alternative_explanation": "Haberler tek bir operasyonu aktarıyor; genelleme veya olasılık çıkarımı yapılmıyor.",
+ "missing_context": ["Örnekten sıklık veya risk tahminine yapılan açık bir çıkarım"]}
+]}

@@ -1,0 +1,46 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[sabah · 10:23] Bolu Belediyesi'ne operasyon: 4 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "[aksam · 10:22] Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olay farklı vurgularla (\"şafak operasyonu!\" ile yalın \"4 gözaltı\") sunuluyor; ancak bu sunumun bir yargıya/tercihe yol açtığını gösteren açık metin yok.",
+ "alternative_explanation": "Başlık uzunluğu, son dakika hızı ve kurum üslubu farkı; başkan yardımcısını içermeyen başlıklar erken ve kısa bildirim olabilir.",
+ "missing_context": ["Başlıkların tam haber metinleri", "Okur ya da editör yargısının bu sunumla değiştiğine dair kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 10:29] Bolu Belediyesi’nde ihale ve zimmet soruşturması! Başkan Yardımcısı Rasim Özdemir tutuklandı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında", "kind": "statement"},
+  {"source": "text", "quote": "[sondakika · 14:56] Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Takvim gözaltı aşamasında \"tutuklandı\" diyerek temel kayda göre durumu ileri taşıyor görünüyor; farkın maddi ve gerekçesiz olduğu kanıtlanmış değil.",
+ "alternative_explanation": "Başlık sonradan güncellenmiş olabilir; aynı gün Özdemir dahil 3 kişinin tutuklandığı bildiriliyor, yani bilgi sonradan doğrulanmış olabilir.",
+ "missing_context": ["Takvim başlığının ilk yayın ve güncelleme zamanı", "Tutuklama kararının saati"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[aksam · 10:22] Bolu Belediyesi'ne şafak operasyonu!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "\"Şafak operasyonu\" çarpıcı bir ayrıntı; ancak bir yargıyı gerekçesiz biçimde yönlendirdiğine dair açık bağ yok.",
+ "alternative_explanation": "Operasyonun sabah saatlerinde yapıldığı olgusal bir bilgi; yaygın haber kalıbı.",
+ "missing_context": ["Çarpıcı ayrıntının hangi yargıyı etkilediğine dair kanıt"]},
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[diken · 10:56] Bakırköy Belediyesi'ne soruşturma: Beş başkan yardımcısı dahil 58 gözaltı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde hatırlanan bir öğe ve kaynağının yanlış atfı yok; Diken satırı farklı bir olaya ait ve kümeleme hatası gibi görünüyor, bellek-kaynak hatası değil.",
+ "alternative_explanation": "Olay kümelemesi benzer belediye operasyonlarını birleştirmiş olabilir.",
+ "missing_context": ["Herhangi bir kaynak atfı ve düzeltme kaydı"]}
+]}

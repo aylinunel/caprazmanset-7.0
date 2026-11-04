@@ -1,0 +1,58 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakırköy Belediyesi'ne yolsuzluk operasyonu: 58 kişi gözaltında", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı operasyon siyasi zamanlama, 'yolsuzluk' veya 'rüşvet' çerçeveleriyle sunulmuş; çerçeveye dayalı bir tercih metinde açıkça yok.",
+ "alternative_explanation": "Zamanlama ve suç tanımları haber değeri taşıyan, olgusal olarak ilgili bilgiler olabilir.",
+ "missing_context": ["Çerçevelerin olgusal eşdeğerliğini açıkça belirten ifade", "Çerçeveye bağlı bir yargı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika! Bakırköy Belediyesi'ne dev operasyon!", "kind": "behavioral"},
+  {"source": "text", "quote": "Başkan yardımcıları ve meclis üyelerinin de olduğu 68 kişi için gözaltı kararı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "'Dev operasyon' ve üst düzey isimlerin öne çıkarılması dikkat çekici unsurları büyütüyor; haksız etki gösterilmiyor.",
+ "alternative_explanation": "Gözaltı sayısının yüksekliği ve yöneticilerin dahil olması haber değerini nesnel olarak artırır.",
+ "missing_context": ["Çarpıcı ayrıntının bir yargıya bağlandığı açık ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "68 şüpheliden 58'i gözaltına alındı", "kind": "statement"},
+  {"source": "text", "quote": "Bakırköy Belediyesi'ne yönelik operasyonda 68 kişiden 57'si gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "SON DAKİKA...Bakırköy Belediyesi'ne operasyon: Çok sayıda gözaltı kararı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "68 gözaltı kararı ile 58 (veya 57) fiili gözaltı arasındaki ayrım bazı başlıklarda '68 gözaltı' olarak düzleştirilmiş, bazılarında sayı tamamen çıkarılmış.",
+ "alternative_explanation": "Erken saatlerde yalnızca gözaltı kararı sayısı biliniyor olabilir; başlık kısaltması da farkı açıklayabilir.",
+ "missing_context": ["Başlıkların yayımlandığı andaki resmi bilgiler", "Farkın bir sonuca etkisi"]},
+{"card_id": "anchoring-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakırköy Belediyesine operasyon: 68 kişi hakkında gözaltı kararı", "kind": "statement"},
+  {"source": "text", "quote": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakırköy Belediyesi'ne yolsuzluk operasyonu! 58 şüpheli gözaltına alındı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "İlk açıklanan 68 rakamı referans noktası oluşturmuş ve bazı başlıklarda fiili gözaltı sayısı yerine kullanılmış olabilir.",
+ "alternative_explanation": "68 resmi gözaltı kararı sayısıdır; kullanılması çapa etkisi değil doğru bilgi aktarımı olabilir.",
+ "missing_context": ["Sonraki tahminin açıkça 68'e dayandırıldığını gösteren ifade", "Güncelleme yapılmayan başlıkların sonradan düzeltilip düzeltilmediği"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde olumsuz bilgiye karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık verildiğini gösteren bir ifade yok.",
+ "alternative_explanation": "Bir yolsuzluk operasyonunun haberi doğası gereği olumsuz içeriklidir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi", "Değerlendirme veya karar ifadesi"]}
+]}

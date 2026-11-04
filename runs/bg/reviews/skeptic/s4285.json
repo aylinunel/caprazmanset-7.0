@@ -1,0 +1,44 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "automation-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı!", "kind": "statement"},
+  {"source": "text", "quote": "Dev mücadele öncesinde yapay zeka, derbinin 15'er dakikalık bölümlerini, olası gol senaryolarını ve maç istatistiklerini değerlendirdi.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yapay zeka çıktısı başlıkta 'galibi açıkladı' diye sunuluyor; ancak bir kararın ona dayandığı ya da karşı kanıtın dışlandığı görülmüyor.",
+ "alternative_explanation": "İçerik eğlence amaçlı bir tahmin haberi olabilir; kesin sonuç gibi sunulması üslup tercihidir.",
+ "missing_context": ["Haberin tam metninde belirsizlik veya uyarı bulunup bulunmadığı", "Çıktıya dayanılarak verilen bir karar"]},
+{"card_id": "illusion-of-validity", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tahmin var; güven düzeyi ve tahmin isabetsizliğine dair karşılaştırmalı kanıt yok.",
+ "alternative_explanation": "Tahmin haberleri kalibrasyon iddiası taşımadan okur ilgisi için yayımlanabilir.",
+ "missing_context": ["Tahminin güven düzeyi", "Benzer tahminlerin geçmiş isabet oranı", "Maç sonucu"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Dev mücadele öncesinde yapay zeka, derbinin 15'er dakikalık bölümlerini", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yapay zeka kullanımı var; güven ile değerlendirme başarısızlığı arasında uyumsuzluk gösterilmiyor.",
+ "alternative_explanation": "Yapay zeka kullanımı tek başına okuryazarlık eksikliği göstermez.",
+ "missing_context": ["Çıktının nasıl kontrol edildiği", "Çıktıdaki somut bir hata ve buna dayanılması"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum yapay zeka tahminini, diğerleri VAR hakemini öne çıkarıyor; bu bir yargı hatası göstermiyor.",
+ "alternative_explanation": "Kurumlar farklı gün ve saatlerde farklı alt konuları haberleştirmiş; kümeleme ayrı haberleri birleştirmiş olabilir.",
+ "missing_context": ["Belirginliğin bir yargıyı yönlendirdiğine dair açık ifade", "Aynı alt konunun karşılaştırılabilir sunumları"]}
+]}

@@ -1,0 +1,57 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Yahşihan’da tutuklama sonrası kritik karar! Aydın Demirdirek görevden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı karar bir kurumda parti etiketiyle, bir kurumda 'kritik karar' vurgusuyla, diğerlerinde yalın sunuluyor; bir yargıya bağlandığı açık değil.",
+ "alternative_explanation": "Parti bilgisi olgusaldır; diğer kurumlar bu bilgiyi yer darlığından vermemiş olabilir.",
+ "missing_context": ["Çerçeveye bağlı açık bir değerlendirme", "Diğer kurumların benzer olaylarda parti etiketi kullanıp kullanmadığı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "SON DAKiKA I İçişleri Bakanlığı duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Yahşihan Belediyesi'ne yönelik yolsuzluk operasyonu: Başkanvekili Aydın Demirdirek görevden uzaklaştırıldı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Kurumlar farklı öğeleri (bakanlık duyurusu, yolsuzluk operasyonu) öne çıkarıyor; bunun bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Olayın farklı yönlerini vurgulamak olağan editoryal seçimdir.",
+ "missing_context": ["Açık bir yargı ya da seçim ifadesi"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "context", "quote": "diken: sol (34)", "kind": "statement"},
+  {"source": "text", "quote": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı — İçişleri Bakanlığı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Parti üyeliği yalnızca sol yerleşimli bir kurumca başlığa taşınıyor; bu bir grup vurgusu olabilir ama farklı standart açıkça gösterilmiyor.",
+ "alternative_explanation": "Parti bilgisi kamu yararına olgusal bilgidir; sağ yerleşimli kurumlar da bu bilgiyi tam metinde vermiş olabilir.",
+ "missing_context": ["Kurumların muhalefet belediyeleri haberlerinde parti etiketini nasıl kullandığı", "Haberlerin tam metni"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika...Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "geçici tedbir olarak görevinden uzaklaştırıldı", "kind": "statement"},
+  {"source": "text", "quote": "Anayasa'nın 127. maddesi uyarınca görevden uzaklaştırıldı.", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Diğer kurumlardaki 'geçici tedbir' / 'uzaklaştırma' ifadesi taban alındığında bir kurum 'görevden alındı' diyerek geçicilik ayrıntısını düzleştiriyor.",
+ "alternative_explanation": "Gündelik dilde 'görevden alma' ve 'uzaklaştırma' sıklıkla eşanlamlı kullanılır.",
+ "missing_context": ["Bakanlık açıklamasının tam metni", "Farkın bir sonuca etkisi"]}
+]}

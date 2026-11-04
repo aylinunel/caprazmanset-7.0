@@ -1,0 +1,44 @@
+{"role": "advocate", "assessments": [
+{"card_id": "automation-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı!", "kind": "statement"},
+  {"source": "text", "quote": "yapay zeka, derbinin 15'er dakikalık bölümlerini, olası gol senaryolarını ve maç istatistiklerini değerlendirdi", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [1]}],
+ "mechanism": "Başlık, yapay zekanın tahminini 'galibini açıkladı' diyerek kesin bir sonuç gibi sunuyor.",
+ "alternative_explanation": "Eğlence amaçlı içerik; tahminin otorite olarak kullanıldığı veya karşı kanıtın dışlandığı gösterilmiyor.",
+ "missing_context": ["Metnin devamında belirsizlik uyarısı olup olmadığı", "Yapay zeka çıktısına dayanarak verilen bir karar"]},
+{"card_id": "illusion-of-validity", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Somut bir maç tahmini kesinlik ima eden bir dille veriliyor.",
+ "alternative_explanation": "Başlık kalıbı; tahminin isabetsizliğine dair veri sunulmuyor.",
+ "missing_context": ["Tahminin isabet oranı veya maç sonucu", "Taban oran bilgisi"]},
+{"card_id": "ai-literacy-gap", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Dev mücadele öncesinde yapay zeka, derbinin 15'er dakikalık bölümlerini, olası gol senaryolarını ve maç istatistiklerini değerlendirdi.", "kind": "statement"},
+  {"source": "text", "quote": "Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yapay zeka destekli tahmin görevi ve çıktının haber olarak yayımlanması kararı görülüyor.",
+ "alternative_explanation": "Kurum çıktının sınırlarını metinde belirtmiş olabilir; yalnızca yapay zeka kullanımı yetersiz.",
+ "missing_context": ["Çıktının sınırlılıklarının değerlendirilip değerlendirilmediği", "Güven iddiası ile başarısızlık arasında uyumsuzluk kanıtı"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Galatasaray - Fenerbahçe derbisinin VAR'ı Carlos del Cerro Grande!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haberler hakem atamasını aktarıyor; çarpıcı bir ayrıntının yargıyı etkilediği görülmüyor.",
+ "alternative_explanation": "Rutin maç öncesi bilgi haberi.",
+ "missing_context": ["Çarpıcı ayrıntının bir yargıya bağlandığı ifade"]}
+]}

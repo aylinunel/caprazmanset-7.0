@@ -1,0 +1,48 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş için tahliye kararı", "kind": "behavioral"},
+  {"source": "text", "quote": "Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı", "kind": "behavioral"},
+  {"source": "text", "quote": "Uyuşturucu davasında İlyas Yalçıntaş'a tahliye kararı! Mahkemede dikkat çeken itiraf", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı tahliye kararı bazı başlıklarda uyuşturucu suçlamasıyla, bazılarında yalnızca tahliye olarak sunuluyor; çerçevenin bir yargıya bağlandığı görülmüyor.",
+ "alternative_explanation": "Suçlamanın türü kararın bağlamını açıklayan gerekli bilgidir.",
+ "missing_context": ["Mahkeme ara kararının gerekçesi", "Haberlerin tam metni"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Mahkemede dikkat çeken itiraf", "kind": "behavioral"},
+  {"source": "text", "quote": "Şarkıcı İlyas Yalçıntaş için karar verildi! 4 aydır cezaevindeydi", "kind": "behavioral"},
+  {"source": "text", "quote": "İlyas Yalçıntaş imza yükümlülüğüyle tahliye edildi, duruşma 15 Aralık'a ertelendi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}],
+ "mechanism": "Bazı kurumlar çarpıcı ayrıntıyı ('itiraf', cezaevi süresi) öne çıkarırken diğerleri usul bilgisini veriyor; karşılaştırmalı vurgu farkı var.",
+ "alternative_explanation": "Sanığın mahkemedeki beyanı haber değeri taşıyan gerçek bir gelişmedir.",
+ "missing_context": ["Duruşma tutanağı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "6 ay önce denemek amacıyla İngiltere’de bir İngiliz vatandaşıyla kokain kullanmıştım", "kind": "statement"},
+  {"source": "text", "quote": "Mahkemede dikkat çeken itiraf", "kind": "behavioral"},
+  {"source": "text", "quote": "Uyuşturucu veya uyarıcı madde ticareti yapma veya sağlama", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Savunmada kişisel kullanım beyanı, ticaret suçlamasıyla yargılanan sanık için bir başlıkta 'itiraf' olarak keskinleştirilmiş olabilir; hangi suçun itirafı olduğu belirsizleşiyor.",
+ "alternative_explanation": "'İtiraf' kelimesi kullanım beyanını doğru biçimde nitelemek için seçilmiş olabilir.",
+ "missing_context": ["Savunmanın tamamı", "turkiyegz haberinin gövdesi"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş hakkında yeni gelişme!", "kind": "behavioral"},
+  {"source": "text", "quote": "Uyuşturucu ticareti suçlamasıyla yargılanan İlyas Yalçıntaş tahliye edildi: Tutuksuz yargılanacak", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı başlıklar olumlu gelişmeyi (tahliye) olumsuz geçmişin (tutuklama) arkasına koyuyor; orantısız ağırlığın bir hükmü etkilediği gösterilmiyor.",
+ "alternative_explanation": "Önceki tutuklama, tahliyenin anlamını açıklayan gerekli bağlamdır.",
+ "missing_context": ["Haber gövdeleri"]}
+]}

@@ -1,0 +1,58 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bahçeli'nin seçim adımı 100 il 1000 ilçe", "kind": "behavioral"},
+  {"source": "text", "quote": "Devlet Bahçeli'den dev reform önerisi", "kind": "behavioral"},
+  {"source": "text", "quote": "Bahçeli'den 100 il 1000 ilçe önerisi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı öneri bir kurumda 'seçim adımı', diğerinde 'dev reform' olarak, bir başkasında nötr 'öneri' olarak çerçevelenmiş.",
+ "alternative_explanation": "Farklı yorum ve editoryal değerlendirme; çerçevenin bir yargıyı belirlediği gösterilmiyor.",
+ "missing_context": ["Çerçeve farkının okur yargısını değiştirdiğine dair kanıt", "Öneri metninin tamamı"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "MHP lideri Bahçeli'den 19 yeni il ve 78 ilçe açıklaması", "kind": "statement"},
+  {"source": "text", "quote": "MHP Genel Başkanı Devlet Bahçeli'den “100 İl 1000 İlçe Projesi” açıklaması", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haber, önerinin kaynağını parti lideri statüsüyle öne çıkarıyor.",
+ "alternative_explanation": "Önerinin haber değeri siyasi aktörün kimliğinden gelir; statüye dayalı akıl yürütme gösterilmiyor.",
+ "missing_context": ["Önerinin yalnızca statü nedeniyle kabul edildiğine dair ifade", "Uzman değerlendirmeleri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türkiye’nin haritası değişebilir!", "kind": "behavioral"},
+  {"source": "text", "quote": "Türkiye'nin il haritası değişebilir", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı 'harita değişebilir' ifadesi başlıkta öne çıkarılmış.",
+ "alternative_explanation": "Önerinin idari sonucunu özetleyen dikkat çekici başlık.",
+ "missing_context": ["Çarpıcı ayrıntının bir yargıyı haksız biçimde etkilediğine dair kanıt"]},
+{"card_id": "optimism-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türkiye'nin idari haritası değişebilir!", "kind": "statement"},
+  {"source": "text", "quote": "19 yeni il ve 78 yeni ilçe mi olacak?", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlıklar önerinin hayata geçebileceği beklentisini ifade ediyor.",
+ "alternative_explanation": "'Değişebilir' olasılık bildirir; olasılık abartısı gösterilmiyor.",
+ "missing_context": ["Önerinin yasalaşma olasılığına dair taban oran veya karşı kanıt"]},
+{"card_id": "messenger-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bahçeli'nin seçim adımı 100 il 1000 ilçe", "kind": "behavioral"},
+  {"source": "text", "quote": "Devlet Bahçeli'den dev reform önerisi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı öneri farklı kurumlarca farklı değerlendirilmiş; değerlendirmenin mesajı verene bağlı olduğu açık değil.",
+ "alternative_explanation": "Değerlendirme farkı önerinin içeriği ve zamanlamasına dair yorumdan kaynaklanabilir.",
+ "missing_context": ["Aynı önerinin farklı bir kişiden geldiğinde nasıl verildiğine dair karşılaştırma"]}
+]}

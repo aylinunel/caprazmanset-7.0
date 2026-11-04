@@ -1,0 +1,50 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber", "kind": "behavioral"},
+  {"source": "text", "quote": "Liverpool maçı öncesi Fenerbahçe'ye müjde", "kind": "behavioral"},
+  {"source": "text", "quote": "Eyvah, bir bu eksikti! Fenerbahçe'de Liverpool maçı öncesi deprem...", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Liverpool maçı öncesi Fenerbahçe'ye müjde", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı hazırlık süreci bazı kurumlarda 'müjde', bazılarında 'deprem' ve 'şok' olarak çerçeveleniyor.",
+ "alternative_explanation": "Kurumlar farklı gelişmeleri (sakatlık ve başka bir oyuncunun dönüşü) haberleştirmiş olabilir; olgular eşdeğer olmayabilir.",
+ "missing_context": ["'Müjde'nin hangi gelişmeyi kastettiği", "Haberlerin aynı olguları aktardığına dair kanıt"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe'de Liverpool maçı öncesi Oppong şoku", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi", "kind": "behavioral"},
+  {"source": "text", "quote": "bir müjde, bir kötü haber", "kind": "behavioral"},
+  {"source": "text", "quote": "Liverpool maçı öncesi Fenerbahçe'ye müjde", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "NTV hem olumlu hem olumsuz gelişmeyi verirken birçok kurum yalnızca sakatlığı 'şok' ve 'deprem' diliyle öne çıkarıyor.",
+ "alternative_explanation": "Sakatlık, önemli bir maç öncesinde gerçekten daha önemli bir gelişme olabilir; ağırlık orantılı olabilir.",
+ "missing_context": ["Olumlu gelişmenin içeriği ve önemi", "Olumsuz vurgunun bir değerlendirmeyi haksız biçimde etkilediğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Eyvah, bir bu eksikti!", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'ye Şampiyonlar Ligi'ndeki Liverpool maçı öncesi sakatlık şoku!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygusal ünlemler sakatlık haberini çarpıcı hale getiriyor.",
+ "alternative_explanation": "Spor haberciliğinde dramatik dil yaygın bir üslup tercihidir.",
+ "missing_context": ["Çarpıcılığın bir yargıyı haksız biçimde yönlendirdiğine dair kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Liverpool karşılaşmasında forma giymesinin beklenmediği öne sürüldü.", "kind": "behavioral"},
+  {"source": "text", "quote": "Kojo Oppong, Liverpool maçında forma giyemeyecek", "kind": "behavioral"},
+  {"source": "text", "quote": "Genç yıldızdan kötü haber", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Karar'da 'öne sürüldü' biçimindeki iddia, BirGün'de kesin bir bilgiye ('forma giyemeyecek') dönüşüyor; belirsizlik düzleştiriliyor.",
+ "alternative_explanation": "BirGün haberi daha sonra yayımlandığı için arada resmi doğrulama gelmiş olabilir.",
+ "missing_context": ["Kulübün resmi sağlık açıklaması", "Haberlerin yayım zamanları arasındaki yeni bilgi"]}
+]}

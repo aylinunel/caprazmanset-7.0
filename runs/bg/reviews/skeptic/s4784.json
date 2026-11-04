@@ -1,0 +1,46 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "15 yaş altına sosyal medya yasağı yarın başlıyor: Hesaplar tek tek silinecek", "kind": "behavioral"},
+  {"source": "text", "quote": "15 yaş altına sosyal medya yasağı yarın başlıyor: Kimlik değil yaş doğrulanacak", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı düzenleme bir kurumda hesap silme kaybı, diğerinde gizlilik güvencesi üzerinden sunuluyor; yargı bağlantısı yok.",
+ "alternative_explanation": "Kurumlar düzenlemenin farklı ama gerçek unsurlarını öne çıkarıyor olabilir.",
+ "missing_context": ["Yönetmeliğin tam metni", "Hesapların silinip silinmeyeceğine dair resmi açıklama"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Hesaplar tek tek silinecek", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı bir ayrıntı öne çıkarılıyor; belirginliğin bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Hesap kapatma, düzenlemenin kullanıcıya en doğrudan etkisidir; vurgu orantılı olabilir.",
+ "missing_context": ["Okur tepkisine dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "15 yaşından küçüklerin sosyal medya hesapları kapatılacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Hesaplar tek tek silinecek", "kind": "behavioral"},
+  {"source": "text", "quote": "15 yaş altı sosyal medya yasağı başladı!", "kind": "behavioral"},
+  {"source": "text", "quote": "1 Kasım 2026 itibarıyla yürürlüğe giriyor", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Kapatılacak' ifadesi bir kurumda 'tek tek silinecek'e keskinleşiyor; bir başlık 'başladı' derken metin ileri tarih veriyor.",
+ "alternative_explanation": "Kapatma ve silme gündelik dilde eş anlamlı kullanılabilir; başlık yayın gününe göre güncellenmiş olabilir.",
+ "missing_context": ["Yönetmelikteki hesap işlemleri hükmü", "Haberlerin güncellenme saatleri"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Göktaş duyurdu: Sosyal medya yasağı resmen başladı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yürürlük duyurusu yetkili bakana atfediliyor; statünün içeriğin yerine geçtiği gösterilmiyor.",
+ "alternative_explanation": "Yasal düzenlemenin başlangıcını ilgili bakana atfetmek olağan kaynak gösterimidir.",
+ "missing_context": ["Resmi Gazete kaydı", "Bağımsız değerlendirmeler"]}
+]}

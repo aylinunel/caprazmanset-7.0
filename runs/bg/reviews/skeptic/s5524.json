@@ -1,0 +1,64 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Gece yarısı şarampole yuvarlandı! Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 08:31] Konya'da yolcu otobüsü devrildi, 45 yaralı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Hürriyet 'can pazarı' ile duygusal vurgu yapıyor; NTV nötr. Vurgunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Kaza haberinde dramatik dil yaygın bir üsluptur; aynı haber hafif yaralı oranını da veriyor.",
+ "missing_context": ["Okur yargısına etkisine dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İlk belirlemelere göre yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı", "kind": "statement"},
+  {"source": "text", "quote": "[akit · 09:06] Konya'da yolcu otobüsü devrildi: Çok sayıda yaralı var!", "kind": "behavioral"},
+  {"source": "text", "quote": "[aa · 08:47] Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Hürriyet özeti yaralıların çoğunun hafif olduğunu belirtiyor; birçok başlık yalnız '45 yaralı' veriyor, Akit sayıyı 'çok sayıda' diye düzleştiriyor. Maddi bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "Başlık uzunluğu sınırı; ağırlık bilgisinin gövde metninde verilmiş olması muhtemel.",
+ "missing_context": ["Başlıkların gövde metinleri", "Resmi sağlık açıklaması"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Konya'da yolcu otobüsü kazasında can pazarı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz dil var; ancak karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık ve karar etkisi gösterilmiyor.",
+ "alternative_explanation": "45 yaralılı bir kaza için olumsuz ton orantılıdır.",
+ "missing_context": ["Karşılaştırmalı olumlu bilgi ve karar bağlamı"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "kontrolden çıkan şehirlerarası yolcu otobüsü şarampole devrildi", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde kimsenin iç durumunun başkalarınca anlaşılabileceğine dair bir inanç yok.",
+ "alternative_explanation": "Olgusal kaza haberidir; kartla ilgili içerik bulunmuyor.",
+ "missing_context": ["Herhangi bir kişinin beyanı"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[haberler · 08:17] Antalya-Iğdır seferini yapan yolcu otobüsü Konya'da şarampole devrildi! 45 yaralı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir eyleme bağlı ödül veya ceza anlatılmıyor.",
+ "alternative_explanation": "Kaza haberi; teşvik yapısı söz konusu değil.",
+ "missing_context": ["Sürücü çalışma koşulları veya prim sistemi bilgisi"]},
+{"card_id": "mental-accounting", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "olay yerine sevk edilen ambulanslarla hastanelere taşındı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde parasal bir dağıtım, harcama veya risk kararı yok.",
+ "alternative_explanation": "Olgusal kaza haberidir.",
+ "missing_context": ["Herhangi bir kaynak tahsis kararı"]}
+]}

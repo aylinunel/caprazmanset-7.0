@@ -1,0 +1,45 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[sabah · 23:07] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı'na suikast hazırlığı!", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 23:20] Fenerbahçe tribün liderine saldırı hazırlığı.", "kind": "behavioral"},
+  {"source": "text", "quote": "silahlı eylem hazırlığında oldukları değerlendirilen 5 şüpheli yakalandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı iddia \"suikast\", \"saldırı\" ve \"silahlı eylem hazırlığı\" olarak farklı çerçeveleniyor; bu farkın bir yargıyı değiştirdiğini gösteren açık gerekçe yok.",
+ "alternative_explanation": "Kurumlar emniyet açıklamasındaki farklı ifadeleri ya da kendi üslup tercihlerini kullanmış olabilir.",
+ "missing_context": ["Resmi açıklamadaki tam ifade", "Sunum farkının okur yargısına etkisine dair kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[haberturk · 07:33] 'Daltonlar'dan Fenerbahçe tribün liderine suikast girişimi", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı", "kind": "statement"},
+  {"source": "text", "quote": "[yenisafak · 23:22] Cem Gölbaşı’na saldırı hazırlığındaki Daltonlar üyesi dört şüpheli yakalandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "\"Hazırlık\" sonradan \"girişim\"e dönüşüyor (keskinleştirme) ve şüpheli sayısı 4 ile 5 arasında değişiyor; maddi ve gerekçesiz bir sonuca yol açtığı gösterilmiyor.",
+ "alternative_explanation": "Sayı farkı farklı açıklama anlarından (gözaltı ile yakalama) gelebilir; \"girişim\" sabah güncellemesindeki yeni bilgiye dayanıyor olabilir.",
+ "missing_context": ["Habertürk haberinin gövde metni", "Şüpheli sayısının resmi kaydı"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Hücre evine operasyon: Uzun namlulu silah, 200 fişek...", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Canlı ayrıntılar (silah, fişek) öne çıkarılıyor; ancak bunun gerekçesiz bir yargıya bağlandığı açık değil.",
+ "alternative_explanation": "Ele geçirilen silahlar operasyonun olgusal ve haber değeri yüksek bir unsuru.",
+ "missing_context": ["Ayrıntının bir sıklık ya da risk yargısına dönüştüğüne dair kanıt"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 23:09] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast planı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz bir olay haberleştiriliyor; karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık verildiğini gösteren kanıt yok.",
+ "alternative_explanation": "Suç haberinin doğası olumsuz; olumsuz dil orantılı bir risk bildirimidir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilginin varlığı ve nasıl işlendiği"]}
+]}

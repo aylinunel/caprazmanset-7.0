@@ -1,0 +1,12 @@
+{"role": "advocate", "assessments": [
+{"card_id": "serial-position-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde sıralı bir dizi ve bu dizinin öğelerinin hatırlanması/seçilmesi anlatılmıyor.",
+ "alternative_explanation": "Haberler maç hazırlığı ve hakem atamasını aktaran olağan spor haberleri.",
+ "missing_context": ["Sıralı dizi ve konuma bağlı hatırlama veya seçim kanıtı"]}
+]}

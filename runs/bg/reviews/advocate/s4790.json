@@ -1,0 +1,57 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Avustralya Vergi Dairesine 2 milyon 60 bin Avustralya doları, yaklaşık 72,4 milyon TL borcu bulunduğu ortaya çıktı.", "kind": "statement"},
+  {"source": "text", "quote": "Somer Sivrioğlu'nun restoranına kayyum atandı: 72 milyonluk borç", "kind": "behavioral"},
+  {"source": "text", "quote": "Somer Sivrioğlu'nun Anason restoranı nerede? Vergi borcu kaç milyon dolar?", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı borç tutarı başlıkta TL cinsinden '72 milyonluk' olarak, metinde ise 2 milyon 60 bin Avustralya doları olarak veriliyor; birim seçimi büyüklük algısını etkileyebilir.",
+ "alternative_explanation": "TL'ye çevirmek Türk okur için anlaşılırlık sağlar; çerçeveye dayalı bir yargı metinde açıkça yok.",
+ "missing_context": ["Okur yargısının birim seçimine göre değiştiğine dair veri"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku! Borcu ortaya çıktı", "kind": "statement"},
+  {"source": "text", "quote": "Somer Sivrioğlu'nun restoranına kayyum atandı! Vergi borcu dudak uçuklattı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz mali gelişme 'şok' ve 'dudak uçuklattı' gibi ifadelerle vurgulanmış; karşılaştırılabilir olumlu bilgi yok.",
+ "alternative_explanation": "Haber konusu doğası gereği olumsuzdur; orantısız ağırlık gösterilemiyor.",
+ "missing_context": ["Restoranın mali durumuna dair diğer veriler", "Şefin açıklaması"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "biriken vergi borçları nedeniyle kayyum olarak anılan dış yönetim sürecine girdi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Ünlü şef Somer Sivrioğlu’nun restoranına kayyum atandı: Milyonluk borcu ortaya çıktı", "kind": "behavioral"},
+  {"source": "text", "quote": "Milyonluk vergi borcu ödenemedi!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Karar, sürecin 'kayyum olarak anılan dış yönetim' olduğunu açıklarken diğer başlıklar bu nüansı düşürüp 'kayyum atandı' ifadesini keskinleştiriyor.",
+ "alternative_explanation": "'Kayyum' Türkçede yerleşik karşılık olarak kullanılıyor olabilir; maddi bir anlam kayması ve sonuca etkisi gösterilmiyor.",
+ "missing_context": ["Avustralya'daki hukuki sürecin resmi adı ve niteliği", "Borcun ödenmediğine dair resmi kayıt"]},
+{"card_id": "affect-heuristic", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ünlü şefe, Sidney'de vergi şoku! Restoranına kayyum atandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Şok' ifadesi duygusal ton taşıyor; bir risk/fayda tahminine bağlanmıyor.",
+ "alternative_explanation": "Duygusal başlık dili tıklanma odaklı üsluptur; değerlendirmeyi çarpıttığına dair kanıt yok.",
+ "missing_context": ["Duygu ile bir yargı arasında açık bağ"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Vergi borcu dudak uçuklattı", "kind": "statement"},
+  {"source": "text", "quote": "Somer Sivrioğlu'nun restoranına kayyum atandı! Milyonluk vergi borcu gündem oldu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Borcun büyüklüğü çarpıcı unsur olarak öne çıkarılmış.",
+ "alternative_explanation": "Borç miktarı haberin asıl olgusudur; öne çıkarılması orantılı olabilir.",
+ "missing_context": ["Restoranın ciro ve borç oranı gibi bağlam bilgisi"]}
+]}

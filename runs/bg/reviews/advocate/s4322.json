@@ -1,0 +1,54 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "AKP'li Cumhurbaşkanı Erdoğan, Nobel ödüllü bilim insanı Aziz Sancar'ı kabul etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Nobel ödüllü isim Külliye’de! Başkan Erdoğan, Aziz Sancar’ı kabul etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan, Aziz Sancar'ı kabul etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı kabul bir kurumda parti etiketiyle, bir kurumda 'Başkan' ve 'Külliye’de!' coşkusuyla, diğerlerinde yalın sunuluyor; bir yargıya bağlandığı açık değil.",
+ "alternative_explanation": "Etiket ve hitap tercihleri kurumların yerleşik üslup kurallarından kaynaklanabilir.",
+ "missing_context": ["Çerçeveye bağlı açık bir değerlendirme"]},
+{"card_id": "halo-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Nobel ödüllü isim Külliye’de!", "kind": "behavioral"},
+  {"source": "text", "quote": "Nobel ödüllü bilim insanı Prof. Dr. Aziz Sancar'ı ve eşini kabul etti", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bilimsel başarıya ait olumlu izlenim (Nobel) kabulün kendisine taşınıyor olabilir; ancak başka bir alanda açık olumlu yargı yok.",
+ "alternative_explanation": "Nobel ödülü kişiyi tanıtan olgusal ve ilgili bir bilgidir.",
+ "missing_context": ["Nobel izleniminden türetilen ayrı bir olumlu yargı"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "AKP'li Cumhurbaşkanı Erdoğan, Nobel ödüllü bilim insanı Aziz Sancar'ı kabul etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Başkan Erdoğan Nobel ödüllü bilim insanı Aziz Sancar'ı kabul etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sol yerleşimli bir kurum parti etiketi ekliyor, sağ yerleşimli kurumlar 'Başkan' hitabı kullanıyor; grup üyeliğine bağlı bir değerlendirme farkı açıkça kurulmuyor.",
+ "alternative_explanation": "Parti etiketi olgusal bilgidir; hitap farkı üslup tercihidir.",
+ "missing_context": ["Grup üyeliğine bağlı farklı standart ya da muamele kanıtı"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan, Nobel ödüllü bilim insanı Prof. Dr. Sancar'ı kabul etti", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Otorite ve uzmanlık sahibi kişiler tanımlanıyor, ancak bir iddiaya statü nedeniyle belirleyici ağırlık verilmiyor.",
+ "alternative_explanation": "Bir kabulü aktarmak otoriteye dayalı akıl yürütme değildir.",
+ "missing_context": ["Otoriteye dayanan bir iddia ya da karar"]}
+]}

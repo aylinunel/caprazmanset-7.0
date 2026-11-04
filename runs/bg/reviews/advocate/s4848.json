@@ -1,0 +1,36 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "48. İstanbul Maratonu'nda parkur rekoru geldi! İşte para ödülü", "kind": "behavioral"},
+  {"source": "text", "quote": "48. İstanbul Maratonu'na geri sayım. 12 milyon lira para ödülü", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Maratonu'nda rekor kırıldı!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Rekor ve para ödülü gibi çarpıcı unsurlar başlıklarda öne çıkıyor.",
+ "alternative_explanation": "Rekor, yarışın en haber değeri taşıyan sonucu olduğu için vurgulanmış olabilir.",
+ "missing_context": ["Vurgunun bir yargıyı haksız biçimde yönlendirdiğine dair kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "48. İstanbul Maratonu'nda Erkeklerde Rekor Süre, Kadınlarda Etiyopyalı Baze Kazandı", "kind": "behavioral"},
+  {"source": "text", "quote": "48. İstanbul Maratonu'nda erkekler kategorisinde rekor kırıldı! Zirve Kenyalının atletin", "kind": "behavioral"},
+  {"source": "text", "quote": "Türkiye İş Bankası 48’inci İstanbul Maratonu rekorla tamamlandı.", "kind": "behavioral"},
+  {"source": "text", "quote": "48. İstanbul Maratonu'nu erkeklerde Kenyalı Philimon Kiptoo Kipchumba, rekor kırarak kazandı.", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Onedio kadınlar kategorisinin galibini de verirken çoğu haber yalnızca erkekler rekorunu keskinleştiriyor, kadın galibi düzleştiriliyor.",
+ "alternative_explanation": "Rekor yalnızca erkekler kategorisinde kırıldığı için başlıklarda o öne çıkmış olabilir; tam metinlerde kadın galibi yer alıyor olabilir.",
+ "missing_context": ["Haberlerin tam metinleri", "Atlanan bilginin bir sonucu maddi olarak etkilediğine dair kanıt"]},
+{"card_id": "serial-position-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde sıralı bir dizinin hatırlanmasına veya seçilmesine dair bir anlatım yok.",
+ "alternative_explanation": "Haberler yalnızca yarış sonuçlarını aktarıyor.",
+ "missing_context": ["Sıra konumuna bağlı hatırlama veya seçim kanıtı"]}
+]}

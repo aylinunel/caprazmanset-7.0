@@ -1,0 +1,55 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Katliam gibi kaza! Antalya-Isparta kara yolunda yolcu otobüsü devrildi: 1 ölü 8 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "Burdur'da yolcu otobüsü devrildi: 1 kişi öldü, 8 kişi yaralandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı kaza (1 ölü, 8 yaralı) bir kurumda 'Katliam gibi kaza' çerçevesiyle, diğerinde nötr dille verilmiş; çerçeve farkı gözlenebilir.",
+ "alternative_explanation": "Yayın üslubu ve tık odaklı başlık alışkanlığı; okur yargısını değiştirme amacı gösterilmiyor.",
+ "missing_context": ["Okur veya karar vericinin bu çerçeveye göre farklı yargıya vardığına dair kanıt", "Kurumun benzer kazalardaki başlık dili"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Katliam gibi kaza: Yolcu otobüsü devrildi ölü ve yaralılar var", "kind": "behavioral"},
+  {"source": "text", "quote": "Isparta- Antalya kara yolunda feci kaza!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı başlıklar olumsuz yönü abartılı ifadelerle öne çıkarıyor.",
+ "alternative_explanation": "Ölümlü kaza zaten olumsuz bir olay; dilin yoğunluğu orantılı haberleştirme olabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu kanıtın göz ardı edildiğine dair belge", "Bir değerlendirme veya kararın etkilendiğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "SON DAKİKA… Isparta- Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: 1 ölü 8 yaralı!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı ifadeler başlıkta öne çıkarılmış, ancak bir yargıya bağlanmamış.",
+ "alternative_explanation": "Son dakika haberciliğinin standart dikkat çekme kalıbı.",
+ "missing_context": ["Çarpıcı ayrıntının sıklık ya da risk yargısına dönüştürüldüğüne dair ifade"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Katliam gibi kaza!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygu yüklü ifade var, fakat bir karar veya risk tahminine bağlanmıyor.",
+ "alternative_explanation": "Duygusal dil yalnızca üslup tercihi olabilir.",
+ "missing_context": ["Duygunun bir risk/fayda tahminini değiştirdiğine dair açık ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "context", "quote": "Olay: Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 ölü, 7 yaralı", "kind": "statement"},
+  {"source": "text", "quote": "Burdur'da Isparta - Antalya yolunda yolcu otobüsü kazası! 1 ölü, 9 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "Yolcu otobüsü devrildi: 1 ölü, 8 yaralı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yaralı sayısı kurumlar arasında 7, 8 ve 9 olarak farklı aktarılmış; anlatımlar arasında ayrışma var.",
+ "alternative_explanation": "Yaralı sayısı olay süresince güncellenmiş olabilir; farklı saatlerde farklı resmi bilgi.",
+ "missing_context": ["Resmi kesin yaralı sayısı ve açıklanma saati", "Farkın bir sonuca etki ettiğine dair kanıt"]}
+]}

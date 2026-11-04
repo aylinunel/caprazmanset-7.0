@@ -1,0 +1,13 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[star · 14:34] Turistik Doğu Ekspresi'nde yeni sezon heyecanı! Biletler yarın satışta", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 15:30] Turistik Doğu Ekspresi'nin biletleri yarın satışa çıkacak", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı bilgi bazı kurumlarca \"heyecan\" vurgusuyla, bazılarınca yalın veriliyor; bir tercih ya da yargının bu sunuma bağlandığı görülmüyor.",
+ "alternative_explanation": "Hizmet/turizm haberinde olağan tanıtıcı üslup; olgular (tarih, saat, sefer sayısı) kurumlar arasında tutarlı.",
+ "missing_context": ["Sunum farkının okur kararına etkisine dair kanıt"]}
+]}

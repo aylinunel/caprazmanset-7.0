@@ -1,0 +1,38 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[birgun · 09:37] Aralarında eski SPK yöneticileri de var: Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi", "kind": "behavioral"},
+  {"source": "text", "quote": "[trthaber · 09:38] Fon soruşturmasında 6 gözaltı kararı daha", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasında yeni dalga!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı soruşturma BirGün'de 'vurgun' olarak, diğerlerinde nötr 'fon soruşturması' olarak adlandırılıyor; çerçeveye dayalı bir yargı açıkça kurulmuyor.",
+ "alternative_explanation": "'Vurgun' ifadesi soruşturmanın konusunu kısaca anlatmak için kullanılmış olabilir.",
+ "missing_context": ["Okuyucu değerlendirmesinin ifadeyle değiştiğine dair veri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturmasında 6 gözaltı kararı daha: SPK eski üst düzey yöneticileri de listede", "kind": "statement"},
+  {"source": "text", "quote": "Fon soruşturmasında yeni dalga geldi! Gözaltı listesinde kimler var kimler", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Eski SPK yöneticileri gibi dikkat çekici isimler başlıkta öne çıkarılıyor; bunun bir yargıyı haksız etkilediği gösterilmiyor.",
+ "alternative_explanation": "Düzenleyici kurum yöneticilerinin dahil olması gerçek bir haber değeridir.",
+ "missing_context": ["Gözaltı listesinin tamamı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "aralarında eski SPK ve mevcut BDDK yöneticilerinin de bulunduğu 6 kişi", "kind": "statement"},
+  {"source": "text", "quote": "[turkiyegz · 09:36] Fon soruşturmasında 6 yeni gözaltı kararı! Eski SPK, BDDK ve Tera Holding yöneticileri listede", "kind": "behavioral"},
+  {"source": "text", "quote": "[mynet · 09:39] Fon soruşturmasında yeni SPK gözaltıları! Aralarında yöneticiler de var", "kind": "behavioral"},
+  {"source": "text", "quote": "Haklarında gözaltı kararı verilen eski SPK başkan vekili Enver Usca dahil 6 şüpheli gözaltına alındı.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "CNN Türk BDDK yöneticilerini 'mevcut' derken Türkiye Gazetesi 'eski' kapsamında veriyor; Mynet 'eski' nitelemesini düşürüyor; çoğu başlık BDDK bilgisini tümüyle atlıyor.",
+ "alternative_explanation": "Farklar başlık kısalığı ve farklı kaynak açıklamalarından kaynaklanabilir.",
+ "missing_context": ["Başsavcılık açıklamasının tam metni", "Gözaltına alınanların görev durumları"]}
+]}

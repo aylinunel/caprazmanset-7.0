@@ -1,0 +1,52 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kurtlar Vadisi - Pusu ile gündeme Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti.", "kind": "behavioral"},
+  {"source": "text", "quote": "Oğuzhan Uğur'un babası emekli albay Hasan Atilla Uğur da yer alıyor.", "kind": "behavioral"},
+  {"source": "text", "quote": "Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur detayı! hap detayı mercek altında", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Dizi göndermesi, ünlü bir kişiyle akrabalık ve 'hap' ayrıntısı gibi çarpıcı unsurlar öne çıkarılıyor.",
+ "alternative_explanation": "Bu ayrıntılar okurun olayı tanımasına yardımcı olan ilgili bilgiler olabilir.",
+ "missing_context": ["Çarpıcı ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair açık ifade", "Soruşturma belgelerindeki temel bulgular"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kaşif Kozinoğlu soruşturmasında 4 yeni gözaltı kararı", "kind": "behavioral"},
+  {"source": "text", "quote": "Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti.", "kind": "behavioral"},
+  {"source": "text", "quote": "Hasan Atilla Uğur ile Hasan Ataman Yıldırım'a ise ev hapsi verildi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Hasan Atilla Uğur havalimanında gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "eski MİT yöneticisi Kaşif Kozinoğlu'nun", "kind": "behavioral"},
+  {"source": "text", "quote": "eski MİT mensubu Kaşif Kozinoğlu’nun", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3, 4, 5]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haberler arasında sayı (4 karar / 3 gözaltı), tedbir türü (ev hapsi / gözaltı) ve unvan (mensup / yönetici) farkları var.",
+ "alternative_explanation": "Farklar haberlerin olayın farklı aşamalarında yazılmasından ve hızlı güncellemelerden kaynaklanabilir.",
+ "missing_context": ["Resmi savcılık açıklaması", "Farkların okur yargısını maddi olarak etkilediğine dair kanıt"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kozinoğlu soruşturmasında flaş gelişme:", "kind": "behavioral"},
+  {"source": "text", "quote": "soruşturmada sıcak gelişme yaşandı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Kaşif Kozinoğlu soruşturması; Hasan Atilla Uğur gözaltına alındı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur gözaltına alındı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı gelişme bazı kurumlarda 'flaş' veya 'sıcak' nitelemesiyle, diğerlerinde nötr sunuluyor.",
+ "alternative_explanation": "Bu nitelemeler yaygın haber dili olup tercih değiştirmeye yönelik değildir.",
+ "missing_context": ["Çerçevenin bir yargı veya tercih farkına yol açtığına dair kanıt"]},
+{"card_id": "halo-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Oğuzhan Uğur'un babası emekli albay Hasan Atilla Uğur", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ünlü bir kişiyle akrabalık belirtiliyor, ancak bundan başka bir alanda olumlu bir yargı türetilmiyor.",
+ "alternative_explanation": "Akrabalık bilgisi okurun kişiyi tanıması için verilmiş olabilir.",
+ "missing_context": ["Olumlu bir izlenimin başka bir yargıya aktarıldığına dair açık bağlantı"]}
+]}

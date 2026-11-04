@@ -1,0 +1,67 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kırıkkale'de can pazarı: İşçileri taşıyan servis aracı devrildi, 14 yaralı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Kırıkkale'de işçileri taşıyan midibüs devrildi, 1'i ağır 15 kişi yaralandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Sağanak sonrası feci kaza, Kırıkkale’de işçi servisi devrildi! 15 yaralı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Yaralı sayısı 14 ile 15 arasında değişiyor; hava koşulu yalnızca bir başlıkta yer alıyor.",
+ "alternative_explanation": "Farklı sayılar ilk bilgilerdeki belirsizlikten ve güncellemelerden kaynaklanabilir; fark maddi bir sonucu değiştirmiyor.",
+ "missing_context": ["Resmi yaralı sayısı", "Kazanın nedenine dair resmi bilgi"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kimsenin iç durumunun başkalarınca anlaşılabileceğine dair bir inanç aktarılmıyor.",
+ "alternative_explanation": "Haber olgusal bir kaza bildirimidir.",
+ "missing_context": ["Bir kişinin algılanabilirlik inancına dair ifade"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir eyleme bağlı ödül ya da ceza anlatılmıyor.",
+ "alternative_explanation": "Haber yalnızca kazayı ve yaralı sayısını bildiriyor.",
+ "missing_context": ["Eyleme bağlı teşvik bilgisi"]},
+{"card_id": "mental-accounting", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir harcama, tahsis ya da risk kararı ve kaynak kategorisi yok.",
+ "alternative_explanation": "Haber bir trafik kazasıdır.",
+ "missing_context": ["Kaynak tahsisi kararına dair bilgi"]},
+{"card_id": "the-illusion-of-explanatory-depth", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir mekanizmayı anladığını iddia eden ve açıklamasında boşluk gösteren bir aktör yok.",
+ "alternative_explanation": "Başlıklar olgusal bildirimdir; nedensel açıklama iddiası içermiyor.",
+ "missing_context": ["Açıklama girişimi ve önceki güven beyanı"]},
+{"card_id": "heuristics", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Sağanak sonrası feci kaza", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sağanak ile kaza arasında zamansal bir yan yana koyma var, ancak açık bir kestirme yargı ve etkisi raporlanmıyor.",
+ "alternative_explanation": "Hava durumu olgusal bir bağlam bilgisi olarak verilmiş olabilir.",
+ "missing_context": ["Kaza nedenine dair resmi tespit", "Kestirmenin bir yargıyı bozduğunu gösteren karşılaştırma"]}
+]}

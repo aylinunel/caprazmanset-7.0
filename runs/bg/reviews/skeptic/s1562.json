@@ -1,0 +1,42 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[karar · 18:11] Fon skandalında soruşturma SPK'nın eski yönetimine uzandı: Şimşek'ten İbrahim Ömer Gönül için izin", "kind": "behavioral"},
+  {"source": "text", "quote": "[trthaber · 17:39] Eski SPK Başkanı Gönül hakkında soruşturma izni", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakan Şimşek'ten eski SPK Başkanı İbrahim Ömer Gönül hakkında kritik karar", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Karar 'fon skandalı' bağlamıyla, Takvim 'kritik karar' vurgusuyla, diğerleri nötr veriyor; sunum farkının bir yargıya bağlandığı gösterilmiyor.",
+ "alternative_explanation": "Fon skandalı bağlamı soruşturmanın gerçek arka planı olabilir; bağlam eklemek çerçeve hatası değildir.",
+ "missing_context": ["Fon skandalı ile soruşturmanın resmi bağlantısı", "Okur etkisine dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden eski Sermaye Piyasası Kurulu (SPK) Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.", "kind": "statement"},
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.", "kind": "statement"},
+  {"source": "text", "quote": "Savcılığın talebinde fon denetimleri ve yatırımcı mağduriyetleri yer aldı.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar sürecin farklı halkalarını (savcılık talebi, teftiş raporu) ve farklı ayrıntıları aktarıyor; çelişki değil tamamlayıcılık olabilir.",
+ "alternative_explanation": "İki anlatım aynı sürecin parçalarıdır; farklı ayrıntı seçimi maddi bir çarpıtma göstermiyor.",
+ "missing_context": ["Bakanlığın resmi açıklama metni", "Eksiltmenin bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[milligazete · 18:00] Eski SPK Başkanı İbrahim Ömer Gönül’e soruşturma!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ünlem ve 'son dakika' gibi vurgular var; çarpıcılığın haksız bir yargıya yol açtığı gösterilmiyor.",
+ "alternative_explanation": "Vurgu işaretleri biçimsel başlık tercihidir.",
+ "missing_context": ["Karşılaştırmalı ağırlıklandırma kanıtı"]}
+]}

@@ -1,0 +1,49 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Azerbaycan talep etmişti: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Oktay Saral görevinden istifa etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Sayın Cumhurbaşkanımız göreve getirdi, kendisinin talimatıyla ayrıldım. Kimseye kırgınlığım yok", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı ayrılış bir grup kurumda 'görevden alındı', diğerlerinde 'istifa etti' olarak çerçeveleniyor; Saral'ın 'talimatıyla ayrıldım' beyanı iki çerçeveyi bağlıyor, ancak bir yargıya bağlanma gösterilmiyor.",
+ "alternative_explanation": "Olayın iki aşamalı gelişmesi (önce görevden alma haberi, sonra resmi istifa açıklaması) farklı ifadeleri açıklayabilir.",
+ "missing_context": ["Resmi atama/görevden alma kararı", "Saral'ın istifa açıklamasının tam metni"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İddia: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Azerbaycan talep etmişti: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhurbaşkanı Başdanışmanı Oktay Saral 10 yıllık görevinden istifa etti", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurumun 'İddia' kaydıyla verdiği bilgi diğerinde kesin olgu ve nedensellik ('Azerbaycan talep etmişti') olarak keskinleşmiş; kayıt düzleşmiş görünüyor.",
+ "alternative_explanation": "Kurum, talebi doğrulayan ayrı bir kaynağa sahip olabilir.",
+ "missing_context": ["Azerbaycan talebine dair kaynak", "Haber gövdeleri"]},
+{"card_id": "source-confusion", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Azerbaycan talep etmişti", "kind": "behavioral"},
+  {"source": "text", "quote": "'Azerbaycan açıklamalarım nedeniyle...'", "kind": "statement"},
+  {"source": "text", "quote": "Görevden Alınan Oktay Saral İstifa Etti", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ayrılış nedeni bir kurumda Azerbaycan'ın talebine, bir başka kurumda Saral'ın kendi açıklamalarına atfediliyor; kaynak atfında belirsizlik var ancak kayıtla doğrulanmış bir uyumsuzluk yok.",
+ "alternative_explanation": "Her iki atıf da doğru olabilir: açıklamalar tepki çekmiş ve tepki görevden almaya yol açmış olabilir.",
+ "missing_context": ["Azerbaycan'ın resmi talebine dair belge", "Bilginin ilk kaynağı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Başörtüsü yasağına karşı çıkıp Azerbaycan'ın tepkisini çekmişti!", "kind": "behavioral"},
+  {"source": "text", "quote": "SON DAKİKA... Oktay Saral istifa ettiğini açıkladı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}],
+ "mechanism": "Bir kurum duygusal yükü yüksek başörtüsü tartışmasını öne çıkarırken diğerleri yalnızca istifayı veriyor; karşılaştırmalı vurgu farkı var.",
+ "alternative_explanation": "Başörtüsü açıklaması ayrılışın bilinen arka planıdır ve haber değerine sahiptir.",
+ "missing_context": ["Okur/karar etkisine dair veri"]}
+]}

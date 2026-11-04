@@ -1,0 +1,53 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "İzmir'de toprak kayması: 3 bina boşaltıldı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olgu (3 bina tahliyesi) bir başlıkta 'panik' vurgusuyla, diğerlerinde nötr ifadeyle sunulmuş; ancak bir tercihin bu sunuma bağlandığı görülmüyor.",
+ "alternative_explanation": "'Panik' kelimesi yerel tepkiyi aktaran olağan bir başlık tercihi olabilir; aynı başlık 'tedbir amaçlı' ifadesiyle riski de dengeliyor.",
+ "missing_context": ["Okur veya karar verici üzerinde bir yargı değişikliği kanıtı", "Haber gövdesinde panik iddiasının dayanağı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "3 binada oturanlar güvenlik nedeniyle evlerinden tahliye edildi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Ünlem ve vurgu kullanımı dikkat çekiyor; fakat çarpıcı ayrıntının bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Ünlem kullanımı son dakika haberlerinde yaygın biçimsel bir tercih; olgular kurumlar arasında tutarlı.",
+ "missing_context": ["Hasar ve risk düzeyine ilişkin resmi açıklama", "Başlık vurgusunun okur yargısına etkisine dair veri"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz bir olay aktarılıyor; karşılaştırılabilir olumlu kanıta göre orantısız ağırlık verildiğine dair açık bir ifade yok.",
+ "alternative_explanation": "Tahliye gerçek bir risk karşısında orantılı bir önlem; olumsuz olayın haberleştirilmesi tek başına önyargı değildir.",
+ "missing_context": ["Can kaybı veya yaralanma olmadığına dair bilgi", "Olumlu/olumsuz bilginin karşılaştırmalı sunumu"]},
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Samsun'da sağanak yağış sonrası toprak kayması! 5 katlı bina tedbir amaçlı tahliye edildi", "kind": "statement"},
+  {"source": "context", "quote": "Olay: İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Samsun başlıkları ayrı bir olaya ait görünüyor; bu bir hafıza-kaynak hatası değil, olay kümeleme uyumsuzluğu.",
+ "alternative_explanation": "Benzer anahtar kelimeler (toprak kayması, tahliye) nedeniyle farklı olayların aynı kümeye otomatik eklenmesi.",
+ "missing_context": ["Hatırlanan bir öğe ve atfedilen kaynak", "Kaynak uyuşmazlığını gösteren kayıt"]}
+]}

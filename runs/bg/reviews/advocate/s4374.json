@@ -15,7 +15,7 @@
  "evidence": [
   {"source": "text", "quote": "Başkan Yardımcısı Rasim Özdemir tutuklandı", "kind": "behavioral"},
   {"source": "text", "quote": "Belediye Başkan Yardımcısı Rasim Özdemir’in de aralarında bulunduğu 4 kişi gözaltına alındı", "kind": "behavioral"},
-  {"source": "text", "quote": "Bolu Belediyesi'ne operasyon! Başkan yardımcısı gözaltında", "kind": "behavioral"},
+  {"source": "text", "quote": "Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında", "kind": "behavioral"},
   {"source": "context", "quote": "Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında", "kind": "statement"}],
  "necessary_conditions": [
   {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 3]},
@@ -27,7 +27,7 @@
 {"card_id": "salience-bias", "verdict": "uncertain",
  "evidence": [
   {"source": "text", "quote": "Bolu Belediyesi'ne şafak operasyonu: Başkan Yardımcısı Rasim Özdemir de gözaltına alındı", "kind": "behavioral"},
-  {"source": "text", "quote": "Bolu Belediyesi'ne operasyon! Başkan yardımcısı gözaltında", "kind": "behavioral"}],
+  {"source": "text", "quote": "Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında", "kind": "behavioral"}],
  "necessary_conditions": [
   {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
   {"condition_index": 1, "status": "unknown", "evidence_indices": []},

@@ -1,0 +1,48 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Parti Yeni vurgun eski: Merkezefendi Belediye Başkanı Şeniz Doğan uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Merkezefendi Belediye Başkanı Şeniz Doğan geçici tedbir olarak görevden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "context", "quote": "Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı idari karar Takvim'de yargılayıcı 'vurgun' çerçevesiyle, Yeni Şafak'ta 'geçici tedbir' çerçevesiyle sunulmuş.",
+ "alternative_explanation": "Rüşvet soruşturması olgusuna dayalı yorumlu başlık üslubu; 'geçici tedbir' ise hukuki terimin aktarımı.",
+ "missing_context": ["Çerçeve farkının okur yargısını değiştirdiğine dair kanıt", "Bakanlık açıklamasının tam metni"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rüşvetten tutuklanmıştı! Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Merkezefendi Belediye Başkanı Doğan görevden uzaklaştırıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Bazı başlıklar 'rüşvet' suçlamasını ünlemle öne çıkarırken diğerleri yalnız idari kararı veriyor.",
+ "alternative_explanation": "Tutuklama nedeni olgusal ve bağlam sağlayıcı bir bilgi.",
+ "missing_context": ["Belirginliğin haksız bir yargıya yol açtığına dair açık ifade"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Parti Yeni vurgun eski", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Sözcü ve Takvim başkanın parti bağlantısını başlığa taşımış; Takvim bunu olumsuz bir yargıyla birleştirmiş.",
+ "alternative_explanation": "Parti değişikliği haber değeri taşıyan bir olgu olabilir; tutarsız standart kanıtlanmamış.",
+ "missing_context": ["Aynı kurumların farklı partili başkanlar için benzer haberlerdeki başlıkları", "Grup üyeliğinin değerlendirmeyi değiştirdiğine dair karşılaştırma"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Merkezefendi Belediye Başkanı Şeniz Doğan geçici tedbir olarak görevden uzaklaştırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Denizli Merkezefendi Belediye Başkanı Şeniz Doğğan rüşvet soruşturmasında tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "İçişleri Bakanlığı, tutuklanan Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını duyurdu.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": []}],
+ "mechanism": "'Geçici tedbir' niteliği çoğu başlıkta düşmüş (düzleştirme); Haberler.com ise uzaklaştırma yerine tutuklamayı başlığa taşımış.",
+ "alternative_explanation": "Başlık kısalığı nedeniyle hukuki niteliğin atlanması; tutuklama önceki bir olgu.",
+ "missing_context": ["Atlanan bilginin okur sonucunu değiştirdiğine dair kanıt"]}
+]}

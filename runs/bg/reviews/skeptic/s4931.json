@@ -1,0 +1,51 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "Sarıgül soruşturmasında 4 tutuklama; kardeşi adli kontrolle serbest", "kind": "behavioral"},
+{"source": "text", "quote": "Sarıgül soruşturmasında 4 şüpheli tutuklama talebiyle mahkemeye sevk edildi", "kind": "behavioral"},
+{"source": "text", "quote": "Sarıgül soruşturmasında yeni tutuklama! Mahkemeye sevk edilen 4 şüpheli cezaevine gönderildi", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Kurumlar aynı gelişmeyi tutuklama, sevk veya kardeşin serbest kalması üzerinden farklı vurgularla veriyor; sunum farkının bir yargıyı değiştirdiği metinde yok.",
+"alternative_explanation": "Başlık farkları yayın saatindeki bilgi aşamasından (sevk ya da karar sonrası) ve haber değeri seçiminden kaynaklanabilir.",
+"missing_context": ["Başlıkların yayın anındaki bilgi durumu", "Okur değerlendirmesine etkiye dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "Sarıgül soruşturmasında 4 tutuklama, 8 adli kontrol", "kind": "behavioral"},
+{"source": "text", "quote": "Sarıgül soruşturmasında 4 şüpheli tutuklama talebiyle, 7'si adli kontrole sevk edildi", "kind": "behavioral"},
+{"source": "text", "quote": "gözaltına alınan 10 kişiden 4'ü tutuklama talebiyle mahkemeye sevk edilirken", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Adli kontrol sayısı kurumlar arasında 7 ve 8 olarak farklı veriliyor; 10 gözaltı ile birlikte sayılar tutarsız, ancak bunun bir sonuca etkisi gösterilmiyor.",
+"alternative_explanation": "Fark, talep ile karar aşaması arasındaki değişiklikten veya ajans güncellemesinden kaynaklanabilir.",
+"missing_context": ["Mahkemenin nihai karar metni", "Gözaltı sayısının kesin değeri"]},
+{"card_id": "source-confusion", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "Sarıgül soruşturmasında 4 kişi daha tutuklandı", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": []},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Metinde belirli bir bilginin yanlış kaynağa atfedildiğine dair açık uyumsuzluk yok.",
+"alternative_explanation": "'Daha' ifadesi önceki tutuklamalara atıfta bulunuyor olabilir; bu bir kaynak hatası değildir.",
+"missing_context": ["Önceki tutuklama dalgalarına ilişkin kayıt", "Kurumların kullandığı ajans kaynağı"]},
+{"card_id": "salience-bias", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "Sarıgül Ailesi’ne yönelik ‘kara para aklama’ ve ‘cinsel saldırı’ iddialarıyla yürütülen soruşturma", "kind": "behavioral"},
+{"source": "text", "quote": "Sarıgül ailesine yönelik 'kara para aklama' iddiasıyla yürütülen soruşturma", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+"mechanism": "Bir kurum 'cinsel saldırı' iddiasını da anarken diğeri yalnızca kara para aklamayı anıyor; çarpıcı ayrıntının seçimi farklı, ancak haksız ağırlık verildiği gösterilmiyor.",
+"alternative_explanation": "Soruşturma kapsamındaki iddiaların eksiksiz aktarılması doğruluk gereği olabilir; diğer kurum yalnızca kısaltmış olabilir.",
+"missing_context": ["Soruşturmanın resmi kapsamı", "Haberlerin tam metinleri"]},
+{"card_id": "representativeness-heuristic", "verdict": "not_supported", "evidence": [],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": []},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Metinlerde bir olasılık veya kategori yargısının prototipe benzerlikle temellendirildiğine dair ifade yok.",
+"alternative_explanation": "Haberler yargı sürecindeki olguları aktarıyor; benzerliğe dayalı çıkarım içermiyor.",
+"missing_context": ["Suçluluk veya olasılık yargısını benzerliğe dayandıran açık ifade"]}
+]}

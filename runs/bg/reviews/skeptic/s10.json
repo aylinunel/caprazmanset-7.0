@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "adliyeye sevk edilen 5 zanlıdan 4'ü tutuklandı, 1'i adli kontrol şartıyla serbest bırakıldı.", "kind": "statement"},
+  {"source": "text", "quote": "[takvim · 11:56] Gülistan Doku soruşturmasında adliyeye sevk edilen 6 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "aralarında emniyet mensuplarının da bulunduğu 6'sı tutuklanarak cezaevine gönderildi.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Çoğu kurum 4 tutuklama bildirirken Takvim 6 tutuklama ve emniyet mensubu ayrıntısı veriyor; taban karşılaştırması bir tutarsızlık gösteriyor.",
+ "alternative_explanation": "Takvim'in rakamı daha sonraki işlemleri birleştirmiş veya hatalı olabilir; kasıt veya etkisi gösterilmiyor.",
+ "missing_context": ["Resmi savcılık açıklaması", "Takvim haberinin güncellenme zamanı"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[dirilis · 10:34] Gülistan Doku soruşturmasında dikkat çeken gelişme!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Vurgu ifadeleri var; çarpıcılığın haksız bir yargıya yol açtığı gösterilmiyor.",
+ "alternative_explanation": "Uzun süreli kamu ilgisi olan bir dosyada gelişmeyi vurgulamak olağandır.",
+ "missing_context": ["Karşılaştırmalı ağırlıklandırma kanıtı"]},
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[karar · 11:32] Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "[diken · 11:44] Gülistan Doku soruşturması: Dört tutuklama daha", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı başlıklar toplam tutuklu sayısını, bazıları yeni tutuklamaları öne çıkarıyor; bir tercih sunuma bağlanmıyor.",
+ "alternative_explanation": "Toplam ve artış aynı olgunun iki tamamlayıcı ifadesidir; değerlik farkı yok.",
+ "missing_context": ["Okur etkisine dair veri"]}
+]}

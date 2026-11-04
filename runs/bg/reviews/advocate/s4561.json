@@ -1,0 +1,26 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan'dan Macron'a COP31 Liderler Zirvesi daveti", "kind": "statement"},
+  {"source": "text", "quote": "Macron ile telefonda görüşen Cumhurbaşkanı Erdoğan’dan BM’ye reform mesajı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar görüşmenin belirli bir unsurunu (COP31 daveti, BM reformu) başlığa taşıyor; bunun bir yargıyı haksız etkilediği gösterilmiyor.",
+ "alternative_explanation": "Unsur seçimi olağan editoryal öncelik farkı olabilir.",
+ "missing_context": ["Görüşmeye dair resmî açıklamanın tam metni"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Görüşmede, ikili ilişkiler ile Birleşmiş Milletler'in yeni Genel Sekreteri'ni belirleme süreci ele alındı", "kind": "statement"},
+  {"source": "text", "quote": "[yenisafak · 20:15] Macron ile telefonda görüşen Cumhurbaşkanı Erdoğan’dan BM’ye reform mesajı", "kind": "behavioral"},
+  {"source": "text", "quote": "[ahaber · 20:14] Başkan Erdoğan Macron ile telefonda görüştü! Fransa Cuymhurbaşkanı'na COP31 Liderler Zirvesi daveti", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 20:19] Cumhurbaşkanı Erdoğan, Macron ile telefonda görüştü", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir aktarım görüşmeyi 'Genel Sekreter belirleme süreci' olarak verirken, Yeni Şafak bunu 'reform mesajı' olarak keskinleştiriyor; diğerleri içeriği tamamen düşürüyor.",
+ "alternative_explanation": "Farklı unsurlar resmî açıklamanın farklı bölümlerinden alınmış olabilir.",
+ "missing_context": ["İletişim Başkanlığı açıklamasının tam metni"]}
+]}

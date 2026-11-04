@@ -1,0 +1,42 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasında 6 kişi için gözaltı kararı verildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olgu bir kurumda 'vurgun', diğerinde nötr 'soruşturma' olarak adlandırılıyor; ancak bir tercih ya da yargının bu çerçeveye bağlandığı gösterilmiyor.",
+ "alternative_explanation": "'Fon vurgunu' kamuoyunda yerleşmiş bir ad olabilir; kurumun önceki haberlerindeki adlandırmayı sürdürmesi olağan.",
+ "missing_context": ["Soruşturmadaki iddiaların resmi tanımı", "Kurumun önceki haberlerinde kullandığı ad"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturmasında yeni SPK gözaltıları! Aralarında yöneticiler de var", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasında 6 gözaltı kararı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı başlıklar eski SPK yöneticilerini öne çıkarıyor, diğerleri yalnızca sayıyı veriyor; haksız ağırlık açık değil.",
+ "alternative_explanation": "Düzenleyici kurum yöneticilerinin şüpheli olması gerçek bir haber değeri taşır.",
+ "missing_context": ["Şüphelilerin tam listesi ve rolleri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "aralarında eski SPK ve mevcut BDDK yöneticilerinin de bulunduğu 6 kişi hakkında gözaltı kararı verildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasında yeni SPK gözaltıları!", "kind": "behavioral"},
+  {"source": "text", "quote": "Eski SPK, BDDK ve Tera Holding yöneticileri listede", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir kurum 'mevcut BDDK' derken diğeri 'yeni SPK gözaltıları' diyerek 'eski' nitelemesini düşürüyor; şüphelilerin statüsü anlatımlar arasında değişiyor.",
+ "alternative_explanation": "Başlık kısaltması ve ilk saatlerdeki bilgi farkı; 'yeni' sözcüğü SPK'ya değil gözaltı dalgasına işaret ediyor olabilir.",
+ "missing_context": ["Şüphelilerin güncel görev durumu", "Başsavcılık açıklamasının tam metni"]}
+]}

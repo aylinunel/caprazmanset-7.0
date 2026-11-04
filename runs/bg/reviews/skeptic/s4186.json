@@ -1,0 +1,54 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon vurgunu soruşturması: Ertan Aydın ve Gürol Sami Özer gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Sermaye piyasası işlemleri soruşturmasında Ertan Aydın tutuklandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı soruşturma 'vurgun' veya teknik 'sermaye piyasası işlemleri' ifadesiyle adlandırılmış; tercih bağlantısı metinde yok.",
+ "alternative_explanation": "'Fon soruşturması' kamuoyunda yerleşmiş bir ad; farklı adlandırmalar üslup farkı olabilir.",
+ "missing_context": ["İddianamedeki suç tanımı", "Okur yargısının çerçeveye göre değiştiğine dair kanıt"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Eski AKP milletvekili Ertan Aydın yeniden gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "eski Milletvekili Ertan Aydın tutuklama talebiyle hakimliğe sevk edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar parti bağını belirtiyor, biri atlıyor; grup üyeliğine bağlı farklı standart açıkça gösterilmiyor.",
+ "alternative_explanation": "Parti bağı haber değeri taşıyan olgusal bir bilgi; atlanması yer sınırlamasından kaynaklanabilir.",
+ "missing_context": ["Kurumların karşılaştırılabilir davalarda parti bağını nasıl verdiği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Aydın, ev hapsi ve yurt dışı çıkış yasağı şeklindeki adli kontrol şartıyla serbest bırakıldı.", "kind": "statement"},
+  {"source": "text", "quote": "Fon soruşturması. Ertan Aydın ve Gürol Sami Özer tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasında yeni gelişme! Ertan Aydın gözaltına alındı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı saatlerde kurumlar gözaltı ve tutuklama gibi farklı aşamaları veriyor; sürecin bir yanlış sonuca yol açtığı gösterilmiyor.",
+ "alternative_explanation": "Süreç hızla ilerlediği için farklı anlarda güncellenen başlıklar olağan zaman farkını yansıtıyor.",
+ "missing_context": ["Başlıkların güncellenme zamanları", "Mahkeme kararlarının resmi kronolojisi"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika! Fon soruşturmasında yeni karar: Ertan Aydın tutuklandı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Son dakika' gibi dikkat çekici biçimler var; çarpıcı ayrıntının bir yargıyı haksız yönlendirdiğine dair ifade yok.",
+ "alternative_explanation": "Biçimsel vurgu haber akışı kalıbı; içerik olgusal.",
+ "missing_context": ["Karşılaştırmalı ağırlıklandırma kanıtı"]}
+]}

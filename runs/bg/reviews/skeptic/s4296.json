@@ -1,0 +1,55 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Azerbaycan talep etmişti: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhurbaşkanı Başdanışmanı Oktay Saral 10 yıllık görevinden istifa etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ayrılış bir kısımda 'görevden alma', diğerinde 'istifa' olarak sunuluyor; bu iki ifadenin olgusal eşdeğer olduğu metinde kurulmuyor.",
+ "alternative_explanation": "Olayın iki aşaması (görevden alma haberi, ardından istifa açıklaması) farklı zamanlarda aktarılmış olabilir.",
+ "missing_context": ["Resmi kararname veya açıklama", "İki ifadenin olgusal ilişkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Görevden Alınan Oktay Saral İstifa Etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Oktay Saral görevinden istifa etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Sayın Cumhurbaşkanımız göreve getirdi, kendisinin talimatıyla ayrıldım", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sonraki başlıklar 'görevden alma' bağlamını ve talimat ifadesini düşürüp yalnızca istifayı veriyor; maddi bir sonuç çarpıtması gösterilmiyor.",
+ "alternative_explanation": "Saral'ın kendi istifa açıklaması yeni olgu olarak haberleştirilmiş olabilir; önceki bağlam başka haberlerde verilmiş olabilir.",
+ "missing_context": ["Saral'ın istifa açıklamasının tam metni", "Kurumların önceki haberleri"]},
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İddia: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Azerbaycan talep etmişti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bilgi bir kurumda 'iddia', diğerinde kesin olgu olarak veriliyor; ancak hatırlanan bir öğenin yanlış kaynağa atfedildiğini gösteren kayıt yok.",
+ "alternative_explanation": "Bu bir hafıza-kaynak hatası değil, doğrulama düzeyi farkı; kurumlar farklı kaynaklara dayanmış olabilir.",
+ "missing_context": ["Azerbaycan talebinin kaynağı", "Kaynak uyuşmazlığını gösteren resmi kayıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Başörtüsü yasağına karşı çıkıp Azerbaycan'ın tepkisini çekmişti!", "kind": "behavioral"},
+  {"source": "text", "quote": "Oktay Saral istifa ettiğini açıkladı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı başlıklar başörtüsü tartışmasını öne çıkarıyor, bazıları yalnızca istifayı veriyor; haksız etki gösterilmiyor.",
+ "alternative_explanation": "Başörtüsü açıklaması ayrılışın bildirilen nedeni; öne çıkarılması bağlam sağlıyor olabilir.",
+ "missing_context": ["Ayrılışın resmi gerekçesi", "Vurgunun okur yargısına etkisi"]}
+]}

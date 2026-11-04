@@ -1,0 +1,48 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Muhsin Yazıcıoğlu soruşturmasında FETÖ detayı! 36 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Muhsin Yazıcıoğlu soruşturmasında 36 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "soruşturmada kritik bir eşik aşıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı tutuklama bilgisi bazı kurumlarda 'FETÖ detayı' veya 'kritik eşik' vurgusuyla, diğerlerinde yalın verilmiş.",
+ "alternative_explanation": "FETÖ bağlantısı soruşturmanın resmi suçlamasının parçası olabilir; vurgu bilgi aktarımıdır.",
+ "missing_context": ["Başsavcılık açıklamasının tam metni", "Sunuluşun okur yargısına etkisine dair veri"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ankara Cumhuriyet Başsavcılığından yapılan açıklamada soruşturmanın çok yönlü ve titizlikle sürdürüldüğü belirtildi.", "kind": "statement"},
+  {"source": "text", "quote": "şüphelilerin fetö bağlantılı kasten öldürme suçuna iştirak ettikleri", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Soruşturmanın niteliğine ve şüphelilerin suçuna dair değerlendirmeler Başsavcılık açıklamasına dayanılarak, bağımsız doğrulama olmadan aktarılıyor.",
+ "alternative_explanation": "Resmi açıklamanın aktarılması olağan adli habercilik pratiğidir; statünün itirazı bastırdığı gösterilmiyor.",
+ "missing_context": ["Şüpheli avukatlarının açıklamaları", "Delillere dair bağımsız bilgi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "muhsin yazıcıoğlu ve arkadaşlarının bulunduğu helikopterin düşürülmesine ilişkin soruşturmada", "kind": "behavioral"},
+  {"source": "text", "quote": "Muhsin Yazıcıoğlu ve arkadaşlarının bulunduğu helikopterin düşmesine ilişkin yürütülen soruşturmada", "kind": "behavioral"},
+  {"source": "text", "quote": "Soruşturma dosyası kapsamında gözaltına alınan 36 kişi, çıkarıldıkları mahkemece tutuklanarak cezaevine gönderildi.", "kind": "behavioral"},
+  {"source": "text", "quote": "gözaltına alınan 38 şüpheliden 36’sı tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Star 'düşürülmesine' diyerek kasıt unsurunu keskinleştirirken diğerleri 'düşmesine' diyor; Milli Gazete ise gözaltı sayısını 36'ya indirip 2 serbest bırakılanı düşürüyor.",
+ "alternative_explanation": "Star ifadesi Başsavcılığın 'kasten öldürme' suçlamasını yansıtıyor olabilir; Milli Gazete farkı özetleme hatası olabilir ve bir sonuca etkisi gösterilmiyor.",
+ "missing_context": ["Başsavcılığın resmi açıklamasındaki ifade", "Gözaltı sayısına dair resmi kayıt"]},
+{"card_id": "suggestibility", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Ankara Cumhuriyet Başsavcılığı, Muhsin Yazıcıoğlu'nun ölümüne ilişkin soruşturma kapsamında 36 şüphelinin tutuklandığını bildirdi.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir öneri sonrası inanç veya kararın değiştiğine dair önce-sonra bilgisi yok.",
+ "alternative_explanation": "Kurumlar resmi açıklamayı aktarıyor; bu bir telkin etkisi göstermez.",
+ "missing_context": ["Önceki görüş ve sonraki değişim", "Telkin ile değişim arasında açık bağ"]}
+]}

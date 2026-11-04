@@ -1,0 +1,44 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "9 ay sonra bir ilk: Merkez Bankası faizi indirdi", "kind": "behavioral"},
+  {"source": "text", "quote": "Türkiye Cumhuriyet Merkez Bankası, politika faizini yüzde 36 olarak belirledi.", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı karar kimi kurumda 'ilk indirim' olarak, kimi kurumda yalnız seviye olarak sunuluyor; yargıya bağlantı gösterilmiyor.",
+ "alternative_explanation": "Farklı ayrıntı düzeyi, son dakika hızına ve editoryal kısalığa bağlı olabilir.",
+ "missing_context": ["PPK karar metninin tamamı", "Okur yorumuna etkiyi gösteren veri"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "20 ekonomistin katıldığı ankette 19 uzman 100 baz puan indirim bekliyor", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Anket beklentisi bir referans noktası olarak aktarılıyor; sonraki bir yargının ona haksız bağlandığı gösterilmiyor.",
+ "alternative_explanation": "Piyasa beklentisini önceden aktarmak standart ekonomi haberciliğidir; karar beklentiyle örtüştü.",
+ "missing_context": ["Anketin yöntemi", "Beklentinin dayandığı veriler"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "9 ay sonra ilk indirim!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'İlk' vurgusu dikkat çekiyor; ancak bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Politika yönündeki değişimi vurgulamak olgusal ve habere değer bir bilgidir.",
+ "missing_context": ["Okur yargısına etkiye dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Merkez Bankası (MB), faizi 100 baz puan düşürerek 36'ya indirdi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Türkiye Cumhuriyet Merkez Bankası, politika faizini yüzde 36 olarak belirledi.", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum indirimi belirtmeden yalnızca yeni seviyeyi veriyor; diğerleri değişimi açıkça aktarıyor.",
+ "alternative_explanation": "İlk son dakika flaşı kısa tutulmuş ve sonradan güncellenmiş olabilir; maddi anlam değişmiyor.",
+ "missing_context": ["Haberlerin güncellenmiş sürümleri", "Farkın okur kararına etkisi"]}
+]}

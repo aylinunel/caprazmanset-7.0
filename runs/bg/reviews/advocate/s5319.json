@@ -1,0 +1,57 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar", "kind": "behavioral"},
+  {"source": "text", "quote": "2027 için yeniden değerleme oranı ne kadar oldu?", "kind": "behavioral"},
+  {"source": "text", "quote": "Yeniden değerleme oranı yüzde 27,83 oldu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı oran bazı kurumlarda 'zam' çerçevesiyle, bazılarında nötr teknik dille veriliyor; çerçevenin bir yargıya bağlandığı görülmüyor.",
+ "alternative_explanation": "Yeniden değerleme oranı fiilen harç ve cezaların artışını belirler; 'zam' ifadesi olguya uygundur.",
+ "missing_context": ["Enflasyonla karşılaştırma", "Haber gövdeleri"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak", "kind": "statement"},
+  {"source": "text", "quote": "Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz ve çarpıcı tutarlar öne çıkarılmış; karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık verildiği açıkça gösterilmiyor.",
+ "alternative_explanation": "Artışlar okuru doğrudan etkileyen gerçek maliyetlerdir; olumlu karşılık bilgi bulunmayabilir.",
+ "missing_context": ["Gelir/ücret artışlarıyla karşılaştırma"]},
+{"card_id": "anchoring-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yeniden değerleme oranının yüzde 27,89 olarak gerçekleşmesi durumunda 2027 yılında yurt dışı telefon kayıt harcı 70 bin liraya, 10 yıllık pasaport 17 bin liraya yaklaşırken", "kind": "statement"},
+  {"source": "text", "quote": "Vergi, harç ve cezalar 2027'de yüzde 27,83'lük yeniden değerleme oranında artacak", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [1]}],
+ "mechanism": "Erken bir haber, açıklanmadan önceki %27,89 tahminini referans alarak tutarlar hesaplamış; sonraki açıklanan oran %27,83. Başlangıç değeri hesaplamaya temel olmuş ancak koşullu ifade edilmiş.",
+ "alternative_explanation": "Haber açıkça koşullu ('gerçekleşmesi durumunda') bir projeksiyondur; resmi oran açıklanmadan önce makul bir tahmindir.",
+ "missing_context": ["Kurumun resmi oran sonrası haberi güncelleyip güncellemediği", "%27,89 tahmininin kaynağı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Yeniden değerleme oranı belli oldu: İşte yeni kimlik, pasaport ve ehliyet harçları", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}],
+ "mechanism": "Bir kurum en çarpıcı ceza tutarını öne çıkarırken diğerleri rutin harç kalemlerini listeliyor; karşılaştırmalı vurgu farkı var ama hüküm etkisi gösterilmiyor.",
+ "alternative_explanation": "Çarpıcı örnek, oranın somut etkisini anlatmak için seçilmiş olabilir.",
+ "missing_context": ["Haberlerde verilen tüm kalemler"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda: 2027'nin yeniden değerleme oranı şekillendi", "kind": "behavioral"},
+  {"source": "text", "quote": "Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurumun oranı (%27,89) diğerlerinin aktardığı açıklanan orandan (%27,83) farklı; karşılaştırılabilir bir taban var, ancak farkın bir sonucu yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Fark, resmi açıklama öncesi yapılan tahminden kaynaklanıyor olabilir; bellek bozulması değildir.",
+ "missing_context": ["Resmi açıklamanın saati ve metni"]}
+]}

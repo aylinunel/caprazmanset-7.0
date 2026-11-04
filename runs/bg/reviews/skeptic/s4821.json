@@ -1,0 +1,65 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sosyal medyada yeni dönem yarın başlıyor: Bunları yapmayanın hesabı kapatılacak!", "kind": "behavioral"},
+  {"source": "text", "quote": "Sosyal medyada yeni dönem yarın başlıyor: e-Devlet üzerinden zorunlu olacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Sosyal medyada yarın yeni dönem! 15 yaş altına kapılar kapanıyor", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı düzenleme yaptırım/kayıp ('hesabı kapatılacak') veya prosedür ('zorunlu olacak') çerçevesiyle sunulmuş; tercih bağlantısı yok.",
+ "alternative_explanation": "Yaptırım vurgusu okura pratik bir uyarı işlevi görebilir; farklı başlıklar düzenlemenin farklı yönlerini öne çıkarıyor.",
+ "missing_context": ["Hesap kapatma yaptırımının kapsamı ve takvimi", "Okur tepkisinin çerçeveye göre değiştiğine dair veri"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yapmayanın hesabı kapatılacak: Sosyal medyada yeni dönem yarın başlıyor", "kind": "statement"},
+  {"source": "text", "quote": "mevcut hesaplar için 31 Mart 2027’ye kadar yaklaşık 5 aylık bir", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz yaptırım öne çıkarılıyor; ancak olumlu/olumsuz bilginin orantısız ağırlıklandırıldığı açıkça belgelenmiyor.",
+ "alternative_explanation": "Yaptırım gerçek ve kullanıcılar için işlem gerektiriyor; uyarı niteliğinde orantılı bir vurgu olabilir.",
+ "missing_context": ["Geçiş süresinin başlıklarda neden yer almadığı", "Karşılaştırmalı ağırlıklandırma kanıtı"]},
+{"card_id": "loss-aversion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Sosyal medyada yeni dönem. Yapmayanın hesabı kapatılacak", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kayıp çerçeveli dil var; eşdeğer kazanç-kayıp karşılaştırması veya karar asimetrisi yok.",
+ "alternative_explanation": "Kayıp dili tek başına kayıptan kaçınma değildir; yaptırımın bilgilendirilmesi olağan haberciliktir.",
+ "missing_context": ["Eşdeğer kazanç ile kayıp karşılaştırması", "Eşleştirilmiş seçim davranışı"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Sosyal medyada yeni dönem: Bakan Göktaş duyurdu: 15 yaş altına düzenleme, yaş doğrulamasına e-Devlet şartı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Duyuru bir bakana atfediliyor; statünün bir iddiayı haksız biçimde belirlediği veya karşı kanıtı ezdiği gösterilmiyor.",
+ "alternative_explanation": "Yürürlüğe giren düzenlemenin yetkili bakana atfedilmesi olağan kaynak gösterimidir.",
+ "missing_context": ["Düzenlemeye yönelik eleştiri veya karşı görüşlerin ele alınışı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sosyal medyada yeni dönem yarın başlıyor: Bunları yapmayanın hesabı kapatılacak!", "kind": "behavioral"},
+  {"source": "text", "quote": "Sosyal medyada çocuklar için yeni dönem", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı kurumlar çarpıcı yaptırımı, bazıları çocuk koruma amacını öne çıkarıyor; bir yargı hatası metinde açık değil.",
+ "alternative_explanation": "Farklı vurgular farklı okur ihtiyaçlarına (uyum yükümlülüğü ve politika amacı) yanıt olabilir.",
+ "missing_context": ["Vurgunun okur algısını etkilediğine dair karşılaştırmalı veri"]}
+]}

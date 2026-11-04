@@ -1,0 +1,34 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 13:13] İstanbul'u kilitleyen kaza: 15 Temmuz Şehitler Köprüsü'nde 4 araç birbirine girdi", "kind": "behavioral"},
+  {"source": "text", "quote": "15 Temmuz Şehitler Köprüsü'nde 5 aracın karıştığı zincirleme trafik kazası nedeniyle trafik yoğunluğu yaşandı.", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı kaza \"İstanbul'u kilitleyen\" ile \"trafik yoğunluğu\" olarak farklı çerçeveleniyor; bunun bir yargıyı değiştirdiği açıkça gösterilmiyor.",
+ "alternative_explanation": "Trafik etkisinin büyüklüğüne dair farklı gözlemler ya da üslup farkı.",
+ "missing_context": ["Trafik yoğunluğunun süresi ve kapsamına dair resmi veri"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[akit · 12:17] 15 Temmuz Şehitler Köprüsü'nde feci kaza!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz bir olay olumsuz dille aktarılıyor; karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık gösterilmiyor.",
+ "alternative_explanation": "Kaza haberinin doğası olumsuz; dil olayla orantılı olabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi ve karar etkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[cumhuriyet · 12:29] 15 Temmuz Şehitler Köprüsü'nde 5 araçlı zincirleme kaza", "kind": "behavioral"},
+  {"source": "text", "quote": "[ahaber · 12:20] 15 Temmuz Şehitler Köprüsü girişinde zincirleme kaza! Trafik kilitlendi", "kind": "behavioral"},
+  {"source": "text", "quote": "Kaza nedeniyle Anadolu Yakası yönünde trafik yoğunluğu oluştu.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Araç sayısı (4/5) ve trafik etkisi (\"kilitlendi\"/\"yoğunluk\") kurumlar arasında farklılaşıyor; farkın maddi ve gerekçesiz bir sonuca yol açtığı gösterilmiyor.",
+ "alternative_explanation": "Erken ve farklı kaynaklardan gelen bilgi; trafik durumu zamana göre değişmiş olabilir. Olay kümesinde maraton kapanışı haberleri de karışmış.",
+ "missing_context": ["Resmi kaza tutanağı veya emniyet açıklaması", "Trafik verisinin zamana göre değişimi"]}
+]}

@@ -1,0 +1,50 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon vurgunu soruşturması: Ertan Aydın ve Gürol Sami Özer gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon skandalına yönelik soruşturma kapsamında", "kind": "behavioral"},
+  {"source": "text", "quote": "Sermaye piyasası işlemleri soruşturmasında Ertan Aydın tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı soruşturma 'vurgun', 'skandal' veya teknik 'sermaye piyasası işlemleri' diliyle adlandırılıyor; çerçeve bir yargıya bağlanmıyor.",
+ "alternative_explanation": "Soruşturmanın kamuoyunda yerleşik adı farklı kurumlarda farklı olabilir.",
+ "missing_context": ["Savcılık açıklamasının tam metni"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Eski AKP milletvekili Ertan Aydın yeniden gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "eski Milletvekili Ertan Aydın tutuklama talebiyle hakimliğe sevk edildi", "kind": "behavioral"},
+  {"source": "context", "quote": "sabah: sağ (80)", "kind": "statement"},
+  {"source": "context", "quote": "sozcu: sol (42)", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Sol yerleşimli kurumlar başlıkta parti aidiyetini ('AKP') öne çıkarırken sağ yerleşimli bir kurum lede'de partiyi belirtmiyor; grup aidiyetiyle vurgu farkı arasında olası bağ var, ancak tutarsız standart açıkça gösterilmiyor.",
+ "alternative_explanation": "Parti bilgisi haberin başka yerinde verilmiş olabilir; diğer sağ kurumlar 'AK Parti' ifadesini kullanmıştır.",
+ "missing_context": ["Sabah haberinin tam metni", "Kurumların muhalefet partili şüphelilerde parti aidiyetini nasıl verdiği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "eski AKP Ankara Milletvekili ve eski Başbakan Başdanışmanı Ertan Aydın adliyeye sevk edildi", "kind": "statement"},
+  {"source": "text", "quote": "eski Milletvekili Ertan Aydın tutuklama talebiyle hakimliğe sevk edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Ertan Aydın kimdir, kaç yaşında ve nereli? Ertan Aydın gözaltın alındı mı?", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "İlk haberdeki parti ve görev bilgisi bir aktarımda düzleşmiş, başka bir kurum gelişmeyi soru biçiminde belirsizleştirmiş; maddi etki gösterilmiyor.",
+ "alternative_explanation": "Kısaltma ve SEO amaçlı soru başlıkları olağan biçim tercihleridir.",
+ "missing_context": ["Haber gövdeleri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika! Fon soruşturmasında yeni karar: Ertan Aydın tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasında yeni gelişme: Ertan Aydın tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Başlıklarda 'son dakika' gibi dikkat çekici öğeler var; ancak çarpıcı bir ayrıntının hükmü haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Aciliyet etiketleri haber akışının olağan biçimidir.",
+ "missing_context": ["Karşılaştırmalı ağırlık verisi"]}
+]}

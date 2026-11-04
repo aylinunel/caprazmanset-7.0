@@ -1,0 +1,53 @@
+{"role": "advocate", "assessments": [
+{"card_id": "halo-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi", "kind": "behavioral"},
+  {"source": "text", "quote": "Trabzonspor, Gaziantep FK'yi 2-0 yendi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Takvim galibiyeti 'Reis' figürüne bağlayıp 'mucize' olarak sunuyor; Diriliş aynı sonucu nötr veriyor. Kişiye yönelik olumlu izlenim sonuç yorumuna yayılıyor olabilir.",
+ "alternative_explanation": "Teknik direktörün seri performansına dayalı bir övgü; ayrı bir alanda yargı yapılmıyor.",
+ "missing_context": ["İki ayrı alanda olumlu yargı ve aralarındaki açık bağ"]},
+{"card_id": "hot-hand-fallacy", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "CANLI Trabzonspor'da hedef 5'te 5! Rakip Gaziantep FK", "kind": "statement"},
+  {"source": "text", "quote": "Reis ile üst üste 5. galibiyet...", "kind": "statement"},
+  {"source": "text", "quote": "Trabzonspor Gaziantep FK'ya hiç yenilmedi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "A Haber seriyi '5'te 5' hedefiyle maç öncesine taşıyor; Sözcü geçmiş üstünlüğü öne çıkarıyor. Seri ile sonraki başarı arasında örtük bağ var.",
+ "alternative_explanation": "Seri hedef ve istatistik olarak aktarılıyor; açık bir olasılık tahmini yapılmıyor.",
+ "missing_context": ["Seriye dayalı açık tahmin veya karar", "Taban oran karşılaştırması"]},
+{"card_id": "outcome-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sonuç sonrası değerlendirme teknik direktörün başarısını 'mucize' olarak niteliyor; değerlendirme sonuca bağlı olabilir.",
+ "alternative_explanation": "Galibiyet sonrası olağan övgü; önceden alınmış belirli bir karar değerlendirilmiyor.",
+ "missing_context": ["Sonuç bilinmeden alınmış karar", "Sürecin değişmediğinin açık ifadesi"]},
+{"card_id": "fundamental-attribution-error", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başarı bir kişiye atfediliyor; ancak kalıcı bir karakter özelliği iddiası ve göz ardı edilen durumsal etken yok.",
+ "alternative_explanation": "Teknik direktöre yönelik coşkulu bir manşet; kişilik çıkarımı yapılmıyor.",
+ "missing_context": ["Kalıcı eğilim atfı ve dışlanan durumsal etken"]}
+]}

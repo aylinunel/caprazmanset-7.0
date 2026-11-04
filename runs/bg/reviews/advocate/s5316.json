@@ -1,0 +1,48 @@
+{"role": "advocate", "assessments": [
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "32 ilde FETÖ’ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı", "kind": "statement"},
+  {"source": "text", "quote": "Bakanlık duyurdu: 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haberler tek kaynak olarak İçişleri Bakanlığı açıklamasına dayanıyor; bir başlık 'Jandarmamız' ifadesini aynen aktarıyor. Statünün değerlendirmenin yerine geçtiği açıkça gösterilmiyor.",
+ "alternative_explanation": "Operasyon sayıları için yetkili resmi kaynağı aktarmak olağan habercilik uygulamasıdır.",
+ "missing_context": ["Bağımsız kaynak veya şüpheli tarafı açıklaması", "Haber gövdeleri"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "FETÖ'ye 32 ilde ağır darbe! 41 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "32 ilde FETÖ operasyonu: 72 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı operasyon 'ağır darbe' gibi zafer çerçevesiyle veya nötr dille, farklı sayılar (72 gözaltı/41 tutuklama) öne çıkarılarak sunuluyor; çerçeve bir yargıya bağlanmıyor.",
+ "alternative_explanation": "Hangi sayının başlığa çıkarılacağı editoryal tercih olup her iki sayı da doğrudur.",
+ "missing_context": ["Haber gövdeleri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Gözaltına alınanlardan 41’i tutuklanırken, diğerlerinin işlemlerinin sürdüğü bildirildi.", "kind": "statement"},
+  {"source": "text", "quote": "32 ilde FETÖ operasyonu! Sözde yardım kuruluşlarına finans sağlamışlar: 72 şüpheliden 41’i tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "32 ilde FETÖ operasyonu: 41 tutuklama", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bakanlık açıklamasının aktarıldığı bir tabana göre bir başlık suçlamayı ('finans sağlamışlar') kesin ifadeyle keskinleştiriyor, diğerleri 'işlemleri sürüyor' kaydını düşürüyor.",
+ "alternative_explanation": "Finans iddiası Bakanlık açıklamasının devamında yer alıyor olabilir; başlık kısaltması olağandır.",
+ "missing_context": ["Bakanlık açıklamasının tam metni"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "FETÖ'ye 32 ilde ağır darbe! 41 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "FETÖ operasyonlarında 72 şüpheli yakalandı 41'i tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}],
+ "mechanism": "Bir kurum çarpıcı 'ağır darbe' ifadesini öne çıkarırken diğeri sayıları sade biçimde veriyor; karşılaştırmalı vurgu farkı var.",
+ "alternative_explanation": "Vurgulu dil kurumun genel üslubunun parçası olabilir.",
+ "missing_context": ["Okur/karar etkisine dair veri"]}
+]}

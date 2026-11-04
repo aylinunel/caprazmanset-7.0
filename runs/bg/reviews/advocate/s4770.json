@@ -1,0 +1,50 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı tutuklamalar 'ihale vurgunu', 'büyük şok' veya nötr 'soruşturma' çerçeveleriyle sunulmuş; çerçeveye dayalı bir tercih metinde yok.",
+ "alternative_explanation": "Suçlamaların içeriği ihaleye fesat olduğundan bazı ifadeler iddiaları özetliyor olabilir.",
+ "missing_context": ["Sunuma bağlı açık bir değerlendirme"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakırköy Belediyesi soruşturması: Beş başkan yardımcısı dahil 39 tutuklama", "kind": "behavioral"},
+  {"source": "text", "quote": "39 kişi tutuklandı, başkanın babasına ev hapsi", "kind": "behavioral"},
+  {"source": "text", "quote": "gözaltına alınan 63 şüpheliden 39'u tutuklandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Star'ın 63'ten 39 tutuklama aktarımı temel alındığında Sabah yalnızca 19 firma temsilcisini başlığa taşıyıp belediye yöneticilerini atlıyor; Diken ve Sözcü ise başkan yardımcılarını ve başkanın babasını öne çıkarıyor.",
+ "alternative_explanation": "Sabah haberi tutuklananların bir alt grubunu ele alan ayrı bir gelişme olabilir; seçici vurgu habercilik açısıyla açıklanabilir.",
+ "missing_context": ["Sabah haberinin tam metni", "Farkın bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "39 kişi tutuklandı, başkanın babasına ev hapsi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "'Büyük şok' ve başkanın babası gibi çarpıcı ayrıntılar öne çıkarılmış; haksız etki gösterilmiyor.",
+ "alternative_explanation": "Başkanın yakınlarının soruşturmada yer alması nesnel haber değeri taşır.",
+ "missing_context": ["Çarpıcı ayrıntının bir yargıya açıkça bağlanması"]},
+{"card_id": "anchoring-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakırköy Belediyesi soruşturmasında Başsavcılık 40 kişi için tutuklama talep etti", "kind": "statement"},
+  {"source": "text", "quote": "Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Savcılığın 40 kişilik tutuklama talebi referans noktası olarak kalmış ve bazı başlıklar 39 yerine 40 tutuklama bildirmiş olabilir.",
+ "alternative_explanation": "40 rakamı erken bir ara bilgi veya basit bir hata olabilir; talep ile karar arasında açık bağ kurulmuyor.",
+ "missing_context": ["40 rakamının kaynağını açıklayan ifade", "Sonradan düzeltme yapılıp yapılmadığı"]}
+]}

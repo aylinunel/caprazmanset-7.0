@@ -1,0 +1,46 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kaboğlu dönemi resmen bitti", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Barosu geri döndü", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Barosu başkanlığına Ümit Kocasakal seçildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı sonuç kimi kurumda kaybedenin sonu, kimi kurumda kazananın sözü üzerinden çerçeveleniyor.",
+ "alternative_explanation": "'Geri döndü' kazananın kendi sözünün aktarımıdır; farklı vurgu, farklı haber açılarından kaynaklanabilir.",
+ "missing_context": ["Seçim kampanyasının arka planı", "Resmi kesin sonuçlar"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul Barosu geri döndü", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Grup üyeliği ile değerlendirme farkı arasında açık bir bağ metinde kurulmuyor.",
+ "alternative_explanation": "İfade kazanan adayın sözü olarak aktarılmıştır; yayın kuruluşunun grup kayırması değildir.",
+ "missing_context": ["Kurumların adaylarla ilişkisine dair açık bilgi", "Benzer seçimlerde kurumların tutumu"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ümit Kocasakal seçimi 9 bin 548 oy ile kazandı", "kind": "behavioral"},
+  {"source": "text", "quote": "9 bin 970 oy alarak seçimi önde tamamladı", "kind": "behavioral"},
+  {"source": "text", "quote": "Ümit Kocasakal 10 bin 227 oyla başkan seçildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Oy sayıları kurumlar arasında farklı; ancak fark bir sonucu değiştirmiyor.",
+ "alternative_explanation": "Sayım ilerledikçe güncellenen resmi olmayan sonuçlar farklı anlarda aktarılmıştır.",
+ "missing_context": ["Kesin resmi sonuçlar", "Her rakamın açıklandığı saat"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Kaboğlu dönemi resmen bitti", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Vurgulu bir başlık var; belirginliğin bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Görevdeki başkanın kaybetmesi haber değeri taşıyan meşru bir vurgudur.",
+ "missing_context": ["Okur yargısına etkiyi gösteren veri"]}
+]}

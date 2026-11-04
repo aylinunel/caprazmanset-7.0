@@ -1,0 +1,25 @@
+{"role": "advocate", "assessments": [
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "NBA'de milli basketbolcumuz Alperen Şengün'ün forma giydiği Houston Rockets", "kind": "statement"},
+  {"source": "text", "quote": "Alperen Şengün \"triple-double\"ın kıyısından döndü! Houston Rockets kazandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Milli basketbolcumuz' ifadesi grup aidiyetini açıkça kuruyor ve haber takım galibiyeti yerine Türk oyuncuya odaklanıyor.",
+ "alternative_explanation": "Türk okur kitlesi için milli oyuncuya odaklanmak haber değeri gereği olağandır; başka oyunculara farklı standart uygulandığı gösterilmiyor.",
+ "missing_context": ["Diğer oyuncuların benzer performanslarının nasıl haberleştirildiği", "Karşılaştırılabilir yabancı oyuncu haberleri"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Houston Rockets, Atlanta'yı yıktı — NBA'de Houston Rockets, Atlanta Hawks'ı 121-114'le geçti.", "kind": "behavioral"},
+  {"source": "text", "quote": "Houston, Atlanta'ya şans tanımadı", "kind": "behavioral"},
+  {"source": "text", "quote": "Alperen Şengün'den bir double-double daha", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı 121-114 sonucu 'yıktı', 'şans tanımadı' ve 'geçti' gibi farklı yoğunlukta ifadelerle sunulmuş.",
+ "alternative_explanation": "Spor dilinde abartılı fiiller olağandır; sunuluşun bir değerlendirmeyi değiştirdiğine dair bağ yok.",
+ "missing_context": ["Okur değerlendirmesinin ifadeye göre değiştiğine dair veri"]}
+]}

@@ -1,0 +1,51 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Brezilya’da seçimin galibi sol: Lula yeniden başkan!", "kind": "behavioral"},
+  {"source": "text", "quote": "Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz", "kind": "behavioral"},
+  {"source": "text", "quote": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı seçim sonucu bir kurumda ideolojik ('sol'), bir kurumda 'tarihi zafer' çerçevesiyle, diğerlerinde nötr dille sunulmuş; çerçeve farkı bir değerlendirmeye bağlanmıyor.",
+ "alternative_explanation": "Lula'nın solcu kimliği ve dördüncü dönemi haber değeri taşıyan gerçek bilgilerdir; vurgu editoryal tercih olabilir.",
+ "missing_context": ["Haber metinlerinin tamamı", "Kurumların benzer seçimlerde sağ adayın zaferini nasıl çerçevelediği"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Brezilya’da seçimin galibi sol: Lula yeniden başkan!", "kind": "behavioral"},
+  {"source": "context", "quote": "birgun: sol (16)", "kind": "statement"},
+  {"source": "text", "quote": "İktidar partisinin adayı Devlet Başkanı Lula da Silva ile muhalefetin adayı sağcı Flavio Bolsonaro arasında kıyasıya yarış yaşandı.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Sol yerleşimli bir kurum kazananı grup kimliğiyle ('sol') ve sevinç ünlemiyle duyurmuş; grup aidiyeti ile vurgu arasında olası bir bağ var, ancak tutarsız standart gösterilmiyor.",
+ "alternative_explanation": "Adayların ideolojik konumu seçimin temel bilgisidir; diğer kurumlar da Bolsonaro'yu 'sağcı' olarak tanımlamıştır.",
+ "missing_context": ["Aynı kurumun sağ adayların zaferlerini nasıl başlıklandırdığı", "Haberin tam metni"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Brezilya'da tarihi geri dönüş! Resmi olmayan sonuçlara göre Lula da Silva 4. kez devlet başkanı", "kind": "behavioral"},
+  {"source": "text", "quote": "Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz", "kind": "behavioral"},
+  {"source": "text", "quote": "Brezilya'da seçimi Lula da Silva kazandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}],
+ "mechanism": "'Tarihi' ve ünlem gibi çarpıcı öğeler bazı başlıklarda öne çıkarken diğerleri sade; vurgu farkı karşılaştırmalı olarak görülüyor ancak bir hükmü yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Dördüncü dönem gerçekten nadir bir durumdur; 'tarihi' nitelemesi olguya dayalı olabilir.",
+ "missing_context": ["Okur/karar etkisine dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Brezilya'da tarihi geri dönüş!", "kind": "behavioral"},
+  {"source": "text", "quote": "mevcut Devlet Başkanı Luiz Inacio Lula da Silva kazandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "İlk haberdeki 'resmi olmayan sonuçlara göre' kaydı sonraki başlıklarda düşmüş (düzleştirme); görevdeki başkan için 'geri dönüş' ifadesi ise kesinleştirme/abartı örneği olabilir.",
+ "alternative_explanation": "Sonuçlar kısa sürede netleştiği için kayıt düşürülmüş olabilir; 'geri dönüş' Lula'nın 2023'teki dönüşüne gönderme olabilir.",
+ "missing_context": ["Resmi sonuçların açıklanma saati", "Haberlerin tam metni"]}
+]}

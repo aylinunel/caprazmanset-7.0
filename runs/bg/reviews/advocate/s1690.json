@@ -1,0 +1,50 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yeni Parti'nin ismi hükümsüz mü sayılacak? AYM karara bağlayacak", "kind": "behavioral"},
+  {"source": "text", "quote": "YENİ Parti'nin ismi değişecek mi?", "kind": "behavioral"},
+  {"source": "text", "quote": "Yeni Parti’nin ismi için kritik karar! AYM talebi görüşecek", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı gündem bilgisi (AYM'nin talebi görüşeceği) kurumlarca 'hükümsüz mü sayılacak' ve 'kritik karar' gibi farklı vurgularla sunulmuş.",
+ "alternative_explanation": "Soru başlıkları ve 'kritik' ifadesi olağan haber dili olabilir; sunuluş farkının bir yargıyı değiştirdiğine dair metinde bağ yok.",
+ "missing_context": ["Okur yargısının sunuluşa göre değiştiğine dair veri", "Kurumların başlık seçimi gerekçesi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "SON DAKİKA | Yeni Parti'nin ismi değişmeyecek! AYM kararını verdi", "kind": "statement"},
+  {"source": "text", "quote": "Özel, \"Hayırlı olsun. Millete rağmen hiçbir şey olmaz. Yolumuza devam ediyoruz\" diye konuştu.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'SON DAKİKA' etiketi ve çarpıcı alıntı öne çıkarılmış; ancak bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Son dakika etiketi ve parti liderinin tepkisi haber değeri taşıyan olağan unsurlardır.",
+ "missing_context": ["Öne çıkan ayrıntının bir çıkarımı nasıl etkilediğine dair kanıt", "Oy dağılımı gibi daha az görünür bilgiler"]},
+{"card_id": "source-confusion", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yargıtay Cumhuriyet Başsavcılığının isim benzerliği gerekçesiyle değişiklik yapılmasını istediği YENİ Parti", "kind": "statement"},
+  {"source": "text", "quote": "Yenilik Partisi'nin isim benzerliği gerekçesiyle yaptığı başvuruyu değerlendiren AYM", "kind": "statement"},
+  {"source": "text", "quote": "Yenilik Partisi’nin \"isim benzerliği\" gerekçesiyle YENİ Parti'ye açtığı iptal davasının", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Talebin kaynağı bir kurumda Yargıtay Cumhuriyet Başsavcılığı, diğerlerinde Yenilik Partisi olarak verilmiş; kaynak atfında olası uyumsuzluk.",
+ "alternative_explanation": "Süreç Yenilik Partisi başvurusuyla başlayıp Başsavcılık talebiyle AYM'ye taşınmış olabilir; iki atıf birlikte doğru olabilir.",
+ "missing_context": ["AYM dosyasının resmi başvuru kaydı", "Başsavcılığın süreçteki rolüne dair belge"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 16:00] AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek", "kind": "behavioral"},
+  {"source": "text", "quote": "talebini, yarınki Genel Kurul gündeminde görüşecek.", "kind": "behavioral"},
+  {"source": "text", "quote": "Anayasa Mahkemesi, kritik itirazı 21 Ekim Çarşamba günü (yarın) gündemine alacak.", "kind": "behavioral"},
+  {"source": "context", "quote": "İlk başlık: 2026-10-20T15:21", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Takvim 16:00'da kararın verildiğini yazarken aynı saatlerde diğer kurumlar görüşmenin ertesi gün olacağını bildiriyor; sonuç öne alınmış/keskinleştirilmiş görünüyor.",
+ "alternative_explanation": "Takvim başlığının tarihi verilmediği için ertesi gün 16:00'da yayımlanmış olabilir; fark zamanlama kaydından kaynaklanabilir.",
+ "missing_context": ["Takvim haberinin tam yayın tarihi", "Haberin sonradan güncellenip güncellenmediği"]}
+]}

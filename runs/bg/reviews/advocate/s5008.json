@@ -1,0 +1,40 @@
+{"role": "advocate", "assessments": [
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Eskişehir'den Kayseri'ye giden treni özel kıyafetli ekipler durdurdu!", "kind": "behavioral"},
+  {"source": "text", "quote": "Kayseri'de Yük Treninde Nitrik Asit Taşıyan Vagonda Sızıntı Tespit Edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı başlıklar 'alarm' ve 'özel kıyafetli ekipler' gibi tehdit vurgulu öğeleri öne çıkarıyor; karşılaştırılabilir olumlu bilginin göz ardı edildiği belgelenmiyor.",
+ "alternative_explanation": "Kimyasal sızıntı gerçek bir risk olduğundan uyarı dili orantılı olabilir.",
+ "missing_context": ["Sızıntının boyutu ve yaralanma olup olmadığı", "Durumun kontrol altına alındığına dair bilginin ele alınışı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kayseri’de nitrik asit alarmı! Yük trenindeki vagon karantinaya alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Kayseri’de kimyasal sızıntı tespit edilen vagon, karantinaya alındı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Çarpıcı 'alarm' ifadesi çoğu başlıkta öne çıkarken bazı kurumlar yalın anlatım kullanıyor; bir yargıyı yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "'Alarm' ifadesi ajans başlığından aynen alınmış olabilir.",
+ "missing_context": ["Açık bir yargı ya da seçim ifadesi"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Trende kimyasal sızıntı alarmı! Özel ekipler müdahale etti, vagon karantinaya alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Kayseri'de Yük Treninde Nitrik Asit Taşıyan Vagonda Sızıntı Tespit Edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olay alarm çerçevesiyle ya da yalın tespit diliyle sunuluyor; bir değerlendirmeye bağlandığı açık değil.",
+ "alternative_explanation": "Üslup farkı kurumların başlık alışkanlıklarından kaynaklanabilir.",
+ "missing_context": ["Çerçeveye bağlı açık bir değerlendirme"]}
+]}

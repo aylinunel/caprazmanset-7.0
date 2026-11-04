@@ -1,0 +1,56 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rakibi faul yaptı, kalbi durdu.", "kind": "behavioral"},
+  {"source": "text", "quote": "Sert faule maruz kalan Jesus de Miguel hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Kaleciyle çarpışan futbolcu Jesus De Miguel hayatını kaybetti!", "kind": "behavioral"},
+  {"source": "context", "quote": "Tenerife’nin futbolcusu Jesus de Miguel hayatını kaybetti", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olay bazı kurumlarda 'faul' (kusur ima eden), bazılarında 'çarpışma' (nötr) olarak sunuluyor; yargı değişimi gösterilmiyor.",
+ "alternative_explanation": "Faul ifadesi maç raporuna veya görüntülere dayanan doğru bir bilgi olabilir.",
+ "missing_context": ["Hakem raporu veya resmi açıklamada pozisyonun faul olarak kaydedilip kaydedilmediği", "Sunumun okur yargısına etkisi"]},
+{"card_id": "fundamental-attribution-error", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Rakibi faul yaptı, kalbi durdu.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "contradicted", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metin tek bir eylemi aktarıyor; rakibe kalıcı bir karakter özelliği atfetmiyor.",
+ "alternative_explanation": "Olay bir oyun pozisyonu olarak anlatılıyor; durumsal bir çarpışma açıklaması mevcut.",
+ "missing_context": ["Kaleciye kalıcı bir özellik atfeden ifade"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Sahada korkunç ölüm!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz dil var; olumlu bilgiyle orantısız karşılaştırmalı ağırlıklandırma yok.",
+ "alternative_explanation": "Bir sporcunun ölümü haberinde olumsuz vurgu olayla orantılıdır.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi ve karar etkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rakibi faul yaptı, kalbi durdu. Jesus de Miguel maç sonunda hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "kaleci Jesus Owono ile sert bir şekilde çarpışarak yere yığılan", "kind": "behavioral"},
+  {"source": "text", "quote": "Göğsüne gelen diz sonrası Jesus de Miguel hayatını kaybetti", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kurumlar arası anlatımda 'faul', 'çarpışma' ve 'diz' ayrıntıları farklı vurgulanıyor; maddi ve haksız bir sapma kanıtlanmıyor.",
+ "alternative_explanation": "Farklı ayrıntılar aynı pozisyonun farklı yönlerini doğru biçimde aktarıyor olabilir.",
+ "missing_context": ["Kulübün özgün açıklaması", "Maç görüntüleri veya hakem raporu"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Futbol dünyası şokta!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygu ifadesi var; bir risk/fayda tahminine bağlanmıyor.",
+ "alternative_explanation": "Yas ve şok ifadesi olaya verilen doğal tepkidir.",
+ "missing_context": ["Duyguya dayanan somut bir karar veya tahmin"]}
+]}

@@ -1,0 +1,57 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "accountability-diffusion-in-ai", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tatil takvimi hizmet haberleri; yapay zekâ etkili bir karar ya da sorumluluk aktarımı yok.",
+ "alternative_explanation": "Arama trafiğine yönelik bilgi içerikleri; kartın alanı dışında.",
+ "missing_context": ["Yapay zekâ destekli bir karar ve rol kayıtları"]},
+{"card_id": "action-bias", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Eylem ile beklemek arasında bir tercih anlatılmıyor.",
+ "alternative_explanation": "Haberler okur sorularını yanıtlıyor; karar içermiyor.",
+ "missing_context": ["Eylem ve eylemsizlik seçeneklerinin karşılaştırması"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir duygunun risk/fayda tahminine bağlandığı bir ifade yok.",
+ "alternative_explanation": "Nötr soru-cevap biçiminde hizmet haberleri.",
+ "missing_context": ["Duygu ile karar arasında açık bağ"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yapay zekâ destekli bir görev ya da çıktıya güvenme kararı yok.",
+ "alternative_explanation": "Kartın alanı dışında bir takvim haberi.",
+ "missing_context": ["Belirli bir yapay zekâ görevi ve güven/denetim kaydı"]},
+{"card_id": "ambiguity-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "\"28 Ekim Çarşamba günü okullar yarım gün mü?\" sorusu netlik kazandı.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Okurların tatil belirsizliği aktarılıyor; olasılığı bilinen/bilinmeyen seçenekler arasında bir tercih yok.",
+ "alternative_explanation": "Belirsizliğin giderilmesi için bilgi arayışı; belirsizlikten kaçınma hatası değil.",
+ "missing_context": ["Karşılaştırılabilir seçenekler ve belirsizliğin seçimi etkilediğine dair kanıt"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Sonraki bir tahmini etkileyen başlangıç değeri anlatılmıyor.",
+ "alternative_explanation": "Takvim bilgisi olgusal; çapa ve sonraki yargı yok.",
+ "missing_context": ["Önceki bir değer ile sonraki yargı arasında açık bağ"]}
+]}

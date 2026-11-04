@@ -1,0 +1,54 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[aa · 10:13] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak", "kind": "behavioral"},
+  {"source": "text", "quote": "[sabah · 22:39] Rusya’dan Ukrayna’ya yeşil ışık: “Zelenskiy ararsa Putin telefonu açar”", "kind": "behavioral"},
+  {"source": "text", "quote": "[star · 00:27] Moskova kapıyı araladı: Zelenski ararsa Putin telefonu açar", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı açıklama bazı kurumlarda 'yeşil ışık', 'kapıyı araladı' gibi olumlu çerçeveyle veriliyor; okur yargısına etkisi gösterilmiyor.",
+ "alternative_explanation": "Yorum katan başlıklar açıklamanın diplomatik anlamını özetleme girişimi olabilir; olgu aynı kalıyor.",
+ "missing_context": ["Açıklamanın tam metni ve koşulları", "Okur algısına dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[sondakika · 18:52] Uşakov, Zelenskiy'i Moskova'ya çağırdı, ararsa Putin'in telefonu açacağını söyledi", "kind": "behavioral"},
+  {"source": "text", "quote": "Uşakov, Putin'in hiçbir zaman görüşmekten vazgeçmediğini belirtti.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Moskova daveti ve üçlü müzakere bağlamı bazı haberlerde yer alırken çoğu başlıkta yalnızca telefon ifadesi kalıyor.",
+ "alternative_explanation": "Başlık kısalığı nedeniyle tek çarpıcı cümlenin seçilmesi olağandır; maddi çarpıtma gösterilmiyor.",
+ "missing_context": ["Uşakov röportajının orijinal metni", "Eksiltmenin bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[mynet · 21:58] Rusya'dan dikkat çeken açıklama!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Vurgu ifadesi var; ancak çarpıcılığın bir yargıyı haksız biçimde belirlediği gösterilmiyor.",
+ "alternative_explanation": "Dikkat çekici ifade tık odaklı başlık üslubudur, akıl yürütme hatası değildir.",
+ "missing_context": ["Karşılaştırmalı ağırlıklandırma kanıtı"]},
+{"card_id": "messenger-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[karar · 09:17] Kremlin: Zelenskiy ararsa Putin telefonu açacak", "kind": "statement"},
+  {"source": "text", "quote": "[yeniasya · 04:44] Uşakov: Zelenskiy'nin araması halinde Putin telefonu açacak", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Açıklama 'Rusya', 'Kremlin' veya 'Uşakov'a atfediliyor; kaynak izleniminin iddianın değerlendirmesini değiştirdiği gösterilmiyor.",
+ "alternative_explanation": "Atıf farkları kaynak adlandırma tercihidir; iddia her kurumda aynı aktarılıyor.",
+ "missing_context": ["Aynı iddianın farklı kaynakla farklı değerlendirildiğine dair kanıt"]}
+]}

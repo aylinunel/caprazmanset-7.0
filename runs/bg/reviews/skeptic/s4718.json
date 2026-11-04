@@ -1,0 +1,64 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "accountability-diffusion-in-ai", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde yapay zekâ destekli bir karar ya da sorumluluk aktarımı yok.",
+ "alternative_explanation": "Haber yalnızca maraton nedeniyle yol kapatma duyurusudur.",
+ "missing_context": ["Yapay zekâ kullanımına dair herhangi bir kayıt"]},
+{"card_id": "action-bias", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Eylem ile beklemenin karşılaştırıldığı bir tercih anlatılmıyor.",
+ "alternative_explanation": "Yol kapatma, büyük bir organizasyonun olağan güvenlik düzenlemesidir.",
+ "missing_context": ["Eylemsizlik seçeneğiyle karşılaştırma"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul'da maraton alarmı: 1 Kasım'da bazı yollar trafiğe kapalı olacak", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Alarm' sözcüğü dikkat çekici bir üslup, ancak bir duygu bir risk tahminine bağlanmıyor.",
+ "alternative_explanation": "Uyarı dili sürücüleri bilgilendirme amacı taşır.",
+ "missing_context": ["Duyguya dayalı açık bir risk yargısı"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde yapay zekâ destekli bir görev yok.",
+ "alternative_explanation": "Haber trafik düzenlemesi duyurusudur.",
+ "missing_context": ["Yapay zekâ kullanımına dair görev kaydı"]},
+{"card_id": "ambiguity-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bilinen ve bilinmeyen olasılıklı seçenekler arasında bir tercih anlatılmıyor.",
+ "alternative_explanation": "Alternatif güzergah bilgisi belirsizlikten kaçınma değil, hizmet bilgisidir.",
+ "missing_context": ["Karşılaştırılabilir seçenekler ve olasılıklar"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sonraki bir tahmini etkileyen bir başlangıç değeri yok.",
+ "alternative_explanation": "Saat ve katılımcı sayıları olgusal duyuru bilgisidir.",
+ "missing_context": ["Bir referans değere dayanan sonraki tahmin"]}
+]}

@@ -1,0 +1,47 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "yakınında bulunan 3 binada oturanlar güvenlik nedeniyle evlerinden tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "İzmir'de toprak kayması: 3 bina boşaltıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olgu (3 binanın tedbiren tahliyesi) bir kurumda 'panik' vurgusuyla, diğerlerinde nötr dille verilmiş; sunum farkı gözleniyor ancak bir yargı/tercihe bağlandığı görülmüyor.",
+ "alternative_explanation": "'Panik' kelimesi sakinlerin yaşadığı gerçek tedirginliği aktarmak için seçilmiş olabilir; başlık dili tercihidir.",
+ "missing_context": ["Haber metinlerinin tamamı", "Bölgede gerçekten panik yaşandığına dair tanık/yetkili açıklaması"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}],
+ "mechanism": "Bazı kurumlar ünlem ve 'panik' gibi çarpıcı öğeleri öne çıkarırken diğerleri sade başlık kullanmış; karşılaştırmalı vurgu farkı var, fakat bunun bir hükmü haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Ünlem ve vurgulu dil son dakika haberlerinde yaygın biçim tercihidir; biçimlendirme tek başına akıl yürütme hatası değildir.",
+ "missing_context": ["Okur tepkisi veya haberin yol açtığı kararlar", "Hasarın gerçek boyutu hakkında resmi açıklama"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz duygu ('panik') vurgusu var; ancak karşılaştırılabilir olumlu bilginin (ör. can kaybı olmaması) daha az ağırlık aldığı açıkça gösterilmiyor.",
+ "alternative_explanation": "Tahliye gerçek bir risk sinyalidir; olumsuz vurgu riskle orantılı olabilir.",
+ "missing_context": ["Yaralanma/can kaybı olup olmadığı bilgisi", "Binaların güvenli olduğuna dair sonraki açıklamalar"]},
+{"card_id": "source-confusion", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Samsun'da temelinde toprak kayması meydana gelen 5 katlı bina tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Samsun'da sağanak yağış sonrası toprak kayması! 5 katlı bina tedbir amaçlı tahliye edildi", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "İzmir olayı kümesinde iki kurumun başlığı Samsun'daki 5 katlı bina tahliyesine ait; benzer içerikli iki olay arasında kaynak/yer karışıklığı ihtimali gözleniyor.",
+ "alternative_explanation": "Bu kurumlar Samsun'daki ayrı ve gerçek bir olayı doğru biçimde haberleştirmiş olabilir; eşleşme haber kümeleme sürecinden kaynaklanmış olabilir.",
+ "missing_context": ["Samsun haberlerinin tam metni", "Kümeleme yönteminin bu başlıkları neden eşlediği", "Kurumların İzmir olayını ayrıca verip vermediği"]}
+]}

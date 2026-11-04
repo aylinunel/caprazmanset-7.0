@@ -1,0 +1,28 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[yenisafak · 17:37] MİT Başkanı İbrahim Kalın'dan BAE'ye kritik ziyaret", "kind": "behavioral"},
+  {"source": "text", "quote": "[ahaber · 17:38] MİT Başkanı İbrahim Kalın'dan BAE'ye ziyaret: Ana gündem güvenlik", "kind": "behavioral"},
+  {"source": "text", "quote": "[aa · 05:32] MİT Başkanı Kalın, Birleşik Arap Emirlikleri'ni ziyaret etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar 'kritik' veya 'güvenlik' vurgusu ekliyor; ancak bu farkın bir değerlendirmeyi değiştirdiği metinde yok.",
+ "alternative_explanation": "'Kritik' nitelemesi yaygın başlık kalıbıdır; 'güvenlik' gündemi ayrı bir bilgiye dayanıyor olabilir.",
+ "missing_context": ["Ziyaretin resmi gündemi", "Okur etkisine dair veri"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[sabah · 17:36] MİT Başkanı Kalın BAE’ye ziyarette bulundu!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başlıklar büyük ölçüde aynı; çarpıcı bir ayrıntının yargıyı haksız biçimde belirlediği yok.",
+ "alternative_explanation": "Kısa ajans bilgisinin tekrarı; ünlem biçimsel bir tercihtir.",
+ "missing_context": ["Ziyaretin içeriğine dair ek bilgi"]}
+]}

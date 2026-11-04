@@ -1,0 +1,42 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "kasım ayında uygulanabilecek kira artış oranının üst sınırı da netleşti", "kind": "behavioral"},
+  {"source": "text", "quote": "Kasım kira artış oranı belli oldu! Ev sahibi ve kiracılar için rakam netleşti", "kind": "behavioral"},
+  {"source": "text", "quote": "Kasım ayı kira zammı ne kadar, yüzde kaç olacak?", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Karar oranı yasal 'üst sınır' olarak, diğerleri 'kira zammı' olarak çerçeveliyor; tavan, uygulanacak zam gibi algılanabilir.",
+ "alternative_explanation": "'Kira zammı' gündelik dildeki kısaltma; tavan bilgisi haber gövdesinde verilmiş olabilir.",
+ "missing_context": ["Çerçeveye bağlı bir okur kararı veya yargısı", "Haber gövdelerindeki tavan açıklamaları"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Milyonlarca kişi açıklanmasını bekliyordu! Kasım ayı kira artış oranları belli oldu", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başlıklar beklenti ve heyecan unsurunu öne çıkarıyor.",
+ "alternative_explanation": "Kira oranı geniş kitleyi ilgilendiren bir veri; vurgu orantılı.",
+ "missing_context": ["Belirgin ayrıntının bir yargıya haksız etkisini gösteren ifade"]},
+{"card_id": "anchoring-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ankete katılan ekonomistlerin ekim ayı aylık enflasyon beklentilerinin ortalaması yüzde 2,20 oldu.", "kind": "statement"},
+  {"source": "text", "quote": "10 bin TL kira kaç lira olacak?", "kind": "statement"},
+  {"source": "text", "quote": "12 aylık ortalamalara göre hesaplanan kasım ayı kira artış tavanı yüzde 31,23 oldu.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Beklenti anketi ve örnek kira tutarı sonraki hesaplar için referans noktası sunuyor.",
+ "alternative_explanation": "Resmi oran TÜİK verisiyle yasal formülden hesaplanıyor; çapanın yargıya bağlandığı gösterilmiyor.",
+ "missing_context": ["Sonraki tahminin çapaya açıkça bağlanması ve haksız etki"]}
+]}

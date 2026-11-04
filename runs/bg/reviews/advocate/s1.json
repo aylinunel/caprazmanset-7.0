@@ -1,0 +1,56 @@
+{"role": "advocate", "assessments": [
+{"card_id": "anchoring-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İlk açıklamalarda 8 büyüklüğünde olduğu belirtilen depremin büyüklüğü, daha sonra 7,6 olarak güncellendi.", "kind": "statement"},
+  {"source": "text", "quote": "Panama'da 7,6 büyüklüğünde deprem! Tsunami uyarısı yapıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Panama'da 7,7 büyüklüğünde deprem: Tsunami alarmı verildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [1, 2]}
+ ],
+ "mechanism": "İlk 8 değeri bir referans noktası olarak anılıyor ve sonraki değer ona bağlanıyor; ancak güncellemenin çapadan uzaklaştığı, yani haksız etki olmadığı görülüyor.",
+ "alternative_explanation": "7,6 ve 7,7 farkı farklı ajans/ölçüm kaynaklarından (USGS ve diğerleri) kaynaklanır.",
+ "missing_context": ["Hangi kurumun hangi ölçüm kaynağını kullandığı", "Çapanın bir yargıyı çarpıttığına dair kanıt"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Orta Amerika ülkesi Panama’da büyük paniğe neden olan 7,7 büyüklüğünde bir deprem meydana geldi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Panama'da 7.7 büyüklüğünde deprem: 15 öğrenci yaralandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Panama'nın güneyinde 7,7 büyüklüğünde deprem meydana geldiği bildirildi.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar panik ve yaralı ayrıntısını öne çıkarıyor, diğerleri yalın büyüklük bilgisi veriyor; karşılaştırılabilir olumlu bilginin göz ardı edildiği gösterilmiyor.",
+ "alternative_explanation": "Doğal afet haberlerinde zarar ve etki bilgisi orantılı ve ilgilidir.",
+ "missing_context": ["Hasarın sınırlı olduğuna dair bilgilerin nasıl ele alındığı", "Bir karar ya da değerlendirmeye etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Pasifik Okyanusu kıyısı dev bir sarsıntıyla sarsıldı.", "kind": "behavioral"},
+  {"source": "text", "quote": "tsunami alarmı verildi, halk sokaklara döküldü", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0]}
+ ],
+ "mechanism": "Canlı imgeler (dev sarsıntı, sokaklara dökülen halk) bazı kurumlarda öne çıkıyor; bunun bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Canlı betimleme haber dilinin olağan bir parçasıdır.",
+ "missing_context": ["Açık bir yargı ya da seçim ifadesi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Panama'da 7,6 büyüklüğünde deprem — İlk açıklamalarda 8 büyüklüğünde olduğu belirtilen", "kind": "behavioral"},
+  {"source": "text", "quote": "Panama'da meydana gelen depremin ardından altı eyalette elektrikler kesildi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Panama'nın güneyinde 7,7 büyüklüğünde deprem meydana geldiği bildirildi.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ortak ajans metniyle karşılaştırıldığında kurumlar farklı ayrıntıları (büyüklük değeri, elektrik kesintisi, yaralılar) öne çıkarıyor ya da düşürüyor.",
+ "alternative_explanation": "Farklar haberin güncellendiği saatten ve farklı ajans kaynaklarından doğabilir.",
+ "missing_context": ["Resmi nihai büyüklük", "Farkın bir sonuca etkisi"]}
+]}

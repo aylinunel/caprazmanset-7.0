@@ -1,0 +1,54 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon", "kind": "behavioral"},
+  {"source": "text", "quote": "[trthaber · 07:19] Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Karar zamanlamayı, TRT suç tipini öne çıkarıyor; ancak eşdeğerlik ve sunuma bağlı bir tercih metinde kurulmuyor.",
+ "alternative_explanation": "Zamanlama bilgisi haber değeri taşıyan gerçek bir bağlam olabilir; farklı vurgu çerçeveleme hatası sayılmaz.",
+ "missing_context": ["Operasyon zamanlamasıyla siyasi gelişme arasında bağ olup olmadığına dair bilgi"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[akit · 07:23] Son dakika! Bakırköy Belediyesi'ne dev operasyon!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Dev operasyon' vurgusu var; ancak bu vurgunun yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "68 kişilik operasyon için büyüklük vurgusu orantılı görülebilir.",
+ "missing_context": ["Benzer operasyonların ölçeği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 07:18] Bakırköy Belediyesi'ne ihale ve irtikap soruşturması! 68 şüpheliden 58'i gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "[haberturk · 07:12] Bakırköy Belediyesi'ne operasyon: 68 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "68 kişiden 57'si gözaltına alındı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Takvim gözaltı kararı (68) ile fiili gözaltını (58) ayırıyor; Habertürk '68 gözaltı' diyerek ayrımı düzleştiriyor. Sondakika 57 diyor. Farkın maddi bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "Erken saatlerde sayılar güncelleniyordu; farklılık zaman farkı ve başlık kısaltmasından kaynaklanabilir.",
+ "missing_context": ["Başsavcılığın resmi açıklaması", "Başlıkların sonradan güncellenip güncellenmediği"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Bakırköy Belediyesine operasyon: 68 kişi hakkında gözaltı kararı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "68 rakamı ilk referans olarak var, ancak sonraki bir tahminin buna bağlanıp haksız etkilendiği metinde yok.",
+ "alternative_explanation": "68 resmi gözaltı kararı sayısıdır; tekrar edilmesi doğru bilginin aktarılmasıdır.",
+ "missing_context": ["Sonraki bir tahmin veya karar"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[aksam · 10:54] Bakırköy Belediyesi'ne yolsuzluk operasyonu! 58 şüpheli gözaltına alındı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Yolsuzluk' nitelemesi olumsuz; ancak karşılaştırılabilir olumlu bilgiye karşı orantısız ağırlık gösterilmiyor.",
+ "alternative_explanation": "Soruşturmanın konusu yolsuzluk iddiası olduğundan olumsuz dil olayla orantılı olabilir.",
+ "missing_context": ["Belediyenin veya şüphelilerin savunması"]}
+]}

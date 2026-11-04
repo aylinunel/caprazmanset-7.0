@@ -1,0 +1,46 @@
+{"role": "advocate", "assessments": [
+{"card_id": "affect-heuristic", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "KİLLA HAKAN'IN SAĞLIK DURUMU NASIL? Sevenlerini korkuttu! Yoğun bakıma alındı", "kind": "statement"},
+  {"source": "text", "quote": "Rapçi Killa Hakan’dan üzen haber! Yoğun bakıma kaldırıldı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Korkuttu' ve 'üzen haber' gibi duygusal ifadeler kullanılmış; ancak bir risk tahminine bağlanmamış.",
+ "alternative_explanation": "Ünlü birinin yoğun bakıma alınması haberinde duygusal dil olağandır; duygu bir kanıtın yerine geçmiyor.",
+ "missing_context": ["Hastalığın ciddiyetine ilişkin tıbbi bilgi", "Duygunun bir değerlendirmeyi değiştirdiğine dair kanıt"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Böbrek taşı nedeniyle yoğun bakıma kaldırıldı: Uzmanlardan kritik uyarı", "kind": "statement"},
+  {"source": "text", "quote": "Sevenlerini korkuttu!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz sağlık haberi korku/uyarı vurgusuyla aktarılmış; karşılaştırılabilir olumlu bilgi metinde yok.",
+ "alternative_explanation": "Yoğun bakım haberi doğası gereği olumsuzdur; orantısız ağırlık verildiği gösterilmiyor.",
+ "missing_context": ["Sağlık durumuna dair olumlu/iyileşme bilgisi", "Avukatın açıklamasının tam içeriği"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Killa Hakan'ın hayatı ve hastalığı! Sağlık durumu nasıl, neden yoğun bakıma kaldırıldı?", "kind": "statement"},
+  {"source": "text", "quote": "[cumhuriyet · 10:28] Böbrek taşı nedeniyle yoğun bakıma kaldırıldı: Uzmanlardan kritik uyarı", "kind": "behavioral"},
+  {"source": "text", "quote": "[sondakika · 19:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [1, 2]}],
+ "mechanism": "Cumhuriyet başlığı 'böbrek taşı' ve 'kritik uyarı' ayrıntısını öne çıkarıyor; diğerleri yalnızca 'sağlık sorunu' diyor.",
+ "alternative_explanation": "Cumhuriyet başlığı farklı bir kişiye ait olabilir ve olaya yanlış kümelenmiş olabilir; çarpıcılık tek başına hata değildir.",
+ "missing_context": ["Cumhuriyet haberinin Killa Hakan ile ilgili olup olmadığı", "Rahatsızlığın kesin nedeni"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rapçi Killa Hakan’dan üzen haber! Yoğun bakıma kaldırıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Killa Hakan, yoğun bakıma kaldırıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olgu bir kurumda duygusal ('üzen haber'), diğerinde yalın biçimde sunulmuş.",
+ "alternative_explanation": "Üslup farkı magazin/genel haber ayrımından kaynaklanabilir; sunuluşa dayalı bir yargı görülmüyor.",
+ "missing_context": ["Sunuluşun bir değerlendirmeyi değiştirdiğine dair veri"]}
+]}

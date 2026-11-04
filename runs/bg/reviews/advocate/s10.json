@@ -1,0 +1,39 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "adliyeye sevk edilen 5 zanlıdan 4'ü tutuklandı, 1'i adli kontrol şartıyla serbest bırakıldı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında adliyeye sevk edilen 6 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "aralarında emniyet mensuplarının da bulunduğu 6'sı tutuklanarak cezaevine gönderildi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında yeni gelişme: Tutuklu sayısı 38'e yükseldi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Diğer kurumlar 5 zanlıdan 4'ünün tutuklandığını yazarken Takvim 6 tutuklama veriyor ve emniyet mensuplarını öne çıkarıyor.",
+ "alternative_explanation": "Takvim sonraki günün işlemlerini birleştirmiş veya hata yapmış olabilir; Star ve diğerleri ertesi günün 2 tutuklamasını ayrıca aktarıyor.",
+ "missing_context": ["Resmi savcılık veya mahkeme açıklaması", "Tutuklananların emniyet mensubu olup olmadığına dair doğrulama"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "aralarında emniyet mensuplarının da bulunduğu", "kind": "behavioral"},
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında dikkat çeken gelişme!", "kind": "behavioral"},
+  {"source": "text", "quote": "dosyada demir parmaklıklar ardındaki şüpheli sayısı 38'e ulaştı.", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Emniyet mensuplarının varlığı ve 'demir parmaklıklar' gibi canlı ifadeler öne çıkarılıyor.",
+ "alternative_explanation": "Kamu görevlilerinin şüpheli olması haberin kamusal önemi açısından ilgili bir ayrıntı olabilir.",
+ "missing_context": ["Öne çıkan ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair kanıt"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında 4 zanlı daha tutuklandı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Gülistan Doku soruşturmasında 4 tutuklama daha: tutuklu sayısı 36", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı gelişme bazı kurumlarda yeni tutuklama sayısıyla, bazılarında toplam tutuklu sayısıyla çerçeveleniyor.",
+ "alternative_explanation": "Her iki sayı da doğru ve tamamlayıcı bilgidir; tercih değişimi gösterilmiyor.",
+ "missing_context": ["Çerçeve farkının okur yargısını değiştirdiğine dair kanıt"]}
+]}

@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Ortak savunmada yeni gelişme! Mekke Anlaşması TBMM Dışişleri Komisyonu’nda kabul edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Mekke Anlaşması komisyonda kabul edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başlıklar büyük ölçüde aynı nötr ifadeyi kullanıyor; anlamlı bir çerçeve farkı veya tercih bağlantısı yok.",
+ "alternative_explanation": "Prosedürel bir meclis haberi; üslup farkları önemsiz düzeyde.",
+ "missing_context": ["Anlaşmanın içeriğine ilişkin değerlendirmeler"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "MHP'den 57 İslam ülkesini kapsayan ittifak önerisi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir kurum ek bir siyasi öneriyi öne çıkarıyor; bunun bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Ek öneri komisyon görüşmesinde gündeme gelmiş ilgili bir gelişme olabilir.",
+ "missing_context": ["Önerinin komisyon görüşmesiyle ilişkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Dışişleri Komisyonunda kabul edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Türkiye, Pakistan ve Suudi Arabistan arasında imzalanan Mekke İttifakı anlaşması Dışişleri Komisyonu'nda kabul edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Mekke Anlaşması TBMM Dışişleri Komisyonunda", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Teknik 'onay kanun teklifi' ayrıntısı bazı başlıklarda düzleşip 'anlaşma kabul edildi' veya 'ittifak'a dönüşüyor; maddi etkisi gösterilmiyor.",
+ "alternative_explanation": "Kısaltma başlık yazımında olağan; bazı başlıklar görüşme öncesine ait olabilir.",
+ "missing_context": ["Başlıkların görüşme öncesi mi sonrası mı yayımlandığı", "Kısaltmanın okur sonucuna etkisi"]}
+]}

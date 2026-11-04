@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "anchoring-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "İlk açıklamalarda 8 büyüklüğünde olduğu belirtilen depremin büyüklüğü, daha sonra 7,6 olarak güncellendi.", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "contradicted", "evidence_indices": [0]}],
+"mechanism": "İlk 8 değeri açıkça güncellenmiş; ilk değerin sonraki yargıyı haksız etkilediğine dair işaret yok, tersine revizyon yapılmış.",
+"alternative_explanation": "7,6 ve 7,7 farkı farklı sismoloji kurumlarının ölçümlerinden kaynaklanır; çapa etkisi değildir.",
+"missing_context": ["Hangi kurumun hangi kaynağı (USGS, yerel kurum) kullandığı", "Resmi nihai büyüklük değeri"]},
+{"card_id": "negativity-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "Pasifik Okyanusu kıyısı dev bir sarsıntıyla sarsıldı.", "kind": "statement"},
+{"source": "text", "quote": "Panama'da 7.7 büyüklüğünde deprem: 15 öğrenci yaralandı", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Olumsuz ayrıntılar (panik, yaralı) aktarılıyor; ancak karşılaştırılabilir olumlu bilginin göz ardı edildiğine dair kanıt yok.",
+"alternative_explanation": "7,6-7,7 büyüklüğünde deprem ve tsunami uyarısı gerçek bir risktir; olumsuz vurgu orantılı bir uyarıdır.",
+"missing_context": ["Hasar ve kayıpların resmi boyutu", "Tsunami uyarısının sonradan kaldırılıp kaldırılmadığı"]},
+{"card_id": "salience-bias", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "Panama'da 7.7 büyüklüğünde deprem: 15 öğrenci yaralandı", "kind": "behavioral"},
+{"source": "text", "quote": "Panama'da meydana gelen depremin ardından altı eyalette elektrikler kesildi.", "kind": "behavioral"},
+{"source": "text", "quote": "Panama'da 7,7 büyüklüğünde deprem — Orta Amerika ülkesi Panama'nın güneyinde 7,7 büyüklüğünde deprem meydana geldiği bildirildi.", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1, 2]}],
+"mechanism": "Bazı kurumlar yaralı öğrenci veya elektrik kesintisi gibi somut ayrıntıları öne çıkarıyor; bunun haksız bir yargıya yol açtığı gösterilmiyor.",
+"alternative_explanation": "Geç yayınlanan haberler yeni ortaya çıkan sonuçları aktarıyor; bu güncelleme, çarpıcılık yanlılığı değildir.",
+"missing_context": ["Ayrıntıların yayın anında bilinip bilinmediği", "Toplam hasar verisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "ABD Jeolojik Araştırmalar Kurumu (USGS) verilerine göre, Panama'da 7,6 büyüklüğünde deprem meydana geldi.", "kind": "behavioral"},
+{"source": "text", "quote": "Orta Amerika ülkesi Panama'nın güneyinde 7,7 büyüklüğünde deprem meydana geldiği bildirildi.", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Kurumlar 7,6 ve 7,7 değerleri arasında bölünüyor; çoğu kaynak belirtmiyor. Fark gözlenebilir, ancak maddi bir sonuç çarpıtması gösterilmiyor.",
+"alternative_explanation": "Farklı ölçüm kurumlarının farklı değerler yayımlaması olağandır; 0,1'lik fark haberin anlamını değiştirmez.",
+"missing_context": ["7,7 değerinin kaynağı", "Kurumların ajans kaynakları"]}
+]}

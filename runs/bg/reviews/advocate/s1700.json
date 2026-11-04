@@ -1,0 +1,58 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "9 ay sonra bir ilk: Merkez Bankası faizi indirdi", "kind": "behavioral"},
+  {"source": "text", "quote": "Merkez Bankası, faizi 1 puan indirdi", "kind": "behavioral"},
+  {"source": "text", "quote": "Merkez Bankası, politika faizini yüzde 36 olarak belirledi.", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı 100 baz puanlık karar 'tarihi ilk', '1 puan indirim' ya da nötr 'yüzde 36 belirlendi' biçimlerinde farklı referans noktalarıyla sunuluyor.",
+ "alternative_explanation": "Farklı ifadeler olgusal olarak doğru ve okura farklı bağlam sağlamaya yönelik olabilir.",
+ "missing_context": ["Çerçevenin bir yargıyı değiştirdiğine dair açık ifade"]},
+{"card_id": "anchoring-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "20 ekonomistin katıldığı ankette 19 uzman 100 baz puan indirim bekliyor.", "kind": "statement"},
+  {"source": "text", "quote": "ekonomistler politika faizinin 100 baz puan düşürülerek yüzde 36’ya çekilmesini bekliyor", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Anket beklentisi bir referans noktası sunuyor; ancak sonraki bir yargının bu çapaya haksız biçimde bağlandığı gösterilmiyor.",
+ "alternative_explanation": "Ekonomist anketi bağımsız ve ilgili bir bilgi kaynağıdır; kararın beklentiyle örtüşmesi çapalama kanıtı değildir.",
+ "missing_context": ["Kararın veya tahminin çapaya dayandırıldığına dair açık bağlantı", "Karar metninin gerekçesi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "9 ay sonra ilk indirim!", "kind": "behavioral"},
+  {"source": "text", "quote": "Karar metninde geçen \"Adımların büyüklüğü ve zamanlaması", "kind": "behavioral"},
+  {"source": "text", "quote": "Merkez Bankası faizi düşürdü — 22.10.2026", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Bazı kurumlar 'ilk' olma niteliğini öne çıkarırken Sözcü karar metnindeki ileriye dönük ifadeye yer veriyor; diğerleri bunu aktarmıyor.",
+ "alternative_explanation": "Başlık alanı sınırlı; karar metni ayrıntıları gövdede verilmiş olabilir.",
+ "missing_context": ["Öne çıkan ögenin bir yargıyı haksız biçimde yönlendirdiğine dair açık kanıt", "Karar metninin tamamı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "politika faizi olan bir hafta vadeli repo ihale faiz oranını 1 puan düşürerek yüzde 36 seviyesine çekti", "kind": "behavioral"},
+  {"source": "text", "quote": "[ahaber · 08:40] 9 ay sonra ilk indirim! Merkez Bankası'nın faiz kararı belli oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "[trthaber · 13:58] Merkez Bankası faiz kararını açıkladı", "kind": "behavioral"},
+  {"source": "text", "quote": "Karar metninde geçen \"Adımların büyüklüğü ve zamanlaması", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 3]}
+ ],
+ "mechanism": "Karar metnindeki ileriye dönük yönlendirme yalnızca Sözcü'de yer alıyor, diğerlerinde düzleşiyor; bazı kayıtların zaman damgası 14:00 açıklamasından önceye düşüyor.",
+ "alternative_explanation": "Zaman damgaları güncellenmiş haber sayfalarından ya da saat dilimi farkından kaynaklanabilir; başlık kısalığı ayrıntıyı dışarıda bırakabilir.",
+ "missing_context": ["Haberlerin ilk yayın ve güncelleme saatleri", "Farkın maddi bir sonuca etki ettiğine dair kanıt"]}
+]}

@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Motosiklet dehşeti kamerada: Karnındaki 6 aylık bebeğini kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Ankara'da motosiklet kazası: 6 aylık hamile kadın bebeğini kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı başlıklar kamera görüntüsü ve dehşet vurgusunu öne çıkarıyor, diğerleri olgusal kalıyor; bir yargı hatasına bağlantı yok.",
+ "alternative_explanation": "Kamera görüntüsünün varlığı habere içerik değeri katar; vurgulu dil tabloid üslup tercihi olabilir.",
+ "missing_context": ["Kazanın sorumluluğuna dair resmi bilgi", "Benzer kazaların kurumlarca nasıl verildiği"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Ankara'da kahreden kaza! Motosikletin çarptığı hamile kadın bebeğini kaybetti", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Duygusal sözcükler kullanılıyor, ancak bir risk/fayda tahmini ya da karar bu duyguya bağlanmıyor.",
+ "alternative_explanation": "Duygusal dil trajik bir olayın aktarımında yaygın üslup tercihidir; karta göre tek başına yeterli değil.",
+ "missing_context": ["Duyguya dayalı açık bir risk yargısı", "Karşılaştırmalı davranış kanıtı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "motosiklet sürücüsü ile kazaya neden olduğu öne sürülen bir otomobil sürücüsü gözaltına", "kind": "behavioral"},
+  {"source": "text", "quote": "Ankara’da motosiklet 3 yayaya çarptı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Motosikletin çarptığı hamile kadın bebeğini kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir kurum otomobil sürücüsünün olası rolünü ve gözaltıyı veriyor; çoğu başlık yalnızca motosikleti anıyor, diğer yayalar da düzleşiyor.",
+ "alternative_explanation": "Başlık uzunluğu kısıtı ve ilk bilgi akışı farkı; ayrıntılar haber gövdelerinde verilmiş olabilir.",
+ "missing_context": ["Haber gövdelerinin tam metni", "Kazanın oluşuna dair resmi açıklama"]}
+]}

@@ -1,0 +1,44 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Çukurova Belediyesinde 34 tutuklama!", "kind": "behavioral"},
+  {"source": "text", "quote": "geçici bir tedbir olarak İçişleri Bakanlığınca görevden uzaklaştırıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı gelişme kimi kurumda tutuklama sayısı, kimi kurumda geçici idari tedbir vurgusuyla sunuluyor; yargı bağlantısı yok.",
+ "alternative_explanation": "Farklı kurumlar olayın farklı aşamalarını (tutuklama, görevden uzaklaştırma) haberleştirmiş olabilir.",
+ "missing_context": ["İddianame ya da savcılık açıklaması", "Savunma tarafının açıklaması"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "YENİ Partili Çukurova Belediye Başkanı Emrah Kozay", "kind": "behavioral"},
+  {"source": "text", "quote": "CHP il başkanlığı ve parti yönetimindeki görevlerinin ardından", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başkanın parti bağlantısı bir kurumda güncel parti, diğerinde geçmiş CHP görevleri üzerinden veriliyor; çoğu kurum partiyi hiç anmıyor.",
+ "alternative_explanation": "Başkan parti değiştirmiş olabilir; iki bilgi birbiriyle çelişmeyebilir.",
+ "missing_context": ["Başkanın güncel parti üyeliği", "Parti değişikliği tarihi"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "sıcak gelişmeler yaşandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Vurgulu dil var; belirginliğin bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "34 tutuklama gerçekten büyük ölçekli bir gelişmedir.",
+ "missing_context": ["Okur yargısına etki verisi"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "YENİ Partili Çukurova Belediye Başkanı Emrah Kozay", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Parti bilgisi anılıyor; ancak grup üyeliğine bağlı farklı bir değerlendirme standardı gösterilmiyor.",
+ "alternative_explanation": "Parti kimliği siyasi haberlerde olağan bağlam bilgisidir.",
+ "missing_context": ["Benzer soruşturmalarda kurumların farklı partilere yaklaşımı"]}
+]}

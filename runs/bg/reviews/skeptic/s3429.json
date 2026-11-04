@@ -1,0 +1,25 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "KYK burs ve kredi başvuruları başladı mı, ne zaman?", "kind": "behavioral"},
+  {"source": "text", "quote": "Burs ve öğrenim kredisi başvuruları başladı", "kind": "behavioral"},
+  {"source": "text", "quote": "başvuruları için geri sayım başladı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlık farkları büyük ölçüde yayın saatine (duyuru öncesi/sonrası) bağlı görünüyor; olgusal eşdeğerlik kurulamıyor.",
+ "alternative_explanation": "Soru biçimli başlıklar duyurudan önce yayımlanmış hizmet/arama trafiği içerikleri olabilir.",
+ "missing_context": ["Başlıkların aynı bilgi durumunda yazıldığına dair kanıt", "Sunumun okur kararını etkilediğine dair veri"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Gençlik ve Spor Bakanı Osman Aşkın Bak, 2026-2027 eğitim öğretim dönemi burs ve öğrenim kredisi başvurularının başladığını duyurdu.", "kind": "statement"},
+  {"source": "text", "quote": "Bakan Bak, sosyal medya hesabından yaptığı paylaşımda başvuruların e-Devlet üzerinden 16 Ekim saat 23.59'a kadar yapılabileceğini bildirdi.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "contradicted", "evidence_indices": [0, 1]}],
+ "mechanism": "Kaynak, başvuru sürecinden sorumlu bakanlığın bakanı; idari bir duyuruyu aktarmak ilgili yetkiye dayanıyor.",
+ "alternative_explanation": "Kurumun kendi süreci hakkındaki resmi duyuruya dayanmak gerekçeli ve uygun bir kaynak kullanımıdır.",
+ "missing_context": ["Duyuruyla çelişen bir kanıt veya göz ardı edilen itiraz"]}
+]}

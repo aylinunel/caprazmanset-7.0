@@ -1,0 +1,36 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ballon d'Or'un sahibi Harry Kane oldu! 25 yıl sonra ödülü kazanan ilk İngiliz", "kind": "behavioral"},
+  {"source": "text", "quote": "Ballon d'Or 2026 kazananı Harry Kane oldu, Mbappe ikinci", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı sonuç 'tarihi ilk' veya sıralama çerçevesiyle sunulmuş; çerçeveye dayalı bir tercih metinde yok.",
+ "alternative_explanation": "Farklı açıların seçilmesi olgusal ve haber değeri taşıyan bilgilere dayanıyor.",
+ "missing_context": ["Sunuma bağlı açık bir yargı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "25 yıl sonra bir ilk! Ballon d'Or'un sahibi belli oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "25 yıl sonra kazanan ilk İngiliz! Ballon d'Or'un sahibi Harry Kane", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Çarpıcı '25 yıl sonra bir ilk' detayı birçok başlıkta ödülün sahibinin önüne geçirilmiş.",
+ "alternative_explanation": "Tarihsel ilk olması nesnel olarak haber değeri taşır.",
+ "missing_context": ["Çarpıcı detayın bir yargıya bağlandığı açık ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Harry Kane, Alexia Putellas win 2026 Ballon d'Or awards in London", "kind": "behavioral"},
+  {"source": "text", "quote": "Kadınlarda ise ödül Alexia Putellas'a gitti.", "kind": "statement"},
+  {"source": "text", "quote": "Ballon d'Or ödülünü Harry Kane kazandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "AA ve Karar'ın iki kazananlı aktarımı temel alındığında Türkçe başlıkların çoğu kadınlar ödülünü atlayarak yalnızca erkek kazanana odaklanıyor (düzleştirme).",
+ "alternative_explanation": "Başlık kısalığı ve okur ilgisi erkekler ödülünün öne çıkmasını açıklayabilir; kadınlar ödülü metin içinde verilmiş olabilir.",
+ "missing_context": ["Haber metinlerinin tamamı", "Farkın bir sonuca etkisi"]}
+]}

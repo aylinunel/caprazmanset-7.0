@@ -1,0 +1,56 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sosyal medyada yeni dönem yarın başlıyor: Bunları yapmayanın hesabı kapatılacak!", "kind": "behavioral"},
+  {"source": "text", "quote": "Sosyal medyada yeni dönem yarın başlıyor: e-Devlet üzerinden zorunlu olacak", "kind": "behavioral"},
+  {"source": "text", "quote": "Sosyal medyada çocuklar için yeni dönem", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı düzenleme bazı kurumlarda yaptırım/kayıp ('hesabı kapatılacak'), bazılarında koruma ('çocuklar için') çerçevesiyle sunulmuş; çerçevenin bir tercihi yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Hesap kapatma yaptırımı düzenlemenin gerçek bir unsurudur; okura pratik uyarı amacı taşıyabilir.",
+ "missing_context": ["Düzenlemenin resmi metni", "Hesap kapatma yaptırımının kapsamı ve takvimi"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sosyal medyada yeni dönem. Yapmayanın hesabı kapatılacak", "kind": "behavioral"},
+  {"source": "text", "quote": "mevcut hesaplar için 31 Mart 2027’ye kadar yaklaşık 5 aylık bir", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı başlıklar olumsuz sonucu (hesap kapatma) öne çıkarırken, bir kurumun aktardığı yaklaşık 5 aylık geçiş süresi başlıklarda yer almıyor; olumsuz bilgi karşılaştırmalı olarak daha fazla vurgu almış görünüyor.",
+ "alternative_explanation": "Yaptırım okur açısından en eyleme dönük bilgidir; vurgusu risk ile orantılı olabilir.",
+ "missing_context": ["Haber gövdelerinde geçiş süresinin verilip verilmediği", "Okur kararlarına etkisi"]},
+{"card_id": "loss-aversion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yapmayanın hesabı kapatılacak: Sosyal medyada yeni dönem yarın başlıyor", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kayıp odaklı dil var, ancak eşdeğer bir kazançla karşılaştırma veya asimetrik ağırlıklandırma gösterilmiyor.",
+ "alternative_explanation": "Kayıp çerçeveli dil, karşılaştırmalı kanıt olmadan kayıptan kaçınma göstergesi değildir.",
+ "missing_context": ["Eşdeğer kazanç/kayıp karşılaştırması", "Bir karar veya tercih kaydı"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Göktaş duyurdu: 15 yaş altına düzenleme, yaş doğrulamasına e-Devlet şartı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum düzenlemeyi Bakan'ın duyurusuna dayandırıyor; ancak statünün gerekçe yerine geçtiği veya karşı kanıtın göz ardı edildiği gösterilmiyor.",
+ "alternative_explanation": "Resmi düzenlemenin yetkili bakan tarafından duyurulduğunu belirtmek olağan kaynak göstermedir.",
+ "missing_context": ["Düzenlemeye yönelik eleştiri veya karşı görüşlerin yer alıp almadığı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sosyal medyada yarın yeni dönem! 15 yaş altına kapılar kapanıyor", "kind": "behavioral"},
+  {"source": "text", "quote": "15 yaş altı için yasak başladı", "kind": "behavioral"},
+  {"source": "text", "quote": "Sosyal medyada yeni dönem: Yaş sınırı yürürlüğe girdi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}],
+ "mechanism": "Çarpıcı ifadeler ('kapılar kapanıyor', 'yasak') bazı başlıklarda öne çıkarken diğerleri nötr; karşılaştırmalı vurgu farkı var ama hüküm etkisi gösterilmiyor.",
+ "alternative_explanation": "Yaş sınırı fiilen yeni hesap açmayı engellediği için 'yasak' ifadesi olguya uygun olabilir.",
+ "missing_context": ["Düzenlemenin tam kapsamı", "Okur tepkisi"]}
+]}

@@ -1,0 +1,54 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bahçeli'nin seçim adımı 100 il 1000 ilçe", "kind": "behavioral"},
+  {"source": "text", "quote": "Türkiye’nin haritası değişebilir!", "kind": "behavioral"},
+  {"source": "text", "quote": "Bahçeli'den 100 il 1000 ilçe önerisi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı öneri 'seçim adımı', 'harita değişebilir' ve düz 'öneri' olarak farklı çerçevelerle sunuluyor; bunun bir yargıyı değiştirdiği gösterilmiyor.",
+ "alternative_explanation": "Farklı çerçeveler, önerinin siyasi bağlamına dair meşru editoryal yorumlar olabilir.",
+ "missing_context": ["Sunum farkının okur değerlendirmesini değiştirdiğine dair veri", "Sozcu ve yenisafak haberlerinin tam metni"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "MHP Genel Başkanı Devlet Bahçeli", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir parti liderinin önerisi aktarılıyor; statünün iddiayı doğrulamak için belirleyici kullanıldığı görülmüyor.",
+ "alternative_explanation": "Haberin konusu bir parti liderinin açıklaması olduğundan kaynağın adının öne çıkması doğaldır.",
+ "missing_context": ["Önerinin statü nedeniyle doğru kabul edildiğine dair ifade", "Karşı görüşlerin göz ardı edildiğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Türkiye’nin haritası değişebilir!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı başlık var; bir yargıya haksız etki ettiği gösterilmiyor.",
+ "alternative_explanation": "Dikkat çekici başlık, önerinin kapsamını özetleyen olağan bir sunumdur.",
+ "missing_context": ["Belirginliğin bir karar veya çıkarıma bağlandığı açık ifade"]},
+{"card_id": "optimism-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "19 yeni il ve 78 yeni ilçe mi olacak?", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metin bir öneriyi aktarıyor; olasılık tahmini veya göz ardı edilen taban oranı yok.",
+ "alternative_explanation": "Soru biçimli başlık belirsizliği kabul ediyor; iyimser bir olasılık hatası ifade edilmiyor.",
+ "missing_context": ["Önerinin hayata geçme olasılığına dair açık tahmin", "Benzer önerilerin geçmiş sonuçları"]},
+{"card_id": "messenger-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Devlet Bahçeli'den dev reform önerisi", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Dev reform' nitelemesi olumlu bir sunum olabilir; değerlendirmenin kaynağa atfedildiği gösterilmiyor.",
+ "alternative_explanation": "Nitelendirme önerinin ölçeğini (19 il, 78 ilçe) yansıtıyor olabilir.",
+ "missing_context": ["Aynı önerinin farklı bir kaynaktan geldiğinde nasıl sunulduğuna dair karşılaştırma"]}
+]}

@@ -1,0 +1,65 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Merkezefendi Belediyesi'nde imar vurgunu: 27 kişi gözaltında", "kind": "behavioral"},
+  {"source": "text", "quote": "Merkezefendi Belediyesi'ne operasyon: Çok sayıda şüpheli gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Akşam olayı 'imar vurgunu' olarak, Sabah başkanı anmadan, Diken başkanın partisini öne çıkararak çerçeveliyor.",
+ "alternative_explanation": "Farklı vurgular editoryal tercih veya farklı kaynak bilgisi olabilir; çerçevelerin eşdeğerliği metinde kurulmuyor.",
+ "missing_context": ["Çerçevelerin olgusal eşdeğerliği", "Çerçeveye bağlı bir yargı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Merkezefendi Belediyesi'nde imar vurgunu: 27 kişi gözaltında", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'İmar vurgunu' ifadesi soruşturma aşamasındaki olayı çarpıcı bir suç nitelemesiyle öne çıkarıyor.",
+ "alternative_explanation": "İfade savcılık açıklamasındaki suçlama konusunu aktarıyor olabilir.",
+ "missing_context": ["Savcılık açıklamasının içeriği", "Belirgin ayrıntının yargıya etkisini gösteren ifade"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında", "kind": "behavioral"},
+  {"source": "text", "quote": "Merkezefendi Belediyesi'ne operasyon: Çok sayıda şüpheli gözaltına alındı", "kind": "behavioral"},
+  {"source": "context", "quote": "sabah: sağ (80)", "kind": "statement"},
+  {"source": "context", "quote": "diken: sol (34)", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Diken başkanın parti üyeliğini vurgularken Sabah başkanın adını başlıkta anmıyor; grup kimliği haber seçimini etkiliyor olabilir.",
+ "alternative_explanation": "Başlık uzunluğu veya ilk bilgilere dayalı farklılık; grup üyeliğine bağlı tutarsız standart gösterilmiyor.",
+ "missing_context": ["Karşılaştırılabilir vakalarda tutarsız standart kanıtı", "Kurumların grup üyeliğinin açık tespiti"]},
+{"card_id": "illusory-correlation", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul’da Bakırköy Belediyesi’ne yönelik operasyonun ardından Denizli’de de Merkezefendi Belediyesi’ne operasyon düzenlendi.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Karar iki operasyonu art arda anıyor; ancak açık bir ilişki iddiası yok.",
+ "alternative_explanation": "Zamansal yakınlık bağlam bilgisi olarak verilmiş; nedensel ilişki önerilmiyor.",
+ "missing_context": ["Açık bir ilişki iddiası ve karşıt karşılaştırma verisi"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde bir otoritenin statüsüne belirleyici ağırlık verildiğine dair ifade yok.",
+ "alternative_explanation": "Haberler gözaltı bilgisini olgusal olarak aktarıyor.",
+ "missing_context": ["Otorite kaynağı ve statüye dayalı belirleyici ağırlık"]}
+]}

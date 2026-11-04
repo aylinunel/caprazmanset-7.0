@@ -1,0 +1,84 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fransa’da kısmi sokağa çıkma yasağı kararı: Başbakandan valilere talimat", "kind": "behavioral"},
+  {"source": "text", "quote": "Protestolar kontrolden çıktı! Fransa'da sokağa çıkma yasağı ilan edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı sokağa çıkma yasağı bazı kurumlarda idari 'kısmi' önlem, bazılarında 'kontrolden çıkma' ve 'alev alev yanma' çerçevesiyle sunuluyor.",
+ "alternative_explanation": "Kurumlar farklı zamanlarda farklı gelişmeleri (yağma, ordu görevlendirmesi) aktarmış olabilir; olgular tam eşdeğer olmayabilir.",
+ "missing_context": ["Olgusal eşdeğerliğin açıkça belirtilmesi", "Çerçevenin bir yargıyı değiştirdiğine dair ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "aralarında Lille'in de bulunduğu kuzey kentlerinde bugün ve yarın 20.00'dan 06.00'a kadar sokağa çıkma yasağı ilan edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi", "kind": "behavioral"},
+  {"source": "text", "quote": "Avrupa, eylemcilere karşı kontrolü kaybediyor.", "kind": "behavioral"},
+  {"source": "text", "quote": "sarı yelekliler eylemlerinin ardından", "kind": "behavioral"},
+  {"source": "text", "quote": "hayat pahalılığı ve eğitim koşullarına karşı başlayan protestoların", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3, 4]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "NTV'nin sınırlı kent ve saat ayrıntısı taban alındığında bazı başlıklar olayı 'Avrupa alev alev yanıyor', 'ordu sokağa indi' biçiminde büyütüyor; TRT Haber protestoları diğerlerinden farklı biçimde 'sarı yelekliler'e bağlıyor.",
+ "alternative_explanation": "Haberler farklı günlerde yazıldı; olaylar gerçekten yayılmış ve yeni önlemler alınmış olabilir.",
+ "missing_context": ["Farkların bir sonuca haksız biçimde etki ettiğine dair kanıt", "Bağımsız resmi kayıt (ilan edilen bölgeler, asker görevlendirmesi)"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Avrupa alev alev yanıyor!", "kind": "behavioral"},
+  {"source": "text", "quote": "Halk ise yağmacılara sıcak sularla müdahale ediyor", "kind": "behavioral"},
+  {"source": "text", "quote": "Fransa'da bazı kentlerde sokağa çıkma yasağı ilan edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Canlı ve duygusal ögeler (alev, sıcak su ile müdahale) bazı kurumlarda öne çıkarken diğerleri sınırlı yasak bilgisini veriyor.",
+ "alternative_explanation": "Görsel ve çarpıcı sahneler olayın gerçek parçası olabilir ve haber değeri taşır.",
+ "missing_context": ["Çarpıcı ayrıntının sıklık ya da genelleme kanıtı olarak kullanıldığına dair açık ifade yok"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Avrupa, eylemcilere karşı kontrolü kaybediyor.", "kind": "statement"},
+  {"source": "text", "quote": "Protestolar kontrolden çıktı!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz gelişmeler genelleştirilerek vurgulanıyor; ancak karşılaştırılabilir olumlu bilgi metinde yok.",
+ "alternative_explanation": "Şiddet ve yağma olayları haberin özüdür; olumsuz vurgu orantılı olabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu kanıtın göz ardı edildiğine dair veri", "Olay ölçeğine dair resmi istatistik"]},
+{"card_id": "availability-heuristic", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Belçika’nın ardından Fransa’da da sokağa çıkma yasağı devreye giriyor.", "kind": "statement"},
+  {"source": "text", "quote": "İtalya’da gözaltına alınanların yüzde 80’i reşit olmayan eylemciler çıktı.", "kind": "statement"},
+  {"source": "text", "quote": "Gösteriler Arnavutluk, Belçika, İspanya, İtalya, Yunanistan ve Portekiz'e de sıçradı.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Yakın tarihli ülke örnekleri sıralanarak 'Avrupa kontrolü kaybediyor' gibi geniş bir genellemeye varılıyor gibi görünüyor.",
+ "alternative_explanation": "Birden çok ülkede eşzamanlı protesto gerçekten yaşanıyor olabilir; genelleme olgulara dayanabilir.",
+ "missing_context": ["Hatırlanabilirliğin açıkça gerekçe olarak kullanılması", "Ülke bazında karşılaştırmalı olay verisi"]},
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "sarı yelekliler eylemlerinin ardından", "kind": "behavioral"},
+  {"source": "text", "quote": "hayat pahalılığı ve okullardaki koşullara yönelik protestoların", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "TRT Haber protestoları 'sarı yelekliler'e atfederken diğer kurumlar hayat pahalılığı protestolarından söz ediyor; bu bir kaynak karışıklığına işaret edebilir ama hatırlanan bir öge ve kökeni belirtilmiyor.",
+ "alternative_explanation": "Protestoculardan bir kısmı gerçekten sarı yelekliler hareketiyle bağlantılı olabilir; etiket farkı bellek hatası değildir.",
+ "missing_context": ["Hatırlanan ögenin ve atfedilen kaynağının açık beyanı", "Düzeltme ya da çağdaş kayıt"]}
+]}

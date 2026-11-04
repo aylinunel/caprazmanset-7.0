@@ -1,0 +1,60 @@
+{"role": "advocate", "assessments": [
+{"card_id": "accountability-diffusion-in-ai", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde yapay zekâ etkili bir karar veya sorumluluk dağılımı yer almıyor.",
+ "alternative_explanation": "Haber, maraton nedeniyle yol kapatmalarına dair rutin bir duyurudur.",
+ "missing_context": ["Yapay zekâ kullanımına dair herhangi bir bilgi"]},
+{"card_id": "action-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Emniyet Müdürlüğü, sürücülerin mağduriyet yaşamaması için", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yol kapatma bir eylem olsa da eylemsizlik seçeneğiyle karşılaştırma ya da gerekçesiz eylem tercihi yok.",
+ "alternative_explanation": "Kapatma, yarış güvenliği için gerekli ve gerekçeli bir düzenlemedir.",
+ "missing_context": ["Alternatif trafik planlarının karşılaştırması"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul'da maraton alarmı:", "kind": "statement"},
+  {"source": "text", "quote": "İstanbullular dikkat! Bazı yollar trafiğe kapatıldı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Alarm' ve 'dikkat' gibi uyarı dili var; bir duygunun risk tahminine bağlandığı gösterilmiyor.",
+ "alternative_explanation": "Uyarı dili sürücüleri bilgilendirmeye yönelik olağan bir üsluptur.",
+ "missing_context": ["Duygu ile karar arasında bağlantı kuran ifade"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde yapay zekâ destekli bir görev yok.",
+ "alternative_explanation": "Haber yapay zekâ ile ilgisizdir.",
+ "missing_context": ["Yapay zekâ kullanımına dair kayıt"]},
+{"card_id": "ambiguity-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bilinen ve bilinmeyen olasılıklı seçenekler arasında bir tercih yer almıyor.",
+ "alternative_explanation": "Haber yalnızca planlanmış kapatmaları duyuruyor.",
+ "missing_context": ["Karşılaştırılan seçenekler ve olasılıkları"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Gece 3’te başlıyor: İstanbul’da yarın bazı yollar trafiğe kapatılacak", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir saat bilgisi verilse de sonraki bir tahminin buna dayandırıldığı görülmüyor.",
+ "alternative_explanation": "Saat bilgisi yalnızca kapatma takvimini aktarıyor.",
+ "missing_context": ["Başlangıç değerine bağlanan bir tahmin veya karar"]}
+]}

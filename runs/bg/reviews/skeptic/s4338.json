@@ -1,0 +1,42 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "İstanbul'a pazartesi kilidi: Trafik yoğunluğu yüzde 78 oldu", "kind": "behavioral"},
+{"source": "text", "quote": "İstanbul'da trafik yoğunluğu yüzde 65'e ulaştı: Anadolu Yakası'nda yüzde 78", "kind": "behavioral"},
+{"source": "text", "quote": "Kent genelinde trafik yoğunluk oranı saat 08.15 itibarıyla yüzde 65 olarak ölçüldü.", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Aynı ölçüm bir kurumda kent geneli yüzde 65, diğerinde başlıkta yüzde 78 olarak sunuluyor; sunum farkı açık, ancak bir okur yargısına bağlandığı gösterilmiyor.",
+"alternative_explanation": "Yüzde 78 Anadolu Yakası için gerçek bir değerdir; başlık en yüksek bölgesel değeri seçmiş olabilir ya da farklı saatte ölçülmüş olabilir.",
+"missing_context": ["Sözcü haberinin tam metninde yüzde 78'in kapsamı", "Ölçüm saatleri", "Okur algısına etki verisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "İstanbul'da sağanak alarmı! Trafik yoğunluğu yüzde 80'e dayandı: D-100 trafiğe kapandı", "kind": "behavioral"},
+{"source": "text", "quote": "İstanbul'da haftanın ilk iş gününde trafik yoğunluğu", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+"mechanism": "Bazı başlıklar en yüksek oranları ve alarm dilini öne çıkarırken diğerleri nötr; haksız ağırlık verildiği tek metinden kurulamaz.",
+"alternative_explanation": "Küme iki farklı günü (pazartesi ve yağışlı gün) birleştiriyor gibi; farklı oranlar farklı günlerin gerçek ölçümleri olabilir.",
+"missing_context": ["Her haberin hangi güne ait olduğu", "Resmi trafik yoğunluğu verisi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "İstanbul'a pazartesi kilidi: Trafik yoğunluğu yüzde 78 oldu", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": []},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+"mechanism": "'Kilit' gibi olumsuz sözcükler kullanılmış; olumlu karşılaştırılabilir kanıtın göz ardı edildiğine dair bir şey yok.",
+"alternative_explanation": "Trafik haberleri doğası gereği olumsuz durumu aktarır; olumsuz sözcük seçimi tek başına yanlılık göstermez.",
+"missing_context": ["Karşılaştırılabilir olumlu bilgi (ör. düşük yoğunluk saatleri)", "Kurumun benzer günlerdeki dili"]},
+{"card_id": "source-confusion", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "İstanbul'da trafik yoğunluğu yüzde 65'e ulaştı: Anadolu Yakası'nda yüzde 78", "kind": "behavioral"},
+{"source": "text", "quote": "İstanbul'a pazartesi kilidi: Trafik yoğunluğu yüzde 78 oldu", "kind": "behavioral"},
+{"source": "text", "quote": "İstanbul'da akşam saatlerinde trafik yoğunluğu yaşanıyor", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Bölgesel yüzde 78 değeri bir başlıkta kent geneline aitmiş gibi duruyor; ancak bu bir hafıza-kaynak hatası değil, olası özetleme farkıdır ve tam metin olmadan doğrulanamaz.",
+"alternative_explanation": "Başlık kısaltması nedeniyle bölge adı düşmüş olabilir; ayrıca küme iki farklı günü karıştırıyor olabilir.",
+"missing_context": ["Sözcü haberinin tam metni", "Ölçüm kaynağı (İBB) ve saatleri", "Haberlerin ait olduğu gün"]}
+]}

@@ -1,0 +1,35 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[sozcu · 09:09] 2026 Ballon d'Or ödülü Harry Kane'in! 25 yıl sonra bir ilk", "kind": "behavioral"},
+  {"source": "text", "quote": "[birgun · 09:54] Ballon d'Or ödülünü Harry Kane kazandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'25 yıl sonra bir ilk' vurgusu ek bilgi; sunuma dayalı bir tercih veya yargı yok.",
+ "alternative_explanation": "Tarihsel bağlam eklemek haber değeri taşıyan meşru bir tercihtir.",
+ "missing_context": ["Okur tepkisine dair veri"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[aksam · 09:26] 25 yıl sonra kazanan ilk İngiliz! Ballon d'Or'un sahibi Harry Kane", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Dikkat çekici bir tarihsel ayrıntı öne çıkarılıyor; bunun haksız bir yargıya yol açtığı gösterilmiyor.",
+ "alternative_explanation": "Rekor/ilk bilgisi spor haberciliğinde olağan ve ilgili bir ayrıntıdır.",
+ "missing_context": ["Bu ayrıntının doğruluğu ve okur yargısına etkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[aa · 02:43] Harry Kane, Alexia Putellas win 2026 Ballon d'Or awards in London", "kind": "behavioral"},
+  {"source": "text", "quote": "Kadınlarda ise ödül Alexia Putellas'a gitti.", "kind": "statement"},
+  {"source": "text", "quote": "[diken · 02:04] Ballon d'Or Harry Kane'in", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "AA ve Karar kadınlar ödülünü de veriyor; başlıkların çoğu yalnız erkekler ödülünü aktarıp kadınlar kategorisini düzleştiriyor. Bunun maddi bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "Erkekler ödülü geleneksel olarak ana başlık kabul edilir; başlık kısalığı gereği seçim yapılmış olabilir.",
+ "missing_context": ["Haberlerin gövde metinlerinde kadınlar ödülünün yer alıp almadığı"]}
+]}

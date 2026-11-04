@@ -1,0 +1,54 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Brezilya’da seçimin galibi sol: Lula yeniden başkan!", "kind": "behavioral"},
+  {"source": "text", "quote": "Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı sonuç (Lula'nın kazanması) nötr, ideolojik ('galibi sol') ve övgülü ('Tarihi zafer') çerçevelerle verilmiş; tercih bağlantısı metinde yok.",
+ "alternative_explanation": "Başlık farkları yayın tarzı ve dikkat çekme ihtiyacından kaynaklanabilir; 'dördüncü dönem' gibi gerçek bilgi 'tarihi' nitelemesini kısmen gerekçelendirir.",
+ "missing_context": ["Okur değerlendirmesinin çerçeveye göre değiştiğine dair kanıt", "Resmi sonuç açıklaması"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Brezilya’da seçimin galibi sol: Lula yeniden başkan!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir grup etiketi ('sol') kullanılıyor; ancak grup üyeliğine bağlı farklı standart veya haksız değerlendirme gösterilmiyor.",
+ "alternative_explanation": "Siyasi yönelimin belirtilmesi olgusal bir betimleme olabilir; diğer başlıklar da Bolsonaro'yu 'sağcı' diye niteliyor.",
+ "missing_context": ["Karşılaştırılabilir durumlarda farklı standart uygulandığına dair örnek", "Kurumun benzer seçim haberlerindeki dili"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Brezilya'da tarihi geri dönüş! Resmi olmayan sonuçlara göre Lula da Silva 4. kez devlet başkanı", "kind": "behavioral"},
+  {"source": "text", "quote": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı başlıklar 'tarihi' vurgusunu öne çıkarıyor; bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Dördüncü dönem gerçekten dikkate değer bir bilgi; vurgu habercilik açısından meşru olabilir.",
+ "missing_context": ["Oy farkı ve itiraz sürecine ilişkin bilgi", "Vurgunun okur yargısına etkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "İlk başlıklardaki 'resmi olmayan sonuçlara göre' kaydı sonraki başlıklarda düşmüş; bu bir düzleştirme örneği olabilir.",
+ "alternative_explanation": "Sonuçların kesinleşmesiyle kaydın gereksizleşmesi ya da başlık kısalığı nedeniyle atlanması olağan özetleme olabilir.",
+ "missing_context": ["Resmi sonuçların açıklanma zamanı", "Kaydın düşmesinin bir sonuca etkisi"]}
+]}

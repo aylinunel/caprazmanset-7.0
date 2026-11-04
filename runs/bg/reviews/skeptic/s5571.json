@@ -1,0 +1,55 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakan Işıkhan’dan emeklilere 2027 müjdesi: İlave iyileştirme çalışması yapılıyor", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı açıklama bir kurumda nötr, diğerinde 'müjde' çerçevesiyle sunuluyor; ancak bir yargının bu sunuma bağlandığı gösterilmiyor.",
+ "alternative_explanation": "'Müjde' kalıbı emekli haberlerinde yerleşik bir başlık dilidir; okur ilgisi ve tıklama kaygısı da açıklayabilir.",
+ "missing_context": ["Bakanın açıklamasının tam metni", "İyileştirmenin miktarı ve kesinliği"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Işıkhan duyurdu: Emekliye 2027'de ilave iyileştirme geliyor", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haberler yetkili bakanın açıklamasını aktarıyor; statünün karşıt kanıtı bastırdığına dair metin yok.",
+ "alternative_explanation": "Politika duyurusunu ilgili bakana atfetmek olağan ve meşru kaynak gösterimidir.",
+ "missing_context": ["Bağımsız uzman veya sendika değerlendirmeleri", "Bütçe dayanağı"]},
+{"card_id": "optimism-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Işıkhan’dan emeklilere müjde: Maaşlara yasal zammın dışında ilave iyileştirme geliyor", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumlu bir beklenti dile getiriliyor; ancak metinde karşıt taban oranı ya da göz ardı edilen kanıt yok.",
+ "alternative_explanation": "Bakanın beyanını aktaran iyimser ton, olasılık hatası değil, kaynağın ifadesinin yansımasıdır.",
+ "missing_context": ["Geçmiş benzer vaatlerin gerçekleşme oranı", "İyileştirmenin yasal/bütçesel kesinliği"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Resmen tarih verildi: Emekliye ilave iyileştirme yolda", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Dikkat çekici başlık var; ancak belirginliğin bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Okur ilgisinin yüksek olduğu bir konuda vurgulu başlık olağan editoryal tercihtir.",
+ "missing_context": ["Okur yargısına etkiyi gösteren karşılaştırmalı veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz", "kind": "behavioral"},
+  {"source": "text", "quote": "Resmen tarih verildi: Emekliye ilave iyileştirme yolda", "kind": "behavioral"},
+  {"source": "text", "quote": "2027 zam takvimi belli oldu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Çalışma yapıyoruz' ifadesi bazı başlıklarda 'resmen tarih verildi' ve 'takvim belli oldu' kesinliğine keskinleşiyor.",
+ "alternative_explanation": "Bakan açıklamada Ocak 2027 gibi bir tarih anmış olabilir; bu durumda başlıklar orijinale sadıktır.",
+ "missing_context": ["Açıklamanın tam metni ve geçen tarih ifadesi", "Farkın okur kararına etkisi"]}
+]}

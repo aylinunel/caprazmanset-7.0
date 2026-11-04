@@ -1,0 +1,40 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon skandalında soruşturma SPK'nın eski yönetimine uzandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakan Şimşek'ten eski SPK Başkanı İbrahim Ömer Gönül hakkında kritik karar", "kind": "behavioral"},
+  {"source": "text", "quote": "Eski SPK Başkanı Gönül hakkında soruşturma izni", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Eski SPK Başkanı Gönül hakkında soruşturma izni", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı soruşturma izni bazı kurumlarda 'fon skandalı' veya 'kritik karar' çerçevesiyle, bazılarında nötr biçimde sunuluyor.",
+ "alternative_explanation": "Fon skandalı bağlamı soruşturmanın konusunu açıklayan ilgili bir bilgi olabilir.",
+ "missing_context": ["Çerçeve farkının bir yargıya yol açtığına dair kanıt", "Fon skandalının ayrıntıları"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni! Bakan Şimşek talimat verdi", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu", "kind": "behavioral"},
+  {"source": "text", "quote": "Savcılığın talebinde fon denetimleri ve yatırımcı mağduriyetleri yer aldı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon skandalı kapsamında “görevi kötüye kullanma” suçlamasıyla", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3, 4]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Star başlıkta 'izin'i 'talimat' olarak keskinleştiriyor; bazı haberler savcılık talebini, bazıları teftiş raporunu öne çıkarıp diğerini atlıyor.",
+ "alternative_explanation": "Farklı kurumlar aynı sürecin farklı aşamalarını aktarmış olabilir; 'talimat' kelimesi özensiz bir başlık seçimi olabilir.",
+ "missing_context": ["Bakanlığın resmi açıklama metni", "Farkın okur yargısını maddi olarak etkilediğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "SON DAKİKA I Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Eski SPK Başkanı İbrahim Ömer Gönül’e soruşturma!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Son dakika' etiketi ve ünlemler olayı daha çarpıcı kılıyor.",
+ "alternative_explanation": "Bu tür etiketler yeni haberler için standart biçimsel uygulamadır.",
+ "missing_context": ["Çarpıcılığın haksız bir yargıya yol açtığına dair kanıt"]}
+]}

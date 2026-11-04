@@ -1,0 +1,57 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu! Kaboğlu dönemi resmen bitti", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Barosu geri döndü ifadelerini kullandı.", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Barosu seçimleri: Ümit Kocasakal yeni başkan seçildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı seçim sonucu bir kurumda yeni başkanın seçilmesi, bir diğerinde önceki dönemin 'bitmesi' olarak, kayıp çerçevesiyle sunuluyor.",
+ "alternative_explanation": "Görevdeki başkanın değişmesi haberde doğal bir ögedir; çerçeve olgusal olarak doğru.",
+ "missing_context": ["Çerçevenin bir yargı veya tercihi değiştirdiğine dair açık ifade"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak seçimi önde tamamladı. Değişim İçin Avukatlar Grubu adayı Prof. Dr. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.", "kind": "statement"},
+  {"source": "text", "quote": "Ağıralioğlu, İstanbul Barosu Başkanı seçilen Kocasakal'a tebrik mesajı gönderdi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Adayların grup üyelikleri açıkça belirtiliyor; ancak grup üyeliğinin bir değerlendirmeyi çarpıttığı gösterilmiyor.",
+ "alternative_explanation": "Grup adlarının verilmesi baro seçimlerinin yapısını açıklayan olgusal bilgidir.",
+ "missing_context": ["Gruba göre farklı standart uygulandığına dair karşılaştırma", "Tebrik mesajının içeriği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "resmi olmayan sonuçlara göre Ümit Kocasakal seçimi 9 bin 548 oy ile kazandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Ümit Kocasakal, 9 bin 970 oyla başkan seçildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Ümit Kocasakal 10 bin 227 oyla başkan seçildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasasal", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Kurumlar arasında oy sayısı aktarımı farklılaşıyor (9.548, 9.970, 10.227); bazıları 'resmi olmayan' nitelemesini koruyor, bazıları düşürüyor.",
+ "alternative_explanation": "Sayım ilerledikçe güncellenen ara ve kesin sonuçlar aktarılmış olabilir; sonuç (kazanan) değişmiyor.",
+ "missing_context": ["Kesin resmi sonuç", "Farkın bir sonuca etki ettiğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kaboğlu dönemi resmen bitti", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Barosu başkanlığına Ümit Kocasakal seçildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bir kurum önceki başkanın döneminin sona ermesini başlıkta öne çıkarırken diğerleri yalnızca seçimi aktarıyor.",
+ "alternative_explanation": "Görev değişimi haber değeri yüksek ve olgusal bir ayrıntıdır.",
+ "missing_context": ["Öne çıkan ögenin bir yargıyı haksız biçimde yönlendirdiğine dair açık kanıt"]}
+]}

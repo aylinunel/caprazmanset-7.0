@@ -1,0 +1,55 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturmasında dezenformasyon!", "kind": "behavioral"},
+  {"source": "text", "quote": "Savcı karara itiraz etti: Gazeteci İsmail Saymaz ve Murat Ağırel'e ev hapsi!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı karar bir kurumda suçlama, diğerinde savcılık itirazı üzerinden sunuluyor; yargıya bağlantı gösterilmiyor.",
+ "alternative_explanation": "Kurumlar soruşturmanın farklı ama gerçek unsurlarını öne çıkarıyor olabilir.",
+ "missing_context": ["Hakimlik kararının gerekçesi", "Gazetecilerin savunması"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Ticaret Bakanı Ömer Bolat, gazeteciler İsmail Saymaz ve Murat Ağırel hakkında suç duyurusunda bulundu.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bakanın suç duyurusu aktarılıyor; statünün iddiaların değerlendirilmesinin yerine geçtiği gösterilmiyor.",
+ "alternative_explanation": "Bir bakanın hukuki girişimini aktarmak olgusal habercilidir.",
+ "missing_context": ["Suç duyurusunun içeriği", "Gazetecilerin iddialarının dayanağı"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "gazeteci arkadaşlarımız İsmail Saymaz ve Murat Ağırel", "kind": "statement"},
+  {"source": "text", "quote": "gazetemiz yazarı Murat Ağırel", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar gazetecilerle kurumsal/mesleki yakınlığını açıkça belirtiyor; ancak farklı bir standart uygulandığı gösterilmiyor.",
+ "alternative_explanation": "Yakınlığı açıkça belirtmek şeffaflık gereğidir; olgusal aktarım diğer kurumlarla tutarlı.",
+ "missing_context": ["Kurumların benzer soruşturmalarda başka gazetecilere yaklaşımı"]},
+{"card_id": "messenger-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "kamuoyunu yanıltıcı nitelikte açıklamalarda bulunduğu iddiasıyla", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "İddiaların değerlendirilmesinin habercinin kimliğine bağlandığı açıkça gösterilmiyor.",
+ "alternative_explanation": "Haberler savcılığın suçlamasını aktarıyor; kaynak kimliğine dayalı bir değerlendirme yok.",
+ "missing_context": ["Gazetecilerin paylaşımlarının içeriği ve doğruluğu"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "savcılığın itirazı üzerine ev hapsi cezası verildi.", "kind": "behavioral"},
+  {"source": "text", "quote": "iki gazeteci hakkında ev hapsi şeklinde adli kontrol tedbiri", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum adli kontrol tedbirini 'ceza' olarak aktarıyor; diğerleri tedbir niteliğini koruyor.",
+ "alternative_explanation": "Gündelik dilde 'ceza' kelimesinin gevşek kullanımı olabilir; maddi etkisi belirsiz.",
+ "missing_context": ["Hakimlik kararının metni", "Haberin sonradan düzeltilip düzeltilmediği"]}
+]}

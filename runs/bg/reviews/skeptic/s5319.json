@@ -1,0 +1,65 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "2027 yeniden değerleme oranı belli oldu! Vergi, harç ve cezalara zam geliyor", "kind": "behavioral"},
+  {"source": "text", "quote": "Yeniden değerleme oranı belli oldu. İşte yeni kimlik, pasaport, ehliyet harçları", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı oran 'zam' çerçevesiyle ya da nötr 'yeni harçlar' ifadesiyle sunulmuş; bir tercihin sunuma bağlandığı görülmüyor.",
+ "alternative_explanation": "Yeniden değerleme fiilen tutar artışı demek; 'zam' ifadesi olgusal olarak doğru ve okura anlaşılır.",
+ "missing_context": ["Okur yargısının çerçeveye göre değiştiğine dair kanıt", "Enflasyonla reel karşılaştırma"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Maliyet artışları öne çıkıyor; karşılaştırılabilir olumlu bilgiye orantısız ağırlık verildiği belgelenmiyor.",
+ "alternative_explanation": "Haberin konusu doğrudan maliyet artışı; olumsuz vurgu konuya orantılı.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi (ör. reel değer kaybı)", "Karar üzerindeki etkiye dair kanıt"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yeniden değerleme oranının yüzde 27,89 olarak gerçekleşmesi durumunda", "kind": "statement"},
+  {"source": "text", "quote": "Yeniden değerleme oranı yüzde 27,83 oldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Erken bir tahmin (27,89) ile açıklanan oran (27,83) farklı; sonraki yargının erken tahmine bağlandığı gösterilmiyor.",
+ "alternative_explanation": "Erken başlık açıkça koşullu bir projeksiyon; sonraki haberler resmi oranı bağımsız olarak aktarıyor.",
+ "missing_context": ["Erken tahminin hangi veriye dayandığı", "Sonraki hesaplamaların hangi orana göre yapıldığı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "2027 yılında yurt dışı telefon kayıt harcı 70 bin liraya, 10 yıllık pasaport 17 bin liraya yaklaşırken", "kind": "statement"},
+  {"source": "text", "quote": "2027 için yeniden değerleme oranı ne kadar oldu?", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı haberler çarpıcı mutlak tutarları öne çıkarıyor, bazıları yalnızca oranı soruyor; haksız etki gösterilmiyor.",
+ "alternative_explanation": "Somut tutarlar okura pratik bilgi sağlar; çarpıcılık tek başına hata değildir.",
+ "missing_context": ["Tutarların önceki yıl ile karşılaştırması", "Vurgunun yargıya etkisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda", "kind": "behavioral"},
+  {"source": "text", "quote": "Vergi, harç ve cezalar 2027'de yüzde 27,83'lük yeniden değerleme oranında artacak", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar arasında oran farkı (27,89 ve 27,83) var; bunun maddi bir sonuç çarpıtması olduğu gösterilmiyor.",
+ "alternative_explanation": "Fark, açıklamadan önce yapılan bir tahminden kaynaklanıyor; bir yeniden anlatım hatası değil.",
+ "missing_context": ["Resmi açıklamanın metni ve saati", "Farkın hesaplanan tutarlara etkisi"]}
+]}

@@ -1,0 +1,38 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "6 aylık hamile kadın yerde metrelerce sürüklendi", "kind": "statement"},
+  {"source": "text", "quote": "Motosiklet dehşeti kamerada: Karnındaki 6 aylık bebeğini kaybetti", "kind": "statement"},
+  {"source": "text", "quote": "kazaya neden olduğu öne sürülen bir otomobil sürücüsü", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı görsel ve duygusal ayrıntılar (sürüklenme, kamera, 'dehşet') başlıklarda öne çıkıyor; kazada otomobil sürücüsünün rolü ise çoğu başlıkta görünmüyor.",
+ "alternative_explanation": "Kamera görüntüsü ve ağır sonuç, olayın haber değerini oluşturan gerçek unsurlar olabilir.",
+ "missing_context": ["Kaza sorumluluğuna dair resmî bilgi", "Ayrıntıların okuyucu yargısına etkisi"]},
+{"card_id": "affect-heuristic", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ankara'da kahreden kaza!", "kind": "statement"},
+  {"source": "text", "quote": "Ankara'da yürek yakan kaza:", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygusal sıfatlar kullanılıyor; ancak bir duygunun risk/fayda tahminine veya karara bağlandığı metinde yok.",
+ "alternative_explanation": "Duygusal dil, trajik bir olayın olağan habercilik üslubu olabilir.",
+ "missing_context": ["Duygunun bir yargıyı değiştirdiğini gösteren karşılaştırma"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[sabah · 14:19] Ankara’da motosiklet 3 yayaya çarptı!", "kind": "behavioral"},
+  {"source": "text", "quote": "motosiklet sürücüsü ile kazaya neden olduğu öne sürülen bir otomobil sürücüsü gözaltına", "kind": "statement"},
+  {"source": "text", "quote": "[ntv · 15:20] Motosikletin çarptığı hamile kadın bebeğini kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "motosiklet sürücüsü ile kazada yaralanan diğer iki kişinin ise tedavilerinin ardından taburcu edildiği", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Hürriyet ve Sabah otomobil sürücüsünün olası rolünü ve diğer yaralıları aktarırken çoğu başlık bunları düşürüp kazayı yalnızca motosiklete bağlıyor.",
+ "alternative_explanation": "Başlık kısalığı nedeniyle en ağır sonuç seçilmiş olabilir; ayrıntılar haber gövdesinde yer alabilir.",
+ "missing_context": ["Haber gövdeleri", "Kaza tespit tutanağı"]}
+]}

@@ -1,0 +1,61 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "AHG'nin İstanbul Barosu başkan adayı olan Osman Korkut Kanadoğlu'na soruşturma başlatıldı: İlk açıklamasını Cumhuriyet'e yaptı", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Barosu başkan adayı Kanadoğlu’nun sözlerine soruşturma", "kind": "behavioral"},
+  {"source": "text", "quote": "Osman Korkut Kanadoğlu hakkında resen soruşturma kararı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olay farklı vurgularla sunuluyor: grup aidiyeti (AHG), 'sözlerine' soruşturma ya da 'resen' karar öne çıkarılıyor.",
+ "alternative_explanation": "Başlık farkları kurumların erişim, ilk açıklama alma veya kısa başlık tercihlerinden kaynaklanabilir; okur yargısını değiştirme niyeti gösterilmiyor.",
+ "missing_context": ["Başlık farkının bir değerlendirme ya da tercih değişikliğine yol açtığına dair kanıt", "Kanadoğlu'nun söylediği sözlerin içeriği"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sarf ettiği sözleri gerekçe gösterildi", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığı duyurdu: Aday Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Bazı başlıklar soruşturmanın gerekçesini ('sözleri') veya kaynağını (Başsavcılık) öne çıkararak belirli ayrıntıları belirginleştiriyor.",
+ "alternative_explanation": "Gerekçe ve kaynak, haberin temel unsurları olduğu için başlığa alınmış olabilir; orantısız ağırlık gösterilmiyor.",
+ "missing_context": ["Öne çıkan ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair açık ifade", "Daha az görünür bilgilerin (sözlerin içeriği, adayın yanıtı) karşılaştırmalı ele alınışı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığı, İstanbul Barosunun Olağan Genel Kurulu'nda sarf ettiği sözler nedeniyle Avukat Hakları Grubu'nun adayı Osman Korkut Kanadoğlu hakkında resen soruşturma başlattı.", "kind": "statement"},
+  {"source": "text", "quote": "Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "İlk açıklamasını Cumhuriyet'e yaptı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ayrıntılı spotla karşılaştırıldığında bazı başlıklar gerekçe ve 'resen' bilgisini atlıyor (düzleştirme), Cumhuriyet ise adayın kendisine yaptığı açıklamayı öne çıkarıyor (keskinleştirme).",
+ "alternative_explanation": "Başlık uzunluğu sınırları ve kurumun özel haber vurgusu, maddi bir çarpıtma olmadan bu farkları açıklayabilir.",
+ "missing_context": ["Atlanan ayrıntının okur yargısını maddi biçimde değiştirdiğine dair kanıt", "Haberlerin tam metinleri"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığı duyurdu:", "kind": "behavioral"},
+  {"source": "text", "quote": "Prof. Dr. Kanadoğlu hakkında soruşturma başlatıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlıklar ya savcılığın kurumsal otoritesini ya da adayın akademik unvanını öne çıkarıyor.",
+ "alternative_explanation": "Kaynak gösterme ve unvan kullanımı olağan habercilik pratiğidir; statünün iddiaya karar verici ağırlık verdiği gösterilmiyor.",
+ "missing_context": ["Otoritenin bir iddiayı tek başına doğruladığına dair açık gerekçe", "Karşı görüşlerin göz ardı edildiğine dair kanıt"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "AHG'nin İstanbul Barosu başkan adayı", "kind": "behavioral"},
+  {"source": "text", "quote": "Avukat Hakları Grubu'nun adayı Osman Korkut Kanadoğlu", "kind": "statement"},
+  {"source": "context", "quote": "Olayı vermeyen etkin kurumlar: ahaber, akit, aydinlik, diken, hurriyet, milligazete, takvim", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Adayın grup aidiyeti belirtiliyor, ancak grup üyeliğine bağlı farklı bir değerlendirme metinde yok.",
+ "alternative_explanation": "Grup adı seçim bağlamını açıklamak için verilmiş olabilir; haberi vermeyen kurumların nedenleri bilinmiyor.",
+ "missing_context": ["Kurumların grup aidiyetine göre farklı standart uyguladığına dair karşılaştırmalı kanıt", "Haberi vermeyen kurumların gerekçeleri"]}
+]}

@@ -1,0 +1,46 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[sabah · 17:57] SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi", "kind": "behavioral"},
+  {"source": "text", "quote": "[tgrt · 20:33] Fenerbahçe'de İsmail Kartal istifa etti", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ayrılık kulüp kararı ya da istifa olarak farklı sunuluyor; bunlar eşdeğer olgular değil ve sunuma bağlı bir tercih gösterilmiyor.",
+ "alternative_explanation": "İlk saatlerde ayrılığın biçimi netleşmemiş olabilir; sonraki haberler istifayı netleştiriyor.",
+ "missing_context": ["Kulübün resmi açıklamasının tam metni"]},
+{"card_id": "outcome-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Galatasaray karşısında alınan 2-1'lik derbi mağlubiyetinin ardından teknik direktör İsmail Kartal ile yollar resmen ayrıldı.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Mağlubiyet ile ayrılık zamansal olarak bağlanıyor; ancak bir kararın kalitesinin yalnızca sonuca göre değerlendirildiği metinde yok.",
+ "alternative_explanation": "Derbi yenilgisi sezon performansının bir parçası olarak meşru bir değerlendirme verisi olabilir; ayrılık gönüllü istifa da olabilir.",
+ "missing_context": ["Sezon geneli sonuçlar", "Kartal'ın ve yönetimin gerekçeleri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "deneyimli çalıştırıcının ayrılma kararını yönetime bildirdiğini", "kind": "statement"},
+  {"source": "text", "quote": "Fenerbahçe ayrılık kararı aldı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Karar'ın özeti ayrılık kararını Kartal'a atfediyor; Sabah kararı kulübe atfediyor, Milli Gazete 'kovuldu mu' diye soruyor. Farkın maddi bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "Sabah'ın başlığı açıklama öncesi bilgiye dayanıyor olabilir; Milli Gazete'ninki arama odaklı soru başlığıdır.",
+ "missing_context": ["Başlıkların yayın anındaki resmi bilgi durumu"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 20:15] Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti", "kind": "behavioral"},
+  {"source": "text", "quote": "[trthaber · 21:06] Fenerbahçe'de İsmail Kartal dönemi sona erdi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "A Haber derbi yenilgisini ve 'deprem' metaforunu öne çıkarıyor; TRT nötr. Bunun okur yargısını haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Derbi sonrası ayrılık spor basınında olağan bir haber çerçevesidir; vurgu olayla ilgili olabilir.",
+ "missing_context": ["Ayrılığın asıl gerekçeleri", "Okur etkisine dair veri"]}
+]}

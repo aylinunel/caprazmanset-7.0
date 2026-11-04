@@ -1,0 +1,48 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Husi saldırıları sonrası Mısır'dan sürpriz karar! Suudi Arabistan'a askeri destek onaylandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Mısır Meclisi, Cumhurbaşkanı Sisi'ye Suudi Arabistan'ın savunmasına destek yetkisi verdi", "kind": "behavioral"},
+  {"source": "text", "quote": "Mısır’dan dikkat çeken karar: Sisi'ye Suudi Arabistan'ın savunmasına destek için yetki verildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı meclis yetkilendirmesi 'sürpriz karar', 'dikkat çeken karar' veya yalın 'yetki verdi' olarak farklı çerçevelenmiş.",
+ "alternative_explanation": "Başlık üslubu farkı olağandır; sunuluşa dayalı bir tercih metinde yok.",
+ "missing_context": ["Okur yargısının çerçeveye göre değiştiğine dair veri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Husi saldırıları sonrası Mısır'dan sürpriz karar!", "kind": "statement"},
+  {"source": "text", "quote": "Mısır ordusu, Yemen'deki Husilerin saldırılarına hedef olan Suudi Arabistan'ın savunmasına yardımcı olacak.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Husi saldırıları bağlamı öne çıkarılarak kararın nedeni olarak sunulmuş.",
+ "alternative_explanation": "Husi saldırıları kararın gerçek arka planı olabilir; öne çıkarma haklı bağlam vermesi olabilir.",
+ "missing_context": ["Meclis kararının resmi gerekçesi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Mısır Meclisi, Cumhurbaşkanı Abdulfettah es-Sisi'ye, Riyad'ın talebi halinde Suudi Arabistan'ın savunmasına destek için yetki verdi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Mısır ordusu, Yemen'deki Husilerin saldırılarına hedef olan Suudi Arabistan'ın savunmasına yardımcı olacak.", "kind": "behavioral"},
+  {"source": "text", "quote": "Mısır Meclisi, Cumhurbaşkanı Sisi’nin talebinin ardından, Suudi Arabistan’a yönelik olası tehditlere karşı askeri destek sağlanmasına onay verdi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Mısır Meclisi, Suudi Arabistan'a askeri destek talebini onayladı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Star'daki 'Riyad'ın talebi halinde' koşulu bazı kurumlarda düşmüş; koşullu yetki kesin askeri destek olarak keskinleştirilmiş, talep sahibi de farklı aktarılmış.",
+ "alternative_explanation": "Özetlemede koşulun atlanması kısalık gereği olabilir; anlamı maddi olarak değiştirdiği ve bir sonuca etki ettiği gösterilmiyor.",
+ "missing_context": ["Mısır Meclisi'nin yazılı açıklamasının tam metni", "Talebin Sisi'den mi Riyad'dan mı geldiği"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Mısır Meclisinden kritik karar!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir duygunun risk/fayda tahminine bağlandığı bir ifade yok.",
+ "alternative_explanation": "'Kritik' nitelemesi duygudan çok önem vurgusudur.",
+ "missing_context": ["Duygu ile risk değerlendirmesi arasında açık bağ"]}
+]}

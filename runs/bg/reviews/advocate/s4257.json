@@ -1,0 +1,49 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İsrail yanlısı Vucic 'öğrenciler' karşısında yenilgiyi kabul etti", "kind": "behavioral"},
+  {"source": "text", "quote": "İsrail ile yakınlığı dikkat çeken Vucic yenilgiyi kabul etti", "kind": "behavioral"},
+  {"source": "text", "quote": "[sabah · 02:44] Sırbistan'da Vucic seçim mağlubiyetini kabul etti", "kind": "behavioral"},
+  {"source": "text", "quote": "İsrail Başbakanı Netanyahu’nun \"dostum\" diyerek yakın ilişkiler kurduğu Sırp lider", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [3]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı yenilgi haberi bazı kurumlarda Vucic'in İsrail ile ilişkisi üzerinden çerçeveleniyor, diğerlerinde nötr veriliyor; çerçeveye dayalı bir değerlendirme açıkça kurulmuyor.",
+ "alternative_explanation": "İsrail ilişkisi Türk okuyucu için ilgili bir arka plan bilgisi olarak eklenmiş olabilir.",
+ "missing_context": ["Çerçevenin okuyucu değerlendirmesini değiştirdiğine dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "sandıkta ağır bir yenilgi alarak 14 yıllık iktidarını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Sırbistan’da 12 yıllık Vucic iktidarı son buldu", "kind": "behavioral"},
+  {"source": "text", "quote": "\"Parlamentoda Öğrenci Listesi yaklaşık 135, biz ise yaklaşık 105 sandalye alacağız\"", "kind": "statement"},
+  {"source": "text", "quote": "muhalefetteki sorumluluklarını yerine getireceklerini söyledi", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "İktidar süresi kurumlar arasında 12 ve 14 yıl olarak çelişiyor; Türkiye Gazetesi 'ağır yenilgi' diyerek keskinleştiriyor, sandalye sayıları ise çoğu başlıkta düşüyor.",
+ "alternative_explanation": "Süre farkı başbakanlık ve cumhurbaşkanlığı dönemlerinin farklı hesaplanmasından kaynaklanabilir.",
+ "missing_context": ["Vucic'in görev süresinin resmî kaydı", "Kesin seçim sonuçları"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sırbistan'da seçim şoku: Vucic yenilgiyi kabul etti", "kind": "statement"},
+  {"source": "text", "quote": "Sırbistan'da 12 yıllık iktidar bitti!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Şok' ve ünlem gibi çarpıcı vurgular var; bunların bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Uzun süreli bir iktidarın sona ermesi gerçekten dikkat çekici bir haberdir.",
+ "missing_context": ["Seçim öncesi beklentiler"]},
+{"card_id": "halo-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İsrail ile yakınlığı dikkat çeken Vucic", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir alandaki olumlu izlenimin başka bir alandaki olumlu yargıya taşındığı görülmüyor; vurgulanan özellik olumsuz çağrışımlı.",
+ "alternative_explanation": "İlişki bilgisi değerlendirme değil, arka plan aktarımı olabilir.",
+ "missing_context": ["Olumlu bir özelliğin ilgisiz bir yargıya bağlandığı ifade"]}
+]}

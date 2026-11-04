@@ -1,0 +1,39 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[sozcu · 00:46] Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 6 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Belediye Başkanı Şeniz Doğan ve eşinin de aralarında bulunduğu 5 şüpheli tutuklandı", "kind": "statement"},
+  {"source": "text", "quote": "[diken · 11:34] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "rüşvet, irtikap ve ihaleye fesat karıştırma soruşturması", "kind": "statement"},
+  {"source": "text", "quote": "[sabah · 05:38] Merkezefendi Belediyesi operasyonunda 5 kişi tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3, 4]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Sözcü tutuklu sayısını 6, diğerleri 5 veriyor; yalnızca Diken başkanın partisini başlığa taşıyor; bazı başlıklar başkanın adını ve suçlama türlerini düşürüyor.",
+ "alternative_explanation": "Sayı farkı erken ve düzeltilmemiş bilgiden, parti bilgisinin eksikliği başlık kısalığından kaynaklanabilir.",
+ "missing_context": ["Resmî tutuklu sayısı", "Sözcü'nün sonradan düzeltme yapıp yapmadığı", "Haber gövdelerinde parti bilgisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Merkezefendi'de rüşvet soruşturması! Başkan ve eşi dahil beş kişi tutuklandı", "kind": "statement"},
+  {"source": "text", "quote": "Merkezefendi Belediye Başkanı Doğan tutuklandı, oğlu Reşat Çınar'ı emanet etti", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı başlıklar 'rüşvet' veya duygusal aile ayrıntısını öne çıkarıyor; bunun bir yargıyı haksız etkilediği metinde yok.",
+ "alternative_explanation": "Bu ayrıntılar habere insani ve hukuki bağlam katmak için seçilmiş olabilir.",
+ "missing_context": ["Okuyucu yargısına etkiye dair karşılaştırma"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[diken · 11:34] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olayı vermeyen etkin kurumlar: ahaber, akit, aydinlik, hurriyet, takvim, yenisafak", "kind": "statement"},
+  {"source": "context", "quote": "diken: sol (34)", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başkanın parti üyeliği yalnızca bir kurumca belirtiliyor; bazı kurumlar olayı hiç vermiyor; ancak bu farkın grup üyeliğine bağlı bir değerlendirme farkı olduğu gösterilmiyor.",
+ "alternative_explanation": "Parti bilgisinin verilmesi veya olayın atlanması editoryal öncelik ve yerel haber değeriyle açıklanabilir.",
+ "missing_context": ["Benzer olaylarda farklı partili başkanlara ilişkin başlık tercihleri", "Haber vermeyen kurumların gerekçesi"]}
+]}

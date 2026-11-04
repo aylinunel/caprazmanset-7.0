@@ -1,0 +1,55 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Katliam gibi kaza! Antalya-Isparta kara yolunda yolcu otobüsü devrildi: 1 ölü 8 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "Burdur'da yolcu otobüsü devrildi: 1 kişi öldü, 8 kişi yaralandı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 ölü, 7 yaralı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olgular bazı kurumlarda 'Katliam gibi kaza' sunumuyla, bazılarında düz bilgiyle veriliyor; bunun bir yargı veya tercihi değiştirdiği metinde görünmüyor.",
+ "alternative_explanation": "Duygusal başlık bir yayın üslubu ve tık stratejisi olabilir; okurun ya da karar vericinin değerlendirmesinin sunuma göre değiştiğine dair kanıt yok.",
+ "missing_context": ["Başlık sunumunun okur yargısını etkilediğine dair karşılaştırmalı veri", "Kurumların genel başlık üslubu taban çizgisi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Katliam gibi kaza!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz kelime seçimi var; ancak karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık verildiği belgelenmiyor.",
+ "alternative_explanation": "Ölümlü bir kaza haberinde olumsuz vurgu olayın doğasından kaynaklanır ve orantılı olabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi", "Değerlendirme veya karar üzerinde etki kanıtı"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Isparta- Antalya kara yolunda feci kaza!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı ifade kullanılmış ama bir yargıya veya seçime bağlandığı gösterilmiyor.",
+ "alternative_explanation": "Son dakika haberinde dikkat çekici dil olağan bir sunum biçimidir; sıklık çıkarımı yapılmıyor.",
+ "missing_context": ["Belirgin ayrıntının bir yargıyı yönlendirdiğine dair açık ifade", "Taban oranları veya karşılaştırmalı davranış"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Katliam gibi kaza: Yolcu otobüsü devrildi ölü ve yaralılar var", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygusal dil var; bir duygunun risk/fayda tahminine veya karara bağlandığı belirtilmiyor.",
+ "alternative_explanation": "Duygusal yoğunluk, kanıt yerine geçen bir değerlendirme değil, haber üslubudur.",
+ "missing_context": ["Duygu ile belirli bir risk tahmini arasında açık bağ", "Olgular sabitken yargının duyguya göre değiştiğini gösteren karşılaştırma"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Burdur'da Isparta - Antalya yolunda yolcu otobüsü kazası! 1 ölü, 9 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "Yolcu otobüsü devrildi: 1 ölü, 8 yaralı", "kind": "behavioral"},
+  {"source": "context", "quote": "devrildi: 1 ölü, 7 yaralı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yaralı sayısı kurumlar arasında 7, 8 ve 9 olarak farklılaşıyor; tutarsızlık görülüyor ama bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "Farklı saatlerde güncellenen resmi açıklamalar veya ilk bilgilerin belirsizliği sayısal farkı açıklayabilir.",
+ "missing_context": ["Resmi yaralı sayısı ve açıklama saati", "Farkın okur yargısını etkilediğine dair kanıt"]}
+]}

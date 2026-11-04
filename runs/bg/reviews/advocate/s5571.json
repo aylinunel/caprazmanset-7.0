@@ -1,0 +1,72 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakan Işıkhan’dan emeklilere 2027 müjdesi: İlave iyileştirme çalışması yapılıyor", "kind": "behavioral"},
+  {"source": "text", "quote": "Resmen tarih verildi: Emekliye ilave iyileştirme yolda", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı bakan açıklaması AA'da 'çalışma yapıyoruz' olarak, bazı kurumlarda 'müjde' ve 'yolda' olarak kazanç çerçevesiyle sunuluyor.",
+ "alternative_explanation": "Olumlu çerçeve, bakanın açıklamasındaki iyileştirme vurgusunu aktarmaktan kaynaklanabilir.",
+ "missing_context": ["Çerçevenin bir tercih ya da yargıyı değiştirdiğine dair açık ifade yok", "Bakanın açıklamasının tam metni"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Işıkhan duyurdu: Emekliye 2027'de ilave iyileştirme geliyor", "kind": "statement"},
+  {"source": "text", "quote": "Resmen tarih verildi: Emekliye ilave iyileştirme yolda", "kind": "statement"},
+  {"source": "text", "quote": "2027 zam takvimi belli oldu", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bakanın beyanı, bir çalışma aşamasında olmasına rağmen bazı başlıklarda kesinleşmiş takvim gibi sunuluyor; makam beyanı kesinlik kaynağı olarak görünüyor.",
+ "alternative_explanation": "Politika açıklamalarını yetkili bakana atfederek aktarmak standart ve meşru habercilik pratiğidir.",
+ "missing_context": ["Karşıt kanıtın makam nedeniyle göz ardı edildiğine dair açık ifade yok", "Somut oran veya tarih içeren resmi metin"]},
+{"card_id": "optimism-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Emekliye ilave iyileştirme yolda", "kind": "statement"},
+  {"source": "text", "quote": "Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir çalışma beyanı bazı başlıklarda gerçekleşmesi kesin olumlu bir sonuç beklentisine dönüşüyor.",
+ "alternative_explanation": "Başlıklar bakanın kendi iyimser ifadesini aktarıyor olabilir; bir olasılık tahmini yapılmıyor.",
+ "missing_context": ["Metinde taban oran veya karşıt kanıt yok", "Geçmiş benzer vaatlerin gerçekleşme oranları"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Işıkhan’dan emeklilere müjde: Maaşlara yasal zammın dışında ilave iyileştirme geliyor", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakan Işıkhan'dan emekli maaşlarına ek zam açıklaması! Ocak 2027 için çalışma başladı", "kind": "behavioral"},
+  {"source": "text", "quote": "[haberturk · 11:35] Bakan Işıkhan'dan emekli maaşı açıklaması", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "'Müjde' ve 'ek zam' gibi duygusal açıdan çarpıcı ifadeler bazı kurumlarda öne çıkarken diğerleri yalın başlık kullanıyor.",
+ "alternative_explanation": "Emekli maaşı geniş kitleyi ilgilendirdiği için ilgi çekici vurgu okur ilgisine yanıt olabilir.",
+ "missing_context": ["Çarpıcı ögenin bir yargıyı haksız biçimde yönlendirdiğine dair açık kanıt yok"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz", "kind": "behavioral"},
+  {"source": "text", "quote": "Resmen tarih verildi: Emekliye ilave iyileştirme yolda", "kind": "behavioral"},
+  {"source": "text", "quote": "2027 zam takvimi belli oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakan Işıkhan'dan emekli maaşlarına ek zam açıklaması!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "AA'daki 'çalışma yapıyoruz' ifadesi taban alındığında bazı başlıklar bunu 'resmen tarih verildi', 'takvim belli oldu', 'ek zam' gibi daha kesin ve somut ayrıntılara büyütüyor.",
+ "alternative_explanation": "Bakanın açıklamasında AA başlığına yansımayan tarih bilgisi bulunuyor olabilir.",
+ "missing_context": ["Açıklamanın tam metni", "Farkın okur kararlarını etkilediğine dair kanıt"]}
+]}

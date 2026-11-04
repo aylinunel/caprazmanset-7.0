@@ -1,0 +1,46 @@
+{"role": "advocate", "assessments": [
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Külliye'de kritik zirve: Başkan Erdoğan Siber Güvenlik Kurulu'na başkanlık etti", "kind": "statement"},
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Kritik strateji resmen sunuldu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlıklar toplantıyı Cumhurbaşkanı'nın başkanlığı üzerinden çerçeveliyor; statü haberin merkezine konmuş.",
+ "alternative_explanation": "Kurulu Cumhurbaşkanı'nın yönetmesi olgusal bir bilgidir; bir iddianın yalnızca statüyle doğrulandığı gösterilmiyor.",
+ "missing_context": ["Toplantıda alınan kararların içeriği", "Statünün bir iddiayı gerekçelendirmek için kullanıldığına dair ifade"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Beştepe'de kritik zirve: Siber Güvenlik Kurulu Başkan Erdoğan liderliğinde toplandı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Siber Güvenlik Kurulu Toplantısı başladı", "kind": "behavioral"},
+  {"source": "text", "quote": "Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Bakanlar ve MİT Başkanı katıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı toplantı bazı kurumlarda 'kritik zirve', diğerlerinde yalın 'toplandı/başladı' olarak sunulmuş.",
+ "alternative_explanation": "Vurgu farkı editoryal üslup farkı olabilir; sunuluşa dayalı bir yargı değişimi metinde yok.",
+ "missing_context": ["Sunuluşun okur değerlendirmesine etkisine dair veri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Masada hangi konular var?", "kind": "statement"},
+  {"source": "text", "quote": "Beştepe'de kritik zirve: Siber Güvenlik Kurulu toplandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Kritik zirve' ifadesi olayın önemini öne çıkarıyor; ancak bir yargıya haksız etki gösterilmiyor.",
+ "alternative_explanation": "Ulusal güvenlik kurulu toplantısını önemli olarak sunmak olağan haber değerlendirmesidir.",
+ "missing_context": ["Toplantı gündeminin içeriği", "Öne çıkarmanın bir çıkarıma dönüştüğüne dair kanıt"]},
+{"card_id": "messenger-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Kritik strateji resmen sunuldu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Sunulan stratejiden söz ediliyor ama içeriği veya kaynağa göre değerlendirilmesi metinde yer almıyor.",
+ "alternative_explanation": "Haberler yalnızca toplantının yapıldığını aktarıyor; bir iddianın mesajı verene göre kabul edildiği görülmüyor.",
+ "missing_context": ["Stratejinin içeriği", "Aynı iddianın farklı kaynaklardan nasıl karşılandığı"]}
+]}

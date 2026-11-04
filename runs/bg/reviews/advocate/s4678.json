@@ -1,0 +1,48 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi", "kind": "behavioral"},
+  {"source": "text", "quote": "İstifasını sundu! Fenerbahçe'de İsmail Kartal dönemi sona erdi", "kind": "behavioral"},
+  {"source": "text", "quote": "Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı ayrılık kulübün kararı, istifa veya kovulma olarak farklı çerçevelenmiş; bu sunuma dayalı bir tercih metinde yok.",
+ "alternative_explanation": "Ayrılığın biçimi ilk saatlerde net olmadığından farklı ifadeler bilgi belirsizliğini yansıtabilir.",
+ "missing_context": ["Kulübün resmi açıklaması", "Çerçeveye bağlı açık bir yargı"]},
+{"card_id": "outcome-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti", "kind": "statement"},
+  {"source": "text", "quote": "Galatasaray karşısında alınan 2-1'lik derbi mağlubiyetinin ardından teknik direktör İsmail Kartal ile yollar resmen ayrıldı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ayrılık derbi mağlubiyetine zamansal olarak bağlanıyor; ancak bir değerlendiricinin önceki kararın kalitesini sonuca göre yargıladığı açıkça yazılmıyor.",
+ "alternative_explanation": "Ayrılık, tek maç sonucundan bağımsız olarak uzun dönem performans veya teknik direktörün kendi kararıyla ilgili olabilir.",
+ "missing_context": ["Ayrılık gerekçesini açıklayan kulüp ya da Kartal beyanı", "Sezon performans verisi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "deneyimli çalıştırıcının ayrılma kararını yönetime bildirdiğini", "kind": "statement"},
+  {"source": "text", "quote": "SON DAKİKA | Fenerbahçe ayrılık kararı aldı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Karar'ın 'ayrılma kararını yönetime bildirdi' aktarımı temel alındığında Sabah kararı kulübe atfediyor; A Haber mağlubiyet bağlantısını 'deprem' olarak büyütüyor.",
+ "alternative_explanation": "Karşılıklı ayrılık süreçlerinde hem kulübün hem teknik direktörün karar verdiği söylenebilir.",
+ "missing_context": ["Resmi KAP/kulüp açıklaması", "Farkın bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Fenerbahçe'de kritik saatler... Derbi sonrası İsmail Kartal iddiası!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Yakın tarihli ve duygusal açıdan çarpıcı derbi yenilgisi ayrılığın başlıca bağlamı olarak öne çıkarılmış.",
+ "alternative_explanation": "Ayrılık derbiden hemen sonra geldiği için derbiyi anmak olgusal bağlam vermektir.",
+ "missing_context": ["Derbinin ayrılık kararına etkisini anlatan açık ifade", "Diğer performans etkenleri"]}
+]}

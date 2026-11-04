@@ -1,0 +1,40 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "Başkan Erdoğan'ın daveti üzerine Ukrayna Devlet Başkanı Zelenskiy bugün Türkiye'ye geliyor", "kind": "behavioral"},
+{"source": "text", "quote": "Cumhurbaşkanı Erdoğan'dan kritik görüşme! Ukrayna Devlet Başkanı Zelenski İstanbul'da", "kind": "behavioral"},
+{"source": "text", "quote": "Ukrayna Devlet Başkanı Zelenski İstanbul'a geldi", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Bazı başlıklar ziyareti Erdoğan'ın daveti veya girişimi üzerinden, bazıları Zelenski'nin gelişi üzerinden kuruyor; bunun bir yargıyı değiştirdiği gösterilmiyor.",
+"alternative_explanation": "Davet bilgisi başka bir kurumun metninde de olgu olarak geçiyor; ev sahibi ülkenin rolünü öne çıkarmak olağan haber pratiğidir.",
+"missing_context": ["Okur algısına etki verisi", "Kurumların benzer ziyaretlerdeki başlık tercihleri"]},
+{"card_id": "authority-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "Türkiye Cumhurbaşkanı Recep Tayyip Erdoğan ile önemli görüşmelerimiz olacak", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": []},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Metinde bir iddianın yalnızca otoritenin statüsüne dayanarak kabul edildiğine dair akıl yürütme yok.",
+"alternative_explanation": "Devlet başkanlarının unvanlarıyla anılması protokol gereğidir; otoriteye haksız ağırlık verildiğini göstermez.",
+"missing_context": ["Bir iddianın otorite statüsüyle gerekçelendirildiği açık ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "Cumhurbaşkanı Erdoğan'dan kritik görüşme!", "kind": "behavioral"},
+{"source": "text", "quote": "Ukrayna Devlet Başkanı Zelenski İstanbul'a geldi: Programı belli oldu", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+"mechanism": "Bir kurum 'kritik' nitelemesi ve ünlemle vurgu yapıyor; bu biçimsel vurgu tek başına yanlı yargı göstermez.",
+"alternative_explanation": "Savaş ortamında bir devlet başkanı ziyareti gerçekten önemlidir; vurgu orantılı olabilir.",
+"missing_context": ["Görüşmenin içeriği ve sonuçları", "Kurumların genel başlık üslubu"]},
+{"card_id": "halo-effect", "verdict": "not_supported", "evidence": [],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": []},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Metinde bir alandaki olumlu izlenimin başka bir alandaki olumlu yargıya taşındığına dair ifade yok.",
+"alternative_explanation": "Haberler ziyaretin olgusal aktarımıdır; değerlendirme içermez.",
+"missing_context": ["Bir kişiye ilişkin alanlar arası olumlu yargı içeren ifade"]}
+]}

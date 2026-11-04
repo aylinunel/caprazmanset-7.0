@@ -1,0 +1,66 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Zonguldak'ta 2 katlı bina çöktü! Enkaz altında kalan 2 kardeşten biri kurtarılamadı", "kind": "behavioral"},
+  {"source": "text", "quote": "Zonguldak'ta 3 katlı bina çöktü: Enkazdan acı haber geldi", "kind": "behavioral"},
+  {"source": "text", "quote": "Zonguldak'ın Meşrutiyet Mahallesi'nde 2 katlı binanın çökmesi sonucu", "kind": "behavioral"},
+  {"source": "text", "quote": "Zonguldak'ta çöken binada 1 kişi kurtarıldı, 1 kişi için arama çalışması başlatıldı (AA)", "kind": "behavioral"},
+  {"source": "text", "quote": "Üç kardeşin yaşadığı belirlenen binanın…", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3, 4]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kat sayısı (2/3), isim yazımı ve kardeş sayısı gibi ayrıntılar kurumlar arasında, hatta Cumhuriyet'in kendi başlık ve özetinde çelişiyor.",
+ "alternative_explanation": "Farklılıklar ilk saatlerdeki belirsiz bilgilerden ve ajans metninin farklı sürümlerinden kaynaklanabilir; maddi bir sonuca etkisi gösterilmiyor.",
+ "missing_context": ["Valilik veya AFAD resmi açıklaması", "Binanın tapu/kat bilgisi"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Zonguldak'ta 3 katlı bina çöktü: Enkaz altında can pazarı", "kind": "behavioral"},
+  {"source": "text", "quote": "Zonguldak'ta bina çöktü: 1 kişi kurtarıldı, 1 kişi öldü", "kind": "behavioral"},
+  {"source": "text", "quote": "Zonguldak’ta bir bina çöktü: 2 kişiden 1'i hayatını kaybetti!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı sonuç kurtarma ('1 kişi kurtarıldı') veya kayıp ('2 kişiden 1'i hayatını kaybetti') vurgusuyla farklı çerçevelenmiş.",
+ "alternative_explanation": "Kazanç/kayıp sırası editoryal tercihtir; bir tercihin bu sunuluşa dayandığı metinde yok.",
+ "missing_context": ["Okur yargısının çerçeveye göre değiştiğine dair veri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "bu kez 3 katlı bir bina büyük bir gürültüyle çöktü", "kind": "statement"},
+  {"source": "text", "quote": "Zonguldak'ta daha önce sağanak nedeniyle çöken metruk binanın yanındaki 3 katlı bina da yıkıldı.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı ayrıntılar ('büyük bir gürültüyle', 'can pazarı') öne çıkarılmış; bir yargıya haksız etki gösterilmiyor.",
+ "alternative_explanation": "Canlı anlatım olay haberciliğinde olağandır; önceki çökme bilgisi ilgili bağlamdır.",
+ "missing_context": ["Bölgedeki yapı riskine dair taban veriler"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir kişinin iç durumunun başkalarınca anlaşıldığına inandığına dair ifade yok.",
+ "alternative_explanation": "Haber bir bina çökmesini olgusal olarak aktarıyor; kart konuyla ilgisiz.",
+ "missing_context": ["Bir kişinin algılanabilirlik inancına dair açık ifade"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir eyleme bağlı ödül veya ceza tanımlanmıyor.",
+ "alternative_explanation": "Gözaltı kararı bir teşvik değil, adli süreçtir; kart konuyla ilgisiz.",
+ "missing_context": ["Eyleme bağlı ödül/ceza ve davranış etkisine dair bilgi"]},
+{"card_id": "mental-accounting", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir harcama, tahsis veya kaynak kararı yer almıyor.",
+ "alternative_explanation": "Haber bir yapı çökmesini anlatıyor; zihinsel muhasebe konusu yok.",
+ "missing_context": ["Kaynak tahsisi veya harcama kararına dair bilgi"]}
+]}

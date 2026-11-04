@@ -1,0 +1,44 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı", "kind": "behavioral"},
+{"source": "text", "quote": "Yahşihan Belediye Başkan vekili Aydın Demirdirek görevden alındı", "kind": "behavioral"},
+{"source": "text", "quote": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek, geçici tedbir olarak görevinden uzaklaştırıldı.", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Aynı karar bir kurumda parti etiketiyle, birinde 'görevden alındı', diğerinde 'geçici tedbir' olarak veriliyor; sunum farkı açık, okur yargısına bağlantısı gösterilmiyor.",
+"alternative_explanation": "Parti aidiyeti haber değeri taşıyan bir olgudur; 'görevden alındı' ifadesi yaygın bir kısaltma olabilir.",
+"missing_context": ["Kurumların diğer partilerden belediye yöneticileri için etiket kullanımı", "Okur algısına etki verisi"]},
+{"card_id": "salience-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "İçişleri duyurdu: Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": []},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Başlıklar büyük ölçüde benzer ve olgusal; çarpıcı bir ayrıntının yargıyı haksız yönlendirdiği görülmüyor.",
+"alternative_explanation": "Bakanlık açıklamasının aktarımı standart haber pratiğidir.",
+"missing_context": ["Haberlerin sayfa yerleşimi"]},
+{"card_id": "in-group-bias", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "AKP'li Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı", "kind": "behavioral"},
+{"source": "text", "quote": "Yahşihan Belediye Başkan Vekili Aydın Demirdirek görevden uzaklaştırıldı — Kırıkkale Yahşihan Belediye Başkan Vekili Aydın Demirdirek", "kind": "behavioral"},
+{"source": "context", "quote": "diken: sol (34)", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 2]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Yalnızca bir kurum parti aidiyetini başlığa taşıyor; bunun grup temelli farklı bir standarda dayandığı karşılaştırmalı vaka olmadan gösterilemez.",
+"alternative_explanation": "Kayyum ve görevden uzaklaştırma tartışmalarında iktidar partili bir yöneticinin görevden alınması habere değer bir karşıtlık olabilir; diğer kurumlar etiketi gereksiz görmüş olabilir.",
+"missing_context": ["Aynı kurumların muhalefet partili belediye yöneticilerinde parti etiketini kullanıp kullanmadığı", "Karşılaştırılabilir vakalarda tutarlılık"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+{"source": "text", "quote": "rüşvet ve ihaleye fesat karıştırma suçlamalarıyla tutuklanmasının ardından", "kind": "behavioral"},
+{"source": "text", "quote": "“rüşvet, ihaleye fesat karıştırma ve suç örgütüne yardım etme” suçlarından tutuklanmasının ardından", "kind": "behavioral"},
+{"source": "text", "quote": "Anayasa'nın 127. maddesi uyarınca görevden uzaklaştırıldı.", "kind": "statement"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Bir kurum 'suç örgütüne yardım' suçlamasını düşürüyor, bir diğeri 'geçici tedbir' niteliğini atlıyor; farklar gözlenebilir, sonuca maddi etkisi gösterilmiyor.",
+"alternative_explanation": "Özetlerde suçlama listesinin kısaltılması olağan editoryal tercihtir ve haberin ana anlamını değiştirmeyebilir.",
+"missing_context": ["Bakanlık açıklamasının tam metni", "Haberlerin tam metinleri"]}
+]}

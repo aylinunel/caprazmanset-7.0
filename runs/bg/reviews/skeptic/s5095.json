@@ -1,0 +1,40 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Milyonlarca KOBİ bekliyordu!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlıklar büyük ölçüde bilgilendirici ve tutarlı; çerçeveye dayalı bir yargı gösterilmiyor.",
+ "alternative_explanation": "Hizmet haberciliği formatı (başvuru şartları, tarihler) olağan bir sunumdur.",
+ "missing_context": ["Kredi koşullarının resmi metni"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "firma başına limit 5 milyon TL", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Limit rakamı öne çıkarılıyor; bunun bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Limit, başvuracak firmalar için karar açısından en ilgili bilgidir.",
+ "missing_context": ["Faiz ve vade koşulları"]},
+{"card_id": "cashless-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haber bir kredi programını konu alıyor; nakitsiz ödeme bağlamı ya da harcama karşılaştırması yok.",
+ "alternative_explanation": "Kart yapısı bu habere uygulanamaz; konu ödeme yöntemi değil finansmana erişimdir.",
+ "missing_context": ["Ödeme yöntemine göre harcama karşılaştırması"]},
+{"card_id": "bounded-rationality", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir karar sürecinin kısıtlar nedeniyle tatmin edici eşikte durdurulduğuna dair ifade yok.",
+ "alternative_explanation": "Haberler yalnızca başvuru takvimi ve koşullarını aktarıyor.",
+ "missing_context": ["Firmaların başvuru kararlarına ilişkin bilgi"]}
+]}

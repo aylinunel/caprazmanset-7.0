@@ -1,0 +1,34 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yürek yakan haber Van’dan geldi!", "kind": "behavioral"},
+  {"source": "text", "quote": "MSB duyurdu: Piyade Uzman Çavuş Oğuz Şahin şehit oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Van'da görev yapan uzman çavuş rahatsızlanarak şehit oldu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı ölüm haberi bazı kurumlarda duygusal çerçeveyle ('yürek yakan', 'kahreden'), bazılarında yalın ve ölüm nedenini ('rahatsızlanarak') belirterek verilmiş.",
+ "alternative_explanation": "Şehit haberlerinde yerleşik taziye üslubu; ölüm nedeninin başlıkta yer alması kurum tercihine bağlı.",
+ "missing_context": ["Çerçevenin bir yargı veya tercihi değiştirdiğine dair kanıt"]},
+{"card_id": "identifiable-victim-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Piyade Uzman Çavuş Oğuz Şahin şehit oldu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tanımlanabilir bir kişi var, ancak bir yardım/kaynak tahsisi kararı ya da grup karşılaştırması yok.",
+ "alternative_explanation": "Bireysel ölüm haberinde ismin verilmesi olağan.",
+ "missing_context": ["Tahsis kararı ve karşılaştırılabilir grup"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Van'dan kahreden haber! Uzman çavuş Oğuz Şahin şehit oldu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygusal dil var, ancak bir risk/fayda tahminine bağlanmıyor.",
+ "alternative_explanation": "Taziye üslubu.",
+ "missing_context": ["Duygu ile bir karar veya tahmin arasında açık bağ"]}
+]}

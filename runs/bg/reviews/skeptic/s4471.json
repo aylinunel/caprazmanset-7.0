@@ -1,0 +1,66 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 18:48] Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "[diken · 19:53] Bayrampaşa'da yol çöktü: Bir ölü", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olgu 'facia' ya da yalın 'bir ölü' olarak sunuluyor; sunuma bağlı bir tercih veya yargı gösterilmiyor.",
+ "alternative_explanation": "Üslup farkı editoryal tercihtir; olgular aynıdır.",
+ "missing_context": ["Okur tepkisine dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[haberturk · 18:45] Bayrampaşa'da yol çöktü!", "kind": "behavioral"},
+  {"source": "text", "quote": "[akit · 18:59] Bayrampaşa'da yol çöktü; mahsur kalanlar var", "kind": "behavioral"},
+  {"source": "text", "quote": "Bayrampaşa'da İSKİ'nin yürüttüğü kazı çalışması sırasında meydana gelen çökmede toprak altında kalan işçi", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Star özeti kazının İSKİ çalışması sırasında olduğunu ve bir işçinin öldüğünü veriyor; Habertürk ölümü ve sorumlu kurumu atlıyor, Akit çoğul 'mahsur kalanlar' diyor. Maddi bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "İlk dakikalarda bilgi eksikti; başlıklar yayın anındaki bilgi durumunu yansıtıyor olabilir.",
+ "missing_context": ["Başlıkların sonradan güncellenip güncellenmediği", "Mahsur kalan sayısına dair resmi bilgi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[karar · 18:57] Bayrampaşa’da göçük faciası: 1 işçi hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "[birgun · 19:24] Bayrampaşa'da çalışma sırasında yolda göçük meydana geldi: 1 işçi öldü", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Bazı kurumlar 'facia' ile duygusal vurgu yapıyor, bazıları nötr. Vurgunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "İş kazasında ölüm için güçlü dil orantılı olabilir.",
+ "missing_context": ["Okur yargısına etkisi", "Kazanın nedeni"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İhbar üzerine olay yerine çok sayıda polis, sağlık, itfaiye ve AFAD ekipleri sevk edildi.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kimsenin iç durumunun başkalarınca anlaşılacağına dair bir inanç metinde yok.",
+ "alternative_explanation": "Olgusal kaza haberidir.",
+ "missing_context": ["Herhangi bir kişi beyanı"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[aksam · 19:42] Bayrampaşa'da İSKİ çalışmasında göçük: 1 işçi hayatını kaybetti", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir eyleme bağlı ödül veya ceza anlatılmıyor.",
+ "alternative_explanation": "İş kazası haberidir; teşvik yapısı söz konusu değil.",
+ "missing_context": ["Taşeron/iş güvenliği ve süre baskısı bilgisi"]},
+{"card_id": "mental-accounting", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[sozcu · 18:54] Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Parasal bir dağıtım veya harcama kararı metinde yok.",
+ "alternative_explanation": "Olgusal kaza haberidir.",
+ "missing_context": ["Herhangi bir kaynak tahsis kararı"]}
+]}

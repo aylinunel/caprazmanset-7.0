@@ -1,0 +1,38 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "SPK'dan flaş karar: Tera ve Pusula'nın faaliyetleri geçici olarak durduruldu", "kind": "behavioral"},
+  {"source": "text", "quote": "SPK düğmeye bastı: Tera ve Pusula portföy faaliyetleri durduruldu", "kind": "behavioral"},
+  {"source": "text", "quote": "SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini geçici olarak durdurdu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı SPK kararı AA'da teknik dille, Yeni Şafak ve Akşam'da 'flaş', 'düğmeye bastı' gibi dramatik çerçeveyle verilmiş.",
+ "alternative_explanation": "Kurumların başlık üslubu farkı; olgusal içerik aynı.",
+ "missing_context": ["Çerçevenin bir yargı veya tercihe etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturmasında sıcak gelişme! Tera ve Pusula'nın faaliyetleri durduruldu", "kind": "behavioral"},
+  {"source": "text", "quote": "SPK'dan Tera ve Pusula'nın faaliyetlerini durdurma kararı", "kind": "behavioral"},
+  {"source": "text", "quote": "Faaliyetler durdu, bütün fonlar tasfiye kapsamına alındı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1, 2]}],
+ "mechanism": "Bazı başlıklar soruşturma bağlantısını veya tasfiyeyi öne çıkarırken bazıları 'geçici' niteliğini atlıyor.",
+ "alternative_explanation": "Tasfiye ve soruşturma bağlamı yatırımcı için önemli, orantılı vurgu olabilir.",
+ "missing_context": ["Vurgunun haksız bir çıkarıma yol açtığına dair açık ifade"]},
+{"card_id": "attentional-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "context", "quote": "Olayı vermeyen etkin kurumlar: aydinlik, cumhuriyet, hurriyet, sabah, star, takvim", "kind": "statement"},
+  {"source": "text", "quote": "SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini geçici olarak durdurdu", "kind": "statement"},
+  {"source": "text", "quote": "SPK'dan Tera ve Pusula kararı! Geçici olarak durduruldu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "AA sabah 10:16'da verdiği halde çoğu kurum akşam 21:30 sonrası haberleştirmiş; bazı etkin kurumlar hiç vermemiş, dikkat dağılımı eşit değil.",
+ "alternative_explanation": "SPK bülteninin akşam yayımlanması veya kurumların haber önceliği/ekonomi masası kapasitesi.",
+ "missing_context": ["Kurumların bilgiye erişim zamanı", "Vermeyen kurumların başka kanaldan yayımlayıp yayımlamadığı", "Eşitsiz dikkatin bir sonuca bağlandığına dair kanıt"]}
+]}

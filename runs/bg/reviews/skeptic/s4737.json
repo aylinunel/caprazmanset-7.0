@@ -1,0 +1,35 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[haberler · 01:44] Türkiye'den BM hamlesi! Feridun Sinirlioğlu, Genel Sekreterlik için resmen aday gösterildi", "kind": "behavioral"},
+  {"source": "text", "quote": "[aa · 01:45] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Hamle' vurgusu ile nötr anlatım arasında üslup farkı var; sunuma dayalı bir tercih veya yargı yok.",
+ "alternative_explanation": "Başlık üslubu farkı olağan editoryal tercihtir.",
+ "missing_context": ["Okur veya karar verici tepkisine dair veri"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "eski Dışişleri Bakanı ve mevcut AGİT Genel Sekreteri Büyükelçi Feridun Sinirlioğlu'nun", "kind": "statement"},
+  {"source": "text", "quote": "[turkiyegz · 18:02] Bakan Fidan duyurdu: Feridun Sinirlioğlu BM Genel Sekreterliği'ne aday", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Unvanlar ve bakan kaynağı anılıyor; ancak statünün gerekçe yerine geçtiği veya karşı görüşü bastırdığı gösterilmiyor.",
+ "alternative_explanation": "Adayın mevcut ve önceki görevlerini belirtmek, adaylıkla ilgili meşru biyografik bilgidir.",
+ "missing_context": ["Adaylığa yönelik eleştiri veya alternatif adaylar"]},
+{"card_id": "leveling-and-sharpening", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[birgun · 08:39] Türkiye'nin BM Genel Sekreterliği için gösterdiği aday belli oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "[takvim · 06:33] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliğine aday gösterdi: Resmi başvuru mektubu sunuldu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "BirGün adayın adını başlıkta vermiyor; bu anlamı değiştirmeyen bir kısaltma, maddi bir çarpıtma gösterilmiyor.",
+ "alternative_explanation": "Merak uyandıran başlık biçimi; içerikte ad muhtemelen veriliyor.",
+ "missing_context": ["BirGün haberinin gövde metni"]}
+]}

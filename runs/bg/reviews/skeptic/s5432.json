@@ -1,0 +1,45 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Buzdolabına sığmayınca bacaklarını kesmişler", "kind": "behavioral"},
+  {"source": "text", "quote": "cinayetinde 19 yıl sonra 6 şüpheli gözaltına alındı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}],
+ "mechanism": "Bazı kurumlar en çarpıcı ayrıntıyı başlığa taşırken diğerleri soruşturma gelişmesini aktarıyor; yargıya bağlantı açık değil.",
+ "alternative_explanation": "Ayrıntı ifadelerde geçen olgusal bir bilgidir; çarpıcı ayrıntıyı başlığa koymak yaygın editoryal pratiktir.",
+ "missing_context": ["Savcılık ifadelerinin tam metni", "Okur yargısına etki verisi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "cinayetinde kan donduran itiraf", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz ve dramatik dil var; karşılaştırılabilir olumlu kanıtın göz ardı edildiği bir yapı yok.",
+ "alternative_explanation": "Bir cinayet haberinin olumsuz içeriği olayın doğasından kaynaklanır.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi (yoksa kart uygulanamaz)"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "19 yıllık mumya ceset cinayeti çözüldü", "kind": "behavioral"},
+  {"source": "text", "quote": "cinayetinde yeni gelişme: 3 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "cinayetinde korkunç iddialar", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Gözaltı/tutuklama aşamasındaki soruşturma bir kurumda 'çözüldü' olarak keskinleşiyor; diğeri 'iddia' çekincesini koruyor.",
+ "alternative_explanation": "Emniyet açıklaması 'aydınlatıldı' ifadesini kullanmış olabilir; kurum bunu aktarmış olabilir.",
+ "missing_context": ["Emniyet/savcılık açıklamasındaki ifade", "Yargılama süreci ve mahkeme kararı"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "cinayetinde kan donduran itiraf", "kind": "behavioral"},
+  {"source": "text", "quote": "cinayetinde korkunç iddialar", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı ifadeler bir kurumda 'itiraf', diğerinde 'iddia' olarak sunuluyor; yargıya bağlantı gösterilmiyor.",
+ "alternative_explanation": "İfadelerin hukuki niteliği belirsiz olabilir; kurumlar farklı ajans metinlerini izlemiş olabilir.",
+ "missing_context": ["İfadelerin şüpheli itirafı mı tanık beyanı mı olduğu"]}
+]}

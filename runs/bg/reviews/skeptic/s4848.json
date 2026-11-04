@@ -1,0 +1,37 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[sozcu · 16:43] İstanbul Maratonu'nda rekor kırıldı!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Rekor bilgisi öne çıkarılıyor; bunun haksız bir yargıya dönüştüğü gösterilmiyor.",
+ "alternative_explanation": "Parkur rekoru yarışın haber değeri en yüksek sonucudur; öne çıkarılması orantılıdır.",
+ "missing_context": ["Diğer sonuçlara (kadınlar kategorisi vb.) ayrılan yer karşılaştırması"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "48. İstanbul Maratonu'nda Erkeklerde Rekor Süre, Kadınlarda Etiyopyalı Baze Kazandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Türkiye İş Bankası 48’inci İstanbul Maratonu rekorla tamamlandı.", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir kurum rekorun erkekler kategorisinde olduğunu belirtirken diğeri maratonun genel olarak 'rekorla tamamlandığını' yazıyor.",
+ "alternative_explanation": "Genel ifade özetleme kısaltmasıdır; maddi bir sonuç etkisi gösterilmiyor.",
+ "missing_context": ["Resmi yarış sonuçları", "Eksiltmenin bir yargıya etkisi"]},
+{"card_id": "serial-position-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde sıralı bir dizinin hatırlanması veya konuma bağlı seçim anlatılmıyor.",
+ "alternative_explanation": "Haberler yarış öncesi ve sonrası farklı zamanlarda yayımlanmış; sıra etkisi gözlenebilir değil.",
+ "missing_context": ["Konuma bağlı hatırlama veya seçim kanıtı"]}
+]}

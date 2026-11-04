@@ -1,0 +1,23 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "KYK burs ve kredi başvuruları başladı mı, ne zaman? 2026-2027 GSB KYK burs başvuru takvimi bekleniyor!", "kind": "behavioral"},
+  {"source": "text", "quote": "Son dakika! Bakan Bak duyurdu: KYK Burs ve öğrenim kredisi başvuruları başladı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlık farkları yayın zamanlaması ve bilgi formatına bağlı; eşdeğer olguların farklı çerçevelendiği gösterilmiyor.",
+ "alternative_explanation": "Duyuru öncesi ve sonrası yayınlanan hizmet haberleri; arama odaklı başlıklar.",
+ "missing_context": ["Eşdeğer bilginin farklı çerçevelenip bir yargıya bağlandığına dair kanıt"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Gençlik ve Spor Bakanı Osman Aşkın Bak, 2026-2027 eğitim öğretim dönemi burs ve öğrenim kredisi başvurularının başladığını duyurdu.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haberler bilgiyi yetkili bakanın duyurusuna dayandırıyor.",
+ "alternative_explanation": "Başvuru takvimi için ilgili bakanlık birincil ve uygun kaynaktır; dayanak meşru.",
+ "missing_context": ["Karşı kanıtın statü nedeniyle göz ardı edildiğine dair ifade"]}
+]}

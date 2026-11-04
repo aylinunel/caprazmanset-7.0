@@ -1,0 +1,63 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Gece yarısı şarampole yuvarlandı! Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Hürriyet başlığı 'can pazarı' gibi çarpıcı bir imgeyi öne çıkarıyor, aynı metin yaralıların çoğunun hafif olduğunu belirtiyor.",
+ "alternative_explanation": "45 yaralılı bir kazada olay yerindeki kargaşayı anlatmak olgusal olarak yerinde olabilir.",
+ "missing_context": ["Çarpıcı imgenin bir yargıya bağlandığı açık ifade", "Olay yeri tanıklıkları"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Konya'da yolcu otobüsü kazasında can pazarı", "kind": "behavioral"},
+  {"source": "text", "quote": "yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı", "kind": "statement"},
+  {"source": "text", "quote": "Konya'da yolcu otobüsü devrildi: Çok sayıda yaralı var!", "kind": "behavioral"},
+  {"source": "text", "quote": "Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "AA'nın '3'ü ağır 45 yaralı' aktarımı temel alındığında bir başlık durumu 'can pazarı' olarak keskinleştiriyor, bir başlık sayıyı 'çok sayıda' diye düzleştiriyor, çoğu başlık ağır yaralı ayrımını atlıyor.",
+ "alternative_explanation": "Başlık uzunluğu ve ilk bilgilerin farklı zamanlarda gelmesi farkları açıklayabilir.",
+ "missing_context": ["Farkın bir sonuca etkisi", "Resmi yaralı durum raporu"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz unsur ('can pazarı') başlıkta, görece olumlu bilgi (çoğunun hafif yaralı olması) metnin içinde kalmış; ancak bir yargıyı etkilediği gösterilmiyor.",
+ "alternative_explanation": "Ağır yaralıların varlığı göz önüne alındığında vurgu orantılı bir risk aktarımı olabilir.",
+ "missing_context": ["Olumsuz vurgunun bir değerlendirme veya karara etkisi"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir kişinin iç durumunun başkalarınca anlaşılabileceğine dair inanç atfı yok.",
+ "alternative_explanation": "Haber bir trafik kazasını aktarıyor.",
+ "missing_context": ["Kişi beyanları"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir eyleme bağlı ödül veya ceza tanımlanmıyor.",
+ "alternative_explanation": "Kaza haberi teşvik içeriği taşımıyor.",
+ "missing_context": ["Ödül/ceza bilgisi"]},
+{"card_id": "mental-accounting", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir harcama, tahsis veya risk kararı yok.",
+ "alternative_explanation": "Haber finansal karar içermiyor.",
+ "missing_context": ["Kaynak tahsisi kararı"]}
+]}

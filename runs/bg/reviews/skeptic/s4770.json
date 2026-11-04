@@ -1,0 +1,48 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[aksam · 12:30] Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "[aa · 10:59] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Akşam iddiayı 'vurgun' olarak kesinleştiriyor, AA nötr; ancak sunuma bağlı bir tercih veya yargı metinde kurulmuyor.",
+ "alternative_explanation": "Üslup farkı editoryal tercihtir; olgular (39 tutuklama) aynıdır.",
+ "missing_context": ["Mahkeme kararının gerekçesi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "gözaltına alınan 63 şüpheliden 39'u tutuklandı", "kind": "statement"},
+  {"source": "text", "quote": "[sabah · 09:26] Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "[akit · 10:12] Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Başsavcılık 40 kişi için tutuklama talep etti", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Star özetine göre 39 tutuklama var; Sabah yalnız firma temsilcisi 19 kişiyi öne çıkarıp belediye görevlilerini düzleştiriyor, Akit talep sayısı olan 40'ı tutuklama olarak veriyor. Maddi bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "Sabah haberi erken saatte kısmi kararı yansıtıyor olabilir; 40 rakamı talep ile kararın karıştırılmasından doğan hata olabilir.",
+ "missing_context": ["Sabah başlığının yayın anındaki karar durumu", "Mahkemenin resmi kararı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bakırköy Belediyesi soruşturmasında karar çıktı! 39 kişi tutuklandı, başkanın babasına ev hapsi", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 10:34] Bakırköy Belediyesi'ne yolsuzluk operasyonunda 39 tutuklama", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Sözcü başkanın babasına ev hapsini öne çıkarıyor, NTV vermiyor. Bu ayrıntının bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Başkanın yakınının durumu kamu yararı açısından ilgili ve haber değeri taşıyan bir ayrıntı olabilir.",
+ "missing_context": ["Okur yargısına etkisi", "Diğer kurumların gövde metinleri"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Mahkemeye sevk edilen 40", "kind": "statement"},
+  {"source": "text", "quote": "[mynet · 10:06] Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "40 tutuklama talebi önceki bir referans; bazı kurumların 40 tutuklama demesi bununla açıklanabilir ama metin bu bağlantıyı açıkça kurmuyor.",
+ "alternative_explanation": "Rakam farkı basit bir veri/güncelleme hatası olabilir; çapa etkisiyle yargı çarpıtması gösterilmiyor.",
+ "missing_context": ["Mynet ve Akit'in rakamın kaynağı"]}
+]}

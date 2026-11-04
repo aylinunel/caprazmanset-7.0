@@ -1,0 +1,67 @@
+{"role": "advocate", "assessments": [
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Feci kaza... Süt toplama kamyoneti hafif ticari araçla çarpıştı: 1 ölü, 3 yaralı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz sıfatlar kullanılıyor; karşılaştırılabilir olumlu kanıta göre orantısız ağırlık gösterilmiyor.",
+ "alternative_explanation": "Ölümlü trafik kazasında olumsuz vurgu olayla orantılı.",
+ "missing_context": ["Olumlu ve olumsuz kanıtın karşılaştırmalı ağırlıklandırılması"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kütahya'da can pazarı! Kamyonet ile hafif ticari aracın çarpıştı; 1 ölü, 3 yaralı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Milliyet 'can pazarı' gibi çarpıcı bir ifadeyi başlığa taşıyor.",
+ "alternative_explanation": "Çarpıcı üslup editoryal tercih; bir yargı veya tercihe haksız etki gösterilmiyor.",
+ "missing_context": ["Belirgin ayrıntının bir çıkarıma bağlandığını gösteren ifade"]},
+{"card_id": "availability-heuristic", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde akla gelebilirliği bir tahmin veya genelleme gerekçesi olarak kullanan ifade yok.",
+ "alternative_explanation": "Farklı kazalar ayrı ayrı rapor ediliyor; sıklık çıkarımı yapılmıyor.",
+ "missing_context": ["Hatırlanabilirliğe dayalı açık bir risk veya sıklık yargısı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Diyarbakır’da feci kaza! Kamyon ile hafif ticari araç çarpıştı: 2 ölü, 13 yaralı", "kind": "behavioral"},
+  {"source": "text", "quote": "Diyarbakır'da kamyon ile hafif ticari aracın çarpıştığı kazada 2 kişi öldü, 12 kişi yaralandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sözcü yaralı sayısını 13, AA 12 olarak veriyor; aktarımda sayısal farklılık var.",
+ "alternative_explanation": "İlk saatlerdeki farklı bilgi kaynakları veya güncelleme farkı; anlam değiştiren bir sonuç yok.",
+ "missing_context": ["Resmi yaralı sayısı ve zaman sıralaması", "Farkın bir sonuca etkisi"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde kimseye iç durumunun başkalarınca algılandığı inancı atfedilmiyor.",
+ "alternative_explanation": "Kaza haberleri olgusal bilgi aktarıyor.",
+ "missing_context": ["İç durumun algılanabilirliğine dair atfedilmiş inanç"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde bir eyleme bağlı ödül veya ceza anlatılmıyor.",
+ "alternative_explanation": "Kaza haberleri teşvik içermiyor.",
+ "missing_context": ["Eyleme bağlı ödül/ceza ve davranış etkisi kanıtı"]}
+]}

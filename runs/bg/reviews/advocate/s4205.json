@@ -1,0 +1,38 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ankara'dan kahreden haber! MSB açıkladı: Albay Sayit Gökgöz şehit oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Askeri araç kazasında albay şehit oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "MSB acı haberi duyurdu: İstihbarat Albay Sayit Gökgöz şehit oldu", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Albay Sayit Gökgöz askeri araç kazasında şehit oldu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [1, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı kaza bazı kurumlarda 'kahreden' / 'acı haber' duygusal çerçevesiyle, NTV'de nötr sunuluyor.",
+ "alternative_explanation": "Şehitlik haberlerinde yas dili yerleşik bir habercilik geleneğidir; tercih değiştirme amacı gösterilmiyor.",
+ "missing_context": ["Çerçevenin bir yargıya etki ettiğine dair kanıt", "Kazanın nedeni"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "kazanın ardından siyasilerden art arda taziye mesajları geldi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Adalet Bakanı Akın Gürlek, İçişleri Bakanı Mustafa Çiftçi ve Milli Savunma Bakanı Yaşar Güler taziye mesajları yayımladı.", "kind": "behavioral"},
+  {"source": "text", "quote": "İstihbarat Albay Sayit Gökgöz", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar taziye mesajlarını ve albayın istihbarat görevini öne çıkarıyor; kazanın nedeni hiçbir haberde yer almıyor.",
+ "alternative_explanation": "Taziye mesajları ve görev bilgisi haberin olağan unsurlarıdır; kaza nedeni henüz açıklanmamış olabilir.",
+ "missing_context": ["Kazanın nedeni ve soruşturma bilgisi", "Öne çıkan ayrıntının bir yargıyı yönlendirdiğine dair kanıt"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Ankara'dan kahreden haber!", "kind": "statement"},
+  {"source": "text", "quote": "kazasından acı haber: Albay Sayit Gökgöz şehit oldu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duygusal ifade mevcut, ancak bir risk veya fayda tahminine bağlanmıyor.",
+ "alternative_explanation": "Duygusal dil yas ve saygı ifadesidir; bir karar veya risk değerlendirmesi içermez.",
+ "missing_context": ["Duygunun bir risk/fayda tahminini etkilediğine dair açık bağlantı"]}
+]}

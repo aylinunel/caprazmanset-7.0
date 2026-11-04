@@ -1,0 +1,54 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika haberi: Kurtlar Vadisi - Pusu ile gündeme Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti.", "kind": "behavioral"},
+  {"source": "text", "quote": "Kozinoğlu'nun koğuş arkadaşı ve Oğuzhan Uğur'un babası emekli albay Hasan Atilla Uğur da yer alıyor.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Mynet dizi ve ünlü yakınlık bağlantısını öne çıkarıyor; bunun bir yargıyı haksız biçimde belirlediği gösterilmiyor.",
+ "alternative_explanation": "Kamuoyunun tanıdığı bağlantıları anmak okura bağlam sağlar; isim çoğu kurumda zaten başlıkta.",
+ "missing_context": ["Diğer şüphelilere ayrılan yer karşılaştırması", "Okur etkisine dair veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kaşif Kozinoğlu soruşturmasında 4 yeni gözaltı kararı", "kind": "behavioral"},
+  {"source": "text", "quote": "Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti.", "kind": "behavioral"},
+  {"source": "text", "quote": "Hasan Atilla Uğur ile Hasan Ataman Yıldırım'a ise ev hapsi verildi.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sayı ve aşama farkları (karar 4, işlem 3; gözaltı ve ev hapsi) haberler arasında bir taban karşılaştırması sağlıyor.",
+ "alternative_explanation": "Farklar olayın farklı günlerdeki aşamalarından (karar, yakalama, adli kontrol) kaynaklanabilir; çarpıtma değil güncelleme olabilir.",
+ "missing_context": ["Her haberin yayın tarihi ve aşaması", "Resmi savcılık açıklaması"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 10:17] Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur detayı! hap detayı mercek altında", "kind": "behavioral"},
+  {"source": "text", "quote": "[tele1 · 08:03] Kaşif Kozinoğlu soruşturması; Hasan Atilla Uğur gözaltına alındı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı başlıklar 'hap detayı' gibi şüphe uyandıran ayrıntıyı öne çıkarıyor; eşdeğerlik ve tercih bağlantısı gösterilmiyor.",
+ "alternative_explanation": "Hap ayrıntısı soruşturmanın gerçek bir unsuru olabilir (ifadede soruldu); aktarılması çerçeve hatası değildir.",
+ "missing_context": ["Soruşturma dosyasındaki iddiaların içeriği"]},
+{"card_id": "halo-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Oğuzhan Uğur'un babası emekli albay Hasan Atilla Uğur", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ünlü bir yakınlık anılıyor; ancak olumlu bir izlenimin başka bir alana olumlu yargı olarak taşındığı yok.",
+ "alternative_explanation": "Yakınlık bilgisi tanınırlık için verilmiş olabilir; şüpheli hakkında olumlu bir çıkarım yapılmıyor.",
+ "missing_context": ["Şüpheliyle ilgili değerlendirme içeren ifadeler"]}
+]}

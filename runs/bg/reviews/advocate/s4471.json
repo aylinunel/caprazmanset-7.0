@@ -1,0 +1,65 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bayrampaşa'da İSKİ çalışmasında göçük: 1 işçi hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "SON DAKİKA | Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı ölüm 'yol çöktü' (faili belirsiz olay), 'İSKİ çalışmasında göçük' (sorumlu kurum) veya 'facia' olarak farklı çerçevelenmiş; çerçeveye dayalı yargı metinde yok.",
+ "alternative_explanation": "İlk dakikalarda İSKİ bilgisinin henüz bilinmemesi farklı ifadeleri açıklayabilir.",
+ "missing_context": ["Kazanın sorumluluk durumu", "Sunuma bağlı açık bir değerlendirme"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bayrampaşa'da İSKİ'nin yürüttüğü kazı çalışması sırasında meydana gelen çökmede", "kind": "statement"},
+  {"source": "text", "quote": "SON DAKİKA | Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Bayrampaşa'da yol çöktü; mahsur kalanlar var", "kind": "behavioral"},
+  {"source": "text", "quote": "Göçük altında mahsur kalan kişilerin olduğu öğrenilirken", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Star'ın İSKİ kazısı bilgisi temel alındığında başlıkların çoğu yürütücü kurumu atlıyor (düzleştirme); Akit ölümü değil 'mahsur kalanlar'ı öne çıkarıyor.",
+ "alternative_explanation": "Haber akışının farklı anlarında farklı bilgiler mevcut olabilir; başlık kısalığı ayrıntıyı dışarıda bırakabilir.",
+ "missing_context": ["Başlıkların yayımlandığı andaki bilgiler", "Farkın bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Bayrampaşa'da yol çöktü! Göçük altında kalan işçiden acı haber", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "'Facia', 'acı haber' gibi duygusal ifadeler öne çıkarılmış; bunların bir yargıyı haksız biçimde etkilediği gösterilmiyor.",
+ "alternative_explanation": "Bir işçinin ölümü duygusal dili olağan kılar.",
+ "missing_context": ["Çarpıcı unsurun bir yargıya bağlandığı açık ifade"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde iç durumun başkalarınca anlaşılabileceğine dair bir inanç atfı yok.",
+ "alternative_explanation": "Haber bir iş kazasını aktarıyor.",
+ "missing_context": ["Kişi beyanları"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir eyleme bağlı ödül veya ceza tanımlanmıyor.",
+ "alternative_explanation": "Kaza haberi teşvik içeriği taşımıyor.",
+ "missing_context": ["Ödül/ceza bilgisi"]},
+{"card_id": "mental-accounting", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde bir harcama, tahsis veya risk kararı yok.",
+ "alternative_explanation": "Haber finansal karar içermiyor.",
+ "missing_context": ["Kaynak tahsisi kararı"]}
+]}

@@ -1,0 +1,79 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kahreden haber: 3 işçi öldü, 5 yaralı var", "kind": "behavioral"},
+  {"source": "text", "quote": "Zonguldak'ta maden ocağında grizu patlaması! 3 işçi vefat etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Zonguldak'ta maden ocağında patlama. 3 can kaybı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı 3 ölü bilgisi 'kahreden haber', 'vefat etti' ve 'can kaybı' gibi farklı duygusal çerçevelerle sunuluyor.",
+ "alternative_explanation": "Üslup farkı kurum dili tercihi; okur yargısının çerçeveye bağlandığı gösterilmiyor.",
+ "missing_context": ["Çerçeveye bağlı bir tercih veya yargı"]},
+{"card_id": "identifiable-victim-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Ocakta mahsur kalan Cengiz Bölükbaşı, Recep Çolakoğlu ve Murat Kaya’nın cansız bedenleri çıkarıldı.", "kind": "statement"},
+  {"source": "text", "quote": "Zonguldak'ta maden ocağından acı haber! İsimleri belli oldu", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar hayatını kaybedenlerin isimlerini öne çıkarıyor; ancak bir yardım/kaynak kararı yok.",
+ "alternative_explanation": "İsim vermek olağan haber pratiği; tahsis kararı veya karşılaştırma bulunmuyor.",
+ "missing_context": ["Tahsis/yardım kararı ve karar verici", "Tanımlanabilir birey ile grup arasında karşılaştırma"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Zonguldak’ta maden ocağında grizu faciası!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz ve duygusal kelime seçimi var; karşılaştırılabilir olumlu kanıta göre orantısız ağırlık gösterilmiyor.",
+ "alternative_explanation": "Ölümlü bir maden kazası; olumsuz vurgu olayın ciddiyetiyle orantılı.",
+ "missing_context": ["Karşılaştırılabilir olumlu kanıt ve buna göre orantısız ağırlıklandırma"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Adalet Bakanı Akın Gürlek, patlamayla ilgili soruşturma başlatıldığını", "kind": "statement"},
+  {"source": "text", "quote": "İçişleri Bakanı Sayın Mustafa Çiftçi'den de konuyla ilgili açıklama geldi.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bakan açıklamaları ve 'Sayın' hitabı öne çıkıyor; resmi statü habere ağırlık kazandırıyor olabilir.",
+ "alternative_explanation": "Bakanların soruşturma ve olay bilgisi vermesi ilgili ve uygun kaynak kullanımıdır.",
+ "missing_context": ["Statünün karşıt kanıtı veya endişeyi bastırdığına dair açık ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "yaşanan patlamada 2 işçinin hayatını kaybettiği; 2'si ağır 5 işçinin ise tedavi altına alındığı bildirildi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Patlamanın ardından 3 madenci hayatını kaybederken, 4 işçi de yaralandı.", "kind": "behavioral"},
+  {"source": "text", "quote": "grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı.", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ölü ve yaralı sayıları kurumlar arasında 2/3 ölü ve 4/5 yaralı olarak farklılaşıyor.",
+ "alternative_explanation": "Farklar olayın gelişen saatlerindeki ilk bilgilerden kaynaklanıyor; sonradan güncellenmiş.",
+ "missing_context": ["Resmi açıklamaların zaman sıralı kaydı", "Farkın bir sonuca yol açtığına dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika | Zonguldak’ta maden ocağında patlama! Kahreden haber: 3 işçi öldü, 5 yaralı var", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Duygusal ve çarpıcı ifadeler başlıkta öne çıkarılıyor.",
+ "alternative_explanation": "Ölümlü kaza haberinde duygusal vurgu olağandır; bir yargıya haksız etki gösterilmiyor.",
+ "missing_context": ["Belirgin ayrıntının bir çıkarım veya tercihe bağlandığını gösteren ifade"]}
+]}
