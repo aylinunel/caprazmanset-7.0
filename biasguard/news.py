@@ -226,7 +226,7 @@ def apply(run: Path) -> dict[str, Any]:
 
 def main() -> None:
     p = argparse.ArgumentParser(prog="python -m biasguard.news")
-    p.add_argument("cmd", choices=["inputs", "tasks", "apply"])
+    p.add_argument("cmd", choices=["inputs", "tasks", "apply", "pack"])
     p.add_argument("--build", type=Path)
     p.add_argument("--run", type=Path, required=True)
     p.add_argument("--top", type=int, default=150)
@@ -242,6 +242,14 @@ def main() -> None:
     elif a.cmd == "tasks":
         for path in write_tasks(a.run, a.stage, a.batch):
             print(path)
+    elif a.cmd == "pack":
+        # Same keys build.py adds, without re-running the 20-minute pipeline.
+        core_path = a.build / "core.bin"
+        core = _load(core_path)
+        core["BG"] = json.loads((a.build / "biasguard.json").read_text())
+        core["BGS"] = json.loads((Path(__file__).resolve().parents[1] / "docs" / "biasguard-simulation" / "summary.json").read_text())
+        core_path.write_bytes(gzip.compress(json.dumps(core, ensure_ascii=False, separators=(",", ":")).encode()))
+        print(core_path)
     else:
         res = apply(a.run)
         (a.out or a.run / "biasguard.json").write_text(json.dumps(res, ensure_ascii=False))
