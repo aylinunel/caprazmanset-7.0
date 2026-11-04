@@ -1,0 +1,62 @@
+{"role": "advocate", "assessments": [
+{"card_id": "accountability-diffusion-in-ai", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Haberler dizi yayın akışıyla ilgili; yapay zekâ destekli bir karar veya sorumluluk dağılımı yok.",
+ "alternative_explanation": "Olay sıradan bir yayın akışı değişikliğidir.",
+ "missing_context": ["Yapay zekâ kullanımına veya karar sorumluluğuna dair herhangi bir kayıt"]},
+{"card_id": "action-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Düşen reklam gelirleri ve Salı akşamı ekrana gelen dev karşılaşmalar nedeniyle 10. bölümün yayınlanmadığı belirtilirken", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "contradicted", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aktarılan karar eylem değil yayınlamama yönünde ve gerekçesi belirtilmiş.",
+ "alternative_explanation": "Kanalın reklam ve rekabet gerekçeli programlama tercihi.",
+ "missing_context": ["Kanalın karar sürecine dair bilgi"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "yayın akışında yer almaması izleyicileri merakta bıraktı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "İzleyici merakı aktarılıyor; duygunun bir risk/fayda yargısını belirlediği gösterilmiyor.",
+ "alternative_explanation": "Merak ifadesi haber girişi için olağan bir kalıptır.",
+ "missing_context": ["Duygu ile karar arasında açık bir bağ"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde yapay zekâ destekli bir görev yok.",
+ "alternative_explanation": "Benzer soru kalıplı başlıklar arama motoru odaklı habercilikle açıklanabilir.",
+ "missing_context": ["Yapay zekâ kullanımına dair görev kaydı"]},
+{"card_id": "ambiguity-effect", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bilinen ve bilinmeyen olasılıklı seçenekler arasında bir tercih anlatılmıyor.",
+ "alternative_explanation": "Haberler yalnızca yayın durumunu soruyor.",
+ "missing_context": ["Karşılaştırılabilir seçenekler ve karar gerekçesi"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sonraki bir tahmini etkileyen başlangıç değeri yok.",
+ "alternative_explanation": "Haberler bilgi verme amaçlı.",
+ "missing_context": ["Referans değer ve ona bağlı bir yargı"]}
+]}

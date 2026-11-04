@@ -1,0 +1,46 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası", "kind": "behavioral"},
+  {"source": "text", "quote": "konusunda anlaşmaya vardığını iddia etti.", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar ABD Başkanı'nın açıklamasını olgu gibi ('varıldı'), bloomberght ise 'iddia' olarak sunuyor; statünün doğrulama yerine geçtiği açıkça gösterilmiyor.",
+ "alternative_explanation": "'Trump duyurdu' kalıbı kaynağı açıkça belirtiyor; AB desteği gibi ek bilgiler de aktarılmış, bu doğrulama eksikliği anlamına gelmeyebilir.",
+ "missing_context": ["Rusya ve Ukrayna'nın resmi teyidi", "Zelenskiy açıklamasının tam metni"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası", "kind": "behavioral"},
+  {"source": "text", "quote": "Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı açıklama kesinlik ('varıldı') veya ihtiyat ('iddiası', 'öne süren') çerçevesiyle sunuluyor; bunun bir yargıyı değiştirdiği gösterilmiyor.",
+ "alternative_explanation": "Kurumların doğrulama standartları farklı olabilir; ihtiyatlı dil tek taraflı açıklamaya karşı meşru bir editoryal tercih.",
+ "missing_context": ["Tarafların teyit zamanı", "Sunumun okur yargısına etkisi"]},
+{"card_id": "messenger-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Trump her iki tarafın anlaştığını sosyal medya hesabından duyurdu.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "İddia ve kaynağı aktarılıyor; kabulün açıkça kaynak izlenimine atfedildiği yok.",
+ "alternative_explanation": "Bir devlet başkanının resmi açıklamasını haberleştirmek, mesajcı etkisi değil olağan habercilik.",
+ "missing_context": ["Aynı iddianın farklı bir kaynaktan geldiğinde nasıl sunulduğuna dair karşılaştırma"]},
+{"card_id": "optimism-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "derhal geçerli olmak üzere enerji ateşkesine varıldığını açıkladı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir anlaşma duyurusu aktarılıyor; olasılık tahmini veya göz ardı edilen taban oranı yok.",
+ "alternative_explanation": "Duyurunun aktarılması iyimser bir olasılık yargısı içermiyor.",
+ "missing_context": ["Önceki ateşkeslerin uyum oranı", "Ateşkesin süreceğine dair açık tahmin"]}
+]}

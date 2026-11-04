@@ -1,0 +1,30 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Alperen Şengün 'triple-double'ı kıl payı kaçırdı: Rockets, Thunder'ı mağlup etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Alperen Şengün triple-double'a yaklaştı, Rockets kazandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Alperen Şengün'ün 26 sayı 10 asistle oynadığı maçta Celtics'i 109-93 yendi", "kind": "statement"},
+  {"source": "context", "quote": "Olay: NBA'de Rockets, Alperen Şengün'ün \"double-double\" yaptığı maçta Celtics'i yendi", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "contradicted", "evidence_indices": [0, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başlıklar 'kaçırdı' ile 'yaklaştı' arasında farklı vurgu taşıyor; ancak metin bu farkın bir yargıyı değiştirdiğini göstermiyor.",
+ "alternative_explanation": "Kümede iki farklı maç (Thunder ve Celtics) birleşmiş görünüyor; olgular eşdeğer değil. İfade farkları spor haberciliğinin olağan üslup çeşitliliği olabilir.",
+ "missing_context": ["Thunder maçının ve Celtics maçının istatistikleri", "Haberlerin aynı maça ait olup olmadığının doğrulanması"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Alperen Şengün triple-double'ın kıyısından döndü! Rockets'tan Thunder'a 21 sayılık fark", "kind": "behavioral"},
+  {"source": "text", "quote": "Alperen Şengün double-double yaptı, Houston Rockets kazandı!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Milli oyuncunun bireysel istatistiği tüm başlıklarda öne çıkıyor; ancak bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Türk okur kitlesi için milli oyuncuya odaklanmak haber değeri açısından olağan bir editoryal tercihtir.",
+ "missing_context": ["Diğer oyuncuların performansına ilişkin bilgiler", "Kümede karışan iki maçın ayrıştırılması"]}
+]}

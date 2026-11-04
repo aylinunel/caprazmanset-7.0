@@ -1,0 +1,46 @@
+{"role": "advocate", "assessments": [
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası", "kind": "behavioral"},
+  {"source": "text", "quote": "Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [2]}],
+ "mechanism": "Birçok kurum ABD Başkanı'nın açıklamasını kesin olgu olarak verirken, bazıları 'iddia' ve 'öne süren' diyerek mesafe koyuyor.",
+ "alternative_explanation": "ABD Başkanı'nın açıklaması haber değeri taşıyan birincil kaynaktır; 'duyurdu' ifadesi atıf içerir.",
+ "missing_context": ["Rusya ve Ukrayna'nın resmi teyidi", "Karşı kanıtın göz ardı edildiğine dair ifade"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Trump ilan etti: Rusya-Ukrayna enerji ateşkesi sağlandı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı açıklama 'sağlandı' ve 'iddia' olarak farklı kesinlik çerçeveleriyle verilmiş.",
+ "alternative_explanation": "Kurumların doğrulama standartları farklı olabilir.",
+ "missing_context": ["Çerçevenin okur yargısını değiştirdiğine dair kanıt"]},
+{"card_id": "messenger-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Hemen geçerli olmak üzere, Rusya ile Ukrayna arasındaki her iki tarafın da kabul ettiği enerji ateşkesine varıldı", "kind": "statement"},
+  {"source": "text", "quote": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Belirli bir iddia ve kurumların onu kabul ya da mesafeli aktarımı görülüyor.",
+ "alternative_explanation": "Kabul veya mesafe mesaj verenden değil, teyit eksikliğinden kaynaklanabilir.",
+ "missing_context": ["Aynı iddianın farklı bir kaynaktan geldiğinde nasıl verildiği"]},
+{"card_id": "optimism-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Rusya ve Ukrayna arasında derhal geçerli olmak üzere enerji ateşkesine varıldığını açıkladı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ateşkesin derhal yürürlüğe girdiği olumlu bir sonuç beklentisi ifade ediliyor.",
+ "alternative_explanation": "Açıklamanın aktarımı; olasılık tahmini yapılmıyor.",
+ "missing_context": ["Önceki ateşkeslerin sürdürülebilirliğine dair taban oran"]}
+]}

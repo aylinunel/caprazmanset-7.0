@@ -1,0 +1,44 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "Yalova açıklarında 3.5 büyüklüğünde deprem", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı başlıklar depremin İstanbul'da hissedilmesini öne çıkarıyor.",
+ "alternative_explanation": "Okur kitlesinin büyük kısmı İstanbul'da; yerel ilgi gerekçeli.",
+ "missing_context": ["Öne çıkarılan ayrıntının risk yargısına dönüştüğüne dair ifade"]},
+{"card_id": "availability-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "17 Ağustos'ta kırılan fayın devamı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Uzman geçmiş depreme atıf yapıyor, ancak bu teknik fay tanımı; hatırlanabilirlik tahmin gerekçesi değil.",
+ "alternative_explanation": "Fay hattının jeolojik tanımlaması.",
+ "missing_context": ["Akılda kalıcı olayların bir risk tahminine gerekçe yapıldığına dair ifade"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Deprem uzmanı Prof. Dr. Övgün Ahmet Ercan \"Deprem bir öncü deprem değil, yerel bir gerginlik boşalmasıdır\" dedi.", "kind": "statement"},
+  {"source": "text", "quote": "Yalova'da 3.5 büyüklüğünde deprem! İstanbul'da da hissedildi: \"Öncü bir deprem değil\"", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tek bir uzmanın yorumu başlığa taşınarak kesin bilgi gibi sunuluyor.",
+ "alternative_explanation": "Uzman görüşü konuyla ilgili ve meşru bir kaynaktır.",
+ "missing_context": ["Diğer uzmanların veya AFAD'ın değerlendirmesi", "Karşı kanıtın göz ardı edildiğine dair ifade"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul ve çevre iller sallandı: Marmara Denizi'nde deprem oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Marmara açıklarında 3,5 büyüklüğünde deprem", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı 3,5'lik deprem 'iller sallandı' ve nötr büyüklük bilgisiyle farklı çerçevelenmiş.",
+ "alternative_explanation": "Hissedilme bilgisi okur için ilgili bir olgu.",
+ "missing_context": ["Çerçevenin okur risk algısını değiştirdiğine dair kanıt"]}
+]}

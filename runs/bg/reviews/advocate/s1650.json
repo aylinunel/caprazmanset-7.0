@@ -1,0 +1,56 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu", "kind": "behavioral"},
+  {"source": "text", "quote": "YENİ Partili Çukurova Belediyesi'ne operasyon: Başkan dahil 44 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "Adana'da Çukurova Belediyesi'ne operasyon: 44 gözaltı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı operasyon farklı parti etiketleriyle ya da etiketsiz verilmiş; vurgu noktası değişiyor.",
+ "alternative_explanation": "Eski ve mevcut başkanın farklı parti bağları olabilir; her kurum farklı kişiyi öne çıkarmış olabilir.",
+ "missing_context": ["Mevcut ve eski başkanların parti üyelikleri", "Çerçevenin bir yargıyı değiştirdiğine dair kanıt"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "eski belediye başkanı ve CHP Genel Sekreter Yardımcısı Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı", "kind": "statement"},
+  {"source": "text", "quote": "CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Grup üyeliği açıkça belirtilmiş ve başlıkta öne çıkarılmış, ancak suç atfının üyeliğe bağlandığı gösterilmiyor.",
+ "alternative_explanation": "Siyasi kimlik haberin kamusal önemine ilişkin ilgili bilgi.",
+ "missing_context": ["Benzer davalarda farklı partilerin nasıl verildiğine dair karşılaştırma"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Soruşturmada, başkanın teyzesinin örgüt yöneticisi konumunda olduğu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı bir aile bağı ayrıntısı öne çıkarılıyor.",
+ "alternative_explanation": "Soruşturma dosyasından aktarılan ilgili bilgi.",
+ "missing_context": ["Ayrıntının bir yargıyı haksız biçimde etkilediğine dair kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Çukurova Belediyesi'ne operasyon: Belediye Başkanı Emrah Kozay dahil 34 tutuklama", "kind": "behavioral"},
+  {"source": "text", "quote": "Çukurova Belediyesine yolsuzluk ve rüşvet operasyonu: 44 gözaltı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir haber 44 gözaltıyı '34 tutuklama' olarak aktarıyor; aşama ve sayı farklılaşmış.",
+ "alternative_explanation": "Haber sonradan tutuklama kararıyla güncellenmiş olabilir.",
+ "missing_context": ["Tutuklama kararının tarihi ve sayısı", "Farkın bir sonuca etkisine dair kanıt"]},
+{"card_id": "fundamental-attribution-error", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Haberler iddiaları aktarıyor; kişilere kalıcı karakter özelliği atfedilmiyor.",
+ "alternative_explanation": "Standart adli haber dili.",
+ "missing_context": ["Eğilimsel bir yargı ifadesi"]}
+]}

@@ -1,0 +1,77 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[yenisafak · 10:17] Maltepe'de 3 katlı bina çökmüştü: Binadan incelenmek üzere örnekler alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul Maltepe'de 3 katı çöken 7 katlı binanın yıkılma sebebinin detaylı incelenmesi", "kind": "statement"},
+  {"source": "text", "quote": "[turkiyegz · 09:06] İstanbul Maltepe'de çöken binada korkunç detay: Üst iki katı kaçak!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Yeni Şafak başlığı '7 katlı binanın 3 katı' bilgisini '3 katlı bina' olarak düzleştiriyor; Türkiye gazetesi kaçak kat ayrıntısını başlıkta keskinleştiriyor.",
+ "alternative_explanation": "Başlık kısaltması veya yazım hatası olabilir; kaçak kat ayrıntısı belediye başkanının açıklamasına dayanan haber değeri taşıyan bir bilgidir.",
+ "missing_context": ["Başlık hatasının sonradan düzeltilip düzeltilmediği", "Farklılığın okur sonucunu etkilediğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[turkiyegz · 09:06] İstanbul Maltepe'de çöken binada korkunç detay: Üst iki katı kaçak!", "kind": "behavioral"},
+  {"source": "text", "quote": "[cumhuriyet · 09:45] Maltepe'de çöken binada ölü veya yaralı var mı? Bina kaç yıllık, neden çöktü?", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "'Korkunç detay' ifadesiyle kaçak kat bilgisi başlıkta öne çıkarılıyor; diğer kurumlar soru biçiminde nötr başlık atıyor.",
+ "alternative_explanation": "Kaçak kat bilgisi çökme nedenine dair resmi bir açıklamadır ve öne çıkarılması haber değeriyle açıklanabilir.",
+ "missing_context": ["Bu vurgunun bir yargıyı haksız biçimde yönlendirdiğine dair açık ifade", "Kurumun benzer olaylardaki başlık tercihleri"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[milligazete · 00:50] Maltepe'de çöken binada acı bilanço: Can kaybı 3'e çıktı", "kind": "behavioral"},
+  {"source": "text", "quote": "[karar · 00:46] Maltepe’de çöken 7 katlı apartmanda can kaybı 3’e yükseldi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı can kaybı bilgisi bir kurumda 'acı bilanço' duygusal çerçevesiyle, diğerinde nötr sunuluyor.",
+ "alternative_explanation": "Duygusal sözcük seçimi üslup farkıdır; okur tercihini değiştirdiğine dair kanıt yok.",
+ "missing_context": ["Eşdeğerliğin metinde açıkça kurulması", "Çerçevenin bir yargıya bağlandığını gösteren ifade"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[star · 06:34] Maltepe'de çöken binadan acı haber: Can kaybı 5'e yükseldi", "kind": "behavioral"},
+  {"source": "text", "quote": "Enkazdan 8 kişi sağ olarak çıkarılırken", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başlıklarda can kaybı öne çıkarken kurtarılanlar bilgisi lede içinde kalıyor.",
+ "alternative_explanation": "Can kaybı, ölümlü bir afette haber değeri en yüksek ve orantılı olarak öne çıkan bilgidir.",
+ "missing_context": ["Olumlu ve olumsuz bilginin karşılaştırılabilir ağırlığına dair ölçüm", "Bir değerlendirmenin etkilendiğine dair kanıt"]},
+{"card_id": "hindsight-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Tolga Gürpınar yapının çatlak olduğunu ve kentsel dönüşüm için görüşmeler yapıldığını ancak sürecin sonuçlanmadığını belirtti", "kind": "statement"},
+  {"source": "text", "quote": "[takvim · 11:08] Maltepe’de çöken binada kentsel dönüşüm detayı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [1]}
+ ],
+ "mechanism": "Çökme sonrasında yapının önceden çatlak olduğu ve dönüşüm görüşmeleri öne çıkarılarak olay öngörülebilir gibi sunuluyor.",
+ "alternative_explanation": "Çatlak ve dönüşüm görüşmeleri olay öncesine ait gerçek bilgiler olabilir; bu durumda öngörülebilirlik iddiası haklıdır.",
+ "missing_context": ["Olay öncesine ait çağdaş kayıt veya uyarılar", "Sonuçtan geriye doğru çıkarım yapıldığını gösteren açık ifade"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde kimsenin iç durumunun başkalarınca anlaşılacağına dair bir inanç atfı yok.",
+ "alternative_explanation": "Haberler olay bilgisi aktarıyor; zihinsel durum tahmini içermiyor.",
+ "missing_context": ["Bir kişinin iç durumunun anlaşıldığına dair inancını gösteren ifade"]}
+]}

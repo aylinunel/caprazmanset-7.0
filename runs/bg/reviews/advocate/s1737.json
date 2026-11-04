@@ -1,0 +1,58 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Çukurova Belediyesi'ne operasyon! Belediye Başkanı Emrah Kozay dahil 34 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Çukurova Belediyesi soruşturması: Mevcut başkan Emrah Kozay dahil 34 şüpheli için karar verildi", "kind": "behavioral"},
+  {"source": "text", "quote": "tutuklanması nedeniyle geçici bir tedbir olarak İçişleri Bakanlığınca görevden uzaklaştırıldı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı tutuklama 'operasyon!' vurgusuyla ya da nötr 'karar verildi' ifadesiyle sunuluyor; görevden uzaklaştırmanın 'geçici tedbir' niteliği yalnızca bazılarında yer alıyor.",
+ "alternative_explanation": "Farklı ifadeler editoryal üslup farkı olup olgusal içerik aynıdır.",
+ "missing_context": ["Çerçevenin bir yargıyı değiştirdiğine dair açık ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "adliyeye sevk edilen 49 şüpheliden", "kind": "behavioral"},
+  {"source": "text", "quote": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı — Çukurova Belediyesi'ne yönelik", "kind": "behavioral"},
+  {"source": "text", "quote": "teyzesi Sıdıka Şire ve görevi devreden önceki dönem Belediye Başkanı Soner Çetin", "kind": "behavioral"},
+  {"source": "text", "quote": "geçici bir tedbir olarak", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "49 sevk ve 34 tutuklama bağlamı bazı kurumlarda yalnızca başkanın tutuklanmasına indirgeniyor (düzleştirme); bazıları başkanın teyzesini ada göre öne çıkarıyor (keskinleştirme).",
+ "alternative_explanation": "Başkanın tutuklanması haberin en önemli ögesi; ayrıntılar haber gövdesinde verilmiş olabilir.",
+ "missing_context": ["Farkın maddi ve bir sonuca etkili olduğuna dair kanıt", "Mahkeme ve savcılık kayıtları"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Çukurova Belediyesinde 34 tutuklama!", "kind": "behavioral"},
+  {"source": "text", "quote": "Çukurova Belediye Başkanı Kozay görevinden uzaklaştırıldı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Toplu tutuklama sayısı bazı başlıklarda ünlemle öne çıkarken diğerleri idari tedbiri aktarıyor.",
+ "alternative_explanation": "Tutuklu sayısı olayın ölçeğini gösteren ilgili bir bilgidir.",
+ "missing_context": ["Öne çıkan ögenin bir yargıyı haksız biçimde yönlendirdiğine dair açık kanıt"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "YENİ Partili Çukurova Belediye Başkanı Emrah Kozay", "kind": "behavioral"},
+  {"source": "text", "quote": "CHP il başkanlığı ve parti yönetimindeki görevlerinin ardından 2024'te Çukurova Belediye Başkanı seçildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Neden tutuklandı, hangi partiden?", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar başkanı farklı parti kimlikleriyle (YENİ Parti, CHP geçmişi) tanımlıyor ya da hiç anmıyor; grup üyeliği haberle birlikte anılıyor.",
+ "alternative_explanation": "Parti bilgisi kamu görevlisi hakkında olgusal bağlamdır; farklılık parti değişikliğini yansıtabilir.",
+ "missing_context": ["Gruba göre farklı değerlendirme standardı uygulandığına dair karşılaştırma", "Kozay'ın güncel parti üyeliği"]}
+]}

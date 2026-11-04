@@ -1,0 +1,55 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "E-TÜFE aylık yüzde 2,24 artarken yıllık enflasyon yüzde 49,03'e geriledi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Ağustos ayında enflasyon beklentilerin ılımlı bir şekilde altında kaldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Memur ve emeklinin gözü buradaydı: Ağustos enflasyonu açıklandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar aynı veriyi farklı referanslarla (ENAG, beklenti, memur-emekli etkisi) sunuyor; çerçeve farkı gözlenebilir ancak eşdeğer seçenekler arasında çerçeveye dayalı bir tercih metinde yok.",
+ "alternative_explanation": "Farklı veri kaynakları (TÜİK, ENAG, İTO) ve hedef okur ilgisi farklı vurguları olağan biçimde açıklayabilir.",
+ "missing_context": ["Okur veya karar vericinin çerçeveye bağlı bir yargısına dair kanıt", "Haberlerin tam metinleri"]},
+{"card_id": "anchoring-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ekonomistlerin ağustos ayı enflasyon beklentisi yüzde 1,86 seviyesinde bulunuyor.", "kind": "statement"},
+  {"source": "text", "quote": "Ağustos ayında enflasyon beklentilerin ılımlı bir şekilde altında kaldı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "satisfied", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Önceden duyurulan beklenti, açıklanan verinin değerlendirilmesinde referans noktası olarak kullanılıyor; ancak bunun gerekçesiz bir etki olduğu gösterilmiyor.",
+ "alternative_explanation": "Piyasa beklentisiyle karşılaştırma, ekonomi haberciliğinde standart ve meşru bir kıyas yöntemidir.",
+ "missing_context": ["Beklentiye dayanmanın değerlendirmeyi çarpıttığını gösteren kanıt", "Bağımsız kıyaslama ölçütleri"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türkiye genelinde milyonlarca memur, emekli, ev sahibi ve kiracının nefesini tutarak beklediği ağustos ayı enflasyon verileri bugün açıklandı.", "kind": "statement"},
+  {"source": "text", "quote": "Milyonlarca memur ve emeklinin kaderini çizen ağustos ayı enflasyon rakamları", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Duygusal ve çarpıcı ifadeler veriyi öne çıkarıyor; ancak bu çarpıcılığın bir yargıyı gerekçesiz yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Maaş ve kira zamlarının enflasyona bağlı olması, bu vurguyu okur için ilgili kılabilir.",
+ "missing_context": ["Çarpıcı ayrıntının yargıya etkisini gösteren karşılaştırmalı kanıt"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Hazine ve Maliye Bakanı Şimşek, 'Dönemsel eğitim fiyat artışlarına ve savaşın etkilediği akaryakıt fiyatlarına rağmen", "kind": "statement"},
+  {"source": "text", "quote": "Bağımsız akademisyen ve ekonomistlerden oluşan ENAG", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bakan ve bağımsız ekonomist grubu otorite kaynağı olarak anılıyor; ancak statünün iddiayı belirleyici kıldığına dair akıl yürütme metinde yok.",
+ "alternative_explanation": "Resmi ve alternatif kaynakların aktarılması olağan habercilik pratiğidir.",
+ "missing_context": ["Bakan açıklamasının tam metni ve haberde nasıl değerlendirildiği", "Karşı görüşlerin dışlanıp dışlanmadığı"]}
+]}

@@ -1,0 +1,58 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu", "kind": "behavioral"},
+  {"source": "text", "quote": "YENİ Partili Çukurova Belediyesi'ne operasyon: Başkan dahil 44 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "Adana'da Çukurova Belediyesi'ne operasyon: 44 gözaltı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı operasyon farklı parti etiketleriyle veya etiketsiz sunuluyor; bunun bir yargıyı değiştirdiği gösterilmiyor.",
+ "alternative_explanation": "Etiket farkı, mevcut başkanın ve eski başkanın farklı parti bağlantılarını doğru yansıtıyor olabilir.",
+ "missing_context": ["Mevcut başkanın güncel parti üyeliği", "Sunumun okur yargısına etkisi"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "CHP'li Çukurova Belediyesi'ne", "kind": "statement"},
+  {"source": "text", "quote": "YENİ Partili Çukurova Belediyesi'ne operasyon", "kind": "statement"},
+  {"source": "context", "quote": "ahaber: sağ (85)", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Parti etiketleri var; ancak karar vericinin grup üyeliği ve grup kaynaklı farklı muamele açıkça kurulmuyor.",
+ "alternative_explanation": "Yerleşim puanları grup üyeliği değildir; parti etiketi haber değeri taşıyan olgusal bilgi olabilir.",
+ "missing_context": ["Aynı kurumun benzer olaylarda farklı partilere nasıl etiket koyduğuna dair karşılaştırma"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Başkan Kozay ve eski başkan Çetin de...", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tanınmış isimler öne çıkarılıyor; bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Başkanların gözaltısı haberin en önemli olgusal unsurudur.",
+ "missing_context": ["Belirginliğin bir çıkarıma bağlandığı açık ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Belediye Başkanı Emrah Kozay dahil 34 tutuklama", "kind": "behavioral"},
+  {"source": "text", "quote": "Belediye başkanı dahil 44 gözaltı!", "kind": "behavioral"},
+  {"source": "context", "quote": "Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum '34 tutuklama', diğerleri '44 gözaltı' veriyor; maddi bir fark var ama bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "NTV başlığı sonradan tutuklama kararıyla güncellenmiş olabilir; saat damgası ilk yayını yansıtıyor olabilir.",
+ "missing_context": ["NTV haberinin güncellenme zamanı", "Resmi tutuklama sayısı"]},
+{"card_id": "fundamental-attribution-error", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "başkanın teyzesinin örgüt yöneticisi konumunda olduğu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Soruşturma iddiası aktarılıyor; kalıcı bir karakter özelliği atfı yok.",
+ "alternative_explanation": "Bu, soruşturma dosyasındaki iddianın aktarımıdır, kişilik yargısı değildir.",
+ "missing_context": ["Kişiye kalıcı özellik atfeden açık ifade"]}
+]}

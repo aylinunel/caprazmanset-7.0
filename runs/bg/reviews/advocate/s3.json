@@ -1,0 +1,71 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturmasında dezenformasyon! Murat Ağırel ve İsmail Saymaz hakkında karar verildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Savcı karara itiraz etti: Gazeteci İsmail Saymaz ve Murat Ağırel'e ev hapsi!", "kind": "behavioral"},
+  {"source": "text", "quote": "Murat Ağırel ve İsmail Saymaz’a ev hapsi verildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı adli kontrol kararı bir kurumda 'dezenformasyon' suçlamasını öne alan, diğerinde savcının itirazını ve gazetecilik kimliğini öne alan çerçeveyle sunuluyor.",
+ "alternative_explanation": "Suçlamanın adı soruşturmanın olgusal bir parçası; farklı ögeler editoryal önceliği yansıtabilir.",
+ "missing_context": ["Çerçevenin bir yargıyı değiştirdiğine dair açık ifade"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ticaret Bakanı Ömer Bolat, fon soruşturması kapsamında kendisine yönelik ifadeleri ve sosyal medya paylaşımlarına ilişkin İsmail Saymaz ve Murat Ağırel hakkında suç duyurusunda bulundu.", "kind": "statement"},
+  {"source": "text", "quote": "kamuoyunu yanıltıcı nitelikte açıklamalarda bulunduğu iddiasıyla", "kind": "statement"},
+  {"source": "text", "quote": "Fon soruşturmasında dezenformasyon!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bakan ve savcılık kaynaklı suçlama, bir başlıkta 'iddia' nitelemesi olmadan olgu gibi sunuluyor.",
+ "alternative_explanation": "Başlık soruşturmanın konusunu kısaltarak aktarıyor olabilir; makam statüsünün belirleyici kılındığı açık değil.",
+ "missing_context": ["Makam nedeniyle karşıt kanıtın göz ardı edildiğine dair açık ifade", "Gazetecilerin savunması"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "gazeteci arkadaşlarımız İsmail Saymaz ve Murat Ağırel", "kind": "statement"},
+  {"source": "text", "quote": "gazetemiz yazarı Murat Ağırel", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sözcü ve Cumhuriyet, gazetecileri kendi gruplarının üyesi ('arkadaşlarımız', 'gazetemiz yazarı') olarak açıkça tanımlıyor.",
+ "alternative_explanation": "Kurumsal bağın açıklanması şeffaflık gereğidir ve değerlendirmeyi çarpıtmayabilir.",
+ "missing_context": ["Grup üyeliğine bağlı farklı standart veya kanıt indirgemesine dair karşılaştırma"]},
+{"card_id": "messenger-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bolat, krizden önce parasını ikiye katlayarak çektiği iddialarını yalanlayarak", "kind": "statement"},
+  {"source": "text", "quote": "kamuoyunu yanıltıcı nitelikte açıklamalarda bulunduğu iddiasıyla", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Gazetecilerin iddiası reddediliyor ve 'yanıltıcı' olarak nitelendiriliyor; reddin habercinin kimliğine dayandığı gösterilmiyor.",
+ "alternative_explanation": "Ret, iddianın içeriğine ilişkin olgusal itiraza dayanıyor olabilir.",
+ "missing_context": ["Değerlendirmenin habercinin kimliğine atfedildiğine dair açık ifade", "İddianın içeriği ve kanıtları"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "savcılığın itirazı üzerine ev hapsi cezası verildi", "kind": "behavioral"},
+  {"source": "text", "quote": "iki gazeteci hakkında ev hapsi şeklinde adli kontrol tedbiri", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakanlık'tan İsmail Saymaz ve Murat Ağırel hakkında suç duyurusu", "kind": "behavioral"},
+  {"source": "text", "quote": "Bakan Bolat'tan İsmail Saymaz ve Murat Ağırel hakkında suç duyurusu!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Diğer kurumların 'adli kontrol tedbiri' ifadesi taban alındığında NTV kararı 'ceza' olarak aktarıyor; suç duyurusu bazı yerlerde Bakanlığa, bazılarında bakana kişisel olarak atfediliyor.",
+ "alternative_explanation": "'Ceza' kelimesi gündelik dilde gevşek kullanılmış olabilir; suç duyurusu bakan adına Bakanlıkça yapılmış olabilir.",
+ "missing_context": ["Hakimlik kararının tam metni", "Farkın okur yargısına etkisine dair kanıt"]}
+]}

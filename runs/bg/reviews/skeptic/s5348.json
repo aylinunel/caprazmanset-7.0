@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bodrum’da sağanak hayatı felç etti! Sel sularına kapılan otomobil denize sürüklendi", "kind": "behavioral"},
+  {"source": "text", "quote": "Bodrum'da sağanak felaketi: Dere taştı, otomobil denize sürüklendi, ev ve iş yerlerini su bastı", "kind": "behavioral"},
+  {"source": "text", "quote": "9 mahallede 17 ev ve 3 iş yerini su bastı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olay 'hayatı felç etti' ve 'felaket' gibi yoğun ifadelerle ya da ölçülü rakamlarla sunuluyor; ancak bu sunum farkına bağlı bir yargı metinde yok.",
+ "alternative_explanation": "Yerel sel haberlerinde dramatik dil yaygın bir üslup tercihidir; 46 kg/m2 yağış gerçekten ciddi bir olay olabilir.",
+ "missing_context": ["Yerel yetkililerin hasar değerlendirmesi", "Ulaşım ve elektrik kesintisi gibi 'hayatın felç olduğunu' doğrulayacak veriler"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bodrum'da sağanak sonrası şoke eden görüntü: Otomobil denize sürüklendi", "kind": "behavioral"},
+  {"source": "text", "quote": "Bodrum'da sel: Otomobil denize sürüklendi!", "kind": "behavioral"},
+  {"source": "text", "quote": "Muğla'nın Bodrum ilçesinde metrekareye 46 kilogram yağışın düştüğü kuvvetli sağanak", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Denize sürüklenen otomobil görüntüsü neredeyse tüm başlıklarda öne çıkarılıyor; bunun olayın genel ölçeğine dair bir yargıyı çarpıttığı açıkça gösterilmiyor.",
+ "alternative_explanation": "Görsel malzemenin bulunduğu çarpıcı bir an haber değeri taşır; diğer hasar bilgileri de lede'lerde veriliyor.",
+ "missing_context": ["Can kaybı veya yaralanma olup olmadığı", "Videonun haber seçimini ne ölçüde belirlediği"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Bodrum'da sağanak yaşamı durma noktasına getirdi: Otomobil denize sürüklendi!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olay doğası gereği olumsuz; karşılaştırılabilir olumlu bir kanıtın göz ardı edildiğine dair metinde bilgi yok.",
+ "alternative_explanation": "Doğal afet haberinde olumsuz vurgu, olayın gerçek riskine orantılı bir tepki olabilir.",
+ "missing_context": ["Hızlı müdahale veya hasarın sınırlı kaldığına dair olumlu bilgiler", "Kurumların benzer olaylardaki dil kullanımı"]}
+]}

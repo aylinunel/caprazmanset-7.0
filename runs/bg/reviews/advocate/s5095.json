@@ -1,0 +1,53 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "TOBB Nefes Kredisi'nde yeni dilimle firma başına limit 5 milyon liraya çıktı", "kind": "behavioral"},
+  {"source": "text", "quote": "TOBB Nefes Kredisi'nde yeni dilim 3 Kasım'da başlıyor, firma başına limit 5 milyon TL", "kind": "behavioral"},
+  {"source": "text", "quote": "Milyonlarca KOBİ bekliyordu! TOBB Nefes Kredisi'ne başvurular başladı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı limit bilgisi bir kurumda artış ('çıktı') kazanç çerçevesiyle, diğerinde nötr biçimde veriliyor.",
+ "alternative_explanation": "Limit önceki dilime göre gerçekten artmış olabilir; 'çıktı' ifadesi olgusal karşılaştırmadır.",
+ "missing_context": ["Önceki dilimin limiti", "Çerçevenin bir tercihi değiştirdiğine dair açık ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "5 milyon TL kredi için şartlar neler", "kind": "behavioral"},
+  {"source": "text", "quote": "KOBİ'lere 50 milyar liralık ek finansman sağlanırken", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Firma başına azami 5 milyon TL tutarı başlıklarda öne çıkıyor; toplam havuz ve şartlar daha az görünür.",
+ "alternative_explanation": "Firma başına limit okurlar için en doğrudan ilgili bilgidir.",
+ "missing_context": ["Öne çıkan tutarın bir başvuru kararını haksız biçimde etkilediğine dair kanıt"]},
+{"card_id": "cashless-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "KOBİ'lere 50 milyar liralık ek finansman sağlanırken firma başına kredi limiti 5 milyon TL olacak.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metin kredi finansmanını anlatıyor; nakitsiz ödeme bağlamı ve harcama sonucu yok.",
+ "alternative_explanation": "Kredi programı haberi, ödeme yöntemine bağlı harcama davranışıyla ilgili değildir.",
+ "missing_context": ["Nakitsiz ödeme ile nakit karşılaştırması", "Harcama veya satın alma verisi"]},
+{"card_id": "bounded-rationality", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İşte başvuru şartları ve tarihleri", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde tatmin edici eşikte durulan bir karar süreci ve kaynak sınırı belirtilmiyor.",
+ "alternative_explanation": "Haberler bilgilendirme amaçlı başvuru rehberidir; bir seçim süreci anlatılmıyor.",
+ "missing_context": ["Belirli bir karar ve kısıt bağlantısı"]}
+]}

@@ -1,0 +1,40 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Hava ve füze savunmasında yeni dönem! ASELSAN ile SSB arasında 523 milyon avroluk imza", "kind": "behavioral"},
+  {"source": "text", "quote": "ASELSAN ile SSB arasında 523 milyon avroluk sözleşme imzalandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Aselsan 523 milyon euroluk iş aldı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı sözleşme bazı kurumlarda 'yeni dönem' ve ünlemle, bazılarında yalın biçimde verilmiş; vurgu farkı gözleniyor ancak bir yargı ya da tercihin bu sunuma bağlandığı metinde yok.",
+ "alternative_explanation": "Başlık üslubu farkı yayın politikası, savunma haberlerine olağan ilgi veya tıklama odaklı editoryal tercihten kaynaklanabilir; olgusal içerik tüm kurumlarda aynı.",
+ "missing_context": ["Okur ya da karar verici değerlendirmesinin başlık sunumundan etkilendiğine dair veri", "Kurumların benzer sözleşme haberlerini nasıl sunduğuna dair karşılaştırma"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Savunmada yeni nesil füze hamlesi! ASELSAN ve SSB'den 523 milyon avroluk anlaşma", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Çarpıcı başlık bulunsa da bunun bir yargıya veya seçime haksız ağırlık verdiğini gösteren ifade yok.",
+ "alternative_explanation": "Vurgulu başlık sıradan dikkat çekme pratiğidir; tutar ve konu doğru aktarılmış.",
+ "missing_context": ["Sözleşmenin bağlamı (önceki sözleşmeler, bütçe oranı)", "Başlık vurgusunun çıkarımı etkilediğine dair karşılaştırmalı kanıt"]},
+{"card_id": "optimism-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "ASELSAN'dan 523 milyon Euroluk imza! Yeni savunma sistemi geliyor", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Geliyor' olumlu bir beklenti ifade ediyor; ancak metinde karşıt kanıt, taban oranı veya bunun göz ardı edildiği gösterilmiyor.",
+ "alternative_explanation": "Sözleşmenin amacı sistem geliştirmek olduğundan bu ifade doğrudan sözleşme konusunun aktarımı olabilir.",
+ "missing_context": ["Benzer savunma projelerinde gecikme ve teslim oranları", "Projenin takvimi ve riskleri"]}
+]}

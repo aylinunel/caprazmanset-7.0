@@ -1,0 +1,54 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yer Ankara! 3 yaşındaki çocuğunu sokak ortasında dövdü! Vicdansız anne tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Başkentte 3 yaşındaki çocuğunu darbettiği iddiasıyla gözaltına alınan anne tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı tutuklama bir kurumda 'iddiasıyla' temkinli, diğerinde 'Vicdansız anne' yargılayıcı çerçeveyle verilmiş.",
+ "alternative_explanation": "Görüntülerin kamuoyunda yarattığı tepkiyi yansıtan editoryal üslup.",
+ "missing_context": ["Çerçeve farkının okur yargısını değiştirdiğine dair kanıt"]},
+{"card_id": "affect-heuristic", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Görüntüler infial yaratmıştı! 3 yaşındaki çocuğunu darbeden anne tutuklandı", "kind": "statement"},
+  {"source": "text", "quote": "görüntülerin sosyal medyada paylaşılması üzerine gözaltına alınan anne, çıkarıldığı mahkemece tutuklandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlık kamuoyu öfkesini tutuklama haberiyle yan yana koyuyor; duygunun karara etkisi ima ediliyor ama açık değil.",
+ "alternative_explanation": "Tutuklama görüntülerdeki delile dayanan olağan yargı süreci olabilir.",
+ "missing_context": ["Mahkeme gerekçesi", "İnfialin kararı etkilediğine dair açık ifade"]},
+{"card_id": "fundamental-attribution-error", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Vicdansız anne tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "3 yaşındaki çocuğunu darp etmişti: Cani anne tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tek bir davranış 'vicdansız', 'cani' gibi kalıcı karakter nitelemelerine dönüştürülmüş.",
+ "alternative_explanation": "Şiddet görüntüsüne tepki olarak kullanılan ahlaki dil; durumsal faktörlerin bilinip göz ardı edildiği gösterilmiyor.",
+ "missing_context": ["Olayın durumsal arka planı", "Bu nitelemenin bir sonucu şekillendirdiğine dair kanıt"]},
+{"card_id": "identifiable-victim-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Koruma altına alınan çocuk ise ilgili kuruma teslim edildi.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir koruma kararı var, ancak tanımlanabilir kişi ile grup arasında karşılaştırma yok.",
+ "alternative_explanation": "Çocuğun korunması standart yasal prosedür.",
+ "missing_context": ["Benzer ihtiyaçtaki tanımlanamayan grupla karşılaştırma"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "3 yaşındaki çocuğunu darp etmişti: Cani anne tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz nitelemeler bazı başlıklarda yoğunlaşıyor.",
+ "alternative_explanation": "Çocuğa şiddet olayı olumsuz dil için orantılı bir gerekçe olabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu kanıta göre orantısız ağırlık belgesi"]}
+]}

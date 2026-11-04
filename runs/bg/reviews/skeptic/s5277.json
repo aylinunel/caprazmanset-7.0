@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İçişleri Bakanlığı duyurdu: 11 ilde dev siber operasyon: 120 şüpheli yakalandı, 86 tutuklama", "kind": "statement"},
+  {"source": "text", "quote": "İçişleri Bakanlığı'ndan yapılan açıklamada", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Haberler Bakanlık açıklamasına dayanıyor; kaynak belirtilmiş ama statünün karşıt kanıtı bastırdığı ya da tek gerekçe yapıldığı gösterilmiyor.",
+ "alternative_explanation": "Gözaltı ve tutuklama sayıları için resmi kurum doğal ve ilgili birincil kaynaktır; kaynağı açıkça belirtmek iyi bir pratiktir.",
+ "missing_context": ["Bağımsız doğrulama ya da yargı kaynaklı bilgi", "Şüphelilerin veya savunmanın açıklamaları"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Siber operasyon: 86 tutuklama!", "kind": "behavioral"},
+  {"source": "text", "quote": "11 ilde siber suç operasyonunda 120 şüpheli yakalandı, 86'sı tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Diğerlerinin işlemleri devam ediyor", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı başlıklar yalnız tutuklama sayısını öne çıkarıyor, bazıları 120 yakalamayı da veriyor; vurgu farkı var ama tercih ya da yargının buna bağlandığı metinde yok.",
+ "alternative_explanation": "Başlık uzunluğu sınırı ve tutuklamanın haber değeri en yüksek sayı olması farkı açıklayabilir; olgular çelişmiyor.",
+ "missing_context": ["Operasyonların hangi suç türlerini kapsadığı", "Başlık seçiminin okur algısına etkisine dair veri"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "11 ilde dev siber operasyon", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Dev' nitelemesi dikkat çekici olsa da bir yargının bu çarpıcılığa dayanarak hatalı kurulduğu gösterilmiyor.",
+ "alternative_explanation": "Abartılı sıfat haber dili alışkanlığı olabilir; sayılar doğru aktarılıyor.",
+ "missing_context": ["Benzer operasyonların olağan büyüklüğü (taban oranı)", "Karşılaştırmalı içerik analizi"]}
+]}

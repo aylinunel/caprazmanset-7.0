@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ahmet Davutoğlu Hakkında Şok Haber: Soruşturma Başlatıldı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhurbaşkanına hakaret içerdiği iddia edilen ifadeler nedeniyle", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhurbaşkanına hakaret içerdiği değerlendirilen ifadeleri nedeniyle", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı soruşturma 'şok haber', 'iddia edilen' ve 'değerlendirilen' gibi farklı ifadelerle sunulmuş; ancak bir yargının bu sunuma bağlandığı metinde gösterilmiyor.",
+ "alternative_explanation": "'İddia edilen' hukuki ihtiyat ifadesi, 'değerlendirilen' savcılık diline sadakat olabilir; 'şok haber' tıklama odaklı üsluptur, olgu aynı.",
+ "missing_context": ["Söz konusu paylaşımların içeriği", "Kurumların benzer soruşturma haberlerinde kullandığı dil"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Son Dakika... Ahmet Davutoğlu hakkında 'Cumhurbaşkanına hakaret' soruşturması", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Son dakika' gibi vurgular dikkat yönlendirir ama bir yargının çarpıcılığa dayanarak hatalı kurulduğu gösterilmiyor.",
+ "alternative_explanation": "Yeni gelişmeyi işaretlemek olağan haber pratiğidir.",
+ "missing_context": ["Okur yargısının bu vurgudan etkilendiğine dair karşılaştırmalı veri"]},
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "sosyal medyada dolaşıma sokulan paylaşımlarda", "kind": "statement"},
+  {"source": "text", "quote": "sanal medyada yer alan paylaşımlarındaki ifadeleri nedeniyle", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Paylaşımların Davutoğlu'nun kendi paylaşımları mı yoksa dolaşıma sokulan paylaşımlar mı olduğu kurumlar arasında farklı ifade ediliyor; ancak bu bir bellek-kaynak hatası değil, anlatım farkı.",
+ "alternative_explanation": "Farklı kurumlar savcılık açıklamasını farklı özetlemiş olabilir; kaynak yanlış atfı kanıtlanmış değil.",
+ "missing_context": ["Savcılık açıklamasının tam metni", "Söz konusu paylaşımların kime ait olduğuna dair kayıt"]}
+]}

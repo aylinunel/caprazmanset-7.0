@@ -1,0 +1,37 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Beyoğlu'nda 4 katlı binada çökme meydana geldi.", "kind": "behavioral"},
+  {"source": "text", "quote": "Beyoğlu'nda 4 katlı metruk bina çöktü", "kind": "behavioral"},
+  {"source": "text", "quote": "Beyoğlu'nda 5 katlı bina çöktü! Yan bina da hasar gördü", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Beyoğlu'nda 5 katlı metruk bina çöktü", "kind": "statement"},
+  {"source": "text", "quote": "daha önce boşaltıldığı belirtilen 4 katlı metruk bina", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3, 4]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kat sayısı 4 ile 5 arasında değişiyor ve bazı başlıklar 'metruk/boşaltılmış' bilgisini atlıyor; sapmanın bir sonuca etkisi gösterilmiyor.",
+ "alternative_explanation": "Kat sayısı farkı zemin/çatı katı sayımından, 'metruk' atlanması başlık kısalığından kaynaklanabilir.",
+ "missing_context": ["Resmi kat sayısı", "Binanın boş olduğunun resmi teyidi"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Beyoğlu'nda korku dolu anlar! 5 katlı bina çöktü", "kind": "behavioral"},
+  {"source": "text", "quote": "Beyoğlu'nda 5 katlı metruk bina çöktü", "kind": "behavioral"},
+  {"source": "text", "quote": "4 katlı bina yerle bir oldu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı çökme 'korku dolu anlar' ile ya da 'metruk' nitelemesiyle nötr sunuluyor; yargı değişimi gösterilmiyor.",
+ "alternative_explanation": "Duygusal başlıklar üslup tercihi olabilir; okur değerlendirmesine etkisi bilinmiyor.",
+ "missing_context": ["Sunumun okur risk algısına etkisine dair veri"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Beyoğlu'nda korku dolu anlar!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz vurgu var; olumlu bilgiye göre orantısız ağırlık ve karar etkisi belgelenmiyor.",
+ "alternative_explanation": "Bina çökmesi haberinde olumsuz vurgu olayla orantılı olabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi (ör. can kaybı olmaması) ve karar etkisi"]}
+]}

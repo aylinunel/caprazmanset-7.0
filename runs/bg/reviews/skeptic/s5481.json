@@ -1,0 +1,15 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Cumhurbaşkanı Erdoğan'dan Serpil Bahçeli için taziye mesajı", "kind": "behavioral"},
+  {"source": "text", "quote": "Başkan Erdoğan'dan Devlet Bahçeli'ye başsağlığı mesajı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başlıklar taziyenin muhatabını (Serpil ya da Devlet Bahçeli) ve unvanı ('Başkan') farklı vurguluyor; değerlendirme veya tercihin buna bağlandığı bir ifade yok.",
+ "alternative_explanation": "Taziye hem vefat edene hem yakınına yönelik olduğundan iki kurgu da olgusal olarak doğru; unvan kullanımı kurumların yerleşik üslubu olabilir.",
+ "missing_context": ["Kurumların benzer taziye haberlerinde kullandığı kalıplar", "Haberin önem sırası ve yerleşimi"]}
+]}

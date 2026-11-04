@@ -1,0 +1,55 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Vicdansız anne tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Cani anne tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Başkentte 3 yaşındaki çocuğunu darbettiği iddiasıyla gözaltına alınan anne tutuklandı", "kind": "behavioral"},
+  {"source": "context", "quote": "Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı tutuklama haberi bazı kurumlarda 'vicdansız/cani' nitelemesiyle, bazılarında 'iddiasıyla' ihtiyatıyla sunuluyor; yargı değişimi metinde gösterilmiyor.",
+ "alternative_explanation": "Nitelemeler, görüntülere dayanan ahlaki tepkinin editoryal ifadesi olabilir; okur yargısına etkisi bilinmiyor.",
+ "missing_context": ["Sunum farkının okur değerlendirmesini değiştirdiğine dair veri", "Mahkeme kararının gerekçesi"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Görüntüler infial yaratmıştı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kamuoyu tepkisi aktarılıyor; tutuklama kararının bu duyguya dayandığı belirtilmiyor.",
+ "alternative_explanation": "Tutuklama, görüntülerdeki olgusal delillere dayanan olağan bir yargı süreci olabilir.",
+ "missing_context": ["Mahkemenin tutuklama gerekçesi", "Duygunun karara etkisine dair açık ifade"]},
+{"card_id": "fundamental-attribution-error", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Vicdansız anne tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Cani anne tutuklandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tek bir eylemden kalıcı karakter nitelemesi ('vicdansız', 'cani') yapılıyor; ancak göz ardı edilen durumsal bir etken metinde yer almıyor.",
+ "alternative_explanation": "Nitelemeler, belgelenmiş bir şiddet eylemine yönelik ahlaki değerlendirme olabilir; durumsal etkenlerin varlığı bilinmiyor.",
+ "missing_context": ["Annenin koşullarına dair bilgi", "Durumsal etkenlerin bilinip dışlandığına dair kanıt"]},
+{"card_id": "identifiable-victim-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Koruma altına alınan çocuk ise ilgili kuruma teslim edildi.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tek bir çocuğun korunması aktarılıyor; karşılaştırılabilir bir grupla kaynak tahsisi karşılaştırması yok.",
+ "alternative_explanation": "Koruma kararı, yasal çocuk koruma prosedürünün olağan uygulamasıdır.",
+ "missing_context": ["Karşılaştırılabilir vakalarda alınan önlemler", "Tahsis kararının gerekçesi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yer Ankara! 3 yaşındaki çocuğunu sokak ortasında dövdü!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz olay vurgulanıyor; karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık belgelenmiyor.",
+ "alternative_explanation": "Çocuğa şiddet haberinde olumsuz vurgu olayın doğasıyla orantılıdır.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi", "Karar üzerinde etki kanıtı"]}
+]}

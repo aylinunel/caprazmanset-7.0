@@ -1,0 +1,56 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "19 yıllık 'mumya ceset' cinayetinde kan donduran itiraf!", "kind": "behavioral"},
+  {"source": "text", "quote": "Buzdolabına sığmayınca bacaklarını kesmişler", "kind": "behavioral"},
+  {"source": "text", "quote": "Mersin'de 19 yıllık 'mumya ceset' dosyasında 6 şüpheli gözaltına alındı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Bazı kurumlar ürkütücü ve canlı ayrıntıyı (bacakların kesilmesi) başlığa taşırken diğerleri gözaltı bilgisini yalın aktarıyor.",
+ "alternative_explanation": "İfadelerdeki ayrıntı soruşturmanın yeni ve haber değeri taşıyan bilgisidir.",
+ "missing_context": ["Çarpıcı ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair açık kanıt"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "'Mumya ceset’ cinayetinde korkunç iddialar", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz ayrıntı vurgulanıyor; ancak metinde karşılaştırılabilir olumlu bilgi bulunmadığından orantısız ağırlık gözlenemiyor.",
+ "alternative_explanation": "Cinayet haberi doğası gereği olumsuz içeriklidir; vurgu orantılı olabilir.",
+ "missing_context": ["Göz ardı edilen karşılaştırılabilir olumlu kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Mersin'de 'mumya ceset' cinayetinde 19 yıl sonra 6 şüpheli gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Mersin'de 19 yıllık mumya ceset cinayeti çözüldü: Altın ve parayı paylaşıp Sefer'i gömmüşler!", "kind": "behavioral"},
+  {"source": "text", "quote": "'Mumya ceset’ cinayetinde korkunç iddialar", "kind": "behavioral"},
+  {"source": "text", "quote": "üzeri betonla kapatılmış dondurucunun içerisinde bulunan", "kind": "behavioral"},
+  {"source": "text", "quote": "üzeri betonla kapatılmış buzdolabının içinde cesedi bulunan", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3, 4]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Gözaltı aşamasındaki soruşturma bazı başlıklarda 'çözüldü' kesinliğine büyütülüyor; Cumhuriyet aynı ifadeleri 'iddia' olarak sunarken diğerleri 'itiraf' diyor; 'dondurucu' ve 'buzdolabı' ayrıntısı farklılaşıyor.",
+ "alternative_explanation": "Savcılık ifadeleri itiraf içerdiği için 'çözüldü' ifadesi emniyet açıklamasından alınmış olabilir.",
+ "missing_context": ["Savcılık veya emniyet açıklamasının tam metni", "Farkın bir sonuca etki ettiğine dair kanıt"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "'Mumya ceset’ cinayetinde korkunç iddialar: 'Buzdolabına sığmayınca parçalamışlar'", "kind": "behavioral"},
+  {"source": "text", "quote": "\"Mumya ceset\" cinayetinde 19 yıl sonra itiraf. Buzdolabına sığmayınca parçalamışlar", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı ifade içeriği bir kurumda 'iddia', diğerinde 'itiraf' olarak sunuluyor; kesinlik algısı çerçeveye göre değişiyor.",
+ "alternative_explanation": "'İddia' ifadesi yargılanmamış şüpheliler için hukuki temkin gereği tercih edilmiş olabilir.",
+ "missing_context": ["Çerçevenin bir yargıyı değiştirdiğine dair açık ifade"]}
+]}

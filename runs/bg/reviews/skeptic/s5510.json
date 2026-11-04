@@ -1,0 +1,29 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika: Trump için kritik viraj! ABD'de oy verme işlemi başladı", "kind": "behavioral"},
+  {"source": "text", "quote": "ABD ara seçimlerinde oy verme başladı! Sarı kovboy Trump için kritik gün", "kind": "behavioral"},
+  {"source": "text", "quote": "ABD'de ara seçimlerde oy kullanma işlemi başladı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olgu bazı kurumlarca nötr, bazılarınca Trump odaklı ve nitelemeli ('Sarı kovboy') sunuluyor; ancak bir tercih veya yargının bu sunuma bağlandığı metinde yok.",
+ "alternative_explanation": "Ara seçimlerin başkanın yasama gücünü etkilemesi gerçek bir haber açısıdır; Trump vurgusu okura bağlam sağlamak için olabilir.",
+ "missing_context": ["Kurumların seçim sonuçlarını nasıl sunduğu", "Haber gövdelerinin içeriği"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "ABD’de Trump için kritik gün: Oy verme işlemleri başladı! O bölgede sandıklar açılıyor…", "kind": "behavioral"},
+  {"source": "text", "quote": "ABD'de Kongre dengesini şekillendirecek ara seçimlerde oy verme süreci başladı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Kişiselleştirilmiş Trump vurgusu, Kongre dengesi gibi yapısal bilgiye göre daha öne çıkıyor; bunun haksız bir yargıya yol açtığı gösterilmiyor.",
+ "alternative_explanation": "Tanınmış bir figür üzerinden anlatım, okura ilgi ve anlaşılırlık sağlamak için yaygın bir yöntemdir.",
+ "missing_context": ["Haberlerde yerel adaylara ve eyalet yarışlarına ne kadar yer ayrıldığı"]}
+]}

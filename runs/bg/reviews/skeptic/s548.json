@@ -1,0 +1,46 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul ve Yalova'da hissedildi!", "kind": "behavioral"},
+  {"source": "text", "quote": "Saat 22.08’de meydana gelen sarsıntı, Yalova merkez ve çevre ilçelerde hissedildi.", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar İstanbul'da hissedilmesini öne çıkarıyor; bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "İstanbul'da hissedilmesi okur kitlesi açısından ilgili ve doğru bir bilgidir.",
+ "missing_context": ["Belirginliğin bir risk çıkarımına bağlandığı açık ifade"]},
+{"card_id": "availability-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "17 Ağustos'ta kırılan fayın devamı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Geçmiş deprem yalnızca fay konumunu tanımlamak için anılıyor; olasılık kestirimi için hatırlanabilirlik kullanılmıyor.",
+ "alternative_explanation": "Uzman, fayı tanımlamak için bilinen bir referans noktası kullanıyor.",
+ "missing_context": ["Hatırlanabilirliğe dayalı bir olasılık yargısı"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Deprem uzmanı Prof. Dr. Övgün Ahmet Ercan", "kind": "statement"},
+  {"source": "text", "quote": "Öncü bir deprem değil", "kind": "behavioral"},
+  {"source": "text", "quote": "Deprem bir öncü deprem değil, yerel bir gerginlik boşalmasıdır", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum uzman görüşünü başlığa taşıyarak kesin hüküm gibi sunuyor; ancak karşı kanıtın göz ardı edildiği gösterilmiyor.",
+ "alternative_explanation": "Uzmanın alanıyla ilgili görüşüne yer vermek gerekçeli bir kaynak kullanımıdır.",
+ "missing_context": ["Diğer uzmanların veya AFAD'ın değerlendirmesi", "Öncü deprem olasılığına dair veri"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "Yalova açıklarında 3.5 büyüklüğünde deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "İstanbul ve çevre iller sallandı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı 3,5'lik deprem 'İstanbul sallandı' ya da nötr konum bilgisiyle sunuluyor; yargı değişimi gösterilmiyor.",
+ "alternative_explanation": "Başlık farkı hedef okur kitlesine göre ilgili bilgiyi öne çıkarma tercihi olabilir.",
+ "missing_context": ["2,9'luk depremi aktaran haberlerin ayrı bir olay olup olmadığı", "Sunumun okur risk algısına etkisi"]}
+]}
