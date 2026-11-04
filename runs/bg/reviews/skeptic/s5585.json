@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kılıçdaroğlu'ndan MHP lideri Devlet Bahçeli'ye taziye ziyareti", "kind": "behavioral"},
+  {"source": "text", "quote": "AK Parti, CHP ve Yeni Parti'den Bahçeli'ye taziye ziyareti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı kurumlar yalnızca tek ziyaretçiyi başlığa taşırken diğerleri üç partiyi birlikte veriyor; öne çıkarma farkı gözleniyor ama yargıya etkisi metinde açık değil.",
+ "alternative_explanation": "Ziyaretler farklı saatlerde gerçekleşmiş olabilir; kurumlar haberi ilk ziyaret anında yazıp sonradan güncellememiş olabilir.",
+ "missing_context": ["Ziyaretlerin gerçek saat sırası", "Başlıkların sonradan güncellenip güncellenmediği", "Haber gövdelerinin tam metni"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "CHP Genel Başkanı Kemal Kılıçdaroğlu, Yeni Parti Genel Başkanı Özgür Özel ve AK Parti Grup Başkanı Abdullah Güler", "kind": "behavioral"},
+  {"source": "text", "quote": "Kılıçdaroğlu'ndan Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, kız kardeşini kaybeden", "kind": "behavioral"},
+  {"source": "text", "quote": "Özgür Özel'den Bahçeli'ye taziye ziyareti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir kurum üç ziyaretçiyi verirken diğerleri yalnızca birini anıyor; diğer ziyaretçiler başlıkta düzleşiyor.",
+ "alternative_explanation": "Ayrı ziyaretlerin ayrı haberler olarak yazılması olağan bir haberleştirme pratiğidir; eksiltmenin sonuca etkisi gösterilmemiş.",
+ "missing_context": ["Kurumların diğer ziyaretleri ayrı haberde verip vermediği", "Eksiltmenin okur yargısına maddi etkisi"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "context", "quote": "Olayı vermeyen etkin kurumlar: aydinlik, diken, milligazete, mynet, trthaber", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Hangi ziyaretçinin başlığa alındığı kuruma göre değişiyor, ancak bunu grup üyeliğine bağlayan açık bir ifade yok.",
+ "alternative_explanation": "Başlık seçimi saat, ajans akışı ve ziyaret sırasıyla açıklanabilir; haberi vermeyen kurumlar farklı yelpazelerden.",
+ "missing_context": ["Kurumların benzer olaylarda farklı partilere uyguladığı standartların karşılaştırması", "Kurumların grup bağlılığına dair açık kayıt"]}
+]}

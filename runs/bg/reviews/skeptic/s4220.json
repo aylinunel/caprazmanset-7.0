@@ -1,0 +1,13 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "in-group-bias", "verdict": "not_supported", "evidence": [
+{"source": "text", "quote": "Dünya Kupası'nda rakiplerimiz belli oluyor", "kind": "behavioral"},
+{"source": "text", "quote": "İşte ay-yıldızlıların grubu", "kind": "behavioral"},
+{"source": "text", "quote": "A Milli Kadın Voleybol Takımı'nın Dünya Kupası'ndaki rakipleri yarın belli olacak", "kind": "behavioral"}],
+"necessary_conditions": [
+{"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+{"condition_index": 1, "status": "unknown", "evidence_indices": []},
+{"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+"mechanism": "Bazı başlıklar 'rakiplerimiz' gibi birinci çoğul şahıs kullanıyor; ancak bu dil herhangi bir değerlendirme, suçlama veya yarar farkını gruba bağlamıyor.",
+"alternative_explanation": "Milli takım haberlerinde 'biz' dili yaygın ve tüm yelpazede kullanılan bir spor gazeteciliği geleneğidir; rakiplere karşı çarpıtılmış bir yargı içermez.",
+"missing_context": ["Rakip takımların veya kura sonucunun farklı standartlarla değerlendirildiğine dair ifade", "Haberlerin tam metinleri"]}
+]}

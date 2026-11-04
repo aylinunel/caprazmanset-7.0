@@ -1,0 +1,38 @@
+{"role": "advocate", "assessments": [
+{"card_id": "automation-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Galatasaray-Stuttgart maçı için olay tahmin! Yapay zeka sonucu açıkladı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sözcü başlığı yapay zekâ tahminini 'sonucu açıkladı' diyerek kesin bir sonuç gibi sunuyor; otomatik çıktıya yetki atfedilmesi olası.",
+ "alternative_explanation": "Başlık tıklama amaçlı bir eğlence/merak haberi olabilir; haber gövdesinde tahminin belirsizliği vurgulanmış olabilir.",
+ "missing_context": ["Haberin gövdesi ve tahminin nasıl sunulduğu", "Tahminin herhangi bir karar veya çıkarımı yönlendirip yönlendirmediği"]},
+{"card_id": "hot-hand-fallacy", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son 4 resmi maçını kazanan sarı-kırmızılılar, Alman temsilcisini de mağlup ederek Avrupa’daki çıkışını sürdürmek istiyor.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Karar, son 4 galibiyet serisini Stuttgart maçı öncesi çerçeveye yerleştiriyor; seri ile gelecek başarı arasında örtük bağ kurulabilir.",
+ "alternative_explanation": "Seri yalnızca bağlam bilgisi olarak verilmiş; açık bir olasılık tahmini veya öngörü yapılmıyor, ifade takımın hedefini aktarıyor.",
+ "missing_context": ["Seriye dayalı açık bir tahmin veya olasılık ifadesi", "Rakip gücü ve taban oranlarla karşılaştırma"]},
+{"card_id": "optimism-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Galatasaray Stuttgart maçına hazır", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Hazırlık haberleri olumlu tonda; ancak belirli bir olasılık veya beklenti ifadesi yok.",
+ "alternative_explanation": "Standart maç öncesi hazırlık haberciliği; iyimser ton yanlılık kanıtı değildir.",
+ "missing_context": ["Belirli bir sonuç beklentisi ve buna karşı sunulan karşıt kanıt veya taban oran"]}
+]}

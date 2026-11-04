@@ -1,0 +1,52 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Polonya karıştı: Darbe girişimi iddiası... Anayasa Mahkemesi polis ablukasına alındı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olay bir kurumda 'darbe girişimi iddiası', diğerinde 'anayasal kriz' çerçevesiyle sunuluyor; ancak bir tercih ya da yargının çerçeveye bağlandığı gösterilmiyor.",
+ "alternative_explanation": "'Darbe' ifadesi taraflardan birinin suçlaması olarak aktarılıyor olabilir; bu, çerçeveleme değil bir iddianın haberleştirilmesidir.",
+ "missing_context": ["Darbe iddiasını kimin dile getirdiği", "Haber gövdelerinde iddianın nasıl atfedildiği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "mahkemenin çalışmasını engelledikleri gerekçesiyle 1 ay süreliğine açığa alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Polonya polisinden Anayasa Mahkemesi'ne baskın", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bir kurum açığa alma gerekçesini verirken diğer başlık yalnızca 'baskın' olgusunu öne çıkarıyor; gerekçe düzleşiyor.",
+ "alternative_explanation": "Kısa başlıklar doğası gereği ayrıntı eler; gerekçe haber gövdesinde verilmiş olabilir.",
+ "missing_context": ["ahaber haberinin tam metni", "Eksiltmenin okurun sonucuna etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Polonya'da siyasi kaos! Nawrocki'nin Anayasa Mahkemesi'ne girişinde arbede", "kind": "behavioral"},
+  {"source": "text", "quote": "Polonya'da Anayasa Mahkemesi krizi: Neler oldu?", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Arbede gibi canlı bir ayrıntı bazı başlıklarda öne çıkıyor, diğerleri açıklayıcı tonda kalıyor; ağırlığın haksız olduğu gösterilmiyor.",
+ "alternative_explanation": "Arbede gerçekten yaşanmış ve haber değeri taşıyan yeni bir gelişmedir; saat farkı başlık içeriğini açıklayabilir.",
+ "missing_context": ["Arbedenin olaydaki önemine dair bağımsız kaynak", "Kurumların başlık güncelleme geçmişi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Polonya'da anayasa krizi patladı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz sözcükler var, ancak olumlu ve olumsuz bilgilerin karşılaştırmalı ağırlıklandırıldığına dair kanıt yok.",
+ "alternative_explanation": "Olayın kendisi bir kriz; olumsuz dil olayın niteliğiyle orantılı olabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilginin varlığı", "Kurumların benzer olaylardaki dili"]}
+]}

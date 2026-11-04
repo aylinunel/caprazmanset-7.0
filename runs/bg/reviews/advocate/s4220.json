@@ -1,0 +1,16 @@
+{"role": "advocate", "assessments": [
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Dünya Kupası'nda rakiplerimiz belli oluyor", "kind": "behavioral"},
+  {"source": "text", "quote": "İşte 2027 FIVB Kadınlar Voleybol Dünya Kupası'ndaki rakiplerimiz", "kind": "behavioral"},
+  {"source": "text", "quote": "İşte ay-yıldızlıların grubu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar milli takımı 'rakiplerimiz' gibi birinci çoğul şahısla sunuyor; bu bir grup aidiyeti dili, ancak bir değerlendirmenin bu aidiyetle çarpıtıldığı gösterilmiyor.",
+ "alternative_explanation": "Milli takım haberlerinde birinci çoğul şahıs yaygın bir spor dili kalıbıdır ve kura bilgisini değiştirmez.",
+ "missing_context": ["Rakiplerin ya da takımın değerlendirildiği bir yargı", "Gruplar arası farklı standart kanıtı"]}
+]}

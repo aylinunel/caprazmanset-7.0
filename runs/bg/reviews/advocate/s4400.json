@@ -1,0 +1,16 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[cumhuriyet · 11:10] Fon soruşturması: Altınbaş Holding sahibi Nusret Altınbaş tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "tutuklama talebiyle nöbetçi sulh ceza hakimliğine sevk edildi", "kind": "statement"},
+  {"source": "text", "quote": "[aksam · 17:28] Fon soruşturması... Nusret Altınbaş hakkında tutuklama talebi", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 21:25] Fon soruşturmasında Nusret Altınbaş ve Erman Çete tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon Soruşturmasında Polise Teslim Olan Nusret Altınbaş Tutuklandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Cumhuriyet 11:10'da 'tutuklandı' derken Star 12:49'da sevk aşamasını aktarıyor; bazı kurumlar 'talep', bazıları 'tutuklandı' diyor; NTV ikinci bir ismi ekliyor, diğerleri düşürüyor.",
+ "alternative_explanation": "Zaman damgaları güncelleme saatini yansıtıyor olabilir; farklılık haber akışının aşamalarından kaynaklanabilir.",
+ "missing_context": ["Mahkeme kararının saati", "Başlıkların ilk yayın ve güncelleme zamanları", "Erman Çete hakkındaki kararın diğer kurumlarda yer alıp almadığı"]}
+]}

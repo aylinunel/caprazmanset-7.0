@@ -1,0 +1,16 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fon soruşturması: Altınbaş Holding sahibi Nusret Altınbaş tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "tutuklama talebiyle nöbetçi sulh ceza hakimliğine sevk edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasında Nusret Altınbaş ve Erman Çete tutuklandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar aynı süreci farklı aşamalarda veriyor; biri ikinci tutuklamayı ekliyor, diğerleri yalnızca Altınbaş'ı anıyor.",
+ "alternative_explanation": "Farklılıklar yayın saatinden ve sürecin ilerleyişinden kaynaklanıyor; erken başlıklar sonradan güncellenmiş olabilir.",
+ "missing_context": ["Tutuklama kararının kesin saati", "Başlıkların güncellenme geçmişi", "Erman Çete'nin tutuklanmasının diğer kurumlarda yer alıp almadığı"]}
+]}

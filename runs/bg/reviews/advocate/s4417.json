@@ -1,0 +1,32 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "O ilimizde dört bin yıllık pati izi bulundu...", "kind": "behavioral"},
+  {"source": "text", "quote": "Tavşanlı Höyük kazılarında şaşırtan pati izleri", "kind": "behavioral"},
+  {"source": "text", "quote": "Arkeologları şaşırtan keşif: Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu", "kind": "behavioral"},
+  {"source": "text", "quote": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]}
+ ],
+ "mechanism": "Bazı kurumlar 'şaşırtan' ve merak uyandıran ifadeleri öne çıkarırken AA aynı bulguyu yalın veriyor; dikkat çekici ögeye ağırlık verildiği görülüyor.",
+ "alternative_explanation": "Arkeolojik keşif haberlerinde ilgi çekici başlık kullanımı olağan editoryal tercih olup bir yargıyı çarpıtmayabilir.",
+ "missing_context": ["Başlığın okur yargısını ya da bir kararı etkilediğine dair veri yok", "Haber gövdelerinin tam metni"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu", "kind": "behavioral"},
+  {"source": "text", "quote": "O ilimizde dört bin yıllık pati izi bulundu...", "kind": "behavioral"},
+  {"source": "text", "quote": "[haberturk · 12:40] 4 bin yıllık pati izi bulundu", "kind": "behavioral"},
+  {"source": "text", "quote": "Yangında yıkılan yapının kerpicinde korunmuş", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "AA başlığı ('yaklaşık', yer adı) taban alındığında bazı başlıklar yer bilgisini ve 'yaklaşık' nitelemesini düşürüyor (düzleştirme); bazıları yangın/kerpiç ayrıntısını öne çıkarıyor (keskinleştirme).",
+ "alternative_explanation": "Başlık uzunluk sınırları ve tıklama odaklı kısaltma; ayrıntılar haber gövdesinde verilmiş olabilir.",
+ "missing_context": ["Farkın maddi olduğuna ve bir sonuca etki ettiğine dair kanıt yok", "Haber gövdeleri ve kaynak açıklaması"]}
+]}

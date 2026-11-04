@@ -1,0 +1,80 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kayyım yönetimindeki Esenyurt Belediyesi'ne yolsuzluk iddiasıyla düzenlenen operasyonda 17 kişi gözaltına alındı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Esenyurt Belediyesi'ne rüşvet soruşturması: 17 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "kayyum idaresindeki Esenyurt Belediyesi'ne yönelik yürüttüğü yolsuzluk soruşturmasında düğmeye bastı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı olgu (17 gözaltı) bazı kurumlarda 'kayyım yönetimi' vurgusuyla, bazılarında yalnızca rüşvet soruşturması olarak sunuluyor; bu çerçevenin bir değerlendirmeye bağlandığı metinde açık değil.",
+ "alternative_explanation": "Kayyım bilgisi olgusal bir arka plan bilgisidir ve hem sol hem sağ yerleşimli kurumlarda (milligazete, karar) yer alıyor; editoryal tercih farkı olabilir.",
+ "missing_context": ["Haberlerin tam metni", "Kayyım vurgusunun bir yargı ya da tavsiyeye bağlanıp bağlanmadığı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Esenyurt Belediyesi'ne yolsuzluk operasyonu: Başkan yardımcısı dahil 17 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "Esenyurt Belediyesi'ne yolsuzluk operasyonu! Gözaltı listesi ahaber.com.tr'de", "kind": "behavioral"},
+  {"source": "text", "quote": "Esenyurt Belediyesi'ne operasyon: 17 gözaltı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 2]}
+ ],
+ "mechanism": "Bazı başlıklar başkan yardımcısı ya da gözaltı listesi gibi dikkat çekici ayrıntıları öne çıkarıyor; bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Rütbeli bir yetkilinin gözaltısı haber değeri taşıyan meşru bir ayrıntıdır.",
+ "missing_context": ["Okur ya da editör yargısına dair açık ifade", "Daha az göze çarpan bilgilerin nasıl ele alındığı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "19 şüpheli hakkında gözaltı kararı verdi. 17 şüpheli gözaltına alındı.", "kind": "statement"},
+  {"source": "text", "quote": "gözaltına alınan 19 şüpheliden 9'u tutuklandı, 10 şüpheli adli kontrol tedbiriyle serbest bırakıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "Esenyurt Belediyesi'ne 'ihale' operasyonu! Çok sayıda gözaltı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ortak savcılık metni (19 karar, 17 gözaltı) taban alındığında ntv '19 şüpheliden' diyerek sayıyı farklılaştırıyor, mynet sayıyı 'çok sayıda' ile bulanıklaştırıyor.",
+ "alternative_explanation": "ntv farklı bir aşamayı (tutuklama kararı) aktarıyor olabilir; 'çok sayıda' ise erken saatte bilgi eksikliğinden kaynaklanabilir.",
+ "missing_context": ["Tutuklama aşamasına ait resmi açıklama", "Farkın bir sonuca etki edip etmediği"]},
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İzmir'de Bayraklı Belediyesi'ne operasyon: 48 gözaltı", "kind": "statement"},
+  {"source": "text", "quote": "Çeşme Belediyesi'nde usulsüzlük operasyonu: Başkan Yardımcısı ve İmar Müdürü gözaltında", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kümede farklı belediyelere ait haberler var; ancak hiçbir metin bir bilgiyi yanlış kaynağa atfetmiyor.",
+ "alternative_explanation": "Farklı operasyonlar otomatik kümeleme sırasında aynı olaya bağlanmış olabilir; bu kurum hatası değildir.",
+ "missing_context": ["Hatırlanan bir bilgi ve atfedilen kaynağı", "Kaynak uyuşmazlığını gösteren kayıt"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "CHP Bayraklı İlçe Başkanı Didem Gültekin'in de bulunduğu", "kind": "statement"},
+  {"source": "text", "quote": "Kayyım yönetimindeki Esenyurt Belediyesi'ne şafak operasyonu düzenlendi.", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Parti üyeliği ve kayyım bilgisi geçiyor, ancak bir değerlendirmenin grup üyeliğine göre farklılaştığı gösterilmiyor.",
+ "alternative_explanation": "Parti ve yönetim bilgisi olgusal kimlik bilgisidir.",
+ "missing_context": ["Grup üyeliğine bağlı farklı muamele ya da değerlendirme"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde kimsenin iç durumunun başkalarınca anlaşılabileceğine dair bir inanç atfı yok.",
+ "alternative_explanation": "Haberler olgusal operasyon bildirimleridir.",
+ "missing_context": ["Bir kişinin iç durumuna ve izleyici algısına dair ifade"]}
+]}

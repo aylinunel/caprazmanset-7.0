@@ -1,0 +1,57 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[aksam · 20:18] AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "[aa · 08:10] Akdeniz'de 5,1 büyüklüğünde deprem", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Akşam 'korkutan' nitelemesiyle duygusal vurgu ekliyor; diğerleri büyüklüğü nötr veriyor. Ancak bu vurgunun bir yargıyı haksız biçimde yönlendirdiği metinde görünmüyor.",
+ "alternative_explanation": "Başlıkta dikkat çekici sıfat kullanımı olağan bir editoryal üslup olabilir; okurun hissettiği sarsıntıyı yansıtıyor olabilir.",
+ "missing_context": ["Depremin karada hissedilip hissedilmediği", "Akşam'ın benzer büyüklükteki diğer depremleri nasıl başlıklandırdığı"]},
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[trthaber · 20:11] Akdeniz'de 5,1 büyüklüğünde deprem", "kind": "statement"},
+  {"source": "text", "quote": "[haberturk · 20:04] Muğla açıklarında 5,1 büyüklüğünde deprem", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Konum 'Akdeniz' ya da 'Muğla açıkları' olarak farklı sunuluyor, fakat metin bu sunuma bağlı bir tercih veya karar içermiyor.",
+ "alternative_explanation": "Farklı coğrafi referanslar AFAD duyurusunun farklı özetlenmesinden kaynaklanabilir.",
+ "missing_context": ["Okur ya da karar verici tepkisine dair herhangi bir veri"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Muğla açıklarında korkutan deprem", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz sıfat var ama karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık veya karar etkisi gösterilmiyor.",
+ "alternative_explanation": "Deprem haberi doğası gereği olumsuz bir olaydır; olumsuz ton orantılı olabilir.",
+ "missing_context": ["Hasar/yaralı olmadığına dair bilgi verilip verilmediği", "Karşılaştırmalı olumlu bilgi"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi", "kind": "statement"},
+  {"source": "text", "quote": "[birgun · 20:08] AFAD duyurdu: Datça açıklarında 5,1 büyüklüğünde deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "[trthaber · 20:11] Akdeniz'de 5,1 büyüklüğünde deprem", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Star'ın özetinde merkez üssü Datça'ya 253 km; bazı başlıklar 'Datça açıklarında' diyerek yakınlığı keskinleştiriyor, bazıları 'Akdeniz' diyor. Bu farkın bir sonucu etkilediği gösterilmiyor.",
+ "alternative_explanation": "'Açıklarında' ifadesi AFAD'ın en yakın yerleşim referansını kullanma alışkanlığından gelebilir; kasıt veya maddi çarpıtma çıkarılamaz.",
+ "missing_context": ["AFAD'ın özgün duyuru metni", "Okurların risk algısının değişip değişmediği"]},
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[cumhuriyet · 17:19] Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!", "kind": "statement"},
+  {"source": "text", "quote": "Akdeniz'de Yunanistan'ın Girit Adası açıklarında 3.8 büyüklüğünde deprem meydana geldi.", "kind": "statement"},
+  {"source": "text", "quote": "[milliyet · 18:50] Kolombiya'da 5,4 büyüklüğünde deprem", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı satırlar farklı depremlere (Ege, Girit 3.8, Kolombiya) ait görünüyor; bu bir hafıza-kaynak hatası değil, olay kümeleme karışıklığı olabilir.",
+ "alternative_explanation": "Kümeleme algoritması farklı tarih ve yerdeki deprem haberlerini aynı olaya bağlamış olabilir; yayıncı hatası yok.",
+ "missing_context": ["Her satırın yayın tarihi", "Cumhuriyet ve Hürriyet haberlerinin hangi depreme ait olduğu"]}
+]}

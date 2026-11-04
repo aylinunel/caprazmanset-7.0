@@ -1,0 +1,60 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi", "kind": "statement"},
+  {"source": "text", "quote": "Muğla açıklarında 5.1 büyüklüğünde deprem", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 2]}],
+ "mechanism": "Bazı başlıklar depremi 'Muğla açıklarında' ve 'korkutan' olarak öne çıkarırken merkez üssünün Datça'ya 253 km uzakta olduğu metinde geçiyor; yakınlık ve duygusal vurgu dikkat çekici kılınmış olabilir.",
+ "alternative_explanation": "Muğla en yakın Türk yerleşimi olarak standart coğrafi referans; 'korkutan' ifadesi hissedilen sarsıntıyı aktaran olağan haber dili olabilir.",
+ "missing_context": ["Depremin Muğla'da hissedilip hissedilmediği", "Okur yargısına etkisini gösteren veri", "Kurumların coğrafi referans kuralları"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Akdeniz'de 5,1 büyüklüğünde deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "Muğla açıklarında 5.1 büyüklüğünde deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı deprem 'Akdeniz'de' ve 'Muğla açıklarında' gibi farklı referans noktalarıyla sunulmuş; ancak bir tercihin bu sunuma bağlandığı metinde yok.",
+ "alternative_explanation": "Farklı coğrafi referanslar editoryal alışkanlık veya AFAD bildiriminin farklı okunması olabilir.",
+ "missing_context": ["Sunum farkına bağlı bir yargı veya karar", "Okur algısına ilişkin karşılaştırmalı veri"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Tek bir kurum büyüklük yerine 'korkutan' nitelemesini başlığa taşımış; olumsuz duygu vurgusu var ama karşılaştırmalı ağırlıklandırma kanıtı yok.",
+ "alternative_explanation": "Hasar raporu olmasa da sarsıntının hissedilmesi korku ifadesini haklı kılabilir.",
+ "missing_context": ["Hasar/yaralanma bilgisi", "Eşdeğer olumlu bilginin (hasar yok) nasıl verildiği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!", "kind": "behavioral"},
+  {"source": "text", "quote": "Akdeniz'de 5,1 büyüklüğünde deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Diğer başlıklarla karşılaştırıldığında bazı başlıklar büyüklüğü düşürmüş (düzleştirme) ya da 'korkutan' gibi detayı büyütmüş (keskinleştirme); bir başlık konumu Ege olarak vermiş.",
+ "alternative_explanation": "Başlık uzunluk sınırları ve farklı zamanlarda yayımlanan ilk bilgiler farkları açıklayabilir; Ege başlığı ayrı bir depreme ait olabilir.",
+ "missing_context": ["Cumhuriyet haberinin aynı depreme ait olup olmadığı", "Farkın bir sonucu etkilediğine dair kanıt"]},
+{"card_id": "source-confusion", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!", "kind": "statement"},
+  {"source": "text", "quote": "Akdeniz açıklarında 3.8 büyüklüğünde deprem", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir başlık bilgiyi AFAD'a atfederek 'Ege Denizi' derken olay tanımı Akdeniz diyor; ayrıca farklı büyüklükte bir deprem aynı kümede yer alıyor.",
+ "alternative_explanation": "Bunlar bellek kaynağı hatası değil, farklı depremlerin aynı olay kümesine alınması olabilir.",
+ "missing_context": ["AFAD'ın ilgili saatteki bildirimleri", "Haberlerin aynı depreme ait olup olmadığı", "Açık bir düzeltme kaydı"]}
+]}

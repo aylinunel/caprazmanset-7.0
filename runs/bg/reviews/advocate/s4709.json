@@ -1,0 +1,49 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Polonya karıştı: Darbe girişimi iddiası...", "kind": "statement"},
+  {"source": "text", "quote": "[ahaber · 01:30] Polonya polisinden Anayasa Mahkemesi'ne baskın", "kind": "behavioral"},
+  {"source": "text", "quote": "Anayasa Mahkemesi önünde polis, hükümete 'darbe' suçlaması", "kind": "behavioral"},
+  {"source": "text", "quote": "[haberturk · 09:56] Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olay 'baskın', 'abluka', 'darbe suçlaması' gibi farklı çerçevelerle sunuluyor; ancak eşdeğerlik ve çerçeveye dayalı bir tercih metinde açıkça kurulmuyor.",
+ "alternative_explanation": "Farklı ifadeler, olayın farklı aşamalarını veya tarafların iddialarını aktarmaktan kaynaklanabilir.",
+ "missing_context": ["Olayın doğrulanmış kronolojisi", "Okuyucu değerlendirmesinin ifadeyle değiştiğini gösteren veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Polonya'da Başbakan Tusk'ın hükümeti ile eski iktidar partisi PiS arasında yıllardır devam eden yargı mücadelesi", "kind": "statement"},
+  {"source": "text", "quote": "[ahaber · 01:30] Polonya polisinden Anayasa Mahkemesi'ne baskın", "kind": "behavioral"},
+  {"source": "text", "quote": "mahkemenin çalışmasını engelledikleri gerekçesiyle 1 ay süreliğine açığa alındı", "kind": "statement"},
+  {"source": "text", "quote": "[mynet · 00:02] Polonya'da hareketli saatler: Anayasa Mahkemesi Başkanı ve yardımcısı görevden alındı!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar arka plandaki yargı mücadelesini ve açığa alma gerekçesini verirken, bazı başlıklar yalnızca polis 'baskını'nı keskinleştiriyor; 'açığa alındı' ile 'görevden alındı' arasında da fark var.",
+ "alternative_explanation": "Başlık uzunluğu sınırı ve son dakika akışı ayrıntı düşürmeyi açıklayabilir; haber gövdeleri bağlamı verebilir.",
+ "missing_context": ["Haber gövdelerinin tam metni", "Resmî açıklamalar", "Farkın okur sonucuna etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Polonya'da siyasi kaos! Nawrocki'nin Anayasa Mahkemesi'ne girişinde arbede", "kind": "statement"},
+  {"source": "text", "quote": "Polonya'da Anayasa Mahkemesi önünde arbede!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Arbede' ve 'kaos' gibi çarpıcı ayrıntılar başlıkta öne çıkıyor; bunun bir yargıyı haksız biçimde belirlediği gösterilmiyor.",
+ "alternative_explanation": "Arbede olayın gerçek ve haber değeri yüksek bir unsuru olabilir.",
+ "missing_context": ["Arbedenin olaydaki ağırlığına dair bilgi", "Karşılaştırmalı okuyucu etkisi"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Polonya'da anayasa krizi patladı: Polis Anayasa Mahkemesi'ni kuşattı", "kind": "statement"},
+  {"source": "text", "quote": "[dirilis · 01:44] Polonya’da Anayasa Mahkemesi krizi büyüyor!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Başlıklar krizin olumsuz yönlerini vurguluyor; karşılaştırılabilir olumlu bilginin ihmal edildiğine dair kanıt yok.",
+ "alternative_explanation": "Olayın kendisi bir anayasal kriz olduğundan olumsuz ton orantılı olabilir.",
+ "missing_context": ["Göz ardı edilmiş olumlu/nötr gelişmeler olup olmadığı"]}
+]}

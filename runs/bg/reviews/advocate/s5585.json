@@ -1,0 +1,41 @@
+{"role": "advocate", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Devlet Bahçeli'ye peş peşe taziye ziyaretleri!", "kind": "statement"},
+  {"source": "text", "quote": "Kız kardeşi Osmaniye’de toprağa verildi!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı başlıklar ünlem ve duygusal ayrıntıyla (cenaze, peş peşe ziyaret) olayı öne çıkarıyor; ancak bu öne çıkarmanın bir yargıyı haksız biçimde yönlendirdiği metinde gösterilmiyor.",
+ "alternative_explanation": "Ünlem ve ek ayrıntı, olağan haber dili ve okuyucuya bilgi verme amacıyla kullanılmış olabilir.",
+ "missing_context": ["Başlıkların okuyucu yargısına etkisini gösteren karşılaştırmalı veri", "Haberlerin tam metni"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "AK Parti, CHP ve Yeni Parti'den Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, Yeni Parti Genel Başkanı Özgür Özel ve AK Parti Grup Başkanı Abdullah Güler", "kind": "statement"},
+  {"source": "text", "quote": "[birgun · 13:38] Özgür Özel'den Bahçeli'ye taziye ziyareti", "kind": "behavioral"},
+  {"source": "text", "quote": "[sozcu · 13:42] Özgür Özel’den Devlet Bahçeli’ye taziye ziyareti", "kind": "behavioral"},
+  {"source": "text", "quote": "[sabah · 13:18] Son dakika… Kılıçdaroğlu'ndan MHP lideri Devlet Bahçeli'ye taziye ziyareti", "kind": "behavioral"},
+  {"source": "text", "quote": "[aksam · 14:00] AK Parti'den MHP Genel Başkanı Bahçeli'ye taziye ziyareti", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3, 4]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Üç partiden ziyaret aktaran başlığa kıyasla bazı kurumlar başlıkta yalnızca tek bir ziyaretçiyi (Özel, Kılıçdaroğlu ya da AK Parti) öne çıkarıp diğerlerini düşürüyor.",
+ "alternative_explanation": "Ziyaretler farklı saatlerde gerçekleşmiş olabilir; kurumlar kendi yayın anındaki ziyareti ya da ayrı haberler halinde vermiş olabilir.",
+ "missing_context": ["Ziyaretlerin gerçek saatleri", "Kurumların diğer ziyaretleri ayrı haberde verip vermediği", "Haber gövdeleri"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "CHP Genel Başkanı Kemal Kılıçdaroğlu, Yeni Parti Genel Başkanı Özgür Özel ve AK Parti Grup Başkanı Abdullah Güler", "kind": "statement"},
+  {"source": "context", "quote": "birgun: sol (16)", "kind": "statement"},
+  {"source": "text", "quote": "[birgun · 13:38] Özgür Özel'den Bahçeli'ye taziye ziyareti", "kind": "behavioral"},
+  {"source": "text", "quote": "[yenisafak · 13:23] Kemal Kılıçdaroğlu'ndan Devlet Bahçeli'ye taziye ziyareti", "kind": "behavioral"},
+  {"source": "context", "quote": "yenisafak: sağ (82)", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 4]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [2, 3]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Sol yerleşimli bazı kurumlar başlıkta Özel'i, sağ yerleşimli bazı kurumlar Kılıçdaroğlu'nu öne çıkarıyor; seçimin grup üyeliğiyle bağlantısı metinde açıkça kurulmuyor.",
+ "alternative_explanation": "Başlık seçimi yayın saati, haber değeri veya ayrı haber akışlarıyla açıklanabilir.",
+ "missing_context": ["Kurumların seçim gerekçesi", "Aynı kurumların benzer olaylardaki başlık tercihleri"]}
+]}

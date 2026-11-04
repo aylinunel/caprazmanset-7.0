@@ -1,0 +1,54 @@
+{"role": "advocate", "assessments": [
+{"card_id": "accountability-diffusion-in-ai", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde yapay zekâ etkili bir karar veya sorumluluk dağılımı yok; spor şampiyonluğu haberi.",
+ "alternative_explanation": "Olay kartın kapsamı dışında.",
+ "missing_context": ["Yapay zekâ destekli bir karar ve rol kayıtları"]},
+{"card_id": "action-bias", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Eylem ile beklemek arasında tarif edilmiş bir seçim yok.",
+ "alternative_explanation": "Haber yalnızca bir yarış sonucunu aktarıyor.",
+ "missing_context": ["Eylem/eylemsizlik karşılaştırması"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Tarihi zafer! Şampiyon Kimi Antonelli", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Coşkulu dil var, ancak bir duygunun risk/fayda tahminine bağlandığı bir ifade yok.",
+ "alternative_explanation": "Spor haberlerinde olağan coşkulu üslup.",
+ "missing_context": ["Duygu ile bir karar/tahmin arasındaki açık bağ"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yapay zekâ destekli bir görev veya çıktıya dayanma kararı yok.",
+ "alternative_explanation": "Olay kartın kapsamı dışında.",
+ "missing_context": ["Yapay zekâ kullanımına ilişkin görev kaydı"]},
+{"card_id": "ambiguity-effect", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bilinen ve bilinmeyen olasılıklı seçenekler arasında bir tercih yok.",
+ "alternative_explanation": "Haber kesinleşmiş bir sonucu aktarıyor.",
+ "missing_context": ["Karşılaştırılabilir seçenekler ve karar gerekçesi"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Kimi Antonelli şampiyon! 20 yaşında tarih yazdı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Sonraki bir tahmini etkileyen başlangıç değeri yok; yaş bilgisi olgusal.",
+ "alternative_explanation": "Rekor bilgisi doğrudan haberin konusu.",
+ "missing_context": ["Bir referans değere bağlanan sonraki yargı"]}
+]}

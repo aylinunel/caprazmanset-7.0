@@ -1,0 +1,56 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "context", "quote": "Olay: Galatasaray'da Metin Öztürk istifa etti", "kind": "statement"},
+  {"source": "text", "quote": "Galatasaray'da deprem: İkinci Başkan Metin Öztürk şok iddialarla istifa etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Galatasaray yönetiminde kriz: Metin Öztürk'ten istifa kararı", "kind": "behavioral"},
+  {"source": "text", "quote": "Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı istifa 'deprem', 'kriz' gibi dramatik çerçevelerle ya da yalın olgu olarak verilmiş.",
+ "alternative_explanation": "Spor basınında dramatik üslup olağandır; istifa gerekçesi gerçekten çatışmalı olabilir.",
+ "missing_context": ["Çerçeveye bağlı bir yargıyı gösteren açık ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Galatasaray İkinci Başkanı Metin Öztürk İstifa Etti: \"Ölmüş Anneme Hakareti Kabul Edemem\"", "kind": "behavioral"},
+  {"source": "text", "quote": "Galatasaray'da şok istifa! İkinci başkan Metin Öztürk: Terbiyem el vermez", "kind": "behavioral"},
+  {"source": "text", "quote": "Galatasaray’da İkinci Başkan Metin Öztürk istifa etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [0, 1, 2]}
+ ],
+ "mechanism": "Bazı kurumlar duygusal açıdan çarpıcı alıntıları başlığa taşımış, diğerleri yalnızca istifayı vermiş.",
+ "alternative_explanation": "Alıntılar istifanın açıklanan gerekçesidir ve olgusal olabilir.",
+ "missing_context": ["Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "fiili saldırı ve annesine yönelik hakaretin ardından kulüpteki ve bağlı şirketlerdeki yönetim kurulu üyeliklerinden istifa etti", "kind": "statement"},
+  {"source": "text", "quote": "Toplantıdaki olaylar bardağı taşırdı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Galatasaray'da Metin Öztürk istifa etti! Saldırı iddiası", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": [1, 2]}
+ ],
+ "mechanism": "Ayrıntılı anlatıma göre bazı başlıklar gerekçeyi belirsizleştirmiş, bazıları saldırı unsurunu keskinleştirmiş.",
+ "alternative_explanation": "Başlık kısalığından kaynaklanan olağan özetleme farkı olabilir.",
+ "missing_context": ["Öztürk'ün açıklamasının tam metni", "Farkın bir sonuca etkisi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Galatasaray'da sular durulmuyor! Abdullah Kavukcu da istifa etti", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz ton var; ancak karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık ve karar etkisi gösterilmemiş.",
+ "alternative_explanation": "Art arda istifalar olumsuz tonu orantılı kılabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu kanıt", "Karar etkisini gösteren kanıt"]}
+]}

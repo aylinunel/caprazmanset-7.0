@@ -1,0 +1,42 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 6 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Merkezefendi soruşturması. 5 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Tutuklu sayısı bir kurumda 6, diğerlerinde 5; parti bilgisi yalnızca bir başlıkta yer alıyor.",
+ "alternative_explanation": "Sayı farkı ilk saatlerdeki bilgi belirsizliğinden, parti bilgisinin eksikliği ise başlık kısalığından kaynaklanabilir.",
+ "missing_context": ["Resmi tutuklu sayısı", "Diğer kurumların haber gövdesinde parti bilgisini verip vermediği"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Merkezefendi Belediye Başkanı Doğan tutuklandı, oğlu Reşat Çınar'ı emanet etti", "kind": "behavioral"},
+  {"source": "text", "quote": "Merkezefendi'de rüşvet soruşturması! Başkan ve eşi dahil beş kişi tutuklandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bir başlık duygusal bir kişisel ayrıntıyı öne çıkarıyor; ancak bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Kişisel ayrıntı yeni bir bilgi olarak haber değeri taşıyabilir; suçlama içeriği başka başlıklarda zaten veriliyor.",
+ "missing_context": ["Haber gövdesinde suçlama ayrıntılarının yer alıp almadığı", "Ayrıntının kaynağı"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı", "kind": "behavioral"},
+  {"source": "context", "quote": "Olayı vermeyen etkin kurumlar: ahaber, akit, aydinlik, hurriyet, takvim, yenisafak", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Başkanın partisi bir başlıkta belirtiliyor ve bazı kurumlar olayı vermiyor; ancak farklı muamelenin grup üyeliğine bağlandığı açık değil.",
+ "alternative_explanation": "Haber vermeme yerel haber önceliği veya zamanlama ile açıklanabilir; parti etiketi bilgilendirme amaçlı olabilir.",
+ "missing_context": ["Aynı kurumların farklı partili belediye başkanlarının tutuklanmasını nasıl verdiği", "Haber vermeyen kurumların sonradan yayın yapıp yapmadığı"]}
+]}

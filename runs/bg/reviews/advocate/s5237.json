@@ -1,0 +1,47 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe tribün liderine silahlı eylem hazırlığı iddiasıyla 5 şüpheli yakalandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast planı! 5 şüpheli yakalandı", "kind": "behavioral"},
+  {"source": "context", "quote": "Daltonlar üyesi 5 kişi yakalandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olgu 'iddiasıyla' ve 'silahlı eylem hazırlığı' gibi temkinli ifadelerle ya da 'suikast planı' gibi kesin ve dramatik ifadelerle çerçevelenmiş.",
+ "alternative_explanation": "Kurumların farklı kaynak (emniyet açıklaması, yerel muhabir) kullanması ve başlık üslubu.",
+ "missing_context": ["Resmi açıklamanın tam metni", "Okur yargısının çerçeveyle değiştiğine dair kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fenerbahçe tribün liderine silahlı eylem hazırlığı iddiasıyla 5 şüpheli yakalandı", "kind": "behavioral"},
+  {"source": "text", "quote": "'Daltonlar'dan Fenerbahçe tribün liderine suikast girişimi", "kind": "behavioral"},
+  {"source": "text", "quote": "Cem Gölbaşı'na saldırı hazırlığı iddiası: 4 şüpheli yakalandı", "kind": "behavioral"},
+  {"source": "context", "quote": "Daltonlar üyesi 5 kişi yakalandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": []}],
+ "mechanism": "İlk haberdeki 'hazırlık iddiası', Habertürk'ün ertesi sabahki başlığında 'suikast girişimi'ne dönüşmüş (keskinleştirme); 'iddia' kaydı bazı başlıklarda düşmüş, şüpheli sayısı 4 ile 5 arasında değişmiş.",
+ "alternative_explanation": "Sonradan gelen ek bilgi veya farklı operasyon aşamalarının (4 gözaltı + 1 ayrı) raporlanması.",
+ "missing_context": ["'Girişim' ifadesinin dayandığı yeni bilgi olup olmadığı", "4 ve 5 sayılarının kaynağı", "Farkın bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Hücre evine operasyon: Uzun namlulu silah, 200 fişek", "kind": "behavioral"},
+  {"source": "text", "quote": "Cem Gölbaşı'na saldırı hazırlığında olan 4 kişi yakalandı! Silahlar ele geçirildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Bazı başlıklar silah ve fişek gibi canlı ayrıntıları öne çıkararak olayı daha çarpıcı sunuyor.",
+ "alternative_explanation": "Ele geçirilen silahlar olgusal ve habere değer bilgidir; vurgu orantılı olabilir.",
+ "missing_context": ["Canlı ayrıntının bir sıklık/risk çıkarımına dönüştüğüne dair ifade", "Karşılaştırmalı okur tepkisi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı'na suikast hazırlığı!", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz ve tehditkâr dil mevcut, ancak karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık verildiğini gösteren bir kanıt yok.",
+ "alternative_explanation": "Suç haberinin doğası gereği olumsuz içerik; olumlu karşı kanıt bulunmayabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgi", "Bir karar veya değerlendirmeye etkisi"]}
+]}

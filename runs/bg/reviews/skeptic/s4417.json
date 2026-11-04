@@ -1,0 +1,24 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Tavşanlı Höyük kazılarında şaşırtan pati izleri", "kind": "statement"},
+  {"source": "text", "quote": "Arkeologları şaşırtan keşif: Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı başlıklar 'şaşırtan' gibi dikkat çekici sıfatlar kullanıyor; ancak bunun bir yargı ya da seçimi haksız biçimde yönlendirdiğine dair metinde ifade yok.",
+ "alternative_explanation": "Arkeolojik keşif haberlerinde ilgi çekici dil olağan bir editoryal tercihtir; olgusal içerik kurumlar arasında tutarlı.",
+ "missing_context": ["Kazı ekibinin resmi açıklaması", "Başlıkların okur yargısına etkisini gösteren veri"]},
+{"card_id": "leveling-and-sharpening", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu", "kind": "behavioral"},
+  {"source": "text", "quote": "[haberturk · 12:40] 4 bin yıllık pati izi bulundu", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "contradicted", "evidence_indices": [0, 1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar 'yaklaşık' niteleyicisini düşürüyor; fark küçük ve sonucu değiştirmiyor.",
+ "alternative_explanation": "Başlık kısalığı nedeniyle niteleyicinin atılması olağan bir özetleme tercihidir, maddi bir çarpıtma değildir.",
+ "missing_context": ["Kaynak AA haberinin tam metni", "Tarihlemenin kesinlik aralığı"]}
+]}

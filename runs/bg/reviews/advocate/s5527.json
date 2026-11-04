@@ -1,0 +1,68 @@
+{"role": "advocate", "assessments": [
+{"card_id": "automation-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yasa dışı bahis çetesini AVCI yakaladı!", "kind": "statement"},
+  {"source": "text", "quote": "Yapay zeka destekli AVCI projesiyle 39 ilde yasa dışı bahis operasyonu! 151 şüpheli yakalandı", "kind": "behavioral"},
+  {"source": "text", "quote": "39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "TGRT yakalamayı doğrudan AVCI sistemine atfediyor; A Haber yapay zekâ desteğini başlığa taşırken Sözcü aynı olayı sistemi anmadan veriyor.",
+ "alternative_explanation": "Yapay zekâ vurgusu resmi açıklamadaki ifadenin aktarımı olabilir; operasyonu yürüten savcılık ve kolluktur, başlık yalnızca kısaltma.",
+ "missing_context": ["AVCI sisteminin operasyondaki gerçek rolü", "Bağımsız soruşturma adımlarının haber gövdesinde anılıp anılmadığı"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İçişleri Bakanlığı, yapay zekâ destekli AVCI projesinin kullanıldığı operasyonlarda 151 şüphelinin yakalandığını açıkladı.", "kind": "statement"},
+  {"source": "text", "quote": "İçişleri duyurdu: 34 ildeki yasa dışı bahis operasyonunda 100 kişi yakalandı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Haberler İçişleri Bakanlığı açıklamasını tek kaynak olarak aktarıyor; resmi kaynak beyanı doğrulanmadan sunuluyor olabilir.",
+ "alternative_explanation": "Operasyon haberlerinde resmi kurum açıklamasına dayanmak olağan ve uygun kaynak kullanımıdır.",
+ "missing_context": ["Bağımsız doğrulama veya karşıt görüş", "Statünün karşıt kanıtı bastırdığına dair açık ifade"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yapay zeka destekli AVCI ile yasa dışı bahis ağına darbe: 151 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "39 ilde yasa dışı bahis operasyonu: 151 kişi gözaltına alındı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı 151 gözaltı, bir kurumda 'yapay zekâ ile darbe' başarısı, diğerinde nötr operasyon bilgisi olarak sunuluyor.",
+ "alternative_explanation": "Farklı başlık vurguları editoryal tercih; okur yargısının bu sunuma bağlandığı gösterilmiyor.",
+ "missing_context": ["Çerçevelerin karar açısından eşdeğer olduğunun açık tespiti", "Çerçeveye bağlı bir yargı veya tercih"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yapay zeka destekli yasa dışı bahis operasyonu: 151 gözaltı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "TRT Haber çarpıcı 'yapay zekâ' unsurunu öne çıkarıyor; dikkat çekici ayrıntı başlığı belirliyor.",
+ "alternative_explanation": "Yapay zekâ kullanımı haber değeri taşıyan yeni bir bilgi; vurgulanması orantılı olabilir.",
+ "missing_context": ["Belirgin ayrıntının bir yargıya haksız etki ettiğini gösteren açık ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul ve İzmir merkezli yasa dışı bahis operasyonlarında 176 şüpheli yakalandı!", "kind": "behavioral"},
+  {"source": "text", "quote": "GÜNCELLEME - İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 40 zanlı yakalandı", "kind": "behavioral"},
+  {"source": "text", "quote": "İzmir merkezli 17 ilde düzenlenen yasa dışı bahis operasyonunda, haklarında gözaltı kararı bulunan 51 şüpheliden 25'i yakalandı.", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar arası sayılar farklılaşıyor: Diriliş iki operasyonu 176'da birleştiriyor, Habertürk 40, Star 25 yakalama veriyor.",
+ "alternative_explanation": "Farklılıklar güncellenen resmi rakamlardan ve ayrı operasyonların birleştirilmesinden kaynaklanabilir.",
+ "missing_context": ["Resmi açıklamaların zaman sıralı metni", "Farkın bir sonuca yol açtığına dair kanıt"]}
+]}

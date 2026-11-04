@@ -1,0 +1,45 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[haberler · 10:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "[diken · 14:48] Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Sahibi' ve 'ortaklarından' farklı sunumlar; ancak bunlar eşdeğer değil ve metin sunuma dayalı bir tercih göstermiyor.",
+ "alternative_explanation": "Kurumlar farklı ajans metinlerini veya şirket yapısına dair farklı bilgiyi kullanmış olabilir.",
+ "missing_context": ["Güner'in Dünya Gazetesi'ndeki kesin ortaklık/kontrol yapısı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Güner’in sahibi olduğu Dünya Holding’de Bulls Yatırım Holding’in yüzde 20,45, Güner’in ise doğrudan yüzde 10,22 sermaye payı bulunuyor.", "kind": "statement"},
+  {"source": "text", "quote": "[sabah · 23:47] Dünya Gazetesi’nin sahibi gözaltında", "kind": "behavioral"},
+  {"source": "text", "quote": "[sozcu · 10:39] Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Karar'ın özetindeki pay yapısı karşısında bazı başlıklar 'sahibi' diyerek ilişkiyi büyütüyor, bazıları 'ortağı' diyor. Farkın bir sonucu maddi biçimde etkilediği gösterilmiyor.",
+ "alternative_explanation": "Aynı özet 'Güner'in sahibi olduğu Dünya Holding' de diyor; 'sahibi' ifadesi kamuoyunda yerleşik kullanım olabilir.",
+ "missing_context": ["Holding ile gazete arasındaki sahiplik zinciri", "Resmi savcılık açıklaması"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "[akit · 11:47] Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ünlem ve 'sıcak gelişme' vurgusu var; ama bir yargıyı haksız biçimde yönlendirdiğine dair metin yok.",
+ "alternative_explanation": "Son dakika üslubu, olayın haber değerini öne çıkarmak için standart bir tercih olabilir.",
+ "missing_context": ["Soruşturmanın içeriği ve suçlamalar"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığının yürüttüğü fon soruşturması kapsamında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Savcılık kaynak olarak anılıyor; ancak statüsünün karşı kanıtı bastırdığına veya tek dayanak olduğuna dair gerekçe yok.",
+ "alternative_explanation": "Gözaltı haberinde yetkili makamı kaynak göstermek olağan ve yerinde bir pratiktir.",
+ "missing_context": ["Güner tarafının açıklaması", "Suçlamaların dayanağı"]}
+]}

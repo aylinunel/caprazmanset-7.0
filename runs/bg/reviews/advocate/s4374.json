@@ -1,0 +1,50 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "Bolu Belediyesi'ne operasyon: 4 gözaltı", "kind": "behavioral"},
+  {"source": "context", "quote": "Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olgu (4 gözaltı) bazı kurumlarda 'şafak operasyonu' ünlemiyle, bazılarında yalın biçimde sunulmuş; sunum farkı var.",
+ "alternative_explanation": "Başlık üslubu ve kurum yazım alışkanlığı; 'şafak' ifadesi operasyon saatine dair olgusal bilgi olabilir.",
+ "missing_context": ["Okur ya da editör yargısının sunuma bağlı değiştiğine dair kanıt", "Kurumların aynı tür haberlerdeki olağan başlık üslubu"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Başkan Yardımcısı Rasim Özdemir tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Belediye Başkan Yardımcısı Rasim Özdemir’in de aralarında bulunduğu 4 kişi gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Bolu Belediyesi'ne operasyon! Başkan yardımcısı gözaltında", "kind": "behavioral"},
+  {"source": "context", "quote": "Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "satisfied", "evidence_indices": []}],
+ "mechanism": "Takvim 10:29'da gözaltıyı 'tutuklandı' olarak keskinleştirmiş; ahaber gözaltı sayısını düşürüp yalnız başkan yardımcısını öne çıkarmış.",
+ "alternative_explanation": "Hızlı haber akışında hukuki terim karışıklığı veya erken sızan bilgi; sonraki tutuklama haberi bunu kısmen doğrulamış olabilir.",
+ "missing_context": ["Takvim'in 10:29'daki kaynağı", "Tutuklama kararının saati", "Farkın okur yargısını etkilediğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Bolu Belediyesi'ne şafak operasyonu: Başkan Yardımcısı Rasim Özdemir de gözaltına alındı", "kind": "behavioral"},
+  {"source": "text", "quote": "Bolu Belediyesi'ne operasyon! Başkan yardımcısı gözaltında", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Bazı başlıklar diğer gözaltıları geri plana atarak en dikkat çekici kişiyi (başkan yardımcısı) öne çıkarıyor.",
+ "alternative_explanation": "Kıdemli kamu görevlisinin gözaltısı haber değeri açısından meşru biçimde öncelikli olabilir.",
+ "missing_context": ["Belirginliğin bir yargıyı haksız biçimde yönlendirdiğine dair açık ifade", "Diğer gözaltıların kimliği"]},
+{"card_id": "source-confusion", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Başkan Yardımcısı Rasim Özdemir tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Belediye Başkan Yardımcısı dahil dört kişi adliyede", "kind": "behavioral"},
+  {"source": "text", "quote": "Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Takvim'in erken 'tutuklandı' ifadesi, adliyeye sevk aşamasındaki durumu sonraki bir aşamaya atfediyor olabilir.",
+ "alternative_explanation": "Kaynak karışıklığı değil, terim hatası ya da sonradan doğrulanan erken bilgi olabilir.",
+ "missing_context": ["Takvim'in atfettiği kaynak", "Hatanın düzeltilip düzeltilmediği", "Bellek/kaynak hatasına dair açık kayıt"]}
+]}

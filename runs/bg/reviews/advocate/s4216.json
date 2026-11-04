@@ -1,0 +1,14 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Turistik Doğu Ekspresi'nde yeni sezon heyecanı! Biletler yarın satışta", "kind": "behavioral"},
+  {"source": "text", "quote": "Turistik Doğu Ekspresi biletleri satışa çıkıyor", "kind": "behavioral"},
+  {"source": "context", "quote": "Olay: Turistik Doğu Ekspresi biletleri satışa çıkıyor", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı duyuru bazı kurumlarda 'heyecan' vurgusuyla, bazılarında yalın verilmiş; ancak sunuma bağlı bir tercih veya yargı yok.",
+ "alternative_explanation": "Hizmet/turizm haberlerinde olağan olumlu üslup ve arama odaklı başlık kalıpları.",
+ "missing_context": ["Sunum farkının bir karar veya değerlendirmeyi değiştirdiğine dair kanıt"]}
+]}
