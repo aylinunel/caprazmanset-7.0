@@ -1,0 +1,48 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "source-confusion", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Kurtlar Vadisi Pusu dizisinde Kaşif Kozinoğlu'nu canlandıran Sedat Savtak ifadeye çağrıldı", "kind": "behavioral"},
+ {"source": "text", "quote": "Kozinoğlu’ndan esinlenildiği öne sürülen ‘Kazım Kaşifoğlu’ karakterini canlandıran Sedat Savtak", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar karakteri gerçek kişiyle özdeşleştiriyor; ancak bu bir hatırlanan bilginin kaynağının yanlış atfedilmesi değil, editoryal kısaltmadır.",
+ "alternative_explanation": "Karakterin gerçek kişiden esinlendiği iddiası nedeniyle başlıkta kısaltma tercih edilmiş olabilir.",
+ "missing_context": ["Bir bellek kaynağı iddiası ve onu düzelten kayıt", "Yanlış atfın bir iddiayı yönlendirdiğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Kurtlar Vadisi'nde Kozinoğlu canlandırması! Sedat Savtak ifadeye çağrıldı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ünlü dizi bağlantısı başlıklarda öne çıkıyor; bunun bir yargıyı haksız biçimde etkilediği gösterilmiyor.",
+ "alternative_explanation": "Tanığın kamuoyunca tanınan rolü haberin okura anlaşılır kılınması için ilgili bir bağlamdır.",
+ "missing_context": ["İfadenin içeriği", "Soruşturmanın diğer gelişmeleriyle karşılaştırmalı kapsam"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "Kurtlar Vadisi Pusu dizisinde Kaşif Kozinoğlu'nu canlandıran Sedat Savtak ifadeye çağrıldı", "kind": "behavioral"},
+ {"source": "text", "quote": "Kurtlar Vadisi'nde 'Kazım Kaşifoğlu' karakterini canlandıran Sedat Savtak ifade verecek", "kind": "behavioral"},
+ {"source": "text", "quote": "Kaşif Kozinoğlu’nu canlandırmıştı: Sedat Savtak ifade için adliyede", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çoğu kurum karakter adını 'Kazım Kaşifoğlu' olarak verirken bazıları bunu gerçek kişi adına indirgiyor; ayrıntı düzleşmiş, ancak maddi bir sonucu etkilediği gösterilmiyor.",
+ "alternative_explanation": "Başlık kısaltması ve karakterin gerçek kişiden esinlendiği iddiası farkı açıklayabilir.",
+ "missing_context": ["Okur yargısına veya soruşturma algısına etkisi", "Dizi yapımcısının karakterin kaynağına dair açıklaması"]},
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Eşdeğer seçeneklerin farklı sunumuna dayalı bir tercih metinde yok.",
+ "alternative_explanation": "Başlık farkları 'bilgi sahibi'/'tanık' gibi usul terimlerinin farklı aktarımıdır.",
+ "missing_context": ["Sunuma bağlı bir yargı veya karar"]},
+{"card_id": "representativeness-heuristic", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde benzerliğe dayalı bir olasılık, kategori veya nedensellik yargısı yok.",
+ "alternative_explanation": "Oyuncunun 'bilgi sahibi' sıfatıyla çağrılması savcılığın usul kararıdır; haberler bunu aktarıyor.",
+ "missing_context": ["Oyuncunun neden çağrıldığına dair savcılık gerekçesi"]}
+]}

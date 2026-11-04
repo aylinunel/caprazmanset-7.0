@@ -1,0 +1,50 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Fuhuş ve LGBT propagandasına geçit yok! Ailem Güvende operasyonunda 28 şüpheli tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Mersin'de \"Ailem Güvende\" operasyonu: 28 kişi tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "altı LGBTİ+ derneğini de kapsayan", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "ahaber operasyonu değerlendirici bir sloganla, diğerleri nötr tutuklama diliyle sunuyor; çerçevenin okur yargısını değiştirdiği metinde gösterilmiyor.",
+ "alternative_explanation": "Slogan resmi açıklamadaki dili yansıtıyor olabilir; farklar kurum üslubundan kaynaklanabilir.",
+ "missing_context": ["Resmi açıklamanın dili", "Kurumların benzer operasyon haberlerindeki üslubu"]},
+{"card_id": "representativeness-heuristic", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir prototipe benzerliğin olasılık kanıtı olarak kullanıldığı açık bir ifade yok.",
+ "alternative_explanation": "Haberler tutuklama sayılarını aktarıyor.",
+ "missing_context": ["Benzerliğe dayalı açık bir çıkarım"]},
+{"card_id": "illusory-correlation", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "fuhuş ve LGBT derneklerine yönelik çalışmalarda 36 şüpheli gözaltına alındı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "İki konu yan yana anılıyor; aralarında açıkça ileri sürülen bir ilişki yok, yakınlık tek başına yetersiz.",
+ "alternative_explanation": "Operasyonun kapsamı resmi açıklamada bu iki başlığı birlikte içeriyor olabilir.",
+ "missing_context": ["Açık bir ilişki iddiası", "Karşılaştırmalı veri"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Adalet Bakanı Akın Gürlek'in duyurduğu ve 15 ili kapsayan", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bakan duyurunun kaynağı olarak anılıyor; statünün bir iddiayı tek başına doğruladığı gösterilmiyor.",
+ "alternative_explanation": "Kaynak belirtmek olağan habercilik.",
+ "missing_context": ["Bakan açıklamasının içeriği ve karşı görüşler"]},
+{"card_id": "in-group-bias", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metinde grup üyeliğine dayalı farklı muamele açıkça kurulmuyor.",
+ "alternative_explanation": "Haberler adli işlemleri aktarıyor; grup kimliği çıkarımı metinle desteklenmiyor.",
+ "missing_context": ["Grup aidiyetine bağlı açık bir değerlendirme farkı"]}
+]}

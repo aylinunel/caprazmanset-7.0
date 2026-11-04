@@ -1,0 +1,75 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "bölgede henüz can kaybı veya hasara ilişkin bir açıklama yapılmadı", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 19:29] Çin'de 7 büyüklüğünde deprem. 16 kişi hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "16 kişinin hayatını kaybettiği, 65 kişinin yaralandığı bildirildi", "kind": "behavioral"},
+  {"source": "text", "quote": "16 kişi hayatını kaybetti, 32 kişi yaralandı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bilanço kurumlar arasında farklı: bir kurum kayıp açıklaması yapılmadığını, diğerleri 16 ölü bildiriyor; yaralı sayısı 32 ve 65 olarak farklılaşıyor.",
+ "alternative_explanation": "Erken saatlerdeki bilgi eksikliği ve güncellenen resmi rakamlar farkı açıklayabilir.",
+ "missing_context": ["Resmi güncel bilanço ve saatleri", "Farkın bir sonuca etkisi"]},
+{"card_id": "availability-heuristic", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "300’den fazla ev yıkılırken 2025’teki deprem felaketi yeniden gündeme geldi.", "kind": "statement"},
+  {"source": "text", "quote": "Ocak 2025’te meydana gelen 6,8 büyüklüğündeki depremde, 120 kişi hayatını kaybetmişti.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Yakın geçmişteki ölümcül deprem anısı yeni depremin haberine eklenerek öne çıkarılıyor.",
+ "alternative_explanation": "Önceki depremin anılması bağlam sağlamak için standart gazetecilik pratiğidir; bir tahmin yapılmıyor.",
+ "missing_context": ["Önceki depremin bir risk tahmini için gerekçe olarak kullanıldığını gösteren ifade"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[takvim · 18:30] Çin'in Tibet bölgesinde yer yerinden oynadı: 7 büyüklüğünde korkutan deprem", "kind": "behavioral"},
+  {"source": "text", "quote": "[cumhuriyet · 18:44] Tibet’te 7 büyüklüğünde deprem", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "'Yer yerinden oynadı' ve 'korkutan' gibi duygusal ifadeler bazı başlıklarda öne çıkıyor.",
+ "alternative_explanation": "Üslup tercihi olabilir; bir yargıya bağlandığı gösterilmiyor.",
+ "missing_context": ["Vurgunun bir yargıya bağlandığını gösteren ifade"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "7 büyüklüğünde depremle sarsılan Tibet'te acı bilanço! 16 kişi can verdi", "kind": "behavioral"},
+  {"source": "text", "quote": "[karar · 07:14] Çin'in Tibet Özerk Bölgesi'nde 7 büyüklüğünde deprem", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı bilanço 'acı bilanço' duygusal çerçevesiyle ya da nötr biçimde sunuluyor.",
+ "alternative_explanation": "Üslup farkı tek başına bir değerlendirme değişikliği göstermez.",
+ "missing_context": ["Eşdeğerliğin ve çerçeveye bağlı yargının açıkça kurulması"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde iç durumun başkalarınca algılanacağına dair bir inanç atfı yok.",
+ "alternative_explanation": "Haberler doğal afet bilgisi aktarıyor.",
+ "missing_context": ["Bir kişinin iç durumunun anlaşıldığına dair inancını gösteren ifade"]},
+{"card_id": "incentivization", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde bir eyleme bağlı ödül veya ceza tanımlanmıyor.",
+ "alternative_explanation": "Haber bir doğal afeti konu alıyor; teşvik unsuru içermiyor.",
+ "missing_context": ["Eyleme bağlı ödül veya ceza tanımı"]}
+]}
