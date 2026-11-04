@@ -1,0 +1,13 @@
+{
+ "candidate_ids": [
+  "framing-effect",
+  "authority-bias",
+  "in-group-bias",
+  "illusory-truth-effect",
+  "reactive-devaluation"
+ ],
+ "selection_uncertainty": [
+  "Haberlerin çoğu yalnızca bir tarafın (avukat) açıklamasını aktarıyor; Şık'ın yanıtı metinde yok."
+ ],
+ "selection_note": "Bazı başlıklar avukatın 'gerçeği açıkladı', 'iftira' ifadelerini doğrulanmış bilgi gibi sunuyor; tek taraflı atıf ve çerçeveleme incelenebilir."
+}

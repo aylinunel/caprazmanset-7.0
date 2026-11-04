@@ -1,0 +1,11 @@
+{
+ "candidate_ids": [
+  "authority-bias",
+  "framing-effect",
+  "salience-bias"
+ ],
+ "selection_uncertainty": [
+  "Tüm haberler tek resmi açıklamaya dayanıyor; bağımsız doğrulama bilgisi yok."
+ ],
+ "selection_note": "Haber İçişleri Bakanlığı açıklamasına dayanıyor; 'dev operasyon' gibi vurgular ve tutuklama sayısının öne çıkarılması çerçeveleme açısından incelenebilir."
+}

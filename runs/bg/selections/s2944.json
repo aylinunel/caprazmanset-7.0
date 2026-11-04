@@ -1,0 +1,11 @@
+{
+ "candidate_ids": [
+  "authority-bias",
+  "framing-effect",
+  "salience-bias"
+ ],
+ "selection_uncertainty": [
+  "Haberlerin çoğu resmi açıklamayı aktarıyor; eleştirel kaynak eksikliği tam metinde görülmüyor."
+ ],
+ "selection_note": "Haberler İletişim Başkanlığı açıklamasına dayanıyor ve tasfiye sürecinin hangi yönünün öne çıktığı kuruma göre değişiyor."
+}

@@ -1,0 +1,12 @@
+{
+ "candidate_ids": [
+  "source-confusion",
+  "framing-effect",
+  "bandwagon-effect",
+  "illusory-truth-effect"
+ ],
+ "selection_uncertainty": [
+  "Resmi açıklama öncesi ve sonrası haberler aynı kümede; zamanlama farkı belirleyici olabilir."
+ ],
+ "selection_note": "Bazı kurumlar resmi açıklama öncesinde iddiayı 'belli oldu' diye kesin bilgi gibi sunarken diğerleri 'iddia edildi' diyor; atıf ve kesinlik farkı incelenebilir."
+}

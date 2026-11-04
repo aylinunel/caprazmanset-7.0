@@ -1,0 +1,13 @@
+{
+ "candidate_ids": [
+  "framing-effect",
+  "anchoring-bias",
+  "salience-bias",
+  "authority-bias"
+ ],
+ "selection_uncertainty": [
+  "ENAG ve TÜİK rakamlarının yan yana verilip verilmediği tam metinden doğrulanamıyor.",
+  "Bakan açıklamasının ne ölçüde aktarıldığı kesik metinde belirsiz."
+ ],
+ "selection_note": "Haberler beklenti rakamı, ENAG/TÜİK seçimi ve 'memurun kaderi' çerçevesi bakımından farklılaşıyor; çerçeveleme ve kaynak seçimi kartları aday."
+}

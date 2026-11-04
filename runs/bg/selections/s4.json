@@ -1,0 +1,12 @@
+{
+ "candidate_ids": [
+  "anchoring-bias",
+  "salience-bias",
+  "framing-effect",
+  "negativity-bias"
+ ],
+ "selection_uncertainty": [
+  "Toplam tutarın nominal kur hesabına dayandığı ve sahte döviz iddiası belirsiz."
+ ],
+ "selection_note": "Kümülatif 2,5 milyar TL rakamının ve 'dev servet' gibi ifadelerin öne çıkarılması rakam çapası ve vurgu açısından incelenebilir."
+}
