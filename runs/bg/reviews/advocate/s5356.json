@@ -1,0 +1,90 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Ekimde fiyatı en çok artan ürün belli oldu",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Zirvede sebzeler var!",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bazı başlıklar yalnızca artışı veya sebzeleri öne çıkarıyor; düşüş bilgisi geri planda.",
+   "alternative_explanation": "Başlık kısalığı ve okuyucu ilgisi meşru nedenlerdir.",
+   "missing_context": [
+    "Öne çıkarmanın bir yargıyı haksız biçimde etkilediğine dair kanıt"
+   ]
+  },
+  {
+   "card_id": "source-confusion",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "İTO'ya göre İstanbul'da ekimde en çok artan ürün salatalık",
+     "kind": "statement"
+    },
+    {
+     "source": "text",
+     "quote": "Türkiye İstatistik Kurumu'nun ekim ayı verilerine göre",
+     "kind": "statement"
+    },
+    {
+     "source": "text",
+     "quote": "en yüksek fiyat artışı yüzde 71,79 ile taze veya soğutulmuş yeşil yapraklı sebzelerde",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı başlık altında İTO (salatalık/limon) ve TÜİK (yeşil yapraklı sebze/hava yolu) verileri farklı kaynaklara atfedilerek veriliyor.",
+   "alternative_explanation": "Muhtemelen iki ayrı veri yayını (İTO İstanbul endeksi ve TÜİK TÜFE) kümede birleşmiş; kaynak hatası değil.",
+   "missing_context": [
+    "Karar ve Star'ın verisinin gerçekten TÜİK'ten mi geldiği",
+    "İki ayrı haberin aynı olay olarak kümelenip kümelenmediği"
+   ]
+  }
+ ]
+}

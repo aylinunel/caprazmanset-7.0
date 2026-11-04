@@ -1,0 +1,55 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında flaş: 1 kişi daha tutuklandı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında yeni gelişme: Tutuklu sayısı 30'a yükseldi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı tutuklama 'flaş' aciliyeti ya da toplam tutuklu sayısı referansıyla farklı çerçeveleniyor; çerçeveye bağlı yargı gösterilmiyor.",
+ "alternative_explanation": "Başlık üslubu kurumsal tercih ve okur ilgisiyle açıklanabilir.",
+ "missing_context": ["Çerçeveye bağlı bir tercih veya yargı kanıtı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "6 yıl önce sırra kadem basan ve cinayete kurban gittiği ortaya çıkan 21 yaşındaki üniversite öğrencisi", "kind": "behavioral"},
+  {"source": "text", "quote": "Tunceli'de 5 Ocak 2020'den bu yana kendisinden haber alınamayan üniversite öğrencisi", "kind": "behavioral"},
+  {"source": "text", "quote": "gözaltına alınan 7 şüpheliden biri daha tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "gözaltına alınan 10 şüpheliden biri daha tutuklandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sabah 'cinayete kurban gittiği ortaya çıkan' diyerek akıbeti kesinleştirirken diğer kurumlar 'haber alınamayan' ifadesini kullanıyor; gözaltı sayıları da kurumlar arasında farklı.",
+ "alternative_explanation": "Soruşturmada cinayet yönünde resmi bulgular açıklanmış olabilir; sayı farkları farklı dalga/aşama bilgisinden kaynaklanabilir.",
+ "missing_context": ["Resmi savcılık açıklaması", "Farkın bir sonucu etkilediğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Dosyadaki en dikkat çekici ayrıntı ise Doku’nun son görüldüğü dakikalarda Kahraman çiftinin", "kind": "statement"},
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında yeni tutuklama kararı! Eski erkek arkadaşı 4 saat ifade verdi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar çarpıcı ayrıntıları başlığa taşıyor; bu ayrıntının bir yargıyı gerekçesiz yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "İfade ayrıntıları soruşturma açısından gerçekten önemli olabilir.",
+ "missing_context": ["Çarpıcı ayrıntının bir sonuca bağlandığı ifade", "Haberlerin tam metinleri"]},
+{"card_id": "identifiable-victim-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "21 yaşındaki üniversite öğrencisi Gülistan Doku’nun soruşturmasında", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Tanımlanabilir bir mağdur var ancak kaynak tahsisi veya grup ile karşılaştırmalı bir karar yok.",
+ "alternative_explanation": "Bireysel bir ceza soruşturmasının haberi doğal olarak kişiye odaklanır.",
+ "missing_context": ["Karşılaştırılabilir grup ihtiyacı ve tahsis kararı"]}
+]}

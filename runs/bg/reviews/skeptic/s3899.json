@@ -1,0 +1,42 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yeni Parti ve CHP aday çıkarmadı. Üsküdar Belediyesi Başkanvekili Muhammed Emin Sarıoğlu oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Cumhur İttifakı adayı seçildi: Üsküdar'da Başkan Vekili Muhammed Emin Sarıoğlu oldu!", "kind": "behavioral"},
+  {"source": "text", "quote": "Üsküdar’da tek adaylı seçim: Muhammed Emin Sarıoğlu başkan vekili oldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı sonuç kimi başlıkta muhalefetin katılmaması, kimi başlıkta ittifak adayının seçilmesi üzerinden sunuluyor; bu farka bağlanmış bir yargı metinde yok.",
+ "alternative_explanation": "Tek adaylı seçim ve muhalefetin katılmaması, haberin farklı ama ilgili olgusal yönleridir.",
+ "missing_context": ["CHP ve Yeni Parti'nin seçime katılmama gerekçesi", "Mahkeme kararının ve önceki seçimlerin ayrıntıları"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Trafik kazasında hayatını kaybeden Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin'in yerine", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Öne çıkan bir ayrıntının yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Önceki başkan vekilinin vefatı, seçimin nedenini açıklayan ilgili bağlamdır.",
+ "missing_context": ["Okur yargısına veya bir karara dair herhangi bir veri"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yeni Üsküdar Belediye Başkan Vekili AKP'li Muhammed Emin Sarıoğlu", "kind": "behavioral"},
+  {"source": "text", "quote": "Üsküdar Belediye Başkan Vekilliğine AK Partili Sarıoğlu seçildi!", "kind": "behavioral"},
+  {"source": "text", "quote": "YENİ Parti ve CHP katılmadı: Üsküdar Belediye Başkanvekili Sarıoğlu oldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Parti aidiyeti açıkça belirtiliyor ve kurumlar farklı unsurları vurguluyor; ancak grup aidiyetinin değerlendirmeyi haksız biçimde etkilediği gösterilmiyor.",
+ "alternative_explanation": "Parti kimliğini belirtmek ve muhalefetin boykotunu vurgulamak, siyasi haberde ilgili olgusal bilgilerdir.",
+ "missing_context": ["Aynı kurumların muhalefet adaylı benzer seçimleri nasıl haberleştirdiği"]}
+]}

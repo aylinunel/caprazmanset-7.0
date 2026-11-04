@@ -1,0 +1,54 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "çevredeki 2 binanın duvarlarında çatlak ve yarıklar oluştuğunun belirlenmesi üzerine tedbir amaçlı toplam 4 bina tahliye edildi", "kind": "statement"},
+  {"source": "text", "quote": "[yenisafak · 08:04] Bağcılar’da inşaatın çevresindeki çatlaklar oluşan 4 bina tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "[mynet · 12:33] Bağcılar’da 5 bina tahliye edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ledeye göre 2 binada çatlak varken bazı başlıklar 4 binanın da çatlak olduğunu ima ediyor; bir başlık 5 bina diyor.",
+ "alternative_explanation": "Başlık kısaltması veya sonradan tahliye sayısının artması farkı açıklayabilir.",
+ "missing_context": ["Güncel resmi tahliye sayısı", "Farkın bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[aksam · 07:16] Bağcılar'da çatlak paniği! 4 apartman tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "[haberler · 05:24] Bağcılar'da inşaat çalışmaları sırasında 4 bina tedbiren boşaltıldı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "'Panik' gibi duygusal öğeler bazı başlıklarda öne çıkarken diğerleri tedbir vurgusu yapıyor.",
+ "alternative_explanation": "Sakinlerin yaşadığı endişe gerçek bir haber unsuru olabilir.",
+ "missing_context": ["Vurgunun bir yargıya bağlandığını gösteren ifade"]},
+{"card_id": "negativity-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 09:46] Bağcılar'da inşaat çalışması sonrası çökme tehlikesi! 4 apartman tahliye edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "4 apartman tedbir amacıyla boşaltıldı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Tedbir amaçlı tahliye, bazı başlıklarda 'çökme tehlikesi' olarak olumsuz yönüyle ağırlıklandırılıyor.",
+ "alternative_explanation": "Zemin kayması ve hasar tespiti gerçek bir risk göstergesi olabilir; vurgu orantılı olabilir.",
+ "missing_context": ["Hasar tespit raporunun içeriği", "Olumsuz vurgunun bir kararı etkilediğine dair kanıt"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[cnnturk · 11:12] Bağcılar'da panik! İnşaat çevresindeki 4 binaya acil tahliye", "kind": "behavioral"},
+  {"source": "text", "quote": "[sondakika · 02:27] Bağcılar'da inşaat çalışması çevrede çatlak oluşturdu, 4 bina tedbiren tahliye edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı tahliye 'acil' ve 'panik' ya da 'tedbiren' çerçeveleriyle sunuluyor.",
+ "alternative_explanation": "Üslup farkı tek başına bir değerlendirme değişikliği göstermez.",
+ "missing_context": ["Eşdeğerliğin ve çerçeveye bağlı yargının açıkça kurulması"]}
+]}

@@ -1,0 +1,143 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Bodrum’da sağanak hayatı felç etti!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Bodrum'da sağanak felaketi",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "9 mahallede 17 ev ve 3 iş yerini su bastı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı olay bazı kurumlarda 'felaket/hayatı felç etti' gibi abartılı, Hürriyet'te ise sayısal ölçekle sunulmuş.",
+   "alternative_explanation": "Yerel ölçekte ciddi etkiler yaşanmış olabilir; vurgu farkı habercilik üslubundan kaynaklanabilir.",
+   "missing_context": [
+    "Çerçevenin bir tercih veya yargıyı değiştirdiğine dair açık gerekçe",
+    "Olayın gerçek etkisine dair resmi değerlendirme"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Bodrum'da sağanak sonrası şoke eden görüntü: Otomobil denize sürüklendi",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Bodrum'da sel: Otomobil denize sürüklendi!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "9 mahallede 17 ev ve 3 iş yerini su bastı",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    }
+   ],
+   "mechanism": "Neredeyse tüm başlıklar görsel olarak çarpıcı 'otomobil denize sürüklendi' detayını öne çıkarıyor; ev ve iş yeri hasarı ikincil kalıyor.",
+   "alternative_explanation": "Otomobilin sürüklenmesi gerçek ve görüntülü bir olaydır; öne çıkarılması haber değeriyle orantılı olabilir.",
+   "missing_context": [
+    "Otomobilde kimse olup olmadığı",
+    "Çarpıcı detayın olayın genel ciddiyetine dair yanlış bir çıkarıma yol açtığına dair kanıt"
+   ]
+  },
+  {
+   "card_id": "negativity-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Bodrum'da sağanak yaşamı durma noktasına getirdi",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Bodrum’da sağanak hayatı felç etti!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "9 mahallede 17 ev ve 3 iş yerini su bastı",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bazı kurumlar sınırlı sayısal hasarı 'hayatı felç etti' gibi olumsuz genellemelerle sunuyor.",
+   "alternative_explanation": "Olumsuz vurgu gerçek risk ve uyarılarla orantılı olabilir; olumsuz dil tek başına yeterli değildir.",
+   "missing_context": [
+    "Karşılaştırılabilir olumlu bilginin (ör. can kaybı olmaması) göz ardı edildiğine dair kanıt",
+    "Olumsuz vurgunun bir karar veya değerlendirmeyi etkilediğine dair veri"
+   ]
+  }
+ ]
+}

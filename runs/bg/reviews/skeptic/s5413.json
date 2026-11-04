@@ -1,0 +1,52 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "accountability-diffusion-in-ai", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Metin maç hazırlığı ve hakem atamasıyla ilgili; yapay zekâ destekli bir karar yok.",
+ "alternative_explanation": "Rutin spor haberciliği.",
+ "missing_context": ["Herhangi bir yapay zekâ kullanımı veya sorumluluk kaydı"]},
+{"card_id": "action-bias", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Antrenmana başlamak olağan bir hazırlık; eylemsizlik alternatifine karşı gerekçesiz tercih yok.",
+ "alternative_explanation": "Maç öncesi hazırlık zorunlu ve zamana bağlı bir faaliyet.",
+ "missing_context": ["Karşılaştırmalı bir eylem/eylemsizlik değerlendirmesi"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Duyguya dayalı bir risk/fayda tahmini yok.",
+ "alternative_explanation": "Haberler olgusal duyurular.",
+ "missing_context": ["Duygu ile yargı arasında açık bağ"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yapay zekâ destekli görev yok.",
+ "alternative_explanation": "Konu yapay zekâyla ilgisiz.",
+ "missing_context": ["Yapay zekâ çıktısına dayanma kaydı"]},
+{"card_id": "ambiguity-effect", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bilinen/bilinmeyen olasılıklı seçenekler arasında tercih yok.",
+ "alternative_explanation": "Haberler takvim ve hakem bilgisi veriyor.",
+ "missing_context": ["Karşılaştırılabilir seçenekler"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "biletleri bin TL ile 15 bin TL arasında satışa çıktı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bilet fiyatı aralığı aktarılıyor; buna bağlanan sonraki bir tahmin veya karar yok.",
+ "alternative_explanation": "Fiyat bilgisi olgusal duyuru.",
+ "missing_context": ["Referans değere dayanan bir yargı"]}
+]}

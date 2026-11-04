@@ -1,0 +1,31 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Kocaeli'de MHP’li meclis üyesi tartışmada öldürüldü", "kind": "behavioral"},
+ {"source": "text", "quote": "MHP'li belediye meclis üyesi silahlı saldırıda öldürüldü", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olay 'tartışmada' ve 'silahlı saldırıda' gibi farklı ifadelerle sunuluyor; ancak sunuma bağlanan bir tercih veya yargı yok.",
+ "alternative_explanation": "Her iki ifade de olgusal olarak doğru olabilir; diğer kurumlar da saldırının bir tartışma sonrası olduğunu yazıyor.",
+ "missing_context": ["Sunum farkının okur yargısını etkilediğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Tartışma kanlı bitti; MHP'li meclis üyesi silahlı saldırıda hayatını kaybetti", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "'Kanlı bitti' ifadesi çarpıcı bir vurgu, fakat bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Ölümle sonuçlanan bir tartışmayı betimleyen olgusal bir üslup tercihidir.",
+ "missing_context": ["Vurgunun bir sonuca etkisini gösteren karşılaştırma"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "tartıştığı kişinin silahlı saldırısına uğradı", "kind": "statement"},
+ {"source": "text", "quote": "MHP'li meclis üyesinin katili arkadaşı çıktı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kurumlar faile dair farklı ayrıntıları (tartıştığı kişi, arkadaşı) öne çıkarıyor; bir özgün kayda göre çarpıtma gösterilmiyor.",
+ "alternative_explanation": "Ayrıntılar soruşturma ilerledikçe ortaya çıkan yeni bilgiler olabilir.",
+ "missing_context": ["Resmi açıklama veya iddianame", "Fail ile ilişkinin doğrulanması"]}
+]}

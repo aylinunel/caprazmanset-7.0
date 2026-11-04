@@ -1,0 +1,147 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "AKP'li ve MHP’li eski başkanlar hakkında gözaltı kararı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Kırıkkale'de yolsuzluk operasyonu: 31 gözaltı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Mal varlıklarına el konuldu",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı operasyon parti kimliği, sayı veya mal varlığına el koyma vurgusuyla farklı çerçevelenmiş.",
+   "alternative_explanation": "Farklı unsurların seçimi editoryal öncelik ve bilgi erişimine bağlı olabilir.",
+   "missing_context": [
+    "Çerçevenin bir yargıya bağlandığına dair kanıt"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Eski AK Parti ve MHP'li başkanlar da aralarında",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "İki eski başkana gözaltı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Başlıklar şüpheliler arasından eski başkanları öne çıkarıyor.",
+   "alternative_explanation": "Eski başkanların gözaltısı haber değeri yüksek ve ilgili bir bilgidir.",
+   "missing_context": [
+    "Öne çıkarmanın haksız çıkarıma yol açtığına dair kanıt"
+   ]
+  },
+  {
+   "card_id": "in-group-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "AKP’li ve MHP’li eski başkanlara gözaltı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Kırıkkale'de yolsuzluk operasyonu: 31 gözaltı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "AK Partili ve MHP'li eski başkanlar da listede",
+     "kind": "behavioral"
+    },
+    {
+     "source": "context",
+     "quote": "trthaber: sağ (70)",
+     "kind": "statement"
+    },
+    {
+     "source": "context",
+     "quote": "cumhuriyet: sol (30)",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      3,
+      4
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "TRT Haber başlıkta eski başkanları ve parti kimliklerini anmazken sol konumlu kurumlar bunu vurguluyor.",
+   "alternative_explanation": "Sağ konumlu Takvim de parti kimliğini başlığa taşıyor; desen tutarlı bir grup kayırması göstermiyor.",
+   "missing_context": [
+    "Kurumların karşı grup üyeleri için farklı standart uyguladığına dair karşılaştırmalı kanıt"
+   ]
+  }
+ ]
+}

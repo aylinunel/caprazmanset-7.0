@@ -1,0 +1,167 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "accountability-diffusion-in-ai",
+   "verdict": "not_supported",
+   "evidence": [],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Metin bir vefat haberi; yapay zekâ destekli karar veya sorumluluk dağılımı yok.",
+   "alternative_explanation": "Rutin vefat haberciliği.",
+   "missing_context": [
+    "Yapay zekâ kullanımına dair herhangi bir kayıt"
+   ]
+  },
+  {
+   "card_id": "action-bias",
+   "verdict": "not_supported",
+   "evidence": [],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Eylem ile bekleme arasında bir tercih anlatılmıyor.",
+   "alternative_explanation": "Rutin vefat haberciliği.",
+   "missing_context": [
+    "Eylem/eylemsizlik karşılaştırması"
+   ]
+  },
+  {
+   "card_id": "affect-heuristic",
+   "verdict": "not_supported",
+   "evidence": [],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "'Acı haber' gibi duygusal ifadeler var ancak bir risk/fayda yargısına bağlanmıyor.",
+   "alternative_explanation": "Taziye dili haber türünün olağan parçasıdır.",
+   "missing_context": [
+    "Duygunun bir karar veya tahmini etkilediğine dair kanıt"
+   ]
+  },
+  {
+   "card_id": "ai-literacy-gap",
+   "verdict": "not_supported",
+   "evidence": [],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Yapay zekâ destekli bir görev bulunmuyor.",
+   "alternative_explanation": "Rutin vefat haberciliği.",
+   "missing_context": [
+    "Yapay zekâ kullanımına dair kayıt"
+   ]
+  },
+  {
+   "card_id": "ambiguity-effect",
+   "verdict": "not_supported",
+   "evidence": [],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bilinen ve bilinmeyen olasılıklı seçenekler arasında bir tercih yok.",
+   "alternative_explanation": "Rutin vefat haberciliği.",
+   "missing_context": [
+    "Karşılaştırmalı seçenekler"
+   ]
+  },
+  {
+   "card_id": "anchoring-bias",
+   "verdict": "not_supported",
+   "evidence": [],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Sonraki bir yargıyı etkileyen bir başlangıç değeri yok; yaş bilgisi kurumlar arasında tutarlı.",
+   "alternative_explanation": "Rutin vefat haberciliği.",
+   "missing_context": [
+    "Bir çapa değeri ve ona bağlı yargı"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "accountability-diffusion-in-ai", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metin bir vefat haberidir; yapay zekâ etkili bir karar veya sorumluluk dağılımı içermiyor.",
+ "alternative_explanation": "Haberler resmi kurum açıklamasına dayanan standart vefat haberleridir.",
+ "missing_context": ["Yapay zekâ kullanımı veya karar süreçlerine dair herhangi bir bilgi"]},
+{"card_id": "action-bias", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde eylem ile beklemek arasında bir tercih anlatılmıyor.",
+ "alternative_explanation": "Habercilerin hızlı yayın yapması olağan bir haber akışıdır, önyargı göstergesi değildir.",
+ "missing_context": ["Karşılaştırılabilir eylem/eylemsizlik seçenekleri"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Usta oyuncudan acı haber… Münir Canar hayatını kaybetti!", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Acı haber' gibi duygusal ifadeler var; ancak bir risk/fayda tahminine veya karara bağlanmıyor.",
+ "alternative_explanation": "Vefat haberlerinde taziye dili kalıplaşmış bir üsluptur.",
+ "missing_context": ["Duygunun bir karar veya tahmini etkilediğine dair kanıt"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde yapay zekâ destekli bir görev yok.",
+ "alternative_explanation": "Konu yapay zekâ ile ilgisizdir.",
+ "missing_context": ["Yapay zekâ çıktısına dayanma veya denetimle ilgili kayıt"]},
+{"card_id": "ambiguity-effect", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bilinen ve bilinmeyen olasılıklı seçenekler arasında bir tercih yok.",
+ "alternative_explanation": "Haber, kesinleşmiş bir olguyu aktarıyor.",
+ "missing_context": ["Karşılaştırılabilir seçenekler ve olasılık bilgisi"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Münir Canar, 81 yaşında hayatını kaybetti.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Tekrarlanan '81 yaşında' bilgisi bir sonraki tahmine referans noktası olarak kullanılmıyor.",
+ "alternative_explanation": "Kurumların aynı resmi açıklamadan bilgi alması tekrarı açıklar.",
+ "missing_context": ["Bir başlangıç değerine bağlanan sonraki bir tahmin veya karar"]}
+]}

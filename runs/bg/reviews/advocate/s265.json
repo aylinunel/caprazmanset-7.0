@@ -1,0 +1,91 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Toprak kaymasında 1 işçi hayatını kaybetti: Firma sahibi dahil 3 kişi...",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Göçük altında kalan 1 işçiden acı haber",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Büyükçekmece'de inşaatta göçük: 1 işçi öldü, 3 gözaltı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı olay bazı başlıklarda sorumluluk/gözaltı vurgusuyla, bazılarında yalnızca kayıp vurgusuyla çerçevelenmiş.",
+   "alternative_explanation": "Farklar yayın saatine ve gözaltı bilgisinin ne zaman ulaştığına bağlı olabilir.",
+   "missing_context": [
+    "Gözaltı bilgisinin her kurumun yayın anında mevcut olup olmadığı",
+    "Çerçevenin bir yargıya bağlandığına dair kanıt"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "İstanbul'da toprak kayması! Enkaz altında kalan işçi hayatını kaybetti",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Büyükçekmece'de toprak kayması: Göçükte kalan iki işçiden biri kurtarıldı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Kurumlar ölüm veya kurtarma gibi farklı unsurları öne çıkarmış.",
+   "alternative_explanation": "Farklar haberin gelişen yapısından ve yayın saatinden kaynaklanabilir.",
+   "missing_context": [
+    "Öne çıkarmanın haksız bir çıkarım ürettiğine dair açık ifade"
+   ]
+  }
+ ]
+}

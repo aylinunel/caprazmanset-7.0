@@ -1,0 +1,30 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "kafa kafaya çarpışması sonucu 9 kişi yaralandı", "kind": "statement"},
+ {"source": "text", "quote": "çarpışması sonucu 10 kişi yaralandı", "kind": "statement"},
+ {"source": "text", "quote": "Balıkesir'de işçi servis minibüsü ile otomobil çarpıştı. 10 yaralı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Yaralı sayısı (9/10) ve araç türü (hafif ticari/otomobil) kurumlar arasında farklılaşıyor; hangisinin özgün kayıt olduğu belirsiz.",
+ "alternative_explanation": "Farklar ilk saatlerdeki farklı ajans bilgileri veya sonradan güncellenen sayılar olabilir; maddi bir sonuç çarpıtması gösterilmiyor.",
+ "missing_context": ["Resmi yaralı sayısı", "Ajans özgün metni", "Farkın bir yargıya etkisi"]},
+{"card_id": "salience-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Balıkesir'de feci kaza! Servis minibüsü ile ticari araç çarpıştı: Yaralılar var!", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Ünlem ve 'feci kaza' gibi dikkat çekici sunum biçimsel vurgudur; bir yargının haksız biçimde etkilendiği gösterilmiyor.",
+ "alternative_explanation": "Biçimsel vurgu ve ünlem kullanımı tek başına önyargılı akıl yürütme göstermez.",
+ "missing_context": ["Vurgunun bir yargı veya seçimle bağlantısı"]},
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Eşdeğer seçeneklerin farklı sunumuna dayalı bir tercih metinde yer almıyor.",
+ "alternative_explanation": "Başlıklar aynı kazayı benzer olgularla aktarıyor; bazı satırlar farklı kazalara ait olabilir.",
+ "missing_context": ["Sunuma bağlı bir yargı veya karar"]}
+]}

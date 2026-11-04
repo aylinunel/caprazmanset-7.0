@@ -1,0 +1,28 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Musk'tan Grok itirafı: Yapay zekanın maliyeti sürdürülemez seviyede", "kind": "behavioral"},
+  {"source": "text", "quote": "Kullanıcılar limitlerden şikâyet etti: Musk, Grok'un maliyeti geliri aştığını onayladı", "kind": "behavioral"},
+  {"source": "text", "quote": "Musk, Grok'un işlem maliyetinin gelire göre sürdürülemez olduğunu söyledi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı açıklama 'itiraf', 'onayladı' ya da nötr 'söyledi' olarak sunulmuş; çerçeve farkı var ancak bir yargının buna bağlandığı metinde yok.",
+ "alternative_explanation": "'Onayladı' kullanıcı şikâyetine yanıt bağlamını, 'itiraf' ise üslup tercihini yansıtabilir; olgusal içerik aynı.",
+ "missing_context": ["Musk'ın paylaşımının tam metni", "Okur algısına etkiye dair veri"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Elon Musk Grok'un maliyetinden dert yandı: Maliyeti sürdürülemez derecede yüksek", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Tanınmış bir ismin çarpıcı ifadesi öne çıkıyor; ancak bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Şirket sahibinin maliyet açıklaması doğrudan haber değeri taşır.",
+ "missing_context": ["xAI'nin gelir ve maliyet verileri", "Diğer yapay zeka şirketlerinin maliyet karşılaştırması"]}
+]}

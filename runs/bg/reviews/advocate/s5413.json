@@ -1,0 +1,65 @@
+{"role": "advocate", "assessments": [
+{"card_id": "accountability-diffusion-in-ai", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Haberler maç hazırlığı, bilet ve hakem atamasıyla ilgili; yapay zekâ ya da sorumluluk dağılımı yok.",
+ "alternative_explanation": "Rutin spor haberciliği.",
+ "missing_context": ["Yapay zekâ etkili bir karara dair kayıt"]},
+{"card_id": "action-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Trabzonspor, Freiburg maçının hazırlıklarına başladı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Maça hazırlık olağan bir eylem; eylemsizlik seçeneğiyle karşılaştırma yok.",
+ "alternative_explanation": "Takımın planlı antrenman takvimi.",
+ "missing_context": ["Eylem ve eylemsizlik karşılaştırması"]},
+{"card_id": "affect-heuristic", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Zorlu karşılaşmada Estonyalı hakem Kristo Tohver düdük çalacak.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Zorlu' nitelemesi bir duygu-risk bağını ya da karar etkisini göstermiyor.",
+ "alternative_explanation": "Rakibin gücüne dair olağan betimleme.",
+ "missing_context": ["Duygunun bir karar ya da risk tahminine bağlandığı ifade"]},
+{"card_id": "ai-literacy-gap", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Yapay zekâ destekli bir görev yok.",
+ "alternative_explanation": "Rutin spor haberciliği.",
+ "missing_context": ["Yapay zekâ kullanımına dair kayıt"]},
+{"card_id": "ambiguity-effect", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bilinen ve bilinmeyen olasılıklı seçenekler arasında tercih anlatılmıyor.",
+ "alternative_explanation": "Haberler bilgi aktarımı amaçlı.",
+ "missing_context": ["Karşılaştırılabilir seçenekler"]},
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Trabzonspor-Freiburg maçının biletleri bin TL ile 15 bin TL arasında satışa çıktı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bilet fiyat aralığı verilmiş; ona bağlanan sonraki bir tahmin veya karar yok.",
+ "alternative_explanation": "Fiyat bilgisi yalnızca duyuru niteliğinde.",
+ "missing_context": ["Fiyata dayanan bir yargı veya karar"]}
+]}

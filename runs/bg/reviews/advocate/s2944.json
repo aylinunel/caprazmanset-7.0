@@ -1,0 +1,42 @@
+{"role": "advocate", "assessments": [
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sayın Cumhurbaşkanımız tarafından oluşturulan ve başkanlığını yaptığım Fon Koordinasyon Kurulu", "kind": "statement"},
+  {"source": "text", "quote": "ödemelerin adil, sağlıklı ve mümkün olan en kısa sürede yapılmasının temel öncelikleri olduğu vurgulandı.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Haberler büyük ölçüde makam sahiplerinin ifadelerini doğrudan aktarıyor; ancak statünün bir iddiayı belirleyici biçimde desteklediği ya da karşı görüşün dışlandığı açıkça görünmüyor.",
+ "alternative_explanation": "Resmi kurul kuruluşu haberinde resmi açıklamanın aktarılması olağandır.",
+ "missing_context": ["Yatırımcı veya muhalefet görüşlerine yer verilip verilmediği", "Haberlerin tam metinleri"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Beştepe'de fon toplantısı! İletişim Başkanlığı: Koordinasyon Kurulu oluşturuldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Devlet Denetleme Kurulu da yatırım fonu işlemlerine ilişkin inceleme ve denetim başlattı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmalarıyla ilgili &quot;Fon Koordinasyon Kurulu&quot; oluşturuldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar olayı toplantı/kurul (koruma) ya da soruşturma/denetim vurgusuyla farklı çerçeveliyor; ancak çerçeveye bağlı bir tercih metinde yok.",
+ "alternative_explanation": "Farklı ayrıntıların seçilmesi haber değeri tercihleriyle açıklanabilir.",
+ "missing_context": ["Eşdeğerlik ve çerçeveye bağlı yargı kanıtı"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kritik toplantı 3 saat sürdü.", "kind": "statement"},
+  {"source": "text", "quote": "Cevdet Yılmaz başkanlığında kritik toplantı: Fon Koordinasyon Kurulu yarın toplanıyor", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Kritik' ve süre vurgusu toplantıyı öne çıkarıyor; bunun bir yargıyı gerekçesiz yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Toplantının önemi nesnel olarak yüksek olabilir.",
+ "missing_context": ["Öne çıkarılan ayrıntının yargıya etkisini gösteren karşılaştırma"]}
+]}

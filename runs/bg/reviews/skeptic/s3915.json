@@ -1,0 +1,27 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Beşiktaş-Crystal Palace maçının hakemi belli oldu.", "kind": "behavioral"},
+  {"source": "text", "quote": "Beşiktaş - Crystal Palace maçına Hollandalı hakem", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Hakem ataması kurumlar arasında büyük ölçüde nötr ve benzer biçimde sunulmuş; bir tercihin sunuma bağlandığı gösterilmiyor.",
+ "alternative_explanation": "Rutin bir spor duyurusu; ifade farkları üslup ve başlık uzunluğundan kaynaklanıyor.",
+ "missing_context": ["Okur yargısına etkiye dair herhangi bir veri"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Beşiktaş 10 kişi kaldığı maçta Crystal Palace ile 2-2 berabere kaldı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kırmızı kart gibi bir ayrıntının vurgulanması bir yargıyı haksız etkilediğini göstermiyor.",
+ "alternative_explanation": "10 kişi kalmak maç sonucunu açıklayan ilgili bir bilgidir.",
+ "missing_context": ["Maçın istatistikleri", "Bu vurgunun bir değerlendirmede kullanılıp kullanılmadığı"]}
+]}

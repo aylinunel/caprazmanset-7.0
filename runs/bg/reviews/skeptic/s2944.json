@@ -1,0 +1,35 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Sayın Cumhurbaşkanımız tarafından oluşturulan ve başkanlığını yaptığım Fon Koordinasyon Kurulu", "kind": "statement"},
+  {"source": "text", "quote": "Toplantıya ilişkin İletişim Başkanlığı'ndan yapılan açıklamada", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Resmi makamların açıklamaları aktarılıyor; statünün bir iddiayı tek başına kanıtladığı veya karşı görüşü bastırdığı metinde görünmüyor.",
+ "alternative_explanation": "Kurulun kuruluşu idari bir duyuru; resmi kaynağı aktarmak haberin doğası gereği.",
+ "missing_context": ["Eleştirel veya bağımsız görüşlere yer verilip verilmediği", "Haberlerin tam metni"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Beştepe'de fon toplantısı! İletişim Başkanlığı: Koordinasyon Kurulu oluşturuldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Devlet Denetleme Kurulu da yatırım fonu işlemlerine ilişkin inceleme ve denetim başlattı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Yatırımcıların haklarının korunması ve ödemelerin hızlandırılması amacıyla", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar toplantıyı ve yatırımcı korumasını, cumhuriyet ise ek olarak denetim başlatılmasını öne çıkarıyor; okur yargısının sunuma bağlandığı açık değil.",
+ "alternative_explanation": "Farklı ayrıntı seçimi aynı açıklamanın farklı bölümlerinin özetlenmesinden kaynaklanabilir.",
+ "missing_context": ["İletişim Başkanlığı açıklamasının tam metni", "Diğer kurumların denetim bilgisini metin içinde verip vermediği"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Kritik toplantı 3 saat sürdü.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Toplantının süresi ve 'kritik' nitelemesi öne çıkarılıyor; bunun bir yargıyı gerekçesiz yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Süre bilgisi olgusal bir ayrıntı olarak verilmiş olabilir.",
+ "missing_context": ["Daha az çarpıcı bilgilerin ihmal edildiğine dair karşılaştırma"]}
+]}

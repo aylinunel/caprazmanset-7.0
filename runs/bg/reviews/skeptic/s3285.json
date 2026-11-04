@@ -1,0 +1,57 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "hindsight-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Maltepe'de göz göre göre gelen facia: Çöken binanın çatlak görüntüleri ortaya çıktı!", "kind": "behavioral"},
+ {"source": "text", "quote": "bina çökmeden önce duvarlarda oluşan çatlakların görüntülendiği ortaya çıktı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "contradicted", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum faciayı 'göz göre göre' gelmiş olarak sunuyor; ancak öngörülebilirlik iddiası çökme öncesine ait çatlak görüntülerine dayanıyor, yalnızca sonuca değil.",
+ "alternative_explanation": "Çökme öncesi kaydedilmiş çatlaklar gerçek ve belgelenmiş uyarı işaretleri olabilir; bu durumda öngörülebilirlik vurgusu geriye dönük çarpıtma değildir.",
+ "missing_context": ["Görüntülerin tarihi ve kaynağı", "Çökme öncesinde yapılmış resmi şikayet veya hasar tespiti", "Çatlakların çökmeyle teknik bağlantısı"]},
+{"card_id": "salience-bias", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "Maltepe’de çöken binanın geçmişi ortaya çıktı: Kaçak katlar var kolon kesme var", "kind": "behavioral"},
+ {"source": "text", "quote": "Maltepe'de çöken binanın molozlarından deniz kabuğu çıktı", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Kurumlar kaçak kat, kolon kesme ve deniz kabuğu gibi çarpıcı ayrıntıları başlığa taşıyor; bu ayrıntıların bir yargıyı haksız biçimde belirlediği gösterilmiyor.",
+ "alternative_explanation": "Bu ayrıntılar yapı güvenliği açısından doğrudan ilgili olabilir ve haber değeri taşır.",
+ "missing_context": ["Bilirkişi raporu", "Ayrıntıların doğrulanma durumu", "Çökme nedenine dair resmi bulgu"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "Kaçak katlar var kolon kesme var", "kind": "behavioral"},
+ {"source": "text", "quote": "Binada kolon kesildiği iddialarını yalanlayan Kaya", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kolon kesme iddiası bir kurumda kesin bir başlık unsuru olarak yer alırken başka bir kurumda yalanlama aktarılıyor; tutarsızlık var ama özgün kayıt yok.",
+ "alternative_explanation": "Farklı tanıkların farklı iddiaları aktarılıyor olabilir; bu bir hatırlama çarpıtmasından çok erken aşama belirsizliğidir.",
+ "missing_context": ["Kolon kesme iddiasının kaynağı", "Resmi inceleme sonucu", "Tutarsızlığın bir sonuca etkisi"]},
+{"card_id": "illusory-correlation", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Binanın yapı malzemelerinin niteliği tekrar gündeme geldi.", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Malzeme niteliğinin gündeme geldiği söyleniyor, ancak açıkça ileri sürülen bir değişkenler arası ilişki ve karşı kanıt yok.",
+ "alternative_explanation": "Beton numunesindeki deniz kabuğu malzeme kalitesi sorusunu meşru biçimde gündeme getirebilir.",
+ "missing_context": ["Beton numunesi laboratuvar sonuçları", "Açık bir nedensellik iddiası"]},
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Eşdeğer seçeneklerin farklı sunumuna bağlanan bir tercih metinde yok.",
+ "alternative_explanation": "Başlık farkları farklı gelişmeleri (yıkım, kimlikler, tahliye) haberleştirmekten kaynaklanıyor.",
+ "missing_context": ["Eşdeğerlik ve sunuma bağlı karar gösteren ifade"]},
+{"card_id": "illusion-of-transparency", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kimseye, içsel durumunun başkalarınca anlaşıldığı inancı atfedilmiyor.",
+ "alternative_explanation": "Haberler olgusal gelişmeleri aktarıyor.",
+ "missing_context": ["İlgili bir inanç atfı ve buna bağlı davranış"]}
+]}

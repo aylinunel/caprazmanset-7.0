@@ -1,0 +1,43 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türk futbolunda deprem! MHK Başkanı Ferhat Gündoğdu tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "MHK Başkanı Ferhat Gündoğdu ve 6 kişi adliyeye sevk edildi", "kind": "behavioral"},
+  {"source": "text", "quote": "Türk futbolunu sarsan 'hakemler dosyası' soruşturması", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bazı kurumlar 'deprem' gibi dramatik ifadeler kullanırken diğerleri nötr sevk/tutuklama dili kullanıyor; okur tercihine etkisi metinde gösterilmiyor.",
+ "alternative_explanation": "Farklar haber anına (sevk mi tutuklama mı) ve kurumların genel başlık üslubuna bağlı olabilir.",
+ "missing_context": ["Başlıkların yayın saatlerinin olay akışıyla eşleştirilmesi", "Kurumların genel başlık üslubu"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türk futbolunda deprem! MHK Başkanı Ferhat Gündoğdu tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "7 şüpheli tutuklama talebiyle mahkemeye sevk edildi", "kind": "statement"},
+  {"source": "text", "quote": "Ferhat Gündoğdu'nun da aralarında bulunduğu 5 kişi tutuklandı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "takvim başlığı 'tutuklandı' derken kendi spotu yalnızca tutuklama talebiyle sevki aktarıyor; başlık ile spot arasında keskinleştirme görünümü var.",
+ "alternative_explanation": "Aynı saatte trthaber de tutuklamayı bildiriyor; başlık güncellenmiş, spot eski kalmış olabilir, yani maddi bir çarpıtma olmayabilir.",
+ "missing_context": ["Başlık ve spotun güncellenme zamanları", "Tutuklama kararının kesin saati"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Türk futbolunu sarsan 'hakemler dosyası' soruşturması", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Olumsuz ifade var ancak karşılaştırılabilir olumlu kanıta göre orantısız ağırlık gösterilmiyor.",
+ "alternative_explanation": "Tutuklama haberi doğası gereği olumsuz; dil olayın ciddiyetiyle orantılı olabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilgilerin ele alınışı"]},
+{"card_id": "source-confusion", "verdict": "not_supported", "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Hatırlanan bir öğe ve kaynağının yanlış atfedildiği gösterilmiyor.",
+ "alternative_explanation": "Kurumlar savcılık ve ajans bilgilerini aktarıyor; kaynak karışıklığı iddiası yok.",
+ "missing_context": ["Kaynak atfına dair açık bir uyumsuzluk veya düzeltme"]}
+]}

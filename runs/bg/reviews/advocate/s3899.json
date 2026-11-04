@@ -1,0 +1,148 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Yeni Parti ve CHP aday çıkarmadı.",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Cumhur İttifakı adayı seçildi: Üsküdar'da Başkan Vekili Muhammed Emin Sarıoğlu oldu!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Üsküdar’da tek adaylı seçim",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı seçim sonucu bazı kurumlarda muhalefetin katılmaması, bazılarında Cumhur İttifakı'nın kazanımı olarak çerçevelenmiş.",
+   "alternative_explanation": "Her iki bilgi de doğru ve ilgili; vurgu farkı editoryal tercih olabilir.",
+   "missing_context": [
+    "Çerçevenin bir yargıyı değiştirdiğine dair açık gerekçe"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Üsküdar’da yeni başkan vekili Muhammed Emin Sarıoğlu oldu",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "YENİ Parti ve CHP katılmadı: Üsküdar Belediye Başkanvekili Sarıoğlu oldu",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bazı başlıklar seçimin tek adaylı olmasını gizli bırakırken bazıları bunu öne çıkarıyor.",
+   "alternative_explanation": "Başlık uzunluğu ve öncelik tercihi meşru editoryal kararlardır.",
+   "missing_context": [
+    "Bilginin atlanmasının okuyucu yargısını etkilediğine dair kanıt"
+   ]
+  },
+  {
+   "card_id": "in-group-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "AK Parti ve MHP’nin ortak adayı Muhammed Emin Sarıoğlu",
+     "kind": "statement"
+    },
+    {
+     "source": "text",
+     "quote": "Yeni Üsküdar Belediye Başkan Vekili AKP'li Muhammed Emin Sarıoğlu",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Cumhur İttifakı adayı seçildi:",
+     "kind": "behavioral"
+    },
+    {
+     "source": "context",
+     "quote": "diken: sol (34)",
+     "kind": "statement"
+    },
+    {
+     "source": "context",
+     "quote": "sabah: sağ (80)",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      3,
+      4
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Sol konumlu kurumlar 'AKP'li' etiketini, sağ konumlu kurumlar 'Cumhur İttifakı adayı' ifadesini öne çıkarıyor.",
+   "alternative_explanation": "Etiket farkı kurumların alışılmış adlandırma pratiğinden kaynaklanabilir; değerlendirmeyi çarpıttığına dair kanıt yok.",
+   "missing_context": [
+    "Grup üyeliğinin bir değerlendirme farkına yol açtığına dair açık ifade",
+    "Karşılaştırılabilir vakalarda kurumların tutumu"
+   ]
+  }
+ ]
+}

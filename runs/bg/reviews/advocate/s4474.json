@@ -1,0 +1,42 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 22:43] Kocaeli'de MHP’li meclis üyesi tartışmada öldürüldü", "kind": "behavioral"},
+  {"source": "text", "quote": "[sozcu · 19:55] Tartışma kanlı bitti; MHP'li meclis üyesi silahlı saldırıda hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "[birgun · 19:45] MHP'li belediye meclis üyesi Saral, silahlı saldırıda öldürüldü", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı ölüm bir kurumda 'tartışmada öldürüldü' (kişisel anlaşmazlık), diğerlerinde 'silahlı saldırı' çerçevesiyle sunuluyor.",
+ "alternative_explanation": "Tartışma ayrıntısı karar'ın aktardığı olgusal bilgiye dayanıyor; çerçeve farkı bilgi seçimi olabilir.",
+ "missing_context": ["Çerçevenin okur değerlendirmesini değiştirdiğine dair kanıt", "Eşdeğerliğin açıkça kurulması"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[haberturk · 13:48] MHP'li meclis üyesinin katili arkadaşı çıktı", "kind": "behavioral"},
+  {"source": "text", "quote": "[sozcu · 19:55] Tartışma kanlı bitti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "'Kanlı bitti' ve 'katili arkadaşı çıktı' gibi çarpıcı ayrıntılar başlıkta öne çıkarılıyor.",
+ "alternative_explanation": "Failin kimliği ve olayın tartışmayla başlaması haber değeri yüksek gelişmelerdir.",
+ "missing_context": ["Bu ayrıntının bir yargıyı haksız biçimde etkilediğine dair ifade"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 22:43] Kocaeli'de MHP’li meclis üyesi tartışmada öldürüldü", "kind": "behavioral"},
+  {"source": "text", "quote": "Murat Saral, tartıştığı kişinin silahlı saldırısına uğradı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "A Haber başlığı silahlı saldırı ayrıntısını düzleştirip tartışma unsurunu öne çıkarıyor; karar'ın ledesi her iki unsuru da veriyor.",
+ "alternative_explanation": "Başlık kısaltması nedeniyle ayrıntı atlanmış olabilir.",
+ "missing_context": ["A Haber haber metninin tamamı", "Farkın bir sonuca etkisi"]}
+]}

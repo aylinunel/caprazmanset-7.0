@@ -1,0 +1,92 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Alperen Şengün 'triple-double'ı kıl payı kaçırdı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Alperen Şengün'ün \"triple-double\"a yaklaştığı maçta",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Alperen Şengün triple-double'ın kıyısından döndü",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı istatistik bazı kurumlarda 'kaçırdı/kıyısından döndü' (kayıp), bazılarında 'yaklaştı' (kazanç) çerçevesiyle verilmiş.",
+   "alternative_explanation": "Farklı ifadeler editoryal üslup ve spor haberciliği kalıplarından kaynaklanabilir; okuyucu yargısını değiştirdiğine dair veri yok.",
+   "missing_context": [
+    "Çerçeve farkının okuyucu değerlendirmesini etkilediğine dair kanıt",
+    "Kümede Thunder ve Celtics maçları karışmış; aynı olayın mı kastedildiği"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Alperen Şengün triple-double'ın kıyısından döndü! Rockets'tan Thunder'a 21 sayılık fark",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Alperen Şengün double-double yaptı, Houston Rockets kazandı!",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Başlıklar takım sonucundan çok milli oyuncunun bireysel istatistiğini öne çıkarıyor.",
+   "alternative_explanation": "Türk okuyucu için milli oyuncunun performansı haber değeri açısından meşru biçimde önceliklidir.",
+   "missing_context": [
+    "Bireysel öne çıkarmanın bir yargıyı haksız biçimde etkilediğine dair açık ifade",
+    "Diğer oyuncu ve maç verilerinin karşılaştırmalı sunumu"
+   ]
+  }
+ ]
+}

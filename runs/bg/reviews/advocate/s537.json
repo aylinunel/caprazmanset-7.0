@@ -1,0 +1,138 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Gazze katliamına karşı hukuk bayrağını açan isme Nobel",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Nobel Barış Ödülü Navi Pillay'a verildi",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Navi Pillay'dan Trump'a esprili gönderme",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı ödül haberi Gazze, Trump veya nötr hukuk vurgusuyla farklı çerçevelenmiş.",
+   "alternative_explanation": "Pillay'ın Gazze çalışmaları ve Trump göndermesi gerçek ve ilgili bilgilerdir.",
+   "missing_context": [
+    "Çerçevenin bir değerlendirmeyi değiştirdiğine dair açık ifade"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Nobel kazanan Pillay'dan Trump'a esprili gönderme...",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Trump, Nobel Barış Ödülü'nün Navi Pillay'e verilmesine tepki göstererek Norveç'i hedef aldı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Bazı kurumlar ödülün gerekçesinden çok Trump ile ilgili çarpıcı anekdotları öne çıkarıyor.",
+   "alternative_explanation": "Trump tepkisi gelişen bir haber unsurudur ve haber değeri taşır.",
+   "missing_context": [
+    "Öne çıkarmanın haksız bir yargıya dönüştüğüne dair kanıt"
+   ]
+  },
+  {
+   "card_id": "messenger-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Trump, Nobel Barış Ödülü'nün Navi Pillay'e verilmesine tepki göstererek Norveç'i hedef aldı",
+     "kind": "statement"
+    },
+    {
+     "source": "text",
+     "quote": "Pillay'i \"Birleşmiş Milletlerde çalışan, kimsenin tanımadığı liberal biri\" olarak nitelendiren Trump",
+     "kind": "statement"
+    },
+    {
+     "source": "text",
+     "quote": "ödülün kendisine verilmesi gerektiğini savundu",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "satisfied",
+     "evidence_indices": [
+      1
+     ]
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Trump'ın ödül kararına itirazı, Pillay'ın içeriksel çalışmalarından çok kimliğine ('tanınmayan liberal') dayandırılmış olarak aktarılıyor.",
+   "alternative_explanation": "Trump'ın tepkisi kişisel çıkar veya siyasi rekabetten kaynaklanabilir; haberde içerik değerlendirmesi kesilmiş olabilir.",
+   "missing_context": [
+    "Trump'ın açıklamasının tam metni",
+    "Kaynağa dayalı yargının içerik değerlendirmesinin yerini aldığına dair kanıt"
+   ]
+  }
+ ]
+}

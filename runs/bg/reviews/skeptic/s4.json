@@ -1,0 +1,63 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "anchoring-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Daha önce İstanbul'da iki araçta 16 milyon 440 bin avro ve 700 bin dolar ele geçirilen soruşturmada", "kind": "statement"},
+  {"source": "text", "quote": "Önceki operasyonlarda ele geçirilen paralarla toplam tutar 2 milyar 475 milyon TL'ye ulaştı.", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "satisfied", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Önceki ele geçirme tutarı yeni toplamın hesabında kullanılıyor; bu bir tahmin değil toplama işlemi, haksız etki gösterilmiyor.",
+ "alternative_explanation": "Kümülatif toplamı vermek soruşturmanın boyutunu açıklamak için meşru bir referanstır.",
+ "missing_context": ["Toplamın hangi kurla hesaplandığı", "Sahte döviz iddiasının toplamdan düşülüp düşülmediği"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Vay Kara Haydar vay! 1,5 milyar TL daha bulundu", "kind": "behavioral"},
+  {"source": "text", "quote": "\"Vanlı Kara Haydar\" soruşturması: Baskında dev servet ele geçirildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Çarpıcı ifadeler var ama bir yargının çarpıcılık nedeniyle hatalı kurulduğu ya da karşıt kanıtın göz ardı edildiği gösterilmiyor.",
+ "alternative_explanation": "Büyük tutarlar doğası gereği dikkat çekicidir; vurgu haber değerini yansıtıyor olabilir.",
+ "missing_context": ["Benzer kara para soruşturmalarının olağan büyüklüğü", "Okur yargısına etkiye dair veri"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Toplam tutar 2,47 milyar TL’yi aşarken sahte döviz iddiası inceleniyor.", "kind": "behavioral"},
+  {"source": "text", "quote": "ele geçirilen paraların açıklanan nominal toplamı yaklaşık 2,5 milyar", "kind": "behavioral"},
+  {"source": "text", "quote": "Vanlı Kara Haydar soruşturmasında yeni operasyon! Yakalanan para 2,5 milyar TL’ye dayandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı toplam bazı kurumlarda 'nominal' ve sahte döviz şerhiyle, bazılarında şerhsiz yuvarlanmış olarak veriliyor; sunum farkı gözleniyor ancak bir yargının buna bağlandığı metinde yok.",
+ "alternative_explanation": "Şerhsiz kullanım başlık kısalığı veya ilk resmi açıklamanın aynen aktarılmasından kaynaklanabilir; tutar resmi açıklamayla tutarlı.",
+ "missing_context": ["Sahte döviz miktarı ve toplama etkisi", "Resmi açıklamanın tam metni"]},
+{"card_id": "negativity-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "kara para aklama soruşturmasında yeni gelişme yaşandı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Olumsuz bir suç haberi aktarılıyor; olumlu ve olumsuz kanıtın orantısız tartıldığına dair bir karşılaştırma yok.",
+ "alternative_explanation": "Suç soruşturması haberinin olumsuz içeriği konunun doğasıdır.",
+ "missing_context": ["Şüphelilerin savunması", "Karşılaştırılabilir olumlu bilgi"]},
+{"card_id": "delegation-creep", "verdict": "not_supported",
+ "evidence": [],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde yapay zeka kullanımı veya görev kapsamı genişlemesi yok.",
+ "alternative_explanation": "Haber bir mali suç soruşturmasıyla ilgili; kart konuyla ilişkisiz.",
+ "missing_context": ["Herhangi bir yapay zeka iş akışı kaydı"]}
+]}

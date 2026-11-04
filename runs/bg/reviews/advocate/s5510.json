@@ -1,0 +1,90 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Son dakika: Trump için kritik viraj!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Sarı kovboy Trump için kritik gün",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "ABD'de ara seçimlerde oy kullanma işlemi başladı",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı oy verme süreci bazı kurumlarda nötr, bazılarında Trump merkezli 'kritik' çerçeveyle sunulmuş.",
+   "alternative_explanation": "Ara seçimlerin başkanın yasama gücünü etkilemesi gerçek bir bağlamdır; çerçeve bilgi verici olabilir.",
+   "missing_context": [
+    "Çerçevenin okuyucu yargısını değiştirdiğine dair kanıt"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "ABD’de Trump için kritik gün: Oy verme işlemleri başladı!",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "ABD'de seçim günü: Oy verme işlemleri başladı! Trump için kritik anlar",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Başlıklarda Trump figürü seçim sürecinin diğer unsurlarına göre öne çıkarılmış.",
+   "alternative_explanation": "Trump'ın tanınırlığı nedeniyle okuyucu ilgisine yönelik meşru bir tercih olabilir.",
+   "missing_context": [
+    "Öne çıkarmanın bir yargıyı haksız biçimde etkilediğine dair açık ifade"
+   ]
+  }
+ ]
+}

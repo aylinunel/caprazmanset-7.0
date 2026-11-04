@@ -1,0 +1,143 @@
+{
+ "role": "advocate",
+ "assessments": [
+  {
+   "card_id": "framing-effect",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "Eski AKP ve MHP'li başkanlar dahil 15 kişi tutuklandı",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "AKP'li ve MHP'li eski başkanlar da cezaevine gönderildi",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Eski başkanlar Ahmet Sungur ve Osman Türkyılmaz da tutuklananlar arasında.",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Aynı tutuklama haberi bazı kurumlarda parti kimliğiyle, bazılarında yalnızca isimle çerçevelenmiş.",
+   "alternative_explanation": "Parti bilgisi kamu yararı açısından ilgili olabilir; yer darlığı veya üslup farkı da açıklayabilir.",
+   "missing_context": [
+    "Çerçeve farkının bir yargıya bağlandığına dair açık ifade"
+   ]
+  },
+  {
+   "card_id": "salience-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "İki eski başkan dahil 16 tutuklama",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "2 eski başkan da cezaevine gönderildi",
+     "kind": "behavioral"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Başlıklar şüpheliler arasından eski başkanları öne çıkarıyor.",
+   "alternative_explanation": "Eski başkanların varlığı haber değeri yüksek ve ilgili bir bilgidir.",
+   "missing_context": [
+    "Öne çıkarmanın haksız bir çıkarıma yol açtığına dair kanıt"
+   ]
+  },
+  {
+   "card_id": "in-group-bias",
+   "verdict": "uncertain",
+   "evidence": [
+    {
+     "source": "text",
+     "quote": "AKP'li ve MHP'li eski başkanlar da cezaevine gönderildi",
+     "kind": "behavioral"
+    },
+    {
+     "source": "text",
+     "quote": "Yahşihan Belediyesi soruşturmasında 15 tutuklama",
+     "kind": "behavioral"
+    },
+    {
+     "source": "context",
+     "quote": "sozcu: sol (42)",
+     "kind": "statement"
+    },
+    {
+     "source": "context",
+     "quote": "takvim: sağ (84)",
+     "kind": "statement"
+    }
+   ],
+   "necessary_conditions": [
+    {
+     "condition_index": 0,
+     "status": "satisfied",
+     "evidence_indices": [
+      0,
+      2,
+      3
+     ]
+    },
+    {
+     "condition_index": 1,
+     "status": "unknown",
+     "evidence_indices": []
+    },
+    {
+     "condition_index": 2,
+     "status": "unknown",
+     "evidence_indices": []
+    }
+   ],
+   "mechanism": "Sol konumlu kurumlar parti kimliğini başlığa taşırken bazı sağ konumlu kurumlar başlıkta parti bilgisini vermiyor.",
+   "alternative_explanation": "Desen tutarlı değil (Karar, Aydınlık, Diken de parti adı vermiyor); fark editoryal tercihten kaynaklanabilir.",
+   "missing_context": [
+    "Kurumların grup üyeliğine göre farklı standart uyguladığına dair karşılaştırmalı vakalar",
+    "Karşı parti üyeleri için benzer haberlerin nasıl verildiği"
+   ]
+  }
+ ]
+}
