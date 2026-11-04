@@ -1,0 +1,46 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Gazeteci Şaban Sevinç ve Mustafa Balcı tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "asılsız ithamları yaydıkları gerekçesiyle", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı tutuklama takvimde aşağılayıcı bir kelime oyunuyla, diğerlerinde nötr dille veriliyor; okur yargısının sunuma bağlandığı metinde açık değil.",
+ "alternative_explanation": "Üslup farkı kurumun genel yayın tarzını yansıtabilir; 'asılsız' nitelemesi savcılık gerekçesinin aktarımı olabilir.",
+ "missing_context": ["Savcılık açıklamasının tam metni", "Kurumların benzer olaylardaki başlık tercihleri"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Sözcü.com.tr editörü arkadaşımız Mustafa Balcı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Sözcü haberinde gruba aidiyet açık, ancak bunun güvenilirlik veya suçlama değerlendirmesini farklılaştırdığı gösterilmiyor.",
+ "alternative_explanation": "Kendi çalışanını 'arkadaşımız' diye anmak kurum içi olağan bir ifadedir; içerik olgusal sevk bilgisi veriyor.",
+ "missing_context": ["Sözcü'nün benzer durumdaki başka gazetecileri nasıl haberleştirdiği", "Haberin tam metni"]},
+{"card_id": "authority-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturması kapsamında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Savcılık işlem yapan makam olarak anılıyor; iddianın yalnızca statüye dayanarak doğru kabul edildiği açıkça gösterilmiyor.",
+ "alternative_explanation": "Yargı makamının işlemini aktarmak olağan adli habercilik.",
+ "missing_context": ["Savunma beyanlarına yer verilip verilmediği"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İsmail Saymaz ve Murat Ağırel'e ev hapsi", "kind": "behavioral"},
+  {"source": "text", "quote": "Murat Ağırel ile İsmail Saymaz ise adli kontrol şartıyla serbest bırakıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "AK Parti Sözcüsü Ömer Çelik hakkında yanıltıcı açıklamalar yaptıkları gerekçesiyle", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Adli kontrol türü ve suçlamanın konusu kurumlara göre farklı ayrıntı düzeyinde veriliyor.",
+ "alternative_explanation": "Ev hapsi bir adli kontrol türü olabilir; farklar çelişki değil ayrıntı düzeyi farkı olabilir.",
+ "missing_context": ["Hakimlik kararının tam içeriği", "Suçlamaya konu açıklamaların listesi"]}
+]}

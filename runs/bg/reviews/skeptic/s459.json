@@ -1,0 +1,43 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yahşihan Belediyesi'nde yolsuzluk operasyonu: AKP'li ve MHP’li eski başkanlar hakkında gözaltı kararı", "kind": "behavioral"},
+  {"source": "text", "quote": "SON DAKİKA | Yahşihan Belediyesi'ne operasyon! 31 gözaltı", "kind": "behavioral"},
+  {"source": "text", "quote": "Kırıkkale'de yolsuzluk operasyonu: 31 gözaltı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı operasyon kimi başlıkta parti kimliğiyle, kimi başlıkta yalnızca gözaltı sayısıyla sunuluyor; buna bağlı bir yargı metinde yok.",
+ "alternative_explanation": "Başlık uzunluğu, ajans kaynağı ve son dakika hızı farklı vurguları açıklayabilir.",
+ "missing_context": ["Şüpheli sayısının (35/36) ve gözaltı sayısının resmi kaynağı"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yahşihan Belediyesi'ne yolsuzluk operasyonu! Mal varlıklarına el konuldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Farklı kurumlar farklı ayrıntıları öne çıkarıyor; çarpıcı bir ayrıntının yargıyı haksız etkilediği gösterilmiyor.",
+ "alternative_explanation": "Mal varlığına el koyma, operasyonun olgusal ve haber değeri olan bir unsurudur.",
+ "missing_context": ["Okur yargısına veya karara ilişkin herhangi bir veri"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Yahşihan Belediyesine yolsuzluk soruşturması: AK Partili ve MHP'li eski başkanlar da listede", "kind": "behavioral"},
+  {"source": "text", "quote": "AK Partili eski Belediye Başkanı Ahmet Sungur ile MHP'li eski Belediye Başkanı Osman Türkyılmaz'ın da aralarında bulunduğu", "kind": "behavioral"},
+  {"source": "context", "quote": "takvim: sağ (84)", "kind": "statement"},
+  {"source": "context", "quote": "ahaber: sağ (85)", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "contradicted", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Parti kimliği sağ konumlu kurumlarda da (takvim, ahaber) açıkça veriliyor; aidiyete göre farklı muamele örüntüsü görülmüyor.",
+ "alternative_explanation": "Parti bilgisinin verilip verilmemesi kurum siyasetinden çok ajans metni ve başlık tercihine bağlı görünüyor.",
+ "missing_context": ["Kurumların muhalefet partili belediyelere yönelik operasyonlarda aynı dili kullanıp kullanmadığı"]}
+]}

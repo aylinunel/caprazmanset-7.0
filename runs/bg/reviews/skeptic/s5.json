@@ -1,0 +1,47 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında flaş: 1 kişi daha tutuklandı!", "kind": "behavioral"},
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında yeni tutuklama kararı! Eski erkek arkadaşı 4 saat ifade verdi", "kind": "behavioral"},
+  {"source": "text", "quote": "Gülistan Doku soruşturmasında bir tutuklama daha", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı tutuklama bazı kurumlarda 'flaş' veya ek ayrıntıyla, diğerlerinde nötr biçimde veriliyor; okur yargısına etkisi gösterilmiyor.",
+ "alternative_explanation": "Üslup farkı kurumların genel başlık tarzından kaynaklanabilir; ek ayrıntı farklı haber kaynağına dayanabilir.",
+ "missing_context": ["Kurumların genel başlık üslubu", "Ek ayrıntıların kaynağı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "gözaltına alınan 10 şüpheliden 2’si tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "gözaltına alınan 7 şüpheliden biri daha tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "gözaltına alınan 2 şüpheli adliyeye sevk edildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kurumlar gözaltı ve tutuklama sayılarını farklı veriyor; ayrıntılar bazı haberlerde düzleşmiş görünüyor.",
+ "alternative_explanation": "Farklılıklar operasyonun farklı aşamalarının (sevk edilen 2 kişi, toplam 10 gözaltı) aktarılmasından kaynaklanabilir; maddi bir çarpıtma olmayabilir.",
+ "missing_context": ["Resmi açıklamadaki kesin sayılar", "Haberlerin yayımlandığı aşama"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Dosyadaki en dikkat çekici ayrıntı ise", "kind": "statement"},
+  {"source": "text", "quote": "Doku'nun 12.25'te Sarısaltuk Köprüsü'nde görüntülenmesinden", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Çarpıcı ayrıntılar öne çıkarılıyor ancak bunların bir yargıyı gerekçesiz belirlediği gösterilmiyor.",
+ "alternative_explanation": "İfadelerdeki zaman ayrıntıları soruşturma açısından gerçekten ilgili olabilir.",
+ "missing_context": ["Haberin tam metni", "Daha az çarpıcı bilgilerin ele alınışı"]},
+{"card_id": "identifiable-victim-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "21 yaşındaki üniversite öğrencisi Gülistan Doku’nun soruşturmasında", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Kimliği belirli bir mağdur anılıyor ancak bir kaynak/yardım tahsisi kararı veya karşılaştırma yok.",
+ "alternative_explanation": "Soruşturma tek bir kişinin akıbetine ilişkin; adının anılması doğal.",
+ "missing_context": ["Bir tahsis kararı ve karşılaştırılabilir grup"]}
+]}

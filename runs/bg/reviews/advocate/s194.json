@@ -1,0 +1,69 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[star · 09:18] Mersin'de 'yolsuzluk' operasyonu! CHP'li başkan Vahap Seçer tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "[trthaber · 07:49] Mersin'deki yolsuzluk soruşturmasında tutuklama kararı", "kind": "behavioral"},
+  {"source": "text", "quote": "[aydinlik · 09:25] Mersin Büyükşehir Belediye Başkanı Vahap Seçer adliyeye sevk edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı gelişme parti kimliği ve 'yolsuzluk operasyonu' vurgusuyla ya da nötr usul diliyle çerçeveleniyor.",
+ "alternative_explanation": "Başlıklar farklı saatlerde farklı aşamaları (sevk/tutuklama) aktarıyor; parti bilgisi olgusaldır.",
+ "missing_context": ["Eşdeğerliğin ve çerçeveye bağlı yargının açıkça kurulması"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Mersin'de 3 belediye başkanına tutuklama talebi, biri tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "Vahap Seçer, Abdullah Özyiğit ve Ahmet Serkan Tuncer de tutuklananlar arasında.", "kind": "statement"},
+  {"source": "text", "quote": "[takvim · 08:28] Mersin'de yolsuzluk soruşturması! Vahap Seçer dahil 34 kişi tutuklandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Tutuklama kapsamı kurumlar arasında farklı ayrıntı düzeyinde ve farklı vurguyla aktarılıyor.",
+ "alternative_explanation": "Cumhuriyet haberi karar sürecinin ortasında yayımlanmış olabilir; fark zamanlamadan kaynaklanabilir.",
+ "missing_context": ["Kesin tutuklama listesi ve saatleri", "Farkın bir sonuca etkisi"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[ahaber · 08:23] Mersin'de 3 belediyeye yolsuzluk operasyonu! Büyükşehir Belediye Başkanı Vahap Seçer tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "[sozcu · 07:20] Mersin Büyükşehir Belediye Başkanı Vahap Seçer adliyeye sevk edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Yolsuzluk suçlaması bazı başlıklarda ünlem ile öne çıkarılıyor, diğerlerinde usul bilgisi veriliyor.",
+ "alternative_explanation": "Soruşturmanın konusu yolsuzluk ise başlıkta yer alması olgusal bir tercihtir.",
+ "missing_context": ["Vurgunun bir yargıyı haksız biçimde yönlendirdiğine dair ifade"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "CHP'li başkan Vahap Seçer tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "[diken · 09:28] CHP'li Mersin Büyükşehir Belediye Başkanı Vahap Seçer tutuklandı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Parti üyeliği bazı başlıklarda belirtiliyor; ancak bunun bir değerlendirme farkına bağlandığı görülmüyor.",
+ "alternative_explanation": "Parti bilgisi hem sağ hem sol kurumlarca verilmiş olgusal bir tanımlamadır.",
+ "missing_context": ["Grup üyeliğine bağlı farklı muamele veya değerlendirme kanıtı"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Mersin Cumhuriyet Başsavcılığı'nca yürütülen soruşturma kapsamında 1 Ekim'de gözaltına alınan", "kind": "statement"},
+  {"source": "text", "quote": "[sabah · 08:27] Son dakika: Mersin Belediyesine yolsuzluk operasyonu: Vahap Seçer tutuklandı!", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Savcılığın 'yolsuzluk' nitelemesi bazı başlıklarda tırnaksız ve kesin bilgi gibi aktarılıyor.",
+ "alternative_explanation": "Soruşturmanın resmi adını aktarmak standart haber pratiğidir; kanıt değerlendirmesinin yerini aldığı gösterilmiyor.",
+ "missing_context": ["Savunma açıklamaları", "Resmi niteleme dışındaki kanıtların göz ardı edildiğine dair ifade"]}
+]}

@@ -1,0 +1,15 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Beşiktaş üç puanı son anlarda kaybetti: Kasımpaşa 2-2 Beşiktaş", "kind": "behavioral"},
+  {"source": "text", "quote": "Beşiktaş, Kasımpaşa deplasmanından 1 puanla döndü: Kasımpaşa: 2 Beşiktaş: 2", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı 2-2 sonucu bir kurum kayıp ('üç puanı kaybetti'), diğeri kazanç ('1 puanla döndü') çerçevesiyle veriyor; eşdeğerlik açık, ancak çerçeveye bağlı bir yargı veya tercih metinde yok.",
+ "alternative_explanation": "'Son anlarda kaybetti' maçın seyrine (önde olup beraberliğe razı olma) dair gerçek bir bilgiyi aktarıyor olabilir.",
+ "missing_context": ["Maçın gol dakikaları", "Okur yargısına etkisini gösteren kanıt"]}
+]}

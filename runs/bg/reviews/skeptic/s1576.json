@@ -1,0 +1,40 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Kazada ağır yaralanmıştı... AKP'li Üsküdar Başkan Vekili Dündar Ziya Gültekin hayatını kaybetti", "kind": "behavioral"},
+  {"source": "text", "quote": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin kazada hayatını kaybetti!", "kind": "behavioral"},
+  {"source": "text", "quote": "Rahmetli Ziya Başkanımız, abimiz, komşumuz", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı ölüm haberi bazı kurumlarda parti etiketiyle, birinde ise sahiplenici bir anma diliyle sunulmuş; sunum farkı var ancak bir yargının buna bağlandığı metinde yok.",
+ "alternative_explanation": "Parti bilgisi siyasi kimliği tanıtmak için ilgili olabilir; anma dili köşe yazısı ya da taziye metni türünden kaynaklanabilir.",
+ "missing_context": ["Kurumların diğer partilerden yerel yöneticilerin ölüm haberlerinde etiket kullanımı", "Dirilis metninin türü ve yazarı"]},
+{"card_id": "salience-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Düzce'de feci kaza: Üsküdar Belediye Başkan Vekili Gültekin hayatını kaybetti", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "'Feci kaza' çarpıcı bir niteleme; ancak bir yargının çarpıcılığa dayanarak hatalı kurulduğu gösterilmiyor.",
+ "alternative_explanation": "Ölümlü kazalarda bu tür nitelemeler yerleşik haber dilidir.",
+ "missing_context": ["Kaza nedenine dair resmi bilgi"]},
+{"card_id": "in-group-bias", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "Üsküdar siyasetinde yıllarca örnek bir teşkilat mensubu", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Teşkilat aidiyetine değiniliyor ama grup üyeliğine bağlı farklı bir standart, yargı veya karar gösterilmiyor.",
+ "alternative_explanation": "Bir anma metninde ölen kişiye övgü olağandır; karşılaştırmalı bir muamele yok.",
+ "missing_context": ["Aynı kurumun farklı gruplardan isimlerin ölümlerini nasıl haberleştirdiği"]}
+]}

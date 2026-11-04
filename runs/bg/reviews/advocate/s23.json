@@ -1,0 +1,55 @@
+{"role": "advocate", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[cumhuriyet · 21:45] Son Dakika... İntihar ettiği ortaya çıktı", "kind": "behavioral"},
+  {"source": "text", "quote": "[trthaber · 23:14] Afyonkarahisar Vali Yardımcısı İhsan Ayrancı vefat etti", "kind": "behavioral"},
+  {"source": "text", "quote": "İhsan Ayrancı neden öldü, cinayet mi intihar mı?", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ölüm şekli bir kurumda 'intihar' olarak keskinleştirilirken bir diğerinde 'vefat' ile düzleştiriliyor, bir başkasında soru olarak bırakılıyor.",
+ "alternative_explanation": "Resmi açıklama süreci ve hassas konularda yayın ilkeleri farklı ayrıntı düzeylerini açıklayabilir.",
+ "missing_context": ["Resmi ölüm nedeni açıklaması ve zamanı", "Farkın bir sonuca etkisi"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Afyonkarahisar Vali Yardımcısının sır ölümü", "kind": "behavioral"},
+  {"source": "text", "quote": "[sabah · 07:00] Afyonkarahisar Vali Yardımcısı vefat etti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı ölüm 'sır ölümü' gizem çerçevesiyle ya da nötr 'vefat' diliyle sunuluyor.",
+ "alternative_explanation": "Kurumlar farklı bilgi aşamalarında yayın yapmış olabilir.",
+ "missing_context": ["Eşdeğerliğin ve çerçeveye bağlı yargının açıkça kurulması"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "[star · 21:52] Afyonkarahisar'da vali yardımcısı intihar etti", "kind": "behavioral"},
+  {"source": "text", "quote": "[ntv · 22:07] Silahla vurulmuş halde bulunan Afyonkarahisar Vali Yardımcısı Ayrancı hayatını kaybetti", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Silahla vurulma ve intihar gibi çarpıcı ayrıntılar başlıklarda öne çıkıyor.",
+ "alternative_explanation": "Ölüm şekli olayın temel olgusudur ve başlıkta yer alması doğaldır.",
+ "missing_context": ["Vurgunun bir yargıyı haksız biçimde etkilediğine dair ifade"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Yapılan incelemede Ayrancı'nın kendi beylik silahıyla intihar ettiği belirlendi.", "kind": "statement"},
+  {"source": "text", "quote": "Valiliğin sosyal medya hesabından yapılan açıklamada", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "İntihar sonucu, kaynağı belirtilmeyen bir 'inceleme'ye dayanılarak kesin biçimde aktarılıyor; resmi açıklama tahkikatın sürdüğünü söylüyor.",
+ "alternative_explanation": "Kurumlar güvenilir resmi kaynaklardan bilgi almış olabilir; yetkiye dayanmak burada makuldür.",
+ "missing_context": ["İncelemeyi yapan makam", "Tahkikat sonucunun açıklanıp açıklanmadığı"]}
+]}

@@ -1,0 +1,43 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Emir Sarıgül tutuklandı, işte 16 kişilik tutuklu listesi!", "kind": "behavioral"},
+  {"source": "text", "quote": "Siyaset, medya ve iş dünyasını sarsan milyar avroluk kara para aklama soruşturmasında", "kind": "behavioral"},
+  {"source": "text", "quote": "Sarıgül soruşturmasında Emir Sarıgül adliyeye sevk edildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar 'dev', 'sarsan', 'milyar avroluk' gibi büyütücü çerçeveler kullanırken diğerleri usul diliyle veriyor; çerçeveye bağlı bir yargı ise gösterilmiyor.",
+ "alternative_explanation": "Soruşturmanın ölçeği gerçekten büyük olabilir; üslup farkı editoryal tercihtir.",
+ "missing_context": ["Soruşturmanın resmi ölçek bilgisi", "Okur yargısına etkisini gösteren kanıt"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Dev operasyonda tutuklu sayısı 16'ya yükseldi.", "kind": "behavioral"},
+  {"source": "text", "quote": "soruşturmada 15 kişi tutuklandı.", "kind": "behavioral"},
+  {"source": "text", "quote": "Dev operasyonda daha önce aralarında kardeşi Ömer Sarıgül, annesi Aylin Kotil ve gazeteci Murat Ağırel'in de", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar arası karşılaştırma tutuklu sayısında ve hangi isimlerin öne çıkarıldığında (ör. gazeteci adının eklenmesi) farklılık gösteriyor.",
+ "alternative_explanation": "15/16 farkı Emir Sarıgül'ün tutuklanmasından önceki ve sonraki sayımı yansıtabilir; isim seçimi haber değeriyle ilgilidir.",
+ "missing_context": ["Resmi tutuklu listesi ve zaman çizelgesi", "Farkın bir sonucu etkilediğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Mustafa Sarıgül'ün oğlu Emir Sarıgül de tutuklanarak cezaevine gönderildi", "kind": "behavioral"},
+  {"source": "text", "quote": "YENİ Parti Milletvekili Mustafa Sarıgül’ün oğlu Emir Sarıgül tutuklandı.", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Ünlü siyasetçi babayla bağlantı başlıkta öne çıkarılıyor; bu vurgunun bir yargıyı gerekçesiz yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Şüphelinin kimliğini okura tanıtmak için aile bağının belirtilmesi olağandır.",
+ "missing_context": ["Öne çıkarılan ayrıntının bir sonuca bağlandığı ifade"]}
+]}

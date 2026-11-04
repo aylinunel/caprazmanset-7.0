@@ -1,0 +1,30 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Ekimde fiyatı en çok artan ürün belli oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "İTO'ya göre İstanbul'da ekimde en çok artan ürün salatalık, en çok düşen limon oldu", "kind": "behavioral"},
+  {"source": "text", "quote": "Zirvede sebzeler var! Ekimde fiyatı en çok artan ve azalan ürünler belli oldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bir kurum yalnızca artan ürünü başlığa taşıyor, diğerleri hem artanı hem düşeni veriyor; bunun bir yargıyı çarpıttığı açıkça gösterilmiyor.",
+ "alternative_explanation": "Başlık kısalığı ya da okurun fiyat artışlarına ilgisi bu seçimi açıklayabilir; haber gövdesi düşen ürünü de içerebilir.",
+ "missing_context": ["Sözcü haberinin gövdesi", "Genel enflasyon oranı ve ürün sepetinin bütünü"]},
+{"card_id": "source-confusion", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Türkiye İstatistik Kurumu'nun ekim ayı verilerine göre, tüketici fiyatları bazında en yüksek fiyat artışı yüzde 71,79 ile taze veya soğutulmuş yeşil yapraklı sebzelerde gerçekleşti.", "kind": "statement"},
+  {"source": "text", "quote": "İTO'ya göre İstanbul'da ekimde en çok artan ürün salatalık", "kind": "statement"},
+  {"source": "text", "quote": "İTO ekimde fiyatı en çok artan ve azalan ürünleri açıkladı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kümede İTO İstanbul verisi ile TÜİK ulusal verisi aynı olay altında yer alıyor; ancak bir kurumun kaynağı yanlış atfettiğine dair açık bir düzeltme veya kayıt yok.",
+ "alternative_explanation": "Karar ve Star büyük olasılıkla ayrı bir TÜİK açıklamasını doğru kaynağıyla haberleştirdi; karışıklık haber kümelemesinden kaynaklanıyor olabilir.",
+ "missing_context": ["İTO ve TÜİK açıklamalarının özgün metinleri", "Karar ve Star haberlerinin İTO verisine atıf yapıp yapmadığı"]}
+]}

@@ -1,0 +1,41 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "Bağcılar’da 5 bina tahliye edildi", "kind": "behavioral"},
+ {"source": "text", "quote": "tedbir amaçlı toplam 4 bina tahliye edildi", "kind": "statement"},
+ {"source": "text", "quote": "Bağcılar'da 4 bina tahliye edildi", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Bir kurum 5 bina derken diğerleri 4 bina diyor; bazı başlıklar çatlak nedenini atlıyor. Fark var ama özgün kayıt ve sonuç etkisi belirsiz.",
+ "alternative_explanation": "Sonraki saatlerde bir binanın daha tahliye edilmiş olması veya kısa başlık tercihi farkı açıklayabilir.",
+ "missing_context": ["Resmi tahliye sayısı ve zamanı", "Farkın bir yargıyı etkilediğine dair kanıt"]},
+{"card_id": "salience-bias", "verdict": "uncertain", "evidence": [
+ {"source": "text", "quote": "Bağcılar'da inşaat çalışması sonrası çökme tehlikesi! 4 apartman tahliye edildi", "kind": "behavioral"},
+ {"source": "text", "quote": "2 binanın duvarlarında çatlak ve yarıklar oluştuğunun belirlenmesi üzerine tedbir amaçlı", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}],
+ "mechanism": "Bir kurum 'çökme tehlikesi'ni başlığa taşırken diğerleri tahliyenin tedbir amaçlı olduğunu yazıyor; vurgu farkı haksız bir yargıya bağlanmıyor.",
+ "alternative_explanation": "Zeminde kayma ve çatlaklar gerçek bir risk göstergesi olabilir; çökme riski vurgusu orantılı olabilir.",
+ "missing_context": ["Hasar tespit raporu", "Yetkililerin risk değerlendirmesi"]},
+{"card_id": "negativity-bias", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Bağcılar'da çatlak paniği! 4 apartman tahliye edildi", "kind": "behavioral"},
+ {"source": "text", "quote": "Binalardan birinin önündeki zeminde kayma yaşanması ve sesler gelmesi", "kind": "statement"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "contradicted", "evidence_indices": [1]}],
+ "mechanism": "Olumsuz 'panik' vurgusu var, ancak metin zemin kayması gibi somut risk bilgisi veriyor; vurgu riske orantısız görünmüyor.",
+ "alternative_explanation": "Tahliye gerektiren gerçek bir güvenlik riski olumsuz vurguyu haklı kılabilir.",
+ "missing_context": ["Karşılaştırılabilir olumlu bilginin (ör. can kaybı olmaması) dışlandığına dair kanıt"]},
+{"card_id": "framing-effect", "verdict": "not_supported", "evidence": [
+ {"source": "text", "quote": "Bağcılar'da panik! İnşaat çevresindeki 4 binaya acil tahliye", "kind": "behavioral"}],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}],
+ "mechanism": "Aynı olgu 'panik/acil' ile 'tedbiren' arasında farklı sunuluyor, ancak sunuma bağlı bir tercih veya karar metinde yok.",
+ "alternative_explanation": "Üslup farkı editoryal tercih olup okur kararını etkilediği gösterilmiyor.",
+ "missing_context": ["Sunuma bağlı bir yargı veya karar"]}
+]}

@@ -1,0 +1,58 @@
+{"role": "advocate", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "'Fon'daşlar kodese: Mustafa Balcı ve Şaban Sevinç tutuklandı", "kind": "behavioral"},
+  {"source": "text", "quote": "bazı bakan ve siyasetçiler hakkında asılsız ithamları yaydıkları gerekçesiyle", "kind": "behavioral"},
+  {"source": "text", "quote": "Fon soruşturmasıyla ilgili 'kamuoyunu yanıltıcı' açıklamalar yaptıkları gerekçesiyle", "kind": "behavioral"},
+  {"source": "text", "quote": "Sözcü.com.tr editörü arkadaşımız Mustafa Balcı", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [3]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Takvim suçlamayı 'asılsız ithamlar' ve 'kodese' diliyle kesinleştirirken Diken aynı gerekçeyi tırnak içinde mesafeli veriyor; aynı olay belirgin biçimde farklı çerçeveleniyor.",
+ "alternative_explanation": "Kurumların editoryal çizgileri ve olaya yakınlıkları farklı üslubu açıklayabilir; çerçeveye bağlı bir okur yargısı metinde yok.",
+ "missing_context": ["Okur/karar verici yargısına dair kanıt", "Mahkeme kararının gerekçesi"]},
+{"card_id": "in-group-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İfade işlemi tamamlanan Sözcü.com.tr editörü arkadaşımız Mustafa Balcı", "kind": "statement"},
+  {"source": "text", "quote": "'Fon'daşlar kodese:", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [1]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Sözcü tutuklanan gazeteciyi 'arkadaşımız' diye kendi grubundan sayıyor; ancak grup üyeliğinin değerlendirmeyi çarpıttığı açıkça gösterilmiyor.",
+ "alternative_explanation": "Çalışan bir meslektaşı haberleştirirken yakınlık ifadesi kullanmak olağandır.",
+ "missing_context": ["Karşılaştırılabilir vakalarda farklı standart uygulandığına dair kanıt"]},
+{"card_id": "authority-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "kamuoyunu yanıltıcı nitelikte açıklamalarda bulundukları gerekçesiyle gözaltına alınan gazeteciler", "kind": "statement"},
+  {"source": "text", "quote": "AK Parti Sözcüsü Ömer Çelik hakkında yanıltıcı açıklamalar yaptıkları gerekçesiyle", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Bazı kurumlar savcılık gerekçesini sorgulamadan aktarıyor; ancak statünün iddiayı kanıtladığına dair açık bir akıl yürütme yok.",
+ "alternative_explanation": "Resmi gerekçenin 'gerekçesiyle' kalıbıyla aktarılması standart adli habercilik dilidir.",
+ "missing_context": ["Gazetecilerin savunmaları ve haberde yer alıp almadığı"]},
+{"card_id": "leveling-and-sharpening", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "İsmail Saymaz ve Murat Ağırel'e ev hapsi", "kind": "behavioral"},
+  {"source": "text", "quote": "Murat Ağırel ile İsmail Saymaz ise adli kontrol şartıyla serbest bırakıldı", "kind": "behavioral"},
+  {"source": "text", "quote": "bazı bakan ve siyasetçiler hakkında asılsız ithamları yaydıkları gerekçesiyle", "kind": "behavioral"},
+  {"source": "text", "quote": "AK Parti Sözcüsü Ömer Çelik hakkında yanıltıcı açıklamalar yaptıkları gerekçesiyle", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2, 3]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar arasında karşılaştırma, aynı gerekçenin 'yanıltıcı açıklama'dan 'asılsız itham'a keskinleştiğini ve adli kontrolün 'ev hapsi' olarak özelleştiğini gösteriyor.",
+ "alternative_explanation": "Ev hapsi bir adli kontrol türü olabilir; farklı ifadeler farklı resmi kaynak ayrıntılarını yansıtabilir.",
+ "missing_context": ["Hakimlik kararının tam metni", "Farkın bir sonucu etkilediğine dair kanıt"]}
+]}

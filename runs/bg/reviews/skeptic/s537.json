@@ -1,0 +1,42 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Gazze katliamına karşı hukuk bayrağını açan isme Nobel: 2026 Barış Ödülü Navi Pillay'a verildi", "kind": "behavioral"},
+  {"source": "text", "quote": "2026 Nobel Barış Ödülü'nün sahibi açıklandı - TREND", "kind": "behavioral"},
+  {"source": "text", "quote": "2026 Nobel Barış Ödülü'nü kazanan Navi Pillay'dan Trump'a esprili gönderme", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Aynı ödül haberi Gazze, Trump veya nötr açıdan sunuluyor; ancak bu sunuma bağlanmış bir tercih ya da yargı metinde yok.",
+ "alternative_explanation": "Pillay'ın Gazze soruşturma komisyonundaki rolü ve Trump göndermesi gerçek, haber değeri olan olgulardır.",
+ "missing_context": ["Nobel Komitesi'nin resmi gerekçe metni", "Pillay'ın görev unvanlarının (UCM, UAD, BM) doğrulanması"]},
+{"card_id": "salience-bias", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Nobel kazanan Pillay'dan Trump'a esprili gönderme... 'Ödülü onunla paylaşabilirim'", "kind": "behavioral"},
+  {"source": "text", "quote": "2026 Nobel Barış Ödülü Navi Pillay'a verildi", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": [0, 1]}
+ ],
+ "mechanism": "Bazı kurumlar ödül gerekçesi yerine Trump esprisini öne çıkarıyor; bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+ "alternative_explanation": "Trump'ın ödüle ilgisi kamuoyunda bilinen bir konu olduğundan espri haber değeri taşır; sonraki saatlerde yeni bir gelişme olarak verilmiş olabilir.",
+ "missing_context": ["Haber gövdelerinde ödül gerekçesine ayrılan yer"]},
+{"card_id": "messenger-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Birleşmiş Milletlerde çalışan, kimsenin tanımadığı liberal biri", "kind": "statement"},
+  {"source": "text", "quote": "ödülün kendisine verilmesi gerektiğini savundu", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Trump ödül kararını alıcının tanınmışlığı ve siyasi kimliği üzerinden eleştiriyor; ancak Pillay bir iddianın iletici değil ödülün alıcısı ve içeriğin yerinden edildiği açıkça gösterilmiyor.",
+ "alternative_explanation": "Trump'ın tepkisi kişisel çıkar veya siyasi rekabetle açıklanabilir; kaynak izlenimine dayalı bir bilgi değerlendirmesi olmayabilir. Ahaber'in aktarımı kısaltılmış.",
+ "missing_context": ["Trump açıklamasının tam metni", "Trump'ın ödül gerekçesinin içeriğine değinip değinmediği"]}
+]}

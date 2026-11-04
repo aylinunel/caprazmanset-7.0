@@ -1,0 +1,53 @@
+{"role": "skeptic", "assessments": [
+{"card_id": "source-confusion", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "nihai kararın ise yarınki yönetim kurulu toplantısının ardından verileceği iddia edildi", "kind": "statement"},
+  {"source": "text", "quote": "A Milli Takım'ın yeni Teknik Direktörü belli oldu", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0, 1]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Kurumlar bilgiyi 'iddia' ya da kesin bilgi olarak farklı aktarıyor; ancak bir hatırlanan öğenin kaynağının yanlış atfedildiğine dair kayıt yok.",
+ "alternative_explanation": "Kesinlik farkı kaynaklara erişim ve editoryal ihtiyat düzeyinden kaynaklanabilir; bu bellek-kaynak hatası değildir.",
+ "missing_context": ["Haberin ilk kaynağı", "TFF resmi açıklamasının saati"]},
+{"card_id": "framing-effect", "verdict": "uncertain",
+ "evidence": [
+  {"source": "text", "quote": "Karar yarınki toplantı sonrası verilecek... A Milli Takım'da Sergen Yalçın sesleri", "kind": "behavioral"},
+  {"source": "text", "quote": "Son dakika haberi: A Milli Takım'da Sergen Yalçın dönemi! Prensip anlaşma tamam...", "kind": "behavioral"},
+  {"source": "text", "quote": "Sergen Yalçın, A Milli Takım'ın yeni teknik direktörü oldu", "kind": "behavioral"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "satisfied", "evidence_indices": [0, 1, 2]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Resmi açıklama öncesi aynı gelişme bazı kurumlarda 'sesler/iddia', bazılarında kesinleşmiş olarak sunulmuş; sunum farkı var ancak bir yargının buna bağlandığı metinde yok.",
+ "alternative_explanation": "Kesinlik farkı kaynak erişimi ve rekabet baskısını yansıtabilir; atama sonradan resmileşmiş görünüyor.",
+ "missing_context": ["Resmi açıklamanın zamanı", "Kurumların kullandığı kaynaklar"]},
+{"card_id": "bandwagon-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "TFF yetkililerinin Sergen Yalçın ile görüşme yaptığı", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "unknown", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Metinde bir tercihin popülerlik veya çoğunluk desteğiyle gerekçelendirildiği bir ifade yok.",
+ "alternative_explanation": "Kurumların aynı haberi vermesi ortak kaynaktan veya olayın önemli olmasından kaynaklanabilir.",
+ "missing_context": ["Atamanın gerekçesine dair TFF açıklaması"]},
+{"card_id": "illusory-truth-effect", "verdict": "not_supported",
+ "evidence": [
+  {"source": "text", "quote": "A Milli Futbol Takımı'nda Vincenzo Montella'nın yerine göreve getirilen Sergen Yalçın", "kind": "statement"}
+ ],
+ "necessary_conditions": [
+  {"condition_index": 0, "status": "contradicted", "evidence_indices": [0]},
+  {"condition_index": 1, "status": "unknown", "evidence_indices": []},
+  {"condition_index": 2, "status": "unknown", "evidence_indices": []}
+ ],
+ "mechanism": "Tekrarlanan iddia sonradan doğrulanmış görünüyor; yanlış ya da desteksiz bir önerme yok.",
+ "alternative_explanation": "Birden çok kurumun aynı bilgiyi vermesi bağımsız kaynaklardan veya doğru bilgiden kaynaklanabilir.",
+ "missing_context": ["TFF resmi açıklaması"]}
+]}
