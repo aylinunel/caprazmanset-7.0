@@ -1,0 +1,11 @@
+# Senior-engineer pre-push review — kindred-restyle
+
+## Push of 63fd2b4, 0abfe81 (hero), 6fb0273 (spec) — requested by the user ("push the repo")
+Reviewed with the task reviewer's findings (review-ab6d208..0abfe81) as input.
+- Correctness: hero renders, tests pass (logic 11/11, smoke ok). Known open defects, being fixed in round 2 (not in this push):
+  band knock-out text illegible; reduced-motion frame not t=1; fonts measured before Turkish glyph subsets load.
+- Clarity/simplicity: dead hero branches remain in dmMake (to be removed in round 2).
+- Performance: 30 fps cap and IntersectionObserver gate present.
+- Security: no new inputs; canvas text comes from the site's own data, rendered via fillText (no HTML injection); hidden paragraph uses esc().
+- Karpathy check: every changed line traces to the hero/restyle request; no unrelated edits. Spec is docs only.
+Decision: push as requested, with the open findings above recorded; round 2 follows in the next push.
