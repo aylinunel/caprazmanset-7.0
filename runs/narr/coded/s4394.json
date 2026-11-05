@@ -1,0 +1,178 @@
+{
+ "q": {
+  "happened": "Balıkesir'de (Susurluk) bir işçi servis minibüsü ile hafif ticari araç çarpıştı ve 9-10 kişi yaralandı; bazı başlıklar ise başka kazaları (tır-kamyonet, Akçakoca) aktarıyor.",
+  "agree": "Bir çarpışma ve yaralılar olduğu ortak.",
+  "differ": "Yaralı sayısı 9 (Haberler, Karar, A Haber) ile 10 (Akşam, Star, NTV, Türkiye Gazetesi) arasında değişiyor; Sabah, Akşam ve Star 'feci kaza' diyor; Habertürk, Mynet, Yeni Şafak ve Akit'in başlıkları farklı araçlar ve yaralı sayılarıyla başka bir kazaya işaret ediyor; NTV hafif ticari yerine 'otomobil' diyor.",
+  "care": "Aracın işçi servisi olarak anılması etkilenenleri işçiler olarak görünür kılar; farklı kazaların aynı olay altında toplanması ise sayıların ve olgunun güvenilirliğini zayıflatır."
+ },
+ "rows": [
+  {
+   "s": "haberler",
+   "frame": "Trafik kazası",
+   "hero": "İşçi servisi",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "İşçiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Trafik kazası",
+   "hero": "İşçi servisi",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "İşçiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Facia",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Trafik kazası",
+   "hero": "İşçi servisi",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "İşçiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Trafik kazası",
+   "hero": "İşçi servisi",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "İşçiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "aksam",
+   "frame": "Facia",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Facia",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Trafik kazası",
+   "hero": "İşçi servisi",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "İşçiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Trafik kazası",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Trafik kazası",
+   "hero": "İşçi servisi",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "İşçiler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Trafik kazası",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Trafik kazası",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yenisafak",
+   "frame": "Trafik kazası",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "akit",
+   "frame": "Trafik kazası",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralanma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

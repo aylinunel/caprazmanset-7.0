@@ -408,645 +408,437 @@
  ],
  "events": [
   {
-   "event": "s1772",
+   "event": "s1723",
    "week": "w8",
-   "title": "Zonguldak'ta maden ocağında patlama",
+   "title": "Meta'ya 25 milyar dolarlık ceza",
    "headlines": [
     {
-     "s": "turkiyegz",
-     "hl": "Zonguldak'ta maden ocağında patlama! 3 ölü, 5 yaralı"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA | Zonguldak'ta maden ocağında patlama! 3 ölü, 1'i ağır 5 yaralı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Zonguldak'ta maden ocağında grizu patlaması! 3 işçi vefat etti"
-    },
-    {
-     "s": "star",
-     "hl": "Zonguldak'ta maden ocağında patlama: 3 kişi hayatını kaybetti"
-    },
-    {
-     "s": "mynet",
-     "hl": "Son dakika | Zonguldak’ta maden ocağında patlama! Kahreden haber: 3 işçi öldü, 5 yaralı var"
-    },
-    {
      "s": "sozcu",
-     "hl": "Zonguldak'ta maden ocağında patlama! Ölü ve yaralılar var"
-    },
-    {
-     "s": "ntv",
-     "hl": "Zonguldak'ta maden ocağında patlama. 3 can kaybı"
-    },
-    {
-     "s": "karar",
-     "hl": "Zonguldak'ta maden ocağında patlama: 3 işçi hayatını kaybetti, 4 yaralı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Zonguldak'ta maden ocağından acı haber! İsimleri belli oldu"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son dakika... Zonguldak'ta maden ocağında patlama: Ölü ve yaralılar var!"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Zonguldak'ta maden ocağında patlama! Can kayıpları var"
+     "hl": "ABD mahkemesinden Meta'ya 25 milyar dolar ceza"
     },
     {
      "s": "trthaber",
-     "hl": "Zonguldak'ta maden ocağında patlama"
-    },
-    {
-     "s": "diken",
-     "hl": "Zonguldak'ta maden ocağında patlama: Üç işçi öldü"
-    },
-    {
-     "s": "aa",
-     "hl": "Zonguldak'ta maden ocağındaki grizu patlamasında 3 kişi öldü, 5 kişi yaralandı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Zonguldak’ta maden ocağında grizu faciası!"
-    },
-    {
-     "s": "tele1",
-     "hl": "Zonguldak'ta maden ocağında patlama! 3 madenci can verdi, isimleri belli oldu"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Zonguldak maden ocağında grizu patlaması: 3 ölü, 5 yaralı"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Maden ocağında patlama"
-    },
-    {
-     "s": "birgun",
-     "hl": "Zonguldak'ta maden ocağındaki grizu patlaması: 3 kişi tutuklandı"
-    },
-    {
-     "s": "haberler",
-     "hl": "Zonguldak'taki maden ocağı patlamasında tutuklu sayısı 4 oldu"
-    }
-   ]
-  },
-  {
-   "event": "s4186",
-   "week": "w8",
-   "title": "Fon soruşturmasında Ertan Aydın tutuklandı",
-   "headlines": [
-    {
-     "s": "cumhuriyet",
-     "hl": "Fon soruşturması: Eski AKP milletvekili Ertan Aydın adliyeye sevk edildi, Nusret Altınbaş gözaltına alındı"
-    },
-    {
-     "s": "sabah",
-     "hl": "Fon soruşturmasında yeni gelişme: Ertan Aydın hakkında karar verildi!"
-    },
-    {
-     "s": "diken",
-     "hl": "Fon soruşturması: Eski başbakan danışmanı Ertan Aydın hakkında tutuklama talebi"
-    },
-    {
-     "s": "aa",
-     "hl": "Sermaye piyasası işlemleri soruşturmasında Ertan Aydın tutuklandı"
-    },
-    {
-     "s": "birgun",
-     "hl": "Fon vurgunu soruşturması: Ertan Aydın ve Gürol Sami Özer gözaltına alındı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Eski AKP milletvekili Ertan Aydın yeniden gözaltına alındı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Fon soruşturması. Ertan Aydın ve Gürol Sami Özer tutuklandı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Fon soruşturmasında yeni gelişme! Ertan Aydın ve Gürol Sami Özer tutuklandı"
-    },
-    {
-     "s": "star",
-     "hl": "Fon soruşturmasında yeni gelişme! Ertan Aydın gözaltına alındı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Fon soruşturmasında Ertan Aydın tutuklandı"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Fon soruşturmasında yeni gelişme: Ertan Aydın tutuklandı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Fon soruşturmasında Ertan Aydın yeniden gözaltına alındı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Ertan Aydın hakkında fon soruşturmasında yakalama kararı"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Ertan Aydın kimdir, kaç yaşında ve nereli? Ertan Aydın gözaltın alındı mı?"
-    },
-    {
-     "s": "karar",
-     "hl": "Son dakika! Fon soruşturmasında yeni karar: Ertan Aydın tutuklandı"
-    },
-    {
-     "s": "haberler",
-     "hl": "Fon soruşturmasında yeniden gözaltına alınan eski AK Parti Milletvekili Ertan Aydın tutuklandı"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Ertan Aydın tutuklandı!"
-    }
-   ]
-  },
-  {
-   "event": "s1661",
-   "week": "w8",
-   "title": "Fransa'da sokaklar karıştı: Paris ve Lyon'da sokağa çıkma yasağı uzatıldı",
-   "headlines": [
-    {
-     "s": "turkiyegz",
-     "hl": "Fransa'da protestolar durdurulamıyor! Hükümetten sokağa çıkma yasağı talimatı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Fransa’da kısmi sokağa çıkma yasağı talimatı: OHAL de masada"
+     "hl": "Kullanıcıları gizlilik konusunda yanılttığı için Meta'ya 25 milyar dolar ceza verildi"
     },
     {
      "s": "bloomberght",
-     "hl": "Fransa'dan sokağa çıkma yasağı hamlesi"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Fransa’da protestolar büyüyor! Sokağa çıkma yasağı talimatı verildi"
-    },
-    {
-     "s": "ntv",
-     "hl": "Fransa'da bazı kentlerde sokağa çıkma yasağı ilan edildi"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Fransa'da hükümetten sokağa çıkma yasağı talimatı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi"
-    },
-    {
-     "s": "karar",
-     "hl": "Fransa’da kısmi sokağa çıkma yasağı kararı: Başbakandan valilere talimat"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Fransa'da protestoların ardından OHAL gündemde: Başbakan'dan sokağa çıkma yasağı talimatı"
-    },
-    {
-     "s": "diken",
-     "hl": "Fransa'da Lille dahil dört şehirde sokağa çıkma yasağı"
-    },
-    {
-     "s": "star",
-     "hl": "Protestolar kontrolden çıktı! Fransa'da sokağa çıkma yasağı ilan edildi"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Fransa’nın birçok kentinde kısmi sokağa çıkma yasağı ilan edildi"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Fransa'nın birçok şehrinde kısmi sokağa çıkma yasağı kararı"
+     "hl": "Meta'ya kullanıcı gizliliği ihlali nedeniyle 25 milyar dolar ceza"
     },
     {
      "s": "sabah",
-     "hl": "Fransa’da sokağa çıkma yasakları devreye girdi"
+     "hl": "ABD'de mahkemeden Meta'ya 25 milyar dolarlık ceza"
+    },
+    {
+     "s": "takvim",
+     "hl": "ABD'den Meta'ya 25 milyar dolarlık ceza! Türk kullanıcılarının verileri de tehlikede mi?"
+    },
+    {
+     "s": "ntv",
+     "hl": "Meta'ya 25 milyar dolarlık gizlilik cezası"
     },
     {
      "s": "ahaber",
-     "hl": "Fransa'da sokağa çıkma yasakları ve yeni güvenlik önlemleri"
+     "hl": "Meta'ya 25 milyar dolar ceza davasında kritik karar"
     },
     {
-     "s": "trthaber",
-     "hl": "Paris ve Lyon'da kısmi sokağa çıkma yasağı 1 gün uzatıldı"
+     "s": "diken",
+     "hl": "Cambridge Analytica skandalı: Meta'ya 25 milyar dolar ceza"
+    },
+    {
+     "s": "milliyet",
+     "hl": "Meta'ya 25 milyar dolar ceza! 'Facebook, kullanıcılarını gizlilik konusunda kasten yanılttı'"
+    },
+    {
+     "s": "mynet",
+     "hl": "ABD'de mahkeme, kullanıcıları gizlilik konusunda yanılttığı için Meta'ya 25 milyar dolar ceza verdi"
     }
    ]
   },
   {
-   "event": "s1700",
+   "event": "s4179",
    "week": "w8",
-   "title": "MERKEZ BANKASI FAİZ KARARI",
+   "title": "Şarkıcı Nev son yolculuğuna uğurlandı: Cenazeye Süleyman Soylu da katıldı",
    "headlines": [
     {
-     "s": "dirilis",
-     "hl": "MERKEZ BANKASI FAİZ KARARI"
-    },
-    {
-     "s": "takvim",
-     "hl": "Merkez Bankası faiz kararı! 9 ay sonra ilk"
+     "s": "mynet",
+     "hl": "Aliağa eski Belediye Başkanı Ali Ayhan Bayrak son yolculuğuna uğurlandı"
     },
     {
      "s": "sabah",
-     "hl": "Merkez Bankası faiz kararı ne zaman, saat kaçta açıklanacak? Gözler TCMB'nin ekim ayı toplantısında!"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde?"
+     "hl": "Şarkıcı Nev son yolculuğuna uğurlandı! Tabutu başında gözyaşları sel oldu..."
     },
     {
      "s": "haberturk",
-     "hl": "TCMB FAİZ TOPLANTISI TAKVİMİ 2026 | Merkez Bankası faiz kararı ne zaman açıklanacak, faizler düşecek mi, sabit mi kalacak?"
+     "hl": "Ünlü şarkıcı Nev son yolculuğuna uğurlandı - Magazin Haber - HT Magazin"
     },
     {
-     "s": "mynet",
-     "hl": "Merkez Bankası faiz kararı bugün belli oluyor: İşte beklentiler"
-    },
-    {
-     "s": "ahaber",
-     "hl": "9 ay sonra ilk indirim! Merkez Bankası'nın faiz kararı belli oldu: Uzmanlar A Haber'de değerlendirdi"
+     "s": "takvim",
+     "hl": "57 yaşında vefat eden Şarkıcı Nev son yolculuğuna uğurlandı! Acılı ağabeyinin cenazedeki sözleri..."
     },
     {
      "s": "turkiyegz",
-     "hl": "Merkez Bankası faiz kararı bugün! 9 ay sonra bir ilk bekleniyor"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Merkez Bankası faiz kararını açıkladı"
-    },
-    {
-     "s": "diken",
-     "hl": "Merkez Bankası faizi düşürdü"
-    },
-    {
-     "s": "ntv",
-     "hl": "Merkez Bankası faiz kararını açıkladı"
-    },
-    {
-     "s": "karar",
-     "hl": "9 ay sonra bir ilk: Merkez Bankası faizi indirdi"
+     "hl": "Ünlü şarkıcı Nev son yolculuğuna uğurlanıyor! Cenazeye Süleyman Soylu da katıldı"
     },
     {
      "s": "sozcu",
-     "hl": "Son dakika... Merkez Bankası yılın yedinci faiz kararını açıkladı"
+     "hl": "Süleyman Soylu arkadaşı Nev'i son yolculuğuna uğurladı"
     },
     {
-     "s": "star",
-     "hl": "9 ay sonra bir ilk! Merkez Bankası faiz kararını duyurdu"
+     "s": "ntv",
+     "hl": "Şarkıcı Nev son yolculuğuna uğurlandı. Tabutu başında gözyaşları sel oldu"
     },
     {
-     "s": "tele1",
-     "hl": "Merkez Bankası, faizi 1 puan indirdi"
+     "s": "cumhuriyet",
+     "hl": "Şarkıcı Nev son yolculuğuna uğurlandı: Cenazeye Süleyman Soylu da katıldı"
     },
     {
-     "s": "yeniasya",
-     "hl": "Merkez Bankası faizi düşürdü"
+     "s": "karar",
+     "hl": "Şarkıcı Nev son yolculuğuna uğurlandı: Süleyman Soylu da cenazeye katıldı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Nev son yolculuğuna uğurlandı! Türk müziğinde hüzünlü veda!"
     }
    ]
   },
   {
-   "event": "s1737",
+   "event": "s4161",
    "week": "w8",
-   "title": "Çukurova Belediye Başkanı Emrah Kozay görevden uzaklaştırıldı",
+   "title": "Engin Altan Düzyatan'ın acı günü! 87 yaşında hayatını kaybeden babası Mevlan Düzyatan son yolculuğuna uğurlandı",
    "headlines": [
     {
-     "s": "takvim",
-     "hl": "Çukurova Belediyesinde 34 tutuklama! Emrah Kozay görevden uzaklaştırıldı"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Çukurova Belediyesi'ne operasyon! Belediye Başkanı Emrah Kozay dahil 34 şüpheli tutuklandı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
-    },
-    {
      "s": "haberturk",
-     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
-    },
-    {
-     "s": "karar",
-     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
-    },
-    {
-     "s": "star",
-     "hl": "Çukurova Belediyesi soruşturması: Mevcut başkan Emrah Kozay dahil 34 şüpheli için karar verildi"
+     "hl": "Engin Altan Düzyatan'ın acı günü"
     },
     {
      "s": "sabah",
-     "hl": "Çukurova Belediyesine yönelik operasyonda Emrah Kozay ve Soner Çetin tutuklandı"
+     "hl": "Engin Altan Düzyatan baba acısıyla sarsıldı!"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Ünlü oyuncu Engin Altan Düzyatan'ın acı günü: Babası Mevlan Düzyatan hayatını kaybetti"
+    },
+    {
+     "s": "takvim",
+     "hl": "Oyuncu Engin Altan Düzyatan baba acısıyla sarsıldı! Mevlan Düzyatan yaşamını yitirdi!"
     },
     {
      "s": "ntv",
-     "hl": "Çukurova Belediyesi'ne operasyon: Başkan Emrah Kozay dahil 34 tutuklama"
-    },
-    {
-     "s": "diken",
-     "hl": "Çukurova Belediye Başkanı Emrah Kozay dahil 34 kişi tutuklandı"
-    },
-    {
-     "s": "aa",
-     "hl": "Çukurova Belediye Başkanı Kozay görevinden uzaklaştırıldı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Çukurova Belediye Başkanı Emrah Kozay tutuklandı"
+     "hl": "Engin Altan Düzyatan'ın acı günü. Mevlan Düzyatan hayatını kaybetti"
     },
     {
      "s": "mynet",
-     "hl": "İçişleri Bakanlığı duyurdu: Çukurova Belediye Başkanı Emrah Kozay görevden uzaklaştırıldı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Çukurova Belediye Başkanı Kozay görevden uzaklaştırıldı"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Çukurova Belediye Başkanı Emrah Kozay görevden uzaklaştırıldı"
+     "hl": "Engin Altan Düzyatan'ın acı günü! Babasını kaybetti"
     },
     {
      "s": "milligazete",
-     "hl": "Çukurova Belediye Başkanı Emrah Kozay kimdir, eşi kim? Kaç çocuğu, nereli? Neden tutuklandı, hangi partiden?"
-    }
-   ]
-  },
-  {
-   "event": "s1650",
-   "week": "w8",
-   "title": "Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!",
-   "headlines": [
-    {
-     "s": "turkiyegz",
-     "hl": "Çukurova Belediyesi'ne yolsuzluk ve rüşvet operasyonu! Mevcut ve eski başkan dahil 44 gözaltı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Çukurova Belediyesi'ne operasyon! Belediye Başkanı Emrah Kozay dahil çok sayıda gözaltı"
-    },
-    {
-     "s": "star",
-     "hl": "Çukurova Belediyesi'ne rüşvet operasyonu! Eski ve yeni başkanlar gözaltında"
-    },
-    {
-     "s": "takvim",
-     "hl": "Çukurova Belediyesi'ne operasyon! Gözaltı kararları var"
+     "hl": "Engin Altan Düzyatan'ın babası kimdir? Mevlan Düzyatan neden öldü? Hastalığı neydi? Cenazesi nerede?"
     },
     {
      "s": "sozcu",
-     "hl": "SON DAKİKA... Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı var"
+     "hl": "Engin Altan Düzyatan'ın acı günü"
     },
     {
      "s": "ahaber",
-     "hl": "CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu: Başkan Kozay ve eski başkan Çetin de..."
+     "hl": "Usta oyuncu Engin Altan Düzyatan'ın acı günü! Dostları yalnız bırakmadı"
     },
     {
-     "s": "cumhuriyet",
-     "hl": "Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!"
-    },
-    {
-     "s": "ntv",
-     "hl": "Çukurova Belediyesi'ne operasyon: Belediye Başkanı Emrah Kozay dahil 34 tutuklama"
-    },
-    {
-     "s": "haberturk",
-     "hl": "SON DAKİKA HABERİ: Çukurova Belediyesi'ne operasyon: 44 gözaltı"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA | Çukurova Belediyesi’ne operasyon! Jandarma binada arama yapıyor çok sayıda gözaltı kararı"
+     "s": "turkiyegz",
+     "hl": "En acı görev! Engin Altan Düzyatan babasını toprağa verdi"
     },
     {
      "s": "karar",
-     "hl": "Adana'da Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Çukurova Belediyesinde operasyon: Çok sayıda gözaltı kararı var!"
-    },
-    {
-     "s": "tele1",
-     "hl": "Adana'da Çukurova Belediyesi'ne operasyon: 44 gözaltı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Çukurova Belediyesine yolsuzluk ve rüşvet operasyonu: 44 gözaltı"
-    },
-    {
-     "s": "diken",
-     "hl": "YENİ Partili Çukurova Belediyesi'ne operasyon: Başkan dahil 44 gözaltı"
+     "hl": "Engin Altan Düzyatan'ın acı günü! 87 yaşında hayatını kaybeden babası Mevlan Düzyatan son yolculuğuna uğurlandı"
     }
    ]
   },
   {
-   "event": "s1690",
+   "event": "s1815",
    "week": "w8",
-   "title": "Yeni Parti'nin ismi değişmeyecek",
+   "title": "Suç örgütü lideri Necati Arabacı'ya 15 yıl 6 ay hapis",
    "headlines": [
     {
-     "s": "sabah",
-     "hl": "Yeni Parti'nin ismi hükümsüz mü sayılacak? AYM karara bağlayacak"
+     "s": "ahaber",
+     "hl": "Necati Coşkun Arabacı’ya 15 yıl 6 ay hapis cezası"
+    },
+    {
+     "s": "diken",
+     "hl": "Suç örgütü lideri Necati Arabacı'ya 15 yıl 6 ay hapis"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Coşkun Necati Arabacı'ya 15 yıl 6 ay hapis"
+    },
+    {
+     "s": "star",
+     "hl": "Suç örgütü davası! Coşkun Necati Arabacı'nın cezası belli oldu"
     },
     {
      "s": "cumhuriyet",
-     "hl": "YENİ Parti'nin ismi için kritik tarih belli oldu: AYM'nin gündemine alındı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "YENİ Parti'nin ismi değişecek mi?"
-    },
-    {
-     "s": "takvim",
-     "hl": "AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Yeni Parti’nin ismi için kritik karar! AYM talebi görüşecek"
+     "hl": "Suç örgütü lideri Necati Arabacı'nın cezası belli oldu"
     },
     {
      "s": "ntv",
-     "hl": "AYM'den Yeni Parti'nin ismi için karar"
+     "hl": "Cehennem Melekleri suç örgütü lideri Necati Arabacı'nın cezası belli oldu"
+    },
+    {
+     "s": "haberturk",
+     "hl": "İzmir'de yargılanan Necati Arabacı'ya suç örgütü davasında hapis cezası verildi"
     },
     {
      "s": "mynet",
-     "hl": "SON DAKİKA | Yeni Parti'nin ismi değişmeyecek! AYM kararını verdi"
+     "hl": "Cehennem Melekleri suç örgütü lideri Necati Arabacı hakkında karar"
+    },
+    {
+     "s": "takvim",
+     "hl": "Cehennem Necati lakaplı Coşkun Necati Arabacı'ya 15 yıl hapis"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Necati Arabacı'nın serveti ne kadar, eşi kim? Cehennem Necati'nin mal varlığı, ailesi ve hayatı"
+    }
+   ]
+  },
+  {
+   "event": "s4049",
+   "week": "w8",
+   "title": "Kadir İnanır'ın vasiyet krizinde Jülide Kural sessizliğini bozdu!",
+   "headlines": [
+    {
+     "s": "ntv",
+     "hl": "Jülide Kural'dan Kadir İnanır'ın vasiyetiyle ilgili ilk açıklama. \"Toprağa vereli 4 ay bile olmadı\""
+    },
+    {
+     "s": "karar",
+     "hl": "Jülide Kural, Kadir İnanır'ın vasiyeti hakkında ilk kez konuştu: Bu insani ve vicdani bir sorumluluk"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Jülide Kural'dan Kadir İnanır'ın vasiyetiyle ilgili ilk açıklama - Son dakika magazin haberleri... - Magazin Haber - HT Magazin"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Kadir İnanır'ın servetini bıraktığı hayat arkadaşı sessizliğini bozdu"
+    },
+    {
+     "s": "sabah",
+     "hl": "Jülide Kural sessizliğini bozdu! Henüz 4 ay bile geçmemişken…"
+    },
+    {
+     "s": "mynet",
+     "hl": "5 milyon dolarlık servet paylaşılamadı! Jülide Kural Kadir İnanır'ın vasiyetiyle ilgili son noktayı koydu"
+    },
+    {
+     "s": "takvim",
+     "hl": "Miras krizi patlak verdi! Jülide Kural Kadir İnanır’ın vasiyet tartışmalarına son noktayı koydu"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Kadir İnanır'ın vasiyet tartışmalarına Jülide Kural'dan yazılı açıklama"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Sessizliğini bozdu... Kadir İnanır'ın hayat arkadaşı Jülide Kural'dan 'vasiyet' açıklaması"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Kadir İnanır'ın vasiyet krizinde Jülide Kural sessizliğini bozdu!"
+    }
+   ]
+  },
+  {
+   "event": "s4132",
+   "week": "w8",
+   "title": "Çankırı'da otomobil uçuruma yuvarlandı: 4 ölü, 1 yaralı",
+   "headlines": [
+    {
+     "s": "trthaber",
+     "hl": "Çankırı'da otomobil uçuruma yuvarlandı: 4 ölü, 1 yaralı"
+    },
+    {
+     "s": "sabah",
+     "hl": "Çankırı'da korkunç kaza! Araç uçuruma yuvarlandı: 4 ölü, 1 yaralı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Çankırı'da uçuruma yuvarlanan otomobilde 4 kişi öldü, 1 kişi yaralandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Çankırı'da otomobil uçuruma yuvarlandı: 4 ölü, 1 yaralı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Çankırı'da uçuruma yuvarlanan otomobilde 4 kişi öldü, 1 kişi yaralandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Çankırı’da uçuruma yuvarlanan otomobilde 4 kişi can verdi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Çankırı’da facia! Uçuruma yuvarlanan otomobilde 4 kişi can verdi"
+    },
+    {
+     "s": "karar",
+     "hl": "Çankırı'da otomobil uçuruma yuvarlandı: 4 ölü, 1 yaralı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Çankırı Bayramören'de uçuruma yuvarlanan otomobilde 4 ölü"
     },
     {
      "s": "birgun",
-     "hl": "AYM karar verdi: YENİ Parti'nin ismi değişmeyecek"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "AYM'den Yeni Parti kararı! İsmi değişecek mi?"
-    },
-    {
-     "s": "karar",
-     "hl": "AYM kararını verdi: YENİ Parti'nin ismi değişmeyecek"
-    },
-    {
-     "s": "hurriyet",
-     "hl": "AYM karar verdi... Yeni Parti’nin ismi değişmeyecek"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Yeni Parti'nin ismi değişmeyecek"
-    },
-    {
-     "s": "diken",
-     "hl": "AYM kararı: YENİ Parti'nin adı değişmeyecek"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Yeni Parti'nin ismi değişecek mi? AYM kararını açıkladı"
-    },
-    {
-     "s": "tele1",
-     "hl": "Yeni Parti'nin ismi değişmeyecek"
+     "hl": "Çankırı'da otomobil uçuruma yuvarlandı: 4 kişi öldü, 1 kişi yaralandı"
     }
    ]
   },
   {
-   "event": "s1721",
+   "event": "s1660",
    "week": "w8",
-   "title": "Zonguldak'ta üç katlı bina çöktü: Bir ölü",
+   "title": "Volkswagen'den 660 bin çalışanına \"2030'a kadar sıfır zam\" planı",
    "headlines": [
     {
-     "s": "sabah",
-     "hl": "Zonguldak’ta bir bina çöktü: 2 kişiden 1'i hayatını kaybetti!"
-    },
-    {
-     "s": "takvim",
-     "hl": "Zonguldak'ta bina çöktü! 7 bina tahliye edildi"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Zonguldak'ta 2 katlı bina çöktü! Enkaz altında kalan 2 kardeşten biri kurtarılamadı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Zonguldak'ta bina çöktü: 1 kişi kurtarıldı, 1 kişi öldü"
-    },
-    {
      "s": "sozcu",
-     "hl": "Zonguldak'ta 3 katlı bina çöktü: Enkazdan acı haber geldi"
+     "hl": "Volkswagen 660 bin çalışanının maaşını 4 yıl boyunca dondurmaya hazırlanıyor"
     },
     {
-     "s": "star",
-     "hl": "Zonguldak'ta bina çöktü: Göçük altında kalan 1 kişi öldü"
+     "s": "karar",
+     "hl": "Volkswagen’den 660 bin çalışanı için 2030’a kadar sıfır zam planı"
     },
     {
-     "s": "ntv",
-     "hl": "Zonguldak'ta 3 katlı bina çöktü. Enkaz altında kalan bir kişi hayatını kaybetti"
+     "s": "bloomberght",
+     "hl": "Volkswagen'den 660 bin çalışana '2030'a kadar sıfır zam' planı"
     },
     {
-     "s": "cumhuriyet",
-     "hl": "Zonguldak’ta 3 katlı bina çöktü: 1 kişi öldü, 1 kişi yaralı kurtarıldı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Zonguldak'ta 3 katlı bina çöktü: Enkaz altında kalan 1 kişi hayatını kaybetti"
+     "s": "diken",
+     "hl": "Volkswagen işçilere 2030'a kadar sıfır zam planlıyormuş: 'Sert direniriz'"
     },
     {
      "s": "haberturk",
-     "hl": "Zonguldak'ta 3 katlı bina çöktü"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Zonguldak'ta 3 katlı bina çöktü: Enkaz altında can pazarı"
-    },
-    {
-     "s": "diken",
-     "hl": "Zonguldak'ta üç katlı bina çöktü: Bir ölü"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Zonguldak'ta 2 katlı bina çöktü: 1 ölü, 1 yaralı var"
-    },
-    {
-     "s": "karar",
-     "hl": "Zonguldak'ta 2 katlı ev çöktü: 1 ölü, 1 yaralı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Zonguldak'ta bina çöktü: Çevredeki 7 bina boşaltıldı!"
-    }
-   ]
-  },
-  {
-   "event": "s4029",
-   "week": "w8",
-   "title": "'Futbolda şike kumpası' soruşturmasında Lütfi Arıboğan'a 5 yıla kadar hapis istemi",
-   "headlines": [
-    {
-     "s": "aa",
-     "hl": "FETÖ'nün \"futbolda şike kumpası\" soruşturmasında Lütfi Arıboğan'a 5 yıla kadar hapis istemi"
-    },
-    {
-     "s": "sabah",
-     "hl": "Son dakika: Lütfi Arıboğan'a FETÖ iddianamesi"
-    },
-    {
-     "s": "karar",
-     "hl": "Eski TFF Başkanı Lütfi Arıboğan hakkında iddianame hazırlandı: Yargılama süreci başlıyor"
+     "hl": "Volkswagen'den 660 bin çalışanına \"2030'a kadar sıfır zam\" planı"
     },
     {
      "s": "cumhuriyet",
-     "hl": "Şike soruşturmasında yeni perde: Eski TFF Başkanvekili Lütfi Arıboğan’a dava"
+     "hl": "Volkswagen’de 660 bin çalışanı ilgilendiren plan: Maaşlar 2030’a kadar dondurulabilir"
+    },
+    {
+     "s": "mynet",
+     "hl": "Volkswagen'de çalışanlara kötü haber! Maaşlar 2030’a kadar dondurulabilir"
     },
     {
      "s": "ahaber",
-     "hl": "Futbolda şike kumpası: Eski TFF Başkan Vekili Lütfi Arıboğan için FETÖ'ye yardımdan hapis talebi"
-    },
-    {
-     "s": "mynet",
-     "hl": "Son dakika | Lütfi Arıboğan hakkında hapis istemi! Suçlama belli oldu: \"Silahlı terör örgütüne bilerek ve isteyerek yardım etme\""
-    },
-    {
-     "s": "star",
-     "hl": "Lütfi Arıboğan'a ''FETÖ'ye yardım'' davası! İstenen ceza belli oldu"
-    },
-    {
-     "s": "diken",
-     "hl": "Eski TFF yöneticisi Lütfi Arıboğan hakkında 'FETÖ'ye yardım'dan ceza istendi"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Şike soruşturmasında yeni gelişme: Eski TFF Başkan Vekili Lütfi Arıboğan hakkında hapis istemi"
+     "hl": "2030'a kadar sıfır zam planı! Dev şirketten yüz binlerce çalışanını şoke eden hamle: Gözler kasım ayına..."
     },
     {
      "s": "takvim",
-     "hl": "Lütfi Arıboğan hakkında iddianame! FETÖ'ye yardımdan hapis talebi"
+     "hl": "Volkswagen'de kriz: 660 bin çalışana maaş dondurma planı"
     },
     {
-     "s": "trthaber",
-     "hl": "'Futbolda şike kumpası' soruşturmasında Lütfi Arıboğan'a 5 yıla kadar hapis istemi"
+     "s": "sabah",
+     "hl": "2030'a kadar işçilere \"sıfır zam\" planı sızdı! Binlerce çalışanın maaşı 4 yıl boyunca dondurulacak"
     },
     {
      "s": "milligazete",
-     "hl": "Lütfi Arıboğan hakkında FETÖ iddianamesi mahkemeden geçti!"
+     "hl": "Volkswagen'den 660 bin işçiye şok: 2030'a dek zam yok"
+    }
+   ]
+  },
+  {
+   "event": "s3975",
+   "week": "w8",
+   "title": "İzmir'de 2 bin yıllık Zeus heykel başı ele geçirildi",
+   "headlines": [
+    {
+     "s": "ahaber",
+     "hl": "İzmir'de 2 bin yıllık Zeus heykeli ele geçirildi: 3 şüpheli gözaltında"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "İzmir'de 'tarihi eser' operasyonu: 2 bin yıllık Zeus heykel başı ele geçirildi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "İzmir'de 2 bin yıllık Zeus heykel başı ele geçirildi"
+    },
+    {
+     "s": "sabah",
+     "hl": "İzmir'de 2 bin yıllık Zeus heykel başı ele geçirildi!"
     },
     {
      "s": "ntv",
-     "hl": "Lütfi Arıboğan'a 5 yıla kadar hapis istemi"
-    },
-    {
-     "s": "dirilis",
-     "hl": "FETÖ’nün “Şike Kumpası”nda Lütfi Arıboğan İçin 5 Yıla Kadar Hapis İstemi"
+     "hl": "Roma dönemine ait 2 bin yıllık Zeus heykel başı ele geçirildi"
     },
     {
      "s": "haberturk",
-     "hl": "Lütfi Arıboğan'a 5 yıla kadar hapis istemi!"
+     "hl": "2 bin yıllık Zeus heykel başı ele geçirildi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "2 bin yıllık Zeus heykel başı ele geçirildi"
+    },
+    {
+     "s": "star",
+     "hl": "İzmir'de tarihi eser baskını! 2 bin yıllık Zeus heykeli bulundu"
+    },
+    {
+     "s": "karar",
+     "hl": "İzmir’de 2 bin yıllık Zeus heykel başı ele geçirildi"
+    },
+    {
+     "s": "mynet",
+     "hl": "İzmir'de bulundu! 2 bin yıllık Zeus heykeli ele geçirildi"
+    },
+    {
+     "s": "diken",
+     "hl": "İzmir'de Zeus heykeli başı bulundu: Üç kişi tutuklandı"
+    }
+   ]
+  },
+  {
+   "event": "s4043",
+   "week": "w8",
+   "title": "KPSS ORTAÖĞRETİM SINAV SAATİ: 2026 KPSS ortaöğretim sınavı ne zaman, bugün mü, yarın mı? KPSS ortaöğretim sınavı saat kaçta başlayacak?",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "2026 KPSS Ortaöğretim sınavı ne zaman, saat kaçta? KPSS Ortaöğretim sınav giriş belgesi nasıl ve nereden alınır?"
+    },
+    {
+     "s": "sabah",
+     "hl": "KPSS Ortaöğretim sınavı ne zaman, saat kaçta? İşte 2026 KPSS lise giriş belgesi sorgulama ekranı"
+    },
+    {
+     "s": "takvim",
+     "hl": "2026 KPSS Ortaöğretim saat kaçta? Giriş belgesi ve sonuç tarihi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "KPSS Ortaöğretim ne zaman, saat kaçta? 2026 KPSS Lise sınav giriş belgesi nereden, nasıl alınır?"
+    },
+    {
+     "s": "trthaber",
+     "hl": "2026-KPSS Ortaöğretim yarın yapılacak"
+    },
+    {
+     "s": "milligazete",
+     "hl": "KPSS Ortaöğretim kaç soru, kaç dakika? 2026 ÖSYM sınav süresi ve soru dağılımı! 25 Ekim KPSS Ortaöğretim sınav saati"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "KPSS sınavı saat kaçta başlıyor? 2026-KPSS Ortaöğretim sınavı kaçta bitecek?"
+    },
+    {
+     "s": "aa",
+     "hl": "KPSS Ortaöğretim yapıldı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Son dakika... KPSS Ortaöğretim yapıldı"
+    },
+    {
+     "s": "karar",
+     "hl": "2026-KPSS Ortaöğretim sınavı başladı"
     }
    ]
   }

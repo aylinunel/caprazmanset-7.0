@@ -1,0 +1,154 @@
+{
+ "q": {
+  "happened": "Aksaray'da bir erkek eski eşini 15 bıçak darbesiyle öldürdü ve adliyede 'pişman değilim' dedi.",
+  "agree": "Cinayet ve 15 bıçak darbesi ortak.",
+  "differ": "Cumhuriyet olayı 'kadın cinayeti' olarak adlandıran tek kurum; Hürriyet ve Sabah 'vahşet' dili kullanıyor; Sondakika, Haberler, Yeni Şafak, Akit, A Haber ve Milliyet failin 'pişman değilim' sözünü başlığa taşıyor; Sondakika ve Haberler failin 'ihanet ettiği için öldürdüm' gerekçesini de aktarıyor.",
+  "care": "'Kadın cinayeti' ifadesi olayı yapısal bir şiddet sorunu olarak çerçevelerken, failin gerekçesinin başlığa taşınması cinayeti failin anlatısıyla açıklama riskini taşır."
+ },
+ "rows": [
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "hurriyet",
+   "frame": "Vahşet",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "Kınama",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Kadın cinayeti",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Kadınlar",
+   "sol": "",
+   "moral": "Kadına şiddet",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sondakika",
+   "frame": "Failin ifadesi",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "İhanet iddiası",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberler",
+   "frame": "Failin ifadesi",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "İhanet iddiası",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yenisafak",
+   "frame": "Failin ifadesi",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "akit",
+   "frame": "Failin ifadesi",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Failin ifadesi",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Vahşet",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "Kınama",
+   "start": ""
+  },
+  {
+   "s": "milliyet",
+   "frame": "Failin ifadesi",
+   "hero": "Fail",
+   "blame": "Fail",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "Eski eş",
+   "sol": "",
+   "moral": "Kınama",
+   "start": ""
+  }
+ ]
+}

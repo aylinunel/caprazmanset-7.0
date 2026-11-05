@@ -1,0 +1,13 @@
+{"q": {"happened": "Volkswagen'in 660 bin çalışanının maaşlarını 2030'a kadar dondurmayı, yani sıfır zam uygulamayı planladığı haberi çıktı.", "agree": "2030'a kadar sıfır zam ya da maaş dondurma planı ortak.", "differ": "Karar, Bloomberg HT ve Habertürk planı tarafsız biçimde aktarıyor, Cumhuriyet ve Mynet maaşların 'dondurulabileceğini' söylüyor; Mynet, A Haber ve Milli Gazete 'kötü haber', 'şok' gibi ifadelerle çalışanların mağduriyetini öne çıkarıyor; Takvim 'kriz' diyor; Sabah planın 'sızdığını' vurguluyor; Diken 'Sert direniriz' tepkisini başlığa taşıyor.", "care": "Haberin bir şirket planı, bir şirket krizi ya da işçi direnişi olarak sunulması, okurun meseleyi şirketin tercihi mi yoksa çalışan hakları sorunu mu olarak göreceğini belirler."}, "rows": [
+{"s": "sozcu", "frame": "Maaş dondurma", "hero": "Volkswagen", "blame": "", "cause": "", "cons": "Maaş dondurma", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "Volkswagen", "blame": "", "cause": "", "cons": "Sıfır zam", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""},
+{"s": "bloomberght", "frame": "Olgu aktarımı", "hero": "Volkswagen", "blame": "", "cause": "", "cons": "Sıfır zam", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "İşçi direnişi", "hero": "Çalışanlar", "blame": "Volkswagen", "cause": "", "cons": "Sıfır zam", "aff": "Çalışanlar", "sol": "Direniş", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Volkswagen", "blame": "", "cause": "", "cons": "Sıfır zam", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "Volkswagen", "blame": "", "cause": "", "cons": "Maaş dondurma", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Çalışan mağduriyeti", "hero": "Volkswagen", "blame": "", "cause": "", "cons": "Maaş dondurma", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Çalışan mağduriyeti", "hero": "Volkswagen", "blame": "Volkswagen", "cause": "", "cons": "Sıfır zam", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Şirket krizi", "hero": "Volkswagen", "blame": "", "cause": "", "cons": "Maaş dondurma", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Sızıntı", "hero": "Volkswagen", "blame": "", "cause": "", "cons": "Maaş dondurma", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Çalışan mağduriyeti", "hero": "Volkswagen", "blame": "", "cause": "", "cons": "Sıfır zam", "aff": "Çalışanlar", "sol": "", "moral": "", "start": ""}
+]}

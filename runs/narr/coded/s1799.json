@@ -1,0 +1,142 @@
+{
+ "q": {
+  "happened": "İstanbul Bağcılar'da zincirleme trafik kazası meydana geldi ve yaralananlar oldu.",
+  "agree": "Bağcılar'daki zincirleme kaza ortak.",
+  "differ": "Takvim ve TRT Haber 2 yaralı sayısını veriyor; Sabah ve A Haber kazaya hafriyat kamyonu ile TIR'ın karıştığını belirtiyor, A Haber 'kabus' diyor; Sözcü, Sabah, Cumhuriyet ve NTV şerit kapanması ve trafik etkisini öne çıkarıyor; Diriliş yalnızca kazayı duyuruyor.",
+  "care": "Ağır araçların başlıkta anılması kazanın olası nedenine işaret ederken, trafik vurgusu olayı insan kaybından çok kentsel aksama olarak sunuyor."
+ },
+ "rows": [
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralılar",
+   "aff": "Yaralılar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yenisafak",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralılar",
+   "aff": "Yaralılar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralılar",
+   "aff": "Yaralılar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Trafik aksaması",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Şerit kapanması",
+   "aff": "Sürücüler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Trafik aksaması",
+   "hero": "Hafriyat kamyonu ve TIR",
+   "blame": "",
+   "cause": "Ağır araç çarpışması",
+   "cons": "Şerit kapanması",
+   "aff": "Sürücüler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Dram",
+   "hero": "Hafriyat kamyonu ve TIR",
+   "blame": "",
+   "cause": "Ağır araç çarpışması",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralılar",
+   "aff": "Yaralılar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Olgu aktarımı",
+   "hero": "Ekipler",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaralılar",
+   "aff": "Yaralılar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Trafik aksaması",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Trafik kilitlenmesi",
+   "aff": "Sürücüler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Trafik aksaması",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Şerit kapanması",
+   "aff": "Sürücüler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

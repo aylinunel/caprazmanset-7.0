@@ -1,0 +1,14 @@
+{"q": {"happened": "Beşiktaş, Başakşehir maçına hazırlandı ve maçı 2-0 kazandı.", "agree": "Maçın Beşiktaş ile Başakşehir arasında oynandığı ortak; sonucu veren tüm başlıklar 2-0 Beşiktaş galibiyetinde birleşiyor.", "differ": "Habertürk, sabah, star ve yenişafak maç öncesi hazırlığı; haberler ilk 11'leri, tgrt yayın bilgisini veriyor; birgün, akşam, ntv, diriliş, karar ve trthaber sonucu veriyor; birgün golcüleri (Oh ve Olaitan) anıyor, ntv galibiyetin ikinci yarıda geldiğini vurguluyor, karar 'Kartal uçuşa geçti' diye coşkulu bir dil kullanıyor.", "care": "Fark büyük ölçüde haberin hangi aşamada yakalandığından kaynaklanıyor; karar'ın coşkulu dili ise haberi olgu aktarımından taraftar sevincine kaydırıyor."}, "rows": [
+{"s": "haberturk", "frame": "Maç hazırlığı", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Maç hazırlığı", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Maç hazırlığı", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Maç hazırlığı", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Kadro bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Yayın bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Maç sonucu", "hero": "Oh ve Olaitan", "blame": "", "cause": "", "cons": "Beşiktaş galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Maç sonucu", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "Beşiktaş galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Maç sonucu", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "Beşiktaş galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Maç sonucu", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "Beşiktaş galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Zafer coşkusu", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "Beşiktaş galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Maç sonucu", "hero": "Beşiktaş", "blame": "", "cause": "", "cons": "Beşiktaş galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

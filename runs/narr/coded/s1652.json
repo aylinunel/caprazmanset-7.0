@@ -1,0 +1,12 @@
+{"q": {"happened": "14 ilde yasa dışı üreme hücresi ticaretine yönelik bir operasyon düzenlendi ve çok sayıda kişi gözaltına alındı.", "agree": "Operasyonun yapıldığı ve konunun yasa dışı üreme hücresi ticareti olduğu ortak.", "differ": "Gözaltı sayısı kurumlara göre değişiyor (trthaber, diken, tele1, dirilis 36; takvim 41; sabah 53 gözaltı kararı; star 53 şüpheli); habertürk ve dirilis operasyonu Bakan Gürlek'in adıyla duyuruyor; ntv kadınların fotoğraftan seçildiği ayrıntıyı, ahaber aldatılan eşin CİMER ihbarını, takvim 2 milyon euroluk ağı öne çıkarıyor.", "care": "Bakanın adını öne çıkarmak haberi devletin başarısı olarak sunarken, kadınların seçildiği ayrıntısı mağdurları ve insan onurunu merkeze alıyor; farklı rakamlar ise operasyonun ölçeği konusunda okuru belirsizlikte bırakıyor."}, "rows": [
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "Güvenlik güçleri", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Olgu aktarımı", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Olgu aktarımı", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Kadınların metalaştırılması", "hero": "Güvenlik güçleri", "blame": "Şebeke", "cause": "", "cons": "", "aff": "Kadınlar", "sol": "", "moral": "İnsan onuru", "start": ""},
+{"s": "haberturk", "frame": "Devlet otoritesi", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "Kamu düzeni", "start": ""},
+{"s": "ahaber", "frame": "Organize suç", "hero": "Aldatılan eş", "blame": "Şebeke", "cause": "", "cons": "Şebekenin çökertilmesi", "aff": "", "sol": "", "moral": "", "start": "CİMER ihbarı"},
+{"s": "diken", "frame": "Olgu aktarımı", "hero": "Güvenlik güçleri", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tele1", "frame": "Olgu aktarımı", "hero": "Güvenlik güçleri", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Devlet otoritesi", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "Kamu düzeni", "start": ""},
+{"s": "takvim", "frame": "Organize suç", "hero": "Güvenlik güçleri", "blame": "Şebeke", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

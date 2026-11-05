@@ -1,0 +1,10 @@
+{"q": {"happened": "UEFA Konferans Ligi'nde yeni sezonun ilk hafta maçları oynandı; Karar ve Cumhuriyet hakem Mehmet Türkmen'e UEFA'dan görev verildiğini duyuruyor.", "agree": "Konferans Ligi'nin yeni sezonunun başladığı ortak zemin.", "differ": "Yalnızca Karar ve Cumhuriyet hakem Mehmet Türkmen'in görevini haberleştiriyor; NTV ve Diken Trabzonspor'un deplasman galibiyetini, Takvim sürpriz sonuçları, Sabah, Star ve Diriliş turnuvanın başlangıcını öne çıkarıyor.", "care": "Kurumlar aynı turnuvadan farklı hikâyeler seçiyor; Türk hakem ya da Türk takımı odağı, haberin yerli okur için anlamını belirliyor."}, "rows": [
+{"s": "sabah", "frame": "Turnuva başlangıcı", "hero": "Konferans Ligi", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Turnuva başlangıcı", "hero": "Konferans Ligi", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Hakem ataması", "hero": "Mehmet Türkmen", "blame": "", "cause": "", "cons": "UEFA görevi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Hakem ataması", "hero": "Mehmet Türkmen", "blame": "", "cause": "", "cons": "UEFA görevi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Trabzonspor galibiyeti", "hero": "Trabzonspor", "blame": "", "cause": "", "cons": "Galibiyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Trabzonspor galibiyeti", "hero": "Trabzonspor", "blame": "", "cause": "", "cons": "Galibiyet", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Turnuva başlangıcı", "hero": "Konferans Ligi", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Sürpriz sonuçlar", "hero": "Konferans Ligi", "blame": "", "cause": "", "cons": "Sürpriz sonuçlar", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

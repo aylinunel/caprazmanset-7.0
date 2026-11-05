@@ -1,0 +1,17 @@
+{"q": {"happened": "11 ilde düzenlenen siber suç operasyonlarında 86 şüpheli tutuklandı.", "agree": "86 tutuklama ortak; çoğu kurum 11 ili anıyor.", "differ": "AA, TRT Haber, Yeni Şafak, Haberler ve Türkiye Gazetesi 'siber suçlarla mücadele' ifadesini kullanıyor; Sabah ve Cumhuriyet haberi İçişleri Bakanlığı'nın duyurusu olarak veriyor, Sabah 'dev operasyon' diyor; Sondakika, Takvim ve Sabah 120 yakalamayı da ekliyor; diğerleri sade aktarıyor.", "care": "Farklar büyük ölçüde vurgu düzeyinde: 'mücadele' ve bakanlık adı haberi devletin başarısı olarak çerçeveler, 120 yakalama bilgisi ise tutuklama oranını görünür kılar."}, "rows": [
+{"s": "aa", "frame": "Suçla mücadele", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sondakika", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "hurriyet", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Suçla mücadele", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Devlet otoritesi", "hero": "İçişleri Bakanlığı", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "Kamu düzeni", "start": ""},
+{"s": "ahaber", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Devlet otoritesi", "hero": "İçişleri Bakanlığı", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Suçla mücadele", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Suçla mücadele", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Suçla mücadele", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

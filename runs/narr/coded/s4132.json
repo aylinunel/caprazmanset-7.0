@@ -1,0 +1,12 @@
+{"q": {"happened": "Çankırı'da (Diriliş'e göre Bayramören'de) bir otomobil uçuruma yuvarlandı; 4 kişi öldü, çoğu başlığa göre 1 kişi yaralandı.", "agree": "Otomobilin uçuruma yuvarlandığı ve 4 kişinin öldüğü ortak.", "differ": "Çoğu kurum olayı sade bir olgu olarak aktarıyor; Sabah 'korkunç kaza', A Haber 'facia' diyerek dramatik bir dil kullanıyor; Cumhuriyet, A Haber ve Diriliş yaralıdan söz etmiyor.", "care": "Farklar büyük ölçüde üslupla ilgili; dramatik ifadeler olayın duygusal ağırlığını artırıyor ancak kazanın nedeni hiçbir başlıkta yer almıyor."}, "rows": [
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü, 1 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Trajedi", "hero": "", "blame": "", "cause": "", "cons": "4 ölü, 1 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü, 1 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü, 1 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü, 1 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Trajedi", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü, 1 yaralı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "4 ölü, 1 yaralı", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

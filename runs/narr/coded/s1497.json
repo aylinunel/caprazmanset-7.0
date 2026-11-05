@@ -1,0 +1,11 @@
+{"q": {"happened": "Cibuti açıklarında bir tekne battı, çok sayıda kişi öldü ve kayboldu; çoğu başlık 109 ölü ve 116 kayıp, Takvim ve Sabah ise 139 ölü ve 84 kayıp veriyor.", "agree": "Cibuti açıklarında batma ve yüzü aşkın can kaybı ortak.", "differ": "Cumhuriyet, NTV, Takvim, Sabah ve Karar kurbanları göçmen olarak tanımlıyor, Karar 'umuda yolculuk' diyor; Mynet, Star, Diriliş ve Yeni Asya genel bir 'gemi faciası' anlatıyor; NTV, Mynet ve Takvim çocuk kurbanları öne çıkarıyor; ölü/kayıp sayıları kurumlar arasında farklı.", "care": "Kurbanların göçmen kimliğinin başlıkta olması olayı göç meselesine bağlar; farklı ölü sayıları ise okurun bilgi güvenilirliğini etkiler."}, "rows": [
+{"s": "cumhuriyet", "frame": "Göçmen faciası", "hero": "Göçmenler", "blame": "", "cause": "", "cons": "Can kaybı", "aff": "Göçmenler", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Göçmen faciası", "hero": "Göçmenler", "blame": "", "cause": "", "cons": "Can kaybı", "aff": "Göçmen çocuklar", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Deniz faciası", "hero": "", "blame": "", "cause": "", "cons": "Can kaybı", "aff": "Çocuklar", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Göçmen faciası", "hero": "Göçmenler", "blame": "", "cause": "", "cons": "Can kaybı", "aff": "Göçmen çocuklar", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Umuda yolculuk", "hero": "Göçmenler", "blame": "", "cause": "", "cons": "Can kaybı", "aff": "Göçmenler", "sol": "", "moral": "Trajedi", "start": ""},
+{"s": "star", "frame": "Deniz faciası", "hero": "", "blame": "", "cause": "", "cons": "Can kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Deniz faciası", "hero": "", "blame": "", "cause": "", "cons": "Can kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yeniasya", "frame": "Deniz faciası", "hero": "", "blame": "", "cause": "", "cons": "Can kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Göçmen faciası", "hero": "Göçmenler", "blame": "", "cause": "", "cons": "Can kaybı", "aff": "Göçmenler", "sol": "", "moral": "", "start": ""}
+]}

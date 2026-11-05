@@ -1,0 +1,106 @@
+{
+ "q": {
+  "happened": "Samsunspor, teknik direktör Nenad Bjelica ile anlaşarak sözleşme imzaladı.",
+  "agree": "Samsunspor'un Bjelica ile anlaştığı ortak.",
+  "differ": "Habertürk, Star ve A Haber 'anlaşma'dan, Cumhuriyet, Karar ve Sözcü 'imza'dan söz ediyor; A Haber bunu Thorsten Fink'in ardından gelen sezon sonuna kadar bir prensip anlaşması olarak sunuyor; Milli Gazete ise Emre Bayraktar'ın yeni hoca olup olmadığını soruyor.",
+  "care": "Prensip anlaşması ile imzalı sözleşme arasındaki fark, anlaşmanın kesinliğine dair okura farklı mesaj veriyor; Milli Gazete'nin başlığı farklı bir isimle belirsizlik yaratıyor."
+ },
+ "rows": [
+  {
+   "s": "milligazete",
+   "frame": "Kimlik merakı",
+   "hero": "Emre Bayraktar",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Transfer",
+   "hero": "Samsunspor",
+   "blame": "",
+   "cause": "",
+   "cons": "Anlaşma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Yeni dönem",
+   "hero": "Nenad Bjelica",
+   "blame": "",
+   "cause": "",
+   "cons": "Yeni dönem",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Transfer",
+   "hero": "Samsunspor",
+   "blame": "",
+   "cause": "",
+   "cons": "Anlaşma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Transfer",
+   "hero": "Samsunspor",
+   "blame": "",
+   "cause": "",
+   "cons": "Prensip anlaşması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Thorsten Fink'in ayrılığı"
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Transfer",
+   "hero": "Nenad Bjelica",
+   "blame": "",
+   "cause": "",
+   "cons": "İmza",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Transfer",
+   "hero": "Samsunspor",
+   "blame": "",
+   "cause": "",
+   "cons": "İmza",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Transfer",
+   "hero": "Samsunspor",
+   "blame": "",
+   "cause": "",
+   "cons": "İmza",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

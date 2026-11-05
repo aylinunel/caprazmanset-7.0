@@ -175,6 +175,16 @@ def write_tasks(run: Path, stage: str, batch: int) -> list[Path]:
     return paths
 
 
+def _outlet_counts(done: list[dict]) -> dict[str, dict[str, int]]:
+    out: dict[str, dict[str, int]] = {}
+    for x in done:
+        for f in x["supported"] + x["uncertain"]:
+            for o in {o for e in f["evidence"] for o in e.get("o", [])}:
+                out.setdefault(o, {}).setdefault(f["id"], 0)
+                out[o][f["id"]] += 1
+    return out
+
+
 def apply(run: Path) -> dict[str, Any]:
     bg = BiasGuard()
     results = []
@@ -187,8 +197,11 @@ def apply(run: Path) -> dict[str, Any]:
             continue
         r = BiasGuard(reviewer=FileReviewer(run, ev)).analyze(it["text"], it["context"], stakes="medium", mode="ai",
                                                              max_candidates=MAX_CANDIDATES)
+        lines = [(l[1:l.index(" ·")], l) for l in it["text"].splitlines() if l.startswith("[") and " ·" in l]
+        who = lambda q: sorted({o for o, l in lines if q in l})  # outlets whose headline line holds the quote
         slim = lambda f: {"id": f["id"], "name": f["name"], "status": f["status"], "definition": f["definition"],
-                          "source_url": f["source_url"], "evidence": [{"q": x["quote"], "src": x["source"], "kind": x.get("kind")}
+                          "source_url": f["source_url"], "evidence": [{"q": x["quote"], "src": x["source"], "kind": x.get("kind"),
+                                                                       "o": who(x["quote"]) if x["source"] == "text" else []}
                                                                       for x in f["evidence"]],
                           "mechanisms": f["mechanisms"], "alternatives": f["alternative_explanations"],
                           "missing": f["missing_context"]}
@@ -220,6 +233,8 @@ def apply(run: Path) -> dict[str, Any]:
         "rejectedQuotes": sum(x.get("rejectedQuotes", 0) for x in done),
         "cards": sorted(by_card.values(), key=lambda c: (-c["supported"], -c["uncertain"], c["id"])),
         "catalog": len(bg.cards), "maxCandidates": MAX_CANDIDATES,
+        # outlet -> card id -> events where that outlet's headline was quoted as evidence (AI output, not a verdict)
+        "outlets": _outlet_counts(done),
     }
     return {"summary": summary, "events": results}
 

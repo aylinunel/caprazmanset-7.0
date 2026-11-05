@@ -1,0 +1,142 @@
+{
+ "q": {
+  "happened": "Cumhurbaşkanı Erdoğan, Sağlık Bakanlığına 38 bin hekim dışı personel alınacağını açıkladı.",
+  "agree": "38 bin sağlık personeli alımı ortak.",
+  "differ": "Sabah, Star ve Türkiye Gazetesi açıklamayı 'müjde' olarak sunuyor, Sabah 'Başkan Erdoğan' diyor; TRT Haber, NTV, BirGün, Mynet ve Karar Erdoğan'ın açıklaması olarak aktarıyor; Sözcü, Diken ve Habertürk Erdoğan'ı başlığa almıyor, Habertürk başvuru bilgisine odaklanıyor.",
+  "care": "'Müjde' çerçevesi bir idari kararı liderin bahşettiği bir lütuf gibi sunarken, Erdoğan'ı anmayan başlıklar haberi kurumsal bir istihdam bilgisi olarak bırakıyor."
+ },
+ "rows": [
+  {
+   "s": "trthaber",
+   "frame": "Açıklama",
+   "hero": "Cumhurbaşkanı Erdoğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Müjde",
+   "hero": "Cumhurbaşkanı Erdoğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "Lütuf",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Müjde",
+   "hero": "Cumhurbaşkanı Erdoğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "Lütuf",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Müjde",
+   "hero": "Cumhurbaşkanı Erdoğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "Lütuf",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Açıklama",
+   "hero": "Cumhurbaşkanı Erdoğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "birgun",
+   "frame": "Açıklama",
+   "hero": "Cumhurbaşkanı Erdoğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Açıklama",
+   "hero": "Cumhurbaşkanı Erdoğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Açıklama",
+   "hero": "Cumhurbaşkanı Erdoğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Sağlık Bakanlığı",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Başvuru rehberi",
+   "hero": "Sağlık Bakanlığı",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel alımı",
+   "aff": "İş arayanlar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

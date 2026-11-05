@@ -1,0 +1,166 @@
+{
+ "q": {
+  "happened": "Ekim ayı enflasyon verileri açıklandı: bir grup başlık İTO'nun İstanbul enflasyonunu, diğerleri TÜİK'in ulusal verisini konu ediyor.",
+  "agree": "Ekim ayı enflasyon verisinin açıklandığı/açıklanacağı ortak; başlıkların hiçbiri oranı vermiyor.",
+  "differ": "Cumhuriyet ve BirGün veriyi İTO'ya dayandırıyor; Türkiye Gazetesi ve Milli Gazete en çok zamlanan kalemi öne çıkarıyor; CNN Türk ve Takvim TÜİK beklentisine, A Haber 'milyonların maaşını etkileyecek' diyerek maaş etkisine odaklanıyor; Haberler ve Akşam soru-rehber biçimi kullanıyor.",
+  "care": "Maaş vurgusu enflasyonu doğrudan halkın gelirine bağlarken, zam vurgusu fiyat artışının kendisini görünür kılar; oranın hiçbir başlıkta yer almaması verinin içeriğini geri plana itiyor."
+ },
+ "rows": [
+  {
+   "s": "sozcu",
+   "frame": "Ekonomik veri",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "akit",
+   "frame": "Ekonomik veri",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Ekonomik veri",
+   "hero": "İTO",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "birgun",
+   "frame": "Ekonomik veri",
+   "hero": "İTO",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Fiyat artışı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Zam",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Fiyat artışı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Zam",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cnnturk",
+   "frame": "Beklenti",
+   "hero": "TÜİK",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Beklenti",
+   "hero": "TÜİK",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Maaş etkisi",
+   "hero": "TÜİK",
+   "blame": "",
+   "cause": "",
+   "cons": "Maaş etkisi",
+   "aff": "Maaş alanlar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberler",
+   "frame": "Bilgi rehberi",
+   "hero": "TÜİK",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Ekonomik veri",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "aksam",
+   "frame": "Bilgi rehberi",
+   "hero": "TÜİK",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Ekonomik veri",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

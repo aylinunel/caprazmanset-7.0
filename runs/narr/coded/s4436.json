@@ -1,0 +1,15 @@
+{"q": {"happened": "Efsane boksör Mike Tyson, Tuzlu Kahve dizisi projesi için İstanbul'a geldi ve ilk açıklamalarını yaptı.", "agree": "Tyson'ın İstanbul'da olduğu ortak.", "differ": "Star, Akit, Mynet, Karar ve Habertürk yalnızca ziyareti duyuruyor; Takvim, Sözcü, Haberler ve TGRT dizi projesini öne çıkarıyor; Haberler ve Sözcü 'kimdir, kaç yaşında, Müslüman mı' sorularıyla merak haberi yapıyor; Türkiye Gazetesi ve Sabah Süper Lig/derbi cevabını, NTV ve Takvim 'Türkiye'de olmaktan mutluyum' sözünü başlığa taşıyor.", "care": "Aynı ziyaret kimi kurumda futbol tartışmasına, kimisinde Türkiye sevgisine, kimisinde ise kişisel ve dini kimlik merakına bağlanıyor; bu, okurun Tyson'ı hangi bağlamda hatırlayacağını belirler."}, "rows": [
+{"s": "haberler", "frame": "Magazin / merak", "hero": "Mike Tyson", "blame": "", "cause": "Dizi projesi", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Ünlü ziyareti", "hero": "Mike Tyson", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "akit", "frame": "Ünlü ziyareti", "hero": "Mike Tyson", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Futbol gündemi", "hero": "Mike Tyson", "blame": "", "cause": "", "cons": "Futbol cevabı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Futbol gündemi", "hero": "Mike Tyson", "blame": "", "cause": "", "cons": "Futbol cevabı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Ünlü ziyareti", "hero": "Mike Tyson", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Ünlü ziyareti", "hero": "Mike Tyson", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Dizi projesi", "hero": "Mike Tyson", "blame": "", "cause": "Dizi projesi", "cons": "Mutluluk açıklaması", "aff": "", "sol": "", "moral": "Türkiye sevgisi", "start": ""},
+{"s": "cumhuriyet", "frame": "Ünlü ziyareti", "hero": "Mike Tyson", "blame": "", "cause": "", "cons": "İlk açıklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Magazin / merak", "hero": "Mike Tyson", "blame": "", "cause": "Dizi projesi", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Ünlü ziyareti", "hero": "Mike Tyson", "blame": "", "cause": "", "cons": "Mutluluk açıklaması", "aff": "", "sol": "", "moral": "Türkiye sevgisi", "start": ""},
+{"s": "tgrt", "frame": "Dizi projesi", "hero": "Mike Tyson", "blame": "", "cause": "Dizi projesi", "cons": "Dizideki karakter", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Ünlü ziyareti", "hero": "Mike Tyson", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

@@ -1,0 +1,130 @@
+{
+ "q": {
+  "happened": "Trabzonspor, UEFA Konferans Ligi'nde KuPS Kuopio ile deplasmanda karşılaştı ve maçı 4-2 kazandı.",
+  "agree": "Trabzonspor ile KuPS Kuopio arasındaki Konferans Ligi deplasman maçı ortak.",
+  "differ": "Sözcü, Star ve Sabah maç hazırlıklarını; Cumhuriyet ve NTV yayın bilgisini; Takvim, A Haber ve TRT Haber 4-2'lik galibiyeti öne çıkarıyor; Takvim 'Fırtına 3 puanla başladı' diye coşkulu bir dil kullanıyor.",
+  "care": "Başlıkların farklı anlarda atılması, okurun aynı olay hakkında hazırlık, yayın bilgisi ya da sonuç gibi çok farklı bilgiler almasına yol açıyor."
+ },
+ "rows": [
+  {
+   "s": "sozcu",
+   "frame": "Maç hazırlığı",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Maç hazırlığı",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Maç hazırlığı",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Maç önü",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Maç önü",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Yayın bilgisi",
+   "hero": "KuPS Kuopio - Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Zafer",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "Galibiyet",
+   "aff": "",
+   "sol": "",
+   "moral": "Gurur",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Galibiyet",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "Galibiyet",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Yayın bilgisi",
+   "hero": "KuPS Kuopio - Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "Galibiyet hedefi",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Galibiyet",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "",
+   "cons": "Galibiyet",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

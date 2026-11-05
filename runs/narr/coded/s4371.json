@@ -1,0 +1,16 @@
+{"q": {"happened": "SPK, nitelikli yatırımcı sayılmak için gereken finansal varlık sınırını 50 milyon liraya yükseltti.", "agree": "Kararın SPK'dan geldiği ve sınırın 50 milyon lira olduğu ortak.", "differ": "Kurumların çoğu kararı düz bir düzenleme haberi olarak veriyor; Karar 'fon krizi sürerken' diyerek kararı bir kriz bağlamına yerleştiriyor; Haberler 'SPK düğmeye bastı', TGRT 'kritik' diyerek kararı dramatize ediyor; Star ve AA kararı yatırımcıların şartı açısından anlatıyor; Bloomberg HT, Habertürk ve Tele1 rakamı başlıkta vermiyor.", "care": "Kararın fon kriziyle ilişkilendirilmesi onu olağan bir düzenlemeden bir krize yanıta dönüştürür; bu bağlam yalnızca Karar'da var."}, "rows": [
+{"s": "bloomberght", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Düzenleme", "hero": "SPK", "blame": "", "cause": "", "cons": "", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Düzenleme", "hero": "SPK", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Düzenleme", "hero": "SPK", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Düzenleme", "hero": "SPK", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Düzenleme", "hero": "SPK", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Düzenleme", "hero": "SPK", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Yatırımcı rehberi", "hero": "SPK", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Düzenleme", "hero": "", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Düzenleme", "hero": "", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Düzenleme", "hero": "", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Fon krizi", "hero": "SPK", "blame": "", "cause": "Fon krizi", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "Sınırın yükseltilmesi", "moral": "", "start": "Fon krizi"},
+{"s": "tele1", "frame": "Düzenleme", "hero": "SPK", "blame": "", "cause": "", "cons": "", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Düzenleme", "hero": "SPK", "blame": "", "cause": "", "cons": "Sınırın yükselmesi", "aff": "Nitelikli yatırımcılar", "sol": "", "moral": "", "start": ""}
+]}

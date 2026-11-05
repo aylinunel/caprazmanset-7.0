@@ -1,0 +1,130 @@
+{
+ "q": {
+  "happened": "İstanbul'da yürütülen bir soruşturmada Murat Ağırel, Aylin Kotil, Ömer Sarıgül ve Emir Sarıgül'ün de aralarında olduğu altı kişi hakkında gözaltı kararı verildi.",
+  "agree": "Gözaltı kararı ve gözaltına alınan isimler ortak.",
+  "differ": "Star ve Habertürk soruşturmayı 'kara para/para aklama' olarak adlandırıyor; Mynet ve Takvim Murat Ağırel'i öne koyuyor; Sözcü, Cumhuriyet ve Milli Gazete haberi Aylin Kotil'in kimliği ve özel hayatı üzerine soru-cevap biçiminde veriyor; NTV Ağırel'i başlığa almıyor.",
+  "care": "Suçlamanın adının başlıkta geçmesi kişileri belirli bir suçla ilişkilendirirken, kimlik ve özel hayat sorularına odaklanan başlıklar soruşturmanın içeriğini geri plana itiyor."
+ },
+ "rows": [
+  {
+   "s": "mynet",
+   "frame": "Gözaltı",
+   "hero": "Murat Ağırel",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Olgu aktarımı",
+   "hero": "Murat Ağırel",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Soruşturma",
+   "hero": "Savcılık",
+   "blame": "Şüpheliler",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Para aklama soruşturması",
+   "hero": "Savcılık",
+   "blame": "Şüpheliler",
+   "cause": "Para aklama",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Kimlik merakı",
+   "hero": "Aylin Kotil",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Aylin Kotil",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Para aklama soruşturması",
+   "hero": "Savcılık",
+   "blame": "Şüpheliler",
+   "cause": "Para aklama",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Murat Ağırel",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Kimlik merakı",
+   "hero": "Aylin Kotil",
+   "blame": "",
+   "cause": "",
+   "cons": "Gözaltı",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Kimlik merakı",
+   "hero": "Aylin Kotil",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

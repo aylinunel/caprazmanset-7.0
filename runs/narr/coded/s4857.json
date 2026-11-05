@@ -1,0 +1,15 @@
+{"q": {"happened": "Kanuni döneminde Mimar Sinan'a yaptırılan Şam'daki tarihi Süleymaniye Tekkesi restore edilerek yeniden açıldı; birçok kuruma göre 14 yıl sonra ilk kez ezan okundu.", "agree": "Tekkenin restorasyon sonrası yeniden açıldığı ortak.", "differ": "AA, Diriliş, TRT Haber ve Mynet açılışı bir restorasyon haberi olarak veriyor; Sondakika, A Haber, Akşam, Takvim, Haberler ve Türkiye Gazetesi 'Osmanlı mirası' ve Kanuni'yi öne çıkarıyor; Yeni Şafak, Türkiye Gazetesi, Akit ve diğerleri ezan ve namazla dini ihyayı vurguluyor (Akit '15 yıl' diyor); Star 'Türkiye'ye teşekkür ederiz' sözüyle Türkiye'yi merkeze alıyor.", "care": "Aynı açılışın teknik bir restorasyon mu, Osmanlı mirasının ihyası mı, yoksa dini bir dönüş mü olarak sunulması, olayın Türkiye'nin Suriye'deki rolüne dair taşıdığı siyasi anlamı değiştirir."}, "rows": [
+{"s": "aa", "frame": "Restorasyon", "hero": "", "blame": "", "cause": "", "cons": "Yeniden açılış", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sondakika", "frame": "Osmanlı mirası", "hero": "", "blame": "", "cause": "", "cons": "İbadete dönüş", "aff": "", "sol": "", "moral": "Dini ihya", "start": ""},
+{"s": "haberler", "frame": "Osmanlı mirası", "hero": "Kanuni", "blame": "", "cause": "", "cons": "İlk ezan", "aff": "", "sol": "", "moral": "Dini ihya", "start": "Kanuni dönemi"},
+{"s": "ahaber", "frame": "Osmanlı mirası", "hero": "", "blame": "", "cause": "", "cons": "İlk ezan", "aff": "", "sol": "", "moral": "Dini ihya", "start": ""},
+{"s": "dirilis", "frame": "Restorasyon", "hero": "", "blame": "", "cause": "", "cons": "Yeniden açılış", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Osmanlı mirası", "hero": "Türkiye", "blame": "", "cause": "", "cons": "Yeniden açılış", "aff": "", "sol": "", "moral": "Minnet", "start": "Kanuni dönemi"},
+{"s": "trthaber", "frame": "Restorasyon", "hero": "", "blame": "", "cause": "", "cons": "Yeniden açılış", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Restorasyon", "hero": "", "blame": "", "cause": "", "cons": "Yeniden açılış", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Osmanlı mirası", "hero": "Mimar Sinan", "blame": "", "cause": "", "cons": "Yeniden açılış", "aff": "", "sol": "", "moral": "İhya", "start": ""},
+{"s": "takvim", "frame": "Osmanlı mirası", "hero": "Kanuni", "blame": "", "cause": "", "cons": "Yeniden açılış", "aff": "", "sol": "", "moral": "", "start": "Kanuni dönemi"},
+{"s": "yenisafak", "frame": "Restorasyon", "hero": "", "blame": "", "cause": "", "cons": "İlk ezan", "aff": "", "sol": "", "moral": "Dini ihya", "start": ""},
+{"s": "turkiyegz", "frame": "Osmanlı mirası", "hero": "Kanuni", "blame": "", "cause": "", "cons": "İlk ezan", "aff": "", "sol": "", "moral": "Dini ihya", "start": "Kanuni dönemi"},
+{"s": "akit", "frame": "Osmanlı mirası", "hero": "Mimar Sinan", "blame": "", "cause": "", "cons": "İlk namaz", "aff": "", "sol": "", "moral": "Dini ihya", "start": ""}
+]}

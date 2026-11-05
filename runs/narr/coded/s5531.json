@@ -1,0 +1,166 @@
+{
+ "q": {
+  "happened": "Nepal'de Everest yakınında iki helikopter çarpıştı; 1 kişi öldü, birkaç kişi yaralandı.",
+  "agree": "İki helikopterin çarpıştığı ve en az bir kişinin öldüğü ortak.",
+  "differ": "AA ve Onedio çarpışmanın iniş sırasında olduğunu, Milliyet ve Türkiye Gazetesi ise 'havada' çarpıştığını yazıyor; Onedio ölenin Hintli turist olduğunu belirtiyor; Yeni Asya, Yeni Şafak ve A Haber 'feci', 'can pazarı', 'facia' gibi dramatik ifadeler kullanıyor; A Haber 2, diğerleri 3 yaralı diyor; Milliyet, TGRT ve Sabah görüntüyü öne çıkarıyor.",
+  "care": "'İniş' ile 'havada' arasındaki fark kazanın nasıl olduğuna dair farklı bir izlenim verir; dramatik dil ve görüntü vurgusu ise olayı bilgi yerine izlenecek bir felakete dönüştürür."
+ },
+ "rows": [
+  {
+   "s": "sondakika",
+   "frame": "Kaza",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölü ve yaralılar",
+   "aff": "Turistler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milliyet",
+   "frame": "Görüntü",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "hurriyet",
+   "frame": "Kaza",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölüm",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberler",
+   "frame": "Kaza",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölü ve yaralılar",
+   "aff": "Turistler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "aa",
+   "frame": "Kaza",
+   "hero": "",
+   "blame": "",
+   "cause": "İniş sırasında çarpışma",
+   "cons": "Ölü ve yaralılar",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Facia",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölü ve yaralılar",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "tgrt",
+   "frame": "Görüntü",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölü ve yaralılar",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Kaza",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölü ve yaralılar",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "onedio",
+   "frame": "Kaza",
+   "hero": "",
+   "blame": "",
+   "cause": "İniş sırasında çarpışma",
+   "cons": "Ölü ve yaralılar",
+   "aff": "Turistler",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Görüntü",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yenisafak",
+   "frame": "Facia",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Kaza",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölü ve yaralılar",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Facia",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Ölü ve yaralılar",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

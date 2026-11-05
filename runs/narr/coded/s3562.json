@@ -1,0 +1,14 @@
+{"q": {"happened": "Galatasaray, Şampiyonlar Ligi'nde Barcelona'ya 4-1 yenildi; Sözcü, Mynet ve Cumhuriyet ise Galatasaray'ın gençlerinin UEFA Gençlik Ligi'nde Barcelona'ya kaybettiğini yazıyor.", "agree": "Galatasaray'ın Barcelona'ya kaybettiği ortak.", "differ": "Diken, Yeni Asya, Diriliş, TRT Haber ve Star sonucu düz aktarıyor; A Haber 'ikinci maçında da puan alamadı' diyerek seriyi, Sabah ve NTV 'sonunu getiremedi/diş geçiremedi' ile yenilgiyi dramatize ediyor; Sözcü, Mynet ve Cumhuriyet genç takım maçını, Habertürk ise iki kulüp arasındaki dostluk yemeğini haberleştiriyor.", "care": "Bazı başlıklar farklı bir maçtan söz ettiği için okur hangi takımın kaybettiğini karıştırabilir; puansız seri vurgusu ise yenilgiye daha ağır bir anlam yüklüyor."}, "rows": [
+{"s": "ahaber", "frame": "Puansız seri", "hero": "Galatasaray", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Dostluk / centilmenlik", "hero": "Galatasaray", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "Centilmenlik", "start": ""},
+{"s": "sozcu", "frame": "Gençlik Ligi", "hero": "Galatasaray gençleri", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Gençlik Ligi", "hero": "Galatasaray gençleri", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Gençlik Ligi", "hero": "Galatasaray gençleri", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Yenilgi", "hero": "Galatasaray", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Yenilgi", "hero": "Galatasaray", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Olgu aktarımı", "hero": "Galatasaray", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yeniasya", "frame": "Olgu aktarımı", "hero": "Galatasaray", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Olgu aktarımı", "hero": "Galatasaray", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "Galatasaray", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Olgu aktarımı", "hero": "Galatasaray", "blame": "", "cause": "", "cons": "Yenilgi", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

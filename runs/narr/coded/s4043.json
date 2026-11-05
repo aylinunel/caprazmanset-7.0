@@ -1,0 +1,12 @@
+{"q": {"happened": "2026 KPSS Ortaöğretim sınavı yapıldı; başlıklar sınav saati, giriş belgesi ve sınavın yapılışı hakkında bilgi veriyor.", "agree": "2026 KPSS Ortaöğretim sınavının yapıldığı ya da yapılacağı ortak.", "differ": "Cumhuriyet, Sabah, Takvim, Habertürk, Milli Gazete ve Yeni Şafak saat, giriş belgesi ve süreye dair soru-cevap başlıkları atıyor; TRT Haber sınavın yarın yapılacağını, Karar başladığını, AA ve Hürriyet yapıldığını duyuruyor.", "care": "Farklar çerçeveden çok yayın zamanlaması ve hizmet içeriği formatından kaynaklanıyor; anlamlı bir anlatı ayrışması yok."}, "rows": [
+{"s": "cumhuriyet", "frame": "Hizmet bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Hizmet bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Hizmet bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Hizmet bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Sınav yarın", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Hizmet bilgisi", "hero": "ÖSYM", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Hizmet bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Sınav yapıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "hurriyet", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Sınav yapıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Sınav başladı", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

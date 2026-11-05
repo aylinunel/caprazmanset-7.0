@@ -1,0 +1,12 @@
+{"q": {"happened": "Şarkıcı Nev son yolculuğuna uğurlandı; bazı başlıklara göre cenazeye Süleyman Soylu da katıldı.", "agree": "Nev'in cenazesinin yapıldığı ortak (Mynet'in başlığı ise Aliağa eski Belediye Başkanı Ali Ayhan Bayrak'ın cenazesine ait).", "differ": "Türkiye Gazetesi, Cumhuriyet ve Karar Süleyman Soylu'nun katılımını başlığa taşıyor, Sözcü haberi doğrudan Soylu'nun 'arkadaşını' uğurlaması olarak kuruyor; Sabah, NTV ve Takvim cenazedeki gözyaşlarını ve aileyi öne çıkarıyor; TGRT Türk müziği için bir kayıp vurgusu yapıyor.", "care": "Cenaze haberinin bir siyasetçinin katılımı üzerinden ya da duygusal veda üzerinden anlatılması, haberin odağını sanatçıdan siyasi figüre kaydırıp kaydırmadığını belirler."}, "rows": [
+{"s": "mynet", "frame": "Olgu aktarımı", "hero": "Ali Ayhan Bayrak", "blame": "", "cause": "", "cons": "Cenaze", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Duygusal veda", "hero": "Nev", "blame": "", "cause": "", "cons": "Cenaze", "aff": "Yakınlar", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Nev", "blame": "", "cause": "", "cons": "Cenaze", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Duygusal veda", "hero": "Nev", "blame": "", "cause": "Vefat", "cons": "Cenaze", "aff": "Aile", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Siyasi figür katılımı", "hero": "Nev", "blame": "", "cause": "", "cons": "Cenaze", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Dostluk", "hero": "Süleyman Soylu", "blame": "", "cause": "", "cons": "Cenaze", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Duygusal veda", "hero": "Nev", "blame": "", "cause": "", "cons": "Cenaze", "aff": "Yakınlar", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Siyasi figür katılımı", "hero": "Nev", "blame": "", "cause": "", "cons": "Cenaze", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Siyasi figür katılımı", "hero": "Nev", "blame": "", "cause": "", "cons": "Cenaze", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Kültürel kayıp", "hero": "Nev", "blame": "", "cause": "", "cons": "Cenaze", "aff": "Türk müziği", "sol": "", "moral": "", "start": ""}
+]}

@@ -408,929 +408,553 @@
  ],
  "events": [
   {
-   "event": "s5450",
+   "event": "s5326",
    "week": "w10",
-   "title": "AHMET NAZİF ZORLU HAYATINI KAYBETTİ! Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu kimdir, nereli, neden öldü, hastalığı neydi?",
+   "title": "Son kullanma tarihi geçmiş kanser ilaçlarını piyasaya süren 22 şüpheli gözaltında",
    "headlines": [
     {
-     "s": "milligazete",
-     "hl": "Ahmet Nazif Zorlu öldü mü, yaşıyor mu, hastalığı ne, sağlık durumu nasıl?"
-    },
-    {
      "s": "sondakika",
-     "hl": "İş insanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "bloomberght",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "haberler",
-     "hl": "İş insanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "onedio",
-     "hl": "Ahmet Nazif Zorlu Kimdir? Ahmet Nazif Zorlu Öldü mü?"
-    },
-    {
-     "s": "mynet",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "tgrt",
-     "hl": "İş insanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu vefat etti!"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "karar",
-     "hl": "İş dünyasının acı kaybı: Ahmet Nazif Zorlu vefat etti"
-    },
-    {
-     "s": "birgun",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Kanser tedavisi görüyordu! İş adamı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "takvim",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "akit",
-     "hl": "İş insanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "diken",
-     "hl": "Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "sabah",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+     "hl": "Tarihi geçmiş ilaçları yeniden piyasaya süren 22 şüpheli 11 ilde gözaltına alındı"
     },
     {
      "s": "hurriyet",
-     "hl": "Son dakika... Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+     "hl": "Son kullanma tarihi geçmiş kanser ilaçlarıyla vurgun: 22 şüpheli gözaltına alındı"
     },
     {
-     "s": "aksam",
-     "hl": "Ahmet Nazif Zorlu hayatını kaybetti"
+     "s": "haberler",
+     "hl": "Son kullanma tarihi geçmiş kanser ilaçlarında 11 ilde 22 şüpheli gözaltına alındı"
     },
     {
-     "s": "trthaber",
-     "hl": "Ahmet Nazif Zorlu hayatını kaybetti"
-    },
-    {
-     "s": "ntv",
-     "hl": "Ahmet Nazif Zorlu yaşamını yitirdi"
+     "s": "turkiyegz",
+     "hl": "Son kullanma tarihi geçmiş kanser ilaçlarına yönelik soruşturma: Bakan Gürlek duyurdu"
     },
     {
      "s": "star",
-     "hl": "Ünlü iş adamından acı haber... Ahmet Nazif Zorlu hayatını kaybetti"
+     "hl": "Tarihi geçmiş kanser ilaçlarını satan vicdansızlara operasyon! 3'ü kamu görevlisi 24 isim tespit edildi"
     },
     {
-     "s": "cnnturk",
-     "hl": "Ahmet Nazif Zorlu Neden Öldü, Hastalığı Neydi? Ahmet Nazif Zorlu Kimdir, Kaç Yaşındaydı?"
+     "s": "birgun",
+     "hl": "Tarihi geçmiş kanser ilaçlarını piyasaya sürenlere operasyon"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Tarihi geçmiş kanser ilaçlarını piyasaya süren çeteye operasyon! Çok sayıda gözaltı var"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Akın Gürlek duyurdu... Tarihi geçmiş kanser ilaçlarında 650 milyon TL'lik vurgun iddiası: 11 ilde operasyon, 22 gözaltı!"
+    },
+    {
+     "s": "mynet",
+     "hl": "Tarihi geçmiş kanser ilaçlarını yeniden piyasaya sürmüşler! 650 milyon TL'lik işlem hacmi tespit edildi, çok sayıda gözaltı var"
+    },
+    {
+     "s": "karar",
+     "hl": "Tarihi geçmiş kanser ilaçlarını yeniden sattılar: 650 milyon liralık vurgun, 22 gözaltı"
     },
     {
      "s": "aa",
-     "hl": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti"
+     "hl": "Tarihi geçmiş kanser ilaçlarını yeniden piyasaya süren şüphelilere yönelik operasyonda 22 kişi gözaltına alındı"
     },
     {
-     "s": "yeniasya",
-     "hl": "Ahmet Nazif Zorlu vefat etti"
+     "s": "trthaber",
+     "hl": "Son kullanma tarihi geçmiş kanser ilaçlarını piyasaya süren 22 şüpheli gözaltında"
     }
    ]
   },
   {
-   "event": "s5446",
+   "event": "s5412",
    "week": "w10",
-   "title": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı",
+   "title": "Belçika'da hükümet krizi! Başbakan De Wever istifasını Kral'a sundu",
    "headlines": [
     {
-     "s": "bloomberght",
-     "hl": "Sermaye piyasası işlemleri soruşturmasında Korkmaz Enes Ergun adliyede"
-    },
-    {
-     "s": "birgun",
-     "hl": "Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi"
-    },
-    {
      "s": "cumhuriyet",
-     "hl": "Fon vurgunu soruşturması: Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama istemi"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Fon soruşturmasında Korkmaz Enes Ergun için tutuklama talebi"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi"
-    },
-    {
-     "s": "haberler",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi"
-    },
-    {
-     "s": "karar",
-     "hl": "Fon soruşturması Borsa İstanbul'un yönetimine uzandı: Korkmaz Enes Ergun'a tutuklama talebi"
-    },
-    {
-     "s": "ntv",
-     "hl": "Fon soruşturması. Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi"
+     "hl": "Belçika'da hükümet krizi patlak verdi: Başbakan istifasını sundu"
     },
     {
      "s": "star",
-     "hl": "Fon soruşturmasında yeni gelişme... Korkmaz Enes Ergun için tutuklama talebi"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi"
+     "hl": "Belçika'da hükümet krizi! Başbakan De Wever istifasını Kral'a sundu"
     },
     {
      "s": "aksam",
-     "hl": "Sermaye piyasası soruşturması derinleşiyor: Borsa İstanbul eski yöneticisi Enes Ergun'e tutuklama talebi"
-    },
-    {
-     "s": "sabah",
-     "hl": "Fon soruşturmasında yeni gelişme: Korkmaz Enes Ergun tutuklamaya sevk edildi!"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Eski Borsa İstanbul Genel Müdürü Ergun'a tutuklama talebi"
-    },
-    {
-     "s": "diken",
-     "hl": "Eski Borsa İstanbul genel müdürüne tutuklama talebi"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi! Hakimliğe sevk edildi"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı!"
-    },
-    {
-     "s": "onedio",
-     "hl": "Fon Soruşturmasında Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun Tutuklandı"
-    },
-    {
-     "s": "akit",
-     "hl": "Korkmaz Enes Ergun tutuklandı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun fon soruşturması kapsamında tutuklandı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Korkmaz Enes Ergun tutuklandı: Fon soruşturmasında karar"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Borsa İstanbul Eski Genel Müdürü Korkmaz Enes Ergun Tutuklandı!"
-    },
-    {
-     "s": "hurriyet",
-     "hl": "Sermaye piyasası işlemlerine ilişkin soruşturmada Korkmaz Enes Ergun tutuklandı"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "KORKMAZ ENES ERGUN KİMDİR, KAÇ YAŞINDA NERELİ? Borsa İstanbul eski genel müdürü Korkmaz Enes Ergun neden tutuklandı?"
-    }
-   ]
-  },
-  {
-   "event": "s5081",
-   "week": "w10",
-   "title": "Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?",
-   "headlines": [
-    {
-     "s": "aa",
-     "hl": "Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Borsa İstanbul'da Enes Ergun'un yerine Atila Türeli geldi"
-    },
-    {
-     "s": "bloomberght",
-     "hl": "Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "mynet",
-     "hl": "Son dakika! Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Borsa İstanbul Genel Müdürlüğü'ne Atila Türeli getirildi"
-    },
-    {
-     "s": "haberler",
-     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "akit",
-     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Genel müdürü fon soruşturmasında gözaltına alındı: Borsa İstanbul'un başına 'vekaleten' Atila Türeli getirildi"
-    },
-    {
-     "s": "star",
-     "hl": "Borsa İstanbul Genel Müdürü Atila Türeli oldu"
-    },
-    {
-     "s": "takvim",
-     "hl": "Borsa İstanbul'da yönetim değişikliği! Atila Türeli görevi vekaleten üstlendi"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Borsa İstanbul Genel Müdür Vekilliği görevine Atila Türeli getirildi"
-    },
-    {
-     "s": "birgun",
-     "hl": "Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "sabah",
-     "hl": "Borsa İstanbul A.Ş. Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?"
+     "hl": "Belçika'da siyasi kriz derinleşiyor! Başbakan istifasını sundu"
     },
     {
      "s": "ntv",
-     "hl": "Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi"
+     "hl": "Belçika'da bütçe krizi. Başbakan De Wever istifa etti, Kral süreci erteledi"
     },
-    {
-     "s": "diken",
-     "hl": "Borsa İstanbul genel müdürlüğüne Atila Türeli getirildi"
-    },
-    {
-     "s": "karar",
-     "hl": "Fon soruşturmasında gözaltı sonrası Borsa İstanbul’da yönetim değişti: Genel Müdürlüğe Atila Türeli getirildi"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Borsa İstanbul'da görev değişikliği! Enes Ergun'un yerine Atila Türeli atandı"
-    },
-    {
-     "s": "aksam",
-     "hl": "Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürlüğüne Atila Türeli getirildi"
-    },
-    {
-     "s": "onedio",
-     "hl": "Atila Türeli Kimdir, Kaç Yaşında, Nereli? Borsa İstanbul'un Vekaleten Genel Müdürü Hakkında Bilinenler"
-    }
-   ]
-  },
-  {
-   "event": "s5071",
-   "week": "w10",
-   "title": "Cumhurbaşkanı Erdoğan Güney Kore'de",
-   "headlines": [
     {
      "s": "aa",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor: Nükleer santral inşası, savunma sanayii gündemde"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
-    },
-    {
-     "s": "sabah",
-     "hl": "Başkan Erdoğan'dan Güney Kore'ye kritik ziyaret"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Başkan Erdoğan'dan Güney Kore'ye önemli ziyaret"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor"
-    },
-    {
-     "s": "haberler",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
-    },
-    {
-     "s": "hurriyet",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
-    },
-    {
-     "s": "karar",
-     "hl": "Cumhurbaşkanı Erdoğan Güney Kore’ye gidiyor"
-    },
-    {
-     "s": "aksam",
-     "hl": "Seul'den davet: Başkan Erdoğan, Güney Kore'ye gidecek"
-    },
-    {
-     "s": "birgun",
-     "hl": "Erdoğan Güney Kore'ye gidecek"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek"
+     "hl": "Belçika Başbakanı De Wever, Kral Philippe'e istifasını sundu"
     },
     {
      "s": "turkiyegz",
-     "hl": "Cumhurbaşkanı Erdoğan'dan 8 yıl sonra Güney Kore'ye kritik ziyaret! Seul'de anlaşmalar imzalanacak"
+     "hl": "Belçika'da hükümet krizi! Başbakan istifasını sundu, Kral kabul etmedi"
     },
     {
-     "s": "trthaber",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek"
+     "s": "takvim",
+     "hl": "Belçika'da 10 milyar euroluk bütçe krizi! Başbakan Bart De Wever istifa etti Kral Philippe kararı erteledi"
     },
     {
-     "s": "milligazete",
-     "hl": "Erdoğan 8 yıl sonra Güney Kore'ye gidiyor! Masada 3 kritik konu"
-    },
-    {
-     "s": "ntv",
-     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor"
-    },
-    {
-     "s": "mynet",
-     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'yi ziyaret edecek"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor"
+     "s": "birgun",
+     "hl": "Belçika'da bütçe krizi: Başbakan Bart De Wever istifa etti"
     },
     {
      "s": "milliyet",
-     "hl": "Cumhurbaşkanı Erdoğan, Güney Kore'ye hareket etti"
+     "hl": "Belçika'da siyasi deprem! Başbakan Bart De Wever istifa etti"
     },
     {
-     "s": "akit",
-     "hl": "Cumhurbaşkanı Erdoğan Güney Kore’ye gitti"
+     "s": "trthaber",
+     "hl": "Belçika Başbakanı De Wever, Kral Philippe'e istifasını sundu"
     },
     {
-     "s": "star",
-     "hl": "Cumhurbaşkanı Erdoğan Güney Kore'ye gitti"
+     "s": "karar",
+     "hl": "Belçika’da hükümet istifasını sundu: Kral Philippe kararı askıya aldı"
     },
     {
-     "s": "sozcu",
-     "hl": "Erdoğan'ın Güney Kore ziyareti başladı"
+     "s": "sabah",
+     "hl": "Belçika’da hükümet krizi kapıda: Başbakan istifayı sundu! Gözler Kral Philippe’de"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Belçika'da bütçe anlaşmazlığı hükümeti sarstı! Başbakan De Wever istifasını Kral Philippe'e sundu"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Belçika Başbakanı De Wever istifasını sundu"
     }
    ]
   },
   {
-   "event": "s5445",
+   "event": "s5278",
    "week": "w10",
-   "title": "Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti",
+   "title": "Fenerbahçe'de Sergio Conceiçao kararı çıktı",
    "headlines": [
     {
-     "s": "sondakika",
-     "hl": "Devlet Bahçeli'nin kız kardeşi hayatını kaybetti"
-    },
-    {
-     "s": "karar",
-     "hl": "Bahçeli'nin acı günü: Ablası Serpil Bahçeli hayatını kaybetti"
-    },
-    {
-     "s": "haberler",
-     "hl": "Devlet Bahçeli'nin kız kardeşi hayatını kaybetti"
+     "s": "yenisafak",
+     "hl": "Sergio Conceiçao nasıl bir teknik adam ve Fenerbahçe'de ne yapar?"
     },
     {
      "s": "sabah",
-     "hl": "MHP Genel Başkanı Devlet Bahçeli'nin acı günü! Kız kardeşi Serpil Bahçeli hayatını kaybetti"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "MHP lideri Devlet Bahçeli’nin acı günü! Kardeşi Serpil Bahçeli hayatını kaybetti"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli'den acı haber! Başkan Erdoğan'dan taziye"
-    },
-    {
-     "s": "takvim",
-     "hl": "MHP Lideri Devlet Bahçeli’nin acı kaybı! Kız kardeşi Serpil Bahçeli son yolculuğuna uğurlandı: Başkan Erdoğan'dan taziye mesajı"
-    },
-    {
-     "s": "akit",
-     "hl": "Devlet Bahçeli'nin acı günü: Ablası hayatını kaybetti"
-    },
-    {
-     "s": "hurriyet",
-     "hl": "MHP Lideri Bahçeli'nin acı günü.. Kız kardeşi Serpil Bahçeli hayatını kaybetti"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "MHP lideri Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti"
-    },
-    {
-     "s": "onedio",
-     "hl": "MHP Lideri Devlet Bahçeli'nin Ablası Serpil Bahçeli Hayatını Kaybetti"
-    },
-    {
-     "s": "mynet",
-     "hl": "MHP lideri Devlet Bahçeli'nin acı günü! Ablası hayatını kaybetti"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Devlet Bahçeli'nin acı günü: Kız kardeşi hayatını kaybetti"
-    },
-    {
-     "s": "tgrt",
-     "hl": "MHP Lideri Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti"
+     "hl": "Conceiçao ile masada"
     },
     {
      "s": "birgun",
-     "hl": "Devlet Bahçeli'nin kız kardeşi yaşamını yitirdi"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Devlet Bahçeli'nin ablası Serpil Bahçeli kim, kiminle evli, mesleği ne? Hiç evlendi mi, çocuğu var mı, nereli?"
+     "hl": "Fenerbahçe, Sergio Conceiçao’ya resmi teklif yaptı"
     },
     {
      "s": "tele1",
-     "hl": "Devlet Bahçeli'nin acı günü: Kız kardeşi hayatını kaybetti"
-    },
-    {
-     "s": "star",
-     "hl": "MHP lideri Bahçeli'nin acı günü... Serpil Bahçeli hayatını kaybetti"
-    },
-    {
-     "s": "ntv",
-     "hl": "MHP Genel Başkanı Bahçeli'nin kız kardeşi Serpil Bahçeli vefat etti"
-    },
-    {
-     "s": "trthaber",
-     "hl": "MHP Genel Başkanı Bahçeli'nin kız kardeşi Serpil Bahçeli vefat etti"
-    },
-    {
-     "s": "aksam",
-     "hl": "Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "Son dakika haberi: MHP Lideri Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti"
-    }
-   ]
-  },
-  {
-   "event": "s5253",
-   "week": "w10",
-   "title": "Fenerbahçe'nin Yeni Teknik Direktörü Emre Belözoğlu Oldu",
-   "headlines": [
-    {
-     "s": "sozcu",
-     "hl": "Fenerbahçe'nin başına mı geçecek? Emre Belözoğlu açıkladı"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Uçak kalktı geliyor! İşte Fenerbahçe'nin yeni teknik direktörü"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Fenerbahçe'nin yeni teknik direktörü belli oldu: İstanbul'a geliyor"
-    },
-    {
-     "s": "birgun",
-     "hl": "Fenerbahçe’nin yeni teknik direktörü belli oldu iddiası"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Fenerbahçe'nin yeni teknik direktörü belli oldu iddiası: Conceição İstanbul'a davet edildi"
-    },
-    {
-     "s": "onedio",
-     "hl": "Fenerbahçe, Teknik Direktörlük İçin Sergio Conceição ile Anlaştı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Fenerbahçe'de flaş gelişme: Emre Belözoğlu ile anlaşma sağlandı! Conceiçao olmadı"
+     "hl": "Fenerbahçe'de Sergio Conceiçao kararı çıktı"
     },
     {
      "s": "haberler",
-     "hl": "Fenerbahçe teknik direktör SON DAKİKA! Fenerbahçe'nin yeni teknik direktörü kim oldu?"
+     "hl": "Fenerbahçe, Sergio Conceiçao'ya 1,5 yıllık sözleşme teklif etti"
     },
     {
-     "s": "aa",
-     "hl": "Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi"
-    },
-    {
-     "s": "karar",
-     "hl": "Fenerbahçe'de Emre Belözoğlu sürprizi: Görüşmeler başladı"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Conceição görüşmeleri tıkandı! Fenerbahçe'de ilk aday Emre Belözoğlu"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Fenerbahçe'de Emre Belözoğlu dönemi başladı! Aziz Yıldırım görüştü, anlaşma sağlandı"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Fenerbahçe yeni teknik direktörünü buldu: Emre Belözoğlu ile anlaşma sağlandı!"
-    },
-    {
-     "s": "akit",
-     "hl": "Fenerbahçe'de bomba gelişme: Emre Belözoğlu ile anlaşma sağlandı"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA HABERİ | Emre Belözoğlu, Fenerbahçe ile anlaştı! Kasımpaşa kararını verdi"
-    },
-    {
-     "s": "ntv",
-     "hl": "Fenerbahçe'de Kocaman ya da Conceiçao derken 2. Emre Belözoğlu dönemi başlıyor"
-    },
-    {
-     "s": "aksam",
-     "hl": "Fenerbahçe'de Emre Belözoğlu dönemi! Yuvaya dönüyor"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Fenerbahçe'nin yeni teknik direktörü Emre Belözoğlu oldu"
+     "s": "sondakika",
+     "hl": "Fenerbahçe, Conceiçao ile anlaştı: İstanbul'a geliyor"
     },
     {
      "s": "cumhuriyet",
-     "hl": "Emre Belözoğlu'na Fenerbahçe öncesi PFDK sevki!"
+     "hl": "Fenerbahçe'de Sergio Conceiçao kararı: Teklif ortaya çıktı..."
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Teklifin detayları ortaya çıktı! Fenerbahçe'de Conceiçao kararı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Sergio Conceiçao'nun oyun planı: Fenerbahçe'de bu sistemi kullanacak"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Fenerbahçe'de Conceiçao'da pürüz çıktı: Emre Belözoğlu adım adım Fenerbahçe'ye!"
     },
     {
      "s": "mynet",
-     "hl": "Fenerbahçe'de teknik direktörlük koltuğu Emre Belözoğlu'na emanet!"
-    },
-    {
-     "s": "star",
-     "hl": "Kasımpaşa'da Emre Belözoğlu dönemi resmen sona erdi!"
-    },
-    {
-     "s": "diken",
-     "hl": "Fenerbahçe'de ikinci Emre Belözoğlu dönemi"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi"
-    }
-   ]
-  },
-  {
-   "event": "s5063",
-   "week": "w10",
-   "title": "Galatasaray'da Metin Öztürk istifa etti",
-   "headlines": [
-    {
-     "s": "aa",
-     "hl": "Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Galatasaray İkinci Başkanı Metin Öztürk, yönetim kurulu üyeliklerinden istifa etti"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Galatasaray'da Metin Öztürk yönetim kurulu görevinden istifa etti!"
-    },
-    {
-     "s": "sabah",
-     "hl": "Son dakika haberi: Galatasaray'da Metin Öztürk, istifa etti!"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Galatasaray'da deprem: İkinci Başkan Metin Öztürk şok iddialarla istifa etti"
-    },
-    {
-     "s": "takvim",
-     "hl": "Toplantıdaki olaylar bardağı taşırdı! Metin Öztürk Galatasaray'daki görevlerinden istifa etti"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Galatasaray'da Metin Öztürk istifa etti: 'Fiili saldırıya dönüşmüş eylemi kabullenemem'"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Galatasaray'da şok karar: İkinci Başkan Metin Öztürk istifa etti"
-    },
-    {
-     "s": "birgun",
-     "hl": "Galatasaray’da İkinci Başkan Metin Öztürk istifa etti"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Galatasaray yönetiminde kriz: Metin Öztürk'ten istifa kararı"
-    },
-    {
-     "s": "aksam",
-     "hl": "Galatasaray'da Metin Öztürk istifa etti"
+     "hl": "Sergio Conceiçao yerine Emre Belözoğlu! Fenerbahçe'de sürpriz gelişme"
     },
     {
      "s": "akit",
-     "hl": "Galatasaray'da şok istifa! İkinci başkan Metin Öztürk: Terbiyem el vermez"
-    },
-    {
-     "s": "star",
-     "hl": "Galatasaray'da Metin Öztürk istifa etti"
-    },
-    {
-     "s": "diken",
-     "hl": "Galatasaray ikinci başkanı Metin Öztürk istifa etti"
-    },
-    {
-     "s": "onedio",
-     "hl": "Galatasaray İkinci Başkanı Metin Öztürk İstifa Etti: \"Ölmüş Anneme Hakareti Kabul Edemem\""
-    },
-    {
-     "s": "karar",
-     "hl": "Galatasaray 2’nci Başkanı Metin Öztürk istifa etti"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Galatasaray'da Metin Öztürk istifa etti! Saldırı iddiası"
-    },
-    {
-     "s": "haberler",
-     "hl": "Metin Öztürk kimdir? Galatasaray'ın ikinci başkanı neden istifa etti?"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Metin Öztürk neden istifa etti? Galatasaray İkinci Başkanı"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "METİN ÖZTÜRK NEDEN İSTİFA ETTİ? Galatasaray 2’nci Başkanı Metin Öztürk Kimdir, Kaç Yaşında, Nereli, Ne İş Yapıyor?"
-    },
-    {
-     "s": "mynet",
-     "hl": "Metin Öztürk'ün ardından bir istifa daha! Galatasaray'da Abdullah Kavukcu görevi bıraktı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Galatasaray'da sular durulmuyor! Abdullah Kavukcu da istifa etti"
-    },
-    {
-     "s": "ntv",
-     "hl": "Galatasaray'da istifa krizi. Metin Öztürk'ün ardından Abdullah Kavukcu da istifa etti"
-    }
-   ]
-  },
-  {
-   "event": "s5339",
-   "week": "w10",
-   "title": "Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma",
-   "headlines": [
-    {
-     "s": "sondakika",
-     "hl": "Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni"
+     "hl": "Fenerbahçe’de teknik direktör krizi: Conceiçao’da pürüz çıktı gözler Belözoğlu’nda"
     },
     {
      "s": "ahaber",
-     "hl": "Google’a yapay zekâ freni! Haber özetlerine 'adil paylaşım' tedbiri"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA! Google'a yapay zeka kıskacı! Rekabet Kurumu duyurdu: Haber özetlerine 'adil paylaşım' tedbiri"
-    },
-    {
-     "s": "bloomberght",
-     "hl": "Google yapay zeka hizmetlerine rekabet soruşturması"
-    },
-    {
-     "s": "takvim",
-     "hl": "Google'a yapay zeka soruşturması! Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Google'ın yapay zeka özetlerine 'adil paylaşım' freni: Rekabet Kurumu harekete geçti"
-    },
-    {
-     "s": "birgun",
-     "hl": "Rekabet Kurumu'ndan Google'ın yapay zeka özetleri hakkında geçici tedbir kararı"
-    },
-    {
-     "s": "akit",
-     "hl": "Rekabet Kurumu'ndan Google kararı! Yapay zekâ özetlerine \"adil paylaşım\" tedbiri"
-    },
-    {
-     "s": "haberler",
-     "hl": "Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Rekabet Kurumu'ndan Google'a yapay zeka tedbiri: Adil paylaşım için harekete geçildi"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Google'ın yapay zekâ hizmetlerine soruşturma! Rekabet Kurulundan geçici tedbir kararı"
-    },
-    {
-     "s": "aa",
-     "hl": "Rekabet Kurulundan Google'ın yapay zeka hizmetlerine soruşturma ve geçici tedbir kararı"
-    },
-    {
-     "s": "star",
-     "hl": "Google'ın yapay zeka moduna soruşturma"
-    },
-    {
-     "s": "aksam",
-     "hl": "Google'a yapay zeka kıskacı: Haber özetlerine \"adil paylaşım\" tedbiri"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Google'ın yapay zeka hizmetlerine rekabet soruşturması"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Google yapay zeka soruşturması: Rekabet Kurulu tedbir verdi"
-    },
-    {
-     "s": "diken",
-     "hl": "Rekabet Kurumu'ndan Google’ın yapay zeka özetlerine tedbir"
-    },
-    {
-     "s": "milliyet",
-     "hl": "Rekabet Kurulu'ndan Google'ın yapay zeka özelliklerine soruşturma"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Google'ın yapay zeka özetlerine Rekabet Kurumu incelemesi! Haber siteleri için yeni düzenleme gündemde"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "Rekabet Kurumu'ndan Google'ın yapay zekâ özetlerine yönelik tedbir kararı"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Rekabet Kurulu'ndan Google'a 'geçici tedbir' kararı"
+     "hl": "Fenerbahçe'de Conceiçao ile görüşmeler iptal! Aziz Yıldırım'dan Emre Belözoğlu hamlesi"
     }
    ]
   },
   {
-   "event": "s5524",
+   "event": "s5070",
    "week": "w10",
-   "title": "Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı",
+   "title": "Bağcılar'da 4 bina tahliye edildi",
    "headlines": [
     {
      "s": "sondakika",
-     "hl": "Konya Hüyük'te yolcu otobüsü şarampole devrildi, 3'ü ağır 45 kişi yaralandı"
+     "hl": "Bağcılar'da inşaat çalışması çevrede çatlak oluşturdu, 4 bina tedbiren tahliye edildi"
     },
     {
      "s": "haberler",
-     "hl": "Antalya-Iğdır seferini yapan yolcu otobüsü Konya'da şarampole devrildi! 45 yaralı"
+     "hl": "Bağcılar'da inşaat çalışmaları sırasında 4 bina tedbiren boşaltıldı"
     },
     {
      "s": "haberturk",
-     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
+     "hl": "Bağcılar'da 4 bina tahliye edildi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Bağcılar'da inşaat alanı çevresindeki 4 bina tahliye edildi"
+    },
+    {
+     "s": "birgun",
+     "hl": "Bağcılar'da inşaat çalışması sonrası binalarda çatlaklar oluştu: 4 bina tahliye edildi"
+    },
+    {
+     "s": "aksam",
+     "hl": "Bağcılar'da çatlak paniği! 4 apartman tahliye edildi"
     },
     {
      "s": "hurriyet",
-     "hl": "Gece yarısı şarampole yuvarlandı! Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Konya’da yolcu otobüsü şarampole devrildi! 45 yaralı"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Konya’da yolcu otobüsü şarampole devrildi: 45 yaralı var"
-    },
-    {
-     "s": "ntv",
-     "hl": "Konya'da yolcu otobüsü devrildi, 45 yaralı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Konya'da yolcu otobüsü devrildi: 45 kişi yaralandı"
-    },
-    {
-     "s": "sabah",
-     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
+     "hl": "İstanbul'da inşaatın çevresindeki çatlaklar oluşan 4 bina tahliye edildi"
     },
     {
      "s": "yenisafak",
-     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı"
-    },
-    {
-     "s": "aa",
-     "hl": "Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı"
-    },
-    {
-     "s": "karar",
-     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Konya'da yolcu otobüsü devrildi: 45 yaralı"
-    },
-    {
-     "s": "birgun",
-     "hl": "Konya'da yolcu otobüsü devrildi: 3'ü ağır 45 kişi yaralandı"
-    },
-    {
-     "s": "star",
-     "hl": "Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı"
-    },
-    {
-     "s": "akit",
-     "hl": "Konya'da yolcu otobüsü devrildi: Çok sayıda yaralı var!"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Konya'da yolcu otobüsü devrildi; 3'ü ağır 45 yaralı var!"
+     "hl": "Bağcılar’da inşaatın çevresindeki çatlaklar oluşan 4 bina tahliye edildi"
     },
     {
      "s": "cumhuriyet",
-     "hl": "Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı, 3'ünün durumu ağır"
+     "hl": "Bağcılar’da inşaatın çevresindeki çatlaklar oluşan 4 bina tahliye edildi"
     },
     {
-     "s": "dirilis",
-     "hl": "Konya'da yolcu otobüsü şarampole yuvarlandı: 45 kişi yaralandı"
+     "s": "ntv",
+     "hl": "Bağcılar'da inşaat alanının çevresindeki 4 bina tahliye edildi"
+    },
+    {
+     "s": "karar",
+     "hl": "Bağcılar’da inşaat çalışması sonrası binalarda çatlaklar oluştu 4 bina tahliye edildi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Bağcılar'da inşaat çalışması sonrası çökme tehlikesi! 4 apartman tahliye edildi"
     },
     {
      "s": "cnnturk",
-     "hl": "Konya’da yolcu otobüsü devrildi: 45 yaralı"
+     "hl": "Bağcılar'da panik! İnşaat çevresindeki 4 binaya acil tahliye"
+    },
+    {
+     "s": "mynet",
+     "hl": "Bağcılar’da 5 bina tahliye edildi"
+    }
+   ]
+  },
+  {
+   "event": "s5233",
+   "week": "w10",
+   "title": "Emre Belözoğlu'ndan flaş Fenerbahçe açıklaması!",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Belözoğlu, Beşiktaş beraberliği sonrası Fenerbahçe için 'o göreve talip olunmaz' dedi"
+    },
+    {
+     "s": "aksam",
+     "hl": "Emre Belözoğlu'ndan Beşiktaş maçında 11 değişiklik!"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Emre Belözoğlu'ndan Fenerbahçe açıklaması: \"Göreve talip olunmaz, layık olunur\""
+    },
+    {
+     "s": "star",
+     "hl": "Emre Belözoğlu'ndan Fenerbahçe açıklaması! \"Herkesin kendi içinde istediği bir yer\""
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Emre Belözoğlu'ndan Fenerbahçe sorusuna yanıt: 'O göreve talip olunmaz...'"
+    },
+    {
+     "s": "sabah",
+     "hl": "Emre Belözoğlu’ndan Fenerbahçe açıklaması! Teklif geldi mi?"
+    },
+    {
+     "s": "haberler",
+     "hl": "Emre Belözoğlu'ndan Fenerbahçe sorusuna yanıt"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Emre Belözoğlu'ndan Fenerbahçe'ye yeşil ışık! Teknik direktörlük sorusuna cevap verdi: \"Herkesin orada olmak istediği bir yer\""
+    },
+    {
+     "s": "haberturk",
+     "hl": "Emre Belözoğlu'ndan flaş Fenerbahçe açıklaması!"
+    },
+    {
+     "s": "onedio",
+     "hl": "Emre Belözoğlu Beşiktaş Maçı Sonrası Fenerbahçe İddialarına Yanıt Verdi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Emre Belözoğlu'ndan Fenerbahçe sorusuna yanıt: O göreve talip olunmaz!"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Emre Belözoğlu: Fenerbahçe'de o göreve talip olunmaz, o göreve layık görülürsünüz"
+    },
+    {
+     "s": "mynet",
+     "hl": "Emre Belözoğlu'ndan Fenerbahçe teknik direktörlüğü için resmi açıklama!"
+    }
+   ]
+  },
+  {
+   "event": "s5068",
+   "week": "w10",
+   "title": "Antalya-Alanya Otoyolu ile 2,5 saatlik yol 36 dakikaya düşecek",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "Antalya ile Alanya arasında kara yoluyla ulaşım 36 dakikaya düşecek"
+    },
+    {
+     "s": "sabah",
+     "hl": "Antalya-Alanya arası 114 dakika kısalacak: 2,5 saatlik yol 36 dakikaya düşecek"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Antalya-Alanya arası 36 dakikaya düşüyor"
+    },
+    {
+     "s": "ahaber",
+     "hl": "2,5 saatlik yol 36 dakikaya düşecek! 23 milyar TL zamandan, 900 milyon TL akaryakıttan tasarruf"
+    },
+    {
+     "s": "takvim",
+     "hl": "Antalya-Alanya otoyolu ile 2,5 saatlik yol 36 dakikaya düşüyor! Yıllık 23,9 milyar lira tasarruf sağlanacak"
+    },
+    {
+     "s": "star",
+     "hl": "122 kilometrelik dev otoyol! 2,5 saatlik yolculuk 36 dakikaya düşecek"
+    },
+    {
+     "s": "akit",
+     "hl": "Hem tasarruf hem jet ulaşım: 2 buçuk saatlik yol 36 dakikaya düşecek!"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "2,5 saatlik yol 36 dakikaya düşecek"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Antalya-Alanya arası 36 dakikaya düşecek"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Antalya-Alanya Otoyolu ile 2,5 saatlik yol 36 dakikaya düşecek"
+    },
+    {
+     "s": "aksam",
+     "hl": "Güneyde 122 km'lik otoyol inşası! 2,5 saatlik yol 36 dakikaya düşecek"
+    },
+    {
+     "s": "ntv",
+     "hl": "2,5 saatlik yol 36 dakikaya düşecek"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Yıllık 23,9 milyar TL'lik tasarruf! Bakan Uraloğlu açıkladı: Antalya-Alanya arası 2,5 saatten 36 dakikaya düşecek"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Antalya-Alanya arası 114 dakika kısalacak! 2,5 saatlik yol 36 dakikaya düşecek"
+    }
+   ]
+  },
+  {
+   "event": "s5277",
+   "week": "w10",
+   "title": "11 ilde siber suç operasyonu: 86 şüpheli tutuklandı",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "Siber suçlarla mücadele operasyonlarında 86 şüpheli tutuklandı"
+    },
+    {
+     "s": "sondakika",
+     "hl": "11 ilde siber suç operasyonunda 120 şüpheli yakalandı, 86'sı tutuklandı"
+    },
+    {
+     "s": "aksam",
+     "hl": "11 il merkezli siber suç operasyonu: 86 şüpheli tutuklandı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "11 ilde siber suç operasyonu: 86 şüpheli tutuklandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Siber operasyon: 86 tutuklama!"
+    },
+    {
+     "s": "takvim",
+     "hl": "11 il merkezli siber suç operasyonu: 120 şüpheliden 86'sı tutuklanarak cezaevine gönderildi"
+    },
+    {
+     "s": "haberler",
+     "hl": "Ankara- 11 ilde siber suçlarla mücadele operasyonu: 86 tutuklama"
+    },
+    {
+     "s": "sabah",
+     "hl": "İçişleri Bakanlığı duyurdu: 11 ilde dev siber operasyon: 120 şüpheli yakalandı, 86 tutuklama"
+    },
+    {
+     "s": "ahaber",
+     "hl": "11 ilde siber suç operasyonu! 86 kişi tutuklandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "İçişleri duyurdu... 11 ilde 'siber' operasyon: 86 tutuklama"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Siber suçlarla mücadelede 11 ilde operasyon: 86 tutuklama"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Siber suçlarla mücadele operasyonlarında 86 şüpheli tutuklandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "11 ilde siber suç operasyonu: 86 tutuklama"
+    },
+    {
+     "s": "ntv",
+     "hl": "11 ilde siber suç operasyonu: 86 tutuklama"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "11 ilde siber suçlarla mücadele operasyonu! 86 şüpheli tutuklandı"
+    }
+   ]
+  },
+  {
+   "event": "s5568",
+   "week": "w10",
+   "title": "Tenerife’nin futbolcusu Jesus de Miguel hayatını kaybetti",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Tenerife Kulübü, Jesus de Miguel Alameda'nın Andorra maçında öldüğünü açıkladı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "İspanya'dan acı haber: Kaleciyle çarpışan futbolcu Jesus De Miguel hayatını kaybetti!"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Kaleciyle çarpışan İspanyol futbolcu Jesus de Miguel hayatını kaybetti! Acı haberi kulübü duyurdu"
+    },
+    {
+     "s": "birgun",
+     "hl": "Tenerife futbolcusu Jesus de Miguel sahada aldığı darbe sonucu hayatını kaybetti"
+    },
+    {
+     "s": "ntv",
+     "hl": "Rakibi faul yaptı, kalbi durdu. Jesus de Miguel maç sonunda hayatını kaybetti"
+    },
+    {
+     "s": "akit",
+     "hl": "Futbol dünyası şokta! Sert faule maruz kalan Jesus de Miguel hayatını kaybetti"
+    },
+    {
+     "s": "onedio",
+     "hl": "Jesús de Miguel Hayatını Kaybetti: Kaleciyle Çarpışan Tenerifeli Forvet 30 Yaşında Yaşama Veda Etti"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Tenerife Andorra maçı ertelendi mi, maçta ne oldu? Jesus de Miguel hayatını kaybetti"
+    },
+    {
+     "s": "haberler",
+     "hl": "Tenerife futbolcusu Jesus de Miguel Alameda rakip kaleciyle çarpıştığı maçta öldü"
+    },
+    {
+     "s": "aa",
+     "hl": "Kaleci ile çarpıştığı pozisyonda kalbi duran İspanyol futbolcu Jesus de Miguel hayatını kaybetti"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Jesus de Miguel hayatını kaybetti, Tenerife yasta"
+    },
+    {
+     "s": "takvim",
+     "hl": "İspanya 2. Ligi'nde kaleciyle çarpışan futbolcu Jesús de Miguel hayatını kaybetti: İşte o görüntüler"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Sahada korkunç ölüm! Göğsüne gelen diz sonrası Jesus de Miguel hayatını kaybetti"
+    },
+    {
+     "s": "star",
+     "hl": "Futbol dünyasını yasa boğan haber! Jesus de Miguel hayatını kaybetti"
+    },
+    {
+     "s": "diken",
+     "hl": "Kaleciyle çarpıştıktan sonra kalbi duran İspanyol futbolcu Jesus de Miguel öldü"
+    }
+   ]
+  },
+  {
+   "event": "s5322",
+   "week": "w10",
+   "title": "Sarıgül ailesine yönelik kara para soruşturmasında 10 şüpheli adliyeye sevk edildi",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Sarıgül ailesi kara para dosyasında 10 şüpheli adliyeye sevk edildi"
+    },
+    {
+     "s": "haberler",
+     "hl": "Sarıgül ailesine yönelik kara para soruşturmasında 10 şüpheli adliyeye sevk edildi"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Sarıgül ailesine yönelik soruşturmada 10 kişi adliyede"
+    },
+    {
+     "s": "aksam",
+     "hl": "Sarıgül soruşturmasında yeni gelişme: 10 şüpheli adliyeye sevk edildi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Sarıgül soruşturması: 10 şüpheli adliyede"
+    },
+    {
+     "s": "akit",
+     "hl": "Sarıgül ailesine yönelik soruşturma derinleşiyor! Kara para aklamada 10 şüpheli adliyede"
+    },
+    {
+     "s": "karar",
+     "hl": "Sarıgül ailesine yönelik soruşturmada 10 kişi adliyeye sevk edildi"
+    },
+    {
+     "s": "birgun",
+     "hl": "Sarıgül soruşturmasında 10 kişi adliyeye sevk edildi"
+    },
+    {
+     "s": "sabah",
+     "hl": "Sarıgül ailesine düzenlenen 2. dalgada operasyonun 10 şüphelisi adliyede"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Sarıgül soruşturmasında 10 şüpheli adliyeye sevk edildi"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Sarıgül ailesine yönelik soruşturmada dört şüpheli tutuklandı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Sarıgül ailesine yönelik soruşturmada yeni gelişme: 4 tutuklama, 7 adli kontrol"
     }
    ]
   }

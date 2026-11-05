@@ -1,0 +1,12 @@
+{"q": {"happened": "Barcelona ile Real Madrid El Clasico'da karşılaştı; başlıkların çoğu maçın saatini, kanalını ve Arda Güler'in oynayıp oynamayacağını soruyor.", "agree": "Maçın Barcelona-Real Madrid El Clasico'su olduğu ortak.", "differ": "Milligazete, birgün, habertürk, yenişafak, türkiyegz ve tgrt yayın bilgisi ile Arda Güler'in ilk 11'de olup olmayacağını soruyor; ntv Arda Güler'i Lamine Yamal'la karşı karşıya koyuyor; sabah yalnızca yayın bilgisi veriyor; mynet canlı anlatım sunuyor; star ise 1-2'lik Real Madrid galibiyetini veriyor.", "care": "Haberin Türk oyuncu Arda Güler üzerinden kurulması maçı yerli izleyici için bir milli gurur konusuna dönüştürüyor; sonucu veren tek başlık star'ınki."}, "rows": [
+{"s": "milligazete", "frame": "Yayın bilgisi", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Yayın bilgisi", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Yayın bilgisi", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Kadro bilgisi", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Yayın bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Yıldız rekabeti", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Yayın bilgisi", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Canlı anlatım", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Yayın bilgisi", "hero": "Arda Güler", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Maç sonucu", "hero": "Real Madrid", "blame": "", "cause": "", "cons": "Real Madrid galibiyeti", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

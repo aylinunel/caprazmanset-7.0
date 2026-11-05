@@ -1705,3 +1705,27 @@ th{color:var(--ink);border-bottom-width:3px}
 .xfr input[type=date]{flex:1 1 120px}
 .xfchip{font-size:12px;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--line);color:inherit}
 .xfcount{margin-bottom:10px}
+
+/* 7.0 · AI-generated analysis. Violet + mono is used for nothing else on the public pages, so a reader can
+   always tell an AI result from a rule-based measurement or a supplied fact. */
+:root{--ai:#6D28D9;--ai-soft:#F4F0FF;--ai-line:#C9B8F5}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ai:#C4B5FD;--ai-soft:#1E1838;--ai-line:#4C3D8F}}
+:root[data-theme="dark"]{--ai:#C4B5FD;--ai-soft:#1E1838;--ai-line:#4C3D8F}
+.ai{font-family:var(--ff-m);color:var(--ai)}
+.ai-box{border:1px solid var(--ai-line);border-left:3px solid var(--ai);background:var(--ai-soft);border-radius:6px;padding:12px 14px;
+  font-family:var(--ff-m);font-size:12.5px;line-height:1.6;color:var(--ink);min-width:0;overflow-wrap:anywhere}
+.ai-box h2,.ai-box h3,.ai-box h4,.ai-box b{color:var(--ai)}
+.ai-box h2,.ai-box h3{font-family:var(--ff-m);font-weight:500;letter-spacing:-.01em}
+.ai-box table td,.ai-box table th{font-family:var(--ff-m)}
+.ai-box .cm3-voices summary{color:var(--ai);border-color:var(--ai-line)}
+.ai-tag{display:inline-block;font-family:var(--ff-m);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ai);
+  border:1px solid var(--ai);border-radius:99px;padding:1px 7px;white-space:nowrap;vertical-align:middle}
+.ai-line{font-family:var(--ff-m);font-size:11.5px;color:var(--ai);margin:8px 0 2px;line-height:1.5}
+.ai-ed{display:block;margin-top:6px;color:var(--ink);font-family:var(--ff-b)}
+.ai-ed b{color:var(--ink)}
+tr.ai-row td{font-family:var(--ff-m);color:var(--ai)}
+.rev-ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
+.rev-ctl input{font:inherit;min-height:40px;padding:6px 10px;border:1px solid var(--line2);border-radius:5px;background:var(--paper);color:var(--ink);flex:1 1 220px;min-width:0}
+.rev-ctl button{min-height:40px}
+.xnarr-home{margin-top:8px}
+.xnarr-home h2{font-size:clamp(24px,3vw,32px);line-height:1.2;margin:6px 0 8px;max-width:30ch}

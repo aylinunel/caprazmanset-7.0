@@ -1,0 +1,14 @@
+{"q": {"happened": "Sarıgül ailesine yönelik soruşturmada 10 şüpheli adliyeye sevk edildi.", "agree": "Soruşturmanın Sarıgül ailesine yönelik olduğu ve şüphelilerin adliyeye sevki ortak.", "differ": "Sondakika, Haberler ve Akit soruşturmayı 'kara para' olarak adlandırıyor, Akit 'derinleşiyor' diyor; Sabah operasyonun '2. dalga' olduğunu belirtiyor; Yeni Şafak ve A Haber sevk yerine sonucu (4 tutuklama, 7 adli kontrol) veriyor; diğerleri suç türünü anmadan 'Sarıgül soruşturması' diyor.", "care": "Suçun adının ('kara para') başlıkta yer alması aileyi somut bir suçlamayla ilişkilendirir; adını anmayan başlıklar ise haberi nötr bir yargı süreci olarak bırakır."}, "rows": [
+{"s": "sondakika", "frame": "Kara para", "hero": "Sarıgül ailesi", "blame": "Sarıgül ailesi", "cause": "Kara para aklama", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Kara para", "hero": "Sarıgül ailesi", "blame": "Sarıgül ailesi", "cause": "Kara para aklama", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "hurriyet", "frame": "Olgu aktarımı", "hero": "Sarıgül ailesi", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "akit", "frame": "Kara para", "hero": "Sarıgül ailesi", "blame": "Sarıgül ailesi", "cause": "Kara para aklama", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "Sarıgül ailesi", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Operasyon dalgası", "hero": "Sarıgül ailesi", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": "Önceki operasyon dalgası"},
+{"s": "dirilis", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Olgu aktarımı", "hero": "Sarıgül ailesi", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Olgu aktarımı", "hero": "Sarıgül ailesi", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

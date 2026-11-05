@@ -1,0 +1,12 @@
+{"q": {"happened": "İzmir'de suç örgütü davasında yargılanan Necati Arabacı'ya hapis cezası verildi; çoğu başlık cezayı 15 yıl 6 ay olarak veriyor.", "agree": "Necati Arabacı'ya hapis cezası verildiği ortak.", "differ": "Diken, Cumhuriyet, NTV ve Mynet Arabacı'yı 'suç örgütü lideri' (NTV ve Mynet 'Cehennem Melekleri') olarak tanıtıyor; A Haber ve TRT Haber yalnızca adını ve cezayı veriyor; Takvim 'Cehennem Necati' lakabını kullanıyor ve 15 yıl diyor; Milli Gazete cezayı değil serveti, eşi ve hayatını başlığa taşıyor.", "care": "'Suç örgütü lideri' etiketi kararın ağırlığını ve bağlamını verirken, lakap ve servet odaklı başlıklar haberi bir yargı kararından çok bir figürün magazin hikâyesine dönüştürüyor."}, "rows": [
+{"s": "ahaber", "frame": "Olgu aktarımı", "hero": "Necati Arabacı", "blame": "", "cause": "", "cons": "Hapis cezası", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Organize suç", "hero": "Necati Arabacı", "blame": "Necati Arabacı", "cause": "Suç örgütü liderliği", "cons": "Hapis cezası", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "Necati Arabacı", "blame": "", "cause": "", "cons": "Hapis cezası", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Organize suç", "hero": "Necati Arabacı", "blame": "Necati Arabacı", "cause": "", "cons": "Hapis cezası", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Organize suç", "hero": "Necati Arabacı", "blame": "Necati Arabacı", "cause": "Suç örgütü liderliği", "cons": "Hapis cezası", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Organize suç", "hero": "Necati Arabacı", "blame": "Necati Arabacı", "cause": "Suç örgütü liderliği", "cons": "Hapis cezası", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Organize suç", "hero": "Necati Arabacı", "blame": "Necati Arabacı", "cause": "", "cons": "Hapis cezası", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Organize suç", "hero": "Necati Arabacı", "blame": "Necati Arabacı", "cause": "Suç örgütü liderliği", "cons": "Mahkeme kararı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Kişiselleştirme", "hero": "Necati Arabacı", "blame": "", "cause": "", "cons": "Hapis cezası", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Magazinleştirme", "hero": "Necati Arabacı", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

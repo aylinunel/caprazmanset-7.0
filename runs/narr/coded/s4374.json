@@ -1,0 +1,21 @@
+{"q": {"happened": "Bolu Belediyesi'ne yönelik operasyonda Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltına alındı; sonraki başlıklara göre Özdemir dahil şüpheliler tutuklandı.", "agree": "Bolu Belediyesi'ne operasyon yapıldığı ve 4 kişinin gözaltına alındığı ortak.", "differ": "Aksam, Cumhuriyet, Star, Yeni Şafak, Habertürk ve TGRT 'şafak operasyonu' diyor; Sabah, Habertürk, TGRT ve Tele1 başkan yardımcısını anmadan yalnızca sayıyı veriyor; yalnızca Takvim 'ihale ve zimmet' suçlamasını başlığa taşıyor; Takvim ve Sondakika tutuklamayı, NTV adliyeye sevki yazıyor; Diken'in başlığı ise Bakırköy Belediyesi'ne ilişkin farklı bir soruşturmayı aktarıyor.", "care": "Suçlamanın içeriğini yalnızca bir kurumun vermesi okuru operasyonun gerekçesinden habersiz bırakır; başkan yardımcısının adının ve görevinin anılıp anılmaması da haberin siyasi ağırlığını belirler."}, "rows": [
+{"s": "tele1", "frame": "Operasyon", "hero": "Bolu Belediyesi", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Operasyon", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Operasyon", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Operasyon", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Şafak operasyonu", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Şafak operasyonu", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Operasyon", "hero": "Bolu Belediyesi", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Şafak operasyonu", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Şafak operasyonu", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Yolsuzluk", "hero": "Başkan Yardımcısı", "blame": "Belediye yönetimi", "cause": "İhale ve zimmet", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Operasyon", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Operasyon", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": "Önceki operasyon"},
+{"s": "haberturk", "frame": "Şafak operasyonu", "hero": "Bolu Belediyesi", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Şafak operasyonu", "hero": "Bolu Belediyesi", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Operasyon", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Operasyon", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Soruşturma", "hero": "Bakırköy Belediyesi", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Operasyon", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Adliyeye sevk", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sondakika", "frame": "Soruşturma", "hero": "Başkan Yardımcısı", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

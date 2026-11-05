@@ -4,10 +4,10 @@
     (coding agents write ../runs/narr/coded/<event>.json; see runs/narr/PROMPT.md)
     python -m capraz_pipeline.narratives finalize --out ../runs/narr      -> data/reference/narratives-7.json
 
-§ 6.2 sample per week: the 10 events with most outlets, plus 8 from coverage ranks 11-40 ranked by
+§ 6.2 sample per week (7.0 pool): the 10 events with most outlets, plus 25 from coverage ranks 11-80 ranked by
 score range / 100 + (1 - mean pairwise headline Jaccard). § 6.3 selection: a dimension is a focus
 dimension when at least half the outlets fill it with at least two distinct values; s_d = w_d * c_d * H_d,
-S = sum of the top three, events need two focus dimensions, at most 10 per week by S.
+S = sum of the top three, events need two focus dimensions, at most KEEP per week by S.
 """
 from __future__ import annotations
 
@@ -24,6 +24,7 @@ from .config import REPO
 
 WEEKS = [("w7", "11–17 Ekim", "2026-10-11", "2026-10-17"), ("w8", "18–24 Ekim", "2026-10-18", "2026-10-24"),
          ("w9", "25–31 Ekim", "2026-10-25", "2026-10-31"), ("w10", "1–3 Kasım", "2026-11-01", "2026-11-03")]
+KEEP = 20  # most differentiated events shown per agent-coded week (S, § 6.3)
 DIMS = ["frame", "hero", "blame", "cause", "cons", "aff", "sol", "moral", "start"]
 WEIGHT = {"blame": 1.2, "sol": 1.2, "frame": 1.0, "cause": 1.0, "moral": 1.0, "start": 0.8, "aff": 0.8, "hero": 0.6, "cons": 0.5}
 OUT = REPO / "data" / "reference" / "narratives-7.json"
@@ -66,7 +67,8 @@ def candidates(build: Path, out: Path) -> int:
             jac = [len(x & y) / len(x | y) for x, y in combinations(ws, 2) if x | y]
             return e["p"] / 100 + 1 - (sum(jac) / len(jac) if jac else 1)
 
-        pick = evs[:10] + sorted(evs[10:40], key=lambda e: -diverge(e))[:8]
+        # 7.0: wider pool (35 per week) so the 20 most differentiated narratives can be kept.
+        pick = evs[:10] + sorted(evs[10:80], key=lambda e: -diverge(e))[:25]
         for e in pick:
             f = first(e)
             rows.append({"event": e["i"], "week": wk, "title": e["t"],
@@ -112,9 +114,9 @@ def finalize(out: Path) -> dict:
                           "rows": rows, "score": score, "focus": focus}
                 kept.append(key)
         kept.sort(key=lambda k: -N[k]["score"])
-        for k in kept[10:]:
+        for k in kept[KEEP:]:
             del N[k]
-        NW.append({"k": wk, "l": label, "keys": kept[:10], "pool": coded, "coded": "agent"})
+        NW.append({"k": wk, "l": label, "keys": kept[:KEEP], "pool": coded, "coded": "agent"})
     OUT.write_text(json.dumps({"N": N, "NW": NW}, ensure_ascii=False, indent=1))
     return {w["k"]: (w["pool"], len(w["keys"])) for w in NW}
 

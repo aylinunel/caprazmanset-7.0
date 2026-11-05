@@ -1,0 +1,190 @@
+{
+ "q": {
+  "happened": "Ünlü şef Somer Sivrioğlu'nun Avustralya/Sidney'deki restoranına kayyum atandı; birçok başlık milyonluk bir borcu öne çıkarıyor.",
+  "agree": "Restorana kayyum atandığı ortak; hiçbir kurum bunu sorgulamıyor.",
+  "differ": "Sözcü, Karar, Cumhuriyet, Türkiye Gazetesi borcu, Mynet, Yeni Şafak, Takvim, TGRT ve Akşam özellikle vergi borcunu başlığa taşıyor; Haberler, A Haber, Mynet, Yeni Şafak ve Akşam 'kriz', 'şok', 'dudak uçuklattı' gibi sansasyonel ifadeler kullanıyor; BirGün, Habertürk ve Onedio yalnızca kayyumu aktarıyor; Milli Gazete ise haberi soru-rehber biçiminde veriyor.",
+  "care": "Borcun başlıkta olması kayyumu şefin kendi mali sorununa bağlar; sansasyonel dil ise olayı bir ünlünün düşüşü gibi sunuyor, sade başlıklarsa bir neden göstermiyor."
+ },
+ "rows": [
+  {
+   "s": "sozcu",
+   "frame": "Mali sorun",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Borç",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberler",
+   "frame": "Sansasyon",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Sansasyon",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Vergi borcu",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Mali sorun",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Borç",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Sansasyon",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Borç",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "onedio",
+   "frame": "Olgu aktarımı",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Mali sorun",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Vergi borcu",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Mali sorun",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Borç",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Mali sorun",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Borç",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "birgun",
+   "frame": "Olgu aktarımı",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yenisafak",
+   "frame": "Sansasyon",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Vergi borcu",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "tgrt",
+   "frame": "Mali sorun",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Vergi borcu",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Bilgi rehberi",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Vergi borcu",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "aksam",
+   "frame": "Sansasyon",
+   "hero": "Somer Sivrioğlu",
+   "blame": "",
+   "cause": "Vergi borcu",
+   "cons": "Kayyum atanması",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

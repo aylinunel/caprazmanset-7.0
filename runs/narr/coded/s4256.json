@@ -1,0 +1,202 @@
+{
+ "q": {
+  "happened": "Ümit Kocasakal İstanbul Barosu başkanlık seçimini kazandı.",
+  "agree": "Kocasakal'ın başkan seçildiği ortak; hiçbir kurum sonucu sorgulamıyor.",
+  "differ": "Cumhuriyet Kocasakal'ın Cumhuriyetçi Güç Birliği Grubu adayı olduğunu, Takvim ve A Haber 10 bin 227 oyu, Sabah 'Kaboğlu dönemi resmen bitti' diyerek önceki başkanın gidişini öne çıkarıyor; Haberler haberi Ağıralioğlu'nun tebrikiyle veriyor; Karar, TGRT ve Milli Gazete soru-rehber biçimi kullanıyor.",
+  "care": "Sabah'ın vurgusu seçimi bir dönemin sonu olarak sunar; Cumhuriyet'in grup adı ve Haberler'in siyasi tebriki ise baro seçimini siyasi bir kimliğe bağlar."
+ },
+ "rows": [
+  {
+   "s": "birgun",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Bilgi rehberi",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "tgrt",
+   "frame": "Profil",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Dönem sonu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kaboğlu döneminin sonu",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yenisafak",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Bilgi rehberi",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Seçim sonucu",
+   "hero": "Ümit Kocasakal",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberler",
+   "frame": "Siyasi tebrik",
+   "hero": "Ağıralioğlu",
+   "blame": "",
+   "cause": "",
+   "cons": "Kocasakal'ın seçilmesi",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

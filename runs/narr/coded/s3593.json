@@ -1,0 +1,12 @@
+{"q": {"happened": "UEFA Şampiyonlar Ligi'nde ikinci hafta maçları oynandı ve gecenin sonuçları belli oldu.", "agree": "Maçların oynandığı ve sonuçların açıklandığı ortak.", "differ": "Star, Diriliş, Cumhuriyet ve Habertürk sonuçları düz aktarıyor; Sabah ve Sözcü sürprizleri, Takvim 9 maçta 32 golü, Karar ve NTV tarihi gol rekorunu öne çıkarıyor; Mynet haftanın 11'i ve Fenerbahçe ile Galatasaray'a odaklanıyor.", "care": "Aynı maç gecesi rutin sonuç, sürpriz ya da tarihi rekor olarak sunulabiliyor; bu seçim haberin önemine dair algıyı değiştiriyor."}, "rows": [
+{"s": "star", "frame": "Olgu aktarımı", "hero": "Şampiyonlar Ligi", "blame": "", "cause": "", "cons": "Maç sonuçları", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Olgu aktarımı", "hero": "Şampiyonlar Ligi", "blame": "", "cause": "", "cons": "Maç sonuçları", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Sürpriz sonuçlar", "hero": "Şampiyonlar Ligi", "blame": "", "cause": "", "cons": "Sürpriz sonuçlar", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Sürpriz sonuçlar", "hero": "Şampiyonlar Ligi", "blame": "", "cause": "", "cons": "Sürpriz sonuçlar", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Gol bolluğu", "hero": "Şampiyonlar Ligi", "blame": "", "cause": "", "cons": "32 gol", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "Şampiyonlar Ligi", "blame": "", "cause": "", "cons": "Maç sonuçları", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Şampiyonlar Ligi", "blame": "", "cause": "", "cons": "Maç sonuçları", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Tarihi rekor", "hero": "Şampiyonlar Ligi", "blame": "", "cause": "", "cons": "Gol rekoru", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Tarihi rekor", "hero": "Şampiyonlar Ligi", "blame": "", "cause": "", "cons": "Gol rekoru", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Haftanın 11'i", "hero": "Fenerbahçe ve Galatasaray", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

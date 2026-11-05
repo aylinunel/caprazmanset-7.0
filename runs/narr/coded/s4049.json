@@ -1,0 +1,12 @@
+{"q": {"happened": "Kadir İnanır'ın hayat arkadaşı Jülide Kural, İnanır'ın vasiyetiyle ilgili ilk kez açıklama yaptı.", "agree": "Jülide Kural'ın vasiyet konusunda sessizliğini bozup açıklama yaptığı ortak.", "differ": "NTV, Karar, Habertürk, A Haber ve Cumhuriyet haberi vasiyet tartışmasına yapılan bir açıklama olarak aktarıyor; Mynet ve Takvim 'miras krizi' ve '5 milyon dolarlık servet' vurgusuyla Kural'ın 'son noktayı koyduğunu' söylüyor; Sözcü Kural'ı 'servetini bıraktığı hayat arkadaşı' olarak tanıtıyor; NTV ve Sabah ölümün üzerinden 4 ay bile geçmediğini, Karar ise 'vicdani sorumluluk' sözünü öne çıkarıyor.", "care": "Servet ve kriz vurgusu olayı bir miras çekişmesi olarak sunarken, Kural'ın sözlerini öne çıkaran başlıklar onun ahlaki gerekçesini görünür kılıyor."}, "rows": [
+{"s": "ntv", "frame": "Vasiyet tartışması", "hero": "Jülide Kural", "blame": "", "cause": "", "cons": "İlk açıklama", "aff": "", "sol": "", "moral": "Ölüye saygı", "start": ""},
+{"s": "karar", "frame": "Vasiyet tartışması", "hero": "Jülide Kural", "blame": "", "cause": "", "cons": "İlk açıklama", "aff": "", "sol": "", "moral": "Vicdani sorumluluk", "start": ""},
+{"s": "haberturk", "frame": "Vasiyet tartışması", "hero": "Jülide Kural", "blame": "", "cause": "", "cons": "İlk açıklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Servet mirası", "hero": "Jülide Kural", "blame": "", "cause": "", "cons": "Sessizliğini bozma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Sessizliği bozma", "hero": "Jülide Kural", "blame": "", "cause": "", "cons": "Sessizliğini bozma", "aff": "", "sol": "", "moral": "Ölüye saygı", "start": ""},
+{"s": "mynet", "frame": "Miras krizi", "hero": "Jülide Kural", "blame": "", "cause": "Servet paylaşımı", "cons": "Son nokta", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Miras krizi", "hero": "Jülide Kural", "blame": "", "cause": "", "cons": "Son nokta", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Vasiyet tartışması", "hero": "Jülide Kural", "blame": "", "cause": "", "cons": "Yazılı açıklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Vasiyet tartışması", "hero": "Jülide Kural", "blame": "", "cause": "", "cons": "Sessizliğini bozma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Miras krizi", "hero": "Jülide Kural", "blame": "", "cause": "", "cons": "Sessizliğini bozma", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

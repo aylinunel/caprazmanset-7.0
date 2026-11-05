@@ -1,0 +1,14 @@
+{"q": {"happened": "Sergen Yalçın A Milli Takım'ın teknik direktörü olarak imza attı ve teknik ekibi açıklandı.", "agree": "Sergen Yalçın'ın Milli Takım'da göreve başladığı ortak.", "differ": "Sözcü, karar, sabah, ntv, ahaber ve diken teknik ekibi öne çıkarıyor (sözcü 'Hepsi Süper Lig'den' diyor); milligazete ve mynet maaşı (mynet tazminatı da) konu ediyor; cumhuriyet, habertürk, star ve trthaber imza törenini ve 'yeni dönem'i başlığa taşıyor.", "care": "Maaş ve tazminatın öne çıkması atamayı bir kamu harcaması ve merak konusu yaparken, 'yeni dönem' ve ekip vurgusu haberi sportif bir başlangıç olarak sunuyor."}, "rows": [
+{"s": "milligazete", "frame": "Maaş merakı", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "Maaş", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Teknik ekip", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "Ekip açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Teknik ekip", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "Ekip açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "İmza töreni", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "İmza töreni tarihi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Maaş merakı", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "Maaş", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Yeni dönem", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "İmza töreni", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Yeni dönem", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "İmza töreni", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Yeni dönem", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Teknik ekip", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "Ekip açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Yeni dönem", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "Ekip açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Teknik ekip", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "Ekip açıklandı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Teknik ekip", "hero": "Sergen Yalçın", "blame": "", "cause": "", "cons": "Ekip açıklandı", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

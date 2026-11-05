@@ -1,0 +1,16 @@
+{"q": {"happened": "Antalya ile Alanya arasındaki 2,5 saatlik yolculuğun yapılacak otoyolla 36 dakikaya düşeceği açıklandı.", "agree": "Sürenin 36 dakikaya düşeceği ortak.", "differ": "A Haber, Takvim, Akit ve TGRT yıllık 23,9 milyar TL'lik tasarrufu öne çıkarıyor; Star ve Akşam 122 km'lik 'dev' otoyolu vurguluyor; TGRT açıklamayı Bakan Uraloğlu'na bağlıyor; diğerleri yalnızca süre kısalmasını veriyor.", "care": "Tasarruf rakamları ve 'dev proje' dili haberi bir kamu yatırımının başarısı olarak sunar; yalnızca süreyi veren başlıklar ise bilgilendirmeyle sınırlı kalır."}, "rows": [
+{"s": "aa", "frame": "Ulaşım kazanımı", "hero": "", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Ulaşım kazanımı", "hero": "", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Ulaşım kazanımı", "hero": "", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Ekonomik tasarruf", "hero": "", "blame": "", "cause": "", "cons": "Tasarruf", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Ekonomik tasarruf", "hero": "Antalya-Alanya Otoyolu", "blame": "", "cause": "", "cons": "Tasarruf", "aff": "", "sol": "Otoyol", "moral": "", "start": ""},
+{"s": "star", "frame": "Dev proje", "hero": "Antalya-Alanya Otoyolu", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "Otoyol", "moral": "", "start": ""},
+{"s": "akit", "frame": "Ekonomik tasarruf", "hero": "", "blame": "", "cause": "", "cons": "Tasarruf", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Ulaşım kazanımı", "hero": "", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Ulaşım kazanımı", "hero": "", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Ulaşım kazanımı", "hero": "Antalya-Alanya Otoyolu", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "Otoyol", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Dev proje", "hero": "Antalya-Alanya Otoyolu", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "Otoyol", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Ulaşım kazanımı", "hero": "", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Ekonomik tasarruf", "hero": "Bakan Uraloğlu", "blame": "", "cause": "", "cons": "Tasarruf", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cnnturk", "frame": "Ulaşım kazanımı", "hero": "", "blame": "", "cause": "", "cons": "Süre kısalması", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

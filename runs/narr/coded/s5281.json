@@ -1,0 +1,13 @@
+{"q": {"happened": "Kasım başında birçok ilde okulların tatil olup olmayacağı soru başlıklarıyla gündeme geldi; başlıklar yanıtı valilik ve MEB açıklamalarına bağlıyor.", "agree": "Tüm başlıklar 'okullar tatil mi?' sorusunu soruyor ve kesin bir tatil kararı bildirmiyor; çoğu valilik açıklamalarını işaret ediyor.", "differ": "Başlıklar farklı tarih (2, 3, 4 Kasım) ve illere odaklanıyor: milligazete ve haberler Antalya'yı, onedio İstanbul, Ankara ve İzmir'i öne çıkarıyor; neden olarak milligazete, yenisafak ve sabah sağanak yağışı, haberler COP31'i anıyor; karar AKOM'u, takvim MEB takvimini kaynak gösteriyor.", "care": "Tatil sorusunun hava koşuluna mı yoksa COP31 gibi bir etkinliğe mi bağlandığı, okurun kararın gerekçesini nasıl anladığını belirliyor; başlıklar ise kesin bilgi vermeden belirsizliği sürdürüyor."}, "rows": [
+{"s": "cnnturk", "frame": "Tatil belirsizliği", "hero": "İstanbul Valiliği", "blame": "", "cause": "", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Tatil belirsizliği", "hero": "Valilik", "blame": "", "cause": "Sağanak yağış", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Tatil belirsizliği", "hero": "", "blame": "", "cause": "COP31", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Tatil belirsizliği", "hero": "Valilik", "blame": "", "cause": "Sağanak yağış", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": "Sağanak yağış"},
+{"s": "sabah", "frame": "Tatil belirsizliği", "hero": "İstanbul Valiliği", "blame": "", "cause": "Sağanak yağış", "cons": "Valilik uyarısı", "aff": "Öğrenciler", "sol": "", "moral": "", "start": "Sağanak yağış"},
+{"s": "turkiyegz", "frame": "Tatil belirsizliği", "hero": "Valilik", "blame": "", "cause": "", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Tatil belirsizliği", "hero": "İstanbul Valiliği", "blame": "", "cause": "", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Tatil belirsizliği", "hero": "AKOM", "blame": "", "cause": "", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": ""},
+{"s": "onedio", "frame": "Tatil belirsizliği", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Tatil belirsizliği", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Tatil belirsizliği", "hero": "MEB", "blame": "", "cause": "", "cons": "", "aff": "Öğrenciler", "sol": "", "moral": "", "start": ""}
+]}

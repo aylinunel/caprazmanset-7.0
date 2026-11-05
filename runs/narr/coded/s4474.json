@@ -1,0 +1,16 @@
+{"q": {"happened": "Kocaeli Gölcük'te MHP'li belediye meclis üyesi Murat Saral silahlı saldırıda hayatını kaybetti.", "agree": "Saral'ın MHP'li meclis üyesi olduğu ve silahlı saldırıda öldüğü ortak.", "differ": "Çoğu kurum saldırıyı ve ölümü bildirirken sözcü ('Tartışma kanlı bitti') ve ahaber ölümü bir tartışmaya bağlıyor; habertürk katilin arkadaşı olduğunu ve cenazeyi, sondakika ise faili (Uzuner) ve tutuklanmasını öne çıkarıyor.", "care": "Ölümün bir tartışmaya ya da arkadaşa bağlanması olayı kişisel bir husumet olarak çerçeveliyor; diğer başlıklar nedeni açık bırakarak bir siyasetçiye yönelik saldırı okumasına kapı aralıyor."}, "rows": [
+{"s": "haberler", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Kişisel tartışma", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "Tartışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": "Tartışma"},
+{"s": "akit", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Kişisel tartışma", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "Tartışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": "Tartışma"},
+{"s": "yenisafak", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Silahlı saldırı", "hero": "MHP'li meclis üyesi", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Yakın çevre cinayeti", "hero": "MHP'li meclis üyesi", "blame": "Arkadaşı", "cause": "", "cons": "Cenaze", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sondakika", "frame": "Fail yakalandı", "hero": "MHP'li meclis üyesi", "blame": "Uzuner", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "Failin yakalanması", "moral": "Adalet", "start": ""}
+]}

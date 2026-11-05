@@ -408,453 +408,437 @@
  ],
  "events": [
   {
-   "event": "s1605",
+   "event": "s3520",
    "week": "w7",
-   "title": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti",
+   "title": "KuPS Kuopio Trabzonspor MAÇ SONUCU - İşte KuPS Kuopio Trabzonspor maçı özeti ve golleri (Konferans Ligi) - Trabzonspor Haberler - HT Spor",
    "headlines": [
     {
-     "s": "ahaber",
-     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
-    },
-    {
-     "s": "mynet",
-     "hl": "Son Dakika | Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
-    },
-    {
      "s": "sozcu",
-     "hl": "Muğla Büyükşehir Belediye Başkanı Aras, CHP'den istifa etti"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA | Muğla Büyükşehir Belediye Başkanı Ahmet Aras, CHP'den istifa etti"
+     "hl": "Trabzonspor KuPS hazırlıklarını sürdürdü"
     },
     {
      "s": "star",
-     "hl": "CHP'de kriz devam ediyor! Muğla Büyükşehir Belediye Başkanı Aras istifa etti"
-    },
-    {
-     "s": "ntv",
-     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras, CHP'den istifa etti"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Muğla Belediye Başkanı Ahmet Aras CHP'den istifa etti"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP’den istifa etti"
-    },
-    {
-     "s": "karar",
-     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
-    },
-    {
-     "s": "diken",
-     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Bir büyükşehir belediye başkanı daha AK Parti’ye geçecek iddiaları vardı...Muğla Büyükşehir Belediye Başkanı CHP’den istifa etti"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Muğla Büyükşehir Belediye Başkanı CHP'den istifa etti"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa etti"
-    }
-   ]
-  },
-  {
-   "event": "s1573",
-   "week": "w7",
-   "title": "Reyhanlı saldırısı sanığı terörist Mihraç Ural yakalandı",
-   "headlines": [
-    {
-     "s": "trthaber",
-     "hl": "SANA: Reyhanlı saldırısı sanığı terörist 'Mihraç Ural' yakalandı"
+     "hl": "Trabzonspor, KuPS Kuopio maçının hazırlıklarına devam etti"
     },
     {
      "s": "sabah",
-     "hl": "SON DAKİKA | Reyhanlı saldırısı sanığı terörist Mihraç Ural yakalandı: Kaçmaya çalışırken Suriye'de enselendi"
+     "hl": "Trabzonspor, KuPS Kuopio maçının hazırlıklarını sürdürdü"
     },
     {
-     "s": "ahaber",
-     "hl": "Reyhanlı saldırısının sanığı Mihraç Ural Suriye’de yakalandı"
+     "s": "haberturk",
+     "hl": "Trabzonspor, UEFA Konferans Ligi'nde KuPS Kuopio ile deplasmanda karşılaşacak!"
+    },
+    {
+     "s": "karar",
+     "hl": "Trabzonspor yarın deplasmanda KuPS Kuopio karşısında"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "KuPS Kuopio - Trabzonspor maçı ne zaman, saat kaçta, hangi kanalda? Şifresiz mi?"
     },
     {
      "s": "takvim",
-     "hl": "Mihraç Ural Suriye'de yakalandı! SANA duyurdu"
-    },
-    {
-     "s": "ntv",
-     "hl": "Reyhanlı saldırısı faili Mihraç Ural Suriye'de yakalandı"
-    },
-    {
-     "s": "karar",
-     "hl": "Reyhanlı saldırısının sanığı Mihraç Ural Suriye’de yakalandı"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Son dakika: Reyhanlı saldırısı sanığı terörist Mihraç Ural yakalandı!"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Reyhanlı saldırısı sanığı terörist Mihraç Ural yakalandı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Reyhanlı saldırısı sanığı Mihraç Ural kimdir? 2013 saldırısının geçmişi"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Mihraç Ural Suriye'de yakalandı!"
-    },
-    {
-     "s": "mynet",
-     "hl": "SON DAKİKA | Mihraç Ural Suriye'de yakalandı! Fotoğrafları servis edildi"
-    },
-    {
-     "s": "star",
-     "hl": "Esad'ın köpeği Mihraç Ural yakalandı"
-    }
-   ]
-  },
-  {
-   "event": "s3595",
-   "week": "w7",
-   "title": "Halk TV’ye kayyum atandı, yayın durduruldu",
-   "headlines": [
-    {
-     "s": "karar",
-     "hl": "Halk TV’ye şafak operasyonu: TMSF kayyum olarak atandı, canlı yayın durduruldu"
-    },
-    {
-     "s": "mynet",
-     "hl": "Halk TV'ye kayyum atandı! Polisler binada arama yapıyor"
-    },
-    {
-     "s": "sozcu",
-     "hl": "SON DAKİKA... Halk TV'ye kayyum atandı: Yayın durduruldu"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son dakika... Halk TV’ye şafak baskını: Kayyım atandı, yayın durduruldu"
-    },
-    {
-     "s": "diken",
-     "hl": "Halk TV'ye kayyım atandı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Halk TV'ye operasyon: Kayyum atandı, yayın kesildi"
+     "hl": "Fırtına 3 puanla başladı! Trabzonspor Konferans Ligi'nde KuPS Kuopio'yu 4-2 yendi"
     },
     {
      "s": "ahaber",
-     "hl": "Halk TV'ye kayyum atandı! Cafer Mahiroğlu'nun 30 milyarlık rüşvet çarkı deşifre oldu"
+     "hl": "Trabzonspor KuPS Kuopio'yu 4-2 yenerek 3 puanla başladı"
     },
     {
-     "s": "haberturk",
-     "hl": "SON DAKİKA HABERLERİ: Halk TV'de arama, kayyum atandı! Halk TV'ye neden kayyum atandı, ne oldu?"
+     "s": "ntv",
+     "hl": "KuPS Kuopio-Trabzonspor maçı ne zaman, saat kaçta ve hangi kanalda? Avrupa'da hedef galibiyet"
     },
     {
-     "s": "dirilis",
-     "hl": "Halk TV’ye kayyum atandı, yayın durduruldu"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Halk TV'ye kayyım atandı, siyasiler ve meslek örgütleri tepkili"
-    },
-    {
-     "s": "star",
-     "hl": "Halk TV'ye kayyum atandı! Cafer Mahiroğlu dahil 17 kişiye gözaltı"
+     "s": "trthaber",
+     "hl": "Trabzonspor KuPS Kuopio'yu 4 golle geçti"
     }
    ]
   },
   {
-   "event": "s1633",
+   "event": "s3529",
    "week": "w7",
-   "title": "Selden etkilenen esnafa 80 milyon lira destek",
+   "title": "Trabzonspor-Beşiktaş maçı öncesi deplasman yasağı kaldırıldı",
    "headlines": [
     {
+     "s": "sabah",
+     "hl": "Trabzonspor'dan Beşiktaş maçı açıklaması: \"Deplasmana yasak kaldırılsın\""
+    },
+    {
+     "s": "star",
+     "hl": "Trabzonspor'dan deplasman yasağı çağrısı!"
+    },
+    {
      "s": "cumhuriyet",
-     "hl": "Bakan Bolat duyurdu: İstanbul'da selden etkilenen esnafa 80 milyon TL destek sağlanacak"
+     "hl": "Beşiktaş'tan Trabzonspor'un talebine destek: 'Deplasman yasağı kaldırılsın'"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Trabzonspor ve Beşiktaş'tan 'Deplasman yasağı kaldırılsın' talebi! - Son Dakika Beşiktaş Haberleri - Habertürk Spor"
+    },
+    {
+     "s": "ntv",
+     "hl": "Trabzonspor'dan Beşiktaş maçı öncesi çağrı. \"Deplasman yasağı kalksın.\""
+    },
+    {
+     "s": "mynet",
+     "hl": "Trabzonspor - Beşiktaş derbisinde 6 yıllık deplasman yasağı sona erdi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Trabzonspor-Beşiktaş derbisinde deplasman yasağı kaldırıldı: Beşiktaş taraftarı 6 yıl sonra Trabzon'a..."
+    },
+    {
+     "s": "milligazete",
+     "hl": "Trabzonspor - Beşiktaş maçında deplasman yasağı kalktı mı? Beşiktaş taraftarı Trabzon deplasmanında olacak mı?"
+    },
+    {
+     "s": "karar",
+     "hl": "Trabzonspor ile Beşiktaş arasındaki deplasman yasağı sona erdi"
+    }
+   ]
+  },
+  {
+   "event": "s1565",
+   "week": "w7",
+   "title": "İstanbul Fatih'te 14 yaşındaki bir çocuk su birikintisinde elektrik akımına kapılarak hayatını kaybetti",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "Akıma kapılan çocuk, hayatını kaybetti!"
+    },
+    {
+     "s": "karar",
+     "hl": "İstanbul'da feci ölüm: Su birikintisine basan 14 yaşındaki çocuk elektrik akımına kapıldı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son dakika... İstanbul’da sağanak faciası: 14 yaşındaki çocuk elektrik akımına kapılarak hayatını kaybetti"
+    },
+    {
+     "s": "star",
+     "hl": "Akıma kapılan 14 yaşındaki çocuk hayatını kaybetti"
+    },
+    {
+     "s": "diken",
+     "hl": "Fatih'te su birikintisinde elektrik akımına kapılan çocuk hayatını kaybetti"
+    },
+    {
+     "s": "sabah",
+     "hl": "Fatih'te bastığı su birikintisinde elektrik akımına kapılan çocuk hayatını kaybetti"
+    },
+    {
+     "s": "milligazete",
+     "hl": "İstanbul Fatih'te 14 yaşındaki bir çocuk su birikintisinde elektrik akımına kapılarak hayatını kaybetti"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Balat'ta su birikintisine basan 14 yaşındaki çocuk hayatını kaybetti"
+    },
+    {
+     "s": "ntv",
+     "hl": "Su birikintisinde elektrik akımına kapılan çocuk hayatını kaybetti"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Fatih'te bir çocuk selde elektrik akımına kapılarak öldü"
+    },
+    {
+     "s": "ahaber",
+     "hl": "İstanbul Fatih'te su birikintisinde elektrik akımına kapılan çocuk hayatını kaybetti: Hikayesi yürek..."
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fatih'te elektrik akımına kapılarak hayatını kaybeden genç hafız son yolculuğuna uğurlandı"
+    }
+   ]
+  },
+  {
+   "event": "s1586",
+   "week": "w7",
+   "title": "Murat Ağırel, Aylin Kotil ve Ömer Sarıgül gözaltına alındı: Emir Sarıgül hakkında da gözaltı kararı",
+   "headlines": [
+    {
+     "s": "mynet",
+     "hl": "SON DAKİKA | Murat Ağırel gözaltına alındı! Aylin Kotil, Emir Sarıgül ve Ömer Sarıgül de var"
+    },
+    {
+     "s": "karar",
+     "hl": "Murat Ağırel, Aylin Kotil ve Ömer Sarıgül gözaltına alındı: Emir Sarıgül hakkında da gözaltı kararı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Murat Ağırel ve Emir Sarıgül hakkında gözaltı talimatı! İstanbul'da 6 şüpheliye soruşturma"
+    },
+    {
+     "s": "star",
+     "hl": "İstanbul'da kara para aklama soruşturması! Murat Ağırel, Emir Sarıgül, Ömer Sarıgül ve Aylin Kotil'e gözaltı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Aylin Kotil kimdir, aslen nereli, neden gözaltına alındı?"
+    },
+    {
+     "s": "ntv",
+     "hl": "Aylin Kotil, Emir Sarıgül ve Ömer Sarıgül'e gözaltı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "SON DAKİKA HABERİ: Para aklama soruşturması: Oğul Sarıgüller, Aylin Kotil ve Ağırel de gözaltında"
+    },
+    {
+     "s": "diken",
+     "hl": "Murat Ağırel, Ömer ve Emir Sarıgül dahil altı gözaltı kararı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Aylin Kotil kimdir? Aylin Kotil kaç yaşında ve nereli? Aylin Kotil neden gözaltına alındı?"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Aylin Kotil kimin eski eşi, Mustafa Sarıgül ile evli miydi, kaç çocuğu var, Ömer ve Emir Sarıgül kim, neden gündemde?"
+    }
+   ]
+  },
+  {
+   "event": "s3521",
+   "week": "w7",
+   "title": "Samsunspor Bjelica ile imzaladı",
+   "headlines": [
+    {
+     "s": "milligazete",
+     "hl": "Emre Bayraktar kimdir, kaç yaşında, nereli, Samsunspor'un yeni hocası mı, daha önce hangi takımlarda çalıştı?"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Samsunspor, Nenad Bjelica ile anlaşmaya vardı! - Süper Lig Haberleri - Habertürk Spor"
+    },
+    {
+     "s": "sabah",
+     "hl": "Samsunspor'da Nenad Bjelica dönemi başlıyor!"
+    },
+    {
+     "s": "star",
+     "hl": "Samsunspor, teknik direktör Nenad Bjelica ile anlaştı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Samsunspor, Thorsten Fink'in ardından Nenad Bjelica ile sezon sonuna kadar prensip anlaşmasına vardı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Nenad Bjelica, Samsunspor'a imzayı attı"
+    },
+    {
+     "s": "karar",
+     "hl": "Samsunspor Nenad Bjelica ile sözleşme imzaladı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Samsunspor Bjelica ile imzaladı"
+    }
+   ]
+  },
+  {
+   "event": "s1624",
+   "week": "w7",
+   "title": "Cumhurbaşkanı Erdoğan açıkladı: Sağlık Bakanlığına 38 bin personel alınacak",
+   "headlines": [
+    {
+     "s": "trthaber",
+     "hl": "Cumhurbaşkanı Erdoğan: Sağlıkta 38 bin personel alınacak"
+    },
+    {
+     "s": "sabah",
+     "hl": "Başkan Erdoğan müjdeyi verdi: 38 bin hekim dışı personel alacağız"
+    },
+    {
+     "s": "star",
+     "hl": "Cumhurbaşkanı Erdoğan müjdeyi verdi: Sağlıkta 38 bin personel ilanına çıkacağız"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Cumhurbaşkanı Erdoğan müjdeyi verdi: 38 bin sağlıkçı alınacak"
+    },
+    {
+     "s": "ntv",
+     "hl": "Cumhurbaşkanı Erdoğan: 2026 yılı bitmeden 38 bin hekim dışı personel alacağız"
+    },
+    {
+     "s": "birgun",
+     "hl": "Erdoğan açıkladı: Sağlık Bakanlığı 38 bin hekim dışı personel alacak"
+    },
+    {
+     "s": "mynet",
+     "hl": "Cumhurbaşkanı Erdoğan duyurdu: '38 bin personel alınacak'"
+    },
+    {
+     "s": "sozcu",
+     "hl": "2026 yılı bitmeden 38 bin hekim dışı personel alınacak"
+    },
+    {
+     "s": "karar",
+     "hl": "Cumhurbaşkanı Erdoğan açıkladı: Sağlık Bakanlığına 38 bin personel alınacak"
+    },
+    {
+     "s": "diken",
+     "hl": "Sağlık Bakanlığı 38 bin hekim dışı personel alacak"
+    },
+    {
+     "s": "haberturk",
+     "hl": "SAĞLIK BAKANLIĞI 38 BİN HEKİM DIŞI PERSONEL ALIMI YAPACAK! 2026 Sağlık Bakanlığı hekim dışı personel alımı ne zaman, başvuru şartları nelerdir ve kadro-branş dağılımı nasıl olacak?"
+    }
+   ]
+  },
+  {
+   "event": "s1610",
+   "week": "w7",
+   "title": "31 bin 54 sözleşmeli sağlık personeli alınacak! Karar Resmi Gazete'de",
+   "headlines": [
+    {
+     "s": "trthaber",
+     "hl": "31 bin 54 sağlık personelinin istihdamına ilişkin karar Resmi Gazete'de"
+    },
+    {
+     "s": "ntv",
+     "hl": "31 bin sözleşmeli sağlık personeli alınacak. Karar Resmi Gazete'de yayınlandı"
+    },
+    {
+     "s": "star",
+     "hl": "Resmi Gazete'de yayımlandı: 31 bin sözleşmeli sağlık personeli için hizmet birimleri belli oldu"
     },
     {
      "s": "bloomberght",
-     "hl": "Selden etkilenen esnafa 80 milyon lira destek"
+     "hl": "2027'de 31 bin 54 sözleşmeli sağlık personeli istihdam edilecek"
     },
-    {
-     "s": "ahaber",
-     "hl": "İstanbul’da sel felaketinin yaraları sarılıyor! Esnafa 80 milyon liralık destek"
-    },
-    {
-     "s": "sabah",
-     "hl": "Bakan Bolat duyurdu: İstanbul'da selden etkilenen esnafa dev destek!"
-    },
-    {
-     "s": "trthaber",
-     "hl": "İstanbul'da selden etkilenen esnafa 80 milyon lira nakdi destek"
-    },
-    {
-     "s": "karar",
-     "hl": "Selden etkilenen esnafa 80 milyon TL destek: Ödeme tarihi açıklandı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Bakan Bolat duyurdu. Selden etkilenen esnafa destek"
-    },
-    {
-     "s": "mynet",
-     "hl": "İstanbul'da selden etkilenen esnafa 80 milyon TL nakdi destek"
-    },
-    {
-     "s": "diken",
-     "hl": "Selden etkilenen esnafa nakit desteği"
-    },
-    {
-     "s": "star",
-     "hl": "Sakarya'da selden etkilenen ailelere 10 bin lira destek! Ödemeler başladı"
-    }
-   ]
-  },
-  {
-   "event": "s3556",
-   "week": "w7",
-   "title": "Fenerbahçe, Aston Villa'ya 6-0 mağlup oldu",
-   "headlines": [
-    {
-     "s": "sabah",
-     "hl": "Fenerbahçe, Şampiyonlar Ligi'nde Aston Villa'ya konuk olacak!"
-    },
-    {
-     "s": "karar",
-     "hl": "Fenerbahçe yarın Aston Villa deplasmanında"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Fenerbahçe Aston Villa'ya konuk olacak"
-    },
-    {
-     "s": "star",
-     "hl": "Fenerbahçe yarın Aston Villa deplasmanında"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Fenerbahçe, UEFA Şampiyonlar Ligi'nin 2. haftasında Aston Villa'ya deplasmanda 6-0 mağlup oldu"
-    },
-    {
-     "s": "ntv",
-     "hl": "Fenerbahçe, Şampiyonlar Ligi'nde Aston Villa deplasmanında. İlk 11'de sürpriz"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Fenerbahçe Aston Villa deplasmanında! Muhtemel 11’ler belli oldu"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Fenerbahçe'nin gençleri Aston Villa'ya kaybetti"
-    },
-    {
-     "s": "diken",
-     "hl": "Fenerbahçe-Aston Villa maçında ilk 11'ler belli oldu"
-    },
-    {
-     "s": "mynet",
-     "hl": "Fenerbahçe Aston Villa'ya farklı yenildi! Fatura onlara kesildi: 'İki İsmail'e yazar'"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Fenerbahçe, Aston Villa'ya farklı mağlup oldu"
-    }
-   ]
-  },
-  {
-   "event": "s1595",
-   "week": "w7",
-   "title": "Cafer Mahiroğlu soruşturması: 4 şüpheli tutuklandı",
-   "headlines": [
     {
      "s": "cumhuriyet",
-     "hl": "Cafer Mahiroğlu soruşturmasında kritik iddia: Savcılık açıklamasında Cemil Tugay’ın ismi yok!"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Cafer Mahiroğlu soruşturmasında kritik iddia: İzmir'in adı var Cemil Tugay'ın yok"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Cafer Mahiroğlu soruşturmasında BUSTECH ödemeleri dosyada"
-    },
-    {
-     "s": "star",
-     "hl": "Cafer Mahiroğlu'na yolsuzluk soruşturması... Gözaltındaki 12 şüpheli adliyeye sevk edildi"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA... Cafer Mahiroğlu soruşturmasında yeni gelişme: 4 şüpheli tutuklandı"
+     "hl": "Sözleşmeli 31 bin 54 sağlık personeli istihdamına ilişkin karar Resmi Gazete'de"
     },
     {
      "s": "haberturk",
-     "hl": "Cafer Mahiroğlu’na yönelik soruşturmada 7 şüpheliye tutuklama talebi"
-    },
-    {
-     "s": "mynet",
-     "hl": "Cafer Mahiroğlu soruşturması: 4 kişi tutuklandı, 8 kişi adli kontrolle serbest bırakıldı"
-    },
-    {
-     "s": "diken",
-     "hl": "Cafer Mahiroğlu soruşturması: Dört kişi tutuklandı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Halk TV sahibi Cafer Mahiroğlu soruşturmasında 4 zanlı tutuklandı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Cafer Mahiroğlu'na yönelik soruşturmada 4 zanlı tutuklandı"
-    }
-   ]
-  },
-  {
-   "event": "s1566",
-   "week": "w7",
-   "title": "Türkiye Belediyeler Birliği Başkan Vekiliği’ne Ayşe Ünlüce, seçildi",
-   "headlines": [
-    {
-     "s": "cumhuriyet",
-     "hl": "YENİ Parti'nin Türkiye Belediyeler Birliği başkanvekili seçiminde adayı Ayşe Ünlüce oldu"
+     "hl": "Sözleşmeli 31 bin sağlık personeli istihdamı, Resmi Gazete'de"
     },
     {
      "s": "sozcu",
-     "hl": "Belediyeler Birliği’ne Ayşe Abla"
-    },
-    {
-     "s": "ntv",
-     "hl": "Türkiye Belediyeler Birliği'nin (TBB) yeni başkanvekili Ayşe Ünlüce oldu"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Son dakika haberler: Türkiye Belediyeler Birliği'nde Başkan Vekili seçimi yapılıyor"
-    },
-    {
-     "s": "karar",
-     "hl": "Türkiye Belediyeler Birliği'nde Başkan Vekili seçimi bugün"
-    },
-    {
-     "s": "milligazete",
-     "hl": "TBB seçim sonuçları 2026, Ayşe Ünlüce kaç oy aldı? Tahir Büyükakın kazandı mı?"
-    },
-    {
-     "s": "diken",
-     "hl": "TBB'nin yeni başkan vekili Ayşe Ünlüce"
+     "hl": "31 bin 54 sözleşmeli sağlık personeli alınacak! Karar Resmi Gazete'de"
     },
     {
      "s": "mynet",
-     "hl": "TBB Başkan Vekilliği seçimi sonuçlandı! Ayşe Ünlüce kazandı"
-    },
-    {
-     "s": "sabah",
-     "hl": "TBB Başkanvekilliğine Ayşe Ünlüce seçildi"
+     "hl": "31 bin 54 sağlık personelinin istihdamına dair karar Resmi Gazete'de"
     },
     {
      "s": "takvim",
-     "hl": "TBB Başkanvekili belli oldu: Eskişehir Büyükşehir Belediye Başkanı Ayşe Ünlüce seçildi"
+     "hl": "31 bin 54 sözleşmeli sağlık personeli alımı kararı Resmi Gazete'de! Kadro dağılımı belli oldu"
+    },
+    {
+     "s": "karar",
+     "hl": "Resmî Gazete'de yayımlandı: 31 bin 54 sağlık personeli istihdam edilecek!"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Cumhurbaşkanı Erdoğan imzaladı: Sözleşmeli sağlık personeli alınacak"
+    },
+    {
+     "s": "sabah",
+     "hl": "Resmi Gazete'de yayımlandı! Sözleşmeli 31 bin 54 sağlık personeli alınacak"
     }
    ]
   },
   {
-   "event": "s3622",
+   "event": "s3607",
    "week": "w7",
-   "title": "Dusan Vlahovic'ten Beşiktaş'a kötü haber! Hoffenheim maçı kamp kadrosunda yok",
+   "title": "Beşiktaş Avrupa Ligi'nde Hoffenheim deplasmanında",
    "headlines": [
     {
-     "s": "cumhuriyet",
-     "hl": "Kritik maç öncesi Dusan Vlahovic'ten Beşiktaş'a kötü haber"
+     "s": "sabah",
+     "hl": "Beşiktaş, UEFA Avrupa Ligi'nde Hoffenheim'a konuk olacak!"
     },
     {
-     "s": "takvim",
-     "hl": "Beşiktaş'ta Hoffenheim maçı öncesi Vlahovic şoku! Kadroda yok!"
+     "s": "karar",
+     "hl": "Beşiktaş yarın Hoffenheim deplasmanında"
     },
     {
-     "s": "mynet",
-     "hl": "Beşiktaş'ta kritik maç öncesi Vlahovic'ten kötü haber!"
-    },
-    {
-     "s": "star",
-     "hl": "Dusan Vlahovic'ten Beşiktaş'a kötü haber! Hoffenheim maçı kamp kadrosunda yok"
+     "s": "trthaber",
+     "hl": "Beşiktaş Avrupa Ligi'nde Hoffenheim deplasmanında"
     },
     {
      "s": "haberturk",
-     "hl": "Beşiktaş'ta Vlahovic, Hoffenheim maçının kadrosuna alınmadı!"
+     "hl": "Beşiktaş, UEFA Avrupa Ligi’nde Hoffenheim’a konuk olacak: Kartal’da 3 eksik!"
     },
     {
-     "s": "sabah",
-     "hl": "Beşiktaş'ta Vlahovic, Hoffenheim maçı kadrosunda yok!"
+     "s": "dirilis",
+     "hl": "Beşiktaş Avrupa Ligi’nde Hoffenheim’e konuk olacak: Alman takımlarıyla 15. randevu"
+    },
+    {
+     "s": "star",
+     "hl": "Zorlu maç öncesi tek eksik! Beşiktaş, Hoffenheim deplasmanında"
+    },
+    {
+     "s": "takvim",
+     "hl": "Avrupa Kartal'ı sahnede! Beşiktaş Hoffenheim'i Almanya'da 3-2 ile devirdi"
     },
     {
      "s": "ahaber",
-     "hl": "Beşiktaş’ın Hoffenheim maçı kamp kadrosu açıklandı: 3 futbolcu yok"
+     "hl": "Beşiktaş, UEFA Avrupa Ligi'nin 2. haftasında Hoffenheim'ı Almanya deplasmanında 3-2 mağlup ederek puanını..."
+    },
+    {
+     "s": "milligazete",
+     "hl": "Beşiktaş deplasmanda Hoffenheim’ı devirdi!"
+    },
+    {
+     "s": "diken",
+     "hl": "UEFA Avrupa Ligi: Beşiktaş, Hoffenheim'ı 3-2 yendi"
+    }
+   ]
+  },
+  {
+   "event": "s1799",
+   "week": "w8",
+   "title": "Bağcılar'da zincirleme kaza! Yaralılar var",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "SON DAKİKA HABERİ: İstanbul Bağcılar'da zincirleme kaza! Yaralılar var"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "İstanbul Bağcılar'da zincirleme trafik kazası: Yaralılar var"
+    },
+    {
+     "s": "takvim",
+     "hl": "Bağcılar'da 5 araçlı zincirleme kaza! 2 kişi yaralandı"
     },
     {
      "s": "sozcu",
-     "hl": "Beşiktaş'ın Hoffenheim maçı kadrosu açıklandı: 3 yıldız kadroya alınmadı!"
-    },
-    {
-     "s": "karar",
-     "hl": "Beşiktaş'ın Hoffenheim maçı kamp kadrosu açıklandı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Dusan Vlahovic Hoffenheim maçında neden oynamıyor? Hastalığı belli oldu"
-    }
-   ]
-  },
-  {
-   "event": "s3513",
-   "week": "w7",
-   "title": "KPSS ORTAÖĞRETİM SINAV GİRİŞ YERLERİ 2026 AÇIKLANDI! KPSS Lise sınav yerleri nasıl ve nereden öğrenilir? ÖSYM AİS KPSS Ortaöğretim sınav giriş belgesi sorgulama ekranı",
-   "headlines": [
-    {
-     "s": "ntv",
-     "hl": "KPSS ortaöğretim sınav yerleri sorgulama 2026: KPSS ortaöğretim (lise) sınav yerleri açıklandı mı?"
-    },
-    {
-     "s": "haberturk",
-     "hl": "KPSS ORTAÖĞRETİM SINAV GİRİŞ YERLERİ SORGULAMA EKRANI: 2026 KPSS Ortaöğretim sınav giriş belgesi yayımlandı mı, sınav yerleri ne zaman açıklanacak?"
+     "hl": "İstanbul'da zincirleme kaza! Yaralılar var, 3 şerit kapatıldı"
     },
     {
      "s": "sabah",
-     "hl": "KPSS ortaöğretim sınav yerleri ne zaman belli olacak? ÖSYM ile KPSS lise sınav yerleri bekleniyor!"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Memur Adaylarının Gözü ÖSYM'de: 2026 KPSS Ortaöğretim Sınav Yeri Öğrenme Ekranı ve Tarihleri"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "2026 KPSS ortaöğretim sınav yerleri açıklandı mı? ÖSYM sınava giriş belgelerini ne zaman açıklayacak?"
-    },
-    {
-     "s": "karar",
-     "hl": "2026 KPSS Ortaöğretim sınav yerleri bugün açıklanır mı? KPSS lise sınav yerleri e devletten nasıl bakılır?10.00 detayına dikkat"
-    },
-    {
-     "s": "hurriyet",
-     "hl": "KPSS Ortaöğretim sınav yerleri belli oldu"
+     "hl": "SON DAKİKA... İstanbul Bağcılar'da zincirleme kaza! Hafriyat kamyonu ve TIR çarpıştı: 3 şerit trafiğe kapatıldı"
     },
     {
      "s": "ahaber",
-     "hl": "2026 KPSS Ortaöğretim sınav giriş belgeleri yayımlandı: ÖSYM AİS sorgulama ekranı"
+     "hl": "Bağcılar'da zincirleme kabus! Hafriyat kamyonu ve TIR birbirine girdi"
     },
     {
-     "s": "star",
-     "hl": "KPSS Ortaöğretim giriş belgeleri erişime açıldı"
+     "s": "trthaber",
+     "hl": "Bağcılar'da zincirleme kaza: 2 kişi yaralandı"
     },
     {
-     "s": "takvim",
-     "hl": "KPSS Ortaöğretim sınav giriş belgesi sorgulama 2026"
+     "s": "turkiyegz",
+     "hl": "İstanbul'da zincirleme kaza! Yaralılar var, ekipler bölgede"
+    },
+    {
+     "s": "ntv",
+     "hl": "Bağcılar’da zincirleme kaza. Yaralılar var, trafik kitlendi"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "İstanbul'da zincirleme kaza: 3 şerit trafiğe kapatıldı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Bağcılar'da zincirleme kaza!"
     }
    ]
   }

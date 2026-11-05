@@ -408,569 +408,405 @@
  ],
  "events": [
   {
-   "event": "s1562",
+   "event": "s1519",
    "week": "w7",
-   "title": "Eski SPK Başkanı Gönül hakkında soruşturma izni",
+   "title": "İstanbul Boğazı'nda sürüklenen gemi kurtarıldı",
    "headlines": [
     {
-     "s": "star",
-     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni! Bakan Şimşek talimat verdi"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Eski SPK Başkanı Gönül hakkında soruşturma izni"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA I Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi"
+     "s": "ntv",
+     "hl": "Didim açıklarında sürüklenen teknedeki 2 kişi kurtarıldı"
     },
     {
      "s": "mynet",
-     "hl": "Bakan Şimşek, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Eski SPK Başkanı Gönül hakkında soruşturma izni"
-    },
-    {
-     "s": "diken",
-     "hl": "Mehmet Şimşek, eski SPK başkanı Ömer Gönül hakkında soruşturma izni verdi"
-    },
-    {
-     "s": "ntv",
-     "hl": "Eski SPK Başkanı Gönül hakkında soruşturma izni"
-    },
-    {
-     "s": "takvim",
-     "hl": "Bakan Şimşek'ten eski SPK Başkanı İbrahim Ömer Gönül hakkında kritik karar: Soruşturma izni verildi"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Mehmet Şimşek’ten eski SPK Başkanı Gönül için soruşturma izni"
-    },
-    {
-     "s": "bloomberght",
-     "hl": "Eski SPK Başkanı Gönül hakkında soruşturma izni"
+     "hl": "Çanakkale Boğazı’nda sürüklenen teknedeki 2 kişi kurtarıldı"
     },
     {
      "s": "cumhuriyet",
-     "hl": "Son dakika... Eski SPK Başkanı Gönül hakkında soruşturma izni"
+     "hl": "İstanbul Boğazı'nda gemi sürüklendi: İstikametinin tersine döndü"
     },
     {
-     "s": "milligazete",
-     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül’e soruşturma!"
+     "s": "sozcu",
+     "hl": "İstanbul Boğazı'nda sürüklenen gemi kurtarıldı"
+    },
+    {
+     "s": "star",
+     "hl": "İstanbul Boğazı'nda korkutan anlar: Arızalanan dev gemi kontrolsüzce sürüklendi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "İstanbul Boğazı'nda panik anları! Kuru yük gemisi kıyıya sürüklendi"
+    },
+    {
+     "s": "haberturk",
+     "hl": "İstanbul Boğazı'nda sürüklenen gemi kurtarıldı"
     },
     {
      "s": "karar",
-     "hl": "Fon skandalında soruşturma SPK'nın eski yönetimine uzandı: Şimşek'ten İbrahim Ömer Gönül için izin"
+     "hl": "İstanbul Boğazı'nda gemi arızası: Sürüklenerek ters döndü"
     },
     {
      "s": "dirilis",
-     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül Hakkında Soruşturma İzni verildi"
+     "hl": "İstanbul Boğazı'nda sürüklenen konteyner gemisi kurtarıldı"
+    }
+   ]
+  },
+  {
+   "event": "s1508",
+   "week": "w7",
+   "title": "Suudi Arabistan'ın başkenti Riyad'da patlama sesleri",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "Suudi Arabistan'ın başkenti Riyad'da saldırı uyarısı sonrası 3 ayrı patlama sesi duyuldu"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Suudi Arabistan'da patlama sesleri duyuldu"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Suudi Arabistan'ın başkenti Riyad'da patlama sesleri"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Riyad'da 3 patlama sesi duyuldu - Güncel Dünya Haberleri"
+    },
+    {
+     "s": "ntv",
+     "hl": "Husilerin Suudi Arabistan'a saldırıları sürüyor. 3 ayrı patlama sesi duyuldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Riyad'da 'tehlike alarmı' verildi: 3 ayrı patlama sesi duyuldu"
+    },
+    {
+     "s": "mynet",
+     "hl": "Suudi Arabistan'ın başkenti Riyad'da alarm! Husiler: \"Havalimanını vurduk\""
+    },
+    {
+     "s": "star",
+     "hl": "Suudi Arabistan'da patlama sesleri"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Suudi Arabistan'ın başkenti Riyad'da patlama sesleri duyuldu, hava saldırısı tehdidi içeren uyarı..."
+    }
+   ]
+  },
+  {
+   "event": "s1497",
+   "week": "w7",
+   "title": "Cibuti açıklarında göçmen faciası! Tekne battı: 15'i çocuk 139 ölü, 84 kayıp",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "Cibuti açıklarında göçmen teknesi battı: 109 ölü, 116 kayıp"
+    },
+    {
+     "s": "ntv",
+     "hl": "Cibuti açıklarında göçmen faciası: 15'i çocuk, en az 109 can kaybı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Cibuti'de facia: 15'i çocuk 109 ölü, 116 kayıp"
+    },
+    {
+     "s": "takvim",
+     "hl": "Cibuti açıklarında göçmen faciası! Tekne battı: 15'i çocuk 139 ölü, 84 kayıp"
+    },
+    {
+     "s": "karar",
+     "hl": "Cibuti açıklarında umuda yolculuk faciayla bitti: 109 ölü, 116 kayıp"
+    },
+    {
+     "s": "star",
+     "hl": "Cibuti açıklarında gemi faciası: 109 ölü, 116 kişi aranıyor"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Cibuti açıklarında gemi faciası: 109 kişi hayatını kaybetti"
     },
     {
      "s": "yeniasya",
-     "hl": "Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi"
+     "hl": "Cibuti açıklarında gemi alabora oldu: 109 kişi öldü ve 116'dan fazla kişi kayıp"
+    },
+    {
+     "s": "sabah",
+     "hl": "Cibuti açıklarında göçmen teknesi battı: 139 ölü, 84 kayıp"
     }
    ]
   },
   {
-   "event": "s3429",
+   "event": "s3611",
    "week": "w7",
-   "title": "2026-2027 GSB KYK burs ve kredi başvuruları başladı mı? KYK kredi ve burs başvurusu nasıl yapılır?",
+   "title": "Hakem Mehmet Türkmen'e UEFA Konferans Ligi'nde görev",
    "headlines": [
     {
      "s": "sabah",
-     "hl": "KYK burs ve kredi başvuruları başladı mı, ne zaman? 2026-2027 GSB KYK burs başvuru takvimi bekleniyor!"
-    },
-    {
-     "s": "ntv",
-     "hl": "KYK burs başvuru ekranı 2026-2027: KYK burs ve kredi başvurusu ne zaman başlayacak?"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Burs ve öğrenim kredisi başvuruları başladı"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son Dakika... Burs ve öğrenim kredisi başvuruları başladı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Son dakika... Burs ve öğrenim kredisi başvuruları başladı"
-    },
-    {
-     "s": "ahaber",
-     "hl": "2026-2027 KYK başvuruları başladı! Burs ve kredi için e-Devlet üzerinden işlem yapılacak"
-    },
-    {
-     "s": "takvim",
-     "hl": "KYK burs ve kredi başvuruları başladı mı? 2026-2027"
+     "hl": "UEFA Konferans Ligi heyecanı başlıyor!"
     },
     {
      "s": "star",
-     "hl": "Burs ve öğrenim kredisi başvuruları başladı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Son dakika! Bakan Bak duyurdu: KYK Burs ve öğrenim kredisi başvuruları başladı"
-    },
-    {
-     "s": "hurriyet",
-     "hl": "GSB burs ve kredi başvuruları başladı"
+     "hl": "UEFA Konferans Ligi'nde ilk hafta maçları yarın!"
     },
     {
      "s": "karar",
-     "hl": "2026-2027 KYK burs başvuruları nasıl yapılır, kimlere çıkar? KYK bursunda YÖKSİS uyarısı! Başvuru yapmadan bilmeniz gerekenler"
+     "hl": "Mehmet Türkmen'e UEFA Konferans Ligi'nde görev"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "UEFA'dan Mehmet Türkmen'e görev!"
+    },
+    {
+     "s": "ntv",
+     "hl": "Trabzonspor, UEFA Konferans Ligi'ne Finlandiya'da zaferle başladı"
     },
     {
      "s": "diken",
-     "hl": "KYK burs ve kredi başvuruları başladı"
+     "hl": "UEFA Konferans Ligi: Trabzonspor deplasmanda dört golle galip"
     },
     {
      "s": "dirilis",
-     "hl": "KYK burs ve kredi başvuruları başladı!"
+     "hl": "Konferans Ligi'nde yeni sezon 10 maçla başladı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Konferans Ligi'nde ilk hafta bitti! Sürpriz sonuçlar damga vurdu"
+    }
+   ]
+  },
+  {
+   "event": "s3692",
+   "week": "w7",
+   "title": "Trabzonspor'da Paul Onuachu şoku! Gol attı ve sakatlandı",
+   "headlines": [
+    {
+     "s": "ahaber",
+     "hl": "Trabzonspor'da Paul Onuachu şoku! Gol attı ve sakatlandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Trabzonspor'da kötü haber: Paul Onuachu oyuna devam edemedi!"
+    },
+    {
+     "s": "ntv",
+     "hl": "Trabzonspor'da sakatlık şoku, golü attı oyundan çıktı"
+    },
+    {
+     "s": "sabah",
+     "hl": "Trabzonspor'da Paul Onuachu şoku! Golünü attı, oyundan çıktı..."
+    },
+    {
+     "s": "haberturk",
+     "hl": "Trabzonspor'da sakatlık şoku: Paul Onuachu - Trabzonspor Haberler - HT Spor"
+    },
+    {
+     "s": "karar",
+     "hl": "Onuachu’dan Trabzonspor’a kötü haber: Golünü attı sakatlandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Trabzonspor'a Onuachu'dan kötü haber! İlk maçta sakatlandı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Trabzon'a şok! Onuachu golünü attı sakatlandı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Trabzonspor'a Beşiktaş maçı öncesi Onuachu şoku!"
+    }
+   ]
+  },
+  {
+   "event": "s3593",
+   "week": "w7",
+   "title": "UEFA Şampiyonlar Ligi'nde gecenin sonuçları!",
+   "headlines": [
+    {
+     "s": "star",
+     "hl": "Şampiyonlar Ligi'nde gecenin sonuçları belli oldu!"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Şampiyonlar Ligi’nde ikinci hafta maçları oynandı"
+    },
+    {
+     "s": "sabah",
+     "hl": "UEFA Şampiyonlar Ligi'nde sürpriz sonuçlar!"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Şampiyonlar Ligi'nde büyük sürprizler! Devler Ligi'nde gecenin sonuçları"
+    },
+    {
+     "s": "takvim",
+     "hl": "Şampiyonlar Ligi'nde 9 maçta 32 gol! Gecenin sonuçları"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "İşte UEFA Şampiyonlar Ligi'nde günün sonuçları"
+    },
+    {
+     "s": "haberturk",
+     "hl": "UEFA Şampiyonlar Ligi'nde gecenin sonuçları!"
+    },
+    {
+     "s": "karar",
+     "hl": "Şampiyonlar Ligi'nde tarihin en gollü haftası yaşandı"
+    },
+    {
+     "s": "ntv",
+     "hl": "UEFA Şampiyonlar Ligi'nde tarihi rekor. Turnuvada böylesi olmamıştı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Şampiyonlar Ligi'nde haftanın 11'i belli oldu! Fenerbahçe ve Galatasaray..."
+    }
+   ]
+  },
+  {
+   "event": "s1618",
+   "week": "w7",
+   "title": "Etimesgut Belediyesi soruşturmasında 2 başkan yardımcısı dahil 7 kişi tutuklandı",
+   "headlines": [
+    {
+     "s": "turkiyegz",
+     "hl": "Etimesgut Belediyesi'ne soruşturma: 2 başkan yardımcısı dahil 7 tutuklama"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika: Etimesgut Belediyesi soruşturmasında 7 kişi tutuklandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Etimesgut Belediyesi yolsuzluk soruşturmasında iki başkan yardımcısının da aralarında bulunduğu 7 kişi..."
+    },
+    {
+     "s": "ahaber",
+     "hl": "Etimesgut Belediyesi'nde rüşvet ve ihale operasyonu: 2 başkan yardımcısı tutuklandı!"
+    },
+    {
+     "s": "star",
+     "hl": "Etimesgut Belediyesi'ne yolsuzluk soruşturması! Başkan yardımcıları dahil 7 tutuklama"
+    },
+    {
+     "s": "mynet",
+     "hl": "Etimesgut Belediyesi'ne soruşturmada yeni gelişme! Tutuklandılar"
     },
     {
      "s": "milligazete",
-     "hl": "Burs ve öğrenim kredisi başvuruları başladı"
+     "hl": "Etimesgut Belediyesi soruşturmasında 2 başkan yardımcısı dahil 7 kişi tutuklandı"
     },
     {
      "s": "haberturk",
-     "hl": "KYK BURS BAŞVURU EKRANI E-DEVLET | 2026-2027 KYK burs ve kredi başvuruları başladı! GSB KYK burs ve kredi başvurusu nasıl yapılır, şartları neler, tutarı ne kadar?"
+     "hl": "Etimesgut Belediyesi'ne yönelik \"yolsuzluk\" soruşturmasında 7 şüpheli tutuklandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Etimesgut Belediyesi'ne operasyon: Belediye başkan yardımcıları da aralarında 7 kişi tutuklandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Etimesgut Belediyesine yönelik &quot;yolsuzluk&quot; soruşturmasında 7 şüpheli tutuklandı"
     }
    ]
   },
   {
-   "event": "s1504",
+   "event": "s3562",
    "week": "w7",
-   "title": "Rusya-Ukrayna arasında enerji ateşkesi",
+   "title": "Galatasaray, Barcelona'ya mağlup oldu",
    "headlines": [
     {
-     "s": "sabah",
-     "hl": "Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı!"
+     "s": "ahaber",
+     "hl": "Galatasaray, Şampiyonlar Ligi'nde Barcelona'ya 4-1 mağlup oldu: İkinci maçında da puan alamadı"
     },
     {
      "s": "haberturk",
-     "hl": "Rusya-Ukrayna arasında enerji ateşkesi"
-    },
-    {
-     "s": "mynet",
-     "hl": "Trump duyurdu! Rusya ile Ukrayna arasında enerji ateşkesine varıldı"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Trump duyurdu: Rusya - Ukrayna arasında enerji ateşkesi"
+     "hl": "Galatasaray'dan Barcelona'ya dostluk yemeği! - Galatasaray Haberler - HT Spor"
     },
     {
      "s": "sozcu",
-     "hl": "Trump duyurdu: Rusya ve Ukrayna arasında enerji ateşkesi!"
+     "hl": "Galatasaray'ın gençleri Barcelona'ya mağlup oldu"
     },
     {
-     "s": "takvim",
-     "hl": "Trump ilan etti: Rusya-Ukrayna enerji ateşkesi sağlandı!"
-    },
-    {
-     "s": "ntv",
-     "hl": "Trump'tan ateşkes mesajı. \"Rusya ve Ukrayna enerji ateşkesinde anlaştı\""
-    },
-    {
-     "s": "bloomberght",
-     "hl": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası"
+     "s": "mynet",
+     "hl": "UEFA Gençlik Ligi'nde Galatasaray Barcelona'ya diş geçiremedi!"
     },
     {
      "s": "cumhuriyet",
-     "hl": "Trump duyurdu: Rusya ve Ukrayna arasında 'enerji' ateşkesi"
+     "hl": "Galatasaray'ın gençleri Barcelona'ya kaybetti!"
     },
     {
-     "s": "trthaber",
-     "hl": "Trump: Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir"
+     "s": "sabah",
+     "hl": "SON DAKİKA | Galatasaray sonunu getiremedi! Barcelona'ya 4 golle kaybeti..."
     },
     {
-     "s": "star",
-     "hl": "Trump duyurdu! Rusya ve Ukrayna arasında enerji ateşkesi"
-    },
-    {
-     "s": "karar",
-     "hl": "Rusya ve Ukrayna arasında 'enerji' ateşkesi"
+     "s": "ntv",
+     "hl": "Galatasaray, Barcelona'ya diş geçiremedi. Sarı-kırmızılılar, 5 gollü maçta kaybetti"
     },
     {
      "s": "diken",
-     "hl": "Trump: Rusya ile Ukrayna arasında enerji ateşkesi ilan edildi"
-    },
-    {
-     "s": "dirilis",
-     "hl": "AB, Rusya ve Ukrayna arasındaki enerji ateşkesini destekliyor"
+     "hl": "UEFA Şampiyonlar Ligi: Galatasaray, Barcelona'ya 4-1 mağlup"
     },
     {
      "s": "yeniasya",
-     "hl": "Rusya ile Ukrayna arasında ''enerji ateşkesi''"
-    }
-   ]
-  },
-  {
-   "event": "s1576",
-   "week": "w7",
-   "title": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin kazada hayatını kaybetti!",
-   "headlines": [
-    {
-     "s": "haberturk",
-     "hl": "SON DAKİKA HABERİ: Üsküdar Belediye Başkan Vekili kazada hayatını kaybetti"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin kazada hayatını kaybetti!"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Kazada ağır yaralanmıştı... AKP'li Üsküdar Başkan Vekili Dündar Ziya Gültekin hayatını kaybetti"
-    },
-    {
-     "s": "sabah",
-     "hl": "Son Dakika | Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin vefat etti: Düzce'deki zincirleme kazada ağır yaralanmıştı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti"
-    },
-    {
-     "s": "mynet",
-     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin, hayatını kaybetti"
-    },
-    {
-     "s": "takvim",
-     "hl": "Düzce'de feci kaza: Üsküdar Belediye Başkan Vekili Gültekin hayatını kaybetti"
-    },
-    {
-     "s": "karar",
-     "hl": "TBB seçimi için yola çıkmıştı! Üsküdar Belediye Başkan Vekili hayatını kaybetti"
-    },
-    {
-     "s": "star",
-     "hl": "Anadolu Otoyolu'nda feci kaza! Üsküdar Belediye Başkan Vekili Gültekin hayatını kaybetti"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin vefat etti"
-    },
-    {
-     "s": "diken",
-     "hl": "AKP'li Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin kimdir, aslen nereli ve yaşındaydı?"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti"
+     "hl": "Galatasaray, Barcelona'ya 4-1 yenildi"
     },
     {
      "s": "dirilis",
-     "hl": "DÜNDAR ZİYA GÜLTEKİN"
-    }
-   ]
-  },
-  {
-   "event": "s1526",
-   "week": "w7",
-   "title": "Etimesgut Belediyesi'ne operasyon! 25 kişi gözaltında",
-   "headlines": [
-    {
-     "s": "mynet",
-     "hl": "Etimesgut Belediyesi'ne operasyon! Çok sayıda gözaltı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Etimesgut Belediyesi'ne operasyon: Çok sayıda gözaltı var"
-    },
-    {
-     "s": "diken",
-     "hl": "Etimesgut Belediyesi'ne operasyon: Başkan yardımcıları dahil 25 gözaltı"
-    },
-    {
-     "s": "haberturk",
-     "hl": "SON DAKİKA HABERİ: Etimesgut Belediyesi'ne operasyon! Çok sayıda gözaltı var"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Etimesgut Belediyesi'ne ikinci dalga operasyon: İki başkan yardımcısı dahil 25 şüpheli gözaltında"
-    },
-    {
-     "s": "ntv",
-     "hl": "Etimesgut Belediyesi'ne ikinci dalga operasyon. 7 kişi tutuklandı"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA | Etimesgut Belediyesi'ne 2. dalga yolsuzluk operasyonu! 25 gözaltı kararı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Etimesgut Belediyesi'ne operasyon! 25 kişi gözaltında"
-    },
-    {
-     "s": "karar",
-     "hl": "Etimesgut Belediyesi'ne operasyon: Çok sayıda gözaltı var"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son dakika... Etimesgut Belediyesi'ne 2. dalga operasyon: Başkan yardımcıları dahil 25 kişi gözaltına alındı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Etimesgut'ta 2. dalga operasyon: İki başkan yardımcısı gözaltında"
+     "hl": "Galatasaray, Barcelona'ya 4-1 yenildi"
     },
     {
      "s": "trthaber",
-     "hl": "Etimesgut Belediyesi'ne yolsuzluk soruşturması: 25 gözaltı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Etimesgut Belediyesi'ne ikinci dalga operasyon. 25 kişi gözaltına alındı"
+     "hl": "Galatasaray, Barcelona'ya mağlup oldu"
     },
     {
      "s": "star",
-     "hl": "Etimesgut Belediyesi'ne yeni dalga operasyon! Başkan yardımcıları dahil 25 gözaltı"
+     "hl": "MAÇ SONUCU: Galatasaray 1-4 Barcelona"
     }
    ]
   },
   {
-   "event": "s3536",
+   "event": "s1509",
    "week": "w7",
-   "title": "Breaking Bad'in yıldızı 34 yaşında hayatını kaybetti",
+   "title": "Beyaz Saray, ABD'nin Atina Büyükelçisi Guilfoyle'un istifasını istedi",
    "headlines": [
     {
-     "s": "diken",
-     "hl": "'Breaking Bad'deki rolüyle tanınan RJ Mitte hayatını kaybetti"
-    },
-    {
-     "s": "sabah",
-     "hl": "Henüz 34 yaşındaydı! Breaking Bad’in yıldızı RJ Mitte hayatını kaybetti"
-    },
-    {
-     "s": "karar",
-     "hl": "Breaking Bad'in Walter White Jr.'ı RJ Mitte 34 yaşında öldü"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Breaking Bad dizisinin yıldızından acı haber: 34 yaşında hayatını kaybetti"
-    },
-    {
-     "s": "ntv",
-     "hl": "Breaking Bad'in yıldızı 34 yaşında hayatını kaybetti"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "'Breaking Bad' dizisinin yıldızı, RJ Mitte 34 yaşında hayatını kaybetti"
-    },
-    {
-     "s": "haberturk",
-     "hl": "'Breaking Bad' dizisinin yıldızı RJ Mitte hayatını kaybetti! RJ Mitte kimdir, kaç yaşındaydı? - En Son Magazin Haberleri"
-    },
-    {
      "s": "trthaber",
-     "hl": "Breaking Bad dizisinin yıldızı RJ Mitte 34 yaşında hayatını kaybetti"
-    },
-    {
-     "s": "milligazete",
-     "hl": "RJ Mitte kimdir? Neden hayatını kaybetti, Breaking Bad yıldızının ölüm nedeni açıklandı mı?"
-    },
-    {
-     "s": "star",
-     "hl": "'Breaking Bad'deki rolüyle tanınan RJ Mitte hayatını kaybetti"
+     "hl": "Trump, ABD'nin Yunanistan Büyükelçisi Guilfoyle'u görevden almayı değerlendiriyor"
     },
     {
      "s": "ahaber",
-     "hl": "RJ Mitte kimdir, neden öldü? Breaking Bad yıldızı 34 yaşındaydı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Breaking Bad yıldızı RJ Mitte neden öldü? Acı haber sevenlerini sarstı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Ölümünden günler önce yeni filmine hazırlanıyordu! Breaking Bad'in yıldızı RJ Mitte'nin trajik sonu"
-    }
-   ]
-  },
-  {
-   "event": "s1554",
-   "week": "w7",
-   "title": "BUDO'nun 4 seferi iptal edildi",
-   "headlines": [
-    {
-     "s": "tele1",
-     "hl": "BUDO'nun 4 seferi iptal edildi"
-    },
-    {
-     "s": "diken",
-     "hl": "BUDO'nun dört seferi iptal"
-    },
-    {
-     "s": "karar",
-     "hl": "BUDO'nun 4 seferi iptal edildi"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Bursa Deniz Otobüslerinin 12 seferi iptal edildi"
-    },
-    {
-     "s": "sabah",
-     "hl": "BUDO'ya olumsuz hava engeli! 12 sefer iptal edildi"
+     "hl": "Trump’tan Atina Büyükelçisi Guilfoyle’u görevden alma sinyali geldi: Hakkındaki iddialar inceleniyor"
     },
     {
      "s": "haberturk",
-     "hl": "BUDO'nun 12 seferi iptal edildi"
+     "hl": "Beyaz Saray, Atina Büyükelçisi Guilfoyle'u görevden alacak: İstifasını istedik"
+    },
+    {
+     "s": "karar",
+     "hl": "Beyaz Saray, Atina Büyükelçisi Guilfoyle'un istifasının istendiğini açıkladı"
     },
     {
      "s": "star",
-     "hl": "Bursa Deniz Otobüslerinin 12 seferi olumsuz hava koşulları nedeniyle iptal edildi"
-    },
-    {
-     "s": "sozcu",
-     "hl": "BUDO'nun 12 seferi yapılmayacak!"
-    },
-    {
-     "s": "dirilis",
-     "hl": "BUDO’nun bugünkü 12 seferi iptal edildi"
-    },
-    {
-     "s": "milligazete",
-     "hl": "BUDO'dan kötü haber: Bugünkü 12 sefer birden iptal edildi!"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "BUDO'nun yarınki 12 seferi iptal edildi"
-    },
-    {
-     "s": "mynet",
-     "hl": "Olumsuz hava koşulları nedeniyle BUDO'nun 12 seferi iptal edildi"
-    },
-    {
-     "s": "ntv",
-     "hl": "BUDO'nun yarın yapılacak 12 seferi iptal edildi"
-    }
-   ]
-  },
-  {
-   "event": "s3497",
-   "week": "w7",
-   "title": "2026 Nobel Ekonomi Ödülü'nün sahibi belli oldu",
-   "headlines": [
-    {
-     "s": "haberturk",
-     "hl": "2026 Nobel Ekonomi Ödülü'nün sahibi belli oldu"
-    },
-    {
-     "s": "bloomberght",
-     "hl": "Nobel Ekonomi Ödülü, Keynes'i yeniden yorumlayan kriz teorisyenlerine gitti"
-    },
-    {
-     "s": "karar",
-     "hl": "2026 Nobel Ekonomi Ödülü sahibini buldu"
-    },
-    {
-     "s": "sozcu",
-     "hl": "2026 Nobel Ekonomi Ödülü’nün sahipleri belli oldu!"
-    },
-    {
-     "s": "ntv",
-     "hl": "Nobel Ekonomi Ödülü'nü kazananlar belli oldu"
-    },
-    {
-     "s": "hurriyet",
-     "hl": "2026 Nobel Ekonomi Ödülü'nün sahipleri açıklandı"
-    },
-    {
-     "s": "ahaber",
-     "hl": "2026 Nobel Ekonomi Ödülü sahiplerini buldu: Ödül iki ekonomiste verildi"
+     "hl": "ABD'nin Atina Büyükelçisi Guilfoyle'nun istifası istendi"
     },
     {
      "s": "sabah",
-     "hl": "2026 Nobel Ekonomi Ödülü'nün sahipleri belli oldu! İki ABD'li ekonomiste büyük ödül"
-    },
-    {
-     "s": "star",
-     "hl": "Nobel Ekonomi Ödülü sahiplerini buldu"
-    },
-    {
-     "s": "diken",
-     "hl": "2026 Nobel Ekonomi Ödülü sahiplerini buldu"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "2026 Nobel Ekonomi Ödülü’nün sahipleri belli oldu"
-    },
-    {
-     "s": "takvim",
-     "hl": "2026 Nobel Ekonomi Ödülü'nü kim kazandı? İşte Hall ve Woodford’un ödül getiren çalışmaları"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Robert Hall kimdir, kaç yaşında ve nereli? 2026 Nobel Ekonomi Ödülü'nü neden kazandı?"
-    }
-   ]
-  },
-  {
-   "event": "s1612",
-   "week": "w7",
-   "title": "Antalya'daki çocuk güzellik yarışmasına suç duyurusu",
-   "headlines": [
-    {
-     "s": "sabah",
-     "hl": "Çocuk güzellik yarışması yasaklanmalı!"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Antalya’da çocuk güzellik yarışması tepkilerin odağında!"
-    },
-    {
-     "s": "takvim",
-     "hl": "'Çocukları taçlandırmak yerine koruyun!' Antalya’da güzellik yarışması skandalı iptal edildi"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Antalya'da planlanan &quot;çocuk güzellik yarışması&quot; hakkında suç duyurusu"
-    },
-    {
-     "s": "ntv",
-     "hl": "Antalya'da \"çocuk güzellik yarışmasına\" suç duyurusu"
-    },
-    {
-     "s": "diken",
-     "hl": "'Çocuk güzellik yarışması'na suç duyurusu: İnceleme başlatıldı"
-    },
-    {
-     "s": "haberturk",
-     "hl": "SON DAKİKA HABERİ: Bakanlık harekete geçti! Çocuk güzellik yarışması hakkında suç duyurusu"
-    },
-    {
-     "s": "karar",
-     "hl": "Antalya'daki çocuk güzellik yarışmasına suç duyurusu"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Antalya'daki 'çocuk güzellik yarışması' hakkında suç duyurusu"
-    },
-    {
-     "s": "mynet",
-     "hl": "Antalya'daki 'çocuk güzellik yarışması' iptal edildi!"
+     "hl": "Beyaz Saray, Atina Büyükelçisinin istifasının istendiğini açıkladı!"
     },
     {
      "s": "sozcu",
-     "hl": "Çocuk güzellik yarışmasına suç duyurusu: Organizasyon iptal edildi"
+     "hl": "Beyaz Saray, ABD'nin Atina Büyükelçisi Guilfoyle'un istifasını istedi"
     },
     {
-     "s": "milligazete",
-     "hl": "Antalya'daki Çocuk Güzellik Yarışması skandalı: Etkinlik iptal edildi, suç duyurusunda bulunuldu"
+     "s": "mynet",
+     "hl": "Trump hükümeti ABD'nin Yunanistan Büyükelçisi Guilfoyle'dan istifasını istedi"
     },
     {
-     "s": "yeniasya",
-     "hl": "Çocuk güzellik yarışmalarına Bakanlıktan suç duyurusu"
+     "s": "cumhuriyet",
+     "hl": "Uygunsuz hediye iddiaları sonrası: ABD’nin Yunanistan Büyükelçisi Guilfoyle istifa etti"
     }
    ]
   }

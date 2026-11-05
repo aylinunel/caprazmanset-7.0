@@ -408,525 +408,477 @@
  ],
  "events": [
   {
-   "event": "s3915",
+   "event": "s1652",
    "week": "w8",
-   "title": "Beşiktaş - Crystal Palace maçının hakemi belli oldu! - Beşiktaş Haberler - Habertürk Spor",
+   "title": "Yasa dışı üreme hücresi ticaretine operasyon; 36 gözaltı",
    "headlines": [
     {
-     "s": "haberturk",
-     "hl": "Beşiktaş - Crystal Palace maçının hakemi belli oldu! - Beşiktaş Haberler - Habertürk Spor"
-    },
-    {
-     "s": "sabah",
-     "hl": "Beşiktaş-Crystal Palace maçının hakemi belli oldu."
-    },
-    {
-     "s": "sozcu",
-     "hl": "Beşiktaş - Crystal Palace maçına Hollandalı hakem"
+     "s": "trthaber",
+     "hl": "14 ilde &quot;yasa dışı üreme hücresi ticareti&quot; operasyonu: 36 gözaltı"
     },
     {
      "s": "star",
-     "hl": "Beşiktaş-Crystal Palace maçına Hollandalı hakem"
+     "hl": "Yasa dışı üreme hücresi ticareti! 14 ilde operasyon... 53 şüpheli hakkında işlem başlatıldı"
     },
     {
-     "s": "karar",
-     "hl": "Beşiktaş-Crystal Palace maçını Hollandalı hakem yönetecek"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Beşiktaş-Crystal Palace maçını Hollandalı hakem Danny Makkelie yönetecek"
-    },
-    {
-     "s": "takvim",
-     "hl": "Beşiktaş-Crystal Palace maçının hakemi belli oldu!"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Beşiktaş Avrupa maçı ne zaman? Crystal Palace karşılaşmasını Hollandalı hakem Danny Makkelie yönetecek"
+     "s": "sabah",
+     "hl": "SON DAKİKA | Yasa dışı üreme hücresi ticareti operasyonu! 14 ilde 53 gözaltı kararı"
     },
     {
      "s": "ntv",
-     "hl": "Beşiktaş 10 kişi kaldığı maçta Crystal Palace ile 2-2 berabere kaldı"
+     "hl": "Yasa dışı üreme hücresi operasyonu. Kadınları fotoğraftan seçmişler, saç renkleri bile yazılmış"
     },
     {
-     "s": "milligazete",
-     "hl": "Beşiktaş Crystal Palace maçının hakemi kim? Danny Makkelie ve VAR ekibi açıklandı"
+     "s": "haberturk",
+     "hl": "Son dakika haberi: Bakan Gürlek duyurdu: Yasa dışı üreme hücresi ticaretine operasyon!"
     },
     {
-     "s": "cumhuriyet",
-     "hl": "Dört gollü düelloda kazanan çıkmadı: Beşiktaş 2-2 Crystal Palace"
+     "s": "ahaber",
+     "hl": "14 ilde yasa dışı üreme hücresi ticareti operasyonu! Çeteyi aldatılan eşin CİMER ihbarı çökertti"
     },
     {
      "s": "diken",
-     "hl": "Beşiktaş ve Crystal Palace'ın 11'leri belli oldu"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Beşiktaş Crystal Palace ile berabere kaldı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Beşiktaş, Crystal Palace ile berabere kaldı"
-    }
-   ]
-  },
-  {
-   "event": "s1819",
-   "week": "w8",
-   "title": "Ağrı'da tır ile otomobil çarpıştı: 4 kişi hayatını kaybetti",
-   "headlines": [
-    {
-     "s": "cumhuriyet",
-     "hl": "Nevşehir’de tır ile otomobil çarpıştı: 2 ölü"
-    },
-    {
-     "s": "star",
-     "hl": "Ağrı'da feci kaza! Tır ile otomobilin çarpıştı: 4 kişi hayatını kaybetti"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Ağrı'da feci kaza: Otomobil tırın altına girdi, 4 kişi hayatını kaybetti"
-    },
-    {
-     "s": "haberturk",
-     "hl": "TIR ve otomobil çarpıştı! Feci kazada 4 kişi öldü!"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Tır ile otomobil çarpıştı! Can pazarına dönen kazada 4 ölü"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Ağrı'da tır ile otomobil çarpıştı: 4 kişi hayatını kaybetti"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Ağrı'da tır ile otomobil çarpıştı: 4 ölü"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Ağrı'da katliam gibi kaza! Tır ile otomobil çarpıştı: 4 kişi hayatını kaybetti"
-    },
-    {
-     "s": "takvim",
-     "hl": "Ağrı’da otomobil tırla çarpıştı! Aynı araçtaki 4 kişi hayatını kaybetti"
-    },
-    {
-     "s": "ntv",
-     "hl": "Ağrı'da TIR ile otomobil çarpıştı: Dört can kaybı"
-    },
-    {
-     "s": "karar",
-     "hl": "Ağrı’da pancar yüklü tır ile otomobil çarpıştı: 4 ölü, 1 yaralı"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA! Ağrı'da katliam gibi kaza! Pancar yüklü TIR'ın altında kalan otomobilde 4 kişi hayatını kaybetti"
-    }
-   ]
-  },
-  {
-   "event": "s1727",
-   "week": "w8",
-   "title": "Adalet Bakanı Gürlek duyurdu: Üç faili meçhul cinayet daha aydınlatıldı",
-   "headlines": [
-    {
-     "s": "aa",
-     "hl": "Adalet Bakanı Gürlek, 3 faili meçhul cinayetin aydınlatıldığını bildirdi"
-    },
-    {
-     "s": "trthaber",
-     "hl": "3 faili meçhul dosyasında yeni gelişme"
-    },
-    {
-     "s": "ahaber",
-     "hl": "3 faili meçhul dosya aydınlatıldı! Bakan Akın Gürlek: Peşini bırakmayacağız"
-    },
-    {
-     "s": "star",
-     "hl": "Adalet Bakanı Gürlek: 3 faili meçhul cinayet aydınlatıldı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Müge Anlı’ya konu olan dosyada yeni gelişme! Bakan Gürlek: 71 cinayeti faili meçhul olmaktan çıkardık"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Son dakika: Üç faili meçhul dosya daha aydınlatıldı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Bakan Gürlek duyurdu! 3 faili meçhul dosya daha aydınlatıldı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Adaletin hafızası hep diri! Bakan Gürlek duyurdu... Üç ayrı faili meçhul dosyası daha aydınlatıldı"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA! Bakan Gürlek duyurdu: Üç faili meçhul dosya daha aydınlatıldı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Adalet Bakanı Gürlek duyurdu: Üç faili meçhul cinayet daha aydınlatıldı"
+     "hl": "Üreme hücresi operasyonu: 36 gözaltı"
     },
     {
      "s": "tele1",
-     "hl": "Bakan Gürlek: 64 dosyada 71 cinayeti faili meçhul olmaktan çıkardık"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Bakan Gürlek duyurdu: 3 faili meçhul dosyada yeni gelişme! 10 yıl sonra cinayet itirafı geldi"
+     "hl": "Yasa dışı üreme hücresi ticaretine operasyon; 36 gözaltı"
     },
     {
      "s": "dirilis",
-     "hl": "Gürlek: 3 faili meçhul cinayet aydınlatıldı"
+     "hl": "Akın Gürlek duyurdu: Üreme hücresi ticareti operasyonunda 36 gözaltı"
+    },
+    {
+     "s": "takvim",
+     "hl": "14 ilde yasa dışı üreme hücresi ticaretine operasyon! 41 gözaltı, 2 milyon euroluk ağ"
     }
    ]
   },
   {
-   "event": "s1641",
+   "event": "s3913",
    "week": "w8",
-   "title": "İstanbul'daki sel felaketinde can kaybı 6'ya yükseldi",
+   "title": "A Milli Takım'da Sergen Yalçın'ın ekibi belli oldu!",
    "headlines": [
     {
-     "s": "ntv",
-     "hl": "Sel felaketinden bir acı haber daha: İstanbul ve Kocaeli'de can kaybı 10'a yükseldi"
+     "s": "milligazete",
+     "hl": "Sergen Yalçın'ın Milli Takımdaki maaşı ne kadar, Sergen Yalçın'ın maaşı belli oldu mu?"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Sergen Yalçın’ın ekibi belli oldu! Hepsi Süper Lig’den"
+    },
+    {
+     "s": "karar",
+     "hl": "Sergen Yalçın'ın Milli Takım'daki teknik heyeti belli oldu"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Sergen Yalçın'ın imza töreninin tarihi belli oldu"
     },
     {
      "s": "mynet",
-     "hl": "Son dakika | Sel felaketinden acı haberler günler sonra art arda geldi! İstanbul'da can kaybı 5'e yükseldi"
-    },
-    {
-     "s": "karar",
-     "hl": "İstanbul'da selde can kaybı 5'e yükseldi: Kayıp 2 kişi aranıyor"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "İstanbul'daki sel felaketinde can kaybı 5'e yükseldi! Murat Babajanov'un cansız bedeni Haliç'te bulundu"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Son dakika... İstanbul'da sel felaketinde can kaybı 6'ya yükseldi"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son Dakika... İstanbul'daki sel felaketinde can kaybı 5'e yükseldi"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Selde can kaybı 6'ya yükseldi"
-    },
-    {
-     "s": "sabah",
-     "hl": "Can kaybı 6’ya yükseldi 3 kişi aranıyor"
-    },
-    {
-     "s": "milligazete",
-     "hl": "İstanbul'daki sel felaketinde acı haber! Can kaybı 6'ya çıktı"
-    },
-    {
-     "s": "diken",
-     "hl": "Sel: Can kaybı sekize yükseldi"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "İstanbul’daki selde can kaybı 6’ya yükseldi"
-    },
-    {
-     "s": "dirilis",
-     "hl": "İstanbul’da selde can kaybı 7’ye yükseldi!"
-    }
-   ]
-  },
-  {
-   "event": "s1706",
-   "week": "w8",
-   "title": "SON DAKİKA | Kara para aklama soruşturmasında yeni gelişme: Emir Sarıgül tutuklandı",
-   "headlines": [
-    {
-     "s": "dirilis",
-     "hl": "Kara para soruşturmasında Emir Sarıgül adliyede"
-    },
-    {
-     "s": "sabah",
-     "hl": "Son dakika | Sarıgüller soruşturmasında yeni gelişme: Emir Sarıgül adliyeye sevk edildi"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Sarıgül ailesine yönelik soruşturma! Emir Sarıgül tutuklandı"
-    },
-    {
-     "s": "karar",
-     "hl": "Emir Sarıgül adliyeye sevk edildi"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "'Sarıgül' soruşturmasında yeni gelişme: Emir Sarıgül adliyeye sevk edildi"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Sarıgül soruşturmasında Emir Sarıgül adliyeye sevk edildi"
+     "hl": "Sergen Yalçın'ın milli takımdan alacağı maaş belli oldu! Tazminatı da var"
     },
     {
      "s": "haberturk",
-     "hl": "Son dakika haberler: Emir Sarıgül adliyeye sevk edildi"
-    },
-    {
-     "s": "takvim",
-     "hl": "Emir Sarıgül tutuklandı, işte 16 kişilik tutuklu listesi!"
+     "hl": "A Milli Takım'da Sergen Yalçın dönemi: İmza töreni düzenlendi!"
     },
     {
      "s": "star",
-     "hl": "Kara para soruşturması: Emir Sarıgül tutuklandı"
-    },
-    {
-     "s": "mynet",
-     "hl": "İstanbul'da kara para aklama soruşturmasında gözaltına alınan Emir Sarıgül tutuklandı"
+     "hl": "Sergen Yalçın imzayı attı! A Milli Takım'da yeni dönem resmen başladı"
     },
     {
      "s": "trthaber",
-     "hl": "İstanbul'da kara para soruşturmasında Sarıgül tutuklandı"
+     "hl": "A Milli Takım'da Sergen Yalçın dönemi resmen başladı"
     },
     {
-     "s": "milligazete",
-     "hl": "Mustafa Sarıgül'ün oğlu Emir Sarıgül de tutuklanarak cezaevine gönderildi"
+     "s": "sabah",
+     "hl": "A Milli Takım'da Sergen Yalçın'ın ekibi belli oldu!"
+    },
+    {
+     "s": "ntv",
+     "hl": "A Milli Takım'da yeni dönem. Sergen Yalçın'ın ekibi açıklandı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "A Milli Futbol Takımı Teknik Direktörü Sergen Yalçın'ın ekibi belli oldu: Listede hangi isimler var?"
     },
     {
      "s": "diken",
-     "hl": "Emir Sarıgül tutuklandı"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Emir Sarıgül tutuklandı"
+     "hl": "Sergen Yalçın'ın teknik ekibi belli oldu"
     }
    ]
   },
   {
-   "event": "s4196",
+   "event": "s3875",
    "week": "w8",
-   "title": "El Clasico'da Mbappe şov! Real Madrid, Barcelona'yı yıktı",
+   "title": "Galatasaray-Fenerbahçe derbisinin tarihi değişmedi",
    "headlines": [
     {
+     "s": "sabah",
+     "hl": "Galatasaray – Fenerbahçe derbisinin tarihi değişebilir!"
+    },
+    {
+     "s": "ntv",
+     "hl": "Galatasaray-Fenerbahçe derbisinin tarihi değişebilir"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Derbinin tarihi mi değişecek? Galatasaray-Fenerbahçe maçı için kritik karar bekleniyor"
+    },
+    {
      "s": "sozcu",
-     "hl": "El Clasico öncesi Barcelona'yı Arda Güler korkusu sardı"
+     "hl": "Sürpriz gelişme! Galatasaray-Fenerbahçe maçının tarihi değişiyor"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Galatasaray-Fenerbahçe derbisinde sürpriz tarih değişikliği"
+    },
+    {
+     "s": "karar",
+     "hl": "Gözler TFF’nin toplantısında: Galatasaray-Fenerbahçe derbisinin tarihi değişebilir"
     },
     {
      "s": "takvim",
-     "hl": "Katalanların serisi sona erdi! Real Madrid Barcelona'yı 2-1 yendi"
+     "hl": "Gözler TFF'de! Galatasaray - Fenerbahçe derbisinin kararında değişiklik bekleniyor"
     },
     {
-     "s": "sabah",
-     "hl": "Real Madrid, Barcelona'yı 87'de devirdi! Arda Güler, 90+'da çıktı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "El Clasico'da Arda Gülerli Real Madrid, Barcelona'yı devirdi! LaLiga'da zirve yarışı kızıştı"
+     "s": "haberturk",
+     "hl": "Galatasaray - Fenerbahçe derbisinin tarihi değişmedi!"
     },
     {
      "s": "mynet",
-     "hl": "El Clasico'da sevinen taraf Real Madrid! Arda Güler ve Mbappe, Lamine Yamal'ı yıktı"
+     "hl": "Galatasaray - Fenerbahçe derbisinin tarihi için son karar verildi!"
+    },
+    {
+     "s": "star",
+     "hl": "Galatasaray-Fenerbahçe derbisinin tarihi değişmedi"
+    }
+   ]
+  },
+  {
+   "event": "s4070",
+   "week": "w8",
+   "title": "Barcelona-Real Madrid maçı hangi kanalda, ne zaman, saat kaçta? Arda Güler El Clasico'da ilk 11'de mi?",
+   "headlines": [
+    {
+     "s": "milligazete",
+     "hl": "Barcelona Real Madrid maçı tarihi (El Clasico 2026 hangi gün) Saat kaçta? Hangi kanalda? Arda Güler oynayacak mı?"
+    },
+    {
+     "s": "birgun",
+     "hl": "Barcelona-Real Madrid maçı ne zaman, saat kaçta, hangi kanalda? Arda Güler oynayacak mı? El Clasico için geri sayım başladı!"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Barcelona-Real Madrid maçı ne zaman saat kaçta, hangi kanalda, şifresiz mi, şifreli mi? La Liga'da El Clasico için nefesler tutuldu! Arda Güler ilk 11'de oynayacak mı?"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Barcelona - Real Madrid İLK 11 || Barcelona - Real Madrid maç kadrosu belli oldu mu, Arda Güler oynayacak mı, kimler eksik?"
+    },
+    {
+     "s": "sabah",
+     "hl": "El Clasico heyecanı başlıyor! Barcelona - Real Madrid maçı saat kaçta, hangi kanalda?"
+    },
+    {
+     "s": "ntv",
+     "hl": "Barcelona-Real Madrid maçı ne zaman, saat kaçta, hangi kanalda? Arda Güler, Lamine Yamal'a karşı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Barcelona-Real Madrid maçı hangi kanalda, nereden izlenir? Arda Güler ilk 11'de mi?"
+    },
+    {
+     "s": "mynet",
+     "hl": "Camp Nou’da dev gece! Barcelona-Real Madrid canlı"
     },
     {
      "s": "tgrt",
-     "hl": "El Clasico'da zafer Real Madrid'in! Eflatun-beyazlılar, Barcelona'yı 2-1 yendi"
+     "hl": "Barcelona Real Madrid canlı nereden izlenir, şifresiz mi? Arda Güler ilk 11'de mi? İLK OLABİLİR..."
     },
     {
-     "s": "karar",
-     "hl": "El Clasico'da Mbappe şov! Real Madrid, Barcelona'yı yıktı"
+     "s": "star",
+     "hl": "MAÇ SONUCU: Barcelona 1-2 Real Madrid"
+    }
+   ]
+  },
+  {
+   "event": "s4176",
+   "week": "w8",
+   "title": "Beşiktaş Başakşehir maçına hazır",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "Beşiktaş, Başakşehir maçının hazırlıklarına başladı! - Son Dakika Beşiktaş Haberleri - Habertürk Spor"
     },
     {
-     "s": "cumhuriyet",
-     "hl": "El Clasico'da kazanan Real Madrid! Barcelona'nın serisi sona erdi..."
+     "s": "sabah",
+     "hl": "Beşiktaş, Başakşehir maçının hazırlıklarına başladı"
     },
     {
-     "s": "aa",
-     "hl": "Mbappe brace gives Real Madrid 2-1 El Clasico victory"
+     "s": "star",
+     "hl": "Beşiktaş, Başakşehir maçına hazırlanıyor"
     },
     {
-     "s": "dirilis",
-     "hl": "El Clasico’da kazanan Real Madrid oldu!"
-    },
-    {
-     "s": "ahaber",
-     "hl": "El Clasico'da Mbappe fırtınası! Real Madrid, Camp Nou'da Barcelona'yı yıktı"
-    },
-    {
-     "s": "ntv",
-     "hl": "El Clasico'ya Mbappe damgası. İki golle Barcelona'yı Camp Nou'da yıktı"
+     "s": "yenisafak",
+     "hl": "Beşiktaş Başakşehir maçına hazır"
     },
     {
      "s": "haberler",
-     "hl": "Real Madrid, El Clasico'da Barcelona'yı 2-1 yenerek rakibinin serisini bitirdi"
+     "hl": "Beşiktaş Başakşehir ilk 11’ler açıklandı! SON DAKİKA Beşiktaş Başakşehir maç kadrosunda kimler var?"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Beşiktaş Başakşehir CANLI nereden izlenir? Maç başlıyor"
+    },
+    {
+     "s": "birgun",
+     "hl": "Beşiktaş, Başakşehir’i Oh ve Olaitan’ın golleriyle geçti"
+    },
+    {
+     "s": "aksam",
+     "hl": "MAÇ SONUCU: Beşiktaş 2-0 Başakşehir"
+    },
+    {
+     "s": "ntv",
+     "hl": "Beşiktaş, Başakşehir engelini ikinci yarıda aştı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Beşiktaş, Başakşehir’i 2-0 mağlup etti!"
+    },
+    {
+     "s": "karar",
+     "hl": "Kartal uçuşa geçti! Beşiktaş, Başakşehir'i iki golle devirdi"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Beşiktaş, Başakşehir'i 2 golle geçti"
     }
    ]
   },
   {
-   "event": "s3807",
+   "event": "s3991",
    "week": "w8",
-   "title": "Türk sanatının usta ismi Süleyman Saim Tekcan 86 yaşında hayatını kaybetti",
+   "title": "Son dakika: Mustafa Sarıgül'ün koruması gözaltına alındı",
    "headlines": [
     {
-     "s": "trthaber",
-     "hl": "Sanatçı Süleyman Saim Tekcan vefat etti"
+     "s": "ahaber",
+     "hl": "Mustafa Sarıgül'ün korumasıyla olan videosuna 200 bin dolarlık sahte rapor iddiası"
+    },
+    {
+     "s": "takvim",
+     "hl": "Sarıgül'ün videodaki koruması gözaltında! 200 bin dolarlık sahte montaj raporu iddiası"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Mustafa Sarıgül’ün o koruması gözaltına alındı! Kara para dosyasında 200 bin dolarlık \"Montaj raporu\" skandalı"
     },
     {
      "s": "star",
-     "hl": "Başkan Erdoğan'ın elinden ödül almıştı! Süleyman Saim Tekcan vefat etti"
+     "hl": "Kara para soruşturmasında yeni gelişme: Sarıgül'ün koruması gözaltında"
+    },
+    {
+     "s": "sozcu",
+     "hl": "SON DAKİKA... Mustafa Sarıgül’ün koruması gözaltına alındı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Son dakika: Mustafa Sarıgül'ün koruması gözaltına alındı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Son Dakika... Mustafa Sarıgül'ün koruması gözaltına alındı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Mustafa Sarıgül'ün koruması gözaltına alındı"
+    },
+    {
+     "s": "tele1",
+     "hl": "Mustafa Sarıgül'ün koruması gözaltına alındı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Mustafa Sarıgül'ün koruması gözaltına alındı! Kara para soruşturmasında yeni gelişme"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Mustafa Sarıgül'ün yakın koruması Ömer D. gözaltına alındı"
+    }
+   ]
+  },
+  {
+   "event": "s1812",
+   "week": "w8",
+   "title": "Fon soruşturmasında yeni gelişme: 15 şüpheli daha tutuklandı",
+   "headlines": [
+    {
+     "s": "star",
+     "hl": "Fon soruşturmasında yeni gelişme: Tutuklu sayısı yükseldi"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Fon soruşturmasında yeni gelişme: 15 şüpheli daha tutuklandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Fon soruşturmasında 15 şüpheli daha tutuklandı"
     },
     {
      "s": "ahaber",
-     "hl": "Sanatçı Süleyman Saim Tekcan hayatını kaybetti! Ailesi açıkladı: \"Kıymetli bir miras bıraktı\""
+     "hl": "Fon soruşturmasında 15 şüpheli daha tutuklandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Fon soruşturmasında yeni tutuklama dalgası! 15 kişi cezaevinde"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Fon soruşturmasında yeni gelişme"
+    },
+    {
+     "s": "sabah",
+     "hl": "'Daltonlar' suç örgütü soruşturmasında 15 şüpheli tutuklandı!"
+    },
+    {
+     "s": "birgun",
+     "hl": "'Daltonlar' soruşturmasında 15 şüpheli tutuklandı"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "SON DAKİKA | Fon soruşturmasında 15 şüpheli daha tutuklandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "'Daltonlar' soruşturmasında yeni gelişme: 15 tutuklama"
+    },
+    {
+     "s": "yeniasya",
+     "hl": "Fon soruşturmasında 15 tutuklama daha"
+    }
+   ]
+  },
+  {
+   "event": "s4474",
+   "week": "w9",
+   "title": "Gölcük'te MHP’li belediye meclis üyesi silahlı saldırıda hayatını kaybetti",
+   "headlines": [
+    {
+     "s": "haberler",
+     "hl": "Gölcük'te MHP’li belediye meclis üyesi silahlı saldırıda hayatını kaybetti"
+    },
+    {
+     "s": "birgun",
+     "hl": "MHP'li belediye meclis üyesi Saral, silahlı saldırıda öldürüldü"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "MHP'li belediye meclis üyesine silahlı saldırı: Hayatını kaybetti"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Tartışma kanlı bitti; MHP'li meclis üyesi silahlı saldırıda hayatını kaybetti"
+    },
+    {
+     "s": "akit",
+     "hl": "MHP'li meclis üyesi silahlı saldırıda hayatını kaybetti"
+    },
+    {
+     "s": "karar",
+     "hl": "MHP'li Belediye Meclis Üyesi silahlı saldırıda öldürüldü"
+    },
+    {
+     "s": "tgrt",
+     "hl": "MHP'li meclis üyesi Murat Saral silahlı saldırıda öldürüldü"
+    },
+    {
+     "s": "takvim",
+     "hl": "Gölcük'te MHP'li Meclis Üyesi Murat Saral silahlı saldırı sonucu hayatını kaybetti"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Kocaeli'de MHP’li meclis üyesi tartışmada öldürüldü"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Kocaeli’de MHP’li belediye meclis üyesi silahlı saldırıda hayatını kaybetti"
+    },
+    {
+     "s": "ntv",
+     "hl": "MHP'li belediye meclis üyesi silahlı saldırıda öldürüldü"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Kocaeli'de silahlı saldırı! MHP'li meclis üyesi Murat Saral öldürüldü"
+    },
+    {
+     "s": "haberturk",
+     "hl": "MHP'li meclis üyesinin katili arkadaşı çıktı Silahlı saldırıda hayatını kaybeden MHP'li meclis üyesi son yolculuğuna uğurlandı"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Gölcük'te MHP'li meclis üyesi Saral'ı vuran Uzuner İznik'te yakalanıp tutuklandı"
+    }
+   ]
+  },
+  {
+   "event": "s4259",
+   "week": "w9",
+   "title": "Galatasaray-Fenerbahçe derbisi sonrası saha karıştı!",
+   "headlines": [
+    {
+     "s": "cumhuriyet",
+     "hl": "26 Ekim 2026 İstanbul'da metro seferleri uzatıldı mı? Galatasaray-Fenerbahçe derbisi nedeniyle metrolar kaça kadar açık?"
+    },
+    {
+     "s": "karar",
+     "hl": "Galatasaray-Fenerbahçe derbisine özel ek metro seferleri"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Galatasaray-Fenerbahçe derbisi öncesi metro düzenlemesi: Seferler uzatıldı"
+    },
+    {
+     "s": "birgun",
+     "hl": "Galatasaray-Fenerbahçe derbisi için metro seferlerine düzenleme"
+    },
+    {
+     "s": "haberler",
+     "hl": "Galatasaray-Fenerbahçe derbisi için olay skor tahmini! Tam 7 gol çıkacak"
+    },
+    {
+     "s": "mynet",
+     "hl": "Caner Erkin'den Galatasaray-Fenerbahçe derbisi için çarpıcı tahmin!"
+    },
+    {
+     "s": "onedio",
+     "hl": "Galatasaray-Fenerbahçe Derbisi Başladı: Zirve Yolunda Kritik Derbi (Canlı)"
+    },
+    {
+     "s": "sabah",
+     "hl": "Galatasaray-Fenerbahçe derbisi karıştı! Abdülkerim ve Lukaku birbirine girdi..."
+    },
+    {
+     "s": "ahaber",
+     "hl": "Galatasaray-Fenerbahçe derbisi sonrası arbede! İki takım birbirine girdi"
     },
     {
      "s": "diken",
-     "hl": "Ressam Süleyman Saim Tekcan hayatını kaybetti"
-    },
-    {
-     "s": "karar",
-     "hl": "Usta sanatçı Süleyman Saim Tekcan vefat etti"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Türk sanatının usta ismi Süleyman Saim Tekcan 86 yaşında hayatını kaybetti"
-    },
-    {
-     "s": "ntv",
-     "hl": "Sanatçı Süleyman Saim Tekcan yaşamını yitirdi"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Süleyman Saim Tekcan hayatını kaybetti - Magazin Haber - HT Magazin"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Süleyman Saim Tekcan neden öldü? Hastalığı neydi? Kaç yaşındaydı? Cenazesi ne zaman?"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Özgün baskı sanatının öncü ismi Süleyman Saim Tekcan yaşamını yitirdi"
-    },
-    {
-     "s": "sabah",
-     "hl": "Türk sanatının acı kaybı! 86 yaşındaki Ressam Süleyman Saim Tekcan hayatını kaybetti!"
+     "hl": "Derbi biter bitmez kavga çıktı: İki futbolcuya kırmızı kart"
     },
     {
      "s": "takvim",
-     "hl": "Sanat dünyasının başı sağ olsun! Usta ressam Süleyman Saim Tekcan nerede toprağa verilecek?"
+     "hl": "Seyrantepe'de arbede! Galatasaray - Fenerbahçe derbisi bitti oyuncular birbirine girdi"
     },
     {
-     "s": "dirilis",
-     "hl": "Baskı sanatının öncü ismi: Süleyman Saim Tekcan"
-    }
-   ]
-  },
-  {
-   "event": "s1777",
-   "week": "w8",
-   "title": "Pendik'te hafriyat kamyonu eczaneye daldı: 7 yaralı",
-   "headlines": [
-    {
-     "s": "haberturk",
-     "hl": "Son dakika: Kamyon eczaneye daldı! Yaralılar var!"
-    },
-    {
-     "s": "karar",
-     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: Yaralılar var"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: 7 yaralı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Pendik'te kamyon eczaneye çarptı: 7 yaralı"
-    },
-    {
-     "s": "star",
-     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: Çok sayıda yaralı var"
-    },
-    {
-     "s": "mynet",
-     "hl": "Freni boşalan hafriyat kamyonu eczaneye daldı! Ortalık savaş alanına döndü"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "İstanbul Pendik'te hafriyat kamyonu eczaneye daldı: 7 kişi yaralandı!"
-    },
-    {
-     "s": "sabah",
-     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: 7 kişi yaralandı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Pendik'te dehşet anları! Hafriyat kamyonu eczaneye daldı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Pendik'te kamyon eczaneye girdi. 7 kişi yaralandı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Pendik'te hafriyat kamyonu eczaneye daldı: 7 yaralı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Pendik'te can pazarı! Hafriyat kamyonu eczaneye daldı, yaralılar var"
-    }
-   ]
-  },
-  {
-   "event": "s3974",
-   "week": "w8",
-   "title": "Afyonkarahisar'da iki otomobil kafa kafaya çarpıştı: 4 ölü",
-   "headlines": [
-    {
-     "s": "trthaber",
-     "hl": "Afyonkarahisar'da iki otomobil kafa kafaya çarpıştı: 4 ölü"
-    },
-    {
-     "s": "star",
-     "hl": "Afyonkarahisar'da feci kaza! 2 otomobil kafa kafaya çarpıştı: 4 ölü"
-    },
-    {
-     "s": "mynet",
-     "hl": "SON DAKİKA | Afyonkarahisar'da feci kaza! Kafa kafaya çarpıştılar: 4 ölü"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Afyonkarahisar’daki feci kazada iki otomobil kafa kafaya çarpıştı: 4 kişi vefat etti"
+     "s": "tgrt",
+     "hl": "Galatasaray-Fenerbahçe derbisi sonrası saha karıştı! Mert Hakan Yandaş polisle tartıştı"
     },
     {
      "s": "haberturk",
-     "hl": "Afyonkarahisar'da katliam gibi kaza: 4 ölü"
-    },
-    {
-     "s": "sabah",
-     "hl": "Afyonkarahisar’da acı kaza! İki otomobil kafa kafaya çarpıştı: 4 kişi hayatını kaybetti!"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Afyonkarahisar'da feci kaza! İki otomobil kafa kafaya çarpıştı: 4 ölü"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Afyonkarahisar'da iki otomobil kafa kafaya çarpıştı! 4 kişi hayatını kaybetti"
-    },
-    {
-     "s": "karar",
-     "hl": "Afyonkarahisar'da can pazarı: İki otomobil kafa kafaya çarpıştı 4 kişi öldü"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Afyonkarahisar'da kafa kafaya facia! Ölü ve yaralılar var"
-    },
-    {
-     "s": "ntv",
-     "hl": "Afyonkarahisar'da kafa kafaya facia: 4 ölü"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Afyonkarahisar’da katliam gibi kaza... İki otomobil kafa kafaya çarpıştı: Ölü ve yaralılar var"
+     "hl": "Galatasaray-Fenerbahçe derbisinde saha karıştı! Cem Dizdar yorumladı"
     }
    ]
   }

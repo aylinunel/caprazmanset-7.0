@@ -1,0 +1,14 @@
+{"q": {"happened": "Son kullanma tarihi geçmiş kanser ilaçlarını yeniden piyasaya sürdükleri iddia edilen şüphelilere 11 ilde operasyon düzenlendi ve 22 kişi gözaltına alındı.", "agree": "Tarihi geçmiş ilaçların yeniden piyasaya sürülmesi ve operasyon ortak; gözaltı sayısı verenler 22'de birleşiyor.", "differ": "Cumhuriyet, Karar, Mynet ve Hürriyet olayı '650 milyon TL'lik vurgun' ya da 'vurgun' olarak öne çıkarıyor; Star şüphelileri 'vicdansızlar' diye niteleyip 3 kamu görevlisini anıyor, Sözcü 'çete' diyor; Türkiye Gazetesi ve Cumhuriyet haberi Bakan Gürlek'in duyurusu üzerinden veriyor; diğerleri sade olgu aktarıyor.", "care": "Vurgun ve çete dili olayı organize kazanç suçu olarak, 'vicdansız' nitelemesi ahlaki öfke konusu olarak kurar; bakan adının başlıkta yer alması ise haberi devletin başarısı olarak sunar."}, "rows": [
+{"s": "sondakika", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "hurriyet", "frame": "Vurgun", "hero": "Şüpheliler", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Devlet otoritesi", "hero": "Akın Gürlek", "blame": "", "cause": "", "cons": "Soruşturma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Ahlaki öfke", "hero": "Güvenlik güçleri", "blame": "Vicdansızlar", "cause": "", "cons": "Operasyon", "aff": "Kanser hastaları", "sol": "", "moral": "Vicdansızlık", "start": ""},
+{"s": "birgun", "frame": "Suçla mücadele", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Operasyon", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Organize suç", "hero": "Güvenlik güçleri", "blame": "Çete", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Vurgun", "hero": "Akın Gürlek", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Vurgun", "hero": "Şüpheliler", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Vurgun", "hero": "Şüpheliler", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Suçla mücadele", "hero": "Güvenlik güçleri", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "Şüpheliler", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

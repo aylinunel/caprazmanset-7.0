@@ -1,0 +1,13 @@
+{"q": {"happened": "İzmir'de 2 bin yıllık bir Zeus heykel başı ele geçirildi.", "agree": "2 bin yıllık Zeus heykel başının ele geçirildiği ortak.", "differ": "Çoğu kurum yalnızca ele geçirmeyi aktarıyor; Cumhuriyet ve Star olayı bir 'tarihi eser' operasyonu ya da baskını olarak sunuyor; A Haber 3 şüphelinin gözaltında, Diken üç kişinin tutuklandığını yazıyor; NTV eserin Roma dönemine ait olduğunu vurguluyor.", "care": "Şüphelilerin gözaltında mı tutuklu mu olduğu başlıklar arasında farklılaşıyor; operasyon çerçevesi ise olayı bir arkeolojik buluştan çok bir kaçakçılık suçu olarak sunuyor."}, "rows": [
+{"s": "ahaber", "frame": "Tarihi eser kaçakçılığı", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Tarihi eser kaçakçılığı", "hero": "", "blame": "", "cause": "", "cons": "Ele geçirme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Ele geçirme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Ele geçirme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Kültürel miras", "hero": "", "blame": "", "cause": "", "cons": "Ele geçirme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Ele geçirme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Ele geçirme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Tarihi eser kaçakçılığı", "hero": "", "blame": "", "cause": "", "cons": "Ele geçirme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Ele geçirme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Ele geçirme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Tarihi eser kaçakçılığı", "hero": "", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

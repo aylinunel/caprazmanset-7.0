@@ -1,0 +1,14 @@
+{"q": {"happened": "Fenerbahçe'deki Dirk Kuyt, Liverpool maçı öncesinde açıklama yaptı; maç için iyi bir planları olduğunu söyledi ve Fenerbahçe'deki geleceğine ilişkin soruyu yanıtladı.", "agree": "Açıklamayı Dirk Kuyt'un Liverpool maçı öncesinde yaptığı ortak.", "differ": "sondakika, haberler, sabah, sozcu ve turkiyegz başlığı Kuyt'un ayrılık ve gelecek sorusuna verdiği cevaba ayırıyor; cumhuriyet, haberturk, birgun, ahaber ve cnnturk 'çok iyi bir planımız var' sözünü öne çıkarıyor; aksam bunu Liverpool'a 'gözdağı' olarak sunuyor; tgrt ikisini birlikte veriyor.", "care": "Aynı basın toplantısı bir kısım başlıkta Kuyt'un görevini sorgulayan bir ayrılık hikâyesine, diğerlerinde maça odaklı bir hazırlık mesajına dönüşüyor; 'gözdağı' ifadesi ise açıklamaya meydan okuma tonu katıyor."}, "rows": [
+{"s": "sondakika", "frame": "Ayrılık iddiası", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "Ayrılık soruları"},
+{"s": "sabah", "frame": "Ayrılık iddiası", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "Yanıttan kaçınma", "aff": "", "sol": "", "moral": "", "start": "Ayrılık soruları"},
+{"s": "cumhuriyet", "frame": "Maç hazırlığı", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "Maç planı", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Ayrılık iddiası", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "Ayrılık soruları"},
+{"s": "haberturk", "frame": "Maç hazırlığı", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "Maç planı", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Ayrılık iddiası", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "Ayrılık soruları"},
+{"s": "birgun", "frame": "Maç hazırlığı", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "Maç planı", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Meydan okuma", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "Liverpool", "sol": "Maç planı", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Ayrılık iddiası", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "Ayrılık soruları"},
+{"s": "tgrt", "frame": "Ayrılık iddiası", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "Ayrılık soruları"},
+{"s": "ahaber", "frame": "Maç hazırlığı", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "Maç planı", "moral": "", "start": ""},
+{"s": "cnnturk", "frame": "Maç hazırlığı", "hero": "Dirk Kuyt", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "Maç planı", "moral": "", "start": ""}
+]}

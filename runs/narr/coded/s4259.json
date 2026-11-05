@@ -1,0 +1,15 @@
+{"q": {"happened": "Galatasaray-Fenerbahçe derbisi oynandı; maç öncesinde metro seferleri uzatıldı, maç sonrasında sahada oyuncular arasında arbede çıktı.", "agree": "Derbinin oynandığı ortak; olaydan söz eden başlıklar maç sonrası sahada kavga çıktığında birleşiyor.", "differ": "Cumhuriyet, karar, sözcü ve birgün metro düzenlemesini; haberler ve mynet skor tahminlerini; onedio canlı anlatımı veriyor; sabah, ahaber, diken, takvim, tgrt ve habertürk saha karışıklığını öne çıkarıyor; sabah Abdülkerim ve Lukaku'yu, tgrt Mert Hakan Yandaş'ın polisle tartışmasını, diken iki kırmızı kartı anıyor.", "care": "Kavgayı belirli oyunculara (Abdülkerim, Lukaku, Mert Hakan Yandaş) bağlamak sorumluluğu kişiselleştirirken, 'iki takım birbirine girdi' gibi ifadeler sorumluluğu belirsiz bırakıyor; birçok kurum ise derbinin olaylı sonunu hiç başlığa taşımıyor."}, "rows": [
+{"s": "cumhuriyet", "frame": "Ulaşım düzenlemesi", "hero": "", "blame": "", "cause": "", "cons": "Metro seferleri uzatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Ulaşım düzenlemesi", "hero": "", "blame": "", "cause": "", "cons": "Metro seferleri uzatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Ulaşım düzenlemesi", "hero": "", "blame": "", "cause": "", "cons": "Metro seferleri uzatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Ulaşım düzenlemesi", "hero": "", "blame": "", "cause": "", "cons": "Metro seferleri uzatıldı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Skor tahmini", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Skor tahmini", "hero": "Caner Erkin", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "onedio", "frame": "Canlı anlatım", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Saha olayları", "hero": "Abdülkerim ve Lukaku", "blame": "Abdülkerim ve Lukaku", "cause": "", "cons": "Arbede", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Saha olayları", "hero": "İki takım", "blame": "İki takım", "cause": "", "cons": "Arbede", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Saha olayları", "hero": "Futbolcular", "blame": "Futbolcular", "cause": "", "cons": "Kırmızı kart", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Saha olayları", "hero": "Futbolcular", "blame": "Futbolcular", "cause": "", "cons": "Arbede", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Saha olayları", "hero": "Mert Hakan Yandaş", "blame": "Mert Hakan Yandaş", "cause": "", "cons": "Polisle tartışma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Uzman yorumu", "hero": "Cem Dizdar", "blame": "", "cause": "", "cons": "Arbede", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

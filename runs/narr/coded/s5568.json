@@ -1,0 +1,17 @@
+{"q": {"happened": "Tenerife futbolcusu Jesus de Miguel, Andorra maçında yaşadığı bir pozisyonun ardından hayatını kaybetti.", "agree": "Futbolcunun ölümü ortak; çoğu kurum rakip kaleciyle çarpışmayı anıyor.", "differ": "Habertürk, TGRT, Onedio, Haberler, AA, Takvim ve Diken ölümü kaleciyle çarpışmaya bağlıyor; NTV ve Akit ise 'faul' ve 'sert faule maruz kalan' diyerek rakibi işaret ediyor; A Haber 'korkunç ölüm' ve 'göğsüne gelen diz' ile dramatize ediyor; Star ve Diriliş yası öne çıkarıyor.", "care": "'Çarpışma' bir kazayı, 'faul' ise rakip oyuncunun kusurunu ima eder; bu seçim ölümün sorumluluğunu kime yüklediğimizi değiştirir."}, "rows": [
+{"s": "sondakika", "frame": "Olgu aktarımı", "hero": "Jesus de Miguel", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": "Tenerife-Andorra maçı"},
+{"s": "haberturk", "frame": "Kaza", "hero": "Jesus de Miguel", "blame": "", "cause": "Kaleciyle çarpışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Kaza", "hero": "Jesus de Miguel", "blame": "", "cause": "Kaleciyle çarpışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Kaza", "hero": "Jesus de Miguel", "blame": "", "cause": "Sahada darbe", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Sert faul", "hero": "Jesus de Miguel", "blame": "Rakip oyuncu", "cause": "Faul", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "akit", "frame": "Sert faul", "hero": "Jesus de Miguel", "blame": "Rakip oyuncu", "cause": "Faul", "cons": "Ölüm", "aff": "Futbol dünyası", "sol": "", "moral": "", "start": ""},
+{"s": "onedio", "frame": "Kaza", "hero": "Jesus de Miguel", "blame": "", "cause": "Kaleciyle çarpışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Olgu aktarımı", "hero": "Jesus de Miguel", "blame": "", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": "Tenerife-Andorra maçı"},
+{"s": "haberler", "frame": "Kaza", "hero": "Jesus de Miguel", "blame": "", "cause": "Kaleciyle çarpışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Kaza", "hero": "Jesus de Miguel", "blame": "", "cause": "Kaleciyle çarpışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Yas", "hero": "Jesus de Miguel", "blame": "", "cause": "", "cons": "Ölüm", "aff": "Tenerife", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Kaza", "hero": "Jesus de Miguel", "blame": "", "cause": "Kaleciyle çarpışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Dehşet", "hero": "Jesus de Miguel", "blame": "", "cause": "Göğse gelen diz", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Yas", "hero": "Jesus de Miguel", "blame": "", "cause": "", "cons": "Ölüm", "aff": "Futbol dünyası", "sol": "", "moral": "", "start": ""},
+{"s": "diken", "frame": "Kaza", "hero": "Jesus de Miguel", "blame": "", "cause": "Kaleciyle çarpışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

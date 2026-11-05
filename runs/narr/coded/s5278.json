@@ -1,0 +1,15 @@
+{"q": {"happened": "Fenerbahçe teknik direktörlük için Sergio Conceiçao ile temas kurdu; başlıklar sürecin sonucunu farklı aktarıyor.", "agree": "Fenerbahçe'nin Conceiçao ile ilgilendiği ortak.", "differ": "BirGün, Haberler, Cumhuriyet ve CNN Türk resmi teklifi, Sondakika ise anlaşmayı ('İstanbul'a geliyor') duyuruyor; Habertürk, Mynet, Akit ve A Haber pürüz çıktığını ya da görüşmelerin iptal edildiğini ve Emre Belözoğlu'nun öne çıktığını yazıyor; Yeni Şafak ve Akşam Conceiçao'nun oyun anlayışını analiz ediyor.", "care": "Başlıklar aynı süreç için 'anlaştı' ile 'görüşmeler iptal' arasında birbiriyle çelişen sonuçlar veriyor; okurun hangi kurumu okuduğuna göre farklı bir gerçeklik algısı oluşuyor."}, "rows": [
+{"s": "yenisafak", "frame": "Teknik analiz", "hero": "Sergio Conceiçao", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Transfer müzakeresi", "hero": "Fenerbahçe", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Transfer müzakeresi", "hero": "Fenerbahçe", "blame": "", "cause": "", "cons": "Resmi teklif", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tele1", "frame": "Transfer müzakeresi", "hero": "Fenerbahçe", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Transfer müzakeresi", "hero": "Fenerbahçe", "blame": "", "cause": "", "cons": "Resmi teklif", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sondakika", "frame": "Transfer müzakeresi", "hero": "Fenerbahçe", "blame": "", "cause": "", "cons": "Anlaşma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Transfer müzakeresi", "hero": "Fenerbahçe", "blame": "", "cause": "", "cons": "Resmi teklif", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cnnturk", "frame": "Transfer müzakeresi", "hero": "Fenerbahçe", "blame": "", "cause": "", "cons": "Resmi teklif", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Teknik analiz", "hero": "Sergio Conceiçao", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Alternatif aday", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "Görüşmede pürüz", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Alternatif aday", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "Aday değişikliği", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "akit", "frame": "Kulüp krizi", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "Görüşmede pürüz", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Alternatif aday", "hero": "Aziz Yıldırım", "blame": "", "cause": "", "cons": "Görüşmelerin iptali", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

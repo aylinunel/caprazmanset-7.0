@@ -1,0 +1,17 @@
+{"q": {"happened": "48. İstanbul Maratonu koşuldu ve erkekler kategorisinde parkur rekoru kırıldı.", "agree": "Maratonun 48. kez düzenlendiği ortak; sonucu veren kurumlar rekor kırıldığında birleşiyor.", "differ": "Sondakika, AA, Haberler, BirGün ve Hürriyet yalnızca yarışın koşulacağını duyuruyor, Akit ve Yeni Şafak başladığını yazıyor; Star, Sözcü, TGRT, Cumhuriyet, Milli Gazete ve Onedio rekoru öne çıkarıyor, Milli Gazete Kenyalı atleti, Onedio kadınlarda Etiyopyalı Baze'yi anıyor; NTV ve A Haber para ödülünü vurguluyor.", "care": "Başlıklardaki fark çoğunlukla zamanlamadan kaynaklanıyor; kazananların adının ve uyruğunun anılıp anılmaması ise başarının kime ait olduğunu görünür kılıyor."}, "rows": [
+{"s": "sondakika", "frame": "Etkinlik duyurusu", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Etkinlik duyurusu", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Etkinlik duyurusu", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Etkinlik duyurusu", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Para ödülü", "hero": "", "blame": "", "cause": "", "cons": "Para ödülü", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "akit", "frame": "Yarışın başlaması", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Rekor", "hero": "", "blame": "", "cause": "", "cons": "Rekor", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Yarışın başlaması", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Rekor", "hero": "Kazananlar", "blame": "", "cause": "", "cons": "Rekor", "aff": "", "sol": "", "moral": "Başarı", "start": ""},
+{"s": "tgrt", "frame": "Rekor", "hero": "Kazananlar", "blame": "", "cause": "", "cons": "Rekor", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Rekor", "hero": "Kazananlar", "blame": "", "cause": "", "cons": "Rekor", "aff": "", "sol": "", "moral": "Başarı", "start": ""},
+{"s": "milligazete", "frame": "Rekor", "hero": "Kenyalı atlet", "blame": "", "cause": "", "cons": "Rekor", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Rekor", "hero": "", "blame": "", "cause": "", "cons": "Rekor", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "onedio", "frame": "Rekor", "hero": "Etiyopyalı Baze", "blame": "", "cause": "", "cons": "Rekor", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "hurriyet", "frame": "Etkinlik duyurusu", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

@@ -1,0 +1,19 @@
+{"q": {"happened": "Kırıkkale'de işçileri taşıyan bir servis midibüsü devrildi; 14 ya da 15 kişi yaralandı, biri ağır.", "agree": "Midibüsün devrildiği ve çok sayıda kişinin yaralandığı ortak.", "differ": "Sözcü, Yeni Şafak, Mynet ve A Haber 14, çoğu kurum 15 yaralı diyor, TGRT ve Cumhuriyet sayı vermiyor; Sözcü 'can pazarı', TGRT ve Star 'feci kaza' diyerek dramatize ediyor; yalnızca Türkiye Gazetesi kazayı sağanağa bağlıyor; Habertürk, Yeni Şafak, Mynet ve Cumhuriyet yaralıların işçi olduğunu belirtmiyor.", "care": "Yaralıların işçi olduğunun başlıkta yer alması kazayı bir işçi güvenliği meselesine bağlar; nedenin yalnızca bir kurumda (sağanak) anılması ise sorumluluk sorusunu açıkta bırakır."}, "rows": [
+{"s": "haberturk", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Can pazarı", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Feci kaza", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Feci kaza", "hero": "", "blame": "", "cause": "Sağanak", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": "Sağanak"},
+{"s": "star", "frame": "Feci kaza", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Trafik kazası", "hero": "", "blame": "", "cause": "", "cons": "Yaralanma", "aff": "İşçiler", "sol": "", "moral": "", "start": ""}
+]}

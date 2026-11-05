@@ -1,0 +1,13 @@
+{"q": {"happened": "Oyuncu Engin Altan Düzyatan'ın babası Mevlan Düzyatan hayatını kaybetti ve toprağa verildi.", "agree": "Engin Altan Düzyatan'ın babasını kaybettiği ortak.", "differ": "Çoğu kurum 'acı gün' kalıbıyla oyuncunun yasını öne çıkarıyor; Türkiye Gazetesi ve Karar cenazeyi vurguluyor; A Haber dostlarının desteğini öne çıkarıyor; Milli Gazete ölüm nedeni ve cenaze yeri üzerine soru-cevap başlığı atıyor.", "care": "Farklar büyük ölçüde üslupla ilgili; Milli Gazete'nin soru başlığı ise haberi bir yas haberinden çok arama odaklı bir bilgi içeriğine çeviriyor."}, "rows": [
+{"s": "haberturk", "frame": "Kişisel yas", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Baba kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Kişisel yas", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Baba kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Kişisel yas", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Baba kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Kişisel yas", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Baba kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Kişisel yas", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Baba kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Kişisel yas", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Baba kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Bilgi rehberi", "hero": "Mevlan Düzyatan", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Kişisel yas", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Baba kaybı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Dayanışma", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Baba kaybı", "aff": "", "sol": "", "moral": "Vefa", "start": ""},
+{"s": "turkiyegz", "frame": "Kişisel yas", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Cenaze", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Kişisel yas", "hero": "Engin Altan Düzyatan", "blame": "", "cause": "", "cons": "Cenaze", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

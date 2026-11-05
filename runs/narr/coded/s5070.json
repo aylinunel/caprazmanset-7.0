@@ -1,0 +1,16 @@
+{"q": {"happened": "İstanbul Bağcılar'da bir inşaat alanının çevresindeki binalar tahliye edildi.", "agree": "Tahliye ve binaların inşaat alanı çevresinde olması ortak; çoğu kurum 4 bina diyor.", "differ": "Sondakika, BirGün, Karar, Hürriyet, Yeni Şafak ve Cumhuriyet çatlakları ve inşaat çalışmasını neden olarak başlığa taşıyor; Akşam ve CNN Türk 'panik', A Haber 'çökme tehlikesi' diyor; Sondakika ve Haberler tahliyenin 'tedbiren' yapıldığını belirtiyor; Mynet 5 bina diyor.", "care": "Çatlakların inşaat çalışmasına bağlanması sorumluluğu işaret eder; 'panik' ve 'çökme tehlikesi' dili riski büyütürken 'tedbiren' ifadesi önleyici bir önlem izlenimi verir; bina sayısında da tutarsızlık var."}, "rows": [
+{"s": "sondakika", "frame": "Yapı güvenliği", "hero": "Binalar", "blame": "İnşaat çalışması", "cause": "İnşaat çalışması", "cons": "Tahliye", "aff": "", "sol": "Önleyici tahliye", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Yapı güvenliği", "hero": "Binalar", "blame": "", "cause": "İnşaat çalışması", "cons": "Tahliye", "aff": "", "sol": "Önleyici tahliye", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Binalar", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Olgu aktarımı", "hero": "Binalar", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Yapı güvenliği", "hero": "Binalar", "blame": "", "cause": "İnşaat çalışması", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Panik", "hero": "Binalar", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "hurriyet", "frame": "Yapı güvenliği", "hero": "Binalar", "blame": "", "cause": "İnşaat çalışması", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Yapı güvenliği", "hero": "Binalar", "blame": "", "cause": "İnşaat çalışması", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Yapı güvenliği", "hero": "Binalar", "blame": "", "cause": "İnşaat çalışması", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "Binalar", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Yapı güvenliği", "hero": "Binalar", "blame": "", "cause": "İnşaat çalışması", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Çökme tehlikesi", "hero": "Binalar", "blame": "", "cause": "İnşaat çalışması", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cnnturk", "frame": "Panik", "hero": "Binalar", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Olgu aktarımı", "hero": "Binalar", "blame": "", "cause": "", "cons": "Tahliye", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

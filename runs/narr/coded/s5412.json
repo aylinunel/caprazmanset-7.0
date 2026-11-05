@@ -1,0 +1,16 @@
+{"q": {"happened": "Belçika Başbakanı Bart De Wever istifasını Kral Philippe'e sundu.", "agree": "Başbakanın istifasını sunması ortak.", "differ": "NTV, Takvim, BirGün ve A Haber krizin nedenini bütçe anlaşmazlığı olarak başlığa taşıyor; Akşam ve Milliyet 'siyasi kriz/deprem' diye dramatize ediyor; Karar, Sabah, NTV, Takvim ve Türkiye Gazetesi Kral'ın kararı ertelediğini ya da kabul etmediğini öne çıkarıyor; AA, TRT Haber ve CNN Türk sade aktarıyor.", "care": "Nedenin (bütçe) başlıkta olup olmaması okurun krizi anlayıp anlamayacağını belirler; Kral'ın kararı ertelemesini vurgulamak ise istifanın kesinleşmediğini, sürecin askıda olduğunu gösterir."}, "rows": [
+{"s": "cumhuriyet", "frame": "Hükümet krizi", "hero": "Bart De Wever", "blame": "", "cause": "", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Hükümet krizi", "hero": "Bart De Wever", "blame": "", "cause": "", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Siyasi istikrarsızlık", "hero": "Bart De Wever", "blame": "", "cause": "", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Bütçe krizi", "hero": "Bart De Wever", "blame": "", "cause": "Bütçe anlaşmazlığı", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Olgu aktarımı", "hero": "Bart De Wever", "blame": "", "cause": "", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Hükümet krizi", "hero": "Bart De Wever", "blame": "", "cause": "", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Bütçe krizi", "hero": "Bart De Wever", "blame": "", "cause": "Bütçe anlaşmazlığı", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Bütçe krizi", "hero": "Bart De Wever", "blame": "", "cause": "Bütçe anlaşmazlığı", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milliyet", "frame": "Siyasi istikrarsızlık", "hero": "Bart De Wever", "blame": "", "cause": "", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "Bart De Wever", "blame": "", "cause": "", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "Kral Philippe", "blame": "", "cause": "", "cons": "İstifa askıda", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Hükümet krizi", "hero": "Kral Philippe", "blame": "", "cause": "", "cons": "İstifa askıda", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Bütçe krizi", "hero": "Bart De Wever", "blame": "", "cause": "Bütçe anlaşmazlığı", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cnnturk", "frame": "Olgu aktarımı", "hero": "Bart De Wever", "blame": "", "cause": "", "cons": "İstifa", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

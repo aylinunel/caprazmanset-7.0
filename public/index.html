@@ -1718,6 +1718,30 @@ th{color:var(--ink);border-bottom-width:3px}
 .xfchip{font-size:12px;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--line);color:inherit}
 .xfcount{margin-bottom:10px}
 
+/* 7.0 · AI-generated analysis. Violet + mono is used for nothing else on the public pages, so a reader can
+   always tell an AI result from a rule-based measurement or a supplied fact. */
+:root{--ai:#6D28D9;--ai-soft:#F4F0FF;--ai-line:#C9B8F5}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ai:#C4B5FD;--ai-soft:#1E1838;--ai-line:#4C3D8F}}
+:root[data-theme="dark"]{--ai:#C4B5FD;--ai-soft:#1E1838;--ai-line:#4C3D8F}
+.ai{font-family:var(--ff-m);color:var(--ai)}
+.ai-box{border:1px solid var(--ai-line);border-left:3px solid var(--ai);background:var(--ai-soft);border-radius:6px;padding:12px 14px;
+  font-family:var(--ff-m);font-size:12.5px;line-height:1.6;color:var(--ink);min-width:0;overflow-wrap:anywhere}
+.ai-box h2,.ai-box h3,.ai-box h4,.ai-box b{color:var(--ai)}
+.ai-box h2,.ai-box h3{font-family:var(--ff-m);font-weight:500;letter-spacing:-.01em}
+.ai-box table td,.ai-box table th{font-family:var(--ff-m)}
+.ai-box .cm3-voices summary{color:var(--ai);border-color:var(--ai-line)}
+.ai-tag{display:inline-block;font-family:var(--ff-m);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ai);
+  border:1px solid var(--ai);border-radius:99px;padding:1px 7px;white-space:nowrap;vertical-align:middle}
+.ai-line{font-family:var(--ff-m);font-size:11.5px;color:var(--ai);margin:8px 0 2px;line-height:1.5}
+.ai-ed{display:block;margin-top:6px;color:var(--ink);font-family:var(--ff-b)}
+.ai-ed b{color:var(--ink)}
+tr.ai-row td{font-family:var(--ff-m);color:var(--ai)}
+.rev-ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
+.rev-ctl input{font:inherit;min-height:40px;padding:6px 10px;border:1px solid var(--line2);border-radius:5px;background:var(--paper);color:var(--ink);flex:1 1 220px;min-width:0}
+.rev-ctl button{min-height:40px}
+.xnarr-home{margin-top:8px}
+.xnarr-home h2{font-size:clamp(24px,3vw,32px);line-height:1.2;margin:6px 0 8px;max-width:30ch}
+
 </style>
 </head>
 <body>
@@ -3981,7 +4005,7 @@ var SECTIONS = [
     ["akis", "Size özel"], ["denge", "Haber dengem"], ["takip", "Takip ettiklerim"]] },
   { p: "/anlati", label: "Anlatı", fn: pgNarrative },
   { p: "/bulgular", label: "Bulgular", fn: pgFindings, tabs: [
-    ["temel", "Temel bulgular"], ["ileri", "İleri analiz"], ["hiz", "Hız, spot, benzerlik"], ["bilissel", "Bilişsel inceleme"]] },
+    ["veriler", "Veriler"], ["yorumlar", "Yorumlar"], ["ileri", "İleri analiz"], ["hiz", "Hız, spot, benzerlik"]] },
   { p: "/kurumlar", label: "Kurumlar", fn: pgSources, tabs: [
     ["genel", "Genel bakış"], ["liste", "Kurum listesi"], ["karsilastir", "İkili karşılaştırma"], ["siralama", "Sıralama"],
     ["kayit", "Kayıt defteri"], ["guven", "Güven"]] },
@@ -3994,7 +4018,7 @@ var SECTIONS = [
 var DETAIL = { "/olay": { fn: pgEvent, of: "/olaylar" }, "/kurum": { fn: pgSource, of: "/kurumlar" },
   "/konu": { fn: pgTopic, of: "/olaylar" }, "/ara": { fn: pgSearch, of: "/" } };
 var ADMIN = { p: "/yonetim", label: "Yönetim", fn: pgAdmin, tabs: [
-  ["panel", "Panel"], ["inceleme", "İnceleme kuyruğu"], ["ozet", "Özet bildirimleri"], ["saglik", "Akış sağlığı"]] };
+  ["panel", "Panel"], ["bilissel", "Bilişsel inceleme (YZ)"], ["inceleme", "İnceleme kuyruğu"], ["ozet", "Özet bildirimleri"], ["saglik", "Akış sağlığı"]] };
 
 function secFor(path) {
   if (path === ADMIN.p) return ADMIN;
@@ -4031,7 +4055,7 @@ function layoutPills() {
    reader — only kept in this browser's storage. */
 function adminShell(tab) {
   return '<div class="admtop"><div class="row">' +
-    '<span class="mk" aria-hidden="true"></span><b>Çapraz Manşet 2.0</b>' +
+    '<span class="mk" aria-hidden="true"></span><b>Çapraz Manşet ' + esc(D.meta.version || "") + '</b>' +
     '<span class="badge">Yönetim</span><span class="sp"></span>' +
     '<a class="back" href="#/">← Siteye dön</a>' +
     '<button class="icobtn" id="theme" aria-label="Açık/koyu tema">' +
@@ -4039,8 +4063,8 @@ function adminShell(tab) {
       '<path d="M7.5 1.6a5.9 5.9 0 1 0 5.9 5.9 4.6 4.6 0 0 1-5.9-5.9Z"/></svg></button>' +
     "</div></div>" +
     '<div class="admbar"><div class="wrap"><b>Bu bölüm editör içindir, okur için değil.</b> ' +
-    "Onay, işaretleme ve notlar yalnızca bu tarayıcıda saklanır; veri setine yazılmaz ve kamu " +
-    "görünümünde hiçbir yerde görünmez.</div></div>" +
+    (tab === "bilissel" ? "Bu sekmedeki ret ve düzeltmeler paylaşılan kayda yazılır ve kamu sayfalarındaki YZ sonuçlarını hemen değiştirir; yalnızca site sahibi yazabilir." :
+      "Onay, işaretleme ve notlar yalnızca bu tarayıcıda saklanır; veri setine yazılmaz ve kamu görünümünde hiçbir yerde görünmez.") + "</div></div>" +
     '<div class="admtabs"><div class="wrap">' +
     v3adminTabs(ADMIN.tabs).map(function (t) {
       return '<a class="admtab' + (t[0] === tab ? " on" : "") + '" href="#' + ADMIN.p +
@@ -5945,7 +5969,7 @@ function pgExplorer() {
     '<p class="lede">Bir yanlılık sözlüğü değil, bir <b>çalışma tezgâhı</b>. Soldaki ' +
     "listeden bir araç seçin: o aracın bu dönemdeki haberlerde ne yaptığını, kimin ne " +
     "sıklıkta başvurduğunu ve tetiklendiği her gerçek başlığı işaretli kelimeleriyle " +
-    "görürsünüz. Kavramın tanımını arıyorsanız, tam kütüphane en altta.</p></div>";
+    "görürsünüz. Kavramın tanımını arıyorsanız, tam kütüphane en altta.</p></div>" + top20();
 
   h += '<div class="ctl"><input type="search" id="expq" placeholder="Araç ara…" ' +
     'style="min-width:240px" value="' + esc(EXPQ) + '">' +
@@ -7948,7 +7972,7 @@ function renderFeed() {
     if (F.src && e.s.indexOf(F.src) < 0) return false;
     if (e.m < F.vmin) return false;
     if (F.bg) { var bx = bg7ev(e.i); if (!bx || bx.status !== "review_complete") return false;
-      if (F.bg !== "rev" && !(bx.uncertain || []).concat(bx.supported || []).some(function (f) { return bg7k(f.id) === F.bg; })) return false; }
+      if (F.bg !== "rev" && !bg7Live(bx).some(function (f) { return bg7k(f.id) === F.bg; })) return false; }
     if (!q) return true;
     var hay = (e.t + " " + e.sum + " " + e.s.map(srcName).join(" ") + " " +
       e.tp.map(function (x) { return TPX[x] ? TPX[x].n : x; }).join(" ")).toLocaleLowerCase("tr");
@@ -8580,7 +8604,7 @@ function narrWeek(q) {
 function narrWeekKeys(q) {
   var w = narrWeek(q || {});
   var W = NW.filter(function (x) { return x.k === w; })[0];
-  return W ? W.keys : [];
+  return W ? W.keys.filter(narrOk) : [];
 }
 function narrBlameKeys() { return NCUR && D.N[NCUR] ? [NCUR] : narrWeekKeys({ w: NARRW }); }
 /* Columns for the flow: the story's top three focus dimensions, in reading order. */
@@ -8649,7 +8673,7 @@ function pgNarrative(q) {
   if (NARRW === "all") return h + narrOverview() + v5NarrAuto() + "</div>";
 
   var W = NW.filter(function (x) { return x.k === NARRW; })[0] || { keys: [] };
-  var keys = W.keys, isV1 = W.k === "v1";
+  var keys = W.keys.filter(narrOk), isV1 = W.k === "v1";
   var cur = q.n && D.N[q.n] ? q.n : keys[0];
   var coded = keys.reduce(function (t, k) { return t + (D.N[k].rows || []).length; }, 0);
   h += '<div class="ctl">' + keys.map(function (k) {
@@ -8670,7 +8694,7 @@ function pgNarrative(q) {
       legend: legendHTML([{c:"var(--left)",t:"sola yerleşik"},{c:"var(--mid)",t:"merkez"},{c:"var(--right)",t:"sağa yerleşik"}]),
       take: "Bir satırda tek renk varsa, o aktörü yalnızca tek bir blok sorumlu tutuyor demektir." }) +
     '<p class="xhint" id="cblame-n"></p></section>';
-  h += '<div class="note warn" style="margin-top:22px"><b>Kodlama.</b> ' +
+  h += '<div class="' + (W.coded === "agent" ? "ai-box" : "note warn") + '" style="margin-top:22px"><b>Kodlama.</b> ' + (W.coded === "agent" ? bg7AiTag() + " " : "") +
     (isV1 ? "1–8 Eylül arşivi: dört olay elle, diğerleri makine desteğiyle kodlandı; burada yalnızca en az beş " +
       "kurumu olan ve iki boyutta ayrışan olaylar gösteriliyor. " :
       (W.coded === "agent" ? "Başlıklardan otomatik kodlandı (Claude ajanı, insan denetimi yok); aynı şema ve seçim kuralı. " :
@@ -8788,10 +8812,10 @@ function pgFindings(q) {
   var tab = tabOf(secFor("/bulgular"), q || {});
   if (tab === "ileri") return pgAdvanced();
   if (tab === "hiz") return pgPace5();
-  if (tab === "bilissel") return pgBG7();
+  if (tab === "veriler" || tab === "bilissel") return pgVeriler();
   var F = findings();
   var m = D.meta.counts;
-  var h = '<div class="wrap page"><div class="phead"><div class="eyebrow">Bulgular · temel</div>' +
+  var h = '<div class="wrap page"><div class="phead"><div class="eyebrow">Bulgular · yorumlar</div>' +
     "<h1>" + WIN.days + " günün haberleri ne gösterdi</h1>" +
     '<p class="lede">' + WIN.range + ' arasında toplanan <b>' + m.articles.toLocaleString("tr") +
     "</b> başlık ve bunların en az beş kurumun verdiği <b>" + D.E.length.toLocaleString("tr") + " olayda</b> toplanan <b>" +
@@ -9429,13 +9453,13 @@ var LOGO = window.CM_LOGO || {};
 function svgURI(s) { return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(s); }
 
 /* ---------------------------------------------------------------- nav */
-var NAV = [["/olaylar", "Olaylar", ["/olay", "/konu", "/anlati"]], ["/kurumlar", "Kurumlar", ["/kurum", "/harita"]],
+var NAV = [["/anlati", "Anlatı", []], ["/olaylar", "Olaylar", ["/olay", "/konu"]], ["/kurumlar", "Kurumlar", ["/kurum", "/harita"]],
   ["/bulgular", "Bulgular", []], ["/yanlilik", "Çerçeveleme", []], ["/yontem", "Yöntem", []]];
 var SUB = {
-  "/olaylar": [["/olaylar", "liste", "Tüm olaylar"], ["/olaylar", "kor", "Kör noktalar"], ["/olaylar", "konular", "Konular"], ["/anlati", null, "Anlatı Haritası"]],
+  "/olaylar": [["/olaylar", "liste", "Tüm olaylar"], ["/olaylar", "kor", "Kör noktalar"], ["/olaylar", "konular", "Konular"]],
   "/kurumlar": [["/kurumlar", "genel", "Genel bakış"], ["/kurumlar", "liste", "Kurum listesi"], ["/kurumlar", "karsilastir", "Karşılaştır"],
     ["/kurumlar", "kayit", "Kayıt defteri"], ["/kurumlar", "guven", "Güven"], ["/harita", null, "Harita"]],
-  "/bulgular": [["/bulgular", "temel", "Temel bulgular"], ["/bulgular", "ileri", "İleri analiz"], ["/bulgular", "bilissel", "Bilişsel inceleme"]],
+  "/bulgular": [["/bulgular", "veriler", "Veriler"], ["/bulgular", "yorumlar", "Yorumlar"], ["/bulgular", "ileri", "İleri analiz"]],
   "/yanlilik": [["/yanlilik", "kesif", "Yapılar"], ["/yanlilik", "kutuphane", "Kütüphane"], ["/yanlilik", "cozumleyici", "Başlık çözümleyici"],
     ["/yanlilik", "bicimler", "Üretim aşamaları"], ["/yanlilik", "turkiye", "Türkiye bağlamı"]],
   "/benim": [["/benim", "akis", "Size özel"], ["/benim", "denge", "Haber dengem"], ["/benim", "takip", "Takip ettiklerim"]]
@@ -9612,6 +9636,7 @@ function pgHome() {
     '</span> olay · <span class="num">' + D.meta.sources.length + "</span> kurum</p></div>" +
     '<div class="xhero-r"><p class="eyebrow">Günün olayı · ' + fmtD(storyDay(lead) + "T00:00") + ' · <a class="lnk" href="#/olay?e=' + lead.i + '">' + esc(lead.t) + "</a></p>" +
     splitCard(lead) + '<p class="xsp-leg"><span><mark class="mw">İşaretli kelime</mark>: kurumlar arasında ayrışan</span></p></div></section>';
+  h += homeNarr();
   h += '<section class="sec"><div class="xsec-h"><h2>Öne çıkan olaylar</h2><a class="lnk" href="#/olaylar">Tümü →</a></div>' +
     '<div class="xcards three">' + cards(es.slice(0, 6)) + "</div></section>";
   h += '<section class="sec xink"><div class="xsec-h"><h2>Kör noktalar</h2><a class="lnk" href="#/olaylar?t=kor">Tümü →</a></div>' +
@@ -9657,7 +9682,7 @@ function pgSource(q) {
   var blk = '<section class="sec" style="margin-top:18px"><h2>Altı eksenli profil</h2>' +
     '<p class="sub">Kayıt defterindeki yerleşim (0–100), her eksen kendi iki ucuyla. Bu bir yerleşimdir, hüküm değil; kaynağı ' +
     '<a class="lnk" href="#/yontem?s=2">Yöntem § 2</a>. ' + fixLink("kurum", k, p.n) + "</p>" +
-    sixRows([[k, "var(--ink)"]]) + "</section>" + v5Profile(k);
+    sixRows([[k, "var(--ink)"]]) + "</section>" + v5Profile(k) + bg7Outlet(k);
   var i = h.indexOf('<section class="sec" style="margin-top:8px">');
   return i < 0 ? h.replace('<div class="grid g3">', blk + '<div class="grid g3">') : h.slice(0, i) + blk + h.slice(i);
 }
@@ -10029,6 +10054,7 @@ function v2cAfter(path, tab, params) {
 }
 
 function pgAdmin(q) {
+  if ((q || {}).t === "bilissel") return pgBG7();
   if (v3on("reviewDesk") && (q || {}).t === "dogrulama") return v3deskPage();
   var h = pgAdminV2(q);
   if (tabOf(ADMIN, q || {}) !== "ozet") return h;
@@ -11352,15 +11378,17 @@ function bg7tag(st) {
   return '<span class="cm3-state ' + (st === "review_complete" || st === "pattern_supported" ? "stPass" : st === "analysis_incomplete" ? "stFail" :
     st === "not_attempted" ? "stNotRun" : "stUnknown") + '">' + esc(BG7ST[st] || st) + "</span>";
 }
-function bg7finding(f) {
+function bg7finding(f, ev0) {
   var ev = (f.evidence || []).map(function (x) {
-    return "<li>“" + esc(x.q) + "”" + (x.kind === "behavioral" ? ' <span class="cm3-tag">karşılaştırmalı</span>' : "") + "</li>";
+    return "<li>“" + esc(x.q) + "”" + ((x.o || []).length ? " — " + x.o.map(function (o) { return esc(srcName(o)); }).join(", ") : "") +
+      (x.kind === "behavioral" ? ' <span class="ai-tag">karşılaştırmalı</span>' : "") + "</li>";
   }).join("");
   var mech = (f.mechanisms || []).map(function (m) {
     return "<li><b>" + (m.role === "advocate" ? "Savunan" : "Sorgulayan") + ":</b> " + esc(m.text) + "</li>"; }).join("");
   var alt = (f.alternatives || []).map(function (m) {
     return "<li><b>" + (m.role === "advocate" ? "Savunan" : "Sorgulayan") + ":</b> " + esc(m.text) + "</li>"; }).join("");
   return '<details class="cm3-voices"><summary>' + esc(f.name) + " · " + esc(BG7ST[f.status] || f.status) + "</summary><div>" +
+    (ev0 ? rev7Note(ev0 + "__" + f.id) : "") +
     '<p class="xsmall">' + esc(f.definition) + ' <a class="lnk" href="' + esc(f.source_url) + '" target="_blank" rel="noopener">Kaynak</a></p>' +
     (ev ? "<p><b>Doğrulanmış alıntılar</b></p><ul>" + ev + "</ul>" : "") + (mech ? "<p><b>Gerekçe</b></p><ul>" + mech + "</ul>" : "") +
     (alt ? "<p><b>Yanlılık dışı açıklama</b></p><ul>" + alt + "</ul>" : "") +
@@ -11376,10 +11404,13 @@ function bg7caveat() {
 }
 function pgBG7() {
   var B = bg7(), S = B && B.summary;
-  var h = '<div class="wrap page"><div class="phead"><div class="eyebrow">Bulgular · bilişsel inceleme ' + bg7AiTag() + '</div>' +
+  var h = '<div class="wrap page"><div class="phead"><div class="eyebrow">Yönetim · bilişsel inceleme ' + bg7AiTag() + '</div>' +
     "<h1>" + (S ? "En çok kurumun verdiği " + S.planned + " olayda bilişsel yanlılık incelemesi" : "Bilişsel yanlılık incelemesi") + "</h1>" +
     '<p class="lede">Yüklü dil puanı kelimeye bakar; bu inceleme başlıkların <b>akıl yürütmesine</b> bakar: bir olayı veren kurumların başlık ve ' +
     "spotları yan yana konduğunda, çerçeveleme, kaynak seçimi ya da genelleme gibi bilişsel örüntülerin kanıtı metinde var mı?</p></div>" + bg7caveat();
+  h += '<div class="note ' + (REV7OWNER ? "" : "warn") + '" style="margin-top:12px">' + (REV7OWNER ?
+      "<b>Editör görünümü.</b> Bir YZ sonucunu reddettiğinizde kamu sayfalarından kalkar; düzelttiğinizde notunuz sonucun yanında “Editör düzeltmesi” olarak görünür. Kararlar paylaşılan kayda yazılır." :
+      "<b>Salt okunur.</b> Sonuçları yalnızca site sahibi reddedebilir ya da düzeltebilir.") + (REV7MSG ? " " + esc(REV7MSG) : "") + "</div>";
   if (!S) return h + '<p class="lede" style="margin-top:18px">Bu yapıda inceleme henüz çalıştırılmadı.</p>' + bg7sim() + "</div>";
   var pct = function (a, b) { return b ? "%" + Math.round(100 * a / b) : "—"; };
   h += '<div class="mh-stats" style="background:var(--line);border-color:var(--line);margin-top:22px">' + [
@@ -11408,9 +11439,31 @@ function pgBG7() {
         '<div class="cm3-set">' + bg7tag(x.status) + '<span class="cm3-sub">' + x.outlets + " kurum</span>" +
         (x.status === "review_complete" ? '<span class="cm3-sub">' + (x.supported || []).length + " desteklendi · " + (x.uncertain || []).length + " bağlam gerekli</span>" : "") +
         (x.error ? '<span class="cm3-sub">' + esc(x.error.message || "") + "</span>" : "") + "</div>" +
-        (x.supported || []).concat(x.uncertain || []).map(bg7finding).join("") + "</div>";
+        bg7AdminFindings(x) + "</div>";
     }).join("") + "</div></section>";
-  return h + bg7sim() + "</div>";
+  return h + bg7NarrAdmin() + bg7sim() + "</div>";
+}
+function bg7Ctl(key) {
+  var r = rev7(key);
+  var st = r ? (r.status === "rejected" ? "Reddedildi — kamu sayfalarında görünmüyor" : "Düzeltildi: " + esc(r.note)) : "Yayında (YZ etiketiyle)";
+  return '<div class="rev-ctl"><span class="cm3-sub">' + st + "</span>" + (REV7OWNER ?
+    '<input id="rn-' + esc(key) + '" placeholder="Düzeltme notu" aria-label="Düzeltme notu" value="' + esc(r && r.note || "") + '">' +
+    '<button class="chip" data-rev="' + esc(key) + '" data-act="correct">Düzelt</button>' +
+    '<button class="chip" data-rev="' + esc(key) + '" data-act="reject">Reddet</button>' +
+    (r ? '<button class="chip" data-rev="' + esc(key) + '" data-act="undo">Geri al</button>' : "") : "") + "</div>";
+}
+function bg7AdminFindings(x) {
+  return (x.supported || []).concat(x.uncertain || []).map(function (f) {
+    return '<div class="ai-box" style="margin-top:6px">' + bg7finding(f, x.event) + bg7Ctl(x.event + "__" + f.id) + "</div>"; }).join("");
+}
+function bg7NarrAdmin() {
+  var ks = Object.keys(D.N).filter(function (k) { return D.N[k].status === "agent_coded"; });
+  if (!ks.length) return "";
+  return '<section class="sec"><h2>YZ ile kodlanan anlatılar</h2><p class="sub">Anlatı haritasında YZ ile kodlanan ' + ks.length +
+    " olay. Reddedilen olay haritadan ve anasayfadan kalkar.</p><div class=\"cm3-qs\">" + ks.map(function (k) {
+      var n = D.N[k], e = EV[n.ev];
+      return '<div class="cm3-q"><div class="cm3-q-h"><a href="#/anlati?n=' + k + '"><b>' + esc(e ? storyLabel(e, 100) : k) + "</b></a></div>" +
+        '<p class="ai-line">' + esc(n.q.differ || "") + "</p>" + bg7Ctl("narr__" + k) + "</div>"; }).join("") + "</div></section>";
 }
 function bg7sim() {
   var M = D.BGS; if (!M) return "";
@@ -11438,15 +11491,15 @@ function bg7sim() {
 function bg7Event(e) {
   var B = bg7(); if (!B) return "";
   var x = bg7ev(e.i);
-  var h = '<section class="sec" style="margin-top:22px"><h2>Bilişsel inceleme ' + bg7AiTag() + '</h2>';
-  if (!x) return h + '<p class="sub">Bu olay, incelenen en geniş kapsamlı ' + B.summary.planned + ' olay arasında değil. <a class="lnk" href="#/bulgular?t=bilissel">Bilişsel inceleme →</a></p></section>';
+  var h = '<section class="sec ai-box" style="margin-top:22px"><h2>Bilişsel inceleme ' + bg7AiTag() + '</h2>';
+  if (!x) return h + '<p class="sub">Bu olay, incelenen en geniş kapsamlı ' + B.summary.planned + ' olay arasında değil.</p></section>';
   h += '<div class="cm3-set" style="margin-bottom:8px">' + bg7tag(x.status) + "</div>";
   if (x.status !== "review_complete")
     return h + '<p class="sub">İnceleme tamamlanmadı; bu, olayda yanlılık olmadığı anlamına gelmez.</p></section>';
-  var fs = (x.supported || []).concat(x.uncertain || []);
-  h += fs.length ? fs.map(bg7finding).join("") : '<p class="sub">Seçilen ' + (x.selected || []).length + " kavramın hiçbiri iki inceleyicinin ortak desteğini ya da bağlam isteğini almadı. " +
+  var fs = bg7Live(x);
+  h += fs.length ? fs.map(function (f) { return bg7finding(f, x.event); }).join("") : '<p class="sub">Seçilen ' + (x.selected || []).length + " kavramın hiçbiri iki inceleyicinin ortak desteğini ya da bağlam isteğini almadı. " +
     "Bu, olayda yanlılık olmadığı anlamına gelmez; katalog ve seçim sınırlıdır.</p>";
-  return h + '<p class="xsmall" style="margin-top:8px"><a class="lnk" href="#/yontem?s=11">Yöntem § 11</a> · <a class="lnk" href="#/bulgular?t=bilissel">Tüm incelemeler →</a></p></section>';
+  return h + '<p class="xsmall" style="margin-top:8px"><a class="lnk" href="#/yontem?s=11">Yöntem § 11</a> · <a class="lnk" href="#/bulgular?t=veriler">Bütün dönemin YZ eğilimleri →</a></p></section>';
 }
 function bg7Method(sec) {
   var B = bg7(), S = B && B.summary;
@@ -11457,7 +11510,10 @@ function bg7Method(sec) {
     "<h3>11.1 Sitede nerede kullanılır</h3><ul>" +
     "<li><b>Olaylar:</b> incelenen her olayın kartında “Bilişsel inceleme” satırı ve listede “Bilişsel inceleme” süzgeci (incelenen olaylar ya da belirli bir kavram için bağlam istenenler).</li>" +
     "<li><b>Olay sayfası:</b> seçilen kavramlar, iki inceleyicinin gerekçesi, yanlılık dışı açıklamalar, eksik bağlam ve doğrulanmış alıntılar.</li>" +
-    "<li><b>Bulgular:</b> Temel bulgulardaki bilişsel inceleme bulgusu ve olay olay bütün sonuçların listelendiği “Bilişsel inceleme” sekmesi.</li>" +
+    "<li><b>Bulgular:</b> Veriler sekmesinde bloklara ve kurumlara göre YZ eğilimleri, Yorumlar sekmesinde bilişsel inceleme bulgusu.</li>" +
+    "<li><b>Kurum sayfaları:</b> kurumun başlığının kaç incelenen olayda kanıt olarak alıntılandığı.</li>" +
+    "<li><b>Anasayfa ve Anlatı:</b> YZ ile kodlanan anlatı haftaları aynı mor YZ işaretiyle gösterilir.</li>" +
+    "<li><b>Yönetim:</b> site sahibi her YZ sonucunu reddedebilir ya da düzeltebilir. Sonuçlar, reddedilene ya da düzeltilene kadar YZ etiketiyle yayında kalır; düzeltme notu sonucun yanında görünür.</li>" +
     "<li><b>Çerçeveleme:</b> Kütüphane’de kavram başına kaç olayda incelendiği ve kaç olayda bağlam istendiği; kavram penceresinde ilgili olaylar.</li></ul>" +
     "<h3>11.2 Girdi</h3><p>Her olay tek bir inceleme birimidir. Metin alanı, olayı veren her kurumun olaydaki ilk başlığını ve spotunu (en çok " +
     "280 karakter) yayın saatiyle birlikte satır satır içerir; bağlam alanı olayın tarihini, kurumların sağlanan yerleşimlerini ve olayı vermeyen etkin kurumları içerir. " +
@@ -11475,7 +11531,7 @@ function bg7Method(sec) {
     "sınamasında 52 senaryonun 23’ü tamamlanmış, tamamlananlarda beklenen 26 etiketin 24’ü yakalanmıştır; etiketler insan doğrulamasından geçmemiştir. " +
     '<a class="lnk" href="#/bulgular?t=bilissel">Sonuçlar →</a></p>' +
     sec(12, "Yapay zekâ ile üretilen içerik") +
-    "<p>Sitede yapay zekâ ile üretilen her içerik “YZ” etiketiyle işaretlidir. Üretilen içerik:</p><ul>" +
+    "<p>Sitede yapay zekâ ile üretilen her içerik <span class=\"ai\">mor, eş aralıklı yazı</span> ve “YZ analizi” etiketiyle gösterilir; kural tabanlı ölçümler ve sağlanan veriler bu biçimi hiç kullanmaz. Üretilen içerik:</p><ul>" +
     "<li><b>BiasGuard incelemeleri:</b> kavram seçimleri, “desteklendi / belirsiz / desteklenmedi” kararları ve bütün Türkçe açıklamalar (gerekçe, yanlılık dışı açıklama, eksik bağlam) " +
     "Claude Code ortamında çalışan Claude modelleri tarafından yazılmıştır. Alıntılar metinden birebir alınır ve kodla denetlenir; açıklamalar denetlenmez.</li>" +
     (ag.length ? "<li><b>Anlatı haritası:</b> " + ag.join(", ") + " haftalarının dokuz boyutlu kodlaması ve olay özetleri (ne oldu, nerede uzlaşıyorlar, nerede ayrışıyorlar, neden önemli) bir Claude modeli tarafından üretilmiştir; önceki haftalar elle kodlanmıştır.</li>" : "") +
@@ -11502,39 +11558,74 @@ function bg7Stats() {
     if (x.status !== "review_complete") return;
     (x.selected || []).forEach(function (id) { var k = bg7k(id), r = BG7S[k] || (BG7S[k] = { sel: 0, sup: 0, unc: 0, ev: [], name: id });
       r.sel++; });
-    (x.supported || []).forEach(function (f) { var r = BG7S[bg7k(f.id)]; r.sup++; r.name = f.name; r.ev.push(x.event); });
-    (x.uncertain || []).forEach(function (f) { var r = BG7S[bg7k(f.id)]; r.unc++; r.name = f.name; r.ev.push(x.event); });
+    bg7Live(x).forEach(function (f) { var r = BG7S[bg7k(f.id)]; if (f.status === "pattern_supported") r.sup++; else r.unc++; r.name = f.name; r.ev.push(x.event); });
   });
   return BG7S;
 }
 /* "150’sinde": possessive suffix from the shared Turkish layer, then the locative by vowel harmony. */
 function bg7loc(n) { var x = CM3.trSuffix(n); return "’" + x + (/[ıu]$/.test(x) ? "nda" : "nde"); }
-function bg7AiTag() { return '<span class="cm3-tag" title="Yapay zekâ ile üretildi; Yöntem § 12">YZ · deneysel</span>'; }
+function bg7AiTag() { return '<span class="ai-tag" title="Yapay zekâ ile üretildi; Yöntem § 12">YZ analizi</span>'; }
+/* Editor review (Yönetim › Bilişsel inceleme). AI results stay public until the owner rejects or corrects
+   them; decisions live in the artifact's shared store ("reviews"), readable by all, writable by the owner. */
+var REV7 = {}, REV7OWNER = false, REV7DB = null, REV7MSG = "";
+function rev7(key) { return REV7[key] || null; }
+function bg7Live(x) {
+  return (x.supported || []).concat(x.uncertain || []).filter(function (f) { var r = rev7(x.event + "__" + f.id); return !(r && r.status === "rejected"); });
+}
+function narrOk(k) { var r = rev7("narr__" + k); return !(r && r.status === "rejected"); }
+function rev7Note(key) {
+  var r = rev7(key); return r && r.status === "corrected" && r.note ? '<span class="ai-ed"><b>Editör düzeltmesi:</b> ' + esc(r.note) + "</span>" : "";
+}
+async function rev7Init() {
+  if (!window.claude || !window.claude.use) return;
+  try {
+    var u = await window.claude.use("user"); REV7OWNER = u ? await u.isOwner() : false;
+    var db = await window.claude.use("db"); if (!db) { if (REV7OWNER) route(); return; }
+    REV7DB = db;
+    db.collection("reviews").onSnapshot(function (snap) {
+      REV7 = {}; snap.docs.forEach(function (d) { REV7[d.id] = d.data(); }); BG7S = null; route();
+    }, function () { REV7MSG = "İnceleme kayıtları okunamadı; YZ sonuçları düzeltmesiz gösteriliyor."; });
+  } catch (e) {}
+}
+function rev7Save(key, status, note) {
+  if (!REV7DB || !REV7OWNER) return;
+  var ref = REV7DB.collection("reviews").doc(key);
+  (status ? ref.set({ status: status, note: note || "", at: new Date().toISOString() }) : ref.delete())
+    .catch(function (e) { REV7MSG = "Kaydedilemedi: " + ((e && e.message) || "bilinmeyen hata"); route(); });
+}
+document.addEventListener("click", function (ev) {
+  var b = ev.target.closest && ev.target.closest("[data-rev]"); if (!b) return;
+  ev.preventDefault();
+  var key = b.getAttribute("data-rev"), act = b.getAttribute("data-act");
+  var inp = document.getElementById("rn-" + key);
+  if (act === "correct" && !(inp && inp.value.trim())) { if (inp) inp.focus(); return; }
+  rev7Save(key, act === "undo" ? null : act === "reject" ? "rejected" : "corrected", inp ? inp.value.trim() : "");
+});
 function bg7CardLine(e) {
   var x = bg7ev(e.i); if (!x || x.status !== "review_complete") return "";
-  var fs = (x.supported || []).concat(x.uncertain || []);
-  return '<div class="cm3-diff"><div class="cm3-diff-s"><b>Bilişsel inceleme</b> ' + bg7AiTag() + " " +
-    (fs.length ? "bağlam gerekli: " + fs.map(function (f) { return esc(f.name); }).join(", ") : "seçilen kavramların hiçbiri öne çıkmadı") + "</div></div>";
+  var fs = bg7Live(x);
+  return '<p class="ai-line">' + bg7AiTag() + " " +
+    (fs.length ? "bağlam gerekli: " + fs.map(function (f) { return esc(f.name); }).join(", ") : "seçilen kavramların hiçbiri öne çıkmadı") + "</p>";
 }
 function bg7Concept(key) {
   var r = bg7Stats()[key]; if (!r) return "";
-  return '<div class="mdl-s"><h4>Bilişsel inceleme ' + bg7AiTag() + "</h4><p>BiasGuard bu kavramı incelenen " + bg7().summary.completed +
+  return '<div class="mdl-s ai-box"><h4>Bilişsel inceleme ' + bg7AiTag() + "</h4><p>BiasGuard bu kavramı incelenen " + bg7().summary.completed +
     " olayın " + r.sel + bg7loc(r.sel) + " seçti; " + r.sup + " olayda desteklendi, " + r.unc + " olayda <b>bağlam gerekli</b> sonucu çıktı.</p>" +
     (r.ev.length ? "<ul>" + r.ev.slice(0, 6).map(function (i) { var e = EV[i];
       return e ? '<li><a class="lnk" href="#/olay?e=' + i + '">' + esc(storyLabel(e, 90)) + "</a></li>" : ""; }).join("") + "</ul>" : "") +
-    '<p class="xsmall"><a class="lnk" href="#/bulgular?t=bilissel">Bütün incelemeler</a> · <a class="lnk" href="#/yontem?s=11">Yöntem § 11</a></p></div>';
+    '<p class="xsmall"><a class="lnk" href="#/bulgular?t=veriler">YZ eğilimleri</a> · <a class="lnk" href="#/yontem?s=11">Yöntem § 11</a></p></div>';
 }
 function bg7Finding(n) {
   var B = bg7(); if (!B) return "";
   var S = B.summary, done = B.events.filter(function (x) { return x.status === "review_complete"; });
-  var withNc = done.filter(function (x) { return (x.uncertain || []).length; });
+  var withNc = done.filter(function (x) { return bg7Live(x).length; });
   var top = S.cards.filter(function (c) { return c.uncertain || c.supported; }).slice(0, 8);
   /* Is "needs context" just a proxy for loud events? Compare score ranges of events with many vs few such concepts. */
   var hiN = done.filter(function (x) { return (x.uncertain || []).length >= 3; }), loN = done.filter(function (x) { return (x.uncertain || []).length < 3; });
   var mp = function (xs) { var v = xs.map(function (x) { return EV[x.event] ? EV[x.event].p : null; }).filter(function (v) { return v != null; });
     return v.length ? v.reduce(function (t, a) { return t + a; }, 0) / v.length : null; };
   var a = mp(hiN), b = mp(loN);
-  return '<section class="find"><div class="find-h"><div class="find-n">' + (n < 10 ? "0" + n : n) + "</div><div>" +
+  return '<section class="find ai-box"><div class="find-h"><div class="find-n">' + (n < 10 ? "0" + n : n) + "</div><div>" +
     "<h3>Bilişsel inceleme: kanıt başlıkta değil, bağlamda " + bg7AiTag() + "</h3>" +
     '<div style="margin:14px 0 4px"><div class="bignum" style="color:var(--hot)">' + withNc.length + " / " + done.length +
     '</div><div class="bignum-l">olayda en az bir kavram için “bağlam gerekli”</div></div>' +
@@ -11549,7 +11640,7 @@ function bg7Finding(n) {
       " olayın ortalama yoğunluk aralığı " + a.toFixed(1) + " puan; daha az kavram için istenen " + loN.length + " olayda " + b.toFixed(1) +
       " puan. " + (Math.abs(a - b) < 5 ? "Fark küçük: “bağlam gerekli” sonucu yalnızca yüklü dilin bir yansıması değil." :
         a > b ? "Bağlam istenen kavram arttıkça başlıklar arası dil farkı da büyüyor." : "Bağlam istenen kavram arttıkça başlıklar arası dil farkı küçülüyor.") + "</p>" : "") +
-    '<p class="xsmall" style="margin-top:8px"><a class="lnk" href="#/bulgular?t=bilissel">Olay olay bütün incelemeler →</a> · ' +
+    '<p class="xsmall" style="margin-top:8px"><a class="lnk" href="#/bulgular?t=veriler">Bloklara ve kurumlara göre YZ eğilimleri →</a> · ' +
     '<a class="lnk" href="#/olaylar?t=liste">Olaylar’da “Bilişsel inceleme” süzgeci</a></p></div></section>';
 }
 /* 7.0: each production-stage card shows what this window's data says about that form, recomputed on
@@ -11605,6 +11696,130 @@ function formEx7(f) {
   }
   return (FORMEX7[f.k] = out || "Bu sitenin verisinde (başlık, spot, zaman) karşılığı yok; bu dönem için ölçülmedi.");
 }
+
+/* ---- 7.0 public views built on the reviews ---- */
+function homeNarr() {
+  var weeks = NW.filter(function (w) { return w.k !== "v1" && w.keys.filter(narrOk).length; });
+  if (!weeks.length) return "";
+  var W = weeks[weeks.length - 1], k = W.keys.filter(narrOk)[0], n = D.N[k], e = EV[n.ev], ai = n.status === "agent_coded";
+  var keep = NFOC; NFOC = n.focus; var mx = pillMatrix(n.rows); NFOC = keep;
+  return '<section class="sec xnarr-home"><div class="xsec-h"><div><p class="eyebrow">Anlatı haritası · ' + esc(W.l) +
+    (ai ? " " + bg7AiTag() : "") + '</p></div><a class="lnk" href="#/anlati?n=' + k + '">Haritanın tamamı →</a></div>' +
+    "<h2>" + esc(e ? storyLabel(e, 120) : narrName(k, 120)) + "</h2>" +
+    '<p class="sub' + (ai ? " ai" : "") + '">' + esc(n.q.happened || "") + " " + esc(n.q.differ || "") + "</p>" + mx +
+    '<p class="xsmall">Her satır bir kurum, yelpazedeki yerleşimine göre sıralı; aynı renk aynı seçimi gösterir. Boş hücre: başlıkta yok.' +
+    (ai ? ' <span class="ai">Bu olay YZ ile kodlandı (Yöntem § 12).</span>' : "") + "</p></section>";
+}
+function top20() {
+  var st = deviceStats(), rules = Object.keys(st).filter(function (k) { return st[k].n; }).sort(function (a, b) { return st[b].n - st[a].n; });
+  var S = bg7Stats(), ai = Object.keys(S).filter(function (k) { return S[k].unc + S[k].sup; })
+    .sort(function (a, b) { return (S[b].unc + S[b].sup) - (S[a].unc + S[a].sup); }).slice(0, Math.max(0, 20 - rules.length));
+  var top = function (k) { var c = {}; D.A.forEach(function (a) { if (a.k.indexOf(k) >= 0) c[a.s] = (c[a.s] || 0) + 1; });
+    var s0 = Object.keys(c).sort(function (a, b) { return c[b] - c[a]; })[0]; return s0 ? srcName(s0) : "—"; };
+  var O = (bg7() && bg7().summary.outlets) || {};
+  var topAI = function (k) { var best = null; Object.keys(O).forEach(function (o) { var v = 0;
+      Object.keys(O[o]).forEach(function (id) { if (bg7k(id) === k) v += O[o][id]; }); if (v && (!best || v > best[1])) best = [o, v]; });
+    return best ? srcName(best[0]) : "—"; };
+  var name = function (k) { return (BREG[k] || BIA[k] || {}).en || S[k] && S[k].name || k; };
+  return '<section class="sec"><h2>Bu dönemin ' + (rules.length + ai.length) + ' yapısı</h2><p class="sub">Kural tabanlı puanlayıcının saptadığı yapılar ' +
+    "(başlık sayısı) ve YZ incelemesinin “bağlam gerekli” bulduğu kavramlar (" + '<span class="ai">olay sayısı, mor</span>' +
+    "). İki sayı farklı birimdedir. Bir satıra tıklayınca tanım, örnekler ve ilgili olaylar açılır; bütün kavramlar Kütüphane’de.</p>" +
+    '<div class="scroller panel"><table><thead><tr><th>Yapı</th><th>Kaynak</th><th class="r">Sayı</th><th>En çok görülen kurum</th></tr></thead><tbody>' +
+    rules.map(function (k) { return '<tr data-bias7="' + esc(k) + '" style="cursor:pointer"><td><b>' + esc(name(k)) + "</b></td><td>Kural</td>" +
+      '<td class="r num">' + st[k].n.toLocaleString("tr") + " başlık</td><td>" + esc(top(k)) + "</td></tr>"; }).join("") +
+    ai.map(function (k) { return '<tr class="ai-row" data-bias7="' + esc(k) + '" style="cursor:pointer"><td>' + esc(name(k)) + "</td><td>YZ analizi</td>" +
+      '<td class="r">' + (S[k].unc + S[k].sup) + " olay</td><td>" + esc(topAI(k)) + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
+}
+document.addEventListener("click", function (ev) {
+  var r = ev.target.closest && ev.target.closest("[data-bias7]"); if (r) openBias(r.getAttribute("data-bias7"));
+});
+/* Outlet rates: events where this outlet's headline was quoted as AI evidence, over reviewed events it covered. */
+function bg7Rates() {
+  var B = bg7(); if (!B) return {};
+  var cov = {}, hit = {}, byC = {};
+  B.events.forEach(function (x) {
+    if (x.status !== "review_complete" || !EV[x.event]) return;
+    EV[x.event].s.forEach(function (s) { cov[s] = (cov[s] || 0) + 1; });
+    var seen = {};
+    bg7Live(x).forEach(function (f) { (f.evidence || []).forEach(function (q) { (q.o || []).forEach(function (o) {
+      if (!seen[o]) { seen[o] = 1; hit[o] = (hit[o] || 0) + 1; }
+      var c = byC[o] || (byC[o] = {}); c[f.name] = (c[f.name] || 0) + 1; }); }); });
+  });
+  var R = {}; Object.keys(cov).forEach(function (s) { R[s] = { cov: cov[s], hit: hit[s] || 0, rate: (hit[s] || 0) / cov[s], c: byC[s] || {} }; });
+  return R;
+}
+function bg7Outlet(k) {
+  var r = bg7Rates()[k]; if (!r || r.cov < 5) return "";
+  var cs = Object.keys(r.c).sort(function (a, b) { return r.c[b] - r.c[a]; }).slice(0, 5);
+  return '<section class="sec ai-box" style="margin-top:18px"><h2>Bilişsel inceleme ' + bg7AiTag() + "</h2><p>" + esc(srcName(k)) +
+    " incelenen " + r.cov + " olayı verdi; bunların " + r.hit + bg7loc(r.hit) + " başlığı, bir kavram için “bağlam gerekli” sonucunun kanıtı olarak alıntılandı (%" +
+    Math.round(100 * r.rate) + "). Bu bir yanlılık hükmü değildir: alıntı, başlığın diğer kurumlardan farklı yazıldığını gösterir, farkın nedenini değil.</p>" +
+    (cs.length ? "<p>En sık alıntılandığı kavramlar: " + cs.map(function (c) { return esc(c) + " (" + r.c[c] + ")"; }).join(", ") + ".</p>" : "") + "</section>";
+}
+function wk7(d) { var t0 = Date.parse(DAYS[0] + "T00:00Z"); return Math.floor((Date.parse(d.slice(0, 10) + "T00:00Z") - t0) / 864e5 / 7); }
+function pgVeriler() {
+  var sides = ["left", "mid", "right"];
+  var h = '<div class="wrap page"><div class="phead"><div class="eyebrow">Bulgular · veriler</div><h1>Kim, neyi, nasıl yazdı</h1>' +
+    '<p class="lede">Bu sayfada yorum yok. Aynı olayı farklı kurumların nasıl verdiği ve bu farkların ' + WIN.range +
+    ' boyunca nasıl dağıldığı yan yana gösteriliyor. Yorumlu okuma için <a class="lnk" href="#/bulgular?t=yorumlar">Yorumlar</a>.</p></div>';
+  /* 1 · side by side */
+  var wide = D.E.filter(function (e) { return e.s.length >= 8 && defaultPair(e) && !v3isIlanEvent(e); }).sort(function (a, b) { return b.p - a.p; }).slice(0, 4);
+  h += '<section class="sec"><h2>Aynı olay, iki uç</h2><p class="sub">En az sekiz kurumun verdiği olaylardan, başlıklar arası yüklü dil aralığı en geniş dördü; ' +
+    "yelpazenin en solundaki ve en sağındaki kurumun başlığı.</p>" + wide.map(function (e) {
+      return '<div style="margin-bottom:22px"><p class="eyebrow"><a class="lnk" href="#/olay?e=' + e.i + '">' + esc(storyLabel(e, 90)) + "</a> · " + e.s.length +
+        " kurum · aralık " + e.p + " puan</p>" + splitCard(e) + "</div>"; }).join("") + "</section>";
+  /* 2 · weekly trends from the deterministic measures */
+  var W = {};
+  D.E.forEach(function (e) { var w = wk7(e.f), r = W[w] || (W[w] = { ev: 0, bsL: 0, bsR: 0, v: {}, n: {} }); r.ev++;
+    if (e.bs === "left") r.bsL++; if (e.bs === "right") r.bsR++; });
+  D.A.forEach(function (a) { if (!a.p || ACT5.indexOf(a.s) < 0) return; var r = W[wk7(a.d)]; if (!r) return; var sd = bloc(a.s);
+    r.v[sd] = (r.v[sd] || 0) + a.v; r.n[sd] = (r.n[sd] || 0) + 1; });
+  var lab = function (w) { var d = new Date(Date.parse(DAYS[0] + "T00:00Z") + w * 7 * 864e5); return fmtD(d.toISOString().slice(0, 10) + "T00:00"); };
+  h += '<section class="sec"><h2>Hafta hafta</h2><p class="sub">Olay sayısı, kör nokta kuralını karşılayan olaylar (az veren tarafa göre) ve siyasi başlıklarda ' +
+    "ortalama yüklü dil yoğunluğu (etkin kurumlar, bloklara göre).</p>" +
+    '<div class="scroller panel"><table><thead><tr><th>Hafta başı</th><th class="r">Olay</th><th class="r">Kör nokta: sol az</th><th class="r">Kör nokta: sağ az</th>' +
+    sides.map(function (s) { return '<th class="r">Yoğunluk · ' + SIDE[s].toLocaleLowerCase("tr") + "</th>"; }).join("") + "</tr></thead><tbody>" +
+    Object.keys(W).map(Number).sort(function (a, b) { return a - b; }).map(function (w) { var r = W[w];
+      return "<tr><td>" + lab(w) + '</td><td class="r num">' + r.ev + '</td><td class="r num">' + r.bsL + '</td><td class="r num">' + r.bsR + "</td>" +
+        sides.map(function (s) { return '<td class="r num">' + (r.n[s] ? (r.v[s] / r.n[s]).toFixed(1) : "—") + "</td>"; }).join("") + "</tr>"; }).join("") +
+    "</tbody></table></div></section>";
+  /* 3 · narrative map over the weeks */
+  var nw = NW.filter(function (w) { return w.k !== "v1"; });
+  h += '<section class="sec"><h2>Anlatı haritası, hafta hafta</h2><p class="sub">Kurumların en az iki boyutta ayrıştığı olaylarda en sık ayrışılan boyutlar. ' +
+    'Mor satırlar YZ ile kodlanan haftalardır.</p><div class="scroller panel"><table><thead><tr><th>Hafta</th><th class="r">Gösterilen olay</th>' +
+    NORD.slice(0, 7).map(function (d) { return '<th class="r">' + esc(NDL[d]) + "</th>"; }).join("") + "</tr></thead><tbody>" +
+    nw.map(function (w) { var ks = w.keys.filter(narrOk), c = {};
+      ks.forEach(function (k) { (D.N[k].focus || []).forEach(function (d) { c[d] = (c[d] || 0) + 1; }); });
+      return "<tr" + (w.coded === "agent" ? ' class="ai-row"' : "") + '><td><a class="lnk" href="#/anlati?w=' + w.k + '">' + esc(w.l) + '</a></td><td class="r num">' + ks.length + "</td>" +
+        NORD.slice(0, 7).map(function (d) { return '<td class="r num">' + (ks.length ? Math.round(100 * (c[d] || 0) / ks.length) + "%" : "—") + "</td>"; }).join("") + "</tr>"; }).join("") +
+    "</tbody></table></div></section>";
+  /* 4 · AI trends by bloc and outlet */
+  var B = bg7();
+  if (B) {
+    var R = bg7Rates(), S = bg7Stats();
+    var cs = Object.keys(S).filter(function (k) { return S[k].unc + S[k].sup; }).sort(function (a, b) { return (S[b].unc + S[b].sup) - (S[a].unc + S[a].sup); }).slice(0, 8);
+    var bl = {};
+    B.events.forEach(function (x) { if (x.status !== "review_complete" || !EV[x.event]) return;
+      var cov = {}; EV[x.event].s.forEach(function (s) { cov[bloc(s)] = 1; });
+      bg7Live(x).forEach(function (f) { var k = bg7k(f.id), r = bl[k] || (bl[k] = { cov: {}, hit: {} }), hit = {};
+        (f.evidence || []).forEach(function (q) { (q.o || []).forEach(function (o) { hit[bloc(o)] = 1; }); });
+        sides.forEach(function (sd) { if (cov[sd]) { r.cov[sd] = (r.cov[sd] || 0) + 1; if (hit[sd]) r.hit[sd] = (r.hit[sd] || 0) + 1; } }); }); });
+    var os = Object.keys(R).filter(function (s) { return R[s].cov >= 20; }).sort(function (a, b) { return R[b].rate - R[a].rate; });
+    h += '<section class="sec ai-box"><h2>YZ incelemesi: bloklar ve kurumlar ' + bg7AiTag() + "</h2>" +
+      "<p>Kaynak: en çok kurumun verdiği " + B.summary.planned + " olayda YZ incelemesi (Yöntem § 11). Oran, bir kavram için “bağlam gerekli” çıkan olaylarda o bloğun " +
+      "en az bir başlığının kanıt olarak alıntılandığı olayların payıdır. Alıntı yanlılık hükmü değildir; başlığın farklı yazıldığını gösterir.</p>" +
+      '<div class="scroller"><table><thead><tr><th>Kavram</th>' + sides.map(function (sd) { return '<th class="r">' + SIDE[sd] + "</th>"; }).join("") + "</tr></thead><tbody>" +
+      cs.map(function (k) { var r = bl[k] || { cov: {}, hit: {} };
+        return "<tr><td>" + esc(S[k].name) + "</td>" + sides.map(function (sd) { return '<td class="r">' + (r.cov[sd] ? Math.round(100 * (r.hit[sd] || 0) / r.cov[sd]) + "% · " + r.cov[sd] : "—") + "</td>"; }).join("") + "</tr>"; }).join("") +
+      "</tbody></table></div><p style=\"margin-top:8px\">Hücre: oran · bloğun o kavramda verdiği olay sayısı.</p>" +
+      '<div class="scroller" style="margin-top:12px"><table><thead><tr><th>Kurum</th><th class="r">İncelenen olay</th><th class="r">Kanıt olarak alıntılandığı</th><th class="r">Oran</th></tr></thead><tbody>' +
+      os.map(function (s) { return '<tr><td><a class="lnk" href="#/kurum?s=' + s + '">' + esc(srcName(s)) + "</a> · " + SIDE[bloc(s)].toLocaleLowerCase("tr") +
+        '</td><td class="r">' + R[s].cov + '</td><td class="r">' + R[s].hit + '</td><td class="r">%' + Math.round(100 * R[s].rate) + "</td></tr>"; }).join("") +
+      "</tbody></table></div><p style=\"margin-top:8px\">En az 20 incelenen olayı veren kurumlar. Editörün reddettiği sonuçlar sayılmaz.</p></section>";
+  }
+  return h + "</div>";
+}
+rev7Init();
 /* The measures are exposed for inspection. This is a research tool: anyone
    who wants to check a published number should be able to recompute it in the
    console against the same data the page used, rather than take it on trust. */

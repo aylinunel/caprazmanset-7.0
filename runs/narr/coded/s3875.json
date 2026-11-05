@@ -1,0 +1,12 @@
+{"q": {"happened": "Galatasaray-Fenerbahçe derbisinin tarihinin değişip değişmeyeceği gündeme geldi ve konuyla ilgili bir karar verildi.", "agree": "Derbinin tarihinin tartışma konusu olduğu ortak.", "differ": "Sabah, ntv ve karar tarihin 'değişebileceğini', ahaber ve takvim kararın beklendiğini yazarken; sözcü ve milligazete tarihin değiştiğini ('sürpriz') duyuruyor; habertürk ve star ise tarihin değişmediğini bildiriyor; karar ve takvim gözleri TFF'ye çeviriyor.", "care": "Başlıklar aynı konuda birbiriyle çelişen sonuçlar veriyor; tarihin değiştiğini söyleyen başlıklar, değişmediğini söyleyenlerle yan yana okununca okur doğru bilgiye ulaşamıyor."}, "rows": [
+{"s": "sabah", "frame": "Belirsizlik", "hero": "", "blame": "", "cause": "", "cons": "Olası tarih değişikliği", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Belirsizlik", "hero": "", "blame": "", "cause": "", "cons": "Olası tarih değişikliği", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Belirsizlik", "hero": "", "blame": "", "cause": "", "cons": "Olası tarih değişikliği", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Sürpriz değişiklik", "hero": "", "blame": "", "cause": "", "cons": "Tarih değişikliği", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Sürpriz değişiklik", "hero": "", "blame": "", "cause": "", "cons": "Tarih değişikliği", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Belirsizlik", "hero": "TFF", "blame": "", "cause": "", "cons": "Olası tarih değişikliği", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Belirsizlik", "hero": "TFF", "blame": "", "cause": "", "cons": "Olası tarih değişikliği", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Tarih değişmedi", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Son karar", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "", "cons": "Tarih değişmedi", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

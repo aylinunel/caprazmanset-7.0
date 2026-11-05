@@ -1,0 +1,154 @@
+{
+ "q": {
+  "happened": "İstanbul Fatih'te 14 yaşındaki bir çocuk su birikintisinde elektrik akımına kapılarak hayatını kaybetti.",
+  "agree": "Çocuğun elektrik akımına kapılarak öldüğü ortak.",
+  "differ": "Cumhuriyet olayı 'sağanak faciası', Yeni Asya 'sel' olarak hava olayına bağlıyor; Karar 'feci ölüm' diyor; TRT Haber çocuğu 'genç hafız' olarak tanıtıp cenazeyi aktarıyor; Diriliş elektrik akımını hiç anmıyor.",
+  "care": "Ölümün sağanağa mı yoksa su birikintisindeki elektrik akımına mı bağlandığı, ihmal ve sorumluluk sorusunun başlıkta görünüp görünmeyeceğini belirliyor; hiçbir başlık bir sorumlu adı vermiyor."
+ },
+ "rows": [
+  {
+   "s": "haberturk",
+   "frame": "Olgu aktarımı",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Elektrik akımı",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Trajedi",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Elektrik akımı",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Afet",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Sağanak",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Olgu aktarımı",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Elektrik akımı",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Olgu aktarımı",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Elektrik akımı",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Olgu aktarımı",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Elektrik akımı",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Olgu aktarımı",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Elektrik akımı",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Olgu aktarımı",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Su birikintisi",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Olgu aktarımı",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Elektrik akımı",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yeniasya",
+   "frame": "Afet",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Sel",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Trajedi",
+   "hero": "Çocuk",
+   "blame": "",
+   "cause": "Elektrik akımı",
+   "cons": "Ölüm",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Yas",
+   "hero": "Genç hafız",
+   "blame": "",
+   "cause": "Elektrik akımı",
+   "cons": "Cenaze",
+   "aff": "Çocuk",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

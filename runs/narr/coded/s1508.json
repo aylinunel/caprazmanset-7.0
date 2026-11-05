@@ -1,0 +1,11 @@
+{"q": {"happened": "Suudi Arabistan'ın başkenti Riyad'da patlama sesleri duyuldu; birkaç başlık 3 ayrı patlama ve öncesinde saldırı uyarısı ya da alarm verildiğini aktarıyor.", "agree": "Riyad'da patlama sesleri duyulduğu ortak.", "differ": "NTV ve Mynet olayı Husilere bağlıyor, Mynet Husilerin 'havalimanını vurduk' iddiasını başlığa taşıyor; AA, Cumhuriyet ve A Haber saldırı uyarısını/alarmı öne çıkarıyor; TRT Haber, Sözcü, Habertürk ve Star yalnızca patlama seslerini aktarıyor.", "care": "Faili başlıkta adlandırmak olayı bir savaş saldırısı olarak sunar; adsız 'patlama sesleri' ise nedeni belirsiz bırakır."}, "rows": [
+{"s": "aa", "frame": "Güvenlik tehdidi", "hero": "Suudi Arabistan", "blame": "", "cause": "Saldırı uyarısı", "cons": "Patlama sesleri", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Olgu aktarımı", "hero": "Suudi Arabistan", "blame": "", "cause": "", "cons": "Patlama sesleri", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Olgu aktarımı", "hero": "Suudi Arabistan", "blame": "", "cause": "", "cons": "Patlama sesleri", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Suudi Arabistan", "blame": "", "cause": "", "cons": "Patlama sesleri", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Husi saldırıları", "hero": "Husiler", "blame": "Husiler", "cause": "Husi saldırıları", "cons": "Patlama sesleri", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Güvenlik tehdidi", "hero": "Suudi Arabistan", "blame": "", "cause": "Saldırı uyarısı", "cons": "Patlama sesleri", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Husi saldırıları", "hero": "Husiler", "blame": "Husiler", "cause": "Husi saldırıları", "cons": "Havalimanı saldırısı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Olgu aktarımı", "hero": "Suudi Arabistan", "blame": "", "cause": "", "cons": "Patlama sesleri", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Güvenlik tehdidi", "hero": "Suudi Arabistan", "blame": "", "cause": "Saldırı uyarısı", "cons": "Patlama sesleri", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

@@ -877,6 +877,174 @@
   ]
  },
  {
+  "event": "s1519",
+  "week": "w7",
+  "title": "İstanbul Boğazı'nda sürüklenen gemi kurtarıldı",
+  "headlines": [
+   {
+    "s": "ntv",
+    "hl": "Didim açıklarında sürüklenen teknedeki 2 kişi kurtarıldı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Çanakkale Boğazı’nda sürüklenen teknedeki 2 kişi kurtarıldı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "İstanbul Boğazı'nda gemi sürüklendi: İstikametinin tersine döndü"
+   },
+   {
+    "s": "sozcu",
+    "hl": "İstanbul Boğazı'nda sürüklenen gemi kurtarıldı"
+   },
+   {
+    "s": "star",
+    "hl": "İstanbul Boğazı'nda korkutan anlar: Arızalanan dev gemi kontrolsüzce sürüklendi"
+   },
+   {
+    "s": "ahaber",
+    "hl": "İstanbul Boğazı'nda panik anları! Kuru yük gemisi kıyıya sürüklendi"
+   },
+   {
+    "s": "haberturk",
+    "hl": "İstanbul Boğazı'nda sürüklenen gemi kurtarıldı"
+   },
+   {
+    "s": "karar",
+    "hl": "İstanbul Boğazı'nda gemi arızası: Sürüklenerek ters döndü"
+   },
+   {
+    "s": "dirilis",
+    "hl": "İstanbul Boğazı'nda sürüklenen konteyner gemisi kurtarıldı"
+   }
+  ]
+ },
+ {
+  "event": "s1508",
+  "week": "w7",
+  "title": "Suudi Arabistan'ın başkenti Riyad'da patlama sesleri",
+  "headlines": [
+   {
+    "s": "aa",
+    "hl": "Suudi Arabistan'ın başkenti Riyad'da saldırı uyarısı sonrası 3 ayrı patlama sesi duyuldu"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Suudi Arabistan'da patlama sesleri duyuldu"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Suudi Arabistan'ın başkenti Riyad'da patlama sesleri"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Riyad'da 3 patlama sesi duyuldu - Güncel Dünya Haberleri"
+   },
+   {
+    "s": "ntv",
+    "hl": "Husilerin Suudi Arabistan'a saldırıları sürüyor. 3 ayrı patlama sesi duyuldu"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Riyad'da 'tehlike alarmı' verildi: 3 ayrı patlama sesi duyuldu"
+   },
+   {
+    "s": "mynet",
+    "hl": "Suudi Arabistan'ın başkenti Riyad'da alarm! Husiler: \"Havalimanını vurduk\""
+   },
+   {
+    "s": "star",
+    "hl": "Suudi Arabistan'da patlama sesleri"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Suudi Arabistan'ın başkenti Riyad'da patlama sesleri duyuldu, hava saldırısı tehdidi içeren uyarı..."
+   }
+  ]
+ },
+ {
+  "event": "s1497",
+  "week": "w7",
+  "title": "Cibuti açıklarında göçmen faciası! Tekne battı: 15'i çocuk 139 ölü, 84 kayıp",
+  "headlines": [
+   {
+    "s": "cumhuriyet",
+    "hl": "Cibuti açıklarında göçmen teknesi battı: 109 ölü, 116 kayıp"
+   },
+   {
+    "s": "ntv",
+    "hl": "Cibuti açıklarında göçmen faciası: 15'i çocuk, en az 109 can kaybı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Cibuti'de facia: 15'i çocuk 109 ölü, 116 kayıp"
+   },
+   {
+    "s": "takvim",
+    "hl": "Cibuti açıklarında göçmen faciası! Tekne battı: 15'i çocuk 139 ölü, 84 kayıp"
+   },
+   {
+    "s": "karar",
+    "hl": "Cibuti açıklarında umuda yolculuk faciayla bitti: 109 ölü, 116 kayıp"
+   },
+   {
+    "s": "star",
+    "hl": "Cibuti açıklarında gemi faciası: 109 ölü, 116 kişi aranıyor"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Cibuti açıklarında gemi faciası: 109 kişi hayatını kaybetti"
+   },
+   {
+    "s": "yeniasya",
+    "hl": "Cibuti açıklarında gemi alabora oldu: 109 kişi öldü ve 116'dan fazla kişi kayıp"
+   },
+   {
+    "s": "sabah",
+    "hl": "Cibuti açıklarında göçmen teknesi battı: 139 ölü, 84 kayıp"
+   }
+  ]
+ },
+ {
+  "event": "s3611",
+  "week": "w7",
+  "title": "Hakem Mehmet Türkmen'e UEFA Konferans Ligi'nde görev",
+  "headlines": [
+   {
+    "s": "sabah",
+    "hl": "UEFA Konferans Ligi heyecanı başlıyor!"
+   },
+   {
+    "s": "star",
+    "hl": "UEFA Konferans Ligi'nde ilk hafta maçları yarın!"
+   },
+   {
+    "s": "karar",
+    "hl": "Mehmet Türkmen'e UEFA Konferans Ligi'nde görev"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "UEFA'dan Mehmet Türkmen'e görev!"
+   },
+   {
+    "s": "ntv",
+    "hl": "Trabzonspor, UEFA Konferans Ligi'ne Finlandiya'da zaferle başladı"
+   },
+   {
+    "s": "diken",
+    "hl": "UEFA Konferans Ligi: Trabzonspor deplasmanda dört golle galip"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Konferans Ligi'nde yeni sezon 10 maçla başladı"
+   },
+   {
+    "s": "takvim",
+    "hl": "Konferans Ligi'nde ilk hafta bitti! Sürpriz sonuçlar damga vurdu"
+   }
+  ]
+ },
+ {
   "event": "s1566",
   "week": "w7",
   "title": "Türkiye Belediyeler Birliği Başkan Vekiliği’ne Ayşe Ünlüce, seçildi",
@@ -1014,6 +1182,625 @@
    {
     "s": "takvim",
     "hl": "KPSS Ortaöğretim sınav giriş belgesi sorgulama 2026"
+   }
+  ]
+ },
+ {
+  "event": "s3692",
+  "week": "w7",
+  "title": "Trabzonspor'da Paul Onuachu şoku! Gol attı ve sakatlandı",
+  "headlines": [
+   {
+    "s": "ahaber",
+    "hl": "Trabzonspor'da Paul Onuachu şoku! Gol attı ve sakatlandı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Trabzonspor'da kötü haber: Paul Onuachu oyuna devam edemedi!"
+   },
+   {
+    "s": "ntv",
+    "hl": "Trabzonspor'da sakatlık şoku, golü attı oyundan çıktı"
+   },
+   {
+    "s": "sabah",
+    "hl": "Trabzonspor'da Paul Onuachu şoku! Golünü attı, oyundan çıktı..."
+   },
+   {
+    "s": "haberturk",
+    "hl": "Trabzonspor'da sakatlık şoku: Paul Onuachu - Trabzonspor Haberler - HT Spor"
+   },
+   {
+    "s": "karar",
+    "hl": "Onuachu’dan Trabzonspor’a kötü haber: Golünü attı sakatlandı"
+   },
+   {
+    "s": "takvim",
+    "hl": "Trabzonspor'a Onuachu'dan kötü haber! İlk maçta sakatlandı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Trabzon'a şok! Onuachu golünü attı sakatlandı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Trabzonspor'a Beşiktaş maçı öncesi Onuachu şoku!"
+   }
+  ]
+ },
+ {
+  "event": "s3593",
+  "week": "w7",
+  "title": "UEFA Şampiyonlar Ligi'nde gecenin sonuçları!",
+  "headlines": [
+   {
+    "s": "star",
+    "hl": "Şampiyonlar Ligi'nde gecenin sonuçları belli oldu!"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Şampiyonlar Ligi’nde ikinci hafta maçları oynandı"
+   },
+   {
+    "s": "sabah",
+    "hl": "UEFA Şampiyonlar Ligi'nde sürpriz sonuçlar!"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Şampiyonlar Ligi'nde büyük sürprizler! Devler Ligi'nde gecenin sonuçları"
+   },
+   {
+    "s": "takvim",
+    "hl": "Şampiyonlar Ligi'nde 9 maçta 32 gol! Gecenin sonuçları"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "İşte UEFA Şampiyonlar Ligi'nde günün sonuçları"
+   },
+   {
+    "s": "haberturk",
+    "hl": "UEFA Şampiyonlar Ligi'nde gecenin sonuçları!"
+   },
+   {
+    "s": "karar",
+    "hl": "Şampiyonlar Ligi'nde tarihin en gollü haftası yaşandı"
+   },
+   {
+    "s": "ntv",
+    "hl": "UEFA Şampiyonlar Ligi'nde tarihi rekor. Turnuvada böylesi olmamıştı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Şampiyonlar Ligi'nde haftanın 11'i belli oldu! Fenerbahçe ve Galatasaray..."
+   }
+  ]
+ },
+ {
+  "event": "s1618",
+  "week": "w7",
+  "title": "Etimesgut Belediyesi soruşturmasında 2 başkan yardımcısı dahil 7 kişi tutuklandı",
+  "headlines": [
+   {
+    "s": "turkiyegz",
+    "hl": "Etimesgut Belediyesi'ne soruşturma: 2 başkan yardımcısı dahil 7 tutuklama"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Son dakika: Etimesgut Belediyesi soruşturmasında 7 kişi tutuklandı"
+   },
+   {
+    "s": "takvim",
+    "hl": "Etimesgut Belediyesi yolsuzluk soruşturmasında iki başkan yardımcısının da aralarında bulunduğu 7 kişi..."
+   },
+   {
+    "s": "ahaber",
+    "hl": "Etimesgut Belediyesi'nde rüşvet ve ihale operasyonu: 2 başkan yardımcısı tutuklandı!"
+   },
+   {
+    "s": "star",
+    "hl": "Etimesgut Belediyesi'ne yolsuzluk soruşturması! Başkan yardımcıları dahil 7 tutuklama"
+   },
+   {
+    "s": "mynet",
+    "hl": "Etimesgut Belediyesi'ne soruşturmada yeni gelişme! Tutuklandılar"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Etimesgut Belediyesi soruşturmasında 2 başkan yardımcısı dahil 7 kişi tutuklandı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Etimesgut Belediyesi'ne yönelik \"yolsuzluk\" soruşturmasında 7 şüpheli tutuklandı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Etimesgut Belediyesi'ne operasyon: Belediye başkan yardımcıları da aralarında 7 kişi tutuklandı"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Etimesgut Belediyesine yönelik &quot;yolsuzluk&quot; soruşturmasında 7 şüpheli tutuklandı"
+   }
+  ]
+ },
+ {
+  "event": "s3562",
+  "week": "w7",
+  "title": "Galatasaray, Barcelona'ya mağlup oldu",
+  "headlines": [
+   {
+    "s": "ahaber",
+    "hl": "Galatasaray, Şampiyonlar Ligi'nde Barcelona'ya 4-1 mağlup oldu: İkinci maçında da puan alamadı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Galatasaray'dan Barcelona'ya dostluk yemeği! - Galatasaray Haberler - HT Spor"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Galatasaray'ın gençleri Barcelona'ya mağlup oldu"
+   },
+   {
+    "s": "mynet",
+    "hl": "UEFA Gençlik Ligi'nde Galatasaray Barcelona'ya diş geçiremedi!"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Galatasaray'ın gençleri Barcelona'ya kaybetti!"
+   },
+   {
+    "s": "sabah",
+    "hl": "SON DAKİKA | Galatasaray sonunu getiremedi! Barcelona'ya 4 golle kaybeti..."
+   },
+   {
+    "s": "ntv",
+    "hl": "Galatasaray, Barcelona'ya diş geçiremedi. Sarı-kırmızılılar, 5 gollü maçta kaybetti"
+   },
+   {
+    "s": "diken",
+    "hl": "UEFA Şampiyonlar Ligi: Galatasaray, Barcelona'ya 4-1 mağlup"
+   },
+   {
+    "s": "yeniasya",
+    "hl": "Galatasaray, Barcelona'ya 4-1 yenildi"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Galatasaray, Barcelona'ya 4-1 yenildi"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Galatasaray, Barcelona'ya mağlup oldu"
+   },
+   {
+    "s": "star",
+    "hl": "MAÇ SONUCU: Galatasaray 1-4 Barcelona"
+   }
+  ]
+ },
+ {
+  "event": "s1509",
+  "week": "w7",
+  "title": "Beyaz Saray, ABD'nin Atina Büyükelçisi Guilfoyle'un istifasını istedi",
+  "headlines": [
+   {
+    "s": "trthaber",
+    "hl": "Trump, ABD'nin Yunanistan Büyükelçisi Guilfoyle'u görevden almayı değerlendiriyor"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Trump’tan Atina Büyükelçisi Guilfoyle’u görevden alma sinyali geldi: Hakkındaki iddialar inceleniyor"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Beyaz Saray, Atina Büyükelçisi Guilfoyle'u görevden alacak: İstifasını istedik"
+   },
+   {
+    "s": "karar",
+    "hl": "Beyaz Saray, Atina Büyükelçisi Guilfoyle'un istifasının istendiğini açıkladı"
+   },
+   {
+    "s": "star",
+    "hl": "ABD'nin Atina Büyükelçisi Guilfoyle'nun istifası istendi"
+   },
+   {
+    "s": "sabah",
+    "hl": "Beyaz Saray, Atina Büyükelçisinin istifasının istendiğini açıkladı!"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Beyaz Saray, ABD'nin Atina Büyükelçisi Guilfoyle'un istifasını istedi"
+   },
+   {
+    "s": "mynet",
+    "hl": "Trump hükümeti ABD'nin Yunanistan Büyükelçisi Guilfoyle'dan istifasını istedi"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Uygunsuz hediye iddiaları sonrası: ABD’nin Yunanistan Büyükelçisi Guilfoyle istifa etti"
+   }
+  ]
+ },
+ {
+  "event": "s3520",
+  "week": "w7",
+  "title": "KuPS Kuopio Trabzonspor MAÇ SONUCU - İşte KuPS Kuopio Trabzonspor maçı özeti ve golleri (Konferans Ligi) - Trabzonspor Haberler - HT Spor",
+  "headlines": [
+   {
+    "s": "sozcu",
+    "hl": "Trabzonspor KuPS hazırlıklarını sürdürdü"
+   },
+   {
+    "s": "star",
+    "hl": "Trabzonspor, KuPS Kuopio maçının hazırlıklarına devam etti"
+   },
+   {
+    "s": "sabah",
+    "hl": "Trabzonspor, KuPS Kuopio maçının hazırlıklarını sürdürdü"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Trabzonspor, UEFA Konferans Ligi'nde KuPS Kuopio ile deplasmanda karşılaşacak!"
+   },
+   {
+    "s": "karar",
+    "hl": "Trabzonspor yarın deplasmanda KuPS Kuopio karşısında"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "KuPS Kuopio - Trabzonspor maçı ne zaman, saat kaçta, hangi kanalda? Şifresiz mi?"
+   },
+   {
+    "s": "takvim",
+    "hl": "Fırtına 3 puanla başladı! Trabzonspor Konferans Ligi'nde KuPS Kuopio'yu 4-2 yendi"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Trabzonspor KuPS Kuopio'yu 4-2 yenerek 3 puanla başladı"
+   },
+   {
+    "s": "ntv",
+    "hl": "KuPS Kuopio-Trabzonspor maçı ne zaman, saat kaçta ve hangi kanalda? Avrupa'da hedef galibiyet"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Trabzonspor KuPS Kuopio'yu 4 golle geçti"
+   }
+  ]
+ },
+ {
+  "event": "s3529",
+  "week": "w7",
+  "title": "Trabzonspor-Beşiktaş maçı öncesi deplasman yasağı kaldırıldı",
+  "headlines": [
+   {
+    "s": "sabah",
+    "hl": "Trabzonspor'dan Beşiktaş maçı açıklaması: \"Deplasmana yasak kaldırılsın\""
+   },
+   {
+    "s": "star",
+    "hl": "Trabzonspor'dan deplasman yasağı çağrısı!"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Beşiktaş'tan Trabzonspor'un talebine destek: 'Deplasman yasağı kaldırılsın'"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Trabzonspor ve Beşiktaş'tan 'Deplasman yasağı kaldırılsın' talebi! - Son Dakika Beşiktaş Haberleri - Habertürk Spor"
+   },
+   {
+    "s": "ntv",
+    "hl": "Trabzonspor'dan Beşiktaş maçı öncesi çağrı. \"Deplasman yasağı kalksın.\""
+   },
+   {
+    "s": "mynet",
+    "hl": "Trabzonspor - Beşiktaş derbisinde 6 yıllık deplasman yasağı sona erdi"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Trabzonspor-Beşiktaş derbisinde deplasman yasağı kaldırıldı: Beşiktaş taraftarı 6 yıl sonra Trabzon'a..."
+   },
+   {
+    "s": "milligazete",
+    "hl": "Trabzonspor - Beşiktaş maçında deplasman yasağı kalktı mı? Beşiktaş taraftarı Trabzon deplasmanında olacak mı?"
+   },
+   {
+    "s": "karar",
+    "hl": "Trabzonspor ile Beşiktaş arasındaki deplasman yasağı sona erdi"
+   }
+  ]
+ },
+ {
+  "event": "s1565",
+  "week": "w7",
+  "title": "İstanbul Fatih'te 14 yaşındaki bir çocuk su birikintisinde elektrik akımına kapılarak hayatını kaybetti",
+  "headlines": [
+   {
+    "s": "haberturk",
+    "hl": "Akıma kapılan çocuk, hayatını kaybetti!"
+   },
+   {
+    "s": "karar",
+    "hl": "İstanbul'da feci ölüm: Su birikintisine basan 14 yaşındaki çocuk elektrik akımına kapıldı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Son dakika... İstanbul’da sağanak faciası: 14 yaşındaki çocuk elektrik akımına kapılarak hayatını kaybetti"
+   },
+   {
+    "s": "star",
+    "hl": "Akıma kapılan 14 yaşındaki çocuk hayatını kaybetti"
+   },
+   {
+    "s": "diken",
+    "hl": "Fatih'te su birikintisinde elektrik akımına kapılan çocuk hayatını kaybetti"
+   },
+   {
+    "s": "sabah",
+    "hl": "Fatih'te bastığı su birikintisinde elektrik akımına kapılan çocuk hayatını kaybetti"
+   },
+   {
+    "s": "milligazete",
+    "hl": "İstanbul Fatih'te 14 yaşındaki bir çocuk su birikintisinde elektrik akımına kapılarak hayatını kaybetti"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Balat'ta su birikintisine basan 14 yaşındaki çocuk hayatını kaybetti"
+   },
+   {
+    "s": "ntv",
+    "hl": "Su birikintisinde elektrik akımına kapılan çocuk hayatını kaybetti"
+   },
+   {
+    "s": "yeniasya",
+    "hl": "Fatih'te bir çocuk selde elektrik akımına kapılarak öldü"
+   },
+   {
+    "s": "ahaber",
+    "hl": "İstanbul Fatih'te su birikintisinde elektrik akımına kapılan çocuk hayatını kaybetti: Hikayesi yürek..."
+   },
+   {
+    "s": "trthaber",
+    "hl": "Fatih'te elektrik akımına kapılarak hayatını kaybeden genç hafız son yolculuğuna uğurlandı"
+   }
+  ]
+ },
+ {
+  "event": "s1586",
+  "week": "w7",
+  "title": "Murat Ağırel, Aylin Kotil ve Ömer Sarıgül gözaltına alındı: Emir Sarıgül hakkında da gözaltı kararı",
+  "headlines": [
+   {
+    "s": "mynet",
+    "hl": "SON DAKİKA | Murat Ağırel gözaltına alındı! Aylin Kotil, Emir Sarıgül ve Ömer Sarıgül de var"
+   },
+   {
+    "s": "karar",
+    "hl": "Murat Ağırel, Aylin Kotil ve Ömer Sarıgül gözaltına alındı: Emir Sarıgül hakkında da gözaltı kararı"
+   },
+   {
+    "s": "takvim",
+    "hl": "Murat Ağırel ve Emir Sarıgül hakkında gözaltı talimatı! İstanbul'da 6 şüpheliye soruşturma"
+   },
+   {
+    "s": "star",
+    "hl": "İstanbul'da kara para aklama soruşturması! Murat Ağırel, Emir Sarıgül, Ömer Sarıgül ve Aylin Kotil'e gözaltı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Aylin Kotil kimdir, aslen nereli, neden gözaltına alındı?"
+   },
+   {
+    "s": "ntv",
+    "hl": "Aylin Kotil, Emir Sarıgül ve Ömer Sarıgül'e gözaltı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "SON DAKİKA HABERİ: Para aklama soruşturması: Oğul Sarıgüller, Aylin Kotil ve Ağırel de gözaltında"
+   },
+   {
+    "s": "diken",
+    "hl": "Murat Ağırel, Ömer ve Emir Sarıgül dahil altı gözaltı kararı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Aylin Kotil kimdir? Aylin Kotil kaç yaşında ve nereli? Aylin Kotil neden gözaltına alındı?"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Aylin Kotil kimin eski eşi, Mustafa Sarıgül ile evli miydi, kaç çocuğu var, Ömer ve Emir Sarıgül kim, neden gündemde?"
+   }
+  ]
+ },
+ {
+  "event": "s3521",
+  "week": "w7",
+  "title": "Samsunspor Bjelica ile imzaladı",
+  "headlines": [
+   {
+    "s": "milligazete",
+    "hl": "Emre Bayraktar kimdir, kaç yaşında, nereli, Samsunspor'un yeni hocası mı, daha önce hangi takımlarda çalıştı?"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Samsunspor, Nenad Bjelica ile anlaşmaya vardı! - Süper Lig Haberleri - Habertürk Spor"
+   },
+   {
+    "s": "sabah",
+    "hl": "Samsunspor'da Nenad Bjelica dönemi başlıyor!"
+   },
+   {
+    "s": "star",
+    "hl": "Samsunspor, teknik direktör Nenad Bjelica ile anlaştı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Samsunspor, Thorsten Fink'in ardından Nenad Bjelica ile sezon sonuna kadar prensip anlaşmasına vardı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Nenad Bjelica, Samsunspor'a imzayı attı"
+   },
+   {
+    "s": "karar",
+    "hl": "Samsunspor Nenad Bjelica ile sözleşme imzaladı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Samsunspor Bjelica ile imzaladı"
+   }
+  ]
+ },
+ {
+  "event": "s1624",
+  "week": "w7",
+  "title": "Cumhurbaşkanı Erdoğan açıkladı: Sağlık Bakanlığına 38 bin personel alınacak",
+  "headlines": [
+   {
+    "s": "trthaber",
+    "hl": "Cumhurbaşkanı Erdoğan: Sağlıkta 38 bin personel alınacak"
+   },
+   {
+    "s": "sabah",
+    "hl": "Başkan Erdoğan müjdeyi verdi: 38 bin hekim dışı personel alacağız"
+   },
+   {
+    "s": "star",
+    "hl": "Cumhurbaşkanı Erdoğan müjdeyi verdi: Sağlıkta 38 bin personel ilanına çıkacağız"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Cumhurbaşkanı Erdoğan müjdeyi verdi: 38 bin sağlıkçı alınacak"
+   },
+   {
+    "s": "ntv",
+    "hl": "Cumhurbaşkanı Erdoğan: 2026 yılı bitmeden 38 bin hekim dışı personel alacağız"
+   },
+   {
+    "s": "birgun",
+    "hl": "Erdoğan açıkladı: Sağlık Bakanlığı 38 bin hekim dışı personel alacak"
+   },
+   {
+    "s": "mynet",
+    "hl": "Cumhurbaşkanı Erdoğan duyurdu: '38 bin personel alınacak'"
+   },
+   {
+    "s": "sozcu",
+    "hl": "2026 yılı bitmeden 38 bin hekim dışı personel alınacak"
+   },
+   {
+    "s": "karar",
+    "hl": "Cumhurbaşkanı Erdoğan açıkladı: Sağlık Bakanlığına 38 bin personel alınacak"
+   },
+   {
+    "s": "diken",
+    "hl": "Sağlık Bakanlığı 38 bin hekim dışı personel alacak"
+   },
+   {
+    "s": "haberturk",
+    "hl": "SAĞLIK BAKANLIĞI 38 BİN HEKİM DIŞI PERSONEL ALIMI YAPACAK! 2026 Sağlık Bakanlığı hekim dışı personel alımı ne zaman, başvuru şartları nelerdir ve kadro-branş dağılımı nasıl olacak?"
+   }
+  ]
+ },
+ {
+  "event": "s1610",
+  "week": "w7",
+  "title": "31 bin 54 sözleşmeli sağlık personeli alınacak! Karar Resmi Gazete'de",
+  "headlines": [
+   {
+    "s": "trthaber",
+    "hl": "31 bin 54 sağlık personelinin istihdamına ilişkin karar Resmi Gazete'de"
+   },
+   {
+    "s": "ntv",
+    "hl": "31 bin sözleşmeli sağlık personeli alınacak. Karar Resmi Gazete'de yayınlandı"
+   },
+   {
+    "s": "star",
+    "hl": "Resmi Gazete'de yayımlandı: 31 bin sözleşmeli sağlık personeli için hizmet birimleri belli oldu"
+   },
+   {
+    "s": "bloomberght",
+    "hl": "2027'de 31 bin 54 sözleşmeli sağlık personeli istihdam edilecek"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Sözleşmeli 31 bin 54 sağlık personeli istihdamına ilişkin karar Resmi Gazete'de"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Sözleşmeli 31 bin sağlık personeli istihdamı, Resmi Gazete'de"
+   },
+   {
+    "s": "sozcu",
+    "hl": "31 bin 54 sözleşmeli sağlık personeli alınacak! Karar Resmi Gazete'de"
+   },
+   {
+    "s": "mynet",
+    "hl": "31 bin 54 sağlık personelinin istihdamına dair karar Resmi Gazete'de"
+   },
+   {
+    "s": "takvim",
+    "hl": "31 bin 54 sözleşmeli sağlık personeli alımı kararı Resmi Gazete'de! Kadro dağılımı belli oldu"
+   },
+   {
+    "s": "karar",
+    "hl": "Resmî Gazete'de yayımlandı: 31 bin 54 sağlık personeli istihdam edilecek!"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Cumhurbaşkanı Erdoğan imzaladı: Sözleşmeli sağlık personeli alınacak"
+   },
+   {
+    "s": "sabah",
+    "hl": "Resmi Gazete'de yayımlandı! Sözleşmeli 31 bin 54 sağlık personeli alınacak"
+   }
+  ]
+ },
+ {
+  "event": "s3607",
+  "week": "w7",
+  "title": "Beşiktaş Avrupa Ligi'nde Hoffenheim deplasmanında",
+  "headlines": [
+   {
+    "s": "sabah",
+    "hl": "Beşiktaş, UEFA Avrupa Ligi'nde Hoffenheim'a konuk olacak!"
+   },
+   {
+    "s": "karar",
+    "hl": "Beşiktaş yarın Hoffenheim deplasmanında"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Beşiktaş Avrupa Ligi'nde Hoffenheim deplasmanında"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Beşiktaş, UEFA Avrupa Ligi’nde Hoffenheim’a konuk olacak: Kartal’da 3 eksik!"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Beşiktaş Avrupa Ligi’nde Hoffenheim’e konuk olacak: Alman takımlarıyla 15. randevu"
+   },
+   {
+    "s": "star",
+    "hl": "Zorlu maç öncesi tek eksik! Beşiktaş, Hoffenheim deplasmanında"
+   },
+   {
+    "s": "takvim",
+    "hl": "Avrupa Kartal'ı sahnede! Beşiktaş Hoffenheim'i Almanya'da 3-2 ile devirdi"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Beşiktaş, UEFA Avrupa Ligi'nin 2. haftasında Hoffenheim'ı Almanya deplasmanında 3-2 mağlup ederek puanını..."
+   },
+   {
+    "s": "milligazete",
+    "hl": "Beşiktaş deplasmanda Hoffenheim’ı devirdi!"
+   },
+   {
+    "s": "diken",
+    "hl": "UEFA Avrupa Ligi: Beşiktaş, Hoffenheim'ı 3-2 yendi"
    }
   ]
  },
@@ -1724,6 +2511,296 @@
   ]
  },
  {
+  "event": "s1799",
+  "week": "w8",
+  "title": "Bağcılar'da zincirleme kaza! Yaralılar var",
+  "headlines": [
+   {
+    "s": "haberturk",
+    "hl": "SON DAKİKA HABERİ: İstanbul Bağcılar'da zincirleme kaza! Yaralılar var"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "İstanbul Bağcılar'da zincirleme trafik kazası: Yaralılar var"
+   },
+   {
+    "s": "takvim",
+    "hl": "Bağcılar'da 5 araçlı zincirleme kaza! 2 kişi yaralandı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "İstanbul'da zincirleme kaza! Yaralılar var, 3 şerit kapatıldı"
+   },
+   {
+    "s": "sabah",
+    "hl": "SON DAKİKA... İstanbul Bağcılar'da zincirleme kaza! Hafriyat kamyonu ve TIR çarpıştı: 3 şerit trafiğe kapatıldı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Bağcılar'da zincirleme kabus! Hafriyat kamyonu ve TIR birbirine girdi"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Bağcılar'da zincirleme kaza: 2 kişi yaralandı"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "İstanbul'da zincirleme kaza! Yaralılar var, ekipler bölgede"
+   },
+   {
+    "s": "ntv",
+    "hl": "Bağcılar’da zincirleme kaza. Yaralılar var, trafik kitlendi"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "İstanbul'da zincirleme kaza: 3 şerit trafiğe kapatıldı"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Bağcılar'da zincirleme kaza!"
+   }
+  ]
+ },
+ {
+  "event": "s1723",
+  "week": "w8",
+  "title": "Meta'ya 25 milyar dolarlık ceza",
+  "headlines": [
+   {
+    "s": "sozcu",
+    "hl": "ABD mahkemesinden Meta'ya 25 milyar dolar ceza"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Kullanıcıları gizlilik konusunda yanılttığı için Meta'ya 25 milyar dolar ceza verildi"
+   },
+   {
+    "s": "bloomberght",
+    "hl": "Meta'ya kullanıcı gizliliği ihlali nedeniyle 25 milyar dolar ceza"
+   },
+   {
+    "s": "sabah",
+    "hl": "ABD'de mahkemeden Meta'ya 25 milyar dolarlık ceza"
+   },
+   {
+    "s": "takvim",
+    "hl": "ABD'den Meta'ya 25 milyar dolarlık ceza! Türk kullanıcılarının verileri de tehlikede mi?"
+   },
+   {
+    "s": "ntv",
+    "hl": "Meta'ya 25 milyar dolarlık gizlilik cezası"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Meta'ya 25 milyar dolar ceza davasında kritik karar"
+   },
+   {
+    "s": "diken",
+    "hl": "Cambridge Analytica skandalı: Meta'ya 25 milyar dolar ceza"
+   },
+   {
+    "s": "milliyet",
+    "hl": "Meta'ya 25 milyar dolar ceza! 'Facebook, kullanıcılarını gizlilik konusunda kasten yanılttı'"
+   },
+   {
+    "s": "mynet",
+    "hl": "ABD'de mahkeme, kullanıcıları gizlilik konusunda yanılttığı için Meta'ya 25 milyar dolar ceza verdi"
+   }
+  ]
+ },
+ {
+  "event": "s4179",
+  "week": "w8",
+  "title": "Şarkıcı Nev son yolculuğuna uğurlandı: Cenazeye Süleyman Soylu da katıldı",
+  "headlines": [
+   {
+    "s": "mynet",
+    "hl": "Aliağa eski Belediye Başkanı Ali Ayhan Bayrak son yolculuğuna uğurlandı"
+   },
+   {
+    "s": "sabah",
+    "hl": "Şarkıcı Nev son yolculuğuna uğurlandı! Tabutu başında gözyaşları sel oldu..."
+   },
+   {
+    "s": "haberturk",
+    "hl": "Ünlü şarkıcı Nev son yolculuğuna uğurlandı - Magazin Haber - HT Magazin"
+   },
+   {
+    "s": "takvim",
+    "hl": "57 yaşında vefat eden Şarkıcı Nev son yolculuğuna uğurlandı! Acılı ağabeyinin cenazedeki sözleri..."
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Ünlü şarkıcı Nev son yolculuğuna uğurlanıyor! Cenazeye Süleyman Soylu da katıldı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Süleyman Soylu arkadaşı Nev'i son yolculuğuna uğurladı"
+   },
+   {
+    "s": "ntv",
+    "hl": "Şarkıcı Nev son yolculuğuna uğurlandı. Tabutu başında gözyaşları sel oldu"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Şarkıcı Nev son yolculuğuna uğurlandı: Cenazeye Süleyman Soylu da katıldı"
+   },
+   {
+    "s": "karar",
+    "hl": "Şarkıcı Nev son yolculuğuna uğurlandı: Süleyman Soylu da cenazeye katıldı"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Nev son yolculuğuna uğurlandı! Türk müziğinde hüzünlü veda!"
+   }
+  ]
+ },
+ {
+  "event": "s4161",
+  "week": "w8",
+  "title": "Engin Altan Düzyatan'ın acı günü! 87 yaşında hayatını kaybeden babası Mevlan Düzyatan son yolculuğuna uğurlandı",
+  "headlines": [
+   {
+    "s": "haberturk",
+    "hl": "Engin Altan Düzyatan'ın acı günü"
+   },
+   {
+    "s": "sabah",
+    "hl": "Engin Altan Düzyatan baba acısıyla sarsıldı!"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Ünlü oyuncu Engin Altan Düzyatan'ın acı günü: Babası Mevlan Düzyatan hayatını kaybetti"
+   },
+   {
+    "s": "takvim",
+    "hl": "Oyuncu Engin Altan Düzyatan baba acısıyla sarsıldı! Mevlan Düzyatan yaşamını yitirdi!"
+   },
+   {
+    "s": "ntv",
+    "hl": "Engin Altan Düzyatan'ın acı günü. Mevlan Düzyatan hayatını kaybetti"
+   },
+   {
+    "s": "mynet",
+    "hl": "Engin Altan Düzyatan'ın acı günü! Babasını kaybetti"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Engin Altan Düzyatan'ın babası kimdir? Mevlan Düzyatan neden öldü? Hastalığı neydi? Cenazesi nerede?"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Engin Altan Düzyatan'ın acı günü"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Usta oyuncu Engin Altan Düzyatan'ın acı günü! Dostları yalnız bırakmadı"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "En acı görev! Engin Altan Düzyatan babasını toprağa verdi"
+   },
+   {
+    "s": "karar",
+    "hl": "Engin Altan Düzyatan'ın acı günü! 87 yaşında hayatını kaybeden babası Mevlan Düzyatan son yolculuğuna uğurlandı"
+   }
+  ]
+ },
+ {
+  "event": "s1815",
+  "week": "w8",
+  "title": "Suç örgütü lideri Necati Arabacı'ya 15 yıl 6 ay hapis",
+  "headlines": [
+   {
+    "s": "ahaber",
+    "hl": "Necati Coşkun Arabacı’ya 15 yıl 6 ay hapis cezası"
+   },
+   {
+    "s": "diken",
+    "hl": "Suç örgütü lideri Necati Arabacı'ya 15 yıl 6 ay hapis"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Coşkun Necati Arabacı'ya 15 yıl 6 ay hapis"
+   },
+   {
+    "s": "star",
+    "hl": "Suç örgütü davası! Coşkun Necati Arabacı'nın cezası belli oldu"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Suç örgütü lideri Necati Arabacı'nın cezası belli oldu"
+   },
+   {
+    "s": "ntv",
+    "hl": "Cehennem Melekleri suç örgütü lideri Necati Arabacı'nın cezası belli oldu"
+   },
+   {
+    "s": "haberturk",
+    "hl": "İzmir'de yargılanan Necati Arabacı'ya suç örgütü davasında hapis cezası verildi"
+   },
+   {
+    "s": "mynet",
+    "hl": "Cehennem Melekleri suç örgütü lideri Necati Arabacı hakkında karar"
+   },
+   {
+    "s": "takvim",
+    "hl": "Cehennem Necati lakaplı Coşkun Necati Arabacı'ya 15 yıl hapis"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Necati Arabacı'nın serveti ne kadar, eşi kim? Cehennem Necati'nin mal varlığı, ailesi ve hayatı"
+   }
+  ]
+ },
+ {
+  "event": "s4049",
+  "week": "w8",
+  "title": "Kadir İnanır'ın vasiyet krizinde Jülide Kural sessizliğini bozdu!",
+  "headlines": [
+   {
+    "s": "ntv",
+    "hl": "Jülide Kural'dan Kadir İnanır'ın vasiyetiyle ilgili ilk açıklama. \"Toprağa vereli 4 ay bile olmadı\""
+   },
+   {
+    "s": "karar",
+    "hl": "Jülide Kural, Kadir İnanır'ın vasiyeti hakkında ilk kez konuştu: Bu insani ve vicdani bir sorumluluk"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Jülide Kural'dan Kadir İnanır'ın vasiyetiyle ilgili ilk açıklama - Son dakika magazin haberleri... - Magazin Haber - HT Magazin"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Kadir İnanır'ın servetini bıraktığı hayat arkadaşı sessizliğini bozdu"
+   },
+   {
+    "s": "sabah",
+    "hl": "Jülide Kural sessizliğini bozdu! Henüz 4 ay bile geçmemişken…"
+   },
+   {
+    "s": "mynet",
+    "hl": "5 milyon dolarlık servet paylaşılamadı! Jülide Kural Kadir İnanır'ın vasiyetiyle ilgili son noktayı koydu"
+   },
+   {
+    "s": "takvim",
+    "hl": "Miras krizi patlak verdi! Jülide Kural Kadir İnanır’ın vasiyet tartışmalarına son noktayı koydu"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Kadir İnanır'ın vasiyet tartışmalarına Jülide Kural'dan yazılı açıklama"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Sessizliğini bozdu... Kadir İnanır'ın hayat arkadaşı Jülide Kural'dan 'vasiyet' açıklaması"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Kadir İnanır'ın vasiyet krizinde Jülide Kural sessizliğini bozdu!"
+   }
+  ]
+ },
+ {
   "event": "s1819",
   "week": "w8",
   "title": "Ağrı'da tır ile otomobil çarpıştı: 4 kişi hayatını kaybetti",
@@ -1775,6 +2852,53 @@
    {
     "s": "sabah",
     "hl": "SON DAKİKA! Ağrı'da katliam gibi kaza! Pancar yüklü TIR'ın altında kalan otomobilde 4 kişi hayatını kaybetti"
+   }
+  ]
+ },
+ {
+  "event": "s4132",
+  "week": "w8",
+  "title": "Çankırı'da otomobil uçuruma yuvarlandı: 4 ölü, 1 yaralı",
+  "headlines": [
+   {
+    "s": "trthaber",
+    "hl": "Çankırı'da otomobil uçuruma yuvarlandı: 4 ölü, 1 yaralı"
+   },
+   {
+    "s": "sabah",
+    "hl": "Çankırı'da korkunç kaza! Araç uçuruma yuvarlandı: 4 ölü, 1 yaralı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Çankırı'da uçuruma yuvarlanan otomobilde 4 kişi öldü, 1 kişi yaralandı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Çankırı'da otomobil uçuruma yuvarlandı: 4 ölü, 1 yaralı"
+   },
+   {
+    "s": "ntv",
+    "hl": "Çankırı'da uçuruma yuvarlanan otomobilde 4 kişi öldü, 1 kişi yaralandı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Çankırı’da uçuruma yuvarlanan otomobilde 4 kişi can verdi"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Çankırı’da facia! Uçuruma yuvarlanan otomobilde 4 kişi can verdi"
+   },
+   {
+    "s": "karar",
+    "hl": "Çankırı'da otomobil uçuruma yuvarlandı: 4 ölü, 1 yaralı"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Çankırı Bayramören'de uçuruma yuvarlanan otomobilde 4 ölü"
+   },
+   {
+    "s": "birgun",
+    "hl": "Çankırı'da otomobil uçuruma yuvarlandı: 4 kişi öldü, 1 kişi yaralandı"
    }
   ]
  },
@@ -1889,6 +3013,108 @@
    {
     "s": "dirilis",
     "hl": "İstanbul’da selde can kaybı 7’ye yükseldi!"
+   }
+  ]
+ },
+ {
+  "event": "s1660",
+  "week": "w8",
+  "title": "Volkswagen'den 660 bin çalışanına \"2030'a kadar sıfır zam\" planı",
+  "headlines": [
+   {
+    "s": "sozcu",
+    "hl": "Volkswagen 660 bin çalışanının maaşını 4 yıl boyunca dondurmaya hazırlanıyor"
+   },
+   {
+    "s": "karar",
+    "hl": "Volkswagen’den 660 bin çalışanı için 2030’a kadar sıfır zam planı"
+   },
+   {
+    "s": "bloomberght",
+    "hl": "Volkswagen'den 660 bin çalışana '2030'a kadar sıfır zam' planı"
+   },
+   {
+    "s": "diken",
+    "hl": "Volkswagen işçilere 2030'a kadar sıfır zam planlıyormuş: 'Sert direniriz'"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Volkswagen'den 660 bin çalışanına \"2030'a kadar sıfır zam\" planı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Volkswagen’de 660 bin çalışanı ilgilendiren plan: Maaşlar 2030’a kadar dondurulabilir"
+   },
+   {
+    "s": "mynet",
+    "hl": "Volkswagen'de çalışanlara kötü haber! Maaşlar 2030’a kadar dondurulabilir"
+   },
+   {
+    "s": "ahaber",
+    "hl": "2030'a kadar sıfır zam planı! Dev şirketten yüz binlerce çalışanını şoke eden hamle: Gözler kasım ayına..."
+   },
+   {
+    "s": "takvim",
+    "hl": "Volkswagen'de kriz: 660 bin çalışana maaş dondurma planı"
+   },
+   {
+    "s": "sabah",
+    "hl": "2030'a kadar işçilere \"sıfır zam\" planı sızdı! Binlerce çalışanın maaşı 4 yıl boyunca dondurulacak"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Volkswagen'den 660 bin işçiye şok: 2030'a dek zam yok"
+   }
+  ]
+ },
+ {
+  "event": "s3975",
+  "week": "w8",
+  "title": "İzmir'de 2 bin yıllık Zeus heykel başı ele geçirildi",
+  "headlines": [
+   {
+    "s": "ahaber",
+    "hl": "İzmir'de 2 bin yıllık Zeus heykeli ele geçirildi: 3 şüpheli gözaltında"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "İzmir'de 'tarihi eser' operasyonu: 2 bin yıllık Zeus heykel başı ele geçirildi"
+   },
+   {
+    "s": "sozcu",
+    "hl": "İzmir'de 2 bin yıllık Zeus heykel başı ele geçirildi"
+   },
+   {
+    "s": "sabah",
+    "hl": "İzmir'de 2 bin yıllık Zeus heykel başı ele geçirildi!"
+   },
+   {
+    "s": "ntv",
+    "hl": "Roma dönemine ait 2 bin yıllık Zeus heykel başı ele geçirildi"
+   },
+   {
+    "s": "haberturk",
+    "hl": "2 bin yıllık Zeus heykel başı ele geçirildi"
+   },
+   {
+    "s": "trthaber",
+    "hl": "2 bin yıllık Zeus heykel başı ele geçirildi"
+   },
+   {
+    "s": "star",
+    "hl": "İzmir'de tarihi eser baskını! 2 bin yıllık Zeus heykeli bulundu"
+   },
+   {
+    "s": "karar",
+    "hl": "İzmir’de 2 bin yıllık Zeus heykel başı ele geçirildi"
+   },
+   {
+    "s": "mynet",
+    "hl": "İzmir'de bulundu! 2 bin yıllık Zeus heykeli ele geçirildi"
+   },
+   {
+    "s": "diken",
+    "hl": "İzmir'de Zeus heykeli başı bulundu: Üç kişi tutuklandı"
    }
   ]
  },
@@ -2011,6 +3237,100 @@
    {
     "s": "haberler",
     "hl": "Real Madrid, El Clasico'da Barcelona'yı 2-1 yenerek rakibinin serisini bitirdi"
+   }
+  ]
+ },
+ {
+  "event": "s4043",
+  "week": "w8",
+  "title": "KPSS ORTAÖĞRETİM SINAV SAATİ: 2026 KPSS ortaöğretim sınavı ne zaman, bugün mü, yarın mı? KPSS ortaöğretim sınavı saat kaçta başlayacak?",
+  "headlines": [
+   {
+    "s": "cumhuriyet",
+    "hl": "2026 KPSS Ortaöğretim sınavı ne zaman, saat kaçta? KPSS Ortaöğretim sınav giriş belgesi nasıl ve nereden alınır?"
+   },
+   {
+    "s": "sabah",
+    "hl": "KPSS Ortaöğretim sınavı ne zaman, saat kaçta? İşte 2026 KPSS lise giriş belgesi sorgulama ekranı"
+   },
+   {
+    "s": "takvim",
+    "hl": "2026 KPSS Ortaöğretim saat kaçta? Giriş belgesi ve sonuç tarihi"
+   },
+   {
+    "s": "haberturk",
+    "hl": "KPSS Ortaöğretim ne zaman, saat kaçta? 2026 KPSS Lise sınav giriş belgesi nereden, nasıl alınır?"
+   },
+   {
+    "s": "trthaber",
+    "hl": "2026-KPSS Ortaöğretim yarın yapılacak"
+   },
+   {
+    "s": "milligazete",
+    "hl": "KPSS Ortaöğretim kaç soru, kaç dakika? 2026 ÖSYM sınav süresi ve soru dağılımı! 25 Ekim KPSS Ortaöğretim sınav saati"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "KPSS sınavı saat kaçta başlıyor? 2026-KPSS Ortaöğretim sınavı kaçta bitecek?"
+   },
+   {
+    "s": "aa",
+    "hl": "KPSS Ortaöğretim yapıldı"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "Son dakika... KPSS Ortaöğretim yapıldı"
+   },
+   {
+    "s": "karar",
+    "hl": "2026-KPSS Ortaöğretim sınavı başladı"
+   }
+  ]
+ },
+ {
+  "event": "s1652",
+  "week": "w8",
+  "title": "Yasa dışı üreme hücresi ticaretine operasyon; 36 gözaltı",
+  "headlines": [
+   {
+    "s": "trthaber",
+    "hl": "14 ilde &quot;yasa dışı üreme hücresi ticareti&quot; operasyonu: 36 gözaltı"
+   },
+   {
+    "s": "star",
+    "hl": "Yasa dışı üreme hücresi ticareti! 14 ilde operasyon... 53 şüpheli hakkında işlem başlatıldı"
+   },
+   {
+    "s": "sabah",
+    "hl": "SON DAKİKA | Yasa dışı üreme hücresi ticareti operasyonu! 14 ilde 53 gözaltı kararı"
+   },
+   {
+    "s": "ntv",
+    "hl": "Yasa dışı üreme hücresi operasyonu. Kadınları fotoğraftan seçmişler, saç renkleri bile yazılmış"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Son dakika haberi: Bakan Gürlek duyurdu: Yasa dışı üreme hücresi ticaretine operasyon!"
+   },
+   {
+    "s": "ahaber",
+    "hl": "14 ilde yasa dışı üreme hücresi ticareti operasyonu! Çeteyi aldatılan eşin CİMER ihbarı çökertti"
+   },
+   {
+    "s": "diken",
+    "hl": "Üreme hücresi operasyonu: 36 gözaltı"
+   },
+   {
+    "s": "tele1",
+    "hl": "Yasa dışı üreme hücresi ticaretine operasyon; 36 gözaltı"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Akın Gürlek duyurdu: Üreme hücresi ticareti operasyonunda 36 gözaltı"
+   },
+   {
+    "s": "takvim",
+    "hl": "14 ilde yasa dışı üreme hücresi ticaretine operasyon! 41 gözaltı, 2 milyon euroluk ağ"
    }
   ]
  },
@@ -2180,6 +3500,312 @@
    {
     "s": "cumhuriyet",
     "hl": "Afyonkarahisar’da katliam gibi kaza... İki otomobil kafa kafaya çarpıştı: Ölü ve yaralılar var"
+   }
+  ]
+ },
+ {
+  "event": "s3913",
+  "week": "w8",
+  "title": "A Milli Takım'da Sergen Yalçın'ın ekibi belli oldu!",
+  "headlines": [
+   {
+    "s": "milligazete",
+    "hl": "Sergen Yalçın'ın Milli Takımdaki maaşı ne kadar, Sergen Yalçın'ın maaşı belli oldu mu?"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Sergen Yalçın’ın ekibi belli oldu! Hepsi Süper Lig’den"
+   },
+   {
+    "s": "karar",
+    "hl": "Sergen Yalçın'ın Milli Takım'daki teknik heyeti belli oldu"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Sergen Yalçın'ın imza töreninin tarihi belli oldu"
+   },
+   {
+    "s": "mynet",
+    "hl": "Sergen Yalçın'ın milli takımdan alacağı maaş belli oldu! Tazminatı da var"
+   },
+   {
+    "s": "haberturk",
+    "hl": "A Milli Takım'da Sergen Yalçın dönemi: İmza töreni düzenlendi!"
+   },
+   {
+    "s": "star",
+    "hl": "Sergen Yalçın imzayı attı! A Milli Takım'da yeni dönem resmen başladı"
+   },
+   {
+    "s": "trthaber",
+    "hl": "A Milli Takım'da Sergen Yalçın dönemi resmen başladı"
+   },
+   {
+    "s": "sabah",
+    "hl": "A Milli Takım'da Sergen Yalçın'ın ekibi belli oldu!"
+   },
+   {
+    "s": "ntv",
+    "hl": "A Milli Takım'da yeni dönem. Sergen Yalçın'ın ekibi açıklandı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "A Milli Futbol Takımı Teknik Direktörü Sergen Yalçın'ın ekibi belli oldu: Listede hangi isimler var?"
+   },
+   {
+    "s": "diken",
+    "hl": "Sergen Yalçın'ın teknik ekibi belli oldu"
+   }
+  ]
+ },
+ {
+  "event": "s3875",
+  "week": "w8",
+  "title": "Galatasaray-Fenerbahçe derbisinin tarihi değişmedi",
+  "headlines": [
+   {
+    "s": "sabah",
+    "hl": "Galatasaray – Fenerbahçe derbisinin tarihi değişebilir!"
+   },
+   {
+    "s": "ntv",
+    "hl": "Galatasaray-Fenerbahçe derbisinin tarihi değişebilir"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Derbinin tarihi mi değişecek? Galatasaray-Fenerbahçe maçı için kritik karar bekleniyor"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Sürpriz gelişme! Galatasaray-Fenerbahçe maçının tarihi değişiyor"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Galatasaray-Fenerbahçe derbisinde sürpriz tarih değişikliği"
+   },
+   {
+    "s": "karar",
+    "hl": "Gözler TFF’nin toplantısında: Galatasaray-Fenerbahçe derbisinin tarihi değişebilir"
+   },
+   {
+    "s": "takvim",
+    "hl": "Gözler TFF'de! Galatasaray - Fenerbahçe derbisinin kararında değişiklik bekleniyor"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Galatasaray - Fenerbahçe derbisinin tarihi değişmedi!"
+   },
+   {
+    "s": "mynet",
+    "hl": "Galatasaray - Fenerbahçe derbisinin tarihi için son karar verildi!"
+   },
+   {
+    "s": "star",
+    "hl": "Galatasaray-Fenerbahçe derbisinin tarihi değişmedi"
+   }
+  ]
+ },
+ {
+  "event": "s4070",
+  "week": "w8",
+  "title": "Barcelona-Real Madrid maçı hangi kanalda, ne zaman, saat kaçta? Arda Güler El Clasico'da ilk 11'de mi?",
+  "headlines": [
+   {
+    "s": "milligazete",
+    "hl": "Barcelona Real Madrid maçı tarihi (El Clasico 2026 hangi gün) Saat kaçta? Hangi kanalda? Arda Güler oynayacak mı?"
+   },
+   {
+    "s": "birgun",
+    "hl": "Barcelona-Real Madrid maçı ne zaman, saat kaçta, hangi kanalda? Arda Güler oynayacak mı? El Clasico için geri sayım başladı!"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Barcelona-Real Madrid maçı ne zaman saat kaçta, hangi kanalda, şifresiz mi, şifreli mi? La Liga'da El Clasico için nefesler tutuldu! Arda Güler ilk 11'de oynayacak mı?"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Barcelona - Real Madrid İLK 11 || Barcelona - Real Madrid maç kadrosu belli oldu mu, Arda Güler oynayacak mı, kimler eksik?"
+   },
+   {
+    "s": "sabah",
+    "hl": "El Clasico heyecanı başlıyor! Barcelona - Real Madrid maçı saat kaçta, hangi kanalda?"
+   },
+   {
+    "s": "ntv",
+    "hl": "Barcelona-Real Madrid maçı ne zaman, saat kaçta, hangi kanalda? Arda Güler, Lamine Yamal'a karşı"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Barcelona-Real Madrid maçı hangi kanalda, nereden izlenir? Arda Güler ilk 11'de mi?"
+   },
+   {
+    "s": "mynet",
+    "hl": "Camp Nou’da dev gece! Barcelona-Real Madrid canlı"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Barcelona Real Madrid canlı nereden izlenir, şifresiz mi? Arda Güler ilk 11'de mi? İLK OLABİLİR..."
+   },
+   {
+    "s": "star",
+    "hl": "MAÇ SONUCU: Barcelona 1-2 Real Madrid"
+   }
+  ]
+ },
+ {
+  "event": "s4176",
+  "week": "w8",
+  "title": "Beşiktaş Başakşehir maçına hazır",
+  "headlines": [
+   {
+    "s": "haberturk",
+    "hl": "Beşiktaş, Başakşehir maçının hazırlıklarına başladı! - Son Dakika Beşiktaş Haberleri - Habertürk Spor"
+   },
+   {
+    "s": "sabah",
+    "hl": "Beşiktaş, Başakşehir maçının hazırlıklarına başladı"
+   },
+   {
+    "s": "star",
+    "hl": "Beşiktaş, Başakşehir maçına hazırlanıyor"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Beşiktaş Başakşehir maçına hazır"
+   },
+   {
+    "s": "haberler",
+    "hl": "Beşiktaş Başakşehir ilk 11’ler açıklandı! SON DAKİKA Beşiktaş Başakşehir maç kadrosunda kimler var?"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Beşiktaş Başakşehir CANLI nereden izlenir? Maç başlıyor"
+   },
+   {
+    "s": "birgun",
+    "hl": "Beşiktaş, Başakşehir’i Oh ve Olaitan’ın golleriyle geçti"
+   },
+   {
+    "s": "aksam",
+    "hl": "MAÇ SONUCU: Beşiktaş 2-0 Başakşehir"
+   },
+   {
+    "s": "ntv",
+    "hl": "Beşiktaş, Başakşehir engelini ikinci yarıda aştı"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Beşiktaş, Başakşehir’i 2-0 mağlup etti!"
+   },
+   {
+    "s": "karar",
+    "hl": "Kartal uçuşa geçti! Beşiktaş, Başakşehir'i iki golle devirdi"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Beşiktaş, Başakşehir'i 2 golle geçti"
+   }
+  ]
+ },
+ {
+  "event": "s3991",
+  "week": "w8",
+  "title": "Son dakika: Mustafa Sarıgül'ün koruması gözaltına alındı",
+  "headlines": [
+   {
+    "s": "ahaber",
+    "hl": "Mustafa Sarıgül'ün korumasıyla olan videosuna 200 bin dolarlık sahte rapor iddiası"
+   },
+   {
+    "s": "takvim",
+    "hl": "Sarıgül'ün videodaki koruması gözaltında! 200 bin dolarlık sahte montaj raporu iddiası"
+   },
+   {
+    "s": "sabah",
+    "hl": "SON DAKİKA | Mustafa Sarıgül’ün o koruması gözaltına alındı! Kara para dosyasında 200 bin dolarlık \"Montaj raporu\" skandalı"
+   },
+   {
+    "s": "star",
+    "hl": "Kara para soruşturmasında yeni gelişme: Sarıgül'ün koruması gözaltında"
+   },
+   {
+    "s": "sozcu",
+    "hl": "SON DAKİKA... Mustafa Sarıgül’ün koruması gözaltına alındı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Son dakika: Mustafa Sarıgül'ün koruması gözaltına alındı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Son Dakika... Mustafa Sarıgül'ün koruması gözaltına alındı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Mustafa Sarıgül'ün koruması gözaltına alındı"
+   },
+   {
+    "s": "tele1",
+    "hl": "Mustafa Sarıgül'ün koruması gözaltına alındı"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Mustafa Sarıgül'ün koruması gözaltına alındı! Kara para soruşturmasında yeni gelişme"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Mustafa Sarıgül'ün yakın koruması Ömer D. gözaltına alındı"
+   }
+  ]
+ },
+ {
+  "event": "s1812",
+  "week": "w8",
+  "title": "Fon soruşturmasında yeni gelişme: 15 şüpheli daha tutuklandı",
+  "headlines": [
+   {
+    "s": "star",
+    "hl": "Fon soruşturmasında yeni gelişme: Tutuklu sayısı yükseldi"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Fon soruşturmasında yeni gelişme: 15 şüpheli daha tutuklandı"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Fon soruşturmasında 15 şüpheli daha tutuklandı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Fon soruşturmasında 15 şüpheli daha tutuklandı"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Fon soruşturmasında yeni tutuklama dalgası! 15 kişi cezaevinde"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Fon soruşturmasında yeni gelişme"
+   },
+   {
+    "s": "sabah",
+    "hl": "'Daltonlar' suç örgütü soruşturmasında 15 şüpheli tutuklandı!"
+   },
+   {
+    "s": "birgun",
+    "hl": "'Daltonlar' soruşturmasında 15 şüpheli tutuklandı"
+   },
+   {
+    "s": "cnnturk",
+    "hl": "SON DAKİKA | Fon soruşturmasında 15 şüpheli daha tutuklandı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "'Daltonlar' soruşturmasında yeni gelişme: 15 tutuklama"
+   },
+   {
+    "s": "yeniasya",
+    "hl": "Fon soruşturmasında 15 tutuklama daha"
    }
   ]
  },
@@ -3154,6 +4780,128 @@
   ]
  },
  {
+  "event": "s4474",
+  "week": "w9",
+  "title": "Gölcük'te MHP’li belediye meclis üyesi silahlı saldırıda hayatını kaybetti",
+  "headlines": [
+   {
+    "s": "haberler",
+    "hl": "Gölcük'te MHP’li belediye meclis üyesi silahlı saldırıda hayatını kaybetti"
+   },
+   {
+    "s": "birgun",
+    "hl": "MHP'li belediye meclis üyesi Saral, silahlı saldırıda öldürüldü"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "MHP'li belediye meclis üyesine silahlı saldırı: Hayatını kaybetti"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Tartışma kanlı bitti; MHP'li meclis üyesi silahlı saldırıda hayatını kaybetti"
+   },
+   {
+    "s": "akit",
+    "hl": "MHP'li meclis üyesi silahlı saldırıda hayatını kaybetti"
+   },
+   {
+    "s": "karar",
+    "hl": "MHP'li Belediye Meclis Üyesi silahlı saldırıda öldürüldü"
+   },
+   {
+    "s": "tgrt",
+    "hl": "MHP'li meclis üyesi Murat Saral silahlı saldırıda öldürüldü"
+   },
+   {
+    "s": "takvim",
+    "hl": "Gölcük'te MHP'li Meclis Üyesi Murat Saral silahlı saldırı sonucu hayatını kaybetti"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Kocaeli'de MHP’li meclis üyesi tartışmada öldürüldü"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Kocaeli’de MHP’li belediye meclis üyesi silahlı saldırıda hayatını kaybetti"
+   },
+   {
+    "s": "ntv",
+    "hl": "MHP'li belediye meclis üyesi silahlı saldırıda öldürüldü"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Kocaeli'de silahlı saldırı! MHP'li meclis üyesi Murat Saral öldürüldü"
+   },
+   {
+    "s": "haberturk",
+    "hl": "MHP'li meclis üyesinin katili arkadaşı çıktı Silahlı saldırıda hayatını kaybeden MHP'li meclis üyesi son yolculuğuna uğurlandı"
+   },
+   {
+    "s": "sondakika",
+    "hl": "Gölcük'te MHP'li meclis üyesi Saral'ı vuran Uzuner İznik'te yakalanıp tutuklandı"
+   }
+  ]
+ },
+ {
+  "event": "s4259",
+  "week": "w9",
+  "title": "Galatasaray-Fenerbahçe derbisi sonrası saha karıştı!",
+  "headlines": [
+   {
+    "s": "cumhuriyet",
+    "hl": "26 Ekim 2026 İstanbul'da metro seferleri uzatıldı mı? Galatasaray-Fenerbahçe derbisi nedeniyle metrolar kaça kadar açık?"
+   },
+   {
+    "s": "karar",
+    "hl": "Galatasaray-Fenerbahçe derbisine özel ek metro seferleri"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Galatasaray-Fenerbahçe derbisi öncesi metro düzenlemesi: Seferler uzatıldı"
+   },
+   {
+    "s": "birgun",
+    "hl": "Galatasaray-Fenerbahçe derbisi için metro seferlerine düzenleme"
+   },
+   {
+    "s": "haberler",
+    "hl": "Galatasaray-Fenerbahçe derbisi için olay skor tahmini! Tam 7 gol çıkacak"
+   },
+   {
+    "s": "mynet",
+    "hl": "Caner Erkin'den Galatasaray-Fenerbahçe derbisi için çarpıcı tahmin!"
+   },
+   {
+    "s": "onedio",
+    "hl": "Galatasaray-Fenerbahçe Derbisi Başladı: Zirve Yolunda Kritik Derbi (Canlı)"
+   },
+   {
+    "s": "sabah",
+    "hl": "Galatasaray-Fenerbahçe derbisi karıştı! Abdülkerim ve Lukaku birbirine girdi..."
+   },
+   {
+    "s": "ahaber",
+    "hl": "Galatasaray-Fenerbahçe derbisi sonrası arbede! İki takım birbirine girdi"
+   },
+   {
+    "s": "diken",
+    "hl": "Derbi biter bitmez kavga çıktı: İki futbolcuya kırmızı kart"
+   },
+   {
+    "s": "takvim",
+    "hl": "Seyrantepe'de arbede! Galatasaray - Fenerbahçe derbisi bitti oyuncular birbirine girdi"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Galatasaray-Fenerbahçe derbisi sonrası saha karıştı! Mert Hakan Yandaş polisle tartıştı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Galatasaray-Fenerbahçe derbisinde saha karıştı! Cem Dizdar yorumladı"
+   }
+  ]
+ },
+ {
   "event": "s4417",
   "week": "w9",
   "title": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu",
@@ -3229,6 +4977,69 @@
   ]
  },
  {
+  "event": "s4660",
+  "week": "w9",
+  "title": "Kadıköy'de otobüste bir yolcu biber gazı sıktı",
+  "headlines": [
+   {
+    "s": "takvim",
+    "hl": "Kadıköy'de otobüste tartıştığı kadın yolcuya biber gazı sıktı: O anlar kamerada"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Tartışma büyüdü, İETT'nin içine biber gazı sıkıp kaçtı: O anlar kamerada"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Kadıköy'de otobüste bir yolcu biber gazı sıktı"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Kadıköy'de otobüste biber gazlı kavga! Yolcular panikle dışarı kaçtı"
+   },
+   {
+    "s": "ntv",
+    "hl": "Pes artık dedirten anlar: Otobüste biber gazı sıktı"
+   },
+   {
+    "s": "akit",
+    "hl": "Otobüste bir anda ortalık karıştı! Yolculara biber gazı sıkıp kaçtı"
+   },
+   {
+    "s": "milligazete",
+    "hl": "İstanbul'da otobüste korku dolu anlar! Kadına vurduğu öne sürülen şahıs yolculara biber gazı sıktı"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Kadıköy'de otobüste biber gazlı saldırı: Nefessiz kalan yolcular karakola sığındı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Kadıköy'de otobüste dehşet anları: Kadına vurdu, ardından otobüsün içine biber gazı sıktı!"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "Kadıköy'de İETT otobüsünde panik: Kadına vurdu, yolculara biber gazı sıkıp kaçtı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Kadıköy'de otobüste biber gazlı saldırı!"
+   },
+   {
+    "s": "star",
+    "hl": "Otobüste biber gazı dehşeti! Yolculara saldırıp kayıplara karıştı"
+   },
+   {
+    "s": "aksam",
+    "hl": "Otobüste maganda terörü kamerada: Biber gazı sıkıp kaçtı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Kadıköy'de otobüste dehşet anları: Yolcuya yumruk atan zanlı biber gazı sıkarak kaçtı"
+   }
+  ]
+ },
+ {
   "event": "s4709",
   "week": "w9",
   "title": "Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede",
@@ -3300,6 +5111,246 @@
    {
     "s": "cnnturk",
     "hl": "Polonya'da darbe suçlaması! Anayasa mahkemesi kimin elinde?"
+   }
+  ]
+ },
+ {
+  "event": "s4844",
+  "week": "w9",
+  "title": "ABD Dışişleri Bakanı Rubio: Türkiye'nin Karadeniz'de tahıl sevkiyatı için ateşkes teklifini değerlendiriyoruz",
+  "headlines": [
+   {
+    "s": "aa",
+    "hl": "Rubio, Türkiye'nin Karadeniz'de tahıl sevkiyatı için ateşkes teklifini değerlendirdiklerini söyledi"
+   },
+   {
+    "s": "sondakika",
+    "hl": "Rubio, Afrika'yı etkileyen tahıl sevkiyatı için kısmi ateşkes önerisini inceliyor"
+   },
+   {
+    "s": "haberler",
+    "hl": "Rubio, Türkiye'nin Karadeniz tahıl sevkiyatı için kısmi ateşkes önerisini değerlendiriyor"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Rubio: Türkiye’nin Karadeniz’de tahıl sevkiyatı için ateşkes teklifini değerlendiriyoruz"
+   },
+   {
+    "s": "sabah",
+    "hl": "Karadeniz'deki kriz için Ankara devrede: ABD Dışişleri Bakanı Rubio açıkladı! \"Türkiye'nin teklifini değerlendiriyoruz\""
+   },
+   {
+    "s": "birgun",
+    "hl": "Rubio'dan açıklama: Türkiye'nin Karadeniz'de tahıl sevkiyatı için ateşkes teklifi değerlendiriliyor"
+   },
+   {
+    "s": "ntv",
+    "hl": "Karadeniz'de tahıl sevkiyatı ateşkesi umudu. Rubio: Türkiye'nin teklifini değerlendiriyoruz"
+   },
+   {
+    "s": "mynet",
+    "hl": "Rubio, Türkiye'nin Karadeniz'de tahıl sevkiyatı için ateşkes teklifini değerlendirdiklerini söyledi"
+   },
+   {
+    "s": "aksam",
+    "hl": "Karadeniz'deki kriz için Ankara devrede! ABD Dışişleri Bakanı Rubio: Türkiye'nin teklifini değerlendiriyoruz"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "ABD duyurdu: Türkiye'nin teklifini değerlendiriyoruz"
+   },
+   {
+    "s": "akit",
+    "hl": "Türkiye ABD'ye ne teklif etti? Rubio: Teklifi değerlendiriyoruz"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Karadeniz'de tahıl ateşkesi umudu! ABD, Türkiye'nin önerisini değerlendiriyor"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "ABD Dışişleri Bakanı Rubio'dan Karadeniz açıklaması: Türkiye'nin teklifini inceliyoruz"
+   }
+  ]
+ },
+ {
+  "event": "s5050",
+  "week": "w9",
+  "title": "Küçükçekmece'de düğünde bıçaklı kavga: 1 ölü",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Küçükçekmece'de düğündeki tartışma bıçaklı kavgaya dönüştü, bir kişi hayatını kaybetti"
+   },
+   {
+    "s": "haberler",
+    "hl": "Küçükçekmece'de düğünde bıçaklanan kişi hastanede hayatını kaybetti"
+   },
+   {
+    "s": "akit",
+    "hl": "Küçükçekmece’de düğündeki kavga can aldı"
+   },
+   {
+    "s": "sabah",
+    "hl": "Küçükçekmece'de düğünde bıçaklı kavga: 1 ölü"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Küçükçekmece’de düğünde dehşet! Boğazından bıçaklanan kişi hayatını kaybetti"
+   },
+   {
+    "s": "star",
+    "hl": "Küçükçekmece'de düğünde bıçaklı kavga: 1 ölü"
+   },
+   {
+    "s": "ntv",
+    "hl": "İstanbul Küçükçekmece'de düğünde bıçaklı kavga: 1 ölü"
+   },
+   {
+    "s": "takvim",
+    "hl": "Küçükçekmece’de düğün salonunda bıçaklı kavga: Boğazından bıçaklanan genç hayatını kaybetti"
+   },
+   {
+    "s": "karar",
+    "hl": "Küçükçekmece’de düğün kana bulandı: 1 kişi bıçaklanarak öldürüldü"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "İstanbul Küçükçekmece'de düğün salonunda bıçaklı kavga: 1 ölü"
+   },
+   {
+    "s": "birgun",
+    "hl": "Küçükçekmece'de düğün salonunda bıçaklı saldırı: 1 ölü"
+   },
+   {
+    "s": "mynet",
+    "hl": "Küçükçekmece’de düğün salonundaki bıçaklı kavgada yeni gelişme: Şüpheli yakalandı"
+   }
+  ]
+ },
+ {
+  "event": "s4848",
+  "week": "w9",
+  "title": "İstanbul Maratonu'nda rekor kırıldı!",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "48. İstanbul Maratonu yarın koşulacak"
+   },
+   {
+    "s": "aa",
+    "hl": "48. İstanbul Maratonu bugün koşulacak"
+   },
+   {
+    "s": "haberler",
+    "hl": "48. İstanbul Maratonu yarın koşulacak"
+   },
+   {
+    "s": "birgun",
+    "hl": "İstanbul Maratonu yarın 48. kez koşulacak"
+   },
+   {
+    "s": "ntv",
+    "hl": "48. İstanbul Maratonu'na geri sayım. 12 milyon lira para ödülü"
+   },
+   {
+    "s": "akit",
+    "hl": "48. İstanbul Maratonu için start verildi"
+   },
+   {
+    "s": "ahaber",
+    "hl": "48. İstanbul Maratonu'nda parkur rekoru geldi! İşte para ödülü"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "48. İstanbul Maratonu başladı"
+   },
+   {
+    "s": "star",
+    "hl": "48. İstanbul Maratonu'nda rekor galibiyet"
+   },
+   {
+    "s": "tgrt",
+    "hl": "48. İstanbul Maratonu'nda kazananlar belli oldu: 7 yıllık rekor kırıldı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "48. İstanbul Maratonu'nda rekorla gelen zafer"
+   },
+   {
+    "s": "milligazete",
+    "hl": "48. İstanbul Maratonu'nda erkekler kategorisinde rekor kırıldı! Zirve Kenyalının atletin"
+   },
+   {
+    "s": "sozcu",
+    "hl": "İstanbul Maratonu'nda rekor kırıldı!"
+   },
+   {
+    "s": "onedio",
+    "hl": "48. İstanbul Maratonu'nda Erkeklerde Rekor Süre, Kadınlarda Etiyopyalı Baze Kazandı"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "48. kez İstanbul Maratonu"
+   }
+  ]
+ },
+ {
+  "event": "s4436",
+  "week": "w9",
+  "title": "Efsane boksör Mike Tyson İstanbul'a geldi",
+  "headlines": [
+   {
+    "s": "haberler",
+    "hl": "Mike Tyson kimdir? Tuzlu Kahve'ye konuk olan Mike Tyson kaç yaşında, nereli, evli mi?"
+   },
+   {
+    "s": "star",
+    "hl": "Dünyaca ünlü boksör Mike Tyson İstanbul'da"
+   },
+   {
+    "s": "akit",
+    "hl": "Mike Tyson İstanbul'a geldi"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Mike Tyson, İstanbul'a geldi: Süper Lig cevabı dikkat çekti"
+   },
+   {
+    "s": "sabah",
+    "hl": "Mike Tyson İstanbul’da! Dikkat çeken Galatasaray-Fenerbahçe cevabı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Dünyaca ünlü boksör Mike Tyson İstanbul’da"
+   },
+   {
+    "s": "karar",
+    "hl": "Efsane boksör Mike Tyson İstanbul’da"
+   },
+   {
+    "s": "takvim",
+    "hl": "Dünyaca ünlü boksör Mike Tyson dizi projesi için İstanbul'a geldi: Türkiye'de olmaktan mutluyum"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Mike Tyson İstanbul'da: İlk açıklamasını yaptı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Mike Tyson Tuzlu Kahve için İstanbul’a geldi: Mike Tyson kimdir, kaç yaşında, Müslüman mı?"
+   },
+   {
+    "s": "ntv",
+    "hl": "Mike Tyson İstanbul'da: \"Türkiye'de bulunmaktan çok mutluyum\""
+   },
+   {
+    "s": "tgrt",
+    "hl": "Tuzlu Kahve dizisine katılan efsane boksör Mike Tyson’ın karakteri belli oldu!"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Efsane boksör Mike Tyson İstanbul'a geldi"
    }
   ]
  },
@@ -3711,6 +5762,69 @@
   ]
  },
  {
+  "event": "s4371",
+  "week": "w9",
+  "title": "SPK'dan nitelikli yatırımcı kararı: 50 milyon liraya çıkarıldı",
+  "headlines": [
+   {
+    "s": "bloomberght",
+    "hl": "Nitelikli yatırımcı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "SPK'dan nitelikli yatırımcı kararı"
+   },
+   {
+    "s": "tgrt",
+    "hl": "SPK’dan kritik nitelikli yatırımcı kararı: 50 milyon TL’ye yükseltildi"
+   },
+   {
+    "s": "mynet",
+    "hl": "SPK'dan nitelikli yatırımcı kararı: 50 milyon TL'ye yükseltildi"
+   },
+   {
+    "s": "haberler",
+    "hl": "SPK düğmeye bastı! Nitelikli yatırımcı limiti 50 milyon liraya yükseldi"
+   },
+   {
+    "s": "aa",
+    "hl": "SPK, nitelikli yatırımcılar için belirlenen finansal varlık toplamını 50 milyon liraya çıkardı"
+   },
+   {
+    "s": "aksam",
+    "hl": "SPK'dan nitelikli yatırımcı kararı: 50 milyon liraya çıkarıldı"
+   },
+   {
+    "s": "star",
+    "hl": "Nitelikli yatırımcı olmanın şartı değişti! SPK, varlık sınırını 50 milyon liraya çıkardı"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Nitelikli yatırımcıda finansal varlık şartı 50 milyon lira oldu"
+   },
+   {
+    "s": "ntv",
+    "hl": "Nitelikli yatırımcı limiti 50 milyon liraya yükseldi"
+   },
+   {
+    "s": "diken",
+    "hl": "Nitelikli yatırımcı limiti 50 milyon liraya yükseltildi"
+   },
+   {
+    "s": "karar",
+    "hl": "SPK'dan fon krizi sürerken kritik karar: Nitelikli yatırımcı sınırı 50 milyon liraya çıkarıldı"
+   },
+   {
+    "s": "tele1",
+    "hl": "SPK'dan nitelikli yatırımcı kararı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "SPK'dan nitelikli yatırımcılar için yeni karar! Finansal varlık şartı 50 milyon TL oldu"
+   }
+  ]
+ },
+ {
   "event": "s4998",
   "week": "w9",
   "title": "Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak?",
@@ -3790,6 +5904,661 @@
    {
     "s": "star",
     "hl": "Enflasyon rakamları belli oldu"
+   }
+  ]
+ },
+ {
+  "event": "s4857",
+  "week": "w9",
+  "title": "Kanuni'nin Mimar Sinan'a yaptırdığı Şam'daki Süleymaniye Tekkesi yeniden açıldı! 14 yıl sonra ilk ezan okundu",
+  "headlines": [
+   {
+    "s": "aa",
+    "hl": "Suriye'nin başkenti Şam'da tarihi Süleymaniye Tekkesi restore edilerek yeniden açıldı"
+   },
+   {
+    "s": "sondakika",
+    "hl": "Osmanlı mirası Süleymaniye Tekkesi Şam'da ibadete döndü: Camide 14 yıl sonra ezan sesi"
+   },
+   {
+    "s": "haberler",
+    "hl": "Kanuni'nin Mimar Sinan'a yaptırdığı Şam'daki Süleymaniye Tekkesi yeniden açıldı! 14 yıl sonra ilk ezan okundu"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Şam'da tarihi açılış! Osmanlı yadigârı Süleymaniye Tekkesi hizmette: 14 yıl sonra ilk ezan"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Suriye'nin başkenti Şam'da tarihi Süleymaniye Tekkesi restore edilerek yeniden açıldı"
+   },
+   {
+    "s": "star",
+    "hl": "Kanuni döneminde Mimar Sinan'a yaptırıldı! Tarihi Süleymaniye Tekkesi yeniden açıldı: Türkiye'ye teşekkür ederiz"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Suriye'nin başkenti Şam'da tarihi Süleymaniye Tekkesi restore edilerek yeniden açıldı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Suriye'nin başkenti Şam'da tarihi Süleymaniye Tekkesi restore edilerek yeniden açıldı"
+   },
+   {
+    "s": "aksam",
+    "hl": "Şam'daki tarihi Osmanlı mirası ihya edildi: Mimar Sinan eseri Süleymaniye Tekkesi törenle yeniden açıldı"
+   },
+   {
+    "s": "takvim",
+    "hl": "Şam'da Kanuni Sultan Süleyman'ın Mimar Sinan'a yaptırdığı Süleymaniye Tekkesi 14 yıl sonra yeniden açıldı"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "14 yıl sonra ilk ezan: Şam'daki tarihi Süleymaniye Tekkesi restore edilerek yeniden ibadete açıldı"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "14 yıl sonra ilk ezan! Kanuni'nin Şam'a mirası Süleymaniye Külliyesi dualarla açıldı"
+   },
+   {
+    "s": "akit",
+    "hl": "Mimar Sinan'ın Şam’daki eseri açıldı! Süleymaniye Külliyesi'nde 15 yıl sonra ilk namaz"
+   }
+  ]
+ },
+ {
+  "event": "s4374",
+  "week": "w9",
+  "title": "Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+  "headlines": [
+   {
+    "s": "tele1",
+    "hl": "Bolu Belediyesi'ne operasyon 4 gözaltı"
+   },
+   {
+    "s": "birgun",
+    "hl": "Bolu Belediyesi'ne operasyon: Belediye Başkan Yardımcısı dahil 4 kişi gözaltında"
+   },
+   {
+    "s": "haberler",
+    "hl": "Bolu Belediyesi operasyonunda Başkan Yardımcısı Özdemir dahil 4 kişi gözaltına alındı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Bolu Belediyesi’ne operasyon: Başkan Yardımcısı dahil 4 gözaltı"
+   },
+   {
+    "s": "aksam",
+    "hl": "Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Bolu Belediyesi'ne şafak operasyonu: Belediye Başkan Yardımcısı dahil 4 gözaltı"
+   },
+   {
+    "s": "sabah",
+    "hl": "Bolu Belediyesi'ne operasyon: 4 gözaltı"
+   },
+   {
+    "s": "star",
+    "hl": "Bolu'da belediyeye şafak operasyonu! Başkan Yardımcısı da gözaltına alınanlar arasında"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Bolu Belediyesi'ne şafak operasyonu: Başkan Yardımcısı Rasim Özdemir de gözaltına alındı"
+   },
+   {
+    "s": "takvim",
+    "hl": "Bolu Belediyesi’nde ihale ve zimmet soruşturması! Başkan Yardımcısı Rasim Özdemir tutuklandı"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında"
+   },
+   {
+    "s": "mynet",
+    "hl": "Bolu Belediyesi'ne yeni operasyon! Başkan yardımcısı dahil 4 kişi gözaltına alındı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Bolu Belediyesi'ne şafak operasyonu: 4 gözaltı"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Bolu Belediyesi’ne şafak operasyonu: 4 kişi gözaltına alındı"
+   },
+   {
+    "s": "karar",
+    "hl": "Bolu Belediyesine operasyon: Belediye başkan yardımcısı dahil 4 kişi gözaltında"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında"
+   },
+   {
+    "s": "diken",
+    "hl": "Bakırköy Belediyesi'ne soruşturma: Beş başkan yardımcısı dahil 58 gözaltı"
+   },
+   {
+    "s": "ntv",
+    "hl": "Bolu Belediyesi'ne operasyon. Belediye Başkan Yardımcısı dahil dört kişi adliyede"
+   },
+   {
+    "s": "sondakika",
+    "hl": "Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı"
+   }
+  ]
+ },
+ {
+  "event": "s4570",
+  "week": "w9",
+  "title": "Kırıkkale'de işçileri taşıyan midibüs devrildi! 14 kişi yaralandı",
+  "headlines": [
+   {
+    "s": "haberturk",
+    "hl": "GÜNCELLEME - Kırıkkale'de midibüsün devrildiği kazada 15 kişi yaralandı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Kırıkkale'de can pazarı: İşçileri taşıyan servis aracı devrildi, 14 yaralı!"
+   },
+   {
+    "s": "haberler",
+    "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi, 1'i ağır 15 kişi yaralandı"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Kırıkkale'de midibüsün devrildiği kazada 14 kişi yaralandı"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Kırıkkale'de feci kaza! İşçileri taşıyan servis devrildi: Çok sayıda yaralı var"
+   },
+   {
+    "s": "sabah",
+    "hl": "Kırıkkale'de işçi servisi devrildi: 1'i ağır 15 yaralı | Video"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Sağanak sonrası feci kaza, Kırıkkale’de işçi servisi devrildi! 15 yaralı"
+   },
+   {
+    "s": "star",
+    "hl": "Kırıkkale'de feci kaza! İşçileri taşıyan servis devrildi: 15 yaralı"
+   },
+   {
+    "s": "aksam",
+    "hl": "Kırıkkale'de işçi midibüsü devrildi! 15 yaralı"
+   },
+   {
+    "s": "birgun",
+    "hl": "Kırıkkale'de midibüs devrildi: 1'i ağır 15 işçi yaralandı"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Kırıkkale’de işçileri taşıyan servis devrildi: 15 yaralı!"
+   },
+   {
+    "s": "ntv",
+    "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi. 15 yaralı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Kırıkkale'de servis midibüsü devrildi: 14 yaralı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Kırıkkale'de servis midibüsü devrildi: Çok sayıda yaralı var!"
+   },
+   {
+    "s": "takvim",
+    "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi: 1'i ağır 15 kişi yaralandı"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi: 15 yaralı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi! 14 kişi yaralandı"
+   }
+  ]
+ },
+ {
+  "event": "s4790",
+  "week": "w9",
+  "title": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı",
+  "headlines": [
+   {
+    "s": "sozcu",
+    "hl": "Ünlü şef Somer Sivrioğlu’nun restoranına kayyum atandı: Milyonluk borcu ortaya çıktı"
+   },
+   {
+    "s": "haberler",
+    "hl": "Somer Sivrioğlu'nun işletmesinde kriz! Kayyum atandı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Somer Sivrioğlu'nun restoranına kayyum atandı! Vergi borcu dudak uçuklattı"
+   },
+   {
+    "s": "karar",
+    "hl": "Somer Sivrioğlu'nun restoranına kayyum atandı: 72 milyonluk borç"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku! Borcu ortaya çıktı"
+   },
+   {
+    "s": "onedio",
+    "hl": "Somer Sivrioğlu'nun Avustralya'daki Restoranına Kayyum Atandı"
+   },
+   {
+    "s": "takvim",
+    "hl": "Milyonluk vergi borcu ödenemedi! Somer Sivrioğlu'nun Sidney'deki restoranına kayyum atandı"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Ünlü şef Somer Sivrioğlu'nun milyonluk borcu çıktı! Avustralya'daki restoranına kayyım atandı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyım atandı: Milyonluk borç ortaya çıktı!"
+   },
+   {
+    "s": "birgun",
+    "hl": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Somer Şef'in restoranına kayyum atandı"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Somer şefin restoranına kayyum atandı: Vergi borcu dudak uçuklattı"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Somer Sivrioğlu'nun restoranına kayyum atandı! Milyonluk vergi borcu gündem oldu"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Somer Sivrioğlu'nun Anason restoranı nerede? Vergi borcu kaç milyon dolar?"
+   },
+   {
+    "s": "aksam",
+    "hl": "Ünlü şefe, Sidney'de vergi şoku! Restoranına kayyum atandı"
+   }
+  ]
+ },
+ {
+  "event": "s4394",
+  "week": "w9",
+  "title": "Balıkesir'de işçi servis minibüsü ile hafif ticari araç kafa kafaya çarpıştı: 9 yaralı",
+  "headlines": [
+   {
+    "s": "haberler",
+    "hl": "Balıkesir Susurluk'ta işçi servisi ile hafif ticari araç çarpıştı, 9 kişi yaralandı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Balıkesir'de işçi servis minibüsü ile hafif ticari araç çarpıştı: Yaralılar var!"
+   },
+   {
+    "s": "sabah",
+    "hl": "Balıkesir'de feci kaza! Servis minibüsü ile ticari araç çarpıştı: Yaralılar var!"
+   },
+   {
+    "s": "sozcu",
+    "hl": "İşçi servisi ile hafif ticari araç kafa kafaya çarpıştı"
+   },
+   {
+    "s": "karar",
+    "hl": "Balıkesir’de işçi servisi ile hafif ticari araç kafa kafaya çarpıştı: 9 yaralı"
+   },
+   {
+    "s": "aksam",
+    "hl": "Balıkesir'de feci kaza: 10 yaralı"
+   },
+   {
+    "s": "star",
+    "hl": "Balıkesir'de feci kaza! Ticari araçla minibüs çarpıştı: 10 yaralı"
+   },
+   {
+    "s": "ntv",
+    "hl": "Balıkesir'de işçi servis minibüsü ile otomobil çarpıştı. 10 yaralı"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Balıkesir'de hafif ticari araç ve minibüs çarpıştı: 10 kişi yaralandı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Balıkesir'de işçi servisi ile hafif ticari araç kafa kafaya çarpıştı! Kazada 9 yaralı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Tır ile kamyonet kafa kafaya çarpıştı: 2 ağır yaralı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Tır ile kamyonet kafa kafaya çarpıştı: 2 ağır yaralı"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "İki araç kafa kafaya çarpıştı: Beş yaralı"
+   },
+   {
+    "s": "akit",
+    "hl": "Akçakoca’da iki araç kafa kafaya çarpıştı: 5 kişi yaralandı"
+   }
+  ]
+ },
+ {
+  "event": "s4784",
+  "week": "w9",
+  "title": "15 yaş altı sosyal medya yasağı başladı mı? 15 yaş altı sosyal medya yasağı yaş doğrulaması nasıl yapılacak?",
+  "headlines": [
+   {
+    "s": "karar",
+    "hl": "15 yaş altına sosyal medya yasağı yarın başlıyor: Kimlik değil yaş doğrulanacak"
+   },
+   {
+    "s": "tgrt",
+    "hl": "15 yaş altına sosyal medya yasağı yarın başlıyor: Hesaplar tek tek silinecek"
+   },
+   {
+    "s": "birgun",
+    "hl": "Sosyal medya yasağı başlıyor: Hesaplar kapatılacak"
+   },
+   {
+    "s": "onedio",
+    "hl": "Sosyal Medya Yasağı Başlıyor: Kimleri Kapsıyor, e-Devlet'ten Yaş Doğrulama Nasıl Yapılacak?"
+   },
+   {
+    "s": "dirilis",
+    "hl": "15 yaş altına sosyal medya yasağı yarın başlıyor!"
+   },
+   {
+    "s": "sabah",
+    "hl": "Sosyal medyada 15 yaş altı yasağı yarın başlıyor! Yaş doğrulaması nasıl yapılacak?"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Sosyal medyada 15 yaş altı yasağı başlıyor: Yaş doğrulaması nasıl yapılacak?"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Sosyal medyada 15 yaş altı çocuklara yasak başlıyor: Yaş doğrulaması nasıl yapılır?"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "15 yaş altı sosyal medya yasağı ne zaman başlayacak? e-Devlet yaş doğrulama süreci"
+   },
+   {
+    "s": "haberturk",
+    "hl": "15 yaş altı sosyal medya yasağı başladı! Yaş doğrulaması nasıl yapılır, sosyal medya yasağı hangi uygulamaları kapsayacak?"
+   },
+   {
+    "s": "haberler",
+    "hl": "Sosyal medya yaş doğrulaması nasıl yapılır? 1 Kasım sosyal medya yasağı hangi uygulamaları kapsayacak?"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "15 yaş altı sosyal medya yasağı ne zaman başlıyor? 15 yaş altı sosyal medya düzenlemesi maddeleri neler?"
+   },
+   {
+    "s": "sondakika",
+    "hl": "Sosyal medyada 15 yaş sınırı yürürlüğe girdi, yaş doğrulaması e-Devlet'ten yapılacak"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "15 yaş altına sosyal medya bugünden itibaren yasak"
+   },
+   {
+    "s": "ntv",
+    "hl": "E-Devlet yaş doğrulaması yapma ekranı. Sosyal medya yaş doğrulaması nasıl ve nereden yapılacak?"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Bakan Göktaş duyurdu: Sosyal medya yasağı resmen başladı"
+   }
+  ]
+ },
+ {
+  "event": "s4551",
+  "week": "w9",
+  "title": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı",
+  "headlines": [
+   {
+    "s": "star",
+    "hl": "''Daltonlar Suç Örgütü''ne eş zamanlı operasyon"
+   },
+   {
+    "s": "haberturk",
+    "hl": "\"Daltonlar\"a 30 ilde eş zamanlı operasyon"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Sosyal medyadan tetikçi ağı kuran suç örgütüne operasyon: 85 gözaltı"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı"
+   },
+   {
+    "s": "mynet",
+    "hl": "Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı kararı"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Son dakika... 'Daltonlar' suç örgütüne 30 ilde dev operasyon"
+   },
+   {
+    "s": "haberler",
+    "hl": "Daltonlar suç örgütüne operasyon! 85 şüpheli gözaltına alındı"
+   },
+   {
+    "s": "birgun",
+    "hl": "İstanbul merkezli 30 ilde 'Daltonlar' suç örgütüne operasyon: 85 şüpheli gözaltında"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Yeni nesil suç örgülerine operasyon: 85 şüpheli gözaltına alındı"
+   },
+   {
+    "s": "karar",
+    "hl": "\"Daltonlar\"a 30 ilde eş zamanlı operasyon: 30’u çocuk yaşta 85 şüpheli gözaltında"
+   },
+   {
+    "s": "sabah",
+    "hl": "SON DAKİKA | Daltonlar suç örgütüne büyük operasyon! 30 ilde 85 gözaltı var"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Daltonlar suç örgütüne operasyon! 30 ilde 85 kişi gözaltına alındı: Tetikçi ağı nasıl kuruldu?"
+   },
+   {
+    "s": "diken",
+    "hl": "30 ilde Daltonlar'a 'tetikçi' operasyonu: 30'u çocuk 85 gözaltı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "'Daltonlar' suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı"
+   },
+   {
+    "s": "aksam",
+    "hl": "\"Daltonlar Suç Örgütü\"ne yönelik operasyon! 85 şüpheli yakalandı"
+   },
+   {
+    "s": "takvim",
+    "hl": "Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 30'u çocuk 85 şüpheli gözaltına alındı"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Yeni nesil suç örgütüne 30 ilde operasyon: 85 gözaltı!"
+   },
+   {
+    "s": "ntv",
+    "hl": "30 ilde Daltonlar'a operasyon. 30'u çocuk 85 şüpheli gözaltında"
+   }
+  ]
+ },
+ {
+  "event": "s4971",
+  "week": "w9",
+  "title": "Galatasaray - Stuttgart",
+  "headlines": [
+   {
+    "s": "sabah",
+    "hl": "Galatasaray, Stuttgart maçı hazırlıklarına başladı!"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Galatasaray, Stuttgart maçının hazırlıklarına başladı!"
+   },
+   {
+    "s": "star",
+    "hl": "Galatasaray, Stuttgart maçı hazırlıklarını sürdürdü"
+   },
+   {
+    "s": "aksam",
+    "hl": "Galatasaray'da Stuttgart mesaisi sürüyor"
+   },
+   {
+    "s": "mynet",
+    "hl": "Galatasaray, Stuttgart maçı hazırlıklarına devam etti"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Galatasaray Stuttgart maçı saat kaçta ve hangi kanalda?"
+   },
+   {
+    "s": "sondakika",
+    "hl": "Galatasaray Stuttgart maçı hazırlığını tamamladı, statü gereği eksikler var"
+   },
+   {
+    "s": "haberler",
+    "hl": "Galatasaray Stuttgart maçı ne zaman, saat kaçta? Galatasaray Stuttgart maçı nerede, hangi statta oynanacak?"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Galatasaray Stuttgart maçına hazır"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Galatasaray, Stuttgart maçı hazırlıklarını tamamladı"
+   },
+   {
+    "s": "onedio",
+    "hl": "Galatasaray - Stuttgart Maçı Ne Zaman, Saat Kaçta ve Hangi Kanalda? Muhtemel 11'ler ve Eksikler"
+   },
+   {
+    "s": "karar",
+    "hl": "Galatasaray Stuttgart’ı ağırlıyor"
+   },
+   {
+    "s": "ntv",
+    "hl": "Şampiyonlar Ligi heyecanı. Galatasaray-Stuttgart maçı saat kaçta, hangi kanal yayınlayacak?"
+   },
+   {
+    "s": "milligazete",
+    "hl": "Galatasaray-Stuttgart maçı hangi kanalda? İşte 11'ler"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Galatasaray-Stuttgart maçı için olay tahmin! Yapay zeka sonucu açıkladı"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Galatasaray-Stuttgart maçı ne zaman? Galatasaray-Stuttgart maçı hangi kanalda yayınlanacak, saat kaçta? İşte Muhtemel 11'ler"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Galatasaray-Stuttgart maçı TRT 1'de"
+   },
+   {
+    "s": "birgun",
+    "hl": "Galatasaray-Stuttgart maçı saat kaçta, hangi kanalda? UEFA Gençlik Ligi"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Galatasaray-Stuttgart maçı hangi kanalda, nerede izlenir? Şampiyonlar Ligi maçı şifresiz yayın bilgileri"
+   },
+   {
+    "s": "cnnturk",
+    "hl": "Galatasaray - Stuttgart Maçı Canlı Anlatım | Temsilcimiz, Devler Ligi sınavında"
+   }
+  ]
+ },
+ {
+  "event": "s4256",
+  "week": "w9",
+  "title": "İstanbul Barosu Başkanı Ümit Kocasakal oldu",
+  "headlines": [
+   {
+    "s": "birgun",
+    "hl": "İstanbul Barosu seçimleri: Ümit Kocasakal yeni başkan seçildi"
+   },
+   {
+    "s": "karar",
+    "hl": "İstanbul Barosu Başkanlık Seçimi ne zaman bitiyor? Ümit Kocasakal hangi gruptan, İbrahim Kaboğlu yeniden aday mı?"
+   },
+   {
+    "s": "haberturk",
+    "hl": "İstanbul Barosu seçimleri sonuçlandı: Ümit Kocasakal başkan seçildi"
+   },
+   {
+    "s": "sozcu",
+    "hl": "İstanbul Barosu Başkanı Ümit Kocasakal oldu"
+   },
+   {
+    "s": "diken",
+    "hl": "İstanbul Barosu başkanlık seçimini Ümit Kocasakal kazandı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "İstanbul Barosu seçimleri: Kazanan Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal oldu"
+   },
+   {
+    "s": "tgrt",
+    "hl": "İstanbul Barosu Başkanı Ümit Kocasakal kimdir, nereli? Ümit Kocasakal listesi"
+   },
+   {
+    "s": "sabah",
+    "hl": "İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu! Kaboğlu dönemi resmen bitti"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "İstanbul Barosu Başkanı Ümit Kocasakal oldu"
+   },
+   {
+    "s": "mynet",
+    "hl": "İstanbul Barosunun yeni başkanı Ümit Kocasakal oldu"
+   },
+   {
+    "s": "milligazete",
+    "hl": "İstanbul Barosu 2026 seçim sonuçları! Kim birinci oldu? Kocasakal kaç oy aldı? Kaboğlu kaç oyda kaldı?"
+   },
+   {
+    "s": "ntv",
+    "hl": "İstanbul Barosu başkanlığına Ümit Kocasakal seçildi"
+   },
+   {
+    "s": "takvim",
+    "hl": "İstanbul Barosu seçim sonuçları belli oldu! Ümit Kocasakal 10 bin 227 oyla başkan seçildi"
+   },
+   {
+    "s": "ahaber",
+    "hl": "İstanbul Barosu'nda başkanlık seçimini Ümit Kocasakal kazandı! 10 bin 227 oy aldı"
+   },
+   {
+    "s": "haberler",
+    "hl": "Ağıralioğlu, İstanbul Barosu Başkanı seçilen Kocasakal'a tebrik mesajı gönderdi"
    }
   ]
  },
@@ -4808,6 +7577,234 @@
   ]
  },
  {
+  "event": "s5383",
+  "week": "w10",
+  "title": "Eski eşini 15 bıçak darbesiyle öldürdü",
+  "headlines": [
+   {
+    "s": "haberturk",
+    "hl": "Eski eşini 15 bıçak darbesiyle öldürdü"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "Aksaray'da vahşet! Eski eşini 15 bıçak darbesiyle öldürdü"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Aksaray’da eski eşini 15 bıçak darbesiyle öldürdü"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Aksaray'da kadın cinayeti: Eski eşini 15 bıçak darbesiyle öldürdü"
+   },
+   {
+    "s": "ntv",
+    "hl": "Eski eşini 15 bıçak darbesiyle öldürdü"
+   },
+   {
+    "s": "sondakika",
+    "hl": "15 bıçak darbesiyle öldürdüğü eski eşi için bunu söyledi: Pişman değilim, ihanet ettiği için öldürdüm"
+   },
+   {
+    "s": "haberler",
+    "hl": "15 bıçak darbesiyle öldürdüğü eski eşi için bunu söyledi: Pişman değilim, ihanet ettiği için öldürdüm"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Eski eşini 15 bıçak darbesiyle öldürdü: Pişman değilim"
+   },
+   {
+    "s": "akit",
+    "hl": "15 bıçak darbesiyle eski eşini katleden şahıs; 'Pişman değilim'"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Eski eşini 15 bıçak darbesiyle öldürdü: Adliyede “Pişman değilim” dedi"
+   },
+   {
+    "s": "sabah",
+    "hl": "Aksaray'da 15 bıçak darbesiyle eski eşini vahşice öldürdü: Katil zanlısının ifadesi pes dedirtti"
+   },
+   {
+    "s": "milliyet",
+    "hl": "15 bıçak darbesiyle eski eşini öldürdü! Korkunç savunma: Pişman değilim"
+   }
+  ]
+ },
+ {
+  "event": "s5169",
+  "week": "w10",
+  "title": "İstanbul'un ekim ayı enflasyonu açıklandı",
+  "headlines": [
+   {
+    "s": "sozcu",
+    "hl": "Son dakika... İstanbul'un ekim ayı enflasyonu belli oldu"
+   },
+   {
+    "s": "akit",
+    "hl": "İstanbul'un ekim ayı enflasyonu açıklandı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "İTO verileri ortaya koydu: İstanbul'un ekim ayı enflasyonu belli oldu"
+   },
+   {
+    "s": "birgun",
+    "hl": "İTO verileri: İstanbul'un ekim ayı enflasyonu belli oldu"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Ne gıda ne de yakıt! İstanbul’un Ekim ayı enflasyonu belli oldu, en çok ne zamlandı?"
+   },
+   {
+    "s": "milligazete",
+    "hl": "İstanbul'da ekim ayı enflasyonu açıklandı! Fiyatı en çok artan ürün grubu belli oldu"
+   },
+   {
+    "s": "cnnturk",
+    "hl": "GÖZLER TÜİK VERİLERİNDE! Ekim ayı enflasyonu ne olur?"
+   },
+   {
+    "s": "takvim",
+    "hl": "Milyonların gözü TÜİK'te! Ekim ayı enflasyonu açıklanıyor"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Ekim ayı enflasyonu belli oldu! Milyonların maaşını etkileyecek! İşte TÜİK'in açıkladığı son rakamlar"
+   },
+   {
+    "s": "haberler",
+    "hl": "Ekim ayı enflasyon oranı 2026 SON DAKİKA! TÜİK Ekim enflasyon açıklandı mı? Ekim ayı enflasyonu yüzde kaç oldu?"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Ekim enflasyonu açıklandı"
+   },
+   {
+    "s": "aksam",
+    "hl": "Son dakika: TÜİK Ekim 2026 enflasyon oranı ne kadar oldu? TEFE TÜFE ekim ayı enflasyon verileri"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Ekim enflasyonu açıklandı"
+   }
+  ]
+ },
+ {
+  "event": "s5531",
+  "week": "w10",
+  "title": "Nepal'de Everest yakınında iki helikopter çarpıştı, 1 turist öldü, 3 kişi yaralandı",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Nepal'de Everest yakınında iki helikopter çarpıştı, 1 turist öldü, 3 kişi yaralandı"
+   },
+   {
+    "s": "milliyet",
+    "hl": "Everest'te iki helikopter havada çarpıştı! Olay anı kamerada"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "Everest Dağı'nda iki helikopter çarpıştı: 1 kişi hayatını kaybetti"
+   },
+   {
+    "s": "haberler",
+    "hl": "Nepal'de Everest yakınında iki helikopter çarpıştı, 1 turist öldü, 3 kişi yaralandı"
+   },
+   {
+    "s": "aa",
+    "hl": "Nepal'de iniş esnasında iki helikopterin çarpışması sonucu 1 kişi öldü, 3 kişi yaralandı"
+   },
+   {
+    "s": "yeniasya",
+    "hl": "Everest’te Feci Helikopter Kazası: 1 Ölü, 3 Yaralı!"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Everest Dağı'nda helikopterler böyle çarpıştı: 1 kişi öldü, 3 kişi yaralandı"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Everest'te iki helikopter havada çarpıştı! Ölü ve yaralılar var"
+   },
+   {
+    "s": "onedio",
+    "hl": "Nepal'de Everest Yakınında İki Helikopter İnişte Çarpıştı: Hintli Turist Hayatını Kaybetti, 3 Kişi Yaralandı"
+   },
+   {
+    "s": "sabah",
+    "hl": "Nepal'de iki helikopter havada çarpıştı! | Video"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Turistik bölgede can pazarı: İki helikopter havada çarpıştı"
+   },
+   {
+    "s": "ntv",
+    "hl": "Nepal'de helikopter kazası: 1 ölü, 3 yaralı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Everest'te helikopter faciası! 4 bin 200 metrede iki helikopter çarpıştı 1 ölü, 2 yaralı"
+   }
+  ]
+ },
+ {
+  "event": "s5326",
+  "week": "w10",
+  "title": "Son kullanma tarihi geçmiş kanser ilaçlarını piyasaya süren 22 şüpheli gözaltında",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Tarihi geçmiş ilaçları yeniden piyasaya süren 22 şüpheli 11 ilde gözaltına alındı"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "Son kullanma tarihi geçmiş kanser ilaçlarıyla vurgun: 22 şüpheli gözaltına alındı"
+   },
+   {
+    "s": "haberler",
+    "hl": "Son kullanma tarihi geçmiş kanser ilaçlarında 11 ilde 22 şüpheli gözaltına alındı"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Son kullanma tarihi geçmiş kanser ilaçlarına yönelik soruşturma: Bakan Gürlek duyurdu"
+   },
+   {
+    "s": "star",
+    "hl": "Tarihi geçmiş kanser ilaçlarını satan vicdansızlara operasyon! 3'ü kamu görevlisi 24 isim tespit edildi"
+   },
+   {
+    "s": "birgun",
+    "hl": "Tarihi geçmiş kanser ilaçlarını piyasaya sürenlere operasyon"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Tarihi geçmiş kanser ilaçlarını piyasaya süren çeteye operasyon! Çok sayıda gözaltı var"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Akın Gürlek duyurdu... Tarihi geçmiş kanser ilaçlarında 650 milyon TL'lik vurgun iddiası: 11 ilde operasyon, 22 gözaltı!"
+   },
+   {
+    "s": "mynet",
+    "hl": "Tarihi geçmiş kanser ilaçlarını yeniden piyasaya sürmüşler! 650 milyon TL'lik işlem hacmi tespit edildi, çok sayıda gözaltı var"
+   },
+   {
+    "s": "karar",
+    "hl": "Tarihi geçmiş kanser ilaçlarını yeniden sattılar: 650 milyon liralık vurgun, 22 gözaltı"
+   },
+   {
+    "s": "aa",
+    "hl": "Tarihi geçmiş kanser ilaçlarını yeniden piyasaya süren şüphelilere yönelik operasyonda 22 kişi gözaltına alındı"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Son kullanma tarihi geçmiş kanser ilaçlarını piyasaya süren 22 şüpheli gözaltında"
+   }
+  ]
+ },
+ {
   "event": "s5316",
   "week": "w10",
   "title": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı",
@@ -4887,6 +7884,128 @@
   ]
  },
  {
+  "event": "s5412",
+  "week": "w10",
+  "title": "Belçika'da hükümet krizi! Başbakan De Wever istifasını Kral'a sundu",
+  "headlines": [
+   {
+    "s": "cumhuriyet",
+    "hl": "Belçika'da hükümet krizi patlak verdi: Başbakan istifasını sundu"
+   },
+   {
+    "s": "star",
+    "hl": "Belçika'da hükümet krizi! Başbakan De Wever istifasını Kral'a sundu"
+   },
+   {
+    "s": "aksam",
+    "hl": "Belçika'da siyasi kriz derinleşiyor! Başbakan istifasını sundu"
+   },
+   {
+    "s": "ntv",
+    "hl": "Belçika'da bütçe krizi. Başbakan De Wever istifa etti, Kral süreci erteledi"
+   },
+   {
+    "s": "aa",
+    "hl": "Belçika Başbakanı De Wever, Kral Philippe'e istifasını sundu"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Belçika'da hükümet krizi! Başbakan istifasını sundu, Kral kabul etmedi"
+   },
+   {
+    "s": "takvim",
+    "hl": "Belçika'da 10 milyar euroluk bütçe krizi! Başbakan Bart De Wever istifa etti Kral Philippe kararı erteledi"
+   },
+   {
+    "s": "birgun",
+    "hl": "Belçika'da bütçe krizi: Başbakan Bart De Wever istifa etti"
+   },
+   {
+    "s": "milliyet",
+    "hl": "Belçika'da siyasi deprem! Başbakan Bart De Wever istifa etti"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Belçika Başbakanı De Wever, Kral Philippe'e istifasını sundu"
+   },
+   {
+    "s": "karar",
+    "hl": "Belçika’da hükümet istifasını sundu: Kral Philippe kararı askıya aldı"
+   },
+   {
+    "s": "sabah",
+    "hl": "Belçika’da hükümet krizi kapıda: Başbakan istifayı sundu! Gözler Kral Philippe’de"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Belçika'da bütçe anlaşmazlığı hükümeti sarstı! Başbakan De Wever istifasını Kral Philippe'e sundu"
+   },
+   {
+    "s": "cnnturk",
+    "hl": "Belçika Başbakanı De Wever istifasını sundu"
+   }
+  ]
+ },
+ {
+  "event": "s5278",
+  "week": "w10",
+  "title": "Fenerbahçe'de Sergio Conceiçao kararı çıktı",
+  "headlines": [
+   {
+    "s": "yenisafak",
+    "hl": "Sergio Conceiçao nasıl bir teknik adam ve Fenerbahçe'de ne yapar?"
+   },
+   {
+    "s": "sabah",
+    "hl": "Conceiçao ile masada"
+   },
+   {
+    "s": "birgun",
+    "hl": "Fenerbahçe, Sergio Conceiçao’ya resmi teklif yaptı"
+   },
+   {
+    "s": "tele1",
+    "hl": "Fenerbahçe'de Sergio Conceiçao kararı çıktı"
+   },
+   {
+    "s": "haberler",
+    "hl": "Fenerbahçe, Sergio Conceiçao'ya 1,5 yıllık sözleşme teklif etti"
+   },
+   {
+    "s": "sondakika",
+    "hl": "Fenerbahçe, Conceiçao ile anlaştı: İstanbul'a geliyor"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Fenerbahçe'de Sergio Conceiçao kararı: Teklif ortaya çıktı..."
+   },
+   {
+    "s": "cnnturk",
+    "hl": "Teklifin detayları ortaya çıktı! Fenerbahçe'de Conceiçao kararı"
+   },
+   {
+    "s": "aksam",
+    "hl": "Sergio Conceiçao'nun oyun planı: Fenerbahçe'de bu sistemi kullanacak"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Fenerbahçe'de Conceiçao'da pürüz çıktı: Emre Belözoğlu adım adım Fenerbahçe'ye!"
+   },
+   {
+    "s": "mynet",
+    "hl": "Sergio Conceiçao yerine Emre Belözoğlu! Fenerbahçe'de sürpriz gelişme"
+   },
+   {
+    "s": "akit",
+    "hl": "Fenerbahçe’de teknik direktör krizi: Conceiçao’da pürüz çıktı gözler Belözoğlu’nda"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Fenerbahçe'de Conceiçao ile görüşmeler iptal! Aziz Yıldırım'dan Emre Belözoğlu hamlesi"
+   }
+  ]
+ },
+ {
   "event": "s5306",
   "week": "w10",
   "title": "Grok'un maliyeti \"sürdürülemez seviyede\"",
@@ -4950,6 +8069,69 @@
    {
     "s": "cumhuriyet",
     "hl": "Grok'un maliyeti getirisine kıyasla \"sürdürülemez seviyede\" olduğu belirtildi"
+   }
+  ]
+ },
+ {
+  "event": "s5070",
+  "week": "w10",
+  "title": "Bağcılar'da 4 bina tahliye edildi",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Bağcılar'da inşaat çalışması çevrede çatlak oluşturdu, 4 bina tedbiren tahliye edildi"
+   },
+   {
+    "s": "haberler",
+    "hl": "Bağcılar'da inşaat çalışmaları sırasında 4 bina tedbiren boşaltıldı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Bağcılar'da 4 bina tahliye edildi"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Bağcılar'da inşaat alanı çevresindeki 4 bina tahliye edildi"
+   },
+   {
+    "s": "birgun",
+    "hl": "Bağcılar'da inşaat çalışması sonrası binalarda çatlaklar oluştu: 4 bina tahliye edildi"
+   },
+   {
+    "s": "aksam",
+    "hl": "Bağcılar'da çatlak paniği! 4 apartman tahliye edildi"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "İstanbul'da inşaatın çevresindeki çatlaklar oluşan 4 bina tahliye edildi"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Bağcılar’da inşaatın çevresindeki çatlaklar oluşan 4 bina tahliye edildi"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Bağcılar’da inşaatın çevresindeki çatlaklar oluşan 4 bina tahliye edildi"
+   },
+   {
+    "s": "ntv",
+    "hl": "Bağcılar'da inşaat alanının çevresindeki 4 bina tahliye edildi"
+   },
+   {
+    "s": "karar",
+    "hl": "Bağcılar’da inşaat çalışması sonrası binalarda çatlaklar oluştu 4 bina tahliye edildi"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Bağcılar'da inşaat çalışması sonrası çökme tehlikesi! 4 apartman tahliye edildi"
+   },
+   {
+    "s": "cnnturk",
+    "hl": "Bağcılar'da panik! İnşaat çevresindeki 4 binaya acil tahliye"
+   },
+   {
+    "s": "mynet",
+    "hl": "Bağcılar’da 5 bina tahliye edildi"
    }
   ]
  },
@@ -5171,6 +8353,65 @@
    {
     "s": "akit",
     "hl": "Mersin'deki 19 yıllık 'mumya ceset' cinayetinde 6 gözaltı, 3 şüpheli tutuklandı"
+   }
+  ]
+ },
+ {
+  "event": "s5233",
+  "week": "w10",
+  "title": "Emre Belözoğlu'ndan flaş Fenerbahçe açıklaması!",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Belözoğlu, Beşiktaş beraberliği sonrası Fenerbahçe için 'o göreve talip olunmaz' dedi"
+   },
+   {
+    "s": "aksam",
+    "hl": "Emre Belözoğlu'ndan Beşiktaş maçında 11 değişiklik!"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Emre Belözoğlu'ndan Fenerbahçe açıklaması: \"Göreve talip olunmaz, layık olunur\""
+   },
+   {
+    "s": "star",
+    "hl": "Emre Belözoğlu'ndan Fenerbahçe açıklaması! \"Herkesin kendi içinde istediği bir yer\""
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Emre Belözoğlu'ndan Fenerbahçe sorusuna yanıt: 'O göreve talip olunmaz...'"
+   },
+   {
+    "s": "sabah",
+    "hl": "Emre Belözoğlu’ndan Fenerbahçe açıklaması! Teklif geldi mi?"
+   },
+   {
+    "s": "haberler",
+    "hl": "Emre Belözoğlu'ndan Fenerbahçe sorusuna yanıt"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Emre Belözoğlu'ndan Fenerbahçe'ye yeşil ışık! Teknik direktörlük sorusuna cevap verdi: \"Herkesin orada olmak istediği bir yer\""
+   },
+   {
+    "s": "haberturk",
+    "hl": "Emre Belözoğlu'ndan flaş Fenerbahçe açıklaması!"
+   },
+   {
+    "s": "onedio",
+    "hl": "Emre Belözoğlu Beşiktaş Maçı Sonrası Fenerbahçe İddialarına Yanıt Verdi"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Emre Belözoğlu'ndan Fenerbahçe sorusuna yanıt: O göreve talip olunmaz!"
+   },
+   {
+    "s": "cnnturk",
+    "hl": "Emre Belözoğlu: Fenerbahçe'de o göreve talip olunmaz, o göreve layık görülürsünüz"
+   },
+   {
+    "s": "mynet",
+    "hl": "Emre Belözoğlu'ndan Fenerbahçe teknik direktörlüğü için resmi açıklama!"
    }
   ]
  },
@@ -5416,6 +8657,549 @@
    {
     "s": "haberturk",
     "hl": "'Daltonlar'dan Fenerbahçe tribün liderine suikast girişimi"
+   }
+  ]
+ },
+ {
+  "event": "s5068",
+  "week": "w10",
+  "title": "Antalya-Alanya Otoyolu ile 2,5 saatlik yol 36 dakikaya düşecek",
+  "headlines": [
+   {
+    "s": "aa",
+    "hl": "Antalya ile Alanya arasında kara yoluyla ulaşım 36 dakikaya düşecek"
+   },
+   {
+    "s": "sabah",
+    "hl": "Antalya-Alanya arası 114 dakika kısalacak: 2,5 saatlik yol 36 dakikaya düşecek"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Antalya-Alanya arası 36 dakikaya düşüyor"
+   },
+   {
+    "s": "ahaber",
+    "hl": "2,5 saatlik yol 36 dakikaya düşecek! 23 milyar TL zamandan, 900 milyon TL akaryakıttan tasarruf"
+   },
+   {
+    "s": "takvim",
+    "hl": "Antalya-Alanya otoyolu ile 2,5 saatlik yol 36 dakikaya düşüyor! Yıllık 23,9 milyar lira tasarruf sağlanacak"
+   },
+   {
+    "s": "star",
+    "hl": "122 kilometrelik dev otoyol! 2,5 saatlik yolculuk 36 dakikaya düşecek"
+   },
+   {
+    "s": "akit",
+    "hl": "Hem tasarruf hem jet ulaşım: 2 buçuk saatlik yol 36 dakikaya düşecek!"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "2,5 saatlik yol 36 dakikaya düşecek"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Antalya-Alanya arası 36 dakikaya düşecek"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Antalya-Alanya Otoyolu ile 2,5 saatlik yol 36 dakikaya düşecek"
+   },
+   {
+    "s": "aksam",
+    "hl": "Güneyde 122 km'lik otoyol inşası! 2,5 saatlik yol 36 dakikaya düşecek"
+   },
+   {
+    "s": "ntv",
+    "hl": "2,5 saatlik yol 36 dakikaya düşecek"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Yıllık 23,9 milyar TL'lik tasarruf! Bakan Uraloğlu açıkladı: Antalya-Alanya arası 2,5 saatten 36 dakikaya düşecek"
+   },
+   {
+    "s": "cnnturk",
+    "hl": "Antalya-Alanya arası 114 dakika kısalacak! 2,5 saatlik yol 36 dakikaya düşecek"
+   }
+  ]
+ },
+ {
+  "event": "s5277",
+  "week": "w10",
+  "title": "11 ilde siber suç operasyonu: 86 şüpheli tutuklandı",
+  "headlines": [
+   {
+    "s": "aa",
+    "hl": "Siber suçlarla mücadele operasyonlarında 86 şüpheli tutuklandı"
+   },
+   {
+    "s": "sondakika",
+    "hl": "11 ilde siber suç operasyonunda 120 şüpheli yakalandı, 86'sı tutuklandı"
+   },
+   {
+    "s": "aksam",
+    "hl": "11 il merkezli siber suç operasyonu: 86 şüpheli tutuklandı"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "11 ilde siber suç operasyonu: 86 şüpheli tutuklandı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Siber operasyon: 86 tutuklama!"
+   },
+   {
+    "s": "takvim",
+    "hl": "11 il merkezli siber suç operasyonu: 120 şüpheliden 86'sı tutuklanarak cezaevine gönderildi"
+   },
+   {
+    "s": "haberler",
+    "hl": "Ankara- 11 ilde siber suçlarla mücadele operasyonu: 86 tutuklama"
+   },
+   {
+    "s": "sabah",
+    "hl": "İçişleri Bakanlığı duyurdu: 11 ilde dev siber operasyon: 120 şüpheli yakalandı, 86 tutuklama"
+   },
+   {
+    "s": "ahaber",
+    "hl": "11 ilde siber suç operasyonu! 86 kişi tutuklandı"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "İçişleri duyurdu... 11 ilde 'siber' operasyon: 86 tutuklama"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Siber suçlarla mücadelede 11 ilde operasyon: 86 tutuklama"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Siber suçlarla mücadele operasyonlarında 86 şüpheli tutuklandı"
+   },
+   {
+    "s": "dirilis",
+    "hl": "11 ilde siber suç operasyonu: 86 tutuklama"
+   },
+   {
+    "s": "ntv",
+    "hl": "11 ilde siber suç operasyonu: 86 tutuklama"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "11 ilde siber suçlarla mücadele operasyonu! 86 şüpheli tutuklandı"
+   }
+  ]
+ },
+ {
+  "event": "s5568",
+  "week": "w10",
+  "title": "Tenerife’nin futbolcusu Jesus de Miguel hayatını kaybetti",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Tenerife Kulübü, Jesus de Miguel Alameda'nın Andorra maçında öldüğünü açıkladı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "İspanya'dan acı haber: Kaleciyle çarpışan futbolcu Jesus De Miguel hayatını kaybetti!"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Kaleciyle çarpışan İspanyol futbolcu Jesus de Miguel hayatını kaybetti! Acı haberi kulübü duyurdu"
+   },
+   {
+    "s": "birgun",
+    "hl": "Tenerife futbolcusu Jesus de Miguel sahada aldığı darbe sonucu hayatını kaybetti"
+   },
+   {
+    "s": "ntv",
+    "hl": "Rakibi faul yaptı, kalbi durdu. Jesus de Miguel maç sonunda hayatını kaybetti"
+   },
+   {
+    "s": "akit",
+    "hl": "Futbol dünyası şokta! Sert faule maruz kalan Jesus de Miguel hayatını kaybetti"
+   },
+   {
+    "s": "onedio",
+    "hl": "Jesús de Miguel Hayatını Kaybetti: Kaleciyle Çarpışan Tenerifeli Forvet 30 Yaşında Yaşama Veda Etti"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Tenerife Andorra maçı ertelendi mi, maçta ne oldu? Jesus de Miguel hayatını kaybetti"
+   },
+   {
+    "s": "haberler",
+    "hl": "Tenerife futbolcusu Jesus de Miguel Alameda rakip kaleciyle çarpıştığı maçta öldü"
+   },
+   {
+    "s": "aa",
+    "hl": "Kaleci ile çarpıştığı pozisyonda kalbi duran İspanyol futbolcu Jesus de Miguel hayatını kaybetti"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Jesus de Miguel hayatını kaybetti, Tenerife yasta"
+   },
+   {
+    "s": "takvim",
+    "hl": "İspanya 2. Ligi'nde kaleciyle çarpışan futbolcu Jesús de Miguel hayatını kaybetti: İşte o görüntüler"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Sahada korkunç ölüm! Göğsüne gelen diz sonrası Jesus de Miguel hayatını kaybetti"
+   },
+   {
+    "s": "star",
+    "hl": "Futbol dünyasını yasa boğan haber! Jesus de Miguel hayatını kaybetti"
+   },
+   {
+    "s": "diken",
+    "hl": "Kaleciyle çarpıştıktan sonra kalbi duran İspanyol futbolcu Jesus de Miguel öldü"
+   }
+  ]
+ },
+ {
+  "event": "s5322",
+  "week": "w10",
+  "title": "Sarıgül ailesine yönelik kara para soruşturmasında 10 şüpheli adliyeye sevk edildi",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Sarıgül ailesi kara para dosyasında 10 şüpheli adliyeye sevk edildi"
+   },
+   {
+    "s": "haberler",
+    "hl": "Sarıgül ailesine yönelik kara para soruşturmasında 10 şüpheli adliyeye sevk edildi"
+   },
+   {
+    "s": "hurriyet",
+    "hl": "Sarıgül ailesine yönelik soruşturmada 10 kişi adliyede"
+   },
+   {
+    "s": "aksam",
+    "hl": "Sarıgül soruşturmasında yeni gelişme: 10 şüpheli adliyeye sevk edildi"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Sarıgül soruşturması: 10 şüpheli adliyede"
+   },
+   {
+    "s": "akit",
+    "hl": "Sarıgül ailesine yönelik soruşturma derinleşiyor! Kara para aklamada 10 şüpheli adliyede"
+   },
+   {
+    "s": "karar",
+    "hl": "Sarıgül ailesine yönelik soruşturmada 10 kişi adliyeye sevk edildi"
+   },
+   {
+    "s": "birgun",
+    "hl": "Sarıgül soruşturmasında 10 kişi adliyeye sevk edildi"
+   },
+   {
+    "s": "sabah",
+    "hl": "Sarıgül ailesine düzenlenen 2. dalgada operasyonun 10 şüphelisi adliyede"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Sarıgül soruşturmasında 10 şüpheli adliyeye sevk edildi"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Sarıgül ailesine yönelik soruşturmada dört şüpheli tutuklandı"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Sarıgül ailesine yönelik soruşturmada yeni gelişme: 4 tutuklama, 7 adli kontrol"
+   }
+  ]
+ },
+ {
+  "event": "s5080",
+  "week": "w10",
+  "title": "Gençlerbirliği, Alanyaspor'u 5-0 yendi",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Alanyaspor, 6 maçtır yenemediği Gençlerbirliği'ne yarın konuk olacak"
+   },
+   {
+    "s": "haberler",
+    "hl": "Gençlerbirliği, yarın 6 maçtır yenilmediği Alanyaspor'u konuk edecek"
+   },
+   {
+    "s": "star",
+    "hl": "Gençlerbirliği'nin konuğu Alanyaspor"
+   },
+   {
+    "s": "aksam",
+    "hl": "Gençlerbirliği evinde Alanyaspor'u ağırlayacak"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Alanyaspor, Gençlerbirliği maçının hazırlıklarını tamamladı"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Alanyaspor Gençlerbirliği maçına hazır"
+   },
+   {
+    "s": "aa",
+    "hl": "Gençlerbirliği, Alanyaspor'u 5-0 yendi"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "İşte muhtemel 11! Gençlerbirliği Alanyaspor maçı hangi kanalda, canlı yayın nerede izlenir, saat kaçta?"
+   },
+   {
+    "s": "birgun",
+    "hl": "Gençlerbirliği - Alanyaspor maçı saat kaçta, hangi kanalda? Muhtemel 11'ler"
+   },
+   {
+    "s": "sabah",
+    "hl": "Gençlerbirliği, Alanyaspor'a gol yağdırdı!"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Gençlerbirliği, Alanyaspor'u 5-0 yendi"
+   }
+  ]
+ },
+ {
+  "event": "s5351",
+  "week": "w10",
+  "title": "Fon soruşturmasında 37 kişi 18 milyar 340 milyon TL iade etti",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Fon soruşturmasında 37 kişi 18 milyar 340 milyon TL iade etti"
+   },
+   {
+    "s": "haberler",
+    "hl": "Fon soruşturmasında 37 kişi 18 milyar 340 milyon TL iade etti"
+   },
+   {
+    "s": "star",
+    "hl": "Fon soruşturmasında yeni gelişme: 18,3 milyar TL tahsil edildi"
+   },
+   {
+    "s": "aksam",
+    "hl": "Milyarlarca lira geri döndü! Fon soruşturmasında 37 kişi parasını iade etti"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Fon soruşturmasında yeni gelişme! 37 kişiden 18 milyar 340 milyon TL tahsil edildi"
+   },
+   {
+    "s": "sabah",
+    "hl": "Fon soruşturmasında 37 kişi daha parasını iade etti: 18,3 milyar lira toplandı"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Fon soruşturmasında yeni gelişme: 37 kişi parasını iade etti, 18,3 milyar lira toplandı"
+   },
+   {
+    "s": "dirilis",
+    "hl": "İstanbul'da fon soruşturmasında 37 kişiden 18 milyar 340 milyon TL tahsil edildi"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Fon soruşturmasında 37 kişi parasını iade etti: Geri ödenen miktar belli oldu"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Fon soruşturmasında 18.3 milyar TL iade edildi"
+   },
+   {
+    "s": "onedio",
+    "hl": "Fon Soruşturmasında 37 Kişi Parasını İade Etti: TMSF Hesabında 18,3 Milyar Lira Toplandı"
+   },
+   {
+    "s": "akit",
+    "hl": "Fon soruşturmasında incelemeler sürüyor! 37 kişiden 18 milyar 340 milyon liralık iade"
+   },
+   {
+    "s": "birgun",
+    "hl": "Fon soruşturmasında 37 kişi 18,3 milyar TL iade etti: Toplam kazancın sadece yüzde 9,8'i"
+   },
+   {
+    "s": "ntv",
+    "hl": "Fon soruşturması. 37 kişinin iade ettiği tutar 18 milyar lirayı geçti"
+   }
+  ]
+ },
+ {
+  "event": "s5281",
+  "week": "w10",
+  "title": "İstanbul'da okullar tatil mi? 4 Kasım Çarşamba yarın İstanbul'da okullar tatil mi?",
+  "headlines": [
+   {
+    "s": "cnnturk",
+    "hl": "YARIN OKULLAR TATİL Mİ 2 KASIM? Pazartesi Okul Var Mı, Tatil Mi? Gözler İstanbul Valiliği ve MEB Açıklamalarında..."
+   },
+   {
+    "s": "milligazete",
+    "hl": "Antalya'da yarın okullar tatil mi? 3 Kasım Salı ders var mı, yağış uyarısı ne, Valilik ne dedi?"
+   },
+   {
+    "s": "haberler",
+    "hl": "COP31 Antalya okullar tatil mi? Antalya okullar 3 gün tatil mi, COP31 ne zaman, COP31 nedir?"
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Yarın okullar tatil mi? 3 Kasım Edirne, Tekirdağ, Antalya ve İstanbul'da okullar tatil mi, ders var mı? Sağanak sonrası gözler valilik açıklamalarında"
+   },
+   {
+    "s": "sabah",
+    "hl": "Yarın okullar tatil mi? Sağanak yağış sonrası İstanbul Valiliği uyarısı!"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Bugün okullar tatil mi? 3 Kasım son dakika valilik açıklamaları gündemde!"
+   },
+   {
+    "s": "tgrt",
+    "hl": "4 Kasım'da okullar tatil mi? İstanbul Valiliği açıklama yaptı mı, yarın ders işlenecek mi?"
+   },
+   {
+    "s": "karar",
+    "hl": "4 Kasım Çarşamba okullar tatil mi? İstanbul, İzmir, Antalya ve Muğla'da yarın ders var mı? Son durumu AKOM açıkladı"
+   },
+   {
+    "s": "onedio",
+    "hl": "Yarın Okullar Tatil mi? 4 Kasım Çarşamba İstanbul, Ankara ve İzmir'de Okul Var mı?"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Bugün okullar tatil mi? 4 Kasım Çarşamba günü İstanbul'da okul var mı, yok mu, ders yapılacak mı?"
+   },
+   {
+    "s": "takvim",
+    "hl": "4 Kasım Çarşamba okullar tatil mi? MEB takvimi ve valilik açıklamalarında son durum ne?"
+   }
+  ]
+ },
+ {
+  "event": "s5639",
+  "week": "w10",
+  "title": "Dirk Kuyt'tan Liverpool maçı açıklaması: Çok iyi bir planımız var",
+  "headlines": [
+   {
+    "s": "sondakika",
+    "hl": "Fenerbahçe'den ayrılacak mı? Dirk Kuyt'tan açıklama"
+   },
+   {
+    "s": "sabah",
+    "hl": "Dirk Kuyt'tan ayrılık cevabı: “Bu tür konuşmalara girmiyorum”"
+   },
+   {
+    "s": "cumhuriyet",
+    "hl": "Liverpool maçı öncesi Dirk Kuyt'tan dikkat çeken açıklama: 'Çok iyi bir plan hazırladık...'"
+   },
+   {
+    "s": "sozcu",
+    "hl": "Dirk Kuyt'tan ayrılık cevabı"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Dirk Kuyt'tan Liverpool maçı açıklaması: Çok iyi bir planımız var"
+   },
+   {
+    "s": "haberler",
+    "hl": "Fenerbahçe'den ayrılacak mı? Dirk Kuyt'tan açıklama"
+   },
+   {
+    "s": "birgun",
+    "hl": "Dirk Kuyt: “Liverpool maçı için çok iyi bir planımız var”"
+   },
+   {
+    "s": "aksam",
+    "hl": "Dirk Kuyt'tan Liverpool'a gözdağı: Yarınki maçta bunu göreceksiniz"
+   },
+   {
+    "s": "turkiyegz",
+    "hl": "Dirk Kuyt'tan ayrılık cevabı: Geleceğine ilişkin konuştu"
+   },
+   {
+    "s": "tgrt",
+    "hl": "Dirk Kuyt'tan Fenerbahçe'deki geleceğiyle ilgili açıklama! Liverpool maçı öncesinde konuştu"
+   },
+   {
+    "s": "ahaber",
+    "hl": "Fenerbahçe'de Dirk Kuyt'tan Liverpool maçı öncesi mesaj: \"Çok iyi bir planımız var\""
+   },
+   {
+    "s": "cnnturk",
+    "hl": "Dirk Kuyt: Yarın için çok iyi bir planımız var"
+   }
+  ]
+ },
+ {
+  "event": "s5137",
+  "week": "w10",
+  "title": "Rusya: Zelenskiy ararsa Putin telefonu açacak",
+  "headlines": [
+   {
+    "s": "aa",
+    "hl": "Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak"
+   },
+   {
+    "s": "sondakika",
+    "hl": "Uşakov, Zelenskiy'i Moskova'ya çağırdı, ararsa Putin'in telefonu açacağını söyledi"
+   },
+   {
+    "s": "haberler",
+    "hl": "Kremlin Danışmanı Uşakov, Zelenskiy ararsa Putin'in telefonu açacağını söyledi"
+   },
+   {
+    "s": "ntv",
+    "hl": "Rusya: Zelenski'nin araması halinde Putin telefonu açacak"
+   },
+   {
+    "s": "aksam",
+    "hl": "Zelenski'nin teklifine Rusya'dan yanıt: \"Aranması halinde Putin telefonu açar\""
+   },
+   {
+    "s": "mynet",
+    "hl": "Rusya'dan dikkat çeken açıklama! \"Zelenskiy'nin araması halinde Putin telefonu açacak\""
+   },
+   {
+    "s": "milliyet",
+    "hl": "Rusya ve Ukrayna arasında 'telefon' diplomasisi! Kremlin 'Zelenskiy ararsa, Putin telefonu açar mı?' sorusuna yanıt verdi"
+   },
+   {
+    "s": "sabah",
+    "hl": "Rusya’dan Ukrayna’ya yeşil ışık: “Zelenskiy ararsa Putin telefonu açar”"
+   },
+   {
+    "s": "dirilis",
+    "hl": "Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak"
+   },
+   {
+    "s": "star",
+    "hl": "Moskova kapıyı araladı: Zelenski ararsa Putin telefonu açar"
+   },
+   {
+    "s": "haberturk",
+    "hl": "Rusya: Zelenskiy ararsa Putin telefonu açacak"
+   },
+   {
+    "s": "yeniasya",
+    "hl": "Uşakov: Zelenskiy'nin araması halinde Putin telefonu açacak"
+   },
+   {
+    "s": "karar",
+    "hl": "Kremlin: Zelenskiy ararsa Putin telefonu açacak"
+   },
+   {
+    "s": "cnnturk",
+    "hl": "Kremlin'den Ukrayna'ya yeşil ışık: \"Zelenski ararsa Putin telefonu açar\""
+   },
+   {
+    "s": "yenisafak",
+    "hl": "Zelenskiy ararsa telefonu Putin açacak"
+   },
+   {
+    "s": "trthaber",
+    "hl": "Kremlin: Zelenski'nin araması halinde Putin telefonu açacak"
    }
   ]
  }

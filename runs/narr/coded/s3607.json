@@ -1,0 +1,130 @@
+{
+ "q": {
+  "happened": "Beşiktaş, UEFA Avrupa Ligi'nde Hoffenheim'a deplasmanda konuk oldu ve maçı 3-2 kazandı.",
+  "agree": "Beşiktaş'ın Avrupa Ligi'nde Hoffenheim deplasmanına çıktığı ortak.",
+  "differ": "Sabah, Karar, TRT Haber, Habertürk, Diriliş ve Star maç öncesini aktarıyor; Habertürk '3 eksik', Star 'tek eksik' diyerek kadro konusunda ayrışıyor; Takvim, A Haber, Milli Gazete ve Diken 3-2'lik galibiyeti veriyor, Takvim 'Avrupa Kartalı' ve 'devirdi' diye coşkulu bir dil kullanıyor.",
+  "care": "Başlıkların farklı anlarda atılması okura önizleme ya da sonuç olarak farklı bilgiler sunuyor; eksik oyuncu sayısındaki çelişki ön bilginin güvenilirliğini sorgulatıyor."
+ },
+ "rows": [
+  {
+   "s": "sabah",
+   "frame": "Maç önü",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Maç önü",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "trthaber",
+   "frame": "Maç önü",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Maç önü",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "Eksik oyuncular",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Maç önü",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": "Alman takımlarıyla geçmiş"
+  },
+  {
+   "s": "star",
+   "frame": "Zorlu maç",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "Eksik oyuncular",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Zafer",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "Galibiyet",
+   "aff": "",
+   "sol": "",
+   "moral": "Gurur",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Galibiyet",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "Galibiyet",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Zafer",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "Galibiyet",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "diken",
+   "frame": "Galibiyet",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "Galibiyet",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

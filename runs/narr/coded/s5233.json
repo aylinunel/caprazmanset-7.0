@@ -1,0 +1,15 @@
+{"q": {"happened": "Emre Belözoğlu, Beşiktaş maçı sonrası Fenerbahçe teknik direktörlüğüyle ilgili soruya yanıt verdi.", "agree": "Belözoğlu'nun Fenerbahçe sorusunu yanıtladığı ortak.", "differ": "Sondakika, Türkiye Gazetesi, Cumhuriyet, A Haber ve CNN Türk 'o göreve talip olunmaz, layık olunur' sözünü öne çıkarıyor; TGRT aynı açıklamayı 'Fenerbahçe'ye yeşil ışık' olarak yorumluyor, Star 'herkesin istediği yer' sözünü seçiyor; Habertürk 'flaş açıklama' diyor; Akşam ise Beşiktaş maçındaki 11 değişikliği başlığa taşıyor.", "care": "Aynı sözler bir başlıkta mesafeli/alçakgönüllü bir duruş, diğerinde göreve hazır olma sinyali olarak sunuluyor; bu da okura farklı bir niyet atfediyor."}, "rows": [
+{"s": "sondakika", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "Beşiktaş maçı"},
+{"s": "aksam", "frame": "Maç taktiği", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "11 değişiklik", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "Liyakat", "start": ""},
+{"s": "star", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberler", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tgrt", "frame": "Yeşil ışık", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Sansasyon", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "onedio", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "Beşiktaş maçı"},
+{"s": "ahaber", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cnnturk", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "Liyakat", "start": ""},
+{"s": "mynet", "frame": "Fenerbahçe iddiası", "hero": "Emre Belözoğlu", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

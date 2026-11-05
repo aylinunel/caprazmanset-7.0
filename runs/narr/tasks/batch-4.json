@@ -408,881 +408,585 @@
  ],
  "events": [
   {
-   "event": "s5031",
+   "event": "s4660",
    "week": "w9",
-   "title": "SPK Başkanlığına Muhsin Atcı atandı",
+   "title": "Kadıköy'de otobüste bir yolcu biber gazı sıktı",
    "headlines": [
     {
-     "s": "sondakika",
-     "hl": "SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı"
+     "s": "takvim",
+     "hl": "Kadıköy'de otobüste tartıştığı kadın yolcuya biber gazı sıktı: O anlar kamerada"
     },
     {
      "s": "tgrt",
-     "hl": "Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu"
+     "hl": "Tartışma büyüdü, İETT'nin içine biber gazı sıkıp kaçtı: O anlar kamerada"
     },
     {
-     "s": "mynet",
-     "hl": "Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA | SPK Başkanlığına Muhsin Atcı atandı! Karar Resmi Gazete'de"
-    },
-    {
-     "s": "haberler",
-     "hl": "SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı"
-    },
-    {
-     "s": "haberturk",
-     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "SPK Başkanılığı'na Muhsin Atcı getirildi"
+     "s": "cumhuriyet",
+     "hl": "Kadıköy'de otobüste bir yolcu biber gazı sıktı"
     },
     {
      "s": "turkiyegz",
-     "hl": "SPK'da üst düzey atama! Yeni başkan Muhsin Atcı oldu"
+     "hl": "Kadıköy'de otobüste biber gazlı kavga! Yolcular panikle dışarı kaçtı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Pes artık dedirten anlar: Otobüste biber gazı sıktı"
+    },
+    {
+     "s": "akit",
+     "hl": "Otobüste bir anda ortalık karıştı! Yolculara biber gazı sıkıp kaçtı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "İstanbul'da otobüste korku dolu anlar! Kadına vurduğu öne sürülen şahıs yolculara biber gazı sıktı"
     },
     {
      "s": "yenisafak",
-     "hl": "Karar Resmi Gazete'de: SPK Başkanlığına Muhsin Atcı atandı"
+     "hl": "Kadıköy'de otobüste biber gazlı saldırı: Nefessiz kalan yolcular karakola sığındı"
     },
     {
-     "s": "dirilis",
-     "hl": "SPK Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı!"
-    },
-    {
-     "s": "bloomberght",
-     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
-    },
-    {
-     "s": "karar",
-     "hl": "Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı"
+     "s": "sozcu",
+     "hl": "Kadıköy'de otobüste dehşet anları: Kadına vurdu, ardından otobüsün içine biber gazı sıktı!"
     },
     {
      "s": "hurriyet",
-     "hl": "SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı"
+     "hl": "Kadıköy'de İETT otobüsünde panik: Kadına vurdu, yolculara biber gazı sıkıp kaçtı"
     },
     {
-     "s": "cumhuriyet",
-     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
-    },
-    {
-     "s": "ahaber",
-     "hl": "SPK Başkanlığına Muhsin Atcı atandı! Resmi Gazete'de yayımlandı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Sermaye Piyasası Kurulu Başkanlığına Muhsin Atcı atandı"
-    },
-    {
-     "s": "aksam",
-     "hl": "Karar Resmi Gazete'de.... SPK'nın Yeni Başkanı Muhsin Atcı oldu"
-    },
-    {
-     "s": "akit",
-     "hl": "Merakla bekleniyordu! SPK Başkanlığına Muhsin Atcı atandı"
-    },
-    {
-     "s": "milliyet",
-     "hl": "Sermaye Piyasası Kurulu (SPK) Başkanlığına Muhsin Atcı atandı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Yeni SPK Başkanı Muhsin Atcı kim, nereli? Eğitimi, eşi, çocukları, kariyeri ve önceki görevleri"
-    },
-    {
-     "s": "diken",
-     "hl": "SPK başkanlığına Muhsin Atcı atandı"
+     "s": "mynet",
+     "hl": "Kadıköy'de otobüste biber gazlı saldırı!"
     },
     {
      "s": "star",
-     "hl": "Karar Resmi Gazete'de: SPK'nın Yeni Başkanı Muhsin Atcı oldu"
+     "hl": "Otobüste biber gazı dehşeti! Yolculara saldırıp kayıplara karıştı"
     },
     {
-     "s": "yeniasya",
-     "hl": "Muhsin Atcı, Sermaye Piyasası Kurulu Başkanlığına atandı"
+     "s": "aksam",
+     "hl": "Otobüste maganda terörü kamerada: Biber gazı sıkıp kaçtı"
     },
     {
-     "s": "cnnturk",
-     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
-    },
-    {
-     "s": "aa",
-     "hl": "SPK Başkanlığına Muhsin Atcı atandı"
-    },
-    {
-     "s": "onedio",
-     "hl": "Muhsin Atcı Kimdir, Kaç Yaşında, Nereli? Yeni SPK Başkanı Muhsin Atcı Hakkında Bilinenler"
+     "s": "ahaber",
+     "hl": "Kadıköy'de otobüste dehşet anları: Yolcuya yumruk atan zanlı biber gazı sıkarak kaçtı"
     }
    ]
   },
   {
-   "event": "s4987",
+   "event": "s4844",
    "week": "w9",
-   "title": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturmasında gözaltına alındı",
+   "title": "ABD Dışişleri Bakanı Rubio: Türkiye'nin Karadeniz'de tahıl sevkiyatı için ateşkes teklifini değerlendiriyoruz",
    "headlines": [
+    {
+     "s": "aa",
+     "hl": "Rubio, Türkiye'nin Karadeniz'de tahıl sevkiyatı için ateşkes teklifini değerlendirdiklerini söyledi"
+    },
     {
      "s": "sondakika",
-     "hl": "Borsa İstanbul Genel Müdürü Ergun rüşvet ve örgüt üyeliği iddiasıyla gözaltına alındı"
+     "hl": "Rubio, Afrika'yı etkileyen tahıl sevkiyatı için kısmi ateşkes önerisini inceliyor"
     },
     {
      "s": "haberler",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturması kapsamında \"rüşvet almak\" ile \"örgüt üyeliği\" iddiasıyla gözaltına alındı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "birgun",
-     "hl": "Fon soruşturması: Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Son dakika... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "bloomberght",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "akit",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "karar",
-     "hl": "Fon soruşturması Borsa İstanbul'a uzandı: Genel Müdür Korkmaz Enes Ergun gözaltında"
-    },
-    {
-     "s": "takvim",
-     "hl": "Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun’a gözaltı"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Fon soruşturmasında yeni gelişme... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "onedio",
-     "hl": "Borsa İstanbul Genel Müdürü Enes Ergun Gözaltına Alındı"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında"
-    },
-    {
-     "s": "star",
-     "hl": "Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+     "hl": "Rubio, Türkiye'nin Karadeniz tahıl sevkiyatı için kısmi ateşkes önerisini değerlendiriyor"
     },
     {
      "s": "dirilis",
-     "hl": "Fon soruşturması Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
+     "hl": "Rubio: Türkiye’nin Karadeniz’de tahıl sevkiyatı için ateşkes teklifini değerlendiriyoruz"
     },
     {
      "s": "sabah",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Fon soruşturması. Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "aksam",
-     "hl": "Fon soruşturmasında gelişme... Borsa İstanbul Genel Müdürü Ergun gözaltına alındı"
-    },
-    {
-     "s": "diken",
-     "hl": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı"
-    }
-   ]
-  },
-  {
-   "event": "s4521",
-   "week": "w9",
-   "title": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı",
-   "headlines": [
-    {
-     "s": "trthaber",
-     "hl": "Antalya'da hortum ve fırtına 4 can aldı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Antalya'da hortum faciası! 2 konteyner savruldu, 5 işçi öldü"
-    },
-    {
-     "s": "mynet",
-     "hl": "Antalya'da hortum faciası! Konteynerleri parçaladı: 4 işçi öldü, 1 işçi yaralandı"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı"
-    },
-    {
-     "s": "haberler",
-     "hl": "Antalya'da hortum konteynerleri vurdu, ölü sayısı 4 oldu, bir işçi hayata döndü"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu: 4 işçi hayatını kaybetti"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 1 işçi yaralandı"
-    },
-    {
-     "s": "star",
-     "hl": "Antalya'da hortum faciası: 2 konteyner savruldu, 4 işçi hayatını kaybetti"
-    },
-    {
-     "s": "sabah",
-     "hl": "Antalya'da hortum faciası: İşçilerin kaldığı 2 konteyner havaya savruldu! 4 ölü, 2 yaralı"
-    },
-    {
-     "s": "karar",
-     "hl": "Antalya'da hortum faciası! İşçilerin kaldığı konteynerler parçalandı: 4 ölü, 1 yaralı"
-    },
-    {
-     "s": "aa",
-     "hl": "Antalya'da hortum nedeniyle parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı"
-    },
-    {
-     "s": "aksam",
-     "hl": "Antalya'da akılalmaz kaza: Hortumda parçalanan konteynerde bulunan 4 işçi hayatını kaybetti"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Antalya'da hortum felaketi: 4 işçi ölü, 1 işçi yaralandı!"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Antalya’da hortum faciası: Konteynerdeki 4 işçi yaşamını yitirdi"
-    },
-    {
-     "s": "akit",
-     "hl": "Antalya’da hortum şantiyeyi vurdu: 4 işçi öldü, 1 işçi yaralandı"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Antalya'da hortum felaketi: Konteynerleri parçaladı, 4 işçi hayatını kaybetti"
-    },
-    {
-     "s": "ntv",
-     "hl": "Antalya'da hortum işçi konteynerini parçaladı. 4 işçi öldü, 1 işçi yaralandı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Antalya'da hortum faciası: 4 kişi hayatını kaybetti! 4 şüpheli gözaltına alındı"
+     "hl": "Karadeniz'deki kriz için Ankara devrede: ABD Dışişleri Bakanı Rubio açıkladı! \"Türkiye'nin teklifini değerlendiriyoruz\""
     },
     {
      "s": "birgun",
-     "hl": "Antalya'da hortum felaketi: 4 işçi hayatını kaybetti, 1 işçi yaralandı"
+     "hl": "Rubio'dan açıklama: Türkiye'nin Karadeniz'de tahıl sevkiyatı için ateşkes teklifi değerlendiriliyor"
     },
     {
-     "s": "milligazete",
-     "hl": "Antalya'da hortum! Kepez'de 4 işçi hayatını kaybetti"
+     "s": "ntv",
+     "hl": "Karadeniz'de tahıl sevkiyatı ateşkesi umudu. Rubio: Türkiye'nin teklifini değerlendiriyoruz"
     },
     {
-     "s": "onedio",
-     "hl": "Antalya’da Hortum ve Sağanak Faciası: 4 İşçi Hayatını Kaybetti"
+     "s": "mynet",
+     "hl": "Rubio, Türkiye'nin Karadeniz'de tahıl sevkiyatı için ateşkes teklifini değerlendirdiklerini söyledi"
     },
     {
-     "s": "dirilis",
-     "hl": "Antalya’da hortum faciası!"
+     "s": "aksam",
+     "hl": "Karadeniz'deki kriz için Ankara devrede! ABD Dışişleri Bakanı Rubio: Türkiye'nin teklifini değerlendiriyoruz"
     },
     {
-     "s": "diken",
-     "hl": "Antalya'da hortum: Dört işçi öldü"
+     "s": "yenisafak",
+     "hl": "ABD duyurdu: Türkiye'nin teklifini değerlendiriyoruz"
     },
     {
-     "s": "yeniasya",
-     "hl": "Antalya'da hortum afeti: Parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı"
-    }
-   ]
-  },
-  {
-   "event": "s4989",
-   "week": "w9",
-   "title": "Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem",
-   "headlines": [
-    {
-     "s": "cumhuriyet",
-     "hl": "Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!"
+     "s": "akit",
+     "hl": "Türkiye ABD'ye ne teklif etti? Rubio: Teklifi değerlendiriyoruz"
     },
     {
-     "s": "aa",
-     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Son dakika: Akdeniz'de deprem!"
+     "s": "tgrt",
+     "hl": "Karadeniz'de tahıl ateşkesi umudu! ABD, Türkiye'nin önerisini değerlendiriyor"
     },
     {
      "s": "hurriyet",
-     "hl": "Akdeniz açıklarında 3.8 büyüklüğünde deprem"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Muğla açıklarında 5.1 büyüklüğünde deprem"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Datça açıklarında 5.1 büyüklüğünde deprem meydana geldi"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Muğla açıklarında 5,1 büyüklüğünde deprem"
-    },
-    {
-     "s": "haberler",
-     "hl": "Muğla açıklarında 5.1 büyüklüğünde deprem"
-    },
-    {
-     "s": "sabah",
-     "hl": "Akdeniz'de deprem! AFAD açıkladı: Muğla Datça açıklarında 5.1 büyüklüğünde sarsıntı"
-    },
-    {
-     "s": "diken",
-     "hl": "Muğla açıklarında 5,1 büyüklüğünde deprem"
-    },
-    {
-     "s": "birgun",
-     "hl": "AFAD duyurdu: Datça açıklarında 5,1 büyüklüğünde deprem"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Muğla Datça açıklarında 5,1 büyüklüğünde deprem!"
-    },
-    {
-     "s": "onedio",
-     "hl": "AFAD Depremi Açıkladı: Muğla'da 5,1 Büyüklüğünde Deprem Oldu"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem"
-    },
-    {
-     "s": "star",
-     "hl": "AFAD büyüklüğünü açıkladı: Muğla açıklarında 5.1 büyüklüğünde deprem"
-    },
-    {
-     "s": "mynet",
-     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem!"
-    },
-    {
-     "s": "aksam",
-     "hl": "AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem"
-    },
-    {
-     "s": "ntv",
-     "hl": "Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Akdeniz'de 5,1 büyüklüğünde deprem"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "SON DAKİKA HABERİ: Muğla açıklarında 5.1 büyüklüğünde deprem"
-    },
-    {
-     "s": "milliyet",
-     "hl": "Kolombiya'da 5,4 büyüklüğünde deprem"
+     "hl": "ABD Dışişleri Bakanı Rubio'dan Karadeniz açıklaması: Türkiye'nin teklifini inceliyoruz"
     }
    ]
   },
   {
-   "event": "s5051",
+   "event": "s5050",
    "week": "w9",
-   "title": "Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı",
+   "title": "Küçükçekmece'de düğünde bıçaklı kavga: 1 ölü",
    "headlines": [
     {
-     "s": "sabah",
-     "hl": "Dünya Gazetesi’nin sahibi gözaltında"
-    },
-    {
      "s": "sondakika",
-     "hl": "Dünya gazetesinin sahibi Umut Güner gözaltına alındı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı"
-    },
-    {
-     "s": "birgun",
-     "hl": "Fon soruşturması: Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı"
+     "hl": "Küçükçekmece'de düğündeki tartışma bıçaklı kavgaya dönüştü, bir kişi hayatını kaybetti"
     },
     {
      "s": "haberler",
-     "hl": "Dünya gazetesinin sahibi Umut Güner gözaltına alındı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Son dakika | Dünya Gazetesi sahibi Umut Güner gözaltında! Fon soruşturmasında yeni gelişme"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Fon soruşturmasında yeni gelişme: Umut Güner gözaltına alındı"
-    },
-    {
-     "s": "onedio",
-     "hl": "Dünya Gazetesi’nin Sahibi Umut Güner Gözaltına Alındı"
-    },
-    {
-     "s": "karar",
-     "hl": "Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Fon soruşturmasında yeni gelişme! Umut Güner gözaltında"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Dünya Gazetesi'nin patronu Umut Güner fon soruşturmasından gözaltında"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son Dakika... Fon soruşturmasında yeni gelişme: Dünya gazetesinin sahibi Umut Güner gözaltına alındı"
+     "hl": "Küçükçekmece'de düğünde bıçaklanan kişi hastanede hayatını kaybetti"
     },
     {
      "s": "akit",
-     "hl": "Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı"
+     "hl": "Küçükçekmece’de düğündeki kavga can aldı"
     },
     {
-     "s": "trthaber",
-     "hl": "Fon soruşturması kapsamında Umut Güner gözaltında"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Umut Güner neden gözaltına alındı? Fon soruşturması"
-    },
-    {
-     "s": "diken",
-     "hl": "Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı"
+     "s": "sabah",
+     "hl": "Küçükçekmece'de düğünde bıçaklı kavga: 1 ölü"
     },
     {
      "s": "ahaber",
-     "hl": "Fon soruşturması kapsamında Umut Güner gözaltına alındı"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Fon soruşturmasında Umut Güner gözaltına alındı"
+     "hl": "Küçükçekmece’de düğünde dehşet! Boğazından bıçaklanan kişi hayatını kaybetti"
     },
     {
      "s": "star",
-     "hl": "Fon soruşturması! Dünya gazetesinin sahibi Umut Güner gözaltına alındı"
-    },
-    {
-     "s": "aksam",
-     "hl": "Fon soruşturması derinleşiyor! Umut Güner gözaltına alındı"
+     "hl": "Küçükçekmece'de düğünde bıçaklı kavga: 1 ölü"
     },
     {
      "s": "ntv",
-     "hl": "Fon soruşturması. Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Fon soruşturmasında yeni gelişme! Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı"
-    }
-   ]
-  },
-  {
-   "event": "s4546",
-   "week": "w9",
-   "title": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı",
-   "headlines": [
-    {
-     "s": "star",
-     "hl": "Bakırköy Belediyesi'ne yolsuzluk operasyonu: Çok sayıda isim için gözaltı kararı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "SON DAKİKA...Bakırköy Belediyesi'ne operasyon: Çok sayıda gözaltı kararı"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Bakırköy Belediyesine operasyon: 68 kişi hakkında gözaltı kararı"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Bakırköy Belediyesine operasyon: 68 şüpheli hakkında gözaltı kararı"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Bakırköy Belediyesi'ne ihale operasyonu: Başkan yardımcıları ve meclis üyelerinin de olduğu 68 kişi için gözaltı kararı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Bakırköy Belediyesi'ne yolsuzluk operasyonu: 58 kişi gözaltında"
-    },
-    {
-     "s": "mynet",
-     "hl": "Bakırköy Belediyesi'ne operasyon! 68 gözaltı kararı"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son dakika... Bakırköy Belediyesi’ne operasyon: Çok sayıda gözaltı kararı var"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı"
-    },
-    {
-     "s": "karar",
-     "hl": "Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı"
+     "hl": "İstanbul Küçükçekmece'de düğünde bıçaklı kavga: 1 ölü"
     },
     {
      "s": "takvim",
-     "hl": "Bakırköy Belediyesi'ne ihale ve irtikap soruşturması! 68 şüpheliden 58'i gözaltına alındı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı"
-    },
-    {
-     "s": "akit",
-     "hl": "Son dakika! Bakırköy Belediyesi'ne dev operasyon!"
-    },
-    {
-     "s": "haberler",
-     "hl": "Bakırköy Belediyesi'ndeki soruşturmada 68 şüpheli için gözaltı kararı çıkarıldı"
-    },
-    {
-     "s": "aa",
-     "hl": "Bakırköy Belediyesine yönelik soruşturmada 58 şüpheli gözaltına alındı"
-    },
-    {
-     "s": "tele1",
-     "hl": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA | Bakırköy Belediyesi'ne 'ihale' operasyonu: 68 gözaltı kararı! 2024-2026 yıllarına ait 42 ihale mercek altında"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı"
-    },
-    {
-     "s": "aksam",
-     "hl": "Bakırköy Belediyesi'ne yolsuzluk operasyonu! 58 şüpheli gözaltına alındı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Bakırköy Belediyesi'ne operasyon. 68 şüpheli için gözaltı kararı"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Bakırköy Belediyesi'ne yönelik operasyonda 68 kişiden 57'si gözaltına alındı"
-    }
-   ]
-  },
-  {
-   "event": "s4678",
-   "week": "w9",
-   "title": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi",
-   "headlines": [
-    {
-     "s": "milligazete",
-     "hl": "İsmail Kartal Fenerbahçe'den ayrıldı mı, istifa etti mi? Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Fenerbahçe'de İsmail Kartal'ın 4. dönemi uzun sürmedi"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Fenerbahçe’de İsmail Kartal dönemi bitti"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi"
-    },
-    {
-     "s": "star",
-     "hl": "Fenerbahçe'de kritik toplantı sona erdi! İsmail Kartal göreve devam edecek mi?"
+     "hl": "Küçükçekmece’de düğün salonunda bıçaklı kavga: Boğazından bıçaklanan genç hayatını kaybetti"
     },
     {
      "s": "karar",
-     "hl": "Fenerbahçe'de İsmail Kartal dönemi resmen sona erdi: Kulüpten ayrılık açıklaması"
+     "hl": "Küçükçekmece’de düğün kana bulandı: 1 kişi bıçaklanarak öldürüldü"
     },
     {
      "s": "cumhuriyet",
-     "hl": "Fenerbahçe'de kritik saatler... Derbi sonrası İsmail Kartal iddiası!"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "İstifasını sundu! Fenerbahçe'de İsmail Kartal dönemi sona erdi"
-    },
-    {
-     "s": "akit",
-     "hl": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi: İstifası kabul edildi! Yerine gelecek isim de belli oldu"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi!"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti"
-    },
-    {
-     "s": "mynet",
-     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi!"
-    },
-    {
-     "s": "haberler",
-     "hl": "Fenerbahçe’de İsmail Kartal dönemi bitti"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Fenerbahçe'de İsmail Kartal istifa etti"
-    },
-    {
-     "s": "onedio",
-     "hl": "Fenerbahçe'de İsmail Kartal Dönemi Sona Erdi: Galatasaray Derbisinin Ardından Yollar Ayrıldı!"
-    },
-    {
-     "s": "diken",
-     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi"
+     "hl": "İstanbul Küçükçekmece'de düğün salonunda bıçaklı kavga: 1 ölü"
     },
     {
      "s": "birgun",
-     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi"
+     "hl": "Küçükçekmece'de düğün salonunda bıçaklı saldırı: 1 ölü"
     },
     {
-     "s": "trthaber",
-     "hl": "Fenerbahçe'de İsmail Kartal dönemi sona erdi"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "İsmail Kartal dönemi sona erdi! Göztepe maçında takımın başında kim olacak?"
-    },
-    {
-     "s": "ntv",
-     "hl": "Fenerbahçe'de İsmail Kartal dönemi bitti"
+     "s": "mynet",
+     "hl": "Küçükçekmece’de düğün salonundaki bıçaklı kavgada yeni gelişme: Şüpheli yakalandı"
     }
    ]
   },
   {
-   "event": "s4737",
+   "event": "s4848",
    "week": "w9",
-   "title": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi",
+   "title": "İstanbul Maratonu'nda rekor kırıldı!",
    "headlines": [
     {
-     "s": "haberler",
-     "hl": "Türkiye'den BM hamlesi! Feridun Sinirlioğlu, Genel Sekreterlik için resmen aday gösterildi"
+     "s": "sondakika",
+     "hl": "48. İstanbul Maratonu yarın koşulacak"
     },
     {
      "s": "aa",
-     "hl": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi"
+     "hl": "48. İstanbul Maratonu bugün koşulacak"
     },
     {
-     "s": "dirilis",
-     "hl": "Türkiye'den Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için resmi başvuru!"
+     "s": "haberler",
+     "hl": "48. İstanbul Maratonu yarın koşulacak"
     },
     {
-     "s": "milligazete",
-     "hl": "Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için başvuru yapıldı"
+     "s": "birgun",
+     "hl": "İstanbul Maratonu yarın 48. kez koşulacak"
     },
     {
-     "s": "tgrt",
-     "hl": "Türkiye'den BM Genel Sekreterliği için resmi adım: Feridun Sinirlioğlu'na adaylık başvurusu"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Türkiye Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi"
+     "s": "ntv",
+     "hl": "48. İstanbul Maratonu'na geri sayım. 12 milyon lira para ödülü"
     },
     {
      "s": "akit",
-     "hl": "Türkiye’nin BM Genel Sekreterliği adayı Feridun Sinirlioğlu oldu"
+     "hl": "48. İstanbul Maratonu için start verildi"
     },
     {
-     "s": "trthaber",
-     "hl": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi"
+     "s": "ahaber",
+     "hl": "48. İstanbul Maratonu'nda parkur rekoru geldi! İşte para ödülü"
     },
     {
-     "s": "haberturk",
-     "hl": "Türkiye'nin BM Genel Sekreterliği adayı Sinirlioğlu"
+     "s": "yenisafak",
+     "hl": "48. İstanbul Maratonu başladı"
     },
     {
-     "s": "sabah",
-     "hl": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi"
+     "s": "star",
+     "hl": "48. İstanbul Maratonu'nda rekor galibiyet"
+    },
+    {
+     "s": "tgrt",
+     "hl": "48. İstanbul Maratonu'nda kazananlar belli oldu: 7 yıllık rekor kırıldı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "48. İstanbul Maratonu'nda rekorla gelen zafer"
+    },
+    {
+     "s": "milligazete",
+     "hl": "48. İstanbul Maratonu'nda erkekler kategorisinde rekor kırıldı! Zirve Kenyalının atletin"
     },
     {
      "s": "sozcu",
-     "hl": "Türkiye, BM Genel Sekreterliği için Sinirlioğlu'nu aday gösterdi"
+     "hl": "İstanbul Maratonu'nda rekor kırıldı!"
+    },
+    {
+     "s": "onedio",
+     "hl": "48. İstanbul Maratonu'nda Erkeklerde Rekor Süre, Kadınlarda Etiyopyalı Baze Kazandı"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "48. kez İstanbul Maratonu"
+    }
+   ]
+  },
+  {
+   "event": "s4436",
+   "week": "w9",
+   "title": "Efsane boksör Mike Tyson İstanbul'a geldi",
+   "headlines": [
+    {
+     "s": "haberler",
+     "hl": "Mike Tyson kimdir? Tuzlu Kahve'ye konuk olan Mike Tyson kaç yaşında, nereli, evli mi?"
+    },
+    {
+     "s": "star",
+     "hl": "Dünyaca ünlü boksör Mike Tyson İstanbul'da"
+    },
+    {
+     "s": "akit",
+     "hl": "Mike Tyson İstanbul'a geldi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Mike Tyson, İstanbul'a geldi: Süper Lig cevabı dikkat çekti"
+    },
+    {
+     "s": "sabah",
+     "hl": "Mike Tyson İstanbul’da! Dikkat çeken Galatasaray-Fenerbahçe cevabı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Dünyaca ünlü boksör Mike Tyson İstanbul’da"
+    },
+    {
+     "s": "karar",
+     "hl": "Efsane boksör Mike Tyson İstanbul’da"
     },
     {
      "s": "takvim",
-     "hl": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliğine aday gösterdi: Resmi başvuru mektubu sunuldu"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Türkiye, Feridun Sinirlioğlu’nu BM Genel Sekreterliği’ne aday gösterdi"
-    },
-    {
-     "s": "karar",
-     "hl": "Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu"
-    },
-    {
-     "s": "mynet",
-     "hl": "Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu"
-    },
-    {
-     "s": "birgun",
-     "hl": "Türkiye'nin BM Genel Sekreterliği için gösterdiği aday belli oldu"
+     "hl": "Dünyaca ünlü boksör Mike Tyson dizi projesi için İstanbul'a geldi: Türkiye'de olmaktan mutluyum"
     },
     {
      "s": "cumhuriyet",
-     "hl": "Türkiye’nin BM Genel Sekreterliği için adayı Feridun Sinirlioğlu oldu"
+     "hl": "Mike Tyson İstanbul'da: İlk açıklamasını yaptı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Mike Tyson Tuzlu Kahve için İstanbul’a geldi: Mike Tyson kimdir, kaç yaşında, Müslüman mı?"
     },
     {
      "s": "ntv",
-     "hl": "Türkiye'nin BM Genel Sekreter adayı Sinirlioğlu oldu"
+     "hl": "Mike Tyson İstanbul'da: \"Türkiye'de bulunmaktan çok mutluyum\""
     },
     {
-     "s": "star",
-     "hl": "Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı! Azerbaycan: Memnuniyete karşılıyoruz"
+     "s": "tgrt",
+     "hl": "Tuzlu Kahve dizisine katılan efsane boksör Mike Tyson’ın karakteri belli oldu!"
     },
     {
-     "s": "aksam",
-     "hl": "Feridun Sinirlioğlu BM Genel Sekreterliği adaylığı için vizyon belgesini açıkladı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Bakan Fidan duyurdu: Feridun Sinirlioğlu BM Genel Sekreterliği'ne aday"
+     "s": "haberturk",
+     "hl": "Efsane boksör Mike Tyson İstanbul'a geldi"
     }
    ]
   },
   {
-   "event": "s4462",
+   "event": "s4371",
    "week": "w9",
-   "title": "2026 Ballon d'Or'un sahibi Harry Kane oldu",
+   "title": "SPK'dan nitelikli yatırımcı kararı: 50 milyon liraya çıkarıldı",
    "headlines": [
     {
-     "s": "yenisafak",
-     "hl": "Ballon d'Or ödülünü kim kazandı? 2026 Ballon d'Or adayları kimler?"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Ballon D'or sıralaması: Güç sıralaması belli oldu! Ballon D'or saat kaçta?"
+     "s": "bloomberght",
+     "hl": "Nitelikli yatırımcı"
     },
     {
      "s": "haberturk",
-     "hl": "Ballon dor kim kazandı? 2026 Ballon d'Or ödülünü kim aldı, Altın top kimin oldu?"
+     "hl": "SPK'dan nitelikli yatırımcı kararı"
     },
     {
-     "s": "ahaber",
-     "hl": "2026 Ballon d’Or sahibini buldu: Harry Kane kariyerinde bir ilki yaşadı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "2026 Ballon d'Or ödülü kime verildi? Harry Kane mi kazandı? Lamine Yamal mı? Mbappé mi?"
-    },
-    {
-     "s": "sabah",
-     "hl": "SON DAKİKA | 2026 Ballon d'Or'un sahibi kim oldu? İşte gecede ödül alan yıldızlar..."
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Ballon d'Or'un kazananı belli oldu"
-    },
-    {
-     "s": "onedio",
-     "hl": "70. Kez Düzenlenen Ballon D'Or Ödüllerinde Kazanan Harry Kane Oldu"
-    },
-    {
-     "s": "diken",
-     "hl": "Ballon d'Or Harry Kane'in"
-    },
-    {
-     "s": "aa",
-     "hl": "Harry Kane, Alexia Putellas win 2026 Ballon d'Or awards in London"
-    },
-    {
-     "s": "haberler",
-     "hl": "Ballon d'Or'un sahibi Harry Kane oldu! 25 yıl sonra ödülü kazanan ilk İngiliz"
-    },
-    {
-     "s": "ntv",
-     "hl": "Ballon d'Or ödülleri Londra'da sahiplerini buldu. Harry Kane yılın futbolcusu seçildi"
-    },
-    {
-     "s": "karar",
-     "hl": "2026 Ballon d'Or Harry Kane'in"
-    },
-    {
-     "s": "sozcu",
-     "hl": "2026 Ballon d'Or ödülü Harry Kane'in! 25 yıl sonra bir ilk"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "25 yıl sonra bir ilk: 2026 Ballon d'Or ödülünün sahibi belli oldu"
-    },
-    {
-     "s": "aksam",
-     "hl": "25 yıl sonra kazanan ilk İngiliz! Ballon d'Or'un sahibi Harry Kane"
-    },
-    {
-     "s": "birgun",
-     "hl": "Ballon d'Or ödülünü Harry Kane kazandı"
+     "s": "tgrt",
+     "hl": "SPK’dan kritik nitelikli yatırımcı kararı: 50 milyon TL’ye yükseltildi"
     },
     {
      "s": "mynet",
-     "hl": "25 yıl sonra bir ilk! Ballon d'Or'un sahibi belli oldu"
+     "hl": "SPK'dan nitelikli yatırımcı kararı: 50 milyon TL'ye yükseltildi"
+    },
+    {
+     "s": "haberler",
+     "hl": "SPK düğmeye bastı! Nitelikli yatırımcı limiti 50 milyon liraya yükseldi"
+    },
+    {
+     "s": "aa",
+     "hl": "SPK, nitelikli yatırımcılar için belirlenen finansal varlık toplamını 50 milyon liraya çıkardı"
+    },
+    {
+     "s": "aksam",
+     "hl": "SPK'dan nitelikli yatırımcı kararı: 50 milyon liraya çıkarıldı"
+    },
+    {
+     "s": "star",
+     "hl": "Nitelikli yatırımcı olmanın şartı değişti! SPK, varlık sınırını 50 milyon liraya çıkardı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Nitelikli yatırımcıda finansal varlık şartı 50 milyon lira oldu"
+    },
+    {
+     "s": "ntv",
+     "hl": "Nitelikli yatırımcı limiti 50 milyon liraya yükseldi"
+    },
+    {
+     "s": "diken",
+     "hl": "Nitelikli yatırımcı limiti 50 milyon liraya yükseltildi"
+    },
+    {
+     "s": "karar",
+     "hl": "SPK'dan fon krizi sürerken kritik karar: Nitelikli yatırımcı sınırı 50 milyon liraya çıkarıldı"
     },
     {
      "s": "tele1",
-     "hl": "2026 Ballon d'Or'un sahibi Harry Kane oldu"
+     "hl": "SPK'dan nitelikli yatırımcı kararı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "SPK'dan nitelikli yatırımcılar için yeni karar! Finansal varlık şartı 50 milyon TL oldu"
+    }
+   ]
+  },
+  {
+   "event": "s4857",
+   "week": "w9",
+   "title": "Kanuni'nin Mimar Sinan'a yaptırdığı Şam'daki Süleymaniye Tekkesi yeniden açıldı! 14 yıl sonra ilk ezan okundu",
+   "headlines": [
+    {
+     "s": "aa",
+     "hl": "Suriye'nin başkenti Şam'da tarihi Süleymaniye Tekkesi restore edilerek yeniden açıldı"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Osmanlı mirası Süleymaniye Tekkesi Şam'da ibadete döndü: Camide 14 yıl sonra ezan sesi"
+    },
+    {
+     "s": "haberler",
+     "hl": "Kanuni'nin Mimar Sinan'a yaptırdığı Şam'daki Süleymaniye Tekkesi yeniden açıldı! 14 yıl sonra ilk ezan okundu"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Şam'da tarihi açılış! Osmanlı yadigârı Süleymaniye Tekkesi hizmette: 14 yıl sonra ilk ezan"
     },
     {
      "s": "dirilis",
-     "hl": "Ballon d'Or 2026 kazananı Harry Kane oldu, Mbappe ikinci"
+     "hl": "Suriye'nin başkenti Şam'da tarihi Süleymaniye Tekkesi restore edilerek yeniden açıldı"
     },
     {
-     "s": "cnnturk",
-     "hl": "BALLON D'OR KAZANANI: 2026 Ballon d'Or Ödülünün Sahibi Kim Oldu? Ballon d'Or Kim Aldı?"
+     "s": "star",
+     "hl": "Kanuni döneminde Mimar Sinan'a yaptırıldı! Tarihi Süleymaniye Tekkesi yeniden açıldı: Türkiye'ye teşekkür ederiz"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Suriye'nin başkenti Şam'da tarihi Süleymaniye Tekkesi restore edilerek yeniden açıldı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Suriye'nin başkenti Şam'da tarihi Süleymaniye Tekkesi restore edilerek yeniden açıldı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Şam'daki tarihi Osmanlı mirası ihya edildi: Mimar Sinan eseri Süleymaniye Tekkesi törenle yeniden açıldı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Şam'da Kanuni Sultan Süleyman'ın Mimar Sinan'a yaptırdığı Süleymaniye Tekkesi 14 yıl sonra yeniden açıldı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "14 yıl sonra ilk ezan: Şam'daki tarihi Süleymaniye Tekkesi restore edilerek yeniden ibadete açıldı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "14 yıl sonra ilk ezan! Kanuni'nin Şam'a mirası Süleymaniye Külliyesi dualarla açıldı"
+    },
+    {
+     "s": "akit",
+     "hl": "Mimar Sinan'ın Şam’daki eseri açıldı! Süleymaniye Külliyesi'nde 15 yıl sonra ilk namaz"
+    }
+   ]
+  },
+  {
+   "event": "s4374",
+   "week": "w9",
+   "title": "Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+   "headlines": [
+    {
+     "s": "tele1",
+     "hl": "Bolu Belediyesi'ne operasyon 4 gözaltı"
+    },
+    {
+     "s": "birgun",
+     "hl": "Bolu Belediyesi'ne operasyon: Belediye Başkan Yardımcısı dahil 4 kişi gözaltında"
+    },
+    {
+     "s": "haberler",
+     "hl": "Bolu Belediyesi operasyonunda Başkan Yardımcısı Özdemir dahil 4 kişi gözaltına alındı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Bolu Belediyesi’ne operasyon: Başkan Yardımcısı dahil 4 gözaltı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Bolu Belediyesi'ne şafak operasyonu: Belediye Başkan Yardımcısı dahil 4 gözaltı"
+    },
+    {
+     "s": "sabah",
+     "hl": "Bolu Belediyesi'ne operasyon: 4 gözaltı"
+    },
+    {
+     "s": "star",
+     "hl": "Bolu'da belediyeye şafak operasyonu! Başkan Yardımcısı da gözaltına alınanlar arasında"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Bolu Belediyesi'ne şafak operasyonu: Başkan Yardımcısı Rasim Özdemir de gözaltına alındı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Bolu Belediyesi’nde ihale ve zimmet soruşturması! Başkan Yardımcısı Rasim Özdemir tutuklandı"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında"
+    },
+    {
+     "s": "mynet",
+     "hl": "Bolu Belediyesi'ne yeni operasyon! Başkan yardımcısı dahil 4 kişi gözaltına alındı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Bolu Belediyesi'ne şafak operasyonu: 4 gözaltı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Bolu Belediyesi’ne şafak operasyonu: 4 kişi gözaltına alındı"
+    },
+    {
+     "s": "karar",
+     "hl": "Bolu Belediyesine operasyon: Belediye başkan yardımcısı dahil 4 kişi gözaltında"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında"
+    },
+    {
+     "s": "diken",
+     "hl": "Bakırköy Belediyesi'ne soruşturma: Beş başkan yardımcısı dahil 58 gözaltı"
+    },
+    {
+     "s": "ntv",
+     "hl": "Bolu Belediyesi'ne operasyon. Belediye Başkan Yardımcısı dahil dört kişi adliyede"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı"
+    }
+   ]
+  },
+  {
+   "event": "s4570",
+   "week": "w9",
+   "title": "Kırıkkale'de işçileri taşıyan midibüs devrildi! 14 kişi yaralandı",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "GÜNCELLEME - Kırıkkale'de midibüsün devrildiği kazada 15 kişi yaralandı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Kırıkkale'de can pazarı: İşçileri taşıyan servis aracı devrildi, 14 yaralı!"
+    },
+    {
+     "s": "haberler",
+     "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi, 1'i ağır 15 kişi yaralandı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Kırıkkale'de midibüsün devrildiği kazada 14 kişi yaralandı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Kırıkkale'de feci kaza! İşçileri taşıyan servis devrildi: Çok sayıda yaralı var"
+    },
+    {
+     "s": "sabah",
+     "hl": "Kırıkkale'de işçi servisi devrildi: 1'i ağır 15 yaralı | Video"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Sağanak sonrası feci kaza, Kırıkkale’de işçi servisi devrildi! 15 yaralı"
+    },
+    {
+     "s": "star",
+     "hl": "Kırıkkale'de feci kaza! İşçileri taşıyan servis devrildi: 15 yaralı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Kırıkkale'de işçi midibüsü devrildi! 15 yaralı"
+    },
+    {
+     "s": "birgun",
+     "hl": "Kırıkkale'de midibüs devrildi: 1'i ağır 15 işçi yaralandı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Kırıkkale’de işçileri taşıyan servis devrildi: 15 yaralı!"
+    },
+    {
+     "s": "ntv",
+     "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi. 15 yaralı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Kırıkkale'de servis midibüsü devrildi: 14 yaralı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Kırıkkale'de servis midibüsü devrildi: Çok sayıda yaralı var!"
+    },
+    {
+     "s": "takvim",
+     "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi: 1'i ağır 15 kişi yaralandı"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi: 15 yaralı"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Kırıkkale'de işçileri taşıyan midibüs devrildi! 14 kişi yaralandı"
     }
    ]
   }

@@ -1,0 +1,11 @@
+{"q": {"happened": "İstanbul Boğazı'nda bir gemi sürüklendi ve birçok başlığa göre kurtarıldı; NTV ve Mynet ise Didim ve Çanakkale'de sürüklenen teknelerden 2 kişinin kurtarıldığını duyuruyor.", "agree": "Bir deniz aracının sürüklendiği ortak.", "differ": "Sözcü, Habertürk ve Diriliş kurtarmayı öne çıkarıyor; Star ve A Haber 'korkutan/panik anları' ile tehlikeyi, Star ve Karar arızayı neden olarak veriyor; Cumhuriyet ve Karar geminin ters döndüğünü yazıyor; NTV ve Mynet farklı yerlerde tekne kurtarması aktarıyor.", "care": "Aynı olay kurtarma başarısı ya da panik ve tehlike olarak sunulabiliyor; okurun algıladığı risk düzeyi buna göre değişiyor, ayrıca bazı başlıklar farklı bir olayı anlatıyor."}, "rows": [
+{"s": "ntv", "frame": "Kurtarma", "hero": "", "blame": "", "cause": "", "cons": "Kurtarma", "aff": "Teknedeki 2 kişi", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Kurtarma", "hero": "", "blame": "", "cause": "", "cons": "Kurtarma", "aff": "Teknedeki 2 kişi", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "Gemi", "blame": "", "cause": "", "cons": "Ters dönme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Kurtarma", "hero": "Gemi", "blame": "", "cause": "", "cons": "Kurtarma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Tehlike / korku", "hero": "Gemi", "blame": "", "cause": "Arıza", "cons": "Kontrolsüz sürüklenme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Tehlike / korku", "hero": "Gemi", "blame": "", "cause": "", "cons": "Kıyıya sürüklenme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Kurtarma", "hero": "Gemi", "blame": "", "cause": "", "cons": "Kurtarma", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Olgu aktarımı", "hero": "Gemi", "blame": "", "cause": "Arıza", "cons": "Ters dönme", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Kurtarma", "hero": "Gemi", "blame": "", "cause": "", "cons": "Kurtarma", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

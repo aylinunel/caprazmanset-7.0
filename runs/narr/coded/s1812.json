@@ -1,0 +1,13 @@
+{"q": {"happened": "Süren bir soruşturmada 15 şüpheli daha tutuklandı.", "agree": "15 kişinin tutuklandığı ortak (star ve habertürk sayı vermiyor).", "differ": "Star, yenişafak, trthaber, ahaber, milligazete, habertürk, cnntürk ve yeniasya tutuklamaları 'fon soruşturması' başlığıyla veriyor (milligazete 'tutuklama dalgası' diyor); sabah, birgün ve cumhuriyet ise aynı tutuklamaları 'Daltonlar' suç örgütü soruşturması olarak adlandırıyor.", "care": "Aynı tutuklamaların bir kısım kurumda 'fon soruşturması', diğerlerinde bir suç örgütü soruşturması olarak adlandırılması, okurun olayı hangi dosyayla ve hangi tür suçla ilişkilendireceğini belirliyor."}, "rows": [
+{"s": "star", "frame": "Fon soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Fon soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Fon soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Fon soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Fon soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Fon soruşturması", "hero": "Savcılık", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Suç örgütü", "hero": "Savcılık", "blame": "'Daltonlar' suç örgütü", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Suç örgütü", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cnnturk", "frame": "Fon soruşturması", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Suç örgütü", "hero": "Savcılık", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yeniasya", "frame": "Fon soruşturması", "hero": "Savcılık", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

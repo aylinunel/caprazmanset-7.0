@@ -1,0 +1,12 @@
+{"q": {"happened": "Etimesgut Belediyesi'ne yönelik soruşturmada 2 başkan yardımcısı dahil 7 kişi tutuklandı.", "agree": "Etimesgut Belediyesi soruşturmasında tutuklamalar olduğu ortak.", "differ": "Takvim, A Haber, Star, Habertürk ve TRT Haber soruşturmayı yolsuzluk olarak adlandırıyor, A Haber rüşvet ve ihaleyi açıkça yazıyor; Habertürk ve TRT Haber 'yolsuzluk' sözcüğünü tırnak içine alıyor; Türkiye Gazetesi, Sözcü, Mynet, Milli Gazete ve Cumhuriyet suçlamayı belirtmeden tutuklamayı aktarıyor.", "care": "Suçlamanın adının konup konmaması ve tırnak kullanımı, okurun iddiayı kanıtlanmış bir yolsuzluk mu yoksa bir soruşturma mı olarak algılayacağını belirler."}, "rows": [
+{"s": "turkiyegz", "frame": "Olgu aktarımı", "hero": "Etimesgut Belediyesi", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Olgu aktarımı", "hero": "Etimesgut Belediyesi", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Yolsuzluk", "hero": "Savcılık", "blame": "Belediye yönetimi", "cause": "Yolsuzluk", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Yolsuzluk", "hero": "Savcılık", "blame": "Belediye yönetimi", "cause": "Rüşvet ve ihale", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Yolsuzluk", "hero": "Savcılık", "blame": "Belediye yönetimi", "cause": "Yolsuzluk", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Olgu aktarımı", "hero": "Etimesgut Belediyesi", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Olgu aktarımı", "hero": "Etimesgut Belediyesi", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Yolsuzluk", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "Yolsuzluk iddiası", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "Etimesgut Belediyesi", "blame": "", "cause": "", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "trthaber", "frame": "Yolsuzluk", "hero": "Savcılık", "blame": "Şüpheliler", "cause": "Yolsuzluk iddiası", "cons": "Tutuklama", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

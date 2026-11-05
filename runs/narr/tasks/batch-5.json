@@ -408,733 +408,613 @@
  ],
  "events": [
   {
-   "event": "s4471",
+   "event": "s4790",
    "week": "w9",
-   "title": "Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti",
+   "title": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı",
    "headlines": [
     {
-     "s": "haberturk",
-     "hl": "Bayrampaşa'da yol çöktü!"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti"
-    },
-    {
-     "s": "mynet",
-     "hl": "Bayrampaşa'da yol çöktü! Ekipler sevk edildi: Acı haber geldi"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "İstanbul'da çalışma sırasında yol çöktü: Göçük altında kalan işçi hayatını kaybetti"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son Dakika... Bayrampaşa'da yol çöktü: 1 işçi hayatını kaybetti!"
+     "s": "sozcu",
+     "hl": "Ünlü şef Somer Sivrioğlu’nun restoranına kayyum atandı: Milyonluk borcu ortaya çıktı"
     },
     {
      "s": "haberler",
-     "hl": "Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti"
+     "hl": "Somer Sivrioğlu'nun işletmesinde kriz! Kayyum atandı"
     },
     {
-     "s": "sozcu",
-     "hl": "Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti"
-    },
-    {
-     "s": "takvim",
-     "hl": "Bayrampaşa'da yol çalışması sırasında çöktü: Göçükte kalan işçi Ali Demirci hayatını kaybetti"
+     "s": "mynet",
+     "hl": "Somer Sivrioğlu'nun restoranına kayyum atandı! Vergi borcu dudak uçuklattı"
     },
     {
      "s": "karar",
-     "hl": "Bayrampaşa’da göçük faciası: 1 işçi hayatını kaybetti"
+     "hl": "Somer Sivrioğlu'nun restoranına kayyum atandı: 72 milyonluk borç"
     },
     {
-     "s": "sabah",
-     "hl": "SON DAKİKA | Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti"
-    },
-    {
-     "s": "akit",
-     "hl": "Bayrampaşa'da yol çöktü; mahsur kalanlar var"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Bayrampaşa’da yol çöktü: Toprak altında kalan 1 işçi hayatını kaybetti"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Bayrampaşa'da yol çöktü! Göçük altında kalan işçiden acı haber"
-    },
-    {
-     "s": "birgun",
-     "hl": "Bayrampaşa'da çalışma sırasında yolda göçük meydana geldi: 1 işçi öldü"
-    },
-    {
-     "s": "ntv",
-     "hl": "Bayrampaşa'da yol çöktü. Bir işçi hayatını kaybetti"
-    },
-    {
-     "s": "aksam",
-     "hl": "Bayrampaşa'da İSKİ çalışmasında göçük: 1 işçi hayatını kaybetti"
-    },
-    {
-     "s": "star",
-     "hl": "Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti"
-    },
-    {
-     "s": "diken",
-     "hl": "Bayrampaşa'da yol çöktü: Bir ölü"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti"
+     "s": "ahaber",
+     "hl": "Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku! Borcu ortaya çıktı"
     },
     {
      "s": "onedio",
-     "hl": "Bayrampaşa'da İSKİ Çalışması Sırasında Çöken Yolda Bir İşçi Hayatını Kaybetti"
+     "hl": "Somer Sivrioğlu'nun Avustralya'daki Restoranına Kayyum Atandı"
     },
     {
-     "s": "yeniasya",
-     "hl": "Bayrampaşa'da yol çöktü: 1 işçi can verdi"
+     "s": "takvim",
+     "hl": "Milyonluk vergi borcu ödenemedi! Somer Sivrioğlu'nun Sidney'deki restoranına kayyum atandı"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Ünlü şef Somer Sivrioğlu'nun milyonluk borcu çıktı! Avustralya'daki restoranına kayyım atandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyım atandı: Milyonluk borç ortaya çıktı!"
+    },
+    {
+     "s": "birgun",
+     "hl": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Somer Şef'in restoranına kayyum atandı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Somer şefin restoranına kayyum atandı: Vergi borcu dudak uçuklattı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Somer Sivrioğlu'nun restoranına kayyum atandı! Milyonluk vergi borcu gündem oldu"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Somer Sivrioğlu'nun Anason restoranı nerede? Vergi borcu kaç milyon dolar?"
+    },
+    {
+     "s": "aksam",
+     "hl": "Ünlü şefe, Sidney'de vergi şoku! Restoranına kayyum atandı"
     }
    ]
   },
   {
-   "event": "s4417",
+   "event": "s4394",
    "week": "w9",
-   "title": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu",
+   "title": "Balıkesir'de işçi servis minibüsü ile hafif ticari araç kafa kafaya çarpıştı: 9 yaralı",
    "headlines": [
     {
      "s": "haberler",
-     "hl": "Kütahya'daki Tavşanlı Höyük'te 4 bin yıllık köpek pati izi bulundu! Yangında yıkılan yapının kerpicinde korunmuş"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Dört bin yıllık pati izi bulundu: Tavşanlı Höyük’te bir köpeğin bıraktığı izler yıkılan evin duvarından çıktı"
-    },
-    {
-     "s": "sabah",
-     "hl": "Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu"
-    },
-    {
-     "s": "aa",
-     "hl": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu"
-    },
-    {
-     "s": "haberturk",
-     "hl": "4 bin yıllık pati izi bulundu"
-    },
-    {
-     "s": "akit",
-     "hl": "O ilimizde dört bin yıllık pati izi bulundu..."
-    },
-    {
-     "s": "aksam",
-     "hl": "Tavşanlı Höyük kazılarında şaşırtan pati izleri"
-    },
-    {
-     "s": "karar",
-     "hl": "Kütahya Tavşanlı Höyük’te 4 bin yıllık sürpriz: Yıkılan evin duvarından pati izi çıktı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Tavşanlı Höyük kazılarında tarihi keşif! 4 bin yıllık pati izleri bulundu"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Kütahya’da yaklaşık 4 bin yıllık köpek pati izleri bulundu"
+     "hl": "Balıkesir Susurluk'ta işçi servisi ile hafif ticari araç çarpıştı, 9 kişi yaralandı"
     },
     {
      "s": "cumhuriyet",
-     "hl": "Arkeologları şaşırtan keşif: Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu"
+     "hl": "Balıkesir'de işçi servis minibüsü ile hafif ticari araç çarpıştı: Yaralılar var!"
+    },
+    {
+     "s": "sabah",
+     "hl": "Balıkesir'de feci kaza! Servis minibüsü ile ticari araç çarpıştı: Yaralılar var!"
+    },
+    {
+     "s": "sozcu",
+     "hl": "İşçi servisi ile hafif ticari araç kafa kafaya çarpıştı"
+    },
+    {
+     "s": "karar",
+     "hl": "Balıkesir’de işçi servisi ile hafif ticari araç kafa kafaya çarpıştı: 9 yaralı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Balıkesir'de feci kaza: 10 yaralı"
+    },
+    {
+     "s": "star",
+     "hl": "Balıkesir'de feci kaza! Ticari araçla minibüs çarpıştı: 10 yaralı"
     },
     {
      "s": "ntv",
-     "hl": "Kütahya'da 4 bin yıllık köpek pati izleri bulundu"
+     "hl": "Balıkesir'de işçi servis minibüsü ile otomobil çarpıştı. 10 yaralı"
     },
     {
-     "s": "trthaber",
-     "hl": "Tavşanlı Höyük kazılarında 4 bin yıllık pati izleri bulundu"
+     "s": "turkiyegz",
+     "hl": "Balıkesir'de hafif ticari araç ve minibüs çarpıştı: 10 kişi yaralandı"
     },
     {
-     "s": "diken",
-     "hl": "Kütahya'da yaklaşık 4 bin yıllık pati izleri bulundu"
+     "s": "ahaber",
+     "hl": "Balıkesir'de işçi servisi ile hafif ticari araç kafa kafaya çarpıştı! Kazada 9 yaralı"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Tır ile kamyonet kafa kafaya çarpıştı: 2 ağır yaralı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Tır ile kamyonet kafa kafaya çarpıştı: 2 ağır yaralı"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "İki araç kafa kafaya çarpıştı: Beş yaralı"
+    },
+    {
+     "s": "akit",
+     "hl": "Akçakoca’da iki araç kafa kafaya çarpıştı: 5 kişi yaralandı"
+    }
+   ]
+  },
+  {
+   "event": "s4784",
+   "week": "w9",
+   "title": "15 yaş altı sosyal medya yasağı başladı mı? 15 yaş altı sosyal medya yasağı yaş doğrulaması nasıl yapılacak?",
+   "headlines": [
+    {
+     "s": "karar",
+     "hl": "15 yaş altına sosyal medya yasağı yarın başlıyor: Kimlik değil yaş doğrulanacak"
+    },
+    {
+     "s": "tgrt",
+     "hl": "15 yaş altına sosyal medya yasağı yarın başlıyor: Hesaplar tek tek silinecek"
+    },
+    {
+     "s": "birgun",
+     "hl": "Sosyal medya yasağı başlıyor: Hesaplar kapatılacak"
     },
     {
      "s": "onedio",
-     "hl": "Kütahya'da 4 Bin Yıllık Pati İzleri Bulundu"
-    },
-    {
-     "s": "takvim",
-     "hl": "4 bin yıllık kerpiçte köpek patisi izi: Tavşanlı Höyük kazılarında tarihi keşif"
+     "hl": "Sosyal Medya Yasağı Başlıyor: Kimleri Kapsıyor, e-Devlet'ten Yaş Doğrulama Nasıl Yapılacak?"
     },
     {
      "s": "dirilis",
-     "hl": "Tavşanlı Höyük'te kerpiçte 4 bin yıllık pati izleri bulundu"
+     "hl": "15 yaş altına sosyal medya yasağı yarın başlıyor!"
+    },
+    {
+     "s": "sabah",
+     "hl": "Sosyal medyada 15 yaş altı yasağı yarın başlıyor! Yaş doğrulaması nasıl yapılacak?"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Sosyal medyada 15 yaş altı yasağı başlıyor: Yaş doğrulaması nasıl yapılacak?"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Sosyal medyada 15 yaş altı çocuklara yasak başlıyor: Yaş doğrulaması nasıl yapılır?"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "15 yaş altı sosyal medya yasağı ne zaman başlayacak? e-Devlet yaş doğrulama süreci"
+    },
+    {
+     "s": "haberturk",
+     "hl": "15 yaş altı sosyal medya yasağı başladı! Yaş doğrulaması nasıl yapılır, sosyal medya yasağı hangi uygulamaları kapsayacak?"
+    },
+    {
+     "s": "haberler",
+     "hl": "Sosyal medya yaş doğrulaması nasıl yapılır? 1 Kasım sosyal medya yasağı hangi uygulamaları kapsayacak?"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "15 yaş altı sosyal medya yasağı ne zaman başlıyor? 15 yaş altı sosyal medya düzenlemesi maddeleri neler?"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Sosyal medyada 15 yaş sınırı yürürlüğe girdi, yaş doğrulaması e-Devlet'ten yapılacak"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "15 yaş altına sosyal medya bugünden itibaren yasak"
+    },
+    {
+     "s": "ntv",
+     "hl": "E-Devlet yaş doğrulaması yapma ekranı. Sosyal medya yaş doğrulaması nasıl ve nereden yapılacak?"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Bakan Göktaş duyurdu: Sosyal medya yasağı resmen başladı"
     }
    ]
   },
   {
-   "event": "s4709",
+   "event": "s4551",
    "week": "w9",
-   "title": "Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede",
+   "title": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı",
    "headlines": [
+    {
+     "s": "star",
+     "hl": "''Daltonlar Suç Örgütü''ne eş zamanlı operasyon"
+    },
+    {
+     "s": "haberturk",
+     "hl": "\"Daltonlar\"a 30 ilde eş zamanlı operasyon"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Sosyal medyadan tetikçi ağı kuran suç örgütüne operasyon: 85 gözaltı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı"
+    },
+    {
+     "s": "mynet",
+     "hl": "Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı kararı"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Son dakika... 'Daltonlar' suç örgütüne 30 ilde dev operasyon"
+    },
+    {
+     "s": "haberler",
+     "hl": "Daltonlar suç örgütüne operasyon! 85 şüpheli gözaltına alındı"
+    },
+    {
+     "s": "birgun",
+     "hl": "İstanbul merkezli 30 ilde 'Daltonlar' suç örgütüne operasyon: 85 şüpheli gözaltında"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Yeni nesil suç örgülerine operasyon: 85 şüpheli gözaltına alındı"
+    },
+    {
+     "s": "karar",
+     "hl": "\"Daltonlar\"a 30 ilde eş zamanlı operasyon: 30’u çocuk yaşta 85 şüpheli gözaltında"
+    },
+    {
+     "s": "sabah",
+     "hl": "SON DAKİKA | Daltonlar suç örgütüne büyük operasyon! 30 ilde 85 gözaltı var"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Daltonlar suç örgütüne operasyon! 30 ilde 85 kişi gözaltına alındı: Tetikçi ağı nasıl kuruldu?"
+    },
+    {
+     "s": "diken",
+     "hl": "30 ilde Daltonlar'a 'tetikçi' operasyonu: 30'u çocuk 85 gözaltı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "'Daltonlar' suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı"
+    },
+    {
+     "s": "aksam",
+     "hl": "\"Daltonlar Suç Örgütü\"ne yönelik operasyon! 85 şüpheli yakalandı"
+    },
+    {
+     "s": "takvim",
+     "hl": "Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 30'u çocuk 85 şüpheli gözaltına alındı"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Yeni nesil suç örgütüne 30 ilde operasyon: 85 gözaltı!"
+    },
+    {
+     "s": "ntv",
+     "hl": "30 ilde Daltonlar'a operasyon. 30'u çocuk 85 şüpheli gözaltında"
+    }
+   ]
+  },
+  {
+   "event": "s4971",
+   "week": "w9",
+   "title": "Galatasaray - Stuttgart",
+   "headlines": [
+    {
+     "s": "sabah",
+     "hl": "Galatasaray, Stuttgart maçı hazırlıklarına başladı!"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Galatasaray, Stuttgart maçının hazırlıklarına başladı!"
+    },
+    {
+     "s": "star",
+     "hl": "Galatasaray, Stuttgart maçı hazırlıklarını sürdürdü"
+    },
+    {
+     "s": "aksam",
+     "hl": "Galatasaray'da Stuttgart mesaisi sürüyor"
+    },
+    {
+     "s": "mynet",
+     "hl": "Galatasaray, Stuttgart maçı hazırlıklarına devam etti"
+    },
+    {
+     "s": "dirilis",
+     "hl": "Galatasaray Stuttgart maçı saat kaçta ve hangi kanalda?"
+    },
+    {
+     "s": "sondakika",
+     "hl": "Galatasaray Stuttgart maçı hazırlığını tamamladı, statü gereği eksikler var"
+    },
+    {
+     "s": "haberler",
+     "hl": "Galatasaray Stuttgart maçı ne zaman, saat kaçta? Galatasaray Stuttgart maçı nerede, hangi statta oynanacak?"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Galatasaray Stuttgart maçına hazır"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Galatasaray, Stuttgart maçı hazırlıklarını tamamladı"
+    },
+    {
+     "s": "onedio",
+     "hl": "Galatasaray - Stuttgart Maçı Ne Zaman, Saat Kaçta ve Hangi Kanalda? Muhtemel 11'ler ve Eksikler"
+    },
+    {
+     "s": "karar",
+     "hl": "Galatasaray Stuttgart’ı ağırlıyor"
+    },
+    {
+     "s": "ntv",
+     "hl": "Şampiyonlar Ligi heyecanı. Galatasaray-Stuttgart maçı saat kaçta, hangi kanal yayınlayacak?"
+    },
+    {
+     "s": "milligazete",
+     "hl": "Galatasaray-Stuttgart maçı hangi kanalda? İşte 11'ler"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Galatasaray-Stuttgart maçı için olay tahmin! Yapay zeka sonucu açıkladı"
+    },
+    {
+     "s": "tgrt",
+     "hl": "Galatasaray-Stuttgart maçı ne zaman? Galatasaray-Stuttgart maçı hangi kanalda yayınlanacak, saat kaçta? İşte Muhtemel 11'ler"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Galatasaray-Stuttgart maçı TRT 1'de"
+    },
+    {
+     "s": "birgun",
+     "hl": "Galatasaray-Stuttgart maçı saat kaçta, hangi kanalda? UEFA Gençlik Ligi"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Galatasaray-Stuttgart maçı hangi kanalda, nerede izlenir? Şampiyonlar Ligi maçı şifresiz yayın bilgileri"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "Galatasaray - Stuttgart Maçı Canlı Anlatım | Temsilcimiz, Devler Ligi sınavında"
+    }
+   ]
+  },
+  {
+   "event": "s4256",
+   "week": "w9",
+   "title": "İstanbul Barosu Başkanı Ümit Kocasakal oldu",
+   "headlines": [
+    {
+     "s": "birgun",
+     "hl": "İstanbul Barosu seçimleri: Ümit Kocasakal yeni başkan seçildi"
+    },
+    {
+     "s": "karar",
+     "hl": "İstanbul Barosu Başkanlık Seçimi ne zaman bitiyor? Ümit Kocasakal hangi gruptan, İbrahim Kaboğlu yeniden aday mı?"
+    },
+    {
+     "s": "haberturk",
+     "hl": "İstanbul Barosu seçimleri sonuçlandı: Ümit Kocasakal başkan seçildi"
+    },
+    {
+     "s": "sozcu",
+     "hl": "İstanbul Barosu Başkanı Ümit Kocasakal oldu"
+    },
+    {
+     "s": "diken",
+     "hl": "İstanbul Barosu başkanlık seçimini Ümit Kocasakal kazandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "İstanbul Barosu seçimleri: Kazanan Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal oldu"
+    },
+    {
+     "s": "tgrt",
+     "hl": "İstanbul Barosu Başkanı Ümit Kocasakal kimdir, nereli? Ümit Kocasakal listesi"
+    },
+    {
+     "s": "sabah",
+     "hl": "İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu! Kaboğlu dönemi resmen bitti"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "İstanbul Barosu Başkanı Ümit Kocasakal oldu"
+    },
+    {
+     "s": "mynet",
+     "hl": "İstanbul Barosunun yeni başkanı Ümit Kocasakal oldu"
+    },
+    {
+     "s": "milligazete",
+     "hl": "İstanbul Barosu 2026 seçim sonuçları! Kim birinci oldu? Kocasakal kaç oy aldı? Kaboğlu kaç oyda kaldı?"
+    },
+    {
+     "s": "ntv",
+     "hl": "İstanbul Barosu başkanlığına Ümit Kocasakal seçildi"
+    },
+    {
+     "s": "takvim",
+     "hl": "İstanbul Barosu seçim sonuçları belli oldu! Ümit Kocasakal 10 bin 227 oyla başkan seçildi"
+    },
+    {
+     "s": "ahaber",
+     "hl": "İstanbul Barosu'nda başkanlık seçimini Ümit Kocasakal kazandı! 10 bin 227 oy aldı"
+    },
+    {
+     "s": "haberler",
+     "hl": "Ağıralioğlu, İstanbul Barosu Başkanı seçilen Kocasakal'a tebrik mesajı gönderdi"
+    }
+   ]
+  },
+  {
+   "event": "s5383",
+   "week": "w10",
+   "title": "Eski eşini 15 bıçak darbesiyle öldürdü",
+   "headlines": [
+    {
+     "s": "haberturk",
+     "hl": "Eski eşini 15 bıçak darbesiyle öldürdü"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Aksaray'da vahşet! Eski eşini 15 bıçak darbesiyle öldürdü"
+    },
+    {
+     "s": "sozcu",
+     "hl": "Aksaray’da eski eşini 15 bıçak darbesiyle öldürdü"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "Aksaray'da kadın cinayeti: Eski eşini 15 bıçak darbesiyle öldürdü"
+    },
+    {
+     "s": "ntv",
+     "hl": "Eski eşini 15 bıçak darbesiyle öldürdü"
+    },
+    {
+     "s": "sondakika",
+     "hl": "15 bıçak darbesiyle öldürdüğü eski eşi için bunu söyledi: Pişman değilim, ihanet ettiği için öldürdüm"
+    },
+    {
+     "s": "haberler",
+     "hl": "15 bıçak darbesiyle öldürdüğü eski eşi için bunu söyledi: Pişman değilim, ihanet ettiği için öldürdüm"
+    },
+    {
+     "s": "yenisafak",
+     "hl": "Eski eşini 15 bıçak darbesiyle öldürdü: Pişman değilim"
+    },
+    {
+     "s": "akit",
+     "hl": "15 bıçak darbesiyle eski eşini katleden şahıs; 'Pişman değilim'"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Eski eşini 15 bıçak darbesiyle öldürdü: Adliyede “Pişman değilim” dedi"
+    },
+    {
+     "s": "sabah",
+     "hl": "Aksaray'da 15 bıçak darbesiyle eski eşini vahşice öldürdü: Katil zanlısının ifadesi pes dedirtti"
+    },
+    {
+     "s": "milliyet",
+     "hl": "15 bıçak darbesiyle eski eşini öldürdü! Korkunç savunma: Pişman değilim"
+    }
+   ]
+  },
+  {
+   "event": "s5169",
+   "week": "w10",
+   "title": "İstanbul'un ekim ayı enflasyonu açıklandı",
+   "headlines": [
+    {
+     "s": "sozcu",
+     "hl": "Son dakika... İstanbul'un ekim ayı enflasyonu belli oldu"
+    },
+    {
+     "s": "akit",
+     "hl": "İstanbul'un ekim ayı enflasyonu açıklandı"
+    },
+    {
+     "s": "cumhuriyet",
+     "hl": "İTO verileri ortaya koydu: İstanbul'un ekim ayı enflasyonu belli oldu"
+    },
+    {
+     "s": "birgun",
+     "hl": "İTO verileri: İstanbul'un ekim ayı enflasyonu belli oldu"
+    },
+    {
+     "s": "turkiyegz",
+     "hl": "Ne gıda ne de yakıt! İstanbul’un Ekim ayı enflasyonu belli oldu, en çok ne zamlandı?"
+    },
+    {
+     "s": "milligazete",
+     "hl": "İstanbul'da ekim ayı enflasyonu açıklandı! Fiyatı en çok artan ürün grubu belli oldu"
+    },
+    {
+     "s": "cnnturk",
+     "hl": "GÖZLER TÜİK VERİLERİNDE! Ekim ayı enflasyonu ne olur?"
+    },
+    {
+     "s": "takvim",
+     "hl": "Milyonların gözü TÜİK'te! Ekim ayı enflasyonu açıklanıyor"
+    },
+    {
+     "s": "ahaber",
+     "hl": "Ekim ayı enflasyonu belli oldu! Milyonların maaşını etkileyecek! İşte TÜİK'in açıkladığı son rakamlar"
+    },
+    {
+     "s": "haberler",
+     "hl": "Ekim ayı enflasyon oranı 2026 SON DAKİKA! TÜİK Ekim enflasyon açıklandı mı? Ekim ayı enflasyonu yüzde kaç oldu?"
+    },
+    {
+     "s": "haberturk",
+     "hl": "Ekim enflasyonu açıklandı"
+    },
+    {
+     "s": "aksam",
+     "hl": "Son dakika: TÜİK Ekim 2026 enflasyon oranı ne kadar oldu? TEFE TÜFE ekim ayı enflasyon verileri"
+    },
+    {
+     "s": "trthaber",
+     "hl": "Ekim enflasyonu açıklandı"
+    }
+   ]
+  },
+  {
+   "event": "s5531",
+   "week": "w10",
+   "title": "Nepal'de Everest yakınında iki helikopter çarpıştı, 1 turist öldü, 3 kişi yaralandı",
+   "headlines": [
+    {
+     "s": "sondakika",
+     "hl": "Nepal'de Everest yakınında iki helikopter çarpıştı, 1 turist öldü, 3 kişi yaralandı"
+    },
+    {
+     "s": "milliyet",
+     "hl": "Everest'te iki helikopter havada çarpıştı! Olay anı kamerada"
+    },
+    {
+     "s": "hurriyet",
+     "hl": "Everest Dağı'nda iki helikopter çarpıştı: 1 kişi hayatını kaybetti"
+    },
+    {
+     "s": "haberler",
+     "hl": "Nepal'de Everest yakınında iki helikopter çarpıştı, 1 turist öldü, 3 kişi yaralandı"
+    },
+    {
+     "s": "aa",
+     "hl": "Nepal'de iniş esnasında iki helikopterin çarpışması sonucu 1 kişi öldü, 3 kişi yaralandı"
+    },
     {
      "s": "yeniasya",
-     "hl": "Polonya'da sıcak gelişmeler: Anayasa Mahkemesi polis ablukasına alındı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Polonya'da hareketli saatler: Anayasa Mahkemesi Başkanı ve yardımcısı görevden alındı! Cumhurbaşkanı yurt dışı ziyaretini yarıda kesti"
-    },
-    {
-     "s": "haberler",
-     "hl": "Polonya'da Anayasa Mahkemesi başkanı, zinciri keserek binaya girmeye çalıştı"
-    },
-    {
-     "s": "hurriyet",
-     "hl": "Polonya karıştı: Darbe girişimi iddiası... Anayasa Mahkemesi polis ablukasına alındı! Cumhurbaşkanı uçağını geri çevirdi"
-    },
-    {
-     "s": "karar",
-     "hl": "Polonya'da anayasa krizi patladı: Polis Anayasa Mahkemesi'ni kuşattı, Cumhurbaşkanı uçağını geri çevirdi"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Polonya polisinden Anayasa Mahkemesi'ne baskın"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Polonya’da Anayasa Mahkemesi krizi büyüyor!"
-    },
-    {
-     "s": "star",
-     "hl": "Polonya'da siyasi kaos! Nawrocki'nin Anayasa Mahkemesi'ne girişinde arbede"
-    },
-    {
-     "s": "takvim",
-     "hl": "Polonya'da Anayasa Mahkemesi önünde arbede! Ülkesine dönen Cumhurbaşkanı Nawrocki engellemeye rağmen binaya girdi"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede"
-    },
-    {
-     "s": "ntv",
-     "hl": "Polonya'da kriz nasıl başladı? Polis Anayasa Mahkemesi'ni bastı, Cumhurbaşkanı yoldan döndü"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Anayasa Mahkemesi önünde polis, hükümete 'darbe' suçlaması: Polonya'da neler oluyor?"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Polonya'da neler oluyor: Anayasa Mahkemesi'nde polis krizi yaşandı Cumhurbaşkanı yoldan döndü"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Polonya'da Anayasa Mahkemesi krizi: Neler oldu?"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Polonya'da kim darbe yaptı, darbe mi oldu, ne yaşandı? Karol Nawrocki ile hakimler arasındaki Anayasa Mahkemesi krizi"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "Polonya'da darbe suçlaması! Anayasa mahkemesi kimin elinde?"
-    }
-   ]
-  },
-  {
-   "event": "s4770",
-   "week": "w9",
-   "title": "Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı",
-   "headlines": [
-    {
-     "s": "hurriyet",
-     "hl": "Bakırköy Belediyesi'ne operasyon: 39 kişi tutuklandı"
-    },
-    {
-     "s": "haberler",
-     "hl": "Bakırköy Belediyesi soruşturmasında Başsavcılık 40 kişi için tutuklama talep etti"
-    },
-    {
-     "s": "sabah",
-     "hl": "Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Bakırköy Belediyesi yolsuzluk soruşturması kapsamında 39 kişi tutuklandı"
+     "hl": "Everest’te Feci Helikopter Kazası: 1 Ölü, 3 Yaralı!"
     },
     {
      "s": "tgrt",
-     "hl": "Bakırköy Belediye'sine yolsuzluk soruşturması: 39 şüpheli tutuklandı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "SON DAKİKA... Bakırköy Belediyesi soruşturmasında karar çıktı! 39 kişi tutuklandı, başkanın babasına ev hapsi"
+     "hl": "Everest Dağı'nda helikopterler böyle çarpıştı: 1 kişi öldü, 3 kişi yaralandı"
     },
     {
      "s": "turkiyegz",
-     "hl": "Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı!"
+     "hl": "Everest'te iki helikopter havada çarpıştı! Ölü ve yaralılar var"
     },
     {
-     "s": "mynet",
-     "hl": "Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!"
-    },
-    {
-     "s": "karar",
-     "hl": "Bakırköy Belediyesi operasyonunda 39 tutuklama: Başkan yardımcıları ve müdürler de listede"
-    },
-    {
-     "s": "akit",
-     "hl": "Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son dakika... Bakırköy Belediyesi'ne operasyonda yeni gelişme: 39 kişi tutuklandı"
-    },
-    {
-     "s": "diken",
-     "hl": "Bakırköy Belediyesi soruşturması: Beş başkan yardımcısı dahil 39 tutuklama"
-    },
-    {
-     "s": "birgun",
-     "hl": "Bakırköy Belediyesi soruşturması: Başkan yardımcıları dahil 39 kişi tutuklandı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Bakırköy Belediyesi'ne yolsuzluk operasyonunda 39 tutuklama"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Bakırköy Belediyesi'ne yönelik soruşturmada 39 şüpheli tutuklandı"
-    },
-    {
-     "s": "star",
-     "hl": "Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı"
-    },
-    {
-     "s": "aa",
-     "hl": "Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Bakırköy Belediyesine yolsuzluk soruşturması: 39 tutuklama"
-    },
-    {
-     "s": "aksam",
-     "hl": "Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı"
-    },
-    {
-     "s": "yeniasya",
-     "hl": "Bakırköy Belediyesi operasyonunda 39 tutuklama"
-    }
-   ]
-  },
-  {
-   "event": "s4217",
-   "week": "w9",
-   "title": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi",
-   "headlines": [
-    {
-     "s": "aa",
-     "hl": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Brezilya'da başkanlık seçimi sonuçları belli oldu: Kazanan Lula da Silva"
+     "s": "onedio",
+     "hl": "Nepal'de Everest Yakınında İki Helikopter İnişte Çarpıştı: Hintli Turist Hayatını Kaybetti, 3 Kişi Yaralandı"
     },
     {
      "s": "sabah",
-     "hl": "Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Brezilya’da seçimin kazananı Lula da Silva oldu"
+     "hl": "Nepal'de iki helikopter havada çarpıştı! | Video"
     },
     {
      "s": "yenisafak",
-     "hl": "Brezilya’da seçimin ikinci turunu Lula da Silva kazandı"
-    },
-    {
-     "s": "haberler",
-     "hl": "Brezilya'da tarihi geri dönüş! Resmi olmayan sonuçlara göre Lula da Silva 4. kez devlet başkanı"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Brezilya'da seçimi Lula da Silva kazandı"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Brezilya'da seçimin galibi belli oldu! Lula da Silva yeniden Devlet Başkanı seçildi"
-    },
-    {
-     "s": "bloomberght",
-     "hl": "Brezilya'da Lula da Silva yeniden Devlet Başkanı seçildi"
-    },
-    {
-     "s": "mynet",
-     "hl": "Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz"
+     "hl": "Turistik bölgede can pazarı: İki helikopter havada çarpıştı"
     },
     {
      "s": "ntv",
-     "hl": "Brezilya'da Lula 4'üncü kez başkan"
-    },
-    {
-     "s": "birgun",
-     "hl": "Brezilya’da seçimin galibi sol: Lula yeniden başkan!"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Brezilya seçim sonucu: Lula yeniden devlet başkanı seçildi"
-    },
-    {
-     "s": "tele1",
-     "hl": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Lula da Silva kimdir? Brezilya Devlet Başkanı Lula da Silva'nın hayatı"
-    },
-    {
-     "s": "star",
-     "hl": "Lula da Silva yeniden başkan seçildi! Brezilya'da iktidarını dördüncü döneme taşıdı"
-    }
-   ]
-  },
-  {
-   "event": "s4931",
-   "week": "w9",
-   "title": "Sarıgül soruşturmasında 4 kişi daha tutuklandı",
-   "headlines": [
-    {
-     "s": "aksam",
-     "hl": "Sarıgül soruşturmasında yeni gelişme! 2 şüpheli tutuklandı"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Sarıgül soruşturmasında yeni gelişme"
-    },
-    {
-     "s": "birgun",
-     "hl": "Sarıgül soruşturmasında 4 kişi daha tutuklandı"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Sarıgül ailesi soruşturmasında 4 şüpheli tutuklama talebiyle hakimliğe sevk edildi"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Sarıgül soruşturmasında 4 tutuklama; kardeşi adli kontrolle serbest"
-    },
-    {
-     "s": "star",
-     "hl": "Sarıgül soruşturmasında 4 şüpheli tutuklama talebiyle mahkemeye sevk edildi"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son dakika... Sarıgül soruşturmasında yeni gelişme: 4 kişi tutuklandı"
-    },
-    {
-     "s": "haberler",
-     "hl": "Sarıgül soruşturmasında 4 şüpheli tutuklama talebiyle, 7'si adli kontrole sevk edildi"
-    },
-    {
-     "s": "karar",
-     "hl": "Sarıgül soruşturmasında 4 kişi tutuklandı"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Sarıgül soruşturmasında 4 kişiye tutuklama talep edildi!"
-    },
-    {
-     "s": "diken",
-     "hl": "Sarıgül soruşturması: Dört kişi daha tutuklandı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Sarıgül soruşturmasında yeni tutuklama! Mahkemeye sevk edilen 4 şüpheli cezaevine gönderildi"
-    },
-    {
-     "s": "ntv",
-     "hl": "Sarıgüller soruşturmasında 4 kişi daha tutuklandı"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "SON DAKİKA HABERİ: Sarıgül soruşturmasında 4 tutuklama"
-    },
-    {
-     "s": "hurriyet",
-     "hl": "Sarıgül soruşturmasında 4 tutuklama, 8 adli kontrol"
-    },
-    {
-     "s": "sabah",
-     "hl": "Sarıgül soruşturmasında 4 tutuklama daha"
-    }
-   ]
-  },
-  {
-   "event": "s4577",
-   "week": "w9",
-   "title": "Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!",
-   "headlines": [
-    {
-     "s": "tele1",
-     "hl": "Merkezefendi Belediyesi'ne operasyon; Başkan Şeniz Doğan ve eşinin de olduğu şüphelilere gözaltı"
-    },
-    {
-     "s": "haberler",
-     "hl": "Denizli’de Merkezefendi Belediyesi’ne operasyon! Başkan Şeniz Doğan ve eşi gözaltında"
-    },
-    {
-     "s": "birgun",
-     "hl": "Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Denizli’de Merkezefendi Belediyesi’ne operasyon: Belediye başkanı ve eşi de gözaltına alınanlar arasında!"
-    },
-    {
-     "s": "sabah",
-     "hl": "Merkezefendi Belediyesi'ne operasyon: Çok sayıda şüpheli gözaltına alındı"
-    },
-    {
-     "s": "mynet",
-     "hl": "Son dakika | Merkezefendi Belediyesi'ne operasyon! Başkan Şeniz Doğan ve eşi gözaltına alındı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Denizli’de Merkezefendi Belediyesi’ne operasyon: Şeniz Doğan ve eşi gözaltında"
-    },
-    {
-     "s": "karar",
-     "hl": "Merkezefendi Belediyesi’ne operasyon: Başkan Şeniz Doğan ve eşi gözaltına alındı"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Son dakika... Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi dahil çok sayıda gözaltı!"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Merkezefendi Belediyesi'ne sabah operasyonu! Başkan Şeniz Doğan ve eşi gözaltına alındı"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Denizli Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşinin de aralarında olduğu şüphelilere gözaltı"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Denizli'de Merkezefendi Belediyesi'ne sabah operasyonu! 27 kişi gözaltına alındı"
-    },
-    {
-     "s": "diken",
-     "hl": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında"
+     "hl": "Nepal'de helikopter kazası: 1 ölü, 3 yaralı"
     },
     {
      "s": "ahaber",
-     "hl": "Merkezefendi Belediyesi'ne operasyon! Başkan ve eşi dahil çok sayıda gözaltı var"
-    },
-    {
-     "s": "tgrt",
-     "hl": "Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi de gözaltında"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Şeniz Doğan kimdir, kaç yaşında, Merkezefendi Belediyesi Başkanı Şeniz Doğan'ın eşi nereli ve ne iş yapıyor?"
-    },
-    {
-     "s": "aksam",
-     "hl": "Merkezefendi Belediyesi'nde imar vurgunu: 27 kişi gözaltında"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Merkezefendi Belediyesi'ndeki aramalar bitti, Şeniz Doğan dahil 27 kişi gözaltında"
-    },
-    {
-     "s": "ntv",
-     "hl": "Merkezefendi Belediyesi'ne operasyon. Belediye Başkanı Şeniz Doğan ve eşi dahil 17 gözaltı"
-    }
-   ]
-  },
-  {
-   "event": "s4884",
-   "week": "w9",
-   "title": "Trabzonspor, Gaziantep FK'yi 2-0 yendi",
-   "headlines": [
-    {
-     "s": "haberturk",
-     "hl": "Trabzonspor, Süper Lig'de yarın Gaziantep FK'yi konuk edecek"
-    },
-    {
-     "s": "sabah",
-     "hl": "Trabzonspor, yarın Gaziantep FK'yi ağırlayacak!"
-    },
-    {
-     "s": "aa",
-     "hl": "Trabzonspor, Süper Lig'de bugün Gaziantep FK'yi konuk edecek"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Trabzonspor Gaziantep FK'ya hiç yenilmedi"
-    },
-    {
-     "s": "aksam",
-     "hl": "Trabzonspor sahasında Gaziantep FK'yı konuk edecek"
-    },
-    {
-     "s": "star",
-     "hl": "Trabzonspor evinde Gaziantep FK'yı ağırlayacak"
-    },
-    {
-     "s": "mynet",
-     "hl": "Trabzonspor, Gaziantep FK maçı hazırlıklarını tamamlandı"
-    },
-    {
-     "s": "takvim",
-     "hl": "Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi"
-    },
-    {
-     "s": "ahaber",
-     "hl": "CANLI Trabzonspor'da hedef 5'te 5! Rakip Gaziantep FK"
-    },
-    {
-     "s": "milligazete",
-     "hl": "Trabzonspor Gaziantep FK maçı canlı nereden izlenir, saat kaçta, rakip Gaziantep FK mi, yayın şifresiz mi?"
-    },
-    {
-     "s": "sondakika",
-     "hl": "Trabzonspor Gaziantep FK maçına 3 değişiklikle çıktı, Onuachu döndü"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Trabzonspor - Gaziantep FK maçı CANLI SKOR - CANLI ANLATIM"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Reis ile üst üste 5. galibiyet... Trabzonspor, Gaziantep FK'yi 2 golle geçti"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Trabzonspor-Gaziantep FK maçının ilk 11'leri belli oldu"
-    },
-    {
-     "s": "akit",
-     "hl": "CANLI ANLATIM: Trabzonspor - Gaziantep FK"
-    },
-    {
-     "s": "haberler",
-     "hl": "Trabzonspor, Gaziantep FK maçına Rizespor 11'ine göre 3 değişiklikle çıktı"
-    },
-    {
-     "s": "ntv",
-     "hl": "Süper Lig heyecanı. Trabzonspor-Gaziantep FK maçı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Trabzonspor, Gaziantep FK'yi 2-0 yendi"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "Trabzonspor - Gaziantep FK | 11'ler belli oldu"
-    }
-   ]
-  },
-  {
-   "event": "s4998",
-   "week": "w9",
-   "title": "Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak?",
-   "headlines": [
-    {
-     "s": "sabah",
-     "hl": "Ekim ayı enflasyon verileri ne zaman açıklanacak? 2026 Ekim ayı enflasyon beklentisi belli oldu"
-    },
-    {
-     "s": "haberturk",
-     "hl": "Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak?"
-    },
-    {
-     "s": "yenisafak",
-     "hl": "Maaş ve kira hesapları için beklenen veri: TÜİK Ekim 2026 enflasyon rakamları ne zaman, saat kaçta açıklanacak?"
-    },
-    {
-     "s": "cnnturk",
-     "hl": "ENFLASYON AÇIKLANDI MI, NE ZAMAN AÇIKLANACAK? 2026 Ekim Ayı Enflasyon Oranları Saat Kaçta Açıklanır? Enflasyon Beklentisi Nedir?"
-    },
-    {
-     "s": "ntv",
-     "hl": "Enflasyon verileri ne zaman, saat kaçta açıklanacak? Ekim ayı enflasyon beklentisi belli oldu"
-    },
-    {
-     "s": "cumhuriyet",
-     "hl": "Enflasyon verileri ne zaman, saat kaçta açıklanacak? 2026 Ekim enflasyon beklentisi nedir?"
-    },
-    {
-     "s": "birgun",
-     "hl": "2026 Ekim Ayı Enflasyon Verileri Ne Zaman Açıklanacak? Ekim Ayı Enflasyon Beklentisi ve Anketleri"
-    },
-    {
-     "s": "haberler",
-     "hl": "Ekim ayı enflasyon beklentisi ne yönde? Ekim ayı enflasyon verileri ne zaman, saat kaçta açıklanacak?"
-    },
-    {
-     "s": "turkiyegz",
-     "hl": "Ekim ayı enflasyon beklentisi belli oldu! Enflasyon ne zaman, saat kaçta açıklanacak?"
-    },
-    {
-     "s": "trthaber",
-     "hl": "Enflasyon verileri bugün açıklanacak"
-    },
-    {
-     "s": "sozcu",
-     "hl": "Ekim ayı enflasyon rakamları açıklanacak"
-    },
-    {
-     "s": "ahaber",
-     "hl": "Ekim ayı enflasyon rakamları açıklanıyor! Emekli ve memur zammı ne kadar olacak?"
-    },
-    {
-     "s": "tgrt",
-     "hl": "TÜİK açıkladı! İşte 2026 Ekim ayı enflasyon verileri"
-    },
-    {
-     "s": "bloomberght",
-     "hl": "Enflasyon"
-    },
-    {
-     "s": "aa",
-     "hl": "Enflasyon rakamları açıklandı"
-    },
-    {
-     "s": "dirilis",
-     "hl": "Enflasyon rakamları açıklandı... İşte detaylar!"
-    },
-    {
-     "s": "akit",
-     "hl": "Ekim ayı enflasyon rakamları açıklandı! En çok artış yapan ürünler belli oldu"
-    },
-    {
-     "s": "aksam",
-     "hl": "Enflasyon rakamları belli oldu"
-    },
-    {
-     "s": "star",
-     "hl": "Enflasyon rakamları belli oldu"
+     "hl": "Everest'te helikopter faciası! 4 bin 200 metrede iki helikopter çarpıştı 1 ölü, 2 yaralı"
     }
    ]
   }

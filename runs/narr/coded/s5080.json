@@ -1,0 +1,13 @@
+{"q": {"happened": "Gençlerbirliği ile Alanyaspor karşılaştı; sonucu veren başlıklara göre Gençlerbirliği maçı 5-0 kazandı.", "agree": "Maçın Gençlerbirliği'nin evinde Gençlerbirliği ile Alanyaspor arasında oynandığı ortak; sonucu veren aa, dirilis ve sabah Gençlerbirliği'nin galibiyetinde birleşiyor.", "differ": "Başlıkların çoğu (star, aksam, haberturk, yenisafak, sondakika, haberler) maç öncesi önizleme, turkiyegz ve birgun yayın bilgisi veriyor; yalnızca aa, dirilis ve sabah sonucu aktarıyor, sabah bunu 'gol yağdırdı' diye öne çıkarıyor. sondakika ile haberler 6 maçlık seriyi birbirine ters tarafların lehine yazıyor.", "care": "Okurun hangi başlıkla karşılaştığına göre aynı olay bir maç duyurusu ya da bir sonuç haberi olarak görünüyor; seri bilgisinin iki kurumda ters aktarılması da hangi takımın favori sayıldığına dair farklı bir izlenim bırakıyor."}, "rows": [
+{"s": "sondakika", "frame": "Maç önizlemesi", "hero": "Alanyaspor", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "6 maçlık seri"},
+{"s": "haberler", "frame": "Maç önizlemesi", "hero": "Gençlerbirliği", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": "6 maçlık seri"},
+{"s": "star", "frame": "Maç önizlemesi", "hero": "Gençlerbirliği", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Maç önizlemesi", "hero": "Gençlerbirliği", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Maç önizlemesi", "hero": "Alanyaspor", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "yenisafak", "frame": "Maç önizlemesi", "hero": "Alanyaspor", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "aa", "frame": "Maç sonucu", "hero": "Gençlerbirliği", "blame": "", "cause": "", "cons": "5-0 galibiyet", "aff": "Alanyaspor", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Yayın bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Yayın bilgisi", "hero": "", "blame": "", "cause": "", "cons": "", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Maç sonucu", "hero": "Gençlerbirliği", "blame": "", "cause": "", "cons": "Farklı galibiyet", "aff": "Alanyaspor", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Maç sonucu", "hero": "Gençlerbirliği", "blame": "", "cause": "", "cons": "5-0 galibiyet", "aff": "Alanyaspor", "sol": "", "moral": "", "start": ""}
+]}

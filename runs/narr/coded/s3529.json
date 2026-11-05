@@ -1,0 +1,118 @@
+{
+ "q": {
+  "happened": "Trabzonspor ve Beşiktaş deplasman yasağının kaldırılmasını talep etti; ardından derbi için deplasman yasağı sona erdi.",
+  "agree": "Trabzonspor-Beşiktaş maçındaki deplasman yasağı meselesi ortak.",
+  "differ": "Sabah, Star ve NTV yalnızca Trabzonspor'un çağrısını; Cumhuriyet Beşiktaş'ın desteğini; Habertürk iki kulübün ortak talebini aktarıyor; Mynet, A Haber ve Karar yasağın sona erdiğini duyuruyor, Mynet ve A Haber '6 yıl' vurgusu yapıyor; Milli Gazete soru biçiminde kalıyor.",
+  "care": "Talep aşamasında kalan başlıklar kararı kulüplerin baskısına bağlarken, sonuç başlıkları yasağın kalkmasını taraftar için bir dönüm noktası olarak sunuyor."
+ },
+ "rows": [
+  {
+   "s": "sabah",
+   "frame": "Kulüp talebi",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "Deplasman yasağı",
+   "cons": "",
+   "aff": "Taraftarlar",
+   "sol": "Yasağın kaldırılması",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Kulüp talebi",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "Deplasman yasağı",
+   "cons": "",
+   "aff": "Taraftarlar",
+   "sol": "Yasağın kaldırılması",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Kulüp dayanışması",
+   "hero": "Beşiktaş",
+   "blame": "",
+   "cause": "Deplasman yasağı",
+   "cons": "",
+   "aff": "Taraftarlar",
+   "sol": "Yasağın kaldırılması",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Kulüp dayanışması",
+   "hero": "Trabzonspor ve Beşiktaş",
+   "blame": "",
+   "cause": "Deplasman yasağı",
+   "cons": "",
+   "aff": "Taraftarlar",
+   "sol": "Yasağın kaldırılması",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Kulüp talebi",
+   "hero": "Trabzonspor",
+   "blame": "",
+   "cause": "Deplasman yasağı",
+   "cons": "",
+   "aff": "Taraftarlar",
+   "sol": "Yasağın kaldırılması",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Yasağın sonu",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yasak kalktı",
+   "aff": "Taraftarlar",
+   "sol": "",
+   "moral": "",
+   "start": "6 yıllık yasak"
+  },
+  {
+   "s": "ahaber",
+   "frame": "Yasağın sonu",
+   "hero": "Beşiktaş taraftarı",
+   "blame": "",
+   "cause": "",
+   "cons": "Yasak kalktı",
+   "aff": "Taraftarlar",
+   "sol": "",
+   "moral": "",
+   "start": "6 yıllık yasak"
+  },
+  {
+   "s": "milligazete",
+   "frame": "Soru-cevap",
+   "hero": "Beşiktaş taraftarı",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "Taraftarlar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Yasağın sonu",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yasak kalktı",
+   "aff": "Taraftarlar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

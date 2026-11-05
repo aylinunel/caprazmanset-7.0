@@ -1,0 +1,16 @@
+{"q": {"happened": "Kadıköy'de bir İETT otobüsünde çıkan tartışmanın ardından bir kişi otobüsün içine, yolculara biber gazı sıkıp kaçtı.", "agree": "Otobüste biber gazı sıkıldığı ortak; çoğu kurum failin kaçtığını da yazıyor.", "differ": "Sözcü, Hürriyet ve Milli Gazete olayı failin bir kadına vurmasıyla başlatıyor, A Haber 'yolcuya yumruk' diyor; Takvim ve TGRT tartışmayı öne çıkarıyor; Akşam 'maganda terörü', NTV 'pes artık' diyerek kınıyor; Cumhuriyet ve Mynet yalnızca olayı aktarıyor.", "care": "Olayın kadına şiddetle başladığının başlıkta yer alıp almaması, haberi sıradan bir asayiş olayı mı yoksa kadına yönelik şiddet mi olarak okuttuğunu belirler."}, "rows": [
+{"s": "takvim", "frame": "Asayiş", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "Tartışma", "cons": "Biber gazı", "aff": "Kadın yolcu", "sol": "", "moral": "", "start": "Tartışma"},
+{"s": "tgrt", "frame": "Asayiş", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "Tartışma", "cons": "Biber gazı", "aff": "Yolcular", "sol": "", "moral": "", "start": "Tartışma"},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "Saldırgan", "blame": "", "cause": "", "cons": "Biber gazı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "turkiyegz", "frame": "Dehşet / panik", "hero": "Yolcular", "blame": "", "cause": "Kavga", "cons": "Panik", "aff": "Yolcular", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Toplumsal öfke", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "", "cons": "Biber gazı", "aff": "", "sol": "", "moral": "Kınama", "start": ""},
+{"s": "akit", "frame": "Dehşet / panik", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "", "cons": "Panik", "aff": "Yolcular", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Kadına şiddet", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "", "cons": "Biber gazı", "aff": "Yolcular", "sol": "", "moral": "", "start": "Kadına vurma"},
+{"s": "yenisafak", "frame": "Saldırı", "hero": "Yolcular", "blame": "Saldırgan", "cause": "", "cons": "Nefessiz kalma", "aff": "Yolcular", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Kadına şiddet", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "", "cons": "Biber gazı", "aff": "Kadın yolcu", "sol": "", "moral": "", "start": "Kadına vurma"},
+{"s": "hurriyet", "frame": "Kadına şiddet", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "", "cons": "Biber gazı", "aff": "Yolcular", "sol": "", "moral": "", "start": "Kadına vurma"},
+{"s": "mynet", "frame": "Saldırı", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "", "cons": "Biber gazı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Dehşet / panik", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "", "cons": "Failin kaçması", "aff": "Yolcular", "sol": "", "moral": "", "start": ""},
+{"s": "aksam", "frame": "Maganda terörü", "hero": "Saldırgan", "blame": "Maganda", "cause": "", "cons": "Biber gazı", "aff": "", "sol": "", "moral": "Kınama", "start": ""},
+{"s": "ahaber", "frame": "Dehşet / panik", "hero": "Saldırgan", "blame": "Saldırgan", "cause": "", "cons": "Failin kaçması", "aff": "Yolcular", "sol": "", "moral": "", "start": "Yolcuya yumruk"}
+]}

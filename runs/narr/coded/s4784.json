@@ -1,0 +1,202 @@
+{
+ "q": {
+  "happened": "15 yaş altına sosyal medya yasağı başlıyor/başladı ve yaş doğrulaması (e-Devlet üzerinden) yapılacak.",
+  "agree": "Yasağın 15 yaş altını kapsadığı ve yürürlüğe girdiği ortak.",
+  "differ": "TGRT ve BirGün hesapların silineceğini/kapatılacağını öne çıkarıyor; Karar 'kimlik değil yaş doğrulanacak' diyerek güvence veriyor; Sabah, A Haber, Onedio, Habertürk, NTV gibi kurumlar haberi yaş doğrulama rehberine çeviriyor; Sözcü kararı Bakan Göktaş'ın duyurusu olarak sunuyor.",
+  "care": "Hesap kapatmanın öne çıkması yasağın yaptırım yüzünü vurgular; rehber başlıklar ise yasağı tartışmasız bir prosedür olarak kabul ettirir."
+ },
+ "rows": [
+  {
+   "s": "karar",
+   "frame": "Yasak duyurusu",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "tgrt",
+   "frame": "Yasak duyurusu",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Hesap kapatma",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "birgun",
+   "frame": "Yasak duyurusu",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Hesap kapatma",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "onedio",
+   "frame": "Bilgi rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Yasak duyurusu",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Bilgi rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ahaber",
+   "frame": "Bilgi rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "milligazete",
+   "frame": "Bilgi rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "turkiyegz",
+   "frame": "Bilgi rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Bilgi rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberler",
+   "frame": "Bilgi rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Bilgi rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sondakika",
+   "frame": "Yasak duyurusu",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "yenisafak",
+   "frame": "Yasak duyurusu",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "15 yaş altı çocuklar",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Bilgi rehberi",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Yaş doğrulama",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Devlet otoritesi",
+   "hero": "Bakan Göktaş",
+   "blame": "",
+   "cause": "",
+   "cons": "",
+   "aff": "",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

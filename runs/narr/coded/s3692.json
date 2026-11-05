@@ -1,0 +1,11 @@
+{"q": {"happened": "Trabzonspor'un golcüsü Paul Onuachu maçta gol attıktan sonra sakatlanarak oyundan çıktı.", "agree": "Onuachu'nun gol atıp sakatlandığı ortak.", "differ": "A Haber, NTV, Sabah, Habertürk, Sözcü ve Mynet olayı 'şok' olarak sunuyor; Cumhuriyet, Karar ve Takvim 'kötü haber' diyor; Mynet sakatlığı Beşiktaş maçı öncesine bağlıyor, Takvim ilk maç olduğunu vurguluyor.", "care": "Farklar büyük ölçüde duygusal ton ve zamanlama vurgusunda; olayın kendisi konusunda başlıklar ayrışmıyor."}, "rows": [
+{"s": "ahaber", "frame": "Sakatlık şoku", "hero": "Paul Onuachu", "blame": "", "cause": "", "cons": "Sakatlık", "aff": "Trabzonspor", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Kötü haber", "hero": "Paul Onuachu", "blame": "", "cause": "", "cons": "Sakatlık", "aff": "Trabzonspor", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Sakatlık şoku", "hero": "Trabzonspor", "blame": "", "cause": "", "cons": "Sakatlık", "aff": "Trabzonspor", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Sakatlık şoku", "hero": "Paul Onuachu", "blame": "", "cause": "", "cons": "Sakatlık", "aff": "Trabzonspor", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Sakatlık şoku", "hero": "Paul Onuachu", "blame": "", "cause": "", "cons": "Sakatlık", "aff": "Trabzonspor", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Kötü haber", "hero": "Paul Onuachu", "blame": "", "cause": "", "cons": "Sakatlık", "aff": "Trabzonspor", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Kötü haber", "hero": "Paul Onuachu", "blame": "", "cause": "", "cons": "Sakatlık", "aff": "Trabzonspor", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Sakatlık şoku", "hero": "Paul Onuachu", "blame": "", "cause": "", "cons": "Sakatlık", "aff": "Trabzonspor", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Sakatlık şoku", "hero": "Paul Onuachu", "blame": "", "cause": "", "cons": "Sakatlık", "aff": "Trabzonspor", "sol": "", "moral": "", "start": ""}
+]}

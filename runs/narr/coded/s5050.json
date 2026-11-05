@@ -1,0 +1,14 @@
+{"q": {"happened": "İstanbul Küçükçekmece'de bir düğün salonunda çıkan bıçaklı kavgada bir kişi hayatını kaybetti; şüpheli yakalandı.", "agree": "Düğünde bıçaklı olay sonucu bir kişinin öldüğü ortak.", "differ": "Sabah, Star, NTV ve Cumhuriyet olayı 'bıçaklı kavga: 1 ölü' diye aktarıyor; BirGün 'bıçaklı saldırı', Karar 'öldürüldü' diyerek tek taraflı bir saldırıya işaret ediyor; A Haber ve Takvim 'boğazından bıçaklanan' ayrıntısıyla dehşeti öne çıkarıyor; Sondakika tartışmayı başlangıç olarak veriyor; Mynet şüphelinin yakalanmasına odaklanıyor.", "care": "'Kavga' karşılıklı bir çatışma, 'saldırı' ve 'öldürüldü' ise bir fail ve bir mağdur anlatır; bu seçim sorumluluğun nasıl dağıtıldığını belirler."}, "rows": [
+{"s": "sondakika", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Tartışma", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": "Tartışma"},
+{"s": "haberler", "frame": "Olgu aktarımı", "hero": "Maktul", "blame": "", "cause": "", "cons": "Ölüm", "aff": "Maktul", "sol": "", "moral": "", "start": ""},
+{"s": "akit", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Kavga", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sabah", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Kavga", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ahaber", "frame": "Dehşet", "hero": "Maktul", "blame": "", "cause": "", "cons": "Ölüm", "aff": "Maktul", "sol": "", "moral": "", "start": ""},
+{"s": "star", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Kavga", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "ntv", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Kavga", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "takvim", "frame": "Dehşet", "hero": "Maktul", "blame": "", "cause": "Kavga", "cons": "Ölüm", "aff": "Genç", "sol": "", "moral": "", "start": ""},
+{"s": "karar", "frame": "Dehşet", "hero": "Maktul", "blame": "", "cause": "", "cons": "Ölüm", "aff": "Maktul", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "", "blame": "", "cause": "Kavga", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "birgun", "frame": "Bıçaklı saldırı", "hero": "", "blame": "Saldırgan", "cause": "", "cons": "Ölüm", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Asayiş", "hero": "Polis", "blame": "Şüpheli", "cause": "Kavga", "cons": "Şüphelinin yakalanması", "aff": "", "sol": "", "moral": "", "start": ""}
+]}

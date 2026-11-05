@@ -1,0 +1,154 @@
+{
+ "q": {
+  "happened": "31 bin 54 sözleşmeli sağlık personelinin istihdamına ilişkin karar Resmi Gazete'de yayımlandı.",
+  "agree": "Resmi Gazete'deki istihdam kararı ve personel sayısı ortak.",
+  "differ": "Başlıkların çoğu kararı Resmi Gazete'ye dayandırıyor; Diriliş ise 'Cumhurbaşkanı Erdoğan imzaladı' diyerek kararı Erdoğan'a bağlıyor; Star ve Takvim kadro dağılımına, Bloomberg HT 2027 tarihine odaklanıyor.",
+  "care": "Kararın kurumsal bir yayına mı yoksa Cumhurbaşkanının imzasına mı bağlandığı, istihdamın kime mal edildiğini belirliyor."
+ },
+ "rows": [
+  {
+   "s": "trthaber",
+   "frame": "Resmi karar",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "ntv",
+   "frame": "Resmi karar",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "star",
+   "frame": "Kadro dağılımı",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "bloomberght",
+   "frame": "Olgu aktarımı",
+   "hero": "",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "cumhuriyet",
+   "frame": "Resmi karar",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "haberturk",
+   "frame": "Resmi karar",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sozcu",
+   "frame": "Resmi karar",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "mynet",
+   "frame": "Resmi karar",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "takvim",
+   "frame": "Kadro dağılımı",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "karar",
+   "frame": "Resmi karar",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "dirilis",
+   "frame": "Lider kararı",
+   "hero": "Cumhurbaşkanı Erdoğan",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  },
+  {
+   "s": "sabah",
+   "frame": "Resmi karar",
+   "hero": "Resmi Gazete",
+   "blame": "",
+   "cause": "",
+   "cons": "Personel istihdamı",
+   "aff": "Sağlık çalışanları",
+   "sol": "",
+   "moral": "",
+   "start": ""
+  }
+ ]
+}

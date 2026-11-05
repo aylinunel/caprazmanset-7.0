@@ -1,0 +1,13 @@
+{"q": {"happened": "Mustafa Sarıgül'ün koruması gözaltına alındı.", "agree": "Korumanın gözaltına alındığı ortak (ahaber dışında tüm başlıklar bunu yazıyor).", "differ": "Ahaber, takvim ve sabah gözaltıyı Sarıgül'ün korumasıyla olan videoya ilişkin 200 bin dolarlık sahte (montaj) rapor iddiasına bağlıyor, sabah bunu 'skandal' diye niteliyor; star, sabah ve milligazete olayı kara para soruşturmasına yerleştiriyor; sözcü, habertürk, cumhuriyet, mynet, tele1 ve diriliş yalnızca gözaltıyı bildiriyor.", "care": "Sahte rapor ve kara para bağlantısının başlığa taşınması, gözaltıyı bir koruma hakkındaki işlemden çıkarıp doğrudan Sarıgül'ün adını bir skandalla ilişkilendiren bir habere dönüştürüyor."}, "rows": [
+{"s": "ahaber", "frame": "Sahte rapor iddiası", "hero": "Mustafa Sarıgül", "blame": "Sarıgül çevresi", "cause": "Sahte montaj raporu", "cons": "", "aff": "", "sol": "", "moral": "", "start": "Video"},
+{"s": "takvim", "frame": "Sahte rapor iddiası", "hero": "Sarıgül'ün koruması", "blame": "Sarıgül çevresi", "cause": "Sahte montaj raporu", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": "Video"},
+{"s": "sabah", "frame": "Kara para skandalı", "hero": "Sarıgül'ün koruması", "blame": "Sarıgül çevresi", "cause": "Sahte montaj raporu", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "Skandal", "start": ""},
+{"s": "star", "frame": "Kara para soruşturması", "hero": "Sarıgül'ün koruması", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "sozcu", "frame": "Olgu aktarımı", "hero": "Sarıgül'ün koruması", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "haberturk", "frame": "Olgu aktarımı", "hero": "Sarıgül'ün koruması", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "cumhuriyet", "frame": "Olgu aktarımı", "hero": "Sarıgül'ün koruması", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "mynet", "frame": "Olgu aktarımı", "hero": "Sarıgül'ün koruması", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "tele1", "frame": "Olgu aktarımı", "hero": "Sarıgül'ün koruması", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "milligazete", "frame": "Kara para soruşturması", "hero": "Sarıgül'ün koruması", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""},
+{"s": "dirilis", "frame": "Olgu aktarımı", "hero": "Sarıgül'ün koruması", "blame": "", "cause": "", "cons": "Gözaltı", "aff": "", "sol": "", "moral": "", "start": ""}
+]}
