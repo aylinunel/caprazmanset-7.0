@@ -2,7 +2,7 @@
    (inlined into app.js's IIFE after oruntu.js and kurum.js). Every number below is read from the data or the code. */
 
 var YM_TOC = [["veri", "Veri"], ["olay", "Olay tespiti"], ["dil", "Yüklü dil"], ["anlati", "Anlatı kodlaması"], ["yz", "Bilişsel inceleme (YZ)"],
-  ["yzicerik", "YZ ile üretilen içerik"], ["turkiye", "Türkiye bağlamı"], ["kavramlar", "Kavram kütüphanesi"], ["sinir", "Sınırlılıklar"], ["kaynak", "Kaynaklar"]];
+  ["yzicerik", "YZ ile üretilen içerik"], ["turkiye", "Türkiye bağlamı"], ["kavramlar", "Kavram kütüphanesi"], ["sozluk", "Sözlük"], ["kapsama", "Kapsama"], ["sinir", "Sınırlılıklar"], ["kaynak", "Kaynaklar"]];
 var YM_TIER = { detected: "Kural saptıyor", codable: "İnsan kodlaması", reference: "Okur davranışı" };
 
 /* Events where the AI picked this concept, minus the ones whose finding the editor rejected. */
@@ -89,7 +89,7 @@ function turkiyeBlocks() {
     "Türk gazeteleri mahkeme, icra ve ihale ilanlarını haber sayfalarıyla aynı site haritasında, çoğunlukla büyük harfli başlıklarla yayımlar. Olay kümelemesine girerlerse aynı ilanı veren kurumlar “aynı olayı haber yapmış” görünür.",
     "Bir başlık iki kuraldan biriyle ilan sayılır: adresinde ilan yolu (<span class=\"mono\">/resmi-ilan/</span>, <span class=\"mono\">/ilan/</span>) bulunur ya da büyük harfle yazılmıştır ve " + kw.length + " kurum sözcüğünden birini içerir (" + kw.slice(0, 3).map(trQ).join(", ") + "…). " +
     trN(N.total) + " başlık (" + pc(N.total / D.meta.counts.articles) + ") ilan sayıldı; " + trN(N.rules.url) + " tanesi adres, " + trN(N.rules.keyword) + " tanesi sözcük kuralına uyuyor (kurallar örtüşür). Başlıkların en az " + pc(NP.ilanEventShare) + "’i ilan olan " + nIl +
-    " küme “ilan olayı” sayıldı: Örüntüler’e girmez, <a class=\"lnk\" href=\"#/ilan\">Resmî ilan bul</a> sayfasında aranabilir.",
+    " küme “ilan olayı” sayıldı: Örüntüler’e girmez, <a class=\"lnk\" href=\"#/olaylar?t=ilan\">Resmî ilanlar</a> sayfasında aranabilir.",
     "Kural 27 Ekim 2026’da, ilk sürümün haber adresleri içindeki “ilanlar” sözcüğünü de yakaladığı görüldükten sonra sıkılaştırıldı ve gömülü başlıklarda elle denetlendi; kesinlik oranı ölçülmüş bir değer olarak yayımlanmıyor. Sözcük kuralı yalnızca büyük harfli başlıkları görür: normal harfle yazılmış, ilan yolu olmayan bir ilan haber sayılır; kurum sözcüğü taşıyan büyük harfli bir haber başlığı ilan sayılabilir."));
 
   /* 7 · right-heavy set */
@@ -199,15 +199,16 @@ function kaynakHtml(refs) {
 function pgYontem7(params) {
   var M = methodSecs(), X = methodExtras();
   var h2 = function (id, t, ai) { return '<h2 id="' + id + '">' + t + (ai ? " " + yzBadge() : "") + "</h2>"; };
-  return '<div class="wrap page ym"><div class="phead"><div class="eyebrow">Yöntem</div><h1>Yöntem</h1>' +
+  return '<div class="wrap page ym"><div class="phead"><div class="eyebrow">Nasıl çalışır</div><h1>Nasıl çalışır</h1>' +
     '<p class="lede">Çapraz Manşet’in veri toplama, olay tespiti, ölçüm ve çözümleme adımlarının, Türkiye’ye uyarlamaların ve yapay zekâ ile üretilen her parçanın dökümü.</p>' +
-    '<nav class="xtoc" aria-label="Yöntem bölümleri">' + YM_TOC.map(function (t) { return '<a href="#/yontem?s=' + t[0] + '">' + t[1] + "</a>"; }).join("") + "</nav></div>" +
+    '<nav class="xtoc" aria-label="Bölümler">' + YM_TOC.map(function (t) { return '<a href="#/yontem?s=' + t[0] + '">' + t[1] + "</a>"; }).join("") + "</nav></div>" +
     X.walk + '<article class="xpaper">' + M.intro +
     h2("veri", "Veri") + M.veri + h2("olay", "Olay tespiti") + M.olay + h2("dil", "Yüklü dil puanlayıcısı") + M.dil + h2("anlati", "Anlatı kodlaması") + M.anlati +
     h2("yz", "Bilişsel inceleme", 1) + yzBlock(yzMethodHtml()) + h2("yzicerik", "Yapay zekâ ile üretilen içerik", 1) + yzBlock(yzIcerikHtml()) +
     h2("turkiye", "Türkiye bağlamı") + '<p>Başlık analizi için İngilizce dünyada geliştirilmiş birçok varsayım Türkçede çalışmaz. Her uyarlama için sorunu, ne yaptığımızı ve sınırını yazdık; rakamlar kodun ve verinin kendisinden okunur.</p>' +
     '<div class="v7-tr">' + turkiyeBlocks() + "</div>" +
     h2("kavramlar", "Kavram kütüphanesi") + conceptLibrary() +
+    h2("sozluk", "Sözlük") + "<p>Terimler sözlüğü.</p>" + h2("kapsama", "Kapsama") + kapsamaHTML() +
     h2("sinir", "Sınırlılıklar") + M.sinir + h2("kaynak", "Kaynaklar") + kaynakHtml(M.refs) + "</article>" + X.fix + "</div>";
 }
 

@@ -44,9 +44,24 @@ test("redirectRoute", () => {
   assert.equal(L.redirectRoute("/yanlilik", { t: "kutuphane" }), "/yontem?s=kavramlar");
   assert.equal(L.redirectRoute("/yanlilik", {}), "/oruntu?q=dil");
   assert.equal(L.redirectRoute("/bulgular/x", {}), "/oruntu?q=secim");
-  assert.equal(L.redirectRoute("/olaylar", { t: "kor" }), "/oruntu?q=secim");
   assert.equal(L.redirectRoute("/olaylar", {}), null);
   assert.equal(L.redirectRoute("/anlati", {}), null);
+});
+test("redirectRoute v8 table", () => {
+  const R = L.redirectRoute;
+  assert.equal(R("/kurumlar", { t: "genel" }), "/kurumlar?t=liste");
+  assert.equal(R("/kurumlar", { t: "siralama" }), "/kurumlar?t=liste");
+  assert.equal(R("/kurumlar", { t: "guven" }), "/kurumlar?t=kayit");
+  assert.equal(R("/kurumlar", { t: "xyz" }), "/kurumlar?t=liste");
+  assert.equal(R("/harita", {}), "/kurumlar?t=liste&v=harita");
+  assert.equal(R("/karsilastir", {}), "/kurumlar?t=karsilastir");
+  assert.equal(R("/olaylar", { t: "konular" }), "/olaylar?t=liste&f=konu");
+  assert.equal(R("/olaylar", { t: "kapsama" }), "/yontem?s=kapsama");
+  assert.equal(R("/olaylar", { t: "kor" }), null);
+  assert.equal(R("/ilan", {}), "/olaylar?t=ilan");
+  assert.equal(R("/yontem", { s: "9" }), null);
+  assert.equal(R("/bulgular", {}), "/oruntu?q=secim");
+  assert.equal(L.NAV_SUB["/yontem"], "Yöntem, sözlük ve sınırlar");
 });
 test("trFold", () => assert.equal(L.trFold("İSTANBUL IŞIK çğöü"), "istanbul isik cgou"));
 

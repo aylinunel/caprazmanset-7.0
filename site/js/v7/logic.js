@@ -105,15 +105,29 @@ function yontemAnchor(s) {
   return Object.prototype.hasOwnProperty.call(YONTEM_OLD, s) ? YONTEM_OLD[s] : s;
 }
 
+var NAV_SUB = { "/olaylar": "Bütün olaylar, arama ve kör noktalar", "/anlati": "Kurumlar bir olayı nasıl çerçeveledi",
+  "/oruntu": "Haberlerde tekrar eden farklar", "/kurumlar": "Kim nasıl yazıyor, yan yana", "/yontem": "Yöntem, sözlük ve sınırlar" };
+var KURUM_TABS = { liste: 1, karsilastir: 1, kayit: 1 };
+
 function redirectRoute(path, params) {
   params = params || {};
   if (path.indexOf("/bulgular") === 0) return "/oruntu?q=secim";
   if (path.indexOf("/yanlilik") === 0) return params.t === "kutuphane" ? "/yontem?s=kavramlar" : "/oruntu?q=dil";
-  if (path === "/olaylar" && params.t === "kor") return "/oruntu?q=secim";
+  if (path === "/harita") return "/kurumlar?t=liste&v=harita";
+  if (path === "/karsilastir") return "/kurumlar?t=karsilastir";
+  if (path === "/ilan") return "/olaylar?t=ilan";
+  if (path === "/olaylar") {
+    if (params.t === "konular") return "/olaylar?t=liste&f=konu";
+    if (params.t === "kapsama") return "/yontem?s=kapsama";
+  }
+  if (path === "/kurumlar" && params.t !== undefined) {
+    if (params.t === "guven") return "/kurumlar?t=kayit";
+    if (!Object.prototype.hasOwnProperty.call(KURUM_TABS, params.t)) return "/kurumlar?t=liste";
+  }
   return null;
 }
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { trFold: trFold, weekEvents: weekEvents, pickWeek: pickWeek, narrGroups: narrGroups, orderOutlets: orderOutlets,
-    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, yontemAnchor: yontemAnchor };
+    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor };
 }

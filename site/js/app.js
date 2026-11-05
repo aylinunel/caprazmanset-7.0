@@ -480,14 +480,12 @@ function spreadChart(evs) {
 var SECTIONS = [
   { p: "/", label: "Giriş", fn: pgAnlati },
   { p: "/olaylar", label: "Olaylar", fn: pgEvents, tabs: [
-    ["liste", "Tüm olaylar"], ["kor", "Kör noktalar"], ["konular", "Konular"], ["kapsama", "Kapsama"], ["ilan", ""]] },
+    ["liste", "Tüm olaylar"], ["kor", "Kör noktalar"], ["ilan", "Resmî ilanlar"]] },
   { p: "/benim", label: "Benim", fn: pgMine, tabs: [
     ["akis", "Size özel"], ["denge", "Haber dengem"], ["takip", "Takip ettiklerim"]] },
   { p: "/anlati", label: "Anlatı", fn: pgAnlati },
   { p: "/kurumlar", label: "Kurumlar", fn: pgSources, tabs: [
-    ["genel", "Genel bakış"], ["liste", "Kurum listesi"], ["karsilastir", "İkili karşılaştırma"], ["siralama", "Sıralama"],
-    ["kayit", "Kayıt defteri"], ["guven", "Güven"]] },
-  { p: "/harita", label: "Harita", fn: pgMap },
+    ["liste", "Kurumlar"], ["karsilastir", "Karşılaştır"], ["kayit", "Kayıt ve güven"]] },
   { p: "/yanlilik", label: "Çerçeveleme", fn: pgBias, tabs: [
     ["kesif", "Araç tezgâhı"], ["cozumleyici", "Çözümleyici"],
     ["bicimler", "Üretim aşamaları"], ["turkiye", "Türkiye bağlamı"]] },
@@ -833,6 +831,22 @@ function covBar(c) {
     '<span><em style="background:var(--right)"></em>Sağ ' + c.right + "</span></div>";
 }
 
+/* Which side of the spectrum gave each event: the coverage matrix, shown on the Nasıl çalışır page. */
+function kapsamaHTML() {
+  var h = '<p>Her olay için, onu veren kurumların kayıt defterindeki siyasi yerleşimlerine göre dağılımı. ' +
+    'Bloklar <b>sağlanan yerleşimlerden</b> türetilir; bu sitenin kendi değerlendirmesi değildir. En çok kurumun verdiği 24 olay:</p>';
+  var evs = D.E.slice().sort(function (a, b) { return b.s.length - a.s.length; });
+  h += '<div class="grid g2">';
+  evs.slice(0, 24).forEach(function (e) {
+    var c = evCoverage(e);
+    h += '<div class="card" style="cursor:pointer" onclick="location.hash=\'/olay?e=' + e.i + '\'">' +
+      '<div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline">' +
+      "<b>" + esc(storyLabel(e, 64)) + "</b>" +
+      '<span class="tag">' + e.s.length + " kurum</span></div>" +
+      '<div style="margin-top:11px">' + covBar(c) + "</div></div>";
+  });
+  return h + "</div>";
+}
 function pgEventsV1(q) {
   var tab = tabOf(secFor("/olaylar"), q);
   var h = '<div class="wrap page">';
@@ -856,25 +870,6 @@ function pgEventsV1(q) {
       '<button class="chip" data-ev="table" aria-pressed="false">Tablo</button></span>' +
       '<span id="ecount" class="mono" style="font-size:12px;color:var(--muted)"></span>' +
       "</div><div id=\"elist\"></div>";
-  }
-
-  if (tab === "kapsama") {
-    h += '<div class="phead"><div class="eyebrow">Kapsama analizi</div>' +
-      "<h1>Bir olayı yelpazenin hangi tarafı verdi</h1>" +
-      '<p class="lede">Her olay için, onu veren kurumların kayıt defterindeki siyasi ' +
-      "yerleşimlerine göre dağılımı. Şerit, olayın yelpazede nasıl dağıldığını gösterir. " +
-      "Bloklar <b>sağlanan yerleşimlerden</b> türetilir; bu sitenin kendi değerlendirmesi değildir.</p></div>";
-    var evs = D.E.slice().sort(function (a, b) { return b.s.length - a.s.length; });
-    h += '<div class="grid g2">';
-    evs.slice(0, 24).forEach(function (e) {
-      var c = evCoverage(e);
-      h += '<div class="card" style="cursor:pointer" onclick="location.hash=\'/olay?e=' + e.i + '\'">' +
-        '<div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline">' +
-        "<b>" + esc(storyLabel(e, 64)) + "</b>" +
-        '<span class="tag">' + e.s.length + " kurum</span></div>" +
-        '<div style="margin-top:11px">' + covBar(c) + "</div></div>";
-    });
-    h += "</div>";
   }
 
   if (tab === "kor") {
@@ -1112,13 +1107,21 @@ function pgEventV1(q) {
 function pgSources(q) {
   var tab = tabOf(secFor("/kurumlar"), q);
   var h = '<div class="wrap page">';
-  if (tab === "siralama") return h + pgRanking5(q) + "</div>";
+  var kurumSwitch = function (v) {
+    return '<div class="v7-vsw" role="group" aria-label="Görünüm"><a class="chip" href="#/kurumlar?t=liste" aria-pressed="' + (v !== "harita") + '">Liste</a>' +
+      '<a class="chip" href="#/kurumlar?t=liste&v=harita" aria-pressed="' + (v === "harita") + '">Harita</a></div>';
+  };
+  var phToH2 = function (html) {
+    return html.replace(/<div class="phead"><div class="eyebrow">[^<]*<\/div><h1>([^<]*)<\/h1>(<p class="lede">[\s\S]*?<\/p>)?<\/div>/,
+      function (m, t, l) { return '<h2 class="v7-subh">' + t + "</h2>" + (l || ""); });
+  };
+  if (tab === "liste" && q.v === "harita") return h + pgMap(q, kurumSwitch("harita")) + "</div>";
 
-  if (tab === "genel") {
+  if (tab === "liste") {
     h += '<div class="phead"><div class="eyebrow">Genel bakış</div>' +
       "<h1>Hangi kurum ne kadar yüklü dil kullanıyor</h1>" +
       '<p class="lede">Tekil habere değil dağılıma bakan görünüm. Bir kuruma tıklayarak ' +
-      "o kurumun dönem dökümüne geçebilirsiniz.</p></div>";
+      "o kurumun dönem dökümüne geçebilirsiniz.</p></div>" + kurumSwitch("liste");
     h += '<section class="sec" style="margin-top:0"><h2>Kurum başına ortalama yoğunluk</h2>' +
       '<p class="sub">0–100 ölçeği, yalnızca siyasi haberler üzerinden. Düşük değer ' +
       '“yansız” demek değil; “başlık olayı yeniden çerçevelemeden bildiriyor” demektir.</p>' +
@@ -1170,12 +1173,11 @@ function pgSources(q) {
 
   if (tab === "liste") {
     var noData = D.S.filter(function (p) { return LIVE.indexOf(p.s) < 0; });
-    h += '<div class="phead"><div class="eyebrow">Kurumlar</div>' +
-      "<h1>Kim yayınlıyor, nasıl yerleşiyor</h1>" +
+    h += '<h2 class="v7-subh" id="kurumlistesi">Kim yayınlıyor, nasıl yerleşiyor</h2>' +
       '<p class="lede">Bu dönemdeki akışlarda görünen ' + LIVE.length + ' kurum, siyasi ' +
       'yerleşim sırasına göre. Yerleşim ve sahiplik bilgileri sağlanan kayıt defterinden ' +
       'gelir ve bağımsız olarak doğrulanmamıştır; haftalık sayılar bu sitenin kendi ' +
-      "toplamasıdır.</p></div>";
+      "toplamasıdır.</p>";
     h += '<div class="ctl"><input type="search" id="ssearch" placeholder="Kurum ara…" style="min-width:200px">' +
       '<label class="eyebrow" for="ssort">Sırala</label><select id="ssort">' +
       '<option value="lean">Siyasi yerleşim</option><option value="n">Haber sayısı</option>' +
@@ -1192,6 +1194,7 @@ function pgSources(q) {
         ". Bunlar analiz dışıdır — yayın yapmadıkları anlamına gelmez, yalnızca sendikasyon " +
         "akışlarının bu pencerede kayıt döndürmediği anlamına gelir.</div>";
     }
+    h += phToH2(pgRanking5(q));
   }
 
   if (tab === "kayit") {
@@ -1213,13 +1216,12 @@ function pgSources(q) {
       }).join("") + "</tbody></table></div>";
   }
 
-  if (tab === "guven") {
+  if (tab === "kayit") {
     var withT = D.S.filter(function (p) { return p.risj && p.risj.trustUsed != null; })
       .sort(function (a, b) { return b.risj.trustUsed - a.risj.trustUsed; });
-    h += '<div class="phead"><div class="eyebrow">Güven ve kutuplaşma</div>' +
-      "<h1>Kim güveniyor, kim güvenmiyor</h1>" +
+    h += '<h2 class="v7-subh" id="guven">Kim güveniyor, kim güvenmiyor</h2>' +
       '<p class="lede">Reuters Institute Digital News Report anket verisi. İki ayrı sayı ' +
-      "var ve karıştırılmamaları önemli.</p></div>";
+      "var ve karıştırılmamaları önemli.</p>";
     h += '<div class="grid g2">' +
       '<div class="card"><h3 style="font-size:17px">Kullananlar arasında güven</h3>' +
       '<p style="margin-top:7px;font-size:13.5px;color:var(--ink2);line-height:1.6">' +
@@ -1990,14 +1992,14 @@ function atlasNeighbours() {
 }
 
 /* ================================================================ /harita */
-function pgMap(q) {
-  var h = '<div class="wrap page"><div class="phead"><div class="eyebrow">Harita ve görseller</div>' +
+function pgMap(q, after) {
+  var h = '<div class="phead"><div class="eyebrow">Harita ve görseller</div>' +
     "<h1>Çok boyutlu kurum atlası</h1>" +
     '<p class="lede">Tek bir sol–sağ çizgisi Türkiye siyasetini taşımaz: laiklik ile devlet ' +
     "rolü, ya da milliyetçilik ile kültürel açıklık, birbirinden bağımsız hareket eder. " +
     "Aynı kurumlar burada <b>altı ayrı boyutta</b> duruyor — istediğiniz iki ekseni seçin, " +
     "hepsini aynı anda görün, ya da altı boyutlu uzayda gerçekten kimin kime komşu " +
-    "olduğunu ölçün.</p></div>";
+    "olduğunu ölçün.</p></div>" + (after || "");
   h += '<div id="atlBar"></div><div id="atlBody"></div><div id="atlSel"></div>';
   h += '<div class="note" style="margin-top:22px"><b>Parti yerleşimleri</b> ideolojik ' +
     "tanımlardan türetilmiştir, oy davranışından değil. <b>Yayın yerleşimleri</b> sağlanan " +
@@ -2005,7 +2007,7 @@ function pgMap(q) {
     "doğrulanmamıştır. Bir yayının bir partiye yakın düşmesi, ona ait olduğunu ya da " +
     "onun sözcülüğünü yaptığını göstermez — yalnızca iki ayrı kaynağın onları aynı " +
     "eksen çiftinde benzer yerlere koyduğunu gösterir.</div>";
-  return h + "</div>";
+  return h;
 }
 
 function renderAtlas() {
@@ -3802,7 +3804,7 @@ function briefHTML() {
 var FEEDVIEW = "cards", FEEDN = 60;
 function pgEvents(q) {
   var tab = tabOf(secFor("/olaylar"), q);
-  if (tab === "kapsama") return pgEventsV1(q);
+  if (tab === "ilan") return pgIlan();
   var h = '<div class="wrap page">';
   if (tab === "liste") {
     h += '<div class="phead"><div class="eyebrow">Olaylar</div><h1>Aynı olayı kimler verdi</h1>' +
@@ -3810,6 +3812,10 @@ function pgEvents(q) {
       "onu veren kurumların yelpazedeki dağılımı ve kurum sayısı var. Kartı açınca özet, bütün başlıklar " +
       "ve olayın ayrıntılı analizi gelir. Tarih, haber türü, yanlılık türü, kapsama, taraf, kurum ve yoğunluk " +
       "süzgeçleri birlikte çalışır.</p></div>" +
+      '<details class="v7-topics"' + (q.f === "konu" ? " open" : "") + '><summary>Konuya göre süz</summary><div class="v7-tchips" role="group" aria-label="Konular">' +
+      v3topicList().slice().sort(function (a, b) { return b.e.length - a.e.length; }).map(function (t) {
+        return '<button type="button" class="chip" data-tchip="' + esc(t.k) + '" aria-pressed="false">' + esc(t.n) + " (" + t.e.length + ")</button>"; }).join("") +
+      "</div></details>" +
       '<div class="ctl"><input type="search" id="fq" placeholder="Olay, kurum ya da konu ara…" style="min-width:220px" value="' + esc(FEEDF.q) + '">' +
       fSel("ftopic", "Bütün konular", v3topicList().slice().sort(function (a, b) { return a.n.localeCompare(b.n, "tr"); })
         .map(function (t) { return [t.k, t.n + " (" + t.e.length + ")"]; })) +
@@ -3821,9 +3827,7 @@ function pgEvents(q) {
           (FEEDVIEW === p[0]) + '">' + p[1] + "</button>"; }).join("") + "</span></div>" + feedFilters() +
       '<div class="ctl xfcount"><span id="fcount" class="mono" style="font-size:12px;color:var(--muted)"></span></div><div id="flist"></div>';
   }
-  if (tab === "kor") h += blindspotPage(q) + v5BlindTable();
-  if (tab === "konular") h += topicsIndex();
-  if (tab === "ilan") h += v3noticeEventsPage();
+  if (tab === "kor") h += blindspotPage() + v5BlindTable();
   return h + "</div>";
 }
 function renderFeed() {
@@ -3960,34 +3964,14 @@ function wireFeedReset(root) {
 
 /* ---------- Kör noktalar ---------- */
 var BSSIDE = "all";
-function blindspotPage(q) {
-  var act = V2.active || {};
+function blindspotPage() {
   var all = D.E.filter(function (e) { return e.bs && !v3isIlanEvent(e); });
-  var side = q.y === "left" || q.y === "right" ? q.y : "all";
-  var list = all.filter(function (e) { return side === "all" || e.bs === side; })
-    .sort(function (a, b) { return b.s.length - a.s.length; });
-  var h = '<div class="phead"><div class="eyebrow">Kör noktalar</div>' +
+  return '<div class="phead"><div class="eyebrow">Kör noktalar</div>' +
     "<h1>Yelpazenin bir tarafının az verdiği olaylar</h1>" +
-    '<p class="lede">' + D.E.length + " olaydan <b>" + all.length + "</b> tanesi kör nokta kuralına uyuyor: " +
-    all.filter(function (e) { return e.bs === "left"; }).length + " olayı sol, " +
-    all.filter(function (e) { return e.bs === "right"; }).length + " olayı sağ kurumlar, kendi sayılarına göre belirgin biçimde az verdi.</p></div>";
-  h += '<div class="xtabs">' + [["all", "Hepsi"], ["left", "Solun az verdikleri"], ["right", "Sağın az verdikleri"]]
-    .map(function (t) { return '<a class="xtab' + (t[0] === side ? " on" : "") + '" href="#/olaylar?t=kor' +
-      (t[0] === "all" ? "" : "&y=" + t[0]) + '">' + t[1] + "</a>"; }).join("") + "</div>";
-  h += '<div class="note"><b>Kural, Ground News’ün yayımladığı formülün bu kayıt defterine uyarlanmışıdır.</b> ' +
-    "Kayıt defteri bu dönemde haber yayımlayan kurumlardan " + (act.right || "?") + " tanesini sağda, " +
-    (act.left || "?") + " tanesini solda konumlandırıyor. Ham sayılarla bu dengesizlik neredeyse her olayı " +
-    "“solun kör noktası” yapardı; bu yüzden her taraf kendi etkin kurum sayısına bölünür. " +
-    '<a class="lnk" href="#/yontem?s=olay">Kuralın tamamı →</a></div>';
-  h += list.length ? '<div class="xcards" style="margin-top:18px">' + cards(list) + "</div>" :
-    '<p class="xempty">Bu tarafta kör nokta yok.</p>';
-  h += '<p class="xsmall" style="margin-top:18px">Kör nokta bir suçlama değildir: bir olayın bir tarafta az ' +
-    "görünmesi editoryal tercihten, akış eksikliğinden ya da olayın bölgesel olmasından doğabilir. " +
-    "Doğruluk (factuality) koşulu, doğruluk verisi eklenene kadar uygulanmıyor.</p>";
-  return h;
+    '<p class="lede">' + D.E.length + " olaydan <b>" + all.length + "</b> tanesi kör nokta kuralına uyuyor. Kör nokta bir suçlama değildir: " +
+    "bir olayın bir tarafta az görünmesi editoryal tercihten, akış eksikliğinden ya da olayın bölgesel olmasından doğabilir. " +
+    '<a class="lnk" href="#/yontem?s=olay">Kuralın tamamı →</a></p></div>' + findingBlock(orFindBlind());
 }
-
-/* ---------- Konular ---------- */
 function topicsIndex() {
   var t = v3topicList().slice().sort(function (a, b) { return b.e.length - a.e.length; });
   return '<div class="phead"><div class="eyebrow">Konular</div><h1>Olayları konuya göre izleyin</h1>' +
@@ -4004,7 +3988,7 @@ function topicsIndex() {
 function pgTopic(q) {
   var t = TPX[q.k];
   if (!t) return '<div class="wrap page"><div class="phead"><h1>Konu bulunamadı</h1>' +
-    '<p class="lede"><a class="lnk" href="#/olaylar?t=konular">Konulara dön</a></p></div></div>';
+    '<p class="lede"><a class="lnk" href="#/olaylar?t=liste&f=konu">Konulara dön</a></p></div></div>';
   var es = t.e.map(function (i) { return EV[i]; }).sort(function (a, b) { return b.s.length - a.s.length; });
   var bs = es.filter(function (e) { return e.bs; });
   var fake = { cov: t.cov, s: { length: t.cov[0] + t.cov[1] + t.cov[2] } };
@@ -4162,7 +4146,7 @@ function pgMine(q) {
     h += '<section class="sec"><h2>Konular</h2>' + (f.t.length ? '<div class="xtopics">' + f.t.map(function (k) {
       return TPX[k] ? '<div class="xtopic"><div class="xtopic-h"><a href="#/konu?k=' + k + '"><b>' + esc(TPX[k].n) +
         "</b></a>" + followBtn("t", k) + "</div></div>" : ""; }).join("") + "</div>" :
-      '<p class="xsmall">Konu yok. <a class="lnk" href="#/olaylar?t=konular">Konulara göz atın</a>.</p>') + "</section>";
+      '<p class="xsmall">Konu yok. <a class="lnk" href="#/olaylar?t=liste&f=konu">Konulara göz atın</a>.</p>') + "</section>";
     h += '<section class="sec"><h2>Kurumlar</h2>' + (f.s.length ? '<div class="xtopics">' + f.s.map(function (s) {
       return '<div class="xtopic"><div class="xtopic-h"><a href="#/kurum?s=' + s + '"><b>' + esc(srcName(s)) +
         "</b></a>" + followBtn("s", s) + "</div></div>"; }).join("") + "</div>" :
@@ -4440,7 +4424,27 @@ function v2bAfter(path, tab, params) {
   g6Mount(document.getElementById("view"));
   dmHeads(document.getElementById("view")); dmMount(document.getElementById("view")); fogMount(document.getElementById("view"));
   if (path === "/oruntu") wireOruntu(params.q || "secim", params.f);
-  if (path === "/ilan") wireIlan();
+  if (path === "/olaylar" && tab === "ilan") wireIlan();
+  if (path === "/olaylar" && tab === "liste") {
+    [].forEach.call(document.querySelectorAll("[data-tchip]"), function (b) {
+      b.onclick = function () {
+        var on = b.getAttribute("aria-pressed") !== "true", sel = $("#ftopic");
+        [].forEach.call(document.querySelectorAll("[data-tchip]"), function (o) { o.setAttribute("aria-pressed", "false"); });
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+        if (sel) { sel.value = on ? b.getAttribute("data-tchip") : ""; renderFeed(); }
+      };
+    });
+  }
+  /* Every page header names its section and says what the section is for (after dmHeads, which reads the old eyebrow). */
+  var sg = navGroup(path), sn = sg && NAV_SUB[sg];
+  if (sn) {
+    var nm = NAV.filter(function (n) { return n[0] === sg; })[0][1];
+    [].forEach.call(document.querySelectorAll("#view .phead"), function (ph) {
+      var eb = ph.querySelector(".eyebrow");
+      if (!eb) { eb = document.createElement("div"); eb.className = "eyebrow"; ph.insertBefore(eb, ph.querySelector("h1") || ph.firstChild); }
+      eb.textContent = nm + " · " + sn;
+    });
+  }
   if (path === "/yontem") wireYontem(params);
 }
 
@@ -4787,9 +4791,8 @@ function svgURI(s) { return "data:image/svg+xml;charset=utf-8," + encodeURICompo
 var NAV = [["/anlati", "Anlatı", []], ["/olaylar", "Olaylar", ["/olay", "/konu"]], ["/kurumlar", "Kurumlar", ["/kurum", "/harita"]],
   ["/bulgular", "Bulgular", []], ["/yanlilik", "Çerçeveleme", []], ["/yontem", "Yöntem", []]];
 var SUB = {
-  "/olaylar": [["/olaylar", "liste", "Tüm olaylar"], ["/olaylar", "kor", "Kör noktalar"], ["/olaylar", "konular", "Konular"]],
-  "/kurumlar": [["/kurumlar", "genel", "Genel bakış"], ["/kurumlar", "liste", "Kurum listesi"], ["/kurumlar", "karsilastir", "Karşılaştır"],
-    ["/kurumlar", "kayit", "Kayıt defteri"], ["/kurumlar", "guven", "Güven"], ["/harita", null, "Harita"]],
+  "/olaylar": [["/olaylar", "liste", "Tüm olaylar"], ["/olaylar", "kor", "Kör noktalar"], ["/olaylar", "ilan", "Resmî ilanlar"]],
+  "/kurumlar": [["/kurumlar", "liste", "Kurumlar"], ["/kurumlar", "karsilastir", "Karşılaştır"], ["/kurumlar", "kayit", "Kayıt ve güven"]],
   "/bulgular": [["/bulgular", "veriler", "Veriler"], ["/bulgular", "yorumlar", "Yorumlar"], ["/bulgular", "ileri", "İleri analiz"]],
   "/yanlilik": [["/yanlilik", "kesif", "Yapılar"], ["/yanlilik", "cozumleyici", "Başlık çözümleyici"],
     ["/yanlilik", "bicimler", "Üretim aşamaları"], ["/yanlilik", "turkiye", "Türkiye bağlamı"]],
@@ -4804,18 +4807,18 @@ function navGroup(path) {
 function navHTML(path, over, tab) {
   var g = navGroup(path);
   var items = NAV.map(function (n) {
-    return '<li><a class="xnav-a' + (n[0] === g ? " on" : "") + '" href="#' + n[0] + '"' + (n[0] === g ? ' aria-current="page"' : "") + ">" + n[1] + "</a></li>";
+    return '<li><a class="xnav-a' + (n[0] === g ? " on" : "") + '" href="#' + n[0] + '" title="' + esc(NAV_SUB[n[0]] || "") + '"' + (n[0] === g ? ' aria-current="page"' : "") + ">" + n[1] + "</a></li>";
   }).join("");
-  var mob = NAV.map(function (n) { return '<a href="#' + n[0] + '" class="' + (n[0] === g ? "is-active" : "") + '">' + n[1] + "</a>"; }).join("") +
-    '<a href="#/ilan" class="' + (path === "/ilan" ? "is-active" : "") + '">Resmî ilan bul</a><a href="#/benim" class="' + (g === "/benim" ? "is-active" : "") + '">Benim</a><a href="#/ara">Ara</a>';
+  var mob = NAV.map(function (n) { return '<a href="#' + n[0] + '" class="' + (n[0] === g ? "is-active" : "") + '"><span>' + n[1] + '</span><small class="msub">' + esc(NAV_SUB[n[0]] || "") + "</small></a>"; }).join("") +
+    '<a href="#/benim" class="' + (g === "/benim" ? "is-active" : "") + '"><span>Benim</span></a><a href="#/ara"><span>Ara</span></a>';
   var h = '<header class="navbar xnav" id="nav"><div class="navrow">' +
     '<a class="brand" href="#/" aria-label="Çapraz Manşet, giriş"><img class="xlogo xlogo-l" src="' + (LOGO.h || "") + '" alt="Çapraz Manşet">' +
     '<img class="xlogo xlogo-d" src="' + (LOGO.hd || "") + '" alt="" aria-hidden="true"></a>' +
     '<nav class="pill-nav" aria-label="Ana gezinme"><ul class="xnav-l">' + items + "</ul></nav>" +
     '<div class="navtools">' +
-      '<a class="xutil' + (path === "/ilan" ? " on" : "") + '" href="#/ilan">Resmî ilan bul</a>' +
+      '<form class="xsearch navq" role="search" onsubmit="location.hash=\'#/ara?q=\'+encodeURIComponent(this.q.value);return false"><input type="search" name="q" id="navq" placeholder="Olay ya da kurum ara" aria-label="Olay ya da kurum ara" autocomplete="off"></form>' +
       '<a class="xutil xpill' + (g === "/benim" ? " on" : "") + '" href="#/benim">Benim</a>' +
-      '<a class="icobtn" href="#/ara" aria-label="Ara"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="6.5" cy="6.5" r="4.3"/><path d="m9.8 9.8 3.4 3.4"/></svg></a>' +
+      '<a class="icobtn navqi" href="#/ara" aria-label="Ara"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="6.5" cy="6.5" r="4.3"/><path d="m9.8 9.8 3.4 3.4"/></svg></a>' +
       '<button class="icobtn" id="theme" aria-label="Açık/koyu tema"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7.5 1.6a5.9 5.9 0 1 0 5.9 5.9 4.6 4.6 0 0 1-5.9-5.9Z"/></svg></button>' +
       '<button class="icobtn burger" id="burger" aria-label="Menü" aria-expanded="false"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h11M2 10.5h11"/></svg></button>' +
     "</div></div>" + '<div class="mobmenu" id="mobmenu">' + mob + "</div></header>";
@@ -5141,7 +5144,7 @@ function pgRanking5(q) {
     ". Her sütun kurumun <b>kendi</b> haberlerinin payı ya da ortalamasıdır; toplanan haber sayısı kurumdan kuruma değiştiği için ham sayılar karşılaştırılmaz. " +
     "Sıralama bir kalite sıralaması değildir.</p></div>";
   h += '<div class="xtabs">' + RANK5.map(function (c) {
-    return '<a class="xtab' + (c[0] === col[0] ? " on" : "") + '" href="#/kurumlar?t=siralama&o=' + c[0] + '" title="' + esc(c[2]) + '">' + esc(c[1]) + "</a>"; }).join("") + "</div>";
+    return '<a class="xtab' + (c[0] === col[0] ? " on" : "") + '" href="#/kurumlar?t=liste&o=' + c[0] + '" title="' + esc(c[2]) + '">' + esc(c[1]) + "</a>"; }).join("") + "</div>";
   h += '<p class="xsmall" style="margin:8px 0 12px">Sıralayan ölçü: <b>' + esc(col[1]) + "</b> — " + esc(col[2]) + ".</p>";
   h += '<div class="scroller panel"><table><thead><tr><th>Kurum</th>' + RANK5.map(function (c) {
     return '<th class="r"' + (c[0] === col[0] ? ' style="color:var(--ink)"' : "") + ">" + esc(c[1]) + "</th>"; }).join("") +
@@ -5159,7 +5162,7 @@ function v5Profile(k) {
   if (!r) return "";
   var all = rank5Rows();
   return '<section class="sec" style="margin-top:18px"><h2>Kurumun ölçüleri</h2><p class="sub">Bu kurumun değeri ve etkin kurumların medyanı. ' +
-    '<a class="lnk" href="#/kurumlar?t=siralama">Bütün kurumlarla sıralama →</a></p><div class="scroller panel"><table><tbody>' +
+    '<a class="lnk" href="#/kurumlar?t=liste">Bütün kurumlarla sıralama →</a></p><div class="scroller panel"><table><tbody>' +
     RANK5.map(function (c) {
       return "<tr><td>" + esc(c[1]) + '<div class="xsmall">' + esc(c[2]) + '</div></td><td class="r num"><b>' + c[3](r[c[0]]) +
         '</b></td><td class="r num xsmall">medyan ' + c[3](median5(all.map(function (x) { return x[c[0]]; }))) + "</td></tr>";
@@ -5342,10 +5345,7 @@ function v3evCountLine(e) {
   return esc(t3("evCountsSplit", { h: x.haber, i: x.ilan, k: x.newsOutlets.length }));
 }
 function v3noticeTag(a) { return v3isIlanArt(a) ? '<span class="tag cm3-ntag" data-cm3>' + esc(t3("notice")) + "</span>" : ""; }
-function v3sub(g, list) {
-  if (g !== "/olaylar" || !v3on("noticeSplit") || !list) return list;
-  return list.slice(0, 3).concat([["/olaylar", "ilan", t3("noticeEvents")]], list.slice(3));
-}
+function v3sub(g, list) { return list; }
 function v3noticeLines() {
   return '<div class="cm3-lines" data-cm3><p>' + esc(t3("noticeLine1")) + "</p><p>" + esc(t3("noticeLine2")) + "</p><p>" +
     esc(t3("noticeLine3")) + "</p></div>";
@@ -6215,7 +6215,6 @@ function v3After(path, tab, params) {
     if (path === "/yontem") add(document.getElementById("s5"), "afterend", "<p>" + v3panelLine() + "</p>");
   }
 
-  if (v3on("noticeSplit") && path === "/olaylar" && tab === "ilan") v3noticeWire(view);
   if (v3on("noticeSplit") && path === "/kurum" && params.s && v3N().byOutlet[params.s]) {
     var g = view.querySelector(".grid.g3");
     if (g) { add(g, "afterend", v3outletNoticeTabs(params.s)); v3wireTabs(view.querySelector("#cm3nt")); }
@@ -6337,7 +6336,7 @@ function route() {
     });
   }
 
-  if (path === "/kurumlar" && tab === "genel") {
+  if (path === "/kurumlar" && tab === "liste" && params.v !== "harita") {
     /* Mean load with its 95 % interval: a mean bar hid how sure each number is (small outlets swing). */
     var cmRows = LIVE.filter(function (k) { return STAT[k].pol >= 20; }).map(function (k) {
       var xs = polOf(k).map(function (a) { return a.v; }), n = xs.length || STAT[k].pol, m = STAT[k].mean || 0;
@@ -6374,7 +6373,7 @@ function route() {
   if (path === "/yontem") {
     put("cmat", matrixChart(LIVE.slice().sort(function (x, y) { return STAT[y].n - STAT[x].n; })));
   }
-  if (path === "/kurumlar" && tab === "liste") {
+  if (path === "/kurumlar" && tab === "liste" && params.v !== "harita") {
     renderSources();
     $("#ssearch").oninput = renderSources; $("#ssort").onchange = renderSources;
   }
@@ -6401,7 +6400,7 @@ function route() {
       renderCompare();
     }
   }
-  if (path === "/kurumlar" && tab === "guven") {
+  if (path === "/kurumlar" && tab === "kayit") {
     /* One figure, not two. The polarisation gap is a DISTANCE between two
        numbers, so it is drawn as one: the left dot is what the general public
        gives the outlet, the right dot what its own readers give it, and the
@@ -6467,7 +6466,7 @@ function route() {
 
   if (path === "/olay") { var vw = $("#view"); if (vw) wireDevices(vw); }
 
-  if (path === "/harita") renderAtlas();
+  if (path === "/kurumlar" && tab === "liste" && params.v === "harita") renderAtlas();
   if (path === "/harita" && tab === "atlas") {
     put("pcoord", parallelCoords());
     var nnBox = $("#nn");
