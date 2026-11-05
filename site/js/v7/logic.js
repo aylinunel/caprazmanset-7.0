@@ -1,1 +1,101 @@
 /* v7 pure logic: no DOM; also require()-able in Node. */
+var V7_DIMS = ["frame", "hero", "blame", "cause", "cons", "aff", "sol", "moral", "start"];
+
+function trFold(s) {
+  return String(s == null ? "" : s).replace(/İ/g, "i").replace(/I/g, "ı").toLowerCase()
+    .replace(/ı/g, "i").replace(/ç/g, "c").replace(/ş/g, "s").replace(/ğ/g, "g").replace(/ö/g, "o").replace(/ü/g, "u");
+}
+function trCmp(a, b) { return String(a).localeCompare(String(b), "tr"); }
+
+function weekEvents(N, NW, week, ok) {
+  var w = NW && NW[week];
+  if (!w) return [];
+  var sc = function (k) { var v = N[k] && N[k].score; return typeof v === "number" ? v : null; };
+  return w.keys.filter(function (k) { return ok(k); }).sort(function (a, b) {
+    var x = sc(a), y = sc(b);
+    if (x === null && y === null) return a < b ? -1 : a > b ? 1 : 0;
+    if (x === null) return 1;
+    if (y === null) return -1;
+    return y - x || (a < b ? -1 : a > b ? 1 : 0);
+  });
+}
+
+function narrGroups(rows, dim) {
+  var m = {};
+  rows.forEach(function (r) {
+    var v = String(r[dim] == null ? "" : r[dim]).trim();
+    (m[v] = m[v] || []).push(r.s);
+  });
+  return Object.keys(m).map(function (v) { return { value: v, outlets: m[v] }; }).sort(function (a, b) {
+    if ((a.value === "") !== (b.value === "")) return a.value === "" ? 1 : -1;
+    return b.outlets.length - a.outlets.length || trCmp(a.value, b.value);
+  });
+}
+
+function orderOutlets(rows, lean) {
+  return rows.map(function (r) { var l = lean(r.s); return { r: r, l: typeof l === "number" ? l : null }; })
+    .sort(function (a, b) {
+      if (a.l === null && b.l === null) return a.r.s < b.r.s ? -1 : a.r.s > b.r.s ? 1 : 0;
+      if (a.l === null) return 1;
+      if (b.l === null) return -1;
+      return a.l - b.l || (a.r.s < b.r.s ? -1 : a.r.s > b.r.s ? 1 : 0);
+    }).map(function (x) { return x.r; });
+}
+
+function dimShares(N, keys) {
+  var out = {};
+  V7_DIMS.forEach(function (d) {
+    var n = keys.filter(function (k) { return N[k] && (N[k].focus || []).indexOf(d) >= 0; }).length;
+    out[d] = keys.length ? n / keys.length : 0;
+  });
+  return out;
+}
+
+function blameByBloc(N, keys, bloc) {
+  var m = {};
+  keys.forEach(function (k) {
+    ((N[k] && N[k].rows) || []).forEach(function (r) {
+      var v = String(r.blame == null ? "" : r.blame).trim();
+      if (!v) return;
+      var o = m[v] = m[v] || { value: v, left: 0, mid: 0, right: 0, none: 0 };
+      var b = bloc(r.s);
+      o[b === "left" || b === "mid" || b === "right" ? b : "none"]++;
+    });
+  });
+  var tot = function (o) { return o.left + o.mid + o.right + o.none; };
+  return Object.keys(m).map(function (v) { return m[v]; })
+    .sort(function (a, b) { return tot(b) - tot(a) || trCmp(a.value, b.value); });
+}
+
+function firstSentence(t) { t = String(t || "").trim(); var i = t.indexOf(". "); return i < 0 ? t : t.slice(0, i + 1); }
+
+function yzText(f, review) {
+  if (review && review.status === "rejected") return null;
+  if (review && review.status === "corrected") return { noticed: review.note || "", why: "", editor: true };
+  if (f.explain) return { noticed: f.explain.noticed, why: f.explain.why, editor: false };
+  var pick = function (list, role) { return (list || []).filter(function (x) { return x.role === role; })[0]; };
+  var adv = pick(f.mechanisms, "advocate"), sk = pick(f.alternatives, "skeptic");
+  return { noticed: firstSentence(adv && adv.text), why: firstSentence((sk || adv || {}).text), editor: false };
+}
+
+function ilanSearch(items, q) {
+  q = q || {};
+  var t = q.text ? trFold(q.text) : "";
+  return items.filter(function (i) {
+    return (!t || trFold(i.t).indexOf(t) >= 0) && (!q.family || i.family === q.family) && (!q.src || i.s === q.src) &&
+      (!q.from || i.d >= q.from) && (!q.to || i.d <= q.to);
+  }).sort(function (a, b) { return a.d < b.d ? 1 : a.d > b.d ? -1 : 0; });
+}
+
+function redirectRoute(path, params) {
+  params = params || {};
+  if (path.indexOf("/bulgular") === 0) return "/oruntu?q=secim";
+  if (path.indexOf("/yanlilik") === 0) return params.t === "kutuphane" ? "/yontem?s=kavramlar" : "/oruntu?q=dil";
+  if (path === "/olaylar" && params.t === "kor") return "/oruntu?q=secim";
+  return null;
+}
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { trFold: trFold, weekEvents: weekEvents, narrGroups: narrGroups, orderOutlets: orderOutlets,
+    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute };
+}
