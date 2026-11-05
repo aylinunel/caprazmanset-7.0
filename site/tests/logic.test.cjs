@@ -84,3 +84,24 @@ test("yontemAnchor maps old numeric anchors, passes new ids through", () => {
   assert.equal(L.yontemAnchor(undefined), "");
   assert.equal(L.yontemAnchor("constructor"), "constructor");
 });
+
+test("weeklySplits: window, both sides, >=6 outlets, exclude, order, empty", () => {
+  const six = ["a", "b", "c", "d", "e", "f"];
+  const ev = (i, f, p, s) => ({ i, f, p, s: s || six });
+  const evs = [ev(1, "2026-11-05T09:00", 30), ev(2, "2026-11-04T09:00", 50), ev(3, "2026-10-29T23:59", 90), ev(4, "2026-11-01T09:00", 50, six.concat("g")),
+    ev(5, "2026-11-02T09:00", 40, ["a", "b"]), ev(6, "2026-11-03T09:00", 99), ev(7, null, 99), ev(8, "2026-11-06T00:00", 99), ev(9, "2026-10-30T00:00", 10)];
+  const cov = (e) => (e.i === 6 ? [0, 3, 3] : e.i === 4 || e.i === 1 || e.i === 2 || e.i === 9 || e.i === 5 ? [1, 2, 1] : [1, 0, 1]);
+  const ids = (o) => L.weeklySplits(evs, "2026-11-05", Object.assign({ cov }, o)).map((e) => e.i);
+  assert.deepEqual(ids(), [4, 2, 1, 9]);
+  assert.deepEqual(ids({ exclude: [2] }), [4, 1, 9]);
+  assert.deepEqual(L.weeklySplits([], "2026-11-05", { cov }), []);
+  assert.deepEqual(L.weeklySplits(evs, "2026-11-05", { cov: () => [0, 1, 1] }), []);
+});
+
+test("whatDiffers rules", () => {
+  assert.equal(L.whatDiffers({ p: 45 }), "Birinde belirgin biçimde daha sert bir dil var");
+  assert.equal(L.whatDiffers({ p: 25 }), "Birinde daha yüklü bir dil var");
+  assert.equal(L.whatDiffers({ p: 5 }), "Aynı olay, farklı sözcükler");
+  assert.equal(L.whatDiffers({ p: 45 }, { rows: [{ blame: "A" }, { blame: "B" }] }), "Sorumlu tutulan farklı");
+  assert.equal(L.whatDiffers({ p: 45 }, { rows: [{ blame: "A" }, { blame: "A" }] }), "Birinde belirgin biçimde daha sert bir dil var");
+});

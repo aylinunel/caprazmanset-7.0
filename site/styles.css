@@ -2211,3 +2211,32 @@ h2,h3,.sec>h2,.xpaper h2,.find h3,.xcard h3,.xcard h2{letter-spacing:-.02em}
 .v7-topics summary{cursor:pointer;font-size:14px;color:var(--ink2);padding:8px 0;min-height:44px;display:flex;align-items:center}
 .v7-tchips .chip{min-height:44px;display:inline-flex;align-items:center}
 .v7-tchips{display:flex;flex-wrap:wrap;gap:6px;padding:4px 0 12px}
+
+/* 7.0 · homepage feed, steps, go-deeper */
+.v7-feed .wrap{padding-top:clamp(36px,6vw,72px)}
+.v7-feed .v7-hh{margin-top:0}
+.v7-fg{display:grid;gap:16px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.v7-fc{display:grid;gap:10px;align-content:start;padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);text-decoration:none;min-width:0;overflow-wrap:anywhere}
+.v7-fc:hover,.v7-fc:focus-visible{border-color:var(--ink2)}
+.v7-fc-t{margin:0;font-size:17px;font-weight:600;line-height:1.3}
+.v7-fc .xsplit{margin:0}
+.v7-fc-d{margin:0;font-size:15px;font-weight:500;color:var(--ink)}
+.v7-fc-n{margin:0;font-family:var(--ff-m);font-size:12px;color:var(--muted)}
+.v7-fc-none{margin:0 0 8px;color:var(--ink2)}
+.v7-fm{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:20px}
+.v7-fm .xbtn{min-height:44px}
+.v7-fm .lnk{display:inline-flex;align-items:center;min-height:44px}
+.v7-fc mark.mw{position:relative}
+.v7-fc mark.mw.dm-fx{color:transparent;animation:none}
+canvas.dm-word{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none}
+.v7-steps{list-style:none;margin:0;padding:0;display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.v7-steps li{display:grid;gap:6px;align-content:start;padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.v7-steps .num{font-family:var(--ff-m);font-size:12px;color:var(--muted)}
+.v7-steps b{font-size:20px;font-weight:600}
+.v7-steps span:last-child{color:var(--ink2);font-size:15px;line-height:1.5}
+.v7-hgrid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.v7-hc{min-height:44px}
+.v7-hc span{color:var(--ink2);font-size:13.5px;line-height:1.5}
+@media (max-width:760px){.v7-fg,.v7-steps{grid-template-columns:minmax(0,1fr)}}
+#bu-hafta{scroll-margin-top:64px}
+.v7-fc-t{max-width:none}

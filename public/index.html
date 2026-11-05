@@ -2224,6 +2224,35 @@ h2,h3,.sec>h2,.xpaper h2,.find h3,.xcard h3,.xcard h2{letter-spacing:-.02em}
 .v7-tchips .chip{min-height:44px;display:inline-flex;align-items:center}
 .v7-tchips{display:flex;flex-wrap:wrap;gap:6px;padding:4px 0 12px}
 
+/* 7.0 · homepage feed, steps, go-deeper */
+.v7-feed .wrap{padding-top:clamp(36px,6vw,72px)}
+.v7-feed .v7-hh{margin-top:0}
+.v7-fg{display:grid;gap:16px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.v7-fc{display:grid;gap:10px;align-content:start;padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);text-decoration:none;min-width:0;overflow-wrap:anywhere}
+.v7-fc:hover,.v7-fc:focus-visible{border-color:var(--ink2)}
+.v7-fc-t{margin:0;font-size:17px;font-weight:600;line-height:1.3}
+.v7-fc .xsplit{margin:0}
+.v7-fc-d{margin:0;font-size:15px;font-weight:500;color:var(--ink)}
+.v7-fc-n{margin:0;font-family:var(--ff-m);font-size:12px;color:var(--muted)}
+.v7-fc-none{margin:0 0 8px;color:var(--ink2)}
+.v7-fm{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:20px}
+.v7-fm .xbtn{min-height:44px}
+.v7-fm .lnk{display:inline-flex;align-items:center;min-height:44px}
+.v7-fc mark.mw{position:relative}
+.v7-fc mark.mw.dm-fx{color:transparent;animation:none}
+canvas.dm-word{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none}
+.v7-steps{list-style:none;margin:0;padding:0;display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.v7-steps li{display:grid;gap:6px;align-content:start;padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.v7-steps .num{font-family:var(--ff-m);font-size:12px;color:var(--muted)}
+.v7-steps b{font-size:20px;font-weight:600}
+.v7-steps span:last-child{color:var(--ink2);font-size:15px;line-height:1.5}
+.v7-hgrid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.v7-hc{min-height:44px}
+.v7-hc span{color:var(--ink2);font-size:13.5px;line-height:1.5}
+@media (max-width:760px){.v7-fg,.v7-steps{grid-template-columns:minmax(0,1fr)}}
+#bu-hafta{scroll-margin-top:64px}
+.v7-fc-t{max-width:none}
+
 </style>
 </head>
 <body>
@@ -9587,7 +9616,7 @@ function v3flowTable() {
 function v3decorateSplits(root) {
   if (!v3on("appeal")) return;
   [].forEach.call((root || document).querySelectorAll(".xsplit"), function (sp) {
-    if (!sp.querySelector("mark.mw")) return;
+    if (!sp.querySelector("mark.mw") || sp.closest(".v7-fc")) return;
     var nx = sp.nextElementSibling;
     if (nx && nx.classList.contains("cm3-appeal")) return;
     sp.insertAdjacentHTML("afterend", '<button type="button" class="cm3-appeal" data-cm3>' + esc(t3("appealBtn")) + "</button>");
@@ -10957,6 +10986,24 @@ function yontemAnchor(s) {
 
 var NAV_SUB = { "/olaylar": "Bütün olaylar, arama ve kör noktalar", "/anlati": "Kurumlar bir olayı nasıl çerçeveledi",
   "/oruntu": "Haberlerde tekrar eden farklar", "/kurumlar": "Kim nasıl yazıyor, yan yana", "/yontem": "Yöntem, sözlük ve sınırlar" };
+/* Homepage feed: events first reported in the 7 days ending lastDay, covered by a left- and a right-placed outlet. */
+function weeklySplits(events, lastDay, opt) {
+  opt = opt || {};
+  var cov = opt.cov || function (e) { return e.cov || [0, 0, 0]; }, ex = opt.exclude || [];
+  var end = Date.parse(lastDay + "T00:00:00Z"), from = new Date(end - 6 * 864e5).toISOString().slice(0, 10);
+  return events.filter(function (e) {
+    var d = e.f ? e.f.slice(0, 10) : "", c = cov(e);
+    return d && d >= from && d <= lastDay && c[0] >= 1 && c[2] >= 1 && e.s.length >= 6 && ex.indexOf(e.i) < 0;
+  }).sort(function (a, b) { return b.p - a.p || b.s.length - a.s.length; });
+}
+function whatDiffers(e, narr) {
+  var seen = {}, n = 0;
+  ((narr && narr.rows) || []).forEach(function (r) { if (r.blame && !seen[r.blame]) { seen[r.blame] = 1; n++; } });
+  if (n > 1) return "Sorumlu tutulan farklı";
+  if (e.p >= 40) return "Birinde belirgin biçimde daha sert bir dil var";
+  if (e.p >= 20) return "Birinde daha yüklü bir dil var";
+  return "Aynı olay, farklı sözcükler";
+}
 var KURUM_TABS = { liste: 1, karsilastir: 1, kayit: 1 };
 
 function redirectRoute(path, params) {
@@ -10979,7 +11026,7 @@ function redirectRoute(path, params) {
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { trFold: trFold, weekEvents: weekEvents, pickWeek: pickWeek, narrGroups: narrGroups, orderOutlets: orderOutlets,
-    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor };
+    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor, weeklySplits: weeklySplits, whatDiffers: whatDiffers };
 }
 
 /* v7 core: navigation, YZ marker and the finding block (inlined into app.js IIFE after logic.js). */
@@ -11605,6 +11652,54 @@ function dmHeads(root) {
   });
 }
 
+/* Feed cards: while a card is hovered, focused or (touch) first-tapped, each highlighted word dissolves into dots and re-forms once.
+   Nothing runs while idle or under reduced motion. */
+function dmWordFx(mk) {
+  if (mk._fx || dmCalm()) return;
+  var W = mk.offsetWidth, H = mk.offsetHeight; if (!W || !H) return;
+  var step = Math.max(2, Math.round(H / 9)), cols = Math.max(1, Math.ceil(W / step)), rows = Math.max(1, Math.ceil(H / step)), DPR = Math.min(2, devicePixelRatio || 1);
+  var F = document.createElement("canvas"), fc = F.getContext("2d", { willReadFrequently: true }), cv = document.createElement("canvas"), ctx = cv.getContext("2d"), cs = getComputedStyle(mk);
+  F.width = cols; F.height = rows; fc.fillStyle = "#fff"; fc.fillRect(0, 0, cols, rows); fc.scale(cols / W, rows / H);
+  fc.font = cs.fontWeight + " " + cs.fontSize + " " + cs.fontFamily; fc.fillStyle = "#000"; fc.textBaseline = "middle"; fc.fillText(mk.textContent, parseFloat(cs.paddingLeft) || 0, H / 2);
+  var px = fc.getImageData(0, 0, cols, rows).data, LEVELS = [0, .26, .52, .78, 1], dots = [];
+  for (var j = 0; j < rows; j++) for (var i = 0; i < cols; i++) {
+    var v = 1 - px[(j * cols + i) * 4] / 255, lv = 0; for (var q = 4; q > 0; q--) if (v >= LEVELS[q] - .13) { lv = q; break; }
+    if (lv) dots.push({ x: (i + .5) * step, y: (j + .5) * step, r: step * .5 * (lv === 1 ? .38 : LEVELS[lv]), sd: .6 * dmHash(i, j) + .4 * i / cols, o: dmHash(j, i) });
+  }
+  cv.className = "dm-word"; cv.setAttribute("aria-hidden", "true"); cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
+  mk.appendChild(cv); mk.classList.add("dm-fx"); mk._fx = 1;
+  var t0 = performance.now(), last = 0, DUR = 1200;
+  var done = function () { cv.remove(); mk.classList.remove("dm-fx"); mk._fx = 0; };
+  (function frame(now) {
+    var t = (now - t0) / DUR; if (t >= 1 || !document.body.contains(mk)) return done();
+    if (now - last >= 33) {
+      last = now; ctx.setTransform(DPR, 0, 0, DPR, 0, 0); ctx.clearRect(0, 0, W, H); ctx.fillStyle = "#1B1813";
+      var u = dmSmooth(0, .5, t), r = dmSmooth(.5, 1, t), P = new Path2D();
+      for (var k = 0; k < dots.length; k++) {
+        var d = dots[k], here = t < .5 ? d.sd >= u : d.sd <= r, edge = Math.abs(d.sd - (t < .5 ? u : r)) < .12;
+        if (!here && !(edge && dmHash(k, Math.floor(now / 33)) > .5)) continue;
+        var dx = edge ? (d.o - .5) * step * 2.4 : 0, dy = edge ? (dmHash(k, 3.3) - .5) * step * 2.4 : 0;
+        P.moveTo(d.x + dx + d.r, d.y + dy); P.arc(d.x + dx, d.y + dy, d.r, 0, 6.283);
+      }
+      ctx.fill(P);
+    }
+    requestAnimationFrame(frame);
+  })(t0);
+}
+function dmCardFx(card) { [].forEach.call(card.querySelectorAll("mark.mw"), dmWordFx); }
+(function () {
+  var touch = false, armed = null;
+  document.addEventListener("pointerover", function (e) {
+    var c = e.target.closest && e.target.closest(".v7-fc"); touch = e.pointerType === "touch";
+    if (c && !touch && !(e.relatedTarget && c.contains(e.relatedTarget))) dmCardFx(c);
+  });
+  document.addEventListener("focusin", function (e) { var c = e.target.closest && e.target.closest(".v7-fc"); if (c) dmCardFx(c); });
+  document.addEventListener("click", function (e) {
+    var c = e.target.closest && e.target.closest(".v7-fc"); if (!c || !touch || dmCalm() || armed === c) return;
+    e.preventDefault(); armed = c; dmCardFx(c); setTimeout(function () { if (armed === c) armed = null; }, 4000);
+  });
+})();
+
 /* v7 fog hero: the lead event's split card as the moving layer of a Lumen-Roof style hero. Clicking the other outlet sinks the card into
    a WebGL2 fog, swaps the headline at the deepest point and lets it rise again; sky, fog and UI shift from warm red-grey to cool blue-grey.
    fogHero(e) builds the markup; fogMount(root) starts the clock on .fh. State lives in CSS variables on the .fh element (--k --k2 --dip --sink). */
@@ -11755,41 +11850,47 @@ function fogMount(root) {
 
 /* Homepage: what the site does, one live card per function. Each card states the function in one line
    and shows one number computed from this build's data. */
+function feedCard(e) {
+  var nk = NBYEV[e.i], narr = nk && narrOk(nk) ? D.N[nk] : null, sc = splitCard(e, null, { small: true, link: false });
+  if (!sc) return "";
+  return '<a class="v7-fc" href="#/olay?e=' + e.i + '"><h3 class="v7-fc-t">' + esc(storyLabel(e, 90)) + "</h3>" + sc +
+    '<p class="v7-fc-d">' + esc(whatDiffers(e, narr)) + '</p><p class="v7-fc-n num">' + e.s.length + " kurum verdi</p></a>";
+}
+var FEED = { list: [], shown: 0 };
+function feedMore() {
+  var g = document.getElementById("feed-grid"), b = document.getElementById("feed-more");
+  if (!g) return;
+  g.insertAdjacentHTML("beforeend", FEED.list.slice(FEED.shown, FEED.shown + 6).map(feedCard).join(""));
+  FEED.shown = Math.min(FEED.list.length, FEED.shown + 6);
+  if (b) b.hidden = FEED.shown >= FEED.list.length;
+}
+document.addEventListener("click", function (ev) { if (ev.target.closest && ev.target.closest("#feed-more")) feedMore(); });
+function feedHTML(lead) {
+  FEED.list = weeklySplits(D.E, DAYS[DAYS.length - 1], { exclude: [lead.i], cov: covOf }).filter(function (e) { return defaultPair(e); });
+  FEED.shown = Math.min(6, FEED.list.length);
+  var all = '<a class="lnk" href="#/olaylar">Tüm olaylar →</a>';
+  return '<div class="wrap"><h2 class="v7-hh">Bu hafta en farklı anlatılan olaylar</h2>' + (FEED.list.length ?
+    '<div class="v7-fg" id="feed-grid">' + FEED.list.slice(0, 6).map(feedCard).join("") + "</div>" :
+    '<p class="v7-fc-none">Bu hafta iki taraftan da verilen olay yok</p>') +
+    '<div class="v7-fm"><button type="button" class="xbtn" id="feed-more"' + (FEED.shown >= FEED.list.length ? " hidden" : "") + ">Daha fazla göster</button>" + all + "</div></div>";
+}
 function pgHome7() {
   var lead = leadEvent();
-  var coded = [], shares;
-  NW.forEach(function (w) { if (w.k !== "v1") coded = coded.concat(w.keys.filter(narrOk)); });
-  shares = dimShares(D.N, coded);
-  var bs = D.E.filter(function (e) { return e.bs; }).length;
-  var ps = D.E.map(function (e) { return e.p; }).sort(function (a, b) { return a - b; }), med = ps[Math.floor(ps.length / 2)] || 0;
-  var LL = (D.V5 && D.V5.leadLag && D.V5.leadLag.outlets) || {};
-  var first = Object.keys(LL).sort(function (a, b) { return LL[b].firstShare - LL[a].firstShare; })[0];
-  var B = bg7(), nIlan = CM3.notices(D).total;
-  var card = function (href, kick, title, line, fig, ai) {
-    return '<a class="v7-hc' + (ai ? " yz" : "") + '" href="' + href + '"><span class="eyebrow">' + kick + (ai ? " " + yzBadge() : "") + "</span><b>" + title +
-      "</b><span class=\"v7-hfig\">" + fig + "</span><span>" + line + "</span></a>";
-  };
-  var h = fogHero(lead) + '<section id="bu-hafta" class="v7-feed"></section><div class="wrap page v7-home">';
-  if (ADV && ADV.agenda) h += '<section class="v7-hnet"><div class="v7-hnet-t"><p class="eyebrow">Gündem ağı · ' + ADV.agenda.order.length + ' kurum</p><h2 class="v7-hh">Kim kiminle aynı olayları seçiyor?</h2>' +
+  var step = function (n, t, l) { return '<li><span class="num">' + n + "</span><b>" + t + "</b><span>" + l + "</span></li>"; };
+  var deep = ["/olaylar", "/anlati", "/oruntu", "/kurumlar", "/yontem"].map(function (r) {
+    var nv = NAV.filter(function (n) { return n[0] === r; })[0];
+    return nv ? '<a class="v7-hc" href="#' + r + '"><b>' + esc(nv[1]) + "</b><span>" + esc(NAV_SUB[r]) + "</span></a>" : "";
+  }).join("");
+  var h = fogHero(lead) + '<section id="bu-hafta" class="v7-feed">' + feedHTML(lead) + '</section><div class="wrap page v7-home">';
+  h += '<section class="v7-how"><h2 class="v7-hh">Çapraz Manşet nasıl çalışır</h2><ol class="v7-steps">' +
+    step(1, "Karşılaştır", "Aynı olayın bütün başlıklarını yan yana koyarız.") +
+    step(2, "Fark et", "Kurumlar arasında ayrışan sözcükleri işaretleriz.") +
+    step(3, "Ölç", "Bu farkların haftalar boyunca tekrar edip etmediğini sayarız.") + "</ol></section>";
+  h += '<section><h2 class="v7-hh">Daha derine in</h2><div class="v7-hgrid">' + deep + "</div></section>";
+  if (ADV && ADV.agenda) h += '<section class="v7-hnet"><div class="v7-hnet-t"><p class="eyebrow">Gündem ağı · ' + ADV.agenda.order.length + ' kurum</p><h2 class="v7-hh">Kim kiminle aynı haberleri seçiyor?</h2>' +
     '<p class="lede">Birlikte çok olay haber yapan kurumlar birbirine çekilir. Renk kayıt defterindeki yerleşim, büyüklük verilen olay sayısı. Bir kuruma gelin, komşuları öne çıksın.</p>' +
     '<a class="lnk" href="#/oruntu?q=secim&f=secim-gundem">Bulgunun tamamı →</a></div>' + g6Box("agenda", "", "Kurumların gündem benzerliği ağı") + "</section>";
-  h += '<h2 class="v7-hh">Neler yapabilirsiniz</h2><div class="v7-hgrid">' +
-    card("#/anlati", "Anlatı haritası", "Aynı olay, hangi hikâye?", "Kurumların bir olayı hangi çerçeveye, hangi sorumluya, hangi çözüme bağladığını tek grafikte görün.",
-      coded.length + " olay kodlandı") +
-    card("#/olaylar", "Olaylar", "Başlıklar yan yana", "Her olayda bütün kurumların başlıkları, ayrışan sözcükler işaretli.", D.E.length.toLocaleString("tr") + " olay") +
-    card("#/oruntu?q=secim", "Örüntü 1", "Kim neyi haber yapıyor?", "Yelpazenin bir yanının belirgin biçimde az verdiği olaylar ve gündem benzerliği.", bs + " kör nokta") +
-    card("#/oruntu?q=dil", "Örüntü 2", "Nasıl anlatıyor?", "Aynı olayın başlıkları arasındaki yüklü dil farkı ve en sık çerçeveleme yapıları.", "ortanca aralık " + med + " puan") +
-    card("#/oruntu?q=anlati", "Örüntü 3", "Kimi sorumlu tutuyor?", "Kodlanan olaylarda kurumların en çok hangi boyutta ayrıştığı.",
-      "%" + Math.round(100 * (shares.blame || 0)) + " olayda sorumlu ayrışıyor") +
-    card("#/oruntu?q=hiz", "Örüntü 4", "Kim önce veriyor?", "Olayı ilk veren kurumlar ve spotun başlıktan ne kadar farklı olduğu.",
-      first ? esc(srcName(first)) + " %" + Math.round(100 * LL[first].firstShare) + " ilk" : "—") +
-    card("#/kurumlar", "Kurumlar", "Kurum profilleri", "Her kurumun örüntülerdeki yeri; iki kurumu karşılaştırın.", D.meta.sources.length + " kurum") +
-    (B ? card("#/yontem?s=yz", "Bilişsel inceleme", "Yapay zekâ ne fark etti?", "En çok kurumun verdiği olaylarda başlıklardaki bilişsel örüntüler, kanıt alıntılarıyla ve neden kesin olmadığıyla.",
-      B.summary.completed + " olay incelendi", true) : "") +
-    card("#/ilan", "Resmî ilan bul", "İlanınızı arayın", "Mahkeme, icra ve kamu ilanlarını sözcük, tür, tarih ve gazeteye göre bulun.", nIlan.toLocaleString("tr") + " ilan") +
-    card("#/yontem?s=turkiye", "Yöntem", "Türkiye için nasıl ayarlandı", "Türkçe ekler, resmî ilanlar, sağa ağırlıklı kurum dağılımı ve diğer uyarlamalar.", "10 uyarlama") +
-    "</div></div>";
-  return h;
+  return h + "</div>";
 }
 
 /* v7 Anlatı: the homepage. A map of how outlets told one event: rows = outlets, columns = narrative dimensions. */

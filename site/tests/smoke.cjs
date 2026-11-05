@@ -117,6 +117,15 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       const g = await page.evaluate(() => { const b = [...document.querySelectorAll(".fh [role=group] button")]; return [b.length, b.filter((x) => x.getAttribute("aria-pressed") === "true").length, (document.querySelector(".fh-cta") || {}).textContent, document.querySelector(".fh-cta") && document.querySelector(".fh-cta").getAttribute("href"), !!document.getElementById("bu-hafta")]; });
       if (g[0] !== 2 || g[1] !== 1) fails.push(`${tag}: .fh toggle has ${g[0]} buttons, ${g[1]} pressed`);
       if (g[2] !== "Bu haftanın ayrışmalarını gör ↓" || g[3] !== "#bu-hafta" || !g[4]) fails.push(`${tag}: .fh-cta / #bu-hafta wrong: ${g}`);
+      const fd = await page.evaluate(() => [document.querySelectorAll("#bu-hafta .v7-fc").length, !!document.querySelector("#bu-hafta h2"), !!document.querySelector(".v7-steps"), document.querySelectorAll(".v7-hgrid .v7-hc").length, document.documentElement.scrollWidth > innerWidth]);
+      if (fd[0] > 6 || !fd[1] || !fd[2] || fd[3] !== 5) fails.push(`${tag}: homepage feed/steps/links wrong: ${fd}`);
+      if (w === 390 && fd[4]) fails.push(`${tag}: home horizontal scroll`);
+      if (fd[0] && w >= 1280) {
+        await page.hover("#bu-hafta .v7-fc"); await sleep(250);
+        if (!await page.$("#bu-hafta .v7-fc canvas.dm-word")) fails.push(`${tag}: hover adds no canvas.dm-word`);
+        await sleep(1300);
+        if (await page.$("canvas.dm-word")) fails.push(`${tag}: canvas.dm-word left after effect`);
+      }
       const b2 = await page.$(".fh [role=group] button:nth-child(2)");
       if (b2) {
         await b2.click(); await sleep(1200);

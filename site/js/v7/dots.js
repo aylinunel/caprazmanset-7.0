@@ -93,3 +93,51 @@ function dmHeads(root) {
     h.insertBefore(cv, h.firstChild);
   });
 }
+
+/* Feed cards: while a card is hovered, focused or (touch) first-tapped, each highlighted word dissolves into dots and re-forms once.
+   Nothing runs while idle or under reduced motion. */
+function dmWordFx(mk) {
+  if (mk._fx || dmCalm()) return;
+  var W = mk.offsetWidth, H = mk.offsetHeight; if (!W || !H) return;
+  var step = Math.max(2, Math.round(H / 9)), cols = Math.max(1, Math.ceil(W / step)), rows = Math.max(1, Math.ceil(H / step)), DPR = Math.min(2, devicePixelRatio || 1);
+  var F = document.createElement("canvas"), fc = F.getContext("2d", { willReadFrequently: true }), cv = document.createElement("canvas"), ctx = cv.getContext("2d"), cs = getComputedStyle(mk);
+  F.width = cols; F.height = rows; fc.fillStyle = "#fff"; fc.fillRect(0, 0, cols, rows); fc.scale(cols / W, rows / H);
+  fc.font = cs.fontWeight + " " + cs.fontSize + " " + cs.fontFamily; fc.fillStyle = "#000"; fc.textBaseline = "middle"; fc.fillText(mk.textContent, parseFloat(cs.paddingLeft) || 0, H / 2);
+  var px = fc.getImageData(0, 0, cols, rows).data, LEVELS = [0, .26, .52, .78, 1], dots = [];
+  for (var j = 0; j < rows; j++) for (var i = 0; i < cols; i++) {
+    var v = 1 - px[(j * cols + i) * 4] / 255, lv = 0; for (var q = 4; q > 0; q--) if (v >= LEVELS[q] - .13) { lv = q; break; }
+    if (lv) dots.push({ x: (i + .5) * step, y: (j + .5) * step, r: step * .5 * (lv === 1 ? .38 : LEVELS[lv]), sd: .6 * dmHash(i, j) + .4 * i / cols, o: dmHash(j, i) });
+  }
+  cv.className = "dm-word"; cv.setAttribute("aria-hidden", "true"); cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
+  mk.appendChild(cv); mk.classList.add("dm-fx"); mk._fx = 1;
+  var t0 = performance.now(), last = 0, DUR = 1200;
+  var done = function () { cv.remove(); mk.classList.remove("dm-fx"); mk._fx = 0; };
+  (function frame(now) {
+    var t = (now - t0) / DUR; if (t >= 1 || !document.body.contains(mk)) return done();
+    if (now - last >= 33) {
+      last = now; ctx.setTransform(DPR, 0, 0, DPR, 0, 0); ctx.clearRect(0, 0, W, H); ctx.fillStyle = "#1B1813";
+      var u = dmSmooth(0, .5, t), r = dmSmooth(.5, 1, t), P = new Path2D();
+      for (var k = 0; k < dots.length; k++) {
+        var d = dots[k], here = t < .5 ? d.sd >= u : d.sd <= r, edge = Math.abs(d.sd - (t < .5 ? u : r)) < .12;
+        if (!here && !(edge && dmHash(k, Math.floor(now / 33)) > .5)) continue;
+        var dx = edge ? (d.o - .5) * step * 2.4 : 0, dy = edge ? (dmHash(k, 3.3) - .5) * step * 2.4 : 0;
+        P.moveTo(d.x + dx + d.r, d.y + dy); P.arc(d.x + dx, d.y + dy, d.r, 0, 6.283);
+      }
+      ctx.fill(P);
+    }
+    requestAnimationFrame(frame);
+  })(t0);
+}
+function dmCardFx(card) { [].forEach.call(card.querySelectorAll("mark.mw"), dmWordFx); }
+(function () {
+  var touch = false, armed = null;
+  document.addEventListener("pointerover", function (e) {
+    var c = e.target.closest && e.target.closest(".v7-fc"); touch = e.pointerType === "touch";
+    if (c && !touch && !(e.relatedTarget && c.contains(e.relatedTarget))) dmCardFx(c);
+  });
+  document.addEventListener("focusin", function (e) { var c = e.target.closest && e.target.closest(".v7-fc"); if (c) dmCardFx(c); });
+  document.addEventListener("click", function (e) {
+    var c = e.target.closest && e.target.closest(".v7-fc"); if (!c || !touch || dmCalm() || armed === c) return;
+    e.preventDefault(); armed = c; dmCardFx(c); setTimeout(function () { if (armed === c) armed = null; }, 4000);
+  });
+})();

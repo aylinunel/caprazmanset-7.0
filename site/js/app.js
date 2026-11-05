@@ -5622,7 +5622,7 @@ function v3flowTable() {
 function v3decorateSplits(root) {
   if (!v3on("appeal")) return;
   [].forEach.call((root || document).querySelectorAll(".xsplit"), function (sp) {
-    if (!sp.querySelector("mark.mw")) return;
+    if (!sp.querySelector("mark.mw") || sp.closest(".v7-fc")) return;
     var nx = sp.nextElementSibling;
     if (nx && nx.classList.contains("cm3-appeal")) return;
     sp.insertAdjacentHTML("afterend", '<button type="button" class="cm3-appeal" data-cm3>' + esc(t3("appealBtn")) + "</button>");

@@ -107,6 +107,24 @@ function yontemAnchor(s) {
 
 var NAV_SUB = { "/olaylar": "Bütün olaylar, arama ve kör noktalar", "/anlati": "Kurumlar bir olayı nasıl çerçeveledi",
   "/oruntu": "Haberlerde tekrar eden farklar", "/kurumlar": "Kim nasıl yazıyor, yan yana", "/yontem": "Yöntem, sözlük ve sınırlar" };
+/* Homepage feed: events first reported in the 7 days ending lastDay, covered by a left- and a right-placed outlet. */
+function weeklySplits(events, lastDay, opt) {
+  opt = opt || {};
+  var cov = opt.cov || function (e) { return e.cov || [0, 0, 0]; }, ex = opt.exclude || [];
+  var end = Date.parse(lastDay + "T00:00:00Z"), from = new Date(end - 6 * 864e5).toISOString().slice(0, 10);
+  return events.filter(function (e) {
+    var d = e.f ? e.f.slice(0, 10) : "", c = cov(e);
+    return d && d >= from && d <= lastDay && c[0] >= 1 && c[2] >= 1 && e.s.length >= 6 && ex.indexOf(e.i) < 0;
+  }).sort(function (a, b) { return b.p - a.p || b.s.length - a.s.length; });
+}
+function whatDiffers(e, narr) {
+  var seen = {}, n = 0;
+  ((narr && narr.rows) || []).forEach(function (r) { if (r.blame && !seen[r.blame]) { seen[r.blame] = 1; n++; } });
+  if (n > 1) return "Sorumlu tutulan farklı";
+  if (e.p >= 40) return "Birinde belirgin biçimde daha sert bir dil var";
+  if (e.p >= 20) return "Birinde daha yüklü bir dil var";
+  return "Aynı olay, farklı sözcükler";
+}
 var KURUM_TABS = { liste: 1, karsilastir: 1, kayit: 1 };
 
 function redirectRoute(path, params) {
@@ -129,5 +147,5 @@ function redirectRoute(path, params) {
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { trFold: trFold, weekEvents: weekEvents, pickWeek: pickWeek, narrGroups: narrGroups, orderOutlets: orderOutlets,
-    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor };
+    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor, weeklySplits: weeklySplits, whatDiffers: whatDiffers };
 }
