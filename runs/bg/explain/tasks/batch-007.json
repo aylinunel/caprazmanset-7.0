@@ -1,0 +1,1443 @@
+{
+ "instructions": "Write plain Turkish for a general reader. For each item write {\"noticed\": ..., \"why\": ...} to its output_file. noticed = what the headlines show, naming the outlets. why = why that is not proof. Each field is 1-2 sentences, 40-320 characters. Use only quotes given in the item (inside “…”), exactly as given. Never use the words 'bağlam gerekli', 'desteklendi', 'uncertain'.",
+ "items": [
+  {
+   "key": "s5568__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5568__leveling-and-sharpening.json",
+   "event_title": "Tenerife’nin futbolcusu Jesus de Miguel hayatını kaybetti",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "kaleci Jesus Owono ile sert bir şekilde çarpışarak yere yığılan Jesus de Miguel'in vefat ettiğini açıkladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rakibi faul yaptı, kalbi durdu.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sert faule maruz kalan Jesus de Miguel hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rakibi faul yaptı, kalbi durdu. Jesus de Miguel maç sonunda hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "kaleci Jesus Owono ile sert bir şekilde çarpışarak yere yığılan",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Göğsüne gelen diz sonrası Jesus de Miguel hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Kulüp açıklamasına dayanan 'çarpışma' anlatımı, bazı başlıklarda 'faul' unsuruyla keskinleştirilmiş görünüyor.",
+   "skeptic_alternative": "Farklı ayrıntılar aynı pozisyonun farklı yönlerini doğru biçimde aktarıyor olabilir.",
+   "missing_context": [
+    "Farkın bir sonuca etki ettiğine dair kanıt",
+    "Kulübün özgün açıklaması",
+    "Maç görüntüleri veya hakem raporu"
+   ],
+   "headlines": "[sondakika · 10:04] Tenerife Kulübü, Jesus de Miguel Alameda'nın Andorra maçında öldüğünü açıkladı\n[haberturk · 11:54] İspanya'dan acı haber: Kaleciyle çarpışan futbolcu Jesus De Miguel hayatını kaybetti!\n[tgrt · 12:11] Kaleciyle çarpışan İspanyol futbolcu Jesus de Miguel hayatını kaybetti! Acı haberi kulübü duyurdu\n[birgun · 12:11] Tenerife futbolcusu Jesus de Miguel sahada aldığı darbe sonucu hayatını kaybetti\n[ntv · 12:13] Rakibi faul yaptı, kalbi durdu. Jesus de Miguel maç sonunda hayatını kaybetti\n[akit · 12:14] Futbol dünyası şokta! Sert faule maruz kalan Jesus de Miguel hayatını kaybetti\n[onedio · 12:14] Jesús de Miguel Hayatını Kaybetti: Kaleciyle Çarpışan Tenerifeli Forvet 30 Yaşında Yaşama Veda Etti\n[turkiyegz · 12:29] Tenerife Andorra maçı ertelendi mi, maçta ne oldu? Jesus de Miguel hayatını kaybetti\n[haberler · 12:41] Tenerife futbolcusu Jesus de Miguel Alameda rakip kaleciyle çarpıştığı maçta öldü\n[aa · 12:51] Kaleci ile çarpıştığı pozisyonda kalbi duran İspanyol futbolcu Jesus de Miguel hayatını kaybetti\n[dirilis · 13:23] Jesus de Miguel hayatını kaybetti, Tenerife yasta\n[takvim · 13:41] İspanya 2. Ligi'nde kaleciyle çarpışan futbolcu Jesús de Miguel hayatını kaybetti: İşte o görüntüler\n[ahaber · 13:49] Sahada korkunç ölüm! Göğsüne gelen diz sonrası Jesus de Miguel hayatını kaybetti\n[star · 16:57] Futbol dünyasını yasa boğan haber! Jesus de Miguel hayatını kaybetti — Tenerife, Andorra ile oynanan maçta kaleci Jesus Owono ile sert bir şekilde çarpışarak yere yığılan Jesus de Miguel'in vefat ettiğini açıkladı.\n[diken · 17:27] Kaleciyle çarpıştıktan sonra kalbi duran İspanyol futbolcu Jesus de Miguel öldü"
+  },
+  {
+   "key": "s5365__framing-effect",
+   "output_file": "runs/bg/explain/s5365__framing-effect.json",
+   "event_title": "Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Yer Ankara! 3 yaşındaki çocuğunu sokak ortasında dövdü! Vicdansız anne tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Başkentte 3 yaşındaki çocuğunu darbettiği iddiasıyla gözaltına alınan anne tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Vicdansız anne tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cani anne tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Aynı tutuklama bir kurumda 'iddiasıyla' temkinli, diğerinde 'Vicdansız anne' yargılayıcı çerçeveyle verilmiş.",
+   "skeptic_alternative": "Nitelemeler, görüntülere dayanan ahlaki tepkinin editoryal ifadesi olabilir; okur yargısına etkisi bilinmiyor.",
+   "missing_context": [
+    "Mahkeme kararının gerekçesi",
+    "Sunum farkının okur değerlendirmesini değiştirdiğine dair veri",
+    "Çerçeve farkının okur yargısını değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[sondakika · 10:11] Ankara Gölbaşı'nda 3 yaşındaki çocuğun darp görüntüleri sonrası anne tutuklandı\n[haberler · 13:05] Gölbaşı'nda 3 yaşındaki çocuğun darp görüntüleri sonrası anne tutuklandı\n[cumhuriyet · 13:26] 3 yaşındaki çocuğunu darbettiği belirlendi: O anneye tutuklama\n[karar · 13:29] Görüntüler sosyal medyada yayınlanmıştı: Ankara'da 3 yaşındaki çocuğunu darbeden anne tutuklandı — Ankara'nın Gölbaşı ilçesinde 3 yaşındaki çocuğunu darp ettiği görüntülerin sosyal medyada paylaşılması üzerine gözaltına alınan anne, çıkarıldığı mahkemece tutuklandı. Koruma altına alınan çocuk ise ilgili kuruma teslim edildi.\n[ntv · 13:37] Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı\n[milliyet · 13:47] Ankara'da sokak ortasında küçük çocuğunu darbetti! Anne görüntüler sonrası tutuklandı — Gölbaşı ilçesinde sokakta bir kadının küçük çocuğunu darbettiği anlar bir kişi tarafından cep telefonu kamerası ile görüntülendi. Görüntünün sanal medyada paylaşılması üzerine Ankara Emniyet Müdürlüğü'ne bağlı Gölbaşı İlçe Emniyet Müdürlüğü ekipleri çalışma başlattı. Yapılan …\n[trthaber · 13:50] 3 yaşındaki çocuğunu darp eden anne tutuklandı\n[sozcu · 13:55] Sokak ortasında 3 yaşındaki çocuğunu döven anne tutuklandı\n[ahaber · 13:56] 3 yaşındaki çocuğunu döven anne için karar! Kadın tutuklandı, çocuk koruma altında\n[hurriyet · 13:59] Ankara'da 3 yaşındaki çocuğunu darbeden anne tutuklandı — Ankara'nın Gölbaşı ilçesinde sosyal medyada 3 yaşındaki çocuğunu darbettiğine ilişkin görüntüleri paylaşılan anne tutuklandı.\n[mynet · 14:10] Görüntüler infial yaratmıştı! 3 yaşındaki çocuğunu darbeden anne tutuklandı\n[sabah · 14:19] Yer Ankara! 3 yaşındaki çocuğunu sokak ortasında dövdü! Vicdansız anne tutuklandı\n[takvim · 14:20] Ankara'da 3 yaşındaki çocuğunu sokak ortasında darbetti! Görüntüler ortaya çıktı, anne tutuklandı\n[yenisafak · 14:28] 3 yaşındaki çocuğunu darp etmişti: Cani anne tutuklandı\n[cnnturk · 16:27] Başkentte 3 yaşındaki çocuğunu darbettiği iddiasıyla gözaltına alınan anne tutuklandı"
+  },
+  {
+   "key": "s5365__affect-heuristic",
+   "output_file": "runs/bg/explain/s5365__affect-heuristic.json",
+   "event_title": "Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı",
+   "concept": "Affect Heuristic",
+   "definition": "The affect heuristic is a quick judgment in which a person's positive or negative feeling toward an option informs perceived risk or benefit. It can be efficient, but may skew estimates when feeling substitutes for relevant evidence or criteria. Emotion itself is not evidence of an error.",
+   "quotes": [
+    {
+     "quote": "Görüntüler infial yaratmıştı! 3 yaşındaki çocuğunu darbeden anne tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "görüntülerin sosyal medyada paylaşılması üzerine gözaltına alınan anne, çıkarıldığı mahkemece tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Görüntüler infial yaratmıştı!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başlık kamuoyu öfkesini tutuklama haberiyle yan yana koyuyor; duygunun karara etkisi ima ediliyor ama açık değil.",
+   "skeptic_alternative": "Tutuklama, görüntülerdeki olgusal delillere dayanan olağan bir yargı süreci olabilir.",
+   "missing_context": [
+    "Duygunun karara etkisine dair açık ifade",
+    "Mahkeme gerekçesi",
+    "Mahkemenin tutuklama gerekçesi",
+    "İnfialin kararı etkilediğine dair açık ifade"
+   ],
+   "headlines": "[sondakika · 10:11] Ankara Gölbaşı'nda 3 yaşındaki çocuğun darp görüntüleri sonrası anne tutuklandı\n[haberler · 13:05] Gölbaşı'nda 3 yaşındaki çocuğun darp görüntüleri sonrası anne tutuklandı\n[cumhuriyet · 13:26] 3 yaşındaki çocuğunu darbettiği belirlendi: O anneye tutuklama\n[karar · 13:29] Görüntüler sosyal medyada yayınlanmıştı: Ankara'da 3 yaşındaki çocuğunu darbeden anne tutuklandı — Ankara'nın Gölbaşı ilçesinde 3 yaşındaki çocuğunu darp ettiği görüntülerin sosyal medyada paylaşılması üzerine gözaltına alınan anne, çıkarıldığı mahkemece tutuklandı. Koruma altına alınan çocuk ise ilgili kuruma teslim edildi.\n[ntv · 13:37] Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı\n[milliyet · 13:47] Ankara'da sokak ortasında küçük çocuğunu darbetti! Anne görüntüler sonrası tutuklandı — Gölbaşı ilçesinde sokakta bir kadının küçük çocuğunu darbettiği anlar bir kişi tarafından cep telefonu kamerası ile görüntülendi. Görüntünün sanal medyada paylaşılması üzerine Ankara Emniyet Müdürlüğü'ne bağlı Gölbaşı İlçe Emniyet Müdürlüğü ekipleri çalışma başlattı. Yapılan …\n[trthaber · 13:50] 3 yaşındaki çocuğunu darp eden anne tutuklandı\n[sozcu · 13:55] Sokak ortasında 3 yaşındaki çocuğunu döven anne tutuklandı\n[ahaber · 13:56] 3 yaşındaki çocuğunu döven anne için karar! Kadın tutuklandı, çocuk koruma altında\n[hurriyet · 13:59] Ankara'da 3 yaşındaki çocuğunu darbeden anne tutuklandı — Ankara'nın Gölbaşı ilçesinde sosyal medyada 3 yaşındaki çocuğunu darbettiğine ilişkin görüntüleri paylaşılan anne tutuklandı.\n[mynet · 14:10] Görüntüler infial yaratmıştı! 3 yaşındaki çocuğunu darbeden anne tutuklandı\n[sabah · 14:19] Yer Ankara! 3 yaşındaki çocuğunu sokak ortasında dövdü! Vicdansız anne tutuklandı\n[takvim · 14:20] Ankara'da 3 yaşındaki çocuğunu sokak ortasında darbetti! Görüntüler ortaya çıktı, anne tutuklandı\n[yenisafak · 14:28] 3 yaşındaki çocuğunu darp etmişti: Cani anne tutuklandı\n[cnnturk · 16:27] Başkentte 3 yaşındaki çocuğunu darbettiği iddiasıyla gözaltına alınan anne tutuklandı"
+  },
+  {
+   "key": "s5365__fundamental-attribution-error",
+   "output_file": "runs/bg/explain/s5365__fundamental-attribution-error.json",
+   "event_title": "Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı",
+   "concept": "Fundamental Attribution Error",
+   "definition": "A judgment about another person’s behavior overweights stable personal traits and discounts situational causes. The Decision Lab distinguishes this from correspondence bias, which concerns inferring enduring internal attributes from behavior. An engineering review should flag only an evidenced, unjustified attribution—not the mere mention of character or a single action.",
+   "quotes": [
+    {
+     "quote": "Vicdansız anne tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "3 yaşındaki çocuğunu darp etmişti: Cani anne tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cani anne tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Tek bir davranış 'vicdansız', 'cani' gibi kalıcı karakter nitelemelerine dönüştürülmüş.",
+   "skeptic_alternative": "Nitelemeler, belgelenmiş bir şiddet eylemine yönelik ahlaki değerlendirme olabilir; durumsal etkenlerin varlığı bilinmiyor.",
+   "missing_context": [
+    "Annenin koşullarına dair bilgi",
+    "Bu nitelemenin bir sonucu şekillendirdiğine dair kanıt",
+    "Durumsal etkenlerin bilinip dışlandığına dair kanıt",
+    "Olayın durumsal arka planı"
+   ],
+   "headlines": "[sondakika · 10:11] Ankara Gölbaşı'nda 3 yaşındaki çocuğun darp görüntüleri sonrası anne tutuklandı\n[haberler · 13:05] Gölbaşı'nda 3 yaşındaki çocuğun darp görüntüleri sonrası anne tutuklandı\n[cumhuriyet · 13:26] 3 yaşındaki çocuğunu darbettiği belirlendi: O anneye tutuklama\n[karar · 13:29] Görüntüler sosyal medyada yayınlanmıştı: Ankara'da 3 yaşındaki çocuğunu darbeden anne tutuklandı — Ankara'nın Gölbaşı ilçesinde 3 yaşındaki çocuğunu darp ettiği görüntülerin sosyal medyada paylaşılması üzerine gözaltına alınan anne, çıkarıldığı mahkemece tutuklandı. Koruma altına alınan çocuk ise ilgili kuruma teslim edildi.\n[ntv · 13:37] Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı\n[milliyet · 13:47] Ankara'da sokak ortasında küçük çocuğunu darbetti! Anne görüntüler sonrası tutuklandı — Gölbaşı ilçesinde sokakta bir kadının küçük çocuğunu darbettiği anlar bir kişi tarafından cep telefonu kamerası ile görüntülendi. Görüntünün sanal medyada paylaşılması üzerine Ankara Emniyet Müdürlüğü'ne bağlı Gölbaşı İlçe Emniyet Müdürlüğü ekipleri çalışma başlattı. Yapılan …\n[trthaber · 13:50] 3 yaşındaki çocuğunu darp eden anne tutuklandı\n[sozcu · 13:55] Sokak ortasında 3 yaşındaki çocuğunu döven anne tutuklandı\n[ahaber · 13:56] 3 yaşındaki çocuğunu döven anne için karar! Kadın tutuklandı, çocuk koruma altında\n[hurriyet · 13:59] Ankara'da 3 yaşındaki çocuğunu darbeden anne tutuklandı — Ankara'nın Gölbaşı ilçesinde sosyal medyada 3 yaşındaki çocuğunu darbettiğine ilişkin görüntüleri paylaşılan anne tutuklandı.\n[mynet · 14:10] Görüntüler infial yaratmıştı! 3 yaşındaki çocuğunu darbeden anne tutuklandı\n[sabah · 14:19] Yer Ankara! 3 yaşındaki çocuğunu sokak ortasında dövdü! Vicdansız anne tutuklandı\n[takvim · 14:20] Ankara'da 3 yaşındaki çocuğunu sokak ortasında darbetti! Görüntüler ortaya çıktı, anne tutuklandı\n[yenisafak · 14:28] 3 yaşındaki çocuğunu darp etmişti: Cani anne tutuklandı\n[cnnturk · 16:27] Başkentte 3 yaşındaki çocuğunu darbettiği iddiasıyla gözaltına alınan anne tutuklandı"
+  },
+  {
+   "key": "s5365__negativity-bias",
+   "output_file": "runs/bg/explain/s5365__negativity-bias.json",
+   "event_title": "Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "3 yaşındaki çocuğunu darp etmişti: Cani anne tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yer Ankara! 3 yaşındaki çocuğunu sokak ortasında dövdü!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Olumsuz nitelemeler bazı başlıklarda yoğunlaşıyor.",
+   "skeptic_alternative": "Çocuğa şiddet haberinde olumsuz vurgu olayın doğasıyla orantılıdır.",
+   "missing_context": [
+    "Karar üzerinde etki kanıtı",
+    "Karşılaştırılabilir olumlu bilgi",
+    "Karşılaştırılabilir olumlu kanıta göre orantısız ağırlık belgesi"
+   ],
+   "headlines": "[sondakika · 10:11] Ankara Gölbaşı'nda 3 yaşındaki çocuğun darp görüntüleri sonrası anne tutuklandı\n[haberler · 13:05] Gölbaşı'nda 3 yaşındaki çocuğun darp görüntüleri sonrası anne tutuklandı\n[cumhuriyet · 13:26] 3 yaşındaki çocuğunu darbettiği belirlendi: O anneye tutuklama\n[karar · 13:29] Görüntüler sosyal medyada yayınlanmıştı: Ankara'da 3 yaşındaki çocuğunu darbeden anne tutuklandı — Ankara'nın Gölbaşı ilçesinde 3 yaşındaki çocuğunu darp ettiği görüntülerin sosyal medyada paylaşılması üzerine gözaltına alınan anne, çıkarıldığı mahkemece tutuklandı. Koruma altına alınan çocuk ise ilgili kuruma teslim edildi.\n[ntv · 13:37] Ankara'da 3 yaşındaki çocuğunu darp eden anne tutuklandı\n[milliyet · 13:47] Ankara'da sokak ortasında küçük çocuğunu darbetti! Anne görüntüler sonrası tutuklandı — Gölbaşı ilçesinde sokakta bir kadının küçük çocuğunu darbettiği anlar bir kişi tarafından cep telefonu kamerası ile görüntülendi. Görüntünün sanal medyada paylaşılması üzerine Ankara Emniyet Müdürlüğü'ne bağlı Gölbaşı İlçe Emniyet Müdürlüğü ekipleri çalışma başlattı. Yapılan …\n[trthaber · 13:50] 3 yaşındaki çocuğunu darp eden anne tutuklandı\n[sozcu · 13:55] Sokak ortasında 3 yaşındaki çocuğunu döven anne tutuklandı\n[ahaber · 13:56] 3 yaşındaki çocuğunu döven anne için karar! Kadın tutuklandı, çocuk koruma altında\n[hurriyet · 13:59] Ankara'da 3 yaşındaki çocuğunu darbeden anne tutuklandı — Ankara'nın Gölbaşı ilçesinde sosyal medyada 3 yaşındaki çocuğunu darbettiğine ilişkin görüntüleri paylaşılan anne tutuklandı.\n[mynet · 14:10] Görüntüler infial yaratmıştı! 3 yaşındaki çocuğunu darbeden anne tutuklandı\n[sabah · 14:19] Yer Ankara! 3 yaşındaki çocuğunu sokak ortasında dövdü! Vicdansız anne tutuklandı\n[takvim · 14:20] Ankara'da 3 yaşındaki çocuğunu sokak ortasında darbetti! Görüntüler ortaya çıktı, anne tutuklandı\n[yenisafak · 14:28] 3 yaşındaki çocuğunu darp etmişti: Cani anne tutuklandı\n[cnnturk · 16:27] Başkentte 3 yaşındaki çocuğunu darbettiği iddiasıyla gözaltına alınan anne tutuklandı"
+  },
+  {
+   "key": "s1504__authority-bias",
+   "output_file": "runs/bg/explain/s1504__authority-bias.json",
+   "event_title": "Rusya-Ukrayna arasında enerji ateşkesi",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "konusunda anlaşmaya vardığını iddia etti.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Birçok kurum ABD Başkanı'nın açıklamasını kesin olgu olarak verirken, bazıları 'iddia' ve 'öne süren' diyerek mesafe koyuyor.",
+   "skeptic_alternative": "'Trump duyurdu' kalıbı kaynağı açıkça belirtiyor; AB desteği gibi ek bilgiler de aktarılmış, bu doğrulama eksikliği anlamına gelmeyebilir.",
+   "missing_context": [
+    "Karşı kanıtın göz ardı edildiğine dair ifade",
+    "Rusya ve Ukrayna'nın resmi teyidi",
+    "Zelenskiy açıklamasının tam metni"
+   ],
+   "headlines": "[sabah · 17:25] Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı! — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında derhal geçerli olmak üzere enerji ateşkesine varıldığını açıkladı. Trump her iki tarafın anlaştığını sosyal medya hesabından duyurdu.\n[haberturk · 17:26] Rusya-Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, \"Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir. Her iki taraf da anlaşmaya vardı, bunu bozmayın\" dedi. AB'den de ateşkesi destekleyici açıklama geldi. Avrupa Birliği (AB) Komisyonu Başkanı Ursula von der Leyen, Rusya ve Ukrayna …\n[mynet · 17:27] Trump duyurdu! Rusya ile Ukrayna arasında enerji ateşkesine varıldı — ABD Başkanı Donald Trump yaptığı açıklamada, \"Hemen geçerli olmak üzere, Rusya ile Ukrayna arasındaki her iki tarafın da kabul ettiği enerji ateşkesine varıldı\" dedi.\n[ahaber · 17:27] Trump duyurdu: Rusya - Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında enerji ateşkesi sağlandığını duyurdu. Ateşkesin derhal yürürlüğe girdiğini belirten Trump, iki tarafa seslenerek “Her iki taraf da anlaşmaya vardı, bunu bozmayın” ifadelerini kullandı. Zelenskiy, Trump’ın enerji ateşkesi …\n[sozcu · 17:29] Trump duyurdu: Rusya ve Ukrayna arasında enerji ateşkesi! — ABD Başkanı Trump, Rusya ile Ukrayna arasında enerji ateşkesi konusunda anlaşmaya varıldığını bildirdi. Trump, taraflara anlaşmayı bozmamaları çağrısında da bulundu.\n[takvim · 17:29] Trump ilan etti: Rusya-Ukrayna enerji ateşkesi sağlandı! — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında enerji altyapılarını kapsayan kritik bir ateşkes sağlandığını duyurdu.\n[ntv · 17:30] Trump'tan ateşkes mesajı. \"Rusya ve Ukrayna enerji ateşkesinde anlaştı\" — ABD Başkanı Donald Trump, Rusya ile Ukrayna arasında bir enerji ateşkesi anlaşması yapıldığını duyurdu.\n[bloomberght · 17:33] Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası — ABD Başkanı Donald Trump, Ukrayna ve Rusya'nın \"enerji ateşkesi\" konusunda anlaşmaya vardığını iddia etti.\n[cumhuriyet · 17:44] Trump duyurdu: Rusya ve Ukrayna arasında 'enerji' ateşkesi — ABD Başkanı Trump, Rusya ile Ukrayna arasındaki savaşta enerji ateşkesinin derhâl yürürlüğe gireceğini açıkladı. Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump, “Bu ateşkesi bozmayın” ifadeleriyle taraflara çağrıda bulundu.\n[trthaber · 17:45] Trump: Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir — ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir \"ateşkes sağlandığını\" duyurdu.\n[star · 18:06] Trump duyurdu! Rusya ve Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir 'ateşkes sağlandığını' duyurdu.\n[karar · 18:23] Rusya ve Ukrayna arasında 'enerji' ateşkesi — ABD Başkanı Trump, Rusya ile Ukrayna arasındaki savaşta enerji ateşkesinin derhâl yürürlüğe gireceğini açıkladı. Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump, “Bu ateşkesi bozmayın” ifadeleriyle taraflara çağrıda bulundu.\n[diken · 18:51] Trump: Rusya ile Ukrayna arasında enerji ateşkesi ilan edildi — 11.10.2026 - ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir 'ateşkes sağlandığını' duyurdu.\n[dirilis · 19:38] AB, Rusya ve Ukrayna arasındaki enerji ateşkesini destekliyor — Avrupa Birliği (AB) Komisyonu Başkanı Ursula von der Leyen, Rusya ve Ukrayna arasında enerji altyapısı ile küresel gıda arzını koruyacak ateşkesi desteklediğini belirtti.\n[yeniasya · 00:55] Rusya ile Ukrayna arasında ''enerji ateşkesi''"
+  },
+  {
+   "key": "s1504__framing-effect",
+   "output_file": "runs/bg/explain/s1504__framing-effect.json",
+   "event_title": "Rusya-Ukrayna arasında enerji ateşkesi",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Trump ilan etti: Rusya-Ukrayna enerji ateşkesi sağlandı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı açıklama 'sağlandı' ve 'iddia' olarak farklı kesinlik çerçeveleriyle verilmiş.",
+   "skeptic_alternative": "Kurumların doğrulama standartları farklı olabilir; ihtiyatlı dil tek taraflı açıklamaya karşı meşru bir editoryal tercih.",
+   "missing_context": [
+    "Sunumun okur yargısına etkisi",
+    "Tarafların teyit zamanı",
+    "Çerçevenin okur yargısını değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[sabah · 17:25] Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı! — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında derhal geçerli olmak üzere enerji ateşkesine varıldığını açıkladı. Trump her iki tarafın anlaştığını sosyal medya hesabından duyurdu.\n[haberturk · 17:26] Rusya-Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, \"Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir. Her iki taraf da anlaşmaya vardı, bunu bozmayın\" dedi. AB'den de ateşkesi destekleyici açıklama geldi. Avrupa Birliği (AB) Komisyonu Başkanı Ursula von der Leyen, Rusya ve Ukrayna …\n[mynet · 17:27] Trump duyurdu! Rusya ile Ukrayna arasında enerji ateşkesine varıldı — ABD Başkanı Donald Trump yaptığı açıklamada, \"Hemen geçerli olmak üzere, Rusya ile Ukrayna arasındaki her iki tarafın da kabul ettiği enerji ateşkesine varıldı\" dedi.\n[ahaber · 17:27] Trump duyurdu: Rusya - Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında enerji ateşkesi sağlandığını duyurdu. Ateşkesin derhal yürürlüğe girdiğini belirten Trump, iki tarafa seslenerek “Her iki taraf da anlaşmaya vardı, bunu bozmayın” ifadelerini kullandı. Zelenskiy, Trump’ın enerji ateşkesi …\n[sozcu · 17:29] Trump duyurdu: Rusya ve Ukrayna arasında enerji ateşkesi! — ABD Başkanı Trump, Rusya ile Ukrayna arasında enerji ateşkesi konusunda anlaşmaya varıldığını bildirdi. Trump, taraflara anlaşmayı bozmamaları çağrısında da bulundu.\n[takvim · 17:29] Trump ilan etti: Rusya-Ukrayna enerji ateşkesi sağlandı! — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında enerji altyapılarını kapsayan kritik bir ateşkes sağlandığını duyurdu.\n[ntv · 17:30] Trump'tan ateşkes mesajı. \"Rusya ve Ukrayna enerji ateşkesinde anlaştı\" — ABD Başkanı Donald Trump, Rusya ile Ukrayna arasında bir enerji ateşkesi anlaşması yapıldığını duyurdu.\n[bloomberght · 17:33] Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası — ABD Başkanı Donald Trump, Ukrayna ve Rusya'nın \"enerji ateşkesi\" konusunda anlaşmaya vardığını iddia etti.\n[cumhuriyet · 17:44] Trump duyurdu: Rusya ve Ukrayna arasında 'enerji' ateşkesi — ABD Başkanı Trump, Rusya ile Ukrayna arasındaki savaşta enerji ateşkesinin derhâl yürürlüğe gireceğini açıkladı. Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump, “Bu ateşkesi bozmayın” ifadeleriyle taraflara çağrıda bulundu.\n[trthaber · 17:45] Trump: Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir — ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir \"ateşkes sağlandığını\" duyurdu.\n[star · 18:06] Trump duyurdu! Rusya ve Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir 'ateşkes sağlandığını' duyurdu.\n[karar · 18:23] Rusya ve Ukrayna arasında 'enerji' ateşkesi — ABD Başkanı Trump, Rusya ile Ukrayna arasındaki savaşta enerji ateşkesinin derhâl yürürlüğe gireceğini açıkladı. Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump, “Bu ateşkesi bozmayın” ifadeleriyle taraflara çağrıda bulundu.\n[diken · 18:51] Trump: Rusya ile Ukrayna arasında enerji ateşkesi ilan edildi — 11.10.2026 - ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir 'ateşkes sağlandığını' duyurdu.\n[dirilis · 19:38] AB, Rusya ve Ukrayna arasındaki enerji ateşkesini destekliyor — Avrupa Birliği (AB) Komisyonu Başkanı Ursula von der Leyen, Rusya ve Ukrayna arasında enerji altyapısı ile küresel gıda arzını koruyacak ateşkesi desteklediğini belirtti.\n[yeniasya · 00:55] Rusya ile Ukrayna arasında ''enerji ateşkesi''"
+  },
+  {
+   "key": "s1504__messenger-effect",
+   "output_file": "runs/bg/explain/s1504__messenger-effect.json",
+   "event_title": "Rusya-Ukrayna arasında enerji ateşkesi",
+   "concept": "Messenger Effect",
+   "definition": "The Decision Lab describes the messenger effect as judging information’s validity or relevance through impressions of its source rather than evaluating its content. As an operational bias label, use it only when evidence shows that source impressions unjustifiably changed a claim’s evaluation; source credibility can be relevant when it bears on expertise, provenance, or reliability.",
+   "quotes": [
+    {
+     "quote": "Hemen geçerli olmak üzere, Rusya ile Ukrayna arasındaki her iki tarafın da kabul ettiği enerji ateşkesine varıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Trump her iki tarafın anlaştığını sosyal medya hesabından duyurdu.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Belirli bir iddia ve kurumların onu kabul ya da mesafeli aktarımı görülüyor.",
+   "skeptic_alternative": "Bir devlet başkanının resmi açıklamasını haberleştirmek, mesajcı etkisi değil olağan habercilik.",
+   "missing_context": [
+    "Aynı iddianın farklı bir kaynaktan geldiğinde nasıl sunulduğuna dair karşılaştırma",
+    "Aynı iddianın farklı bir kaynaktan geldiğinde nasıl verildiği"
+   ],
+   "headlines": "[sabah · 17:25] Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı! — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında derhal geçerli olmak üzere enerji ateşkesine varıldığını açıkladı. Trump her iki tarafın anlaştığını sosyal medya hesabından duyurdu.\n[haberturk · 17:26] Rusya-Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, \"Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir. Her iki taraf da anlaşmaya vardı, bunu bozmayın\" dedi. AB'den de ateşkesi destekleyici açıklama geldi. Avrupa Birliği (AB) Komisyonu Başkanı Ursula von der Leyen, Rusya ve Ukrayna …\n[mynet · 17:27] Trump duyurdu! Rusya ile Ukrayna arasında enerji ateşkesine varıldı — ABD Başkanı Donald Trump yaptığı açıklamada, \"Hemen geçerli olmak üzere, Rusya ile Ukrayna arasındaki her iki tarafın da kabul ettiği enerji ateşkesine varıldı\" dedi.\n[ahaber · 17:27] Trump duyurdu: Rusya - Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında enerji ateşkesi sağlandığını duyurdu. Ateşkesin derhal yürürlüğe girdiğini belirten Trump, iki tarafa seslenerek “Her iki taraf da anlaşmaya vardı, bunu bozmayın” ifadelerini kullandı. Zelenskiy, Trump’ın enerji ateşkesi …\n[sozcu · 17:29] Trump duyurdu: Rusya ve Ukrayna arasında enerji ateşkesi! — ABD Başkanı Trump, Rusya ile Ukrayna arasında enerji ateşkesi konusunda anlaşmaya varıldığını bildirdi. Trump, taraflara anlaşmayı bozmamaları çağrısında da bulundu.\n[takvim · 17:29] Trump ilan etti: Rusya-Ukrayna enerji ateşkesi sağlandı! — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında enerji altyapılarını kapsayan kritik bir ateşkes sağlandığını duyurdu.\n[ntv · 17:30] Trump'tan ateşkes mesajı. \"Rusya ve Ukrayna enerji ateşkesinde anlaştı\" — ABD Başkanı Donald Trump, Rusya ile Ukrayna arasında bir enerji ateşkesi anlaşması yapıldığını duyurdu.\n[bloomberght · 17:33] Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası — ABD Başkanı Donald Trump, Ukrayna ve Rusya'nın \"enerji ateşkesi\" konusunda anlaşmaya vardığını iddia etti.\n[cumhuriyet · 17:44] Trump duyurdu: Rusya ve Ukrayna arasında 'enerji' ateşkesi — ABD Başkanı Trump, Rusya ile Ukrayna arasındaki savaşta enerji ateşkesinin derhâl yürürlüğe gireceğini açıkladı. Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump, “Bu ateşkesi bozmayın” ifadeleriyle taraflara çağrıda bulundu.\n[trthaber · 17:45] Trump: Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir — ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir \"ateşkes sağlandığını\" duyurdu.\n[star · 18:06] Trump duyurdu! Rusya ve Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir 'ateşkes sağlandığını' duyurdu.\n[karar · 18:23] Rusya ve Ukrayna arasında 'enerji' ateşkesi — ABD Başkanı Trump, Rusya ile Ukrayna arasındaki savaşta enerji ateşkesinin derhâl yürürlüğe gireceğini açıkladı. Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump, “Bu ateşkesi bozmayın” ifadeleriyle taraflara çağrıda bulundu.\n[diken · 18:51] Trump: Rusya ile Ukrayna arasında enerji ateşkesi ilan edildi — 11.10.2026 - ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir 'ateşkes sağlandığını' duyurdu.\n[dirilis · 19:38] AB, Rusya ve Ukrayna arasındaki enerji ateşkesini destekliyor — Avrupa Birliği (AB) Komisyonu Başkanı Ursula von der Leyen, Rusya ve Ukrayna arasında enerji altyapısı ile küresel gıda arzını koruyacak ateşkesi desteklediğini belirtti.\n[yeniasya · 00:55] Rusya ile Ukrayna arasında ''enerji ateşkesi''"
+  },
+  {
+   "key": "s1504__optimism-bias",
+   "output_file": "runs/bg/explain/s1504__optimism-bias.json",
+   "event_title": "Rusya-Ukrayna arasında enerji ateşkesi",
+   "concept": "Optimism Bias",
+   "definition": "The Decision Lab describes optimism bias as overestimating the likelihood of positive events and underestimating the likelihood of negative events. Operationally, flag only explicit forecasts or decisions where the text shows an unjustified optimistic probability judgment—for example, discounting relevant base rates or comparable outcomes—not optimism, confidence, or risk-taking by itself.",
+   "quotes": [
+    {
+     "quote": "Rusya ve Ukrayna arasında derhal geçerli olmak üzere enerji ateşkesine varıldığını açıkladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "derhal geçerli olmak üzere enerji ateşkesine varıldığını açıkladı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Ateşkesin derhal yürürlüğe girdiği olumlu bir sonuç beklentisi ifade ediliyor.",
+   "skeptic_alternative": "Duyurunun aktarılması iyimser bir olasılık yargısı içermiyor.",
+   "missing_context": [
+    "Ateşkesin süreceğine dair açık tahmin",
+    "Önceki ateşkeslerin sürdürülebilirliğine dair taban oran",
+    "Önceki ateşkeslerin uyum oranı"
+   ],
+   "headlines": "[sabah · 17:25] Trump duyurdu: Rusya ve Ukrayna’da enerji ateşkesine varıldı! — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında derhal geçerli olmak üzere enerji ateşkesine varıldığını açıkladı. Trump her iki tarafın anlaştığını sosyal medya hesabından duyurdu.\n[haberturk · 17:26] Rusya-Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, \"Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir. Her iki taraf da anlaşmaya vardı, bunu bozmayın\" dedi. AB'den de ateşkesi destekleyici açıklama geldi. Avrupa Birliği (AB) Komisyonu Başkanı Ursula von der Leyen, Rusya ve Ukrayna …\n[mynet · 17:27] Trump duyurdu! Rusya ile Ukrayna arasında enerji ateşkesine varıldı — ABD Başkanı Donald Trump yaptığı açıklamada, \"Hemen geçerli olmak üzere, Rusya ile Ukrayna arasındaki her iki tarafın da kabul ettiği enerji ateşkesine varıldı\" dedi.\n[ahaber · 17:27] Trump duyurdu: Rusya - Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında enerji ateşkesi sağlandığını duyurdu. Ateşkesin derhal yürürlüğe girdiğini belirten Trump, iki tarafa seslenerek “Her iki taraf da anlaşmaya vardı, bunu bozmayın” ifadelerini kullandı. Zelenskiy, Trump’ın enerji ateşkesi …\n[sozcu · 17:29] Trump duyurdu: Rusya ve Ukrayna arasında enerji ateşkesi! — ABD Başkanı Trump, Rusya ile Ukrayna arasında enerji ateşkesi konusunda anlaşmaya varıldığını bildirdi. Trump, taraflara anlaşmayı bozmamaları çağrısında da bulundu.\n[takvim · 17:29] Trump ilan etti: Rusya-Ukrayna enerji ateşkesi sağlandı! — ABD Başkanı Donald Trump, Rusya ve Ukrayna arasında enerji altyapılarını kapsayan kritik bir ateşkes sağlandığını duyurdu.\n[ntv · 17:30] Trump'tan ateşkes mesajı. \"Rusya ve Ukrayna enerji ateşkesinde anlaştı\" — ABD Başkanı Donald Trump, Rusya ile Ukrayna arasında bir enerji ateşkesi anlaşması yapıldığını duyurdu.\n[bloomberght · 17:33] Trump'tan enerjide Rusya-Ukrayna ateşkesi iddiası — ABD Başkanı Donald Trump, Ukrayna ve Rusya'nın \"enerji ateşkesi\" konusunda anlaşmaya vardığını iddia etti.\n[cumhuriyet · 17:44] Trump duyurdu: Rusya ve Ukrayna arasında 'enerji' ateşkesi — ABD Başkanı Trump, Rusya ile Ukrayna arasındaki savaşta enerji ateşkesinin derhâl yürürlüğe gireceğini açıkladı. Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump, “Bu ateşkesi bozmayın” ifadeleriyle taraflara çağrıda bulundu.\n[trthaber · 17:45] Trump: Rusya ve Ukrayna arasındaki savaşta enerji ateşkesi ilan edilmiştir — ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir \"ateşkes sağlandığını\" duyurdu.\n[star · 18:06] Trump duyurdu! Rusya ve Ukrayna arasında enerji ateşkesi — ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir 'ateşkes sağlandığını' duyurdu.\n[karar · 18:23] Rusya ve Ukrayna arasında 'enerji' ateşkesi — ABD Başkanı Trump, Rusya ile Ukrayna arasındaki savaşta enerji ateşkesinin derhâl yürürlüğe gireceğini açıkladı. Her iki tarafın da anlaşmayı kabul ettiğini öne süren Trump, “Bu ateşkesi bozmayın” ifadeleriyle taraflara çağrıda bulundu.\n[diken · 18:51] Trump: Rusya ile Ukrayna arasında enerji ateşkesi ilan edildi — 11.10.2026 - ABD Başkanı Donald Trump, Ukrayna ile Rusya arasında enerji altyapılarına saldırmama konusunda bir 'ateşkes sağlandığını' duyurdu.\n[dirilis · 19:38] AB, Rusya ve Ukrayna arasındaki enerji ateşkesini destekliyor — Avrupa Birliği (AB) Komisyonu Başkanı Ursula von der Leyen, Rusya ve Ukrayna arasında enerji altyapısı ile küresel gıda arzını koruyacak ateşkesi desteklediğini belirtti.\n[yeniasya · 00:55] Rusya ile Ukrayna arasında ''enerji ateşkesi''"
+  },
+  {
+   "key": "s548__salience-bias",
+   "output_file": "runs/bg/explain/s548__salience-bias.json",
+   "event_title": "İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yalova açıklarında 3.5 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul ve Yalova'da hissedildi!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Saat 22.08’de meydana gelen sarsıntı, Yalova merkez ve çevre ilçelerde hissedildi.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar depremin İstanbul'da hissedilmesini öne çıkarıyor.",
+   "skeptic_alternative": "İstanbul'da hissedilmesi okur kitlesi açısından ilgili ve doğru bir bilgidir.",
+   "missing_context": [
+    "Belirginliğin bir risk çıkarımına bağlandığı açık ifade",
+    "Öne çıkarılan ayrıntının risk yargısına dönüştüğüne dair ifade"
+   ],
+   "headlines": "[takvim · 22:13] İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem — Marmara Denizi'nde 10 Ekim 2026 saat 22.08.49'da 3,5 büyüklüğünde deprem meydana geldi. Yalova'ya 4,66 kilometre mesafede kaydedilen sarsıntının 7,96 kilometre derinlikte olduğu bildirildi. Deprem İstanbul ve çevre illerde de hissedildi.\n[milligazete · 22:13] İstanbul ve çevre iller sallandı: Marmara Denizi'nde deprem oldu — Afet ve Acil Durum Yönetimi Başkanlığı (AFAD) verilerine göre, Marmara Denizi'nde Yalova açıklarında 3.5 büyüklüğünde bir deprem meydana geldi.\n[trthaber · 22:15] Marmara açıklarında 3,5 büyüklüğünde deprem — AFAD verilerine göre, Marmara açıklarında 3,5 büyüklüğünde deprem oldu. Deprem, İstanbul ve çevre illerde de hissedildi.\n[turkiyegz · 22:15] Marmara Denizi'nde deprem! İstanbul'da da hissedildi: AFAD'dan açıklama geldi — Marmara Denizi’nde Yalova açıklarında 3,5 büyüklüğünde deprem meydana geldi. Deprem İstanbul’da da hissedildi. Deprem uzmanı Okan Tüysüz, \"Çok sayıda fay var, ihtimal, 17 Ağustos'ta kırılan fayın devamı, İstanbul ile bağlantılı değerlendirdiğimiz Adalar Fayı değil\" bilgisini …\n[aydinlik · 22:15] Marmara Denizi'nde 3.5 büyüklüğünde deprem — Marmara Denizi’nde Yalova açıklarında 3,5 büyüklüğünde deprem meydana geldi. Saat 22.08’de meydana gelen sarsıntı, Yalova merkez ve çevre ilçelerde hissedildi.\n[mynet · 22:15] Yalova'da 3.5 büyüklüğünde deprem! İstanbul'da da hissedildi: \"Öncü bir deprem değil\" - Gündem Haberleri — İstanbul'da gece saatlerinde hissedilen bir deprem meydana geldi. AFAD depremin merkez üssünü Yalova olarak açıkladı. Deprem uzmanı Prof. Dr. Övgün Ahmet Ercan \"Deprem bir öncü deprem değil, yerel bir gerginlik boşalmasıdır\" dedi.\n[diken · 22:17] Marmara Denizi'nde 3,5 büyüklüğünde deprem — 10.10.2026 - Yalova açıklarında 22:08'de 3,5 büyüklüğünde deprem oldu.\n[cumhuriyet · 22:19] İstanbul ve çevre illerden de hissedildi! Marmara Denizi’nde deprem — AFAD, Marmara Denizi’nde Yalova açıklarında 3,5 büyüklüğünde deprem meydana geldiğini duyurdu. Deprem, saat 22.08’de, 7,96 kilometre derinlikte kaydedildi.\n[dirilis · 22:20] Marmara Denizi’nde 3,5 büyüklüğünde deprem! — Marmara Denizi’nde Yalova açıklarında saat 22.08’de 3,5 büyüklüğünde deprem meydana geldi. Sarsıntı, İstanbul ve çevre illerde de hissedildi.\n[haberturk · 22:21] Marmara Denizi'nde 3,5 büyüklüğünde deprem — Marmara Denizi’nde 3.5 büyüklüğünde deprem meydana geldi. Deprem İstanbul'da da hissedildi\n[karar · 22:22] Yalova açıklarında 3.5 büyüklüğünde deprem — Marmara Denizi'nde 3.5 büyüklüğünde bir deprem meydana geldi. Deprem, Yalova'nın 4 kilometre açığında gerçekleşti.\n[star · 22:30] Yalova'da 3,5 büyüklüğünde deprem — AFAD, Yalova'da 3,5 büyüklüğünde bir deprem meydana geldiğini duyurdu. Deprem, İstanbul ve çevre illerde de hissedildi.\n[birgun · 22:41] Marmara Denizi'nde İstanbul'dan da hissedilen 3.5 büyüklüğünde deprem oldu\n[ahaber · 18:17] Marmara Denizi'nde deprem! AFAD'dan ilk açıklama | İstanbul'da da hissedildi — İstanbul'da hissedilen bir deprem meydana geldi. AFAD, depremin Marmara Denizi’nde 2,9 büyüklüğünde gerçekleştiğini açıkladı. Depremin merkez üssü Yalova olarak kaydedildi.\n[ntv · 18:40] Yalova'da 2,9 büyüklüğünde deprem. İstanbul'da da hissedildi — AFAD'dan yapılan açıklamaya göre Marmara Denizi'nde 2,9 büyüklüğünde deprem meydana geldi."
+  },
+  {
+   "key": "s548__authority-bias",
+   "output_file": "runs/bg/explain/s548__authority-bias.json",
+   "event_title": "İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "Deprem uzmanı Prof. Dr. Övgün Ahmet Ercan \"Deprem bir öncü deprem değil, yerel bir gerginlik boşalmasıdır\" dedi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yalova'da 3.5 büyüklüğünde deprem! İstanbul'da da hissedildi: \"Öncü bir deprem değil\"",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Deprem uzmanı Prof. Dr. Övgün Ahmet Ercan",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Öncü bir deprem değil",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Deprem bir öncü deprem değil, yerel bir gerginlik boşalmasıdır",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Tek bir uzmanın yorumu başlığa taşınarak kesin bilgi gibi sunuluyor.",
+   "skeptic_alternative": "Uzmanın alanıyla ilgili görüşüne yer vermek gerekçeli bir kaynak kullanımıdır.",
+   "missing_context": [
+    "Diğer uzmanların veya AFAD'ın değerlendirmesi",
+    "Karşı kanıtın göz ardı edildiğine dair ifade",
+    "Öncü deprem olasılığına dair veri"
+   ],
+   "headlines": "[takvim · 22:13] İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem — Marmara Denizi'nde 10 Ekim 2026 saat 22.08.49'da 3,5 büyüklüğünde deprem meydana geldi. Yalova'ya 4,66 kilometre mesafede kaydedilen sarsıntının 7,96 kilometre derinlikte olduğu bildirildi. Deprem İstanbul ve çevre illerde de hissedildi.\n[milligazete · 22:13] İstanbul ve çevre iller sallandı: Marmara Denizi'nde deprem oldu — Afet ve Acil Durum Yönetimi Başkanlığı (AFAD) verilerine göre, Marmara Denizi'nde Yalova açıklarında 3.5 büyüklüğünde bir deprem meydana geldi.\n[trthaber · 22:15] Marmara açıklarında 3,5 büyüklüğünde deprem — AFAD verilerine göre, Marmara açıklarında 3,5 büyüklüğünde deprem oldu. Deprem, İstanbul ve çevre illerde de hissedildi.\n[turkiyegz · 22:15] Marmara Denizi'nde deprem! İstanbul'da da hissedildi: AFAD'dan açıklama geldi — Marmara Denizi’nde Yalova açıklarında 3,5 büyüklüğünde deprem meydana geldi. Deprem İstanbul’da da hissedildi. Deprem uzmanı Okan Tüysüz, \"Çok sayıda fay var, ihtimal, 17 Ağustos'ta kırılan fayın devamı, İstanbul ile bağlantılı değerlendirdiğimiz Adalar Fayı değil\" bilgisini …\n[aydinlik · 22:15] Marmara Denizi'nde 3.5 büyüklüğünde deprem — Marmara Denizi’nde Yalova açıklarında 3,5 büyüklüğünde deprem meydana geldi. Saat 22.08’de meydana gelen sarsıntı, Yalova merkez ve çevre ilçelerde hissedildi.\n[mynet · 22:15] Yalova'da 3.5 büyüklüğünde deprem! İstanbul'da da hissedildi: \"Öncü bir deprem değil\" - Gündem Haberleri — İstanbul'da gece saatlerinde hissedilen bir deprem meydana geldi. AFAD depremin merkez üssünü Yalova olarak açıkladı. Deprem uzmanı Prof. Dr. Övgün Ahmet Ercan \"Deprem bir öncü deprem değil, yerel bir gerginlik boşalmasıdır\" dedi.\n[diken · 22:17] Marmara Denizi'nde 3,5 büyüklüğünde deprem — 10.10.2026 - Yalova açıklarında 22:08'de 3,5 büyüklüğünde deprem oldu.\n[cumhuriyet · 22:19] İstanbul ve çevre illerden de hissedildi! Marmara Denizi’nde deprem — AFAD, Marmara Denizi’nde Yalova açıklarında 3,5 büyüklüğünde deprem meydana geldiğini duyurdu. Deprem, saat 22.08’de, 7,96 kilometre derinlikte kaydedildi.\n[dirilis · 22:20] Marmara Denizi’nde 3,5 büyüklüğünde deprem! — Marmara Denizi’nde Yalova açıklarında saat 22.08’de 3,5 büyüklüğünde deprem meydana geldi. Sarsıntı, İstanbul ve çevre illerde de hissedildi.\n[haberturk · 22:21] Marmara Denizi'nde 3,5 büyüklüğünde deprem — Marmara Denizi’nde 3.5 büyüklüğünde deprem meydana geldi. Deprem İstanbul'da da hissedildi\n[karar · 22:22] Yalova açıklarında 3.5 büyüklüğünde deprem — Marmara Denizi'nde 3.5 büyüklüğünde bir deprem meydana geldi. Deprem, Yalova'nın 4 kilometre açığında gerçekleşti.\n[star · 22:30] Yalova'da 3,5 büyüklüğünde deprem — AFAD, Yalova'da 3,5 büyüklüğünde bir deprem meydana geldiğini duyurdu. Deprem, İstanbul ve çevre illerde de hissedildi.\n[birgun · 22:41] Marmara Denizi'nde İstanbul'dan da hissedilen 3.5 büyüklüğünde deprem oldu\n[ahaber · 18:17] Marmara Denizi'nde deprem! AFAD'dan ilk açıklama | İstanbul'da da hissedildi — İstanbul'da hissedilen bir deprem meydana geldi. AFAD, depremin Marmara Denizi’nde 2,9 büyüklüğünde gerçekleştiğini açıkladı. Depremin merkez üssü Yalova olarak kaydedildi.\n[ntv · 18:40] Yalova'da 2,9 büyüklüğünde deprem. İstanbul'da da hissedildi — AFAD'dan yapılan açıklamaya göre Marmara Denizi'nde 2,9 büyüklüğünde deprem meydana geldi."
+  },
+  {
+   "key": "s548__framing-effect",
+   "output_file": "runs/bg/explain/s548__framing-effect.json",
+   "event_title": "İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "İstanbul ve çevre iller sallandı: Marmara Denizi'nde deprem oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Marmara açıklarında 3,5 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yalova açıklarında 3.5 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul ve çevre iller sallandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı 3,5'lik deprem 'iller sallandı' ve nötr büyüklük bilgisiyle farklı çerçevelenmiş.",
+   "skeptic_alternative": "Başlık farkı hedef okur kitlesine göre ilgili bilgiyi öne çıkarma tercihi olabilir.",
+   "missing_context": [
+    "2,9'luk depremi aktaran haberlerin ayrı bir olay olup olmadığı",
+    "Sunumun okur risk algısına etkisi",
+    "Çerçevenin okur risk algısını değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[takvim · 22:13] İstanbul ve Yalova'da hissedildi! Marmara Denizi'nde 3,5 büyüklüğünde deprem — Marmara Denizi'nde 10 Ekim 2026 saat 22.08.49'da 3,5 büyüklüğünde deprem meydana geldi. Yalova'ya 4,66 kilometre mesafede kaydedilen sarsıntının 7,96 kilometre derinlikte olduğu bildirildi. Deprem İstanbul ve çevre illerde de hissedildi.\n[milligazete · 22:13] İstanbul ve çevre iller sallandı: Marmara Denizi'nde deprem oldu — Afet ve Acil Durum Yönetimi Başkanlığı (AFAD) verilerine göre, Marmara Denizi'nde Yalova açıklarında 3.5 büyüklüğünde bir deprem meydana geldi.\n[trthaber · 22:15] Marmara açıklarında 3,5 büyüklüğünde deprem — AFAD verilerine göre, Marmara açıklarında 3,5 büyüklüğünde deprem oldu. Deprem, İstanbul ve çevre illerde de hissedildi.\n[turkiyegz · 22:15] Marmara Denizi'nde deprem! İstanbul'da da hissedildi: AFAD'dan açıklama geldi — Marmara Denizi’nde Yalova açıklarında 3,5 büyüklüğünde deprem meydana geldi. Deprem İstanbul’da da hissedildi. Deprem uzmanı Okan Tüysüz, \"Çok sayıda fay var, ihtimal, 17 Ağustos'ta kırılan fayın devamı, İstanbul ile bağlantılı değerlendirdiğimiz Adalar Fayı değil\" bilgisini …\n[aydinlik · 22:15] Marmara Denizi'nde 3.5 büyüklüğünde deprem — Marmara Denizi’nde Yalova açıklarında 3,5 büyüklüğünde deprem meydana geldi. Saat 22.08’de meydana gelen sarsıntı, Yalova merkez ve çevre ilçelerde hissedildi.\n[mynet · 22:15] Yalova'da 3.5 büyüklüğünde deprem! İstanbul'da da hissedildi: \"Öncü bir deprem değil\" - Gündem Haberleri — İstanbul'da gece saatlerinde hissedilen bir deprem meydana geldi. AFAD depremin merkez üssünü Yalova olarak açıkladı. Deprem uzmanı Prof. Dr. Övgün Ahmet Ercan \"Deprem bir öncü deprem değil, yerel bir gerginlik boşalmasıdır\" dedi.\n[diken · 22:17] Marmara Denizi'nde 3,5 büyüklüğünde deprem — 10.10.2026 - Yalova açıklarında 22:08'de 3,5 büyüklüğünde deprem oldu.\n[cumhuriyet · 22:19] İstanbul ve çevre illerden de hissedildi! Marmara Denizi’nde deprem — AFAD, Marmara Denizi’nde Yalova açıklarında 3,5 büyüklüğünde deprem meydana geldiğini duyurdu. Deprem, saat 22.08’de, 7,96 kilometre derinlikte kaydedildi.\n[dirilis · 22:20] Marmara Denizi’nde 3,5 büyüklüğünde deprem! — Marmara Denizi’nde Yalova açıklarında saat 22.08’de 3,5 büyüklüğünde deprem meydana geldi. Sarsıntı, İstanbul ve çevre illerde de hissedildi.\n[haberturk · 22:21] Marmara Denizi'nde 3,5 büyüklüğünde deprem — Marmara Denizi’nde 3.5 büyüklüğünde deprem meydana geldi. Deprem İstanbul'da da hissedildi\n[karar · 22:22] Yalova açıklarında 3.5 büyüklüğünde deprem — Marmara Denizi'nde 3.5 büyüklüğünde bir deprem meydana geldi. Deprem, Yalova'nın 4 kilometre açığında gerçekleşti.\n[star · 22:30] Yalova'da 3,5 büyüklüğünde deprem — AFAD, Yalova'da 3,5 büyüklüğünde bir deprem meydana geldiğini duyurdu. Deprem, İstanbul ve çevre illerde de hissedildi.\n[birgun · 22:41] Marmara Denizi'nde İstanbul'dan da hissedilen 3.5 büyüklüğünde deprem oldu\n[ahaber · 18:17] Marmara Denizi'nde deprem! AFAD'dan ilk açıklama | İstanbul'da da hissedildi — İstanbul'da hissedilen bir deprem meydana geldi. AFAD, depremin Marmara Denizi’nde 2,9 büyüklüğünde gerçekleştiğini açıkladı. Depremin merkez üssü Yalova olarak kaydedildi.\n[ntv · 18:40] Yalova'da 2,9 büyüklüğünde deprem. İstanbul'da da hissedildi — AFAD'dan yapılan açıklamaya göre Marmara Denizi'nde 2,9 büyüklüğünde deprem meydana geldi."
+  },
+  {
+   "key": "s4705__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4705__leveling-and-sharpening.json",
+   "event_title": "Beyoğlu'nda 5 katlı metruk bina çöktü",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Beyoğlu'nda 4 katlı metruk bina çöktü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Beyoğlu'nda 5 katlı metruk bina çöktü — Beyoğlu'nda 4 katlı binada çökme meydana geldi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Beyoğlu'nda 5 katlı bina çöktü! Yan bina da hasar gördü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Beyoğlu'nda 4 katlı binada çökme meydana geldi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Beyoğlu'nda 5 katlı metruk bina çöktü",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "daha önce boşaltıldığı belirtilen 4 katlı metruk bina",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Kat sayısı 4 ve 5 olarak farklı aktarılmış; bir haberde başlık 5, metin 4 kat diyor; bazı başlıklarda 'metruk' ayrıntısı düşmüş.",
+   "skeptic_alternative": "Kat sayısı farkı zemin/çatı katı sayımından, 'metruk' atlanması başlık kısalığından kaynaklanabilir.",
+   "missing_context": [
+    "Binanın boş olduğunun resmi teyidi",
+    "Binanın resmi kat sayısı",
+    "Farkın bir sonuca etki ettiğine dair kanıt",
+    "Resmi kat sayısı"
+   ],
+   "headlines": "[sondakika · 22:48] Beyoğlu'nda 5 katlı bina çöktü! Yan bina da hasar gördü\n[haberler · 01:45] Beyoğlu'nda 5 katlı bina çöktü! Yan bina da hasar gördü\n[turkiyegz · 01:46] Beyoğlu'nda metruk bina çöktü! Hasar gören yan bina tahliye edildi\n[hurriyet · 01:47] Son dakika... Beyoğlu'nda 5 katlı metruk bina çöktü — Son dakika haberi... İstanbul'un Beyoğlu ilçesinde 5 katlı metruk bir bina çöktü. Olay yerine çok sayıda ekip sevk edildi. Hasar gören yan bina ise tahliye ediliyor.\n[haberturk · 01:49] Beyoğlu'nda 5 katlı metruk bina çöktü\n[tgrt · 01:50] Beyoğlu'nda korku dolu anlar! 5 katlı bina çöktü\n[trthaber · 02:06] Beyoğlu'nda 5 katlı metruk bina çöktü\n[ahaber · 02:38] Beyoğlu'nda korku dolu anlar! 4 katlı bina yerle bir oldu\n[karar · 02:41] İstanbul Beyoğlu'nda 4 katlı bina çöktü! Enkazda arama kurtarma çalışması başlatıldı — İstanbul'un Beyoğlu ilçesinde daha önce boşaltıldığı belirtilen 4 katlı metruk bina, henüz bilinmeyen bir nedenle çöktü. İhbar üzerine bölgeye AFAD, UMKE, itfaiye, polis ve sağlık ekipleri sevk edildi. Çevrede güvenlik önlemleri alınırken ekipler, enkaz altında kimsenin …\n[takvim · 02:46] Beyoğlu'nda 5 katlı metruk bina çöktü: Olay yerine polis, sağlık ve itfaiye sevk edildi\n[akit · 02:48] Beyoğlu’nda metruk bina çöktü: Enkazda arama başlatıldı\n[sabah · 02:53] SON DAKİKA | Beyoğlu'nda 5 katlı bina çöktü! Yan bina hasar gördü\n[milliyet · 02:53] Beyoğlu'nda 5 katlı metruk bina çöktü — Beyoğlu'nda 4 katlı binada çökme meydana geldi. Kalyoncu Kulluğu Mahallesi Kurdela Sokak'ta daha önceden boşaltıldığı belirtilen 4 katlı bina henüz bilinmeyen nedenle çöktü. İhbar üzerine olay yerine polis, itfaiye, UMKE, AFAD ve sağlık ekipleri sevk edildi. Çevrede güvenlik …\n[ntv · 02:56] Beyoğlu'nda 5 katlı metruk bina çöktü\n[aa · 02:58] Beyoğlu'nda 4 katlı metruk bina çöktü"
+  },
+  {
+   "key": "s4705__framing-effect",
+   "output_file": "runs/bg/explain/s4705__framing-effect.json",
+   "event_title": "Beyoğlu'nda 5 katlı metruk bina çöktü",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Beyoğlu'nda korku dolu anlar! 4 katlı bina yerle bir oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Beyoğlu'nda 4 katlı metruk bina çöktü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Beyoğlu'nda korku dolu anlar! 5 katlı bina çöktü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Beyoğlu'nda 5 katlı metruk bina çöktü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "4 katlı bina yerle bir oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı çökme 'korku dolu anlar' çerçevesiyle ve nötr 'metruk bina' bilgisiyle farklı sunulmuş.",
+   "skeptic_alternative": "Duygusal başlıklar üslup tercihi olabilir; okur değerlendirmesine etkisi bilinmiyor.",
+   "missing_context": [
+    "Sunumun okur risk algısına etkisine dair veri",
+    "Çerçevenin okur yargısını değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[sondakika · 22:48] Beyoğlu'nda 5 katlı bina çöktü! Yan bina da hasar gördü\n[haberler · 01:45] Beyoğlu'nda 5 katlı bina çöktü! Yan bina da hasar gördü\n[turkiyegz · 01:46] Beyoğlu'nda metruk bina çöktü! Hasar gören yan bina tahliye edildi\n[hurriyet · 01:47] Son dakika... Beyoğlu'nda 5 katlı metruk bina çöktü — Son dakika haberi... İstanbul'un Beyoğlu ilçesinde 5 katlı metruk bir bina çöktü. Olay yerine çok sayıda ekip sevk edildi. Hasar gören yan bina ise tahliye ediliyor.\n[haberturk · 01:49] Beyoğlu'nda 5 katlı metruk bina çöktü\n[tgrt · 01:50] Beyoğlu'nda korku dolu anlar! 5 katlı bina çöktü\n[trthaber · 02:06] Beyoğlu'nda 5 katlı metruk bina çöktü\n[ahaber · 02:38] Beyoğlu'nda korku dolu anlar! 4 katlı bina yerle bir oldu\n[karar · 02:41] İstanbul Beyoğlu'nda 4 katlı bina çöktü! Enkazda arama kurtarma çalışması başlatıldı — İstanbul'un Beyoğlu ilçesinde daha önce boşaltıldığı belirtilen 4 katlı metruk bina, henüz bilinmeyen bir nedenle çöktü. İhbar üzerine bölgeye AFAD, UMKE, itfaiye, polis ve sağlık ekipleri sevk edildi. Çevrede güvenlik önlemleri alınırken ekipler, enkaz altında kimsenin …\n[takvim · 02:46] Beyoğlu'nda 5 katlı metruk bina çöktü: Olay yerine polis, sağlık ve itfaiye sevk edildi\n[akit · 02:48] Beyoğlu’nda metruk bina çöktü: Enkazda arama başlatıldı\n[sabah · 02:53] SON DAKİKA | Beyoğlu'nda 5 katlı bina çöktü! Yan bina hasar gördü\n[milliyet · 02:53] Beyoğlu'nda 5 katlı metruk bina çöktü — Beyoğlu'nda 4 katlı binada çökme meydana geldi. Kalyoncu Kulluğu Mahallesi Kurdela Sokak'ta daha önceden boşaltıldığı belirtilen 4 katlı bina henüz bilinmeyen nedenle çöktü. İhbar üzerine olay yerine polis, itfaiye, UMKE, AFAD ve sağlık ekipleri sevk edildi. Çevrede güvenlik …\n[ntv · 02:56] Beyoğlu'nda 5 katlı metruk bina çöktü\n[aa · 02:58] Beyoğlu'nda 4 katlı metruk bina çöktü"
+  },
+  {
+   "key": "s4705__negativity-bias",
+   "output_file": "runs/bg/explain/s4705__negativity-bias.json",
+   "event_title": "Beyoğlu'nda 5 katlı metruk bina çöktü",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Beyoğlu'nda korku dolu anlar! 5 katlı bina çöktü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Beyoğlu'nda korku dolu anlar!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başlık korku unsurunu vurgularken binanın boş olduğu bilgisini vermiyor.",
+   "skeptic_alternative": "Bina çökmesi haberinde olumsuz vurgu olayla orantılı olabilir.",
+   "missing_context": [
+    "Karşılaştırılabilir olumlu bilgi (ör. can kaybı olmaması) ve karar etkisi",
+    "Olumlu bilgiye (boş bina) göre orantısız ağırlık verildiğine dair belge"
+   ],
+   "headlines": "[sondakika · 22:48] Beyoğlu'nda 5 katlı bina çöktü! Yan bina da hasar gördü\n[haberler · 01:45] Beyoğlu'nda 5 katlı bina çöktü! Yan bina da hasar gördü\n[turkiyegz · 01:46] Beyoğlu'nda metruk bina çöktü! Hasar gören yan bina tahliye edildi\n[hurriyet · 01:47] Son dakika... Beyoğlu'nda 5 katlı metruk bina çöktü — Son dakika haberi... İstanbul'un Beyoğlu ilçesinde 5 katlı metruk bir bina çöktü. Olay yerine çok sayıda ekip sevk edildi. Hasar gören yan bina ise tahliye ediliyor.\n[haberturk · 01:49] Beyoğlu'nda 5 katlı metruk bina çöktü\n[tgrt · 01:50] Beyoğlu'nda korku dolu anlar! 5 katlı bina çöktü\n[trthaber · 02:06] Beyoğlu'nda 5 katlı metruk bina çöktü\n[ahaber · 02:38] Beyoğlu'nda korku dolu anlar! 4 katlı bina yerle bir oldu\n[karar · 02:41] İstanbul Beyoğlu'nda 4 katlı bina çöktü! Enkazda arama kurtarma çalışması başlatıldı — İstanbul'un Beyoğlu ilçesinde daha önce boşaltıldığı belirtilen 4 katlı metruk bina, henüz bilinmeyen bir nedenle çöktü. İhbar üzerine bölgeye AFAD, UMKE, itfaiye, polis ve sağlık ekipleri sevk edildi. Çevrede güvenlik önlemleri alınırken ekipler, enkaz altında kimsenin …\n[takvim · 02:46] Beyoğlu'nda 5 katlı metruk bina çöktü: Olay yerine polis, sağlık ve itfaiye sevk edildi\n[akit · 02:48] Beyoğlu’nda metruk bina çöktü: Enkazda arama başlatıldı\n[sabah · 02:53] SON DAKİKA | Beyoğlu'nda 5 katlı bina çöktü! Yan bina hasar gördü\n[milliyet · 02:53] Beyoğlu'nda 5 katlı metruk bina çöktü — Beyoğlu'nda 4 katlı binada çökme meydana geldi. Kalyoncu Kulluğu Mahallesi Kurdela Sokak'ta daha önceden boşaltıldığı belirtilen 4 katlı bina henüz bilinmeyen nedenle çöktü. İhbar üzerine olay yerine polis, itfaiye, UMKE, AFAD ve sağlık ekipleri sevk edildi. Çevrede güvenlik …\n[ntv · 02:56] Beyoğlu'nda 5 katlı metruk bina çöktü\n[aa · 02:58] Beyoğlu'nda 4 katlı metruk bina çöktü"
+  },
+  {
+   "key": "s1650__framing-effect",
+   "output_file": "runs/bg/explain/s1650__framing-effect.json",
+   "event_title": "Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "YENİ Partili Çukurova Belediyesi'ne operasyon: Başkan dahil 44 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Adana'da Çukurova Belediyesi'ne operasyon: 44 gözaltı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı operasyon farklı parti etiketleriyle ya da etiketsiz verilmiş; vurgu noktası değişiyor.",
+   "skeptic_alternative": "Etiket farkı, mevcut başkanın ve eski başkanın farklı parti bağlantılarını doğru yansıtıyor olabilir.",
+   "missing_context": [
+    "Mevcut başkanın güncel parti üyeliği",
+    "Mevcut ve eski başkanların parti üyelikleri",
+    "Sunumun okur yargısına etkisi",
+    "Çerçevenin bir yargıyı değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[turkiyegz · 07:34] Çukurova Belediyesi'ne yolsuzluk ve rüşvet operasyonu! Mevcut ve eski başkan dahil 44 gözaltı — Adana'da Çukurova Belediyesi'ndeki ihale ve doğrudan temin işlemlerinde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında 44 kişi gözaltına alındı. Gözaltına alınanlar arasında mevcut Belediye Başkanı Emrah Kozay ile eski Belediye Başkanı Soner Çetin de …\n[mynet · 07:39] Çukurova Belediyesi'ne operasyon! Belediye Başkanı Emrah Kozay dahil çok sayıda gözaltı — Adana güne hareketli dakikalarla başladı. Jandarma ekipleri Çukurova Belediyesi’ne yönelik operasyon düzenledi. Belediye Başkanı Emrah Kozay ve eski Belediye Başkanı Soner Çetin gözaltına alındı. Çetin, adli tıptaki sağlık kontrolünün ardından sorgulanmak üzere jandarma …\n[star · 07:40] Çukurova Belediyesi'ne rüşvet operasyonu! Eski ve yeni başkanlar gözaltında — Adana'da Çukurova Belediyesindeki ihale ve doğrudan teminlerde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, aralarında mevcut Belediye Başkanı Emrah Kozay ve önceki dönem Belediye Başkanı Soner Çetin'in de bulunduğu 44 kişi yakalandı.\n[takvim · 07:41] Çukurova Belediyesi'ne operasyon! Gözaltı kararları var — Adana'da Çukurova Belediyesi'ne jandarma operasyonu düzenlendi. Belediye binasında arama başlatılırken çok sayıda kişi hakkında gözaltı kararı verildiği öğrenildi.\n[sozcu · 07:42] SON DAKİKA... Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı var — Adana’da Çukurova Belediyesi’ne yönelik “rüşvet”, “ihaleye fesat karıştırma” ve “nitelikli dolandırıcılık” iddiaları kapsamında operasyon düzenlendi. Operasyonda, Belediye Başkanı Emrah Kozay ve eski Belediye Başkanı Soner Çetin’in de aralarında bulunduğu 44 kişi gözaltına …\n[ahaber · 07:48] CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu: Başkan Kozay ve eski başkan Çetin de... — Adana’da Çukurova Belediyesine yönelik yolsuzluk soruşturmasında, Belediye Başkanı Emrah Kozay ile eski belediye başkanı ve CHP Genel Sekreter Yardımcısı Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı. Belediye binası ve çok sayıda adreste arama yapılırken …\n[cumhuriyet · 07:48] Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı! — Son dakika gelişmesi... Adana'da Çukurova Belediyesi'ne yönelik yürütülen yolsuzluk soruşturması kapsamında düzenlenen operasyonda 44 kişi gözaltına alındı. Gözaltına alınanlar arasında Çukurova Belediye Başkanı Emrah Kozay ile eski belediye başkanı ve CHP Genel Sekreter …\n[ntv · 07:49] Çukurova Belediyesi'ne operasyon: Belediye Başkanı Emrah Kozay dahil 34 tutuklama — Adana'da Çukurova Belediyesi'ne yönelik operasyon yapıldı. Belediye Başkanı Emrah Kozay, önceki dönem Belediye Başkanı Soner Çetin ve 3 belediye başkan yardımcısı da dahil 34 şüpheli tutuklandı.\n[haberturk · 07:50] SON DAKİKA HABERİ: Çukurova Belediyesi'ne operasyon: 44 gözaltı — Son dakika haberi: Adana'da Çukurova Belediyesi'ne yönelik operasyon düzenlendi. Jandarma ekipleri belediyede arama yapıldı. Operasyon kapsamında Çukurova Belediye Başkanı Emrah Kozay ile geçen dönem Belediye Başkanı Soner Çetin ile birlikte toplam 44 kişi gözaltına alındı\n[sabah · 07:50] SON DAKİKA | Çukurova Belediyesi’ne operasyon! Jandarma binada arama yapıyor çok sayıda gözaltı kararı — Adana’da Çukurova Belediyesi’ne yönelik rüşvet ve ihaleye fesat karıştırma operasyonunda, mevcut başkan Emrah Kozay ve eski başkan Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı. Soruşturmada, başkanın teyzesinin örgüt yöneticisi konumunda olduğu ve 8 …\n[karar · 08:00] Adana'da Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı — Adana’da jandarma ekipleri Çukurova Belediyesi binasında arama ve inceleme başlattı. Operasyon kapsamında çok sayıda kişi hakkında gözaltı kararı bulunduğu bildirildi.\n[dirilis · 09:06] Çukurova Belediyesinde operasyon: Çok sayıda gözaltı kararı var! — Adana’da jandarma ekipleri Çukurova Belediyesi’ne yönelik operasyon düzenliyor. Jandarma ekipleri, belediye önünde güvenlik önlemi alarak belediye içerisinde arama gerçekleştiriyor. Operasyon kapsamında çok sayıda gözaltı kararı olduğu öğrenildi.\n[tele1 · 09:16] Adana'da Çukurova Belediyesi'ne operasyon: 44 gözaltı\n[trthaber · 09:29] Çukurova Belediyesine yolsuzluk ve rüşvet operasyonu: 44 gözaltı — Adana'da Çukurova Belediyesindeki ihale ve doğrudan teminlerde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, aralarında mevcut Belediye Başkanı Emrah Kozay ve önceki dönem Belediye Başkanı Soner Çetin'in de bulunduğu 44 kişi yakalandı.\n[diken · 09:43] YENİ Partili Çukurova Belediyesi'ne operasyon: Başkan dahil 44 gözaltı — 19.10.2026 - Adana’da YENİ Partili Çukurova Belediyesi’ne operasyon düzenlendi. Belediye başkanı Emrah Kozay dahil 44 kişi gözaltına alındı."
+  },
+  {
+   "key": "s1650__in-group-bias",
+   "output_file": "runs/bg/explain/s1650__in-group-bias.json",
+   "event_title": "Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "eski belediye başkanı ve CHP Genel Sekreter Yardımcısı Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "CHP'li Çukurova Belediyesi'ne",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "YENİ Partili Çukurova Belediyesi'ne operasyon",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "ahaber: sağ (85)",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Grup üyeliği açıkça belirtilmiş ve başlıkta öne çıkarılmış, ancak suç atfının üyeliğe bağlandığı gösterilmiyor.",
+   "skeptic_alternative": "Yerleşim puanları grup üyeliği değildir; parti etiketi haber değeri taşıyan olgusal bilgi olabilir.",
+   "missing_context": [
+    "Aynı kurumun benzer olaylarda farklı partilere nasıl etiket koyduğuna dair karşılaştırma",
+    "Benzer davalarda farklı partilerin nasıl verildiğine dair karşılaştırma"
+   ],
+   "headlines": "[turkiyegz · 07:34] Çukurova Belediyesi'ne yolsuzluk ve rüşvet operasyonu! Mevcut ve eski başkan dahil 44 gözaltı — Adana'da Çukurova Belediyesi'ndeki ihale ve doğrudan temin işlemlerinde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında 44 kişi gözaltına alındı. Gözaltına alınanlar arasında mevcut Belediye Başkanı Emrah Kozay ile eski Belediye Başkanı Soner Çetin de …\n[mynet · 07:39] Çukurova Belediyesi'ne operasyon! Belediye Başkanı Emrah Kozay dahil çok sayıda gözaltı — Adana güne hareketli dakikalarla başladı. Jandarma ekipleri Çukurova Belediyesi’ne yönelik operasyon düzenledi. Belediye Başkanı Emrah Kozay ve eski Belediye Başkanı Soner Çetin gözaltına alındı. Çetin, adli tıptaki sağlık kontrolünün ardından sorgulanmak üzere jandarma …\n[star · 07:40] Çukurova Belediyesi'ne rüşvet operasyonu! Eski ve yeni başkanlar gözaltında — Adana'da Çukurova Belediyesindeki ihale ve doğrudan teminlerde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, aralarında mevcut Belediye Başkanı Emrah Kozay ve önceki dönem Belediye Başkanı Soner Çetin'in de bulunduğu 44 kişi yakalandı.\n[takvim · 07:41] Çukurova Belediyesi'ne operasyon! Gözaltı kararları var — Adana'da Çukurova Belediyesi'ne jandarma operasyonu düzenlendi. Belediye binasında arama başlatılırken çok sayıda kişi hakkında gözaltı kararı verildiği öğrenildi.\n[sozcu · 07:42] SON DAKİKA... Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı var — Adana’da Çukurova Belediyesi’ne yönelik “rüşvet”, “ihaleye fesat karıştırma” ve “nitelikli dolandırıcılık” iddiaları kapsamında operasyon düzenlendi. Operasyonda, Belediye Başkanı Emrah Kozay ve eski Belediye Başkanı Soner Çetin’in de aralarında bulunduğu 44 kişi gözaltına …\n[ahaber · 07:48] CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu: Başkan Kozay ve eski başkan Çetin de... — Adana’da Çukurova Belediyesine yönelik yolsuzluk soruşturmasında, Belediye Başkanı Emrah Kozay ile eski belediye başkanı ve CHP Genel Sekreter Yardımcısı Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı. Belediye binası ve çok sayıda adreste arama yapılırken …\n[cumhuriyet · 07:48] Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı! — Son dakika gelişmesi... Adana'da Çukurova Belediyesi'ne yönelik yürütülen yolsuzluk soruşturması kapsamında düzenlenen operasyonda 44 kişi gözaltına alındı. Gözaltına alınanlar arasında Çukurova Belediye Başkanı Emrah Kozay ile eski belediye başkanı ve CHP Genel Sekreter …\n[ntv · 07:49] Çukurova Belediyesi'ne operasyon: Belediye Başkanı Emrah Kozay dahil 34 tutuklama — Adana'da Çukurova Belediyesi'ne yönelik operasyon yapıldı. Belediye Başkanı Emrah Kozay, önceki dönem Belediye Başkanı Soner Çetin ve 3 belediye başkan yardımcısı da dahil 34 şüpheli tutuklandı.\n[haberturk · 07:50] SON DAKİKA HABERİ: Çukurova Belediyesi'ne operasyon: 44 gözaltı — Son dakika haberi: Adana'da Çukurova Belediyesi'ne yönelik operasyon düzenlendi. Jandarma ekipleri belediyede arama yapıldı. Operasyon kapsamında Çukurova Belediye Başkanı Emrah Kozay ile geçen dönem Belediye Başkanı Soner Çetin ile birlikte toplam 44 kişi gözaltına alındı\n[sabah · 07:50] SON DAKİKA | Çukurova Belediyesi’ne operasyon! Jandarma binada arama yapıyor çok sayıda gözaltı kararı — Adana’da Çukurova Belediyesi’ne yönelik rüşvet ve ihaleye fesat karıştırma operasyonunda, mevcut başkan Emrah Kozay ve eski başkan Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı. Soruşturmada, başkanın teyzesinin örgüt yöneticisi konumunda olduğu ve 8 …\n[karar · 08:00] Adana'da Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı — Adana’da jandarma ekipleri Çukurova Belediyesi binasında arama ve inceleme başlattı. Operasyon kapsamında çok sayıda kişi hakkında gözaltı kararı bulunduğu bildirildi.\n[dirilis · 09:06] Çukurova Belediyesinde operasyon: Çok sayıda gözaltı kararı var! — Adana’da jandarma ekipleri Çukurova Belediyesi’ne yönelik operasyon düzenliyor. Jandarma ekipleri, belediye önünde güvenlik önlemi alarak belediye içerisinde arama gerçekleştiriyor. Operasyon kapsamında çok sayıda gözaltı kararı olduğu öğrenildi.\n[tele1 · 09:16] Adana'da Çukurova Belediyesi'ne operasyon: 44 gözaltı\n[trthaber · 09:29] Çukurova Belediyesine yolsuzluk ve rüşvet operasyonu: 44 gözaltı — Adana'da Çukurova Belediyesindeki ihale ve doğrudan teminlerde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, aralarında mevcut Belediye Başkanı Emrah Kozay ve önceki dönem Belediye Başkanı Soner Çetin'in de bulunduğu 44 kişi yakalandı.\n[diken · 09:43] YENİ Partili Çukurova Belediyesi'ne operasyon: Başkan dahil 44 gözaltı — 19.10.2026 - Adana’da YENİ Partili Çukurova Belediyesi’ne operasyon düzenlendi. Belediye başkanı Emrah Kozay dahil 44 kişi gözaltına alındı."
+  },
+  {
+   "key": "s1650__salience-bias",
+   "output_file": "runs/bg/explain/s1650__salience-bias.json",
+   "event_title": "Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Soruşturmada, başkanın teyzesinin örgüt yöneticisi konumunda olduğu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Başkan Kozay ve eski başkan Çetin de...",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Çarpıcı bir aile bağı ayrıntısı öne çıkarılıyor.",
+   "skeptic_alternative": "Başkanların gözaltısı haberin en önemli olgusal unsurudur.",
+   "missing_context": [
+    "Ayrıntının bir yargıyı haksız biçimde etkilediğine dair kanıt",
+    "Belirginliğin bir çıkarıma bağlandığı açık ifade"
+   ],
+   "headlines": "[turkiyegz · 07:34] Çukurova Belediyesi'ne yolsuzluk ve rüşvet operasyonu! Mevcut ve eski başkan dahil 44 gözaltı — Adana'da Çukurova Belediyesi'ndeki ihale ve doğrudan temin işlemlerinde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında 44 kişi gözaltına alındı. Gözaltına alınanlar arasında mevcut Belediye Başkanı Emrah Kozay ile eski Belediye Başkanı Soner Çetin de …\n[mynet · 07:39] Çukurova Belediyesi'ne operasyon! Belediye Başkanı Emrah Kozay dahil çok sayıda gözaltı — Adana güne hareketli dakikalarla başladı. Jandarma ekipleri Çukurova Belediyesi’ne yönelik operasyon düzenledi. Belediye Başkanı Emrah Kozay ve eski Belediye Başkanı Soner Çetin gözaltına alındı. Çetin, adli tıptaki sağlık kontrolünün ardından sorgulanmak üzere jandarma …\n[star · 07:40] Çukurova Belediyesi'ne rüşvet operasyonu! Eski ve yeni başkanlar gözaltında — Adana'da Çukurova Belediyesindeki ihale ve doğrudan teminlerde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, aralarında mevcut Belediye Başkanı Emrah Kozay ve önceki dönem Belediye Başkanı Soner Çetin'in de bulunduğu 44 kişi yakalandı.\n[takvim · 07:41] Çukurova Belediyesi'ne operasyon! Gözaltı kararları var — Adana'da Çukurova Belediyesi'ne jandarma operasyonu düzenlendi. Belediye binasında arama başlatılırken çok sayıda kişi hakkında gözaltı kararı verildiği öğrenildi.\n[sozcu · 07:42] SON DAKİKA... Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı var — Adana’da Çukurova Belediyesi’ne yönelik “rüşvet”, “ihaleye fesat karıştırma” ve “nitelikli dolandırıcılık” iddiaları kapsamında operasyon düzenlendi. Operasyonda, Belediye Başkanı Emrah Kozay ve eski Belediye Başkanı Soner Çetin’in de aralarında bulunduğu 44 kişi gözaltına …\n[ahaber · 07:48] CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu: Başkan Kozay ve eski başkan Çetin de... — Adana’da Çukurova Belediyesine yönelik yolsuzluk soruşturmasında, Belediye Başkanı Emrah Kozay ile eski belediye başkanı ve CHP Genel Sekreter Yardımcısı Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı. Belediye binası ve çok sayıda adreste arama yapılırken …\n[cumhuriyet · 07:48] Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı! — Son dakika gelişmesi... Adana'da Çukurova Belediyesi'ne yönelik yürütülen yolsuzluk soruşturması kapsamında düzenlenen operasyonda 44 kişi gözaltına alındı. Gözaltına alınanlar arasında Çukurova Belediye Başkanı Emrah Kozay ile eski belediye başkanı ve CHP Genel Sekreter …\n[ntv · 07:49] Çukurova Belediyesi'ne operasyon: Belediye Başkanı Emrah Kozay dahil 34 tutuklama — Adana'da Çukurova Belediyesi'ne yönelik operasyon yapıldı. Belediye Başkanı Emrah Kozay, önceki dönem Belediye Başkanı Soner Çetin ve 3 belediye başkan yardımcısı da dahil 34 şüpheli tutuklandı.\n[haberturk · 07:50] SON DAKİKA HABERİ: Çukurova Belediyesi'ne operasyon: 44 gözaltı — Son dakika haberi: Adana'da Çukurova Belediyesi'ne yönelik operasyon düzenlendi. Jandarma ekipleri belediyede arama yapıldı. Operasyon kapsamında Çukurova Belediye Başkanı Emrah Kozay ile geçen dönem Belediye Başkanı Soner Çetin ile birlikte toplam 44 kişi gözaltına alındı\n[sabah · 07:50] SON DAKİKA | Çukurova Belediyesi’ne operasyon! Jandarma binada arama yapıyor çok sayıda gözaltı kararı — Adana’da Çukurova Belediyesi’ne yönelik rüşvet ve ihaleye fesat karıştırma operasyonunda, mevcut başkan Emrah Kozay ve eski başkan Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı. Soruşturmada, başkanın teyzesinin örgüt yöneticisi konumunda olduğu ve 8 …\n[karar · 08:00] Adana'da Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı — Adana’da jandarma ekipleri Çukurova Belediyesi binasında arama ve inceleme başlattı. Operasyon kapsamında çok sayıda kişi hakkında gözaltı kararı bulunduğu bildirildi.\n[dirilis · 09:06] Çukurova Belediyesinde operasyon: Çok sayıda gözaltı kararı var! — Adana’da jandarma ekipleri Çukurova Belediyesi’ne yönelik operasyon düzenliyor. Jandarma ekipleri, belediye önünde güvenlik önlemi alarak belediye içerisinde arama gerçekleştiriyor. Operasyon kapsamında çok sayıda gözaltı kararı olduğu öğrenildi.\n[tele1 · 09:16] Adana'da Çukurova Belediyesi'ne operasyon: 44 gözaltı\n[trthaber · 09:29] Çukurova Belediyesine yolsuzluk ve rüşvet operasyonu: 44 gözaltı — Adana'da Çukurova Belediyesindeki ihale ve doğrudan teminlerde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, aralarında mevcut Belediye Başkanı Emrah Kozay ve önceki dönem Belediye Başkanı Soner Çetin'in de bulunduğu 44 kişi yakalandı.\n[diken · 09:43] YENİ Partili Çukurova Belediyesi'ne operasyon: Başkan dahil 44 gözaltı — 19.10.2026 - Adana’da YENİ Partili Çukurova Belediyesi’ne operasyon düzenlendi. Belediye başkanı Emrah Kozay dahil 44 kişi gözaltına alındı."
+  },
+  {
+   "key": "s1650__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s1650__leveling-and-sharpening.json",
+   "event_title": "Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Çukurova Belediyesi'ne operasyon: Belediye Başkanı Emrah Kozay dahil 34 tutuklama",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Çukurova Belediyesine yolsuzluk ve rüşvet operasyonu: 44 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Belediye Başkanı Emrah Kozay dahil 34 tutuklama",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Belediye başkanı dahil 44 gözaltı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı!",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Bir haber 44 gözaltıyı '34 tutuklama' olarak aktarıyor; aşama ve sayı farklılaşmış.",
+   "skeptic_alternative": "NTV başlığı sonradan tutuklama kararıyla güncellenmiş olabilir; saat damgası ilk yayını yansıtıyor olabilir.",
+   "missing_context": [
+    "Farkın bir sonuca etkisine dair kanıt",
+    "NTV haberinin güncellenme zamanı",
+    "Resmi tutuklama sayısı",
+    "Tutuklama kararının tarihi ve sayısı"
+   ],
+   "headlines": "[turkiyegz · 07:34] Çukurova Belediyesi'ne yolsuzluk ve rüşvet operasyonu! Mevcut ve eski başkan dahil 44 gözaltı — Adana'da Çukurova Belediyesi'ndeki ihale ve doğrudan temin işlemlerinde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında 44 kişi gözaltına alındı. Gözaltına alınanlar arasında mevcut Belediye Başkanı Emrah Kozay ile eski Belediye Başkanı Soner Çetin de …\n[mynet · 07:39] Çukurova Belediyesi'ne operasyon! Belediye Başkanı Emrah Kozay dahil çok sayıda gözaltı — Adana güne hareketli dakikalarla başladı. Jandarma ekipleri Çukurova Belediyesi’ne yönelik operasyon düzenledi. Belediye Başkanı Emrah Kozay ve eski Belediye Başkanı Soner Çetin gözaltına alındı. Çetin, adli tıptaki sağlık kontrolünün ardından sorgulanmak üzere jandarma …\n[star · 07:40] Çukurova Belediyesi'ne rüşvet operasyonu! Eski ve yeni başkanlar gözaltında — Adana'da Çukurova Belediyesindeki ihale ve doğrudan teminlerde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, aralarında mevcut Belediye Başkanı Emrah Kozay ve önceki dönem Belediye Başkanı Soner Çetin'in de bulunduğu 44 kişi yakalandı.\n[takvim · 07:41] Çukurova Belediyesi'ne operasyon! Gözaltı kararları var — Adana'da Çukurova Belediyesi'ne jandarma operasyonu düzenlendi. Belediye binasında arama başlatılırken çok sayıda kişi hakkında gözaltı kararı verildiği öğrenildi.\n[sozcu · 07:42] SON DAKİKA... Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı var — Adana’da Çukurova Belediyesi’ne yönelik “rüşvet”, “ihaleye fesat karıştırma” ve “nitelikli dolandırıcılık” iddiaları kapsamında operasyon düzenlendi. Operasyonda, Belediye Başkanı Emrah Kozay ve eski Belediye Başkanı Soner Çetin’in de aralarında bulunduğu 44 kişi gözaltına …\n[ahaber · 07:48] CHP'li Çukurova Belediyesi'ne rüşvet ve yolsuzluk operasyonu: Başkan Kozay ve eski başkan Çetin de... — Adana’da Çukurova Belediyesine yönelik yolsuzluk soruşturmasında, Belediye Başkanı Emrah Kozay ile eski belediye başkanı ve CHP Genel Sekreter Yardımcısı Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı. Belediye binası ve çok sayıda adreste arama yapılırken …\n[cumhuriyet · 07:48] Son Dakika... Çukurova Belediyesi'ne operasyon: Belediye başkanı dahil 44 gözaltı! — Son dakika gelişmesi... Adana'da Çukurova Belediyesi'ne yönelik yürütülen yolsuzluk soruşturması kapsamında düzenlenen operasyonda 44 kişi gözaltına alındı. Gözaltına alınanlar arasında Çukurova Belediye Başkanı Emrah Kozay ile eski belediye başkanı ve CHP Genel Sekreter …\n[ntv · 07:49] Çukurova Belediyesi'ne operasyon: Belediye Başkanı Emrah Kozay dahil 34 tutuklama — Adana'da Çukurova Belediyesi'ne yönelik operasyon yapıldı. Belediye Başkanı Emrah Kozay, önceki dönem Belediye Başkanı Soner Çetin ve 3 belediye başkan yardımcısı da dahil 34 şüpheli tutuklandı.\n[haberturk · 07:50] SON DAKİKA HABERİ: Çukurova Belediyesi'ne operasyon: 44 gözaltı — Son dakika haberi: Adana'da Çukurova Belediyesi'ne yönelik operasyon düzenlendi. Jandarma ekipleri belediyede arama yapıldı. Operasyon kapsamında Çukurova Belediye Başkanı Emrah Kozay ile geçen dönem Belediye Başkanı Soner Çetin ile birlikte toplam 44 kişi gözaltına alındı\n[sabah · 07:50] SON DAKİKA | Çukurova Belediyesi’ne operasyon! Jandarma binada arama yapıyor çok sayıda gözaltı kararı — Adana’da Çukurova Belediyesi’ne yönelik rüşvet ve ihaleye fesat karıştırma operasyonunda, mevcut başkan Emrah Kozay ve eski başkan Soner Çetin’in de aralarında bulunduğu 44 şüpheli gözaltına alındı. Soruşturmada, başkanın teyzesinin örgüt yöneticisi konumunda olduğu ve 8 …\n[karar · 08:00] Adana'da Çukurova Belediyesi'ne operasyon: Çok sayıda gözaltı kararı — Adana’da jandarma ekipleri Çukurova Belediyesi binasında arama ve inceleme başlattı. Operasyon kapsamında çok sayıda kişi hakkında gözaltı kararı bulunduğu bildirildi.\n[dirilis · 09:06] Çukurova Belediyesinde operasyon: Çok sayıda gözaltı kararı var! — Adana’da jandarma ekipleri Çukurova Belediyesi’ne yönelik operasyon düzenliyor. Jandarma ekipleri, belediye önünde güvenlik önlemi alarak belediye içerisinde arama gerçekleştiriyor. Operasyon kapsamında çok sayıda gözaltı kararı olduğu öğrenildi.\n[tele1 · 09:16] Adana'da Çukurova Belediyesi'ne operasyon: 44 gözaltı\n[trthaber · 09:29] Çukurova Belediyesine yolsuzluk ve rüşvet operasyonu: 44 gözaltı — Adana'da Çukurova Belediyesindeki ihale ve doğrudan teminlerde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, aralarında mevcut Belediye Başkanı Emrah Kozay ve önceki dönem Belediye Başkanı Soner Çetin'in de bulunduğu 44 kişi yakalandı.\n[diken · 09:43] YENİ Partili Çukurova Belediyesi'ne operasyon: Başkan dahil 44 gözaltı — 19.10.2026 - Adana’da YENİ Partili Çukurova Belediyesi’ne operasyon düzenlendi. Belediye başkanı Emrah Kozay dahil 44 kişi gözaltına alındı."
+  },
+  {
+   "key": "s1690__framing-effect",
+   "output_file": "runs/bg/explain/s1690__framing-effect.json",
+   "event_title": "Yeni Parti'nin ismi değişmeyecek",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Yeni Parti'nin ismi hükümsüz mü sayılacak? AYM karara bağlayacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "YENİ Parti'nin ismi değişecek mi?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yeni Parti’nin ismi için kritik karar! AYM talebi görüşecek",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı gündem bilgisi (AYM'nin talebi görüşeceği) kurumlarca 'hükümsüz mü sayılacak' ve 'kritik karar' gibi farklı vurgularla sunulmuş.",
+   "skeptic_alternative": "Başlık üslubu farkları editoryal tercih ve haber zamanlamasıyla açıklanabilir.",
+   "missing_context": [
+    "Eşdeğer çerçevelerin açıkça karşılaştırılması",
+    "Kurumların başlık seçimi gerekçesi",
+    "Okur ya da karar verici tepkisine dair veri",
+    "Okur yargısının sunuluşa göre değiştiğine dair veri"
+   ],
+   "headlines": "[sabah · 15:21] Yeni Parti'nin ismi hükümsüz mü sayılacak? AYM karara bağlayacak — Anayasa Mahkemesi AYM, Yeni Parti’nin ’isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi’ talebini, yarınki Genel Kurul gündeminde görüşecek.\n[cumhuriyet · 15:29] YENİ Parti'nin ismi için kritik tarih belli oldu: AYM'nin gündemine alındı — Anayasa Mahkemesi (AYM), YENİ Parti'nin isim ve rumuzunun hükümsüz sayılması talebini 21 Ekim Çarşamba günü görüşecek. Yenilik Partisi'nin isim benzerliği nedeniyle yaptığı başvuruyla başlayan süreçte, YENİ Parti'nin savunmasını sunmasının ardından dosya yeniden Yüksek …\n[sozcu · 15:44] YENİ Parti'nin ismi değişecek mi? — Yenilik Partisi’nin \"isim benzerliği\" gerekçesiyle YENİ Parti'ye açtığı iptal davasının görüşülme tarihi netleşti. Anayasa Mahkemesi, kritik itirazı 21 Ekim Çarşamba günü (yarın) gündemine alacak.\n[takvim · 16:00] AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek — Yenilik Partisi'nin isim benzerliği gerekçesiyle yaptığı başvuruyu değerlendiren AYM, Yeni Parti'nin isim değişikliği talebini oy çokluğuyla reddetti.\n[ahaber · 16:07] Yeni Parti’nin ismi için kritik karar! AYM talebi görüşecek — Anayasa Mahkemesi, Yeni Parti’nin isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi talebini Genel Kurulda görüşecek. Yenilik Partisinin isim benzerliği nedeniyle yaptığı başvuruyla başlayan süreçte, Yeni Parti savunmasını Yüksek Mahkemeye …\n[ntv · 08:19] AYM'den Yeni Parti'nin ismi için karar — Anayasa Mahkemesi, Yeni Parti'nin isim değişikliğine ilişkin yapılan başvuruyu oy çokluğuyla reddetti.\n[mynet · 08:50] SON DAKİKA | Yeni Parti'nin ismi değişmeyecek! AYM kararını verdi — Anayasa Mahkemesi (AYM), Yeni Parti'nin ismine ve rumuzuna yapılan itirazı bugün karara bağladı. İsim değişikliği talebi reddedildi, Yeni Parti'nin ismi değişmeyecek. Özel, \"Hayırlı olsun. Millete rağmen hiçbir şey olmaz. Yolumuza devam ediyoruz\" diye konuştu.\n[birgun · 11:18] AYM karar verdi: YENİ Parti'nin ismi değişmeyecek — Anayasa Mahkemesi, YENİ Parti’nin isim ve rumuzunun hükümsüz sayılması ve siyasi parti sicilinden silinmesi talebini reddetti. YENİ Parti lideri Özel, kararın ardından yaptığı ilk açıklamada, \"Seçimlerde YENİ Parti'de buluşmak ve seçimden sonra YENİ Parti iktidarında herkesin …\n[turkiyegz · 11:19] AYM'den Yeni Parti kararı! İsmi değişecek mi? — Anayasa Mahkemesi (AYM) Yeni Parti'nin isminin değiştirilmesi talebini oy çokluğuyla reddetti. Yeni Parti'nin ismi değişmeyecek.\n[karar · 11:21] AYM kararını verdi: YENİ Parti'nin ismi değişmeyecek — AYM, Yenilik Partisi'nin itirazı üzerine YENİ Parti'nin isim ve rumuzunun hükümsüz sayılması ve siyasi partiler sicilinden silinmesi talebini oy çokluğuyla reddetti. Yargıtay Cumhuriyet Başsavcılığının isim benzerliği gerekçesiyle değişiklik yapılmasını istediği YENİ Parti, …\n[hurriyet · 11:22] AYM karar verdi... Yeni Parti’nin ismi değişmeyecek — Anayasa Mahkemesi, Yeni Parti'nin isminin 'Yenilik Partisi' ile benzerlik taşıdığı gerekçesiyle hükümsüz sayılması ve siyasi partiler sicilinden silinmesi talebini oy çokluğuyla reddetti.\n[trthaber · 11:26] Yeni Parti'nin ismi değişmeyecek — Anayasa Mahkemesi (AYM), \"Yeni Parti'nin isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi\" talebini oy çokluğuyla reddetti.\n[diken · 11:26] AYM kararı: YENİ Parti'nin adı değişmeyecek — 21.10.2026 - Anayasa Mahkemesi (AYM), YENİ Parti'nin isminin ve rumuzunun hükümsüzlüğüne ve siyasi parti sicilinden terkinine karar verilmesi talebini reddetti.\n[milligazete · 11:31] Yeni Parti'nin ismi değişecek mi? AYM kararını açıkladı — Anayasa Mahkemesi, Yenilik Partisi'nin yaptığı itirazı oy çokluğuyla reddederek Yeni Parti'nin isminin ve kısaltmasının iptal edilmesi talebine son…\n[tele1 · 11:39] Yeni Parti'nin ismi değişmeyecek"
+  },
+  {
+   "key": "s1690__salience-bias",
+   "output_file": "runs/bg/explain/s1690__salience-bias.json",
+   "event_title": "Yeni Parti'nin ismi değişmeyecek",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "SON DAKİKA | Yeni Parti'nin ismi değişmeyecek! AYM kararını verdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Özel, \"Hayırlı olsun. Millete rağmen hiçbir şey olmaz. Yolumuza devam ediyoruz\" diye konuştu.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SON DAKİKA | Yeni Parti'nin ismi değişmeyecek!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'SON DAKİKA' etiketi ve çarpıcı alıntı öne çıkarılmış; ancak bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+   "skeptic_alternative": "Son dakika etiketi haber akışının olağan biçim tercihi olabilir.",
+   "missing_context": [
+    "Oy dağılımı gibi daha az görünür bilgiler",
+    "Vurgunun bir yargı veya seçimi etkilediğine dair karşılaştırmalı veri",
+    "Öne çıkan ayrıntının bir çıkarımı nasıl etkilediğine dair kanıt"
+   ],
+   "headlines": "[sabah · 15:21] Yeni Parti'nin ismi hükümsüz mü sayılacak? AYM karara bağlayacak — Anayasa Mahkemesi AYM, Yeni Parti’nin ’isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi’ talebini, yarınki Genel Kurul gündeminde görüşecek.\n[cumhuriyet · 15:29] YENİ Parti'nin ismi için kritik tarih belli oldu: AYM'nin gündemine alındı — Anayasa Mahkemesi (AYM), YENİ Parti'nin isim ve rumuzunun hükümsüz sayılması talebini 21 Ekim Çarşamba günü görüşecek. Yenilik Partisi'nin isim benzerliği nedeniyle yaptığı başvuruyla başlayan süreçte, YENİ Parti'nin savunmasını sunmasının ardından dosya yeniden Yüksek …\n[sozcu · 15:44] YENİ Parti'nin ismi değişecek mi? — Yenilik Partisi’nin \"isim benzerliği\" gerekçesiyle YENİ Parti'ye açtığı iptal davasının görüşülme tarihi netleşti. Anayasa Mahkemesi, kritik itirazı 21 Ekim Çarşamba günü (yarın) gündemine alacak.\n[takvim · 16:00] AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek — Yenilik Partisi'nin isim benzerliği gerekçesiyle yaptığı başvuruyu değerlendiren AYM, Yeni Parti'nin isim değişikliği talebini oy çokluğuyla reddetti.\n[ahaber · 16:07] Yeni Parti’nin ismi için kritik karar! AYM talebi görüşecek — Anayasa Mahkemesi, Yeni Parti’nin isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi talebini Genel Kurulda görüşecek. Yenilik Partisinin isim benzerliği nedeniyle yaptığı başvuruyla başlayan süreçte, Yeni Parti savunmasını Yüksek Mahkemeye …\n[ntv · 08:19] AYM'den Yeni Parti'nin ismi için karar — Anayasa Mahkemesi, Yeni Parti'nin isim değişikliğine ilişkin yapılan başvuruyu oy çokluğuyla reddetti.\n[mynet · 08:50] SON DAKİKA | Yeni Parti'nin ismi değişmeyecek! AYM kararını verdi — Anayasa Mahkemesi (AYM), Yeni Parti'nin ismine ve rumuzuna yapılan itirazı bugün karara bağladı. İsim değişikliği talebi reddedildi, Yeni Parti'nin ismi değişmeyecek. Özel, \"Hayırlı olsun. Millete rağmen hiçbir şey olmaz. Yolumuza devam ediyoruz\" diye konuştu.\n[birgun · 11:18] AYM karar verdi: YENİ Parti'nin ismi değişmeyecek — Anayasa Mahkemesi, YENİ Parti’nin isim ve rumuzunun hükümsüz sayılması ve siyasi parti sicilinden silinmesi talebini reddetti. YENİ Parti lideri Özel, kararın ardından yaptığı ilk açıklamada, \"Seçimlerde YENİ Parti'de buluşmak ve seçimden sonra YENİ Parti iktidarında herkesin …\n[turkiyegz · 11:19] AYM'den Yeni Parti kararı! İsmi değişecek mi? — Anayasa Mahkemesi (AYM) Yeni Parti'nin isminin değiştirilmesi talebini oy çokluğuyla reddetti. Yeni Parti'nin ismi değişmeyecek.\n[karar · 11:21] AYM kararını verdi: YENİ Parti'nin ismi değişmeyecek — AYM, Yenilik Partisi'nin itirazı üzerine YENİ Parti'nin isim ve rumuzunun hükümsüz sayılması ve siyasi partiler sicilinden silinmesi talebini oy çokluğuyla reddetti. Yargıtay Cumhuriyet Başsavcılığının isim benzerliği gerekçesiyle değişiklik yapılmasını istediği YENİ Parti, …\n[hurriyet · 11:22] AYM karar verdi... Yeni Parti’nin ismi değişmeyecek — Anayasa Mahkemesi, Yeni Parti'nin isminin 'Yenilik Partisi' ile benzerlik taşıdığı gerekçesiyle hükümsüz sayılması ve siyasi partiler sicilinden silinmesi talebini oy çokluğuyla reddetti.\n[trthaber · 11:26] Yeni Parti'nin ismi değişmeyecek — Anayasa Mahkemesi (AYM), \"Yeni Parti'nin isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi\" talebini oy çokluğuyla reddetti.\n[diken · 11:26] AYM kararı: YENİ Parti'nin adı değişmeyecek — 21.10.2026 - Anayasa Mahkemesi (AYM), YENİ Parti'nin isminin ve rumuzunun hükümsüzlüğüne ve siyasi parti sicilinden terkinine karar verilmesi talebini reddetti.\n[milligazete · 11:31] Yeni Parti'nin ismi değişecek mi? AYM kararını açıkladı — Anayasa Mahkemesi, Yenilik Partisi'nin yaptığı itirazı oy çokluğuyla reddederek Yeni Parti'nin isminin ve kısaltmasının iptal edilmesi talebine son…\n[tele1 · 11:39] Yeni Parti'nin ismi değişmeyecek"
+  },
+  {
+   "key": "s1690__source-confusion",
+   "output_file": "runs/bg/explain/s1690__source-confusion.json",
+   "event_title": "Yeni Parti'nin ismi değişmeyecek",
+   "concept": "Source Confusion",
+   "definition": "Source confusion is difficulty or error in identifying where a remembered fact, image, or event came from, such as mistaking something heard, read, suggested, or imagined for direct experience. The Decision Lab labels this entry “Bias” but defines a memory-source error; source confusion can occur without faulty reasoning and source detachment can also support learning.",
+   "quotes": [
+    {
+     "quote": "Yargıtay Cumhuriyet Başsavcılığının isim benzerliği gerekçesiyle değişiklik yapılmasını istediği YENİ Parti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yenilik Partisi'nin isim benzerliği gerekçesiyle yaptığı başvuruyu değerlendiren AYM",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yenilik Partisi’nin \"isim benzerliği\" gerekçesiyle YENİ Parti'ye açtığı iptal davasının",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Talebin kaynağı bir kurumda Yargıtay Cumhuriyet Başsavcılığı, diğerlerinde Yenilik Partisi olarak verilmiş; kaynak atfında olası uyumsuzluk.",
+   "skeptic_alternative": "Farklı kurumlar aynı resmi karar bilgisini farklı ayrıntı düzeyinde aktarıyor.",
+   "missing_context": [
+    "AYM dosyasının resmi başvuru kaydı",
+    "Başsavcılığın süreçteki rolüne dair belge",
+    "Kaynak atfı hatasını gösteren kayıt veya düzeltme"
+   ],
+   "headlines": "[sabah · 15:21] Yeni Parti'nin ismi hükümsüz mü sayılacak? AYM karara bağlayacak — Anayasa Mahkemesi AYM, Yeni Parti’nin ’isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi’ talebini, yarınki Genel Kurul gündeminde görüşecek.\n[cumhuriyet · 15:29] YENİ Parti'nin ismi için kritik tarih belli oldu: AYM'nin gündemine alındı — Anayasa Mahkemesi (AYM), YENİ Parti'nin isim ve rumuzunun hükümsüz sayılması talebini 21 Ekim Çarşamba günü görüşecek. Yenilik Partisi'nin isim benzerliği nedeniyle yaptığı başvuruyla başlayan süreçte, YENİ Parti'nin savunmasını sunmasının ardından dosya yeniden Yüksek …\n[sozcu · 15:44] YENİ Parti'nin ismi değişecek mi? — Yenilik Partisi’nin \"isim benzerliği\" gerekçesiyle YENİ Parti'ye açtığı iptal davasının görüşülme tarihi netleşti. Anayasa Mahkemesi, kritik itirazı 21 Ekim Çarşamba günü (yarın) gündemine alacak.\n[takvim · 16:00] AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek — Yenilik Partisi'nin isim benzerliği gerekçesiyle yaptığı başvuruyu değerlendiren AYM, Yeni Parti'nin isim değişikliği talebini oy çokluğuyla reddetti.\n[ahaber · 16:07] Yeni Parti’nin ismi için kritik karar! AYM talebi görüşecek — Anayasa Mahkemesi, Yeni Parti’nin isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi talebini Genel Kurulda görüşecek. Yenilik Partisinin isim benzerliği nedeniyle yaptığı başvuruyla başlayan süreçte, Yeni Parti savunmasını Yüksek Mahkemeye …\n[ntv · 08:19] AYM'den Yeni Parti'nin ismi için karar — Anayasa Mahkemesi, Yeni Parti'nin isim değişikliğine ilişkin yapılan başvuruyu oy çokluğuyla reddetti.\n[mynet · 08:50] SON DAKİKA | Yeni Parti'nin ismi değişmeyecek! AYM kararını verdi — Anayasa Mahkemesi (AYM), Yeni Parti'nin ismine ve rumuzuna yapılan itirazı bugün karara bağladı. İsim değişikliği talebi reddedildi, Yeni Parti'nin ismi değişmeyecek. Özel, \"Hayırlı olsun. Millete rağmen hiçbir şey olmaz. Yolumuza devam ediyoruz\" diye konuştu.\n[birgun · 11:18] AYM karar verdi: YENİ Parti'nin ismi değişmeyecek — Anayasa Mahkemesi, YENİ Parti’nin isim ve rumuzunun hükümsüz sayılması ve siyasi parti sicilinden silinmesi talebini reddetti. YENİ Parti lideri Özel, kararın ardından yaptığı ilk açıklamada, \"Seçimlerde YENİ Parti'de buluşmak ve seçimden sonra YENİ Parti iktidarında herkesin …\n[turkiyegz · 11:19] AYM'den Yeni Parti kararı! İsmi değişecek mi? — Anayasa Mahkemesi (AYM) Yeni Parti'nin isminin değiştirilmesi talebini oy çokluğuyla reddetti. Yeni Parti'nin ismi değişmeyecek.\n[karar · 11:21] AYM kararını verdi: YENİ Parti'nin ismi değişmeyecek — AYM, Yenilik Partisi'nin itirazı üzerine YENİ Parti'nin isim ve rumuzunun hükümsüz sayılması ve siyasi partiler sicilinden silinmesi talebini oy çokluğuyla reddetti. Yargıtay Cumhuriyet Başsavcılığının isim benzerliği gerekçesiyle değişiklik yapılmasını istediği YENİ Parti, …\n[hurriyet · 11:22] AYM karar verdi... Yeni Parti’nin ismi değişmeyecek — Anayasa Mahkemesi, Yeni Parti'nin isminin 'Yenilik Partisi' ile benzerlik taşıdığı gerekçesiyle hükümsüz sayılması ve siyasi partiler sicilinden silinmesi talebini oy çokluğuyla reddetti.\n[trthaber · 11:26] Yeni Parti'nin ismi değişmeyecek — Anayasa Mahkemesi (AYM), \"Yeni Parti'nin isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi\" talebini oy çokluğuyla reddetti.\n[diken · 11:26] AYM kararı: YENİ Parti'nin adı değişmeyecek — 21.10.2026 - Anayasa Mahkemesi (AYM), YENİ Parti'nin isminin ve rumuzunun hükümsüzlüğüne ve siyasi parti sicilinden terkinine karar verilmesi talebini reddetti.\n[milligazete · 11:31] Yeni Parti'nin ismi değişecek mi? AYM kararını açıkladı — Anayasa Mahkemesi, Yenilik Partisi'nin yaptığı itirazı oy çokluğuyla reddederek Yeni Parti'nin isminin ve kısaltmasının iptal edilmesi talebine son…\n[tele1 · 11:39] Yeni Parti'nin ismi değişmeyecek"
+  },
+  {
+   "key": "s1690__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s1690__leveling-and-sharpening.json",
+   "event_title": "Yeni Parti'nin ismi değişmeyecek",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "[takvim · 16:00] AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "talebini, yarınki Genel Kurul gündeminde görüşecek.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Anayasa Mahkemesi, kritik itirazı 21 Ekim Çarşamba günü (yarın) gündemine alacak.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İlk başlık: 2026-10-20T15:21",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yargıtay Cumhuriyet Başsavcılığının isim benzerliği gerekçesiyle değişiklik yapılmasını istediği",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Takvim 16:00'da kararın verildiğini yazarken aynı saatlerde diğer kurumlar görüşmenin ertesi gün olacağını bildiriyor; sonuç öne alınmış/keskinleştirilmiş görünüyor.",
+   "skeptic_alternative": "Zaman damgası/tarih hatası, sonradan güncellenen içerik veya ajans metninin farklı sürümü olabilir.",
+   "missing_context": [
+    "Başvurunun resmi tarafını gösteren kayıt",
+    "Farkın okur yargısına etkisi",
+    "Haberin sonradan güncellenip güncellenmediği",
+    "Takvim haberinin gerçek yayın tarihi",
+    "Takvim haberinin tam yayın tarihi"
+   ],
+   "headlines": "[sabah · 15:21] Yeni Parti'nin ismi hükümsüz mü sayılacak? AYM karara bağlayacak — Anayasa Mahkemesi AYM, Yeni Parti’nin ’isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi’ talebini, yarınki Genel Kurul gündeminde görüşecek.\n[cumhuriyet · 15:29] YENİ Parti'nin ismi için kritik tarih belli oldu: AYM'nin gündemine alındı — Anayasa Mahkemesi (AYM), YENİ Parti'nin isim ve rumuzunun hükümsüz sayılması talebini 21 Ekim Çarşamba günü görüşecek. Yenilik Partisi'nin isim benzerliği nedeniyle yaptığı başvuruyla başlayan süreçte, YENİ Parti'nin savunmasını sunmasının ardından dosya yeniden Yüksek …\n[sozcu · 15:44] YENİ Parti'nin ismi değişecek mi? — Yenilik Partisi’nin \"isim benzerliği\" gerekçesiyle YENİ Parti'ye açtığı iptal davasının görüşülme tarihi netleşti. Anayasa Mahkemesi, kritik itirazı 21 Ekim Çarşamba günü (yarın) gündemine alacak.\n[takvim · 16:00] AYM kararı verdi: Yeni Parti'nin ismi değişmeyecek — Yenilik Partisi'nin isim benzerliği gerekçesiyle yaptığı başvuruyu değerlendiren AYM, Yeni Parti'nin isim değişikliği talebini oy çokluğuyla reddetti.\n[ahaber · 16:07] Yeni Parti’nin ismi için kritik karar! AYM talebi görüşecek — Anayasa Mahkemesi, Yeni Parti’nin isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi talebini Genel Kurulda görüşecek. Yenilik Partisinin isim benzerliği nedeniyle yaptığı başvuruyla başlayan süreçte, Yeni Parti savunmasını Yüksek Mahkemeye …\n[ntv · 08:19] AYM'den Yeni Parti'nin ismi için karar — Anayasa Mahkemesi, Yeni Parti'nin isim değişikliğine ilişkin yapılan başvuruyu oy çokluğuyla reddetti.\n[mynet · 08:50] SON DAKİKA | Yeni Parti'nin ismi değişmeyecek! AYM kararını verdi — Anayasa Mahkemesi (AYM), Yeni Parti'nin ismine ve rumuzuna yapılan itirazı bugün karara bağladı. İsim değişikliği talebi reddedildi, Yeni Parti'nin ismi değişmeyecek. Özel, \"Hayırlı olsun. Millete rağmen hiçbir şey olmaz. Yolumuza devam ediyoruz\" diye konuştu.\n[birgun · 11:18] AYM karar verdi: YENİ Parti'nin ismi değişmeyecek — Anayasa Mahkemesi, YENİ Parti’nin isim ve rumuzunun hükümsüz sayılması ve siyasi parti sicilinden silinmesi talebini reddetti. YENİ Parti lideri Özel, kararın ardından yaptığı ilk açıklamada, \"Seçimlerde YENİ Parti'de buluşmak ve seçimden sonra YENİ Parti iktidarında herkesin …\n[turkiyegz · 11:19] AYM'den Yeni Parti kararı! İsmi değişecek mi? — Anayasa Mahkemesi (AYM) Yeni Parti'nin isminin değiştirilmesi talebini oy çokluğuyla reddetti. Yeni Parti'nin ismi değişmeyecek.\n[karar · 11:21] AYM kararını verdi: YENİ Parti'nin ismi değişmeyecek — AYM, Yenilik Partisi'nin itirazı üzerine YENİ Parti'nin isim ve rumuzunun hükümsüz sayılması ve siyasi partiler sicilinden silinmesi talebini oy çokluğuyla reddetti. Yargıtay Cumhuriyet Başsavcılığının isim benzerliği gerekçesiyle değişiklik yapılmasını istediği YENİ Parti, …\n[hurriyet · 11:22] AYM karar verdi... Yeni Parti’nin ismi değişmeyecek — Anayasa Mahkemesi, Yeni Parti'nin isminin 'Yenilik Partisi' ile benzerlik taşıdığı gerekçesiyle hükümsüz sayılması ve siyasi partiler sicilinden silinmesi talebini oy çokluğuyla reddetti.\n[trthaber · 11:26] Yeni Parti'nin ismi değişmeyecek — Anayasa Mahkemesi (AYM), \"Yeni Parti'nin isim ve rumuzunun hükümsüzlüğüne ve siyasi partiler sicilinden terkinine karar verilmesi\" talebini oy çokluğuyla reddetti.\n[diken · 11:26] AYM kararı: YENİ Parti'nin adı değişmeyecek — 21.10.2026 - Anayasa Mahkemesi (AYM), YENİ Parti'nin isminin ve rumuzunun hükümsüzlüğüne ve siyasi parti sicilinden terkinine karar verilmesi talebini reddetti.\n[milligazete · 11:31] Yeni Parti'nin ismi değişecek mi? AYM kararını açıkladı — Anayasa Mahkemesi, Yenilik Partisi'nin yaptığı itirazı oy çokluğuyla reddederek Yeni Parti'nin isminin ve kısaltmasının iptal edilmesi talebine son…\n[tele1 · 11:39] Yeni Parti'nin ismi değişmeyecek"
+  },
+  {
+   "key": "s4228__in-group-bias",
+   "output_file": "runs/bg/explain/s4228__in-group-bias.json",
+   "event_title": "Alperen Şengün'den NBA'de double-double! Rockets kazandı",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "NBA'de milli basketbolcumuz Alperen Şengün'ün forma giydiği Houston Rockets",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Alperen Şengün \"triple-double\"ın kıyısından döndü! Houston Rockets kazandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "NBA'de milli basketbolcumuz Alperen Şengün'ün",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Milli basketbolcumuz' ifadesi grup aidiyetini açıkça kuruyor ve haber takım galibiyeti yerine Türk oyuncuya odaklanıyor.",
+   "skeptic_alternative": "Milli oyuncuya odaklanmak yerli okur ilgisine dayalı olağan bir haber değeri seçimidir; istatistikler tüm kurumlarda benzer.",
+   "missing_context": [
+    "Abartılı/eşitsiz değerlendirme kanıtı",
+    "Diğer oyunculara uygulanan karşılaştırmalı standart",
+    "Diğer oyuncuların benzer performanslarının nasıl haberleştirildiği",
+    "Karşılaştırılabilir yabancı oyuncu haberleri"
+   ],
+   "headlines": "[ahaber · 08:57] Alperen Şengün'den NBA'de double-double! Houston Rockets, Atlanta Hawks'ı deplasmanda devirdi — Amerikan Basketbol Ligi'nde (NBA) Houston Rockets, deplasmanda Atlanta Hawks'ı 121-114 mağlup ederek sezona 3'te 3 ile başladı. Milli basketbolcu Alperen Şengün, 17 sayı, 10 ribaunt ve 7 asistle double-double yaparken Houston Rockets, 2017-2018 sezonundan bu yana ilk kez lige 3 …\n[yenisafak · 10:06] Alperen Şengün'den 'double-double' — Amerikan Basketbol Ligi'nde (NBA) Houston Rockets, milli oyuncu Alperen Şengün'ün \"double-double\" yaptığı maçta Atlanta Hawks'ı 121-114 yendi.\n[cumhuriyet · 10:06] Alperen Şengün 'double-double' yaptı: Houston, Atlanta'ya şans tanımadı — NBA'de Houston Rockets, Atlanta Hawks'ı 121-114 mağlup etti. Milli basketbolcu Alperen Şengün mücadeleyi 17 sayı, 10 ribaunt, 7 asist ve 1 top çalma ile tamamladı.\n[haberturk · 10:07] Alperen Şengün double-double yaptı! Houston Rockets Atlanta Hawks'ı mağlup etti - Basketbol Haberleri - Habertürk Spor — NBA'de milli basketbolcumuz Alperen Şengün'ün forma giydiği Houston Rockets, Atlanta Hawks'ı 121-114 mağlup etti. Alperen Şengün parkeden 17 sayı, 10 ribaunt, 7 asist ve 1 top çalma ile ayrıldı.\n[aa · 10:07] NBA'de Rockets'ın galibiyetine Alperen Şengün'den \"double-double\" katkı\n[birgun · 10:29] Alperen Şengün’den double-double, Houston’dan üçte üç\n[mynet · 10:40] NBA'de Rockets'ın galibiyetine Alperen Şengün'den \"double-double\" katkı — Amerikan Basketbol Ligi'nde (NBA) Houston Rockets, milli oyuncu Alperen Şengün'ün \"double-double\" yaptığı maçta Atlanta Hawks'ı 121-114 yendi.\n[sabah · 10:44] NBA'de Rockets'ın galibiyetine Alperen Şengün'den \"double-double\" katkı — Amerikan Basketbol Ligi’nde NBA Houston Rockets, milli oyuncu Alperen Şengün’ün ’double-double’ yaptığı maçta Atlanta Hawks’ı 121-114 yendi.\n[sozcu · 10:50] Alperen Şengün 'double-double' yaptı: Houston Rockets, Atlanta'yı yıktı — NBA'de Houston Rockets, Atlanta Hawks'ı 121-114'le geçti. Houston Rockets forması giyen milli basketbolcu Alperen Şengün, maçta ''double-double'' yaptı.\n[ntv · 10:51] Alperen Şengün yine double-double yaptı, Rockets kazandı\n[takvim · 11:00] Alperen Şengün'den NBA'de double-double! Rockets kazandı — NBA'de Alperen Şengün, Atlanta Hawks karşısında 17 sayı, 10 ribaunt ve 7 asistle double-double yaptı. Houston Rockets, rakibini 121-114 mağlup etti.\n[karar · 13:40] Alperen Şengün'den bir double-double daha — Houston Rockets, Alperen Şengün’ün double-double yaptığı maçta Atlanta Hawks’ı 121-114 mağlup ederek sezona 3’te 3 ile başladı. Milli basketbolcu mücadeleyi 17 sayı, 10 ribaunt ve 7 asistle tamamladı.\n[haberler · 10:04] Rockets, Alperen Şengün'ün 6 top çalmayla rekor kırdığı maçta Hawks'ı 120-110 yendi\n[star · 10:24] Alperen Şengün \"triple-double\"ın kıyısından döndü! Houston Rockets kazandı\n[aksam · 10:40] Rockets, Alperen Şengün'ün \"triple-double\"a yaklaştığı maçta Hawks'ı devirdi"
+  },
+  {
+   "key": "s4228__framing-effect",
+   "output_file": "runs/bg/explain/s4228__framing-effect.json",
+   "event_title": "Alperen Şengün'den NBA'de double-double! Rockets kazandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Houston Rockets, Atlanta'yı yıktı — NBA'de Houston Rockets, Atlanta Hawks'ı 121-114'le geçti.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Houston, Atlanta'ya şans tanımadı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Alperen Şengün'den bir double-double daha",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Alperen Şengün \"triple-double\"ın kıyısından döndü!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı 121-114 sonucu 'yıktı', 'şans tanımadı' ve 'geçti' gibi farklı yoğunlukta ifadelerle sunulmuş.",
+   "skeptic_alternative": "Star, Akşam ve Haberler başlıkları farklı skor ve tarihle başka bir maça ait olabilir; eşdeğerlik kurulmamış.",
+   "missing_context": [
+    "Başlıkların aynı maça ait olup olmadığı",
+    "Okur değerlendirmesinin ifadeye göre değiştiğine dair veri",
+    "Sunum farkına bağlı okur yargısı"
+   ],
+   "headlines": "[ahaber · 08:57] Alperen Şengün'den NBA'de double-double! Houston Rockets, Atlanta Hawks'ı deplasmanda devirdi — Amerikan Basketbol Ligi'nde (NBA) Houston Rockets, deplasmanda Atlanta Hawks'ı 121-114 mağlup ederek sezona 3'te 3 ile başladı. Milli basketbolcu Alperen Şengün, 17 sayı, 10 ribaunt ve 7 asistle double-double yaparken Houston Rockets, 2017-2018 sezonundan bu yana ilk kez lige 3 …\n[yenisafak · 10:06] Alperen Şengün'den 'double-double' — Amerikan Basketbol Ligi'nde (NBA) Houston Rockets, milli oyuncu Alperen Şengün'ün \"double-double\" yaptığı maçta Atlanta Hawks'ı 121-114 yendi.\n[cumhuriyet · 10:06] Alperen Şengün 'double-double' yaptı: Houston, Atlanta'ya şans tanımadı — NBA'de Houston Rockets, Atlanta Hawks'ı 121-114 mağlup etti. Milli basketbolcu Alperen Şengün mücadeleyi 17 sayı, 10 ribaunt, 7 asist ve 1 top çalma ile tamamladı.\n[haberturk · 10:07] Alperen Şengün double-double yaptı! Houston Rockets Atlanta Hawks'ı mağlup etti - Basketbol Haberleri - Habertürk Spor — NBA'de milli basketbolcumuz Alperen Şengün'ün forma giydiği Houston Rockets, Atlanta Hawks'ı 121-114 mağlup etti. Alperen Şengün parkeden 17 sayı, 10 ribaunt, 7 asist ve 1 top çalma ile ayrıldı.\n[aa · 10:07] NBA'de Rockets'ın galibiyetine Alperen Şengün'den \"double-double\" katkı\n[birgun · 10:29] Alperen Şengün’den double-double, Houston’dan üçte üç\n[mynet · 10:40] NBA'de Rockets'ın galibiyetine Alperen Şengün'den \"double-double\" katkı — Amerikan Basketbol Ligi'nde (NBA) Houston Rockets, milli oyuncu Alperen Şengün'ün \"double-double\" yaptığı maçta Atlanta Hawks'ı 121-114 yendi.\n[sabah · 10:44] NBA'de Rockets'ın galibiyetine Alperen Şengün'den \"double-double\" katkı — Amerikan Basketbol Ligi’nde NBA Houston Rockets, milli oyuncu Alperen Şengün’ün ’double-double’ yaptığı maçta Atlanta Hawks’ı 121-114 yendi.\n[sozcu · 10:50] Alperen Şengün 'double-double' yaptı: Houston Rockets, Atlanta'yı yıktı — NBA'de Houston Rockets, Atlanta Hawks'ı 121-114'le geçti. Houston Rockets forması giyen milli basketbolcu Alperen Şengün, maçta ''double-double'' yaptı.\n[ntv · 10:51] Alperen Şengün yine double-double yaptı, Rockets kazandı\n[takvim · 11:00] Alperen Şengün'den NBA'de double-double! Rockets kazandı — NBA'de Alperen Şengün, Atlanta Hawks karşısında 17 sayı, 10 ribaunt ve 7 asistle double-double yaptı. Houston Rockets, rakibini 121-114 mağlup etti.\n[karar · 13:40] Alperen Şengün'den bir double-double daha — Houston Rockets, Alperen Şengün’ün double-double yaptığı maçta Atlanta Hawks’ı 121-114 mağlup ederek sezona 3’te 3 ile başladı. Milli basketbolcu mücadeleyi 17 sayı, 10 ribaunt ve 7 asistle tamamladı.\n[haberler · 10:04] Rockets, Alperen Şengün'ün 6 top çalmayla rekor kırdığı maçta Hawks'ı 120-110 yendi\n[star · 10:24] Alperen Şengün \"triple-double\"ın kıyısından döndü! Houston Rockets kazandı\n[aksam · 10:40] Rockets, Alperen Şengün'ün \"triple-double\"a yaklaştığı maçta Hawks'ı devirdi"
+  },
+  {
+   "key": "s4537__authority-bias",
+   "output_file": "runs/bg/explain/s4537__authority-bias.json",
+   "event_title": "Siber Güvenlik Kurulu Erdoğan başkanlığında toplandı",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "Külliye'de kritik zirve: Başkan Erdoğan Siber Güvenlik Kurulu'na başkanlık etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cumhurbaşkanı Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Kritik strateji resmen sunuldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başlıklar toplantıyı Cumhurbaşkanı'nın başkanlığı üzerinden çerçeveliyor; statü haberin merkezine konmuş.",
+   "skeptic_alternative": "Kurul toplantılarının başkanla birlikte duyurulması olağan protokol haberciliğidir.",
+   "missing_context": [
+    "Statünün bir iddiayı gerekçelendirmek için kullanıldığına dair ifade",
+    "Statünün içerik değerlendirmesinin yerine geçtiğini gösteren ifade",
+    "Toplantıda alınan kararlar ve gerekçeleri",
+    "Toplantıda alınan kararların içeriği"
+   ],
+   "headlines": "[aa · 05:10] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[sondakika · 14:11] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[aksam · 16:38] Külliye'de kritik zirve: Başkan Erdoğan Siber Güvenlik Kurulu'na başkanlık etti\n[trthaber · 16:40] Siber Güvenlik Kurulu Toplantısı başladı\n[sabah · 16:44] Beştepe'de kritik zirve: Siber Güvenlik Kurulu Başkan Erdoğan liderliğinde toplandı! Masada hangi konular var?\n[akit · 16:45] Siber Güvenlik Kurulu Erdoğan başkanlığında toplandı\n[haberler · 17:08] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[mynet · 17:16] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[yenisafak · 17:19] Beştepe'de kritik zirve: Siber Güvenlik Kurulu toplandı\n[star · 17:32] Cumhurbaşkanı Erdoğan başkanlığında Siber Güvenlik Kurulu Toplantısı başladı\n[ntv · 17:40] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[cumhuriyet · 17:41] Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Bakanlar ve MİT Başkanı katıldı\n[dirilis · 17:58] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[tgrt · 19:17] Cumhurbaşkanı Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Kritik strateji resmen sunuldu\n[haberturk · 23:05] Cumhurbaşkanı Erdoğan başkanlığındaki toplantıda dijital tehditler ve güvenlik değerlendirildi"
+  },
+  {
+   "key": "s4537__framing-effect",
+   "output_file": "runs/bg/explain/s4537__framing-effect.json",
+   "event_title": "Siber Güvenlik Kurulu Erdoğan başkanlığında toplandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Beştepe'de kritik zirve: Siber Güvenlik Kurulu Başkan Erdoğan liderliğinde toplandı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Siber Güvenlik Kurulu Toplantısı başladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Bakanlar ve MİT Başkanı katıldı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı toplantı bazı kurumlarda 'kritik zirve', diğerlerinde yalın 'toplandı/başladı' olarak sunulmuş.",
+   "skeptic_alternative": "Üslup farkı kurumların başlık geleneklerinden kaynaklanabilir.",
+   "missing_context": [
+    "Sunuluşun okur değerlendirmesine etkisine dair veri",
+    "Sunum farkının okur değerlendirmesine etkisi"
+   ],
+   "headlines": "[aa · 05:10] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[sondakika · 14:11] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[aksam · 16:38] Külliye'de kritik zirve: Başkan Erdoğan Siber Güvenlik Kurulu'na başkanlık etti\n[trthaber · 16:40] Siber Güvenlik Kurulu Toplantısı başladı\n[sabah · 16:44] Beştepe'de kritik zirve: Siber Güvenlik Kurulu Başkan Erdoğan liderliğinde toplandı! Masada hangi konular var?\n[akit · 16:45] Siber Güvenlik Kurulu Erdoğan başkanlığında toplandı\n[haberler · 17:08] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[mynet · 17:16] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[yenisafak · 17:19] Beştepe'de kritik zirve: Siber Güvenlik Kurulu toplandı\n[star · 17:32] Cumhurbaşkanı Erdoğan başkanlığında Siber Güvenlik Kurulu Toplantısı başladı\n[ntv · 17:40] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[cumhuriyet · 17:41] Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Bakanlar ve MİT Başkanı katıldı\n[dirilis · 17:58] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[tgrt · 19:17] Cumhurbaşkanı Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Kritik strateji resmen sunuldu\n[haberturk · 23:05] Cumhurbaşkanı Erdoğan başkanlığındaki toplantıda dijital tehditler ve güvenlik değerlendirildi"
+  },
+  {
+   "key": "s4537__salience-bias",
+   "output_file": "runs/bg/explain/s4537__salience-bias.json",
+   "event_title": "Siber Güvenlik Kurulu Erdoğan başkanlığında toplandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Masada hangi konular var?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Beştepe'de kritik zirve: Siber Güvenlik Kurulu toplandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kritik strateji resmen sunuldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Kritik zirve' ifadesi olayın önemini öne çıkarıyor; ancak bir yargıya haksız etki gösterilmiyor.",
+   "skeptic_alternative": "Strateji sunumu gerçekten toplantının ana gündemi olabilir.",
+   "missing_context": [
+    "Karşılaştırmalı ağırlıklandırma verisi",
+    "Strateji içeriği",
+    "Toplantı gündeminin içeriği",
+    "Öne çıkarmanın bir çıkarıma dönüştüğüne dair kanıt"
+   ],
+   "headlines": "[aa · 05:10] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[sondakika · 14:11] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[aksam · 16:38] Külliye'de kritik zirve: Başkan Erdoğan Siber Güvenlik Kurulu'na başkanlık etti\n[trthaber · 16:40] Siber Güvenlik Kurulu Toplantısı başladı\n[sabah · 16:44] Beştepe'de kritik zirve: Siber Güvenlik Kurulu Başkan Erdoğan liderliğinde toplandı! Masada hangi konular var?\n[akit · 16:45] Siber Güvenlik Kurulu Erdoğan başkanlığında toplandı\n[haberler · 17:08] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[mynet · 17:16] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[yenisafak · 17:19] Beştepe'de kritik zirve: Siber Güvenlik Kurulu toplandı\n[star · 17:32] Cumhurbaşkanı Erdoğan başkanlığında Siber Güvenlik Kurulu Toplantısı başladı\n[ntv · 17:40] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[cumhuriyet · 17:41] Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Bakanlar ve MİT Başkanı katıldı\n[dirilis · 17:58] Siber Güvenlik Kurulu, Cumhurbaşkanı Erdoğan başkanlığında toplandı\n[tgrt · 19:17] Cumhurbaşkanı Erdoğan başkanlığında Siber Güvenlik Kurulu toplandı: Kritik strateji resmen sunuldu\n[haberturk · 23:05] Cumhurbaşkanı Erdoğan başkanlığındaki toplantıda dijital tehditler ve güvenlik değerlendirildi"
+  },
+  {
+   "key": "s5141__affect-heuristic",
+   "output_file": "runs/bg/explain/s5141__affect-heuristic.json",
+   "event_title": "Ünlü Rapçi Killa Hakan yoğun bakıma kaldırıldı",
+   "concept": "Affect Heuristic",
+   "definition": "The affect heuristic is a quick judgment in which a person's positive or negative feeling toward an option informs perceived risk or benefit. It can be efficient, but may skew estimates when feeling substitutes for relevant evidence or criteria. Emotion itself is not evidence of an error.",
+   "quotes": [
+    {
+     "quote": "KİLLA HAKAN'IN SAĞLIK DURUMU NASIL? Sevenlerini korkuttu! Yoğun bakıma alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rapçi Killa Hakan’dan üzen haber! Yoğun bakıma kaldırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sevenlerini korkuttu! Yoğun bakıma alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Korkuttu' ve 'üzen haber' gibi duygusal ifadeler kullanılmış; ancak bir risk tahminine bağlanmamış.",
+   "skeptic_alternative": "Magazin/sağlık haberlerinde duygusal başlık kullanımı olağandır ve bir yargı hatası göstermez.",
+   "missing_context": [
+    "Duygunun bir değerlendirmeyi değiştirdiğine dair kanıt",
+    "Duygunun bir tahmini çarpıttığını gösteren ifade",
+    "Hastalığın ciddiyetine ilişkin tıbbi bilgi"
+   ],
+   "headlines": "[cumhuriyet · 10:28] Böbrek taşı nedeniyle yoğun bakıma kaldırıldı: Uzmanlardan kritik uyarı\n[sondakika · 19:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı\n[sozcu · 22:15] Ünlü Rapçi Killa Hakan yoğun bakıma kaldırıldı\n[haberler · 22:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı\n[tgrt · 22:35] Killa Hakan yoğun bakıma kaldırıldı: Avukatı son durumunu açıkladı\n[haberturk · 22:53] Killa Hakan, yoğun bakıma kaldırıldı\n[sabah · 23:15] Rapçi Killa Hakan’dan üzen haber! Yoğun bakıma kaldırıldı\n[mynet · 23:17] Avukatı duyurdu: Killa Hakan yoğun bakıma kaldırıldı\n[ahaber · 23:22] Killa Hakan yoğun bakıma kaldırıldı! Avukatından açıklama\n[ntv · 23:39] Rapçi Killa Hakan yoğun bakıma alındı. Avukatından açıklama geldi\n[cnnturk · 02:04] KİLLA HAKAN'IN SAĞLIK DURUMU NASIL? Sevenlerini korkuttu! Yoğun bakıma alındı — Rap müziğinin tanınan isimlerinden biri olan Killa Hakan sevenlerini korkuttu. Sanatçının avukatı Şükrü Sarıdere, Killa Hakan'ın yoğun bakıma kaldırıldığını açıkladı.\n[karar · 07:16] Rapçi Killa Hakan yoğun bakıma alındı — Türkçe rap müziğin önde gelen isimlerinden \"Killa Hakan\" lakaplı Hakan Durmuş, geçirdiği rahatsızlık nedeniyle hastaneye kaldırılarak yoğun bakımda tedavi altına alındı.\n[birgun · 07:46] Rapçi Killa Hakan yoğun bakıma alındı: Avukatından açıklama\n[takvim · 11:08] Ünlü rapçi Killa Hakan yoğun bakıma alındı: Sağlık durumuyla ilgili resmi açıklama yapıldı\n[milligazete · 15:34] Killa Hakan'ın hayatı ve hastalığı! Sağlık durumu nasıl, neden yoğun bakıma kaldırıldı?"
+  },
+  {
+   "key": "s5141__negativity-bias",
+   "output_file": "runs/bg/explain/s5141__negativity-bias.json",
+   "event_title": "Ünlü Rapçi Killa Hakan yoğun bakıma kaldırıldı",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Böbrek taşı nedeniyle yoğun bakıma kaldırıldı: Uzmanlardan kritik uyarı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sevenlerini korkuttu!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rapçi Killa Hakan’dan üzen haber!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Olumsuz sağlık haberi korku/uyarı vurgusuyla aktarılmış; karşılaştırılabilir olumlu bilgi metinde yok.",
+   "skeptic_alternative": "Yoğun bakıma kaldırılma doğası gereği olumsuz bir gelişmedir.",
+   "missing_context": [
+    "Avukatın açıklamasının tam içeriği",
+    "Karar etkisi",
+    "Karşılaştırılabilir olumlu bilgi",
+    "Sağlık durumuna dair olumlu/iyileşme bilgisi"
+   ],
+   "headlines": "[cumhuriyet · 10:28] Böbrek taşı nedeniyle yoğun bakıma kaldırıldı: Uzmanlardan kritik uyarı\n[sondakika · 19:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı\n[sozcu · 22:15] Ünlü Rapçi Killa Hakan yoğun bakıma kaldırıldı\n[haberler · 22:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı\n[tgrt · 22:35] Killa Hakan yoğun bakıma kaldırıldı: Avukatı son durumunu açıkladı\n[haberturk · 22:53] Killa Hakan, yoğun bakıma kaldırıldı\n[sabah · 23:15] Rapçi Killa Hakan’dan üzen haber! Yoğun bakıma kaldırıldı\n[mynet · 23:17] Avukatı duyurdu: Killa Hakan yoğun bakıma kaldırıldı\n[ahaber · 23:22] Killa Hakan yoğun bakıma kaldırıldı! Avukatından açıklama\n[ntv · 23:39] Rapçi Killa Hakan yoğun bakıma alındı. Avukatından açıklama geldi\n[cnnturk · 02:04] KİLLA HAKAN'IN SAĞLIK DURUMU NASIL? Sevenlerini korkuttu! Yoğun bakıma alındı — Rap müziğinin tanınan isimlerinden biri olan Killa Hakan sevenlerini korkuttu. Sanatçının avukatı Şükrü Sarıdere, Killa Hakan'ın yoğun bakıma kaldırıldığını açıkladı.\n[karar · 07:16] Rapçi Killa Hakan yoğun bakıma alındı — Türkçe rap müziğin önde gelen isimlerinden \"Killa Hakan\" lakaplı Hakan Durmuş, geçirdiği rahatsızlık nedeniyle hastaneye kaldırılarak yoğun bakımda tedavi altına alındı.\n[birgun · 07:46] Rapçi Killa Hakan yoğun bakıma alındı: Avukatından açıklama\n[takvim · 11:08] Ünlü rapçi Killa Hakan yoğun bakıma alındı: Sağlık durumuyla ilgili resmi açıklama yapıldı\n[milligazete · 15:34] Killa Hakan'ın hayatı ve hastalığı! Sağlık durumu nasıl, neden yoğun bakıma kaldırıldı?"
+  },
+  {
+   "key": "s5141__salience-bias",
+   "output_file": "runs/bg/explain/s5141__salience-bias.json",
+   "event_title": "Ünlü Rapçi Killa Hakan yoğun bakıma kaldırıldı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Killa Hakan'ın hayatı ve hastalığı! Sağlık durumu nasıl, neden yoğun bakıma kaldırıldı?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[cumhuriyet · 10:28] Böbrek taşı nedeniyle yoğun bakıma kaldırıldı: Uzmanlardan kritik uyarı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sondakika · 19:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Böbrek taşı nedeniyle yoğun bakıma kaldırıldı: Uzmanlardan kritik uyarı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Cumhuriyet başlığı 'böbrek taşı' ve 'kritik uyarı' ayrıntısını öne çıkarıyor; diğerleri yalnızca 'sağlık sorunu' diyor.",
+   "skeptic_alternative": "Cumhuriyet başlığı farklı bir kişiye/habere ait olabilir; zamanı diğerlerinden önce.",
+   "missing_context": [
+    "Cumhuriyet haberinin Killa Hakan ile ilgili olup olmadığı",
+    "Cumhuriyet haberinin aynı olaya ait olup olmadığı",
+    "Rahatsızlığın kesin nedeni",
+    "Uyarının içeriği ve dayanağı"
+   ],
+   "headlines": "[cumhuriyet · 10:28] Böbrek taşı nedeniyle yoğun bakıma kaldırıldı: Uzmanlardan kritik uyarı\n[sondakika · 19:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı\n[sozcu · 22:15] Ünlü Rapçi Killa Hakan yoğun bakıma kaldırıldı\n[haberler · 22:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı\n[tgrt · 22:35] Killa Hakan yoğun bakıma kaldırıldı: Avukatı son durumunu açıkladı\n[haberturk · 22:53] Killa Hakan, yoğun bakıma kaldırıldı\n[sabah · 23:15] Rapçi Killa Hakan’dan üzen haber! Yoğun bakıma kaldırıldı\n[mynet · 23:17] Avukatı duyurdu: Killa Hakan yoğun bakıma kaldırıldı\n[ahaber · 23:22] Killa Hakan yoğun bakıma kaldırıldı! Avukatından açıklama\n[ntv · 23:39] Rapçi Killa Hakan yoğun bakıma alındı. Avukatından açıklama geldi\n[cnnturk · 02:04] KİLLA HAKAN'IN SAĞLIK DURUMU NASIL? Sevenlerini korkuttu! Yoğun bakıma alındı — Rap müziğinin tanınan isimlerinden biri olan Killa Hakan sevenlerini korkuttu. Sanatçının avukatı Şükrü Sarıdere, Killa Hakan'ın yoğun bakıma kaldırıldığını açıkladı.\n[karar · 07:16] Rapçi Killa Hakan yoğun bakıma alındı — Türkçe rap müziğin önde gelen isimlerinden \"Killa Hakan\" lakaplı Hakan Durmuş, geçirdiği rahatsızlık nedeniyle hastaneye kaldırılarak yoğun bakımda tedavi altına alındı.\n[birgun · 07:46] Rapçi Killa Hakan yoğun bakıma alındı: Avukatından açıklama\n[takvim · 11:08] Ünlü rapçi Killa Hakan yoğun bakıma alındı: Sağlık durumuyla ilgili resmi açıklama yapıldı\n[milligazete · 15:34] Killa Hakan'ın hayatı ve hastalığı! Sağlık durumu nasıl, neden yoğun bakıma kaldırıldı?"
+  },
+  {
+   "key": "s5141__framing-effect",
+   "output_file": "runs/bg/explain/s5141__framing-effect.json",
+   "event_title": "Ünlü Rapçi Killa Hakan yoğun bakıma kaldırıldı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Rapçi Killa Hakan’dan üzen haber! Yoğun bakıma kaldırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Killa Hakan, yoğun bakıma kaldırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rapçi Killa Hakan’dan üzen haber!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı olgu bir kurumda duygusal ('üzen haber'), diğerinde yalın biçimde sunulmuş.",
+   "skeptic_alternative": "Üslup farkı yayın türü ve okur kitlesiyle ilgilidir.",
+   "missing_context": [
+    "Sunuluşun bir değerlendirmeyi değiştirdiğine dair veri",
+    "Sunum farkının okur yargısına etkisi"
+   ],
+   "headlines": "[cumhuriyet · 10:28] Böbrek taşı nedeniyle yoğun bakıma kaldırıldı: Uzmanlardan kritik uyarı\n[sondakika · 19:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı\n[sozcu · 22:15] Ünlü Rapçi Killa Hakan yoğun bakıma kaldırıldı\n[haberler · 22:19] Killa Hakan sağlık sorunu nedeniyle yoğun bakıma kaldırıldı\n[tgrt · 22:35] Killa Hakan yoğun bakıma kaldırıldı: Avukatı son durumunu açıkladı\n[haberturk · 22:53] Killa Hakan, yoğun bakıma kaldırıldı\n[sabah · 23:15] Rapçi Killa Hakan’dan üzen haber! Yoğun bakıma kaldırıldı\n[mynet · 23:17] Avukatı duyurdu: Killa Hakan yoğun bakıma kaldırıldı\n[ahaber · 23:22] Killa Hakan yoğun bakıma kaldırıldı! Avukatından açıklama\n[ntv · 23:39] Rapçi Killa Hakan yoğun bakıma alındı. Avukatından açıklama geldi\n[cnnturk · 02:04] KİLLA HAKAN'IN SAĞLIK DURUMU NASIL? Sevenlerini korkuttu! Yoğun bakıma alındı — Rap müziğinin tanınan isimlerinden biri olan Killa Hakan sevenlerini korkuttu. Sanatçının avukatı Şükrü Sarıdere, Killa Hakan'ın yoğun bakıma kaldırıldığını açıkladı.\n[karar · 07:16] Rapçi Killa Hakan yoğun bakıma alındı — Türkçe rap müziğin önde gelen isimlerinden \"Killa Hakan\" lakaplı Hakan Durmuş, geçirdiği rahatsızlık nedeniyle hastaneye kaldırılarak yoğun bakımda tedavi altına alındı.\n[birgun · 07:46] Rapçi Killa Hakan yoğun bakıma alındı: Avukatından açıklama\n[takvim · 11:08] Ünlü rapçi Killa Hakan yoğun bakıma alındı: Sağlık durumuyla ilgili resmi açıklama yapıldı\n[milligazete · 15:34] Killa Hakan'ın hayatı ve hastalığı! Sağlık durumu nasıl, neden yoğun bakıma kaldırıldı?"
+  },
+  {
+   "key": "s4327__framing-effect",
+   "output_file": "runs/bg/explain/s4327__framing-effect.json",
+   "event_title": "Mısır'dan Suudi Arabistan'a askeri destek kararı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Husi saldırıları sonrası Mısır'dan sürpriz karar! Suudi Arabistan'a askeri destek onaylandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mısır Meclisi, Cumhurbaşkanı Sisi'ye Suudi Arabistan'ın savunmasına destek yetkisi verdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mısır’dan dikkat çeken karar: Sisi'ye Suudi Arabistan'ın savunmasına destek için yetki verildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Husi saldırıları sonrası Mısır'dan sürpriz karar!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı meclis yetkilendirmesi 'sürpriz karar', 'dikkat çeken karar' veya yalın 'yetki verdi' olarak farklı çerçevelenmiş.",
+   "skeptic_alternative": "Bağlam ekleme (Husi saldırıları) bilgilendirici bir editoryal tercih olabilir.",
+   "missing_context": [
+    "Okur yargısının çerçeveye göre değiştiğine dair veri",
+    "Sunum farkının okur değerlendirmesine etkisi"
+   ],
+   "headlines": "[aa · 04:10] Mısır Meclisi, Cumhurbaşkanı Sisi'ye Suudi Arabistan'ın savunmasına destek yetkisi verdi\n[sabah · 16:12] Mısır’dan dikkat çeken karar: Sisi'ye Suudi Arabistan'ın savunmasına destek için yetki verildi\n[hurriyet · 16:14] Mısır'dan Suudi Arabistan'a askeri destek kararı — Mısır Meclisi'nin, Suudi Arabistan'a askeri destek sunulması talebini onayladığı bildirildi. Mısır ordusu, Yemen'deki Husilerin saldırılarına hedef olan Suudi Arabistan'ın savunmasına yardımcı olacak.\n[star · 16:15] Mısır'dan Suudi Arabistan kararı: Askeri destek talebi onaylandı — Mısır Meclisi, Cumhurbaşkanı Abdulfettah es-Sisi'ye, Riyad'ın talebi halinde Suudi Arabistan'ın savunmasına destek için yetki verdi.\n[haberler · 16:18] Mısır'dan Suudi Arabistan'a askeri destek kararı\n[yenisafak · 16:19] Mısır’dan Suudi Arabistan kararı: Askeri destek talebine onay çıktı\n[takvim · 16:20] Mısır Meclisi onayladı: Suudi Arabistan'a askeri destek kararı!\n[turkiyegz · 16:22] Husi saldırıları sonrası Mısır'dan sürpriz karar! Suudi Arabistan'a askeri destek onaylandı\n[birgun · 16:30] Mısır Meclisi, Suudi Arabistan'a askeri destek talebini onayladı\n[ahaber · 16:50] Mısır Meclisinden kritik karar! Sisi'ye Suudi Arabistan'a destek için askeri yetki\n[karar · 16:51] Mısır'dan Suudi Arabistan'a askeri destek — Mısır Meclisi, Cumhurbaşkanı Sisi’nin talebinin ardından, Suudi Arabistan’a yönelik olası tehditlere karşı askeri destek sağlanmasına onay verdi. Reuters’ın aktardığına göre karar, Riyad’ın Husilere karşı yardım istemesi halinde Mısır ordusunun Suudi Arabistan’ı savunmasına …\n[bloomberght · 16:54] Mısır Meclisi'nden Suudi Arabistan'ın savunması için Sisi'ye yetki\n[ntv · 16:56] Mısır Meclisi, Cumhurbaşkanı Sisi'ye Suudi Arabistan'ın savunmasına destek için yetki verdi\n[milliyet · 17:09] Mısır'dan Suudi Arabistan'a askeri destek kararı! — Mısır Meclisinden yapılan yazılı açıklamaya göre, Riyad'ın talebi halinde Cumhurbaşkanı'na Suudi Arabistan'a savunma alanında destek sağlamak için gerekli adımları atma yetkisi verilmesine ilişkin öneriyi oylamak üzere Meclis üçüncü kez toplandı. Toplantıda Sisi'ye yetki …\n[aksam · 18:38] Mısır'dan Suudi Arabistan kararı: Askeri destek için yetki verildi"
+  },
+  {
+   "key": "s4327__salience-bias",
+   "output_file": "runs/bg/explain/s4327__salience-bias.json",
+   "event_title": "Mısır'dan Suudi Arabistan'a askeri destek kararı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Husi saldırıları sonrası Mısır'dan sürpriz karar!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mısır ordusu, Yemen'deki Husilerin saldırılarına hedef olan Suudi Arabistan'ın savunmasına yardımcı olacak.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mısır Meclisinden kritik karar!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Husi saldırıları bağlamı öne çıkarılarak kararın nedeni olarak sunulmuş.",
+   "skeptic_alternative": "Askeri yetki kararı bölgesel açıdan gerçekten önemli olabilir.",
+   "missing_context": [
+    "Karşılaştırmalı ağırlıklandırma verisi",
+    "Meclis kararının resmi gerekçesi"
+   ],
+   "headlines": "[aa · 04:10] Mısır Meclisi, Cumhurbaşkanı Sisi'ye Suudi Arabistan'ın savunmasına destek yetkisi verdi\n[sabah · 16:12] Mısır’dan dikkat çeken karar: Sisi'ye Suudi Arabistan'ın savunmasına destek için yetki verildi\n[hurriyet · 16:14] Mısır'dan Suudi Arabistan'a askeri destek kararı — Mısır Meclisi'nin, Suudi Arabistan'a askeri destek sunulması talebini onayladığı bildirildi. Mısır ordusu, Yemen'deki Husilerin saldırılarına hedef olan Suudi Arabistan'ın savunmasına yardımcı olacak.\n[star · 16:15] Mısır'dan Suudi Arabistan kararı: Askeri destek talebi onaylandı — Mısır Meclisi, Cumhurbaşkanı Abdulfettah es-Sisi'ye, Riyad'ın talebi halinde Suudi Arabistan'ın savunmasına destek için yetki verdi.\n[haberler · 16:18] Mısır'dan Suudi Arabistan'a askeri destek kararı\n[yenisafak · 16:19] Mısır’dan Suudi Arabistan kararı: Askeri destek talebine onay çıktı\n[takvim · 16:20] Mısır Meclisi onayladı: Suudi Arabistan'a askeri destek kararı!\n[turkiyegz · 16:22] Husi saldırıları sonrası Mısır'dan sürpriz karar! Suudi Arabistan'a askeri destek onaylandı\n[birgun · 16:30] Mısır Meclisi, Suudi Arabistan'a askeri destek talebini onayladı\n[ahaber · 16:50] Mısır Meclisinden kritik karar! Sisi'ye Suudi Arabistan'a destek için askeri yetki\n[karar · 16:51] Mısır'dan Suudi Arabistan'a askeri destek — Mısır Meclisi, Cumhurbaşkanı Sisi’nin talebinin ardından, Suudi Arabistan’a yönelik olası tehditlere karşı askeri destek sağlanmasına onay verdi. Reuters’ın aktardığına göre karar, Riyad’ın Husilere karşı yardım istemesi halinde Mısır ordusunun Suudi Arabistan’ı savunmasına …\n[bloomberght · 16:54] Mısır Meclisi'nden Suudi Arabistan'ın savunması için Sisi'ye yetki\n[ntv · 16:56] Mısır Meclisi, Cumhurbaşkanı Sisi'ye Suudi Arabistan'ın savunmasına destek için yetki verdi\n[milliyet · 17:09] Mısır'dan Suudi Arabistan'a askeri destek kararı! — Mısır Meclisinden yapılan yazılı açıklamaya göre, Riyad'ın talebi halinde Cumhurbaşkanı'na Suudi Arabistan'a savunma alanında destek sağlamak için gerekli adımları atma yetkisi verilmesine ilişkin öneriyi oylamak üzere Meclis üçüncü kez toplandı. Toplantıda Sisi'ye yetki …\n[aksam · 18:38] Mısır'dan Suudi Arabistan kararı: Askeri destek için yetki verildi"
+  },
+  {
+   "key": "s4327__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4327__leveling-and-sharpening.json",
+   "event_title": "Mısır'dan Suudi Arabistan'a askeri destek kararı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Mısır Meclisi, Cumhurbaşkanı Abdulfettah es-Sisi'ye, Riyad'ın talebi halinde Suudi Arabistan'ın savunmasına destek için yetki verdi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mısır ordusu, Yemen'deki Husilerin saldırılarına hedef olan Suudi Arabistan'ın savunmasına yardımcı olacak.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mısır Meclisi, Cumhurbaşkanı Sisi’nin talebinin ardından, Suudi Arabistan’a yönelik olası tehditlere karşı askeri destek sağlanmasına onay verdi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mısır Meclisi, Suudi Arabistan'a askeri destek talebini onayladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Riyad'ın talebi halinde Suudi Arabistan'ın savunmasına destek için yetki verdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mısır Meclisi onayladı: Suudi Arabistan'a askeri destek kararı!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Star'daki 'Riyad'ın talebi halinde' koşulu bazı kurumlarda düşmüş; koşullu yetki kesin askeri destek olarak keskinleştirilmiş, talep sahibi de farklı aktarılmış.",
+   "skeptic_alternative": "Başlık kısalığı nedeniyle koşulun atlanması olağan özetleme olabilir; lede'lerde koşul yer alıyor olabilir.",
+   "missing_context": [
+    "Farkın okur sonucuna etkisi",
+    "Mısır Meclisi'nin yazılı açıklamasının tam metni",
+    "Takvim ve diğer kısaltılmış başlıkların haber gövdesi",
+    "Talebin Sisi'den mi Riyad'dan mı geldiği"
+   ],
+   "headlines": "[aa · 04:10] Mısır Meclisi, Cumhurbaşkanı Sisi'ye Suudi Arabistan'ın savunmasına destek yetkisi verdi\n[sabah · 16:12] Mısır’dan dikkat çeken karar: Sisi'ye Suudi Arabistan'ın savunmasına destek için yetki verildi\n[hurriyet · 16:14] Mısır'dan Suudi Arabistan'a askeri destek kararı — Mısır Meclisi'nin, Suudi Arabistan'a askeri destek sunulması talebini onayladığı bildirildi. Mısır ordusu, Yemen'deki Husilerin saldırılarına hedef olan Suudi Arabistan'ın savunmasına yardımcı olacak.\n[star · 16:15] Mısır'dan Suudi Arabistan kararı: Askeri destek talebi onaylandı — Mısır Meclisi, Cumhurbaşkanı Abdulfettah es-Sisi'ye, Riyad'ın talebi halinde Suudi Arabistan'ın savunmasına destek için yetki verdi.\n[haberler · 16:18] Mısır'dan Suudi Arabistan'a askeri destek kararı\n[yenisafak · 16:19] Mısır’dan Suudi Arabistan kararı: Askeri destek talebine onay çıktı\n[takvim · 16:20] Mısır Meclisi onayladı: Suudi Arabistan'a askeri destek kararı!\n[turkiyegz · 16:22] Husi saldırıları sonrası Mısır'dan sürpriz karar! Suudi Arabistan'a askeri destek onaylandı\n[birgun · 16:30] Mısır Meclisi, Suudi Arabistan'a askeri destek talebini onayladı\n[ahaber · 16:50] Mısır Meclisinden kritik karar! Sisi'ye Suudi Arabistan'a destek için askeri yetki\n[karar · 16:51] Mısır'dan Suudi Arabistan'a askeri destek — Mısır Meclisi, Cumhurbaşkanı Sisi’nin talebinin ardından, Suudi Arabistan’a yönelik olası tehditlere karşı askeri destek sağlanmasına onay verdi. Reuters’ın aktardığına göre karar, Riyad’ın Husilere karşı yardım istemesi halinde Mısır ordusunun Suudi Arabistan’ı savunmasına …\n[bloomberght · 16:54] Mısır Meclisi'nden Suudi Arabistan'ın savunması için Sisi'ye yetki\n[ntv · 16:56] Mısır Meclisi, Cumhurbaşkanı Sisi'ye Suudi Arabistan'ın savunmasına destek için yetki verdi\n[milliyet · 17:09] Mısır'dan Suudi Arabistan'a askeri destek kararı! — Mısır Meclisinden yapılan yazılı açıklamaya göre, Riyad'ın talebi halinde Cumhurbaşkanı'na Suudi Arabistan'a savunma alanında destek sağlamak için gerekli adımları atma yetkisi verilmesine ilişkin öneriyi oylamak üzere Meclis üçüncü kez toplandı. Toplantıda Sisi'ye yetki …\n[aksam · 18:38] Mısır'dan Suudi Arabistan kararı: Askeri destek için yetki verildi"
+  },
+  {
+   "key": "s4790__framing-effect",
+   "output_file": "runs/bg/explain/s4790__framing-effect.json",
+   "event_title": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Avustralya Vergi Dairesine 2 milyon 60 bin Avustralya doları, yaklaşık 72,4 milyon TL borcu bulunduğu ortaya çıktı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Somer Sivrioğlu'nun restoranına kayyum atandı: 72 milyonluk borç",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Somer Sivrioğlu'nun Anason restoranı nerede? Vergi borcu kaç milyon dolar?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Vergi borcu dudak uçuklattı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Somer Sivrioğlu'nun Avustralya'daki Restoranına Kayyum Atandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı borç tutarı başlıkta TL cinsinden '72 milyonluk' olarak, metinde ise 2 milyon 60 bin Avustralya doları olarak veriliyor; birim seçimi büyüklük algısını etkileyebilir.",
+   "skeptic_alternative": "Üslup farkı magazin/ekonomi haberciliği gelenekleriyle açıklanabilir.",
+   "missing_context": [
+    "Okur yargısının birim seçimine göre değiştiğine dair veri",
+    "Sunum farkının okur değerlendirmesine etkisi"
+   ],
+   "headlines": "[sozcu · 08:00] Ünlü şef Somer Sivrioğlu’nun restoranına kayyum atandı: Milyonluk borcu ortaya çıktı\n[haberler · 08:03] Somer Sivrioğlu'nun işletmesinde kriz! Kayyum atandı\n[mynet · 08:45] Somer Sivrioğlu'nun restoranına kayyum atandı! Vergi borcu dudak uçuklattı\n[karar · 09:43] Somer Sivrioğlu'nun restoranına kayyum atandı: 72 milyonluk borç — Somer Sivrioğlu'nun Avustralya'da bulunan Anason restoranı, biriken vergi borçları nedeniyle kayyum olarak anılan dış yönetim sürecine girdi. İşletmenin Avustralya Vergi Dairesine 2 milyon 60 bin Avustralya doları, yaklaşık 72,4 milyon TL borcu bulunduğu ortaya çıktı. Beş yıldır …\n[ahaber · 09:46] Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku! Borcu ortaya çıktı\n[onedio · 09:50] Somer Sivrioğlu'nun Avustralya'daki Restoranına Kayyum Atandı\n[takvim · 09:51] Milyonluk vergi borcu ödenemedi! Somer Sivrioğlu'nun Sidney'deki restoranına kayyum atandı\n[turkiyegz · 09:57] Ünlü şef Somer Sivrioğlu'nun milyonluk borcu çıktı! Avustralya'daki restoranına kayyım atandı\n[cumhuriyet · 10:03] Ünlü şef Somer Sivrioğlu'nun restoranına kayyım atandı: Milyonluk borç ortaya çıktı!\n[birgun · 10:09] Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı\n[haberturk · 10:24] Somer Şef'in restoranına kayyum atandı\n[yenisafak · 10:33] Somer şefin restoranına kayyum atandı: Vergi borcu dudak uçuklattı\n[tgrt · 11:33] Somer Sivrioğlu'nun restoranına kayyum atandı! Milyonluk vergi borcu gündem oldu\n[milligazete · 16:50] Somer Sivrioğlu'nun Anason restoranı nerede? Vergi borcu kaç milyon dolar?\n[aksam · 09:36] Ünlü şefe, Sidney'de vergi şoku! Restoranına kayyum atandı"
+  },
+  {
+   "key": "s4790__negativity-bias",
+   "output_file": "runs/bg/explain/s4790__negativity-bias.json",
+   "event_title": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku! Borcu ortaya çıktı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Somer Sivrioğlu'nun restoranına kayyum atandı! Vergi borcu dudak uçuklattı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Olumsuz mali gelişme 'şok' ve 'dudak uçuklattı' gibi ifadelerle vurgulanmış; karşılaştırılabilir olumlu bilgi yok.",
+   "skeptic_alternative": "Haber konusu doğası gereği olumsuzdur.",
+   "missing_context": [
+    "Karar etkisi",
+    "Karşılaştırılabilir olumlu bilgi",
+    "Restoranın mali durumuna dair diğer veriler",
+    "Şefin açıklaması"
+   ],
+   "headlines": "[sozcu · 08:00] Ünlü şef Somer Sivrioğlu’nun restoranına kayyum atandı: Milyonluk borcu ortaya çıktı\n[haberler · 08:03] Somer Sivrioğlu'nun işletmesinde kriz! Kayyum atandı\n[mynet · 08:45] Somer Sivrioğlu'nun restoranına kayyum atandı! Vergi borcu dudak uçuklattı\n[karar · 09:43] Somer Sivrioğlu'nun restoranına kayyum atandı: 72 milyonluk borç — Somer Sivrioğlu'nun Avustralya'da bulunan Anason restoranı, biriken vergi borçları nedeniyle kayyum olarak anılan dış yönetim sürecine girdi. İşletmenin Avustralya Vergi Dairesine 2 milyon 60 bin Avustralya doları, yaklaşık 72,4 milyon TL borcu bulunduğu ortaya çıktı. Beş yıldır …\n[ahaber · 09:46] Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku! Borcu ortaya çıktı\n[onedio · 09:50] Somer Sivrioğlu'nun Avustralya'daki Restoranına Kayyum Atandı\n[takvim · 09:51] Milyonluk vergi borcu ödenemedi! Somer Sivrioğlu'nun Sidney'deki restoranına kayyum atandı\n[turkiyegz · 09:57] Ünlü şef Somer Sivrioğlu'nun milyonluk borcu çıktı! Avustralya'daki restoranına kayyım atandı\n[cumhuriyet · 10:03] Ünlü şef Somer Sivrioğlu'nun restoranına kayyım atandı: Milyonluk borç ortaya çıktı!\n[birgun · 10:09] Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı\n[haberturk · 10:24] Somer Şef'in restoranına kayyum atandı\n[yenisafak · 10:33] Somer şefin restoranına kayyum atandı: Vergi borcu dudak uçuklattı\n[tgrt · 11:33] Somer Sivrioğlu'nun restoranına kayyum atandı! Milyonluk vergi borcu gündem oldu\n[milligazete · 16:50] Somer Sivrioğlu'nun Anason restoranı nerede? Vergi borcu kaç milyon dolar?\n[aksam · 09:36] Ünlü şefe, Sidney'de vergi şoku! Restoranına kayyum atandı"
+  },
+  {
+   "key": "s4790__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4790__leveling-and-sharpening.json",
+   "event_title": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "biriken vergi borçları nedeniyle kayyum olarak anılan dış yönetim sürecine girdi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ünlü şef Somer Sivrioğlu’nun restoranına kayyum atandı: Milyonluk borcu ortaya çıktı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Milyonluk vergi borcu ödenemedi!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "kayyum olarak anılan dış yönetim sürecine girdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "2 milyon 60 bin Avustralya doları, yaklaşık 72,4 milyon TL borcu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Karar, sürecin 'kayyum olarak anılan dış yönetim' olduğunu açıklarken diğer başlıklar bu nüansı düşürüp 'kayyum atandı' ifadesini keskinleştiriyor.",
+   "skeptic_alternative": "Başlıkta kısa ifade ve yerel para birimi kullanmak olağan özetlemedir.",
+   "missing_context": [
+    "Avustralya'daki hukuki sürecin resmi adı ve niteliği",
+    "Avustralya'daki resmi süreç belgesi",
+    "Borcun ödenmediğine dair resmi kayıt",
+    "Farkın okur sonucuna etkisi"
+   ],
+   "headlines": "[sozcu · 08:00] Ünlü şef Somer Sivrioğlu’nun restoranına kayyum atandı: Milyonluk borcu ortaya çıktı\n[haberler · 08:03] Somer Sivrioğlu'nun işletmesinde kriz! Kayyum atandı\n[mynet · 08:45] Somer Sivrioğlu'nun restoranına kayyum atandı! Vergi borcu dudak uçuklattı\n[karar · 09:43] Somer Sivrioğlu'nun restoranına kayyum atandı: 72 milyonluk borç — Somer Sivrioğlu'nun Avustralya'da bulunan Anason restoranı, biriken vergi borçları nedeniyle kayyum olarak anılan dış yönetim sürecine girdi. İşletmenin Avustralya Vergi Dairesine 2 milyon 60 bin Avustralya doları, yaklaşık 72,4 milyon TL borcu bulunduğu ortaya çıktı. Beş yıldır …\n[ahaber · 09:46] Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku! Borcu ortaya çıktı\n[onedio · 09:50] Somer Sivrioğlu'nun Avustralya'daki Restoranına Kayyum Atandı\n[takvim · 09:51] Milyonluk vergi borcu ödenemedi! Somer Sivrioğlu'nun Sidney'deki restoranına kayyum atandı\n[turkiyegz · 09:57] Ünlü şef Somer Sivrioğlu'nun milyonluk borcu çıktı! Avustralya'daki restoranına kayyım atandı\n[cumhuriyet · 10:03] Ünlü şef Somer Sivrioğlu'nun restoranına kayyım atandı: Milyonluk borç ortaya çıktı!\n[birgun · 10:09] Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı\n[haberturk · 10:24] Somer Şef'in restoranına kayyum atandı\n[yenisafak · 10:33] Somer şefin restoranına kayyum atandı: Vergi borcu dudak uçuklattı\n[tgrt · 11:33] Somer Sivrioğlu'nun restoranına kayyum atandı! Milyonluk vergi borcu gündem oldu\n[milligazete · 16:50] Somer Sivrioğlu'nun Anason restoranı nerede? Vergi borcu kaç milyon dolar?\n[aksam · 09:36] Ünlü şefe, Sidney'de vergi şoku! Restoranına kayyum atandı"
+  },
+  {
+   "key": "s4790__affect-heuristic",
+   "output_file": "runs/bg/explain/s4790__affect-heuristic.json",
+   "event_title": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı",
+   "concept": "Affect Heuristic",
+   "definition": "The affect heuristic is a quick judgment in which a person's positive or negative feeling toward an option informs perceived risk or benefit. It can be efficient, but may skew estimates when feeling substitutes for relevant evidence or criteria. Emotion itself is not evidence of an error.",
+   "quotes": [
+    {
+     "quote": "Ünlü şefe, Sidney'de vergi şoku! Restoranına kayyum atandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Vergi borcu dudak uçuklattı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Şok' ifadesi duygusal ton taşıyor; bir risk/fayda tahminine bağlanmıyor.",
+   "skeptic_alternative": "Duygusal başlık okur ilgisini çekmeye yönelik üslup tercihidir.",
+   "missing_context": [
+    "Duygu ile bir yargı arasında açık bağ",
+    "Duygunun bir tahmini çarpıttığını gösteren ifade"
+   ],
+   "headlines": "[sozcu · 08:00] Ünlü şef Somer Sivrioğlu’nun restoranına kayyum atandı: Milyonluk borcu ortaya çıktı\n[haberler · 08:03] Somer Sivrioğlu'nun işletmesinde kriz! Kayyum atandı\n[mynet · 08:45] Somer Sivrioğlu'nun restoranına kayyum atandı! Vergi borcu dudak uçuklattı\n[karar · 09:43] Somer Sivrioğlu'nun restoranına kayyum atandı: 72 milyonluk borç — Somer Sivrioğlu'nun Avustralya'da bulunan Anason restoranı, biriken vergi borçları nedeniyle kayyum olarak anılan dış yönetim sürecine girdi. İşletmenin Avustralya Vergi Dairesine 2 milyon 60 bin Avustralya doları, yaklaşık 72,4 milyon TL borcu bulunduğu ortaya çıktı. Beş yıldır …\n[ahaber · 09:46] Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku! Borcu ortaya çıktı\n[onedio · 09:50] Somer Sivrioğlu'nun Avustralya'daki Restoranına Kayyum Atandı\n[takvim · 09:51] Milyonluk vergi borcu ödenemedi! Somer Sivrioğlu'nun Sidney'deki restoranına kayyum atandı\n[turkiyegz · 09:57] Ünlü şef Somer Sivrioğlu'nun milyonluk borcu çıktı! Avustralya'daki restoranına kayyım atandı\n[cumhuriyet · 10:03] Ünlü şef Somer Sivrioğlu'nun restoranına kayyım atandı: Milyonluk borç ortaya çıktı!\n[birgun · 10:09] Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı\n[haberturk · 10:24] Somer Şef'in restoranına kayyum atandı\n[yenisafak · 10:33] Somer şefin restoranına kayyum atandı: Vergi borcu dudak uçuklattı\n[tgrt · 11:33] Somer Sivrioğlu'nun restoranına kayyum atandı! Milyonluk vergi borcu gündem oldu\n[milligazete · 16:50] Somer Sivrioğlu'nun Anason restoranı nerede? Vergi borcu kaç milyon dolar?\n[aksam · 09:36] Ünlü şefe, Sidney'de vergi şoku! Restoranına kayyum atandı"
+  },
+  {
+   "key": "s4790__salience-bias",
+   "output_file": "runs/bg/explain/s4790__salience-bias.json",
+   "event_title": "Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Vergi borcu dudak uçuklattı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Somer Sivrioğlu'nun restoranına kayyum atandı! Milyonluk vergi borcu gündem oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ünlü şefe, Sidney'de vergi şoku!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Borcun büyüklüğü çarpıcı unsur olarak öne çıkarılmış.",
+   "skeptic_alternative": "Ünlü kişiye dair haberlerin ön plana çıkması olağan haber değeridir.",
+   "missing_context": [
+    "Karşılaştırmalı ağırlıklandırma verisi",
+    "Restoranın ciro ve borç oranı gibi bağlam bilgisi"
+   ],
+   "headlines": "[sozcu · 08:00] Ünlü şef Somer Sivrioğlu’nun restoranına kayyum atandı: Milyonluk borcu ortaya çıktı\n[haberler · 08:03] Somer Sivrioğlu'nun işletmesinde kriz! Kayyum atandı\n[mynet · 08:45] Somer Sivrioğlu'nun restoranına kayyum atandı! Vergi borcu dudak uçuklattı\n[karar · 09:43] Somer Sivrioğlu'nun restoranına kayyum atandı: 72 milyonluk borç — Somer Sivrioğlu'nun Avustralya'da bulunan Anason restoranı, biriken vergi borçları nedeniyle kayyum olarak anılan dış yönetim sürecine girdi. İşletmenin Avustralya Vergi Dairesine 2 milyon 60 bin Avustralya doları, yaklaşık 72,4 milyon TL borcu bulunduğu ortaya çıktı. Beş yıldır …\n[ahaber · 09:46] Ünlü şef Somer Sivrioğlu'nun restoranında kayyum şoku! Borcu ortaya çıktı\n[onedio · 09:50] Somer Sivrioğlu'nun Avustralya'daki Restoranına Kayyum Atandı\n[takvim · 09:51] Milyonluk vergi borcu ödenemedi! Somer Sivrioğlu'nun Sidney'deki restoranına kayyum atandı\n[turkiyegz · 09:57] Ünlü şef Somer Sivrioğlu'nun milyonluk borcu çıktı! Avustralya'daki restoranına kayyım atandı\n[cumhuriyet · 10:03] Ünlü şef Somer Sivrioğlu'nun restoranına kayyım atandı: Milyonluk borç ortaya çıktı!\n[birgun · 10:09] Ünlü şef Somer Sivrioğlu'nun restoranına kayyum atandı\n[haberturk · 10:24] Somer Şef'in restoranına kayyum atandı\n[yenisafak · 10:33] Somer şefin restoranına kayyum atandı: Vergi borcu dudak uçuklattı\n[tgrt · 11:33] Somer Sivrioğlu'nun restoranına kayyum atandı! Milyonluk vergi borcu gündem oldu\n[milligazete · 16:50] Somer Sivrioğlu'nun Anason restoranı nerede? Vergi borcu kaç milyon dolar?\n[aksam · 09:36] Ünlü şefe, Sidney'de vergi şoku! Restoranına kayyum atandı"
+  }
+ ]
+}

@@ -1,0 +1,1436 @@
+{
+ "instructions": "Write plain Turkish for a general reader. For each item write {\"noticed\": ..., \"why\": ...} to its output_file. noticed = what the headlines show, naming the outlets. why = why that is not proof. Each field is 1-2 sentences, 40-320 characters. Use only quotes given in the item (inside “…”), exactly as given. Never use the words 'bağlam gerekli', 'desteklendi', 'uncertain'.",
+ "items": [
+  {
+   "key": "s4546__anchoring-bias",
+   "output_file": "runs/bg/explain/s4546__anchoring-bias.json",
+   "event_title": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı",
+   "concept": "Anchoring Bias",
+   "definition": "A reasoning pattern in which an initial value or piece of information becomes a reference point and exerts unwarranted influence on a later estimate or decision. Using a starting point is not by itself a bias or an error: identification here requires explicit evidence that the anchor distorts judgment or is given unjustified weight.",
+   "quotes": [
+    {
+     "quote": "Bakırköy Belediyesine operasyon: 68 kişi hakkında gözaltı kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesi'ne yolsuzluk operasyonu! 58 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "İlk açıklanan 68 rakamı referans noktası oluşturmuş ve bazı başlıklarda fiili gözaltı sayısı yerine kullanılmış olabilir.",
+   "skeptic_alternative": "68 resmi gözaltı kararı sayısıdır; tekrar edilmesi doğru bilginin aktarılmasıdır.",
+   "missing_context": [
+    "Güncelleme yapılmayan başlıkların sonradan düzeltilip düzeltilmediği",
+    "Sonraki bir tahmin veya karar",
+    "Sonraki tahminin açıkça 68'e dayandırıldığını gösteren ifade"
+   ],
+   "headlines": "[star · 06:58] Bakırköy Belediyesi'ne yolsuzluk operasyonu: Çok sayıda isim için gözaltı kararı — Bakırköy Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'irtikap' suçlarına ilişkin başlatılan soruşturma kapsamında 58 şüpheli gözaltına alındı.\n[sozcu · 06:59] SON DAKİKA...Bakırköy Belediyesi'ne operasyon: Çok sayıda gözaltı kararı\n[yenisafak · 07:00] Bakırköy Belediyesine operasyon: 68 kişi hakkında gözaltı kararı\n[tgrt · 07:00] Bakırköy Belediyesine operasyon: 68 şüpheli hakkında gözaltı kararı\n[ahaber · 07:06] Bakırköy Belediyesi'ne ihale operasyonu: Başkan yardımcıları ve meclis üyelerinin de olduğu 68 kişi için gözaltı kararı\n[turkiyegz · 07:09] Bakırköy Belediyesi'ne yolsuzluk operasyonu: 58 kişi gözaltında\n[mynet · 07:10] Bakırköy Belediyesi'ne operasyon! 68 gözaltı kararı\n[cumhuriyet · 07:12] Son dakika... Bakırköy Belediyesi’ne operasyon: Çok sayıda gözaltı kararı var\n[haberturk · 07:12] Bakırköy Belediyesi'ne operasyon: 68 gözaltı\n[karar · 07:15] Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı — İstanbul'da Bakırköy, Çatalca, Küçükçekmece ve Büyükçekmece belediye başkanları ile 110 belediye meclis üyesinin bugün saat 14.00'te Yeni Parti'ye katılacaklarını açıklamaları beklenirken, sabah saatlerinde Bakırköy Belediyesi'ne operasyon başlatıldı. Bakırköy Cumhuriyet …\n[takvim · 07:18] Bakırköy Belediyesi'ne ihale ve irtikap soruşturması! 68 şüpheliden 58'i gözaltına alındı\n[milligazete · 07:19] Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı\n[trthaber · 07:19] Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı\n[akit · 07:23] Son dakika! Bakırköy Belediyesi'ne dev operasyon!\n[haberler · 07:26] Bakırköy Belediyesi'ndeki soruşturmada 68 şüpheli için gözaltı kararı çıkarıldı\n[aa · 07:43] Bakırköy Belediyesine yönelik soruşturmada 58 şüpheli gözaltına alındı\n[tele1 · 07:47] Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı\n[sabah · 08:09] SON DAKİKA | Bakırköy Belediyesi'ne 'ihale' operasyonu: 68 gözaltı kararı! 2024-2026 yıllarına ait 42 ihale mercek altında\n[yeniasya · 10:03] Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı\n[aksam · 10:54] Bakırköy Belediyesi'ne yolsuzluk operasyonu! 58 şüpheli gözaltına alındı\n[ntv · 10:59] Bakırköy Belediyesi'ne operasyon. 68 şüpheli için gözaltı kararı\n[sondakika · 12:18] Bakırköy Belediyesi'ne yönelik operasyonda 68 kişiden 57'si gözaltına alındı"
+  },
+  {
+   "key": "s5339__framing-effect",
+   "output_file": "runs/bg/explain/s5339__framing-effect.json",
+   "event_title": "Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "SON DAKİKA! Google'a yapay zeka kıskacı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Google yapay zeka hizmetlerine rekabet soruşturması",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[trthaber · 13:24] Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı karar 'kıskaç/fren' (Google'a yaptırım) veya 'haber sitelerini koruyacak' (kazanç) çerçeveleriyle sunulmuş; çerçeveye dayalı bir tercih metinde yok.",
+   "skeptic_alternative": "Mecazlı başlıklar tıklanma için olağan üslup tercihi olabilir.",
+   "missing_context": [
+    "Kararın tam metni",
+    "Okur tepkisine veya karar etkisine dair veri",
+    "Sunuma bağlı açık bir yargı"
+   ],
+   "headlines": "[sondakika · 08:30] Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni\n[ahaber · 11:04] Google’a yapay zekâ freni! Haber özetlerine 'adil paylaşım' tedbiri\n[sabah · 11:13] SON DAKİKA! Google'a yapay zeka kıskacı! Rekabet Kurumu duyurdu: Haber özetlerine 'adil paylaşım' tedbiri\n[bloomberght · 11:16] Google yapay zeka hizmetlerine rekabet soruşturması\n[takvim · 11:17] Google'a yapay zeka soruşturması! Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir\n[yenisafak · 11:19] Google'ın yapay zeka özetlerine 'adil paylaşım' freni: Rekabet Kurumu harekete geçti\n[birgun · 11:24] Rekabet Kurumu'ndan Google'ın yapay zeka özetleri hakkında geçici tedbir kararı\n[akit · 11:26] Rekabet Kurumu'ndan Google kararı! Yapay zekâ özetlerine \"adil paylaşım\" tedbiri\n[haberler · 11:30] Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni\n[tgrt · 11:57] Rekabet Kurumu'ndan Google'a yapay zeka tedbiri: Adil paylaşım için harekete geçildi\n[turkiyegz · 11:58] Google'ın yapay zekâ hizmetlerine soruşturma! Rekabet Kurulundan geçici tedbir kararı\n[aa · 11:58] Rekabet Kurulundan Google'ın yapay zeka hizmetlerine soruşturma ve geçici tedbir kararı\n[star · 12:02] Google'ın yapay zeka moduna soruşturma — Rekabet Kurulu, Google hakkında yapay zeka ön izlemeleri ve yapay zeka modu hizmetlerine ilişkin soruşturma açılmasına ve geçici tedbir uygulanmasına karar verdi.\n[aksam · 12:11] Google'a yapay zeka kıskacı: Haber özetlerine \"adil paylaşım\" tedbiri\n[haberturk · 12:22] Google'ın yapay zeka hizmetlerine rekabet soruşturması\n[dirilis · 12:38] Google yapay zeka soruşturması: Rekabet Kurulu tedbir verdi\n[diken · 12:39] Rekabet Kurumu'ndan Google’ın yapay zeka özetlerine tedbir\n[milliyet · 12:53] Rekabet Kurulu'ndan Google'ın yapay zeka özelliklerine soruşturma — Kurumun sitesinden yapılan açıklamaya göre, Alphabet Inc, Google Ireland Limited, Google LLC, Google International LLC ve Google Reklamcılık ve Pazarlama Ltd. Şti.'den oluşan ekonomik bütünlüğün (Google), arama hizmeti kapsamında kullanıma sunduğu \"yapay zeka ön izlemeleri\" ve …\n[milligazete · 13:00] Google'ın yapay zeka özetlerine Rekabet Kurumu incelemesi! Haber siteleri için yeni düzenleme gündemde\n[trthaber · 13:24] Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma\n[cnnturk · 14:36] Rekabet Kurumu'ndan Google'ın yapay zekâ özetlerine yönelik tedbir kararı — Rekabet Kurumu, Google'ın yapay zekâ destekli arama özetlerine ilişkin yürüttüğü soruşturma kapsamında, haber yayıncılarının ekonomik haklarının korunması amacıyla geçici tedbir kararı aldı.\n[cumhuriyet · 16:37] Rekabet Kurulu'ndan Google'a 'geçici tedbir' kararı"
+  },
+  {
+   "key": "s5339__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5339__leveling-and-sharpening.json",
+   "event_title": "Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Rekabet Kurulu, Google hakkında yapay zeka ön izlemeleri ve yapay zeka modu hizmetlerine ilişkin soruşturma açılmasına ve geçici tedbir uygulanmasına karar verdi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Google’a yapay zekâ freni! Haber özetlerine 'adil paylaşım' tedbiri",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Google'ın yapay zeka özetlerine Rekabet Kurumu incelemesi! Haber siteleri için yeni düzenleme gündemde",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[diken · 12:39] Rekabet Kurumu'ndan Google’ın yapay zeka özetlerine tedbir",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Star'ın soruşturma+geçici tedbir özeti temel alındığında bazı başlıklar soruşturmayı atlayıp 'fren' tedbirini büyütmüş, bazıları 'inceleme/düzenleme gündemde' diye yumuşatmış.",
+   "skeptic_alternative": "Tedbirin amacı kurum açıklamasında haber yayıncılarını korumak olarak belirtilmiş olabilir; başlık kısaltması olağandır.",
+   "missing_context": [
+    "Farkın bir sonuca etkisi",
+    "Kurul açıklamasının tam metni",
+    "Rekabet Kurumu'nun özgün açıklama metni",
+    "Tedbirin kapsamı ve süresi"
+   ],
+   "headlines": "[sondakika · 08:30] Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni\n[ahaber · 11:04] Google’a yapay zekâ freni! Haber özetlerine 'adil paylaşım' tedbiri\n[sabah · 11:13] SON DAKİKA! Google'a yapay zeka kıskacı! Rekabet Kurumu duyurdu: Haber özetlerine 'adil paylaşım' tedbiri\n[bloomberght · 11:16] Google yapay zeka hizmetlerine rekabet soruşturması\n[takvim · 11:17] Google'a yapay zeka soruşturması! Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir\n[yenisafak · 11:19] Google'ın yapay zeka özetlerine 'adil paylaşım' freni: Rekabet Kurumu harekete geçti\n[birgun · 11:24] Rekabet Kurumu'ndan Google'ın yapay zeka özetleri hakkında geçici tedbir kararı\n[akit · 11:26] Rekabet Kurumu'ndan Google kararı! Yapay zekâ özetlerine \"adil paylaşım\" tedbiri\n[haberler · 11:30] Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni\n[tgrt · 11:57] Rekabet Kurumu'ndan Google'a yapay zeka tedbiri: Adil paylaşım için harekete geçildi\n[turkiyegz · 11:58] Google'ın yapay zekâ hizmetlerine soruşturma! Rekabet Kurulundan geçici tedbir kararı\n[aa · 11:58] Rekabet Kurulundan Google'ın yapay zeka hizmetlerine soruşturma ve geçici tedbir kararı\n[star · 12:02] Google'ın yapay zeka moduna soruşturma — Rekabet Kurulu, Google hakkında yapay zeka ön izlemeleri ve yapay zeka modu hizmetlerine ilişkin soruşturma açılmasına ve geçici tedbir uygulanmasına karar verdi.\n[aksam · 12:11] Google'a yapay zeka kıskacı: Haber özetlerine \"adil paylaşım\" tedbiri\n[haberturk · 12:22] Google'ın yapay zeka hizmetlerine rekabet soruşturması\n[dirilis · 12:38] Google yapay zeka soruşturması: Rekabet Kurulu tedbir verdi\n[diken · 12:39] Rekabet Kurumu'ndan Google’ın yapay zeka özetlerine tedbir\n[milliyet · 12:53] Rekabet Kurulu'ndan Google'ın yapay zeka özelliklerine soruşturma — Kurumun sitesinden yapılan açıklamaya göre, Alphabet Inc, Google Ireland Limited, Google LLC, Google International LLC ve Google Reklamcılık ve Pazarlama Ltd. Şti.'den oluşan ekonomik bütünlüğün (Google), arama hizmeti kapsamında kullanıma sunduğu \"yapay zeka ön izlemeleri\" ve …\n[milligazete · 13:00] Google'ın yapay zeka özetlerine Rekabet Kurumu incelemesi! Haber siteleri için yeni düzenleme gündemde\n[trthaber · 13:24] Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma\n[cnnturk · 14:36] Rekabet Kurumu'ndan Google'ın yapay zekâ özetlerine yönelik tedbir kararı — Rekabet Kurumu, Google'ın yapay zekâ destekli arama özetlerine ilişkin yürüttüğü soruşturma kapsamında, haber yayıncılarının ekonomik haklarının korunması amacıyla geçici tedbir kararı aldı.\n[cumhuriyet · 16:37] Rekabet Kurulu'ndan Google'a 'geçici tedbir' kararı"
+  },
+  {
+   "key": "s5339__salience-bias",
+   "output_file": "runs/bg/explain/s5339__salience-bias.json",
+   "event_title": "Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "SON DAKİKA! Google'a yapay zeka kıskacı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Google'a yapay zeka soruşturması! Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 12:11] Google'a yapay zeka kıskacı: Haber özetlerine \"adil paylaşım\" tedbiri",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Çarpıcı 'kıskaç', 'kritik' ifadeleri kararın belirli yönünü öne çıkarıyor; haksız etki gösterilmiyor.",
+   "skeptic_alternative": "Haber yayıncılarını doğrudan ilgilendiren unsurun öne çıkarılması ilgililik gereği olabilir.",
+   "missing_context": [
+    "Kararın tüm unsurlarının listesi",
+    "Çarpıcı unsurun bir yargıya açıkça bağlanması"
+   ],
+   "headlines": "[sondakika · 08:30] Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni\n[ahaber · 11:04] Google’a yapay zekâ freni! Haber özetlerine 'adil paylaşım' tedbiri\n[sabah · 11:13] SON DAKİKA! Google'a yapay zeka kıskacı! Rekabet Kurumu duyurdu: Haber özetlerine 'adil paylaşım' tedbiri\n[bloomberght · 11:16] Google yapay zeka hizmetlerine rekabet soruşturması\n[takvim · 11:17] Google'a yapay zeka soruşturması! Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir\n[yenisafak · 11:19] Google'ın yapay zeka özetlerine 'adil paylaşım' freni: Rekabet Kurumu harekete geçti\n[birgun · 11:24] Rekabet Kurumu'ndan Google'ın yapay zeka özetleri hakkında geçici tedbir kararı\n[akit · 11:26] Rekabet Kurumu'ndan Google kararı! Yapay zekâ özetlerine \"adil paylaşım\" tedbiri\n[haberler · 11:30] Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni\n[tgrt · 11:57] Rekabet Kurumu'ndan Google'a yapay zeka tedbiri: Adil paylaşım için harekete geçildi\n[turkiyegz · 11:58] Google'ın yapay zekâ hizmetlerine soruşturma! Rekabet Kurulundan geçici tedbir kararı\n[aa · 11:58] Rekabet Kurulundan Google'ın yapay zeka hizmetlerine soruşturma ve geçici tedbir kararı\n[star · 12:02] Google'ın yapay zeka moduna soruşturma — Rekabet Kurulu, Google hakkında yapay zeka ön izlemeleri ve yapay zeka modu hizmetlerine ilişkin soruşturma açılmasına ve geçici tedbir uygulanmasına karar verdi.\n[aksam · 12:11] Google'a yapay zeka kıskacı: Haber özetlerine \"adil paylaşım\" tedbiri\n[haberturk · 12:22] Google'ın yapay zeka hizmetlerine rekabet soruşturması\n[dirilis · 12:38] Google yapay zeka soruşturması: Rekabet Kurulu tedbir verdi\n[diken · 12:39] Rekabet Kurumu'ndan Google’ın yapay zeka özetlerine tedbir\n[milliyet · 12:53] Rekabet Kurulu'ndan Google'ın yapay zeka özelliklerine soruşturma — Kurumun sitesinden yapılan açıklamaya göre, Alphabet Inc, Google Ireland Limited, Google LLC, Google International LLC ve Google Reklamcılık ve Pazarlama Ltd. Şti.'den oluşan ekonomik bütünlüğün (Google), arama hizmeti kapsamında kullanıma sunduğu \"yapay zeka ön izlemeleri\" ve …\n[milligazete · 13:00] Google'ın yapay zeka özetlerine Rekabet Kurumu incelemesi! Haber siteleri için yeni düzenleme gündemde\n[trthaber · 13:24] Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma\n[cnnturk · 14:36] Rekabet Kurumu'ndan Google'ın yapay zekâ özetlerine yönelik tedbir kararı — Rekabet Kurumu, Google'ın yapay zekâ destekli arama özetlerine ilişkin yürüttüğü soruşturma kapsamında, haber yayıncılarının ekonomik haklarının korunması amacıyla geçici tedbir kararı aldı.\n[cumhuriyet · 16:37] Rekabet Kurulu'ndan Google'a 'geçici tedbir' kararı"
+  },
+  {
+   "key": "s5339__authority-bias",
+   "output_file": "runs/bg/explain/s5339__authority-bias.json",
+   "event_title": "Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "Rekabet Kurumu duyurdu: Haber özetlerine 'adil paylaşım' tedbiri",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kurumun sitesinden yapılan açıklamaya göre",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Haberler Rekabet Kurumu açıklamasına dayanıyor; bu otoritenin değerlendirmenin yerine geçtiği belirtilmiyor.",
+   "skeptic_alternative": "Resmi kararı yetkili kurumun duyurusuna dayandırmak doğru bir haber pratiğidir.",
+   "missing_context": [
+    "Google'ın yanıtı",
+    "Otoriteye dayalı açık bir değerlendirme cümlesi"
+   ],
+   "headlines": "[sondakika · 08:30] Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni\n[ahaber · 11:04] Google’a yapay zekâ freni! Haber özetlerine 'adil paylaşım' tedbiri\n[sabah · 11:13] SON DAKİKA! Google'a yapay zeka kıskacı! Rekabet Kurumu duyurdu: Haber özetlerine 'adil paylaşım' tedbiri\n[bloomberght · 11:16] Google yapay zeka hizmetlerine rekabet soruşturması\n[takvim · 11:17] Google'a yapay zeka soruşturması! Rekabet Kurumundan haber sitelerini koruyacak kritik tedbir\n[yenisafak · 11:19] Google'ın yapay zeka özetlerine 'adil paylaşım' freni: Rekabet Kurumu harekete geçti\n[birgun · 11:24] Rekabet Kurumu'ndan Google'ın yapay zeka özetleri hakkında geçici tedbir kararı\n[akit · 11:26] Rekabet Kurumu'ndan Google kararı! Yapay zekâ özetlerine \"adil paylaşım\" tedbiri\n[haberler · 11:30] Rekabet Kurumu harekete geçti! Google'ın yapay zeka özetlerine \"adil paylaşım\" freni\n[tgrt · 11:57] Rekabet Kurumu'ndan Google'a yapay zeka tedbiri: Adil paylaşım için harekete geçildi\n[turkiyegz · 11:58] Google'ın yapay zekâ hizmetlerine soruşturma! Rekabet Kurulundan geçici tedbir kararı\n[aa · 11:58] Rekabet Kurulundan Google'ın yapay zeka hizmetlerine soruşturma ve geçici tedbir kararı\n[star · 12:02] Google'ın yapay zeka moduna soruşturma — Rekabet Kurulu, Google hakkında yapay zeka ön izlemeleri ve yapay zeka modu hizmetlerine ilişkin soruşturma açılmasına ve geçici tedbir uygulanmasına karar verdi.\n[aksam · 12:11] Google'a yapay zeka kıskacı: Haber özetlerine \"adil paylaşım\" tedbiri\n[haberturk · 12:22] Google'ın yapay zeka hizmetlerine rekabet soruşturması\n[dirilis · 12:38] Google yapay zeka soruşturması: Rekabet Kurulu tedbir verdi\n[diken · 12:39] Rekabet Kurumu'ndan Google’ın yapay zeka özetlerine tedbir\n[milliyet · 12:53] Rekabet Kurulu'ndan Google'ın yapay zeka özelliklerine soruşturma — Kurumun sitesinden yapılan açıklamaya göre, Alphabet Inc, Google Ireland Limited, Google LLC, Google International LLC ve Google Reklamcılık ve Pazarlama Ltd. Şti.'den oluşan ekonomik bütünlüğün (Google), arama hizmeti kapsamında kullanıma sunduğu \"yapay zeka ön izlemeleri\" ve …\n[milligazete · 13:00] Google'ın yapay zeka özetlerine Rekabet Kurumu incelemesi! Haber siteleri için yeni düzenleme gündemde\n[trthaber · 13:24] Rekabet Kurulu'ndan Google'ın yapay zeka hizmetlerine soruşturma\n[cnnturk · 14:36] Rekabet Kurumu'ndan Google'ın yapay zekâ özetlerine yönelik tedbir kararı — Rekabet Kurumu, Google'ın yapay zekâ destekli arama özetlerine ilişkin yürüttüğü soruşturma kapsamında, haber yayıncılarının ekonomik haklarının korunması amacıyla geçici tedbir kararı aldı.\n[cumhuriyet · 16:37] Rekabet Kurulu'ndan Google'a 'geçici tedbir' kararı"
+  },
+  {
+   "key": "s4678__framing-effect",
+   "output_file": "runs/bg/explain/s4678__framing-effect.json",
+   "event_title": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstifasını sundu! Fenerbahçe'de İsmail Kartal dönemi sona erdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sabah · 17:57] SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[tgrt · 20:33] Fenerbahçe'de İsmail Kartal istifa etti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı ayrılık kulübün kararı, istifa veya kovulma olarak farklı çerçevelenmiş; bu sunuma dayalı bir tercih metinde yok.",
+   "skeptic_alternative": "İlk saatlerde ayrılığın biçimi netleşmemiş olabilir; sonraki haberler istifayı netleştiriyor.",
+   "missing_context": [
+    "Kulübün resmi açıklaması",
+    "Kulübün resmi açıklamasının tam metni",
+    "Çerçeveye bağlı açık bir yargı"
+   ],
+   "headlines": "[milligazete · 16:36] İsmail Kartal Fenerbahçe'den ayrıldı mı, istifa etti mi? Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?\n[yeniasya · 17:00] Fenerbahçe'de İsmail Kartal'ın 4. dönemi uzun sürmedi\n[sondakika · 17:32] Fenerbahçe’de İsmail Kartal dönemi bitti\n[sozcu · 17:47] Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi\n[sabah · 17:57] SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi\n[star · 19:01] Fenerbahçe'de kritik toplantı sona erdi! İsmail Kartal göreve devam edecek mi?\n[karar · 19:11] Fenerbahçe'de İsmail Kartal dönemi resmen sona erdi: Kulüpten ayrılık açıklaması — Fenerbahçe'de Galatasaray karşısında alınan 2-1'lik derbi mağlubiyetinin ardından teknik direktör İsmail Kartal ile yollar resmen ayrıldı. Sarı-lacivertli kulüp, deneyimli çalıştırıcının ayrılma kararını yönetime bildirdiğini ve yapılan görüşmelerin ardından sürecin karşılıklı …\n[cumhuriyet · 19:24] Fenerbahçe'de kritik saatler... Derbi sonrası İsmail Kartal iddiası!\n[turkiyegz · 19:26] İstifasını sundu! Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[akit · 19:38] Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi: İstifası kabul edildi! Yerine gelecek isim de belli oldu\n[haberturk · 20:09] Fenerbahçe'de İsmail Kartal dönemi sona erdi!\n[ahaber · 20:15] Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti\n[mynet · 20:20] Fenerbahçe'de İsmail Kartal dönemi sona erdi!\n[haberler · 20:32] Fenerbahçe’de İsmail Kartal dönemi bitti\n[tgrt · 20:33] Fenerbahçe'de İsmail Kartal istifa etti\n[onedio · 20:39] Fenerbahçe'de İsmail Kartal Dönemi Sona Erdi: Galatasaray Derbisinin Ardından Yollar Ayrıldı!\n[diken · 20:45] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[birgun · 20:45] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[trthaber · 21:06] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[yenisafak · 21:20] İsmail Kartal dönemi sona erdi! Göztepe maçında takımın başında kim olacak?\n[ntv · 22:02] Fenerbahçe'de İsmail Kartal dönemi bitti"
+  },
+  {
+   "key": "s4678__outcome-bias",
+   "output_file": "runs/bg/explain/s4678__outcome-bias.json",
+   "event_title": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi",
+   "concept": "Outcome bias",
+   "definition": "Outcome bias is judging a past decision’s quality mainly by how it turned out, rather than by the evidence, uncertainty, and standards applicable when it was made. A favorable result can make a weak process look sound; an unfavorable result can make a reasonable process look poor. Outcomes may still be relevant evidence when assessing consequences or updating future choices.",
+   "quotes": [
+    {
+     "quote": "Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Galatasaray karşısında alınan 2-1'lik derbi mağlubiyetinin ardından teknik direktör İsmail Kartal ile yollar resmen ayrıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Galatasaray karşısında alınan 2-1'lik derbi mağlubiyetinin ardından teknik direktör İsmail Kartal ile yollar resmen ayrıldı.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Ayrılık derbi mağlubiyetine zamansal olarak bağlanıyor; ancak bir değerlendiricinin önceki kararın kalitesini sonuca göre yargıladığı açıkça yazılmıyor.",
+   "skeptic_alternative": "Derbi yenilgisi sezon performansının bir parçası olarak meşru bir değerlendirme verisi olabilir; ayrılık gönüllü istifa da olabilir.",
+   "missing_context": [
+    "Ayrılık gerekçesini açıklayan kulüp ya da Kartal beyanı",
+    "Kartal'ın ve yönetimin gerekçeleri",
+    "Sezon geneli sonuçlar",
+    "Sezon performans verisi"
+   ],
+   "headlines": "[milligazete · 16:36] İsmail Kartal Fenerbahçe'den ayrıldı mı, istifa etti mi? Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?\n[yeniasya · 17:00] Fenerbahçe'de İsmail Kartal'ın 4. dönemi uzun sürmedi\n[sondakika · 17:32] Fenerbahçe’de İsmail Kartal dönemi bitti\n[sozcu · 17:47] Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi\n[sabah · 17:57] SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi\n[star · 19:01] Fenerbahçe'de kritik toplantı sona erdi! İsmail Kartal göreve devam edecek mi?\n[karar · 19:11] Fenerbahçe'de İsmail Kartal dönemi resmen sona erdi: Kulüpten ayrılık açıklaması — Fenerbahçe'de Galatasaray karşısında alınan 2-1'lik derbi mağlubiyetinin ardından teknik direktör İsmail Kartal ile yollar resmen ayrıldı. Sarı-lacivertli kulüp, deneyimli çalıştırıcının ayrılma kararını yönetime bildirdiğini ve yapılan görüşmelerin ardından sürecin karşılıklı …\n[cumhuriyet · 19:24] Fenerbahçe'de kritik saatler... Derbi sonrası İsmail Kartal iddiası!\n[turkiyegz · 19:26] İstifasını sundu! Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[akit · 19:38] Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi: İstifası kabul edildi! Yerine gelecek isim de belli oldu\n[haberturk · 20:09] Fenerbahçe'de İsmail Kartal dönemi sona erdi!\n[ahaber · 20:15] Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti\n[mynet · 20:20] Fenerbahçe'de İsmail Kartal dönemi sona erdi!\n[haberler · 20:32] Fenerbahçe’de İsmail Kartal dönemi bitti\n[tgrt · 20:33] Fenerbahçe'de İsmail Kartal istifa etti\n[onedio · 20:39] Fenerbahçe'de İsmail Kartal Dönemi Sona Erdi: Galatasaray Derbisinin Ardından Yollar Ayrıldı!\n[diken · 20:45] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[birgun · 20:45] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[trthaber · 21:06] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[yenisafak · 21:20] İsmail Kartal dönemi sona erdi! Göztepe maçında takımın başında kim olacak?\n[ntv · 22:02] Fenerbahçe'de İsmail Kartal dönemi bitti"
+  },
+  {
+   "key": "s4678__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4678__leveling-and-sharpening.json",
+   "event_title": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "deneyimli çalıştırıcının ayrılma kararını yönetime bildirdiğini",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SON DAKİKA | Fenerbahçe ayrılık kararı aldı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe ayrılık kararı aldı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Karar'ın 'ayrılma kararını yönetime bildirdi' aktarımı temel alındığında Sabah kararı kulübe atfediyor; A Haber mağlubiyet bağlantısını 'deprem' olarak büyütüyor.",
+   "skeptic_alternative": "Sabah'ın başlığı açıklama öncesi bilgiye dayanıyor olabilir; Milli Gazete'ninki arama odaklı soru başlığıdır.",
+   "missing_context": [
+    "Başlıkların yayın anındaki resmi bilgi durumu",
+    "Farkın bir sonuca etkisi",
+    "Resmi KAP/kulüp açıklaması"
+   ],
+   "headlines": "[milligazete · 16:36] İsmail Kartal Fenerbahçe'den ayrıldı mı, istifa etti mi? Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?\n[yeniasya · 17:00] Fenerbahçe'de İsmail Kartal'ın 4. dönemi uzun sürmedi\n[sondakika · 17:32] Fenerbahçe’de İsmail Kartal dönemi bitti\n[sozcu · 17:47] Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi\n[sabah · 17:57] SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi\n[star · 19:01] Fenerbahçe'de kritik toplantı sona erdi! İsmail Kartal göreve devam edecek mi?\n[karar · 19:11] Fenerbahçe'de İsmail Kartal dönemi resmen sona erdi: Kulüpten ayrılık açıklaması — Fenerbahçe'de Galatasaray karşısında alınan 2-1'lik derbi mağlubiyetinin ardından teknik direktör İsmail Kartal ile yollar resmen ayrıldı. Sarı-lacivertli kulüp, deneyimli çalıştırıcının ayrılma kararını yönetime bildirdiğini ve yapılan görüşmelerin ardından sürecin karşılıklı …\n[cumhuriyet · 19:24] Fenerbahçe'de kritik saatler... Derbi sonrası İsmail Kartal iddiası!\n[turkiyegz · 19:26] İstifasını sundu! Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[akit · 19:38] Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi: İstifası kabul edildi! Yerine gelecek isim de belli oldu\n[haberturk · 20:09] Fenerbahçe'de İsmail Kartal dönemi sona erdi!\n[ahaber · 20:15] Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti\n[mynet · 20:20] Fenerbahçe'de İsmail Kartal dönemi sona erdi!\n[haberler · 20:32] Fenerbahçe’de İsmail Kartal dönemi bitti\n[tgrt · 20:33] Fenerbahçe'de İsmail Kartal istifa etti\n[onedio · 20:39] Fenerbahçe'de İsmail Kartal Dönemi Sona Erdi: Galatasaray Derbisinin Ardından Yollar Ayrıldı!\n[diken · 20:45] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[birgun · 20:45] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[trthaber · 21:06] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[yenisafak · 21:20] İsmail Kartal dönemi sona erdi! Göztepe maçında takımın başında kim olacak?\n[ntv · 22:02] Fenerbahçe'de İsmail Kartal dönemi bitti"
+  },
+  {
+   "key": "s4678__salience-bias",
+   "output_file": "runs/bg/explain/s4678__salience-bias.json",
+   "event_title": "Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'de kritik saatler... Derbi sonrası İsmail Kartal iddiası!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ahaber · 20:15] Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[trthaber · 21:06] Fenerbahçe'de İsmail Kartal dönemi sona erdi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Yakın tarihli ve duygusal açıdan çarpıcı derbi yenilgisi ayrılığın başlıca bağlamı olarak öne çıkarılmış.",
+   "skeptic_alternative": "Derbi sonrası ayrılık spor basınında olağan bir haber çerçevesidir; vurgu olayla ilgili olabilir.",
+   "missing_context": [
+    "Ayrılığın asıl gerekçeleri",
+    "Derbinin ayrılık kararına etkisini anlatan açık ifade",
+    "Diğer performans etkenleri",
+    "Okur etkisine dair veri"
+   ],
+   "headlines": "[milligazete · 16:36] İsmail Kartal Fenerbahçe'den ayrıldı mı, istifa etti mi? Son dakika İsmail Kartal kovuldu mu, yerine kim gelecek?\n[yeniasya · 17:00] Fenerbahçe'de İsmail Kartal'ın 4. dönemi uzun sürmedi\n[sondakika · 17:32] Fenerbahçe’de İsmail Kartal dönemi bitti\n[sozcu · 17:47] Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi\n[sabah · 17:57] SON DAKİKA | Fenerbahçe ayrılık kararı aldı! İsmail Kartal dönemi sona erdi\n[star · 19:01] Fenerbahçe'de kritik toplantı sona erdi! İsmail Kartal göreve devam edecek mi?\n[karar · 19:11] Fenerbahçe'de İsmail Kartal dönemi resmen sona erdi: Kulüpten ayrılık açıklaması — Fenerbahçe'de Galatasaray karşısında alınan 2-1'lik derbi mağlubiyetinin ardından teknik direktör İsmail Kartal ile yollar resmen ayrıldı. Sarı-lacivertli kulüp, deneyimli çalıştırıcının ayrılma kararını yönetime bildirdiğini ve yapılan görüşmelerin ardından sürecin karşılıklı …\n[cumhuriyet · 19:24] Fenerbahçe'de kritik saatler... Derbi sonrası İsmail Kartal iddiası!\n[turkiyegz · 19:26] İstifasını sundu! Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[akit · 19:38] Fenerbahçe'de 4. İsmail Kartal dönemi sona erdi: İstifası kabul edildi! Yerine gelecek isim de belli oldu\n[haberturk · 20:09] Fenerbahçe'de İsmail Kartal dönemi sona erdi!\n[ahaber · 20:15] Fenerbahçe'de Galatasaray mağlubiyeti sonrası deprem! İsmail Kartal istifa etti\n[mynet · 20:20] Fenerbahçe'de İsmail Kartal dönemi sona erdi!\n[haberler · 20:32] Fenerbahçe’de İsmail Kartal dönemi bitti\n[tgrt · 20:33] Fenerbahçe'de İsmail Kartal istifa etti\n[onedio · 20:39] Fenerbahçe'de İsmail Kartal Dönemi Sona Erdi: Galatasaray Derbisinin Ardından Yollar Ayrıldı!\n[diken · 20:45] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[birgun · 20:45] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[trthaber · 21:06] Fenerbahçe'de İsmail Kartal dönemi sona erdi\n[yenisafak · 21:20] İsmail Kartal dönemi sona erdi! Göztepe maçında takımın başında kim olacak?\n[ntv · 22:02] Fenerbahçe'de İsmail Kartal dönemi bitti"
+  },
+  {
+   "key": "s4737__framing-effect",
+   "output_file": "runs/bg/explain/s4737__framing-effect.json",
+   "event_title": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Türkiye'den BM hamlesi! Feridun Sinirlioğlu, Genel Sekreterlik için resmen aday gösterildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberler · 01:44] Türkiye'den BM hamlesi! Feridun Sinirlioğlu, Genel Sekreterlik için resmen aday gösterildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aa · 01:45] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Adaylık bir kurumda 'hamle' olarak, diğerlerinde nötr biçimde sunulmuş; sunuma dayalı bir yargı metinde yok.",
+   "skeptic_alternative": "Başlık üslubu farkı olağan editoryal tercihtir.",
+   "missing_context": [
+    "Okur veya karar verici tepkisine dair veri",
+    "Sunuma bağlı açık bir değerlendirme"
+   ],
+   "headlines": "[haberler · 01:44] Türkiye'den BM hamlesi! Feridun Sinirlioğlu, Genel Sekreterlik için resmen aday gösterildi\n[aa · 01:45] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[dirilis · 01:51] Türkiye'den Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için resmi başvuru!\n[milligazete · 01:51] Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için başvuru yapıldı\n[tgrt · 01:53] Türkiye'den BM Genel Sekreterliği için resmi adım: Feridun Sinirlioğlu'na adaylık başvurusu\n[ahaber · 02:10] Türkiye Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[akit · 02:26] Türkiye’nin BM Genel Sekreterliği adayı Feridun Sinirlioğlu oldu\n[trthaber · 02:27] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[haberturk · 02:46] Türkiye'nin BM Genel Sekreterliği adayı Sinirlioğlu\n[sabah · 03:51] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[sozcu · 04:52] Türkiye, BM Genel Sekreterliği için Sinirlioğlu'nu aday gösterdi\n[takvim · 06:33] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliğine aday gösterdi: Resmi başvuru mektubu sunuldu\n[sondakika · 07:29] Türkiye, Feridun Sinirlioğlu’nu BM Genel Sekreterliği’ne aday gösterdi\n[karar · 07:50] Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu — Türkiye, eski Dışişleri Bakanı ve mevcut AGİT Genel Sekreteri Büyükelçi Feridun Sinirlioğlu'nun Birleşmiş Milletler (BM) Genel Sekreterliği adaylığı için resmi başvurusunu gerçekleştirdi.\n[mynet · 07:57] Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu\n[birgun · 08:39] Türkiye'nin BM Genel Sekreterliği için gösterdiği aday belli oldu\n[cumhuriyet · 09:43] Türkiye’nin BM Genel Sekreterliği için adayı Feridun Sinirlioğlu oldu\n[ntv · 15:22] Türkiye'nin BM Genel Sekreter adayı Sinirlioğlu oldu\n[star · 15:59] Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı! Azerbaycan: Memnuniyete karşılıyoruz — Azerbaycan, Avrupa Güvenlik ve İşbirliği Teşkilatı (AGİT) Genel Sekreteri Feridun Sinirlioğlu'nun Birleşmiş Milletler (BM) Genel Sekreterliği görevine aday gösterilmesini memnuniyetle karşıladı.\n[aksam · 22:49] Feridun Sinirlioğlu BM Genel Sekreterliği adaylığı için vizyon belgesini açıkladı\n[turkiyegz · 18:02] Bakan Fidan duyurdu: Feridun Sinirlioğlu BM Genel Sekreterliği'ne aday"
+  },
+  {
+   "key": "s4737__authority-bias",
+   "output_file": "runs/bg/explain/s4737__authority-bias.json",
+   "event_title": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "eski Dışişleri Bakanı ve mevcut AGİT Genel Sekreteri Büyükelçi Feridun Sinirlioğlu'nun",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakan Fidan duyurdu: Feridun Sinirlioğlu BM Genel Sekreterliği'ne aday",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[turkiyegz · 18:02] Bakan Fidan duyurdu: Feridun Sinirlioğlu BM Genel Sekreterliği'ne aday",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Adayın unvanları ve Bakan'ın duyurusu öne çıkıyor; ancak bunların bir iddianın değerlendirilmesinin yerine geçtiği gösterilmiyor.",
+   "skeptic_alternative": "Adayın mevcut ve önceki görevlerini belirtmek, adaylıkla ilgili meşru biyografik bilgidir.",
+   "missing_context": [
+    "Adaylığa yönelik eleştiri veya alternatif adaylar",
+    "Adaylığın değerini unvana dayandıran açık bir akıl yürütme"
+   ],
+   "headlines": "[haberler · 01:44] Türkiye'den BM hamlesi! Feridun Sinirlioğlu, Genel Sekreterlik için resmen aday gösterildi\n[aa · 01:45] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[dirilis · 01:51] Türkiye'den Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için resmi başvuru!\n[milligazete · 01:51] Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için başvuru yapıldı\n[tgrt · 01:53] Türkiye'den BM Genel Sekreterliği için resmi adım: Feridun Sinirlioğlu'na adaylık başvurusu\n[ahaber · 02:10] Türkiye Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[akit · 02:26] Türkiye’nin BM Genel Sekreterliği adayı Feridun Sinirlioğlu oldu\n[trthaber · 02:27] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[haberturk · 02:46] Türkiye'nin BM Genel Sekreterliği adayı Sinirlioğlu\n[sabah · 03:51] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[sozcu · 04:52] Türkiye, BM Genel Sekreterliği için Sinirlioğlu'nu aday gösterdi\n[takvim · 06:33] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliğine aday gösterdi: Resmi başvuru mektubu sunuldu\n[sondakika · 07:29] Türkiye, Feridun Sinirlioğlu’nu BM Genel Sekreterliği’ne aday gösterdi\n[karar · 07:50] Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu — Türkiye, eski Dışişleri Bakanı ve mevcut AGİT Genel Sekreteri Büyükelçi Feridun Sinirlioğlu'nun Birleşmiş Milletler (BM) Genel Sekreterliği adaylığı için resmi başvurusunu gerçekleştirdi.\n[mynet · 07:57] Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu\n[birgun · 08:39] Türkiye'nin BM Genel Sekreterliği için gösterdiği aday belli oldu\n[cumhuriyet · 09:43] Türkiye’nin BM Genel Sekreterliği için adayı Feridun Sinirlioğlu oldu\n[ntv · 15:22] Türkiye'nin BM Genel Sekreter adayı Sinirlioğlu oldu\n[star · 15:59] Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı! Azerbaycan: Memnuniyete karşılıyoruz — Azerbaycan, Avrupa Güvenlik ve İşbirliği Teşkilatı (AGİT) Genel Sekreteri Feridun Sinirlioğlu'nun Birleşmiş Milletler (BM) Genel Sekreterliği görevine aday gösterilmesini memnuniyetle karşıladı.\n[aksam · 22:49] Feridun Sinirlioğlu BM Genel Sekreterliği adaylığı için vizyon belgesini açıkladı\n[turkiyegz · 18:02] Bakan Fidan duyurdu: Feridun Sinirlioğlu BM Genel Sekreterliği'ne aday"
+  },
+  {
+   "key": "s4737__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4737__leveling-and-sharpening.json",
+   "event_title": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Türkiye'nin BM Genel Sekreterliği için gösterdiği aday belli oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Azerbaycan: Memnuniyete karşılıyoruz",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[birgun · 08:39] Türkiye'nin BM Genel Sekreterliği için gösterdiği aday belli oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[takvim · 06:33] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliğine aday gösterdi: Resmi başvuru mektubu sunuldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Diğer başlıklarla karşılaştırıldığında BirGün başlıkta adayın adını atlamış; Star ise Azerbaycan'ın desteğini öne çıkarmış.",
+   "skeptic_alternative": "Merak uyandıran başlık biçimi; içerikte ad muhtemelen veriliyor.",
+   "missing_context": [
+    "BirGün haberinin gövde metni",
+    "Farkın bir sonuca etkisi",
+    "Haber metinlerinin tamamı"
+   ],
+   "headlines": "[haberler · 01:44] Türkiye'den BM hamlesi! Feridun Sinirlioğlu, Genel Sekreterlik için resmen aday gösterildi\n[aa · 01:45] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[dirilis · 01:51] Türkiye'den Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için resmi başvuru!\n[milligazete · 01:51] Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı için başvuru yapıldı\n[tgrt · 01:53] Türkiye'den BM Genel Sekreterliği için resmi adım: Feridun Sinirlioğlu'na adaylık başvurusu\n[ahaber · 02:10] Türkiye Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[akit · 02:26] Türkiye’nin BM Genel Sekreterliği adayı Feridun Sinirlioğlu oldu\n[trthaber · 02:27] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[haberturk · 02:46] Türkiye'nin BM Genel Sekreterliği adayı Sinirlioğlu\n[sabah · 03:51] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliği için aday gösterdi\n[sozcu · 04:52] Türkiye, BM Genel Sekreterliği için Sinirlioğlu'nu aday gösterdi\n[takvim · 06:33] Türkiye, Feridun Sinirlioğlu'nu BM Genel Sekreterliğine aday gösterdi: Resmi başvuru mektubu sunuldu\n[sondakika · 07:29] Türkiye, Feridun Sinirlioğlu’nu BM Genel Sekreterliği’ne aday gösterdi\n[karar · 07:50] Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu — Türkiye, eski Dışişleri Bakanı ve mevcut AGİT Genel Sekreteri Büyükelçi Feridun Sinirlioğlu'nun Birleşmiş Milletler (BM) Genel Sekreterliği adaylığı için resmi başvurusunu gerçekleştirdi.\n[mynet · 07:57] Türkiye'nin BM Genel Sekreter adayı Feridun Sinirlioğlu oldu\n[birgun · 08:39] Türkiye'nin BM Genel Sekreterliği için gösterdiği aday belli oldu\n[cumhuriyet · 09:43] Türkiye’nin BM Genel Sekreterliği için adayı Feridun Sinirlioğlu oldu\n[ntv · 15:22] Türkiye'nin BM Genel Sekreter adayı Sinirlioğlu oldu\n[star · 15:59] Feridun Sinirlioğlu'nun BM Genel Sekreterliği adaylığı! Azerbaycan: Memnuniyete karşılıyoruz — Azerbaycan, Avrupa Güvenlik ve İşbirliği Teşkilatı (AGİT) Genel Sekreteri Feridun Sinirlioğlu'nun Birleşmiş Milletler (BM) Genel Sekreterliği görevine aday gösterilmesini memnuniyetle karşıladı.\n[aksam · 22:49] Feridun Sinirlioğlu BM Genel Sekreterliği adaylığı için vizyon belgesini açıkladı\n[turkiyegz · 18:02] Bakan Fidan duyurdu: Feridun Sinirlioğlu BM Genel Sekreterliği'ne aday"
+  },
+  {
+   "key": "s5524__salience-bias",
+   "output_file": "runs/bg/explain/s5524__salience-bias.json",
+   "event_title": "Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Gece yarısı şarampole yuvarlandı! Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 08:31] Konya'da yolcu otobüsü devrildi, 45 yaralı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Hürriyet başlığı 'can pazarı' gibi çarpıcı bir imgeyi öne çıkarıyor, aynı metin yaralıların çoğunun hafif olduğunu belirtiyor.",
+   "skeptic_alternative": "Kaza haberinde dramatik dil yaygın bir üsluptur; aynı haber hafif yaralı oranını da veriyor.",
+   "missing_context": [
+    "Okur yargısına etkisine dair veri",
+    "Olay yeri tanıklıkları",
+    "Çarpıcı imgenin bir yargıya bağlandığı açık ifade"
+   ],
+   "headlines": "[sondakika · 05:49] Konya Hüyük'te yolcu otobüsü şarampole devrildi, 3'ü ağır 45 kişi yaralandı\n[haberler · 08:17] Antalya-Iğdır seferini yapan yolcu otobüsü Konya'da şarampole devrildi! 45 yaralı\n[haberturk · 08:21] Konya’da yolcu otobüsü devrildi: 45 yaralı\n[hurriyet · 08:22] Gece yarısı şarampole yuvarlandı! Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı — Isparta-Beyşehir kara yolunda kontrolden çıkan şehirlerarası yolcu otobüsü şarampole devrildi. İlk belirlemelere göre yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı, olay yerine sevk edilen ambulanslarla hastanelere taşındı. Ağır yaralanan 3 kişinin tedavisi sürüyor.\n[ahaber · 08:28] Konya’da yolcu otobüsü şarampole devrildi! 45 yaralı\n[tgrt · 08:31] Konya’da yolcu otobüsü şarampole devrildi: 45 yaralı var\n[ntv · 08:31] Konya'da yolcu otobüsü devrildi, 45 yaralı\n[turkiyegz · 08:32] Konya'da yolcu otobüsü devrildi: 45 kişi yaralandı\n[sabah · 08:35] Konya’da yolcu otobüsü devrildi: 45 yaralı\n[yenisafak · 08:41] Konya’da yolcu otobüsü devrildi: 45 yaralı\n[takvim · 08:45] Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı\n[aa · 08:47] Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı\n[karar · 08:48] Konya’da yolcu otobüsü devrildi: 45 yaralı — Konya'nın Hüyük ilçesi yakınlarında kontrolden çıkarak şarampole devrilen yolcu otobüsünde bulunan 45 kişi yaralandı.\n[trthaber · 08:49] Konya'da yolcu otobüsü devrildi: 45 yaralı\n[birgun · 08:53] Konya'da yolcu otobüsü devrildi: 3'ü ağır 45 kişi yaralandı\n[star · 09:05] Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı — Konya'nın Hüyük ilçesinde yolcu otobüsünün şarampole devrilmesi sonucu 3'ü ağır 45 kişi yaralandı.\n[akit · 09:06] Konya'da yolcu otobüsü devrildi: Çok sayıda yaralı var!\n[yeniasya · 09:07] Konya'da yolcu otobüsü devrildi; 3'ü ağır 45 yaralı var!\n[cumhuriyet · 09:18] Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı, 3'ünün durumu ağır\n[dirilis · 10:00] Konya'da yolcu otobüsü şarampole yuvarlandı: 45 kişi yaralandı\n[cnnturk · 12:14] Konya’da yolcu otobüsü devrildi: 45 yaralı"
+  },
+  {
+   "key": "s5524__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5524__leveling-and-sharpening.json",
+   "event_title": "Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Konya'da yolcu otobüsü kazasında can pazarı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Konya'da yolcu otobüsü devrildi: Çok sayıda yaralı var!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İlk belirlemelere göre yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[akit · 09:06] Konya'da yolcu otobüsü devrildi: Çok sayıda yaralı var!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aa · 08:47] Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "AA'nın '3'ü ağır 45 yaralı' aktarımı temel alındığında bir başlık durumu 'can pazarı' olarak keskinleştiriyor, bir başlık sayıyı 'çok sayıda' diye düzleştiriyor, çoğu başlık ağır yaralı ayrımını atlıyor.",
+   "skeptic_alternative": "Başlık uzunluğu sınırı; ağırlık bilgisinin gövde metninde verilmiş olması muhtemel.",
+   "missing_context": [
+    "Başlıkların gövde metinleri",
+    "Farkın bir sonuca etkisi",
+    "Resmi sağlık açıklaması",
+    "Resmi yaralı durum raporu"
+   ],
+   "headlines": "[sondakika · 05:49] Konya Hüyük'te yolcu otobüsü şarampole devrildi, 3'ü ağır 45 kişi yaralandı\n[haberler · 08:17] Antalya-Iğdır seferini yapan yolcu otobüsü Konya'da şarampole devrildi! 45 yaralı\n[haberturk · 08:21] Konya’da yolcu otobüsü devrildi: 45 yaralı\n[hurriyet · 08:22] Gece yarısı şarampole yuvarlandı! Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı — Isparta-Beyşehir kara yolunda kontrolden çıkan şehirlerarası yolcu otobüsü şarampole devrildi. İlk belirlemelere göre yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı, olay yerine sevk edilen ambulanslarla hastanelere taşındı. Ağır yaralanan 3 kişinin tedavisi sürüyor.\n[ahaber · 08:28] Konya’da yolcu otobüsü şarampole devrildi! 45 yaralı\n[tgrt · 08:31] Konya’da yolcu otobüsü şarampole devrildi: 45 yaralı var\n[ntv · 08:31] Konya'da yolcu otobüsü devrildi, 45 yaralı\n[turkiyegz · 08:32] Konya'da yolcu otobüsü devrildi: 45 kişi yaralandı\n[sabah · 08:35] Konya’da yolcu otobüsü devrildi: 45 yaralı\n[yenisafak · 08:41] Konya’da yolcu otobüsü devrildi: 45 yaralı\n[takvim · 08:45] Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı\n[aa · 08:47] Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı\n[karar · 08:48] Konya’da yolcu otobüsü devrildi: 45 yaralı — Konya'nın Hüyük ilçesi yakınlarında kontrolden çıkarak şarampole devrilen yolcu otobüsünde bulunan 45 kişi yaralandı.\n[trthaber · 08:49] Konya'da yolcu otobüsü devrildi: 45 yaralı\n[birgun · 08:53] Konya'da yolcu otobüsü devrildi: 3'ü ağır 45 kişi yaralandı\n[star · 09:05] Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı — Konya'nın Hüyük ilçesinde yolcu otobüsünün şarampole devrilmesi sonucu 3'ü ağır 45 kişi yaralandı.\n[akit · 09:06] Konya'da yolcu otobüsü devrildi: Çok sayıda yaralı var!\n[yeniasya · 09:07] Konya'da yolcu otobüsü devrildi; 3'ü ağır 45 yaralı var!\n[cumhuriyet · 09:18] Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı, 3'ünün durumu ağır\n[dirilis · 10:00] Konya'da yolcu otobüsü şarampole yuvarlandı: 45 kişi yaralandı\n[cnnturk · 12:14] Konya’da yolcu otobüsü devrildi: 45 yaralı"
+  },
+  {
+   "key": "s5524__negativity-bias",
+   "output_file": "runs/bg/explain/s5524__negativity-bias.json",
+   "event_title": "Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Konya'da yolcu otobüsü kazasında can pazarı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Olumsuz unsur ('can pazarı') başlıkta, görece olumlu bilgi (çoğunun hafif yaralı olması) metnin içinde kalmış; ancak bir yargıyı etkilediği gösterilmiyor.",
+   "skeptic_alternative": "45 yaralılı bir kaza için olumsuz ton orantılıdır.",
+   "missing_context": [
+    "Karşılaştırmalı olumlu bilgi ve karar bağlamı",
+    "Olumsuz vurgunun bir değerlendirme veya karara etkisi"
+   ],
+   "headlines": "[sondakika · 05:49] Konya Hüyük'te yolcu otobüsü şarampole devrildi, 3'ü ağır 45 kişi yaralandı\n[haberler · 08:17] Antalya-Iğdır seferini yapan yolcu otobüsü Konya'da şarampole devrildi! 45 yaralı\n[haberturk · 08:21] Konya’da yolcu otobüsü devrildi: 45 yaralı\n[hurriyet · 08:22] Gece yarısı şarampole yuvarlandı! Konya'da yolcu otobüsü kazasında can pazarı: 3'ü ağır 45 yaralı — Isparta-Beyşehir kara yolunda kontrolden çıkan şehirlerarası yolcu otobüsü şarampole devrildi. İlk belirlemelere göre yaklaşık 40'ının durumunun hafif olduğu öğrenilen 45 yaralı, olay yerine sevk edilen ambulanslarla hastanelere taşındı. Ağır yaralanan 3 kişinin tedavisi sürüyor.\n[ahaber · 08:28] Konya’da yolcu otobüsü şarampole devrildi! 45 yaralı\n[tgrt · 08:31] Konya’da yolcu otobüsü şarampole devrildi: 45 yaralı var\n[ntv · 08:31] Konya'da yolcu otobüsü devrildi, 45 yaralı\n[turkiyegz · 08:32] Konya'da yolcu otobüsü devrildi: 45 kişi yaralandı\n[sabah · 08:35] Konya’da yolcu otobüsü devrildi: 45 yaralı\n[yenisafak · 08:41] Konya’da yolcu otobüsü devrildi: 45 yaralı\n[takvim · 08:45] Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı\n[aa · 08:47] Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı\n[karar · 08:48] Konya’da yolcu otobüsü devrildi: 45 yaralı — Konya'nın Hüyük ilçesi yakınlarında kontrolden çıkarak şarampole devrilen yolcu otobüsünde bulunan 45 kişi yaralandı.\n[trthaber · 08:49] Konya'da yolcu otobüsü devrildi: 45 yaralı\n[birgun · 08:53] Konya'da yolcu otobüsü devrildi: 3'ü ağır 45 kişi yaralandı\n[star · 09:05] Konya'da yolcu otobüsünün devrilmesi sonucu 3'ü ağır 45 kişi yaralandı — Konya'nın Hüyük ilçesinde yolcu otobüsünün şarampole devrilmesi sonucu 3'ü ağır 45 kişi yaralandı.\n[akit · 09:06] Konya'da yolcu otobüsü devrildi: Çok sayıda yaralı var!\n[yeniasya · 09:07] Konya'da yolcu otobüsü devrildi; 3'ü ağır 45 yaralı var!\n[cumhuriyet · 09:18] Konya'da yolcu otobüsü şarampole devrildi: 45 yaralı, 3'ünün durumu ağır\n[dirilis · 10:00] Konya'da yolcu otobüsü şarampole yuvarlandı: 45 kişi yaralandı\n[cnnturk · 12:14] Konya’da yolcu otobüsü devrildi: 45 yaralı"
+  },
+  {
+   "key": "s4462__framing-effect",
+   "output_file": "runs/bg/explain/s4462__framing-effect.json",
+   "event_title": "2026 Ballon d'Or'un sahibi Harry Kane oldu",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Ballon d'Or'un sahibi Harry Kane oldu! 25 yıl sonra ödülü kazanan ilk İngiliz",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ballon d'Or 2026 kazananı Harry Kane oldu, Mbappe ikinci",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sozcu · 09:09] 2026 Ballon d'Or ödülü Harry Kane'in! 25 yıl sonra bir ilk",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[birgun · 09:54] Ballon d'Or ödülünü Harry Kane kazandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı sonuç 'tarihi ilk' veya sıralama çerçevesiyle sunulmuş; çerçeveye dayalı bir tercih metinde yok.",
+   "skeptic_alternative": "Tarihsel bağlam eklemek haber değeri taşıyan meşru bir tercihtir.",
+   "missing_context": [
+    "Okur tepkisine dair veri",
+    "Sunuma bağlı açık bir yargı"
+   ],
+   "headlines": "[yenisafak · 17:48] Ballon d'Or ödülünü kim kazandı? 2026 Ballon d'Or adayları kimler?\n[tgrt · 18:49] Ballon D'or sıralaması: Güç sıralaması belli oldu! Ballon D'or saat kaçta?\n[haberturk · 19:59] Ballon dor kim kazandı? 2026 Ballon d'Or ödülünü kim aldı, Altın top kimin oldu?\n[ahaber · 23:13] 2026 Ballon d’Or sahibini buldu: Harry Kane kariyerinde bir ilki yaşadı\n[milligazete · 23:42] 2026 Ballon d'Or ödülü kime verildi? Harry Kane mi kazandı? Lamine Yamal mı? Mbappé mi?\n[sabah · 01:14] SON DAKİKA | 2026 Ballon d'Or'un sahibi kim oldu? İşte gecede ödül alan yıldızlar...\n[turkiyegz · 01:50] Ballon d'Or'un kazananı belli oldu\n[onedio · 01:54] 70. Kez Düzenlenen Ballon D'Or Ödüllerinde Kazanan Harry Kane Oldu\n[diken · 02:04] Ballon d'Or Harry Kane'in\n[aa · 02:43] Harry Kane, Alexia Putellas win 2026 Ballon d'Or awards in London\n[haberler · 03:49] Ballon d'Or'un sahibi Harry Kane oldu! 25 yıl sonra ödülü kazanan ilk İngiliz\n[ntv · 04:03] Ballon d'Or ödülleri Londra'da sahiplerini buldu. Harry Kane yılın futbolcusu seçildi\n[karar · 07:26] 2026 Ballon d'Or Harry Kane'in — Futbol dünyasının saygın bireysel ödüllerinden Ballon d'Or'un 70. töreninde erkeklerde yılın en iyi futbolcusu ödülünü İngiliz santrfor Harry Kane kazandı. Kadınlarda ise ödül Alexia Putellas'a gitti.\n[sozcu · 09:09] 2026 Ballon d'Or ödülü Harry Kane'in! 25 yıl sonra bir ilk\n[cumhuriyet · 09:11] 25 yıl sonra bir ilk: 2026 Ballon d'Or ödülünün sahibi belli oldu\n[aksam · 09:26] 25 yıl sonra kazanan ilk İngiliz! Ballon d'Or'un sahibi Harry Kane\n[birgun · 09:54] Ballon d'Or ödülünü Harry Kane kazandı\n[mynet · 10:12] 25 yıl sonra bir ilk! Ballon d'Or'un sahibi belli oldu\n[tele1 · 10:20] 2026 Ballon d'Or'un sahibi Harry Kane oldu\n[dirilis · 10:37] Ballon d'Or 2026 kazananı Harry Kane oldu, Mbappe ikinci\n[cnnturk · 02:24] BALLON D'OR KAZANANI: 2026 Ballon d'Or Ödülünün Sahibi Kim Oldu? Ballon d'Or Kim Aldı? — 2026 Ballon d'Or (Altın Top) ödül töreni heyecanı başladı. Dünyanın en iyi ve başarılı futbolcularının ödüllendirileceği organizasyonda kimin kazandığı merak ediliyor. 70. Ballon d'Or törenini futbol dünyasının yıldızlarını bir araya getirdi. Futbolseverler organizasyonda neler …"
+  },
+  {
+   "key": "s4462__salience-bias",
+   "output_file": "runs/bg/explain/s4462__salience-bias.json",
+   "event_title": "2026 Ballon d'Or'un sahibi Harry Kane oldu",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "25 yıl sonra bir ilk! Ballon d'Or'un sahibi belli oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "25 yıl sonra kazanan ilk İngiliz! Ballon d'Or'un sahibi Harry Kane",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 09:26] 25 yıl sonra kazanan ilk İngiliz! Ballon d'Or'un sahibi Harry Kane",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Çarpıcı '25 yıl sonra bir ilk' detayı birçok başlıkta ödülün sahibinin önüne geçirilmiş.",
+   "skeptic_alternative": "Rekor/ilk bilgisi spor haberciliğinde olağan ve ilgili bir ayrıntıdır.",
+   "missing_context": [
+    "Bu ayrıntının doğruluğu ve okur yargısına etkisi",
+    "Çarpıcı detayın bir yargıya bağlandığı açık ifade"
+   ],
+   "headlines": "[yenisafak · 17:48] Ballon d'Or ödülünü kim kazandı? 2026 Ballon d'Or adayları kimler?\n[tgrt · 18:49] Ballon D'or sıralaması: Güç sıralaması belli oldu! Ballon D'or saat kaçta?\n[haberturk · 19:59] Ballon dor kim kazandı? 2026 Ballon d'Or ödülünü kim aldı, Altın top kimin oldu?\n[ahaber · 23:13] 2026 Ballon d’Or sahibini buldu: Harry Kane kariyerinde bir ilki yaşadı\n[milligazete · 23:42] 2026 Ballon d'Or ödülü kime verildi? Harry Kane mi kazandı? Lamine Yamal mı? Mbappé mi?\n[sabah · 01:14] SON DAKİKA | 2026 Ballon d'Or'un sahibi kim oldu? İşte gecede ödül alan yıldızlar...\n[turkiyegz · 01:50] Ballon d'Or'un kazananı belli oldu\n[onedio · 01:54] 70. Kez Düzenlenen Ballon D'Or Ödüllerinde Kazanan Harry Kane Oldu\n[diken · 02:04] Ballon d'Or Harry Kane'in\n[aa · 02:43] Harry Kane, Alexia Putellas win 2026 Ballon d'Or awards in London\n[haberler · 03:49] Ballon d'Or'un sahibi Harry Kane oldu! 25 yıl sonra ödülü kazanan ilk İngiliz\n[ntv · 04:03] Ballon d'Or ödülleri Londra'da sahiplerini buldu. Harry Kane yılın futbolcusu seçildi\n[karar · 07:26] 2026 Ballon d'Or Harry Kane'in — Futbol dünyasının saygın bireysel ödüllerinden Ballon d'Or'un 70. töreninde erkeklerde yılın en iyi futbolcusu ödülünü İngiliz santrfor Harry Kane kazandı. Kadınlarda ise ödül Alexia Putellas'a gitti.\n[sozcu · 09:09] 2026 Ballon d'Or ödülü Harry Kane'in! 25 yıl sonra bir ilk\n[cumhuriyet · 09:11] 25 yıl sonra bir ilk: 2026 Ballon d'Or ödülünün sahibi belli oldu\n[aksam · 09:26] 25 yıl sonra kazanan ilk İngiliz! Ballon d'Or'un sahibi Harry Kane\n[birgun · 09:54] Ballon d'Or ödülünü Harry Kane kazandı\n[mynet · 10:12] 25 yıl sonra bir ilk! Ballon d'Or'un sahibi belli oldu\n[tele1 · 10:20] 2026 Ballon d'Or'un sahibi Harry Kane oldu\n[dirilis · 10:37] Ballon d'Or 2026 kazananı Harry Kane oldu, Mbappe ikinci\n[cnnturk · 02:24] BALLON D'OR KAZANANI: 2026 Ballon d'Or Ödülünün Sahibi Kim Oldu? Ballon d'Or Kim Aldı? — 2026 Ballon d'Or (Altın Top) ödül töreni heyecanı başladı. Dünyanın en iyi ve başarılı futbolcularının ödüllendirileceği organizasyonda kimin kazandığı merak ediliyor. 70. Ballon d'Or törenini futbol dünyasının yıldızlarını bir araya getirdi. Futbolseverler organizasyonda neler …"
+  },
+  {
+   "key": "s4462__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4462__leveling-and-sharpening.json",
+   "event_title": "2026 Ballon d'Or'un sahibi Harry Kane oldu",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Harry Kane, Alexia Putellas win 2026 Ballon d'Or awards in London",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kadınlarda ise ödül Alexia Putellas'a gitti.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ballon d'Or ödülünü Harry Kane kazandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aa · 02:43] Harry Kane, Alexia Putellas win 2026 Ballon d'Or awards in London",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[diken · 02:04] Ballon d'Or Harry Kane'in",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "AA ve Karar'ın iki kazananlı aktarımı temel alındığında Türkçe başlıkların çoğu kadınlar ödülünü atlayarak yalnızca erkek kazanana odaklanıyor (düzleştirme).",
+   "skeptic_alternative": "Erkekler ödülü geleneksel olarak ana başlık kabul edilir; başlık kısalığı gereği seçim yapılmış olabilir.",
+   "missing_context": [
+    "Farkın bir sonuca etkisi",
+    "Haber metinlerinin tamamı",
+    "Haberlerin gövde metinlerinde kadınlar ödülünün yer alıp almadığı"
+   ],
+   "headlines": "[yenisafak · 17:48] Ballon d'Or ödülünü kim kazandı? 2026 Ballon d'Or adayları kimler?\n[tgrt · 18:49] Ballon D'or sıralaması: Güç sıralaması belli oldu! Ballon D'or saat kaçta?\n[haberturk · 19:59] Ballon dor kim kazandı? 2026 Ballon d'Or ödülünü kim aldı, Altın top kimin oldu?\n[ahaber · 23:13] 2026 Ballon d’Or sahibini buldu: Harry Kane kariyerinde bir ilki yaşadı\n[milligazete · 23:42] 2026 Ballon d'Or ödülü kime verildi? Harry Kane mi kazandı? Lamine Yamal mı? Mbappé mi?\n[sabah · 01:14] SON DAKİKA | 2026 Ballon d'Or'un sahibi kim oldu? İşte gecede ödül alan yıldızlar...\n[turkiyegz · 01:50] Ballon d'Or'un kazananı belli oldu\n[onedio · 01:54] 70. Kez Düzenlenen Ballon D'Or Ödüllerinde Kazanan Harry Kane Oldu\n[diken · 02:04] Ballon d'Or Harry Kane'in\n[aa · 02:43] Harry Kane, Alexia Putellas win 2026 Ballon d'Or awards in London\n[haberler · 03:49] Ballon d'Or'un sahibi Harry Kane oldu! 25 yıl sonra ödülü kazanan ilk İngiliz\n[ntv · 04:03] Ballon d'Or ödülleri Londra'da sahiplerini buldu. Harry Kane yılın futbolcusu seçildi\n[karar · 07:26] 2026 Ballon d'Or Harry Kane'in — Futbol dünyasının saygın bireysel ödüllerinden Ballon d'Or'un 70. töreninde erkeklerde yılın en iyi futbolcusu ödülünü İngiliz santrfor Harry Kane kazandı. Kadınlarda ise ödül Alexia Putellas'a gitti.\n[sozcu · 09:09] 2026 Ballon d'Or ödülü Harry Kane'in! 25 yıl sonra bir ilk\n[cumhuriyet · 09:11] 25 yıl sonra bir ilk: 2026 Ballon d'Or ödülünün sahibi belli oldu\n[aksam · 09:26] 25 yıl sonra kazanan ilk İngiliz! Ballon d'Or'un sahibi Harry Kane\n[birgun · 09:54] Ballon d'Or ödülünü Harry Kane kazandı\n[mynet · 10:12] 25 yıl sonra bir ilk! Ballon d'Or'un sahibi belli oldu\n[tele1 · 10:20] 2026 Ballon d'Or'un sahibi Harry Kane oldu\n[dirilis · 10:37] Ballon d'Or 2026 kazananı Harry Kane oldu, Mbappe ikinci\n[cnnturk · 02:24] BALLON D'OR KAZANANI: 2026 Ballon d'Or Ödülünün Sahibi Kim Oldu? Ballon d'Or Kim Aldı? — 2026 Ballon d'Or (Altın Top) ödül töreni heyecanı başladı. Dünyanın en iyi ve başarılı futbolcularının ödüllendirileceği organizasyonda kimin kazandığı merak ediliyor. 70. Ballon d'Or törenini futbol dünyasının yıldızlarını bir araya getirdi. Futbolseverler organizasyonda neler …"
+  },
+  {
+   "key": "s4471__framing-effect",
+   "output_file": "runs/bg/explain/s4471__framing-effect.json",
+   "event_title": "Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Bayrampaşa'da İSKİ çalışmasında göçük: 1 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SON DAKİKA | Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ahaber · 18:48] Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[diken · 19:53] Bayrampaşa'da yol çöktü: Bir ölü",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı ölüm 'yol çöktü' (faili belirsiz olay), 'İSKİ çalışmasında göçük' (sorumlu kurum) veya 'facia' olarak farklı çerçevelenmiş; çerçeveye dayalı yargı metinde yok.",
+   "skeptic_alternative": "Üslup farkı editoryal tercihtir; olgular aynıdır.",
+   "missing_context": [
+    "Kazanın sorumluluk durumu",
+    "Okur tepkisine dair veri",
+    "Sunuma bağlı açık bir değerlendirme"
+   ],
+   "headlines": "[haberturk · 18:45] Bayrampaşa'da yol çöktü!\n[ahaber · 18:48] Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti\n[mynet · 18:51] Bayrampaşa'da yol çöktü! Ekipler sevk edildi: Acı haber geldi\n[yenisafak · 18:53] İstanbul'da çalışma sırasında yol çöktü: Göçük altında kalan işçi hayatını kaybetti\n[cumhuriyet · 18:53] Son Dakika... Bayrampaşa'da yol çöktü: 1 işçi hayatını kaybetti!\n[haberler · 18:53] Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti\n[sozcu · 18:54] Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti\n[takvim · 18:55] Bayrampaşa'da yol çalışması sırasında çöktü: Göçükte kalan işçi Ali Demirci hayatını kaybetti\n[karar · 18:57] Bayrampaşa’da göçük faciası: 1 işçi hayatını kaybetti — Bayrampaşa'da çalışma sırasında çöktü. İhbar üzerine olay yerine çok sayıda polis, sağlık, itfaiye ve AFAD ekipleri sevk edildi. Göçük altında mahsur kalan kişilerin olduğu öğrenilirken 1 işçinin de hayatını kaybettiği bildirildi.\n[sabah · 18:59] SON DAKİKA | Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti\n[akit · 18:59] Bayrampaşa'da yol çöktü; mahsur kalanlar var\n[tgrt · 19:06] Bayrampaşa’da yol çöktü: Toprak altında kalan 1 işçi hayatını kaybetti\n[turkiyegz · 19:12] Bayrampaşa'da yol çöktü! Göçük altında kalan işçiden acı haber\n[birgun · 19:24] Bayrampaşa'da çalışma sırasında yolda göçük meydana geldi: 1 işçi öldü\n[ntv · 19:37] Bayrampaşa'da yol çöktü. Bir işçi hayatını kaybetti\n[aksam · 19:42] Bayrampaşa'da İSKİ çalışmasında göçük: 1 işçi hayatını kaybetti\n[star · 19:43] Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti — Bayrampaşa'da İSKİ'nin yürüttüğü kazı çalışması sırasında meydana gelen çökmede toprak altında kalan işçi, yapılan arama kurtarma çalışmalarının ardından cansız bulundu.\n[diken · 19:53] Bayrampaşa'da yol çöktü: Bir ölü\n[dirilis · 20:04] Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti\n[onedio · 20:10] Bayrampaşa'da İSKİ Çalışması Sırasında Çöken Yolda Bir İşçi Hayatını Kaybetti\n[yeniasya · 23:46] Bayrampaşa'da yol çöktü: 1 işçi can verdi"
+  },
+  {
+   "key": "s4471__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4471__leveling-and-sharpening.json",
+   "event_title": "Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Bayrampaşa'da İSKİ'nin yürüttüğü kazı çalışması sırasında meydana gelen çökmede",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SON DAKİKA | Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bayrampaşa'da yol çöktü; mahsur kalanlar var",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Göçük altında mahsur kalan kişilerin olduğu öğrenilirken",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberturk · 18:45] Bayrampaşa'da yol çöktü!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[akit · 18:59] Bayrampaşa'da yol çöktü; mahsur kalanlar var",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bayrampaşa'da İSKİ'nin yürüttüğü kazı çalışması sırasında meydana gelen çökmede toprak altında kalan işçi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Star'ın İSKİ kazısı bilgisi temel alındığında başlıkların çoğu yürütücü kurumu atlıyor (düzleştirme); Akit ölümü değil 'mahsur kalanlar'ı öne çıkarıyor.",
+   "skeptic_alternative": "İlk dakikalarda bilgi eksikti; başlıklar yayın anındaki bilgi durumunu yansıtıyor olabilir.",
+   "missing_context": [
+    "Başlıkların sonradan güncellenip güncellenmediği",
+    "Başlıkların yayımlandığı andaki bilgiler",
+    "Farkın bir sonuca etkisi",
+    "Mahsur kalan sayısına dair resmi bilgi"
+   ],
+   "headlines": "[haberturk · 18:45] Bayrampaşa'da yol çöktü!\n[ahaber · 18:48] Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti\n[mynet · 18:51] Bayrampaşa'da yol çöktü! Ekipler sevk edildi: Acı haber geldi\n[yenisafak · 18:53] İstanbul'da çalışma sırasında yol çöktü: Göçük altında kalan işçi hayatını kaybetti\n[cumhuriyet · 18:53] Son Dakika... Bayrampaşa'da yol çöktü: 1 işçi hayatını kaybetti!\n[haberler · 18:53] Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti\n[sozcu · 18:54] Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti\n[takvim · 18:55] Bayrampaşa'da yol çalışması sırasında çöktü: Göçükte kalan işçi Ali Demirci hayatını kaybetti\n[karar · 18:57] Bayrampaşa’da göçük faciası: 1 işçi hayatını kaybetti — Bayrampaşa'da çalışma sırasında çöktü. İhbar üzerine olay yerine çok sayıda polis, sağlık, itfaiye ve AFAD ekipleri sevk edildi. Göçük altında mahsur kalan kişilerin olduğu öğrenilirken 1 işçinin de hayatını kaybettiği bildirildi.\n[sabah · 18:59] SON DAKİKA | Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti\n[akit · 18:59] Bayrampaşa'da yol çöktü; mahsur kalanlar var\n[tgrt · 19:06] Bayrampaşa’da yol çöktü: Toprak altında kalan 1 işçi hayatını kaybetti\n[turkiyegz · 19:12] Bayrampaşa'da yol çöktü! Göçük altında kalan işçiden acı haber\n[birgun · 19:24] Bayrampaşa'da çalışma sırasında yolda göçük meydana geldi: 1 işçi öldü\n[ntv · 19:37] Bayrampaşa'da yol çöktü. Bir işçi hayatını kaybetti\n[aksam · 19:42] Bayrampaşa'da İSKİ çalışmasında göçük: 1 işçi hayatını kaybetti\n[star · 19:43] Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti — Bayrampaşa'da İSKİ'nin yürüttüğü kazı çalışması sırasında meydana gelen çökmede toprak altında kalan işçi, yapılan arama kurtarma çalışmalarının ardından cansız bulundu.\n[diken · 19:53] Bayrampaşa'da yol çöktü: Bir ölü\n[dirilis · 20:04] Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti\n[onedio · 20:10] Bayrampaşa'da İSKİ Çalışması Sırasında Çöken Yolda Bir İşçi Hayatını Kaybetti\n[yeniasya · 23:46] Bayrampaşa'da yol çöktü: 1 işçi can verdi"
+  },
+  {
+   "key": "s4471__salience-bias",
+   "output_file": "runs/bg/explain/s4471__salience-bias.json",
+   "event_title": "Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bayrampaşa'da yol çöktü! Göçük altında kalan işçiden acı haber",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[karar · 18:57] Bayrampaşa’da göçük faciası: 1 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[birgun · 19:24] Bayrampaşa'da çalışma sırasında yolda göçük meydana geldi: 1 işçi öldü",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Facia', 'acı haber' gibi duygusal ifadeler öne çıkarılmış; bunların bir yargıyı haksız biçimde etkilediği gösterilmiyor.",
+   "skeptic_alternative": "İş kazasında ölüm için güçlü dil orantılı olabilir.",
+   "missing_context": [
+    "Kazanın nedeni",
+    "Okur yargısına etkisi",
+    "Çarpıcı unsurun bir yargıya bağlandığı açık ifade"
+   ],
+   "headlines": "[haberturk · 18:45] Bayrampaşa'da yol çöktü!\n[ahaber · 18:48] Bayrampaşa'da yol çalışmalarında facia: 1 işçi hayatını kaybetti\n[mynet · 18:51] Bayrampaşa'da yol çöktü! Ekipler sevk edildi: Acı haber geldi\n[yenisafak · 18:53] İstanbul'da çalışma sırasında yol çöktü: Göçük altında kalan işçi hayatını kaybetti\n[cumhuriyet · 18:53] Son Dakika... Bayrampaşa'da yol çöktü: 1 işçi hayatını kaybetti!\n[haberler · 18:53] Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti\n[sozcu · 18:54] Bayrampaşa'da yol çöktü: Göçük altında kalan işçi hayatını kaybetti\n[takvim · 18:55] Bayrampaşa'da yol çalışması sırasında çöktü: Göçükte kalan işçi Ali Demirci hayatını kaybetti\n[karar · 18:57] Bayrampaşa’da göçük faciası: 1 işçi hayatını kaybetti — Bayrampaşa'da çalışma sırasında çöktü. İhbar üzerine olay yerine çok sayıda polis, sağlık, itfaiye ve AFAD ekipleri sevk edildi. Göçük altında mahsur kalan kişilerin olduğu öğrenilirken 1 işçinin de hayatını kaybettiği bildirildi.\n[sabah · 18:59] SON DAKİKA | Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti\n[akit · 18:59] Bayrampaşa'da yol çöktü; mahsur kalanlar var\n[tgrt · 19:06] Bayrampaşa’da yol çöktü: Toprak altında kalan 1 işçi hayatını kaybetti\n[turkiyegz · 19:12] Bayrampaşa'da yol çöktü! Göçük altında kalan işçiden acı haber\n[birgun · 19:24] Bayrampaşa'da çalışma sırasında yolda göçük meydana geldi: 1 işçi öldü\n[ntv · 19:37] Bayrampaşa'da yol çöktü. Bir işçi hayatını kaybetti\n[aksam · 19:42] Bayrampaşa'da İSKİ çalışmasında göçük: 1 işçi hayatını kaybetti\n[star · 19:43] Bayrampaşa'da yol çöktü! 1 işçi hayatını kaybetti — Bayrampaşa'da İSKİ'nin yürüttüğü kazı çalışması sırasında meydana gelen çökmede toprak altında kalan işçi, yapılan arama kurtarma çalışmalarının ardından cansız bulundu.\n[diken · 19:53] Bayrampaşa'da yol çöktü: Bir ölü\n[dirilis · 20:04] Bayrampaşa'da yol çöktü: Göçükte kalan işçi hayatını kaybetti\n[onedio · 20:10] Bayrampaşa'da İSKİ Çalışması Sırasında Çöken Yolda Bir İşçi Hayatını Kaybetti\n[yeniasya · 23:46] Bayrampaşa'da yol çöktü: 1 işçi can verdi"
+  },
+  {
+   "key": "s4770__framing-effect",
+   "output_file": "runs/bg/explain/s4770__framing-effect.json",
+   "event_title": "Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 12:30] Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aa · 10:59] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı tutuklamalar 'ihale vurgunu', 'büyük şok' veya nötr 'soruşturma' çerçeveleriyle sunulmuş; çerçeveye dayalı bir tercih metinde yok.",
+   "skeptic_alternative": "Üslup farkı editoryal tercihtir; olgular (39 tutuklama) aynıdır.",
+   "missing_context": [
+    "Mahkeme kararının gerekçesi",
+    "Sunuma bağlı açık bir değerlendirme"
+   ],
+   "headlines": "[hurriyet · 07:00] Bakırköy Belediyesi'ne operasyon: 39 kişi tutuklandı — BAKIRKÖY Belediyesi’ne yönelik “ihaleye fesat karıştırma” ve “irtikap” soruşturmasında, aralarında belediye başkan yardımcıları ile Belediye Başkanı Ayşegül Ovalıoğlu’nun babası ve dayısının da bulunduğu 63 şüpheli, Bakırköy Adliyesi’ne sevk edildi. Mahkemeye sevk edilen 40 …\n[haberler · 09:09] Bakırköy Belediyesi soruşturmasında Başsavcılık 40 kişi için tutuklama talep etti\n[sabah · 09:26] Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı\n[yenisafak · 09:56] Bakırköy Belediyesi yolsuzluk soruşturması kapsamında 39 kişi tutuklandı\n[tgrt · 09:56] Bakırköy Belediye'sine yolsuzluk soruşturması: 39 şüpheli tutuklandı\n[sozcu · 09:57] SON DAKİKA... Bakırköy Belediyesi soruşturmasında karar çıktı! 39 kişi tutuklandı, başkanın babasına ev hapsi\n[turkiyegz · 09:58] Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı!\n[mynet · 10:06] Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!\n[karar · 10:07] Bakırköy Belediyesi operasyonunda 39 tutuklama: Başkan yardımcıları ve müdürler de listede — Bakırköy Cumhuriyet Başsavcılığının belediyeye yönelik yolsuzluk ve rüşvet iddiaları kapsamında yürüttüğü soruşturmada 39 kişi tutuklandı. Tutuklananlar arasında belediye başkan yardımcıları, iki belediye meclis üyesi ve imar, zabıta, kentsel dönüşüm, fen işleri, temizlik ve …\n[akit · 10:12] Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı\n[cumhuriyet · 10:15] Son dakika... Bakırköy Belediyesi'ne operasyonda yeni gelişme: 39 kişi tutuklandı\n[diken · 10:17] Bakırköy Belediyesi soruşturması: Beş başkan yardımcısı dahil 39 tutuklama\n[birgun · 10:22] Bakırköy Belediyesi soruşturması: Başkan yardımcıları dahil 39 kişi tutuklandı\n[ntv · 10:34] Bakırköy Belediyesi'ne yolsuzluk operasyonunda 39 tutuklama\n[haberturk · 10:37] Bakırköy Belediyesi'ne yönelik soruşturmada 39 şüpheli tutuklandı\n[star · 10:57] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı — Bakırköy Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'irtikap' suçlarına ilişkin soruşturma kapsamında gözaltına alınan 63 şüpheliden 39'u tutuklandı.\n[aa · 10:59] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı\n[trthaber · 11:03] Bakırköy Belediyesine yolsuzluk soruşturması: 39 tutuklama\n[aksam · 12:30] Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı\n[dirilis · 15:34] Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı\n[yeniasya · 17:00] Bakırköy Belediyesi operasyonunda 39 tutuklama"
+  },
+  {
+   "key": "s4770__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4770__leveling-and-sharpening.json",
+   "event_title": "Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesi soruşturması: Beş başkan yardımcısı dahil 39 tutuklama",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "39 kişi tutuklandı, başkanın babasına ev hapsi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "gözaltına alınan 63 şüpheliden 39'u tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sabah · 09:26] Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[akit · 10:12] Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Başsavcılık 40 kişi için tutuklama talep etti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Star'ın 63'ten 39 tutuklama aktarımı temel alındığında Sabah yalnızca 19 firma temsilcisini başlığa taşıyıp belediye yöneticilerini atlıyor; Diken ve Sözcü ise başkan yardımcılarını ve başkanın babasını öne çıkarıyor.",
+   "skeptic_alternative": "Sabah haberi erken saatte kısmi kararı yansıtıyor olabilir; 40 rakamı talep ile kararın karıştırılmasından doğan hata olabilir.",
+   "missing_context": [
+    "Farkın bir sonuca etkisi",
+    "Mahkemenin resmi kararı",
+    "Sabah başlığının yayın anındaki karar durumu",
+    "Sabah haberinin tam metni"
+   ],
+   "headlines": "[hurriyet · 07:00] Bakırköy Belediyesi'ne operasyon: 39 kişi tutuklandı — BAKIRKÖY Belediyesi’ne yönelik “ihaleye fesat karıştırma” ve “irtikap” soruşturmasında, aralarında belediye başkan yardımcıları ile Belediye Başkanı Ayşegül Ovalıoğlu’nun babası ve dayısının da bulunduğu 63 şüpheli, Bakırköy Adliyesi’ne sevk edildi. Mahkemeye sevk edilen 40 …\n[haberler · 09:09] Bakırköy Belediyesi soruşturmasında Başsavcılık 40 kişi için tutuklama talep etti\n[sabah · 09:26] Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı\n[yenisafak · 09:56] Bakırköy Belediyesi yolsuzluk soruşturması kapsamında 39 kişi tutuklandı\n[tgrt · 09:56] Bakırköy Belediye'sine yolsuzluk soruşturması: 39 şüpheli tutuklandı\n[sozcu · 09:57] SON DAKİKA... Bakırköy Belediyesi soruşturmasında karar çıktı! 39 kişi tutuklandı, başkanın babasına ev hapsi\n[turkiyegz · 09:58] Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı!\n[mynet · 10:06] Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!\n[karar · 10:07] Bakırköy Belediyesi operasyonunda 39 tutuklama: Başkan yardımcıları ve müdürler de listede — Bakırköy Cumhuriyet Başsavcılığının belediyeye yönelik yolsuzluk ve rüşvet iddiaları kapsamında yürüttüğü soruşturmada 39 kişi tutuklandı. Tutuklananlar arasında belediye başkan yardımcıları, iki belediye meclis üyesi ve imar, zabıta, kentsel dönüşüm, fen işleri, temizlik ve …\n[akit · 10:12] Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı\n[cumhuriyet · 10:15] Son dakika... Bakırköy Belediyesi'ne operasyonda yeni gelişme: 39 kişi tutuklandı\n[diken · 10:17] Bakırköy Belediyesi soruşturması: Beş başkan yardımcısı dahil 39 tutuklama\n[birgun · 10:22] Bakırköy Belediyesi soruşturması: Başkan yardımcıları dahil 39 kişi tutuklandı\n[ntv · 10:34] Bakırköy Belediyesi'ne yolsuzluk operasyonunda 39 tutuklama\n[haberturk · 10:37] Bakırköy Belediyesi'ne yönelik soruşturmada 39 şüpheli tutuklandı\n[star · 10:57] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı — Bakırköy Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'irtikap' suçlarına ilişkin soruşturma kapsamında gözaltına alınan 63 şüpheliden 39'u tutuklandı.\n[aa · 10:59] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı\n[trthaber · 11:03] Bakırköy Belediyesine yolsuzluk soruşturması: 39 tutuklama\n[aksam · 12:30] Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı\n[dirilis · 15:34] Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı\n[yeniasya · 17:00] Bakırköy Belediyesi operasyonunda 39 tutuklama"
+  },
+  {
+   "key": "s4770__salience-bias",
+   "output_file": "runs/bg/explain/s4770__salience-bias.json",
+   "event_title": "Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "39 kişi tutuklandı, başkanın babasına ev hapsi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesi soruşturmasında karar çıktı! 39 kişi tutuklandı, başkanın babasına ev hapsi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 10:34] Bakırköy Belediyesi'ne yolsuzluk operasyonunda 39 tutuklama",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Büyük şok' ve başkanın babası gibi çarpıcı ayrıntılar öne çıkarılmış; haksız etki gösterilmiyor.",
+   "skeptic_alternative": "Başkanın yakınının durumu kamu yararı açısından ilgili ve haber değeri taşıyan bir ayrıntı olabilir.",
+   "missing_context": [
+    "Diğer kurumların gövde metinleri",
+    "Okur yargısına etkisi",
+    "Çarpıcı ayrıntının bir yargıya açıkça bağlanması"
+   ],
+   "headlines": "[hurriyet · 07:00] Bakırköy Belediyesi'ne operasyon: 39 kişi tutuklandı — BAKIRKÖY Belediyesi’ne yönelik “ihaleye fesat karıştırma” ve “irtikap” soruşturmasında, aralarında belediye başkan yardımcıları ile Belediye Başkanı Ayşegül Ovalıoğlu’nun babası ve dayısının da bulunduğu 63 şüpheli, Bakırköy Adliyesi’ne sevk edildi. Mahkemeye sevk edilen 40 …\n[haberler · 09:09] Bakırköy Belediyesi soruşturmasında Başsavcılık 40 kişi için tutuklama talep etti\n[sabah · 09:26] Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı\n[yenisafak · 09:56] Bakırköy Belediyesi yolsuzluk soruşturması kapsamında 39 kişi tutuklandı\n[tgrt · 09:56] Bakırköy Belediye'sine yolsuzluk soruşturması: 39 şüpheli tutuklandı\n[sozcu · 09:57] SON DAKİKA... Bakırköy Belediyesi soruşturmasında karar çıktı! 39 kişi tutuklandı, başkanın babasına ev hapsi\n[turkiyegz · 09:58] Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı!\n[mynet · 10:06] Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!\n[karar · 10:07] Bakırköy Belediyesi operasyonunda 39 tutuklama: Başkan yardımcıları ve müdürler de listede — Bakırköy Cumhuriyet Başsavcılığının belediyeye yönelik yolsuzluk ve rüşvet iddiaları kapsamında yürüttüğü soruşturmada 39 kişi tutuklandı. Tutuklananlar arasında belediye başkan yardımcıları, iki belediye meclis üyesi ve imar, zabıta, kentsel dönüşüm, fen işleri, temizlik ve …\n[akit · 10:12] Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı\n[cumhuriyet · 10:15] Son dakika... Bakırköy Belediyesi'ne operasyonda yeni gelişme: 39 kişi tutuklandı\n[diken · 10:17] Bakırköy Belediyesi soruşturması: Beş başkan yardımcısı dahil 39 tutuklama\n[birgun · 10:22] Bakırköy Belediyesi soruşturması: Başkan yardımcıları dahil 39 kişi tutuklandı\n[ntv · 10:34] Bakırköy Belediyesi'ne yolsuzluk operasyonunda 39 tutuklama\n[haberturk · 10:37] Bakırköy Belediyesi'ne yönelik soruşturmada 39 şüpheli tutuklandı\n[star · 10:57] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı — Bakırköy Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'irtikap' suçlarına ilişkin soruşturma kapsamında gözaltına alınan 63 şüpheliden 39'u tutuklandı.\n[aa · 10:59] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı\n[trthaber · 11:03] Bakırköy Belediyesine yolsuzluk soruşturması: 39 tutuklama\n[aksam · 12:30] Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı\n[dirilis · 15:34] Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı\n[yeniasya · 17:00] Bakırköy Belediyesi operasyonunda 39 tutuklama"
+  },
+  {
+   "key": "s4770__anchoring-bias",
+   "output_file": "runs/bg/explain/s4770__anchoring-bias.json",
+   "event_title": "Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı",
+   "concept": "Anchoring Bias",
+   "definition": "A reasoning pattern in which an initial value or piece of information becomes a reference point and exerts unwarranted influence on a later estimate or decision. Using a starting point is not by itself a bias or an error: identification here requires explicit evidence that the anchor distorts judgment or is given unjustified weight.",
+   "quotes": [
+    {
+     "quote": "Bakırköy Belediyesi soruşturmasında Başsavcılık 40 kişi için tutuklama talep etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mahkemeye sevk edilen 40",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[mynet · 10:06] Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Savcılığın 40 kişilik tutuklama talebi referans noktası olarak kalmış ve bazı başlıklar 39 yerine 40 tutuklama bildirmiş olabilir.",
+   "skeptic_alternative": "Rakam farkı basit bir veri/güncelleme hatası olabilir; çapa etkisiyle yargı çarpıtması gösterilmiyor.",
+   "missing_context": [
+    "40 rakamının kaynağını açıklayan ifade",
+    "Mynet ve Akit'in rakamın kaynağı",
+    "Sonradan düzeltme yapılıp yapılmadığı"
+   ],
+   "headlines": "[hurriyet · 07:00] Bakırköy Belediyesi'ne operasyon: 39 kişi tutuklandı — BAKIRKÖY Belediyesi’ne yönelik “ihaleye fesat karıştırma” ve “irtikap” soruşturmasında, aralarında belediye başkan yardımcıları ile Belediye Başkanı Ayşegül Ovalıoğlu’nun babası ve dayısının da bulunduğu 63 şüpheli, Bakırköy Adliyesi’ne sevk edildi. Mahkemeye sevk edilen 40 …\n[haberler · 09:09] Bakırköy Belediyesi soruşturmasında Başsavcılık 40 kişi için tutuklama talep etti\n[sabah · 09:26] Bakırköy Belediyesi'ne 'rüşvet' operasyonunda yeni gelişme: Firma temsilcisi 19 şüpheli tutuklandı\n[yenisafak · 09:56] Bakırköy Belediyesi yolsuzluk soruşturması kapsamında 39 kişi tutuklandı\n[tgrt · 09:56] Bakırköy Belediye'sine yolsuzluk soruşturması: 39 şüpheli tutuklandı\n[sozcu · 09:57] SON DAKİKA... Bakırköy Belediyesi soruşturmasında karar çıktı! 39 kişi tutuklandı, başkanın babasına ev hapsi\n[turkiyegz · 09:58] Bakırköy Belediyesi soruşturmasında 39 kişi tutuklandı!\n[mynet · 10:06] Bakırköy Belediyesi'ne rüşvet soruşturması: 40 şüpheli tutuklandı!\n[karar · 10:07] Bakırköy Belediyesi operasyonunda 39 tutuklama: Başkan yardımcıları ve müdürler de listede — Bakırköy Cumhuriyet Başsavcılığının belediyeye yönelik yolsuzluk ve rüşvet iddiaları kapsamında yürüttüğü soruşturmada 39 kişi tutuklandı. Tutuklananlar arasında belediye başkan yardımcıları, iki belediye meclis üyesi ve imar, zabıta, kentsel dönüşüm, fen işleri, temizlik ve …\n[akit · 10:12] Bakırköy Belediyesi’nde büyük şok: 40 kişi tutuklandı\n[cumhuriyet · 10:15] Son dakika... Bakırköy Belediyesi'ne operasyonda yeni gelişme: 39 kişi tutuklandı\n[diken · 10:17] Bakırköy Belediyesi soruşturması: Beş başkan yardımcısı dahil 39 tutuklama\n[birgun · 10:22] Bakırköy Belediyesi soruşturması: Başkan yardımcıları dahil 39 kişi tutuklandı\n[ntv · 10:34] Bakırköy Belediyesi'ne yolsuzluk operasyonunda 39 tutuklama\n[haberturk · 10:37] Bakırköy Belediyesi'ne yönelik soruşturmada 39 şüpheli tutuklandı\n[star · 10:57] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı — Bakırköy Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'irtikap' suçlarına ilişkin soruşturma kapsamında gözaltına alınan 63 şüpheliden 39'u tutuklandı.\n[aa · 10:59] Bakırköy Belediyesine yönelik soruşturmada 39 şüpheli tutuklandı\n[trthaber · 11:03] Bakırköy Belediyesine yolsuzluk soruşturması: 39 tutuklama\n[aksam · 12:30] Bakırköy Belediyesi'nde ihale vurgunu: 39 şüpheli tutuklandı\n[dirilis · 15:34] Bakırköy Belediyesi soruşturmasında 39 şüpheli tutuklandı\n[yeniasya · 17:00] Bakırköy Belediyesi operasyonunda 39 tutuklama"
+  },
+  {
+   "key": "s4971__automation-bias",
+   "output_file": "runs/bg/explain/s4971__automation-bias.json",
+   "event_title": "Galatasaray - Stuttgart",
+   "concept": "Automation Bias",
+   "definition": "Automation bias is a tendency to give an automated system’s output undue weight in judgment or action, including when available evidence conflicts with it. Using automation, accepting a correct recommendation, or relying on it for a justified reason is not by itself evidence of bias.",
+   "quotes": [
+    {
+     "quote": "Galatasaray-Stuttgart maçı için olay tahmin! Yapay zeka sonucu açıkladı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Sözcü başlığı yapay zekâ tahminini 'sonucu açıkladı' diyerek kesin bir sonuç gibi sunuyor; otomatik çıktıya yetki atfedilmesi olası.",
+   "skeptic_alternative": "Yapay zeka tahmini tık odaklı bir eğlence/merak içeriği olarak sunulmuş olabilir; çıktıya karar ağırlığı verildiğine dair kanıt yok.",
+   "missing_context": [
+    "Haberin gövdesi ve tahminin nasıl sunulduğu",
+    "Haberin gövdesinde tahminin nasıl çerçevelendiği",
+    "Tahminin bağımsız analizle karşılaştırılıp karşılaştırılmadığı",
+    "Tahminin herhangi bir karar veya çıkarımı yönlendirip yönlendirmediği"
+   ],
+   "headlines": "[sabah · 15:55] Galatasaray, Stuttgart maçı hazırlıklarına başladı!\n[haberturk · 16:26] Galatasaray, Stuttgart maçının hazırlıklarına başladı!\n[star · 20:05] Galatasaray, Stuttgart maçı hazırlıklarını sürdürdü\n[aksam · 20:11] Galatasaray'da Stuttgart mesaisi sürüyor\n[mynet · 21:27] Galatasaray, Stuttgart maçı hazırlıklarına devam etti\n[dirilis · 10:30] Galatasaray Stuttgart maçı saat kaçta ve hangi kanalda?\n[sondakika · 11:38] Galatasaray Stuttgart maçı hazırlığını tamamladı, statü gereği eksikler var\n[haberler · 14:04] Galatasaray Stuttgart maçı ne zaman, saat kaçta? Galatasaray Stuttgart maçı nerede, hangi statta oynanacak?\n[yenisafak · 14:39] Galatasaray Stuttgart maçına hazır\n[cumhuriyet · 15:05] Galatasaray, Stuttgart maçı hazırlıklarını tamamladı\n[onedio · 15:46] Galatasaray - Stuttgart Maçı Ne Zaman, Saat Kaçta ve Hangi Kanalda? Muhtemel 11'ler ve Eksikler\n[karar · 15:56] Galatasaray Stuttgart’ı ağırlıyor — Galatasaray, UEFA Şampiyonlar Ligi’nin 4. haftasında yarın sahasında Stuttgart ile karşı karşıya gelecek. Son 4 resmi maçını kazanan sarı-kırmızılılar, Alman temsilcisini de mağlup ederek Avrupa’daki çıkışını sürdürmek istiyor.\n[ntv · 09:00] Şampiyonlar Ligi heyecanı. Galatasaray-Stuttgart maçı saat kaçta, hangi kanal yayınlayacak?\n[milligazete · 09:38] Galatasaray-Stuttgart maçı hangi kanalda? İşte 11'ler\n[sozcu · 09:58] Galatasaray-Stuttgart maçı için olay tahmin! Yapay zeka sonucu açıkladı\n[tgrt · 10:47] Galatasaray-Stuttgart maçı ne zaman? Galatasaray-Stuttgart maçı hangi kanalda yayınlanacak, saat kaçta? İşte Muhtemel 11'ler\n[trthaber · 10:59] Galatasaray-Stuttgart maçı TRT 1'de\n[birgun · 11:58] Galatasaray-Stuttgart maçı saat kaçta, hangi kanalda? UEFA Gençlik Ligi\n[turkiyegz · 19:29] Galatasaray-Stuttgart maçı hangi kanalda, nerede izlenir? Şampiyonlar Ligi maçı şifresiz yayın bilgileri\n[cnnturk · 22:37] Galatasaray - Stuttgart Maçı Canlı Anlatım | Temsilcimiz, Devler Ligi sınavında — Galatasaray, UEFA Şampiyonlar Ligi'nin 4. haftasında bu akşam Almanya'nın Stuttgart takımını konuk edecek. TRT 1 ve TABİİ ekranlarından naklen yayınlanacak bu müsabakanın canlı anlatımı burada."
+  },
+  {
+   "key": "s4971__hot-hand-fallacy",
+   "output_file": "runs/bg/explain/s4971__hot-hand-fallacy.json",
+   "event_title": "Galatasaray - Stuttgart",
+   "concept": "Hot Hand Fallacy",
+   "definition": "An inference that a recent run of success makes further success more likely, when that conclusion is not justified by relevant evidence. A streak can sometimes reflect real skill or changing conditions, so the pattern alone is not an error.",
+   "quotes": [
+    {
+     "quote": "Son 4 resmi maçını kazanan sarı-kırmızılılar, Alman temsilcisini de mağlup ederek Avrupa’daki çıkışını sürdürmek istiyor.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Karar, son 4 galibiyet serisini Stuttgart maçı öncesi çerçeveye yerleştiriyor; seri ile gelecek başarı arasında örtük bağ kurulabilir.",
+   "skeptic_alternative": "Galibiyet serisinin aktarılması olağan maç öncesi bilgilendirmedir; 'istiyor' ifadesi olasılık tahmini değil niyettir.",
+   "missing_context": [
+    "Rakip gücü ve taban oranlarla karşılaştırma",
+    "Seriye dayalı açık bir tahmin veya olasılık ifadesi",
+    "Seriye dayalı açık bir tahmin veya öneri"
+   ],
+   "headlines": "[sabah · 15:55] Galatasaray, Stuttgart maçı hazırlıklarına başladı!\n[haberturk · 16:26] Galatasaray, Stuttgart maçının hazırlıklarına başladı!\n[star · 20:05] Galatasaray, Stuttgart maçı hazırlıklarını sürdürdü\n[aksam · 20:11] Galatasaray'da Stuttgart mesaisi sürüyor\n[mynet · 21:27] Galatasaray, Stuttgart maçı hazırlıklarına devam etti\n[dirilis · 10:30] Galatasaray Stuttgart maçı saat kaçta ve hangi kanalda?\n[sondakika · 11:38] Galatasaray Stuttgart maçı hazırlığını tamamladı, statü gereği eksikler var\n[haberler · 14:04] Galatasaray Stuttgart maçı ne zaman, saat kaçta? Galatasaray Stuttgart maçı nerede, hangi statta oynanacak?\n[yenisafak · 14:39] Galatasaray Stuttgart maçına hazır\n[cumhuriyet · 15:05] Galatasaray, Stuttgart maçı hazırlıklarını tamamladı\n[onedio · 15:46] Galatasaray - Stuttgart Maçı Ne Zaman, Saat Kaçta ve Hangi Kanalda? Muhtemel 11'ler ve Eksikler\n[karar · 15:56] Galatasaray Stuttgart’ı ağırlıyor — Galatasaray, UEFA Şampiyonlar Ligi’nin 4. haftasında yarın sahasında Stuttgart ile karşı karşıya gelecek. Son 4 resmi maçını kazanan sarı-kırmızılılar, Alman temsilcisini de mağlup ederek Avrupa’daki çıkışını sürdürmek istiyor.\n[ntv · 09:00] Şampiyonlar Ligi heyecanı. Galatasaray-Stuttgart maçı saat kaçta, hangi kanal yayınlayacak?\n[milligazete · 09:38] Galatasaray-Stuttgart maçı hangi kanalda? İşte 11'ler\n[sozcu · 09:58] Galatasaray-Stuttgart maçı için olay tahmin! Yapay zeka sonucu açıkladı\n[tgrt · 10:47] Galatasaray-Stuttgart maçı ne zaman? Galatasaray-Stuttgart maçı hangi kanalda yayınlanacak, saat kaçta? İşte Muhtemel 11'ler\n[trthaber · 10:59] Galatasaray-Stuttgart maçı TRT 1'de\n[birgun · 11:58] Galatasaray-Stuttgart maçı saat kaçta, hangi kanalda? UEFA Gençlik Ligi\n[turkiyegz · 19:29] Galatasaray-Stuttgart maçı hangi kanalda, nerede izlenir? Şampiyonlar Ligi maçı şifresiz yayın bilgileri\n[cnnturk · 22:37] Galatasaray - Stuttgart Maçı Canlı Anlatım | Temsilcimiz, Devler Ligi sınavında — Galatasaray, UEFA Şampiyonlar Ligi'nin 4. haftasında bu akşam Almanya'nın Stuttgart takımını konuk edecek. TRT 1 ve TABİİ ekranlarından naklen yayınlanacak bu müsabakanın canlı anlatımı burada."
+  },
+  {
+   "key": "s5527__automation-bias",
+   "output_file": "runs/bg/explain/s5527__automation-bias.json",
+   "event_title": "İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 25 şüpheli gözaltına alındı",
+   "concept": "Automation Bias",
+   "definition": "Automation bias is a tendency to give an automated system’s output undue weight in judgment or action, including when available evidence conflicts with it. Using automation, accepting a correct recommendation, or relying on it for a justified reason is not by itself evidence of bias.",
+   "quotes": [
+    {
+     "quote": "Yasa dışı bahis çetesini AVCI yakaladı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yapay zeka destekli AVCI projesiyle 39 ilde yasa dışı bahis operasyonu! 151 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yapay zeka destekli AVCI projesiyle 39 ilde yasa dışı bahis operasyonu!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "TGRT yakalamayı doğrudan AVCI sistemine atfediyor; A Haber yapay zekâ desteğini başlığa taşırken Sözcü aynı olayı sistemi anmadan veriyor.",
+   "skeptic_alternative": "Kurumlar resmi açıklamadaki proje adını aktarıyor; aracın kullanımı tek başına aşırı güven göstermez.",
+   "missing_context": [
+    "AVCI sisteminin operasyondaki gerçek rolü",
+    "Bağımsız soruşturma adımları ve savcılık değerlendirmesi",
+    "Bağımsız soruşturma adımlarının haber gövdesinde anılıp anılmadığı",
+    "Sistem çıktısının gözaltı kararlarındaki rolü"
+   ],
+   "headlines": "[sondakika · 06:09] AVCI projesiyle 39 ilde yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[tgrt · 09:05] Yasa dışı bahis çetesini AVCI yakaladı! İstanbul merkezli 39 ilde operasyon: Çok sayıda gözaltı var\n[turkiyegz · 09:08] 39 ilde 'Avcı' kıskacı! Yasa dışı bahis operasyonunda 151 şüpheli gözaltına alındı\n[ahaber · 09:12] Yapay zeka destekli AVCI projesiyle 39 ilde yasa dışı bahis operasyonu! 151 şüpheli yakalandı\n[yenisafak · 09:13] Yapay zeka destekli AVCI ile yasa dışı bahis ağına darbe: 151 gözaltı\n[karar · 09:16] İstanbul merkezli 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı — İstanbul Cumhuriyet Başsavcılığı koordinesinde, yasa dışı bahis ve kumar faaliyetlerine yönelik 39 ilde eş zamanlı operasyon düzenlendi. İçişleri Bakanlığı, yapay zekâ destekli AVCI projesinin kullanıldığı operasyonlarda 151 şüphelinin yakalandığını açıkladı.\n[sozcu · 09:19] 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı\n[ntv · 09:26] İzmir merkezli yasa dışı bahis operasyonunda 25 gözaltı\n[aa · 09:32] İstanbul merkezli 39 ildeki yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[trthaber · 09:34] Yapay zeka destekli yasa dışı bahis operasyonu: 151 gözaltı\n[haberler · 09:39] 51 şüpheliden 25'i, İzmir merkezli yasa dışı bahis operasyonunda gözaltına alındı\n[haberturk · 09:40] GÜNCELLEME - İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 40 zanlı yakalandı\n[star · 09:42] Yasa dışı bahis ağına 17 ilde operasyon! 51 şüpheliden 25'i yakalandı — İzmir merkezli 17 ilde düzenlenen yasa dışı bahis operasyonunda, haklarında gözaltı kararı bulunan 51 şüpheliden 25'i yakalandı.\n[mynet · 09:48] İstanbul merkezli 39 ilde yapay zeka destekli 'Yasa dışı bahis' operasyonu! 151 şüpheli yakalandı\n[dirilis · 09:58] İstanbul ve İzmir merkezli yasa dışı bahis operasyonlarında 176 şüpheli yakalandı!\n[birgun · 10:35] 39 ilde yasa dışı bahis operasyonu: 151 kişi gözaltına alındı\n[aksam · 14:08] 14 ilde yasa dışı bahis operasyonu: 33 gözaltı\n[sabah · 16:26] 34 ilde 'Yasa Dışı Bahis Kara para Aklama' operasyonu: 100 şüpheli yakalandı\n[takvim · 16:30] Nevşehir merkezli 34 ilde yasa dışı bahis operasyonu! 20 milyarlık ağda 100 gözaltı\n[cumhuriyet · 16:56] İçişleri duyurdu: 34 ildeki yasa dışı bahis operasyonunda 100 kişi yakalandı"
+  },
+  {
+   "key": "s5527__authority-bias",
+   "output_file": "runs/bg/explain/s5527__authority-bias.json",
+   "event_title": "İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 25 şüpheli gözaltına alındı",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "İçişleri Bakanlığı, yapay zekâ destekli AVCI projesinin kullanıldığı operasyonlarda 151 şüphelinin yakalandığını açıkladı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İçişleri duyurdu: 34 ildeki yasa dışı bahis operasyonunda 100 kişi yakalandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Haberler İçişleri Bakanlığı açıklamasını tek kaynak olarak aktarıyor; resmi kaynak beyanı doğrulanmadan sunuluyor olabilir.",
+   "skeptic_alternative": "Operasyon sayılarında resmi kurumu kaynak göstermek olağan ve ilgili bir atıftır.",
+   "missing_context": [
+    "Bağımsız doğrulama veya karşıt görüş",
+    "Bağımsız doğrulama veya çelişen kaynak",
+    "Resmi açıklamanın sorgulanmadan benimsendiğine dair içerik",
+    "Statünün karşıt kanıtı bastırdığına dair açık ifade"
+   ],
+   "headlines": "[sondakika · 06:09] AVCI projesiyle 39 ilde yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[tgrt · 09:05] Yasa dışı bahis çetesini AVCI yakaladı! İstanbul merkezli 39 ilde operasyon: Çok sayıda gözaltı var\n[turkiyegz · 09:08] 39 ilde 'Avcı' kıskacı! Yasa dışı bahis operasyonunda 151 şüpheli gözaltına alındı\n[ahaber · 09:12] Yapay zeka destekli AVCI projesiyle 39 ilde yasa dışı bahis operasyonu! 151 şüpheli yakalandı\n[yenisafak · 09:13] Yapay zeka destekli AVCI ile yasa dışı bahis ağına darbe: 151 gözaltı\n[karar · 09:16] İstanbul merkezli 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı — İstanbul Cumhuriyet Başsavcılığı koordinesinde, yasa dışı bahis ve kumar faaliyetlerine yönelik 39 ilde eş zamanlı operasyon düzenlendi. İçişleri Bakanlığı, yapay zekâ destekli AVCI projesinin kullanıldığı operasyonlarda 151 şüphelinin yakalandığını açıkladı.\n[sozcu · 09:19] 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı\n[ntv · 09:26] İzmir merkezli yasa dışı bahis operasyonunda 25 gözaltı\n[aa · 09:32] İstanbul merkezli 39 ildeki yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[trthaber · 09:34] Yapay zeka destekli yasa dışı bahis operasyonu: 151 gözaltı\n[haberler · 09:39] 51 şüpheliden 25'i, İzmir merkezli yasa dışı bahis operasyonunda gözaltına alındı\n[haberturk · 09:40] GÜNCELLEME - İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 40 zanlı yakalandı\n[star · 09:42] Yasa dışı bahis ağına 17 ilde operasyon! 51 şüpheliden 25'i yakalandı — İzmir merkezli 17 ilde düzenlenen yasa dışı bahis operasyonunda, haklarında gözaltı kararı bulunan 51 şüpheliden 25'i yakalandı.\n[mynet · 09:48] İstanbul merkezli 39 ilde yapay zeka destekli 'Yasa dışı bahis' operasyonu! 151 şüpheli yakalandı\n[dirilis · 09:58] İstanbul ve İzmir merkezli yasa dışı bahis operasyonlarında 176 şüpheli yakalandı!\n[birgun · 10:35] 39 ilde yasa dışı bahis operasyonu: 151 kişi gözaltına alındı\n[aksam · 14:08] 14 ilde yasa dışı bahis operasyonu: 33 gözaltı\n[sabah · 16:26] 34 ilde 'Yasa Dışı Bahis Kara para Aklama' operasyonu: 100 şüpheli yakalandı\n[takvim · 16:30] Nevşehir merkezli 34 ilde yasa dışı bahis operasyonu! 20 milyarlık ağda 100 gözaltı\n[cumhuriyet · 16:56] İçişleri duyurdu: 34 ildeki yasa dışı bahis operasyonunda 100 kişi yakalandı"
+  },
+  {
+   "key": "s5527__framing-effect",
+   "output_file": "runs/bg/explain/s5527__framing-effect.json",
+   "event_title": "İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 25 şüpheli gözaltına alındı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Yapay zeka destekli AVCI ile yasa dışı bahis ağına darbe: 151 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "39 ilde yasa dışı bahis operasyonu: 151 kişi gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yasa dışı bahis çetesini AVCI yakaladı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı 151 gözaltı, bir kurumda 'yapay zekâ ile darbe' başarısı, diğerinde nötr operasyon bilgisi olarak sunuluyor.",
+   "skeptic_alternative": "Başlık üslubu farkları editoryal tarz ve yer darlığıyla açıklanabilir; ayrıca küme birden fazla ayrı operasyonu içeriyor.",
+   "missing_context": [
+    "Kümedeki ayrı operasyonların ayrıştırılması (İstanbul, İzmir, Nevşehir)",
+    "Okur yargısına etki gösteren karşılaştırma",
+    "Çerçevelerin karar açısından eşdeğer olduğunun açık tespiti",
+    "Çerçeveye bağlı bir yargı veya tercih"
+   ],
+   "headlines": "[sondakika · 06:09] AVCI projesiyle 39 ilde yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[tgrt · 09:05] Yasa dışı bahis çetesini AVCI yakaladı! İstanbul merkezli 39 ilde operasyon: Çok sayıda gözaltı var\n[turkiyegz · 09:08] 39 ilde 'Avcı' kıskacı! Yasa dışı bahis operasyonunda 151 şüpheli gözaltına alındı\n[ahaber · 09:12] Yapay zeka destekli AVCI projesiyle 39 ilde yasa dışı bahis operasyonu! 151 şüpheli yakalandı\n[yenisafak · 09:13] Yapay zeka destekli AVCI ile yasa dışı bahis ağına darbe: 151 gözaltı\n[karar · 09:16] İstanbul merkezli 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı — İstanbul Cumhuriyet Başsavcılığı koordinesinde, yasa dışı bahis ve kumar faaliyetlerine yönelik 39 ilde eş zamanlı operasyon düzenlendi. İçişleri Bakanlığı, yapay zekâ destekli AVCI projesinin kullanıldığı operasyonlarda 151 şüphelinin yakalandığını açıkladı.\n[sozcu · 09:19] 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı\n[ntv · 09:26] İzmir merkezli yasa dışı bahis operasyonunda 25 gözaltı\n[aa · 09:32] İstanbul merkezli 39 ildeki yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[trthaber · 09:34] Yapay zeka destekli yasa dışı bahis operasyonu: 151 gözaltı\n[haberler · 09:39] 51 şüpheliden 25'i, İzmir merkezli yasa dışı bahis operasyonunda gözaltına alındı\n[haberturk · 09:40] GÜNCELLEME - İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 40 zanlı yakalandı\n[star · 09:42] Yasa dışı bahis ağına 17 ilde operasyon! 51 şüpheliden 25'i yakalandı — İzmir merkezli 17 ilde düzenlenen yasa dışı bahis operasyonunda, haklarında gözaltı kararı bulunan 51 şüpheliden 25'i yakalandı.\n[mynet · 09:48] İstanbul merkezli 39 ilde yapay zeka destekli 'Yasa dışı bahis' operasyonu! 151 şüpheli yakalandı\n[dirilis · 09:58] İstanbul ve İzmir merkezli yasa dışı bahis operasyonlarında 176 şüpheli yakalandı!\n[birgun · 10:35] 39 ilde yasa dışı bahis operasyonu: 151 kişi gözaltına alındı\n[aksam · 14:08] 14 ilde yasa dışı bahis operasyonu: 33 gözaltı\n[sabah · 16:26] 34 ilde 'Yasa Dışı Bahis Kara para Aklama' operasyonu: 100 şüpheli yakalandı\n[takvim · 16:30] Nevşehir merkezli 34 ilde yasa dışı bahis operasyonu! 20 milyarlık ağda 100 gözaltı\n[cumhuriyet · 16:56] İçişleri duyurdu: 34 ildeki yasa dışı bahis operasyonunda 100 kişi yakalandı"
+  },
+  {
+   "key": "s5527__salience-bias",
+   "output_file": "runs/bg/explain/s5527__salience-bias.json",
+   "event_title": "İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 25 şüpheli gözaltına alındı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Yapay zeka destekli yasa dışı bahis operasyonu: 151 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yapay zeka destekli AVCI ile yasa dışı bahis ağına darbe: 151 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul merkezli 39 ildeki yasa dışı bahis operasyonlarında 151 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "TRT Haber çarpıcı 'yapay zekâ' unsurunu öne çıkarıyor; dikkat çekici ayrıntı başlığı belirliyor.",
+   "skeptic_alternative": "Yapay zeka vurgusu resmi açıklamanın kendi vurgusunu yansıtıyor olabilir; haber değeri taşıyan yeni bir unsurdur.",
+   "missing_context": [
+    "Belirgin ayrıntının bir yargıya haksız etki ettiğini gösteren açık ifade",
+    "Resmi açıklamanın tam metni",
+    "Vurgunun okur değerlendirmesini değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[sondakika · 06:09] AVCI projesiyle 39 ilde yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[tgrt · 09:05] Yasa dışı bahis çetesini AVCI yakaladı! İstanbul merkezli 39 ilde operasyon: Çok sayıda gözaltı var\n[turkiyegz · 09:08] 39 ilde 'Avcı' kıskacı! Yasa dışı bahis operasyonunda 151 şüpheli gözaltına alındı\n[ahaber · 09:12] Yapay zeka destekli AVCI projesiyle 39 ilde yasa dışı bahis operasyonu! 151 şüpheli yakalandı\n[yenisafak · 09:13] Yapay zeka destekli AVCI ile yasa dışı bahis ağına darbe: 151 gözaltı\n[karar · 09:16] İstanbul merkezli 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı — İstanbul Cumhuriyet Başsavcılığı koordinesinde, yasa dışı bahis ve kumar faaliyetlerine yönelik 39 ilde eş zamanlı operasyon düzenlendi. İçişleri Bakanlığı, yapay zekâ destekli AVCI projesinin kullanıldığı operasyonlarda 151 şüphelinin yakalandığını açıkladı.\n[sozcu · 09:19] 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı\n[ntv · 09:26] İzmir merkezli yasa dışı bahis operasyonunda 25 gözaltı\n[aa · 09:32] İstanbul merkezli 39 ildeki yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[trthaber · 09:34] Yapay zeka destekli yasa dışı bahis operasyonu: 151 gözaltı\n[haberler · 09:39] 51 şüpheliden 25'i, İzmir merkezli yasa dışı bahis operasyonunda gözaltına alındı\n[haberturk · 09:40] GÜNCELLEME - İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 40 zanlı yakalandı\n[star · 09:42] Yasa dışı bahis ağına 17 ilde operasyon! 51 şüpheliden 25'i yakalandı — İzmir merkezli 17 ilde düzenlenen yasa dışı bahis operasyonunda, haklarında gözaltı kararı bulunan 51 şüpheliden 25'i yakalandı.\n[mynet · 09:48] İstanbul merkezli 39 ilde yapay zeka destekli 'Yasa dışı bahis' operasyonu! 151 şüpheli yakalandı\n[dirilis · 09:58] İstanbul ve İzmir merkezli yasa dışı bahis operasyonlarında 176 şüpheli yakalandı!\n[birgun · 10:35] 39 ilde yasa dışı bahis operasyonu: 151 kişi gözaltına alındı\n[aksam · 14:08] 14 ilde yasa dışı bahis operasyonu: 33 gözaltı\n[sabah · 16:26] 34 ilde 'Yasa Dışı Bahis Kara para Aklama' operasyonu: 100 şüpheli yakalandı\n[takvim · 16:30] Nevşehir merkezli 34 ilde yasa dışı bahis operasyonu! 20 milyarlık ağda 100 gözaltı\n[cumhuriyet · 16:56] İçişleri duyurdu: 34 ildeki yasa dışı bahis operasyonunda 100 kişi yakalandı"
+  },
+  {
+   "key": "s5527__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5527__leveling-and-sharpening.json",
+   "event_title": "İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 25 şüpheli gözaltına alındı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "İstanbul ve İzmir merkezli yasa dışı bahis operasyonlarında 176 şüpheli yakalandı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "GÜNCELLEME - İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 40 zanlı yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İzmir merkezli 17 ilde düzenlenen yasa dışı bahis operasyonunda, haklarında gözaltı kararı bulunan 51 şüpheliden 25'i yakalandı.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Kurumlar arası sayılar farklılaşıyor: Diriliş iki operasyonu 176'da birleştiriyor, Habertürk 40, Star 25 yakalama veriyor.",
+   "skeptic_alternative": "176 sayısı İstanbul (151) ve İzmir (25) operasyonlarının toplamı olarak tutarlı; farklar kümeleme hatasından kaynaklanıyor olabilir.",
+   "missing_context": [
+    "Farkın bir sonuca yol açtığına dair kanıt",
+    "Her operasyon için resmi açıklama metni",
+    "Kümenin tek olaya mı ait olduğu",
+    "Resmi açıklamaların zaman sıralı metni"
+   ],
+   "headlines": "[sondakika · 06:09] AVCI projesiyle 39 ilde yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[tgrt · 09:05] Yasa dışı bahis çetesini AVCI yakaladı! İstanbul merkezli 39 ilde operasyon: Çok sayıda gözaltı var\n[turkiyegz · 09:08] 39 ilde 'Avcı' kıskacı! Yasa dışı bahis operasyonunda 151 şüpheli gözaltına alındı\n[ahaber · 09:12] Yapay zeka destekli AVCI projesiyle 39 ilde yasa dışı bahis operasyonu! 151 şüpheli yakalandı\n[yenisafak · 09:13] Yapay zeka destekli AVCI ile yasa dışı bahis ağına darbe: 151 gözaltı\n[karar · 09:16] İstanbul merkezli 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı — İstanbul Cumhuriyet Başsavcılığı koordinesinde, yasa dışı bahis ve kumar faaliyetlerine yönelik 39 ilde eş zamanlı operasyon düzenlendi. İçişleri Bakanlığı, yapay zekâ destekli AVCI projesinin kullanıldığı operasyonlarda 151 şüphelinin yakalandığını açıkladı.\n[sozcu · 09:19] 39 ilde yasa dışı bahis operasyonu: 151 şüpheli yakalandı\n[ntv · 09:26] İzmir merkezli yasa dışı bahis operasyonunda 25 gözaltı\n[aa · 09:32] İstanbul merkezli 39 ildeki yasa dışı bahis operasyonlarında 151 şüpheli yakalandı\n[trthaber · 09:34] Yapay zeka destekli yasa dışı bahis operasyonu: 151 gözaltı\n[haberler · 09:39] 51 şüpheliden 25'i, İzmir merkezli yasa dışı bahis operasyonunda gözaltına alındı\n[haberturk · 09:40] GÜNCELLEME - İzmir merkezli 17 ilde yasa dışı bahis operasyonunda 40 zanlı yakalandı\n[star · 09:42] Yasa dışı bahis ağına 17 ilde operasyon! 51 şüpheliden 25'i yakalandı — İzmir merkezli 17 ilde düzenlenen yasa dışı bahis operasyonunda, haklarında gözaltı kararı bulunan 51 şüpheliden 25'i yakalandı.\n[mynet · 09:48] İstanbul merkezli 39 ilde yapay zeka destekli 'Yasa dışı bahis' operasyonu! 151 şüpheli yakalandı\n[dirilis · 09:58] İstanbul ve İzmir merkezli yasa dışı bahis operasyonlarında 176 şüpheli yakalandı!\n[birgun · 10:35] 39 ilde yasa dışı bahis operasyonu: 151 kişi gözaltına alındı\n[aksam · 14:08] 14 ilde yasa dışı bahis operasyonu: 33 gözaltı\n[sabah · 16:26] 34 ilde 'Yasa Dışı Bahis Kara para Aklama' operasyonu: 100 şüpheli yakalandı\n[takvim · 16:30] Nevşehir merkezli 34 ilde yasa dışı bahis operasyonu! 20 milyarlık ağda 100 gözaltı\n[cumhuriyet · 16:56] İçişleri duyurdu: 34 ildeki yasa dışı bahis operasyonunda 100 kişi yakalandı"
+  },
+  {
+   "key": "s1772__framing-effect",
+   "output_file": "runs/bg/explain/s1772__framing-effect.json",
+   "event_title": "Zonguldak'ta maden ocağında patlama",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Kahreden haber: 3 işçi öldü, 5 yaralı var",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Zonguldak'ta maden ocağında grizu patlaması! 3 işçi vefat etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Zonguldak'ta maden ocağında patlama. 3 can kaybı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı 3 ölü bilgisi 'kahreden haber', 'vefat etti' ve 'can kaybı' gibi farklı duygusal çerçevelerle sunuluyor.",
+   "skeptic_alternative": "Duygusal başlık dili ölümlü bir iş kazasında olağan editoryal tercih olabilir; olgular değiştirilmemiş.",
+   "missing_context": [
+    "Sunum farkının okur yargısını etkilediğine dair kanıt",
+    "Çerçeveye bağlı bir tercih veya yargı"
+   ],
+   "headlines": "[turkiyegz · 10:59] Zonguldak'ta maden ocağında patlama! 3 ölü, 5 yaralı — Zonguldak'ın Kilimli İlçesine bağlı Gelik beldesinde özel bir maden ocağında grizu patlaması meydana geldi. Patlamada 3 kişinin hayatını kaybettiği, 4 kişinin yaralandığı bildirildi. İçişleri Bakanı Sayın Mustafa Çiftçi'den de konuyla ilgili açıklama geldi. Adalet Bakanı Gürlek …\n[sabah · 11:05] SON DAKİKA | Zonguldak'ta maden ocağında patlama! 3 ölü, 1'i ağır 5 yaralı — SON DAKİKA | Zonguldak’ın Kilimli ilçesine bağlı Gelik beldesinde özel bir maden ocağında grizu patlaması meydana geldi. Yaşanan patlamada 2 işçi, hayatını kaybetti, 1’i ağır 5 işçi yaralandı. Toplam 8 kişi olduğu belirlenen madende, mahsur kalan 1 işçinin cansız bedeni …\n[milligazete · 11:07] Zonguldak'ta maden ocağında grizu patlaması! 3 işçi vefat etti — Zonguldak'ın Kilimli ilçesindeki özel maden ocağında meydana geldiği bildirilen grizu patlamasında 3 işçi vefat etti, 5 işçi yaralandı.\n[star · 11:07] Zonguldak'ta maden ocağında patlama: 3 kişi hayatını kaybetti — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı. Adalet Bakanı Akın Gürlek, patlamayla ilgili soruşturma başlatıldığını, 1 Cumhuriyet Başsavcı Vekili ve 2 Cumhuriyet Savcısının görevlendirildiğini …\n[mynet · 11:08] Son dakika | Zonguldak’ta maden ocağında patlama! Kahreden haber: 3 işçi öldü, 5 yaralı var — Son dakika haberi: Zonguldak’ta özel bir maden ocağında grizu patlaması oldu. Patlamada ilk belirlemelere göre 2 işçi yaşamını yitirdi, 5 işçi ise yaralandı. Göçük altında mahsur kalan son işçinin de cansız bedeninin çıkarılmasıyla can kaybı 3'e yükseldi.\n[sozcu · 11:09] Zonguldak'ta maden ocağında patlama! Ölü ve yaralılar var — Zonguldak'ın Kilimli ilçesinde özel bir maden ocağında grizu patlaması meydana geldi. Patlamanın ardından 3 madenci hayatını kaybederken, 4 işçi de yaralandı. Öte yandan patlamanın nedeninin de metan gazı olduğu bildirildi.\n[ntv · 11:09] Zonguldak'ta maden ocağında patlama. 3 can kaybı — Zonguldak'ta özel bir maden ocağında grizu patlaması meydana geldi. İç işçi hayatını kaybederken 5 madenci yaralandı. Başlatılan soruşturma kapsamında iki şüpheli hakkında gözaltı kararı verildi.\n[karar · 11:10] Zonguldak'ta maden ocağında patlama: 3 işçi hayatını kaybetti, 4 yaralı — Zonguldak’ın Kilimli ilçesindeki özel kömür madeninde meydana gelen grizu patlamasında ilk bilgilere göre 3 işçi hayatını kaybetti, 4 kişi yaralandı. Ocakta kaldığı belirtilen bir işçiye ulaşılırken kurtarma çalışmaları sürerken, olayla ilgili soruşturma başlatıldı.\n[takvim · 11:10] Zonguldak'ta maden ocağından acı haber! İsimleri belli oldu — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesindeki özel maden ocağında grizu patlaması meydana geldi. Patlamada 3 işçi öldü, 1'i ağır 5 işçi yaralandı.\n[cumhuriyet · 11:12] Son dakika... Zonguldak'ta maden ocağında patlama: Ölü ve yaralılar var! — Son dakika haberi... Kilimli ilçesinde özel bir maden ocağında grizu patlaması meydana geldi. Yaşanan patlamada can kaybı 3'e yükseldi. Yaralanan 5 işçinin tedavisi ise sürüyor. Zonguldak Valisi Osman Hacıbektaşoğlu, yaralılardan ikisinin entübe edildiği aktardı.\n[haberturk · 11:14] Zonguldak'ta maden ocağında patlama! Can kayıpları var — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesinde, özel bir maden ocağında grizu patlaması meydana geldi. İHA'da yer alan habere göre yaşanan patlamada 2 işçinin hayatını kaybettiği; 2'si ağır 5 işçinin ise tedavi altına alındığı bildirildi.(İHA)\n[trthaber · 11:16] Zonguldak'ta maden ocağında patlama — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı.\n[diken · 11:26] Zonguldak'ta maden ocağında patlama: Üç işçi öldü — 23.10.2026 - Zonguldak'ın Kilimli ilçesindeki bir maden ocağında patlama meydana geldi, üç işçi öldü.\n[aa · 11:27] Zonguldak'ta maden ocağındaki grizu patlamasında 3 kişi öldü, 5 kişi yaralandı\n[dirilis · 11:55] Zonguldak’ta maden ocağında grizu faciası! — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 2 kişi hayatını kaybetti, 5 kişi yaralandı.\n[tele1 · 14:20] Zonguldak'ta maden ocağında patlama! 3 madenci can verdi, isimleri belli oldu — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesinde, özel bir maden ocağında grizu patlaması meydana geldi. Zonguldak Valisi Osman Hacıbektaşoğlu; patlamada 2 maden işçisinin hayatını kaybettiğini, 1 işçinin göçük altında kaldığını ve 2 işçinin de entübe edildiğini söyledi.\n[yeniasya · 20:15] Zonguldak maden ocağında grizu patlaması: 3 ölü, 5 yaralı\n[yenisafak · 04:00] Maden ocağında patlama — Zonguldak’ın Kilimli ilçesine bağlı Gelik beldesindeki özel kömür madeni ocağında meydana gelen grizu patlamasında 3 işçi hayatını kaybetti. Ocakta mahsur kalan Cengiz Bölükbaşı, Recep Çolakoğlu ve Murat Kaya’nın cansız bedenleri çıkarıldı. 5 işçinin de yaralandığı patlamaya …\n[birgun · 10:49] Zonguldak'ta maden ocağındaki grizu patlaması: 3 kişi tutuklandı\n[haberler · 20:31] Zonguldak'taki maden ocağı patlamasında tutuklu sayısı 4 oldu"
+  },
+  {
+   "key": "s1772__authority-bias",
+   "output_file": "runs/bg/explain/s1772__authority-bias.json",
+   "event_title": "Zonguldak'ta maden ocağında patlama",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "Adalet Bakanı Akın Gürlek, patlamayla ilgili soruşturma başlatıldığını",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İçişleri Bakanı Sayın Mustafa Çiftçi'den de konuyla ilgili açıklama geldi.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bakan açıklamaları ve 'Sayın' hitabı öne çıkıyor; resmi statü habere ağırlık kazandırıyor olabilir.",
+   "skeptic_alternative": "Soruşturma bilgisinin Adalet Bakanı'ndan aktarılması ilgili ve olağan bir atıftır.",
+   "missing_context": [
+    "Statünün karşıt kanıtı veya endişeyi bastırdığına dair açık ifade",
+    "Çelişen bir iddianın statü nedeniyle dışlandığına dair kanıt"
+   ],
+   "headlines": "[turkiyegz · 10:59] Zonguldak'ta maden ocağında patlama! 3 ölü, 5 yaralı — Zonguldak'ın Kilimli İlçesine bağlı Gelik beldesinde özel bir maden ocağında grizu patlaması meydana geldi. Patlamada 3 kişinin hayatını kaybettiği, 4 kişinin yaralandığı bildirildi. İçişleri Bakanı Sayın Mustafa Çiftçi'den de konuyla ilgili açıklama geldi. Adalet Bakanı Gürlek …\n[sabah · 11:05] SON DAKİKA | Zonguldak'ta maden ocağında patlama! 3 ölü, 1'i ağır 5 yaralı — SON DAKİKA | Zonguldak’ın Kilimli ilçesine bağlı Gelik beldesinde özel bir maden ocağında grizu patlaması meydana geldi. Yaşanan patlamada 2 işçi, hayatını kaybetti, 1’i ağır 5 işçi yaralandı. Toplam 8 kişi olduğu belirlenen madende, mahsur kalan 1 işçinin cansız bedeni …\n[milligazete · 11:07] Zonguldak'ta maden ocağında grizu patlaması! 3 işçi vefat etti — Zonguldak'ın Kilimli ilçesindeki özel maden ocağında meydana geldiği bildirilen grizu patlamasında 3 işçi vefat etti, 5 işçi yaralandı.\n[star · 11:07] Zonguldak'ta maden ocağında patlama: 3 kişi hayatını kaybetti — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı. Adalet Bakanı Akın Gürlek, patlamayla ilgili soruşturma başlatıldığını, 1 Cumhuriyet Başsavcı Vekili ve 2 Cumhuriyet Savcısının görevlendirildiğini …\n[mynet · 11:08] Son dakika | Zonguldak’ta maden ocağında patlama! Kahreden haber: 3 işçi öldü, 5 yaralı var — Son dakika haberi: Zonguldak’ta özel bir maden ocağında grizu patlaması oldu. Patlamada ilk belirlemelere göre 2 işçi yaşamını yitirdi, 5 işçi ise yaralandı. Göçük altında mahsur kalan son işçinin de cansız bedeninin çıkarılmasıyla can kaybı 3'e yükseldi.\n[sozcu · 11:09] Zonguldak'ta maden ocağında patlama! Ölü ve yaralılar var — Zonguldak'ın Kilimli ilçesinde özel bir maden ocağında grizu patlaması meydana geldi. Patlamanın ardından 3 madenci hayatını kaybederken, 4 işçi de yaralandı. Öte yandan patlamanın nedeninin de metan gazı olduğu bildirildi.\n[ntv · 11:09] Zonguldak'ta maden ocağında patlama. 3 can kaybı — Zonguldak'ta özel bir maden ocağında grizu patlaması meydana geldi. İç işçi hayatını kaybederken 5 madenci yaralandı. Başlatılan soruşturma kapsamında iki şüpheli hakkında gözaltı kararı verildi.\n[karar · 11:10] Zonguldak'ta maden ocağında patlama: 3 işçi hayatını kaybetti, 4 yaralı — Zonguldak’ın Kilimli ilçesindeki özel kömür madeninde meydana gelen grizu patlamasında ilk bilgilere göre 3 işçi hayatını kaybetti, 4 kişi yaralandı. Ocakta kaldığı belirtilen bir işçiye ulaşılırken kurtarma çalışmaları sürerken, olayla ilgili soruşturma başlatıldı.\n[takvim · 11:10] Zonguldak'ta maden ocağından acı haber! İsimleri belli oldu — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesindeki özel maden ocağında grizu patlaması meydana geldi. Patlamada 3 işçi öldü, 1'i ağır 5 işçi yaralandı.\n[cumhuriyet · 11:12] Son dakika... Zonguldak'ta maden ocağında patlama: Ölü ve yaralılar var! — Son dakika haberi... Kilimli ilçesinde özel bir maden ocağında grizu patlaması meydana geldi. Yaşanan patlamada can kaybı 3'e yükseldi. Yaralanan 5 işçinin tedavisi ise sürüyor. Zonguldak Valisi Osman Hacıbektaşoğlu, yaralılardan ikisinin entübe edildiği aktardı.\n[haberturk · 11:14] Zonguldak'ta maden ocağında patlama! Can kayıpları var — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesinde, özel bir maden ocağında grizu patlaması meydana geldi. İHA'da yer alan habere göre yaşanan patlamada 2 işçinin hayatını kaybettiği; 2'si ağır 5 işçinin ise tedavi altına alındığı bildirildi.(İHA)\n[trthaber · 11:16] Zonguldak'ta maden ocağında patlama — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı.\n[diken · 11:26] Zonguldak'ta maden ocağında patlama: Üç işçi öldü — 23.10.2026 - Zonguldak'ın Kilimli ilçesindeki bir maden ocağında patlama meydana geldi, üç işçi öldü.\n[aa · 11:27] Zonguldak'ta maden ocağındaki grizu patlamasında 3 kişi öldü, 5 kişi yaralandı\n[dirilis · 11:55] Zonguldak’ta maden ocağında grizu faciası! — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 2 kişi hayatını kaybetti, 5 kişi yaralandı.\n[tele1 · 14:20] Zonguldak'ta maden ocağında patlama! 3 madenci can verdi, isimleri belli oldu — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesinde, özel bir maden ocağında grizu patlaması meydana geldi. Zonguldak Valisi Osman Hacıbektaşoğlu; patlamada 2 maden işçisinin hayatını kaybettiğini, 1 işçinin göçük altında kaldığını ve 2 işçinin de entübe edildiğini söyledi.\n[yeniasya · 20:15] Zonguldak maden ocağında grizu patlaması: 3 ölü, 5 yaralı\n[yenisafak · 04:00] Maden ocağında patlama — Zonguldak’ın Kilimli ilçesine bağlı Gelik beldesindeki özel kömür madeni ocağında meydana gelen grizu patlamasında 3 işçi hayatını kaybetti. Ocakta mahsur kalan Cengiz Bölükbaşı, Recep Çolakoğlu ve Murat Kaya’nın cansız bedenleri çıkarıldı. 5 işçinin de yaralandığı patlamaya …\n[birgun · 10:49] Zonguldak'ta maden ocağındaki grizu patlaması: 3 kişi tutuklandı\n[haberler · 20:31] Zonguldak'taki maden ocağı patlamasında tutuklu sayısı 4 oldu"
+  },
+  {
+   "key": "s1772__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s1772__leveling-and-sharpening.json",
+   "event_title": "Zonguldak'ta maden ocağında patlama",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "yaşanan patlamada 2 işçinin hayatını kaybettiği; 2'si ağır 5 işçinin ise tedavi altına alındığı bildirildi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Patlamanın ardından 3 madenci hayatını kaybederken, 4 işçi de yaralandı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yaşanan patlamada 2 işçi, hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "3 madenci hayatını kaybederken, 4 işçi de yaralandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Göçük altında mahsur kalan son işçinin de cansız bedeninin çıkarılmasıyla can kaybı 3'e yükseldi.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Ölü ve yaralı sayıları kurumlar arasında 2/3 ölü ve 4/5 yaralı olarak farklılaşıyor.",
+   "skeptic_alternative": "Farklar haberin farklı güncellenme anlarını yansıtıyor; can kaybının sonradan 3'e yükseldiği açıkça belirtiliyor.",
+   "missing_context": [
+    "Farkın bir sonuca yol açtığına dair kanıt",
+    "Resmi açıklamaların zaman sıralı kaydı",
+    "Resmi kaynakların zaman damgalı açıklamaları",
+    "Yaralı sayısı farkının (4/5) kaynağı"
+   ],
+   "headlines": "[turkiyegz · 10:59] Zonguldak'ta maden ocağında patlama! 3 ölü, 5 yaralı — Zonguldak'ın Kilimli İlçesine bağlı Gelik beldesinde özel bir maden ocağında grizu patlaması meydana geldi. Patlamada 3 kişinin hayatını kaybettiği, 4 kişinin yaralandığı bildirildi. İçişleri Bakanı Sayın Mustafa Çiftçi'den de konuyla ilgili açıklama geldi. Adalet Bakanı Gürlek …\n[sabah · 11:05] SON DAKİKA | Zonguldak'ta maden ocağında patlama! 3 ölü, 1'i ağır 5 yaralı — SON DAKİKA | Zonguldak’ın Kilimli ilçesine bağlı Gelik beldesinde özel bir maden ocağında grizu patlaması meydana geldi. Yaşanan patlamada 2 işçi, hayatını kaybetti, 1’i ağır 5 işçi yaralandı. Toplam 8 kişi olduğu belirlenen madende, mahsur kalan 1 işçinin cansız bedeni …\n[milligazete · 11:07] Zonguldak'ta maden ocağında grizu patlaması! 3 işçi vefat etti — Zonguldak'ın Kilimli ilçesindeki özel maden ocağında meydana geldiği bildirilen grizu patlamasında 3 işçi vefat etti, 5 işçi yaralandı.\n[star · 11:07] Zonguldak'ta maden ocağında patlama: 3 kişi hayatını kaybetti — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı. Adalet Bakanı Akın Gürlek, patlamayla ilgili soruşturma başlatıldığını, 1 Cumhuriyet Başsavcı Vekili ve 2 Cumhuriyet Savcısının görevlendirildiğini …\n[mynet · 11:08] Son dakika | Zonguldak’ta maden ocağında patlama! Kahreden haber: 3 işçi öldü, 5 yaralı var — Son dakika haberi: Zonguldak’ta özel bir maden ocağında grizu patlaması oldu. Patlamada ilk belirlemelere göre 2 işçi yaşamını yitirdi, 5 işçi ise yaralandı. Göçük altında mahsur kalan son işçinin de cansız bedeninin çıkarılmasıyla can kaybı 3'e yükseldi.\n[sozcu · 11:09] Zonguldak'ta maden ocağında patlama! Ölü ve yaralılar var — Zonguldak'ın Kilimli ilçesinde özel bir maden ocağında grizu patlaması meydana geldi. Patlamanın ardından 3 madenci hayatını kaybederken, 4 işçi de yaralandı. Öte yandan patlamanın nedeninin de metan gazı olduğu bildirildi.\n[ntv · 11:09] Zonguldak'ta maden ocağında patlama. 3 can kaybı — Zonguldak'ta özel bir maden ocağında grizu patlaması meydana geldi. İç işçi hayatını kaybederken 5 madenci yaralandı. Başlatılan soruşturma kapsamında iki şüpheli hakkında gözaltı kararı verildi.\n[karar · 11:10] Zonguldak'ta maden ocağında patlama: 3 işçi hayatını kaybetti, 4 yaralı — Zonguldak’ın Kilimli ilçesindeki özel kömür madeninde meydana gelen grizu patlamasında ilk bilgilere göre 3 işçi hayatını kaybetti, 4 kişi yaralandı. Ocakta kaldığı belirtilen bir işçiye ulaşılırken kurtarma çalışmaları sürerken, olayla ilgili soruşturma başlatıldı.\n[takvim · 11:10] Zonguldak'ta maden ocağından acı haber! İsimleri belli oldu — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesindeki özel maden ocağında grizu patlaması meydana geldi. Patlamada 3 işçi öldü, 1'i ağır 5 işçi yaralandı.\n[cumhuriyet · 11:12] Son dakika... Zonguldak'ta maden ocağında patlama: Ölü ve yaralılar var! — Son dakika haberi... Kilimli ilçesinde özel bir maden ocağında grizu patlaması meydana geldi. Yaşanan patlamada can kaybı 3'e yükseldi. Yaralanan 5 işçinin tedavisi ise sürüyor. Zonguldak Valisi Osman Hacıbektaşoğlu, yaralılardan ikisinin entübe edildiği aktardı.\n[haberturk · 11:14] Zonguldak'ta maden ocağında patlama! Can kayıpları var — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesinde, özel bir maden ocağında grizu patlaması meydana geldi. İHA'da yer alan habere göre yaşanan patlamada 2 işçinin hayatını kaybettiği; 2'si ağır 5 işçinin ise tedavi altına alındığı bildirildi.(İHA)\n[trthaber · 11:16] Zonguldak'ta maden ocağında patlama — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı.\n[diken · 11:26] Zonguldak'ta maden ocağında patlama: Üç işçi öldü — 23.10.2026 - Zonguldak'ın Kilimli ilçesindeki bir maden ocağında patlama meydana geldi, üç işçi öldü.\n[aa · 11:27] Zonguldak'ta maden ocağındaki grizu patlamasında 3 kişi öldü, 5 kişi yaralandı\n[dirilis · 11:55] Zonguldak’ta maden ocağında grizu faciası! — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 2 kişi hayatını kaybetti, 5 kişi yaralandı.\n[tele1 · 14:20] Zonguldak'ta maden ocağında patlama! 3 madenci can verdi, isimleri belli oldu — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesinde, özel bir maden ocağında grizu patlaması meydana geldi. Zonguldak Valisi Osman Hacıbektaşoğlu; patlamada 2 maden işçisinin hayatını kaybettiğini, 1 işçinin göçük altında kaldığını ve 2 işçinin de entübe edildiğini söyledi.\n[yeniasya · 20:15] Zonguldak maden ocağında grizu patlaması: 3 ölü, 5 yaralı\n[yenisafak · 04:00] Maden ocağında patlama — Zonguldak’ın Kilimli ilçesine bağlı Gelik beldesindeki özel kömür madeni ocağında meydana gelen grizu patlamasında 3 işçi hayatını kaybetti. Ocakta mahsur kalan Cengiz Bölükbaşı, Recep Çolakoğlu ve Murat Kaya’nın cansız bedenleri çıkarıldı. 5 işçinin de yaralandığı patlamaya …\n[birgun · 10:49] Zonguldak'ta maden ocağındaki grizu patlaması: 3 kişi tutuklandı\n[haberler · 20:31] Zonguldak'taki maden ocağı patlamasında tutuklu sayısı 4 oldu"
+  },
+  {
+   "key": "s1772__salience-bias",
+   "output_file": "runs/bg/explain/s1772__salience-bias.json",
+   "event_title": "Zonguldak'ta maden ocağında patlama",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Son dakika | Zonguldak’ta maden ocağında patlama! Kahreden haber: 3 işçi öldü, 5 yaralı var",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Zonguldak'ta maden ocağından acı haber! İsimleri belli oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Duygusal ve çarpıcı ifadeler başlıkta öne çıkarılıyor.",
+   "skeptic_alternative": "Kurban isimlerinin açıklanması haber değeri taşıyan yeni bir gelişmedir.",
+   "missing_context": [
+    "Belirgin ayrıntının bir çıkarım veya tercihe bağlandığını gösteren ifade",
+    "Öne çıkan unsur ile yargı arasında açık bağ"
+   ],
+   "headlines": "[turkiyegz · 10:59] Zonguldak'ta maden ocağında patlama! 3 ölü, 5 yaralı — Zonguldak'ın Kilimli İlçesine bağlı Gelik beldesinde özel bir maden ocağında grizu patlaması meydana geldi. Patlamada 3 kişinin hayatını kaybettiği, 4 kişinin yaralandığı bildirildi. İçişleri Bakanı Sayın Mustafa Çiftçi'den de konuyla ilgili açıklama geldi. Adalet Bakanı Gürlek …\n[sabah · 11:05] SON DAKİKA | Zonguldak'ta maden ocağında patlama! 3 ölü, 1'i ağır 5 yaralı — SON DAKİKA | Zonguldak’ın Kilimli ilçesine bağlı Gelik beldesinde özel bir maden ocağında grizu patlaması meydana geldi. Yaşanan patlamada 2 işçi, hayatını kaybetti, 1’i ağır 5 işçi yaralandı. Toplam 8 kişi olduğu belirlenen madende, mahsur kalan 1 işçinin cansız bedeni …\n[milligazete · 11:07] Zonguldak'ta maden ocağında grizu patlaması! 3 işçi vefat etti — Zonguldak'ın Kilimli ilçesindeki özel maden ocağında meydana geldiği bildirilen grizu patlamasında 3 işçi vefat etti, 5 işçi yaralandı.\n[star · 11:07] Zonguldak'ta maden ocağında patlama: 3 kişi hayatını kaybetti — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı. Adalet Bakanı Akın Gürlek, patlamayla ilgili soruşturma başlatıldığını, 1 Cumhuriyet Başsavcı Vekili ve 2 Cumhuriyet Savcısının görevlendirildiğini …\n[mynet · 11:08] Son dakika | Zonguldak’ta maden ocağında patlama! Kahreden haber: 3 işçi öldü, 5 yaralı var — Son dakika haberi: Zonguldak’ta özel bir maden ocağında grizu patlaması oldu. Patlamada ilk belirlemelere göre 2 işçi yaşamını yitirdi, 5 işçi ise yaralandı. Göçük altında mahsur kalan son işçinin de cansız bedeninin çıkarılmasıyla can kaybı 3'e yükseldi.\n[sozcu · 11:09] Zonguldak'ta maden ocağında patlama! Ölü ve yaralılar var — Zonguldak'ın Kilimli ilçesinde özel bir maden ocağında grizu patlaması meydana geldi. Patlamanın ardından 3 madenci hayatını kaybederken, 4 işçi de yaralandı. Öte yandan patlamanın nedeninin de metan gazı olduğu bildirildi.\n[ntv · 11:09] Zonguldak'ta maden ocağında patlama. 3 can kaybı — Zonguldak'ta özel bir maden ocağında grizu patlaması meydana geldi. İç işçi hayatını kaybederken 5 madenci yaralandı. Başlatılan soruşturma kapsamında iki şüpheli hakkında gözaltı kararı verildi.\n[karar · 11:10] Zonguldak'ta maden ocağında patlama: 3 işçi hayatını kaybetti, 4 yaralı — Zonguldak’ın Kilimli ilçesindeki özel kömür madeninde meydana gelen grizu patlamasında ilk bilgilere göre 3 işçi hayatını kaybetti, 4 kişi yaralandı. Ocakta kaldığı belirtilen bir işçiye ulaşılırken kurtarma çalışmaları sürerken, olayla ilgili soruşturma başlatıldı.\n[takvim · 11:10] Zonguldak'ta maden ocağından acı haber! İsimleri belli oldu — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesindeki özel maden ocağında grizu patlaması meydana geldi. Patlamada 3 işçi öldü, 1'i ağır 5 işçi yaralandı.\n[cumhuriyet · 11:12] Son dakika... Zonguldak'ta maden ocağında patlama: Ölü ve yaralılar var! — Son dakika haberi... Kilimli ilçesinde özel bir maden ocağında grizu patlaması meydana geldi. Yaşanan patlamada can kaybı 3'e yükseldi. Yaralanan 5 işçinin tedavisi ise sürüyor. Zonguldak Valisi Osman Hacıbektaşoğlu, yaralılardan ikisinin entübe edildiği aktardı.\n[haberturk · 11:14] Zonguldak'ta maden ocağında patlama! Can kayıpları var — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesinde, özel bir maden ocağında grizu patlaması meydana geldi. İHA'da yer alan habere göre yaşanan patlamada 2 işçinin hayatını kaybettiği; 2'si ağır 5 işçinin ise tedavi altına alındığı bildirildi.(İHA)\n[trthaber · 11:16] Zonguldak'ta maden ocağında patlama — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 3 kişi hayatını kaybetti, 5 kişi yaralandı.\n[diken · 11:26] Zonguldak'ta maden ocağında patlama: Üç işçi öldü — 23.10.2026 - Zonguldak'ın Kilimli ilçesindeki bir maden ocağında patlama meydana geldi, üç işçi öldü.\n[aa · 11:27] Zonguldak'ta maden ocağındaki grizu patlamasında 3 kişi öldü, 5 kişi yaralandı\n[dirilis · 11:55] Zonguldak’ta maden ocağında grizu faciası! — Zonguldak'ın Kilimli ilçesindeki maden ocağında meydana gelen grizu patlaması sonucu 2 kişi hayatını kaybetti, 5 kişi yaralandı.\n[tele1 · 14:20] Zonguldak'ta maden ocağında patlama! 3 madenci can verdi, isimleri belli oldu — Zonguldak'ın Kilimli ilçesine bağlı Gelik beldesinde, özel bir maden ocağında grizu patlaması meydana geldi. Zonguldak Valisi Osman Hacıbektaşoğlu; patlamada 2 maden işçisinin hayatını kaybettiğini, 1 işçinin göçük altında kaldığını ve 2 işçinin de entübe edildiğini söyledi.\n[yeniasya · 20:15] Zonguldak maden ocağında grizu patlaması: 3 ölü, 5 yaralı\n[yenisafak · 04:00] Maden ocağında patlama — Zonguldak’ın Kilimli ilçesine bağlı Gelik beldesindeki özel kömür madeni ocağında meydana gelen grizu patlamasında 3 işçi hayatını kaybetti. Ocakta mahsur kalan Cengiz Bölükbaşı, Recep Çolakoğlu ve Murat Kaya’nın cansız bedenleri çıkarıldı. 5 işçinin de yaralandığı patlamaya …\n[birgun · 10:49] Zonguldak'ta maden ocağındaki grizu patlaması: 3 kişi tutuklandı\n[haberler · 20:31] Zonguldak'taki maden ocağı patlamasında tutuklu sayısı 4 oldu"
+  },
+  {
+   "key": "s5217__salience-bias",
+   "output_file": "runs/bg/explain/s5217__salience-bias.json",
+   "event_title": "Kütahya'da kamyonet ile hafif ticari araç çarpıştı: 1 ölü, 3 yaralı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Kütahya'da can pazarı! Kamyonet ile hafif ticari aracın çarpıştı; 1 ölü, 3 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Feci kaza... Süt toplama kamyoneti hafif ticari araçla çarpıştı: 1 ölü, 3 yaralı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Milliyet 'can pazarı' gibi çarpıcı bir ifadeyi başlığa taşıyor.",
+   "skeptic_alternative": "Vurgulu dil tek başına akıl yürütme hatası değildir.",
+   "missing_context": [
+    "Belirgin ayrıntının bir çıkarıma bağlandığını gösteren ifade",
+    "Çarpıcı unsur ile yargı arasında açık bağ"
+   ],
+   "headlines": "[haberturk · 17:20] Hafif ticari araç ile otomobil çarpıştı: 3 yaralı\n[ahaber · 17:49] Antalya'da hafif ticari araç ile otomobil çarpıştı: 3 yaralı\n[birgun · 19:45] Kütahya'da kamyonet ile hafif ticari araç çarpıştı: 1 ölü, 3 yaralı\n[sondakika · 19:46] Kars Digor'da otomobil ile hafif ticari araç çarpıştı, 10 kişi yaralandı\n[trthaber · 19:49] Kütahya'da kamyonet ile ticari araç çarpıştı: 1 ölü\n[milliyet · 19:49] Kütahya'da can pazarı! Kamyonet ile hafif ticari aracın çarpıştı; 1 ölü, 3 yaralı — Kütahya'nın Altıntaş ilçesinde kamyonet ile hafif ticari aracın çarpışması sonucu 1 kişi öldü, 3 kişi yaralandı. Ü.Ç. yönetimindeki 43 RA 208 plakalı süt toplama kamyoneti, Altıntaş-Pınarcık yolunda Ali Osman Yılmaz (65) idaresindeki 43 ACB 898 plakalı hafif ticari araçla …\n[hurriyet · 19:53] Kütahya'da kamyonet ile hafif ticari araç çarpıştı: 1 ölü, 3 yaralı — Kütahya’nın Altıntaş ilçesinde süt toplama kamyoneti ile hafif ticari aracın çarpıştığı kazada 1 kişi yaşamını yitirirken, 3 kişi yaralandı.\n[cumhuriyet · 20:10] Feci kaza... Süt toplama kamyoneti hafif ticari araçla çarpıştı: 1 ölü, 3 yaralı\n[sabah · 21:14] Kütahya'da hafif ticari araçla süt kamyoneti çarpıştı! 1 ölü — Kütahya’nın Altıntaş ilçesinde süt toplama kamyoneti ile hafif ticari aracın çarpıştığı kazada 1 kişi yaşamını yitirdi. 3 kişi ise yaralandı.\n[karar · 21:38] Kamyonetle ticari araç çarpıştı: 1 ölü, 3 yaralı — Kütahya’nın Altıntaş ilçesinde süt toplama kamyoneti ile hafif ticari aracın çarpıştığı kazada 1 kişi yaşamını yitirirken, 3 kişi yaralandı. Kazayla ilgili soruşturma başlatıldı.\n[yenisafak · 22:00] Kütahya'da kamyonet ile hafif ticari aracın çarpıştığı kazada bir kişi öldü, üç kişi yaralandı\n[haberler · 22:35] Mardin Kızıltepe'de otomobil ile hafif ticari araç çarpıştı, 4'ü çocuk 6 kişi yaralandı\n[cnnturk · 04:36] Otomobil ile hafif ticari araç çarpıştı: 1 ölü\n[dirilis · 00:21] Diyarbakır’da kamyon ile hafif ticari araç çarpıştı: 2 ölü, 12 yaralı.\n[sozcu · 00:28] Diyarbakır’da feci kaza! Kamyon ile hafif ticari araç çarpıştı: 2 ölü, 13 yaralı\n[tgrt · 01:30] Tüp yüklü kamyon ile hafif ticari araç çarpıştı: Ölü ve yaralılar var\n[ntv · 06:47] Tüp yüklü kamyonla ticari araç çarpıştı: 2 ölü, 12 yaralı\n[star · 07:29] Kamyon ile ticari araç çarpıştı! Kazada 2 kişi öldü, 2'si ağır 12 kişi yaralandı — Diyarbakır'ın merkez Bağlar ilçesinde kamyon ile hafif ticari aracın çarpışması sonucu 2 kişi hayatını kaybetti, 12 kişi yaralandı.\n[takvim · 09:14] Diyarbakır'da tüp yüklü kamyon hafif ticari araçla çarpıştı: 2 ölü, 12 yaralı\n[aa · 12:19] Diyarbakır'da kamyon ile hafif ticari aracın çarpıştığı kazada 2 kişi öldü, 12 kişi yaralandı"
+  },
+  {
+   "key": "s5217__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5217__leveling-and-sharpening.json",
+   "event_title": "Kütahya'da kamyonet ile hafif ticari araç çarpıştı: 1 ölü, 3 yaralı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Diyarbakır’da feci kaza! Kamyon ile hafif ticari araç çarpıştı: 2 ölü, 13 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Diyarbakır'da kamyon ile hafif ticari aracın çarpıştığı kazada 2 kişi öldü, 12 kişi yaralandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kamyon ile hafif ticari araç çarpıştı: 2 ölü, 13 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Tüp yüklü kamyonla ticari araç çarpıştı: 2 ölü, 12 yaralı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Sözcü yaralı sayısını 13, AA 12 olarak veriyor; aktarımda sayısal farklılık var.",
+   "skeptic_alternative": "Yaralı sayısı farkı güncelleme zamanlamasından kaynaklanabilir; kümeleme ayrı olayları birleştirmiş.",
+   "missing_context": [
+    "Farkın bir sonuca etkisi",
+    "Kümenin tek bir olaya ait olup olmadığı",
+    "Resmi kaynaktaki yaralı sayısı",
+    "Resmi yaralı sayısı ve zaman sıralaması"
+   ],
+   "headlines": "[haberturk · 17:20] Hafif ticari araç ile otomobil çarpıştı: 3 yaralı\n[ahaber · 17:49] Antalya'da hafif ticari araç ile otomobil çarpıştı: 3 yaralı\n[birgun · 19:45] Kütahya'da kamyonet ile hafif ticari araç çarpıştı: 1 ölü, 3 yaralı\n[sondakika · 19:46] Kars Digor'da otomobil ile hafif ticari araç çarpıştı, 10 kişi yaralandı\n[trthaber · 19:49] Kütahya'da kamyonet ile ticari araç çarpıştı: 1 ölü\n[milliyet · 19:49] Kütahya'da can pazarı! Kamyonet ile hafif ticari aracın çarpıştı; 1 ölü, 3 yaralı — Kütahya'nın Altıntaş ilçesinde kamyonet ile hafif ticari aracın çarpışması sonucu 1 kişi öldü, 3 kişi yaralandı. Ü.Ç. yönetimindeki 43 RA 208 plakalı süt toplama kamyoneti, Altıntaş-Pınarcık yolunda Ali Osman Yılmaz (65) idaresindeki 43 ACB 898 plakalı hafif ticari araçla …\n[hurriyet · 19:53] Kütahya'da kamyonet ile hafif ticari araç çarpıştı: 1 ölü, 3 yaralı — Kütahya’nın Altıntaş ilçesinde süt toplama kamyoneti ile hafif ticari aracın çarpıştığı kazada 1 kişi yaşamını yitirirken, 3 kişi yaralandı.\n[cumhuriyet · 20:10] Feci kaza... Süt toplama kamyoneti hafif ticari araçla çarpıştı: 1 ölü, 3 yaralı\n[sabah · 21:14] Kütahya'da hafif ticari araçla süt kamyoneti çarpıştı! 1 ölü — Kütahya’nın Altıntaş ilçesinde süt toplama kamyoneti ile hafif ticari aracın çarpıştığı kazada 1 kişi yaşamını yitirdi. 3 kişi ise yaralandı.\n[karar · 21:38] Kamyonetle ticari araç çarpıştı: 1 ölü, 3 yaralı — Kütahya’nın Altıntaş ilçesinde süt toplama kamyoneti ile hafif ticari aracın çarpıştığı kazada 1 kişi yaşamını yitirirken, 3 kişi yaralandı. Kazayla ilgili soruşturma başlatıldı.\n[yenisafak · 22:00] Kütahya'da kamyonet ile hafif ticari aracın çarpıştığı kazada bir kişi öldü, üç kişi yaralandı\n[haberler · 22:35] Mardin Kızıltepe'de otomobil ile hafif ticari araç çarpıştı, 4'ü çocuk 6 kişi yaralandı\n[cnnturk · 04:36] Otomobil ile hafif ticari araç çarpıştı: 1 ölü\n[dirilis · 00:21] Diyarbakır’da kamyon ile hafif ticari araç çarpıştı: 2 ölü, 12 yaralı.\n[sozcu · 00:28] Diyarbakır’da feci kaza! Kamyon ile hafif ticari araç çarpıştı: 2 ölü, 13 yaralı\n[tgrt · 01:30] Tüp yüklü kamyon ile hafif ticari araç çarpıştı: Ölü ve yaralılar var\n[ntv · 06:47] Tüp yüklü kamyonla ticari araç çarpıştı: 2 ölü, 12 yaralı\n[star · 07:29] Kamyon ile ticari araç çarpıştı! Kazada 2 kişi öldü, 2'si ağır 12 kişi yaralandı — Diyarbakır'ın merkez Bağlar ilçesinde kamyon ile hafif ticari aracın çarpışması sonucu 2 kişi hayatını kaybetti, 12 kişi yaralandı.\n[takvim · 09:14] Diyarbakır'da tüp yüklü kamyon hafif ticari araçla çarpıştı: 2 ölü, 12 yaralı\n[aa · 12:19] Diyarbakır'da kamyon ile hafif ticari aracın çarpıştığı kazada 2 kişi öldü, 12 kişi yaralandı"
+  },
+  {
+   "key": "s4884__halo-effect",
+   "output_file": "runs/bg/explain/s4884__halo-effect.json",
+   "event_title": "Trabzonspor, Gaziantep FK'yi 2-0 yendi",
+   "concept": "Halo Effect",
+   "definition": "A positive evaluation of one identifiable feature or domain spills into judgments of a different, weakly related or unrelated quality, person, or product. Spillover is an observed pattern; it is a reasoning error only when the favorable cue substitutes for relevant evidence or distorts an evaluation despite independent evidence.",
+   "quotes": [
+    {
+     "quote": "Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Trabzonspor, Gaziantep FK'yi 2-0 yendi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Takvim galibiyeti 'Reis' figürüne bağlayıp 'mucize' olarak sunuyor; Diriliş aynı sonucu nötr veriyor. Kişiye yönelik olumlu izlenim sonuç yorumuna yayılıyor olabilir.",
+   "skeptic_alternative": "Teknik direktörü sonuçla ilişkilendirmek aynı alan içinde olağan bir spor yorumudur.",
+   "missing_context": [
+    "Ayrı ve ilgisiz bir alandaki olumlu yargı",
+    "İki ayrı alanda olumlu yargı ve aralarındaki açık bağ"
+   ],
+   "headlines": "[haberturk · 10:45] Trabzonspor, Süper Lig'de yarın Gaziantep FK'yi konuk edecek\n[sabah · 10:50] Trabzonspor, yarın Gaziantep FK'yi ağırlayacak!\n[aa · 11:05] Trabzonspor, Süper Lig'de bugün Gaziantep FK'yi konuk edecek\n[sozcu · 11:21] Trabzonspor Gaziantep FK'ya hiç yenilmedi\n[aksam · 12:06] Trabzonspor sahasında Gaziantep FK'yı konuk edecek\n[star · 12:07] Trabzonspor evinde Gaziantep FK'yı ağırlayacak — Trendyol Süper Lig'in 10. hafta mücadelesinde Trabzonspor, sahasında Gaziantep FK ile karşı karşıya gelecek.\n[mynet · 17:51] Trabzonspor, Gaziantep FK maçı hazırlıklarını tamamlandı\n[takvim · 23:32] Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi\n[ahaber · 09:09] CANLI Trabzonspor'da hedef 5'te 5! Rakip Gaziantep FK\n[milligazete · 12:59] Trabzonspor Gaziantep FK maçı canlı nereden izlenir, saat kaçta, rakip Gaziantep FK mi, yayın şifresiz mi?\n[sondakika · 13:10] Trabzonspor Gaziantep FK maçına 3 değişiklikle çıktı, Onuachu döndü\n[yenisafak · 15:00] Trabzonspor - Gaziantep FK maçı CANLI SKOR - CANLI ANLATIM\n[cumhuriyet · 15:09] Reis ile üst üste 5. galibiyet... Trabzonspor, Gaziantep FK'yi 2 golle geçti\n[turkiyegz · 15:37] Trabzonspor-Gaziantep FK maçının ilk 11'leri belli oldu\n[akit · 16:01] CANLI ANLATIM: Trabzonspor - Gaziantep FK\n[haberler · 16:07] Trabzonspor, Gaziantep FK maçına Rizespor 11'ine göre 3 değişiklikle çıktı\n[ntv · 16:14] Süper Lig heyecanı. Trabzonspor-Gaziantep FK maçı\n[dirilis · 18:22] Trabzonspor, Gaziantep FK'yi 2-0 yendi\n[cnnturk · 18:59] Trabzonspor - Gaziantep FK | 11'ler belli oldu — Trabzonspor, Trendyol Süper Lig'in 10. haftasında bugün sahasında Gaziantep FK ile karşılaşıyor."
+  },
+  {
+   "key": "s4884__hot-hand-fallacy",
+   "output_file": "runs/bg/explain/s4884__hot-hand-fallacy.json",
+   "event_title": "Trabzonspor, Gaziantep FK'yi 2-0 yendi",
+   "concept": "Hot Hand Fallacy",
+   "definition": "An inference that a recent run of success makes further success more likely, when that conclusion is not justified by relevant evidence. A streak can sometimes reflect real skill or changing conditions, so the pattern alone is not an error.",
+   "quotes": [
+    {
+     "quote": "CANLI Trabzonspor'da hedef 5'te 5! Rakip Gaziantep FK",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Reis ile üst üste 5. galibiyet...",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Trabzonspor Gaziantep FK'ya hiç yenilmedi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "A Haber seriyi '5'te 5' hedefiyle maç öncesine taşıyor; Sözcü geçmiş üstünlüğü öne çıkarıyor. Seri ile sonraki başarı arasında örtük bağ var.",
+   "skeptic_alternative": "'Hedef' bir niyet ifadesidir; seriyi aktarmak olağan spor habercilğidir.",
+   "missing_context": [
+    "Seriden türetilmiş açık bir tahmin",
+    "Seriye dayalı açık tahmin veya karar",
+    "Taban oran karşılaştırması",
+    "Taban oranlarla karşılaştırma"
+   ],
+   "headlines": "[haberturk · 10:45] Trabzonspor, Süper Lig'de yarın Gaziantep FK'yi konuk edecek\n[sabah · 10:50] Trabzonspor, yarın Gaziantep FK'yi ağırlayacak!\n[aa · 11:05] Trabzonspor, Süper Lig'de bugün Gaziantep FK'yi konuk edecek\n[sozcu · 11:21] Trabzonspor Gaziantep FK'ya hiç yenilmedi\n[aksam · 12:06] Trabzonspor sahasında Gaziantep FK'yı konuk edecek\n[star · 12:07] Trabzonspor evinde Gaziantep FK'yı ağırlayacak — Trendyol Süper Lig'in 10. hafta mücadelesinde Trabzonspor, sahasında Gaziantep FK ile karşı karşıya gelecek.\n[mynet · 17:51] Trabzonspor, Gaziantep FK maçı hazırlıklarını tamamlandı\n[takvim · 23:32] Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi\n[ahaber · 09:09] CANLI Trabzonspor'da hedef 5'te 5! Rakip Gaziantep FK\n[milligazete · 12:59] Trabzonspor Gaziantep FK maçı canlı nereden izlenir, saat kaçta, rakip Gaziantep FK mi, yayın şifresiz mi?\n[sondakika · 13:10] Trabzonspor Gaziantep FK maçına 3 değişiklikle çıktı, Onuachu döndü\n[yenisafak · 15:00] Trabzonspor - Gaziantep FK maçı CANLI SKOR - CANLI ANLATIM\n[cumhuriyet · 15:09] Reis ile üst üste 5. galibiyet... Trabzonspor, Gaziantep FK'yi 2 golle geçti\n[turkiyegz · 15:37] Trabzonspor-Gaziantep FK maçının ilk 11'leri belli oldu\n[akit · 16:01] CANLI ANLATIM: Trabzonspor - Gaziantep FK\n[haberler · 16:07] Trabzonspor, Gaziantep FK maçına Rizespor 11'ine göre 3 değişiklikle çıktı\n[ntv · 16:14] Süper Lig heyecanı. Trabzonspor-Gaziantep FK maçı\n[dirilis · 18:22] Trabzonspor, Gaziantep FK'yi 2-0 yendi\n[cnnturk · 18:59] Trabzonspor - Gaziantep FK | 11'ler belli oldu — Trabzonspor, Trendyol Süper Lig'in 10. haftasında bugün sahasında Gaziantep FK ile karşılaşıyor."
+  }
+ ]
+}

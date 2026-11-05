@@ -1,0 +1,1535 @@
+{
+ "instructions": "Write plain Turkish for a general reader. For each item write {\"noticed\": ..., \"why\": ...} to its output_file. noticed = what the headlines show, naming the outlets. why = why that is not proof. Each field is 1-2 sentences, 40-320 characters. Use only quotes given in the item (inside “…”), exactly as given. Never use the words 'bağlam gerekli', 'desteklendi', 'uncertain'.",
+ "items": [
+  {
+   "key": "s4821__authority-bias",
+   "output_file": "runs/bg/explain/s4821__authority-bias.json",
+   "event_title": "Sosyal medyada yeni dönem başladı",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "Bakan Göktaş duyurdu: 15 yaş altına düzenleme, yaş doğrulamasına e-Devlet şartı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sosyal medyada yeni dönem: Bakan Göktaş duyurdu: 15 yaş altına düzenleme, yaş doğrulamasına e-Devlet şartı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurum düzenlemeyi Bakan'ın duyurusuna dayandırıyor; ancak statünün gerekçe yerine geçtiği veya karşı kanıtın göz ardı edildiği gösterilmiyor.",
+   "skeptic_alternative": "Yürürlüğe giren düzenlemenin yetkili bakana atfedilmesi olağan kaynak gösterimidir.",
+   "missing_context": [
+    "Düzenlemeye yönelik eleştiri veya karşı görüşlerin ele alınışı",
+    "Düzenlemeye yönelik eleştiri veya karşı görüşlerin yer alıp almadığı"
+   ],
+   "headlines": "[sondakika · 08:59] Sosyal medyada yeni dönem yarın başlıyor! 15 yaş altına hesap yok\n[cumhuriyet · 10:50] Sosyal medyada yeni dönem yarın başlıyor: Bunları yapmayanın hesabı kapatılacak!\n[haberler · 11:59] Sosyal medyada yeni dönem yarın başlıyor! 15 yaş altına hesap yok\n[aksam · 15:22] Sosyal medyada yeni dönem yarın başlıyor: e-Devlet üzerinden zorunlu olacak\n[yenisafak · 16:05] Yapmayanın hesabı kapatılacak: Sosyal medyada yeni dönem yarın başlıyor\n[akit · 18:12] Sosyal medyada yarın yeni dönem! 15 yaş altına kapılar kapanıyor\n[yeniasya · 00:00] Sosyal medyada yeni dönem başladı\n[ntv · 00:15] Sosyal medyada yeni dönem. Yapmayanın hesabı kapatılacak\n[turkiyegz · 02:15] Sosyal medyada yeni dönem başladı: 10 soruda yaş doğrulama\n[hurriyet · 06:31] Sosyal medyada yeni dönem — Çocukların sosyal medya kullanımını sınırlandıran ve yetişkinlere e-Devlet üzerinden yaş doğrulama zorunluluğu getiren düzenleme bugün itibarıyla yürürlüğe girdi. Süreç ilk etapta açılacak yeni hesapları kapsarken, mevcut hesaplar için 31 Mart 2027’ye kadar yaklaşık 5 aylık bir …\n[birgun · 09:22] Sosyal medyada yeni dönem: Yaş sınırı yürürlüğe girdi\n[haberturk · 09:38] Sosyal medyada yeni dönem başladı! 15 yaş altına yeni hesap açılmayacak\n[cnnturk · 10:32] Sanal medyada yeni dönem! 15 yaş altı için yasak başladı — Çocukların sanal medyaya girişin sınırlandıran ve tüm kullanıcılar için e-Devlet üzerinden yaş doğrulaması zorunluluğu getiren yasal düzenleme bugün itibarıyla yürürlüğe girdi. İşte sürecin tüm detayları...\n[tgrt · 11:10] Sosyal medyada yeni dönemin startı verildi: Yapmayanın hesabı kapatılacak\n[sabah · 11:56] Sosyal medyada yeni dönem: Bakan Göktaş duyurdu: 15 yaş altına düzenleme, yaş doğrulamasına e-Devlet şartı\n[trthaber · 12:19] Sosyal medyada çocuklar için yeni dönem\n[star · 12:38] Sosyal medyada 15 yaş sınırı yürürlüğe girdi! Çocuklar için yeni dönem başladı\n[ahaber · 13:32] Sosyal medyada yeni dönem! Yaş doğrulaması e-Devlet üzerinden yapılacak"
+  },
+  {
+   "key": "s4821__salience-bias",
+   "output_file": "runs/bg/explain/s4821__salience-bias.json",
+   "event_title": "Sosyal medyada yeni dönem başladı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Sosyal medyada yarın yeni dönem! 15 yaş altına kapılar kapanıyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "15 yaş altı için yasak başladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sosyal medyada yeni dönem: Yaş sınırı yürürlüğe girdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sosyal medyada yeni dönem yarın başlıyor: Bunları yapmayanın hesabı kapatılacak!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sosyal medyada çocuklar için yeni dönem",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Çarpıcı ifadeler ('kapılar kapanıyor', 'yasak') bazı başlıklarda öne çıkarken diğerleri nötr; karşılaştırmalı vurgu farkı var ama hüküm etkisi gösterilmiyor.",
+   "skeptic_alternative": "Farklı vurgular farklı okur ihtiyaçlarına (uyum yükümlülüğü ve politika amacı) yanıt olabilir.",
+   "missing_context": [
+    "Düzenlemenin tam kapsamı",
+    "Okur tepkisi",
+    "Vurgunun okur algısını etkilediğine dair karşılaştırmalı veri"
+   ],
+   "headlines": "[sondakika · 08:59] Sosyal medyada yeni dönem yarın başlıyor! 15 yaş altına hesap yok\n[cumhuriyet · 10:50] Sosyal medyada yeni dönem yarın başlıyor: Bunları yapmayanın hesabı kapatılacak!\n[haberler · 11:59] Sosyal medyada yeni dönem yarın başlıyor! 15 yaş altına hesap yok\n[aksam · 15:22] Sosyal medyada yeni dönem yarın başlıyor: e-Devlet üzerinden zorunlu olacak\n[yenisafak · 16:05] Yapmayanın hesabı kapatılacak: Sosyal medyada yeni dönem yarın başlıyor\n[akit · 18:12] Sosyal medyada yarın yeni dönem! 15 yaş altına kapılar kapanıyor\n[yeniasya · 00:00] Sosyal medyada yeni dönem başladı\n[ntv · 00:15] Sosyal medyada yeni dönem. Yapmayanın hesabı kapatılacak\n[turkiyegz · 02:15] Sosyal medyada yeni dönem başladı: 10 soruda yaş doğrulama\n[hurriyet · 06:31] Sosyal medyada yeni dönem — Çocukların sosyal medya kullanımını sınırlandıran ve yetişkinlere e-Devlet üzerinden yaş doğrulama zorunluluğu getiren düzenleme bugün itibarıyla yürürlüğe girdi. Süreç ilk etapta açılacak yeni hesapları kapsarken, mevcut hesaplar için 31 Mart 2027’ye kadar yaklaşık 5 aylık bir …\n[birgun · 09:22] Sosyal medyada yeni dönem: Yaş sınırı yürürlüğe girdi\n[haberturk · 09:38] Sosyal medyada yeni dönem başladı! 15 yaş altına yeni hesap açılmayacak\n[cnnturk · 10:32] Sanal medyada yeni dönem! 15 yaş altı için yasak başladı — Çocukların sanal medyaya girişin sınırlandıran ve tüm kullanıcılar için e-Devlet üzerinden yaş doğrulaması zorunluluğu getiren yasal düzenleme bugün itibarıyla yürürlüğe girdi. İşte sürecin tüm detayları...\n[tgrt · 11:10] Sosyal medyada yeni dönemin startı verildi: Yapmayanın hesabı kapatılacak\n[sabah · 11:56] Sosyal medyada yeni dönem: Bakan Göktaş duyurdu: 15 yaş altına düzenleme, yaş doğrulamasına e-Devlet şartı\n[trthaber · 12:19] Sosyal medyada çocuklar için yeni dönem\n[star · 12:38] Sosyal medyada 15 yaş sınırı yürürlüğe girdi! Çocuklar için yeni dönem başladı\n[ahaber · 13:32] Sosyal medyada yeni dönem! Yaş doğrulaması e-Devlet üzerinden yapılacak"
+  },
+  {
+   "key": "s5319__framing-effect",
+   "output_file": "runs/bg/explain/s5319__framing-effect.json",
+   "event_title": "2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "2027 için yeniden değerleme oranı ne kadar oldu?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yeniden değerleme oranı yüzde 27,83 oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "2027 yeniden değerleme oranı belli oldu! Vergi, harç ve cezalara zam geliyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yeniden değerleme oranı belli oldu. İşte yeni kimlik, pasaport, ehliyet harçları",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı oran bazı kurumlarda 'zam' çerçevesiyle, bazılarında nötr teknik dille veriliyor; çerçevenin bir yargıya bağlandığı görülmüyor.",
+   "skeptic_alternative": "Yeniden değerleme fiilen tutar artışı demek; 'zam' ifadesi olgusal olarak doğru ve okura anlaşılır.",
+   "missing_context": [
+    "Enflasyonla karşılaştırma",
+    "Enflasyonla reel karşılaştırma",
+    "Haber gövdeleri",
+    "Okur yargısının çerçeveye göre değiştiğine dair kanıt"
+   ],
+   "headlines": "[karar · 07:41] Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda: 2027'nin yeniden değerleme oranı şekillendi — Yeniden değerleme oranının yüzde 27,89 olarak gerçekleşmesi durumunda 2027 yılında yurt dışı telefon kayıt harcı 70 bin liraya, 10 yıllık pasaport 17 bin liraya yaklaşırken; trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak.\n[bloomberght · 10:01] Yeniden değerleme oranı\n[birgun · 10:14] 2027 için yeniden değerleme oranı ne kadar oldu?\n[milligazete · 10:17] 2027 yeniden değerleme oranı belli oldu! Vergi, harç ve cezalara zam geliyor\n[haberler · 10:20] Vergi, harç ve cezalar 2027'de yüzde 27,83'lük yeniden değerleme oranında artacak\n[sozcu · 10:23] 2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar\n[star · 10:27] Yeniden değerleme oranı yüzde 27,83 oldu — Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[onedio · 10:27] 2027 Yılı Yeniden Değerleme Oranı Belli Oldu: Yeni Yılda Uygulanacak Zamlar Netleşti\n[turkiyegz · 10:35] 2027 yeniden değerleme oranı yüzde 27,83 oldu! IMEI, trafik cezaları ve harçlara zam geliyor\n[tgrt · 10:39] Yeniden değerleme oranı belli oldu: İşte yeni kimlik, pasaport ve ehliyet harçları\n[mynet · 10:43] MTV, trafik cezası, muayene ücreti, pasaport, yurt dışı çıkış harcı: 2027 yeniden değerleme oranı belli oldu — MTV'den pasaport harcına, yurt dışına çıkış harcından trafik cezalarına kadar pek çok kalemi etkileyen artış oranı ortaya çıktı. Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[akit · 10:52] Ehliyet, pasaport, MTV... İşte yeni yılda vergi, harç ve cezalara gelecek zamlar\n[ntv · 10:52] Yeniden değerleme oranı belli oldu. İşte yeni kimlik, pasaport, ehliyet harçları\n[yenisafak · 11:06] Yeniden değerleme oranı belli oldu: 2027 pasaport ehliyet IMEI kayıt ve yurt dışı harçlarının yeni tutarları netleşti\n[ahaber · 11:19] 2027 yeniden değerleme oranı belli oldu! İşte kalem kalem kimlik, pasaport, ehliyet harçları\n[sabah · 11:22] 2027 Yeniden Değerleme Oranı yüzde kaç? Pasaport, ehliyet, yurt dışı çıkış harcını etkiliyor\n[takvim · 11:30] Ekim yeniden değerleme oranına göre 2027'de Pasaport, ehliyet, kimlik ve diğer harçlar ne kadar olacak? İşte kalem kalem yeni tutarlar...\n[cnnturk · 14:12] Yeniden değerleme oranı açıklandı! MTV, pasaport ve trafik cezalarında yeni rakamlar — 2027 yılında uygulanacak yeniden değerleme oranı yüzde 27,83 olarak açıklandı. Yeni oranla birlikte motorlu taşıtlar vergisi (MTV), pasaport ve ehliyet harçları, trafik cezaları, IMEI kayıt ücreti ve birçok vergi kaleminde artış gündeme geldi."
+  },
+  {
+   "key": "s5319__negativity-bias",
+   "output_file": "runs/bg/explain/s5319__negativity-bias.json",
+   "event_title": "2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Olumsuz ve çarpıcı tutarlar öne çıkarılmış; karşılaştırılabilir olumlu bilgiye göre orantısız ağırlık verildiği açıkça gösterilmiyor.",
+   "skeptic_alternative": "Haberin konusu doğrudan maliyet artışı; olumsuz vurgu konuya orantılı.",
+   "missing_context": [
+    "Gelir/ücret artışlarıyla karşılaştırma",
+    "Karar üzerindeki etkiye dair kanıt",
+    "Karşılaştırılabilir olumlu bilgi (ör. reel değer kaybı)"
+   ],
+   "headlines": "[karar · 07:41] Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda: 2027'nin yeniden değerleme oranı şekillendi — Yeniden değerleme oranının yüzde 27,89 olarak gerçekleşmesi durumunda 2027 yılında yurt dışı telefon kayıt harcı 70 bin liraya, 10 yıllık pasaport 17 bin liraya yaklaşırken; trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak.\n[bloomberght · 10:01] Yeniden değerleme oranı\n[birgun · 10:14] 2027 için yeniden değerleme oranı ne kadar oldu?\n[milligazete · 10:17] 2027 yeniden değerleme oranı belli oldu! Vergi, harç ve cezalara zam geliyor\n[haberler · 10:20] Vergi, harç ve cezalar 2027'de yüzde 27,83'lük yeniden değerleme oranında artacak\n[sozcu · 10:23] 2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar\n[star · 10:27] Yeniden değerleme oranı yüzde 27,83 oldu — Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[onedio · 10:27] 2027 Yılı Yeniden Değerleme Oranı Belli Oldu: Yeni Yılda Uygulanacak Zamlar Netleşti\n[turkiyegz · 10:35] 2027 yeniden değerleme oranı yüzde 27,83 oldu! IMEI, trafik cezaları ve harçlara zam geliyor\n[tgrt · 10:39] Yeniden değerleme oranı belli oldu: İşte yeni kimlik, pasaport ve ehliyet harçları\n[mynet · 10:43] MTV, trafik cezası, muayene ücreti, pasaport, yurt dışı çıkış harcı: 2027 yeniden değerleme oranı belli oldu — MTV'den pasaport harcına, yurt dışına çıkış harcından trafik cezalarına kadar pek çok kalemi etkileyen artış oranı ortaya çıktı. Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[akit · 10:52] Ehliyet, pasaport, MTV... İşte yeni yılda vergi, harç ve cezalara gelecek zamlar\n[ntv · 10:52] Yeniden değerleme oranı belli oldu. İşte yeni kimlik, pasaport, ehliyet harçları\n[yenisafak · 11:06] Yeniden değerleme oranı belli oldu: 2027 pasaport ehliyet IMEI kayıt ve yurt dışı harçlarının yeni tutarları netleşti\n[ahaber · 11:19] 2027 yeniden değerleme oranı belli oldu! İşte kalem kalem kimlik, pasaport, ehliyet harçları\n[sabah · 11:22] 2027 Yeniden Değerleme Oranı yüzde kaç? Pasaport, ehliyet, yurt dışı çıkış harcını etkiliyor\n[takvim · 11:30] Ekim yeniden değerleme oranına göre 2027'de Pasaport, ehliyet, kimlik ve diğer harçlar ne kadar olacak? İşte kalem kalem yeni tutarlar...\n[cnnturk · 14:12] Yeniden değerleme oranı açıklandı! MTV, pasaport ve trafik cezalarında yeni rakamlar — 2027 yılında uygulanacak yeniden değerleme oranı yüzde 27,83 olarak açıklandı. Yeni oranla birlikte motorlu taşıtlar vergisi (MTV), pasaport ve ehliyet harçları, trafik cezaları, IMEI kayıt ücreti ve birçok vergi kaleminde artış gündeme geldi."
+  },
+  {
+   "key": "s5319__anchoring-bias",
+   "output_file": "runs/bg/explain/s5319__anchoring-bias.json",
+   "event_title": "2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar",
+   "concept": "Anchoring Bias",
+   "definition": "A reasoning pattern in which an initial value or piece of information becomes a reference point and exerts unwarranted influence on a later estimate or decision. Using a starting point is not by itself a bias or an error: identification here requires explicit evidence that the anchor distorts judgment or is given unjustified weight.",
+   "quotes": [
+    {
+     "quote": "Yeniden değerleme oranının yüzde 27,89 olarak gerçekleşmesi durumunda 2027 yılında yurt dışı telefon kayıt harcı 70 bin liraya, 10 yıllık pasaport 17 bin liraya yaklaşırken",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Vergi, harç ve cezalar 2027'de yüzde 27,83'lük yeniden değerleme oranında artacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yeniden değerleme oranının yüzde 27,89 olarak gerçekleşmesi durumunda",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yeniden değerleme oranı yüzde 27,83 oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Erken bir haber, açıklanmadan önceki %27,89 tahminini referans alarak tutarlar hesaplamış; sonraki açıklanan oran %27,83. Başlangıç değeri hesaplamaya temel olmuş ancak koşullu ifade edilmiş.",
+   "skeptic_alternative": "Erken başlık açıkça koşullu bir projeksiyon; sonraki haberler resmi oranı bağımsız olarak aktarıyor.",
+   "missing_context": [
+    "%27,89 tahmininin kaynağı",
+    "Erken tahminin hangi veriye dayandığı",
+    "Kurumun resmi oran sonrası haberi güncelleyip güncellemediği",
+    "Sonraki hesaplamaların hangi orana göre yapıldığı"
+   ],
+   "headlines": "[karar · 07:41] Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda: 2027'nin yeniden değerleme oranı şekillendi — Yeniden değerleme oranının yüzde 27,89 olarak gerçekleşmesi durumunda 2027 yılında yurt dışı telefon kayıt harcı 70 bin liraya, 10 yıllık pasaport 17 bin liraya yaklaşırken; trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak.\n[bloomberght · 10:01] Yeniden değerleme oranı\n[birgun · 10:14] 2027 için yeniden değerleme oranı ne kadar oldu?\n[milligazete · 10:17] 2027 yeniden değerleme oranı belli oldu! Vergi, harç ve cezalara zam geliyor\n[haberler · 10:20] Vergi, harç ve cezalar 2027'de yüzde 27,83'lük yeniden değerleme oranında artacak\n[sozcu · 10:23] 2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar\n[star · 10:27] Yeniden değerleme oranı yüzde 27,83 oldu — Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[onedio · 10:27] 2027 Yılı Yeniden Değerleme Oranı Belli Oldu: Yeni Yılda Uygulanacak Zamlar Netleşti\n[turkiyegz · 10:35] 2027 yeniden değerleme oranı yüzde 27,83 oldu! IMEI, trafik cezaları ve harçlara zam geliyor\n[tgrt · 10:39] Yeniden değerleme oranı belli oldu: İşte yeni kimlik, pasaport ve ehliyet harçları\n[mynet · 10:43] MTV, trafik cezası, muayene ücreti, pasaport, yurt dışı çıkış harcı: 2027 yeniden değerleme oranı belli oldu — MTV'den pasaport harcına, yurt dışına çıkış harcından trafik cezalarına kadar pek çok kalemi etkileyen artış oranı ortaya çıktı. Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[akit · 10:52] Ehliyet, pasaport, MTV... İşte yeni yılda vergi, harç ve cezalara gelecek zamlar\n[ntv · 10:52] Yeniden değerleme oranı belli oldu. İşte yeni kimlik, pasaport, ehliyet harçları\n[yenisafak · 11:06] Yeniden değerleme oranı belli oldu: 2027 pasaport ehliyet IMEI kayıt ve yurt dışı harçlarının yeni tutarları netleşti\n[ahaber · 11:19] 2027 yeniden değerleme oranı belli oldu! İşte kalem kalem kimlik, pasaport, ehliyet harçları\n[sabah · 11:22] 2027 Yeniden Değerleme Oranı yüzde kaç? Pasaport, ehliyet, yurt dışı çıkış harcını etkiliyor\n[takvim · 11:30] Ekim yeniden değerleme oranına göre 2027'de Pasaport, ehliyet, kimlik ve diğer harçlar ne kadar olacak? İşte kalem kalem yeni tutarlar...\n[cnnturk · 14:12] Yeniden değerleme oranı açıklandı! MTV, pasaport ve trafik cezalarında yeni rakamlar — 2027 yılında uygulanacak yeniden değerleme oranı yüzde 27,83 olarak açıklandı. Yeni oranla birlikte motorlu taşıtlar vergisi (MTV), pasaport ve ehliyet harçları, trafik cezaları, IMEI kayıt ücreti ve birçok vergi kaleminde artış gündeme geldi."
+  },
+  {
+   "key": "s5319__salience-bias",
+   "output_file": "runs/bg/explain/s5319__salience-bias.json",
+   "event_title": "2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yeniden değerleme oranı belli oldu: İşte yeni kimlik, pasaport ve ehliyet harçları",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "2027 yılında yurt dışı telefon kayıt harcı 70 bin liraya, 10 yıllık pasaport 17 bin liraya yaklaşırken",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "2027 için yeniden değerleme oranı ne kadar oldu?",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurum en çarpıcı ceza tutarını öne çıkarırken diğerleri rutin harç kalemlerini listeliyor; karşılaştırmalı vurgu farkı var ama hüküm etkisi gösterilmiyor.",
+   "skeptic_alternative": "Somut tutarlar okura pratik bilgi sağlar; çarpıcılık tek başına hata değildir.",
+   "missing_context": [
+    "Haberlerde verilen tüm kalemler",
+    "Tutarların önceki yıl ile karşılaştırması",
+    "Vurgunun yargıya etkisi"
+   ],
+   "headlines": "[karar · 07:41] Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda: 2027'nin yeniden değerleme oranı şekillendi — Yeniden değerleme oranının yüzde 27,89 olarak gerçekleşmesi durumunda 2027 yılında yurt dışı telefon kayıt harcı 70 bin liraya, 10 yıllık pasaport 17 bin liraya yaklaşırken; trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak.\n[bloomberght · 10:01] Yeniden değerleme oranı\n[birgun · 10:14] 2027 için yeniden değerleme oranı ne kadar oldu?\n[milligazete · 10:17] 2027 yeniden değerleme oranı belli oldu! Vergi, harç ve cezalara zam geliyor\n[haberler · 10:20] Vergi, harç ve cezalar 2027'de yüzde 27,83'lük yeniden değerleme oranında artacak\n[sozcu · 10:23] 2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar\n[star · 10:27] Yeniden değerleme oranı yüzde 27,83 oldu — Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[onedio · 10:27] 2027 Yılı Yeniden Değerleme Oranı Belli Oldu: Yeni Yılda Uygulanacak Zamlar Netleşti\n[turkiyegz · 10:35] 2027 yeniden değerleme oranı yüzde 27,83 oldu! IMEI, trafik cezaları ve harçlara zam geliyor\n[tgrt · 10:39] Yeniden değerleme oranı belli oldu: İşte yeni kimlik, pasaport ve ehliyet harçları\n[mynet · 10:43] MTV, trafik cezası, muayene ücreti, pasaport, yurt dışı çıkış harcı: 2027 yeniden değerleme oranı belli oldu — MTV'den pasaport harcına, yurt dışına çıkış harcından trafik cezalarına kadar pek çok kalemi etkileyen artış oranı ortaya çıktı. Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[akit · 10:52] Ehliyet, pasaport, MTV... İşte yeni yılda vergi, harç ve cezalara gelecek zamlar\n[ntv · 10:52] Yeniden değerleme oranı belli oldu. İşte yeni kimlik, pasaport, ehliyet harçları\n[yenisafak · 11:06] Yeniden değerleme oranı belli oldu: 2027 pasaport ehliyet IMEI kayıt ve yurt dışı harçlarının yeni tutarları netleşti\n[ahaber · 11:19] 2027 yeniden değerleme oranı belli oldu! İşte kalem kalem kimlik, pasaport, ehliyet harçları\n[sabah · 11:22] 2027 Yeniden Değerleme Oranı yüzde kaç? Pasaport, ehliyet, yurt dışı çıkış harcını etkiliyor\n[takvim · 11:30] Ekim yeniden değerleme oranına göre 2027'de Pasaport, ehliyet, kimlik ve diğer harçlar ne kadar olacak? İşte kalem kalem yeni tutarlar...\n[cnnturk · 14:12] Yeniden değerleme oranı açıklandı! MTV, pasaport ve trafik cezalarında yeni rakamlar — 2027 yılında uygulanacak yeniden değerleme oranı yüzde 27,83 olarak açıklandı. Yeni oranla birlikte motorlu taşıtlar vergisi (MTV), pasaport ve ehliyet harçları, trafik cezaları, IMEI kayıt ücreti ve birçok vergi kaleminde artış gündeme geldi."
+  },
+  {
+   "key": "s5319__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5319__leveling-and-sharpening.json",
+   "event_title": "2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda: 2027'nin yeniden değerleme oranı şekillendi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Vergi, harç ve cezalar 2027'de yüzde 27,83'lük yeniden değerleme oranında artacak",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurumun oranı (%27,89) diğerlerinin aktardığı açıklanan orandan (%27,83) farklı; karşılaştırılabilir bir taban var, ancak farkın bir sonucu yönlendirdiği gösterilmiyor.",
+   "skeptic_alternative": "Fark, açıklamadan önce yapılan bir tahminden kaynaklanıyor; bir yeniden anlatım hatası değil.",
+   "missing_context": [
+    "Farkın hesaplanan tutarlara etkisi",
+    "Resmi açıklamanın metni ve saati",
+    "Resmi açıklamanın saati ve metni"
+   ],
+   "headlines": "[karar · 07:41] Harç, vergi ve trafik cezalarına yüzde 27,89 zam yolda: 2027'nin yeniden değerleme oranı şekillendi — Yeniden değerleme oranının yüzde 27,89 olarak gerçekleşmesi durumunda 2027 yılında yurt dışı telefon kayıt harcı 70 bin liraya, 10 yıllık pasaport 17 bin liraya yaklaşırken; trafikte kavgaya karışmanın cezası ise 230 bin lirayı aşacak.\n[bloomberght · 10:01] Yeniden değerleme oranı\n[birgun · 10:14] 2027 için yeniden değerleme oranı ne kadar oldu?\n[milligazete · 10:17] 2027 yeniden değerleme oranı belli oldu! Vergi, harç ve cezalara zam geliyor\n[haberler · 10:20] Vergi, harç ve cezalar 2027'de yüzde 27,83'lük yeniden değerleme oranında artacak\n[sozcu · 10:23] 2027 yılı yeniden değerleme oranı belli oldu! İşte vergi, pasaport, harç ve cezalara gelecek zamlar\n[star · 10:27] Yeniden değerleme oranı yüzde 27,83 oldu — Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[onedio · 10:27] 2027 Yılı Yeniden Değerleme Oranı Belli Oldu: Yeni Yılda Uygulanacak Zamlar Netleşti\n[turkiyegz · 10:35] 2027 yeniden değerleme oranı yüzde 27,83 oldu! IMEI, trafik cezaları ve harçlara zam geliyor\n[tgrt · 10:39] Yeniden değerleme oranı belli oldu: İşte yeni kimlik, pasaport ve ehliyet harçları\n[mynet · 10:43] MTV, trafik cezası, muayene ücreti, pasaport, yurt dışı çıkış harcı: 2027 yeniden değerleme oranı belli oldu — MTV'den pasaport harcına, yurt dışına çıkış harcından trafik cezalarına kadar pek çok kalemi etkileyen artış oranı ortaya çıktı. Vergi, harç ve cezalardaki artışı belirleyen yeniden değerleme oranı 2027 yılı için yüzde 27,83 oldu.\n[akit · 10:52] Ehliyet, pasaport, MTV... İşte yeni yılda vergi, harç ve cezalara gelecek zamlar\n[ntv · 10:52] Yeniden değerleme oranı belli oldu. İşte yeni kimlik, pasaport, ehliyet harçları\n[yenisafak · 11:06] Yeniden değerleme oranı belli oldu: 2027 pasaport ehliyet IMEI kayıt ve yurt dışı harçlarının yeni tutarları netleşti\n[ahaber · 11:19] 2027 yeniden değerleme oranı belli oldu! İşte kalem kalem kimlik, pasaport, ehliyet harçları\n[sabah · 11:22] 2027 Yeniden Değerleme Oranı yüzde kaç? Pasaport, ehliyet, yurt dışı çıkış harcını etkiliyor\n[takvim · 11:30] Ekim yeniden değerleme oranına göre 2027'de Pasaport, ehliyet, kimlik ve diğer harçlar ne kadar olacak? İşte kalem kalem yeni tutarlar...\n[cnnturk · 14:12] Yeniden değerleme oranı açıklandı! MTV, pasaport ve trafik cezalarında yeni rakamlar — 2027 yılında uygulanacak yeniden değerleme oranı yüzde 27,83 olarak açıklandı. Yeni oranla birlikte motorlu taşıtlar vergisi (MTV), pasaport ve ehliyet harçları, trafik cezaları, IMEI kayıt ücreti ve birçok vergi kaleminde artış gündeme geldi."
+  },
+  {
+   "key": "s5642__framing-effect",
+   "output_file": "runs/bg/explain/s5642__framing-effect.json",
+   "event_title": "İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş için tahliye kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Uyuşturucu davasında İlyas Yalçıntaş'a tahliye kararı! Mahkemede dikkat çeken itiraf",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı tahliye kararı bazı başlıklarda uyuşturucu suçlamasıyla, bazılarında yalnızca tahliye olarak sunuluyor; çerçevenin bir yargıya bağlandığı görülmüyor.",
+   "skeptic_alternative": "Davanın konusunu ve duruşmadaki savunmayı belirtmek bilgilendirici olabilir.",
+   "missing_context": [
+    "Haberlerin tam metni",
+    "Mahkeme ara kararının gerekçesi",
+    "Okur yargısının çerçeveye göre değiştiğine dair kanıt",
+    "Savunmanın tam metni"
+   ],
+   "headlines": "[sondakika · 13:48] İlyas Yalçıntaş imza yükümlülüğüyle tahliye edildi, duruşma 15 Aralık'a ertelendi\n[onedio · 16:45] İlyas Yalçıntaş Hakkında Tahliye Kararı Verildi\n[haberler · 16:45] Şarkıcı İlyas Yalçıntaş uyuşturucu davasında adli kontrolle tahliye edildi\n[cumhuriyet · 16:49] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[takvim · 16:51] Uyuşturucu ticareti suçlamasıyla yargılanan İlyas Yalçıntaş tahliye edildi: Tutuksuz yargılanacak\n[sozcu · 16:51] Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş hakkında yeni gelişme!\n[birgun · 16:52] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[hurriyet · 16:58] Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş'ın tahliyesine karar verildi — Şarkıcı İlyas Yalçıntaş’ın 'Uyuşturucu veya uyarıcı madde ticareti yapma veya sağlama' suçundan hapis cezasıyla yargılandığı davanın duruşması görüldü. İlyas Yalçıntaş savunmasında, \"6 ay önce denemek amacıyla İngiltere’de bir İngiliz vatandaşıyla kokain kullanmıştım. …\n[mynet · 17:01] Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş için tahliye kararı\n[turkiyegz · 17:01] Uyuşturucu davasında İlyas Yalçıntaş'a tahliye kararı! Mahkemede dikkat çeken itiraf\n[yenisafak · 17:02] İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı\n[haberturk · 17:03] Şarkıcı İlyas Yalçıntaş'a tahliye kararı\n[tgrt · 17:05] İlyas Yalçıntaş hakkında mahkeme kararını verdi\n[ntv · 17:06] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[aksam · 17:07] Şarkıcı İlyas Yalçıntaş için karar verildi! 4 aydır cezaevindeydi\n[karar · 17:10] Şarkıcı İlyas Yalçıntaş tahliye edildi — Uyarıcı madde ticareti yapma veya sağlama suçlamasıyla yargılanan şarkıcı İlyas Yalçıntaş, hakim karşısına çıktığı ilk duruşmada mahkemenin ara kararıyla tahliye edildi. Tutuksuz yargılanmasına karar verilen Yalçıntaş, 15 Aralık’ta ikinci kez hakim karşısına çıkacak.\n[ahaber · 17:17] Uyuşturucu davasında yargılanıyordu! İlyas Yalçıntaş hakkında karar verildi\n[diken · 18:03] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı"
+  },
+  {
+   "key": "s5642__salience-bias",
+   "output_file": "runs/bg/explain/s5642__salience-bias.json",
+   "event_title": "İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Mahkemede dikkat çeken itiraf",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Şarkıcı İlyas Yalçıntaş için karar verildi! 4 aydır cezaevindeydi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İlyas Yalçıntaş imza yükümlülüğüyle tahliye edildi, duruşma 15 Aralık'a ertelendi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "6 ay önce denemek amacıyla İngiltere’de bir İngiliz vatandaşıyla kokain kullanmıştım",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar çarpıcı ayrıntıyı ('itiraf', cezaevi süresi) öne çıkarırken diğerleri usul bilgisini veriyor; karşılaştırmalı vurgu farkı var.",
+   "skeptic_alternative": "Savunma beyanı duruşmanın haber değeri taşıyan bir parçası; aktarılması meşru.",
+   "missing_context": [
+    "Beyanın suçlamayla ilişkisi (ticaret ve kullanım ayrımı)",
+    "Duruşma tutanağı",
+    "Mahkemenin tahliye gerekçesi"
+   ],
+   "headlines": "[sondakika · 13:48] İlyas Yalçıntaş imza yükümlülüğüyle tahliye edildi, duruşma 15 Aralık'a ertelendi\n[onedio · 16:45] İlyas Yalçıntaş Hakkında Tahliye Kararı Verildi\n[haberler · 16:45] Şarkıcı İlyas Yalçıntaş uyuşturucu davasında adli kontrolle tahliye edildi\n[cumhuriyet · 16:49] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[takvim · 16:51] Uyuşturucu ticareti suçlamasıyla yargılanan İlyas Yalçıntaş tahliye edildi: Tutuksuz yargılanacak\n[sozcu · 16:51] Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş hakkında yeni gelişme!\n[birgun · 16:52] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[hurriyet · 16:58] Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş'ın tahliyesine karar verildi — Şarkıcı İlyas Yalçıntaş’ın 'Uyuşturucu veya uyarıcı madde ticareti yapma veya sağlama' suçundan hapis cezasıyla yargılandığı davanın duruşması görüldü. İlyas Yalçıntaş savunmasında, \"6 ay önce denemek amacıyla İngiltere’de bir İngiliz vatandaşıyla kokain kullanmıştım. …\n[mynet · 17:01] Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş için tahliye kararı\n[turkiyegz · 17:01] Uyuşturucu davasında İlyas Yalçıntaş'a tahliye kararı! Mahkemede dikkat çeken itiraf\n[yenisafak · 17:02] İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı\n[haberturk · 17:03] Şarkıcı İlyas Yalçıntaş'a tahliye kararı\n[tgrt · 17:05] İlyas Yalçıntaş hakkında mahkeme kararını verdi\n[ntv · 17:06] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[aksam · 17:07] Şarkıcı İlyas Yalçıntaş için karar verildi! 4 aydır cezaevindeydi\n[karar · 17:10] Şarkıcı İlyas Yalçıntaş tahliye edildi — Uyarıcı madde ticareti yapma veya sağlama suçlamasıyla yargılanan şarkıcı İlyas Yalçıntaş, hakim karşısına çıktığı ilk duruşmada mahkemenin ara kararıyla tahliye edildi. Tutuksuz yargılanmasına karar verilen Yalçıntaş, 15 Aralık’ta ikinci kez hakim karşısına çıkacak.\n[ahaber · 17:17] Uyuşturucu davasında yargılanıyordu! İlyas Yalçıntaş hakkında karar verildi\n[diken · 18:03] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı"
+  },
+  {
+   "key": "s5642__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5642__leveling-and-sharpening.json",
+   "event_title": "İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "6 ay önce denemek amacıyla İngiltere’de bir İngiliz vatandaşıyla kokain kullanmıştım",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mahkemede dikkat çeken itiraf",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Uyuşturucu veya uyarıcı madde ticareti yapma veya sağlama",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İlyas Yalçıntaş imza yükümlülüğüyle tahliye edildi, duruşma 15 Aralık'a ertelendi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş hakkında yeni gelişme!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İlyas Yalçıntaş hakkında mahkeme kararını verdi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Savunmada kişisel kullanım beyanı, ticaret suçlamasıyla yargılanan sanık için bir başlıkta 'itiraf' olarak keskinleştirilmiş olabilir; hangi suçun itirafı olduğu belirsizleşiyor.",
+   "skeptic_alternative": "Merak uyandırıcı başlık tarzı (tık odaklı) olabilir; haber gövdesinde tahliye bilgisi verilmiş olabilir.",
+   "missing_context": [
+    "Belirsiz başlıkların haber gövdeleri",
+    "Eksik bilginin okur sonucuna etkisi",
+    "Savunmanın tamamı",
+    "turkiyegz haberinin gövdesi"
+   ],
+   "headlines": "[sondakika · 13:48] İlyas Yalçıntaş imza yükümlülüğüyle tahliye edildi, duruşma 15 Aralık'a ertelendi\n[onedio · 16:45] İlyas Yalçıntaş Hakkında Tahliye Kararı Verildi\n[haberler · 16:45] Şarkıcı İlyas Yalçıntaş uyuşturucu davasında adli kontrolle tahliye edildi\n[cumhuriyet · 16:49] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[takvim · 16:51] Uyuşturucu ticareti suçlamasıyla yargılanan İlyas Yalçıntaş tahliye edildi: Tutuksuz yargılanacak\n[sozcu · 16:51] Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş hakkında yeni gelişme!\n[birgun · 16:52] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[hurriyet · 16:58] Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş'ın tahliyesine karar verildi — Şarkıcı İlyas Yalçıntaş’ın 'Uyuşturucu veya uyarıcı madde ticareti yapma veya sağlama' suçundan hapis cezasıyla yargılandığı davanın duruşması görüldü. İlyas Yalçıntaş savunmasında, \"6 ay önce denemek amacıyla İngiltere’de bir İngiliz vatandaşıyla kokain kullanmıştım. …\n[mynet · 17:01] Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş için tahliye kararı\n[turkiyegz · 17:01] Uyuşturucu davasında İlyas Yalçıntaş'a tahliye kararı! Mahkemede dikkat çeken itiraf\n[yenisafak · 17:02] İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı\n[haberturk · 17:03] Şarkıcı İlyas Yalçıntaş'a tahliye kararı\n[tgrt · 17:05] İlyas Yalçıntaş hakkında mahkeme kararını verdi\n[ntv · 17:06] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[aksam · 17:07] Şarkıcı İlyas Yalçıntaş için karar verildi! 4 aydır cezaevindeydi\n[karar · 17:10] Şarkıcı İlyas Yalçıntaş tahliye edildi — Uyarıcı madde ticareti yapma veya sağlama suçlamasıyla yargılanan şarkıcı İlyas Yalçıntaş, hakim karşısına çıktığı ilk duruşmada mahkemenin ara kararıyla tahliye edildi. Tutuksuz yargılanmasına karar verilen Yalçıntaş, 15 Aralık’ta ikinci kez hakim karşısına çıkacak.\n[ahaber · 17:17] Uyuşturucu davasında yargılanıyordu! İlyas Yalçıntaş hakkında karar verildi\n[diken · 18:03] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı"
+  },
+  {
+   "key": "s5642__negativity-bias",
+   "output_file": "runs/bg/explain/s5642__negativity-bias.json",
+   "event_title": "İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş hakkında yeni gelişme!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Uyuşturucu ticareti suçlamasıyla yargılanan İlyas Yalçıntaş tahliye edildi: Tutuksuz yargılanacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar olumlu gelişmeyi (tahliye) olumsuz geçmişin (tutuklama) arkasına koyuyor; orantısız ağırlığın bir hükmü etkilediği gösterilmiyor.",
+   "skeptic_alternative": "Tutukluluk geçmişi tahliye haberini anlamak için gerekli bağlam.",
+   "missing_context": [
+    "Bir değerlendirme veya karar üzerindeki etki",
+    "Haber gövdeleri",
+    "Karşılaştırmalı ağırlıklandırma kanıtı"
+   ],
+   "headlines": "[sondakika · 13:48] İlyas Yalçıntaş imza yükümlülüğüyle tahliye edildi, duruşma 15 Aralık'a ertelendi\n[onedio · 16:45] İlyas Yalçıntaş Hakkında Tahliye Kararı Verildi\n[haberler · 16:45] Şarkıcı İlyas Yalçıntaş uyuşturucu davasında adli kontrolle tahliye edildi\n[cumhuriyet · 16:49] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[takvim · 16:51] Uyuşturucu ticareti suçlamasıyla yargılanan İlyas Yalçıntaş tahliye edildi: Tutuksuz yargılanacak\n[sozcu · 16:51] Uyuşturucu soruşturmasında tutuklanmıştı: Ünlü şarkıcı İlyas Yalçıntaş hakkında yeni gelişme!\n[birgun · 16:52] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[hurriyet · 16:58] Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş'ın tahliyesine karar verildi — Şarkıcı İlyas Yalçıntaş’ın 'Uyuşturucu veya uyarıcı madde ticareti yapma veya sağlama' suçundan hapis cezasıyla yargılandığı davanın duruşması görüldü. İlyas Yalçıntaş savunmasında, \"6 ay önce denemek amacıyla İngiltere’de bir İngiliz vatandaşıyla kokain kullanmıştım. …\n[mynet · 17:01] Uyuşturucu soruşturmasında tutuklanmıştı! Şarkıcı İlyas Yalçıntaş için tahliye kararı\n[turkiyegz · 17:01] Uyuşturucu davasında İlyas Yalçıntaş'a tahliye kararı! Mahkemede dikkat çeken itiraf\n[yenisafak · 17:02] İlyas Yalçıntaş hakkında uyuşturucu davasında tahliye kararı\n[haberturk · 17:03] Şarkıcı İlyas Yalçıntaş'a tahliye kararı\n[tgrt · 17:05] İlyas Yalçıntaş hakkında mahkeme kararını verdi\n[ntv · 17:06] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı\n[aksam · 17:07] Şarkıcı İlyas Yalçıntaş için karar verildi! 4 aydır cezaevindeydi\n[karar · 17:10] Şarkıcı İlyas Yalçıntaş tahliye edildi — Uyarıcı madde ticareti yapma veya sağlama suçlamasıyla yargılanan şarkıcı İlyas Yalçıntaş, hakim karşısına çıktığı ilk duruşmada mahkemenin ara kararıyla tahliye edildi. Tutuksuz yargılanmasına karar verilen Yalçıntaş, 15 Aralık’ta ikinci kez hakim karşısına çıkacak.\n[ahaber · 17:17] Uyuşturucu davasında yargılanıyordu! İlyas Yalçıntaş hakkında karar verildi\n[diken · 18:03] Şarkıcı İlyas Yalçıntaş hakkında tahliye kararı"
+  },
+  {
+   "key": "s4551__framing-effect",
+   "output_file": "runs/bg/explain/s4551__framing-effect.json",
+   "event_title": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Yeni nesil suç örgülerine operasyon: 85 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Son dakika... 'Daltonlar' suç örgütüne 30 ilde dev operasyon",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "'Daltonlar' suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı operasyon 'yeni nesil suç örgütü', 'dev operasyon' veya nötr dille sunuluyor; çerçevenin bir yargıya bağlandığı görülmüyor.",
+   "skeptic_alternative": "30 il ve 85 gözaltı ölçeği 'dev' nitelemesini olgusal olarak destekleyebilir.",
+   "missing_context": [
+    "Emniyet açıklamasının tam metni",
+    "Okur yargısının çerçeveye göre değiştiğine dair kanıt"
+   ],
+   "headlines": "[star · 07:17] ''Daltonlar Suç Örgütü''ne eş zamanlı operasyon — Yurt dışından yönetilen ve sosyal medya platformları üzerinden temin ettiği tetikçileri kapalı mesajlaşma grupları aracılığıyla eyleme yönlendiren 'Daltonlar' suç örgütüne yönelik İstanbul merkezli 30 ilde düzenlenen eş zamanlı operasyonda 85 şüpheli yakalandı.\n[haberturk · 07:19] \"Daltonlar\"a 30 ilde eş zamanlı operasyon\n[trthaber · 07:23] Sosyal medyadan tetikçi ağı kuran suç örgütüne operasyon: 85 gözaltı\n[tgrt · 07:25] Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı\n[mynet · 07:25] Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı kararı\n[sozcu · 07:25] Son dakika... 'Daltonlar' suç örgütüne 30 ilde dev operasyon\n[haberler · 07:26] Daltonlar suç örgütüne operasyon! 85 şüpheli gözaltına alındı\n[birgun · 07:37] İstanbul merkezli 30 ilde 'Daltonlar' suç örgütüne operasyon: 85 şüpheli gözaltında\n[yenisafak · 07:39] Yeni nesil suç örgülerine operasyon: 85 şüpheli gözaltına alındı\n[karar · 08:17] \"Daltonlar\"a 30 ilde eş zamanlı operasyon: 30’u çocuk yaşta 85 şüpheli gözaltında — İstanbul merkezli 30 ilde gerçekleştirilen eş zamanlı operasyonda, sosyal medya üzerinden tetikçi temin ederek eylem planladığı belirlenen \"Daltonlar\" adıyla bilinen organize suç örgütüne mensup 30'u suça sürüklenen çocuk olmak üzere 85 şüpheli yakalandı.\n[sabah · 08:38] SON DAKİKA | Daltonlar suç örgütüne büyük operasyon! 30 ilde 85 gözaltı var\n[milligazete · 08:59] Daltonlar suç örgütüne operasyon! 30 ilde 85 kişi gözaltına alındı: Tetikçi ağı nasıl kuruldu?\n[diken · 09:00] 30 ilde Daltonlar'a 'tetikçi' operasyonu: 30'u çocuk 85 gözaltı\n[cumhuriyet · 09:05] 'Daltonlar' suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı\n[aksam · 09:08] \"Daltonlar Suç Örgütü\"ne yönelik operasyon! 85 şüpheli yakalandı\n[takvim · 09:12] Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 30'u çocuk 85 şüpheli gözaltına alındı\n[dirilis · 09:17] Yeni nesil suç örgütüne 30 ilde operasyon: 85 gözaltı!\n[ntv · 10:14] 30 ilde Daltonlar'a operasyon. 30'u çocuk 85 şüpheli gözaltında"
+  },
+  {
+   "key": "s4551__salience-bias",
+   "output_file": "runs/bg/explain/s4551__salience-bias.json",
+   "event_title": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "SON DAKİKA | Daltonlar suç örgütüne büyük operasyon! 30 ilde 85 gözaltı var",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "30 ilde Daltonlar'a 'tetikçi' operasyonu: 30'u çocuk 85 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Daltonlar suç örgütüne operasyon! 85 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Kurumlar farklı çarpıcı öğeleri (ölçek, 'tetikçi', çocuk şüpheliler) öne çıkarıyor; karşılaştırmalı vurgu farkı var, hüküm etkisi gösterilmiyor.",
+   "skeptic_alternative": "Suça sürüklenen çocuk sayısı kamu yararı açısından önemli bir olgu.",
+   "missing_context": [
+    "Okur tepkisi veya karar etkisi",
+    "Vurgunun yargıya etkisine dair karşılaştırmalı veri"
+   ],
+   "headlines": "[star · 07:17] ''Daltonlar Suç Örgütü''ne eş zamanlı operasyon — Yurt dışından yönetilen ve sosyal medya platformları üzerinden temin ettiği tetikçileri kapalı mesajlaşma grupları aracılığıyla eyleme yönlendiren 'Daltonlar' suç örgütüne yönelik İstanbul merkezli 30 ilde düzenlenen eş zamanlı operasyonda 85 şüpheli yakalandı.\n[haberturk · 07:19] \"Daltonlar\"a 30 ilde eş zamanlı operasyon\n[trthaber · 07:23] Sosyal medyadan tetikçi ağı kuran suç örgütüne operasyon: 85 gözaltı\n[tgrt · 07:25] Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı\n[mynet · 07:25] Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı kararı\n[sozcu · 07:25] Son dakika... 'Daltonlar' suç örgütüne 30 ilde dev operasyon\n[haberler · 07:26] Daltonlar suç örgütüne operasyon! 85 şüpheli gözaltına alındı\n[birgun · 07:37] İstanbul merkezli 30 ilde 'Daltonlar' suç örgütüne operasyon: 85 şüpheli gözaltında\n[yenisafak · 07:39] Yeni nesil suç örgülerine operasyon: 85 şüpheli gözaltına alındı\n[karar · 08:17] \"Daltonlar\"a 30 ilde eş zamanlı operasyon: 30’u çocuk yaşta 85 şüpheli gözaltında — İstanbul merkezli 30 ilde gerçekleştirilen eş zamanlı operasyonda, sosyal medya üzerinden tetikçi temin ederek eylem planladığı belirlenen \"Daltonlar\" adıyla bilinen organize suç örgütüne mensup 30'u suça sürüklenen çocuk olmak üzere 85 şüpheli yakalandı.\n[sabah · 08:38] SON DAKİKA | Daltonlar suç örgütüne büyük operasyon! 30 ilde 85 gözaltı var\n[milligazete · 08:59] Daltonlar suç örgütüne operasyon! 30 ilde 85 kişi gözaltına alındı: Tetikçi ağı nasıl kuruldu?\n[diken · 09:00] 30 ilde Daltonlar'a 'tetikçi' operasyonu: 30'u çocuk 85 gözaltı\n[cumhuriyet · 09:05] 'Daltonlar' suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı\n[aksam · 09:08] \"Daltonlar Suç Örgütü\"ne yönelik operasyon! 85 şüpheli yakalandı\n[takvim · 09:12] Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 30'u çocuk 85 şüpheli gözaltına alındı\n[dirilis · 09:17] Yeni nesil suç örgütüne 30 ilde operasyon: 85 gözaltı!\n[ntv · 10:14] 30 ilde Daltonlar'a operasyon. 30'u çocuk 85 şüpheli gözaltında"
+  },
+  {
+   "key": "s4551__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4551__leveling-and-sharpening.json",
+   "event_title": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "30'u suça sürüklenen çocuk olmak üzere 85 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı kararı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurumun aktardığı '30'u suça sürüklenen çocuk' ayrıntısı birçok başlıkta düşmüş; ayrıca 'gözaltı kararı' ile 'yakalandı' arasında fark var.",
+   "skeptic_alternative": "Başlık uzunluğu sınırı ve farklı kaynak saatleri olağan özetleme farkları yaratabilir.",
+   "missing_context": [
+    "Emniyetin resmi açıklaması",
+    "Farkların bir sonuca etkisi",
+    "Haber gövdeleri",
+    "Resmi açıklamanın metni"
+   ],
+   "headlines": "[star · 07:17] ''Daltonlar Suç Örgütü''ne eş zamanlı operasyon — Yurt dışından yönetilen ve sosyal medya platformları üzerinden temin ettiği tetikçileri kapalı mesajlaşma grupları aracılığıyla eyleme yönlendiren 'Daltonlar' suç örgütüne yönelik İstanbul merkezli 30 ilde düzenlenen eş zamanlı operasyonda 85 şüpheli yakalandı.\n[haberturk · 07:19] \"Daltonlar\"a 30 ilde eş zamanlı operasyon\n[trthaber · 07:23] Sosyal medyadan tetikçi ağı kuran suç örgütüne operasyon: 85 gözaltı\n[tgrt · 07:25] Daltonlar suç örgütüne 30 ilde operasyon: 85 gözaltı\n[mynet · 07:25] Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı kararı\n[sozcu · 07:25] Son dakika... 'Daltonlar' suç örgütüne 30 ilde dev operasyon\n[haberler · 07:26] Daltonlar suç örgütüne operasyon! 85 şüpheli gözaltına alındı\n[birgun · 07:37] İstanbul merkezli 30 ilde 'Daltonlar' suç örgütüne operasyon: 85 şüpheli gözaltında\n[yenisafak · 07:39] Yeni nesil suç örgülerine operasyon: 85 şüpheli gözaltına alındı\n[karar · 08:17] \"Daltonlar\"a 30 ilde eş zamanlı operasyon: 30’u çocuk yaşta 85 şüpheli gözaltında — İstanbul merkezli 30 ilde gerçekleştirilen eş zamanlı operasyonda, sosyal medya üzerinden tetikçi temin ederek eylem planladığı belirlenen \"Daltonlar\" adıyla bilinen organize suç örgütüne mensup 30'u suça sürüklenen çocuk olmak üzere 85 şüpheli yakalandı.\n[sabah · 08:38] SON DAKİKA | Daltonlar suç örgütüne büyük operasyon! 30 ilde 85 gözaltı var\n[milligazete · 08:59] Daltonlar suç örgütüne operasyon! 30 ilde 85 kişi gözaltına alındı: Tetikçi ağı nasıl kuruldu?\n[diken · 09:00] 30 ilde Daltonlar'a 'tetikçi' operasyonu: 30'u çocuk 85 gözaltı\n[cumhuriyet · 09:05] 'Daltonlar' suç örgütüne 30 ilde eş zamanlı operasyon: 85 gözaltı\n[aksam · 09:08] \"Daltonlar Suç Örgütü\"ne yönelik operasyon! 85 şüpheli yakalandı\n[takvim · 09:12] Daltonlar suç örgütüne 30 ilde eş zamanlı operasyon: 30'u çocuk 85 şüpheli gözaltına alındı\n[dirilis · 09:17] Yeni nesil suç örgütüne 30 ilde operasyon: 85 gözaltı!\n[ntv · 10:14] 30 ilde Daltonlar'a operasyon. 30'u çocuk 85 şüpheli gözaltında"
+  },
+  {
+   "key": "s5316__authority-bias",
+   "output_file": "runs/bg/explain/s5316__authority-bias.json",
+   "event_title": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "32 ilde FETÖ’ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakanlık duyurdu: 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İçişleri Bakanlığı'ndan yapılan açıklamada",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Haberler tek kaynak olarak İçişleri Bakanlığı açıklamasına dayanıyor; bir başlık 'Jandarmamız' ifadesini aynen aktarıyor. Statünün değerlendirmenin yerine geçtiği açıkça gösterilmiyor.",
+   "skeptic_alternative": "Operasyon sayıları için bakanlık birincil kaynak; atıf olağan ve şeffaf haberciliktir.",
+   "missing_context": [
+    "Bağımsız doğrulama veya karşı açıklama",
+    "Bağımsız kaynak veya şüpheli tarafı açıklaması",
+    "Haber gövdeleri",
+    "Şüphelilerin savunması"
+   ],
+   "headlines": "[sondakika · 07:30] Jandarmanın 32 ilde FETÖ'ye yönelik operasyonlarında 72 şüpheli yakalandı\n[hurriyet · 10:22] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı — İçişleri Bakanlığı'ndan yapılan açıklamada \"32 ilde FETÖ'ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı. Şüphelilerden 41’i tutuklandı. Diğerlerinin işlemleri devam ediyor\" denildi.\n[haberler · 10:24] İçişleri Bakanlığı: \"32 ilde FETÖ’ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı.\"\n[aksam · 10:25] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[yenisafak · 10:28] İçişleri Bakanlığı'ndan 32 ilde FETÖ operasyonu: 72 şüpheli yakalandı\n[trthaber · 10:28] 32 ilde FETÖ operasyonu: 41 tutuklama\n[star · 10:29] 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı — İçişleri Bakanlığı, 32 ilde FETÖ'ye yönelik Jandarma tarafından düzenlenen operasyonlarda 72 şüphelinin yakalandığını duyurdu.\n[tgrt · 10:32] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[ntv · 10:37] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[haberturk · 10:37] 32 ilde FETÖ operasyonu: 72 gözaltı\n[mynet · 10:46] Bakanlık duyurdu: 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı\n[sabah · 10:46] 32 ilde FETÖ operasyonu! Sözde yardım kuruluşlarına finans sağlamışlar: 72 şüpheliden 41’i tutuklandı\n[cumhuriyet · 10:55] İçişleri duyurdu... 32 ilde FETÖ operasyonu: 41 kişi tutuklandı\n[aa · 10:56] FETÖ'ye yönelik 32 ilde düzenlenen operasyonlarda 41 şüpheli tutuklandı\n[birgun · 10:57] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[karar · 11:01] 32 ilde FETÖ operasyonu: 72 gözaltı — İçişleri Bakanlığı, FETÖ’ye yönelik 32 ilde düzenlenen jandarma operasyonlarında 72 kişinin yakalandığını açıkladı. Gözaltına alınanlardan 41’i tutuklanırken, diğerlerinin işlemlerinin sürdüğü bildirildi. Bakanlık, operasyonların örgütün güncel yapılanması, finans kaynakları ve …\n[ahaber · 11:41] FETÖ'ye 32 ilde ağır darbe! 41 kişi tutuklandı\n[dirilis · 17:02] FETÖ operasyonlarında 72 şüpheli yakalandı 41'i tutuklandı"
+  },
+  {
+   "key": "s5316__framing-effect",
+   "output_file": "runs/bg/explain/s5316__framing-effect.json",
+   "event_title": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "FETÖ'ye 32 ilde ağır darbe! 41 kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "32 ilde FETÖ operasyonu: 72 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "32 ilde FETÖ operasyonu: 41 tutuklama",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı operasyon 'ağır darbe' gibi zafer çerçevesiyle veya nötr dille, farklı sayılar (72 gözaltı/41 tutuklama) öne çıkarılarak sunuluyor; çerçeve bir yargıya bağlanmıyor.",
+   "skeptic_alternative": "Değerlendirici dil yayın üslubu olabilir; olgular kurumlar arasında aynı.",
+   "missing_context": [
+    "Haber gövdeleri",
+    "Okur yargısının çerçeveye göre değiştiğine dair kanıt"
+   ],
+   "headlines": "[sondakika · 07:30] Jandarmanın 32 ilde FETÖ'ye yönelik operasyonlarında 72 şüpheli yakalandı\n[hurriyet · 10:22] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı — İçişleri Bakanlığı'ndan yapılan açıklamada \"32 ilde FETÖ'ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı. Şüphelilerden 41’i tutuklandı. Diğerlerinin işlemleri devam ediyor\" denildi.\n[haberler · 10:24] İçişleri Bakanlığı: \"32 ilde FETÖ’ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı.\"\n[aksam · 10:25] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[yenisafak · 10:28] İçişleri Bakanlığı'ndan 32 ilde FETÖ operasyonu: 72 şüpheli yakalandı\n[trthaber · 10:28] 32 ilde FETÖ operasyonu: 41 tutuklama\n[star · 10:29] 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı — İçişleri Bakanlığı, 32 ilde FETÖ'ye yönelik Jandarma tarafından düzenlenen operasyonlarda 72 şüphelinin yakalandığını duyurdu.\n[tgrt · 10:32] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[ntv · 10:37] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[haberturk · 10:37] 32 ilde FETÖ operasyonu: 72 gözaltı\n[mynet · 10:46] Bakanlık duyurdu: 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı\n[sabah · 10:46] 32 ilde FETÖ operasyonu! Sözde yardım kuruluşlarına finans sağlamışlar: 72 şüpheliden 41’i tutuklandı\n[cumhuriyet · 10:55] İçişleri duyurdu... 32 ilde FETÖ operasyonu: 41 kişi tutuklandı\n[aa · 10:56] FETÖ'ye yönelik 32 ilde düzenlenen operasyonlarda 41 şüpheli tutuklandı\n[birgun · 10:57] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[karar · 11:01] 32 ilde FETÖ operasyonu: 72 gözaltı — İçişleri Bakanlığı, FETÖ’ye yönelik 32 ilde düzenlenen jandarma operasyonlarında 72 kişinin yakalandığını açıkladı. Gözaltına alınanlardan 41’i tutuklanırken, diğerlerinin işlemlerinin sürdüğü bildirildi. Bakanlık, operasyonların örgütün güncel yapılanması, finans kaynakları ve …\n[ahaber · 11:41] FETÖ'ye 32 ilde ağır darbe! 41 kişi tutuklandı\n[dirilis · 17:02] FETÖ operasyonlarında 72 şüpheli yakalandı 41'i tutuklandı"
+  },
+  {
+   "key": "s5316__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5316__leveling-and-sharpening.json",
+   "event_title": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Gözaltına alınanlardan 41’i tutuklanırken, diğerlerinin işlemlerinin sürdüğü bildirildi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "32 ilde FETÖ operasyonu! Sözde yardım kuruluşlarına finans sağlamışlar: 72 şüpheliden 41’i tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "32 ilde FETÖ operasyonu: 41 tutuklama",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Şüphelilerden 41’i tutuklandı. Diğerlerinin işlemleri devam ediyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "32 ilde FETÖ operasyonu: 72 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sözde yardım kuruluşlarına finans sağlamışlar",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bakanlık açıklamasının aktarıldığı bir tabana göre bir başlık suçlamayı ('finans sağlamışlar') kesin ifadeyle keskinleştiriyor, diğerleri 'işlemleri sürüyor' kaydını düşürüyor.",
+   "skeptic_alternative": "Farklı sayılar aynı açıklamanın farklı aşamalarını yansıtıyor; finans iddiası bakanlık açıklamasının devamından gelmiş olabilir.",
+   "missing_context": [
+    "Bakanlık açıklamasının tam metni",
+    "Finans iddiasının kaynağı"
+   ],
+   "headlines": "[sondakika · 07:30] Jandarmanın 32 ilde FETÖ'ye yönelik operasyonlarında 72 şüpheli yakalandı\n[hurriyet · 10:22] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı — İçişleri Bakanlığı'ndan yapılan açıklamada \"32 ilde FETÖ'ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı. Şüphelilerden 41’i tutuklandı. Diğerlerinin işlemleri devam ediyor\" denildi.\n[haberler · 10:24] İçişleri Bakanlığı: \"32 ilde FETÖ’ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı.\"\n[aksam · 10:25] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[yenisafak · 10:28] İçişleri Bakanlığı'ndan 32 ilde FETÖ operasyonu: 72 şüpheli yakalandı\n[trthaber · 10:28] 32 ilde FETÖ operasyonu: 41 tutuklama\n[star · 10:29] 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı — İçişleri Bakanlığı, 32 ilde FETÖ'ye yönelik Jandarma tarafından düzenlenen operasyonlarda 72 şüphelinin yakalandığını duyurdu.\n[tgrt · 10:32] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[ntv · 10:37] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[haberturk · 10:37] 32 ilde FETÖ operasyonu: 72 gözaltı\n[mynet · 10:46] Bakanlık duyurdu: 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı\n[sabah · 10:46] 32 ilde FETÖ operasyonu! Sözde yardım kuruluşlarına finans sağlamışlar: 72 şüpheliden 41’i tutuklandı\n[cumhuriyet · 10:55] İçişleri duyurdu... 32 ilde FETÖ operasyonu: 41 kişi tutuklandı\n[aa · 10:56] FETÖ'ye yönelik 32 ilde düzenlenen operasyonlarda 41 şüpheli tutuklandı\n[birgun · 10:57] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[karar · 11:01] 32 ilde FETÖ operasyonu: 72 gözaltı — İçişleri Bakanlığı, FETÖ’ye yönelik 32 ilde düzenlenen jandarma operasyonlarında 72 kişinin yakalandığını açıkladı. Gözaltına alınanlardan 41’i tutuklanırken, diğerlerinin işlemlerinin sürdüğü bildirildi. Bakanlık, operasyonların örgütün güncel yapılanması, finans kaynakları ve …\n[ahaber · 11:41] FETÖ'ye 32 ilde ağır darbe! 41 kişi tutuklandı\n[dirilis · 17:02] FETÖ operasyonlarında 72 şüpheli yakalandı 41'i tutuklandı"
+  },
+  {
+   "key": "s5316__salience-bias",
+   "output_file": "runs/bg/explain/s5316__salience-bias.json",
+   "event_title": "32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "FETÖ'ye 32 ilde ağır darbe! 41 kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "FETÖ operasyonlarında 72 şüpheli yakalandı 41'i tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurum çarpıcı 'ağır darbe' ifadesini öne çıkarırken diğeri sayıları sade biçimde veriyor; karşılaştırmalı vurgu farkı var.",
+   "skeptic_alternative": "Ünlem ve güçlü dil kurum üslubu olabilir; temel olgular değişmiyor.",
+   "missing_context": [
+    "Okur/karar etkisine dair veri",
+    "Vurgunun okur yargısına etkisine dair veri"
+   ],
+   "headlines": "[sondakika · 07:30] Jandarmanın 32 ilde FETÖ'ye yönelik operasyonlarında 72 şüpheli yakalandı\n[hurriyet · 10:22] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı — İçişleri Bakanlığı'ndan yapılan açıklamada \"32 ilde FETÖ'ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı. Şüphelilerden 41’i tutuklandı. Diğerlerinin işlemleri devam ediyor\" denildi.\n[haberler · 10:24] İçişleri Bakanlığı: \"32 ilde FETÖ’ye yönelik Jandarmamız tarafından düzenlenen operasyonlarda 72 şüpheli yakalandı.\"\n[aksam · 10:25] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[yenisafak · 10:28] İçişleri Bakanlığı'ndan 32 ilde FETÖ operasyonu: 72 şüpheli yakalandı\n[trthaber · 10:28] 32 ilde FETÖ operasyonu: 41 tutuklama\n[star · 10:29] 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı — İçişleri Bakanlığı, 32 ilde FETÖ'ye yönelik Jandarma tarafından düzenlenen operasyonlarda 72 şüphelinin yakalandığını duyurdu.\n[tgrt · 10:32] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[ntv · 10:37] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[haberturk · 10:37] 32 ilde FETÖ operasyonu: 72 gözaltı\n[mynet · 10:46] Bakanlık duyurdu: 32 ilde FETÖ operasyonu! 72 şüpheli yakalandı\n[sabah · 10:46] 32 ilde FETÖ operasyonu! Sözde yardım kuruluşlarına finans sağlamışlar: 72 şüpheliden 41’i tutuklandı\n[cumhuriyet · 10:55] İçişleri duyurdu... 32 ilde FETÖ operasyonu: 41 kişi tutuklandı\n[aa · 10:56] FETÖ'ye yönelik 32 ilde düzenlenen operasyonlarda 41 şüpheli tutuklandı\n[birgun · 10:57] 32 ilde FETÖ operasyonu: 41 şüpheli tutuklandı\n[karar · 11:01] 32 ilde FETÖ operasyonu: 72 gözaltı — İçişleri Bakanlığı, FETÖ’ye yönelik 32 ilde düzenlenen jandarma operasyonlarında 72 kişinin yakalandığını açıkladı. Gözaltına alınanlardan 41’i tutuklanırken, diğerlerinin işlemlerinin sürdüğü bildirildi. Bakanlık, operasyonların örgütün güncel yapılanması, finans kaynakları ve …\n[ahaber · 11:41] FETÖ'ye 32 ilde ağır darbe! 41 kişi tutuklandı\n[dirilis · 17:02] FETÖ operasyonlarında 72 şüpheli yakalandı 41'i tutuklandı"
+  },
+  {
+   "key": "s4186__framing-effect",
+   "output_file": "runs/bg/explain/s4186__framing-effect.json",
+   "event_title": "Fon soruşturmasında Ertan Aydın tutuklandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Fon vurgunu soruşturması: Ertan Aydın ve Gürol Sami Özer gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon skandalına yönelik soruşturma kapsamında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sermaye piyasası işlemleri soruşturmasında Ertan Aydın tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı soruşturma 'vurgun', 'skandal' veya teknik 'sermaye piyasası işlemleri' diliyle adlandırılıyor; çerçeve bir yargıya bağlanmıyor.",
+   "skeptic_alternative": "'Fon soruşturması' kamuoyunda yerleşmiş bir ad; farklı adlandırmalar üslup farkı olabilir.",
+   "missing_context": [
+    "Okur yargısının çerçeveye göre değiştiğine dair kanıt",
+    "Savcılık açıklamasının tam metni",
+    "İddianamedeki suç tanımı"
+   ],
+   "headlines": "[cumhuriyet · 17:51] Fon soruşturması: Eski AKP milletvekili Ertan Aydın adliyeye sevk edildi, Nusret Altınbaş gözaltına alındı — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturmaları kapsamında eski AKP Ankara Milletvekili ve eski Başbakan Başdanışmanı Ertan Aydın adliyeye sevk edildi. Hakkında arama kararı bulunan Altınbaş Holding'in sahibi Nusret Altınbaş ise gözaltına alındı.\n[sabah · 19:43] Fon soruşturmasında yeni gelişme: Ertan Aydın hakkında karar verildi! — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturması kapsamında eski Milletvekili Ertan Aydın tutuklama talebiyle hakimliğe sevk edildi. Aydın, ev hapsi ve yurt dışı çıkış yasağı şeklindeki adli kontrol şartıyla serbest bırakıldı.\n[diken · 21:03] Fon soruşturması: Eski başbakan danışmanı Ertan Aydın hakkında tutuklama talebi — 24.10.2026 - Fon soruşturmasında gözaltına alınan eski AKP milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın tutuklama talebiyle sulh ceza hakimliğine sevk edildi.\n[aa · 11:59] Sermaye piyasası işlemleri soruşturmasında Ertan Aydın tutuklandı\n[birgun · 14:56] Fon vurgunu soruşturması: Ertan Aydın ve Gürol Sami Özer gözaltına alındı\n[sozcu · 14:57] Eski AKP milletvekili Ertan Aydın yeniden gözaltına alındı — Fon skandalına yönelik soruşturma kapsamında çıkarıldığı mahkemece ev hapsi kararı verilen eski AKP milletvekili ve başbakan danışmanı Ertan Aydın hakkında yeniden yakalama kararı çıkarıldı. Aydın, kararın ardından yeniden gözaltına alındı.\n[ntv · 14:58] Fon soruşturması. Ertan Aydın ve Gürol Sami Özer tutuklandı — Fon soruşturmasında eski AK Parti milletvekili Ertan Aydın ve Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer tutuklandı.\n[mynet · 14:58] Fon soruşturmasında yeni gelişme! Ertan Aydın ve Gürol Sami Özer tutuklandı — Sermaye piyasalarında gerçekleştirilen işlemlere dair yürütülen fon soruşturmaları kapsamında gözaltına alınan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın hakkında adli kontrol tedbiri kararına yapılan itiraz sonucu hakkında yakalama kararı …\n[star · 14:59] Fon soruşturmasında yeni gelişme! Ertan Aydın gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturmaları kapsamında, hakkında verilen adli kontrol kararına yapılan itiraz üzerine yakalama kararı çıkarılan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın, Ankara'da …\n[turkiyegz · 14:59] Fon soruşturmasında Ertan Aydın tutuklandı — Sermaye piyasası işlemlerine ilişkin fon soruşturması kapsamında, adli kontrol kararına yapılan itiraz üzerine yeniden gözaltına alınan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın tutuklandı.\n[haberturk · 15:06] Fon soruşturmasında yeni gelişme: Ertan Aydın tutuklandı\n[trthaber · 15:46] Fon soruşturmasında Ertan Aydın yeniden gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturmaları kapsamında, hakkında verilen adli kontrol kararına yapılan itiraz üzerine yakalama kararı çıkarılan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın, Ankara'da …\n[dirilis · 16:11] Ertan Aydın hakkında fon soruşturmasında yakalama kararı — Fon soruşturmasında ev hapsiyle serbest bırakılan eski AK Parti milletvekili Ertan Aydın hakkında, savcılığın itirazı üzerine mahkeme yakalama kararı verdi.\n[yenisafak · 16:12] Ertan Aydın kimdir, kaç yaşında ve nereli? Ertan Aydın gözaltın alındı mı? — Ertan Aydın hakkında adli kontrol tedbiri kararına yapılan itiraz sonucu yakalama kararı verildi. Ertan Aydın, 6 Haziran 1971’de Ardahan’da doğan Türk siyaset bilimci, sosyolog ve eski milletvekilidir. Orta Doğu Teknik Üniversitesi Sosyoloji Bölümünden mezun olduktan sonra …\n[karar · 23:52] Son dakika! Fon soruşturmasında yeni karar: Ertan Aydın tutuklandı — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturmasında, daha önce ev hapsi ve yurt dışına çıkış yasağıyla serbest bırakılan eski AK Parti Milletvekili Ertan Aydın tutuklandı. Savcılığın adli kontrol kararına itiraz etmesinin ardından hakkında yakalama kararı …\n[haberler · 23:58] Fon soruşturmasında yeniden gözaltına alınan eski AK Parti Milletvekili Ertan Aydın tutuklandı\n[yeniasya · 00:53] Ertan Aydın tutuklandı!"
+  },
+  {
+   "key": "s4186__in-group-bias",
+   "output_file": "runs/bg/explain/s4186__in-group-bias.json",
+   "event_title": "Fon soruşturmasında Ertan Aydın tutuklandı",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "Eski AKP milletvekili Ertan Aydın yeniden gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "eski Milletvekili Ertan Aydın tutuklama talebiyle hakimliğe sevk edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "sabah: sağ (80)",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "sozcu: sol (42)",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Sol yerleşimli kurumlar başlıkta parti aidiyetini ('AKP') öne çıkarırken sağ yerleşimli bir kurum lede'de partiyi belirtmiyor; grup aidiyetiyle vurgu farkı arasında olası bağ var, ancak tutarsız standart açıkça gösterilmiyor.",
+   "skeptic_alternative": "Parti bağı haber değeri taşıyan olgusal bir bilgi; atlanması yer sınırlamasından kaynaklanabilir.",
+   "missing_context": [
+    "Kurumların karşılaştırılabilir davalarda parti bağını nasıl verdiği",
+    "Kurumların muhalefet partili şüphelilerde parti aidiyetini nasıl verdiği",
+    "Sabah haberinin tam metni"
+   ],
+   "headlines": "[cumhuriyet · 17:51] Fon soruşturması: Eski AKP milletvekili Ertan Aydın adliyeye sevk edildi, Nusret Altınbaş gözaltına alındı — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturmaları kapsamında eski AKP Ankara Milletvekili ve eski Başbakan Başdanışmanı Ertan Aydın adliyeye sevk edildi. Hakkında arama kararı bulunan Altınbaş Holding'in sahibi Nusret Altınbaş ise gözaltına alındı.\n[sabah · 19:43] Fon soruşturmasında yeni gelişme: Ertan Aydın hakkında karar verildi! — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturması kapsamında eski Milletvekili Ertan Aydın tutuklama talebiyle hakimliğe sevk edildi. Aydın, ev hapsi ve yurt dışı çıkış yasağı şeklindeki adli kontrol şartıyla serbest bırakıldı.\n[diken · 21:03] Fon soruşturması: Eski başbakan danışmanı Ertan Aydın hakkında tutuklama talebi — 24.10.2026 - Fon soruşturmasında gözaltına alınan eski AKP milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın tutuklama talebiyle sulh ceza hakimliğine sevk edildi.\n[aa · 11:59] Sermaye piyasası işlemleri soruşturmasında Ertan Aydın tutuklandı\n[birgun · 14:56] Fon vurgunu soruşturması: Ertan Aydın ve Gürol Sami Özer gözaltına alındı\n[sozcu · 14:57] Eski AKP milletvekili Ertan Aydın yeniden gözaltına alındı — Fon skandalına yönelik soruşturma kapsamında çıkarıldığı mahkemece ev hapsi kararı verilen eski AKP milletvekili ve başbakan danışmanı Ertan Aydın hakkında yeniden yakalama kararı çıkarıldı. Aydın, kararın ardından yeniden gözaltına alındı.\n[ntv · 14:58] Fon soruşturması. Ertan Aydın ve Gürol Sami Özer tutuklandı — Fon soruşturmasında eski AK Parti milletvekili Ertan Aydın ve Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer tutuklandı.\n[mynet · 14:58] Fon soruşturmasında yeni gelişme! Ertan Aydın ve Gürol Sami Özer tutuklandı — Sermaye piyasalarında gerçekleştirilen işlemlere dair yürütülen fon soruşturmaları kapsamında gözaltına alınan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın hakkında adli kontrol tedbiri kararına yapılan itiraz sonucu hakkında yakalama kararı …\n[star · 14:59] Fon soruşturmasında yeni gelişme! Ertan Aydın gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturmaları kapsamında, hakkında verilen adli kontrol kararına yapılan itiraz üzerine yakalama kararı çıkarılan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın, Ankara'da …\n[turkiyegz · 14:59] Fon soruşturmasında Ertan Aydın tutuklandı — Sermaye piyasası işlemlerine ilişkin fon soruşturması kapsamında, adli kontrol kararına yapılan itiraz üzerine yeniden gözaltına alınan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın tutuklandı.\n[haberturk · 15:06] Fon soruşturmasında yeni gelişme: Ertan Aydın tutuklandı\n[trthaber · 15:46] Fon soruşturmasında Ertan Aydın yeniden gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturmaları kapsamında, hakkında verilen adli kontrol kararına yapılan itiraz üzerine yakalama kararı çıkarılan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın, Ankara'da …\n[dirilis · 16:11] Ertan Aydın hakkında fon soruşturmasında yakalama kararı — Fon soruşturmasında ev hapsiyle serbest bırakılan eski AK Parti milletvekili Ertan Aydın hakkında, savcılığın itirazı üzerine mahkeme yakalama kararı verdi.\n[yenisafak · 16:12] Ertan Aydın kimdir, kaç yaşında ve nereli? Ertan Aydın gözaltın alındı mı? — Ertan Aydın hakkında adli kontrol tedbiri kararına yapılan itiraz sonucu yakalama kararı verildi. Ertan Aydın, 6 Haziran 1971’de Ardahan’da doğan Türk siyaset bilimci, sosyolog ve eski milletvekilidir. Orta Doğu Teknik Üniversitesi Sosyoloji Bölümünden mezun olduktan sonra …\n[karar · 23:52] Son dakika! Fon soruşturmasında yeni karar: Ertan Aydın tutuklandı — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturmasında, daha önce ev hapsi ve yurt dışına çıkış yasağıyla serbest bırakılan eski AK Parti Milletvekili Ertan Aydın tutuklandı. Savcılığın adli kontrol kararına itiraz etmesinin ardından hakkında yakalama kararı …\n[haberler · 23:58] Fon soruşturmasında yeniden gözaltına alınan eski AK Parti Milletvekili Ertan Aydın tutuklandı\n[yeniasya · 00:53] Ertan Aydın tutuklandı!"
+  },
+  {
+   "key": "s4186__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4186__leveling-and-sharpening.json",
+   "event_title": "Fon soruşturmasında Ertan Aydın tutuklandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "eski AKP Ankara Milletvekili ve eski Başbakan Başdanışmanı Ertan Aydın adliyeye sevk edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "eski Milletvekili Ertan Aydın tutuklama talebiyle hakimliğe sevk edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ertan Aydın kimdir, kaç yaşında ve nereli? Ertan Aydın gözaltın alındı mı?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Aydın, ev hapsi ve yurt dışı çıkış yasağı şeklindeki adli kontrol şartıyla serbest bırakıldı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturması. Ertan Aydın ve Gürol Sami Özer tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında yeni gelişme! Ertan Aydın gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "İlk haberdeki parti ve görev bilgisi bir aktarımda düzleşmiş, başka bir kurum gelişmeyi soru biçiminde belirsizleştirmiş; maddi etki gösterilmiyor.",
+   "skeptic_alternative": "Süreç hızla ilerlediği için farklı anlarda güncellenen başlıklar olağan zaman farkını yansıtıyor.",
+   "missing_context": [
+    "Başlıkların güncellenme zamanları",
+    "Haber gövdeleri",
+    "Mahkeme kararlarının resmi kronolojisi"
+   ],
+   "headlines": "[cumhuriyet · 17:51] Fon soruşturması: Eski AKP milletvekili Ertan Aydın adliyeye sevk edildi, Nusret Altınbaş gözaltına alındı — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturmaları kapsamında eski AKP Ankara Milletvekili ve eski Başbakan Başdanışmanı Ertan Aydın adliyeye sevk edildi. Hakkında arama kararı bulunan Altınbaş Holding'in sahibi Nusret Altınbaş ise gözaltına alındı.\n[sabah · 19:43] Fon soruşturmasında yeni gelişme: Ertan Aydın hakkında karar verildi! — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturması kapsamında eski Milletvekili Ertan Aydın tutuklama talebiyle hakimliğe sevk edildi. Aydın, ev hapsi ve yurt dışı çıkış yasağı şeklindeki adli kontrol şartıyla serbest bırakıldı.\n[diken · 21:03] Fon soruşturması: Eski başbakan danışmanı Ertan Aydın hakkında tutuklama talebi — 24.10.2026 - Fon soruşturmasında gözaltına alınan eski AKP milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın tutuklama talebiyle sulh ceza hakimliğine sevk edildi.\n[aa · 11:59] Sermaye piyasası işlemleri soruşturmasında Ertan Aydın tutuklandı\n[birgun · 14:56] Fon vurgunu soruşturması: Ertan Aydın ve Gürol Sami Özer gözaltına alındı\n[sozcu · 14:57] Eski AKP milletvekili Ertan Aydın yeniden gözaltına alındı — Fon skandalına yönelik soruşturma kapsamında çıkarıldığı mahkemece ev hapsi kararı verilen eski AKP milletvekili ve başbakan danışmanı Ertan Aydın hakkında yeniden yakalama kararı çıkarıldı. Aydın, kararın ardından yeniden gözaltına alındı.\n[ntv · 14:58] Fon soruşturması. Ertan Aydın ve Gürol Sami Özer tutuklandı — Fon soruşturmasında eski AK Parti milletvekili Ertan Aydın ve Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer tutuklandı.\n[mynet · 14:58] Fon soruşturmasında yeni gelişme! Ertan Aydın ve Gürol Sami Özer tutuklandı — Sermaye piyasalarında gerçekleştirilen işlemlere dair yürütülen fon soruşturmaları kapsamında gözaltına alınan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın hakkında adli kontrol tedbiri kararına yapılan itiraz sonucu hakkında yakalama kararı …\n[star · 14:59] Fon soruşturmasında yeni gelişme! Ertan Aydın gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturmaları kapsamında, hakkında verilen adli kontrol kararına yapılan itiraz üzerine yakalama kararı çıkarılan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın, Ankara'da …\n[turkiyegz · 14:59] Fon soruşturmasında Ertan Aydın tutuklandı — Sermaye piyasası işlemlerine ilişkin fon soruşturması kapsamında, adli kontrol kararına yapılan itiraz üzerine yeniden gözaltına alınan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın tutuklandı.\n[haberturk · 15:06] Fon soruşturmasında yeni gelişme: Ertan Aydın tutuklandı\n[trthaber · 15:46] Fon soruşturmasında Ertan Aydın yeniden gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturmaları kapsamında, hakkında verilen adli kontrol kararına yapılan itiraz üzerine yakalama kararı çıkarılan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın, Ankara'da …\n[dirilis · 16:11] Ertan Aydın hakkında fon soruşturmasında yakalama kararı — Fon soruşturmasında ev hapsiyle serbest bırakılan eski AK Parti milletvekili Ertan Aydın hakkında, savcılığın itirazı üzerine mahkeme yakalama kararı verdi.\n[yenisafak · 16:12] Ertan Aydın kimdir, kaç yaşında ve nereli? Ertan Aydın gözaltın alındı mı? — Ertan Aydın hakkında adli kontrol tedbiri kararına yapılan itiraz sonucu yakalama kararı verildi. Ertan Aydın, 6 Haziran 1971’de Ardahan’da doğan Türk siyaset bilimci, sosyolog ve eski milletvekilidir. Orta Doğu Teknik Üniversitesi Sosyoloji Bölümünden mezun olduktan sonra …\n[karar · 23:52] Son dakika! Fon soruşturmasında yeni karar: Ertan Aydın tutuklandı — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturmasında, daha önce ev hapsi ve yurt dışına çıkış yasağıyla serbest bırakılan eski AK Parti Milletvekili Ertan Aydın tutuklandı. Savcılığın adli kontrol kararına itiraz etmesinin ardından hakkında yakalama kararı …\n[haberler · 23:58] Fon soruşturmasında yeniden gözaltına alınan eski AK Parti Milletvekili Ertan Aydın tutuklandı\n[yeniasya · 00:53] Ertan Aydın tutuklandı!"
+  },
+  {
+   "key": "s4186__salience-bias",
+   "output_file": "runs/bg/explain/s4186__salience-bias.json",
+   "event_title": "Fon soruşturmasında Ertan Aydın tutuklandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Son dakika! Fon soruşturmasında yeni karar: Ertan Aydın tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında yeni gelişme: Ertan Aydın tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başlıklarda 'son dakika' gibi dikkat çekici öğeler var; ancak çarpıcı bir ayrıntının hükmü haksız biçimde yönlendirdiği gösterilmiyor.",
+   "skeptic_alternative": "Biçimsel vurgu haber akışı kalıbı; içerik olgusal.",
+   "missing_context": [
+    "Karşılaştırmalı ağırlık verisi",
+    "Karşılaştırmalı ağırlıklandırma kanıtı"
+   ],
+   "headlines": "[cumhuriyet · 17:51] Fon soruşturması: Eski AKP milletvekili Ertan Aydın adliyeye sevk edildi, Nusret Altınbaş gözaltına alındı — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturmaları kapsamında eski AKP Ankara Milletvekili ve eski Başbakan Başdanışmanı Ertan Aydın adliyeye sevk edildi. Hakkında arama kararı bulunan Altınbaş Holding'in sahibi Nusret Altınbaş ise gözaltına alındı.\n[sabah · 19:43] Fon soruşturmasında yeni gelişme: Ertan Aydın hakkında karar verildi! — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturması kapsamında eski Milletvekili Ertan Aydın tutuklama talebiyle hakimliğe sevk edildi. Aydın, ev hapsi ve yurt dışı çıkış yasağı şeklindeki adli kontrol şartıyla serbest bırakıldı.\n[diken · 21:03] Fon soruşturması: Eski başbakan danışmanı Ertan Aydın hakkında tutuklama talebi — 24.10.2026 - Fon soruşturmasında gözaltına alınan eski AKP milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın tutuklama talebiyle sulh ceza hakimliğine sevk edildi.\n[aa · 11:59] Sermaye piyasası işlemleri soruşturmasında Ertan Aydın tutuklandı\n[birgun · 14:56] Fon vurgunu soruşturması: Ertan Aydın ve Gürol Sami Özer gözaltına alındı\n[sozcu · 14:57] Eski AKP milletvekili Ertan Aydın yeniden gözaltına alındı — Fon skandalına yönelik soruşturma kapsamında çıkarıldığı mahkemece ev hapsi kararı verilen eski AKP milletvekili ve başbakan danışmanı Ertan Aydın hakkında yeniden yakalama kararı çıkarıldı. Aydın, kararın ardından yeniden gözaltına alındı.\n[ntv · 14:58] Fon soruşturması. Ertan Aydın ve Gürol Sami Özer tutuklandı — Fon soruşturmasında eski AK Parti milletvekili Ertan Aydın ve Türkiye Sigorta Genel Müdür Yardımcısı Gürol Sami Özer tutuklandı.\n[mynet · 14:58] Fon soruşturmasında yeni gelişme! Ertan Aydın ve Gürol Sami Özer tutuklandı — Sermaye piyasalarında gerçekleştirilen işlemlere dair yürütülen fon soruşturmaları kapsamında gözaltına alınan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın hakkında adli kontrol tedbiri kararına yapılan itiraz sonucu hakkında yakalama kararı …\n[star · 14:59] Fon soruşturmasında yeni gelişme! Ertan Aydın gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturmaları kapsamında, hakkında verilen adli kontrol kararına yapılan itiraz üzerine yakalama kararı çıkarılan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın, Ankara'da …\n[turkiyegz · 14:59] Fon soruşturmasında Ertan Aydın tutuklandı — Sermaye piyasası işlemlerine ilişkin fon soruşturması kapsamında, adli kontrol kararına yapılan itiraz üzerine yeniden gözaltına alınan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın tutuklandı.\n[haberturk · 15:06] Fon soruşturmasında yeni gelişme: Ertan Aydın tutuklandı\n[trthaber · 15:46] Fon soruşturmasında Ertan Aydın yeniden gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturmaları kapsamında, hakkında verilen adli kontrol kararına yapılan itiraz üzerine yakalama kararı çıkarılan eski AK Parti milletvekili, araştırma ve kampanya şirketi kurucusu Ertan Aydın, Ankara'da …\n[dirilis · 16:11] Ertan Aydın hakkında fon soruşturmasında yakalama kararı — Fon soruşturmasında ev hapsiyle serbest bırakılan eski AK Parti milletvekili Ertan Aydın hakkında, savcılığın itirazı üzerine mahkeme yakalama kararı verdi.\n[yenisafak · 16:12] Ertan Aydın kimdir, kaç yaşında ve nereli? Ertan Aydın gözaltın alındı mı? — Ertan Aydın hakkında adli kontrol tedbiri kararına yapılan itiraz sonucu yakalama kararı verildi. Ertan Aydın, 6 Haziran 1971’de Ardahan’da doğan Türk siyaset bilimci, sosyolog ve eski milletvekilidir. Orta Doğu Teknik Üniversitesi Sosyoloji Bölümünden mezun olduktan sonra …\n[karar · 23:52] Son dakika! Fon soruşturmasında yeni karar: Ertan Aydın tutuklandı — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturmasında, daha önce ev hapsi ve yurt dışına çıkış yasağıyla serbest bırakılan eski AK Parti Milletvekili Ertan Aydın tutuklandı. Savcılığın adli kontrol kararına itiraz etmesinin ardından hakkında yakalama kararı …\n[haberler · 23:58] Fon soruşturmasında yeniden gözaltına alınan eski AK Parti Milletvekili Ertan Aydın tutuklandı\n[yeniasya · 00:53] Ertan Aydın tutuklandı!"
+  },
+  {
+   "key": "s4284__framing-effect",
+   "output_file": "runs/bg/explain/s4284__framing-effect.json",
+   "event_title": "Mekke Anlaşması TBMM Dışişleri Komisyonunda kabul edildi",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Mekke Savunma Anlaşması komisyonda kabul edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MHP'den 57 İslam ülkesini kapsayan ittifak önerisi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Dışişleri Komisyonunda kabul edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ortak savunmada yeni gelişme! Mekke Anlaşması TBMM Dışişleri Komisyonu’nda kabul edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mekke Anlaşması komisyonda kabul edildi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı komisyon kararı 'savunma anlaşması', geniş 'ittifak' önerisi veya teknik onay dili ile sunuluyor; çerçeve bir yargıya bağlanmıyor.",
+   "skeptic_alternative": "Prosedürel bir meclis haberi; üslup farkları önemsiz düzeyde.",
+   "missing_context": [
+    "Anlaşma metni",
+    "Anlaşmanın içeriğine ilişkin değerlendirmeler",
+    "MHP önerisinin bağlamı"
+   ],
+   "headlines": "[ntv · 16:29] Mekke Savunma Anlaşması komisyonda kabul edildi — Türkiye, Pakistan ve Suudi Arabistan arasında imzalanan Mekke İttifakı anlaşması Dışişleri Komisyonu'nda kabul edildi. Gözler, Genel Kurul görüşmelerine çevrildi.\n[yenisafak · 04:00] Mekke Anlaşması TBMM’ye geliyor\n[aksam · 07:10] Mekke Anlaşması, Meclis Komisyonu'nda\n[haberler · 00:01] TBMM Genel Kurulu toplanacak, Dışişleri Komisyonu Mekke Anlaşmasını görüşecek\n[haberturk · 11:35] Mekke Anlaşması komisyonda kabul edildi\n[tgrt · 11:41] Mekke Anlaşması Meclis Komisyonu'nda kabul edildi\n[aa · 11:57] Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Dışişleri Komisyonunda kabul edildi\n[cumhuriyet · 12:39] Komisyonda kabul edildi: Mekke Anlaşması nedir? Mekke Ortak Savunma Anlaşması'nda hangi ülkeler var? Mekke Anlaşması maddeleri neler?\n[sondakika · 12:51] Mekke Anlaşması TBMM Dışişleri Komisyonunda kabul edildi\n[star · 12:55] Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Dışişleri Komisyonunda\n[trthaber · 13:00] Mekke Anlaşması TBMM Dışişleri Komisyonunda\n[yeniasya · 13:08] Mekke Anlaşması Dışişleri Komisyonu'nda\n[takvim · 13:22] Mekke Anlaşması TBMM Dışişleri Komisyonunda kabul edildi: MHP'den 57 İslam ülkesini kapsayan ittifak önerisi\n[sabah · 15:48] Son dakika: Mekke Anlaşması Komisyonda kabul edildi\n[ahaber · 15:49] Ortak savunmada yeni gelişme! Mekke Anlaşması TBMM Dışişleri Komisyonu’nda kabul edildi\n[sozcu · 15:54] Mekke Anlaşması komisyonda kabul edildi\n[milligazete · 16:34] Mekke Anlaşması TBMM Dışişleri Komisyonu'ndan geçti!"
+  },
+  {
+   "key": "s4284__salience-bias",
+   "output_file": "runs/bg/explain/s4284__salience-bias.json",
+   "event_title": "Mekke Anlaşması TBMM Dışişleri Komisyonunda kabul edildi",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Ortak savunmada yeni gelişme! Mekke Anlaşması TBMM Dışişleri Komisyonu’nda kabul edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mekke Anlaşması TBMM Dışişleri Komisyonu'ndan geçti!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mekke Anlaşması TBMM Dışişleri Komisyonunda",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MHP'den 57 İslam ülkesini kapsayan ittifak önerisi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar ünlem ve 'ortak savunma' vurgusu taşırken diğerleri sade; çarpıcı öğenin bir hükmü yönlendirdiği gösterilmiyor.",
+   "skeptic_alternative": "Ek öneri komisyon görüşmesinde gündeme gelmiş ilgili bir gelişme olabilir.",
+   "missing_context": [
+    "Karar etkisine dair veri",
+    "Önerinin komisyon görüşmesiyle ilişkisi"
+   ],
+   "headlines": "[ntv · 16:29] Mekke Savunma Anlaşması komisyonda kabul edildi — Türkiye, Pakistan ve Suudi Arabistan arasında imzalanan Mekke İttifakı anlaşması Dışişleri Komisyonu'nda kabul edildi. Gözler, Genel Kurul görüşmelerine çevrildi.\n[yenisafak · 04:00] Mekke Anlaşması TBMM’ye geliyor\n[aksam · 07:10] Mekke Anlaşması, Meclis Komisyonu'nda\n[haberler · 00:01] TBMM Genel Kurulu toplanacak, Dışişleri Komisyonu Mekke Anlaşmasını görüşecek\n[haberturk · 11:35] Mekke Anlaşması komisyonda kabul edildi\n[tgrt · 11:41] Mekke Anlaşması Meclis Komisyonu'nda kabul edildi\n[aa · 11:57] Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Dışişleri Komisyonunda kabul edildi\n[cumhuriyet · 12:39] Komisyonda kabul edildi: Mekke Anlaşması nedir? Mekke Ortak Savunma Anlaşması'nda hangi ülkeler var? Mekke Anlaşması maddeleri neler?\n[sondakika · 12:51] Mekke Anlaşması TBMM Dışişleri Komisyonunda kabul edildi\n[star · 12:55] Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Dışişleri Komisyonunda\n[trthaber · 13:00] Mekke Anlaşması TBMM Dışişleri Komisyonunda\n[yeniasya · 13:08] Mekke Anlaşması Dışişleri Komisyonu'nda\n[takvim · 13:22] Mekke Anlaşması TBMM Dışişleri Komisyonunda kabul edildi: MHP'den 57 İslam ülkesini kapsayan ittifak önerisi\n[sabah · 15:48] Son dakika: Mekke Anlaşması Komisyonda kabul edildi\n[ahaber · 15:49] Ortak savunmada yeni gelişme! Mekke Anlaşması TBMM Dışişleri Komisyonu’nda kabul edildi\n[sozcu · 15:54] Mekke Anlaşması komisyonda kabul edildi\n[milligazete · 16:34] Mekke Anlaşması TBMM Dışişleri Komisyonu'ndan geçti!"
+  },
+  {
+   "key": "s4284__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4284__leveling-and-sharpening.json",
+   "event_title": "Mekke Anlaşması TBMM Dışişleri Komisyonunda kabul edildi",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Türkiye, Pakistan ve Suudi Arabistan arasında imzalanan Mekke İttifakı anlaşması Dışişleri Komisyonu'nda kabul edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Dışişleri Komisyonunda kabul edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mekke Anlaşması TBMM Dışişleri Komisyonunda",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Teknik tabanda 'onayın uygun bulunmasına dair kanun teklifi' kabul edilirken bazı aktarımlar bunu 'anlaşma kabul edildi' veya 'ittifak' olarak sadeleştirip keskinleştiriyor; maddi etki gösterilmiyor.",
+   "skeptic_alternative": "Kısaltma başlık yazımında olağan; bazı başlıklar görüşme öncesine ait olabilir.",
+   "missing_context": [
+    "Başlıkların görüşme öncesi mi sonrası mı yayımlandığı",
+    "Genel Kurul süreci ve anlaşmanın resmi adı",
+    "Kısaltmanın okur sonucuna etkisi"
+   ],
+   "headlines": "[ntv · 16:29] Mekke Savunma Anlaşması komisyonda kabul edildi — Türkiye, Pakistan ve Suudi Arabistan arasında imzalanan Mekke İttifakı anlaşması Dışişleri Komisyonu'nda kabul edildi. Gözler, Genel Kurul görüşmelerine çevrildi.\n[yenisafak · 04:00] Mekke Anlaşması TBMM’ye geliyor\n[aksam · 07:10] Mekke Anlaşması, Meclis Komisyonu'nda\n[haberler · 00:01] TBMM Genel Kurulu toplanacak, Dışişleri Komisyonu Mekke Anlaşmasını görüşecek\n[haberturk · 11:35] Mekke Anlaşması komisyonda kabul edildi\n[tgrt · 11:41] Mekke Anlaşması Meclis Komisyonu'nda kabul edildi\n[aa · 11:57] Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Dışişleri Komisyonunda kabul edildi\n[cumhuriyet · 12:39] Komisyonda kabul edildi: Mekke Anlaşması nedir? Mekke Ortak Savunma Anlaşması'nda hangi ülkeler var? Mekke Anlaşması maddeleri neler?\n[sondakika · 12:51] Mekke Anlaşması TBMM Dışişleri Komisyonunda kabul edildi\n[star · 12:55] Mekke Anlaşması'nın onaylanmasının uygun bulunduğuna dair kanun teklifi TBMM Dışişleri Komisyonunda\n[trthaber · 13:00] Mekke Anlaşması TBMM Dışişleri Komisyonunda\n[yeniasya · 13:08] Mekke Anlaşması Dışişleri Komisyonu'nda\n[takvim · 13:22] Mekke Anlaşması TBMM Dışişleri Komisyonunda kabul edildi: MHP'den 57 İslam ülkesini kapsayan ittifak önerisi\n[sabah · 15:48] Son dakika: Mekke Anlaşması Komisyonda kabul edildi\n[ahaber · 15:49] Ortak savunmada yeni gelişme! Mekke Anlaşması TBMM Dışişleri Komisyonu’nda kabul edildi\n[sozcu · 15:54] Mekke Anlaşması komisyonda kabul edildi\n[milligazete · 16:34] Mekke Anlaşması TBMM Dışişleri Komisyonu'ndan geçti!"
+  },
+  {
+   "key": "s4296__framing-effect",
+   "output_file": "runs/bg/explain/s4296__framing-effect.json",
+   "event_title": "Cumhurbaşkanı Başdanışmanı Oktay Saral istifa etti",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Azerbaycan talep etmişti: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Oktay Saral görevinden istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sayın Cumhurbaşkanımız göreve getirdi, kendisinin talimatıyla ayrıldım. Kimseye kırgınlığım yok",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cumhurbaşkanı Başdanışmanı Oktay Saral 10 yıllık görevinden istifa etti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı ayrılış bir grup kurumda 'görevden alındı', diğerlerinde 'istifa etti' olarak çerçeveleniyor; Saral'ın 'talimatıyla ayrıldım' beyanı iki çerçeveyi bağlıyor, ancak bir yargıya bağlanma gösterilmiyor.",
+   "skeptic_alternative": "Olayın iki aşaması (görevden alma haberi, ardından istifa açıklaması) farklı zamanlarda aktarılmış olabilir.",
+   "missing_context": [
+    "Resmi atama/görevden alma kararı",
+    "Resmi kararname veya açıklama",
+    "Saral'ın istifa açıklamasının tam metni",
+    "İki ifadenin olgusal ilişkisi"
+   ],
+   "headlines": "[birgun · 18:22] Azerbaycan talep etmişti: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı\n[mynet · 18:31] Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındığını açıkladı: \"Kimseye kırgınlığım yok\"\n[milligazete · 18:59] Başörtüsü yasağına karşı çıkıp Azerbaycan'ın tepkisini çekmişti! Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı — Cumhurbaşkanı Başdanışmanı Oktay Saral, Azerbaycan'daki okullarda uygulanan başörtüsü yasağını eleştirmesinin ardından görevinden alındı. Kararı…\n[cumhuriyet · 19:04] Son Dakika... Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı: 'Azerbaycan açıklamalarım nedeniyle...' — Azerbaycan'a yönelik 'başörtüsü' ifadelerinin ardından Cumhurbaşkanı Danışması Oktay Saral, görevden alındı. Söz konusu gelişmenin ardından Saral Sayın Cumhurbaşkanımız göreve getirdi, kendisinin talimatıyla ayrıldım. Kimseye kırgınlığım yok” ifadelerini kullandı.\n[diken · 20:02] İddia: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı — 25.10.2026 - Azerbaycan’da 'başörtüsü yasağı'na ilişkin açıklamaları nedeniyle eleştirilen Cumhurbaşkanı Başdanışmanı Oktay Saral'ın görevden alındığı belirtildi.\n[yenisafak · 08:32] Oktay Saral kimdir? Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı mı?\n[haberler · 11:22] Görevden alınan Cumhurbaşkanı Danışmanı Oktay Saral ilk kez konuştu\n[sozcu · 12:08] SON DAKİKA... Oktay Saral istifa ettiğini açıkladı\n[tgrt · 12:18] Oktay Saral istifa ettiğini açıkladı\n[haberturk · 12:19] Oktay Saral görevinden istifa etti\n[aksam · 12:23] Cumhurbaşkanı Başdanışmanı Oktay Saral istifa etti\n[star · 12:23] Oktay Saral görevinden istifa etti — Cumhurbaşkanı Başdanışmanlarından Oktay Saral görevinden istifa etti\n[onedio · 12:26] Görevden Alınan Oktay Saral İstifa Etti\n[turkiyegz · 12:27] Oktay Saral istifa ettiğini duyurdu\n[ahaber · 12:34] Cumhurbaşkanı Başdanışmanı Oktay Saral görevinden istifa etti\n[takvim · 12:38] Cumhurbaşkanı Başdanışmanı Oktay Saral 10 yıllık görevinden istifa etti\n[ntv · 12:38] Cumhurbaşkanı Başdanışmanı Oktay Saral görevinden istifa etti"
+  },
+  {
+   "key": "s4296__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4296__leveling-and-sharpening.json",
+   "event_title": "Cumhurbaşkanı Başdanışmanı Oktay Saral istifa etti",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "İddia: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Azerbaycan talep etmişti: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cumhurbaşkanı Başdanışmanı Oktay Saral 10 yıllık görevinden istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Görevden Alınan Oktay Saral İstifa Etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Oktay Saral görevinden istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sayın Cumhurbaşkanımız göreve getirdi, kendisinin talimatıyla ayrıldım",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurumun 'İddia' kaydıyla verdiği bilgi diğerinde kesin olgu ve nedensellik ('Azerbaycan talep etmişti') olarak keskinleşmiş; kayıt düzleşmiş görünüyor.",
+   "skeptic_alternative": "Saral'ın kendi istifa açıklaması yeni olgu olarak haberleştirilmiş olabilir; önceki bağlam başka haberlerde verilmiş olabilir.",
+   "missing_context": [
+    "Azerbaycan talebine dair kaynak",
+    "Haber gövdeleri",
+    "Kurumların önceki haberleri",
+    "Saral'ın istifa açıklamasının tam metni"
+   ],
+   "headlines": "[birgun · 18:22] Azerbaycan talep etmişti: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı\n[mynet · 18:31] Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındığını açıkladı: \"Kimseye kırgınlığım yok\"\n[milligazete · 18:59] Başörtüsü yasağına karşı çıkıp Azerbaycan'ın tepkisini çekmişti! Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı — Cumhurbaşkanı Başdanışmanı Oktay Saral, Azerbaycan'daki okullarda uygulanan başörtüsü yasağını eleştirmesinin ardından görevinden alındı. Kararı…\n[cumhuriyet · 19:04] Son Dakika... Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı: 'Azerbaycan açıklamalarım nedeniyle...' — Azerbaycan'a yönelik 'başörtüsü' ifadelerinin ardından Cumhurbaşkanı Danışması Oktay Saral, görevden alındı. Söz konusu gelişmenin ardından Saral Sayın Cumhurbaşkanımız göreve getirdi, kendisinin talimatıyla ayrıldım. Kimseye kırgınlığım yok” ifadelerini kullandı.\n[diken · 20:02] İddia: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı — 25.10.2026 - Azerbaycan’da 'başörtüsü yasağı'na ilişkin açıklamaları nedeniyle eleştirilen Cumhurbaşkanı Başdanışmanı Oktay Saral'ın görevden alındığı belirtildi.\n[yenisafak · 08:32] Oktay Saral kimdir? Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı mı?\n[haberler · 11:22] Görevden alınan Cumhurbaşkanı Danışmanı Oktay Saral ilk kez konuştu\n[sozcu · 12:08] SON DAKİKA... Oktay Saral istifa ettiğini açıkladı\n[tgrt · 12:18] Oktay Saral istifa ettiğini açıkladı\n[haberturk · 12:19] Oktay Saral görevinden istifa etti\n[aksam · 12:23] Cumhurbaşkanı Başdanışmanı Oktay Saral istifa etti\n[star · 12:23] Oktay Saral görevinden istifa etti — Cumhurbaşkanı Başdanışmanlarından Oktay Saral görevinden istifa etti\n[onedio · 12:26] Görevden Alınan Oktay Saral İstifa Etti\n[turkiyegz · 12:27] Oktay Saral istifa ettiğini duyurdu\n[ahaber · 12:34] Cumhurbaşkanı Başdanışmanı Oktay Saral görevinden istifa etti\n[takvim · 12:38] Cumhurbaşkanı Başdanışmanı Oktay Saral 10 yıllık görevinden istifa etti\n[ntv · 12:38] Cumhurbaşkanı Başdanışmanı Oktay Saral görevinden istifa etti"
+  },
+  {
+   "key": "s4296__source-confusion",
+   "output_file": "runs/bg/explain/s4296__source-confusion.json",
+   "event_title": "Cumhurbaşkanı Başdanışmanı Oktay Saral istifa etti",
+   "concept": "Source Confusion",
+   "definition": "Source confusion is difficulty or error in identifying where a remembered fact, image, or event came from, such as mistaking something heard, read, suggested, or imagined for direct experience. The Decision Lab labels this entry “Bias” but defines a memory-source error; source confusion can occur without faulty reasoning and source detachment can also support learning.",
+   "quotes": [
+    {
+     "quote": "Azerbaycan talep etmişti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "'Azerbaycan açıklamalarım nedeniyle...'",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Görevden Alınan Oktay Saral İstifa Etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İddia: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Ayrılış nedeni bir kurumda Azerbaycan'ın talebine, bir başka kurumda Saral'ın kendi açıklamalarına atfediliyor; kaynak atfında belirsizlik var ancak kayıtla doğrulanmış bir uyumsuzluk yok.",
+   "skeptic_alternative": "Bu bir hafıza-kaynak hatası değil, doğrulama düzeyi farkı; kurumlar farklı kaynaklara dayanmış olabilir.",
+   "missing_context": [
+    "Azerbaycan talebinin kaynağı",
+    "Azerbaycan'ın resmi talebine dair belge",
+    "Bilginin ilk kaynağı",
+    "Kaynak uyuşmazlığını gösteren resmi kayıt"
+   ],
+   "headlines": "[birgun · 18:22] Azerbaycan talep etmişti: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı\n[mynet · 18:31] Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındığını açıkladı: \"Kimseye kırgınlığım yok\"\n[milligazete · 18:59] Başörtüsü yasağına karşı çıkıp Azerbaycan'ın tepkisini çekmişti! Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı — Cumhurbaşkanı Başdanışmanı Oktay Saral, Azerbaycan'daki okullarda uygulanan başörtüsü yasağını eleştirmesinin ardından görevinden alındı. Kararı…\n[cumhuriyet · 19:04] Son Dakika... Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı: 'Azerbaycan açıklamalarım nedeniyle...' — Azerbaycan'a yönelik 'başörtüsü' ifadelerinin ardından Cumhurbaşkanı Danışması Oktay Saral, görevden alındı. Söz konusu gelişmenin ardından Saral Sayın Cumhurbaşkanımız göreve getirdi, kendisinin talimatıyla ayrıldım. Kimseye kırgınlığım yok” ifadelerini kullandı.\n[diken · 20:02] İddia: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı — 25.10.2026 - Azerbaycan’da 'başörtüsü yasağı'na ilişkin açıklamaları nedeniyle eleştirilen Cumhurbaşkanı Başdanışmanı Oktay Saral'ın görevden alındığı belirtildi.\n[yenisafak · 08:32] Oktay Saral kimdir? Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı mı?\n[haberler · 11:22] Görevden alınan Cumhurbaşkanı Danışmanı Oktay Saral ilk kez konuştu\n[sozcu · 12:08] SON DAKİKA... Oktay Saral istifa ettiğini açıkladı\n[tgrt · 12:18] Oktay Saral istifa ettiğini açıkladı\n[haberturk · 12:19] Oktay Saral görevinden istifa etti\n[aksam · 12:23] Cumhurbaşkanı Başdanışmanı Oktay Saral istifa etti\n[star · 12:23] Oktay Saral görevinden istifa etti — Cumhurbaşkanı Başdanışmanlarından Oktay Saral görevinden istifa etti\n[onedio · 12:26] Görevden Alınan Oktay Saral İstifa Etti\n[turkiyegz · 12:27] Oktay Saral istifa ettiğini duyurdu\n[ahaber · 12:34] Cumhurbaşkanı Başdanışmanı Oktay Saral görevinden istifa etti\n[takvim · 12:38] Cumhurbaşkanı Başdanışmanı Oktay Saral 10 yıllık görevinden istifa etti\n[ntv · 12:38] Cumhurbaşkanı Başdanışmanı Oktay Saral görevinden istifa etti"
+  },
+  {
+   "key": "s4296__salience-bias",
+   "output_file": "runs/bg/explain/s4296__salience-bias.json",
+   "event_title": "Cumhurbaşkanı Başdanışmanı Oktay Saral istifa etti",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Başörtüsü yasağına karşı çıkıp Azerbaycan'ın tepkisini çekmişti!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SON DAKİKA... Oktay Saral istifa ettiğini açıkladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Oktay Saral istifa ettiğini açıkladı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurum duygusal yükü yüksek başörtüsü tartışmasını öne çıkarırken diğerleri yalnızca istifayı veriyor; karşılaştırmalı vurgu farkı var.",
+   "skeptic_alternative": "Başörtüsü açıklaması ayrılışın bildirilen nedeni; öne çıkarılması bağlam sağlıyor olabilir.",
+   "missing_context": [
+    "Ayrılışın resmi gerekçesi",
+    "Okur/karar etkisine dair veri",
+    "Vurgunun okur yargısına etkisi"
+   ],
+   "headlines": "[birgun · 18:22] Azerbaycan talep etmişti: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı\n[mynet · 18:31] Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındığını açıkladı: \"Kimseye kırgınlığım yok\"\n[milligazete · 18:59] Başörtüsü yasağına karşı çıkıp Azerbaycan'ın tepkisini çekmişti! Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı — Cumhurbaşkanı Başdanışmanı Oktay Saral, Azerbaycan'daki okullarda uygulanan başörtüsü yasağını eleştirmesinin ardından görevinden alındı. Kararı…\n[cumhuriyet · 19:04] Son Dakika... Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı: 'Azerbaycan açıklamalarım nedeniyle...' — Azerbaycan'a yönelik 'başörtüsü' ifadelerinin ardından Cumhurbaşkanı Danışması Oktay Saral, görevden alındı. Söz konusu gelişmenin ardından Saral Sayın Cumhurbaşkanımız göreve getirdi, kendisinin talimatıyla ayrıldım. Kimseye kırgınlığım yok” ifadelerini kullandı.\n[diken · 20:02] İddia: Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı — 25.10.2026 - Azerbaycan’da 'başörtüsü yasağı'na ilişkin açıklamaları nedeniyle eleştirilen Cumhurbaşkanı Başdanışmanı Oktay Saral'ın görevden alındığı belirtildi.\n[yenisafak · 08:32] Oktay Saral kimdir? Cumhurbaşkanı Başdanışmanı Oktay Saral görevden alındı mı?\n[haberler · 11:22] Görevden alınan Cumhurbaşkanı Danışmanı Oktay Saral ilk kez konuştu\n[sozcu · 12:08] SON DAKİKA... Oktay Saral istifa ettiğini açıkladı\n[tgrt · 12:18] Oktay Saral istifa ettiğini açıkladı\n[haberturk · 12:19] Oktay Saral görevinden istifa etti\n[aksam · 12:23] Cumhurbaşkanı Başdanışmanı Oktay Saral istifa etti\n[star · 12:23] Oktay Saral görevinden istifa etti — Cumhurbaşkanı Başdanışmanlarından Oktay Saral görevinden istifa etti\n[onedio · 12:26] Görevden Alınan Oktay Saral İstifa Etti\n[turkiyegz · 12:27] Oktay Saral istifa ettiğini duyurdu\n[ahaber · 12:34] Cumhurbaşkanı Başdanışmanı Oktay Saral görevinden istifa etti\n[takvim · 12:38] Cumhurbaşkanı Başdanışmanı Oktay Saral 10 yıllık görevinden istifa etti\n[ntv · 12:38] Cumhurbaşkanı Başdanışmanı Oktay Saral görevinden istifa etti"
+  },
+  {
+   "key": "s5585__salience-bias",
+   "output_file": "runs/bg/explain/s5585__salience-bias.json",
+   "event_title": "Kılıçdaroğlu ve Özel'den Bahçeli'ye taziye ziyareti",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Devlet Bahçeli'ye peş peşe taziye ziyaretleri!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kız kardeşi Osmaniye’de toprağa verildi!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kılıçdaroğlu'ndan MHP lideri Devlet Bahçeli'ye taziye ziyareti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "AK Parti, CHP ve Yeni Parti'den Bahçeli'ye taziye ziyareti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar ünlem ve duygusal ayrıntıyla (cenaze, peş peşe ziyaret) olayı öne çıkarıyor; ancak bu öne çıkarmanın bir yargıyı haksız biçimde yönlendirdiği metinde gösterilmiyor.",
+   "skeptic_alternative": "Ziyaretler farklı saatlerde gerçekleşmiş olabilir; kurumlar haberi ilk ziyaret anında yazıp sonradan güncellememiş olabilir.",
+   "missing_context": [
+    "Başlıkların okuyucu yargısına etkisini gösteren karşılaştırmalı veri",
+    "Başlıkların sonradan güncellenip güncellenmediği",
+    "Haber gövdelerinin tam metni",
+    "Haberlerin tam metni",
+    "Ziyaretlerin gerçek saat sırası"
+   ],
+   "headlines": "[sondakika · 10:38] Kılıçdaroğlu, kız kardeşi vefat eden Bahçeli'ye Meclis'te taziye ziyaretinde bulundu\n[hurriyet · 13:08] Son dakika… AK Parti, CHP ve Yeni Parti'den Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, Yeni Parti Genel Başkanı Özgür Özel ve AK Parti Grup Başkanı Abdullah Güler, kız kardeşini kaybeden MHP Genel Başkanı Devlet Bahçeli'ye taziye ziyaretinde bulundu.\n[haberler · 13:18] CHP Genel Başkanı Kılıçdaroğlu, MHP Genel Başkanı Bahçeli'ye taziye ziyaretinde bulundu\n[sabah · 13:18] Son dakika… Kılıçdaroğlu'ndan MHP lideri Devlet Bahçeli'ye taziye ziyareti\n[haberturk · 13:22] Devlet Bahçeli'ye taziye ziyareti\n[yenisafak · 13:23] Kemal Kılıçdaroğlu'ndan Devlet Bahçeli'ye taziye ziyareti\n[star · 13:23] Kılıçdaroğlu'ndan Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, kız kardeşini kaybeden MHP Genel Başkanı Devlet Bahçeli'ye taziye ziyaretinde bulundu.\n[takvim · 13:27] Kılıçdaroğlu'ndan Bahçeli'ye taziye ziyareti: Kardeş acısını paylaştı\n[cumhuriyet · 13:27] Kılıçdaroğlu'ndan, Bahçeli'ye TBMM'de taziye ziyareti\n[ahaber · 13:30] Siyaset dünyasından Devlet Bahçeli'ye taziye ziyaretleri! Kılıçdaroğlu ve Özel'den başsağlığı\n[birgun · 13:38] Özgür Özel'den Bahçeli'ye taziye ziyareti\n[sozcu · 13:42] Özgür Özel’den Devlet Bahçeli’ye taziye ziyareti\n[ntv · 13:43] AK Parti, Yeni Parti ve CHP'den Bahçeli'ye taziye ziyareti\n[turkiyegz · 13:55] Devlet Bahçeli'ye peş peşe taziye ziyaretleri! Kılıçdaroğlu, Özel ve AK Parti heyeti Meclis'te\n[aksam · 14:00] AK Parti'den MHP Genel Başkanı Bahçeli'ye taziye ziyareti\n[karar · 14:16] Özgür Özel’den Bahçeli’ye taziye ziyareti — YENİ Parti lideri Özel, kız kardeşi Serpil Bahçeli’yi kaybeden MHP Genel Başkanı Bahçeli’yi TBMM’de ziyaret etti. Özel, Bahçeli’ye başsağlığı dileklerini iletirken, görüşmede YENİ Parti milletvekilleri Harun Özgür Yıldızlı ve Asu Kaya da yer aldı.\n[akit · 15:19] Kız kardeşi Osmaniye’de toprağa verildi! Kılıçdaroğlu ve Özel'den Bahçeli'ye taziye ziyareti"
+  },
+  {
+   "key": "s5585__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5585__leveling-and-sharpening.json",
+   "event_title": "Kılıçdaroğlu ve Özel'den Bahçeli'ye taziye ziyareti",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "AK Parti, CHP ve Yeni Parti'den Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, Yeni Parti Genel Başkanı Özgür Özel ve AK Parti Grup Başkanı Abdullah Güler",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[birgun · 13:38] Özgür Özel'den Bahçeli'ye taziye ziyareti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sozcu · 13:42] Özgür Özel’den Devlet Bahçeli’ye taziye ziyareti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sabah · 13:18] Son dakika… Kılıçdaroğlu'ndan MHP lideri Devlet Bahçeli'ye taziye ziyareti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 14:00] AK Parti'den MHP Genel Başkanı Bahçeli'ye taziye ziyareti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "CHP Genel Başkanı Kemal Kılıçdaroğlu, Yeni Parti Genel Başkanı Özgür Özel ve AK Parti Grup Başkanı Abdullah Güler",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kılıçdaroğlu'ndan Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, kız kardeşini kaybeden",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Özgür Özel'den Bahçeli'ye taziye ziyareti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Üç partiden ziyaret aktaran başlığa kıyasla bazı kurumlar başlıkta yalnızca tek bir ziyaretçiyi (Özel, Kılıçdaroğlu ya da AK Parti) öne çıkarıp diğerlerini düşürüyor.",
+   "skeptic_alternative": "Ayrı ziyaretlerin ayrı haberler olarak yazılması olağan bir haberleştirme pratiğidir; eksiltmenin sonuca etkisi gösterilmemiş.",
+   "missing_context": [
+    "Eksiltmenin okur yargısına maddi etkisi",
+    "Haber gövdeleri",
+    "Kurumların diğer ziyaretleri ayrı haberde verip vermediği",
+    "Ziyaretlerin gerçek saatleri"
+   ],
+   "headlines": "[sondakika · 10:38] Kılıçdaroğlu, kız kardeşi vefat eden Bahçeli'ye Meclis'te taziye ziyaretinde bulundu\n[hurriyet · 13:08] Son dakika… AK Parti, CHP ve Yeni Parti'den Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, Yeni Parti Genel Başkanı Özgür Özel ve AK Parti Grup Başkanı Abdullah Güler, kız kardeşini kaybeden MHP Genel Başkanı Devlet Bahçeli'ye taziye ziyaretinde bulundu.\n[haberler · 13:18] CHP Genel Başkanı Kılıçdaroğlu, MHP Genel Başkanı Bahçeli'ye taziye ziyaretinde bulundu\n[sabah · 13:18] Son dakika… Kılıçdaroğlu'ndan MHP lideri Devlet Bahçeli'ye taziye ziyareti\n[haberturk · 13:22] Devlet Bahçeli'ye taziye ziyareti\n[yenisafak · 13:23] Kemal Kılıçdaroğlu'ndan Devlet Bahçeli'ye taziye ziyareti\n[star · 13:23] Kılıçdaroğlu'ndan Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, kız kardeşini kaybeden MHP Genel Başkanı Devlet Bahçeli'ye taziye ziyaretinde bulundu.\n[takvim · 13:27] Kılıçdaroğlu'ndan Bahçeli'ye taziye ziyareti: Kardeş acısını paylaştı\n[cumhuriyet · 13:27] Kılıçdaroğlu'ndan, Bahçeli'ye TBMM'de taziye ziyareti\n[ahaber · 13:30] Siyaset dünyasından Devlet Bahçeli'ye taziye ziyaretleri! Kılıçdaroğlu ve Özel'den başsağlığı\n[birgun · 13:38] Özgür Özel'den Bahçeli'ye taziye ziyareti\n[sozcu · 13:42] Özgür Özel’den Devlet Bahçeli’ye taziye ziyareti\n[ntv · 13:43] AK Parti, Yeni Parti ve CHP'den Bahçeli'ye taziye ziyareti\n[turkiyegz · 13:55] Devlet Bahçeli'ye peş peşe taziye ziyaretleri! Kılıçdaroğlu, Özel ve AK Parti heyeti Meclis'te\n[aksam · 14:00] AK Parti'den MHP Genel Başkanı Bahçeli'ye taziye ziyareti\n[karar · 14:16] Özgür Özel’den Bahçeli’ye taziye ziyareti — YENİ Parti lideri Özel, kız kardeşi Serpil Bahçeli’yi kaybeden MHP Genel Başkanı Bahçeli’yi TBMM’de ziyaret etti. Özel, Bahçeli’ye başsağlığı dileklerini iletirken, görüşmede YENİ Parti milletvekilleri Harun Özgür Yıldızlı ve Asu Kaya da yer aldı.\n[akit · 15:19] Kız kardeşi Osmaniye’de toprağa verildi! Kılıçdaroğlu ve Özel'den Bahçeli'ye taziye ziyareti"
+  },
+  {
+   "key": "s5585__in-group-bias",
+   "output_file": "runs/bg/explain/s5585__in-group-bias.json",
+   "event_title": "Kılıçdaroğlu ve Özel'den Bahçeli'ye taziye ziyareti",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "CHP Genel Başkanı Kemal Kılıçdaroğlu, Yeni Parti Genel Başkanı Özgür Özel ve AK Parti Grup Başkanı Abdullah Güler",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "birgun: sol (16)",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[birgun · 13:38] Özgür Özel'den Bahçeli'ye taziye ziyareti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[yenisafak · 13:23] Kemal Kılıçdaroğlu'ndan Devlet Bahçeli'ye taziye ziyareti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "yenisafak: sağ (82)",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Olayı vermeyen etkin kurumlar: aydinlik, diken, milligazete, mynet, trthaber",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Sol yerleşimli bazı kurumlar başlıkta Özel'i, sağ yerleşimli bazı kurumlar Kılıçdaroğlu'nu öne çıkarıyor; seçimin grup üyeliğiyle bağlantısı metinde açıkça kurulmuyor.",
+   "skeptic_alternative": "Başlık seçimi saat, ajans akışı ve ziyaret sırasıyla açıklanabilir; haberi vermeyen kurumlar farklı yelpazelerden.",
+   "missing_context": [
+    "Aynı kurumların benzer olaylardaki başlık tercihleri",
+    "Kurumların benzer olaylarda farklı partilere uyguladığı standartların karşılaştırması",
+    "Kurumların grup bağlılığına dair açık kayıt",
+    "Kurumların seçim gerekçesi"
+   ],
+   "headlines": "[sondakika · 10:38] Kılıçdaroğlu, kız kardeşi vefat eden Bahçeli'ye Meclis'te taziye ziyaretinde bulundu\n[hurriyet · 13:08] Son dakika… AK Parti, CHP ve Yeni Parti'den Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, Yeni Parti Genel Başkanı Özgür Özel ve AK Parti Grup Başkanı Abdullah Güler, kız kardeşini kaybeden MHP Genel Başkanı Devlet Bahçeli'ye taziye ziyaretinde bulundu.\n[haberler · 13:18] CHP Genel Başkanı Kılıçdaroğlu, MHP Genel Başkanı Bahçeli'ye taziye ziyaretinde bulundu\n[sabah · 13:18] Son dakika… Kılıçdaroğlu'ndan MHP lideri Devlet Bahçeli'ye taziye ziyareti\n[haberturk · 13:22] Devlet Bahçeli'ye taziye ziyareti\n[yenisafak · 13:23] Kemal Kılıçdaroğlu'ndan Devlet Bahçeli'ye taziye ziyareti\n[star · 13:23] Kılıçdaroğlu'ndan Bahçeli'ye taziye ziyareti — CHP Genel Başkanı Kemal Kılıçdaroğlu, kız kardeşini kaybeden MHP Genel Başkanı Devlet Bahçeli'ye taziye ziyaretinde bulundu.\n[takvim · 13:27] Kılıçdaroğlu'ndan Bahçeli'ye taziye ziyareti: Kardeş acısını paylaştı\n[cumhuriyet · 13:27] Kılıçdaroğlu'ndan, Bahçeli'ye TBMM'de taziye ziyareti\n[ahaber · 13:30] Siyaset dünyasından Devlet Bahçeli'ye taziye ziyaretleri! Kılıçdaroğlu ve Özel'den başsağlığı\n[birgun · 13:38] Özgür Özel'den Bahçeli'ye taziye ziyareti\n[sozcu · 13:42] Özgür Özel’den Devlet Bahçeli’ye taziye ziyareti\n[ntv · 13:43] AK Parti, Yeni Parti ve CHP'den Bahçeli'ye taziye ziyareti\n[turkiyegz · 13:55] Devlet Bahçeli'ye peş peşe taziye ziyaretleri! Kılıçdaroğlu, Özel ve AK Parti heyeti Meclis'te\n[aksam · 14:00] AK Parti'den MHP Genel Başkanı Bahçeli'ye taziye ziyareti\n[karar · 14:16] Özgür Özel’den Bahçeli’ye taziye ziyareti — YENİ Parti lideri Özel, kız kardeşi Serpil Bahçeli’yi kaybeden MHP Genel Başkanı Bahçeli’yi TBMM’de ziyaret etti. Özel, Bahçeli’ye başsağlığı dileklerini iletirken, görüşmede YENİ Parti milletvekilleri Harun Özgür Yıldızlı ve Asu Kaya da yer aldı.\n[akit · 15:19] Kız kardeşi Osmaniye’de toprağa verildi! Kılıçdaroğlu ve Özel'den Bahçeli'ye taziye ziyareti"
+  },
+  {
+   "key": "s4709__framing-effect",
+   "output_file": "runs/bg/explain/s4709__framing-effect.json",
+   "event_title": "Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Polonya karıştı: Darbe girişimi iddiası...",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ahaber · 01:30] Polonya polisinden Anayasa Mahkemesi'ne baskın",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Anayasa Mahkemesi önünde polis, hükümete 'darbe' suçlaması",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberturk · 09:56] Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Polonya karıştı: Darbe girişimi iddiası... Anayasa Mahkemesi polis ablukasına alındı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı olay 'baskın', 'abluka', 'darbe suçlaması' gibi farklı çerçevelerle sunuluyor; ancak eşdeğerlik ve çerçeveye dayalı bir tercih metinde açıkça kurulmuyor.",
+   "skeptic_alternative": "'Darbe' ifadesi taraflardan birinin suçlaması olarak aktarılıyor olabilir; bu, çerçeveleme değil bir iddianın haberleştirilmesidir.",
+   "missing_context": [
+    "Darbe iddiasını kimin dile getirdiği",
+    "Haber gövdelerinde iddianın nasıl atfedildiği",
+    "Okuyucu değerlendirmesinin ifadeyle değiştiğini gösteren veri",
+    "Olayın doğrulanmış kronolojisi"
+   ],
+   "headlines": "[yeniasya · 00:00] Polonya'da sıcak gelişmeler: Anayasa Mahkemesi polis ablukasına alındı\n[mynet · 00:02] Polonya'da hareketli saatler: Anayasa Mahkemesi Başkanı ve yardımcısı görevden alındı! Cumhurbaşkanı yurt dışı ziyaretini yarıda kesti\n[haberler · 00:28] Polonya'da Anayasa Mahkemesi başkanı, zinciri keserek binaya girmeye çalıştı\n[hurriyet · 00:33] Polonya karıştı: Darbe girişimi iddiası... Anayasa Mahkemesi polis ablukasına alındı! Cumhurbaşkanı uçağını geri çevirdi — Polonya Anayasa Mahkemesi Başkanı Bogdan Swieczkowski ve Yardımcısı Bartlomiej Sochanski, mahkemenin çalışmasını engelledikleri gerekçesiyle 1 ay süreliğine açığa alındı. Senegal'e resmi ziyaret gerçekleştirmek üzere İspanya semalarında bulunan Polonya Cumhurbaşkanı Karol …\n[karar · 01:07] Polonya'da anayasa krizi patladı: Polis Anayasa Mahkemesi'ni kuşattı, Cumhurbaşkanı uçağını geri çevirdi — Polonya'da Başbakan Tusk'ın hükümeti ile eski iktidar partisi PiS arasında yıllardır devam eden yargı mücadelesi, Anayasa Mahkemesi'ne yönelik müdahaleyle açık bir krize dönüştü. Parlamento tarafından seçilen yargıçların göreve başlamasını engellediği gerekçesiyle Anayasa …\n[ahaber · 01:30] Polonya polisinden Anayasa Mahkemesi'ne baskın\n[dirilis · 01:44] Polonya’da Anayasa Mahkemesi krizi büyüyor!\n[star · 07:07] Polonya'da siyasi kaos! Nawrocki'nin Anayasa Mahkemesi'ne girişinde arbede — Anayasa Mahkemesi Başkanı Bogdan Swieczkowski ve Yardımcısı Bartlomiej Sochanski'nin açığa alınmaları üzerine ülkeye dönen Polonya Cumhurbaşkanı Karol Nawrocki Anayasa Mahkemesi'ne geldi. Mahkeme binasına girmek isteyen Cumhurbaşkanı Nawrocki ile geçici olarak başkanlık görevine …\n[takvim · 07:41] Polonya'da Anayasa Mahkemesi önünde arbede! Ülkesine dönen Cumhurbaşkanı Nawrocki engellemeye rağmen binaya girdi\n[turkiyegz · 08:14] Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede\n[ntv · 09:50] Polonya'da kriz nasıl başladı? Polis Anayasa Mahkemesi'ni bastı, Cumhurbaşkanı yoldan döndü\n[haberturk · 09:56] Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası\n[cumhuriyet · 10:06] Anayasa Mahkemesi önünde polis, hükümete 'darbe' suçlaması: Polonya'da neler oluyor?\n[yenisafak · 10:20] Polonya'da neler oluyor: Anayasa Mahkemesi'nde polis krizi yaşandı Cumhurbaşkanı yoldan döndü\n[trthaber · 10:35] Polonya'da Anayasa Mahkemesi krizi: Neler oldu?\n[milligazete · 12:45] Polonya'da kim darbe yaptı, darbe mi oldu, ne yaşandı? Karol Nawrocki ile hakimler arasındaki Anayasa Mahkemesi krizi\n[cnnturk · 00:42] Polonya'da darbe suçlaması! Anayasa mahkemesi kimin elinde? — Polonya'da Cumhurbaşkanı Karol Nawrocki ile Başbakan Donald Tusk'ın siyasi kampları, Anayasa Mahkemesi üzerinden karşı karşıya geldi. Mahkeme binasının polis kontrolüne geçmesi, dijital hesapların ise görevden alınan ekibin elinde kalması krizi derinleştirdi. Taraflar birbirini …"
+  },
+  {
+   "key": "s4709__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4709__leveling-and-sharpening.json",
+   "event_title": "Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Polonya'da Başbakan Tusk'ın hükümeti ile eski iktidar partisi PiS arasında yıllardır devam eden yargı mücadelesi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ahaber · 01:30] Polonya polisinden Anayasa Mahkemesi'ne baskın",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "mahkemenin çalışmasını engelledikleri gerekçesiyle 1 ay süreliğine açığa alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[mynet · 00:02] Polonya'da hareketli saatler: Anayasa Mahkemesi Başkanı ve yardımcısı görevden alındı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Polonya polisinden Anayasa Mahkemesi'ne baskın",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar arka plandaki yargı mücadelesini ve açığa alma gerekçesini verirken, bazı başlıklar yalnızca polis 'baskını'nı keskinleştiriyor; 'açığa alındı' ile 'görevden alındı' arasında da fark var.",
+   "skeptic_alternative": "Kısa başlıklar doğası gereği ayrıntı eler; gerekçe haber gövdesinde verilmiş olabilir.",
+   "missing_context": [
+    "Eksiltmenin okurun sonucuna etkisi",
+    "Farkın okur sonucuna etkisi",
+    "Haber gövdelerinin tam metni",
+    "Resmî açıklamalar",
+    "ahaber haberinin tam metni"
+   ],
+   "headlines": "[yeniasya · 00:00] Polonya'da sıcak gelişmeler: Anayasa Mahkemesi polis ablukasına alındı\n[mynet · 00:02] Polonya'da hareketli saatler: Anayasa Mahkemesi Başkanı ve yardımcısı görevden alındı! Cumhurbaşkanı yurt dışı ziyaretini yarıda kesti\n[haberler · 00:28] Polonya'da Anayasa Mahkemesi başkanı, zinciri keserek binaya girmeye çalıştı\n[hurriyet · 00:33] Polonya karıştı: Darbe girişimi iddiası... Anayasa Mahkemesi polis ablukasına alındı! Cumhurbaşkanı uçağını geri çevirdi — Polonya Anayasa Mahkemesi Başkanı Bogdan Swieczkowski ve Yardımcısı Bartlomiej Sochanski, mahkemenin çalışmasını engelledikleri gerekçesiyle 1 ay süreliğine açığa alındı. Senegal'e resmi ziyaret gerçekleştirmek üzere İspanya semalarında bulunan Polonya Cumhurbaşkanı Karol …\n[karar · 01:07] Polonya'da anayasa krizi patladı: Polis Anayasa Mahkemesi'ni kuşattı, Cumhurbaşkanı uçağını geri çevirdi — Polonya'da Başbakan Tusk'ın hükümeti ile eski iktidar partisi PiS arasında yıllardır devam eden yargı mücadelesi, Anayasa Mahkemesi'ne yönelik müdahaleyle açık bir krize dönüştü. Parlamento tarafından seçilen yargıçların göreve başlamasını engellediği gerekçesiyle Anayasa …\n[ahaber · 01:30] Polonya polisinden Anayasa Mahkemesi'ne baskın\n[dirilis · 01:44] Polonya’da Anayasa Mahkemesi krizi büyüyor!\n[star · 07:07] Polonya'da siyasi kaos! Nawrocki'nin Anayasa Mahkemesi'ne girişinde arbede — Anayasa Mahkemesi Başkanı Bogdan Swieczkowski ve Yardımcısı Bartlomiej Sochanski'nin açığa alınmaları üzerine ülkeye dönen Polonya Cumhurbaşkanı Karol Nawrocki Anayasa Mahkemesi'ne geldi. Mahkeme binasına girmek isteyen Cumhurbaşkanı Nawrocki ile geçici olarak başkanlık görevine …\n[takvim · 07:41] Polonya'da Anayasa Mahkemesi önünde arbede! Ülkesine dönen Cumhurbaşkanı Nawrocki engellemeye rağmen binaya girdi\n[turkiyegz · 08:14] Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede\n[ntv · 09:50] Polonya'da kriz nasıl başladı? Polis Anayasa Mahkemesi'ni bastı, Cumhurbaşkanı yoldan döndü\n[haberturk · 09:56] Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası\n[cumhuriyet · 10:06] Anayasa Mahkemesi önünde polis, hükümete 'darbe' suçlaması: Polonya'da neler oluyor?\n[yenisafak · 10:20] Polonya'da neler oluyor: Anayasa Mahkemesi'nde polis krizi yaşandı Cumhurbaşkanı yoldan döndü\n[trthaber · 10:35] Polonya'da Anayasa Mahkemesi krizi: Neler oldu?\n[milligazete · 12:45] Polonya'da kim darbe yaptı, darbe mi oldu, ne yaşandı? Karol Nawrocki ile hakimler arasındaki Anayasa Mahkemesi krizi\n[cnnturk · 00:42] Polonya'da darbe suçlaması! Anayasa mahkemesi kimin elinde? — Polonya'da Cumhurbaşkanı Karol Nawrocki ile Başbakan Donald Tusk'ın siyasi kampları, Anayasa Mahkemesi üzerinden karşı karşıya geldi. Mahkeme binasının polis kontrolüne geçmesi, dijital hesapların ise görevden alınan ekibin elinde kalması krizi derinleştirdi. Taraflar birbirini …"
+  },
+  {
+   "key": "s4709__salience-bias",
+   "output_file": "runs/bg/explain/s4709__salience-bias.json",
+   "event_title": "Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Polonya'da siyasi kaos! Nawrocki'nin Anayasa Mahkemesi'ne girişinde arbede",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Polonya'da Anayasa Mahkemesi önünde arbede!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Polonya'da Anayasa Mahkemesi krizi: Neler oldu?",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Arbede' ve 'kaos' gibi çarpıcı ayrıntılar başlıkta öne çıkıyor; bunun bir yargıyı haksız biçimde belirlediği gösterilmiyor.",
+   "skeptic_alternative": "Arbede gerçekten yaşanmış ve haber değeri taşıyan yeni bir gelişmedir; saat farkı başlık içeriğini açıklayabilir.",
+   "missing_context": [
+    "Arbedenin olaydaki ağırlığına dair bilgi",
+    "Arbedenin olaydaki önemine dair bağımsız kaynak",
+    "Karşılaştırmalı okuyucu etkisi",
+    "Kurumların başlık güncelleme geçmişi"
+   ],
+   "headlines": "[yeniasya · 00:00] Polonya'da sıcak gelişmeler: Anayasa Mahkemesi polis ablukasına alındı\n[mynet · 00:02] Polonya'da hareketli saatler: Anayasa Mahkemesi Başkanı ve yardımcısı görevden alındı! Cumhurbaşkanı yurt dışı ziyaretini yarıda kesti\n[haberler · 00:28] Polonya'da Anayasa Mahkemesi başkanı, zinciri keserek binaya girmeye çalıştı\n[hurriyet · 00:33] Polonya karıştı: Darbe girişimi iddiası... Anayasa Mahkemesi polis ablukasına alındı! Cumhurbaşkanı uçağını geri çevirdi — Polonya Anayasa Mahkemesi Başkanı Bogdan Swieczkowski ve Yardımcısı Bartlomiej Sochanski, mahkemenin çalışmasını engelledikleri gerekçesiyle 1 ay süreliğine açığa alındı. Senegal'e resmi ziyaret gerçekleştirmek üzere İspanya semalarında bulunan Polonya Cumhurbaşkanı Karol …\n[karar · 01:07] Polonya'da anayasa krizi patladı: Polis Anayasa Mahkemesi'ni kuşattı, Cumhurbaşkanı uçağını geri çevirdi — Polonya'da Başbakan Tusk'ın hükümeti ile eski iktidar partisi PiS arasında yıllardır devam eden yargı mücadelesi, Anayasa Mahkemesi'ne yönelik müdahaleyle açık bir krize dönüştü. Parlamento tarafından seçilen yargıçların göreve başlamasını engellediği gerekçesiyle Anayasa …\n[ahaber · 01:30] Polonya polisinden Anayasa Mahkemesi'ne baskın\n[dirilis · 01:44] Polonya’da Anayasa Mahkemesi krizi büyüyor!\n[star · 07:07] Polonya'da siyasi kaos! Nawrocki'nin Anayasa Mahkemesi'ne girişinde arbede — Anayasa Mahkemesi Başkanı Bogdan Swieczkowski ve Yardımcısı Bartlomiej Sochanski'nin açığa alınmaları üzerine ülkeye dönen Polonya Cumhurbaşkanı Karol Nawrocki Anayasa Mahkemesi'ne geldi. Mahkeme binasına girmek isteyen Cumhurbaşkanı Nawrocki ile geçici olarak başkanlık görevine …\n[takvim · 07:41] Polonya'da Anayasa Mahkemesi önünde arbede! Ülkesine dönen Cumhurbaşkanı Nawrocki engellemeye rağmen binaya girdi\n[turkiyegz · 08:14] Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede\n[ntv · 09:50] Polonya'da kriz nasıl başladı? Polis Anayasa Mahkemesi'ni bastı, Cumhurbaşkanı yoldan döndü\n[haberturk · 09:56] Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası\n[cumhuriyet · 10:06] Anayasa Mahkemesi önünde polis, hükümete 'darbe' suçlaması: Polonya'da neler oluyor?\n[yenisafak · 10:20] Polonya'da neler oluyor: Anayasa Mahkemesi'nde polis krizi yaşandı Cumhurbaşkanı yoldan döndü\n[trthaber · 10:35] Polonya'da Anayasa Mahkemesi krizi: Neler oldu?\n[milligazete · 12:45] Polonya'da kim darbe yaptı, darbe mi oldu, ne yaşandı? Karol Nawrocki ile hakimler arasındaki Anayasa Mahkemesi krizi\n[cnnturk · 00:42] Polonya'da darbe suçlaması! Anayasa mahkemesi kimin elinde? — Polonya'da Cumhurbaşkanı Karol Nawrocki ile Başbakan Donald Tusk'ın siyasi kampları, Anayasa Mahkemesi üzerinden karşı karşıya geldi. Mahkeme binasının polis kontrolüne geçmesi, dijital hesapların ise görevden alınan ekibin elinde kalması krizi derinleştirdi. Taraflar birbirini …"
+  },
+  {
+   "key": "s4709__negativity-bias",
+   "output_file": "runs/bg/explain/s4709__negativity-bias.json",
+   "event_title": "Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Polonya'da anayasa krizi patladı: Polis Anayasa Mahkemesi'ni kuşattı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[dirilis · 01:44] Polonya’da Anayasa Mahkemesi krizi büyüyor!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Polonya'da anayasa krizi patladı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başlıklar krizin olumsuz yönlerini vurguluyor; karşılaştırılabilir olumlu bilginin ihmal edildiğine dair kanıt yok.",
+   "skeptic_alternative": "Olayın kendisi bir kriz; olumsuz dil olayın niteliğiyle orantılı olabilir.",
+   "missing_context": [
+    "Göz ardı edilmiş olumlu/nötr gelişmeler olup olmadığı",
+    "Karşılaştırılabilir olumlu bilginin varlığı",
+    "Kurumların benzer olaylardaki dili"
+   ],
+   "headlines": "[yeniasya · 00:00] Polonya'da sıcak gelişmeler: Anayasa Mahkemesi polis ablukasına alındı\n[mynet · 00:02] Polonya'da hareketli saatler: Anayasa Mahkemesi Başkanı ve yardımcısı görevden alındı! Cumhurbaşkanı yurt dışı ziyaretini yarıda kesti\n[haberler · 00:28] Polonya'da Anayasa Mahkemesi başkanı, zinciri keserek binaya girmeye çalıştı\n[hurriyet · 00:33] Polonya karıştı: Darbe girişimi iddiası... Anayasa Mahkemesi polis ablukasına alındı! Cumhurbaşkanı uçağını geri çevirdi — Polonya Anayasa Mahkemesi Başkanı Bogdan Swieczkowski ve Yardımcısı Bartlomiej Sochanski, mahkemenin çalışmasını engelledikleri gerekçesiyle 1 ay süreliğine açığa alındı. Senegal'e resmi ziyaret gerçekleştirmek üzere İspanya semalarında bulunan Polonya Cumhurbaşkanı Karol …\n[karar · 01:07] Polonya'da anayasa krizi patladı: Polis Anayasa Mahkemesi'ni kuşattı, Cumhurbaşkanı uçağını geri çevirdi — Polonya'da Başbakan Tusk'ın hükümeti ile eski iktidar partisi PiS arasında yıllardır devam eden yargı mücadelesi, Anayasa Mahkemesi'ne yönelik müdahaleyle açık bir krize dönüştü. Parlamento tarafından seçilen yargıçların göreve başlamasını engellediği gerekçesiyle Anayasa …\n[ahaber · 01:30] Polonya polisinden Anayasa Mahkemesi'ne baskın\n[dirilis · 01:44] Polonya’da Anayasa Mahkemesi krizi büyüyor!\n[star · 07:07] Polonya'da siyasi kaos! Nawrocki'nin Anayasa Mahkemesi'ne girişinde arbede — Anayasa Mahkemesi Başkanı Bogdan Swieczkowski ve Yardımcısı Bartlomiej Sochanski'nin açığa alınmaları üzerine ülkeye dönen Polonya Cumhurbaşkanı Karol Nawrocki Anayasa Mahkemesi'ne geldi. Mahkeme binasına girmek isteyen Cumhurbaşkanı Nawrocki ile geçici olarak başkanlık görevine …\n[takvim · 07:41] Polonya'da Anayasa Mahkemesi önünde arbede! Ülkesine dönen Cumhurbaşkanı Nawrocki engellemeye rağmen binaya girdi\n[turkiyegz · 08:14] Polonya'da Anayasa Mahkemesi krizi! Cumhurbaşkanı Nawrocki ile hâkim arasında arbede\n[ntv · 09:50] Polonya'da kriz nasıl başladı? Polis Anayasa Mahkemesi'ni bastı, Cumhurbaşkanı yoldan döndü\n[haberturk · 09:56] Polonya'da anayasal kriz: Anayasa Mahkemesi'ne polis ablukası\n[cumhuriyet · 10:06] Anayasa Mahkemesi önünde polis, hükümete 'darbe' suçlaması: Polonya'da neler oluyor?\n[yenisafak · 10:20] Polonya'da neler oluyor: Anayasa Mahkemesi'nde polis krizi yaşandı Cumhurbaşkanı yoldan döndü\n[trthaber · 10:35] Polonya'da Anayasa Mahkemesi krizi: Neler oldu?\n[milligazete · 12:45] Polonya'da kim darbe yaptı, darbe mi oldu, ne yaşandı? Karol Nawrocki ile hakimler arasındaki Anayasa Mahkemesi krizi\n[cnnturk · 00:42] Polonya'da darbe suçlaması! Anayasa mahkemesi kimin elinde? — Polonya'da Cumhurbaşkanı Karol Nawrocki ile Başbakan Donald Tusk'ın siyasi kampları, Anayasa Mahkemesi üzerinden karşı karşıya geldi. Mahkeme binasının polis kontrolüne geçmesi, dijital hesapların ise görevden alınan ekibin elinde kalması krizi derinleştirdi. Taraflar birbirini …"
+  },
+  {
+   "key": "s4400__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4400__leveling-and-sharpening.json",
+   "event_title": "Fon soruşturması: Nusret Altınbaş tutuklandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "[cumhuriyet · 11:10] Fon soruşturması: Altınbaş Holding sahibi Nusret Altınbaş tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "tutuklama talebiyle nöbetçi sulh ceza hakimliğine sevk edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 17:28] Fon soruşturması... Nusret Altınbaş hakkında tutuklama talebi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 21:25] Fon soruşturmasında Nusret Altınbaş ve Erman Çete tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon Soruşturmasında Polise Teslim Olan Nusret Altınbaş Tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturması: Altınbaş Holding sahibi Nusret Altınbaş tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında Nusret Altınbaş ve Erman Çete tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Cumhuriyet 11:10'da 'tutuklandı' derken Star 12:49'da sevk aşamasını aktarıyor; bazı kurumlar 'talep', bazıları 'tutuklandı' diyor; NTV ikinci bir ismi ekliyor, diğerleri düşürüyor.",
+   "skeptic_alternative": "Farklılıklar yayın saatinden ve sürecin ilerleyişinden kaynaklanıyor; erken başlıklar sonradan güncellenmiş olabilir.",
+   "missing_context": [
+    "Başlıkların güncellenme geçmişi",
+    "Başlıkların ilk yayın ve güncelleme zamanları",
+    "Erman Çete hakkındaki kararın diğer kurumlarda yer alıp almadığı",
+    "Erman Çete'nin tutuklanmasının diğer kurumlarda yer alıp almadığı",
+    "Mahkeme kararının saati",
+    "Tutuklama kararının kesin saati"
+   ],
+   "headlines": "[cumhuriyet · 11:10] Fon soruşturması: Altınbaş Holding sahibi Nusret Altınbaş tutuklandı\n[star · 12:49] Fon soruşturması: Nusret Altınbaş adliyeye sevk edildi — Fon soruşturması kapsamında hakkında yakalama kararı bulunan ve önceki gün polise teslim olan Altınbaş Holding'in sahibi Nusret Altınbaş, Mali Suçlarla Mücadele Şube Müdürlüğündeki ifade işlemlerinin ardından tutuklama talebiyle nöbetçi sulh ceza hakimliğine sevk edildi.\n[birgun · 12:55] Fon soruşturması: Altınbaş Holding'in sahibi Nusret Altınbaş adliyede\n[trthaber · 13:09] Fon soruşturması kapsamında gözaltına alınan Nusret Altınbaş adliyede\n[tgrt · 17:21] Fon soruşturmasında yeni gelişme: Nusret Altınbaş tutuklandı\n[sozcu · 17:24] Fon soruşturmasında iş insanı Nusret Altınbaş tutuklandı\n[aksam · 17:28] Fon soruşturması... Nusret Altınbaş hakkında tutuklama talebi\n[mynet · 17:28] Son dakika | Altınbaş Holding'in sahibi Nusret Altınbaş tutuklandı! Fon soruşturmasında yeni gelişme — Fon soruşturması kapsamında Altınbaş Holding'in sahibi iş insanı Nusret Altınbaş gözaltına alınmıştı. Altınbaş, tutuklama istemiyle hakimliğe sevk edildi. Mahkeme, Altınbaş'ın tutuklanmasına karar verdi.\n[haberler · 17:29] Altınbaş Holding sahibi Nusret Altınbaş'a tutuklama talebi\n[yenisafak · 17:35] Fon soruşturmasında Nusret Altınbaş için tutuklama talebi\n[turkiyegz · 18:00] Fon soruşturmasında sıcak gelişme! Nusret Altınbaş tutuklandı\n[haberturk · 18:02] Fon soruşturmasında Nusret Altınbaş tutuklama talebiyle hakimliğe sevk edildi\n[akit · 19:30] Fon soruşturmasında gözaltına alınan Nusret Altınbaş tutuklandı\n[dirilis · 19:32] Altınbaş Holding’in sahiplerinden Nusret Altınbaş, tutuklanarak cezaevine gönderildi!\n[diken · 19:37] Fon soruşturması: Nusret Altınbaş tutuklandı\n[onedio · 20:06] Fon Soruşturmasında Polise Teslim Olan Nusret Altınbaş Tutuklandı\n[ntv · 21:25] Fon soruşturmasında Nusret Altınbaş ve Erman Çete tutuklandı"
+  },
+  {
+   "key": "s4727__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4727__leveling-and-sharpening.json",
+   "event_title": "Merkezefendi Belediyesi soruşturmasında Belediye Başkanı Şeniz Doğan ve eşi dahil 5 kişi tutuklandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "[sozcu · 00:46] Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 6 kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Belediye Başkanı Şeniz Doğan ve eşinin de aralarında bulunduğu 5 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[diken · 11:34] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "rüşvet, irtikap ve ihaleye fesat karıştırma soruşturması",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sabah · 05:38] Merkezefendi Belediyesi operasyonunda 5 kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 6 kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkezefendi soruşturması. 5 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Sözcü tutuklu sayısını 6, diğerleri 5 veriyor; yalnızca Diken başkanın partisini başlığa taşıyor; bazı başlıklar başkanın adını ve suçlama türlerini düşürüyor.",
+   "skeptic_alternative": "Sayı farkı ilk saatlerdeki bilgi belirsizliğinden, parti bilgisinin eksikliği ise başlık kısalığından kaynaklanabilir.",
+   "missing_context": [
+    "Diğer kurumların haber gövdesinde parti bilgisini verip vermediği",
+    "Haber gövdelerinde parti bilgisi",
+    "Resmi tutuklu sayısı",
+    "Resmî tutuklu sayısı",
+    "Sözcü'nün sonradan düzeltme yapıp yapmadığı"
+   ],
+   "headlines": "[sozcu · 00:46] Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 6 kişi tutuklandı\n[haberler · 04:04] Denizli'de Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 5 kişi tutuklandı\n[haberturk · 04:13] Merkezefendi Belediyesi operasyonunda başkan dahil 5 tutuklama (2)\n[ntv · 04:51] Merkezefendi soruşturması. 5 şüpheli tutuklandı\n[tgrt · 05:03] Merkezefendi Belediyesi soruşturmasında Belediye Başkanı Şeniz Doğan ve eşi dahil 5 kişi tutuklandı\n[sabah · 05:38] Merkezefendi Belediyesi operasyonunda 5 kişi tutuklandı\n[trthaber · 06:28] Denizli'de Merkezefendi Belediyesi'ne yönelik soruşturmada 5 şüpheli tutuklandı\n[birgun · 07:15] Merkezefendi Belediyesi'ne soruşturma: Belediye Başkanı dahil 5 kişi tutuklandı\n[star · 07:18] Merkezefendi Belediyesi'ne soruşturma: 5 şüpheli tutuklandı — Denizli'de Merkezefendi Belediyesine yönelik soruşturma kapsamında gözaltına alınan aralarında Belediye Başkanı Şeniz Doğan ve eşinin de bulunduğu 5 şüpheli tutuklandı.\n[aksam · 07:57] Merkezefendi'de rüşvet soruşturması! Başkan ve eşi dahil beş kişi tutuklandı\n[karar · 08:20] Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı — Denizli'de Merkezefendi Belediyesi'ne yönelik yürütülen rüşvet, irtikap ve ihaleye fesat karıştırma soruşturması kapsamında gözaltına alınan Belediye Başkanı Şeniz Doğan ve eşinin de aralarında bulunduğu 5 şüpheli tutuklandı.\n[mynet · 08:37] Merkezefendi Belediyesi soruşturması... Belediye Başkanı Şeniz Doğan ve eşi tutuklandı!\n[dirilis · 09:00] Merkezefendi soruşturması: Başkan Doğan dahil 5 tutuklama\n[milligazete · 09:28] Denizli'de Merkezefendi Belediyesi'ne operasyon: Başkan ve eşi dahil 5 kişi tutuklandı\n[sondakika · 09:37] Merkezefendi Belediye Başkanı Doğan tutuklandı, oğlu Reşat Çınar'ı emanet etti\n[cumhuriyet · 10:16] Merkezefendi Belediyesi soruşturması: Belediye Başkanı ve eşi dahil 5 kişi tutuklandı\n[diken · 11:34] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı"
+  },
+  {
+   "key": "s4727__salience-bias",
+   "output_file": "runs/bg/explain/s4727__salience-bias.json",
+   "event_title": "Merkezefendi Belediyesi soruşturmasında Belediye Başkanı Şeniz Doğan ve eşi dahil 5 kişi tutuklandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Merkezefendi'de rüşvet soruşturması! Başkan ve eşi dahil beş kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkezefendi Belediye Başkanı Doğan tutuklandı, oğlu Reşat Çınar'ı emanet etti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar 'rüşvet' veya duygusal aile ayrıntısını öne çıkarıyor; bunun bir yargıyı haksız etkilediği metinde yok.",
+   "skeptic_alternative": "Kişisel ayrıntı yeni bir bilgi olarak haber değeri taşıyabilir; suçlama içeriği başka başlıklarda zaten veriliyor.",
+   "missing_context": [
+    "Ayrıntının kaynağı",
+    "Haber gövdesinde suçlama ayrıntılarının yer alıp almadığı",
+    "Okuyucu yargısına etkiye dair karşılaştırma"
+   ],
+   "headlines": "[sozcu · 00:46] Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 6 kişi tutuklandı\n[haberler · 04:04] Denizli'de Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 5 kişi tutuklandı\n[haberturk · 04:13] Merkezefendi Belediyesi operasyonunda başkan dahil 5 tutuklama (2)\n[ntv · 04:51] Merkezefendi soruşturması. 5 şüpheli tutuklandı\n[tgrt · 05:03] Merkezefendi Belediyesi soruşturmasında Belediye Başkanı Şeniz Doğan ve eşi dahil 5 kişi tutuklandı\n[sabah · 05:38] Merkezefendi Belediyesi operasyonunda 5 kişi tutuklandı\n[trthaber · 06:28] Denizli'de Merkezefendi Belediyesi'ne yönelik soruşturmada 5 şüpheli tutuklandı\n[birgun · 07:15] Merkezefendi Belediyesi'ne soruşturma: Belediye Başkanı dahil 5 kişi tutuklandı\n[star · 07:18] Merkezefendi Belediyesi'ne soruşturma: 5 şüpheli tutuklandı — Denizli'de Merkezefendi Belediyesine yönelik soruşturma kapsamında gözaltına alınan aralarında Belediye Başkanı Şeniz Doğan ve eşinin de bulunduğu 5 şüpheli tutuklandı.\n[aksam · 07:57] Merkezefendi'de rüşvet soruşturması! Başkan ve eşi dahil beş kişi tutuklandı\n[karar · 08:20] Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı — Denizli'de Merkezefendi Belediyesi'ne yönelik yürütülen rüşvet, irtikap ve ihaleye fesat karıştırma soruşturması kapsamında gözaltına alınan Belediye Başkanı Şeniz Doğan ve eşinin de aralarında bulunduğu 5 şüpheli tutuklandı.\n[mynet · 08:37] Merkezefendi Belediyesi soruşturması... Belediye Başkanı Şeniz Doğan ve eşi tutuklandı!\n[dirilis · 09:00] Merkezefendi soruşturması: Başkan Doğan dahil 5 tutuklama\n[milligazete · 09:28] Denizli'de Merkezefendi Belediyesi'ne operasyon: Başkan ve eşi dahil 5 kişi tutuklandı\n[sondakika · 09:37] Merkezefendi Belediye Başkanı Doğan tutuklandı, oğlu Reşat Çınar'ı emanet etti\n[cumhuriyet · 10:16] Merkezefendi Belediyesi soruşturması: Belediye Başkanı ve eşi dahil 5 kişi tutuklandı\n[diken · 11:34] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı"
+  },
+  {
+   "key": "s4727__in-group-bias",
+   "output_file": "runs/bg/explain/s4727__in-group-bias.json",
+   "event_title": "Merkezefendi Belediyesi soruşturmasında Belediye Başkanı Şeniz Doğan ve eşi dahil 5 kişi tutuklandı",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "[diken · 11:34] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olayı vermeyen etkin kurumlar: ahaber, akit, aydinlik, hurriyet, takvim, yenisafak",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "diken: sol (34)",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başkanın parti üyeliği yalnızca bir kurumca belirtiliyor; bazı kurumlar olayı hiç vermiyor; ancak bu farkın grup üyeliğine bağlı bir değerlendirme farkı olduğu gösterilmiyor.",
+   "skeptic_alternative": "Haber vermeme yerel haber önceliği veya zamanlama ile açıklanabilir; parti etiketi bilgilendirme amaçlı olabilir.",
+   "missing_context": [
+    "Aynı kurumların farklı partili belediye başkanlarının tutuklanmasını nasıl verdiği",
+    "Benzer olaylarda farklı partili başkanlara ilişkin başlık tercihleri",
+    "Haber vermeyen kurumların gerekçesi",
+    "Haber vermeyen kurumların sonradan yayın yapıp yapmadığı"
+   ],
+   "headlines": "[sozcu · 00:46] Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 6 kişi tutuklandı\n[haberler · 04:04] Denizli'de Merkezefendi Belediye Başkanı Şeniz Doğan ve eşi dahil 5 kişi tutuklandı\n[haberturk · 04:13] Merkezefendi Belediyesi operasyonunda başkan dahil 5 tutuklama (2)\n[ntv · 04:51] Merkezefendi soruşturması. 5 şüpheli tutuklandı\n[tgrt · 05:03] Merkezefendi Belediyesi soruşturmasında Belediye Başkanı Şeniz Doğan ve eşi dahil 5 kişi tutuklandı\n[sabah · 05:38] Merkezefendi Belediyesi operasyonunda 5 kişi tutuklandı\n[trthaber · 06:28] Denizli'de Merkezefendi Belediyesi'ne yönelik soruşturmada 5 şüpheli tutuklandı\n[birgun · 07:15] Merkezefendi Belediyesi'ne soruşturma: Belediye Başkanı dahil 5 kişi tutuklandı\n[star · 07:18] Merkezefendi Belediyesi'ne soruşturma: 5 şüpheli tutuklandı — Denizli'de Merkezefendi Belediyesine yönelik soruşturma kapsamında gözaltına alınan aralarında Belediye Başkanı Şeniz Doğan ve eşinin de bulunduğu 5 şüpheli tutuklandı.\n[aksam · 07:57] Merkezefendi'de rüşvet soruşturması! Başkan ve eşi dahil beş kişi tutuklandı\n[karar · 08:20] Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı — Denizli'de Merkezefendi Belediyesi'ne yönelik yürütülen rüşvet, irtikap ve ihaleye fesat karıştırma soruşturması kapsamında gözaltına alınan Belediye Başkanı Şeniz Doğan ve eşinin de aralarında bulunduğu 5 şüpheli tutuklandı.\n[mynet · 08:37] Merkezefendi Belediyesi soruşturması... Belediye Başkanı Şeniz Doğan ve eşi tutuklandı!\n[dirilis · 09:00] Merkezefendi soruşturması: Başkan Doğan dahil 5 tutuklama\n[milligazete · 09:28] Denizli'de Merkezefendi Belediyesi'ne operasyon: Başkan ve eşi dahil 5 kişi tutuklandı\n[sondakika · 09:37] Merkezefendi Belediye Başkanı Doğan tutuklandı, oğlu Reşat Çınar'ı emanet etti\n[cumhuriyet · 10:16] Merkezefendi Belediyesi soruşturması: Belediye Başkanı ve eşi dahil 5 kişi tutuklandı\n[diken · 11:34] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan tutuklandı"
+  }
+ ]
+}

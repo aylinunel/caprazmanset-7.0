@@ -8,7 +8,7 @@ import unittest
 from pathlib import Path
 
 from biasguard.engine import BiasGuard
-from biasguard.news import FileReviewer, apply
+from biasguard.news import FileReviewer, apply, merge_explain, validate_explain
 
 TEXT = "[A · 09:00] Bakan: kriz yok — Açıklama tekrarlandı\n[B · 09:05] Krizi herkes görüyor, bakan inkâr etti"
 CONTEXT = "Olay: Bakan açıklaması\nKurumlar: A, B"
@@ -83,6 +83,42 @@ class ReplayTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             with self.assertRaises(Exception):
                 FileReviewer(Path(d), "x").review("", "", [], "advocate")
+
+
+GOOD = {"noticed": "A ve B aynı olayı farklı başlıkla verdi; B “Krizi herkes görüyor, bakan inkâr etti” dedi.",
+        "why": "Başlık farkı tek başına niyet göstermez, okuyucuya bakan açıklamasının tamamı verilmemiş olabilir."}
+
+
+class ExplainTests(unittest.TestCase):
+    def test_validate_explain_accepts_good(self):
+        self.assertEqual(validate_explain(GOOD, TEXT), [])
+
+    def test_validate_explain_rejects_status_words(self):
+        for w in ("bağlam gerekli", "desteklendi", "uncertain"):
+            bad = {**GOOD, "why": f"Bu durumda {w} çünkü başlıklar farklı ve okuyucu için eksik bilgi kalıyor."}
+            self.assertTrue(validate_explain(bad, TEXT), w)
+
+    def test_validate_explain_rejects_invented_quote(self):
+        bad = {**GOOD, "noticed": "B başlığında “Bakan tamamen yalan söyledi ve istifa etti” yazıyor ve A bunu vermedi."}
+        self.assertTrue(any("quote" in p for p in validate_explain(bad, TEXT)))
+
+    def test_validate_explain_rejects_length_and_sentences(self):
+        self.assertTrue(validate_explain({"noticed": "Kısa.", "why": GOOD["why"]}, TEXT))
+        three = "Bir cümle burada yazıyor. İkinci cümle de burada yazıyor. Üçüncü cümle fazla olur burada."
+        self.assertTrue(validate_explain({"noticed": three, "why": GOOD["why"]}, TEXT))
+
+    def test_pack_carries_explain(self):
+        with tempfile.TemporaryDirectory() as d:
+            run = Path(d)
+            (run / "explain").mkdir()
+            (run / "explain" / "e0__c1.json").write_text(json.dumps(GOOD))
+            (run / "explain" / "e0__c2.json").write_text(json.dumps({"noticed": "x", "why": "y"}))
+            (run / "inputs.jsonl").write_text(json.dumps({"event": "e0", "text": TEXT, "context": CONTEXT}) + "\n")
+            bg = {"events": [{"event": "e0", "supported": [{"id": "c1"}], "uncertain": [{"id": "c2"}]}]}
+            merge_explain(bg, run)
+            ev = bg["events"][0]
+            self.assertEqual(ev["supported"][0]["explain"], GOOD)
+            self.assertNotIn("explain", ev["uncertain"][0])
 
 
 if __name__ == "__main__":

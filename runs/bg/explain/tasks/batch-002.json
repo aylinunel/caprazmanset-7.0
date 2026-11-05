@@ -1,0 +1,1500 @@
+{
+ "instructions": "Write plain Turkish for a general reader. For each item write {\"noticed\": ..., \"why\": ...} to its output_file. noticed = what the headlines show, naming the outlets. why = why that is not proof. Each field is 1-2 sentences, 40-320 characters. Use only quotes given in the item (inside “…”), exactly as given. Never use the words 'bağlam gerekli', 'desteklendi', 'uncertain'.",
+ "items": [
+  {
+   "key": "s4884__outcome-bias",
+   "output_file": "runs/bg/explain/s4884__outcome-bias.json",
+   "event_title": "Trabzonspor, Gaziantep FK'yi 2-0 yendi",
+   "concept": "Outcome bias",
+   "definition": "Outcome bias is judging a past decision’s quality mainly by how it turned out, rather than by the evidence, uncertainty, and standards applicable when it was made. A favorable result can make a weak process look sound; an unfavorable result can make a reasonable process look poor. Outcomes may still be relevant evidence when assessing consequences or updating future choices.",
+   "quotes": [
+    {
+     "quote": "Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Sonuç sonrası değerlendirme teknik direktörün başarısını 'mucize' olarak niteliyor; değerlendirme sonuca bağlı olabilir.",
+   "skeptic_alternative": "Galibiyet sonrası övgü olağan bir tepkidir, karar süreci değerlendirmesi değildir.",
+   "missing_context": [
+    "Değerlendirilen belirli karar ve o anki bilgi",
+    "Sonuç bilinmeden alınmış karar",
+    "Sürecin değişmediğinin açık ifadesi"
+   ],
+   "headlines": "[haberturk · 10:45] Trabzonspor, Süper Lig'de yarın Gaziantep FK'yi konuk edecek\n[sabah · 10:50] Trabzonspor, yarın Gaziantep FK'yi ağırlayacak!\n[aa · 11:05] Trabzonspor, Süper Lig'de bugün Gaziantep FK'yi konuk edecek\n[sozcu · 11:21] Trabzonspor Gaziantep FK'ya hiç yenilmedi\n[aksam · 12:06] Trabzonspor sahasında Gaziantep FK'yı konuk edecek\n[star · 12:07] Trabzonspor evinde Gaziantep FK'yı ağırlayacak — Trendyol Süper Lig'in 10. hafta mücadelesinde Trabzonspor, sahasında Gaziantep FK ile karşı karşıya gelecek.\n[mynet · 17:51] Trabzonspor, Gaziantep FK maçı hazırlıklarını tamamlandı\n[takvim · 23:32] Reis Muçizesi! Trabzonspor Gaziantep FK'yı 2-0 yendi\n[ahaber · 09:09] CANLI Trabzonspor'da hedef 5'te 5! Rakip Gaziantep FK\n[milligazete · 12:59] Trabzonspor Gaziantep FK maçı canlı nereden izlenir, saat kaçta, rakip Gaziantep FK mi, yayın şifresiz mi?\n[sondakika · 13:10] Trabzonspor Gaziantep FK maçına 3 değişiklikle çıktı, Onuachu döndü\n[yenisafak · 15:00] Trabzonspor - Gaziantep FK maçı CANLI SKOR - CANLI ANLATIM\n[cumhuriyet · 15:09] Reis ile üst üste 5. galibiyet... Trabzonspor, Gaziantep FK'yi 2 golle geçti\n[turkiyegz · 15:37] Trabzonspor-Gaziantep FK maçının ilk 11'leri belli oldu\n[akit · 16:01] CANLI ANLATIM: Trabzonspor - Gaziantep FK\n[haberler · 16:07] Trabzonspor, Gaziantep FK maçına Rizespor 11'ine göre 3 değişiklikle çıktı\n[ntv · 16:14] Süper Lig heyecanı. Trabzonspor-Gaziantep FK maçı\n[dirilis · 18:22] Trabzonspor, Gaziantep FK'yi 2-0 yendi\n[cnnturk · 18:59] Trabzonspor - Gaziantep FK | 11'ler belli oldu — Trabzonspor, Trendyol Süper Lig'in 10. haftasında bugün sahasında Gaziantep FK ile karşılaşıyor."
+  },
+  {
+   "key": "s5198__framing-effect",
+   "output_file": "runs/bg/explain/s5198__framing-effect.json",
+   "event_title": "Kasım ayı kira artış oranı belli oldu",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "kasım ayında uygulanabilecek kira artış oranının üst sınırı da netleşti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kasım kira artış oranı belli oldu! Ev sahibi ve kiracılar için rakam netleşti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kasım ayı kira zammı ne kadar, yüzde kaç olacak?",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Karar oranı yasal 'üst sınır' olarak, diğerleri 'kira zammı' olarak çerçeveliyor; tavan, uygulanacak zam gibi algılanabilir.",
+   "skeptic_alternative": "Fark bir çerçeve tercihinden çok kısaltma veya teknik doğruluk farkı olabilir.",
+   "missing_context": [
+    "Haber gövdelerinde tavan vurgusunun yer alıp almadığı",
+    "Haber gövdelerindeki tavan açıklamaları",
+    "Okurun veya tarafların kararına etki eden açık bir bağlantı",
+    "Çerçeveye bağlı bir okur kararı veya yargısı"
+   ],
+   "headlines": "[aksam · 14:51] 2026 Kasım kira artış oranı ne zaman, saat kaçta açıklanacak?\n[haberler · 10:55] Kasım ayı kira artış oranı 2026: Kasım ayında kiralara ne kadar zam gelecek? Kira artış oranı ne zaman, saat kaçta açıklanacak?\n[yenisafak · 12:30] KASIM AYI KİRA ARTIŞ ORANI SON DURUM! Kasım ayı kira zammı ne kadar, yüzde kaç olacak? Konut, iş yeri kira oranı hesaplama\n[birgun · 13:06] Kasım Ayı Kira Artış Oranı Ne Zaman Açıklanacak? 2026 Kasım Ayı Kira Zammı Tahmini Yüzde Kaç?\n[milligazete · 14:25] Kasım ayı kira zam oranı ne zaman açıklanacak? Kasım 2026 kira zammı nasıl hesaplanır? 10 bin TL kira kaç lira olacak?\n[cnnturk · 16:00] KASIM AYI KİRA ARTIŞ ORANI 2026 | Kasım ayında kiralara ne kadar zam gelecek, TÜİK kira zammı ne olacak? — Kasım ayında kira kontratını yenileyecek ev sahipleri ve kiracılar, yeni dönemde uygulanacak zam oranını merakla bekliyor. Kira artışında esas alınacak oran, TÜİK tarafından açıklanacak enflasyon verileri doğrultusunda netleşecek. Yasal kira zammı hesaplamasında TÜFE’nin 12 …\n[haberturk · 19:11] TEFE TÜFE TÜİK Kira artış oranı ne zaman açıklanacak? 2026 Kasım kira artış zammı ne kadar, kaç TL olacak? — Enflasyon oranının açıklanmasıyla birlikte gözler kira zammına çevrilecek. Ekim enflasyon oranı beklenti anketi sonuçlandı. Ankete katılan ekonomistlerin ekim ayı aylık enflasyon beklentilerinin ortalaması yüzde 2,20 oldu. Ekonomistlerin ekim ayı için enflasyon beklentileri …\n[takvim · 21:23] Kasım ayı kira artış oranı belli oluyor: Konut ve iş yeri sahiplerini ilgilendiren resmi takvim\n[sabah · 07:53] 2026 Kasım kira artış oranı ne zaman açıklanacak, ne kadar olacak? Kira artış oranı hesaplama\n[turkiyegz · 09:18] Kira artış oranı saat kaçta açıklanacak? Gözler Kasım ayı kira zam oranında\n[mynet · 10:01] Kasım kira artış oranı belli oldu! Ev sahibi ve kiracılar için rakam netleşti — TÜİK tarafından Ekim ayı enflasyon rakamlarının açıklanmasıyla, ev ve iş yerlerinin kira zammı netleşti. Peki, Kasım 2026 kira zammı ne kadar? İşte detaylar…\n[sozcu · 10:01] Son dakika... Kasım ayı kira zam oranı belli oldu\n[ntv · 10:02] Kasım ayı kira zam oranı belli oldu. Ev sahibi ve kiracılar dikkat\n[tgrt · 10:03] Kira artış oranı hesaplama Kasım 2026! Kasım ayı kira artış oranı yüzde kaç oldu? 2026 Kasım ayı kira zammı hesaplama\n[onedio · 10:05] Ekim Ayı Enflasyonu Açıklandı, Kasım Ayı Kira Zam Oranı Belli Oldu\n[karar · 10:05] Kasım ayı kira zam oranı belli oldu — TÜİK'in ekim ayı enflasyon verilerini duyurmasıyla birlikte, kasım ayında uygulanabilecek kira artış oranının üst sınırı da netleşti. Buna göre, 12 aylık ortalamalara göre hesaplanan kasım ayı kira artış tavanı yüzde 31,23 oldu.\n[ahaber · 10:10] Ev sahibi ve kiracılar dikkat! 2026 Kasım ayı kira artış oranı belli oldu: İşte örnek zam hesabı\n[akit · 10:13] Milyonlarca kişi açıklanmasını bekliyordu! Kasım ayı kira artış oranları belli oldu\n[cumhuriyet · 10:42] TÜİK eylül ayı enflasyon verilerini açıkladı: Kasım ayı kira artış oranı belli oldu"
+  },
+  {
+   "key": "s5198__salience-bias",
+   "output_file": "runs/bg/explain/s5198__salience-bias.json",
+   "event_title": "Kasım ayı kira artış oranı belli oldu",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Milyonlarca kişi açıklanmasını bekliyordu! Kasım ayı kira artış oranları belli oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Milyonlarca kişi açıklanmasını bekliyordu!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başlıklar beklenti ve heyecan unsurunu öne çıkarıyor.",
+   "skeptic_alternative": "Geniş kitleyi ilgilendiren bir veri için vurgulu dil olağandır.",
+   "missing_context": [
+    "Belirgin ayrıntının bir yargıya haksız etkisini gösteren ifade",
+    "Öne çıkan unsur ile yargı arasında açık bağ"
+   ],
+   "headlines": "[aksam · 14:51] 2026 Kasım kira artış oranı ne zaman, saat kaçta açıklanacak?\n[haberler · 10:55] Kasım ayı kira artış oranı 2026: Kasım ayında kiralara ne kadar zam gelecek? Kira artış oranı ne zaman, saat kaçta açıklanacak?\n[yenisafak · 12:30] KASIM AYI KİRA ARTIŞ ORANI SON DURUM! Kasım ayı kira zammı ne kadar, yüzde kaç olacak? Konut, iş yeri kira oranı hesaplama\n[birgun · 13:06] Kasım Ayı Kira Artış Oranı Ne Zaman Açıklanacak? 2026 Kasım Ayı Kira Zammı Tahmini Yüzde Kaç?\n[milligazete · 14:25] Kasım ayı kira zam oranı ne zaman açıklanacak? Kasım 2026 kira zammı nasıl hesaplanır? 10 bin TL kira kaç lira olacak?\n[cnnturk · 16:00] KASIM AYI KİRA ARTIŞ ORANI 2026 | Kasım ayında kiralara ne kadar zam gelecek, TÜİK kira zammı ne olacak? — Kasım ayında kira kontratını yenileyecek ev sahipleri ve kiracılar, yeni dönemde uygulanacak zam oranını merakla bekliyor. Kira artışında esas alınacak oran, TÜİK tarafından açıklanacak enflasyon verileri doğrultusunda netleşecek. Yasal kira zammı hesaplamasında TÜFE’nin 12 …\n[haberturk · 19:11] TEFE TÜFE TÜİK Kira artış oranı ne zaman açıklanacak? 2026 Kasım kira artış zammı ne kadar, kaç TL olacak? — Enflasyon oranının açıklanmasıyla birlikte gözler kira zammına çevrilecek. Ekim enflasyon oranı beklenti anketi sonuçlandı. Ankete katılan ekonomistlerin ekim ayı aylık enflasyon beklentilerinin ortalaması yüzde 2,20 oldu. Ekonomistlerin ekim ayı için enflasyon beklentileri …\n[takvim · 21:23] Kasım ayı kira artış oranı belli oluyor: Konut ve iş yeri sahiplerini ilgilendiren resmi takvim\n[sabah · 07:53] 2026 Kasım kira artış oranı ne zaman açıklanacak, ne kadar olacak? Kira artış oranı hesaplama\n[turkiyegz · 09:18] Kira artış oranı saat kaçta açıklanacak? Gözler Kasım ayı kira zam oranında\n[mynet · 10:01] Kasım kira artış oranı belli oldu! Ev sahibi ve kiracılar için rakam netleşti — TÜİK tarafından Ekim ayı enflasyon rakamlarının açıklanmasıyla, ev ve iş yerlerinin kira zammı netleşti. Peki, Kasım 2026 kira zammı ne kadar? İşte detaylar…\n[sozcu · 10:01] Son dakika... Kasım ayı kira zam oranı belli oldu\n[ntv · 10:02] Kasım ayı kira zam oranı belli oldu. Ev sahibi ve kiracılar dikkat\n[tgrt · 10:03] Kira artış oranı hesaplama Kasım 2026! Kasım ayı kira artış oranı yüzde kaç oldu? 2026 Kasım ayı kira zammı hesaplama\n[onedio · 10:05] Ekim Ayı Enflasyonu Açıklandı, Kasım Ayı Kira Zam Oranı Belli Oldu\n[karar · 10:05] Kasım ayı kira zam oranı belli oldu — TÜİK'in ekim ayı enflasyon verilerini duyurmasıyla birlikte, kasım ayında uygulanabilecek kira artış oranının üst sınırı da netleşti. Buna göre, 12 aylık ortalamalara göre hesaplanan kasım ayı kira artış tavanı yüzde 31,23 oldu.\n[ahaber · 10:10] Ev sahibi ve kiracılar dikkat! 2026 Kasım ayı kira artış oranı belli oldu: İşte örnek zam hesabı\n[akit · 10:13] Milyonlarca kişi açıklanmasını bekliyordu! Kasım ayı kira artış oranları belli oldu\n[cumhuriyet · 10:42] TÜİK eylül ayı enflasyon verilerini açıkladı: Kasım ayı kira artış oranı belli oldu"
+  },
+  {
+   "key": "s5198__anchoring-bias",
+   "output_file": "runs/bg/explain/s5198__anchoring-bias.json",
+   "event_title": "Kasım ayı kira artış oranı belli oldu",
+   "concept": "Anchoring Bias",
+   "definition": "A reasoning pattern in which an initial value or piece of information becomes a reference point and exerts unwarranted influence on a later estimate or decision. Using a starting point is not by itself a bias or an error: identification here requires explicit evidence that the anchor distorts judgment or is given unjustified weight.",
+   "quotes": [
+    {
+     "quote": "Ankete katılan ekonomistlerin ekim ayı aylık enflasyon beklentilerinin ortalaması yüzde 2,20 oldu.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "10 bin TL kira kaç lira olacak?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "12 aylık ortalamalara göre hesaplanan kasım ayı kira artış tavanı yüzde 31,23 oldu.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Beklenti anketi ve örnek kira tutarı sonraki hesaplar için referans noktası sunuyor.",
+   "skeptic_alternative": "Piyasa beklentisini aktarmak resmi veri öncesi olağan ve ilgili bilgilendirmedir.",
+   "missing_context": [
+    "Açıklanan gerçek veriyle karşılaştırma",
+    "Beklentiye dayalı bir kira hesabı veya tahmin",
+    "Sonraki tahminin çapaya açıkça bağlanması ve haksız etki"
+   ],
+   "headlines": "[aksam · 14:51] 2026 Kasım kira artış oranı ne zaman, saat kaçta açıklanacak?\n[haberler · 10:55] Kasım ayı kira artış oranı 2026: Kasım ayında kiralara ne kadar zam gelecek? Kira artış oranı ne zaman, saat kaçta açıklanacak?\n[yenisafak · 12:30] KASIM AYI KİRA ARTIŞ ORANI SON DURUM! Kasım ayı kira zammı ne kadar, yüzde kaç olacak? Konut, iş yeri kira oranı hesaplama\n[birgun · 13:06] Kasım Ayı Kira Artış Oranı Ne Zaman Açıklanacak? 2026 Kasım Ayı Kira Zammı Tahmini Yüzde Kaç?\n[milligazete · 14:25] Kasım ayı kira zam oranı ne zaman açıklanacak? Kasım 2026 kira zammı nasıl hesaplanır? 10 bin TL kira kaç lira olacak?\n[cnnturk · 16:00] KASIM AYI KİRA ARTIŞ ORANI 2026 | Kasım ayında kiralara ne kadar zam gelecek, TÜİK kira zammı ne olacak? — Kasım ayında kira kontratını yenileyecek ev sahipleri ve kiracılar, yeni dönemde uygulanacak zam oranını merakla bekliyor. Kira artışında esas alınacak oran, TÜİK tarafından açıklanacak enflasyon verileri doğrultusunda netleşecek. Yasal kira zammı hesaplamasında TÜFE’nin 12 …\n[haberturk · 19:11] TEFE TÜFE TÜİK Kira artış oranı ne zaman açıklanacak? 2026 Kasım kira artış zammı ne kadar, kaç TL olacak? — Enflasyon oranının açıklanmasıyla birlikte gözler kira zammına çevrilecek. Ekim enflasyon oranı beklenti anketi sonuçlandı. Ankete katılan ekonomistlerin ekim ayı aylık enflasyon beklentilerinin ortalaması yüzde 2,20 oldu. Ekonomistlerin ekim ayı için enflasyon beklentileri …\n[takvim · 21:23] Kasım ayı kira artış oranı belli oluyor: Konut ve iş yeri sahiplerini ilgilendiren resmi takvim\n[sabah · 07:53] 2026 Kasım kira artış oranı ne zaman açıklanacak, ne kadar olacak? Kira artış oranı hesaplama\n[turkiyegz · 09:18] Kira artış oranı saat kaçta açıklanacak? Gözler Kasım ayı kira zam oranında\n[mynet · 10:01] Kasım kira artış oranı belli oldu! Ev sahibi ve kiracılar için rakam netleşti — TÜİK tarafından Ekim ayı enflasyon rakamlarının açıklanmasıyla, ev ve iş yerlerinin kira zammı netleşti. Peki, Kasım 2026 kira zammı ne kadar? İşte detaylar…\n[sozcu · 10:01] Son dakika... Kasım ayı kira zam oranı belli oldu\n[ntv · 10:02] Kasım ayı kira zam oranı belli oldu. Ev sahibi ve kiracılar dikkat\n[tgrt · 10:03] Kira artış oranı hesaplama Kasım 2026! Kasım ayı kira artış oranı yüzde kaç oldu? 2026 Kasım ayı kira zammı hesaplama\n[onedio · 10:05] Ekim Ayı Enflasyonu Açıklandı, Kasım Ayı Kira Zam Oranı Belli Oldu\n[karar · 10:05] Kasım ayı kira zam oranı belli oldu — TÜİK'in ekim ayı enflasyon verilerini duyurmasıyla birlikte, kasım ayında uygulanabilecek kira artış oranının üst sınırı da netleşti. Buna göre, 12 aylık ortalamalara göre hesaplanan kasım ayı kira artış tavanı yüzde 31,23 oldu.\n[ahaber · 10:10] Ev sahibi ve kiracılar dikkat! 2026 Kasım ayı kira artış oranı belli oldu: İşte örnek zam hesabı\n[akit · 10:13] Milyonlarca kişi açıklanmasını bekliyordu! Kasım ayı kira artış oranları belli oldu\n[cumhuriyet · 10:42] TÜİK eylül ayı enflasyon verilerini açıkladı: Kasım ayı kira artış oranı belli oldu"
+  },
+  {
+   "key": "s4998__anchoring-bias",
+   "output_file": "runs/bg/explain/s4998__anchoring-bias.json",
+   "event_title": "Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak?",
+   "concept": "Anchoring Bias",
+   "definition": "A reasoning pattern in which an initial value or piece of information becomes a reference point and exerts unwarranted influence on a later estimate or decision. Using a starting point is not by itself a bias or an error: identification here requires explicit evidence that the anchor distorts judgment or is given unjustified weight.",
+   "quotes": [
+    {
+     "quote": "ekim ayı enflasyonu öncesinde Merkez Bankası'nın yıl sonu tahmini de güncellendi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ekim ayında enflasyon aylık yüzde 2,58 yıllık ise yüzde 29,77 arttı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "2026 Ekim ayı enflasyon beklentisi belli oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Açıklama öncesi beklenti ve tahminler, sonraki verinin değerlendirilmesinde referans noktası olabilir.",
+   "skeptic_alternative": "Beklenti ve gerçekleşme ayrı ayrı olgusal olarak aktarılıyor; bu olağan ekonomi habercilliğidir.",
+   "missing_context": [
+    "Açıklanan verinin beklentiye göre yorumlandığını gösteren ifade",
+    "Beklenti ile gerçekleşmenin karşılaştırıldığı yorumlar",
+    "Beklentinin sonraki bir tahmini nasıl etkilediği"
+   ],
+   "headlines": "[sabah · 17:59] Ekim ayı enflasyon verileri ne zaman açıklanacak? 2026 Ekim ayı enflasyon beklentisi belli oldu\n[haberturk · 12:07] Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak? — Ekim ayı enflasyon rakamları için gözler TÜİK'in açıklayacağı verilere çevrildi. Memur ve emekli zammından kira artış oranına kadar birçok kalemi etkileyecek ekim ayı enflasyonu öncesinde Merkez Bankası'nın yıl sonu tahmini de güncellendi. Peki, enflasyon beklentisi ne kadar …\n[yenisafak · 18:47] Maaş ve kira hesapları için beklenen veri: TÜİK Ekim 2026 enflasyon rakamları ne zaman, saat kaçta açıklanacak?\n[cnnturk · 20:49] ENFLASYON AÇIKLANDI MI, NE ZAMAN AÇIKLANACAK? 2026 Ekim Ayı Enflasyon Oranları Saat Kaçta Açıklanır? Enflasyon Beklentisi Nedir? — Enflasyon açıklandı mı, 2026 Ekim ayı enflasyon oranları ne zaman açıklanacak, TÜİK enflasyon verileri saat kaçta açıklanır, enflasyon beklentisi nedir soruları kasım ayının gelmesiyle birlikte milyonlarca vatandaşın gündemindeki yerini aldı. Kira artış oranlarından memur ve …\n[ntv · 09:32] Enflasyon verileri ne zaman, saat kaçta açıklanacak? Ekim ayı enflasyon beklentisi belli oldu\n[cumhuriyet · 10:39] Enflasyon verileri ne zaman, saat kaçta açıklanacak? 2026 Ekim enflasyon beklentisi nedir?\n[birgun · 13:33] 2026 Ekim Ayı Enflasyon Verileri Ne Zaman Açıklanacak? Ekim Ayı Enflasyon Beklentisi ve Anketleri\n[haberler · 13:37] Ekim ayı enflasyon beklentisi ne yönde? Ekim ayı enflasyon verileri ne zaman, saat kaçta açıklanacak?\n[turkiyegz · 15:00] Ekim ayı enflasyon beklentisi belli oldu! Enflasyon ne zaman, saat kaçta açıklanacak?\n[trthaber · 03:29] Enflasyon verileri bugün açıklanacak\n[sozcu · 07:13] Ekim ayı enflasyon rakamları açıklanacak\n[ahaber · 09:10] Ekim ayı enflasyon rakamları açıklanıyor! Emekli ve memur zammı ne kadar olacak?\n[tgrt · 09:59] TÜİK açıkladı! İşte 2026 Ekim ayı enflasyon verileri\n[bloomberght · 10:00] Enflasyon\n[aa · 10:02] Enflasyon rakamları açıklandı\n[dirilis · 10:04] Enflasyon rakamları açıklandı... İşte detaylar!\n[akit · 10:05] Ekim ayı enflasyon rakamları açıklandı! En çok artış yapan ürünler belli oldu — Ekim ayında enflasyon aylık yüzde 2,58 yıllık ise yüzde 29,77 arttı. Enflasyon on iki aylık ortalamalara göre yüzde 31,23 oldu. Enflasyona en yüksek katkı gıda ve alkolsüz içecekler grubundan geldi.\n[aksam · 10:11] Enflasyon rakamları belli oldu\n[star · 10:39] Enflasyon rakamları belli oldu — Tüketici Fiyat Endeksi (TÜFE), ekimde aylık bazda yüzde 2,58, Yurt İçi Üretici Fiyat Endeksi (Yİ-ÜFE) yüzde 1,65 artış gösterdi. Yıllık enflasyon, tüketici fiyatlarında yüzde 29,77, yurt içi üretici fiyatlarında yüzde 27,41 olarak kayıtlara geçti."
+  },
+  {
+   "key": "s4998__framing-effect",
+   "output_file": "runs/bg/explain/s4998__framing-effect.json",
+   "event_title": "Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak?",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Ekim ayı enflasyon rakamları açıklanıyor! Emekli ve memur zammı ne kadar olacak?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ekim ayı enflasyon rakamları açıklandı! En çok artış yapan ürünler belli oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Enflasyon rakamları açıklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "En çok artış yapan ürünler belli oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı veri A Haber'de maaş zammı, Akit'te fiyat artışı, AA'da nötr duyuru olarak çerçeveleniyor.",
+   "skeptic_alternative": "Kurumlar aynı veriyi farklı alt başlıklarla aktarıyor.",
+   "missing_context": [
+    "Sunum farkına bağlı bir yargı",
+    "Çerçeveye bağlı açık bir yargı veya tercih"
+   ],
+   "headlines": "[sabah · 17:59] Ekim ayı enflasyon verileri ne zaman açıklanacak? 2026 Ekim ayı enflasyon beklentisi belli oldu\n[haberturk · 12:07] Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak? — Ekim ayı enflasyon rakamları için gözler TÜİK'in açıklayacağı verilere çevrildi. Memur ve emekli zammından kira artış oranına kadar birçok kalemi etkileyecek ekim ayı enflasyonu öncesinde Merkez Bankası'nın yıl sonu tahmini de güncellendi. Peki, enflasyon beklentisi ne kadar …\n[yenisafak · 18:47] Maaş ve kira hesapları için beklenen veri: TÜİK Ekim 2026 enflasyon rakamları ne zaman, saat kaçta açıklanacak?\n[cnnturk · 20:49] ENFLASYON AÇIKLANDI MI, NE ZAMAN AÇIKLANACAK? 2026 Ekim Ayı Enflasyon Oranları Saat Kaçta Açıklanır? Enflasyon Beklentisi Nedir? — Enflasyon açıklandı mı, 2026 Ekim ayı enflasyon oranları ne zaman açıklanacak, TÜİK enflasyon verileri saat kaçta açıklanır, enflasyon beklentisi nedir soruları kasım ayının gelmesiyle birlikte milyonlarca vatandaşın gündemindeki yerini aldı. Kira artış oranlarından memur ve …\n[ntv · 09:32] Enflasyon verileri ne zaman, saat kaçta açıklanacak? Ekim ayı enflasyon beklentisi belli oldu\n[cumhuriyet · 10:39] Enflasyon verileri ne zaman, saat kaçta açıklanacak? 2026 Ekim enflasyon beklentisi nedir?\n[birgun · 13:33] 2026 Ekim Ayı Enflasyon Verileri Ne Zaman Açıklanacak? Ekim Ayı Enflasyon Beklentisi ve Anketleri\n[haberler · 13:37] Ekim ayı enflasyon beklentisi ne yönde? Ekim ayı enflasyon verileri ne zaman, saat kaçta açıklanacak?\n[turkiyegz · 15:00] Ekim ayı enflasyon beklentisi belli oldu! Enflasyon ne zaman, saat kaçta açıklanacak?\n[trthaber · 03:29] Enflasyon verileri bugün açıklanacak\n[sozcu · 07:13] Ekim ayı enflasyon rakamları açıklanacak\n[ahaber · 09:10] Ekim ayı enflasyon rakamları açıklanıyor! Emekli ve memur zammı ne kadar olacak?\n[tgrt · 09:59] TÜİK açıkladı! İşte 2026 Ekim ayı enflasyon verileri\n[bloomberght · 10:00] Enflasyon\n[aa · 10:02] Enflasyon rakamları açıklandı\n[dirilis · 10:04] Enflasyon rakamları açıklandı... İşte detaylar!\n[akit · 10:05] Ekim ayı enflasyon rakamları açıklandı! En çok artış yapan ürünler belli oldu — Ekim ayında enflasyon aylık yüzde 2,58 yıllık ise yüzde 29,77 arttı. Enflasyon on iki aylık ortalamalara göre yüzde 31,23 oldu. Enflasyona en yüksek katkı gıda ve alkolsüz içecekler grubundan geldi.\n[aksam · 10:11] Enflasyon rakamları belli oldu\n[star · 10:39] Enflasyon rakamları belli oldu — Tüketici Fiyat Endeksi (TÜFE), ekimde aylık bazda yüzde 2,58, Yurt İçi Üretici Fiyat Endeksi (Yİ-ÜFE) yüzde 1,65 artış gösterdi. Yıllık enflasyon, tüketici fiyatlarında yüzde 29,77, yurt içi üretici fiyatlarında yüzde 27,41 olarak kayıtlara geçti."
+  },
+  {
+   "key": "s4998__salience-bias",
+   "output_file": "runs/bg/explain/s4998__salience-bias.json",
+   "event_title": "Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak?",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Enflasyona en yüksek katkı gıda ve alkolsüz içecekler grubundan geldi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Emekli ve memur zammı ne kadar olacak?",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Belirli kalemlerin öne çıkarılması dikkati tek gruba yönlendirebilir.",
+   "skeptic_alternative": "Maaş ve kira etkisi enflasyon verisinin doğrudan ilgili sonucudur.",
+   "missing_context": [
+    "Belirgin ayrıntının haksız bir çıkarıma bağlandığını gösteren ifade",
+    "Öne çıkan unsur ile yargı arasında açık bağ"
+   ],
+   "headlines": "[sabah · 17:59] Ekim ayı enflasyon verileri ne zaman açıklanacak? 2026 Ekim ayı enflasyon beklentisi belli oldu\n[haberturk · 12:07] Ekim ayı enflasyon beklentisi belli oldu! 2026 TÜİK Ekim ayı enflasyon rakamları ne zaman, saat kaçta açıklanacak? — Ekim ayı enflasyon rakamları için gözler TÜİK'in açıklayacağı verilere çevrildi. Memur ve emekli zammından kira artış oranına kadar birçok kalemi etkileyecek ekim ayı enflasyonu öncesinde Merkez Bankası'nın yıl sonu tahmini de güncellendi. Peki, enflasyon beklentisi ne kadar …\n[yenisafak · 18:47] Maaş ve kira hesapları için beklenen veri: TÜİK Ekim 2026 enflasyon rakamları ne zaman, saat kaçta açıklanacak?\n[cnnturk · 20:49] ENFLASYON AÇIKLANDI MI, NE ZAMAN AÇIKLANACAK? 2026 Ekim Ayı Enflasyon Oranları Saat Kaçta Açıklanır? Enflasyon Beklentisi Nedir? — Enflasyon açıklandı mı, 2026 Ekim ayı enflasyon oranları ne zaman açıklanacak, TÜİK enflasyon verileri saat kaçta açıklanır, enflasyon beklentisi nedir soruları kasım ayının gelmesiyle birlikte milyonlarca vatandaşın gündemindeki yerini aldı. Kira artış oranlarından memur ve …\n[ntv · 09:32] Enflasyon verileri ne zaman, saat kaçta açıklanacak? Ekim ayı enflasyon beklentisi belli oldu\n[cumhuriyet · 10:39] Enflasyon verileri ne zaman, saat kaçta açıklanacak? 2026 Ekim enflasyon beklentisi nedir?\n[birgun · 13:33] 2026 Ekim Ayı Enflasyon Verileri Ne Zaman Açıklanacak? Ekim Ayı Enflasyon Beklentisi ve Anketleri\n[haberler · 13:37] Ekim ayı enflasyon beklentisi ne yönde? Ekim ayı enflasyon verileri ne zaman, saat kaçta açıklanacak?\n[turkiyegz · 15:00] Ekim ayı enflasyon beklentisi belli oldu! Enflasyon ne zaman, saat kaçta açıklanacak?\n[trthaber · 03:29] Enflasyon verileri bugün açıklanacak\n[sozcu · 07:13] Ekim ayı enflasyon rakamları açıklanacak\n[ahaber · 09:10] Ekim ayı enflasyon rakamları açıklanıyor! Emekli ve memur zammı ne kadar olacak?\n[tgrt · 09:59] TÜİK açıkladı! İşte 2026 Ekim ayı enflasyon verileri\n[bloomberght · 10:00] Enflasyon\n[aa · 10:02] Enflasyon rakamları açıklandı\n[dirilis · 10:04] Enflasyon rakamları açıklandı... İşte detaylar!\n[akit · 10:05] Ekim ayı enflasyon rakamları açıklandı! En çok artış yapan ürünler belli oldu — Ekim ayında enflasyon aylık yüzde 2,58 yıllık ise yüzde 29,77 arttı. Enflasyon on iki aylık ortalamalara göre yüzde 31,23 oldu. Enflasyona en yüksek katkı gıda ve alkolsüz içecekler grubundan geldi.\n[aksam · 10:11] Enflasyon rakamları belli oldu\n[star · 10:39] Enflasyon rakamları belli oldu — Tüketici Fiyat Endeksi (TÜFE), ekimde aylık bazda yüzde 2,58, Yurt İçi Üretici Fiyat Endeksi (Yİ-ÜFE) yüzde 1,65 artış gösterdi. Yıllık enflasyon, tüketici fiyatlarında yüzde 29,77, yurt içi üretici fiyatlarında yüzde 27,41 olarak kayıtlara geçti."
+  },
+  {
+   "key": "s4577__framing-effect",
+   "output_file": "runs/bg/explain/s4577__framing-effect.json",
+   "event_title": "Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Merkezefendi Belediyesi'nde imar vurgunu: 27 kişi gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkezefendi Belediyesi'ne operasyon: Çok sayıda şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Akşam olayı 'imar vurgunu' olarak, Sabah başkanı anmadan, Diken başkanın partisini öne çıkararak çerçeveliyor.",
+   "skeptic_alternative": "Başlık farkları savcılık açıklamasındaki suçlama türünü veya haber ajansı dilini yansıtıyor olabilir.",
+   "missing_context": [
+    "Haber gövdelerinde başkanın adının geçip geçmediği",
+    "Savcılık açıklamasındaki suçlama ifadesi",
+    "Çerçevelerin olgusal eşdeğerliği",
+    "Çerçeveye bağlı bir yargı"
+   ],
+   "headlines": "[tele1 · 09:32] Merkezefendi Belediyesi'ne operasyon; Başkan Şeniz Doğan ve eşinin de olduğu şüphelilere gözaltı\n[haberler · 09:33] Denizli’de Merkezefendi Belediyesi’ne operasyon! Başkan Şeniz Doğan ve eşi gözaltında\n[birgun · 09:41] Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!\n[haberturk · 09:41] Denizli’de Merkezefendi Belediyesi’ne operasyon: Belediye başkanı ve eşi de gözaltına alınanlar arasında!\n[sabah · 09:42] Merkezefendi Belediyesi'ne operasyon: Çok sayıda şüpheli gözaltına alındı\n[mynet · 09:45] Son dakika | Merkezefendi Belediyesi'ne operasyon! Başkan Şeniz Doğan ve eşi gözaltına alındı\n[takvim · 09:49] Denizli’de Merkezefendi Belediyesi’ne operasyon: Şeniz Doğan ve eşi gözaltında\n[karar · 09:50] Merkezefendi Belediyesi’ne operasyon: Başkan Şeniz Doğan ve eşi gözaltına alındı — İstanbul’da Bakırköy Belediyesi’ne yönelik operasyonun ardından Denizli’de de Merkezefendi Belediyesi’ne operasyon düzenlendi. Belediye Başkanı Şeniz Doğan ile eşi Mehmet Ali Doğan’ın da aralarında bulunduğu kişiler gözaltına alınırken, belediye binası ve Doğan’ın evindeki …\n[cumhuriyet · 09:51] Son dakika... Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi dahil çok sayıda gözaltı!\n[milligazete · 09:55] Merkezefendi Belediyesi'ne sabah operasyonu! Başkan Şeniz Doğan ve eşi gözaltına alındı\n[yenisafak · 10:04] Denizli Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşinin de aralarında olduğu şüphelilere gözaltı\n[turkiyegz · 10:30] Denizli'de Merkezefendi Belediyesi'ne sabah operasyonu! 27 kişi gözaltına alındı\n[diken · 10:30] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında\n[ahaber · 10:36] Merkezefendi Belediyesi'ne operasyon! Başkan ve eşi dahil çok sayıda gözaltı var\n[tgrt · 10:39] Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi de gözaltında\n[sozcu · 10:40] Şeniz Doğan kimdir, kaç yaşında, Merkezefendi Belediyesi Başkanı Şeniz Doğan'ın eşi nereli ve ne iş yapıyor?\n[aksam · 10:44] Merkezefendi Belediyesi'nde imar vurgunu: 27 kişi gözaltında\n[sondakika · 15:24] Merkezefendi Belediyesi'ndeki aramalar bitti, Şeniz Doğan dahil 27 kişi gözaltında\n[ntv · 16:38] Merkezefendi Belediyesi'ne operasyon. Belediye Başkanı Şeniz Doğan ve eşi dahil 17 gözaltı"
+  },
+  {
+   "key": "s4577__salience-bias",
+   "output_file": "runs/bg/explain/s4577__salience-bias.json",
+   "event_title": "Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Merkezefendi Belediyesi'nde imar vurgunu: 27 kişi gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Denizli'de Merkezefendi Belediyesi'ne sabah operasyonu! 27 kişi gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'İmar vurgunu' ifadesi soruşturma aşamasındaki olayı çarpıcı bir suç nitelemesiyle öne çıkarıyor.",
+   "skeptic_alternative": "Seçici vurgu haber değeri ve yer darlığı tercihleriyle açıklanabilir.",
+   "missing_context": [
+    "Belirgin ayrıntının yargıya etkisini gösteren ifade",
+    "Savcılık açıklamasının içeriği",
+    "Vurgunun okur değerlendirmesini değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[tele1 · 09:32] Merkezefendi Belediyesi'ne operasyon; Başkan Şeniz Doğan ve eşinin de olduğu şüphelilere gözaltı\n[haberler · 09:33] Denizli’de Merkezefendi Belediyesi’ne operasyon! Başkan Şeniz Doğan ve eşi gözaltında\n[birgun · 09:41] Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!\n[haberturk · 09:41] Denizli’de Merkezefendi Belediyesi’ne operasyon: Belediye başkanı ve eşi de gözaltına alınanlar arasında!\n[sabah · 09:42] Merkezefendi Belediyesi'ne operasyon: Çok sayıda şüpheli gözaltına alındı\n[mynet · 09:45] Son dakika | Merkezefendi Belediyesi'ne operasyon! Başkan Şeniz Doğan ve eşi gözaltına alındı\n[takvim · 09:49] Denizli’de Merkezefendi Belediyesi’ne operasyon: Şeniz Doğan ve eşi gözaltında\n[karar · 09:50] Merkezefendi Belediyesi’ne operasyon: Başkan Şeniz Doğan ve eşi gözaltına alındı — İstanbul’da Bakırköy Belediyesi’ne yönelik operasyonun ardından Denizli’de de Merkezefendi Belediyesi’ne operasyon düzenlendi. Belediye Başkanı Şeniz Doğan ile eşi Mehmet Ali Doğan’ın da aralarında bulunduğu kişiler gözaltına alınırken, belediye binası ve Doğan’ın evindeki …\n[cumhuriyet · 09:51] Son dakika... Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi dahil çok sayıda gözaltı!\n[milligazete · 09:55] Merkezefendi Belediyesi'ne sabah operasyonu! Başkan Şeniz Doğan ve eşi gözaltına alındı\n[yenisafak · 10:04] Denizli Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşinin de aralarında olduğu şüphelilere gözaltı\n[turkiyegz · 10:30] Denizli'de Merkezefendi Belediyesi'ne sabah operasyonu! 27 kişi gözaltına alındı\n[diken · 10:30] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında\n[ahaber · 10:36] Merkezefendi Belediyesi'ne operasyon! Başkan ve eşi dahil çok sayıda gözaltı var\n[tgrt · 10:39] Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi de gözaltında\n[sozcu · 10:40] Şeniz Doğan kimdir, kaç yaşında, Merkezefendi Belediyesi Başkanı Şeniz Doğan'ın eşi nereli ve ne iş yapıyor?\n[aksam · 10:44] Merkezefendi Belediyesi'nde imar vurgunu: 27 kişi gözaltında\n[sondakika · 15:24] Merkezefendi Belediyesi'ndeki aramalar bitti, Şeniz Doğan dahil 27 kişi gözaltında\n[ntv · 16:38] Merkezefendi Belediyesi'ne operasyon. Belediye Başkanı Şeniz Doğan ve eşi dahil 17 gözaltı"
+  },
+  {
+   "key": "s4577__in-group-bias",
+   "output_file": "runs/bg/explain/s4577__in-group-bias.json",
+   "event_title": "Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkezefendi Belediyesi'ne operasyon: Çok sayıda şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "sabah: sağ (80)",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "diken: sol (34)",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Diken başkanın parti üyeliğini vurgularken Sabah başkanın adını başlıkta anmıyor; grup kimliği haber seçimini etkiliyor olabilir.",
+   "skeptic_alternative": "Siyasi aidiyeti belirtmek ilgili bir bağlam bilgisidir.",
+   "missing_context": [
+    "Karşılaştırılabilir vakalarda farklı standart uygulandığına dair kanıt",
+    "Karşılaştırılabilir vakalarda tutarsız standart kanıtı",
+    "Kurumların grup üyeliğinin açık tespiti"
+   ],
+   "headlines": "[tele1 · 09:32] Merkezefendi Belediyesi'ne operasyon; Başkan Şeniz Doğan ve eşinin de olduğu şüphelilere gözaltı\n[haberler · 09:33] Denizli’de Merkezefendi Belediyesi’ne operasyon! Başkan Şeniz Doğan ve eşi gözaltında\n[birgun · 09:41] Merkezefendi Belediyesi'ne operasyon: Belediye Başkanı Şeniz Doğan ve eşi gözaltında!\n[haberturk · 09:41] Denizli’de Merkezefendi Belediyesi’ne operasyon: Belediye başkanı ve eşi de gözaltına alınanlar arasında!\n[sabah · 09:42] Merkezefendi Belediyesi'ne operasyon: Çok sayıda şüpheli gözaltına alındı\n[mynet · 09:45] Son dakika | Merkezefendi Belediyesi'ne operasyon! Başkan Şeniz Doğan ve eşi gözaltına alındı\n[takvim · 09:49] Denizli’de Merkezefendi Belediyesi’ne operasyon: Şeniz Doğan ve eşi gözaltında\n[karar · 09:50] Merkezefendi Belediyesi’ne operasyon: Başkan Şeniz Doğan ve eşi gözaltına alındı — İstanbul’da Bakırköy Belediyesi’ne yönelik operasyonun ardından Denizli’de de Merkezefendi Belediyesi’ne operasyon düzenlendi. Belediye Başkanı Şeniz Doğan ile eşi Mehmet Ali Doğan’ın da aralarında bulunduğu kişiler gözaltına alınırken, belediye binası ve Doğan’ın evindeki …\n[cumhuriyet · 09:51] Son dakika... Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi dahil çok sayıda gözaltı!\n[milligazete · 09:55] Merkezefendi Belediyesi'ne sabah operasyonu! Başkan Şeniz Doğan ve eşi gözaltına alındı\n[yenisafak · 10:04] Denizli Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşinin de aralarında olduğu şüphelilere gözaltı\n[turkiyegz · 10:30] Denizli'de Merkezefendi Belediyesi'ne sabah operasyonu! 27 kişi gözaltına alındı\n[diken · 10:30] YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan gözaltında\n[ahaber · 10:36] Merkezefendi Belediyesi'ne operasyon! Başkan ve eşi dahil çok sayıda gözaltı var\n[tgrt · 10:39] Merkezefendi Belediyesi'ne operasyon: Başkan Şeniz Doğan ve eşi de gözaltında\n[sozcu · 10:40] Şeniz Doğan kimdir, kaç yaşında, Merkezefendi Belediyesi Başkanı Şeniz Doğan'ın eşi nereli ve ne iş yapıyor?\n[aksam · 10:44] Merkezefendi Belediyesi'nde imar vurgunu: 27 kişi gözaltında\n[sondakika · 15:24] Merkezefendi Belediyesi'ndeki aramalar bitti, Şeniz Doğan dahil 27 kişi gözaltında\n[ntv · 16:38] Merkezefendi Belediyesi'ne operasyon. Belediye Başkanı Şeniz Doğan ve eşi dahil 17 gözaltı"
+  },
+  {
+   "key": "s4374__framing-effect",
+   "output_file": "runs/bg/explain/s4374__framing-effect.json",
+   "event_title": "Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bolu Belediyesi'ne operasyon: 4 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[sabah · 10:23] Bolu Belediyesi'ne operasyon: 4 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 10:22] Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Aynı olgu (4 gözaltı) bazı kurumlarda 'şafak operasyonu' ünlemiyle, bazılarında yalın biçimde sunulmuş; sunum farkı var.",
+   "skeptic_alternative": "Başlık uzunluğu, son dakika hızı ve kurum üslubu farkı; başkan yardımcısını içermeyen başlıklar erken ve kısa bildirim olabilir.",
+   "missing_context": [
+    "Başlıkların tam haber metinleri",
+    "Kurumların aynı tür haberlerdeki olağan başlık üslubu",
+    "Okur ya da editör yargısının bu sunumla değiştiğine dair kanıt",
+    "Okur ya da editör yargısının sunuma bağlı değiştiğine dair kanıt"
+   ],
+   "headlines": "[tele1 · 10:18] Bolu Belediyesi'ne operasyon 4 gözaltı\n[birgun · 10:19] Bolu Belediyesi'ne operasyon: Belediye Başkan Yardımcısı dahil 4 kişi gözaltında\n[haberler · 10:20] Bolu Belediyesi operasyonunda Başkan Yardımcısı Özdemir dahil 4 kişi gözaltına alındı\n[sozcu · 10:20] Bolu Belediyesi’ne operasyon: Başkan Yardımcısı dahil 4 gözaltı\n[aksam · 10:22] Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı\n[cumhuriyet · 10:23] Bolu Belediyesi'ne şafak operasyonu: Belediye Başkan Yardımcısı dahil 4 gözaltı\n[sabah · 10:23] Bolu Belediyesi'ne operasyon: 4 gözaltı\n[star · 10:24] Bolu'da belediyeye şafak operasyonu! Başkan Yardımcısı da gözaltına alınanlar arasında — Bolu Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'zimmet' soruşturmaları kapsamında sabah saatlerinde düzenlenen operasyonda 4 kişi gözaltına alındı.\n[yenisafak · 10:26] Bolu Belediyesi'ne şafak operasyonu: Başkan Yardımcısı Rasim Özdemir de gözaltına alındı\n[takvim · 10:29] Bolu Belediyesi’nde ihale ve zimmet soruşturması! Başkan Yardımcısı Rasim Özdemir tutuklandı\n[milligazete · 10:32] Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında\n[mynet · 10:36] Bolu Belediyesi'ne yeni operasyon! Başkan yardımcısı dahil 4 kişi gözaltına alındı\n[haberturk · 10:36] Bolu Belediyesi'ne şafak operasyonu: 4 gözaltı\n[tgrt · 10:41] Bolu Belediyesi’ne şafak operasyonu: 4 kişi gözaltına alındı\n[karar · 10:44] Bolu Belediyesine operasyon: Belediye başkan yardımcısı dahil 4 kişi gözaltında — Bolu Belediyesine yönelik yürütülen soruşturma kapsamında sabah saatlerinde operasyon düzenlendi. “İhaleye fesat karıştırma” ve “zimmet” iddiaları üzerine gerçekleştirilen operasyonda, Belediye Başkan Yardımcısı Rasim Özdemir’in de aralarında bulunduğu 4 kişi gözaltına alındı.\n[ahaber · 10:50] Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında\n[diken · 10:56] Bakırköy Belediyesi'ne soruşturma: Beş başkan yardımcısı dahil 58 gözaltı\n[ntv · 10:59] Bolu Belediyesi'ne operasyon. Belediye Başkan Yardımcısı dahil dört kişi adliyede\n[sondakika · 14:56] Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı"
+  },
+  {
+   "key": "s4374__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4374__leveling-and-sharpening.json",
+   "event_title": "Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Başkan Yardımcısı Rasim Özdemir tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Belediye Başkan Yardımcısı Rasim Özdemir’in de aralarında bulunduğu 4 kişi gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[takvim · 10:29] Bolu Belediyesi’nde ihale ve zimmet soruşturması! Başkan Yardımcısı Rasim Özdemir tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[sondakika · 14:56] Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Takvim 10:29'da gözaltıyı 'tutuklandı' olarak keskinleştirmiş; ahaber gözaltı sayısını düşürüp yalnız başkan yardımcısını öne çıkarmış.",
+   "skeptic_alternative": "Başlık sonradan güncellenmiş olabilir; aynı gün Özdemir dahil 3 kişinin tutuklandığı bildiriliyor, yani bilgi sonradan doğrulanmış olabilir.",
+   "missing_context": [
+    "Farkın okur yargısını etkilediğine dair kanıt",
+    "Takvim başlığının ilk yayın ve güncelleme zamanı",
+    "Takvim'in 10:29'daki kaynağı",
+    "Tutuklama kararının saati"
+   ],
+   "headlines": "[tele1 · 10:18] Bolu Belediyesi'ne operasyon 4 gözaltı\n[birgun · 10:19] Bolu Belediyesi'ne operasyon: Belediye Başkan Yardımcısı dahil 4 kişi gözaltında\n[haberler · 10:20] Bolu Belediyesi operasyonunda Başkan Yardımcısı Özdemir dahil 4 kişi gözaltına alındı\n[sozcu · 10:20] Bolu Belediyesi’ne operasyon: Başkan Yardımcısı dahil 4 gözaltı\n[aksam · 10:22] Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı\n[cumhuriyet · 10:23] Bolu Belediyesi'ne şafak operasyonu: Belediye Başkan Yardımcısı dahil 4 gözaltı\n[sabah · 10:23] Bolu Belediyesi'ne operasyon: 4 gözaltı\n[star · 10:24] Bolu'da belediyeye şafak operasyonu! Başkan Yardımcısı da gözaltına alınanlar arasında — Bolu Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'zimmet' soruşturmaları kapsamında sabah saatlerinde düzenlenen operasyonda 4 kişi gözaltına alındı.\n[yenisafak · 10:26] Bolu Belediyesi'ne şafak operasyonu: Başkan Yardımcısı Rasim Özdemir de gözaltına alındı\n[takvim · 10:29] Bolu Belediyesi’nde ihale ve zimmet soruşturması! Başkan Yardımcısı Rasim Özdemir tutuklandı\n[milligazete · 10:32] Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında\n[mynet · 10:36] Bolu Belediyesi'ne yeni operasyon! Başkan yardımcısı dahil 4 kişi gözaltına alındı\n[haberturk · 10:36] Bolu Belediyesi'ne şafak operasyonu: 4 gözaltı\n[tgrt · 10:41] Bolu Belediyesi’ne şafak operasyonu: 4 kişi gözaltına alındı\n[karar · 10:44] Bolu Belediyesine operasyon: Belediye başkan yardımcısı dahil 4 kişi gözaltında — Bolu Belediyesine yönelik yürütülen soruşturma kapsamında sabah saatlerinde operasyon düzenlendi. “İhaleye fesat karıştırma” ve “zimmet” iddiaları üzerine gerçekleştirilen operasyonda, Belediye Başkan Yardımcısı Rasim Özdemir’in de aralarında bulunduğu 4 kişi gözaltına alındı.\n[ahaber · 10:50] Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında\n[diken · 10:56] Bakırköy Belediyesi'ne soruşturma: Beş başkan yardımcısı dahil 58 gözaltı\n[ntv · 10:59] Bolu Belediyesi'ne operasyon. Belediye Başkan Yardımcısı dahil dört kişi adliyede\n[sondakika · 14:56] Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı"
+  },
+  {
+   "key": "s4374__salience-bias",
+   "output_file": "runs/bg/explain/s4374__salience-bias.json",
+   "event_title": "Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Bolu Belediyesi'ne şafak operasyonu: Başkan Yardımcısı Rasim Özdemir de gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 10:22] Bolu Belediyesi'ne şafak operasyonu!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar diğer gözaltıları geri plana atarak en dikkat çekici kişiyi (başkan yardımcısı) öne çıkarıyor.",
+   "skeptic_alternative": "Operasyonun sabah saatlerinde yapıldığı olgusal bir bilgi; yaygın haber kalıbı.",
+   "missing_context": [
+    "Belirginliğin bir yargıyı haksız biçimde yönlendirdiğine dair açık ifade",
+    "Diğer gözaltıların kimliği",
+    "Çarpıcı ayrıntının hangi yargıyı etkilediğine dair kanıt"
+   ],
+   "headlines": "[tele1 · 10:18] Bolu Belediyesi'ne operasyon 4 gözaltı\n[birgun · 10:19] Bolu Belediyesi'ne operasyon: Belediye Başkan Yardımcısı dahil 4 kişi gözaltında\n[haberler · 10:20] Bolu Belediyesi operasyonunda Başkan Yardımcısı Özdemir dahil 4 kişi gözaltına alındı\n[sozcu · 10:20] Bolu Belediyesi’ne operasyon: Başkan Yardımcısı dahil 4 gözaltı\n[aksam · 10:22] Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı\n[cumhuriyet · 10:23] Bolu Belediyesi'ne şafak operasyonu: Belediye Başkan Yardımcısı dahil 4 gözaltı\n[sabah · 10:23] Bolu Belediyesi'ne operasyon: 4 gözaltı\n[star · 10:24] Bolu'da belediyeye şafak operasyonu! Başkan Yardımcısı da gözaltına alınanlar arasında — Bolu Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'zimmet' soruşturmaları kapsamında sabah saatlerinde düzenlenen operasyonda 4 kişi gözaltına alındı.\n[yenisafak · 10:26] Bolu Belediyesi'ne şafak operasyonu: Başkan Yardımcısı Rasim Özdemir de gözaltına alındı\n[takvim · 10:29] Bolu Belediyesi’nde ihale ve zimmet soruşturması! Başkan Yardımcısı Rasim Özdemir tutuklandı\n[milligazete · 10:32] Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında\n[mynet · 10:36] Bolu Belediyesi'ne yeni operasyon! Başkan yardımcısı dahil 4 kişi gözaltına alındı\n[haberturk · 10:36] Bolu Belediyesi'ne şafak operasyonu: 4 gözaltı\n[tgrt · 10:41] Bolu Belediyesi’ne şafak operasyonu: 4 kişi gözaltına alındı\n[karar · 10:44] Bolu Belediyesine operasyon: Belediye başkan yardımcısı dahil 4 kişi gözaltında — Bolu Belediyesine yönelik yürütülen soruşturma kapsamında sabah saatlerinde operasyon düzenlendi. “İhaleye fesat karıştırma” ve “zimmet” iddiaları üzerine gerçekleştirilen operasyonda, Belediye Başkan Yardımcısı Rasim Özdemir’in de aralarında bulunduğu 4 kişi gözaltına alındı.\n[ahaber · 10:50] Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında\n[diken · 10:56] Bakırköy Belediyesi'ne soruşturma: Beş başkan yardımcısı dahil 58 gözaltı\n[ntv · 10:59] Bolu Belediyesi'ne operasyon. Belediye Başkan Yardımcısı dahil dört kişi adliyede\n[sondakika · 14:56] Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı"
+  },
+  {
+   "key": "s4374__source-confusion",
+   "output_file": "runs/bg/explain/s4374__source-confusion.json",
+   "event_title": "Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında",
+   "concept": "Source Confusion",
+   "definition": "Source confusion is difficulty or error in identifying where a remembered fact, image, or event came from, such as mistaking something heard, read, suggested, or imagined for direct experience. The Decision Lab labels this entry “Bias” but defines a memory-source error; source confusion can occur without faulty reasoning and source detachment can also support learning.",
+   "quotes": [
+    {
+     "quote": "Başkan Yardımcısı Rasim Özdemir tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Belediye Başkan Yardımcısı dahil dört kişi adliyede",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[diken · 10:56] Bakırköy Belediyesi'ne soruşturma: Beş başkan yardımcısı dahil 58 gözaltı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Takvim'in erken 'tutuklandı' ifadesi, adliyeye sevk aşamasındaki durumu sonraki bir aşamaya atfediyor olabilir.",
+   "skeptic_alternative": "Olay kümelemesi benzer belediye operasyonlarını birleştirmiş olabilir.",
+   "missing_context": [
+    "Bellek/kaynak hatasına dair açık kayıt",
+    "Hatanın düzeltilip düzeltilmediği",
+    "Herhangi bir kaynak atfı ve düzeltme kaydı",
+    "Takvim'in atfettiği kaynak"
+   ],
+   "headlines": "[tele1 · 10:18] Bolu Belediyesi'ne operasyon 4 gözaltı\n[birgun · 10:19] Bolu Belediyesi'ne operasyon: Belediye Başkan Yardımcısı dahil 4 kişi gözaltında\n[haberler · 10:20] Bolu Belediyesi operasyonunda Başkan Yardımcısı Özdemir dahil 4 kişi gözaltına alındı\n[sozcu · 10:20] Bolu Belediyesi’ne operasyon: Başkan Yardımcısı dahil 4 gözaltı\n[aksam · 10:22] Bolu Belediyesi'ne şafak operasyonu! Belediye başkan yardımcısı dahil 4 gözaltı\n[cumhuriyet · 10:23] Bolu Belediyesi'ne şafak operasyonu: Belediye Başkan Yardımcısı dahil 4 gözaltı\n[sabah · 10:23] Bolu Belediyesi'ne operasyon: 4 gözaltı\n[star · 10:24] Bolu'da belediyeye şafak operasyonu! Başkan Yardımcısı da gözaltına alınanlar arasında — Bolu Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'zimmet' soruşturmaları kapsamında sabah saatlerinde düzenlenen operasyonda 4 kişi gözaltına alındı.\n[yenisafak · 10:26] Bolu Belediyesi'ne şafak operasyonu: Başkan Yardımcısı Rasim Özdemir de gözaltına alındı\n[takvim · 10:29] Bolu Belediyesi’nde ihale ve zimmet soruşturması! Başkan Yardımcısı Rasim Özdemir tutuklandı\n[milligazete · 10:32] Bolu Belediyesi'ne operasyon! Başkan Yardımcısı Rasim Özdemir dahil 4 kişi gözaltında\n[mynet · 10:36] Bolu Belediyesi'ne yeni operasyon! Başkan yardımcısı dahil 4 kişi gözaltına alındı\n[haberturk · 10:36] Bolu Belediyesi'ne şafak operasyonu: 4 gözaltı\n[tgrt · 10:41] Bolu Belediyesi’ne şafak operasyonu: 4 kişi gözaltına alındı\n[karar · 10:44] Bolu Belediyesine operasyon: Belediye başkan yardımcısı dahil 4 kişi gözaltında — Bolu Belediyesine yönelik yürütülen soruşturma kapsamında sabah saatlerinde operasyon düzenlendi. “İhaleye fesat karıştırma” ve “zimmet” iddiaları üzerine gerçekleştirilen operasyonda, Belediye Başkan Yardımcısı Rasim Özdemir’in de aralarında bulunduğu 4 kişi gözaltına alındı.\n[ahaber · 10:50] Bolu Belediyesi’ne operasyon! Başkan yardımcısı gözaltında\n[diken · 10:56] Bakırköy Belediyesi'ne soruşturma: Beş başkan yardımcısı dahil 58 gözaltı\n[ntv · 10:59] Bolu Belediyesi'ne operasyon. Belediye Başkan Yardımcısı dahil dört kişi adliyede\n[sondakika · 14:56] Bolu Belediyesi soruşturmasında Başkan Yardımcısı Özdemir dahil 3 şüpheli tutuklandı"
+  },
+  {
+   "key": "s5237__framing-effect",
+   "output_file": "runs/bg/explain/s5237__framing-effect.json",
+   "event_title": "Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Fenerbahçe tribün liderine silahlı eylem hazırlığı iddiasıyla 5 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast planı! 5 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Daltonlar üyesi 5 kişi yakalandı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[sabah · 23:07] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı'na suikast hazırlığı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 23:20] Fenerbahçe tribün liderine saldırı hazırlığı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "silahlı eylem hazırlığında oldukları değerlendirilen 5 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı olgu 'iddiasıyla' ve 'silahlı eylem hazırlığı' gibi temkinli ifadelerle ya da 'suikast planı' gibi kesin ve dramatik ifadelerle çerçevelenmiş.",
+   "skeptic_alternative": "Kurumlar emniyet açıklamasındaki farklı ifadeleri ya da kendi üslup tercihlerini kullanmış olabilir.",
+   "missing_context": [
+    "Okur yargısının çerçeveyle değiştiğine dair kanıt",
+    "Resmi açıklamadaki tam ifade",
+    "Resmi açıklamanın tam metni",
+    "Sunum farkının okur yargısına etkisine dair kanıt"
+   ],
+   "headlines": "[sondakika · 19:57] Fenerbahçe tribün liderine silahlı eylem hazırlığı iddiasıyla 5 şüpheli yakalandı\n[haberler · 22:52] Kamuoyunda \"Daltonlar\" olarak bilinen silahlı suç örgütüne yönelik yürütülen soruşturma kapsamında, Fenerbahçe tribün lideri Cem Gölbaşı’na yönelik silahlı eylem hazırlığında oldukları değerlendirilen 5 şüpheli yakalandı.\n[karar · 22:55] Cem Gölbaşı'na saldırı hazırlığı iddiası: 4 şüpheli yakalandı — Fenerbahçe'nin tribün gruplarından Genç Fenerbahçeliler'in lideri Cem Gölbaşı'na yönelik silahlı saldırı hazırlığı yapıldığı iddiasıyla İstanbul'da dört kişi gözaltına alındı. Saldırı amacıyla İstanbul'a geldiği belirtilen İbrahim Çiftçi ile Daltonlar suç örgütüyle bağlantılı …\n[mynet · 22:56] Cem Gölbaşı'na saldırı hazırlığında olan 4 kişi yakalandı! Silahlar ele geçirildi\n[cumhuriyet · 23:00] Son Dakika... Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı eylem hazırlığı: 5 kişi yakalandı\n[tgrt · 23:02] Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı\n[turkiyegz · 23:03] Fenerbahçe tribün liderine saldırı hazırlığı! Daltonlar soruşturmasında 5 gözaltı\n[sozcu · 23:04] Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı saldırı planı! Daltonlar'ın 5 şüphelisi yakalandı\n[sabah · 23:07] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı'na suikast hazırlığı! Hücre evine operasyon: Uzun namlulu silah, 200 fişek...\n[takvim · 23:09] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast planı! 5 şüpheli yakalandı\n[ahaber · 23:11] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast hazırlığı: 5 kişi yakalandı\n[hurriyet · 23:19] Daltonlar’dan Fenerbahçe tribün liderine suikast hazırlığı: 5 şüpheli yakalandı — Kamuoyunda \"Daltonlar\" olarak bilinen silahlı suç örgütüne yönelik yürütülen soruşturma kapsamında, Fenerbahçe tribün lideri Cem Gölbaşı'na yönelik silahlı eylem hazırlığında oldukları değerlendirilen 5 şüpheli yakalandı. Operasyonda ruhsatsız tabanca, otomatik tabanca, uzun …\n[ntv · 23:20] Fenerbahçe tribün liderine saldırı hazırlığı. Daltonlar çetesi üyesi 5 şüpheli yakalandı\n[yenisafak · 23:22] Cem Gölbaşı’na saldırı hazırlığındaki Daltonlar üyesi dört şüpheli yakalandı\n[akit · 23:25] “Daltonlar” operasyonunda 5 gözaltı! GFB lideri Cem Gölbaşı’na saldırı hazırlığı\n[aksam · 23:49] Gölbaşı'na saldırı düzenleyeceklerdi: Daltonlar örgütünden 5 şüpheli yakalandı\n[birgun · 23:56] Fenerbahçe tribün liderine saldırı hazırlığı soruşturmasında Daltonlar mensubu 5 kişi yakalandı\n[milligazete · 00:29] Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı saldırı hazırlığı! Daltonlar operasyonunda 5 gözaltı\n[haberturk · 07:33] 'Daltonlar'dan Fenerbahçe tribün liderine suikast girişimi"
+  },
+  {
+   "key": "s5237__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5237__leveling-and-sharpening.json",
+   "event_title": "Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Fenerbahçe tribün liderine silahlı eylem hazırlığı iddiasıyla 5 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "'Daltonlar'dan Fenerbahçe tribün liderine suikast girişimi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cem Gölbaşı'na saldırı hazırlığı iddiası: 4 şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Daltonlar üyesi 5 kişi yakalandı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[haberturk · 07:33] 'Daltonlar'dan Fenerbahçe tribün liderine suikast girişimi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[yenisafak · 23:22] Cem Gölbaşı’na saldırı hazırlığındaki Daltonlar üyesi dört şüpheli yakalandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "İlk haberdeki 'hazırlık iddiası', Habertürk'ün ertesi sabahki başlığında 'suikast girişimi'ne dönüşmüş (keskinleştirme); 'iddia' kaydı bazı başlıklarda düşmüş, şüpheli sayısı 4 ile 5 arasında değişmiş.",
+   "skeptic_alternative": "Sayı farkı farklı açıklama anlarından (gözaltı ile yakalama) gelebilir; \"girişim\" sabah güncellemesindeki yeni bilgiye dayanıyor olabilir.",
+   "missing_context": [
+    "'Girişim' ifadesinin dayandığı yeni bilgi olup olmadığı",
+    "4 ve 5 sayılarının kaynağı",
+    "Farkın bir sonuca etkisi",
+    "Habertürk haberinin gövde metni",
+    "Şüpheli sayısının resmi kaydı"
+   ],
+   "headlines": "[sondakika · 19:57] Fenerbahçe tribün liderine silahlı eylem hazırlığı iddiasıyla 5 şüpheli yakalandı\n[haberler · 22:52] Kamuoyunda \"Daltonlar\" olarak bilinen silahlı suç örgütüne yönelik yürütülen soruşturma kapsamında, Fenerbahçe tribün lideri Cem Gölbaşı’na yönelik silahlı eylem hazırlığında oldukları değerlendirilen 5 şüpheli yakalandı.\n[karar · 22:55] Cem Gölbaşı'na saldırı hazırlığı iddiası: 4 şüpheli yakalandı — Fenerbahçe'nin tribün gruplarından Genç Fenerbahçeliler'in lideri Cem Gölbaşı'na yönelik silahlı saldırı hazırlığı yapıldığı iddiasıyla İstanbul'da dört kişi gözaltına alındı. Saldırı amacıyla İstanbul'a geldiği belirtilen İbrahim Çiftçi ile Daltonlar suç örgütüyle bağlantılı …\n[mynet · 22:56] Cem Gölbaşı'na saldırı hazırlığında olan 4 kişi yakalandı! Silahlar ele geçirildi\n[cumhuriyet · 23:00] Son Dakika... Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı eylem hazırlığı: 5 kişi yakalandı\n[tgrt · 23:02] Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı\n[turkiyegz · 23:03] Fenerbahçe tribün liderine saldırı hazırlığı! Daltonlar soruşturmasında 5 gözaltı\n[sozcu · 23:04] Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı saldırı planı! Daltonlar'ın 5 şüphelisi yakalandı\n[sabah · 23:07] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı'na suikast hazırlığı! Hücre evine operasyon: Uzun namlulu silah, 200 fişek...\n[takvim · 23:09] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast planı! 5 şüpheli yakalandı\n[ahaber · 23:11] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast hazırlığı: 5 kişi yakalandı\n[hurriyet · 23:19] Daltonlar’dan Fenerbahçe tribün liderine suikast hazırlığı: 5 şüpheli yakalandı — Kamuoyunda \"Daltonlar\" olarak bilinen silahlı suç örgütüne yönelik yürütülen soruşturma kapsamında, Fenerbahçe tribün lideri Cem Gölbaşı'na yönelik silahlı eylem hazırlığında oldukları değerlendirilen 5 şüpheli yakalandı. Operasyonda ruhsatsız tabanca, otomatik tabanca, uzun …\n[ntv · 23:20] Fenerbahçe tribün liderine saldırı hazırlığı. Daltonlar çetesi üyesi 5 şüpheli yakalandı\n[yenisafak · 23:22] Cem Gölbaşı’na saldırı hazırlığındaki Daltonlar üyesi dört şüpheli yakalandı\n[akit · 23:25] “Daltonlar” operasyonunda 5 gözaltı! GFB lideri Cem Gölbaşı’na saldırı hazırlığı\n[aksam · 23:49] Gölbaşı'na saldırı düzenleyeceklerdi: Daltonlar örgütünden 5 şüpheli yakalandı\n[birgun · 23:56] Fenerbahçe tribün liderine saldırı hazırlığı soruşturmasında Daltonlar mensubu 5 kişi yakalandı\n[milligazete · 00:29] Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı saldırı hazırlığı! Daltonlar operasyonunda 5 gözaltı\n[haberturk · 07:33] 'Daltonlar'dan Fenerbahçe tribün liderine suikast girişimi"
+  },
+  {
+   "key": "s5237__salience-bias",
+   "output_file": "runs/bg/explain/s5237__salience-bias.json",
+   "event_title": "Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Hücre evine operasyon: Uzun namlulu silah, 200 fişek",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cem Gölbaşı'na saldırı hazırlığında olan 4 kişi yakalandı! Silahlar ele geçirildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Hücre evine operasyon: Uzun namlulu silah, 200 fişek...",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar silah ve fişek gibi canlı ayrıntıları öne çıkararak olayı daha çarpıcı sunuyor.",
+   "skeptic_alternative": "Ele geçirilen silahlar operasyonun olgusal ve haber değeri yüksek bir unsuru.",
+   "missing_context": [
+    "Ayrıntının bir sıklık ya da risk yargısına dönüştüğüne dair kanıt",
+    "Canlı ayrıntının bir sıklık/risk çıkarımına dönüştüğüne dair ifade",
+    "Karşılaştırmalı okur tepkisi"
+   ],
+   "headlines": "[sondakika · 19:57] Fenerbahçe tribün liderine silahlı eylem hazırlığı iddiasıyla 5 şüpheli yakalandı\n[haberler · 22:52] Kamuoyunda \"Daltonlar\" olarak bilinen silahlı suç örgütüne yönelik yürütülen soruşturma kapsamında, Fenerbahçe tribün lideri Cem Gölbaşı’na yönelik silahlı eylem hazırlığında oldukları değerlendirilen 5 şüpheli yakalandı.\n[karar · 22:55] Cem Gölbaşı'na saldırı hazırlığı iddiası: 4 şüpheli yakalandı — Fenerbahçe'nin tribün gruplarından Genç Fenerbahçeliler'in lideri Cem Gölbaşı'na yönelik silahlı saldırı hazırlığı yapıldığı iddiasıyla İstanbul'da dört kişi gözaltına alındı. Saldırı amacıyla İstanbul'a geldiği belirtilen İbrahim Çiftçi ile Daltonlar suç örgütüyle bağlantılı …\n[mynet · 22:56] Cem Gölbaşı'na saldırı hazırlığında olan 4 kişi yakalandı! Silahlar ele geçirildi\n[cumhuriyet · 23:00] Son Dakika... Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı eylem hazırlığı: 5 kişi yakalandı\n[tgrt · 23:02] Fenerbahçe tribün lideri Cem Gölbaşı'na saldırı hazırlığı: Daltonlar üyesi 5 kişi yakalandı\n[turkiyegz · 23:03] Fenerbahçe tribün liderine saldırı hazırlığı! Daltonlar soruşturmasında 5 gözaltı\n[sozcu · 23:04] Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı saldırı planı! Daltonlar'ın 5 şüphelisi yakalandı\n[sabah · 23:07] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı'na suikast hazırlığı! Hücre evine operasyon: Uzun namlulu silah, 200 fişek...\n[takvim · 23:09] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast planı! 5 şüpheli yakalandı\n[ahaber · 23:11] Daltonlar’dan Fenerbahçe tribün lideri Cem Gölbaşı’na suikast hazırlığı: 5 kişi yakalandı\n[hurriyet · 23:19] Daltonlar’dan Fenerbahçe tribün liderine suikast hazırlığı: 5 şüpheli yakalandı — Kamuoyunda \"Daltonlar\" olarak bilinen silahlı suç örgütüne yönelik yürütülen soruşturma kapsamında, Fenerbahçe tribün lideri Cem Gölbaşı'na yönelik silahlı eylem hazırlığında oldukları değerlendirilen 5 şüpheli yakalandı. Operasyonda ruhsatsız tabanca, otomatik tabanca, uzun …\n[ntv · 23:20] Fenerbahçe tribün liderine saldırı hazırlığı. Daltonlar çetesi üyesi 5 şüpheli yakalandı\n[yenisafak · 23:22] Cem Gölbaşı’na saldırı hazırlığındaki Daltonlar üyesi dört şüpheli yakalandı\n[akit · 23:25] “Daltonlar” operasyonunda 5 gözaltı! GFB lideri Cem Gölbaşı’na saldırı hazırlığı\n[aksam · 23:49] Gölbaşı'na saldırı düzenleyeceklerdi: Daltonlar örgütünden 5 şüpheli yakalandı\n[birgun · 23:56] Fenerbahçe tribün liderine saldırı hazırlığı soruşturmasında Daltonlar mensubu 5 kişi yakalandı\n[milligazete · 00:29] Fenerbahçe tribün lideri Cem Gölbaşı'na silahlı saldırı hazırlığı! Daltonlar operasyonunda 5 gözaltı\n[haberturk · 07:33] 'Daltonlar'dan Fenerbahçe tribün liderine suikast girişimi"
+  },
+  {
+   "key": "s5613__framing-effect",
+   "output_file": "runs/bg/explain/s5613__framing-effect.json",
+   "event_title": "Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Parti Yeni vurgun eski: Merkezefendi Belediye Başkanı Şeniz Doğan uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkezefendi Belediye Başkanı Şeniz Doğan geçici tedbir olarak görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[takvim · 11:54] Parti Yeni vurgun eski: Merkezefendi Belediye Başkanı Şeniz Doğan uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sozcu · 11:50] Son dakika... YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[birgun · 11:45] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı idari karar Takvim'de yargılayıcı 'vurgun' çerçevesiyle, Yeni Şafak'ta 'geçici tedbir' çerçevesiyle sunulmuş.",
+   "skeptic_alternative": "Takvim tutuklama gerekçesini (rüşvet, ihaleye fesat) özetleyen bir söz oyunu kullanmış olabilir; parti bilgisi olgusal bir ayrıntı.",
+   "missing_context": [
+    "Bakanlık açıklamasının tam metni",
+    "Haber gövdeleri",
+    "Sunum farkının okur yargısına etkisi",
+    "Çerçeve farkının okur yargısını değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[birgun · 11:45] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[yenisafak · 11:48] Merkezefendi Belediye Başkanı Şeniz Doğan geçici tedbir olarak görevden uzaklaştırıldı\n[haberturk · 11:49] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[trthaber · 11:50] Merkezefendi Belediye Başkanı Doğan görevden uzaklaştırıldı\n[sozcu · 11:50] Son dakika... YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[tgrt · 11:51] İçişleri Bakanlığı duyurdu: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[karar · 11:53] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı — İçişleri Bakanlığı, tutuklanan Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını duyurdu.\n[takvim · 11:54] Parti Yeni vurgun eski: Merkezefendi Belediye Başkanı Şeniz Doğan uzaklaştırıldı... Rüşvet ve ihaleye fesattan tutuklanmıştı\n[haberler · 11:54] Denizli Merkezefendi Belediye Başkanı Şeniz Doğğan rüşvet soruşturmasında tutuklandı\n[aksam · 11:54] Merkezefendi'de rüşvet soruşturması: Belediye Başkanı Doğan görevden uzaklaştırıldı\n[turkiyegz · 11:55] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[mynet · 11:56] Tutuklanmıştı! Merkezefendi Belediye Başkanı Doğan görevinden uzaklaştırıldı\n[ahaber · 11:56] Rüşvetten tutuklanmıştı! Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[cumhuriyet · 11:56] Son dakika... İçişleri Bakanlığı açıkladı: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[ntv · 11:59] Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevinden uzaklaştırıldı\n[milligazete · 12:00] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[sabah · 12:04] Denizli ili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[star · 12:59] Merkezefendi Belediye Başkanı Doğan görevinden uzaklaştırıldı — İçişleri Bakanlığı, Denizli'nin Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını bildirdi.\n[sondakika · 17:33] Tutuklu Merkezefendi Belediye Başkanı Doğan, el yazısı mesajla destekçilerine seslendi"
+  },
+  {
+   "key": "s5613__salience-bias",
+   "output_file": "runs/bg/explain/s5613__salience-bias.json",
+   "event_title": "Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Rüşvetten tutuklanmıştı! Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkezefendi Belediye Başkanı Doğan görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ahaber · 11:56] Rüşvetten tutuklanmıştı!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar 'rüşvet' suçlamasını ünlemle öne çıkarırken diğerleri yalnız idari kararı veriyor.",
+   "skeptic_alternative": "Uzaklaştırmanın nedeni olan tutuklamayı bildirmek olgusal bağlam sağlar.",
+   "missing_context": [
+    "Belirginliğin haksız bir yargıya yol açtığına dair açık ifade",
+    "Öne çıkan ayrıntının bir sonucu çarpıttığına dair kanıt"
+   ],
+   "headlines": "[birgun · 11:45] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[yenisafak · 11:48] Merkezefendi Belediye Başkanı Şeniz Doğan geçici tedbir olarak görevden uzaklaştırıldı\n[haberturk · 11:49] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[trthaber · 11:50] Merkezefendi Belediye Başkanı Doğan görevden uzaklaştırıldı\n[sozcu · 11:50] Son dakika... YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[tgrt · 11:51] İçişleri Bakanlığı duyurdu: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[karar · 11:53] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı — İçişleri Bakanlığı, tutuklanan Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını duyurdu.\n[takvim · 11:54] Parti Yeni vurgun eski: Merkezefendi Belediye Başkanı Şeniz Doğan uzaklaştırıldı... Rüşvet ve ihaleye fesattan tutuklanmıştı\n[haberler · 11:54] Denizli Merkezefendi Belediye Başkanı Şeniz Doğğan rüşvet soruşturmasında tutuklandı\n[aksam · 11:54] Merkezefendi'de rüşvet soruşturması: Belediye Başkanı Doğan görevden uzaklaştırıldı\n[turkiyegz · 11:55] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[mynet · 11:56] Tutuklanmıştı! Merkezefendi Belediye Başkanı Doğan görevinden uzaklaştırıldı\n[ahaber · 11:56] Rüşvetten tutuklanmıştı! Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[cumhuriyet · 11:56] Son dakika... İçişleri Bakanlığı açıkladı: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[ntv · 11:59] Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevinden uzaklaştırıldı\n[milligazete · 12:00] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[sabah · 12:04] Denizli ili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[star · 12:59] Merkezefendi Belediye Başkanı Doğan görevinden uzaklaştırıldı — İçişleri Bakanlığı, Denizli'nin Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını bildirdi.\n[sondakika · 17:33] Tutuklu Merkezefendi Belediye Başkanı Doğan, el yazısı mesajla destekçilerine seslendi"
+  },
+  {
+   "key": "s5613__in-group-bias",
+   "output_file": "runs/bg/explain/s5613__in-group-bias.json",
+   "event_title": "Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Parti Yeni vurgun eski",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "YENİ Partili Merkezefendi Belediye Başkanı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Sözcü ve Takvim başkanın parti bağlantısını başlığa taşımış; Takvim bunu olumsuz bir yargıyla birleştirmiş.",
+   "skeptic_alternative": "Parti bilgisi siyasi haberde olağan ve ilgili bir ayrıntı; farklı yelpazeden kurumlar (Sözcü, Takvim) aynı bilgiyi veriyor.",
+   "missing_context": [
+    "Aynı kurumların farklı partili başkanlar için benzer haberlerdeki başlıkları",
+    "Grup üyeliğinin değerlendirmeyi değiştirdiğine dair karşılaştırma",
+    "Karşılaştırılabilir vakalarda aynı kurumların tutumu",
+    "Kurumların grup aidiyetinin açık tanımı"
+   ],
+   "headlines": "[birgun · 11:45] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[yenisafak · 11:48] Merkezefendi Belediye Başkanı Şeniz Doğan geçici tedbir olarak görevden uzaklaştırıldı\n[haberturk · 11:49] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[trthaber · 11:50] Merkezefendi Belediye Başkanı Doğan görevden uzaklaştırıldı\n[sozcu · 11:50] Son dakika... YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[tgrt · 11:51] İçişleri Bakanlığı duyurdu: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[karar · 11:53] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı — İçişleri Bakanlığı, tutuklanan Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını duyurdu.\n[takvim · 11:54] Parti Yeni vurgun eski: Merkezefendi Belediye Başkanı Şeniz Doğan uzaklaştırıldı... Rüşvet ve ihaleye fesattan tutuklanmıştı\n[haberler · 11:54] Denizli Merkezefendi Belediye Başkanı Şeniz Doğğan rüşvet soruşturmasında tutuklandı\n[aksam · 11:54] Merkezefendi'de rüşvet soruşturması: Belediye Başkanı Doğan görevden uzaklaştırıldı\n[turkiyegz · 11:55] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[mynet · 11:56] Tutuklanmıştı! Merkezefendi Belediye Başkanı Doğan görevinden uzaklaştırıldı\n[ahaber · 11:56] Rüşvetten tutuklanmıştı! Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[cumhuriyet · 11:56] Son dakika... İçişleri Bakanlığı açıkladı: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[ntv · 11:59] Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevinden uzaklaştırıldı\n[milligazete · 12:00] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[sabah · 12:04] Denizli ili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[star · 12:59] Merkezefendi Belediye Başkanı Doğan görevinden uzaklaştırıldı — İçişleri Bakanlığı, Denizli'nin Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını bildirdi.\n[sondakika · 17:33] Tutuklu Merkezefendi Belediye Başkanı Doğan, el yazısı mesajla destekçilerine seslendi"
+  },
+  {
+   "key": "s5613__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5613__leveling-and-sharpening.json",
+   "event_title": "Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Merkezefendi Belediye Başkanı Şeniz Doğan geçici tedbir olarak görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Denizli Merkezefendi Belediye Başkanı Şeniz Doğğan rüşvet soruşturmasında tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İçişleri Bakanlığı, tutuklanan Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını duyurdu.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberler · 11:54] Denizli Merkezefendi Belediye Başkanı Şeniz Doğğan rüşvet soruşturmasında tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Rüşvet ve ihaleye fesattan tutuklanmıştı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Geçici tedbir' niteliği çoğu başlıkta düşmüş (düzleştirme); Haberler.com ise uzaklaştırma yerine tutuklamayı başlığa taşımış.",
+   "skeptic_alternative": "Başlık önceki tutuklama haberinden kalmış ya da eski içerik yeniden kullanılmış olabilir; isim yazımındaki hata dizgi hatası.",
+   "missing_context": [
+    "Atlanan bilginin okur sonucunu değiştirdiğine dair kanıt",
+    "Haberler.com içeriğinin ilk yayın tarihi"
+   ],
+   "headlines": "[birgun · 11:45] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[yenisafak · 11:48] Merkezefendi Belediye Başkanı Şeniz Doğan geçici tedbir olarak görevden uzaklaştırıldı\n[haberturk · 11:49] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[trthaber · 11:50] Merkezefendi Belediye Başkanı Doğan görevden uzaklaştırıldı\n[sozcu · 11:50] Son dakika... YENİ Partili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[tgrt · 11:51] İçişleri Bakanlığı duyurdu: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[karar · 11:53] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı — İçişleri Bakanlığı, tutuklanan Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını duyurdu.\n[takvim · 11:54] Parti Yeni vurgun eski: Merkezefendi Belediye Başkanı Şeniz Doğan uzaklaştırıldı... Rüşvet ve ihaleye fesattan tutuklanmıştı\n[haberler · 11:54] Denizli Merkezefendi Belediye Başkanı Şeniz Doğğan rüşvet soruşturmasında tutuklandı\n[aksam · 11:54] Merkezefendi'de rüşvet soruşturması: Belediye Başkanı Doğan görevden uzaklaştırıldı\n[turkiyegz · 11:55] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[mynet · 11:56] Tutuklanmıştı! Merkezefendi Belediye Başkanı Doğan görevinden uzaklaştırıldı\n[ahaber · 11:56] Rüşvetten tutuklanmıştı! Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[cumhuriyet · 11:56] Son dakika... İçişleri Bakanlığı açıkladı: Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[ntv · 11:59] Denizli Merkezefendi Belediye Başkanı Şeniz Doğan görevinden uzaklaştırıldı\n[milligazete · 12:00] Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[sabah · 12:04] Denizli ili Merkezefendi Belediye Başkanı Şeniz Doğan görevden uzaklaştırıldı\n[star · 12:59] Merkezefendi Belediye Başkanı Doğan görevinden uzaklaştırıldı — İçişleri Bakanlığı, Denizli'nin Merkezefendi Belediye Başkanı Şeniz Doğan'ın görevinden uzaklaştırıldığını bildirdi.\n[sondakika · 17:33] Tutuklu Merkezefendi Belediye Başkanı Doğan, el yazısı mesajla destekçilerine seslendi"
+  },
+  {
+   "key": "s4372__framing-effect",
+   "output_file": "runs/bg/explain/s4372__framing-effect.json",
+   "event_title": "SPK'dan Tera Portföy ve Pusula Portföy kararı: Faaliyetleri geçici olarak durduruldu",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "SPK'dan flaş karar: Tera ve Pusula'nın faaliyetleri geçici olarak durduruldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SPK düğmeye bastı: Tera ve Pusula portföy faaliyetleri durduruldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini geçici olarak durdurdu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 22:37] SPK düğmeye bastı: Tera ve Pusula portföy faaliyetleri durduruldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[akit · 21:41] Fon soruşturmasında sıcak gelişme! Tera ve Pusula'nın faaliyetleri durduruldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aa · 10:16] SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini geçici olarak durdurdu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı SPK kararı AA'da teknik dille, Yeni Şafak ve Akşam'da 'flaş', 'düğmeye bastı' gibi dramatik çerçeveyle verilmiş.",
+   "skeptic_alternative": "Fon soruşturması bağlamı gerçek ve ilgili; \"geçici\" ifadesinin düşürülmesi başlık kısalığından kaynaklanabilir.",
+   "missing_context": [
+    "SPK bülteninin tam metni",
+    "Sunum farkının okur yargısına etkisi",
+    "Çerçevenin bir yargı veya tercihe etkisi"
+   ],
+   "headlines": "[aa · 10:16] SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini geçici olarak durdurdu\n[haberturk · 21:33] SPK, Tera ve Pusula'nın faaliyetlerini geçici olarak durdurdu\n[sozcu · 21:35] SPK'dan Tera ve Pusula'nın faaliyetlerini durdurma kararı\n[tgrt · 21:36] Fon soruşturmasında Tera ve Pusula Portföy şirketlerinin faaliyetleri durduruldu\n[ntv · 21:36] SPK'dan Tera Portföy ve Pusula Portföy kararı: Faaliyetleri geçici olarak durduruldu\n[bloomberght · 21:40] Tera ve Pusula Portföy'ün faaliyetleri geçici olarak durduruldu\n[akit · 21:41] Fon soruşturmasında sıcak gelişme! Tera ve Pusula'nın faaliyetleri durduruldu\n[turkiyegz · 21:44] SPK'dan Tera ve Pusula Portföy kararı! Faaliyetleri durduruldu\n[mynet · 21:44] SPK'dan Tera ve Pusula kararı! Geçici olarak durduruldu — SPK'dan yeni bir karar geldi. Yayımlanan bültene göre Tera Portföy Yönetim AŞ ve Pusula Portföy Yönetim AŞ'nin sermaye piyasası faaliyetleri geçici olarak durduruldu. Ayrıca iki şirkete ait kapsam dışındaki fonlar da tasfiye sürecine dahil edildi.\n[yenisafak · 21:44] SPK'dan flaş karar: Tera ve Pusula'nın faaliyetleri geçici olarak durduruldu\n[karar · 22:14] SPK'dan Tera ve Pusula Portföy kararı: Faaliyetler durdu, bütün fonlar tasfiye kapsamına alındı — SPK, fon soruşturmasının merkezindeki Tera Portföy Yönetimi AŞ ile Pusula Portföy Yönetimi AŞ'nin tüm sermaye piyasası faaliyetlerini geçici olarak durdurdu. Kurul, daha önce tasfiyesine karar verilen fonların dışında kalan yatırım fonları, gayrimenkul yatırım fonları ve girişim …\n[ahaber · 22:17] SPK'dan Tera ve Pusula Portföy için flaş karar: Faaliyetleri durduruldu\n[trthaber · 22:26] Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetleri durduruldu\n[milligazete · 22:26] SPK, Tera Portföy ve Pusula Portföy'ün faaliyetleri geçici olarak durdurdu\n[birgun · 22:28] Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetleri geçici olarak durduruldu\n[aksam · 22:37] SPK düğmeye bastı: Tera ve Pusula portföy faaliyetleri durduruldu\n[diken · 22:49] SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini askıya aldı\n[dirilis · 23:03] SPK’dan Tera ve Pusula Portföy’e geçici durdurma kararı!\n[yeniasya · 23:03] Tera ve Pusula Portföy'ün sermaye piyasası faaliyetleri geçici olarak durduruldu"
+  },
+  {
+   "key": "s4372__salience-bias",
+   "output_file": "runs/bg/explain/s4372__salience-bias.json",
+   "event_title": "SPK'dan Tera Portföy ve Pusula Portföy kararı: Faaliyetleri geçici olarak durduruldu",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Fon soruşturmasında sıcak gelişme! Tera ve Pusula'nın faaliyetleri durduruldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SPK'dan Tera ve Pusula'nın faaliyetlerini durdurma kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Faaliyetler durdu, bütün fonlar tasfiye kapsamına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SPK'dan flaş karar: Tera ve Pusula'nın faaliyetleri geçici olarak durduruldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar soruşturma bağlantısını veya tasfiyeyi öne çıkarırken bazıları 'geçici' niteliğini atlıyor.",
+   "skeptic_alternative": "Biçimsel vurgu tek başına önyargılı akıl yürütme değildir.",
+   "missing_context": [
+    "Vurgunun haksız bir çıkarıma yol açtığına dair açık ifade",
+    "Çarpıcılığın bir sonuca etkisine dair kanıt"
+   ],
+   "headlines": "[aa · 10:16] SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini geçici olarak durdurdu\n[haberturk · 21:33] SPK, Tera ve Pusula'nın faaliyetlerini geçici olarak durdurdu\n[sozcu · 21:35] SPK'dan Tera ve Pusula'nın faaliyetlerini durdurma kararı\n[tgrt · 21:36] Fon soruşturmasında Tera ve Pusula Portföy şirketlerinin faaliyetleri durduruldu\n[ntv · 21:36] SPK'dan Tera Portföy ve Pusula Portföy kararı: Faaliyetleri geçici olarak durduruldu\n[bloomberght · 21:40] Tera ve Pusula Portföy'ün faaliyetleri geçici olarak durduruldu\n[akit · 21:41] Fon soruşturmasında sıcak gelişme! Tera ve Pusula'nın faaliyetleri durduruldu\n[turkiyegz · 21:44] SPK'dan Tera ve Pusula Portföy kararı! Faaliyetleri durduruldu\n[mynet · 21:44] SPK'dan Tera ve Pusula kararı! Geçici olarak durduruldu — SPK'dan yeni bir karar geldi. Yayımlanan bültene göre Tera Portföy Yönetim AŞ ve Pusula Portföy Yönetim AŞ'nin sermaye piyasası faaliyetleri geçici olarak durduruldu. Ayrıca iki şirkete ait kapsam dışındaki fonlar da tasfiye sürecine dahil edildi.\n[yenisafak · 21:44] SPK'dan flaş karar: Tera ve Pusula'nın faaliyetleri geçici olarak durduruldu\n[karar · 22:14] SPK'dan Tera ve Pusula Portföy kararı: Faaliyetler durdu, bütün fonlar tasfiye kapsamına alındı — SPK, fon soruşturmasının merkezindeki Tera Portföy Yönetimi AŞ ile Pusula Portföy Yönetimi AŞ'nin tüm sermaye piyasası faaliyetlerini geçici olarak durdurdu. Kurul, daha önce tasfiyesine karar verilen fonların dışında kalan yatırım fonları, gayrimenkul yatırım fonları ve girişim …\n[ahaber · 22:17] SPK'dan Tera ve Pusula Portföy için flaş karar: Faaliyetleri durduruldu\n[trthaber · 22:26] Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetleri durduruldu\n[milligazete · 22:26] SPK, Tera Portföy ve Pusula Portföy'ün faaliyetleri geçici olarak durdurdu\n[birgun · 22:28] Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetleri geçici olarak durduruldu\n[aksam · 22:37] SPK düğmeye bastı: Tera ve Pusula portföy faaliyetleri durduruldu\n[diken · 22:49] SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini askıya aldı\n[dirilis · 23:03] SPK’dan Tera ve Pusula Portföy’e geçici durdurma kararı!\n[yeniasya · 23:03] Tera ve Pusula Portföy'ün sermaye piyasası faaliyetleri geçici olarak durduruldu"
+  },
+  {
+   "key": "s4372__attentional-bias",
+   "output_file": "runs/bg/explain/s4372__attentional-bias.json",
+   "event_title": "SPK'dan Tera Portföy ve Pusula Portföy kararı: Faaliyetleri geçici olarak durduruldu",
+   "concept": "Attentional Bias",
+   "definition": "A pattern in which attention is preferentially drawn to or held by some stimuli or information, leaving other available material less noticed or processed. It can arise from external cues or internal states and may be useful or adaptive; it becomes a reasoning concern only when it unjustifiably distorts a consequential judgment.",
+   "quotes": [
+    {
+     "quote": "Olayı vermeyen etkin kurumlar: aydinlik, cumhuriyet, hurriyet, sabah, star, takvim",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini geçici olarak durdurdu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SPK'dan Tera ve Pusula kararı! Geçici olarak durduruldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[karar · 22:14] SPK'dan Tera ve Pusula Portföy kararı: Faaliyetler durdu, bütün fonlar tasfiye kapsamına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberturk · 21:33] SPK, Tera ve Pusula'nın faaliyetlerini geçici olarak durdurdu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "AA sabah 10:16'da verdiği halde çoğu kurum akşam 21:30 sonrası haberleştirmiş; bazı etkin kurumlar hiç vermemiş, dikkat dağılımı eşit değil.",
+   "skeptic_alternative": "Başlık uzunluk sınırı ve ayrıntının haber gövdesinde verilmiş olması; haberi vermeyen kurumlar zamanlama veya tarama eksikliğinden kaynaklanabilir.",
+   "missing_context": [
+    "Eşitsiz dikkatin bir sonuca bağlandığına dair kanıt",
+    "Haber gövdeleri",
+    "Haberi vermeyen kurumların başka saatte yayın yapıp yapmadığı",
+    "Kurumların bilgiye erişim zamanı",
+    "Vermeyen kurumların başka kanaldan yayımlayıp yayımlamadığı"
+   ],
+   "headlines": "[aa · 10:16] SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini geçici olarak durdurdu\n[haberturk · 21:33] SPK, Tera ve Pusula'nın faaliyetlerini geçici olarak durdurdu\n[sozcu · 21:35] SPK'dan Tera ve Pusula'nın faaliyetlerini durdurma kararı\n[tgrt · 21:36] Fon soruşturmasında Tera ve Pusula Portföy şirketlerinin faaliyetleri durduruldu\n[ntv · 21:36] SPK'dan Tera Portföy ve Pusula Portföy kararı: Faaliyetleri geçici olarak durduruldu\n[bloomberght · 21:40] Tera ve Pusula Portföy'ün faaliyetleri geçici olarak durduruldu\n[akit · 21:41] Fon soruşturmasında sıcak gelişme! Tera ve Pusula'nın faaliyetleri durduruldu\n[turkiyegz · 21:44] SPK'dan Tera ve Pusula Portföy kararı! Faaliyetleri durduruldu\n[mynet · 21:44] SPK'dan Tera ve Pusula kararı! Geçici olarak durduruldu — SPK'dan yeni bir karar geldi. Yayımlanan bültene göre Tera Portföy Yönetim AŞ ve Pusula Portföy Yönetim AŞ'nin sermaye piyasası faaliyetleri geçici olarak durduruldu. Ayrıca iki şirkete ait kapsam dışındaki fonlar da tasfiye sürecine dahil edildi.\n[yenisafak · 21:44] SPK'dan flaş karar: Tera ve Pusula'nın faaliyetleri geçici olarak durduruldu\n[karar · 22:14] SPK'dan Tera ve Pusula Portföy kararı: Faaliyetler durdu, bütün fonlar tasfiye kapsamına alındı — SPK, fon soruşturmasının merkezindeki Tera Portföy Yönetimi AŞ ile Pusula Portföy Yönetimi AŞ'nin tüm sermaye piyasası faaliyetlerini geçici olarak durdurdu. Kurul, daha önce tasfiyesine karar verilen fonların dışında kalan yatırım fonları, gayrimenkul yatırım fonları ve girişim …\n[ahaber · 22:17] SPK'dan Tera ve Pusula Portföy için flaş karar: Faaliyetleri durduruldu\n[trthaber · 22:26] Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetleri durduruldu\n[milligazete · 22:26] SPK, Tera Portföy ve Pusula Portföy'ün faaliyetleri geçici olarak durdurdu\n[birgun · 22:28] Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetleri geçici olarak durduruldu\n[aksam · 22:37] SPK düğmeye bastı: Tera ve Pusula portföy faaliyetleri durduruldu\n[diken · 22:49] SPK, Tera Portföy ve Pusula Portföy'ün sermaye piyasası faaliyetlerini askıya aldı\n[dirilis · 23:03] SPK’dan Tera ve Pusula Portföy’e geçici durdurma kararı!\n[yeniasya · 23:03] Tera ve Pusula Portföy'ün sermaye piyasası faaliyetleri geçici olarak durduruldu"
+  },
+  {
+   "key": "s4473__framing-effect",
+   "output_file": "runs/bg/explain/s4473__framing-effect.json",
+   "event_title": "Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Tutuklama sonrası düğmeye basıldı: Rüşvet soruşturmasında Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "CHP'li belediyede rüşvet operasyonu: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[akit · 19:23] CHP'li Belediye Başkanı görevinden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[star · 19:30] CHP'li belediyede rüşvet operasyonu: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sozcu · 19:16] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Çoğu kurum kararı yalın verirken Takvim ve Star rüşvet ve parti vurgusuyla çerçevelemiş.",
+   "skeptic_alternative": "Parti bilgisi siyasi haberde ilgili bir olgu; Akit isim yerine parti etiketiyle kısa başlık kurmuş olabilir.",
+   "missing_context": [
+    "Aynı kurumların başka partilerden belediye başkanları için başlık tercihleri",
+    "Çerçevenin bir tercih veya yargıyı değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[sozcu · 19:16] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[cumhuriyet · 19:23] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[ahaber · 19:23] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[akit · 19:23] CHP'li Belediye Başkanı görevinden uzaklaştırıldı\n[ntv · 19:28] Tutuklanan Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[sabah · 19:29] Milas Belediyesi soruşturmasında yeni gelişme! İçişleri Bakanlığı duyurdu: Fevzi Topuz görevden uzaklaştırıldı\n[tgrt · 19:30] İçişleri Bakanlığı duyurdu: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[star · 19:30] CHP'li belediyede rüşvet operasyonu: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı — İçişleri Bakanlığı'nca, Muğla Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı.\n[turkiyegz · 19:37] İçişleri Bakanlığı duyurdu, Fevzi Topuz görevden uzaklaştırıldı\n[haberler · 19:38] Tutuklanan Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[trthaber · 19:41] Milas Belediye Başkanı görevden uzaklaştırıldı\n[dirilis · 19:42] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı!\n[haberturk · 19:42] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[takvim · 19:44] Tutuklama sonrası düğmeye basıldı: Rüşvet soruşturmasında Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[mynet · 19:51] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[yenisafak · 19:58] Tutuklanan Milas Belediye Başkanı görevden uzaklaştırıldı\n[diken · 20:01] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[birgun · 07:06] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[aksam · 07:56] İçişleri Bakanlığı duyurdu: Milas Belediye Başkanı görevden uzaklaştırıldı"
+  },
+  {
+   "key": "s4473__in-group-bias",
+   "output_file": "runs/bg/explain/s4473__in-group-bias.json",
+   "event_title": "Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "CHP'li Belediye Başkanı görevinden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "CHP'li belediyede rüşvet operasyonu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Akit başlıkta isim ve ilçe yerine yalnızca parti kimliğini vermiş; Star parti etiketini rüşvetle yan yana koymuş. Diğer kurumlar parti belirtmemiş.",
+   "skeptic_alternative": "Parti aidiyeti haber değeri taşıyan olgusal bir bilgi.",
+   "missing_context": [
+    "Aynı kurumların iktidar partili başkanlar için benzer haberlerdeki başlıkları",
+    "Karşılaştırılabilir vakalarda tutarsız standart kanıtı",
+    "Kurumların grup aidiyetinin açık tanımı",
+    "Okur değerlendirmesinde fark"
+   ],
+   "headlines": "[sozcu · 19:16] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[cumhuriyet · 19:23] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[ahaber · 19:23] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[akit · 19:23] CHP'li Belediye Başkanı görevinden uzaklaştırıldı\n[ntv · 19:28] Tutuklanan Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[sabah · 19:29] Milas Belediyesi soruşturmasında yeni gelişme! İçişleri Bakanlığı duyurdu: Fevzi Topuz görevden uzaklaştırıldı\n[tgrt · 19:30] İçişleri Bakanlığı duyurdu: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[star · 19:30] CHP'li belediyede rüşvet operasyonu: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı — İçişleri Bakanlığı'nca, Muğla Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı.\n[turkiyegz · 19:37] İçişleri Bakanlığı duyurdu, Fevzi Topuz görevden uzaklaştırıldı\n[haberler · 19:38] Tutuklanan Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[trthaber · 19:41] Milas Belediye Başkanı görevden uzaklaştırıldı\n[dirilis · 19:42] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı!\n[haberturk · 19:42] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[takvim · 19:44] Tutuklama sonrası düğmeye basıldı: Rüşvet soruşturmasında Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[mynet · 19:51] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[yenisafak · 19:58] Tutuklanan Milas Belediye Başkanı görevden uzaklaştırıldı\n[diken · 20:01] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[birgun · 07:06] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[aksam · 07:56] İçişleri Bakanlığı duyurdu: Milas Belediye Başkanı görevden uzaklaştırıldı"
+  },
+  {
+   "key": "s4473__salience-bias",
+   "output_file": "runs/bg/explain/s4473__salience-bias.json",
+   "event_title": "Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Tutuklama sonrası düğmeye basıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Milas Belediye Başkanı görevden uzaklaştırıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[takvim · 19:44] Tutuklama sonrası düğmeye basıldı:",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Dramatik ifadeler bazı başlıklarda öne çıkıyor; diğerlerinde yalın idari bilgi var.",
+   "skeptic_alternative": "Tutuklama ile uzaklaştırma arasındaki sıralamayı bildiren üslup tercihi.",
+   "missing_context": [
+    "Belirginliğin haksız bir çıkarıma bağlandığına dair açık ifade",
+    "Çarpıcılığın bir sonuca etkisine dair kanıt"
+   ],
+   "headlines": "[sozcu · 19:16] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[cumhuriyet · 19:23] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[ahaber · 19:23] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[akit · 19:23] CHP'li Belediye Başkanı görevinden uzaklaştırıldı\n[ntv · 19:28] Tutuklanan Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[sabah · 19:29] Milas Belediyesi soruşturmasında yeni gelişme! İçişleri Bakanlığı duyurdu: Fevzi Topuz görevden uzaklaştırıldı\n[tgrt · 19:30] İçişleri Bakanlığı duyurdu: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[star · 19:30] CHP'li belediyede rüşvet operasyonu: Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı — İçişleri Bakanlığı'nca, Muğla Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı.\n[turkiyegz · 19:37] İçişleri Bakanlığı duyurdu, Fevzi Topuz görevden uzaklaştırıldı\n[haberler · 19:38] Tutuklanan Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[trthaber · 19:41] Milas Belediye Başkanı görevden uzaklaştırıldı\n[dirilis · 19:42] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı!\n[haberturk · 19:42] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[takvim · 19:44] Tutuklama sonrası düğmeye basıldı: Rüşvet soruşturmasında Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[mynet · 19:51] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[yenisafak · 19:58] Tutuklanan Milas Belediye Başkanı görevden uzaklaştırıldı\n[diken · 20:01] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[birgun · 07:06] Milas Belediye Başkanı Fevzi Topuz görevden uzaklaştırıldı\n[aksam · 07:56] İçişleri Bakanlığı duyurdu: Milas Belediye Başkanı görevden uzaklaştırıldı"
+  },
+  {
+   "key": "s5463__framing-effect",
+   "output_file": "runs/bg/explain/s5463__framing-effect.json",
+   "event_title": "Van'da rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Yürek yakan haber Van’dan geldi!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MSB duyurdu: Piyade Uzman Çavuş Oğuz Şahin şehit oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Van'da görev yapan uzman çavuş rahatsızlanarak şehit oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[takvim · 23:28] Yürek yakan haber Van’dan geldi! Rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 23:03] Van'da rahatsızlanan uzman çavuş şehit oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sabah · 23:01] Piyade Uzman Çavuş Oğuz Şahin şehit oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı ölüm haberi bazı kurumlarda duygusal çerçeveyle ('yürek yakan', 'kahreden'), bazılarında yalın ve ölüm nedenini ('rahatsızlanarak') belirterek verilmiş.",
+   "skeptic_alternative": "Taziye dili ve MSB açıklamasındaki \"şehit\" ifadesi kurumsal teamül; neden bilgisinin atlanması başlık kısalığından olabilir.",
+   "missing_context": [
+    "MSB açıklamasının tam metni",
+    "Sunum farkının okur yargısına etkisi",
+    "Çerçevenin bir yargı veya tercihi değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[sondakika · 19:00] Van'dan kahreden haber! Uzman çavuş Oğuz Şahin şehit oldu\n[tgrt · 21:37] MSB'den acı haber: Uzman Çavuş Oğuz Şahin şehit oldu\n[yenisafak · 21:37] Van'da görev yapan uzman çavuş rahatsızlanarak şehit oldu\n[sozcu · 21:47] Acı haberi MSB duyurdu: Piyade Uzman Çavuş Oğuz Şahin şehit oldu\n[turkiyegz · 21:51] Van'dan acı haber! Bakan Güler duyurdu, Piyade Uzman Çavuş Oğuz Şahin şehit oldu\n[haberler · 22:00] Van'dan kahreden haber! Uzman çavuş Oğuz Şahin şehit oldu\n[cumhuriyet · 22:05] MSB duyurdu: Piyade Uzman Çavuş Oğuz Şahin şehit oldu\n[aksam · 22:10] Başımız sağ olsun: Van'da görev yapan Uzman Çavuş Şahin görevi başında rahatsızlanarak şehit oldu\n[ahaber · 22:20] Van'da görev sırasında rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu\n[mynet · 22:27] Kahreden haber! Piyade Uzman Çavuş Oğuz Şahin şehit oldu\n[akit · 22:33] Görev başında fenalaşan Piyade Uzman Çavuş Oğuz Şahin şehit düştü!\n[haberturk · 22:55] Van'ın Çaldıran ilçesinde görev yapan Piyade Uzman Çavuş Oğuz Şahin şehit oldu\n[sabah · 23:01] Piyade Uzman Çavuş Oğuz Şahin şehit oldu\n[ntv · 23:03] Van'da rahatsızlanan uzman çavuş şehit oldu\n[takvim · 23:28] Yürek yakan haber Van’dan geldi! Rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu\n[yeniasya · 23:35] MSB: Van'da rahatsızlanan Piyade Uzman Çavuş Oğuz Şahin şehit oldu\n[milligazete · 09:33] Şehit Oğuz Şahin kimdir, nereli, kaç yaşındaydı? Piyade Uzman Çavuş Oğuz Şahin neden şehit oldu, eşi ve çocuğu kim?\n[star · 14:20] Şehit Uzman Çavuş Şahin memleketine uğurlandı — Van'ın Çaldıran ilçesinde görev sırasında rahatsızlanarak şehit olan Piyade Uzman Çavuş Oğuz Şahin'in naaşı, düzenlenen törenin ardından memleketine uğurlandı."
+  },
+  {
+   "key": "s4831__framing-effect",
+   "output_file": "runs/bg/explain/s4831__framing-effect.json",
+   "event_title": "15 Temmuz Şehitler Köprüsü'nde kaza",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "15 Temmuz Şehitler Köprüsü'nde feci kaza! Anadolu yakası yönünde trafik durdu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "15 Temmuz Şehitler Köprüsü'nde zincirleme trafik kazası",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: 15 Temmuz Şehitler Köprüsü'nde kaza",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[takvim · 13:13] İstanbul'u kilitleyen kaza: 15 Temmuz Şehitler Köprüsü'nde 4 araç birbirine girdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "15 Temmuz Şehitler Köprüsü'nde 5 aracın karıştığı zincirleme trafik kazası nedeniyle trafik yoğunluğu yaşandı.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı kaza Akit'te 'feci kaza' ve 'trafik durdu' çerçevesiyle, TRT Haber ve Yeni Şafak'ta yalın verilmiş.",
+   "skeptic_alternative": "Trafik etkisinin büyüklüğüne dair farklı gözlemler ya da üslup farkı.",
+   "missing_context": [
+    "Kazanın ağırlığına ilişkin resmi bilgi",
+    "Trafik yoğunluğunun süresi ve kapsamına dair resmi veri",
+    "Çerçevenin bir yargıyı değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[sozcu · 09:14] 15 Temmuz Şehitler Köprüsü ve Avrasya Tüneli trafiğe kapanıyor\n[turkiyegz · 10:12] İstanbul'da yarın bu yollar trafiğe kapatılacak! 15 Temmuz Şehitler Köprüsü ve Avrasya Tüneli için saat verildi\n[milligazete · 16:48] 1 Kasım İstanbul Maratonu'nda hangi yollar kapalı? 15 Temmuz Şehitler Köprüsü, Avrasya Tüneli ve alternatif güzergâhlar\n[ntv · 01:07] 15 Temmuz Şehitler Köprüsü ve Avrasya Tüneli trafiğe kapanacak\n[haberler · 01:55] 15 Temmuz Şehitler Köprüsü neden kapalı? 1 Kasım 15 Temmuz Şehitler Köprüsü trafiğe ne zaman, saat kaçta açılacak?\n[haberturk · 07:24] Bugün metrobüs ve köprüler açık mı? 1 Kasım 2026 Pazar Avrasya Tüneli, Galata Köprüsü ve 15 Temmuz Şehitler Köprüsü kapalı mı, hangi duraklar kapalı?\n[sondakika · 08:57] 15 Temmuz Şehitler Köprüsü girişinde kaza\n[karar · 12:00] 15 Temmuz Şehitler Köprüsü'nde 5 araç birbirine girdi — 15 Temmuz Şehitler Köprüsü'nün Avrupa Yakası girişinde 5 aracın karıştığı zincirleme trafik kazası meydana geldi. Kaza nedeniyle Anadolu Yakası yönünde trafik yoğunluğu oluştu.\n[sabah · 12:06] 15 Temmuz Şehitler Köprüsü girişinde kaza! | Video\n[akit · 12:17] 15 Temmuz Şehitler Köprüsü'nde feci kaza! Anadolu yakası yönünde trafik durdu\n[ahaber · 12:20] 15 Temmuz Şehitler Köprüsü girişinde zincirleme kaza! Trafik kilitlendi\n[cumhuriyet · 12:29] 15 Temmuz Şehitler Köprüsü'nde 5 araçlı zincirleme kaza\n[trthaber · 12:32] 15 Temmuz Şehitler Köprüsü'nde zincirleme trafik kazası\n[yenisafak · 12:33] 15 Temmuz Şehitler Köprüsü'nde zincirleme trafik kazası\n[aksam · 12:38] 15 Temmuz Köprüsü'nde zincirleme kaza\n[star · 12:40] 15 Temmuz Şehitler Köprüsü girişinde kaza: 5 araç birbirine girdi — 15 Temmuz Şehitler Köprüsü'nde 5 aracın karıştığı zincirleme trafik kazası nedeniyle trafik yoğunluğu yaşandı.\n[tgrt · 12:52] 15 Temmuz Şehitler Köprüsü girişinde kaza: Köprüde trafik yoğunluğu oluştu\n[takvim · 13:13] İstanbul'u kilitleyen kaza: 15 Temmuz Şehitler Köprüsü'nde 4 araç birbirine girdi"
+  },
+  {
+   "key": "s4831__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4831__leveling-and-sharpening.json",
+   "event_title": "15 Temmuz Şehitler Köprüsü'nde kaza",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "İstanbul'u kilitleyen kaza: 15 Temmuz Şehitler Köprüsü'nde 4 araç birbirine girdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "15 Temmuz Şehitler Köprüsü'nde 5 araç birbirine girdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kaza nedeniyle Anadolu Yakası yönünde trafik yoğunluğu oluştu.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "15 Temmuz Şehitler Köprüsü girişinde zincirleme kaza! Trafik kilitlendi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[cumhuriyet · 12:29] 15 Temmuz Şehitler Köprüsü'nde 5 araçlı zincirleme kaza",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ahaber · 12:20] 15 Temmuz Şehitler Köprüsü girişinde zincirleme kaza! Trafik kilitlendi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Karar'daki 'trafik yoğunluğu' ifadesi bazı başlıklarda 'İstanbul'u kilitleyen', 'trafik kilitlendi' olarak keskinleşmiş; araç sayısı Takvim'de 4'e düşmüş.",
+   "skeptic_alternative": "Erken ve farklı kaynaklardan gelen bilgi; trafik durumu zamana göre değişmiş olabilir. Olay kümesinde maraton kapanışı haberleri de karışmış.",
+   "missing_context": [
+    "Farkın bir sonuca etkisi",
+    "Resmi kaza kaydı ve araç sayısı",
+    "Resmi kaza tutanağı veya emniyet açıklaması",
+    "Trafik verisinin zamana göre değişimi"
+   ],
+   "headlines": "[sozcu · 09:14] 15 Temmuz Şehitler Köprüsü ve Avrasya Tüneli trafiğe kapanıyor\n[turkiyegz · 10:12] İstanbul'da yarın bu yollar trafiğe kapatılacak! 15 Temmuz Şehitler Köprüsü ve Avrasya Tüneli için saat verildi\n[milligazete · 16:48] 1 Kasım İstanbul Maratonu'nda hangi yollar kapalı? 15 Temmuz Şehitler Köprüsü, Avrasya Tüneli ve alternatif güzergâhlar\n[ntv · 01:07] 15 Temmuz Şehitler Köprüsü ve Avrasya Tüneli trafiğe kapanacak\n[haberler · 01:55] 15 Temmuz Şehitler Köprüsü neden kapalı? 1 Kasım 15 Temmuz Şehitler Köprüsü trafiğe ne zaman, saat kaçta açılacak?\n[haberturk · 07:24] Bugün metrobüs ve köprüler açık mı? 1 Kasım 2026 Pazar Avrasya Tüneli, Galata Köprüsü ve 15 Temmuz Şehitler Köprüsü kapalı mı, hangi duraklar kapalı?\n[sondakika · 08:57] 15 Temmuz Şehitler Köprüsü girişinde kaza\n[karar · 12:00] 15 Temmuz Şehitler Köprüsü'nde 5 araç birbirine girdi — 15 Temmuz Şehitler Köprüsü'nün Avrupa Yakası girişinde 5 aracın karıştığı zincirleme trafik kazası meydana geldi. Kaza nedeniyle Anadolu Yakası yönünde trafik yoğunluğu oluştu.\n[sabah · 12:06] 15 Temmuz Şehitler Köprüsü girişinde kaza! | Video\n[akit · 12:17] 15 Temmuz Şehitler Köprüsü'nde feci kaza! Anadolu yakası yönünde trafik durdu\n[ahaber · 12:20] 15 Temmuz Şehitler Köprüsü girişinde zincirleme kaza! Trafik kilitlendi\n[cumhuriyet · 12:29] 15 Temmuz Şehitler Köprüsü'nde 5 araçlı zincirleme kaza\n[trthaber · 12:32] 15 Temmuz Şehitler Köprüsü'nde zincirleme trafik kazası\n[yenisafak · 12:33] 15 Temmuz Şehitler Köprüsü'nde zincirleme trafik kazası\n[aksam · 12:38] 15 Temmuz Köprüsü'nde zincirleme kaza\n[star · 12:40] 15 Temmuz Şehitler Köprüsü girişinde kaza: 5 araç birbirine girdi — 15 Temmuz Şehitler Köprüsü'nde 5 aracın karıştığı zincirleme trafik kazası nedeniyle trafik yoğunluğu yaşandı.\n[tgrt · 12:52] 15 Temmuz Şehitler Köprüsü girişinde kaza: Köprüde trafik yoğunluğu oluştu\n[takvim · 13:13] İstanbul'u kilitleyen kaza: 15 Temmuz Şehitler Köprüsü'nde 4 araç birbirine girdi"
+  },
+  {
+   "key": "s5023__framing-effect",
+   "output_file": "runs/bg/explain/s5023__framing-effect.json",
+   "event_title": "İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "yakınında bulunan 3 binada oturanlar güvenlik nedeniyle evlerinden tahliye edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İzmir'de toprak kayması: 3 bina boşaltıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Aynı olgu (3 binanın tedbiren tahliyesi) bir kurumda 'panik' vurgusuyla, diğerlerinde nötr dille verilmiş; sunum farkı gözleniyor ancak bir yargı/tercihe bağlandığı görülmüyor.",
+   "skeptic_alternative": "'Panik' kelimesi yerel tepkiyi aktaran olağan bir başlık tercihi olabilir; aynı başlık 'tedbir amaçlı' ifadesiyle riski de dengeliyor.",
+   "missing_context": [
+    "Bölgede gerçekten panik yaşandığına dair tanık/yetkili açıklaması",
+    "Haber gövdesinde panik iddiasının dayanağı",
+    "Haber metinlerinin tamamı",
+    "Okur veya karar verici üzerinde bir yargı değişikliği kanıtı"
+   ],
+   "headlines": "[haberturk · 20:21] Samsun'da temelinde toprak kayması meydana gelen 5 katlı bina tahliye edildi\n[sondakika · 21:26] İzmir Bayraklı'da temel kazısında toprak kayması, 3 binanın tahliyesine yol açtı\n[haberler · 00:23] İzmir Bayraklı'da temel kazısında toprak kayması yaşandı, 3 bina boşaltıldı\n[mynet · 00:35] İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi\n[yenisafak · 00:39] İzmir’de toprak kayması: Üç bina tahliye edildi\n[cumhuriyet · 00:39] İnşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[sabah · 00:40] İzmir’de inşaat alanında toprak kayması: 3 bina tahliye edildi!\n[aksam · 00:40] İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi\n[birgun · 00:47] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[trthaber · 00:51] İzmir'de toprak kayması: 3 bina boşaltıldı\n[star · 01:35] İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi — İzmir'in Bayraklı ilçesinde temel kazısı yapılan inşaat alanında toprak kayması nedeniyle 3 bina tedbir amaçlı tahliye edildi.\n[dirilis · 01:45] İzmir'de toprak kayması: 3 bina boşaltıldı\n[cnnturk · 04:36] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[hurriyet · 07:00] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi — İzmir'in Bayraklı ilçesinde, bir inşaatın temel kazısı sırasında meydana gelen toprak kayması nedeniyle yakınında bulunan 3 binada oturanlar güvenlik nedeniyle evlerinden tahliye edildi.\n[sozcu · 08:14] İzmir'de temel kazısında toprak kaydı: 3 bina tahliye edildi\n[ahaber · 08:53] Samsun'da sağanak yağış sonrası toprak kayması! 5 katlı bina tedbir amaçlı tahliye edildi\n[turkiyegz · 13:59] İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi\n[ntv · 14:32] İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi"
+  },
+  {
+   "key": "s5023__salience-bias",
+   "output_file": "runs/bg/explain/s5023__salience-bias.json",
+   "event_title": "İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "3 binada oturanlar güvenlik nedeniyle evlerinden tahliye edildi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar ünlem ve 'panik' gibi çarpıcı öğeleri öne çıkarırken diğerleri sade başlık kullanmış; karşılaştırmalı vurgu farkı var, fakat bunun bir hükmü haksız biçimde yönlendirdiği gösterilmiyor.",
+   "skeptic_alternative": "Ünlem kullanımı son dakika haberlerinde yaygın biçimsel bir tercih; olgular kurumlar arasında tutarlı.",
+   "missing_context": [
+    "Başlık vurgusunun okur yargısına etkisine dair veri",
+    "Hasar ve risk düzeyine ilişkin resmi açıklama",
+    "Hasarın gerçek boyutu hakkında resmi açıklama",
+    "Okur tepkisi veya haberin yol açtığı kararlar"
+   ],
+   "headlines": "[haberturk · 20:21] Samsun'da temelinde toprak kayması meydana gelen 5 katlı bina tahliye edildi\n[sondakika · 21:26] İzmir Bayraklı'da temel kazısında toprak kayması, 3 binanın tahliyesine yol açtı\n[haberler · 00:23] İzmir Bayraklı'da temel kazısında toprak kayması yaşandı, 3 bina boşaltıldı\n[mynet · 00:35] İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi\n[yenisafak · 00:39] İzmir’de toprak kayması: Üç bina tahliye edildi\n[cumhuriyet · 00:39] İnşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[sabah · 00:40] İzmir’de inşaat alanında toprak kayması: 3 bina tahliye edildi!\n[aksam · 00:40] İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi\n[birgun · 00:47] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[trthaber · 00:51] İzmir'de toprak kayması: 3 bina boşaltıldı\n[star · 01:35] İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi — İzmir'in Bayraklı ilçesinde temel kazısı yapılan inşaat alanında toprak kayması nedeniyle 3 bina tedbir amaçlı tahliye edildi.\n[dirilis · 01:45] İzmir'de toprak kayması: 3 bina boşaltıldı\n[cnnturk · 04:36] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[hurriyet · 07:00] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi — İzmir'in Bayraklı ilçesinde, bir inşaatın temel kazısı sırasında meydana gelen toprak kayması nedeniyle yakınında bulunan 3 binada oturanlar güvenlik nedeniyle evlerinden tahliye edildi.\n[sozcu · 08:14] İzmir'de temel kazısında toprak kaydı: 3 bina tahliye edildi\n[ahaber · 08:53] Samsun'da sağanak yağış sonrası toprak kayması! 5 katlı bina tedbir amaçlı tahliye edildi\n[turkiyegz · 13:59] İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi\n[ntv · 14:32] İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi"
+  },
+  {
+   "key": "s5023__negativity-bias",
+   "output_file": "runs/bg/explain/s5023__negativity-bias.json",
+   "event_title": "İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Olumsuz duygu ('panik') vurgusu var; ancak karşılaştırılabilir olumlu bilginin (ör. can kaybı olmaması) daha az ağırlık aldığı açıkça gösterilmiyor.",
+   "skeptic_alternative": "Tahliye gerçek bir risk karşısında orantılı bir önlem; olumsuz olayın haberleştirilmesi tek başına önyargı değildir.",
+   "missing_context": [
+    "Binaların güvenli olduğuna dair sonraki açıklamalar",
+    "Can kaybı veya yaralanma olmadığına dair bilgi",
+    "Olumlu/olumsuz bilginin karşılaştırmalı sunumu",
+    "Yaralanma/can kaybı olup olmadığı bilgisi"
+   ],
+   "headlines": "[haberturk · 20:21] Samsun'da temelinde toprak kayması meydana gelen 5 katlı bina tahliye edildi\n[sondakika · 21:26] İzmir Bayraklı'da temel kazısında toprak kayması, 3 binanın tahliyesine yol açtı\n[haberler · 00:23] İzmir Bayraklı'da temel kazısında toprak kayması yaşandı, 3 bina boşaltıldı\n[mynet · 00:35] İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi\n[yenisafak · 00:39] İzmir’de toprak kayması: Üç bina tahliye edildi\n[cumhuriyet · 00:39] İnşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[sabah · 00:40] İzmir’de inşaat alanında toprak kayması: 3 bina tahliye edildi!\n[aksam · 00:40] İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi\n[birgun · 00:47] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[trthaber · 00:51] İzmir'de toprak kayması: 3 bina boşaltıldı\n[star · 01:35] İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi — İzmir'in Bayraklı ilçesinde temel kazısı yapılan inşaat alanında toprak kayması nedeniyle 3 bina tedbir amaçlı tahliye edildi.\n[dirilis · 01:45] İzmir'de toprak kayması: 3 bina boşaltıldı\n[cnnturk · 04:36] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[hurriyet · 07:00] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi — İzmir'in Bayraklı ilçesinde, bir inşaatın temel kazısı sırasında meydana gelen toprak kayması nedeniyle yakınında bulunan 3 binada oturanlar güvenlik nedeniyle evlerinden tahliye edildi.\n[sozcu · 08:14] İzmir'de temel kazısında toprak kaydı: 3 bina tahliye edildi\n[ahaber · 08:53] Samsun'da sağanak yağış sonrası toprak kayması! 5 katlı bina tedbir amaçlı tahliye edildi\n[turkiyegz · 13:59] İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi\n[ntv · 14:32] İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi"
+  },
+  {
+   "key": "s5023__source-confusion",
+   "output_file": "runs/bg/explain/s5023__source-confusion.json",
+   "event_title": "İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi",
+   "concept": "Source Confusion",
+   "definition": "Source confusion is difficulty or error in identifying where a remembered fact, image, or event came from, such as mistaking something heard, read, suggested, or imagined for direct experience. The Decision Lab labels this entry “Bias” but defines a memory-source error; source confusion can occur without faulty reasoning and source detachment can also support learning.",
+   "quotes": [
+    {
+     "quote": "Samsun'da temelinde toprak kayması meydana gelen 5 katlı bina tahliye edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Samsun'da sağanak yağış sonrası toprak kayması! 5 katlı bina tedbir amaçlı tahliye edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "İzmir olayı kümesinde iki kurumun başlığı Samsun'daki 5 katlı bina tahliyesine ait; benzer içerikli iki olay arasında kaynak/yer karışıklığı ihtimali gözleniyor.",
+   "skeptic_alternative": "Benzer anahtar kelimeler (toprak kayması, tahliye) nedeniyle farklı olayların aynı kümeye otomatik eklenmesi.",
+   "missing_context": [
+    "Hatırlanan bir öğe ve atfedilen kaynak",
+    "Kaynak uyuşmazlığını gösteren kayıt",
+    "Kurumların İzmir olayını ayrıca verip vermediği",
+    "Kümeleme yönteminin bu başlıkları neden eşlediği",
+    "Samsun haberlerinin tam metni"
+   ],
+   "headlines": "[haberturk · 20:21] Samsun'da temelinde toprak kayması meydana gelen 5 katlı bina tahliye edildi\n[sondakika · 21:26] İzmir Bayraklı'da temel kazısında toprak kayması, 3 binanın tahliyesine yol açtı\n[haberler · 00:23] İzmir Bayraklı'da temel kazısında toprak kayması yaşandı, 3 bina boşaltıldı\n[mynet · 00:35] İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi\n[yenisafak · 00:39] İzmir’de toprak kayması: Üç bina tahliye edildi\n[cumhuriyet · 00:39] İnşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[sabah · 00:40] İzmir’de inşaat alanında toprak kayması: 3 bina tahliye edildi!\n[aksam · 00:40] İzmir'de toprak kayması paniği: 3 bina tedbir amaçlı tahliye edildi\n[birgun · 00:47] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[trthaber · 00:51] İzmir'de toprak kayması: 3 bina boşaltıldı\n[star · 01:35] İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi — İzmir'in Bayraklı ilçesinde temel kazısı yapılan inşaat alanında toprak kayması nedeniyle 3 bina tedbir amaçlı tahliye edildi.\n[dirilis · 01:45] İzmir'de toprak kayması: 3 bina boşaltıldı\n[cnnturk · 04:36] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi\n[hurriyet · 07:00] İzmir'de inşaat temel kazısında toprak kayması: 3 bina tahliye edildi — İzmir'in Bayraklı ilçesinde, bir inşaatın temel kazısı sırasında meydana gelen toprak kayması nedeniyle yakınında bulunan 3 binada oturanlar güvenlik nedeniyle evlerinden tahliye edildi.\n[sozcu · 08:14] İzmir'de temel kazısında toprak kaydı: 3 bina tahliye edildi\n[ahaber · 08:53] Samsun'da sağanak yağış sonrası toprak kayması! 5 katlı bina tedbir amaçlı tahliye edildi\n[turkiyegz · 13:59] İzmir'de inşaat kazısında toprak kayması! 3 bina tahliye edildi\n[ntv · 14:32] İzmir'de toprak kayması nedeniyle 3 bina tahliye edildi"
+  },
+  {
+   "key": "s4217__framing-effect",
+   "output_file": "runs/bg/explain/s4217__framing-effect.json",
+   "event_title": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Brezilya’da seçimin galibi sol: Lula yeniden başkan!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı seçim sonucu bir kurumda ideolojik ('sol'), bir kurumda 'tarihi zafer' çerçevesiyle, diğerlerinde nötr dille sunulmuş; çerçeve farkı bir değerlendirmeye bağlanmıyor.",
+   "skeptic_alternative": "Başlık farkları yayın tarzı ve dikkat çekme ihtiyacından kaynaklanabilir; 'dördüncü dönem' gibi gerçek bilgi 'tarihi' nitelemesini kısmen gerekçelendirir.",
+   "missing_context": [
+    "Haber metinlerinin tamamı",
+    "Kurumların benzer seçimlerde sağ adayın zaferini nasıl çerçevelediği",
+    "Okur değerlendirmesinin çerçeveye göre değiştiğine dair kanıt",
+    "Resmi sonuç açıklaması"
+   ],
+   "headlines": "[aa · 03:02] Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı\n[tgrt · 03:20] Brezilya'da başkanlık seçimi sonuçları belli oldu: Kazanan Lula da Silva — Brezilya yeni devlet başkanını seçmek için sandık başına gitti. İktidar partisinin adayı Devlet Başkanı Lula da Silva ile muhalefetin adayı sağcı Flavio Bolsonaro arasında kıyasıya yarış yaşandı. Sandıkların tamamı açıldı, oy sayma işlemi sona erdi. Resmi olmayan sonuçlara göre, …\n[sabah · 03:35] Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı — Brezilya’da devlet başkanlığı seçiminin ikinci turunu resmi olmayan sonuçlara göre İşçi Partisi PT adayı ve mevcut Devlet Başkanı Luiz Inacio Lula da Silva kazandı.\n[ahaber · 03:43] Brezilya’da seçimin kazananı Lula da Silva oldu — Brezilya'da devlet başkanlığı seçiminin ikinci turunu resmi olmayan sonuçlara göre Luiz Inacio Lula da Silva kazandı\n[yenisafak · 03:52] Brezilya’da seçimin ikinci turunu Lula da Silva kazandı\n[haberler · 03:57] Brezilya'da tarihi geri dönüş! Resmi olmayan sonuçlara göre Lula da Silva 4. kez devlet başkanı\n[sozcu · 04:25] Brezilya'da seçimi Lula da Silva kazandı\n[haberturk · 04:34] Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı\n[trthaber · 05:15] Brezilya'da Lula da Silva yeniden devlet başkanı seçildi\n[turkiyegz · 05:57] Brezilya'da seçimin galibi belli oldu! Lula da Silva yeniden Devlet Başkanı seçildi\n[bloomberght · 06:18] Brezilya'da Lula da Silva yeniden Devlet Başkanı seçildi\n[mynet · 06:20] Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz\n[ntv · 06:39] Brezilya'da Lula 4'üncü kez başkan\n[birgun · 07:23] Brezilya’da seçimin galibi sol: Lula yeniden başkan!\n[dirilis · 08:14] Brezilya seçim sonucu: Lula yeniden devlet başkanı seçildi\n[tele1 · 08:32] Brezilya'da Lula da Silva yeniden devlet başkanı seçildi\n[cumhuriyet · 09:30] Lula da Silva kimdir? Brezilya Devlet Başkanı Lula da Silva'nın hayatı\n[star · 11:00] Lula da Silva yeniden başkan seçildi! Brezilya'da iktidarını dördüncü döneme taşıdı — Brezilya Devlet Başkanı Luiz Inacio Lula da Silva, yeniden göreve seçilerek iktidarını dördüncü döneme taşıdı."
+  },
+  {
+   "key": "s4217__in-group-bias",
+   "output_file": "runs/bg/explain/s4217__in-group-bias.json",
+   "event_title": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "Brezilya’da seçimin galibi sol: Lula yeniden başkan!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "birgun: sol (16)",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "İktidar partisinin adayı Devlet Başkanı Lula da Silva ile muhalefetin adayı sağcı Flavio Bolsonaro arasında kıyasıya yarış yaşandı.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Sol yerleşimli bir kurum kazananı grup kimliğiyle ('sol') ve sevinç ünlemiyle duyurmuş; grup aidiyeti ile vurgu arasında olası bir bağ var, ancak tutarsız standart gösterilmiyor.",
+   "skeptic_alternative": "Siyasi yönelimin belirtilmesi olgusal bir betimleme olabilir; diğer başlıklar da Bolsonaro'yu 'sağcı' diye niteliyor.",
+   "missing_context": [
+    "Aynı kurumun sağ adayların zaferlerini nasıl başlıklandırdığı",
+    "Haberin tam metni",
+    "Karşılaştırılabilir durumlarda farklı standart uygulandığına dair örnek",
+    "Kurumun benzer seçim haberlerindeki dili"
+   ],
+   "headlines": "[aa · 03:02] Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı\n[tgrt · 03:20] Brezilya'da başkanlık seçimi sonuçları belli oldu: Kazanan Lula da Silva — Brezilya yeni devlet başkanını seçmek için sandık başına gitti. İktidar partisinin adayı Devlet Başkanı Lula da Silva ile muhalefetin adayı sağcı Flavio Bolsonaro arasında kıyasıya yarış yaşandı. Sandıkların tamamı açıldı, oy sayma işlemi sona erdi. Resmi olmayan sonuçlara göre, …\n[sabah · 03:35] Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı — Brezilya’da devlet başkanlığı seçiminin ikinci turunu resmi olmayan sonuçlara göre İşçi Partisi PT adayı ve mevcut Devlet Başkanı Luiz Inacio Lula da Silva kazandı.\n[ahaber · 03:43] Brezilya’da seçimin kazananı Lula da Silva oldu — Brezilya'da devlet başkanlığı seçiminin ikinci turunu resmi olmayan sonuçlara göre Luiz Inacio Lula da Silva kazandı\n[yenisafak · 03:52] Brezilya’da seçimin ikinci turunu Lula da Silva kazandı\n[haberler · 03:57] Brezilya'da tarihi geri dönüş! Resmi olmayan sonuçlara göre Lula da Silva 4. kez devlet başkanı\n[sozcu · 04:25] Brezilya'da seçimi Lula da Silva kazandı\n[haberturk · 04:34] Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı\n[trthaber · 05:15] Brezilya'da Lula da Silva yeniden devlet başkanı seçildi\n[turkiyegz · 05:57] Brezilya'da seçimin galibi belli oldu! Lula da Silva yeniden Devlet Başkanı seçildi\n[bloomberght · 06:18] Brezilya'da Lula da Silva yeniden Devlet Başkanı seçildi\n[mynet · 06:20] Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz\n[ntv · 06:39] Brezilya'da Lula 4'üncü kez başkan\n[birgun · 07:23] Brezilya’da seçimin galibi sol: Lula yeniden başkan!\n[dirilis · 08:14] Brezilya seçim sonucu: Lula yeniden devlet başkanı seçildi\n[tele1 · 08:32] Brezilya'da Lula da Silva yeniden devlet başkanı seçildi\n[cumhuriyet · 09:30] Lula da Silva kimdir? Brezilya Devlet Başkanı Lula da Silva'nın hayatı\n[star · 11:00] Lula da Silva yeniden başkan seçildi! Brezilya'da iktidarını dördüncü döneme taşıdı — Brezilya Devlet Başkanı Luiz Inacio Lula da Silva, yeniden göreve seçilerek iktidarını dördüncü döneme taşıdı."
+  },
+  {
+   "key": "s4217__salience-bias",
+   "output_file": "runs/bg/explain/s4217__salience-bias.json",
+   "event_title": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Brezilya'da tarihi geri dönüş! Resmi olmayan sonuçlara göre Lula da Silva 4. kez devlet başkanı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Brezilya'da seçimi Lula da Silva kazandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Tarihi' ve ünlem gibi çarpıcı öğeler bazı başlıklarda öne çıkarken diğerleri sade; vurgu farkı karşılaştırmalı olarak görülüyor ancak bir hükmü yönlendirdiği gösterilmiyor.",
+   "skeptic_alternative": "Dördüncü dönem gerçekten dikkate değer bir bilgi; vurgu habercilik açısından meşru olabilir.",
+   "missing_context": [
+    "Okur/karar etkisine dair veri",
+    "Oy farkı ve itiraz sürecine ilişkin bilgi",
+    "Vurgunun okur yargısına etkisi"
+   ],
+   "headlines": "[aa · 03:02] Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı\n[tgrt · 03:20] Brezilya'da başkanlık seçimi sonuçları belli oldu: Kazanan Lula da Silva — Brezilya yeni devlet başkanını seçmek için sandık başına gitti. İktidar partisinin adayı Devlet Başkanı Lula da Silva ile muhalefetin adayı sağcı Flavio Bolsonaro arasında kıyasıya yarış yaşandı. Sandıkların tamamı açıldı, oy sayma işlemi sona erdi. Resmi olmayan sonuçlara göre, …\n[sabah · 03:35] Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı — Brezilya’da devlet başkanlığı seçiminin ikinci turunu resmi olmayan sonuçlara göre İşçi Partisi PT adayı ve mevcut Devlet Başkanı Luiz Inacio Lula da Silva kazandı.\n[ahaber · 03:43] Brezilya’da seçimin kazananı Lula da Silva oldu — Brezilya'da devlet başkanlığı seçiminin ikinci turunu resmi olmayan sonuçlara göre Luiz Inacio Lula da Silva kazandı\n[yenisafak · 03:52] Brezilya’da seçimin ikinci turunu Lula da Silva kazandı\n[haberler · 03:57] Brezilya'da tarihi geri dönüş! Resmi olmayan sonuçlara göre Lula da Silva 4. kez devlet başkanı\n[sozcu · 04:25] Brezilya'da seçimi Lula da Silva kazandı\n[haberturk · 04:34] Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı\n[trthaber · 05:15] Brezilya'da Lula da Silva yeniden devlet başkanı seçildi\n[turkiyegz · 05:57] Brezilya'da seçimin galibi belli oldu! Lula da Silva yeniden Devlet Başkanı seçildi\n[bloomberght · 06:18] Brezilya'da Lula da Silva yeniden Devlet Başkanı seçildi\n[mynet · 06:20] Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz\n[ntv · 06:39] Brezilya'da Lula 4'üncü kez başkan\n[birgun · 07:23] Brezilya’da seçimin galibi sol: Lula yeniden başkan!\n[dirilis · 08:14] Brezilya seçim sonucu: Lula yeniden devlet başkanı seçildi\n[tele1 · 08:32] Brezilya'da Lula da Silva yeniden devlet başkanı seçildi\n[cumhuriyet · 09:30] Lula da Silva kimdir? Brezilya Devlet Başkanı Lula da Silva'nın hayatı\n[star · 11:00] Lula da Silva yeniden başkan seçildi! Brezilya'da iktidarını dördüncü döneme taşıdı — Brezilya Devlet Başkanı Luiz Inacio Lula da Silva, yeniden göreve seçilerek iktidarını dördüncü döneme taşıdı."
+  },
+  {
+   "key": "s4217__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4217__leveling-and-sharpening.json",
+   "event_title": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Brezilya'da Lula da Silva yeniden devlet başkanı seçildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Brezilya'da tarihi geri dönüş!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "mevcut Devlet Başkanı Luiz Inacio Lula da Silva kazandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "İlk haberdeki 'resmi olmayan sonuçlara göre' kaydı sonraki başlıklarda düşmüş (düzleştirme); görevdeki başkan için 'geri dönüş' ifadesi ise kesinleştirme/abartı örneği olabilir.",
+   "skeptic_alternative": "Sonuçların kesinleşmesiyle kaydın gereksizleşmesi ya da başlık kısalığı nedeniyle atlanması olağan özetleme olabilir.",
+   "missing_context": [
+    "Haberlerin tam metni",
+    "Kaydın düşmesinin bir sonuca etkisi",
+    "Resmi sonuçların açıklanma saati",
+    "Resmi sonuçların açıklanma zamanı"
+   ],
+   "headlines": "[aa · 03:02] Brezilya'da seçimin ikinci turunu resmi olmayan sonuçlara göre Lula da Silva kazandı\n[tgrt · 03:20] Brezilya'da başkanlık seçimi sonuçları belli oldu: Kazanan Lula da Silva — Brezilya yeni devlet başkanını seçmek için sandık başına gitti. İktidar partisinin adayı Devlet Başkanı Lula da Silva ile muhalefetin adayı sağcı Flavio Bolsonaro arasında kıyasıya yarış yaşandı. Sandıkların tamamı açıldı, oy sayma işlemi sona erdi. Resmi olmayan sonuçlara göre, …\n[sabah · 03:35] Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı — Brezilya’da devlet başkanlığı seçiminin ikinci turunu resmi olmayan sonuçlara göre İşçi Partisi PT adayı ve mevcut Devlet Başkanı Luiz Inacio Lula da Silva kazandı.\n[ahaber · 03:43] Brezilya’da seçimin kazananı Lula da Silva oldu — Brezilya'da devlet başkanlığı seçiminin ikinci turunu resmi olmayan sonuçlara göre Luiz Inacio Lula da Silva kazandı\n[yenisafak · 03:52] Brezilya’da seçimin ikinci turunu Lula da Silva kazandı\n[haberler · 03:57] Brezilya'da tarihi geri dönüş! Resmi olmayan sonuçlara göre Lula da Silva 4. kez devlet başkanı\n[sozcu · 04:25] Brezilya'da seçimi Lula da Silva kazandı\n[haberturk · 04:34] Brezilya'da devlet başkanlığı seçimini Lula da Silva kazandı\n[trthaber · 05:15] Brezilya'da Lula da Silva yeniden devlet başkanı seçildi\n[turkiyegz · 05:57] Brezilya'da seçimin galibi belli oldu! Lula da Silva yeniden Devlet Başkanı seçildi\n[bloomberght · 06:18] Brezilya'da Lula da Silva yeniden Devlet Başkanı seçildi\n[mynet · 06:20] Tarihi zafer! Brezilya'da seçimi Lula da Silva kazandı: Bolsonaro'dan itiraz\n[ntv · 06:39] Brezilya'da Lula 4'üncü kez başkan\n[birgun · 07:23] Brezilya’da seçimin galibi sol: Lula yeniden başkan!\n[dirilis · 08:14] Brezilya seçim sonucu: Lula yeniden devlet başkanı seçildi\n[tele1 · 08:32] Brezilya'da Lula da Silva yeniden devlet başkanı seçildi\n[cumhuriyet · 09:30] Lula da Silva kimdir? Brezilya Devlet Başkanı Lula da Silva'nın hayatı\n[star · 11:00] Lula da Silva yeniden başkan seçildi! Brezilya'da iktidarını dördüncü döneme taşıdı — Brezilya Devlet Başkanı Luiz Inacio Lula da Silva, yeniden göreve seçilerek iktidarını dördüncü döneme taşıdı."
+  },
+  {
+   "key": "s4821__framing-effect",
+   "output_file": "runs/bg/explain/s4821__framing-effect.json",
+   "event_title": "Sosyal medyada yeni dönem başladı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Sosyal medyada yeni dönem yarın başlıyor: Bunları yapmayanın hesabı kapatılacak!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sosyal medyada yeni dönem yarın başlıyor: e-Devlet üzerinden zorunlu olacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sosyal medyada çocuklar için yeni dönem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sosyal medyada yarın yeni dönem! 15 yaş altına kapılar kapanıyor",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı düzenleme bazı kurumlarda yaptırım/kayıp ('hesabı kapatılacak'), bazılarında koruma ('çocuklar için') çerçevesiyle sunulmuş; çerçevenin bir tercihi yönlendirdiği gösterilmiyor.",
+   "skeptic_alternative": "Yaptırım vurgusu okura pratik bir uyarı işlevi görebilir; farklı başlıklar düzenlemenin farklı yönlerini öne çıkarıyor.",
+   "missing_context": [
+    "Düzenlemenin resmi metni",
+    "Hesap kapatma yaptırımının kapsamı ve takvimi",
+    "Okur tepkisinin çerçeveye göre değiştiğine dair veri"
+   ],
+   "headlines": "[sondakika · 08:59] Sosyal medyada yeni dönem yarın başlıyor! 15 yaş altına hesap yok\n[cumhuriyet · 10:50] Sosyal medyada yeni dönem yarın başlıyor: Bunları yapmayanın hesabı kapatılacak!\n[haberler · 11:59] Sosyal medyada yeni dönem yarın başlıyor! 15 yaş altına hesap yok\n[aksam · 15:22] Sosyal medyada yeni dönem yarın başlıyor: e-Devlet üzerinden zorunlu olacak\n[yenisafak · 16:05] Yapmayanın hesabı kapatılacak: Sosyal medyada yeni dönem yarın başlıyor\n[akit · 18:12] Sosyal medyada yarın yeni dönem! 15 yaş altına kapılar kapanıyor\n[yeniasya · 00:00] Sosyal medyada yeni dönem başladı\n[ntv · 00:15] Sosyal medyada yeni dönem. Yapmayanın hesabı kapatılacak\n[turkiyegz · 02:15] Sosyal medyada yeni dönem başladı: 10 soruda yaş doğrulama\n[hurriyet · 06:31] Sosyal medyada yeni dönem — Çocukların sosyal medya kullanımını sınırlandıran ve yetişkinlere e-Devlet üzerinden yaş doğrulama zorunluluğu getiren düzenleme bugün itibarıyla yürürlüğe girdi. Süreç ilk etapta açılacak yeni hesapları kapsarken, mevcut hesaplar için 31 Mart 2027’ye kadar yaklaşık 5 aylık bir …\n[birgun · 09:22] Sosyal medyada yeni dönem: Yaş sınırı yürürlüğe girdi\n[haberturk · 09:38] Sosyal medyada yeni dönem başladı! 15 yaş altına yeni hesap açılmayacak\n[cnnturk · 10:32] Sanal medyada yeni dönem! 15 yaş altı için yasak başladı — Çocukların sanal medyaya girişin sınırlandıran ve tüm kullanıcılar için e-Devlet üzerinden yaş doğrulaması zorunluluğu getiren yasal düzenleme bugün itibarıyla yürürlüğe girdi. İşte sürecin tüm detayları...\n[tgrt · 11:10] Sosyal medyada yeni dönemin startı verildi: Yapmayanın hesabı kapatılacak\n[sabah · 11:56] Sosyal medyada yeni dönem: Bakan Göktaş duyurdu: 15 yaş altına düzenleme, yaş doğrulamasına e-Devlet şartı\n[trthaber · 12:19] Sosyal medyada çocuklar için yeni dönem\n[star · 12:38] Sosyal medyada 15 yaş sınırı yürürlüğe girdi! Çocuklar için yeni dönem başladı\n[ahaber · 13:32] Sosyal medyada yeni dönem! Yaş doğrulaması e-Devlet üzerinden yapılacak"
+  },
+  {
+   "key": "s4821__negativity-bias",
+   "output_file": "runs/bg/explain/s4821__negativity-bias.json",
+   "event_title": "Sosyal medyada yeni dönem başladı",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Sosyal medyada yeni dönem. Yapmayanın hesabı kapatılacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "mevcut hesaplar için 31 Mart 2027’ye kadar yaklaşık 5 aylık bir",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yapmayanın hesabı kapatılacak: Sosyal medyada yeni dönem yarın başlıyor",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar olumsuz sonucu (hesap kapatma) öne çıkarırken, bir kurumun aktardığı yaklaşık 5 aylık geçiş süresi başlıklarda yer almıyor; olumsuz bilgi karşılaştırmalı olarak daha fazla vurgu almış görünüyor.",
+   "skeptic_alternative": "Yaptırım gerçek ve kullanıcılar için işlem gerektiriyor; uyarı niteliğinde orantılı bir vurgu olabilir.",
+   "missing_context": [
+    "Geçiş süresinin başlıklarda neden yer almadığı",
+    "Haber gövdelerinde geçiş süresinin verilip verilmediği",
+    "Karşılaştırmalı ağırlıklandırma kanıtı",
+    "Okur kararlarına etkisi"
+   ],
+   "headlines": "[sondakika · 08:59] Sosyal medyada yeni dönem yarın başlıyor! 15 yaş altına hesap yok\n[cumhuriyet · 10:50] Sosyal medyada yeni dönem yarın başlıyor: Bunları yapmayanın hesabı kapatılacak!\n[haberler · 11:59] Sosyal medyada yeni dönem yarın başlıyor! 15 yaş altına hesap yok\n[aksam · 15:22] Sosyal medyada yeni dönem yarın başlıyor: e-Devlet üzerinden zorunlu olacak\n[yenisafak · 16:05] Yapmayanın hesabı kapatılacak: Sosyal medyada yeni dönem yarın başlıyor\n[akit · 18:12] Sosyal medyada yarın yeni dönem! 15 yaş altına kapılar kapanıyor\n[yeniasya · 00:00] Sosyal medyada yeni dönem başladı\n[ntv · 00:15] Sosyal medyada yeni dönem. Yapmayanın hesabı kapatılacak\n[turkiyegz · 02:15] Sosyal medyada yeni dönem başladı: 10 soruda yaş doğrulama\n[hurriyet · 06:31] Sosyal medyada yeni dönem — Çocukların sosyal medya kullanımını sınırlandıran ve yetişkinlere e-Devlet üzerinden yaş doğrulama zorunluluğu getiren düzenleme bugün itibarıyla yürürlüğe girdi. Süreç ilk etapta açılacak yeni hesapları kapsarken, mevcut hesaplar için 31 Mart 2027’ye kadar yaklaşık 5 aylık bir …\n[birgun · 09:22] Sosyal medyada yeni dönem: Yaş sınırı yürürlüğe girdi\n[haberturk · 09:38] Sosyal medyada yeni dönem başladı! 15 yaş altına yeni hesap açılmayacak\n[cnnturk · 10:32] Sanal medyada yeni dönem! 15 yaş altı için yasak başladı — Çocukların sanal medyaya girişin sınırlandıran ve tüm kullanıcılar için e-Devlet üzerinden yaş doğrulaması zorunluluğu getiren yasal düzenleme bugün itibarıyla yürürlüğe girdi. İşte sürecin tüm detayları...\n[tgrt · 11:10] Sosyal medyada yeni dönemin startı verildi: Yapmayanın hesabı kapatılacak\n[sabah · 11:56] Sosyal medyada yeni dönem: Bakan Göktaş duyurdu: 15 yaş altına düzenleme, yaş doğrulamasına e-Devlet şartı\n[trthaber · 12:19] Sosyal medyada çocuklar için yeni dönem\n[star · 12:38] Sosyal medyada 15 yaş sınırı yürürlüğe girdi! Çocuklar için yeni dönem başladı\n[ahaber · 13:32] Sosyal medyada yeni dönem! Yaş doğrulaması e-Devlet üzerinden yapılacak"
+  }
+ ]
+}

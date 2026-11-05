@@ -1,0 +1,1580 @@
+{
+ "instructions": "Write plain Turkish for a general reader. For each item write {\"noticed\": ..., \"why\": ...} to its output_file. noticed = what the headlines show, naming the outlets. why = why that is not proof. Each field is 1-2 sentences, 40-320 characters. Use only quotes given in the item (inside “…”), exactly as given. Never use the words 'bağlam gerekli', 'desteklendi', 'uncertain'.",
+ "items": [
+  {
+   "key": "s5450__salience-bias",
+   "output_file": "runs/bg/explain/s5450__salience-bias.json",
+   "event_title": "AHMET NAZİF ZORLU HAYATINI KAYBETTİ! Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu kimdir, nereli, neden öldü, hastalığı neydi?",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Kanser tedavisi görüyordu! İş adamı Ahmet Nazif Zorlu hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ahmet Nazif Zorlu Neden Öldü, Hastalığı Neydi?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar hastalık ayrıntısını başlığa taşıyarak çarpıcı unsuru öne çıkarmış; diğerleri kurumsal unvanla nötr başlık atmış.",
+   "skeptic_alternative": "Hastalık bilgisi okur merakına yanıt veren, doğrulanabilir bir haber unsuru olabilir; arama odaklı başlık pratiği de açıklayıcıdır.",
+   "missing_context": [
+    "Başlık seçiminin bir yargıya etkisini gösteren açık ifade",
+    "Başlık seçiminin editoryal gerekçesi",
+    "Hastalık bilgisinin kaynağı ve doğruluğu",
+    "Kurumların benzer vefat haberlerindeki genel pratiği",
+    "Kurumların editoryal ve SEO pratikleri"
+   ],
+   "headlines": "[milligazete · 17:14] Ahmet Nazif Zorlu öldü mü, yaşıyor mu, hastalığı ne, sağlık durumu nasıl?\n[sondakika · 20:16] İş insanı Ahmet Nazif Zorlu hayatını kaybetti\n[sozcu · 23:12] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[yenisafak · 23:14] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[bloomberght · 23:14] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[haberler · 23:16] İş insanı Ahmet Nazif Zorlu hayatını kaybetti\n[onedio · 23:17] Ahmet Nazif Zorlu Kimdir? Ahmet Nazif Zorlu Öldü mü?\n[mynet · 23:18] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti — Türk iş dünyasının ve tekstil sektörünün duayen isimlerinden, Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu 82 yaşında yaşamını yitirdi. Zorlu Holding açıklamasında \"Ahmet Zorlu'yu bugün, bir süredir tedavi gördüğü hastanede kaybetmenin derin üzüntüsünü yaşıyoruz\" …\n[tgrt · 23:21] İş insanı Ahmet Nazif Zorlu hayatını kaybetti\n[dirilis · 23:21] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu vefat etti!\n[cumhuriyet · 23:22] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[karar · 23:23] İş dünyasının acı kaybı: Ahmet Nazif Zorlu vefat etti — Türkiye'nin önde gelen sanayicilerinden, Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu, vefat etti. Bir süredir hastanede tedavi gören Zorlu'nun vefatı, holdingin sosyal medya hesabından duyuruldu. Tekstil sektöründe başladığı iş hayatında Vestel, Korteks ve Zorlu …\n[birgun · 23:24] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[turkiyegz · 23:24] Kanser tedavisi görüyordu! İş adamı Ahmet Nazif Zorlu hayatını kaybetti\n[takvim · 23:25] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[akit · 23:26] İş insanı Ahmet Nazif Zorlu hayatını kaybetti\n[haberturk · 23:27] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[ahaber · 23:27] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[diken · 23:27] Ahmet Nazif Zorlu hayatını kaybetti\n[sabah · 23:29] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[hurriyet · 23:30] Son dakika... Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti — Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu (82) bir süredir tedavi gördüğü hastanede hayatını kaybetti.\n[aksam · 23:52] Ahmet Nazif Zorlu hayatını kaybetti\n[trthaber · 00:00] Ahmet Nazif Zorlu hayatını kaybetti\n[ntv · 00:00] Ahmet Nazif Zorlu yaşamını yitirdi\n[star · 00:05] Ünlü iş adamından acı haber... Ahmet Nazif Zorlu hayatını kaybetti — Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu, akciğer kanseri nedeniyle tedavi gördüğü hastanede 82 yaşında hayatını kaybetti. Cenazesi 4 Kasım Çarşamba günü Levent'teki Barbaros Hayreddin Paşa Camisi'nde kılınacak cenaze namazının ardından Zincirlikuyu Mezarlığı'ndaki …\n[cnnturk · 02:40] Ahmet Nazif Zorlu Neden Öldü, Hastalığı Neydi? Ahmet Nazif Zorlu Kimdir, Kaç Yaşındaydı? — Ahmet Nazif Zorlu son nefesini verdi. Türk iş adamı ve Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hakkında araştırmalar hız kazandı. Zorlu'nun neden vefat ettiği, hastalığının ne olduğu merak konusu oldu. Ahmet Nazif Zorlu 2 Kasım 2026 Pazartesi günü hayata gözlerini …\n[aa · 08:17] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[yeniasya · 17:00] Ahmet Nazif Zorlu vefat etti"
+  },
+  {
+   "key": "s5450__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5450__leveling-and-sharpening.json",
+   "event_title": "AHMET NAZİF ZORLU HAYATINI KAYBETTİ! Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu kimdir, nereli, neden öldü, hastalığı neydi?",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Ahmet Zorlu'yu bugün, bir süredir tedavi gördüğü hastanede kaybetmenin derin üzüntüsünü yaşıyoruz",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kanser tedavisi görüyordu! İş adamı Ahmet Nazif Zorlu hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "akciğer kanseri nedeniyle tedavi gördüğü hastanede 82 yaşında hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Holdingin açıklamasında yalnızca 'tedavi' geçerken bazı kurumlar kanser ayrıntısını keskinleştirerek başlığa taşımış.",
+   "skeptic_alternative": "Kanser bilgisi başka bir doğrulanmış kaynaktan alınmış olabilir; özet başlıkların ayrıntı atlaması olağan kısaltmadır.",
+   "missing_context": [
+    "Ayrıntının bir sonuca etki edip etmediği",
+    "Farkın bir sonuca etkisini gösteren kanıt",
+    "Hastalık bilgisinin kaynağı",
+    "Holdingin tam açıklama metni",
+    "Kanser bilgisinin kaynağı"
+   ],
+   "headlines": "[milligazete · 17:14] Ahmet Nazif Zorlu öldü mü, yaşıyor mu, hastalığı ne, sağlık durumu nasıl?\n[sondakika · 20:16] İş insanı Ahmet Nazif Zorlu hayatını kaybetti\n[sozcu · 23:12] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[yenisafak · 23:14] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[bloomberght · 23:14] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[haberler · 23:16] İş insanı Ahmet Nazif Zorlu hayatını kaybetti\n[onedio · 23:17] Ahmet Nazif Zorlu Kimdir? Ahmet Nazif Zorlu Öldü mü?\n[mynet · 23:18] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti — Türk iş dünyasının ve tekstil sektörünün duayen isimlerinden, Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu 82 yaşında yaşamını yitirdi. Zorlu Holding açıklamasında \"Ahmet Zorlu'yu bugün, bir süredir tedavi gördüğü hastanede kaybetmenin derin üzüntüsünü yaşıyoruz\" …\n[tgrt · 23:21] İş insanı Ahmet Nazif Zorlu hayatını kaybetti\n[dirilis · 23:21] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu vefat etti!\n[cumhuriyet · 23:22] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[karar · 23:23] İş dünyasının acı kaybı: Ahmet Nazif Zorlu vefat etti — Türkiye'nin önde gelen sanayicilerinden, Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu, vefat etti. Bir süredir hastanede tedavi gören Zorlu'nun vefatı, holdingin sosyal medya hesabından duyuruldu. Tekstil sektöründe başladığı iş hayatında Vestel, Korteks ve Zorlu …\n[birgun · 23:24] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[turkiyegz · 23:24] Kanser tedavisi görüyordu! İş adamı Ahmet Nazif Zorlu hayatını kaybetti\n[takvim · 23:25] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[akit · 23:26] İş insanı Ahmet Nazif Zorlu hayatını kaybetti\n[haberturk · 23:27] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[ahaber · 23:27] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[diken · 23:27] Ahmet Nazif Zorlu hayatını kaybetti\n[sabah · 23:29] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[hurriyet · 23:30] Son dakika... Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti — Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu (82) bir süredir tedavi gördüğü hastanede hayatını kaybetti.\n[aksam · 23:52] Ahmet Nazif Zorlu hayatını kaybetti\n[trthaber · 00:00] Ahmet Nazif Zorlu hayatını kaybetti\n[ntv · 00:00] Ahmet Nazif Zorlu yaşamını yitirdi\n[star · 00:05] Ünlü iş adamından acı haber... Ahmet Nazif Zorlu hayatını kaybetti — Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu, akciğer kanseri nedeniyle tedavi gördüğü hastanede 82 yaşında hayatını kaybetti. Cenazesi 4 Kasım Çarşamba günü Levent'teki Barbaros Hayreddin Paşa Camisi'nde kılınacak cenaze namazının ardından Zincirlikuyu Mezarlığı'ndaki …\n[cnnturk · 02:40] Ahmet Nazif Zorlu Neden Öldü, Hastalığı Neydi? Ahmet Nazif Zorlu Kimdir, Kaç Yaşındaydı? — Ahmet Nazif Zorlu son nefesini verdi. Türk iş adamı ve Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hakkında araştırmalar hız kazandı. Zorlu'nun neden vefat ettiği, hastalığının ne olduğu merak konusu oldu. Ahmet Nazif Zorlu 2 Kasım 2026 Pazartesi günü hayata gözlerini …\n[aa · 08:17] Zorlu Holding Yönetim Kurulu Başkanı Ahmet Nazif Zorlu hayatını kaybetti\n[yeniasya · 17:00] Ahmet Nazif Zorlu vefat etti"
+  },
+  {
+   "key": "s5031__framing-effect",
+   "output_file": "runs/bg/explain/s5031__framing-effect.json",
+   "event_title": "SPK Başkanlığına Muhsin Atcı atandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Olay: SPK Başkanlığına Muhsin Atcı atandı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merakla bekleniyordu! SPK Başkanlığına Muhsin Atcı atandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı atama bir kurumda soruşturma gölgesi ve atayan kişi üzerinden, diğerlerinde nötr ya da beklenen gelişme olarak çerçevelenmiş.",
+   "skeptic_alternative": "Soruşturma bağlamı habere ilgili ve doğrulanabilir bir arka plan ekliyor olabilir; bu meşru bir haber değeri seçimidir.",
+   "missing_context": [
+    "Atamanın soruşturmayla gerçek ilişkisi",
+    "Okur yargısına etkisini gösteren veri",
+    "Çerçevenin okur ya da kurum yargısını değiştirdiğine dair açık ifade"
+   ],
+   "headlines": "[sondakika · 21:06] SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı\n[tgrt · 00:01] Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu\n[mynet · 00:04] Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu\n[sabah · 00:05] SON DAKİKA | SPK Başkanlığına Muhsin Atcı atandı! Karar Resmi Gazete'de\n[haberler · 00:06] SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı\n[haberturk · 00:06] SPK Başkanlığına Muhsin Atcı atandı\n[sozcu · 00:07] SPK Başkanılığı'na Muhsin Atcı getirildi\n[turkiyegz · 00:07] SPK'da üst düzey atama! Yeni başkan Muhsin Atcı oldu\n[yenisafak · 00:07] Karar Resmi Gazete'de: SPK Başkanlığına Muhsin Atcı atandı\n[dirilis · 00:07] SPK Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı!\n[bloomberght · 00:07] SPK Başkanlığına Muhsin Atcı atandı\n[karar · 00:08] Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı — Sermaye piyasalarını sarsan fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'un örgüt üyeliği ve rüşvet suçlamalarıyla gözaltına alınmasının ardından SPK yeni yönetimi de belli oldu. Cumhurbaşkanı Erdoğan'ın imzaladığı kararla, Vergi Denetim Kurulu Başkanı …\n[hurriyet · 00:11] SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı — Resmi Gazete'de yayımlanan atama kararlarına göre, Sermaye Piyasası Kurulu (SPK) Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı.\n[cumhuriyet · 00:11] SPK Başkanlığına Muhsin Atcı atandı\n[ahaber · 00:13] SPK Başkanlığına Muhsin Atcı atandı! Resmi Gazete'de yayımlandı\n[ntv · 00:21] Sermaye Piyasası Kurulu Başkanlığına Muhsin Atcı atandı\n[aksam · 00:33] Karar Resmi Gazete'de.... SPK'nın Yeni Başkanı Muhsin Atcı oldu\n[akit · 00:33] Merakla bekleniyordu! SPK Başkanlığına Muhsin Atcı atandı\n[milliyet · 00:40] Sermaye Piyasası Kurulu (SPK) Başkanlığına Muhsin Atcı atandı — Cumhurbaşkanı Recep Tayyip Erdoğan imzalı atama kararı, Resmi Gazete'de yayımlandı. Buna göre, 6362 sayılı Sermaye Piyasası Kanunu'nun 119. maddesi ile 3 sayılı Cumhurbaşkanlığı Kararnamesi'nin 2, 3 ve 7. maddeleri gereğince SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin …\n[trthaber · 00:43] SPK Başkanlığına Muhsin Atcı atandı\n[milligazete · 00:44] Yeni SPK Başkanı Muhsin Atcı kim, nereli? Eğitimi, eşi, çocukları, kariyeri ve önceki görevleri\n[diken · 01:02] SPK başkanlığına Muhsin Atcı atandı\n[star · 01:17] Karar Resmi Gazete'de: SPK'nın Yeni Başkanı Muhsin Atcı oldu — Resmi gazetede yayımlanan atama kararlarına göre, Sermaye Piyasası Kurulu (SPK) Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı.\n[yeniasya · 03:47] Muhsin Atcı, Sermaye Piyasası Kurulu Başkanlığına atandı\n[cnnturk · 04:35] SPK Başkanlığına Muhsin Atcı atandı — Resmi gazetede yayımlanan atama kararlarına göre, Sermaye Piyasası Kurulu (SPK) Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı'nın atandığı öğrenildi.\n[aa · 12:29] SPK Başkanlığına Muhsin Atcı atandı\n[onedio · 14:28] Muhsin Atcı Kimdir, Kaç Yaşında, Nereli? Yeni SPK Başkanı Muhsin Atcı Hakkında Bilinenler"
+  },
+  {
+   "key": "s5031__salience-bias",
+   "output_file": "runs/bg/explain/s5031__salience-bias.json",
+   "event_title": "SPK Başkanlığına Muhsin Atcı atandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Sermaye piyasalarını sarsan fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'un örgüt üyeliği ve rüşvet suçlamalarıyla gözaltına alınmasının ardından SPK yeni yönetimi de belli oldu.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yeni SPK Başkanı Muhsin Atcı kim, nereli? Eğitimi, eşi, çocukları, kariyeri ve önceki görevleri",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SPK Başkanlığına Muhsin Atcı atandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merakla bekleniyordu! SPK Başkanlığına Muhsin Atcı atandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SPK'da üst düzey atama! Yeni başkan Muhsin Atcı oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Çarpıcı soruşturma ayrıntısı bir kurumda atama haberinin önüne geçirilmiş; diğerleri yalnızca atamayı vermiş.",
+   "skeptic_alternative": "Vurgulu başlıklar tıklanma odaklı biçimsel tercihlerdir; içerik yalın atama bilgisidir.",
+   "missing_context": [
+    "Kurumların genel başlık üslubu",
+    "Vurgunun içerikle ilgili bir çıkarıma dönüşüp dönüşmediği",
+    "Öne çıkarılan ayrıntının bir yargıyı haksız biçimde yönlendirdiğini gösteren ifade"
+   ],
+   "headlines": "[sondakika · 21:06] SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı\n[tgrt · 00:01] Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu\n[mynet · 00:04] Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu\n[sabah · 00:05] SON DAKİKA | SPK Başkanlığına Muhsin Atcı atandı! Karar Resmi Gazete'de\n[haberler · 00:06] SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı\n[haberturk · 00:06] SPK Başkanlığına Muhsin Atcı atandı\n[sozcu · 00:07] SPK Başkanılığı'na Muhsin Atcı getirildi\n[turkiyegz · 00:07] SPK'da üst düzey atama! Yeni başkan Muhsin Atcı oldu\n[yenisafak · 00:07] Karar Resmi Gazete'de: SPK Başkanlığına Muhsin Atcı atandı\n[dirilis · 00:07] SPK Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı!\n[bloomberght · 00:07] SPK Başkanlığına Muhsin Atcı atandı\n[karar · 00:08] Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı — Sermaye piyasalarını sarsan fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'un örgüt üyeliği ve rüşvet suçlamalarıyla gözaltına alınmasının ardından SPK yeni yönetimi de belli oldu. Cumhurbaşkanı Erdoğan'ın imzaladığı kararla, Vergi Denetim Kurulu Başkanı …\n[hurriyet · 00:11] SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı — Resmi Gazete'de yayımlanan atama kararlarına göre, Sermaye Piyasası Kurulu (SPK) Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı.\n[cumhuriyet · 00:11] SPK Başkanlığına Muhsin Atcı atandı\n[ahaber · 00:13] SPK Başkanlığına Muhsin Atcı atandı! Resmi Gazete'de yayımlandı\n[ntv · 00:21] Sermaye Piyasası Kurulu Başkanlığına Muhsin Atcı atandı\n[aksam · 00:33] Karar Resmi Gazete'de.... SPK'nın Yeni Başkanı Muhsin Atcı oldu\n[akit · 00:33] Merakla bekleniyordu! SPK Başkanlığına Muhsin Atcı atandı\n[milliyet · 00:40] Sermaye Piyasası Kurulu (SPK) Başkanlığına Muhsin Atcı atandı — Cumhurbaşkanı Recep Tayyip Erdoğan imzalı atama kararı, Resmi Gazete'de yayımlandı. Buna göre, 6362 sayılı Sermaye Piyasası Kanunu'nun 119. maddesi ile 3 sayılı Cumhurbaşkanlığı Kararnamesi'nin 2, 3 ve 7. maddeleri gereğince SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin …\n[trthaber · 00:43] SPK Başkanlığına Muhsin Atcı atandı\n[milligazete · 00:44] Yeni SPK Başkanı Muhsin Atcı kim, nereli? Eğitimi, eşi, çocukları, kariyeri ve önceki görevleri\n[diken · 01:02] SPK başkanlığına Muhsin Atcı atandı\n[star · 01:17] Karar Resmi Gazete'de: SPK'nın Yeni Başkanı Muhsin Atcı oldu — Resmi gazetede yayımlanan atama kararlarına göre, Sermaye Piyasası Kurulu (SPK) Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı.\n[yeniasya · 03:47] Muhsin Atcı, Sermaye Piyasası Kurulu Başkanlığına atandı\n[cnnturk · 04:35] SPK Başkanlığına Muhsin Atcı atandı — Resmi gazetede yayımlanan atama kararlarına göre, Sermaye Piyasası Kurulu (SPK) Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı'nın atandığı öğrenildi.\n[aa · 12:29] SPK Başkanlığına Muhsin Atcı atandı\n[onedio · 14:28] Muhsin Atcı Kimdir, Kaç Yaşında, Nereli? Yeni SPK Başkanı Muhsin Atcı Hakkında Bilinenler"
+  },
+  {
+   "key": "s5031__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5031__leveling-and-sharpening.json",
+   "event_title": "SPK Başkanlığına Muhsin Atcı atandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "6362 sayılı Sermaye Piyasası Kanunu'nun 119. maddesi ile 3 sayılı Cumhurbaşkanlığı Kararnamesi'nin 2, 3 ve 7. maddeleri gereğince SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sermaye piyasalarını sarsan fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'un örgüt üyeliği ve rüşvet suçlamalarıyla gözaltına alınmasının ardından",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "6362 sayılı Sermaye Piyasası Kanunu'nun 119. maddesi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Resmi Gazete kararı temel alındığında bazı başlıklar önceki görevi düzleştirmiş, biri soruşturma bağlamını keskinleştirmiş.",
+   "skeptic_alternative": "Farklı ayrıntı seçimi kısa haber özetlerinin olağan sonucudur ve anlamı değiştirmeyebilir.",
+   "missing_context": [
+    "Ayrıntı farklarının bir sonuca etkisi",
+    "Farkın maddi olduğunu ve bir sonuca etki ettiğini gösteren kanıt",
+    "Resmi Gazete'deki atama kararının tam metni"
+   ],
+   "headlines": "[sondakika · 21:06] SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı\n[tgrt · 00:01] Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu\n[mynet · 00:04] Sermaye Piyasası Kurulu (SPK) Başkanı Muhsin Atcı oldu\n[sabah · 00:05] SON DAKİKA | SPK Başkanlığına Muhsin Atcı atandı! Karar Resmi Gazete'de\n[haberler · 00:06] SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı\n[haberturk · 00:06] SPK Başkanlığına Muhsin Atcı atandı\n[sozcu · 00:07] SPK Başkanılığı'na Muhsin Atcı getirildi\n[turkiyegz · 00:07] SPK'da üst düzey atama! Yeni başkan Muhsin Atcı oldu\n[yenisafak · 00:07] Karar Resmi Gazete'de: SPK Başkanlığına Muhsin Atcı atandı\n[dirilis · 00:07] SPK Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı!\n[bloomberght · 00:07] SPK Başkanlığına Muhsin Atcı atandı\n[karar · 00:08] Fon soruşturmasının gölgesinde SPK'ya yeni başkan: Erdoğan Muhsin Atcı'yı atadı — Sermaye piyasalarını sarsan fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'un örgüt üyeliği ve rüşvet suçlamalarıyla gözaltına alınmasının ardından SPK yeni yönetimi de belli oldu. Cumhurbaşkanı Erdoğan'ın imzaladığı kararla, Vergi Denetim Kurulu Başkanı …\n[hurriyet · 00:11] SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı — Resmi Gazete'de yayımlanan atama kararlarına göre, Sermaye Piyasası Kurulu (SPK) Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı.\n[cumhuriyet · 00:11] SPK Başkanlığına Muhsin Atcı atandı\n[ahaber · 00:13] SPK Başkanlığına Muhsin Atcı atandı! Resmi Gazete'de yayımlandı\n[ntv · 00:21] Sermaye Piyasası Kurulu Başkanlığına Muhsin Atcı atandı\n[aksam · 00:33] Karar Resmi Gazete'de.... SPK'nın Yeni Başkanı Muhsin Atcı oldu\n[akit · 00:33] Merakla bekleniyordu! SPK Başkanlığına Muhsin Atcı atandı\n[milliyet · 00:40] Sermaye Piyasası Kurulu (SPK) Başkanlığına Muhsin Atcı atandı — Cumhurbaşkanı Recep Tayyip Erdoğan imzalı atama kararı, Resmi Gazete'de yayımlandı. Buna göre, 6362 sayılı Sermaye Piyasası Kanunu'nun 119. maddesi ile 3 sayılı Cumhurbaşkanlığı Kararnamesi'nin 2, 3 ve 7. maddeleri gereğince SPK Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin …\n[trthaber · 00:43] SPK Başkanlığına Muhsin Atcı atandı\n[milligazete · 00:44] Yeni SPK Başkanı Muhsin Atcı kim, nereli? Eğitimi, eşi, çocukları, kariyeri ve önceki görevleri\n[diken · 01:02] SPK başkanlığına Muhsin Atcı atandı\n[star · 01:17] Karar Resmi Gazete'de: SPK'nın Yeni Başkanı Muhsin Atcı oldu — Resmi gazetede yayımlanan atama kararlarına göre, Sermaye Piyasası Kurulu (SPK) Başkanlığına Vergi Denetim Kurulu Başkanı Muhsin Atcı atandı.\n[yeniasya · 03:47] Muhsin Atcı, Sermaye Piyasası Kurulu Başkanlığına atandı\n[cnnturk · 04:35] SPK Başkanlığına Muhsin Atcı atandı — Resmi gazetede yayımlanan atama kararlarına göre, Sermaye Piyasası Kurulu (SPK) Başkanlığına, Vergi Denetim Kurulu Başkanı Muhsin Atcı'nın atandığı öğrenildi.\n[aa · 12:29] SPK Başkanlığına Muhsin Atcı atandı\n[onedio · 14:28] Muhsin Atcı Kimdir, Kaç Yaşında, Nereli? Yeni SPK Başkanı Muhsin Atcı Hakkında Bilinenler"
+  },
+  {
+   "key": "s5446__framing-effect",
+   "output_file": "runs/bg/explain/s5446__framing-effect.json",
+   "event_title": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Olay: Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Fon vurgunu soruşturması: Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sermaye piyasası işlemleri soruşturmasında Korkmaz Enes Ergun adliyede",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye'yi sarsan fon skandalının ardından",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı soruşturma 'fon vurgunu' ya da 'skandal' gibi yüklü ifadelerle veya teknik 'sermaye piyasası işlemleri' diliyle çerçevelenmiş.",
+   "skeptic_alternative": "Farklı adlandırmalar kamuoyunda yerleşik kısa adlar veya resmi ifade tercihleri olabilir.",
+   "missing_context": [
+    "Savcılığın soruşturma için kullandığı resmi ifade",
+    "Sunumun okur yargısına etkisi",
+    "Çerçeveye bağlı bir tercih ya da yargı gösteren açık ifade"
+   ],
+   "headlines": "[bloomberght · 16:57] Sermaye piyasası işlemleri soruşturmasında Korkmaz Enes Ergun adliyede\n[birgun · 16:59] Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[cumhuriyet · 17:25] Fon vurgunu soruşturması: Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi\n[sozcu · 17:27] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama istemi\n[turkiyegz · 17:46] Fon soruşturmasında Korkmaz Enes Ergun için tutuklama talebi\n[sondakika · 20:54] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[yenisafak · 23:48] Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi\n[haberler · 23:54] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[karar · 23:57] Fon soruşturması Borsa İstanbul'un yönetimine uzandı: Korkmaz Enes Ergun'a tutuklama talebi — Türkiye'yi sarsan fon skandalının ardından \"rüşvet\" ve \"suç işlemek amacıyla kurulan örgüte üye olma\" suçlamalarıyla gözaltına alınan Borsa İstanbul eski Genel Müdürü Korkmaz Enes Ergun, savcılık işlemlerinin ardından tutuklama talebiyle mahkemeye sevk edildi.\n[ntv · 00:06] Fon soruşturması. Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[star · 00:15] Fon soruşturmasında yeni gelişme... Korkmaz Enes Ergun için tutuklama talebi — Sermaye piyasalarındaki işlemlere ilişkin yürütülen fon soruşturması kapsamında gözaltına alınan eski Borsa İstanbul AŞ Genel Müdürü Korkmaz Enes Ergun, rüşvet almak suçundan tutuklama talebiyle sulh ceza hakimliğine sevk edildi.\n[haberturk · 00:16] Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi\n[aksam · 00:16] Sermaye piyasası soruşturması derinleşiyor: Borsa İstanbul eski yöneticisi Enes Ergun'e tutuklama talebi\n[sabah · 00:28] Fon soruşturmasında yeni gelişme: Korkmaz Enes Ergun tutuklamaya sevk edildi!\n[trthaber · 00:34] Eski Borsa İstanbul Genel Müdürü Ergun'a tutuklama talebi\n[diken · 03:10] Eski Borsa İstanbul genel müdürüne tutuklama talebi\n[milligazete · 07:39] Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi! Hakimliğe sevk edildi\n[tgrt · 08:05] Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı\n[mynet · 08:07] Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı!\n[onedio · 08:15] Fon Soruşturmasında Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun Tutuklandı\n[akit · 08:23] Korkmaz Enes Ergun tutuklandı\n[takvim · 08:48] Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun fon soruşturması kapsamında tutuklandı\n[dirilis · 09:08] Korkmaz Enes Ergun tutuklandı: Fon soruşturmasında karar\n[yeniasya · 09:13] Borsa İstanbul Eski Genel Müdürü Korkmaz Enes Ergun Tutuklandı!\n[hurriyet · 09:22] Sermaye piyasası işlemlerine ilişkin soruşturmada Korkmaz Enes Ergun tutuklandı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturması kapsamında \"suç işlemek amacıyla kurulan örgüte üye olma\" ve \"rüşvet\" iddiasıyla gözaltına alınan eski Borsa İstanbul AŞ Genel Müdürü Korkmaz Enes Ergun tutuklandı.\n[cnnturk · 16:21] KORKMAZ ENES ERGUN KİMDİR, KAÇ YAŞINDA NERELİ? Borsa İstanbul eski genel müdürü Korkmaz Enes Ergun neden tutuklandı? — Korkmaz Enes Ergun kimdir, Korkmaz Enes Ergun kaç yaşında, Korkmaz Enes Ergun nereli, Borsa İstanbul Genel Müdürü neden gözaltına alındı, fon soruşturması son dakika soruları kamuoyunun gündeminde yer alıyor. İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturması …"
+  },
+  {
+   "key": "s5446__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5446__leveling-and-sharpening.json",
+   "event_title": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "\"suç işlemek amacıyla kurulan örgüte üye olma\" ve \"rüşvet\" iddiasıyla gözaltına alınan eski Borsa İstanbul AŞ Genel Müdürü Korkmaz Enes Ergun tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "rüşvet almak suçundan tutuklama talebiyle sulh ceza hakimliğine sevk edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama istemi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "suçlamalarıyla gözaltına alınan Borsa İstanbul eski Genel Müdürü Korkmaz Enes Ergun",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "İki suçlamayı veren anlatıma göre bazı kurumlar örgüt suçlamasını düzleştirmiş; bazıları 'eski' sıfatını atlamış.",
+   "skeptic_alternative": "Sevk yazısı yalnız rüşvet suçunu içeriyor olabilir; 'eski' ibaresinin yokluğu görevden alınmanın henüz yansımamasından kaynaklanabilir.",
+   "missing_context": [
+    "Ergun'un görevden alınma tarihi",
+    "Farkın bir sonuca etkisini gösteren kanıt",
+    "Farkın bir yargıya etkisi",
+    "Savcılık sevk yazısının içeriği",
+    "Sevk yazısının tam içeriği"
+   ],
+   "headlines": "[bloomberght · 16:57] Sermaye piyasası işlemleri soruşturmasında Korkmaz Enes Ergun adliyede\n[birgun · 16:59] Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[cumhuriyet · 17:25] Fon vurgunu soruşturması: Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi\n[sozcu · 17:27] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama istemi\n[turkiyegz · 17:46] Fon soruşturmasında Korkmaz Enes Ergun için tutuklama talebi\n[sondakika · 20:54] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[yenisafak · 23:48] Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi\n[haberler · 23:54] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[karar · 23:57] Fon soruşturması Borsa İstanbul'un yönetimine uzandı: Korkmaz Enes Ergun'a tutuklama talebi — Türkiye'yi sarsan fon skandalının ardından \"rüşvet\" ve \"suç işlemek amacıyla kurulan örgüte üye olma\" suçlamalarıyla gözaltına alınan Borsa İstanbul eski Genel Müdürü Korkmaz Enes Ergun, savcılık işlemlerinin ardından tutuklama talebiyle mahkemeye sevk edildi.\n[ntv · 00:06] Fon soruşturması. Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[star · 00:15] Fon soruşturmasında yeni gelişme... Korkmaz Enes Ergun için tutuklama talebi — Sermaye piyasalarındaki işlemlere ilişkin yürütülen fon soruşturması kapsamında gözaltına alınan eski Borsa İstanbul AŞ Genel Müdürü Korkmaz Enes Ergun, rüşvet almak suçundan tutuklama talebiyle sulh ceza hakimliğine sevk edildi.\n[haberturk · 00:16] Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi\n[aksam · 00:16] Sermaye piyasası soruşturması derinleşiyor: Borsa İstanbul eski yöneticisi Enes Ergun'e tutuklama talebi\n[sabah · 00:28] Fon soruşturmasında yeni gelişme: Korkmaz Enes Ergun tutuklamaya sevk edildi!\n[trthaber · 00:34] Eski Borsa İstanbul Genel Müdürü Ergun'a tutuklama talebi\n[diken · 03:10] Eski Borsa İstanbul genel müdürüne tutuklama talebi\n[milligazete · 07:39] Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi! Hakimliğe sevk edildi\n[tgrt · 08:05] Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı\n[mynet · 08:07] Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı!\n[onedio · 08:15] Fon Soruşturmasında Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun Tutuklandı\n[akit · 08:23] Korkmaz Enes Ergun tutuklandı\n[takvim · 08:48] Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun fon soruşturması kapsamında tutuklandı\n[dirilis · 09:08] Korkmaz Enes Ergun tutuklandı: Fon soruşturmasında karar\n[yeniasya · 09:13] Borsa İstanbul Eski Genel Müdürü Korkmaz Enes Ergun Tutuklandı!\n[hurriyet · 09:22] Sermaye piyasası işlemlerine ilişkin soruşturmada Korkmaz Enes Ergun tutuklandı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturması kapsamında \"suç işlemek amacıyla kurulan örgüte üye olma\" ve \"rüşvet\" iddiasıyla gözaltına alınan eski Borsa İstanbul AŞ Genel Müdürü Korkmaz Enes Ergun tutuklandı.\n[cnnturk · 16:21] KORKMAZ ENES ERGUN KİMDİR, KAÇ YAŞINDA NERELİ? Borsa İstanbul eski genel müdürü Korkmaz Enes Ergun neden tutuklandı? — Korkmaz Enes Ergun kimdir, Korkmaz Enes Ergun kaç yaşında, Korkmaz Enes Ergun nereli, Borsa İstanbul Genel Müdürü neden gözaltına alındı, fon soruşturması son dakika soruları kamuoyunun gündeminde yer alıyor. İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturması …"
+  },
+  {
+   "key": "s5446__salience-bias",
+   "output_file": "runs/bg/explain/s5446__salience-bias.json",
+   "event_title": "Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "KORKMAZ ENES ERGUN KİMDİR, KAÇ YAŞINDA NERELİ?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturması Borsa İstanbul'un yönetimine uzandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Korkmaz Enes Ergun tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye'yi sarsan fon skandalının ardından",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında yeni gelişme: Korkmaz Enes Ergun tutuklamaya sevk edildi!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Kişisel merak unsurları ve kurumsal kapsam bazı başlıklarda öne çıkarılmış, diğerleri yalın sonucu vermiş.",
+   "skeptic_alternative": "Soruşturmanın kapsamı gerçekten geniş olabilir; vurgu olayın önemini yansıtabilir.",
+   "missing_context": [
+    "Soruşturmanın gerçek kapsamı",
+    "Çarpıcı ifadeye bağlanan açık bir çıkarım",
+    "Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair açık ifade"
+   ],
+   "headlines": "[bloomberght · 16:57] Sermaye piyasası işlemleri soruşturmasında Korkmaz Enes Ergun adliyede\n[birgun · 16:59] Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[cumhuriyet · 17:25] Fon vurgunu soruşturması: Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi\n[sozcu · 17:27] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama istemi\n[turkiyegz · 17:46] Fon soruşturmasında Korkmaz Enes Ergun için tutuklama talebi\n[sondakika · 20:54] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[yenisafak · 23:48] Fon soruşturması: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun'a tutuklama talebi\n[haberler · 23:54] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[karar · 23:57] Fon soruşturması Borsa İstanbul'un yönetimine uzandı: Korkmaz Enes Ergun'a tutuklama talebi — Türkiye'yi sarsan fon skandalının ardından \"rüşvet\" ve \"suç işlemek amacıyla kurulan örgüte üye olma\" suçlamalarıyla gözaltına alınan Borsa İstanbul eski Genel Müdürü Korkmaz Enes Ergun, savcılık işlemlerinin ardından tutuklama talebiyle mahkemeye sevk edildi.\n[ntv · 00:06] Fon soruşturması. Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun hakkında tutuklama talebi\n[star · 00:15] Fon soruşturmasında yeni gelişme... Korkmaz Enes Ergun için tutuklama talebi — Sermaye piyasalarındaki işlemlere ilişkin yürütülen fon soruşturması kapsamında gözaltına alınan eski Borsa İstanbul AŞ Genel Müdürü Korkmaz Enes Ergun, rüşvet almak suçundan tutuklama talebiyle sulh ceza hakimliğine sevk edildi.\n[haberturk · 00:16] Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi\n[aksam · 00:16] Sermaye piyasası soruşturması derinleşiyor: Borsa İstanbul eski yöneticisi Enes Ergun'e tutuklama talebi\n[sabah · 00:28] Fon soruşturmasında yeni gelişme: Korkmaz Enes Ergun tutuklamaya sevk edildi!\n[trthaber · 00:34] Eski Borsa İstanbul Genel Müdürü Ergun'a tutuklama talebi\n[diken · 03:10] Eski Borsa İstanbul genel müdürüne tutuklama talebi\n[milligazete · 07:39] Fon soruşturmasında Korkmaz Enes Ergun'a tutuklama talebi! Hakimliğe sevk edildi\n[tgrt · 08:05] Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı\n[mynet · 08:07] Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun tutuklandı!\n[onedio · 08:15] Fon Soruşturmasında Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun Tutuklandı\n[akit · 08:23] Korkmaz Enes Ergun tutuklandı\n[takvim · 08:48] Eski Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun fon soruşturması kapsamında tutuklandı\n[dirilis · 09:08] Korkmaz Enes Ergun tutuklandı: Fon soruşturmasında karar\n[yeniasya · 09:13] Borsa İstanbul Eski Genel Müdürü Korkmaz Enes Ergun Tutuklandı!\n[hurriyet · 09:22] Sermaye piyasası işlemlerine ilişkin soruşturmada Korkmaz Enes Ergun tutuklandı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturması kapsamında \"suç işlemek amacıyla kurulan örgüte üye olma\" ve \"rüşvet\" iddiasıyla gözaltına alınan eski Borsa İstanbul AŞ Genel Müdürü Korkmaz Enes Ergun tutuklandı.\n[cnnturk · 16:21] KORKMAZ ENES ERGUN KİMDİR, KAÇ YAŞINDA NERELİ? Borsa İstanbul eski genel müdürü Korkmaz Enes Ergun neden tutuklandı? — Korkmaz Enes Ergun kimdir, Korkmaz Enes Ergun kaç yaşında, Korkmaz Enes Ergun nereli, Borsa İstanbul Genel Müdürü neden gözaltına alındı, fon soruşturması son dakika soruları kamuoyunun gündeminde yer alıyor. İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen fon soruşturması …"
+  },
+  {
+   "key": "s5081__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5081__leveling-and-sharpening.json",
+   "event_title": "Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul Genel Müdürü Atila Türeli oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul'da görev değişikliği! Enes Ergun'un yerine Atila Türeli atandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul'da Enes Ergun'un yerine Atila Türeli geldi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "AA'nın 'vekaleten' ifadesine göre bazı başlıklar görevin geçici niteliğini düzleştirmiş.",
+   "skeptic_alternative": "Başlık kısaltması nedeniyle ibare düşmüş olabilir; haber gövdesinde yer alıyor olabilir.",
+   "missing_context": [
+    "Atamanın kalıcı mı vekaleten mi olduğu",
+    "Farkın bir sonuca etkisi",
+    "Haber gövdelerinin tam metni",
+    "İbare eksikliğinin okur yargısına etkisi"
+   ],
+   "headlines": "[aa · 06:09] Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[sondakika · 14:55] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[sozcu · 17:44] Borsa İstanbul'da Enes Ergun'un yerine Atila Türeli geldi\n[bloomberght · 17:46] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[mynet · 17:51] Son dakika! Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[tgrt · 17:54] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[turkiyegz · 17:54] Borsa İstanbul Genel Müdürlüğü'ne Atila Türeli getirildi\n[haberler · 17:55] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[akit · 17:57] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[cumhuriyet · 18:03] Genel müdürü fon soruşturmasında gözaltına alındı: Borsa İstanbul'un başına 'vekaleten' Atila Türeli getirildi\n[star · 18:07] Borsa İstanbul Genel Müdürü Atila Türeli oldu\n[takvim · 18:08] Borsa İstanbul'da yönetim değişikliği! Atila Türeli görevi vekaleten üstlendi\n[yenisafak · 18:08] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[ahaber · 18:09] Borsa İstanbul Genel Müdür Vekilliği görevine Atila Türeli getirildi\n[birgun · 18:10] Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[trthaber · 18:12] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[dirilis · 18:12] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[sabah · 18:13] Borsa İstanbul A.Ş. Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[haberturk · 18:18] Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?\n[ntv · 18:18] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[diken · 18:21] Borsa İstanbul genel müdürlüğüne Atila Türeli getirildi\n[karar · 18:22] Fon soruşturmasında gözaltı sonrası Borsa İstanbul’da yönetim değişti: Genel Müdürlüğe Atila Türeli getirildi — Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun’un fon soruşturması kapsamında “suç örgütü üyeliği” ve “rüşvet” suçlamalarıyla gözaltına alınmasının ardından kurumun yönetiminde kritik bir değişiklik yapıldı. Borsa İstanbul Yönetim Kurulu, Genel Müdür Yardımcısı Atila Türeli’yi …\n[milligazete · 18:39] Borsa İstanbul'da görev değişikliği! Enes Ergun'un yerine Atila Türeli atandı\n[aksam · 21:56] Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürlüğüne Atila Türeli getirildi\n[onedio · 16:35] Atila Türeli Kimdir, Kaç Yaşında, Nereli? Borsa İstanbul'un Vekaleten Genel Müdürü Hakkında Bilinenler"
+  },
+  {
+   "key": "s5081__framing-effect",
+   "output_file": "runs/bg/explain/s5081__framing-effect.json",
+   "event_title": "Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Genel müdürü fon soruşturmasında gözaltına alındı: Borsa İstanbul'un başına 'vekaleten' Atila Türeli getirildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul Genel Müdür Vekilliği görevine Atila Türeli getirildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul'un başına 'vekaleten' Atila Türeli getirildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul'da yönetim değişikliği! Atila Türeli görevi vekaleten üstlendi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı görevlendirme bir kurumda gözaltı bağlamı ve tırnaklı 'vekaleten' vurgusuyla, diğerinde nötr biçimde sunulmuş.",
+   "skeptic_alternative": "Tırnak, resmi ifadeyi aktarmak veya geçici durumu belirtmek için kullanılmış olabilir.",
+   "missing_context": [
+    "Okur yargısına etkisini gösteren veri",
+    "Sunuma bağlı bir yargıyı gösteren açık ifade",
+    "Tırnak kullanımının editoryal gerekçesi"
+   ],
+   "headlines": "[aa · 06:09] Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[sondakika · 14:55] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[sozcu · 17:44] Borsa İstanbul'da Enes Ergun'un yerine Atila Türeli geldi\n[bloomberght · 17:46] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[mynet · 17:51] Son dakika! Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[tgrt · 17:54] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[turkiyegz · 17:54] Borsa İstanbul Genel Müdürlüğü'ne Atila Türeli getirildi\n[haberler · 17:55] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[akit · 17:57] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[cumhuriyet · 18:03] Genel müdürü fon soruşturmasında gözaltına alındı: Borsa İstanbul'un başına 'vekaleten' Atila Türeli getirildi\n[star · 18:07] Borsa İstanbul Genel Müdürü Atila Türeli oldu\n[takvim · 18:08] Borsa İstanbul'da yönetim değişikliği! Atila Türeli görevi vekaleten üstlendi\n[yenisafak · 18:08] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[ahaber · 18:09] Borsa İstanbul Genel Müdür Vekilliği görevine Atila Türeli getirildi\n[birgun · 18:10] Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[trthaber · 18:12] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[dirilis · 18:12] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[sabah · 18:13] Borsa İstanbul A.Ş. Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[haberturk · 18:18] Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?\n[ntv · 18:18] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[diken · 18:21] Borsa İstanbul genel müdürlüğüne Atila Türeli getirildi\n[karar · 18:22] Fon soruşturmasında gözaltı sonrası Borsa İstanbul’da yönetim değişti: Genel Müdürlüğe Atila Türeli getirildi — Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun’un fon soruşturması kapsamında “suç örgütü üyeliği” ve “rüşvet” suçlamalarıyla gözaltına alınmasının ardından kurumun yönetiminde kritik bir değişiklik yapıldı. Borsa İstanbul Yönetim Kurulu, Genel Müdür Yardımcısı Atila Türeli’yi …\n[milligazete · 18:39] Borsa İstanbul'da görev değişikliği! Enes Ergun'un yerine Atila Türeli atandı\n[aksam · 21:56] Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürlüğüne Atila Türeli getirildi\n[onedio · 16:35] Atila Türeli Kimdir, Kaç Yaşında, Nereli? Borsa İstanbul'un Vekaleten Genel Müdürü Hakkında Bilinenler"
+  },
+  {
+   "key": "s5081__salience-bias",
+   "output_file": "runs/bg/explain/s5081__salience-bias.json",
+   "event_title": "Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürlüğüne Atila Türeli getirildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul'da yönetim değişikliği! Atila Türeli görevi vekaleten üstlendi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında gözaltı sonrası Borsa İstanbul’da yönetim değişti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Genel müdürü fon soruşturmasında gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Soruşturma bağlantısı bazı başlıklarda öne çıkarılmış, diğerlerinde yalın atama verilmiş.",
+   "skeptic_alternative": "Gözaltı, atamanın doğrudan nedeni olduğu için ilgili ve orantılı bir bağlam bilgisidir.",
+   "missing_context": [
+    "Atamanın gerekçesine dair resmi açıklama",
+    "Vurgunun bir çıkarıma dönüşüp dönüşmediği",
+    "Öne çıkarılan unsurun haksız etkisini gösteren ifade"
+   ],
+   "headlines": "[aa · 06:09] Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[sondakika · 14:55] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[sozcu · 17:44] Borsa İstanbul'da Enes Ergun'un yerine Atila Türeli geldi\n[bloomberght · 17:46] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[mynet · 17:51] Son dakika! Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[tgrt · 17:54] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[turkiyegz · 17:54] Borsa İstanbul Genel Müdürlüğü'ne Atila Türeli getirildi\n[haberler · 17:55] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[akit · 17:57] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[cumhuriyet · 18:03] Genel müdürü fon soruşturmasında gözaltına alındı: Borsa İstanbul'un başına 'vekaleten' Atila Türeli getirildi\n[star · 18:07] Borsa İstanbul Genel Müdürü Atila Türeli oldu\n[takvim · 18:08] Borsa İstanbul'da yönetim değişikliği! Atila Türeli görevi vekaleten üstlendi\n[yenisafak · 18:08] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[ahaber · 18:09] Borsa İstanbul Genel Müdür Vekilliği görevine Atila Türeli getirildi\n[birgun · 18:10] Borsa İstanbul AŞ Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[trthaber · 18:12] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[dirilis · 18:12] Borsa İstanbul Genel Müdürlüğü görevine vekaleten Atila Türeli getirildi\n[sabah · 18:13] Borsa İstanbul A.Ş. Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[haberturk · 18:18] Atila Türeli kimdir? Borsa İstanbul Genel Müdürlüğü görevine vekaleten getirilen Atila Türeli kaç yaşında, nereli?\n[ntv · 18:18] Borsa İstanbul Genel Müdürlüğü'ne vekaleten Atila Türeli getirildi\n[diken · 18:21] Borsa İstanbul genel müdürlüğüne Atila Türeli getirildi\n[karar · 18:22] Fon soruşturmasında gözaltı sonrası Borsa İstanbul’da yönetim değişti: Genel Müdürlüğe Atila Türeli getirildi — Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun’un fon soruşturması kapsamında “suç örgütü üyeliği” ve “rüşvet” suçlamalarıyla gözaltına alınmasının ardından kurumun yönetiminde kritik bir değişiklik yapıldı. Borsa İstanbul Yönetim Kurulu, Genel Müdür Yardımcısı Atila Türeli’yi …\n[milligazete · 18:39] Borsa İstanbul'da görev değişikliği! Enes Ergun'un yerine Atila Türeli atandı\n[aksam · 21:56] Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürlüğüne Atila Türeli getirildi\n[onedio · 16:35] Atila Türeli Kimdir, Kaç Yaşında, Nereli? Borsa İstanbul'un Vekaleten Genel Müdürü Hakkında Bilinenler"
+  },
+  {
+   "key": "s5071__framing-effect",
+   "output_file": "runs/bg/explain/s5071__framing-effect.json",
+   "event_title": "Cumhurbaşkanı Erdoğan Güney Kore'de",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Olay: Cumhurbaşkanı Erdoğan Güney Kore'de",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Başkan Erdoğan'dan Güney Kore'ye kritik ziyaret",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Erdoğan Güney Kore'ye gidecek",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı ziyaret 'Başkan' unvanı ve 'kritik/önemli' nitelemesiyle ya da unvansız yalın ifadeyle sunulmuş.",
+   "skeptic_alternative": "Nitelemeler kurumların yerleşik üslubu veya ziyaretin gündemindeki anlaşmaların önemini yansıtıyor olabilir.",
+   "missing_context": [
+    "Okur yargısına etkisini gösteren veri",
+    "Ziyaretin gerçek gündemi ve sonuçları",
+    "Çerçeveye bağlı bir tercih ya da yargı gösteren açık ifade"
+   ],
+   "headlines": "[aa · 02:35] Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek\n[sondakika · 11:06] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor\n[haberturk · 13:15] Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor: Nükleer santral inşası, savunma sanayii gündemde\n[tgrt · 13:55] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor\n[sabah · 13:57] Başkan Erdoğan'dan Güney Kore'ye kritik ziyaret\n[ahaber · 14:01] Başkan Erdoğan'dan Güney Kore'ye önemli ziyaret\n[yenisafak · 14:01] Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor\n[haberler · 14:03] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor\n[hurriyet · 14:04] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor — Cumhurbaşkanı Recep Tayyip Erdoğan, Kore Cumhuriyeti Cumhurbaşkanı Lee Jae Myung’un davetine icabetle, 1-4 Kasım 2026 tarihlerinde Seul’u ziyaret edecek.\n[karar · 14:04] Cumhurbaşkanı Erdoğan Güney Kore’ye gidiyor — Cumhurbaşkanı Erdoğan, 1-4 Kasım tarihlerinde Güney Kore'ye gidecek.\n[aksam · 14:05] Seul'den davet: Başkan Erdoğan, Güney Kore'ye gidecek\n[birgun · 14:13] Erdoğan Güney Kore'ye gidecek\n[cumhuriyet · 14:36] Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek\n[turkiyegz · 14:36] Cumhurbaşkanı Erdoğan'dan 8 yıl sonra Güney Kore'ye kritik ziyaret! Seul'de anlaşmalar imzalanacak\n[trthaber · 15:03] Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek\n[milligazete · 15:05] Erdoğan 8 yıl sonra Güney Kore'ye gidiyor! Masada 3 kritik konu\n[ntv · 15:18] Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor\n[mynet · 15:21] Cumhurbaşkanı Erdoğan Güney Kore'yi ziyaret edecek\n[dirilis · 18:03] Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek\n[cnnturk · 18:48] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor — Cumhurbaşkanı Recep Tayyip Erdoğan, Kore Cumhuriyeti Cumhurbaşkanı Lee Jae Myung'un daveti üzerine 1-4 Kasım'da Güney Kore'yi ziyaret edecek.\n[milliyet · 21:33] Cumhurbaşkanı Erdoğan, Güney Kore'ye hareket etti — Cumhurbaşkanı Erdoğan'ı, Atatürk Havalimanı Devlet Konukevi'nden, Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, İstanbul Valisi Davut Gül ile AK Parti İstanbul İl Başkanı Abdullah Özdemir uğurladı. Cumhurbaşkanı Erdoğan'a, eşi Emine Erdoğan, Enerji ve Tabii Kaynaklar Bakanı Alparslan …\n[akit · 21:57] Cumhurbaşkanı Erdoğan Güney Kore’ye gitti\n[star · 22:15] Cumhurbaşkanı Erdoğan Güney Kore'ye gitti\n[sozcu · 08:22] Erdoğan'ın Güney Kore ziyareti başladı"
+  },
+  {
+   "key": "s5071__salience-bias",
+   "output_file": "runs/bg/explain/s5071__salience-bias.json",
+   "event_title": "Cumhurbaşkanı Erdoğan Güney Kore'de",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Cumhurbaşkanı Erdoğan'dan 8 yıl sonra Güney Kore'ye kritik ziyaret! Seul'de anlaşmalar imzalanacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Nükleer santral inşası, savunma sanayii gündemde",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar beklenen anlaşmaları ve gündem başlıklarını öne çıkarmış, diğerleri yalnızca ziyareti duyurmuş.",
+   "skeptic_alternative": "Bu ayrıntılar ziyaretin haber değerini açıklayan ilgili bilgilerdir.",
+   "missing_context": [
+    "Ayrıntıların doğruluğu",
+    "Vurguya bağlanan bir yargı veya çıkarım",
+    "Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair açık ifade"
+   ],
+   "headlines": "[aa · 02:35] Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek\n[sondakika · 11:06] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor\n[haberturk · 13:15] Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor: Nükleer santral inşası, savunma sanayii gündemde\n[tgrt · 13:55] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor\n[sabah · 13:57] Başkan Erdoğan'dan Güney Kore'ye kritik ziyaret\n[ahaber · 14:01] Başkan Erdoğan'dan Güney Kore'ye önemli ziyaret\n[yenisafak · 14:01] Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor\n[haberler · 14:03] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor\n[hurriyet · 14:04] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor — Cumhurbaşkanı Recep Tayyip Erdoğan, Kore Cumhuriyeti Cumhurbaşkanı Lee Jae Myung’un davetine icabetle, 1-4 Kasım 2026 tarihlerinde Seul’u ziyaret edecek.\n[karar · 14:04] Cumhurbaşkanı Erdoğan Güney Kore’ye gidiyor — Cumhurbaşkanı Erdoğan, 1-4 Kasım tarihlerinde Güney Kore'ye gidecek.\n[aksam · 14:05] Seul'den davet: Başkan Erdoğan, Güney Kore'ye gidecek\n[birgun · 14:13] Erdoğan Güney Kore'ye gidecek\n[cumhuriyet · 14:36] Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek\n[turkiyegz · 14:36] Cumhurbaşkanı Erdoğan'dan 8 yıl sonra Güney Kore'ye kritik ziyaret! Seul'de anlaşmalar imzalanacak\n[trthaber · 15:03] Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek\n[milligazete · 15:05] Erdoğan 8 yıl sonra Güney Kore'ye gidiyor! Masada 3 kritik konu\n[ntv · 15:18] Cumhurbaşkanı Erdoğan Güney Kore'ye gidiyor\n[mynet · 15:21] Cumhurbaşkanı Erdoğan Güney Kore'yi ziyaret edecek\n[dirilis · 18:03] Cumhurbaşkanı Erdoğan, Güney Kore'yi ziyaret edecek\n[cnnturk · 18:48] Cumhurbaşkanı Erdoğan, Güney Kore'ye gidiyor — Cumhurbaşkanı Recep Tayyip Erdoğan, Kore Cumhuriyeti Cumhurbaşkanı Lee Jae Myung'un daveti üzerine 1-4 Kasım'da Güney Kore'yi ziyaret edecek.\n[milliyet · 21:33] Cumhurbaşkanı Erdoğan, Güney Kore'ye hareket etti — Cumhurbaşkanı Erdoğan'ı, Atatürk Havalimanı Devlet Konukevi'nden, Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, İstanbul Valisi Davut Gül ile AK Parti İstanbul İl Başkanı Abdullah Özdemir uğurladı. Cumhurbaşkanı Erdoğan'a, eşi Emine Erdoğan, Enerji ve Tabii Kaynaklar Bakanı Alparslan …\n[akit · 21:57] Cumhurbaşkanı Erdoğan Güney Kore’ye gitti\n[star · 22:15] Cumhurbaşkanı Erdoğan Güney Kore'ye gitti\n[sozcu · 08:22] Erdoğan'ın Güney Kore ziyareti başladı"
+  },
+  {
+   "key": "s5445__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5445__leveling-and-sharpening.json",
+   "event_title": "Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Bahçeli'nin acı günü: Ablası Serpil Bahçeli hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MHP Genel Başkanı Devlet Bahçeli'nin acı günü! Kız kardeşi Serpil Bahçeli hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kız kardeşi Serpil Bahçeli son yolculuğuna uğurlandı: Başkan Erdoğan'dan taziye mesajı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bağımsız anlatımlar akrabalık ayrıntısında ('abla' / 'kız kardeş') çelişiyor; bazıları taziye ayrıntısını keskinleştirmiş.",
+   "skeptic_alternative": "'Kız kardeş' Türkçede genel kız kardeş anlamında kullanılabilir; fark sözcük seçiminden kaynaklanabilir.",
+   "missing_context": [
+    "Ailenin veya partinin resmi açıklaması",
+    "Doğrulanmış akrabalık bilgisi",
+    "Farkın bir sonuca etkisi",
+    "Farkın herhangi bir yargıya etkisi"
+   ],
+   "headlines": "[sondakika · 16:50] Devlet Bahçeli'nin kız kardeşi hayatını kaybetti\n[karar · 19:16] Bahçeli'nin acı günü: Ablası Serpil Bahçeli hayatını kaybetti — MHP Genel Başkanı Bahçeli'nin ablası Serpil Bahçeli hayatını kaybetti. Uzun yıllar Ankara'da kardeşi Devlet Bahçeli ile aynı evde yaşayan ve bankacılık sektöründen emekli olan Serpil Bahçeli için memleketi Osmaniye'de taziye çadırı kuruldu. Kamuoyundan uzak bir yaşam süren …\n[haberler · 19:50] Devlet Bahçeli'nin kız kardeşi hayatını kaybetti\n[sabah · 19:52] MHP Genel Başkanı Devlet Bahçeli'nin acı günü! Kız kardeşi Serpil Bahçeli hayatını kaybetti\n[sozcu · 19:53] Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti\n[turkiyegz · 19:54] MHP lideri Devlet Bahçeli’nin acı günü! Kardeşi Serpil Bahçeli hayatını kaybetti\n[ahaber · 19:56] Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli'den acı haber! Başkan Erdoğan'dan taziye\n[takvim · 19:56] MHP Lideri Devlet Bahçeli’nin acı kaybı! Kız kardeşi Serpil Bahçeli son yolculuğuna uğurlandı: Başkan Erdoğan'dan taziye mesajı\n[akit · 19:57] Devlet Bahçeli'nin acı günü: Ablası hayatını kaybetti\n[hurriyet · 19:59] MHP Lideri Bahçeli'nin acı günü.. Kız kardeşi Serpil Bahçeli hayatını kaybetti — Milliyetçi Hareket Partisi (MHP) Genel Başkanı Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti. Bahçeli'nin cenazesi, Osmaniye'de bulunan aile kabristanında toprağa verildi.\n[yenisafak · 20:00] MHP lideri Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti\n[onedio · 20:00] MHP Lideri Devlet Bahçeli'nin Ablası Serpil Bahçeli Hayatını Kaybetti\n[mynet · 20:02] MHP lideri Devlet Bahçeli'nin acı günü! Ablası hayatını kaybetti\n[cumhuriyet · 20:15] Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti\n[haberturk · 20:17] Devlet Bahçeli'nin acı günü: Kız kardeşi hayatını kaybetti\n[tgrt · 20:26] MHP Lideri Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti\n[birgun · 20:55] Devlet Bahçeli'nin kız kardeşi yaşamını yitirdi\n[milligazete · 21:19] Devlet Bahçeli'nin ablası Serpil Bahçeli kim, kiminle evli, mesleği ne? Hiç evlendi mi, çocuğu var mı, nereli?\n[tele1 · 21:25] Devlet Bahçeli'nin acı günü: Kız kardeşi hayatını kaybetti\n[star · 21:53] MHP lideri Bahçeli'nin acı günü... Serpil Bahçeli hayatını kaybetti — MHP Genel Başkanı Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti. Vefat haberi sonrası siyasilerden peş peşe taziye mesajıları geldi.\n[ntv · 00:17] MHP Genel Başkanı Bahçeli'nin kız kardeşi Serpil Bahçeli vefat etti\n[trthaber · 00:17] MHP Genel Başkanı Bahçeli'nin kız kardeşi Serpil Bahçeli vefat etti\n[aksam · 00:20] Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti\n[cnnturk · 01:01] Son dakika haberi: MHP Lideri Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti — Son dakika haberine göre; Milliyetçi Hareket Partisi Genel Başkanı Devlet Bahçeli’nin kız kardeşi Serpil Bahçeli hayatını kaybetti."
+  },
+  {
+   "key": "s5445__salience-bias",
+   "output_file": "runs/bg/explain/s5445__salience-bias.json",
+   "event_title": "Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli'den acı haber! Başkan Erdoğan'dan taziye",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Devlet Bahçeli'nin ablası Serpil Bahçeli kim, kiminle evli, mesleği ne? Hiç evlendi mi, çocuğu var mı, nereli?",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Devlet Bahçeli'nin kız kardeşi yaşamını yitirdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Devlet Bahçeli'nin kız kardeşi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar taziye veren siyasi figürü veya kişisel yaşam ayrıntılarını öne çıkarmış.",
+   "skeptic_alternative": "Cumhurbaşkanının taziyesi haber değeri taşıyan gerçek bir gelişmedir.",
+   "missing_context": [
+    "Diğer siyasilerin taziyelerinin nasıl verildiği",
+    "Vurguya bağlanan açık bir çıkarım",
+    "Öne çıkarmanın bir yargıya haksız etkisini gösteren ifade"
+   ],
+   "headlines": "[sondakika · 16:50] Devlet Bahçeli'nin kız kardeşi hayatını kaybetti\n[karar · 19:16] Bahçeli'nin acı günü: Ablası Serpil Bahçeli hayatını kaybetti — MHP Genel Başkanı Bahçeli'nin ablası Serpil Bahçeli hayatını kaybetti. Uzun yıllar Ankara'da kardeşi Devlet Bahçeli ile aynı evde yaşayan ve bankacılık sektöründen emekli olan Serpil Bahçeli için memleketi Osmaniye'de taziye çadırı kuruldu. Kamuoyundan uzak bir yaşam süren …\n[haberler · 19:50] Devlet Bahçeli'nin kız kardeşi hayatını kaybetti\n[sabah · 19:52] MHP Genel Başkanı Devlet Bahçeli'nin acı günü! Kız kardeşi Serpil Bahçeli hayatını kaybetti\n[sozcu · 19:53] Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti\n[turkiyegz · 19:54] MHP lideri Devlet Bahçeli’nin acı günü! Kardeşi Serpil Bahçeli hayatını kaybetti\n[ahaber · 19:56] Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli'den acı haber! Başkan Erdoğan'dan taziye\n[takvim · 19:56] MHP Lideri Devlet Bahçeli’nin acı kaybı! Kız kardeşi Serpil Bahçeli son yolculuğuna uğurlandı: Başkan Erdoğan'dan taziye mesajı\n[akit · 19:57] Devlet Bahçeli'nin acı günü: Ablası hayatını kaybetti\n[hurriyet · 19:59] MHP Lideri Bahçeli'nin acı günü.. Kız kardeşi Serpil Bahçeli hayatını kaybetti — Milliyetçi Hareket Partisi (MHP) Genel Başkanı Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti. Bahçeli'nin cenazesi, Osmaniye'de bulunan aile kabristanında toprağa verildi.\n[yenisafak · 20:00] MHP lideri Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti\n[onedio · 20:00] MHP Lideri Devlet Bahçeli'nin Ablası Serpil Bahçeli Hayatını Kaybetti\n[mynet · 20:02] MHP lideri Devlet Bahçeli'nin acı günü! Ablası hayatını kaybetti\n[cumhuriyet · 20:15] Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti\n[haberturk · 20:17] Devlet Bahçeli'nin acı günü: Kız kardeşi hayatını kaybetti\n[tgrt · 20:26] MHP Lideri Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti\n[birgun · 20:55] Devlet Bahçeli'nin kız kardeşi yaşamını yitirdi\n[milligazete · 21:19] Devlet Bahçeli'nin ablası Serpil Bahçeli kim, kiminle evli, mesleği ne? Hiç evlendi mi, çocuğu var mı, nereli?\n[tele1 · 21:25] Devlet Bahçeli'nin acı günü: Kız kardeşi hayatını kaybetti\n[star · 21:53] MHP lideri Bahçeli'nin acı günü... Serpil Bahçeli hayatını kaybetti — MHP Genel Başkanı Devlet Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti. Vefat haberi sonrası siyasilerden peş peşe taziye mesajıları geldi.\n[ntv · 00:17] MHP Genel Başkanı Bahçeli'nin kız kardeşi Serpil Bahçeli vefat etti\n[trthaber · 00:17] MHP Genel Başkanı Bahçeli'nin kız kardeşi Serpil Bahçeli vefat etti\n[aksam · 00:20] Devlet Bahçeli'nin acı günü: Kız kardeşi Serpil Bahçeli hayatını kaybetti\n[cnnturk · 01:01] Son dakika haberi: MHP Lideri Bahçeli'nin kız kardeşi Serpil Bahçeli hayatını kaybetti — Son dakika haberine göre; Milliyetçi Hareket Partisi Genel Başkanı Devlet Bahçeli’nin kız kardeşi Serpil Bahçeli hayatını kaybetti."
+  },
+  {
+   "key": "s4987__framing-effect",
+   "output_file": "runs/bg/explain/s4987__framing-effect.json",
+   "event_title": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturmasında gözaltına alındı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Olay: Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturmasında gözaltına alındı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Fon soruşturması Borsa İstanbul'a uzandı: Genel Müdür Korkmaz Enes Ergun gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye'de sermaye piyasalarını sarsan fon soruşturmasında kritik bir gelişme yaşandı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı gözaltı bir kurumda 'sarsan', 'uzandı' gibi yayılma çerçevesiyle, diğerlerinde yalın biçimde verilmiş.",
+   "skeptic_alternative": "'Uzandı' ifadesi soruşturmanın seyrini aktaran olgusal bir bağlam olabilir.",
+   "missing_context": [
+    "Okur yargısına etkisini gösteren veri",
+    "Soruşturmanın önceki aşamaları",
+    "Çerçeveye bağlı bir tercih ya da yargı gösteren açık ifade"
+   ],
+   "headlines": "[sondakika · 17:17] Borsa İstanbul Genel Müdürü Ergun rüşvet ve örgüt üyeliği iddiasıyla gözaltına alındı\n[haberler · 20:14] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturması kapsamında \"rüşvet almak\" ile \"örgüt üyeliği\" iddiasıyla gözaltına alındı\n[turkiyegz · 20:18] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[birgun · 20:18] Fon soruşturması: Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[tgrt · 20:19] Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[yenisafak · 20:19] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[sozcu · 20:20] Son dakika... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[mynet · 20:20] Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[bloomberght · 20:21] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[akit · 20:23] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında\n[ahaber · 20:23] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[karar · 20:24] Fon soruşturması Borsa İstanbul'a uzandı: Genel Müdür Korkmaz Enes Ergun gözaltında — Türkiye'de sermaye piyasalarını sarsan fon soruşturmasında kritik bir gelişme yaşandı. İstanbul Cumhuriyet Başsavcılığı, Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun'un \"suç işlemek amacıyla kurulan örgüte üye olma\" ve \"rüşvet\" suçlamalarıyla gözaltına alındığını …\n[takvim · 20:25] Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun’a gözaltı\n[cumhuriyet · 20:25] Fon soruşturmasında yeni gelişme... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[onedio · 20:25] Borsa İstanbul Genel Müdürü Enes Ergun Gözaltına Alındı\n[haberturk · 20:28] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında\n[star · 20:34] Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı\n[milligazete · 20:35] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[dirilis · 20:40] Fon soruşturması Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[sabah · 20:41] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[ntv · 20:47] Fon soruşturması. Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[aksam · 20:52] Fon soruşturmasında gelişme... Borsa İstanbul Genel Müdürü Ergun gözaltına alındı\n[diken · 20:59] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[trthaber · 21:55] Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı"
+  },
+  {
+   "key": "s4987__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4987__leveling-and-sharpening.json",
+   "event_title": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturmasında gözaltına alındı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Borsa İstanbul Genel Müdürü Ergun rüşvet ve örgüt üyeliği iddiasıyla gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Suçlamaları belirten ilk habere göre çoğu başlık suçlama ayrıntısını düzleştirmiş.",
+   "skeptic_alternative": "Kısa başlıklar ayrıntıyı habere bırakır; anlamı değiştirmeyen bir özetleme olabilir.",
+   "missing_context": [
+    "Farkın bir sonuca etkisi",
+    "Haber gövdeleri",
+    "Haber gövdelerinde suçlamaların verilip verilmediği",
+    "İstanbul Cumhuriyet Başsavcılığı açıklamasının tam metni"
+   ],
+   "headlines": "[sondakika · 17:17] Borsa İstanbul Genel Müdürü Ergun rüşvet ve örgüt üyeliği iddiasıyla gözaltına alındı\n[haberler · 20:14] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturması kapsamında \"rüşvet almak\" ile \"örgüt üyeliği\" iddiasıyla gözaltına alındı\n[turkiyegz · 20:18] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[birgun · 20:18] Fon soruşturması: Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[tgrt · 20:19] Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[yenisafak · 20:19] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[sozcu · 20:20] Son dakika... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[mynet · 20:20] Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[bloomberght · 20:21] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[akit · 20:23] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında\n[ahaber · 20:23] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[karar · 20:24] Fon soruşturması Borsa İstanbul'a uzandı: Genel Müdür Korkmaz Enes Ergun gözaltında — Türkiye'de sermaye piyasalarını sarsan fon soruşturmasında kritik bir gelişme yaşandı. İstanbul Cumhuriyet Başsavcılığı, Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun'un \"suç işlemek amacıyla kurulan örgüte üye olma\" ve \"rüşvet\" suçlamalarıyla gözaltına alındığını …\n[takvim · 20:25] Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun’a gözaltı\n[cumhuriyet · 20:25] Fon soruşturmasında yeni gelişme... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[onedio · 20:25] Borsa İstanbul Genel Müdürü Enes Ergun Gözaltına Alındı\n[haberturk · 20:28] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında\n[star · 20:34] Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı\n[milligazete · 20:35] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[dirilis · 20:40] Fon soruşturması Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[sabah · 20:41] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[ntv · 20:47] Fon soruşturması. Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[aksam · 20:52] Fon soruşturmasında gelişme... Borsa İstanbul Genel Müdürü Ergun gözaltına alındı\n[diken · 20:59] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[trthaber · 21:55] Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı"
+  },
+  {
+   "key": "s4987__salience-bias",
+   "output_file": "runs/bg/explain/s4987__salience-bias.json",
+   "event_title": "Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturmasında gözaltına alındı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Türkiye'de sermaye piyasalarını sarsan fon soruşturmasında kritik bir gelişme yaşandı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Son dakika... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Borsa İstanbul Genel Müdürü Enes Ergun Gözaltına Alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye'de sermaye piyasalarını sarsan fon soruşturmasında kritik bir gelişme yaşandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar aciliyet ve sarsıcılık vurgusu kullanmış, diğerleri yalın aktarmış.",
+   "skeptic_alternative": "Bir borsa yöneticisinin gözaltısı gerçekten önemli bir gelişmedir; vurgu orantılı olabilir.",
+   "missing_context": [
+    "Soruşturmanın piyasa etkisine dair veri",
+    "Vurguya bağlanan açık bir çıkarım",
+    "Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair ifade"
+   ],
+   "headlines": "[sondakika · 17:17] Borsa İstanbul Genel Müdürü Ergun rüşvet ve örgüt üyeliği iddiasıyla gözaltına alındı\n[haberler · 20:14] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun, fon soruşturması kapsamında \"rüşvet almak\" ile \"örgüt üyeliği\" iddiasıyla gözaltına alındı\n[turkiyegz · 20:18] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[birgun · 20:18] Fon soruşturması: Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[tgrt · 20:19] Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[yenisafak · 20:19] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[sozcu · 20:20] Son dakika... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[mynet · 20:20] Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[bloomberght · 20:21] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[akit · 20:23] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında\n[ahaber · 20:23] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[karar · 20:24] Fon soruşturması Borsa İstanbul'a uzandı: Genel Müdür Korkmaz Enes Ergun gözaltında — Türkiye'de sermaye piyasalarını sarsan fon soruşturmasında kritik bir gelişme yaşandı. İstanbul Cumhuriyet Başsavcılığı, Borsa İstanbul A.Ş. Genel Müdürü Korkmaz Enes Ergun'un \"suç işlemek amacıyla kurulan örgüte üye olma\" ve \"rüşvet\" suçlamalarıyla gözaltına alındığını …\n[takvim · 20:25] Fon soruşturmasında Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun’a gözaltı\n[cumhuriyet · 20:25] Fon soruşturmasında yeni gelişme... Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[onedio · 20:25] Borsa İstanbul Genel Müdürü Enes Ergun Gözaltına Alındı\n[haberturk · 20:28] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltında\n[star · 20:34] Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı\n[milligazete · 20:35] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[dirilis · 20:40] Fon soruşturması Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[sabah · 20:41] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[ntv · 20:47] Fon soruşturması. Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[aksam · 20:52] Fon soruşturmasında gelişme... Borsa İstanbul Genel Müdürü Ergun gözaltına alındı\n[diken · 20:59] Borsa İstanbul Genel Müdürü Korkmaz Enes Ergun gözaltına alındı\n[trthaber · 21:55] Fon soruşturmasında yeni gelişme: Borsa İstanbul Genel Müdürü Ergun gözaltına alındı"
+  },
+  {
+   "key": "s4521__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4521__leveling-and-sharpening.json",
+   "event_title": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Antalya'da hortum nedeniyle parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Antalya'da hortum faciası! 2 konteyner savruldu, 5 işçi öldü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Antalya'da hortum ve fırtına 4 can aldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Hortumun şiddetiyle savrulan 5 işçiden 2'si olay yerinde, 2'si kaldırıldıkları hastanede hayatını kaybetti. Bir işçi ise yaralandı.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "AA'nın 4 ölü 1 yaralı aktarımına göre bir kurum ölü sayısını 5'e, bazıları yaralı sayısını 2'ye çıkarmış; maddi bir ayrıntı farklılaşmış.",
+   "skeptic_alternative": "İlk saatlerde sayılar değişkendir; '5 işçi' etkilenen toplam kişiyle karışmış olabilir, bir işçinin hayata döndürülmesi de sayıları değiştirmiş olabilir.",
+   "missing_context": [
+    "Başlıkların güncellenme zamanları",
+    "Farkın bir sonuca etkisi",
+    "Resmi kesin kayıp ve yaralı sayıları",
+    "Valilik veya resmi kurum kesin sayıları"
+   ],
+   "headlines": "[trthaber · 01:15] Antalya'da hortum ve fırtına 4 can aldı\n[turkiyegz · 01:16] Antalya'da hortum faciası! 2 konteyner savruldu, 5 işçi öldü\n[mynet · 01:28] Antalya'da hortum faciası! Konteynerleri parçaladı: 4 işçi öldü, 1 işçi yaralandı\n[tgrt · 01:30] Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı\n[haberler · 01:32] Antalya'da hortum konteynerleri vurdu, ölü sayısı 4 oldu, bir işçi hayata döndü\n[ahaber · 01:33] Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu: 4 işçi hayatını kaybetti\n[sozcu · 01:33] Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 1 işçi yaralandı\n[star · 01:33] Antalya'da hortum faciası: 2 konteyner savruldu, 4 işçi hayatını kaybetti — Antalya'nın Kepez ilçesinde etkili olan hortumda parçalanan iki konteynerde bulunan 4 işçi hayatını kaybetti, 1 işçi yaralandı.\n[sabah · 01:35] Antalya'da hortum faciası: İşçilerin kaldığı 2 konteyner havaya savruldu! 4 ölü, 2 yaralı\n[karar · 01:37] Antalya'da hortum faciası! İşçilerin kaldığı konteynerler parçalandı: 4 ölü, 1 yaralı — Antalya'nın Kepez ilçesinde bir inşaat şantiyesinde oluşan hortum, işçilerin kaldığı iki konteyneri parçaladı. Hortumun şiddetiyle savrulan 5 işçiden 2'si olay yerinde, 2'si kaldırıldıkları hastanede hayatını kaybetti. Bir işçi ise yaralandı. Bölgede incelemelerde bulunan …\n[aa · 01:37] Antalya'da hortum nedeniyle parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı\n[aksam · 01:43] Antalya'da akılalmaz kaza: Hortumda parçalanan konteynerde bulunan 4 işçi hayatını kaybetti\n[haberturk · 01:59] Antalya'da hortum felaketi: 4 işçi ölü, 1 işçi yaralandı!\n[yenisafak · 02:10] Antalya’da hortum faciası: Konteynerdeki 4 işçi yaşamını yitirdi\n[akit · 02:12] Antalya’da hortum şantiyeyi vurdu: 4 işçi öldü, 1 işçi yaralandı\n[cumhuriyet · 02:15] Antalya'da hortum felaketi: Konteynerleri parçaladı, 4 işçi hayatını kaybetti\n[ntv · 02:27] Antalya'da hortum işçi konteynerini parçaladı. 4 işçi öldü, 1 işçi yaralandı\n[takvim · 04:03] Antalya'da hortum faciası: 4 kişi hayatını kaybetti! 4 şüpheli gözaltına alındı\n[birgun · 06:30] Antalya'da hortum felaketi: 4 işçi hayatını kaybetti, 1 işçi yaralandı\n[milligazete · 07:39] Antalya'da hortum! Kepez'de 4 işçi hayatını kaybetti\n[onedio · 08:33] Antalya’da Hortum ve Sağanak Faciası: 4 İşçi Hayatını Kaybetti\n[dirilis · 09:45] Antalya’da hortum faciası!\n[diken · 10:28] Antalya'da hortum: Dört işçi öldü\n[yeniasya · 19:00] Antalya'da hortum afeti: Parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı"
+  },
+  {
+   "key": "s4521__framing-effect",
+   "output_file": "runs/bg/explain/s4521__framing-effect.json",
+   "event_title": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Olay: Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Antalya'da akılalmaz kaza: Hortumda parçalanan konteynerde bulunan 4 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu: 4 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Antalya'da hortum afeti: Parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Antalya'da akılalmaz kaza",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Antalya'da hortum afeti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı olay 'kaza', 'afet', 'facia' ya da önceden uyarı verilmiş bir olay olarak farklı sorumluluk çerçeveleriyle sunulmuş.",
+   "skeptic_alternative": "Adlandırma farkları üslup tercihidir; sorumluluk değerlendirmesi metinde yapılmıyor.",
+   "missing_context": [
+    "Adlandırmanın sorumluluk algısına etkisini gösteren veri",
+    "Çerçevenin bir yargı ya da tercihi değiştirdiğini gösteren açık ifade"
+   ],
+   "headlines": "[trthaber · 01:15] Antalya'da hortum ve fırtına 4 can aldı\n[turkiyegz · 01:16] Antalya'da hortum faciası! 2 konteyner savruldu, 5 işçi öldü\n[mynet · 01:28] Antalya'da hortum faciası! Konteynerleri parçaladı: 4 işçi öldü, 1 işçi yaralandı\n[tgrt · 01:30] Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı\n[haberler · 01:32] Antalya'da hortum konteynerleri vurdu, ölü sayısı 4 oldu, bir işçi hayata döndü\n[ahaber · 01:33] Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu: 4 işçi hayatını kaybetti\n[sozcu · 01:33] Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 1 işçi yaralandı\n[star · 01:33] Antalya'da hortum faciası: 2 konteyner savruldu, 4 işçi hayatını kaybetti — Antalya'nın Kepez ilçesinde etkili olan hortumda parçalanan iki konteynerde bulunan 4 işçi hayatını kaybetti, 1 işçi yaralandı.\n[sabah · 01:35] Antalya'da hortum faciası: İşçilerin kaldığı 2 konteyner havaya savruldu! 4 ölü, 2 yaralı\n[karar · 01:37] Antalya'da hortum faciası! İşçilerin kaldığı konteynerler parçalandı: 4 ölü, 1 yaralı — Antalya'nın Kepez ilçesinde bir inşaat şantiyesinde oluşan hortum, işçilerin kaldığı iki konteyneri parçaladı. Hortumun şiddetiyle savrulan 5 işçiden 2'si olay yerinde, 2'si kaldırıldıkları hastanede hayatını kaybetti. Bir işçi ise yaralandı. Bölgede incelemelerde bulunan …\n[aa · 01:37] Antalya'da hortum nedeniyle parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı\n[aksam · 01:43] Antalya'da akılalmaz kaza: Hortumda parçalanan konteynerde bulunan 4 işçi hayatını kaybetti\n[haberturk · 01:59] Antalya'da hortum felaketi: 4 işçi ölü, 1 işçi yaralandı!\n[yenisafak · 02:10] Antalya’da hortum faciası: Konteynerdeki 4 işçi yaşamını yitirdi\n[akit · 02:12] Antalya’da hortum şantiyeyi vurdu: 4 işçi öldü, 1 işçi yaralandı\n[cumhuriyet · 02:15] Antalya'da hortum felaketi: Konteynerleri parçaladı, 4 işçi hayatını kaybetti\n[ntv · 02:27] Antalya'da hortum işçi konteynerini parçaladı. 4 işçi öldü, 1 işçi yaralandı\n[takvim · 04:03] Antalya'da hortum faciası: 4 kişi hayatını kaybetti! 4 şüpheli gözaltına alındı\n[birgun · 06:30] Antalya'da hortum felaketi: 4 işçi hayatını kaybetti, 1 işçi yaralandı\n[milligazete · 07:39] Antalya'da hortum! Kepez'de 4 işçi hayatını kaybetti\n[onedio · 08:33] Antalya’da Hortum ve Sağanak Faciası: 4 İşçi Hayatını Kaybetti\n[dirilis · 09:45] Antalya’da hortum faciası!\n[diken · 10:28] Antalya'da hortum: Dört işçi öldü\n[yeniasya · 19:00] Antalya'da hortum afeti: Parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı"
+  },
+  {
+   "key": "s4521__salience-bias",
+   "output_file": "runs/bg/explain/s4521__salience-bias.json",
+   "event_title": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Antalya'da hortum faciası: 4 kişi hayatını kaybetti! 4 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Antalya'da hortum! Kepez'de 4 işçi hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "4 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Kurumlar farklı unsurları (uyarı, gözaltı, konteyner savrulması) başlığa taşıyarak farklı ayrıntıları öne çıkarmış.",
+   "skeptic_alternative": "Bu ayrıntılar sorumluluk sorusuyla ilgili, haber değeri olan bilgilerdir.",
+   "missing_context": [
+    "Gözaltıların gerekçesi",
+    "Uyarının içeriği ve şantiyeye ulaşıp ulaşmadığı",
+    "Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair ifade"
+   ],
+   "headlines": "[trthaber · 01:15] Antalya'da hortum ve fırtına 4 can aldı\n[turkiyegz · 01:16] Antalya'da hortum faciası! 2 konteyner savruldu, 5 işçi öldü\n[mynet · 01:28] Antalya'da hortum faciası! Konteynerleri parçaladı: 4 işçi öldü, 1 işçi yaralandı\n[tgrt · 01:30] Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı\n[haberler · 01:32] Antalya'da hortum konteynerleri vurdu, ölü sayısı 4 oldu, bir işçi hayata döndü\n[ahaber · 01:33] Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu: 4 işçi hayatını kaybetti\n[sozcu · 01:33] Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 1 işçi yaralandı\n[star · 01:33] Antalya'da hortum faciası: 2 konteyner savruldu, 4 işçi hayatını kaybetti — Antalya'nın Kepez ilçesinde etkili olan hortumda parçalanan iki konteynerde bulunan 4 işçi hayatını kaybetti, 1 işçi yaralandı.\n[sabah · 01:35] Antalya'da hortum faciası: İşçilerin kaldığı 2 konteyner havaya savruldu! 4 ölü, 2 yaralı\n[karar · 01:37] Antalya'da hortum faciası! İşçilerin kaldığı konteynerler parçalandı: 4 ölü, 1 yaralı — Antalya'nın Kepez ilçesinde bir inşaat şantiyesinde oluşan hortum, işçilerin kaldığı iki konteyneri parçaladı. Hortumun şiddetiyle savrulan 5 işçiden 2'si olay yerinde, 2'si kaldırıldıkları hastanede hayatını kaybetti. Bir işçi ise yaralandı. Bölgede incelemelerde bulunan …\n[aa · 01:37] Antalya'da hortum nedeniyle parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı\n[aksam · 01:43] Antalya'da akılalmaz kaza: Hortumda parçalanan konteynerde bulunan 4 işçi hayatını kaybetti\n[haberturk · 01:59] Antalya'da hortum felaketi: 4 işçi ölü, 1 işçi yaralandı!\n[yenisafak · 02:10] Antalya’da hortum faciası: Konteynerdeki 4 işçi yaşamını yitirdi\n[akit · 02:12] Antalya’da hortum şantiyeyi vurdu: 4 işçi öldü, 1 işçi yaralandı\n[cumhuriyet · 02:15] Antalya'da hortum felaketi: Konteynerleri parçaladı, 4 işçi hayatını kaybetti\n[ntv · 02:27] Antalya'da hortum işçi konteynerini parçaladı. 4 işçi öldü, 1 işçi yaralandı\n[takvim · 04:03] Antalya'da hortum faciası: 4 kişi hayatını kaybetti! 4 şüpheli gözaltına alındı\n[birgun · 06:30] Antalya'da hortum felaketi: 4 işçi hayatını kaybetti, 1 işçi yaralandı\n[milligazete · 07:39] Antalya'da hortum! Kepez'de 4 işçi hayatını kaybetti\n[onedio · 08:33] Antalya’da Hortum ve Sağanak Faciası: 4 İşçi Hayatını Kaybetti\n[dirilis · 09:45] Antalya’da hortum faciası!\n[diken · 10:28] Antalya'da hortum: Dört işçi öldü\n[yeniasya · 19:00] Antalya'da hortum afeti: Parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı"
+  },
+  {
+   "key": "s4521__normalcy-bias",
+   "output_file": "runs/bg/explain/s4521__normalcy-bias.json",
+   "event_title": "Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı",
+   "concept": "Normalcy Bias",
+   "definition": "A tendency to assume familiar conditions will continue and to discount a credible threat or disruption, especially when it is unfamiliar or has not been personally experienced. For review, it is relevant only when that assumption unjustifiably shapes an assessment or response; calmness, routine, or a mistaken forecast alone do not establish it.",
+   "quotes": [
+    {
+     "quote": "Antalya'da sarı kodlu uyarı verilmişti!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İşçilerin kaldığı 2 konteyner havaya savruldu!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "4 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Belirli bir meteorolojik uyarı varken işçilerin konteynerlerde kalması uyarının göz ardı edildiğini düşündürebilir; ancak gerekçe metinde yok.",
+   "skeptic_alternative": "Sarı kodlu uyarı hortumu öngörmeyen genel bir uyarı olabilir; konteynerlerde kalmak başka zorunluluklardan kaynaklanmış olabilir.",
+   "missing_context": [
+    "Gözaltıların nedeni",
+    "Gözaltına alınanların rolü",
+    "Sorumluların açık gerekçesi",
+    "Uyarının kapsamı",
+    "Uyarıya karşı alınan önlemler",
+    "Şantiye yönetiminin uyarıya verdiği yanıt"
+   ],
+   "headlines": "[trthaber · 01:15] Antalya'da hortum ve fırtına 4 can aldı\n[turkiyegz · 01:16] Antalya'da hortum faciası! 2 konteyner savruldu, 5 işçi öldü\n[mynet · 01:28] Antalya'da hortum faciası! Konteynerleri parçaladı: 4 işçi öldü, 1 işçi yaralandı\n[tgrt · 01:30] Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 2 işçi yaralı\n[haberler · 01:32] Antalya'da hortum konteynerleri vurdu, ölü sayısı 4 oldu, bir işçi hayata döndü\n[ahaber · 01:33] Antalya'da sarı kodlu uyarı verilmişti! Şantiyeyi aniden hortum vurdu: 4 işçi hayatını kaybetti\n[sozcu · 01:33] Antalya'da hortum faciası: 4 işçi hayatını kaybetti, 1 işçi yaralandı\n[star · 01:33] Antalya'da hortum faciası: 2 konteyner savruldu, 4 işçi hayatını kaybetti — Antalya'nın Kepez ilçesinde etkili olan hortumda parçalanan iki konteynerde bulunan 4 işçi hayatını kaybetti, 1 işçi yaralandı.\n[sabah · 01:35] Antalya'da hortum faciası: İşçilerin kaldığı 2 konteyner havaya savruldu! 4 ölü, 2 yaralı\n[karar · 01:37] Antalya'da hortum faciası! İşçilerin kaldığı konteynerler parçalandı: 4 ölü, 1 yaralı — Antalya'nın Kepez ilçesinde bir inşaat şantiyesinde oluşan hortum, işçilerin kaldığı iki konteyneri parçaladı. Hortumun şiddetiyle savrulan 5 işçiden 2'si olay yerinde, 2'si kaldırıldıkları hastanede hayatını kaybetti. Bir işçi ise yaralandı. Bölgede incelemelerde bulunan …\n[aa · 01:37] Antalya'da hortum nedeniyle parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı\n[aksam · 01:43] Antalya'da akılalmaz kaza: Hortumda parçalanan konteynerde bulunan 4 işçi hayatını kaybetti\n[haberturk · 01:59] Antalya'da hortum felaketi: 4 işçi ölü, 1 işçi yaralandı!\n[yenisafak · 02:10] Antalya’da hortum faciası: Konteynerdeki 4 işçi yaşamını yitirdi\n[akit · 02:12] Antalya’da hortum şantiyeyi vurdu: 4 işçi öldü, 1 işçi yaralandı\n[cumhuriyet · 02:15] Antalya'da hortum felaketi: Konteynerleri parçaladı, 4 işçi hayatını kaybetti\n[ntv · 02:27] Antalya'da hortum işçi konteynerini parçaladı. 4 işçi öldü, 1 işçi yaralandı\n[takvim · 04:03] Antalya'da hortum faciası: 4 kişi hayatını kaybetti! 4 şüpheli gözaltına alındı\n[birgun · 06:30] Antalya'da hortum felaketi: 4 işçi hayatını kaybetti, 1 işçi yaralandı\n[milligazete · 07:39] Antalya'da hortum! Kepez'de 4 işçi hayatını kaybetti\n[onedio · 08:33] Antalya’da Hortum ve Sağanak Faciası: 4 İşçi Hayatını Kaybetti\n[dirilis · 09:45] Antalya’da hortum faciası!\n[diken · 10:28] Antalya'da hortum: Dört işçi öldü\n[yeniasya · 19:00] Antalya'da hortum afeti: Parçalanan konteynerlerdeki 4 işçi öldü, 1 işçi yaralandı"
+  },
+  {
+   "key": "s5253__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5253__leveling-and-sharpening.json",
+   "event_title": "Fenerbahçe'nin Yeni Teknik Direktörü Emre Belözoğlu Oldu",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Olay: Fenerbahçe'nin Yeni Teknik Direktörü Emre Belözoğlu Oldu",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Fenerbahçe, Teknik Direktörlük İçin Sergio Conceição ile Anlaştı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe’nin yeni teknik direktörü belli oldu iddiası",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'nin yeni teknik direktörü belli oldu: İstanbul'a geliyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'de flaş gelişme: Emre Belözoğlu ile anlaşma sağlandı! Conceiçao olmadı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'de Emre Belözoğlu sürprizi: Görüşmeler başladı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurum 'iddia' niteliğini düşürerek kesin anlaşma olarak vermiş; sonuçtaki olay farklı bir isimle gerçekleşmiş.",
+   "skeptic_alternative": "Hızla değişen transfer sürecinde farklı saatlerdeki kaynaklara dayanan haberler doğal olarak çelişebilir.",
+   "missing_context": [
+    "Farkın bir sonuca etkisi",
+    "Haberin dayandığı kaynak",
+    "Haberlerin dayandığı kaynaklar",
+    "Kulübün resmi açıklaması ve saati"
+   ],
+   "headlines": "[sozcu · 23:02] Fenerbahçe'nin başına mı geçecek? Emre Belözoğlu açıkladı\n[sondakika · 06:45] Uçak kalktı geliyor! İşte Fenerbahçe'nin yeni teknik direktörü\n[milligazete · 09:27] Fenerbahçe'nin yeni teknik direktörü belli oldu: İstanbul'a geliyor\n[birgun · 09:46] Fenerbahçe’nin yeni teknik direktörü belli oldu iddiası\n[turkiyegz · 09:58] Fenerbahçe'nin yeni teknik direktörü belli oldu iddiası: Conceição İstanbul'a davet edildi\n[onedio · 10:22] Fenerbahçe, Teknik Direktörlük İçin Sergio Conceição ile Anlaştı\n[takvim · 10:39] Fenerbahçe'de flaş gelişme: Emre Belözoğlu ile anlaşma sağlandı! Conceiçao olmadı\n[haberler · 11:37] Fenerbahçe teknik direktör SON DAKİKA! Fenerbahçe'nin yeni teknik direktörü kim oldu?\n[aa · 11:28] Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi\n[karar · 15:59] Fenerbahçe'de Emre Belözoğlu sürprizi: Görüşmeler başladı — İsmail Kartal ile yollarını ayıran Fenerbahçe'de teknik direktör arayışları sürüyor. Portekizli çalıştırıcı Sergio Conceiçao ile yürütülen görüşmelerden sonuç alamayan sarı-lacivertli yönetim, rotasını Emre Belözoğlu'na çevirdi. Halen Kasımpaşa'yı çalıştıran Belözoğlu ile ilk …\n[haberturk · 16:00] Conceição görüşmeleri tıkandı! Fenerbahçe'de ilk aday Emre Belözoğlu — Fenerbahçe'de Sergio Conceiçao ile yapılan görüşmelerde pürüz çıktı. Portekizli teknik adamla yapılan görüşmelerde hem sözleşme şartlarına ilişkin taleplerinin değişmesi hem de maaş beklentisini yükseltmesi nedeniyle anlaşılamadı. Sarı-lacivertliler rotay\n[ahaber · 16:04] Fenerbahçe'de Emre Belözoğlu dönemi başladı! Aziz Yıldırım görüştü, anlaşma sağlandı\n[tgrt · 16:36] Fenerbahçe yeni teknik direktörünü buldu: Emre Belözoğlu ile anlaşma sağlandı!\n[akit · 17:10] Fenerbahçe'de bomba gelişme: Emre Belözoğlu ile anlaşma sağlandı\n[sabah · 18:06] SON DAKİKA HABERİ | Emre Belözoğlu, Fenerbahçe ile anlaştı! Kasımpaşa kararını verdi\n[ntv · 19:05] Fenerbahçe'de Kocaman ya da Conceiçao derken 2. Emre Belözoğlu dönemi başlıyor\n[aksam · 20:02] Fenerbahçe'de Emre Belözoğlu dönemi! Yuvaya dönüyor\n[yeniasya · 22:00] Fenerbahçe'nin yeni teknik direktörü Emre Belözoğlu oldu\n[cumhuriyet · 22:05] Emre Belözoğlu'na Fenerbahçe öncesi PFDK sevki!\n[mynet · 22:16] Fenerbahçe'de teknik direktörlük koltuğu Emre Belözoğlu'na emanet!\n[star · 22:44] Kasımpaşa'da Emre Belözoğlu dönemi resmen sona erdi!\n[diken · 23:35] Fenerbahçe'de ikinci Emre Belözoğlu dönemi\n[dirilis · 23:49] Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi"
+  },
+  {
+   "key": "s5253__framing-effect",
+   "output_file": "runs/bg/explain/s5253__framing-effect.json",
+   "event_title": "Fenerbahçe'nin Yeni Teknik Direktörü Emre Belözoğlu Oldu",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Fenerbahçe'de bomba gelişme: Emre Belözoğlu ile anlaşma sağlandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'de Emre Belözoğlu sürprizi: Görüşmeler başladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'nin yeni teknik direktörü Emre Belözoğlu oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe yeni teknik direktörünü buldu: Emre Belözoğlu ile anlaşma sağlandı!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı gelişme 'bomba', 'sürpriz' ya da yalın atama olarak farklı vurgularla çerçevelenmiş.",
+   "skeptic_alternative": "Spor haberciliğinde vurgulu üslup olağandır.",
+   "missing_context": [
+    "Sunum farkına bağlı açık bir değerlendirme",
+    "Çerçeveye bağlı bir yargıyı gösteren açık ifade"
+   ],
+   "headlines": "[sozcu · 23:02] Fenerbahçe'nin başına mı geçecek? Emre Belözoğlu açıkladı\n[sondakika · 06:45] Uçak kalktı geliyor! İşte Fenerbahçe'nin yeni teknik direktörü\n[milligazete · 09:27] Fenerbahçe'nin yeni teknik direktörü belli oldu: İstanbul'a geliyor\n[birgun · 09:46] Fenerbahçe’nin yeni teknik direktörü belli oldu iddiası\n[turkiyegz · 09:58] Fenerbahçe'nin yeni teknik direktörü belli oldu iddiası: Conceição İstanbul'a davet edildi\n[onedio · 10:22] Fenerbahçe, Teknik Direktörlük İçin Sergio Conceição ile Anlaştı\n[takvim · 10:39] Fenerbahçe'de flaş gelişme: Emre Belözoğlu ile anlaşma sağlandı! Conceiçao olmadı\n[haberler · 11:37] Fenerbahçe teknik direktör SON DAKİKA! Fenerbahçe'nin yeni teknik direktörü kim oldu?\n[aa · 11:28] Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi\n[karar · 15:59] Fenerbahçe'de Emre Belözoğlu sürprizi: Görüşmeler başladı — İsmail Kartal ile yollarını ayıran Fenerbahçe'de teknik direktör arayışları sürüyor. Portekizli çalıştırıcı Sergio Conceiçao ile yürütülen görüşmelerden sonuç alamayan sarı-lacivertli yönetim, rotasını Emre Belözoğlu'na çevirdi. Halen Kasımpaşa'yı çalıştıran Belözoğlu ile ilk …\n[haberturk · 16:00] Conceição görüşmeleri tıkandı! Fenerbahçe'de ilk aday Emre Belözoğlu — Fenerbahçe'de Sergio Conceiçao ile yapılan görüşmelerde pürüz çıktı. Portekizli teknik adamla yapılan görüşmelerde hem sözleşme şartlarına ilişkin taleplerinin değişmesi hem de maaş beklentisini yükseltmesi nedeniyle anlaşılamadı. Sarı-lacivertliler rotay\n[ahaber · 16:04] Fenerbahçe'de Emre Belözoğlu dönemi başladı! Aziz Yıldırım görüştü, anlaşma sağlandı\n[tgrt · 16:36] Fenerbahçe yeni teknik direktörünü buldu: Emre Belözoğlu ile anlaşma sağlandı!\n[akit · 17:10] Fenerbahçe'de bomba gelişme: Emre Belözoğlu ile anlaşma sağlandı\n[sabah · 18:06] SON DAKİKA HABERİ | Emre Belözoğlu, Fenerbahçe ile anlaştı! Kasımpaşa kararını verdi\n[ntv · 19:05] Fenerbahçe'de Kocaman ya da Conceiçao derken 2. Emre Belözoğlu dönemi başlıyor\n[aksam · 20:02] Fenerbahçe'de Emre Belözoğlu dönemi! Yuvaya dönüyor\n[yeniasya · 22:00] Fenerbahçe'nin yeni teknik direktörü Emre Belözoğlu oldu\n[cumhuriyet · 22:05] Emre Belözoğlu'na Fenerbahçe öncesi PFDK sevki!\n[mynet · 22:16] Fenerbahçe'de teknik direktörlük koltuğu Emre Belözoğlu'na emanet!\n[star · 22:44] Kasımpaşa'da Emre Belözoğlu dönemi resmen sona erdi!\n[diken · 23:35] Fenerbahçe'de ikinci Emre Belözoğlu dönemi\n[dirilis · 23:49] Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi"
+  },
+  {
+   "key": "s5253__salience-bias",
+   "output_file": "runs/bg/explain/s5253__salience-bias.json",
+   "event_title": "Fenerbahçe'nin Yeni Teknik Direktörü Emre Belözoğlu Oldu",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Emre Belözoğlu'na Fenerbahçe öncesi PFDK sevki!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Uçak kalktı geliyor! İşte Fenerbahçe'nin yeni teknik direktörü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurum atama yerine disiplin sevkini, bir diğeri merak uyandıran ayrıntıyı başlığa taşımış.",
+   "skeptic_alternative": "Merak uyandıran başlıklar ve PFDK sevki gibi ilgili gelişmeler olağan haber seçimleridir.",
+   "missing_context": [
+    "PFDK sevkinin içeriği",
+    "Vurguya bağlanan açık bir çıkarım",
+    "Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair ifade"
+   ],
+   "headlines": "[sozcu · 23:02] Fenerbahçe'nin başına mı geçecek? Emre Belözoğlu açıkladı\n[sondakika · 06:45] Uçak kalktı geliyor! İşte Fenerbahçe'nin yeni teknik direktörü\n[milligazete · 09:27] Fenerbahçe'nin yeni teknik direktörü belli oldu: İstanbul'a geliyor\n[birgun · 09:46] Fenerbahçe’nin yeni teknik direktörü belli oldu iddiası\n[turkiyegz · 09:58] Fenerbahçe'nin yeni teknik direktörü belli oldu iddiası: Conceição İstanbul'a davet edildi\n[onedio · 10:22] Fenerbahçe, Teknik Direktörlük İçin Sergio Conceição ile Anlaştı\n[takvim · 10:39] Fenerbahçe'de flaş gelişme: Emre Belözoğlu ile anlaşma sağlandı! Conceiçao olmadı\n[haberler · 11:37] Fenerbahçe teknik direktör SON DAKİKA! Fenerbahçe'nin yeni teknik direktörü kim oldu?\n[aa · 11:28] Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi\n[karar · 15:59] Fenerbahçe'de Emre Belözoğlu sürprizi: Görüşmeler başladı — İsmail Kartal ile yollarını ayıran Fenerbahçe'de teknik direktör arayışları sürüyor. Portekizli çalıştırıcı Sergio Conceiçao ile yürütülen görüşmelerden sonuç alamayan sarı-lacivertli yönetim, rotasını Emre Belözoğlu'na çevirdi. Halen Kasımpaşa'yı çalıştıran Belözoğlu ile ilk …\n[haberturk · 16:00] Conceição görüşmeleri tıkandı! Fenerbahçe'de ilk aday Emre Belözoğlu — Fenerbahçe'de Sergio Conceiçao ile yapılan görüşmelerde pürüz çıktı. Portekizli teknik adamla yapılan görüşmelerde hem sözleşme şartlarına ilişkin taleplerinin değişmesi hem de maaş beklentisini yükseltmesi nedeniyle anlaşılamadı. Sarı-lacivertliler rotay\n[ahaber · 16:04] Fenerbahçe'de Emre Belözoğlu dönemi başladı! Aziz Yıldırım görüştü, anlaşma sağlandı\n[tgrt · 16:36] Fenerbahçe yeni teknik direktörünü buldu: Emre Belözoğlu ile anlaşma sağlandı!\n[akit · 17:10] Fenerbahçe'de bomba gelişme: Emre Belözoğlu ile anlaşma sağlandı\n[sabah · 18:06] SON DAKİKA HABERİ | Emre Belözoğlu, Fenerbahçe ile anlaştı! Kasımpaşa kararını verdi\n[ntv · 19:05] Fenerbahçe'de Kocaman ya da Conceiçao derken 2. Emre Belözoğlu dönemi başlıyor\n[aksam · 20:02] Fenerbahçe'de Emre Belözoğlu dönemi! Yuvaya dönüyor\n[yeniasya · 22:00] Fenerbahçe'nin yeni teknik direktörü Emre Belözoğlu oldu\n[cumhuriyet · 22:05] Emre Belözoğlu'na Fenerbahçe öncesi PFDK sevki!\n[mynet · 22:16] Fenerbahçe'de teknik direktörlük koltuğu Emre Belözoğlu'na emanet!\n[star · 22:44] Kasımpaşa'da Emre Belözoğlu dönemi resmen sona erdi!\n[diken · 23:35] Fenerbahçe'de ikinci Emre Belözoğlu dönemi\n[dirilis · 23:49] Fenerbahçe'de teknik direktörlük görevine Emre Belözoğlu getirildi"
+  },
+  {
+   "key": "s5063__framing-effect",
+   "output_file": "runs/bg/explain/s5063__framing-effect.json",
+   "event_title": "Galatasaray'da Metin Öztürk istifa etti",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Olay: Galatasaray'da Metin Öztürk istifa etti",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Galatasaray'da deprem: İkinci Başkan Metin Öztürk şok iddialarla istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Galatasaray yönetiminde kriz: Metin Öztürk'ten istifa kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Galatasaray’da İkinci Başkan Metin Öztürk istifa etti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı istifa 'deprem', 'kriz' gibi dramatik çerçevelerle ya da yalın olgu olarak verilmiş.",
+   "skeptic_alternative": "Üslup farkı kurumların editoryal tercihidir; istifa gerekçesindeki iddialar habere dramatik ton katmış olabilir.",
+   "missing_context": [
+    "Okur yargısına etkisini gösteren veri",
+    "Çerçeveye bağlı bir yargıyı gösteren açık ifade"
+   ],
+   "headlines": "[aa · 01:10] Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti\n[sondakika · 10:09] Galatasaray İkinci Başkanı Metin Öztürk, yönetim kurulu üyeliklerinden istifa etti\n[haberturk · 12:58] Galatasaray'da Metin Öztürk yönetim kurulu görevinden istifa etti!\n[sabah · 12:58] Son dakika haberi: Galatasaray'da Metin Öztürk, istifa etti!\n[ahaber · 13:01] Galatasaray'da deprem: İkinci Başkan Metin Öztürk şok iddialarla istifa etti\n[takvim · 13:03] Toplantıdaki olaylar bardağı taşırdı! Metin Öztürk Galatasaray'daki görevlerinden istifa etti\n[cumhuriyet · 13:04] Galatasaray'da Metin Öztürk istifa etti: 'Fiili saldırıya dönüşmüş eylemi kabullenemem'\n[tgrt · 13:06] Galatasaray'da şok karar: İkinci Başkan Metin Öztürk istifa etti\n[birgun · 13:08] Galatasaray’da İkinci Başkan Metin Öztürk istifa etti\n[turkiyegz · 13:09] Galatasaray yönetiminde kriz: Metin Öztürk'ten istifa kararı\n[aksam · 13:09] Galatasaray'da Metin Öztürk istifa etti\n[akit · 13:09] Galatasaray'da şok istifa! İkinci başkan Metin Öztürk: Terbiyem el vermez\n[star · 13:12] Galatasaray'da Metin Öztürk istifa etti\n[diken · 13:13] Galatasaray ikinci başkanı Metin Öztürk istifa etti\n[onedio · 13:19] Galatasaray İkinci Başkanı Metin Öztürk İstifa Etti: \"Ölmüş Anneme Hakareti Kabul Edemem\"\n[karar · 13:26] Galatasaray 2’nci Başkanı Metin Öztürk istifa etti — Galatasaray 2’nci Başkanı Metin Öztürk, 27 Ekim’deki yönetim kurulu toplantısında yaşanan fiili saldırı ve annesine yönelik hakaretin ardından kulüpteki ve bağlı şirketlerdeki yönetim kurulu üyeliklerinden istifa etti.\n[milligazete · 13:50] Galatasaray'da Metin Öztürk istifa etti! Saldırı iddiası\n[haberler · 14:35] Metin Öztürk kimdir? Galatasaray'ın ikinci başkanı neden istifa etti?\n[dirilis · 17:36] Metin Öztürk neden istifa etti? Galatasaray İkinci Başkanı\n[cnnturk · 17:45] METİN ÖZTÜRK NEDEN İSTİFA ETTİ? Galatasaray 2’nci Başkanı Metin Öztürk Kimdir, Kaç Yaşında, Nereli, Ne İş Yapıyor? — Metin Öztürk kimdir, Galatasaray 2'nci Başkanı Metin Öztürk istifa mı etti, Metin Öztürk neden gündemde, Galatasaray yönetiminde son durum soruları sarı-kırmızılı camiada yaşanan gelişmelerin ardından futbolseverlerin araştırdığı konular arasında yer alıyor. Galatasaray'da …\n[mynet · 18:32] Metin Öztürk'ün ardından bir istifa daha! Galatasaray'da Abdullah Kavukcu görevi bıraktı\n[sozcu · 18:36] Galatasaray'da sular durulmuyor! Abdullah Kavukcu da istifa etti\n[ntv · 19:09] Galatasaray'da istifa krizi. Metin Öztürk'ün ardından Abdullah Kavukcu da istifa etti"
+  },
+  {
+   "key": "s5063__salience-bias",
+   "output_file": "runs/bg/explain/s5063__salience-bias.json",
+   "event_title": "Galatasaray'da Metin Öztürk istifa etti",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Galatasaray İkinci Başkanı Metin Öztürk İstifa Etti: \"Ölmüş Anneme Hakareti Kabul Edemem\"",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Galatasaray'da şok istifa! İkinci başkan Metin Öztürk: Terbiyem el vermez",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Galatasaray’da İkinci Başkan Metin Öztürk istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ölmüş Anneme Hakareti Kabul Edemem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Toplantıdaki olaylar bardağı taşırdı!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar duygusal açıdan çarpıcı alıntıları başlığa taşımış, diğerleri yalnızca istifayı vermiş.",
+   "skeptic_alternative": "Alıntılar istifanın açıklanan gerekçesidir ve ilgili bilgidir.",
+   "missing_context": [
+    "Karşı tarafın açıklaması",
+    "Öne çıkarmanın bir yargıyı haksız yönlendirdiğine dair ifade",
+    "Öztürk'ün tam açıklama metni"
+   ],
+   "headlines": "[aa · 01:10] Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti\n[sondakika · 10:09] Galatasaray İkinci Başkanı Metin Öztürk, yönetim kurulu üyeliklerinden istifa etti\n[haberturk · 12:58] Galatasaray'da Metin Öztürk yönetim kurulu görevinden istifa etti!\n[sabah · 12:58] Son dakika haberi: Galatasaray'da Metin Öztürk, istifa etti!\n[ahaber · 13:01] Galatasaray'da deprem: İkinci Başkan Metin Öztürk şok iddialarla istifa etti\n[takvim · 13:03] Toplantıdaki olaylar bardağı taşırdı! Metin Öztürk Galatasaray'daki görevlerinden istifa etti\n[cumhuriyet · 13:04] Galatasaray'da Metin Öztürk istifa etti: 'Fiili saldırıya dönüşmüş eylemi kabullenemem'\n[tgrt · 13:06] Galatasaray'da şok karar: İkinci Başkan Metin Öztürk istifa etti\n[birgun · 13:08] Galatasaray’da İkinci Başkan Metin Öztürk istifa etti\n[turkiyegz · 13:09] Galatasaray yönetiminde kriz: Metin Öztürk'ten istifa kararı\n[aksam · 13:09] Galatasaray'da Metin Öztürk istifa etti\n[akit · 13:09] Galatasaray'da şok istifa! İkinci başkan Metin Öztürk: Terbiyem el vermez\n[star · 13:12] Galatasaray'da Metin Öztürk istifa etti\n[diken · 13:13] Galatasaray ikinci başkanı Metin Öztürk istifa etti\n[onedio · 13:19] Galatasaray İkinci Başkanı Metin Öztürk İstifa Etti: \"Ölmüş Anneme Hakareti Kabul Edemem\"\n[karar · 13:26] Galatasaray 2’nci Başkanı Metin Öztürk istifa etti — Galatasaray 2’nci Başkanı Metin Öztürk, 27 Ekim’deki yönetim kurulu toplantısında yaşanan fiili saldırı ve annesine yönelik hakaretin ardından kulüpteki ve bağlı şirketlerdeki yönetim kurulu üyeliklerinden istifa etti.\n[milligazete · 13:50] Galatasaray'da Metin Öztürk istifa etti! Saldırı iddiası\n[haberler · 14:35] Metin Öztürk kimdir? Galatasaray'ın ikinci başkanı neden istifa etti?\n[dirilis · 17:36] Metin Öztürk neden istifa etti? Galatasaray İkinci Başkanı\n[cnnturk · 17:45] METİN ÖZTÜRK NEDEN İSTİFA ETTİ? Galatasaray 2’nci Başkanı Metin Öztürk Kimdir, Kaç Yaşında, Nereli, Ne İş Yapıyor? — Metin Öztürk kimdir, Galatasaray 2'nci Başkanı Metin Öztürk istifa mı etti, Metin Öztürk neden gündemde, Galatasaray yönetiminde son durum soruları sarı-kırmızılı camiada yaşanan gelişmelerin ardından futbolseverlerin araştırdığı konular arasında yer alıyor. Galatasaray'da …\n[mynet · 18:32] Metin Öztürk'ün ardından bir istifa daha! Galatasaray'da Abdullah Kavukcu görevi bıraktı\n[sozcu · 18:36] Galatasaray'da sular durulmuyor! Abdullah Kavukcu da istifa etti\n[ntv · 19:09] Galatasaray'da istifa krizi. Metin Öztürk'ün ardından Abdullah Kavukcu da istifa etti"
+  },
+  {
+   "key": "s5063__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5063__leveling-and-sharpening.json",
+   "event_title": "Galatasaray'da Metin Öztürk istifa etti",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "fiili saldırı ve annesine yönelik hakaretin ardından kulüpteki ve bağlı şirketlerdeki yönetim kurulu üyeliklerinden istifa etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Toplantıdaki olaylar bardağı taşırdı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Galatasaray'da Metin Öztürk istifa etti! Saldırı iddiası",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "27 Ekim’deki yönetim kurulu toplantısında yaşanan fiili saldırı ve annesine yönelik hakaretin ardından",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Son dakika haberi: Galatasaray'da Metin Öztürk, istifa etti!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fiili saldırıya dönüşmüş eylemi kabullenemem",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Ayrıntılı anlatıma göre bazı başlıklar gerekçeyi belirsizleştirmiş, bazıları saldırı unsurunu keskinleştirmiş.",
+   "skeptic_alternative": "Başlık uzunluğu sınırı farklı alıntı seçimine yol açar; anlam değişmemiş olabilir.",
+   "missing_context": [
+    "Farkın bir sonuca etkisi",
+    "Toplantıya dair bağımsız anlatım",
+    "Öztürk'ün açıklamasının tam metni",
+    "Öztürk'ün istifa açıklamasının tam metni"
+   ],
+   "headlines": "[aa · 01:10] Galatasaray Kulübü İkinci Başkanı Metin Öztürk istifa etti\n[sondakika · 10:09] Galatasaray İkinci Başkanı Metin Öztürk, yönetim kurulu üyeliklerinden istifa etti\n[haberturk · 12:58] Galatasaray'da Metin Öztürk yönetim kurulu görevinden istifa etti!\n[sabah · 12:58] Son dakika haberi: Galatasaray'da Metin Öztürk, istifa etti!\n[ahaber · 13:01] Galatasaray'da deprem: İkinci Başkan Metin Öztürk şok iddialarla istifa etti\n[takvim · 13:03] Toplantıdaki olaylar bardağı taşırdı! Metin Öztürk Galatasaray'daki görevlerinden istifa etti\n[cumhuriyet · 13:04] Galatasaray'da Metin Öztürk istifa etti: 'Fiili saldırıya dönüşmüş eylemi kabullenemem'\n[tgrt · 13:06] Galatasaray'da şok karar: İkinci Başkan Metin Öztürk istifa etti\n[birgun · 13:08] Galatasaray’da İkinci Başkan Metin Öztürk istifa etti\n[turkiyegz · 13:09] Galatasaray yönetiminde kriz: Metin Öztürk'ten istifa kararı\n[aksam · 13:09] Galatasaray'da Metin Öztürk istifa etti\n[akit · 13:09] Galatasaray'da şok istifa! İkinci başkan Metin Öztürk: Terbiyem el vermez\n[star · 13:12] Galatasaray'da Metin Öztürk istifa etti\n[diken · 13:13] Galatasaray ikinci başkanı Metin Öztürk istifa etti\n[onedio · 13:19] Galatasaray İkinci Başkanı Metin Öztürk İstifa Etti: \"Ölmüş Anneme Hakareti Kabul Edemem\"\n[karar · 13:26] Galatasaray 2’nci Başkanı Metin Öztürk istifa etti — Galatasaray 2’nci Başkanı Metin Öztürk, 27 Ekim’deki yönetim kurulu toplantısında yaşanan fiili saldırı ve annesine yönelik hakaretin ardından kulüpteki ve bağlı şirketlerdeki yönetim kurulu üyeliklerinden istifa etti.\n[milligazete · 13:50] Galatasaray'da Metin Öztürk istifa etti! Saldırı iddiası\n[haberler · 14:35] Metin Öztürk kimdir? Galatasaray'ın ikinci başkanı neden istifa etti?\n[dirilis · 17:36] Metin Öztürk neden istifa etti? Galatasaray İkinci Başkanı\n[cnnturk · 17:45] METİN ÖZTÜRK NEDEN İSTİFA ETTİ? Galatasaray 2’nci Başkanı Metin Öztürk Kimdir, Kaç Yaşında, Nereli, Ne İş Yapıyor? — Metin Öztürk kimdir, Galatasaray 2'nci Başkanı Metin Öztürk istifa mı etti, Metin Öztürk neden gündemde, Galatasaray yönetiminde son durum soruları sarı-kırmızılı camiada yaşanan gelişmelerin ardından futbolseverlerin araştırdığı konular arasında yer alıyor. Galatasaray'da …\n[mynet · 18:32] Metin Öztürk'ün ardından bir istifa daha! Galatasaray'da Abdullah Kavukcu görevi bıraktı\n[sozcu · 18:36] Galatasaray'da sular durulmuyor! Abdullah Kavukcu da istifa etti\n[ntv · 19:09] Galatasaray'da istifa krizi. Metin Öztürk'ün ardından Abdullah Kavukcu da istifa etti"
+  },
+  {
+   "key": "s4989__salience-bias",
+   "output_file": "runs/bg/explain/s4989__salience-bias.json",
+   "event_title": "Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Muğla açıklarında 5.1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 20:18] AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aa · 08:10] Akdeniz'de 5,1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar depremi 'Muğla açıklarında' ve 'korkutan' olarak öne çıkarırken merkez üssünün Datça'ya 253 km uzakta olduğu metinde geçiyor; yakınlık ve duygusal vurgu dikkat çekici kılınmış olabilir.",
+   "skeptic_alternative": "Başlıkta dikkat çekici sıfat kullanımı olağan bir editoryal üslup olabilir; okurun hissettiği sarsıntıyı yansıtıyor olabilir.",
+   "missing_context": [
+    "Akşam'ın benzer büyüklükteki diğer depremleri nasıl başlıklandırdığı",
+    "Depremin Muğla'da hissedilip hissedilmediği",
+    "Depremin karada hissedilip hissedilmediği",
+    "Kurumların coğrafi referans kuralları",
+    "Okur yargısına etkisini gösteren veri"
+   ],
+   "headlines": "[cumhuriyet · 17:19] Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!\n[aa · 08:10] Akdeniz'de 5,1 büyüklüğünde deprem\n[sozcu · 12:23] Son dakika: Akdeniz'de deprem!\n[hurriyet · 12:26] Akdeniz açıklarında 3.8 büyüklüğünde deprem — Akdeniz'de Yunanistan'ın Girit Adası açıklarında 3.8 büyüklüğünde deprem meydana geldi.\n[sondakika · 17:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[tgrt · 19:59] Datça açıklarında 5.1 büyüklüğünde deprem meydana geldi\n[haberturk · 20:04] Muğla açıklarında 5,1 büyüklüğünde deprem\n[haberler · 20:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[sabah · 20:05] Akdeniz'de deprem! AFAD açıkladı: Muğla Datça açıklarında 5.1 büyüklüğünde sarsıntı\n[diken · 20:07] Muğla açıklarında 5,1 büyüklüğünde deprem\n[birgun · 20:08] AFAD duyurdu: Datça açıklarında 5,1 büyüklüğünde deprem\n[ahaber · 20:08] Muğla Datça açıklarında 5,1 büyüklüğünde deprem!\n[onedio · 20:09] AFAD Depremi Açıkladı: Muğla'da 5,1 Büyüklüğünde Deprem Oldu\n[trthaber · 20:11] Akdeniz'de 5,1 büyüklüğünde deprem\n[star · 20:11] AFAD büyüklüğünü açıkladı: Muğla açıklarında 5.1 büyüklüğünde deprem — AFAD verilerine göre merkez üssü Akdeniz olan deprem, Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi. Sarsıntının 9,07 kilometre derinlikte meydana geldiği belirlendi.\n[mynet · 20:16] Akdeniz'de 5,1 büyüklüğünde deprem!\n[aksam · 20:18] AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem\n[dirilis · 20:21] Akdeniz'de 5,1 büyüklüğünde deprem\n[ntv · 20:23] Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem\n[milligazete · 20:26] Akdeniz'de 5,1 büyüklüğünde deprem\n[cnnturk · 23:12] SON DAKİKA HABERİ: Muğla açıklarında 5.1 büyüklüğünde deprem — Son dakika haberine göre; AFAD, Muğla'nın Datça ilçesi açıklarında 5.1 büyüklüğünde depremin meydana geldiğini bildirdi.\n[milliyet · 18:50] Kolombiya'da 5,4 büyüklüğünde deprem — ABD Jeolojik Araştırmalar Merkezi (USGS), depremin merkez üssünün Tolima yönetim bölgesine bağlı Rioblanco ilçesinin 24 kilometre kuzeybatısı olduğunu açıkladı. Depremin derinliğinin 10 kilometre, büyüklüğünün ise 5,4 olduğu kaydedildi. İlk belirlemelere göre Tolima'ya bağlı …"
+  },
+  {
+   "key": "s4989__framing-effect",
+   "output_file": "runs/bg/explain/s4989__framing-effect.json",
+   "event_title": "Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Akdeniz'de 5,1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Muğla açıklarında 5.1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[trthaber · 20:11] Akdeniz'de 5,1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberturk · 20:04] Muğla açıklarında 5,1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı deprem 'Akdeniz'de' ve 'Muğla açıklarında' gibi farklı referans noktalarıyla sunulmuş; ancak bir tercihin bu sunuma bağlandığı metinde yok.",
+   "skeptic_alternative": "Farklı coğrafi referanslar AFAD duyurusunun farklı özetlenmesinden kaynaklanabilir.",
+   "missing_context": [
+    "Okur algısına ilişkin karşılaştırmalı veri",
+    "Okur ya da karar verici tepkisine dair herhangi bir veri",
+    "Sunum farkına bağlı bir yargı veya karar"
+   ],
+   "headlines": "[cumhuriyet · 17:19] Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!\n[aa · 08:10] Akdeniz'de 5,1 büyüklüğünde deprem\n[sozcu · 12:23] Son dakika: Akdeniz'de deprem!\n[hurriyet · 12:26] Akdeniz açıklarında 3.8 büyüklüğünde deprem — Akdeniz'de Yunanistan'ın Girit Adası açıklarında 3.8 büyüklüğünde deprem meydana geldi.\n[sondakika · 17:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[tgrt · 19:59] Datça açıklarında 5.1 büyüklüğünde deprem meydana geldi\n[haberturk · 20:04] Muğla açıklarında 5,1 büyüklüğünde deprem\n[haberler · 20:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[sabah · 20:05] Akdeniz'de deprem! AFAD açıkladı: Muğla Datça açıklarında 5.1 büyüklüğünde sarsıntı\n[diken · 20:07] Muğla açıklarında 5,1 büyüklüğünde deprem\n[birgun · 20:08] AFAD duyurdu: Datça açıklarında 5,1 büyüklüğünde deprem\n[ahaber · 20:08] Muğla Datça açıklarında 5,1 büyüklüğünde deprem!\n[onedio · 20:09] AFAD Depremi Açıkladı: Muğla'da 5,1 Büyüklüğünde Deprem Oldu\n[trthaber · 20:11] Akdeniz'de 5,1 büyüklüğünde deprem\n[star · 20:11] AFAD büyüklüğünü açıkladı: Muğla açıklarında 5.1 büyüklüğünde deprem — AFAD verilerine göre merkez üssü Akdeniz olan deprem, Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi. Sarsıntının 9,07 kilometre derinlikte meydana geldiği belirlendi.\n[mynet · 20:16] Akdeniz'de 5,1 büyüklüğünde deprem!\n[aksam · 20:18] AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem\n[dirilis · 20:21] Akdeniz'de 5,1 büyüklüğünde deprem\n[ntv · 20:23] Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem\n[milligazete · 20:26] Akdeniz'de 5,1 büyüklüğünde deprem\n[cnnturk · 23:12] SON DAKİKA HABERİ: Muğla açıklarında 5.1 büyüklüğünde deprem — Son dakika haberine göre; AFAD, Muğla'nın Datça ilçesi açıklarında 5.1 büyüklüğünde depremin meydana geldiğini bildirdi.\n[milliyet · 18:50] Kolombiya'da 5,4 büyüklüğünde deprem — ABD Jeolojik Araştırmalar Merkezi (USGS), depremin merkez üssünün Tolima yönetim bölgesine bağlı Rioblanco ilçesinin 24 kilometre kuzeybatısı olduğunu açıkladı. Depremin derinliğinin 10 kilometre, büyüklüğünün ise 5,4 olduğu kaydedildi. İlk belirlemelere göre Tolima'ya bağlı …"
+  },
+  {
+   "key": "s4989__negativity-bias",
+   "output_file": "runs/bg/explain/s4989__negativity-bias.json",
+   "event_title": "Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Muğla açıklarında korkutan deprem",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Tek bir kurum büyüklük yerine 'korkutan' nitelemesini başlığa taşımış; olumsuz duygu vurgusu var ama karşılaştırmalı ağırlıklandırma kanıtı yok.",
+   "skeptic_alternative": "Deprem haberi doğası gereği olumsuz bir olaydır; olumsuz ton orantılı olabilir.",
+   "missing_context": [
+    "Eşdeğer olumlu bilginin (hasar yok) nasıl verildiği",
+    "Hasar/yaralanma bilgisi",
+    "Hasar/yaralı olmadığına dair bilgi verilip verilmediği",
+    "Karşılaştırmalı olumlu bilgi"
+   ],
+   "headlines": "[cumhuriyet · 17:19] Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!\n[aa · 08:10] Akdeniz'de 5,1 büyüklüğünde deprem\n[sozcu · 12:23] Son dakika: Akdeniz'de deprem!\n[hurriyet · 12:26] Akdeniz açıklarında 3.8 büyüklüğünde deprem — Akdeniz'de Yunanistan'ın Girit Adası açıklarında 3.8 büyüklüğünde deprem meydana geldi.\n[sondakika · 17:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[tgrt · 19:59] Datça açıklarında 5.1 büyüklüğünde deprem meydana geldi\n[haberturk · 20:04] Muğla açıklarında 5,1 büyüklüğünde deprem\n[haberler · 20:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[sabah · 20:05] Akdeniz'de deprem! AFAD açıkladı: Muğla Datça açıklarında 5.1 büyüklüğünde sarsıntı\n[diken · 20:07] Muğla açıklarında 5,1 büyüklüğünde deprem\n[birgun · 20:08] AFAD duyurdu: Datça açıklarında 5,1 büyüklüğünde deprem\n[ahaber · 20:08] Muğla Datça açıklarında 5,1 büyüklüğünde deprem!\n[onedio · 20:09] AFAD Depremi Açıkladı: Muğla'da 5,1 Büyüklüğünde Deprem Oldu\n[trthaber · 20:11] Akdeniz'de 5,1 büyüklüğünde deprem\n[star · 20:11] AFAD büyüklüğünü açıkladı: Muğla açıklarında 5.1 büyüklüğünde deprem — AFAD verilerine göre merkez üssü Akdeniz olan deprem, Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi. Sarsıntının 9,07 kilometre derinlikte meydana geldiği belirlendi.\n[mynet · 20:16] Akdeniz'de 5,1 büyüklüğünde deprem!\n[aksam · 20:18] AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem\n[dirilis · 20:21] Akdeniz'de 5,1 büyüklüğünde deprem\n[ntv · 20:23] Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem\n[milligazete · 20:26] Akdeniz'de 5,1 büyüklüğünde deprem\n[cnnturk · 23:12] SON DAKİKA HABERİ: Muğla açıklarında 5.1 büyüklüğünde deprem — Son dakika haberine göre; AFAD, Muğla'nın Datça ilçesi açıklarında 5.1 büyüklüğünde depremin meydana geldiğini bildirdi.\n[milliyet · 18:50] Kolombiya'da 5,4 büyüklüğünde deprem — ABD Jeolojik Araştırmalar Merkezi (USGS), depremin merkez üssünün Tolima yönetim bölgesine bağlı Rioblanco ilçesinin 24 kilometre kuzeybatısı olduğunu açıkladı. Depremin derinliğinin 10 kilometre, büyüklüğünün ise 5,4 olduğu kaydedildi. İlk belirlemelere göre Tolima'ya bağlı …"
+  },
+  {
+   "key": "s4989__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4989__leveling-and-sharpening.json",
+   "event_title": "Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Akdeniz'de 5,1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[birgun · 20:08] AFAD duyurdu: Datça açıklarında 5,1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[trthaber · 20:11] Akdeniz'de 5,1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Diğer başlıklarla karşılaştırıldığında bazı başlıklar büyüklüğü düşürmüş (düzleştirme) ya da 'korkutan' gibi detayı büyütmüş (keskinleştirme); bir başlık konumu Ege olarak vermiş.",
+   "skeptic_alternative": "'Açıklarında' ifadesi AFAD'ın en yakın yerleşim referansını kullanma alışkanlığından gelebilir; kasıt veya maddi çarpıtma çıkarılamaz.",
+   "missing_context": [
+    "AFAD'ın özgün duyuru metni",
+    "Cumhuriyet haberinin aynı depreme ait olup olmadığı",
+    "Farkın bir sonucu etkilediğine dair kanıt",
+    "Okurların risk algısının değişip değişmediği"
+   ],
+   "headlines": "[cumhuriyet · 17:19] Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!\n[aa · 08:10] Akdeniz'de 5,1 büyüklüğünde deprem\n[sozcu · 12:23] Son dakika: Akdeniz'de deprem!\n[hurriyet · 12:26] Akdeniz açıklarında 3.8 büyüklüğünde deprem — Akdeniz'de Yunanistan'ın Girit Adası açıklarında 3.8 büyüklüğünde deprem meydana geldi.\n[sondakika · 17:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[tgrt · 19:59] Datça açıklarında 5.1 büyüklüğünde deprem meydana geldi\n[haberturk · 20:04] Muğla açıklarında 5,1 büyüklüğünde deprem\n[haberler · 20:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[sabah · 20:05] Akdeniz'de deprem! AFAD açıkladı: Muğla Datça açıklarında 5.1 büyüklüğünde sarsıntı\n[diken · 20:07] Muğla açıklarında 5,1 büyüklüğünde deprem\n[birgun · 20:08] AFAD duyurdu: Datça açıklarında 5,1 büyüklüğünde deprem\n[ahaber · 20:08] Muğla Datça açıklarında 5,1 büyüklüğünde deprem!\n[onedio · 20:09] AFAD Depremi Açıkladı: Muğla'da 5,1 Büyüklüğünde Deprem Oldu\n[trthaber · 20:11] Akdeniz'de 5,1 büyüklüğünde deprem\n[star · 20:11] AFAD büyüklüğünü açıkladı: Muğla açıklarında 5.1 büyüklüğünde deprem — AFAD verilerine göre merkez üssü Akdeniz olan deprem, Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi. Sarsıntının 9,07 kilometre derinlikte meydana geldiği belirlendi.\n[mynet · 20:16] Akdeniz'de 5,1 büyüklüğünde deprem!\n[aksam · 20:18] AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem\n[dirilis · 20:21] Akdeniz'de 5,1 büyüklüğünde deprem\n[ntv · 20:23] Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem\n[milligazete · 20:26] Akdeniz'de 5,1 büyüklüğünde deprem\n[cnnturk · 23:12] SON DAKİKA HABERİ: Muğla açıklarında 5.1 büyüklüğünde deprem — Son dakika haberine göre; AFAD, Muğla'nın Datça ilçesi açıklarında 5.1 büyüklüğünde depremin meydana geldiğini bildirdi.\n[milliyet · 18:50] Kolombiya'da 5,4 büyüklüğünde deprem — ABD Jeolojik Araştırmalar Merkezi (USGS), depremin merkez üssünün Tolima yönetim bölgesine bağlı Rioblanco ilçesinin 24 kilometre kuzeybatısı olduğunu açıkladı. Depremin derinliğinin 10 kilometre, büyüklüğünün ise 5,4 olduğu kaydedildi. İlk belirlemelere göre Tolima'ya bağlı …"
+  },
+  {
+   "key": "s4989__source-confusion",
+   "output_file": "runs/bg/explain/s4989__source-confusion.json",
+   "event_title": "Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem",
+   "concept": "Source Confusion",
+   "definition": "Source confusion is difficulty or error in identifying where a remembered fact, image, or event came from, such as mistaking something heard, read, suggested, or imagined for direct experience. The Decision Lab labels this entry “Bias” but defines a memory-source error; source confusion can occur without faulty reasoning and source detachment can also support learning.",
+   "quotes": [
+    {
+     "quote": "Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Akdeniz açıklarında 3.8 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[cumhuriyet · 17:19] Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Akdeniz'de Yunanistan'ın Girit Adası açıklarında 3.8 büyüklüğünde deprem meydana geldi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[milliyet · 18:50] Kolombiya'da 5,4 büyüklüğünde deprem",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir başlık bilgiyi AFAD'a atfederek 'Ege Denizi' derken olay tanımı Akdeniz diyor; ayrıca farklı büyüklükte bir deprem aynı kümede yer alıyor.",
+   "skeptic_alternative": "Kümeleme algoritması farklı tarih ve yerdeki deprem haberlerini aynı olaya bağlamış olabilir; yayıncı hatası yok.",
+   "missing_context": [
+    "AFAD'ın ilgili saatteki bildirimleri",
+    "Açık bir düzeltme kaydı",
+    "Cumhuriyet ve Hürriyet haberlerinin hangi depreme ait olduğu",
+    "Haberlerin aynı depreme ait olup olmadığı",
+    "Her satırın yayın tarihi"
+   ],
+   "headlines": "[cumhuriyet · 17:19] Son dakika deprem... AFAD duyurdu: Ege Denizi'nde deprem!\n[aa · 08:10] Akdeniz'de 5,1 büyüklüğünde deprem\n[sozcu · 12:23] Son dakika: Akdeniz'de deprem!\n[hurriyet · 12:26] Akdeniz açıklarında 3.8 büyüklüğünde deprem — Akdeniz'de Yunanistan'ın Girit Adası açıklarında 3.8 büyüklüğünde deprem meydana geldi.\n[sondakika · 17:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[tgrt · 19:59] Datça açıklarında 5.1 büyüklüğünde deprem meydana geldi\n[haberturk · 20:04] Muğla açıklarında 5,1 büyüklüğünde deprem\n[haberler · 20:05] Muğla açıklarında 5.1 büyüklüğünde deprem\n[sabah · 20:05] Akdeniz'de deprem! AFAD açıkladı: Muğla Datça açıklarında 5.1 büyüklüğünde sarsıntı\n[diken · 20:07] Muğla açıklarında 5,1 büyüklüğünde deprem\n[birgun · 20:08] AFAD duyurdu: Datça açıklarında 5,1 büyüklüğünde deprem\n[ahaber · 20:08] Muğla Datça açıklarında 5,1 büyüklüğünde deprem!\n[onedio · 20:09] AFAD Depremi Açıkladı: Muğla'da 5,1 Büyüklüğünde Deprem Oldu\n[trthaber · 20:11] Akdeniz'de 5,1 büyüklüğünde deprem\n[star · 20:11] AFAD büyüklüğünü açıkladı: Muğla açıklarında 5.1 büyüklüğünde deprem — AFAD verilerine göre merkez üssü Akdeniz olan deprem, Muğla'nın Datça ilçesine 253 kilometre uzaklıkta kaydedildi. Sarsıntının 9,07 kilometre derinlikte meydana geldiği belirlendi.\n[mynet · 20:16] Akdeniz'de 5,1 büyüklüğünde deprem!\n[aksam · 20:18] AFAD büyüklüğünü duyurdu: Muğla açıklarında korkutan deprem\n[dirilis · 20:21] Akdeniz'de 5,1 büyüklüğünde deprem\n[ntv · 20:23] Akdeniz'de Muğla açıklarında 5.1 büyüklüğünde deprem\n[milligazete · 20:26] Akdeniz'de 5,1 büyüklüğünde deprem\n[cnnturk · 23:12] SON DAKİKA HABERİ: Muğla açıklarında 5.1 büyüklüğünde deprem — Son dakika haberine göre; AFAD, Muğla'nın Datça ilçesi açıklarında 5.1 büyüklüğünde depremin meydana geldiğini bildirdi.\n[milliyet · 18:50] Kolombiya'da 5,4 büyüklüğünde deprem — ABD Jeolojik Araştırmalar Merkezi (USGS), depremin merkez üssünün Tolima yönetim bölgesine bağlı Rioblanco ilçesinin 24 kilometre kuzeybatısı olduğunu açıkladı. Depremin derinliğinin 10 kilometre, büyüklüğünün ise 5,4 olduğu kaydedildi. İlk belirlemelere göre Tolima'ya bağlı …"
+  },
+  {
+   "key": "s5051__framing-effect",
+   "output_file": "runs/bg/explain/s5051__framing-effect.json",
+   "event_title": "Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Dünya Gazetesi’nin sahibi gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Dünya Gazetesi'nin patronu Umut Güner fon soruşturmasından gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberler · 10:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[diken · 14:48] Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı kişi 'sahibi', 'patronu' ve 'ortağı' olarak farklı çerçevelerle sunulmuş; ancak bu sunuma dayalı bir tercih metinde yok.",
+   "skeptic_alternative": "Kurumlar farklı ajans metinlerini veya şirket yapısına dair farklı bilgiyi kullanmış olabilir.",
+   "missing_context": [
+    "Güner'in Dünya Gazetesi'ndeki kesin ortaklık/kontrol yapısı",
+    "Güner'in gazetedeki kesin rolü",
+    "Sunuma bağlı bir yargı ya da karar"
+   ],
+   "headlines": "[sabah · 23:47] Dünya Gazetesi’nin sahibi gözaltında\n[sondakika · 07:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[sozcu · 10:39] Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı\n[birgun · 10:41] Fon soruşturması: Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[haberler · 10:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[mynet · 10:47] Son dakika | Dünya Gazetesi sahibi Umut Güner gözaltında! Fon soruşturmasında yeni gelişme\n[tgrt · 10:47] Fon soruşturmasında yeni gelişme: Umut Güner gözaltına alındı\n[onedio · 10:51] Dünya Gazetesi’nin Sahibi Umut Güner Gözaltına Alındı\n[karar · 10:52] Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı — İstanbul Cumhuriyet Başsavcılığının yürüttüğü fon soruşturması kapsamında iş insanı Umut Güner gözaltına alındı. Güner’in sahibi olduğu Dünya Holding’de Bulls Yatırım Holding’in yüzde 20,45, Güner’in ise doğrudan yüzde 10,22 sermaye payı bulunuyor. Bulls Portföy tarafından …\n[milligazete · 11:00] Fon soruşturmasında yeni gelişme! Umut Güner gözaltında\n[yenisafak · 11:05] Dünya Gazetesi'nin patronu Umut Güner fon soruşturmasından gözaltında\n[cumhuriyet · 11:14] Son Dakika... Fon soruşturmasında yeni gelişme: Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[akit · 11:47] Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı\n[trthaber · 14:42] Fon soruşturması kapsamında Umut Güner gözaltında\n[dirilis · 14:43] Umut Güner neden gözaltına alındı? Fon soruşturması\n[diken · 14:48] Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[ahaber · 15:05] Fon soruşturması kapsamında Umut Güner gözaltına alındı\n[haberturk · 15:07] Fon soruşturmasında Umut Güner gözaltına alındı\n[star · 15:42] Fon soruşturması! Dünya gazetesinin sahibi Umut Güner gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturması kapsamında Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı.\n[aksam · 15:43] Fon soruşturması derinleşiyor! Umut Güner gözaltına alındı\n[ntv · 16:09] Fon soruşturması. Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[turkiyegz · 16:09] Fon soruşturmasında yeni gelişme! Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı"
+  },
+  {
+   "key": "s5051__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5051__leveling-and-sharpening.json",
+   "event_title": "Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Dünya Gazetesi’nin sahibi gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Güner’in ise doğrudan yüzde 10,22 sermaye payı bulunuyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturması! Dünya gazetesinin sahibi Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Güner’in sahibi olduğu Dünya Holding’de Bulls Yatırım Holding’in yüzde 20,45, Güner’in ise doğrudan yüzde 10,22 sermaye payı bulunuyor.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sabah · 23:47] Dünya Gazetesi’nin sahibi gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sozcu · 10:39] Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Karar'daki yüzde 10,22 doğrudan pay bilgisi temel alındığında 'sahibi' ifadesi rolü büyütüyor (keskinleştirme), 'ortaklarından' ise daha sınırlı bir rol veriyor.",
+   "skeptic_alternative": "Aynı özet 'Güner'in sahibi olduğu Dünya Holding' de diyor; 'sahibi' ifadesi kamuoyunda yerleşik kullanım olabilir.",
+   "missing_context": [
+    "Farkın bir sonuca etkisini gösteren kanıt",
+    "Gazetenin hukuki sahiplik yapısı",
+    "Holding ile gazete arasındaki sahiplik zinciri",
+    "Resmi savcılık açıklaması"
+   ],
+   "headlines": "[sabah · 23:47] Dünya Gazetesi’nin sahibi gözaltında\n[sondakika · 07:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[sozcu · 10:39] Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı\n[birgun · 10:41] Fon soruşturması: Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[haberler · 10:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[mynet · 10:47] Son dakika | Dünya Gazetesi sahibi Umut Güner gözaltında! Fon soruşturmasında yeni gelişme\n[tgrt · 10:47] Fon soruşturmasında yeni gelişme: Umut Güner gözaltına alındı\n[onedio · 10:51] Dünya Gazetesi’nin Sahibi Umut Güner Gözaltına Alındı\n[karar · 10:52] Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı — İstanbul Cumhuriyet Başsavcılığının yürüttüğü fon soruşturması kapsamında iş insanı Umut Güner gözaltına alındı. Güner’in sahibi olduğu Dünya Holding’de Bulls Yatırım Holding’in yüzde 20,45, Güner’in ise doğrudan yüzde 10,22 sermaye payı bulunuyor. Bulls Portföy tarafından …\n[milligazete · 11:00] Fon soruşturmasında yeni gelişme! Umut Güner gözaltında\n[yenisafak · 11:05] Dünya Gazetesi'nin patronu Umut Güner fon soruşturmasından gözaltında\n[cumhuriyet · 11:14] Son Dakika... Fon soruşturmasında yeni gelişme: Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[akit · 11:47] Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı\n[trthaber · 14:42] Fon soruşturması kapsamında Umut Güner gözaltında\n[dirilis · 14:43] Umut Güner neden gözaltına alındı? Fon soruşturması\n[diken · 14:48] Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[ahaber · 15:05] Fon soruşturması kapsamında Umut Güner gözaltına alındı\n[haberturk · 15:07] Fon soruşturmasında Umut Güner gözaltına alındı\n[star · 15:42] Fon soruşturması! Dünya gazetesinin sahibi Umut Güner gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturması kapsamında Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı.\n[aksam · 15:43] Fon soruşturması derinleşiyor! Umut Güner gözaltına alındı\n[ntv · 16:09] Fon soruşturması. Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[turkiyegz · 16:09] Fon soruşturmasında yeni gelişme! Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı"
+  },
+  {
+   "key": "s5051__salience-bias",
+   "output_file": "runs/bg/explain/s5051__salience-bias.json",
+   "event_title": "Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Fon soruşturması derinleşiyor! Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[akit · 11:47] Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar 'derinleşiyor', 'sıcak gelişme' gibi çarpıcı ifadeler kullanmış; bunun bir yargıyı haksız biçimde yönlendirdiği gösterilmiyor.",
+   "skeptic_alternative": "Son dakika üslubu, olayın haber değerini öne çıkarmak için standart bir tercih olabilir.",
+   "missing_context": [
+    "Daha az çarpıcı bilgilerle karşılaştırmalı ağırlık",
+    "Soruşturmanın içeriği ve suçlamalar",
+    "Çarpıcı ayrıntının bir yargıya bağlandığı açık ifade"
+   ],
+   "headlines": "[sabah · 23:47] Dünya Gazetesi’nin sahibi gözaltında\n[sondakika · 07:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[sozcu · 10:39] Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı\n[birgun · 10:41] Fon soruşturması: Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[haberler · 10:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[mynet · 10:47] Son dakika | Dünya Gazetesi sahibi Umut Güner gözaltında! Fon soruşturmasında yeni gelişme\n[tgrt · 10:47] Fon soruşturmasında yeni gelişme: Umut Güner gözaltına alındı\n[onedio · 10:51] Dünya Gazetesi’nin Sahibi Umut Güner Gözaltına Alındı\n[karar · 10:52] Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı — İstanbul Cumhuriyet Başsavcılığının yürüttüğü fon soruşturması kapsamında iş insanı Umut Güner gözaltına alındı. Güner’in sahibi olduğu Dünya Holding’de Bulls Yatırım Holding’in yüzde 20,45, Güner’in ise doğrudan yüzde 10,22 sermaye payı bulunuyor. Bulls Portföy tarafından …\n[milligazete · 11:00] Fon soruşturmasında yeni gelişme! Umut Güner gözaltında\n[yenisafak · 11:05] Dünya Gazetesi'nin patronu Umut Güner fon soruşturmasından gözaltında\n[cumhuriyet · 11:14] Son Dakika... Fon soruşturmasında yeni gelişme: Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[akit · 11:47] Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı\n[trthaber · 14:42] Fon soruşturması kapsamında Umut Güner gözaltında\n[dirilis · 14:43] Umut Güner neden gözaltına alındı? Fon soruşturması\n[diken · 14:48] Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[ahaber · 15:05] Fon soruşturması kapsamında Umut Güner gözaltına alındı\n[haberturk · 15:07] Fon soruşturmasında Umut Güner gözaltına alındı\n[star · 15:42] Fon soruşturması! Dünya gazetesinin sahibi Umut Güner gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturması kapsamında Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı.\n[aksam · 15:43] Fon soruşturması derinleşiyor! Umut Güner gözaltına alındı\n[ntv · 16:09] Fon soruşturması. Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[turkiyegz · 16:09] Fon soruşturmasında yeni gelişme! Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı"
+  },
+  {
+   "key": "s5051__authority-bias",
+   "output_file": "runs/bg/explain/s5051__authority-bias.json",
+   "event_title": "Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "İstanbul Cumhuriyet Başsavcılığının yürüttüğü fon soruşturması kapsamında iş insanı Umut Güner gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Cumhuriyet Başsavcılığının yürüttüğü fon soruşturması kapsamında",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Haber Başsavcılığı kaynak olarak gösteriyor; ancak bu otoritenin iddiaların değerlendirilmesinin yerine geçtiği belirtilmiyor.",
+   "skeptic_alternative": "Gözaltı haberinde yetkili makamı kaynak göstermek olağan ve yerinde bir pratiktir.",
+   "missing_context": [
+    "Güner tarafının açıklaması",
+    "Karşı tarafın açıklaması",
+    "Otoriteye dayalı bir değerlendirme cümlesi",
+    "Suçlamaların dayanağı"
+   ],
+   "headlines": "[sabah · 23:47] Dünya Gazetesi’nin sahibi gözaltında\n[sondakika · 07:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[sozcu · 10:39] Dünya Gazetesi’nin ortağı Umut Güner gözaltına alındı\n[birgun · 10:41] Fon soruşturması: Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[haberler · 10:44] Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[mynet · 10:47] Son dakika | Dünya Gazetesi sahibi Umut Güner gözaltında! Fon soruşturmasında yeni gelişme\n[tgrt · 10:47] Fon soruşturmasında yeni gelişme: Umut Güner gözaltına alındı\n[onedio · 10:51] Dünya Gazetesi’nin Sahibi Umut Güner Gözaltına Alındı\n[karar · 10:52] Dünya Gazetesi’nin sahibi Umut Güner fon soruşturmasında gözaltına alındı — İstanbul Cumhuriyet Başsavcılığının yürüttüğü fon soruşturması kapsamında iş insanı Umut Güner gözaltına alındı. Güner’in sahibi olduğu Dünya Holding’de Bulls Yatırım Holding’in yüzde 20,45, Güner’in ise doğrudan yüzde 10,22 sermaye payı bulunuyor. Bulls Portföy tarafından …\n[milligazete · 11:00] Fon soruşturmasında yeni gelişme! Umut Güner gözaltında\n[yenisafak · 11:05] Dünya Gazetesi'nin patronu Umut Güner fon soruşturmasından gözaltında\n[cumhuriyet · 11:14] Son Dakika... Fon soruşturmasında yeni gelişme: Dünya gazetesinin sahibi Umut Güner gözaltına alındı\n[akit · 11:47] Fon soruşturmasında sıcak gelişme! Umut Güner gözaltına alındı\n[trthaber · 14:42] Fon soruşturması kapsamında Umut Güner gözaltında\n[dirilis · 14:43] Umut Güner neden gözaltına alındı? Fon soruşturması\n[diken · 14:48] Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[ahaber · 15:05] Fon soruşturması kapsamında Umut Güner gözaltına alındı\n[haberturk · 15:07] Fon soruşturmasında Umut Güner gözaltına alındı\n[star · 15:42] Fon soruşturması! Dünya gazetesinin sahibi Umut Güner gözaltına alındı — Sermaye piyasalarında gerçekleştirilen işlemlere ilişkin yürütülen fon soruşturması kapsamında Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı.\n[aksam · 15:43] Fon soruşturması derinleşiyor! Umut Güner gözaltına alındı\n[ntv · 16:09] Fon soruşturması. Dünya gazetesinin ortaklarından Umut Güner gözaltına alındı\n[turkiyegz · 16:09] Fon soruşturmasında yeni gelişme! Dünya Gazetesi'nin ortaklarından Umut Güner gözaltına alındı"
+  },
+  {
+   "key": "s4546__framing-effect",
+   "output_file": "runs/bg/explain/s4546__framing-effect.json",
+   "event_title": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesi'ne yolsuzluk operasyonu: 58 kişi gözaltında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[trthaber · 07:19] Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı operasyon siyasi zamanlama, 'yolsuzluk' veya 'rüşvet' çerçeveleriyle sunulmuş; çerçeveye dayalı bir tercih metinde açıkça yok.",
+   "skeptic_alternative": "Zamanlama bilgisi haber değeri taşıyan gerçek bir bağlam olabilir; farklı vurgu çerçeveleme hatası sayılmaz.",
+   "missing_context": [
+    "Operasyon zamanlamasıyla siyasi gelişme arasında bağ olup olmadığına dair bilgi",
+    "Çerçevelerin olgusal eşdeğerliğini açıkça belirten ifade",
+    "Çerçeveye bağlı bir yargı"
+   ],
+   "headlines": "[star · 06:58] Bakırköy Belediyesi'ne yolsuzluk operasyonu: Çok sayıda isim için gözaltı kararı — Bakırköy Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'irtikap' suçlarına ilişkin başlatılan soruşturma kapsamında 58 şüpheli gözaltına alındı.\n[sozcu · 06:59] SON DAKİKA...Bakırköy Belediyesi'ne operasyon: Çok sayıda gözaltı kararı\n[yenisafak · 07:00] Bakırköy Belediyesine operasyon: 68 kişi hakkında gözaltı kararı\n[tgrt · 07:00] Bakırköy Belediyesine operasyon: 68 şüpheli hakkında gözaltı kararı\n[ahaber · 07:06] Bakırköy Belediyesi'ne ihale operasyonu: Başkan yardımcıları ve meclis üyelerinin de olduğu 68 kişi için gözaltı kararı\n[turkiyegz · 07:09] Bakırköy Belediyesi'ne yolsuzluk operasyonu: 58 kişi gözaltında\n[mynet · 07:10] Bakırköy Belediyesi'ne operasyon! 68 gözaltı kararı\n[cumhuriyet · 07:12] Son dakika... Bakırköy Belediyesi’ne operasyon: Çok sayıda gözaltı kararı var\n[haberturk · 07:12] Bakırköy Belediyesi'ne operasyon: 68 gözaltı\n[karar · 07:15] Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı — İstanbul'da Bakırköy, Çatalca, Küçükçekmece ve Büyükçekmece belediye başkanları ile 110 belediye meclis üyesinin bugün saat 14.00'te Yeni Parti'ye katılacaklarını açıklamaları beklenirken, sabah saatlerinde Bakırköy Belediyesi'ne operasyon başlatıldı. Bakırköy Cumhuriyet …\n[takvim · 07:18] Bakırköy Belediyesi'ne ihale ve irtikap soruşturması! 68 şüpheliden 58'i gözaltına alındı\n[milligazete · 07:19] Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı\n[trthaber · 07:19] Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı\n[akit · 07:23] Son dakika! Bakırköy Belediyesi'ne dev operasyon!\n[haberler · 07:26] Bakırköy Belediyesi'ndeki soruşturmada 68 şüpheli için gözaltı kararı çıkarıldı\n[aa · 07:43] Bakırköy Belediyesine yönelik soruşturmada 58 şüpheli gözaltına alındı\n[tele1 · 07:47] Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı\n[sabah · 08:09] SON DAKİKA | Bakırköy Belediyesi'ne 'ihale' operasyonu: 68 gözaltı kararı! 2024-2026 yıllarına ait 42 ihale mercek altında\n[yeniasya · 10:03] Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı\n[aksam · 10:54] Bakırköy Belediyesi'ne yolsuzluk operasyonu! 58 şüpheli gözaltına alındı\n[ntv · 10:59] Bakırköy Belediyesi'ne operasyon. 68 şüpheli için gözaltı kararı\n[sondakika · 12:18] Bakırköy Belediyesi'ne yönelik operasyonda 68 kişiden 57'si gözaltına alındı"
+  },
+  {
+   "key": "s4546__salience-bias",
+   "output_file": "runs/bg/explain/s4546__salience-bias.json",
+   "event_title": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Son dakika! Bakırköy Belediyesi'ne dev operasyon!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Başkan yardımcıları ve meclis üyelerinin de olduğu 68 kişi için gözaltı kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[akit · 07:23] Son dakika! Bakırköy Belediyesi'ne dev operasyon!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Dev operasyon' ve üst düzey isimlerin öne çıkarılması dikkat çekici unsurları büyütüyor; haksız etki gösterilmiyor.",
+   "skeptic_alternative": "68 kişilik operasyon için büyüklük vurgusu orantılı görülebilir.",
+   "missing_context": [
+    "Benzer operasyonların ölçeği",
+    "Çarpıcı ayrıntının bir yargıya bağlandığı açık ifade"
+   ],
+   "headlines": "[star · 06:58] Bakırköy Belediyesi'ne yolsuzluk operasyonu: Çok sayıda isim için gözaltı kararı — Bakırköy Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'irtikap' suçlarına ilişkin başlatılan soruşturma kapsamında 58 şüpheli gözaltına alındı.\n[sozcu · 06:59] SON DAKİKA...Bakırköy Belediyesi'ne operasyon: Çok sayıda gözaltı kararı\n[yenisafak · 07:00] Bakırköy Belediyesine operasyon: 68 kişi hakkında gözaltı kararı\n[tgrt · 07:00] Bakırköy Belediyesine operasyon: 68 şüpheli hakkında gözaltı kararı\n[ahaber · 07:06] Bakırköy Belediyesi'ne ihale operasyonu: Başkan yardımcıları ve meclis üyelerinin de olduğu 68 kişi için gözaltı kararı\n[turkiyegz · 07:09] Bakırköy Belediyesi'ne yolsuzluk operasyonu: 58 kişi gözaltında\n[mynet · 07:10] Bakırköy Belediyesi'ne operasyon! 68 gözaltı kararı\n[cumhuriyet · 07:12] Son dakika... Bakırköy Belediyesi’ne operasyon: Çok sayıda gözaltı kararı var\n[haberturk · 07:12] Bakırköy Belediyesi'ne operasyon: 68 gözaltı\n[karar · 07:15] Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı — İstanbul'da Bakırköy, Çatalca, Küçükçekmece ve Büyükçekmece belediye başkanları ile 110 belediye meclis üyesinin bugün saat 14.00'te Yeni Parti'ye katılacaklarını açıklamaları beklenirken, sabah saatlerinde Bakırköy Belediyesi'ne operasyon başlatıldı. Bakırköy Cumhuriyet …\n[takvim · 07:18] Bakırköy Belediyesi'ne ihale ve irtikap soruşturması! 68 şüpheliden 58'i gözaltına alındı\n[milligazete · 07:19] Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı\n[trthaber · 07:19] Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı\n[akit · 07:23] Son dakika! Bakırköy Belediyesi'ne dev operasyon!\n[haberler · 07:26] Bakırköy Belediyesi'ndeki soruşturmada 68 şüpheli için gözaltı kararı çıkarıldı\n[aa · 07:43] Bakırköy Belediyesine yönelik soruşturmada 58 şüpheli gözaltına alındı\n[tele1 · 07:47] Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı\n[sabah · 08:09] SON DAKİKA | Bakırköy Belediyesi'ne 'ihale' operasyonu: 68 gözaltı kararı! 2024-2026 yıllarına ait 42 ihale mercek altında\n[yeniasya · 10:03] Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı\n[aksam · 10:54] Bakırköy Belediyesi'ne yolsuzluk operasyonu! 58 şüpheli gözaltına alındı\n[ntv · 10:59] Bakırköy Belediyesi'ne operasyon. 68 şüpheli için gözaltı kararı\n[sondakika · 12:18] Bakırköy Belediyesi'ne yönelik operasyonda 68 kişiden 57'si gözaltına alındı"
+  },
+  {
+   "key": "s4546__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4546__leveling-and-sharpening.json",
+   "event_title": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Bakırköy Belediyesi'ne operasyon: 68 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "68 şüpheliden 58'i gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakırköy Belediyesi'ne yönelik operasyonda 68 kişiden 57'si gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "SON DAKİKA...Bakırköy Belediyesi'ne operasyon: Çok sayıda gözaltı kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[takvim · 07:18] Bakırköy Belediyesi'ne ihale ve irtikap soruşturması! 68 şüpheliden 58'i gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberturk · 07:12] Bakırköy Belediyesi'ne operasyon: 68 gözaltı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "68 kişiden 57'si gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "68 gözaltı kararı ile 58 (veya 57) fiili gözaltı arasındaki ayrım bazı başlıklarda '68 gözaltı' olarak düzleştirilmiş, bazılarında sayı tamamen çıkarılmış.",
+   "skeptic_alternative": "Erken saatlerde sayılar güncelleniyordu; farklılık zaman farkı ve başlık kısaltmasından kaynaklanabilir.",
+   "missing_context": [
+    "Başlıkların sonradan güncellenip güncellenmediği",
+    "Başlıkların yayımlandığı andaki resmi bilgiler",
+    "Başsavcılığın resmi açıklaması",
+    "Farkın bir sonuca etkisi"
+   ],
+   "headlines": "[star · 06:58] Bakırköy Belediyesi'ne yolsuzluk operasyonu: Çok sayıda isim için gözaltı kararı — Bakırköy Belediyesine yönelik 'ihaleye fesat karıştırma' ve 'irtikap' suçlarına ilişkin başlatılan soruşturma kapsamında 58 şüpheli gözaltına alındı.\n[sozcu · 06:59] SON DAKİKA...Bakırköy Belediyesi'ne operasyon: Çok sayıda gözaltı kararı\n[yenisafak · 07:00] Bakırköy Belediyesine operasyon: 68 kişi hakkında gözaltı kararı\n[tgrt · 07:00] Bakırköy Belediyesine operasyon: 68 şüpheli hakkında gözaltı kararı\n[ahaber · 07:06] Bakırköy Belediyesi'ne ihale operasyonu: Başkan yardımcıları ve meclis üyelerinin de olduğu 68 kişi için gözaltı kararı\n[turkiyegz · 07:09] Bakırköy Belediyesi'ne yolsuzluk operasyonu: 58 kişi gözaltında\n[mynet · 07:10] Bakırköy Belediyesi'ne operasyon! 68 gözaltı kararı\n[cumhuriyet · 07:12] Son dakika... Bakırköy Belediyesi’ne operasyon: Çok sayıda gözaltı kararı var\n[haberturk · 07:12] Bakırköy Belediyesi'ne operasyon: 68 gözaltı\n[karar · 07:15] Yeni Parti'ye katılım açıklamasına saatler kala Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı — İstanbul'da Bakırköy, Çatalca, Küçükçekmece ve Büyükçekmece belediye başkanları ile 110 belediye meclis üyesinin bugün saat 14.00'te Yeni Parti'ye katılacaklarını açıklamaları beklenirken, sabah saatlerinde Bakırköy Belediyesi'ne operasyon başlatıldı. Bakırköy Cumhuriyet …\n[takvim · 07:18] Bakırköy Belediyesi'ne ihale ve irtikap soruşturması! 68 şüpheliden 58'i gözaltına alındı\n[milligazete · 07:19] Bakırköy Belediyesi'ne operasyon: 68 kişi hakkında gözaltı kararı\n[trthaber · 07:19] Bakırköy Belediyesine \"rüşvet\" soruşturması: 68 gözaltı kararı\n[akit · 07:23] Son dakika! Bakırköy Belediyesi'ne dev operasyon!\n[haberler · 07:26] Bakırköy Belediyesi'ndeki soruşturmada 68 şüpheli için gözaltı kararı çıkarıldı\n[aa · 07:43] Bakırköy Belediyesine yönelik soruşturmada 58 şüpheli gözaltına alındı\n[tele1 · 07:47] Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı\n[sabah · 08:09] SON DAKİKA | Bakırköy Belediyesi'ne 'ihale' operasyonu: 68 gözaltı kararı! 2024-2026 yıllarına ait 42 ihale mercek altında\n[yeniasya · 10:03] Bakırköy Belediyesi'ne operasyon: 68 gözaltı kararı\n[aksam · 10:54] Bakırköy Belediyesi'ne yolsuzluk operasyonu! 58 şüpheli gözaltına alındı\n[ntv · 10:59] Bakırköy Belediyesi'ne operasyon. 68 şüpheli için gözaltı kararı\n[sondakika · 12:18] Bakırköy Belediyesi'ne yönelik operasyonda 68 kişiden 57'si gözaltına alındı"
+  }
+ ]
+}

@@ -1,0 +1,1522 @@
+{
+ "instructions": "Write plain Turkish for a general reader. For each item write {\"noticed\": ..., \"why\": ...} to its output_file. noticed = what the headlines show, naming the outlets. why = why that is not proof. Each field is 1-2 sentences, 40-320 characters. Use only quotes given in the item (inside “…”), exactly as given. Never use the words 'bağlam gerekli', 'desteklendi', 'uncertain'.",
+ "items": [
+  {
+   "key": "s5607__salience-bias",
+   "output_file": "runs/bg/explain/s5607__salience-bias.json",
+   "event_title": "Motosikletin çarptığı hamile kadın bebeğini kaybetti",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "6 aylık hamile kadın yerde metrelerce sürüklendi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Motosiklet dehşeti kamerada: Karnındaki 6 aylık bebeğini kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "kazaya neden olduğu öne sürülen bir otomobil sürücüsü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ankara'da motosiklet kazası: 6 aylık hamile kadın bebeğini kaybetti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Çarpıcı görsel ve duygusal ayrıntılar (sürüklenme, kamera, 'dehşet') başlıklarda öne çıkıyor; kazada otomobil sürücüsünün rolü ise çoğu başlıkta görünmüyor.",
+   "skeptic_alternative": "Kamera görüntüsünün varlığı habere içerik değeri katar; vurgulu dil tabloid üslup tercihi olabilir.",
+   "missing_context": [
+    "Ayrıntıların okuyucu yargısına etkisi",
+    "Benzer kazaların kurumlarca nasıl verildiği",
+    "Kaza sorumluluğuna dair resmî bilgi",
+    "Kazanın sorumluluğuna dair resmi bilgi"
+   ],
+   "headlines": "[sondakika · 11:26] Ankara Yenimahalle'de motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti\n[haberler · 14:10] Ankara'da yürürken motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti! O anlar kamerada\n[tgrt · 14:18] 6 aylık hamile kadın yerde metrelerce sürüklendi: Ağır yaralanan anne adayı bebeğini kaybetti\n[sabah · 14:19] Ankara’da motosiklet 3 yayaya çarptı! Hamile kadın karnındaki bebeği kaybetti: Kaza kamerada\n[haberturk · 14:28] Motosikletin çarptığı hamile kadın ağır yaralandı, bebeğini kaybetti!\n[sozcu · 15:01] Motosiklet dehşeti kamerada: Karnındaki 6 aylık bebeğini kaybetti\n[hurriyet · 15:07] Ankara'da motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti: Kaza anı kamerada — Ankara'nın Yenimahalle ilçesinde kontrolden çıkan motosikletin çarptığı 6 aylık hamile A.E. ağır yaralanırken, karnındaki bebeğini kaybetti. Güvenlik kamerasına yansıyan kazanın ardından motosiklet sürücüsü ile kazaya neden olduğu öne sürülen bir otomobil sürücüsü gözaltına …\n[karar · 15:10] Motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti! Kaza anı kamerada — Ankara'da motosikletin çarptığı 6 aylık hamile A.E., kazada karnındaki bebeğini kaybetti. Kadının ağır yaralandığı, motosiklet sürücüsü ile kazada yaralanan diğer iki kişinin ise tedavilerinin ardından taburcu edildiği öğrenildi. Kaza anı güvenlik kamerasına yansıdı.\n[ntv · 15:20] Motosikletin çarptığı hamile kadın bebeğini kaybetti\n[mynet · 15:31] Ankara'da kahreden kaza! Motosikletin çarptığı kadın, karnındaki bebeğini kaybetti\n[aksam · 15:41] Ankara'da kaldırımda facia: Hamile kadın bebeğini kaybetti\n[birgun · 15:51] Ankara'da motosiklet kazası: 6 aylık hamile kadın bebeğini kaybetti\n[trthaber · 16:10] Ankara'da motosikletlinin çarptığı hamile kadın bebeğini kaybetti\n[ahaber · 16:13] Ankara'da kahreden kaza! Motosikletin çarptığı hamile kadın bebeğini kaybetti\n[yenisafak · 16:23] Ankara'da yürek yakan kaza: Motosikletin çarptığı hamile kadın bebeğini kaybetti\n[turkiyegz · 16:49] Ankara'da motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti! O anlar kamerada\n[akit · 16:52] Ankara'da feci kaza: Hamile kadın 6 aylık bebeğini kaybetti!"
+  },
+  {
+   "key": "s5607__affect-heuristic",
+   "output_file": "runs/bg/explain/s5607__affect-heuristic.json",
+   "event_title": "Motosikletin çarptığı hamile kadın bebeğini kaybetti",
+   "concept": "Affect Heuristic",
+   "definition": "The affect heuristic is a quick judgment in which a person's positive or negative feeling toward an option informs perceived risk or benefit. It can be efficient, but may skew estimates when feeling substitutes for relevant evidence or criteria. Emotion itself is not evidence of an error.",
+   "quotes": [
+    {
+     "quote": "Ankara'da kahreden kaza!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ankara'da yürek yakan kaza:",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ankara'da kahreden kaza! Motosikletin çarptığı hamile kadın bebeğini kaybetti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Duygusal sıfatlar kullanılıyor; ancak bir duygunun risk/fayda tahminine veya karara bağlandığı metinde yok.",
+   "skeptic_alternative": "Duygusal dil trajik bir olayın aktarımında yaygın üslup tercihidir; karta göre tek başına yeterli değil.",
+   "missing_context": [
+    "Duygunun bir yargıyı değiştirdiğini gösteren karşılaştırma",
+    "Duyguya dayalı açık bir risk yargısı",
+    "Karşılaştırmalı davranış kanıtı"
+   ],
+   "headlines": "[sondakika · 11:26] Ankara Yenimahalle'de motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti\n[haberler · 14:10] Ankara'da yürürken motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti! O anlar kamerada\n[tgrt · 14:18] 6 aylık hamile kadın yerde metrelerce sürüklendi: Ağır yaralanan anne adayı bebeğini kaybetti\n[sabah · 14:19] Ankara’da motosiklet 3 yayaya çarptı! Hamile kadın karnındaki bebeği kaybetti: Kaza kamerada\n[haberturk · 14:28] Motosikletin çarptığı hamile kadın ağır yaralandı, bebeğini kaybetti!\n[sozcu · 15:01] Motosiklet dehşeti kamerada: Karnındaki 6 aylık bebeğini kaybetti\n[hurriyet · 15:07] Ankara'da motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti: Kaza anı kamerada — Ankara'nın Yenimahalle ilçesinde kontrolden çıkan motosikletin çarptığı 6 aylık hamile A.E. ağır yaralanırken, karnındaki bebeğini kaybetti. Güvenlik kamerasına yansıyan kazanın ardından motosiklet sürücüsü ile kazaya neden olduğu öne sürülen bir otomobil sürücüsü gözaltına …\n[karar · 15:10] Motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti! Kaza anı kamerada — Ankara'da motosikletin çarptığı 6 aylık hamile A.E., kazada karnındaki bebeğini kaybetti. Kadının ağır yaralandığı, motosiklet sürücüsü ile kazada yaralanan diğer iki kişinin ise tedavilerinin ardından taburcu edildiği öğrenildi. Kaza anı güvenlik kamerasına yansıdı.\n[ntv · 15:20] Motosikletin çarptığı hamile kadın bebeğini kaybetti\n[mynet · 15:31] Ankara'da kahreden kaza! Motosikletin çarptığı kadın, karnındaki bebeğini kaybetti\n[aksam · 15:41] Ankara'da kaldırımda facia: Hamile kadın bebeğini kaybetti\n[birgun · 15:51] Ankara'da motosiklet kazası: 6 aylık hamile kadın bebeğini kaybetti\n[trthaber · 16:10] Ankara'da motosikletlinin çarptığı hamile kadın bebeğini kaybetti\n[ahaber · 16:13] Ankara'da kahreden kaza! Motosikletin çarptığı hamile kadın bebeğini kaybetti\n[yenisafak · 16:23] Ankara'da yürek yakan kaza: Motosikletin çarptığı hamile kadın bebeğini kaybetti\n[turkiyegz · 16:49] Ankara'da motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti! O anlar kamerada\n[akit · 16:52] Ankara'da feci kaza: Hamile kadın 6 aylık bebeğini kaybetti!"
+  },
+  {
+   "key": "s5607__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5607__leveling-and-sharpening.json",
+   "event_title": "Motosikletin çarptığı hamile kadın bebeğini kaybetti",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "[sabah · 14:19] Ankara’da motosiklet 3 yayaya çarptı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "motosiklet sürücüsü ile kazaya neden olduğu öne sürülen bir otomobil sürücüsü gözaltına",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 15:20] Motosikletin çarptığı hamile kadın bebeğini kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "motosiklet sürücüsü ile kazada yaralanan diğer iki kişinin ise tedavilerinin ardından taburcu edildiği",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ankara’da motosiklet 3 yayaya çarptı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Motosikletin çarptığı hamile kadın bebeğini kaybetti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Hürriyet ve Sabah otomobil sürücüsünün olası rolünü ve diğer yaralıları aktarırken çoğu başlık bunları düşürüp kazayı yalnızca motosiklete bağlıyor.",
+   "skeptic_alternative": "Başlık uzunluğu kısıtı ve ilk bilgi akışı farkı; ayrıntılar haber gövdelerinde verilmiş olabilir.",
+   "missing_context": [
+    "Haber gövdeleri",
+    "Haber gövdelerinin tam metni",
+    "Kaza tespit tutanağı",
+    "Kazanın oluşuna dair resmi açıklama"
+   ],
+   "headlines": "[sondakika · 11:26] Ankara Yenimahalle'de motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti\n[haberler · 14:10] Ankara'da yürürken motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti! O anlar kamerada\n[tgrt · 14:18] 6 aylık hamile kadın yerde metrelerce sürüklendi: Ağır yaralanan anne adayı bebeğini kaybetti\n[sabah · 14:19] Ankara’da motosiklet 3 yayaya çarptı! Hamile kadın karnındaki bebeği kaybetti: Kaza kamerada\n[haberturk · 14:28] Motosikletin çarptığı hamile kadın ağır yaralandı, bebeğini kaybetti!\n[sozcu · 15:01] Motosiklet dehşeti kamerada: Karnındaki 6 aylık bebeğini kaybetti\n[hurriyet · 15:07] Ankara'da motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti: Kaza anı kamerada — Ankara'nın Yenimahalle ilçesinde kontrolden çıkan motosikletin çarptığı 6 aylık hamile A.E. ağır yaralanırken, karnındaki bebeğini kaybetti. Güvenlik kamerasına yansıyan kazanın ardından motosiklet sürücüsü ile kazaya neden olduğu öne sürülen bir otomobil sürücüsü gözaltına …\n[karar · 15:10] Motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti! Kaza anı kamerada — Ankara'da motosikletin çarptığı 6 aylık hamile A.E., kazada karnındaki bebeğini kaybetti. Kadının ağır yaralandığı, motosiklet sürücüsü ile kazada yaralanan diğer iki kişinin ise tedavilerinin ardından taburcu edildiği öğrenildi. Kaza anı güvenlik kamerasına yansıdı.\n[ntv · 15:20] Motosikletin çarptığı hamile kadın bebeğini kaybetti\n[mynet · 15:31] Ankara'da kahreden kaza! Motosikletin çarptığı kadın, karnındaki bebeğini kaybetti\n[aksam · 15:41] Ankara'da kaldırımda facia: Hamile kadın bebeğini kaybetti\n[birgun · 15:51] Ankara'da motosiklet kazası: 6 aylık hamile kadın bebeğini kaybetti\n[trthaber · 16:10] Ankara'da motosikletlinin çarptığı hamile kadın bebeğini kaybetti\n[ahaber · 16:13] Ankara'da kahreden kaza! Motosikletin çarptığı hamile kadın bebeğini kaybetti\n[yenisafak · 16:23] Ankara'da yürek yakan kaza: Motosikletin çarptığı hamile kadın bebeğini kaybetti\n[turkiyegz · 16:49] Ankara'da motosikletin çarptığı 6 aylık hamile kadın bebeğini kaybetti! O anlar kamerada\n[akit · 16:52] Ankara'da feci kaza: Hamile kadın 6 aylık bebeğini kaybetti!"
+  },
+  {
+   "key": "s4257__framing-effect",
+   "output_file": "runs/bg/explain/s4257__framing-effect.json",
+   "event_title": "Sırbistan'da Vucic seçim yenilgisini kabul etti",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "İsrail yanlısı Vucic 'öğrenciler' karşısında yenilgiyi kabul etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İsrail ile yakınlığı dikkat çeken Vucic yenilgiyi kabul etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sabah · 02:44] Sırbistan'da Vucic seçim mağlubiyetini kabul etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İsrail Başbakanı Netanyahu’nun \"dostum\" diyerek yakın ilişkiler kurduğu Sırp lider",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sırbistan erken genel seçim: Vucic yenilgiyi kabul etti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı yenilgi haberi bazı kurumlarda Vucic'in İsrail ile ilişkisi üzerinden çerçeveleniyor, diğerlerinde nötr veriliyor; çerçeveye dayalı bir değerlendirme açıkça kurulmuyor.",
+   "skeptic_alternative": "Vucic'in İsrail ile ilişkisi kurumlarca haber değeri taşıyan bir arka plan bilgisi olarak görülmüş olabilir.",
+   "missing_context": [
+    "Bir tercih ya da yargının çerçeveye bağlandığı açık ifade",
+    "Nitelendirmenin dayandığı kaynak",
+    "Çerçevenin okuyucu değerlendirmesini değiştirdiğine dair veri"
+   ],
+   "headlines": "[aa · 11:54] Sırbistan'da başbakan adayı Vucic, \"Öğrenci Listesi\" karşısında seçim mağlubiyetini kabul etti\n[haberler · 23:38] Sırbistan’da 12 yıllık Vucic iktidarı son buldu: Yenilgiyi kabul etti\n[tgrt · 23:39] Sırbistan'da eski Cumhurbaşkanı Vucic başbakanlık seçiminde yenilgiyi kabul etti — Sırbistan'daki başbakanlık seçimiyle ilgili açıklama yapan eski Cumhurbaşkanı Aleksandar Vucic, yenilgiyi kabul etti. Vucic, Öğrenci Listesi'nin zaferini onaylarken muhalefetteki sorumluluklarını yerine getireceklerini söyledi.\n[turkiyegz · 23:48] Sırbistan’da Vucic iktidarı son buldu: Yenilgiyi kabul etti — İsrail Başbakanı Netanyahu’nun \"dostum\" diyerek yakın ilişkiler kurduğu Sırp lider Aleksandar Vucic, erken genel seçimlerde sandıkta ağır bir yenilgi alarak 14 yıllık iktidarını kaybetti.\n[ntv · 23:56] Sırbistan erken genel seçim: Vucic yenilgiyi kabul etti\n[sozcu · 00:01] Sırbistan'da Vucic seçim yenilgisini kabul etti: Kaybettik — Sırbistan'da gerçekleştirilen erken genel seçimin ardından, eski Cumhurbaşkanı Aleksandar Vucic, seçimi kaybettiklerini açıkladı. Vucic, \"Parlamentoda Öğrenci Listesi yaklaşık 135, biz ise yaklaşık 105 sandalye alacağız\" dedi.\n[cumhuriyet · 00:03] Sırbistan'da erken genel seçim... Vucic seçim yenilgisini kabul etti: 'Muhalefet olarak üzerimize düşeni yapacağız' — Sırbistan'da cumhurbaşkanlığı görevinden istifa eden ve SNS öncülüğündeki Aleksandar Vucic-Birleşmiş Sırbistan listesinin başbakan adayı olan Aleksandar Vucic, bugün yapılan erken genel seçimi kaybettiklerini açıkladı.\n[mynet · 00:06] Sırbistan'da Vucic, \"Öğrenci Listesi\" karşısında seçim mağlubiyetini kabul etti — Sırbistan'da cumhurbaşkanlığı görevinden istifa eden ve Sırp İlerleme Partisi (SNS) öncülüğündeki \"Aleksandar Vucic-Birleşmiş Sırbistan\" listesinin başbakan adayı olan Aleksandar Vucic, yapılan erken genel seçimde \"Öğrenci Listesi\" karşısında yenilgiyi kabul etti.\n[star · 00:13] Sırbistan'da seçim şoku: Vucic yenilgiyi kabul etti — Sırbistan'da cumhurbaşkanlığından istifa eden ve SNS öncülüğündeki listenin başbakan adayı Aleksandar Vucic, erken genel seçimi kaybettiklerini açıkladı. Vucic, Öğrenci Listesi'nin parlamentoda kendilerinden daha fazla milletvekiline sahip olacağını belirtti.\n[takvim · 01:10] Sırbistan'da 12 yıllık iktidar bitti! İsrail yanlısı Vucic 'öğrenciler' karşısında yenilgiyi kabul etti — Sırbistan'da yapılan erken genel seçimde 12 yıldır iktidarda olan Aleksandar Vucic, 'Öğrenci Listesi' hareketi karşısında yenilgiyi kabul etti.\n[sabah · 02:44] Sırbistan'da Vucic seçim mağlubiyetini kabul etti — Sırbistan’da Pazar günü düzenlenen genel seçimlerde başbakanlık için yarışan eski Cumhurbaşkanı Aleksandar Vucic, seçim yenilgisini kabul etti.\n[yeniasya · 03:40] Vucic, seçim mağlubiyetini kabul etti\n[trthaber · 05:20] Sırbistan'da aday Vucic, \"Öğrenci Listesi\" karşısında seçim mağlubiyetini kabul etti\n[bloomberght · 06:44] Sırbistan'da Vucic seçim yenilgisini kabul etti\n[haberturk · 07:17] Sırbistan'da tarihi seçim: 12 yıllık Vucic dönemi sona erdi, Vucic yenilgiyi kabul etti\n[aksam · 07:50] 12 yıllık iktidar sona erdi! İsrail ile yakınlığı dikkat çeken Vucic yenilgiyi kabul etti\n[tele1 · 09:52] Sırbistan'da seçimi 'Öğrenci Listesi' kazandı"
+  },
+  {
+   "key": "s4257__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4257__leveling-and-sharpening.json",
+   "event_title": "Sırbistan'da Vucic seçim yenilgisini kabul etti",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "sandıkta ağır bir yenilgi alarak 14 yıllık iktidarını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sırbistan’da 12 yıllık Vucic iktidarı son buldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "\"Parlamentoda Öğrenci Listesi yaklaşık 135, biz ise yaklaşık 105 sandalye alacağız\"",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "muhalefetteki sorumluluklarını yerine getireceklerini söyledi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Parlamentoda Öğrenci Listesi yaklaşık 135, biz ise yaklaşık 105 sandalye alacağız",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "İktidar süresi kurumlar arasında 12 ve 14 yıl olarak çelişiyor; Türkiye Gazetesi 'ağır yenilgi' diyerek keskinleştiriyor, sandalye sayıları ise çoğu başlıkta düşüyor.",
+   "skeptic_alternative": "Süre farkı başbakanlık ve cumhurbaşkanlığı dönemlerinin farklı sayılmasından kaynaklanabilir; 'ağır' nitelemesi yorum olabilir.",
+   "missing_context": [
+    "Kesin seçim sonuçları",
+    "Resmi seçim sonuçları",
+    "Vucic'in görev süresinin resmî kaydı",
+    "Vucic'in iktidar süresinin hesaplama yöntemi"
+   ],
+   "headlines": "[aa · 11:54] Sırbistan'da başbakan adayı Vucic, \"Öğrenci Listesi\" karşısında seçim mağlubiyetini kabul etti\n[haberler · 23:38] Sırbistan’da 12 yıllık Vucic iktidarı son buldu: Yenilgiyi kabul etti\n[tgrt · 23:39] Sırbistan'da eski Cumhurbaşkanı Vucic başbakanlık seçiminde yenilgiyi kabul etti — Sırbistan'daki başbakanlık seçimiyle ilgili açıklama yapan eski Cumhurbaşkanı Aleksandar Vucic, yenilgiyi kabul etti. Vucic, Öğrenci Listesi'nin zaferini onaylarken muhalefetteki sorumluluklarını yerine getireceklerini söyledi.\n[turkiyegz · 23:48] Sırbistan’da Vucic iktidarı son buldu: Yenilgiyi kabul etti — İsrail Başbakanı Netanyahu’nun \"dostum\" diyerek yakın ilişkiler kurduğu Sırp lider Aleksandar Vucic, erken genel seçimlerde sandıkta ağır bir yenilgi alarak 14 yıllık iktidarını kaybetti.\n[ntv · 23:56] Sırbistan erken genel seçim: Vucic yenilgiyi kabul etti\n[sozcu · 00:01] Sırbistan'da Vucic seçim yenilgisini kabul etti: Kaybettik — Sırbistan'da gerçekleştirilen erken genel seçimin ardından, eski Cumhurbaşkanı Aleksandar Vucic, seçimi kaybettiklerini açıkladı. Vucic, \"Parlamentoda Öğrenci Listesi yaklaşık 135, biz ise yaklaşık 105 sandalye alacağız\" dedi.\n[cumhuriyet · 00:03] Sırbistan'da erken genel seçim... Vucic seçim yenilgisini kabul etti: 'Muhalefet olarak üzerimize düşeni yapacağız' — Sırbistan'da cumhurbaşkanlığı görevinden istifa eden ve SNS öncülüğündeki Aleksandar Vucic-Birleşmiş Sırbistan listesinin başbakan adayı olan Aleksandar Vucic, bugün yapılan erken genel seçimi kaybettiklerini açıkladı.\n[mynet · 00:06] Sırbistan'da Vucic, \"Öğrenci Listesi\" karşısında seçim mağlubiyetini kabul etti — Sırbistan'da cumhurbaşkanlığı görevinden istifa eden ve Sırp İlerleme Partisi (SNS) öncülüğündeki \"Aleksandar Vucic-Birleşmiş Sırbistan\" listesinin başbakan adayı olan Aleksandar Vucic, yapılan erken genel seçimde \"Öğrenci Listesi\" karşısında yenilgiyi kabul etti.\n[star · 00:13] Sırbistan'da seçim şoku: Vucic yenilgiyi kabul etti — Sırbistan'da cumhurbaşkanlığından istifa eden ve SNS öncülüğündeki listenin başbakan adayı Aleksandar Vucic, erken genel seçimi kaybettiklerini açıkladı. Vucic, Öğrenci Listesi'nin parlamentoda kendilerinden daha fazla milletvekiline sahip olacağını belirtti.\n[takvim · 01:10] Sırbistan'da 12 yıllık iktidar bitti! İsrail yanlısı Vucic 'öğrenciler' karşısında yenilgiyi kabul etti — Sırbistan'da yapılan erken genel seçimde 12 yıldır iktidarda olan Aleksandar Vucic, 'Öğrenci Listesi' hareketi karşısında yenilgiyi kabul etti.\n[sabah · 02:44] Sırbistan'da Vucic seçim mağlubiyetini kabul etti — Sırbistan’da Pazar günü düzenlenen genel seçimlerde başbakanlık için yarışan eski Cumhurbaşkanı Aleksandar Vucic, seçim yenilgisini kabul etti.\n[yeniasya · 03:40] Vucic, seçim mağlubiyetini kabul etti\n[trthaber · 05:20] Sırbistan'da aday Vucic, \"Öğrenci Listesi\" karşısında seçim mağlubiyetini kabul etti\n[bloomberght · 06:44] Sırbistan'da Vucic seçim yenilgisini kabul etti\n[haberturk · 07:17] Sırbistan'da tarihi seçim: 12 yıllık Vucic dönemi sona erdi, Vucic yenilgiyi kabul etti\n[aksam · 07:50] 12 yıllık iktidar sona erdi! İsrail ile yakınlığı dikkat çeken Vucic yenilgiyi kabul etti\n[tele1 · 09:52] Sırbistan'da seçimi 'Öğrenci Listesi' kazandı"
+  },
+  {
+   "key": "s4257__salience-bias",
+   "output_file": "runs/bg/explain/s4257__salience-bias.json",
+   "event_title": "Sırbistan'da Vucic seçim yenilgisini kabul etti",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Sırbistan'da seçim şoku: Vucic yenilgiyi kabul etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sırbistan'da 12 yıllık iktidar bitti!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "12 yıllık iktidar sona erdi! İsrail ile yakınlığı dikkat çeken Vucic yenilgiyi kabul etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sırbistan'da Vucic seçim yenilgisini kabul etti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Şok' ve ünlem gibi çarpıcı vurgular var; bunların bir yargıyı haksız yönlendirdiği gösterilmiyor.",
+   "skeptic_alternative": "Türk okuru için dış politika bağlamı haber değeri taşıyabilir.",
+   "missing_context": [
+    "Kurumların benzer seçim haberlerindeki tutumu",
+    "Seçim öncesi beklentiler",
+    "İsrail bağlantısının seçimle ilgisine dair kaynak"
+   ],
+   "headlines": "[aa · 11:54] Sırbistan'da başbakan adayı Vucic, \"Öğrenci Listesi\" karşısında seçim mağlubiyetini kabul etti\n[haberler · 23:38] Sırbistan’da 12 yıllık Vucic iktidarı son buldu: Yenilgiyi kabul etti\n[tgrt · 23:39] Sırbistan'da eski Cumhurbaşkanı Vucic başbakanlık seçiminde yenilgiyi kabul etti — Sırbistan'daki başbakanlık seçimiyle ilgili açıklama yapan eski Cumhurbaşkanı Aleksandar Vucic, yenilgiyi kabul etti. Vucic, Öğrenci Listesi'nin zaferini onaylarken muhalefetteki sorumluluklarını yerine getireceklerini söyledi.\n[turkiyegz · 23:48] Sırbistan’da Vucic iktidarı son buldu: Yenilgiyi kabul etti — İsrail Başbakanı Netanyahu’nun \"dostum\" diyerek yakın ilişkiler kurduğu Sırp lider Aleksandar Vucic, erken genel seçimlerde sandıkta ağır bir yenilgi alarak 14 yıllık iktidarını kaybetti.\n[ntv · 23:56] Sırbistan erken genel seçim: Vucic yenilgiyi kabul etti\n[sozcu · 00:01] Sırbistan'da Vucic seçim yenilgisini kabul etti: Kaybettik — Sırbistan'da gerçekleştirilen erken genel seçimin ardından, eski Cumhurbaşkanı Aleksandar Vucic, seçimi kaybettiklerini açıkladı. Vucic, \"Parlamentoda Öğrenci Listesi yaklaşık 135, biz ise yaklaşık 105 sandalye alacağız\" dedi.\n[cumhuriyet · 00:03] Sırbistan'da erken genel seçim... Vucic seçim yenilgisini kabul etti: 'Muhalefet olarak üzerimize düşeni yapacağız' — Sırbistan'da cumhurbaşkanlığı görevinden istifa eden ve SNS öncülüğündeki Aleksandar Vucic-Birleşmiş Sırbistan listesinin başbakan adayı olan Aleksandar Vucic, bugün yapılan erken genel seçimi kaybettiklerini açıkladı.\n[mynet · 00:06] Sırbistan'da Vucic, \"Öğrenci Listesi\" karşısında seçim mağlubiyetini kabul etti — Sırbistan'da cumhurbaşkanlığı görevinden istifa eden ve Sırp İlerleme Partisi (SNS) öncülüğündeki \"Aleksandar Vucic-Birleşmiş Sırbistan\" listesinin başbakan adayı olan Aleksandar Vucic, yapılan erken genel seçimde \"Öğrenci Listesi\" karşısında yenilgiyi kabul etti.\n[star · 00:13] Sırbistan'da seçim şoku: Vucic yenilgiyi kabul etti — Sırbistan'da cumhurbaşkanlığından istifa eden ve SNS öncülüğündeki listenin başbakan adayı Aleksandar Vucic, erken genel seçimi kaybettiklerini açıkladı. Vucic, Öğrenci Listesi'nin parlamentoda kendilerinden daha fazla milletvekiline sahip olacağını belirtti.\n[takvim · 01:10] Sırbistan'da 12 yıllık iktidar bitti! İsrail yanlısı Vucic 'öğrenciler' karşısında yenilgiyi kabul etti — Sırbistan'da yapılan erken genel seçimde 12 yıldır iktidarda olan Aleksandar Vucic, 'Öğrenci Listesi' hareketi karşısında yenilgiyi kabul etti.\n[sabah · 02:44] Sırbistan'da Vucic seçim mağlubiyetini kabul etti — Sırbistan’da Pazar günü düzenlenen genel seçimlerde başbakanlık için yarışan eski Cumhurbaşkanı Aleksandar Vucic, seçim yenilgisini kabul etti.\n[yeniasya · 03:40] Vucic, seçim mağlubiyetini kabul etti\n[trthaber · 05:20] Sırbistan'da aday Vucic, \"Öğrenci Listesi\" karşısında seçim mağlubiyetini kabul etti\n[bloomberght · 06:44] Sırbistan'da Vucic seçim yenilgisini kabul etti\n[haberturk · 07:17] Sırbistan'da tarihi seçim: 12 yıllık Vucic dönemi sona erdi, Vucic yenilgiyi kabul etti\n[aksam · 07:50] 12 yıllık iktidar sona erdi! İsrail ile yakınlığı dikkat çeken Vucic yenilgiyi kabul etti\n[tele1 · 09:52] Sırbistan'da seçimi 'Öğrenci Listesi' kazandı"
+  },
+  {
+   "key": "s4570__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4570__leveling-and-sharpening.json",
+   "event_title": "Kırıkkale'de işçileri taşıyan midibüs devrildi! 14 kişi yaralandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "[sozcu · 09:30] Kırıkkale'de can pazarı: İşçileri taşıyan servis aracı devrildi, 14 yaralı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberler · 09:36] Kırıkkale'de işçileri taşıyan midibüs devrildi, 1'i ağır 15 kişi yaralandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sağanak sonrası feci kaza, Kırıkkale’de işçi servisi devrildi! 15 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kırıkkale'de servis midibüsü devrildi: Çok sayıda yaralı var!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kırıkkale'de can pazarı: İşçileri taşıyan servis aracı devrildi, 14 yaralı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kırıkkale'de işçileri taşıyan midibüs devrildi, 1'i ağır 15 kişi yaralandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Yaralı sayısı 14 ve 15 arasında değişiyor; yalnızca bir kurum yağışı nedensel bağlam olarak ekliyor, bazıları ağır yaralı bilgisini düşürüyor.",
+   "skeptic_alternative": "Farklı sayılar ilk bilgilerdeki belirsizlikten ve güncellemelerden kaynaklanabilir; fark maddi bir sonucu değiştirmiyor.",
+   "missing_context": [
+    "Kaza nedenine dair resmî bilgi",
+    "Kazanın nedenine dair resmi bilgi",
+    "Resmi yaralı sayısı",
+    "Resmî yaralı sayısı ve zamanı"
+   ],
+   "headlines": "[haberturk · 09:10] GÜNCELLEME - Kırıkkale'de midibüsün devrildiği kazada 15 kişi yaralandı\n[sozcu · 09:30] Kırıkkale'de can pazarı: İşçileri taşıyan servis aracı devrildi, 14 yaralı!\n[haberler · 09:36] Kırıkkale'de işçileri taşıyan midibüs devrildi, 1'i ağır 15 kişi yaralandı\n[yenisafak · 09:40] Kırıkkale'de midibüsün devrildiği kazada 14 kişi yaralandı\n[tgrt · 09:41] Kırıkkale'de feci kaza! İşçileri taşıyan servis devrildi: Çok sayıda yaralı var\n[sabah · 09:42] Kırıkkale'de işçi servisi devrildi: 1'i ağır 15 yaralı | Video\n[turkiyegz · 09:46] Sağanak sonrası feci kaza, Kırıkkale’de işçi servisi devrildi! 15 yaralı\n[star · 09:47] Kırıkkale'de feci kaza! İşçileri taşıyan servis devrildi: 15 yaralı\n[aksam · 09:48] Kırıkkale'de işçi midibüsü devrildi! 15 yaralı\n[birgun · 09:48] Kırıkkale'de midibüs devrildi: 1'i ağır 15 işçi yaralandı\n[dirilis · 09:55] Kırıkkale’de işçileri taşıyan servis devrildi: 15 yaralı!\n[ntv · 10:00] Kırıkkale'de işçileri taşıyan midibüs devrildi. 15 yaralı\n[mynet · 10:06] Kırıkkale'de servis midibüsü devrildi: 14 yaralı\n[cumhuriyet · 10:11] Kırıkkale'de servis midibüsü devrildi: Çok sayıda yaralı var!\n[takvim · 10:14] Kırıkkale'de işçileri taşıyan midibüs devrildi: 1'i ağır 15 kişi yaralandı\n[trthaber · 10:22] Kırıkkale'de işçileri taşıyan midibüs devrildi: 15 yaralı\n[ahaber · 11:12] Kırıkkale'de işçileri taşıyan midibüs devrildi! 14 kişi yaralandı"
+  },
+  {
+   "key": "s4561__salience-bias",
+   "output_file": "runs/bg/explain/s4561__salience-bias.json",
+   "event_title": "Cumhurbaşkanı Erdoğan, Macron ile telefonda görüştü",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Cumhurbaşkanı Erdoğan'dan Macron'a COP31 Liderler Zirvesi daveti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Macron ile telefonda görüşen Cumhurbaşkanı Erdoğan’dan BM’ye reform mesajı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cumhurbaşkanı Erdoğan, Macron ile telefonda görüştü",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar görüşmenin belirli bir unsurunu (COP31 daveti, BM reformu) başlığa taşıyor; bunun bir yargıyı haksız etkilediği gösterilmiyor.",
+   "skeptic_alternative": "Görüşmenin resmi açıklamasında birden çok başlık var; kurumların farklı birini seçmesi editoryal tercihtir.",
+   "missing_context": [
+    "Görüşmeye dair resmî açıklamanın tam metni",
+    "Macron tarafının açıklaması",
+    "Resmi görüşme açıklamasının tam metni"
+   ],
+   "headlines": "[aa · 08:22] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Emmanuel Macron ile telefonda görüştü\n[sondakika · 17:22] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Emmanuel Macron ile telefonda görüştü. Görüşmede, ikili ilişkiler ile Birleşmiş Milletler'in yeni Genel Sekreteri'ni belirleme süreci ele alındı\n[ahaber · 20:14] Başkan Erdoğan Macron ile telefonda görüştü! Fransa Cuymhurbaşkanı'na COP31 Liderler Zirvesi daveti\n[yenisafak · 20:15] Macron ile telefonda görüşen Cumhurbaşkanı Erdoğan’dan BM’ye reform mesajı\n[turkiyegz · 20:17] Cumhurbaşkanı Erdoğan, Macron ile görüştü: COP31 daveti ve BM mesajı\n[tgrt · 20:18] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Macron ile görüştü\n[haberler · 20:19] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Emmanuel Macron ile telefonda görüştü. Görüşmede, ikili ilişkiler ile Birleşmiş Milletler'in yeni Genel Sekreteri'ni belirleme süreci ele alındı\n[ntv · 20:19] Cumhurbaşkanı Erdoğan, Macron ile telefonda görüştü\n[sabah · 20:19] SON DAKİKA I Başkan Erdoğan, Fransa Cumhurbaşkanı Macron ile görüştü\n[trthaber · 20:21] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Macron ile telefonda görüştü\n[star · 20:23] Cumhurbaşkanı Erdoğan, Macron ile görüştü\n[hurriyet · 20:23] Cumhurbaşkanı Erdoğan'dan Macron'a COP31 Liderler Zirvesi daveti — Cumhurbaşkanı Recep Tayyip Erdoğan, telefon görüşmesi gerçekleştirdiği Fransa Cumhurbaşkanı Emmanuel Macron'u Türkiye'de düzenlenecek COP31 Liderler Zirvesi'ne davet etti.\n[haberturk · 20:26] Cumhurbaşkanı Erdoğan, Macron ile görüştü\n[dirilis · 20:32] Erdoğan, Macron ile telefonda görüştü\n[cumhuriyet · 20:41] Erdoğan, Fransa Cumhurbaşkanı Macron ile görüştü\n[aksam · 20:47] Başkan Erdoğan, Fransa Cumhurbaşkanı Macron ile görüştü\n[mynet · 20:48] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Macron ile telefonda görüştü"
+  },
+  {
+   "key": "s4561__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4561__leveling-and-sharpening.json",
+   "event_title": "Cumhurbaşkanı Erdoğan, Macron ile telefonda görüştü",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Görüşmede, ikili ilişkiler ile Birleşmiş Milletler'in yeni Genel Sekreteri'ni belirleme süreci ele alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[yenisafak · 20:15] Macron ile telefonda görüşen Cumhurbaşkanı Erdoğan’dan BM’ye reform mesajı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ahaber · 20:14] Başkan Erdoğan Macron ile telefonda görüştü! Fransa Cuymhurbaşkanı'na COP31 Liderler Zirvesi daveti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 20:19] Cumhurbaşkanı Erdoğan, Macron ile telefonda görüştü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Başkan Erdoğan Macron ile telefonda görüştü! Fransa Cuymhurbaşkanı'na COP31 Liderler Zirvesi daveti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir aktarım görüşmeyi 'Genel Sekreter belirleme süreci' olarak verirken, Yeni Şafak bunu 'reform mesajı' olarak keskinleştiriyor; diğerleri içeriği tamamen düşürüyor.",
+   "skeptic_alternative": "Erken haber ilk açıklamaya, sonraki haberler ek bilgilere dayanıyor olabilir; başlık kısıtı ayrıntı eler.",
+   "missing_context": [
+    "Açıklamaların yayımlanma sırası",
+    "Haber gövdelerinde diğer konuların yer alıp almadığı",
+    "İletişim Başkanlığı açıklamasının tam metni"
+   ],
+   "headlines": "[aa · 08:22] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Emmanuel Macron ile telefonda görüştü\n[sondakika · 17:22] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Emmanuel Macron ile telefonda görüştü. Görüşmede, ikili ilişkiler ile Birleşmiş Milletler'in yeni Genel Sekreteri'ni belirleme süreci ele alındı\n[ahaber · 20:14] Başkan Erdoğan Macron ile telefonda görüştü! Fransa Cuymhurbaşkanı'na COP31 Liderler Zirvesi daveti\n[yenisafak · 20:15] Macron ile telefonda görüşen Cumhurbaşkanı Erdoğan’dan BM’ye reform mesajı\n[turkiyegz · 20:17] Cumhurbaşkanı Erdoğan, Macron ile görüştü: COP31 daveti ve BM mesajı\n[tgrt · 20:18] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Macron ile görüştü\n[haberler · 20:19] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Emmanuel Macron ile telefonda görüştü. Görüşmede, ikili ilişkiler ile Birleşmiş Milletler'in yeni Genel Sekreteri'ni belirleme süreci ele alındı\n[ntv · 20:19] Cumhurbaşkanı Erdoğan, Macron ile telefonda görüştü\n[sabah · 20:19] SON DAKİKA I Başkan Erdoğan, Fransa Cumhurbaşkanı Macron ile görüştü\n[trthaber · 20:21] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Macron ile telefonda görüştü\n[star · 20:23] Cumhurbaşkanı Erdoğan, Macron ile görüştü\n[hurriyet · 20:23] Cumhurbaşkanı Erdoğan'dan Macron'a COP31 Liderler Zirvesi daveti — Cumhurbaşkanı Recep Tayyip Erdoğan, telefon görüşmesi gerçekleştirdiği Fransa Cumhurbaşkanı Emmanuel Macron'u Türkiye'de düzenlenecek COP31 Liderler Zirvesi'ne davet etti.\n[haberturk · 20:26] Cumhurbaşkanı Erdoğan, Macron ile görüştü\n[dirilis · 20:32] Erdoğan, Macron ile telefonda görüştü\n[cumhuriyet · 20:41] Erdoğan, Fransa Cumhurbaşkanı Macron ile görüştü\n[aksam · 20:47] Başkan Erdoğan, Fransa Cumhurbaşkanı Macron ile görüştü\n[mynet · 20:48] Cumhurbaşkanı Erdoğan, Fransa Cumhurbaşkanı Macron ile telefonda görüştü"
+  },
+  {
+   "key": "s5537__framing-effect",
+   "output_file": "runs/bg/explain/s5537__framing-effect.json",
+   "event_title": "Aralarında eski SPK yöneticileri de var: Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "[birgun · 09:37] Aralarında eski SPK yöneticileri de var: Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[trthaber · 09:38] Fon soruşturmasında 6 gözaltı kararı daha",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında yeni dalga!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında 6 kişi için gözaltı kararı verildi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı soruşturma BirGün'de 'vurgun' olarak, diğerlerinde nötr 'fon soruşturması' olarak adlandırılıyor; çerçeveye dayalı bir yargı açıkça kurulmuyor.",
+   "skeptic_alternative": "'Fon vurgunu' kamuoyunda yerleşmiş bir ad olabilir; kurumun önceki haberlerindeki adlandırmayı sürdürmesi olağan.",
+   "missing_context": [
+    "Kurumun önceki haberlerinde kullandığı ad",
+    "Okuyucu değerlendirmesinin ifadeyle değiştiğine dair veri",
+    "Soruşturmadaki iddiaların resmi tanımı"
+   ],
+   "headlines": "[sondakika · 06:39] Fon soruşturmasında yeni dalga! 6 kişi hakkında daha gözaltı kararı\n[tgrt · 09:35] Fon soruşturmasında 6 gözaltı kararı daha: SPK eski üst düzey yöneticileri de listede\n[turkiyegz · 09:36] Fon soruşturmasında 6 yeni gözaltı kararı! Eski SPK, BDDK ve Tera Holding yöneticileri listede\n[sozcu · 09:36] SON DAKİKA... Fon soruşturmasında yeni dalga: 6 gözaltı kararı\n[birgun · 09:37] Aralarında eski SPK yöneticileri de var: Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi\n[trthaber · 09:38] Fon soruşturmasında 6 gözaltı kararı daha\n[haberturk · 09:38] Fon soruşturmasında 6 gözaltı kararı\n[haberler · 09:39] Fon soruşturmasında yeni dalga! 6 kişi hakkında daha gözaltı kararı\n[mynet · 09:39] Fon soruşturmasında yeni SPK gözaltıları! Aralarında yöneticiler de var\n[yenisafak · 09:39] Fon soruşturmasında 6 kişi için gözaltı kararı verildi\n[milligazete · 09:43] Fon soruşturmasında 6 kişiye daha gözaltı kararı\n[ntv · 09:44] Son Dakika. Fon soruşturmasında 6 yeni gözaltı kararı, aralarında eski SPK Kurul Başkanvekili de var\n[diken · 09:47] Fon soruşturması: Eski SPK başkan vekili dahil altı gözaltı kararı\n[akit · 09:53] Fon soruşturmasında yeni dalga geldi! Gözaltı listesinde kimler var kimler\n[bloomberght · 10:06] Fon soruşturmasında 6 kişi hakkında gözaltı kararı\n[cnnturk · 13:00] Fon soruşturmasında yeni gelişme: 6 kişi hakkında daha gözaltı kararı verildi — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen \"fon soruşturması\" kapsamında aralarında eski SPK ve mevcut BDDK yöneticilerinin de bulunduğu 6 kişi hakkında gözaltı kararı verildi.\n[star · 14:35] Fon soruşturmasında yeni gelişme! Gözaltı sayısı yükseldi — Fon soruşturması... Haklarında gözaltı kararı verilen eski SPK başkan vekili Enver Usca dahil 6 şüpheli gözaltına alındı."
+  },
+  {
+   "key": "s5537__salience-bias",
+   "output_file": "runs/bg/explain/s5537__salience-bias.json",
+   "event_title": "Aralarında eski SPK yöneticileri de var: Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Fon soruşturmasında 6 gözaltı kararı daha: SPK eski üst düzey yöneticileri de listede",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında yeni dalga geldi! Gözaltı listesinde kimler var kimler",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında yeni SPK gözaltıları! Aralarında yöneticiler de var",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında 6 gözaltı kararı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Eski SPK yöneticileri gibi dikkat çekici isimler başlıkta öne çıkarılıyor; bunun bir yargıyı haksız etkilediği gösterilmiyor.",
+   "skeptic_alternative": "Düzenleyici kurum yöneticilerinin şüpheli olması gerçek bir haber değeri taşır.",
+   "missing_context": [
+    "Gözaltı listesinin tamamı",
+    "Şüphelilerin tam listesi ve rolleri"
+   ],
+   "headlines": "[sondakika · 06:39] Fon soruşturmasında yeni dalga! 6 kişi hakkında daha gözaltı kararı\n[tgrt · 09:35] Fon soruşturmasında 6 gözaltı kararı daha: SPK eski üst düzey yöneticileri de listede\n[turkiyegz · 09:36] Fon soruşturmasında 6 yeni gözaltı kararı! Eski SPK, BDDK ve Tera Holding yöneticileri listede\n[sozcu · 09:36] SON DAKİKA... Fon soruşturmasında yeni dalga: 6 gözaltı kararı\n[birgun · 09:37] Aralarında eski SPK yöneticileri de var: Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi\n[trthaber · 09:38] Fon soruşturmasında 6 gözaltı kararı daha\n[haberturk · 09:38] Fon soruşturmasında 6 gözaltı kararı\n[haberler · 09:39] Fon soruşturmasında yeni dalga! 6 kişi hakkında daha gözaltı kararı\n[mynet · 09:39] Fon soruşturmasında yeni SPK gözaltıları! Aralarında yöneticiler de var\n[yenisafak · 09:39] Fon soruşturmasında 6 kişi için gözaltı kararı verildi\n[milligazete · 09:43] Fon soruşturmasında 6 kişiye daha gözaltı kararı\n[ntv · 09:44] Son Dakika. Fon soruşturmasında 6 yeni gözaltı kararı, aralarında eski SPK Kurul Başkanvekili de var\n[diken · 09:47] Fon soruşturması: Eski SPK başkan vekili dahil altı gözaltı kararı\n[akit · 09:53] Fon soruşturmasında yeni dalga geldi! Gözaltı listesinde kimler var kimler\n[bloomberght · 10:06] Fon soruşturmasında 6 kişi hakkında gözaltı kararı\n[cnnturk · 13:00] Fon soruşturmasında yeni gelişme: 6 kişi hakkında daha gözaltı kararı verildi — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen \"fon soruşturması\" kapsamında aralarında eski SPK ve mevcut BDDK yöneticilerinin de bulunduğu 6 kişi hakkında gözaltı kararı verildi.\n[star · 14:35] Fon soruşturmasında yeni gelişme! Gözaltı sayısı yükseldi — Fon soruşturması... Haklarında gözaltı kararı verilen eski SPK başkan vekili Enver Usca dahil 6 şüpheli gözaltına alındı."
+  },
+  {
+   "key": "s5537__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5537__leveling-and-sharpening.json",
+   "event_title": "Aralarında eski SPK yöneticileri de var: Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "aralarında eski SPK ve mevcut BDDK yöneticilerinin de bulunduğu 6 kişi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[turkiyegz · 09:36] Fon soruşturmasında 6 yeni gözaltı kararı! Eski SPK, BDDK ve Tera Holding yöneticileri listede",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[mynet · 09:39] Fon soruşturmasında yeni SPK gözaltıları! Aralarında yöneticiler de var",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Haklarında gözaltı kararı verilen eski SPK başkan vekili Enver Usca dahil 6 şüpheli gözaltına alındı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "aralarında eski SPK ve mevcut BDDK yöneticilerinin de bulunduğu 6 kişi hakkında gözaltı kararı verildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon soruşturmasında yeni SPK gözaltıları!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Eski SPK, BDDK ve Tera Holding yöneticileri listede",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "CNN Türk BDDK yöneticilerini 'mevcut' derken Türkiye Gazetesi 'eski' kapsamında veriyor; Mynet 'eski' nitelemesini düşürüyor; çoğu başlık BDDK bilgisini tümüyle atlıyor.",
+   "skeptic_alternative": "Başlık kısaltması ve ilk saatlerdeki bilgi farkı; 'yeni' sözcüğü SPK'ya değil gözaltı dalgasına işaret ediyor olabilir.",
+   "missing_context": [
+    "Başsavcılık açıklamasının tam metni",
+    "Gözaltına alınanların görev durumları",
+    "Şüphelilerin güncel görev durumu"
+   ],
+   "headlines": "[sondakika · 06:39] Fon soruşturmasında yeni dalga! 6 kişi hakkında daha gözaltı kararı\n[tgrt · 09:35] Fon soruşturmasında 6 gözaltı kararı daha: SPK eski üst düzey yöneticileri de listede\n[turkiyegz · 09:36] Fon soruşturmasında 6 yeni gözaltı kararı! Eski SPK, BDDK ve Tera Holding yöneticileri listede\n[sozcu · 09:36] SON DAKİKA... Fon soruşturmasında yeni dalga: 6 gözaltı kararı\n[birgun · 09:37] Aralarında eski SPK yöneticileri de var: Fon vurgunu soruşturmasında 6 kişi hakkında daha gözaltı kararı verildi\n[trthaber · 09:38] Fon soruşturmasında 6 gözaltı kararı daha\n[haberturk · 09:38] Fon soruşturmasında 6 gözaltı kararı\n[haberler · 09:39] Fon soruşturmasında yeni dalga! 6 kişi hakkında daha gözaltı kararı\n[mynet · 09:39] Fon soruşturmasında yeni SPK gözaltıları! Aralarında yöneticiler de var\n[yenisafak · 09:39] Fon soruşturmasında 6 kişi için gözaltı kararı verildi\n[milligazete · 09:43] Fon soruşturmasında 6 kişiye daha gözaltı kararı\n[ntv · 09:44] Son Dakika. Fon soruşturmasında 6 yeni gözaltı kararı, aralarında eski SPK Kurul Başkanvekili de var\n[diken · 09:47] Fon soruşturması: Eski SPK başkan vekili dahil altı gözaltı kararı\n[akit · 09:53] Fon soruşturmasında yeni dalga geldi! Gözaltı listesinde kimler var kimler\n[bloomberght · 10:06] Fon soruşturmasında 6 kişi hakkında gözaltı kararı\n[cnnturk · 13:00] Fon soruşturmasında yeni gelişme: 6 kişi hakkında daha gözaltı kararı verildi — İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen \"fon soruşturması\" kapsamında aralarında eski SPK ve mevcut BDDK yöneticilerinin de bulunduğu 6 kişi hakkında gözaltı kararı verildi.\n[star · 14:35] Fon soruşturmasında yeni gelişme! Gözaltı sayısı yükseldi — Fon soruşturması... Haklarında gözaltı kararı verilen eski SPK başkan vekili Enver Usca dahil 6 şüpheli gözaltına alındı."
+  },
+  {
+   "key": "s4417__salience-bias",
+   "output_file": "runs/bg/explain/s4417__salience-bias.json",
+   "event_title": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "O ilimizde dört bin yıllık pati izi bulundu...",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Tavşanlı Höyük kazılarında şaşırtan pati izleri",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Arkeologları şaşırtan keşif: Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar 'şaşırtan' ve merak uyandıran ifadeleri öne çıkarırken AA aynı bulguyu yalın veriyor; dikkat çekici ögeye ağırlık verildiği görülüyor.",
+   "skeptic_alternative": "Arkeolojik keşif haberlerinde ilgi çekici dil olağan bir editoryal tercihtir; olgusal içerik kurumlar arasında tutarlı.",
+   "missing_context": [
+    "Başlıkların okur yargısına etkisini gösteren veri",
+    "Başlığın okur yargısını ya da bir kararı etkilediğine dair veri yok",
+    "Haber gövdelerinin tam metni",
+    "Kazı ekibinin resmi açıklaması"
+   ],
+   "headlines": "[haberler · 12:14] Kütahya'daki Tavşanlı Höyük'te 4 bin yıllık köpek pati izi bulundu! Yangında yıkılan yapının kerpicinde korunmuş\n[tgrt · 12:27] Dört bin yıllık pati izi bulundu: Tavşanlı Höyük’te bir köpeğin bıraktığı izler yıkılan evin duvarından çıktı\n[sabah · 12:33] Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu\n[aa · 12:37] Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu\n[haberturk · 12:40] 4 bin yıllık pati izi bulundu\n[akit · 12:41] O ilimizde dört bin yıllık pati izi bulundu...\n[aksam · 12:44] Tavşanlı Höyük kazılarında şaşırtan pati izleri\n[karar · 12:46] Kütahya Tavşanlı Höyük’te 4 bin yıllık sürpriz: Yıkılan evin duvarından pati izi çıktı — Batı Anadolu’nun en büyük Tunç Çağı kentlerinden biri olan Kütahya’daki Tavşanlı Höyük kazılarında, yaklaşık 4 bin yıllık köpek pati izleri gün yüzüne çıkarıldı. Güneşte kurumaya bırakılan yaş kerpicin üzerinden geçen bir köpeğin bıraktığı bu izler, binlerce yıl önce yangın …\n[turkiyegz · 12:47] Tavşanlı Höyük kazılarında tarihi keşif! 4 bin yıllık pati izleri bulundu\n[sozcu · 12:49] Kütahya’da yaklaşık 4 bin yıllık köpek pati izleri bulundu\n[cumhuriyet · 12:51] Arkeologları şaşırtan keşif: Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu\n[ntv · 12:56] Kütahya'da 4 bin yıllık köpek pati izleri bulundu\n[trthaber · 12:59] Tavşanlı Höyük kazılarında 4 bin yıllık pati izleri bulundu\n[diken · 13:01] Kütahya'da yaklaşık 4 bin yıllık pati izleri bulundu\n[onedio · 13:08] Kütahya'da 4 Bin Yıllık Pati İzleri Bulundu\n[takvim · 13:10] 4 bin yıllık kerpiçte köpek patisi izi: Tavşanlı Höyük kazılarında tarihi keşif\n[dirilis · 00:25] Tavşanlı Höyük'te kerpiçte 4 bin yıllık pati izleri bulundu"
+  },
+  {
+   "key": "s4417__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4417__leveling-and-sharpening.json",
+   "event_title": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "O ilimizde dört bin yıllık pati izi bulundu...",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberturk · 12:40] 4 bin yıllık pati izi bulundu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yangında yıkılan yapının kerpicinde korunmuş",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "AA başlığı ('yaklaşık', yer adı) taban alındığında bazı başlıklar yer bilgisini ve 'yaklaşık' nitelemesini düşürüyor (düzleştirme); bazıları yangın/kerpiç ayrıntısını öne çıkarıyor (keskinleştirme).",
+   "skeptic_alternative": "Başlık kısalığı nedeniyle niteleyicinin atılması olağan bir özetleme tercihidir, maddi bir çarpıtma değildir.",
+   "missing_context": [
+    "Farkın maddi olduğuna ve bir sonuca etki ettiğine dair kanıt yok",
+    "Haber gövdeleri ve kaynak açıklaması",
+    "Kaynak AA haberinin tam metni",
+    "Tarihlemenin kesinlik aralığı"
+   ],
+   "headlines": "[haberler · 12:14] Kütahya'daki Tavşanlı Höyük'te 4 bin yıllık köpek pati izi bulundu! Yangında yıkılan yapının kerpicinde korunmuş\n[tgrt · 12:27] Dört bin yıllık pati izi bulundu: Tavşanlı Höyük’te bir köpeğin bıraktığı izler yıkılan evin duvarından çıktı\n[sabah · 12:33] Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu\n[aa · 12:37] Tavşanlı Höyük kazılarında yaklaşık 4 bin yıllık pati izleri bulundu\n[haberturk · 12:40] 4 bin yıllık pati izi bulundu\n[akit · 12:41] O ilimizde dört bin yıllık pati izi bulundu...\n[aksam · 12:44] Tavşanlı Höyük kazılarında şaşırtan pati izleri\n[karar · 12:46] Kütahya Tavşanlı Höyük’te 4 bin yıllık sürpriz: Yıkılan evin duvarından pati izi çıktı — Batı Anadolu’nun en büyük Tunç Çağı kentlerinden biri olan Kütahya’daki Tavşanlı Höyük kazılarında, yaklaşık 4 bin yıllık köpek pati izleri gün yüzüne çıkarıldı. Güneşte kurumaya bırakılan yaş kerpicin üzerinden geçen bir köpeğin bıraktığı bu izler, binlerce yıl önce yangın …\n[turkiyegz · 12:47] Tavşanlı Höyük kazılarında tarihi keşif! 4 bin yıllık pati izleri bulundu\n[sozcu · 12:49] Kütahya’da yaklaşık 4 bin yıllık köpek pati izleri bulundu\n[cumhuriyet · 12:51] Arkeologları şaşırtan keşif: Tavşanlı Höyük'te 4 bin yıllık pati izi bulundu\n[ntv · 12:56] Kütahya'da 4 bin yıllık köpek pati izleri bulundu\n[trthaber · 12:59] Tavşanlı Höyük kazılarında 4 bin yıllık pati izleri bulundu\n[diken · 13:01] Kütahya'da yaklaşık 4 bin yıllık pati izleri bulundu\n[onedio · 13:08] Kütahya'da 4 Bin Yıllık Pati İzleri Bulundu\n[takvim · 13:10] 4 bin yıllık kerpiçte köpek patisi izi: Tavşanlı Höyük kazılarında tarihi keşif\n[dirilis · 00:25] Tavşanlı Höyük'te kerpiçte 4 bin yıllık pati izleri bulundu"
+  },
+  {
+   "key": "s5571__framing-effect",
+   "output_file": "runs/bg/explain/s5571__framing-effect.json",
+   "event_title": "Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakan Işıkhan’dan emeklilere 2027 müjdesi: İlave iyileştirme çalışması yapılıyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Resmen tarih verildi: Emekliye ilave iyileştirme yolda",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı bakan açıklaması AA'da 'çalışma yapıyoruz' olarak, bazı kurumlarda 'müjde' ve 'yolda' olarak kazanç çerçevesiyle sunuluyor.",
+   "skeptic_alternative": "'Müjde' kalıbı emekli haberlerinde yerleşik bir başlık dilidir; okur ilgisi ve tıklama kaygısı da açıklayabilir.",
+   "missing_context": [
+    "Bakanın açıklamasının tam metni",
+    "Çerçevenin bir tercih ya da yargıyı değiştirdiğine dair açık ifade yok",
+    "İyileştirmenin miktarı ve kesinliği"
+   ],
+   "headlines": "[sondakika · 10:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[aa · 11:29] Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz\n[haberturk · 11:35] Bakan Işıkhan'dan emekli maaşı açıklaması\n[yenisafak · 11:40] Bakan Işıkhan duyurdu: Emekliye 2027'de ilave iyileştirme geliyor\n[tgrt · 11:43] Emekli maaşı için Bakan Işıkhan'dan dikkat çeken mesaj\n[turkiyegz · 11:44] Bakan Işıkhan'dan emekli maaşlarına ek zam açıklaması! Ocak 2027 için çalışma başladı\n[ahaber · 11:48] Bakan Işıkhan’dan emeklilere 2027 müjdesi: İlave iyileştirme çalışması yapılıyor\n[birgun · 11:53] Emekli maaşı düzenlemesi: Bakan Işıkhan detayları açıkladı\n[takvim · 11:55] Emekliye 2027 düzenlemesi! Maaşlara ilave iyileştirme hazırlığı: Bakan Işıkhan ayrıntıları açıkladı\n[bloomberght · 11:58] Bakan Işıkhan'dan emekli maaşı açıklaması\n[mynet · 12:09] Bakan Işıkhan açıkladı! Emekli maaşlarına ek iyileştirme hazırlığı — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, emekli maaşlarına yönelik yeni bir iyileştirme çalışması yürüttüklerini açıkladı.\n[onedio · 12:42] Bakan Vedat Işıkhan'dan Asgari Ücret ve Emekli Maaşı Açıklaması: \"İlave İyileştirme Yapılacak\"\n[milligazete · 12:45] Bakan Işıkhan'dan asgari ücret ve emekli maaşı açıklaması! 2027 zam takvimi belli oldu\n[haberler · 13:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[akit · 13:17] Bakan Işıkhan’dan emeklilere müjde: Maaşlara yasal zammın dışında ilave iyileştirme geliyor — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, kamuoyunun merakla beklediği emekli maaşı düzenlemelerine ilişkin kritik mesajı paylaştı. Enflasyon oranlarına dayalı rutin artışın ötesine geçileceğini belirten Bakan Işıkhan, yasal zammın üzerine ilave iyileştirmelerin …\n[aksam · 13:41] Resmen tarih verildi: Emekliye ilave iyileştirme yolda\n[trthaber · 13:41] Bakan Işıkhan'dan emekli maaşı açıklaması"
+  },
+  {
+   "key": "s5571__authority-bias",
+   "output_file": "runs/bg/explain/s5571__authority-bias.json",
+   "event_title": "Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "Bakan Işıkhan duyurdu: Emekliye 2027'de ilave iyileştirme geliyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Resmen tarih verildi: Emekliye ilave iyileştirme yolda",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "2027 zam takvimi belli oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bakanın beyanı, bir çalışma aşamasında olmasına rağmen bazı başlıklarda kesinleşmiş takvim gibi sunuluyor; makam beyanı kesinlik kaynağı olarak görünüyor.",
+   "skeptic_alternative": "Politika duyurusunu ilgili bakana atfetmek olağan ve meşru kaynak gösterimidir.",
+   "missing_context": [
+    "Bağımsız uzman veya sendika değerlendirmeleri",
+    "Bütçe dayanağı",
+    "Karşıt kanıtın makam nedeniyle göz ardı edildiğine dair açık ifade yok",
+    "Somut oran veya tarih içeren resmi metin"
+   ],
+   "headlines": "[sondakika · 10:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[aa · 11:29] Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz\n[haberturk · 11:35] Bakan Işıkhan'dan emekli maaşı açıklaması\n[yenisafak · 11:40] Bakan Işıkhan duyurdu: Emekliye 2027'de ilave iyileştirme geliyor\n[tgrt · 11:43] Emekli maaşı için Bakan Işıkhan'dan dikkat çeken mesaj\n[turkiyegz · 11:44] Bakan Işıkhan'dan emekli maaşlarına ek zam açıklaması! Ocak 2027 için çalışma başladı\n[ahaber · 11:48] Bakan Işıkhan’dan emeklilere 2027 müjdesi: İlave iyileştirme çalışması yapılıyor\n[birgun · 11:53] Emekli maaşı düzenlemesi: Bakan Işıkhan detayları açıkladı\n[takvim · 11:55] Emekliye 2027 düzenlemesi! Maaşlara ilave iyileştirme hazırlığı: Bakan Işıkhan ayrıntıları açıkladı\n[bloomberght · 11:58] Bakan Işıkhan'dan emekli maaşı açıklaması\n[mynet · 12:09] Bakan Işıkhan açıkladı! Emekli maaşlarına ek iyileştirme hazırlığı — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, emekli maaşlarına yönelik yeni bir iyileştirme çalışması yürüttüklerini açıkladı.\n[onedio · 12:42] Bakan Vedat Işıkhan'dan Asgari Ücret ve Emekli Maaşı Açıklaması: \"İlave İyileştirme Yapılacak\"\n[milligazete · 12:45] Bakan Işıkhan'dan asgari ücret ve emekli maaşı açıklaması! 2027 zam takvimi belli oldu\n[haberler · 13:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[akit · 13:17] Bakan Işıkhan’dan emeklilere müjde: Maaşlara yasal zammın dışında ilave iyileştirme geliyor — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, kamuoyunun merakla beklediği emekli maaşı düzenlemelerine ilişkin kritik mesajı paylaştı. Enflasyon oranlarına dayalı rutin artışın ötesine geçileceğini belirten Bakan Işıkhan, yasal zammın üzerine ilave iyileştirmelerin …\n[aksam · 13:41] Resmen tarih verildi: Emekliye ilave iyileştirme yolda\n[trthaber · 13:41] Bakan Işıkhan'dan emekli maaşı açıklaması"
+  },
+  {
+   "key": "s5571__optimism-bias",
+   "output_file": "runs/bg/explain/s5571__optimism-bias.json",
+   "event_title": "Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak",
+   "concept": "Optimism Bias",
+   "definition": "The Decision Lab describes optimism bias as overestimating the likelihood of positive events and underestimating the likelihood of negative events. Operationally, flag only explicit forecasts or decisions where the text shows an unjustified optimistic probability judgment—for example, discounting relevant base rates or comparable outcomes—not optimism, confidence, or risk-taking by itself.",
+   "quotes": [
+    {
+     "quote": "Emekliye ilave iyileştirme yolda",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakan Işıkhan’dan emeklilere müjde: Maaşlara yasal zammın dışında ilave iyileştirme geliyor",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir çalışma beyanı bazı başlıklarda gerçekleşmesi kesin olumlu bir sonuç beklentisine dönüşüyor.",
+   "skeptic_alternative": "Bakanın beyanını aktaran iyimser ton, olasılık hatası değil, kaynağın ifadesinin yansımasıdır.",
+   "missing_context": [
+    "Geçmiş benzer vaatlerin gerçekleşme oranları",
+    "Geçmiş benzer vaatlerin gerçekleşme oranı",
+    "Metinde taban oran veya karşıt kanıt yok",
+    "İyileştirmenin yasal/bütçesel kesinliği"
+   ],
+   "headlines": "[sondakika · 10:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[aa · 11:29] Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz\n[haberturk · 11:35] Bakan Işıkhan'dan emekli maaşı açıklaması\n[yenisafak · 11:40] Bakan Işıkhan duyurdu: Emekliye 2027'de ilave iyileştirme geliyor\n[tgrt · 11:43] Emekli maaşı için Bakan Işıkhan'dan dikkat çeken mesaj\n[turkiyegz · 11:44] Bakan Işıkhan'dan emekli maaşlarına ek zam açıklaması! Ocak 2027 için çalışma başladı\n[ahaber · 11:48] Bakan Işıkhan’dan emeklilere 2027 müjdesi: İlave iyileştirme çalışması yapılıyor\n[birgun · 11:53] Emekli maaşı düzenlemesi: Bakan Işıkhan detayları açıkladı\n[takvim · 11:55] Emekliye 2027 düzenlemesi! Maaşlara ilave iyileştirme hazırlığı: Bakan Işıkhan ayrıntıları açıkladı\n[bloomberght · 11:58] Bakan Işıkhan'dan emekli maaşı açıklaması\n[mynet · 12:09] Bakan Işıkhan açıkladı! Emekli maaşlarına ek iyileştirme hazırlığı — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, emekli maaşlarına yönelik yeni bir iyileştirme çalışması yürüttüklerini açıkladı.\n[onedio · 12:42] Bakan Vedat Işıkhan'dan Asgari Ücret ve Emekli Maaşı Açıklaması: \"İlave İyileştirme Yapılacak\"\n[milligazete · 12:45] Bakan Işıkhan'dan asgari ücret ve emekli maaşı açıklaması! 2027 zam takvimi belli oldu\n[haberler · 13:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[akit · 13:17] Bakan Işıkhan’dan emeklilere müjde: Maaşlara yasal zammın dışında ilave iyileştirme geliyor — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, kamuoyunun merakla beklediği emekli maaşı düzenlemelerine ilişkin kritik mesajı paylaştı. Enflasyon oranlarına dayalı rutin artışın ötesine geçileceğini belirten Bakan Işıkhan, yasal zammın üzerine ilave iyileştirmelerin …\n[aksam · 13:41] Resmen tarih verildi: Emekliye ilave iyileştirme yolda\n[trthaber · 13:41] Bakan Işıkhan'dan emekli maaşı açıklaması"
+  },
+  {
+   "key": "s5571__salience-bias",
+   "output_file": "runs/bg/explain/s5571__salience-bias.json",
+   "event_title": "Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Bakan Işıkhan’dan emeklilere müjde: Maaşlara yasal zammın dışında ilave iyileştirme geliyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakan Işıkhan'dan emekli maaşlarına ek zam açıklaması! Ocak 2027 için çalışma başladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[haberturk · 11:35] Bakan Işıkhan'dan emekli maaşı açıklaması",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Resmen tarih verildi: Emekliye ilave iyileştirme yolda",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Müjde' ve 'ek zam' gibi duygusal açıdan çarpıcı ifadeler bazı kurumlarda öne çıkarken diğerleri yalın başlık kullanıyor.",
+   "skeptic_alternative": "Okur ilgisinin yüksek olduğu bir konuda vurgulu başlık olağan editoryal tercihtir.",
+   "missing_context": [
+    "Okur yargısına etkiyi gösteren karşılaştırmalı veri",
+    "Çarpıcı ögenin bir yargıyı haksız biçimde yönlendirdiğine dair açık kanıt yok"
+   ],
+   "headlines": "[sondakika · 10:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[aa · 11:29] Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz\n[haberturk · 11:35] Bakan Işıkhan'dan emekli maaşı açıklaması\n[yenisafak · 11:40] Bakan Işıkhan duyurdu: Emekliye 2027'de ilave iyileştirme geliyor\n[tgrt · 11:43] Emekli maaşı için Bakan Işıkhan'dan dikkat çeken mesaj\n[turkiyegz · 11:44] Bakan Işıkhan'dan emekli maaşlarına ek zam açıklaması! Ocak 2027 için çalışma başladı\n[ahaber · 11:48] Bakan Işıkhan’dan emeklilere 2027 müjdesi: İlave iyileştirme çalışması yapılıyor\n[birgun · 11:53] Emekli maaşı düzenlemesi: Bakan Işıkhan detayları açıkladı\n[takvim · 11:55] Emekliye 2027 düzenlemesi! Maaşlara ilave iyileştirme hazırlığı: Bakan Işıkhan ayrıntıları açıkladı\n[bloomberght · 11:58] Bakan Işıkhan'dan emekli maaşı açıklaması\n[mynet · 12:09] Bakan Işıkhan açıkladı! Emekli maaşlarına ek iyileştirme hazırlığı — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, emekli maaşlarına yönelik yeni bir iyileştirme çalışması yürüttüklerini açıkladı.\n[onedio · 12:42] Bakan Vedat Işıkhan'dan Asgari Ücret ve Emekli Maaşı Açıklaması: \"İlave İyileştirme Yapılacak\"\n[milligazete · 12:45] Bakan Işıkhan'dan asgari ücret ve emekli maaşı açıklaması! 2027 zam takvimi belli oldu\n[haberler · 13:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[akit · 13:17] Bakan Işıkhan’dan emeklilere müjde: Maaşlara yasal zammın dışında ilave iyileştirme geliyor — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, kamuoyunun merakla beklediği emekli maaşı düzenlemelerine ilişkin kritik mesajı paylaştı. Enflasyon oranlarına dayalı rutin artışın ötesine geçileceğini belirten Bakan Işıkhan, yasal zammın üzerine ilave iyileştirmelerin …\n[aksam · 13:41] Resmen tarih verildi: Emekliye ilave iyileştirme yolda\n[trthaber · 13:41] Bakan Işıkhan'dan emekli maaşı açıklaması"
+  },
+  {
+   "key": "s5571__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5571__leveling-and-sharpening.json",
+   "event_title": "Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Resmen tarih verildi: Emekliye ilave iyileştirme yolda",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "2027 zam takvimi belli oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakan Işıkhan'dan emekli maaşlarına ek zam açıklaması!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "AA'daki 'çalışma yapıyoruz' ifadesi taban alındığında bazı başlıklar bunu 'resmen tarih verildi', 'takvim belli oldu', 'ek zam' gibi daha kesin ve somut ayrıntılara büyütüyor.",
+   "skeptic_alternative": "Bakan açıklamada Ocak 2027 gibi bir tarih anmış olabilir; bu durumda başlıklar orijinale sadıktır.",
+   "missing_context": [
+    "Açıklamanın tam metni",
+    "Açıklamanın tam metni ve geçen tarih ifadesi",
+    "Farkın okur kararlarını etkilediğine dair kanıt",
+    "Farkın okur kararına etkisi"
+   ],
+   "headlines": "[sondakika · 10:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[aa · 11:29] Bakan Işıkhan: Emekli maaşlarında ilave iyileştirmeleri içeren çalışma yapıyoruz\n[haberturk · 11:35] Bakan Işıkhan'dan emekli maaşı açıklaması\n[yenisafak · 11:40] Bakan Işıkhan duyurdu: Emekliye 2027'de ilave iyileştirme geliyor\n[tgrt · 11:43] Emekli maaşı için Bakan Işıkhan'dan dikkat çeken mesaj\n[turkiyegz · 11:44] Bakan Işıkhan'dan emekli maaşlarına ek zam açıklaması! Ocak 2027 için çalışma başladı\n[ahaber · 11:48] Bakan Işıkhan’dan emeklilere 2027 müjdesi: İlave iyileştirme çalışması yapılıyor\n[birgun · 11:53] Emekli maaşı düzenlemesi: Bakan Işıkhan detayları açıkladı\n[takvim · 11:55] Emekliye 2027 düzenlemesi! Maaşlara ilave iyileştirme hazırlığı: Bakan Işıkhan ayrıntıları açıkladı\n[bloomberght · 11:58] Bakan Işıkhan'dan emekli maaşı açıklaması\n[mynet · 12:09] Bakan Işıkhan açıkladı! Emekli maaşlarına ek iyileştirme hazırlığı — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, emekli maaşlarına yönelik yeni bir iyileştirme çalışması yürüttüklerini açıkladı.\n[onedio · 12:42] Bakan Vedat Işıkhan'dan Asgari Ücret ve Emekli Maaşı Açıklaması: \"İlave İyileştirme Yapılacak\"\n[milligazete · 12:45] Bakan Işıkhan'dan asgari ücret ve emekli maaşı açıklaması! 2027 zam takvimi belli oldu\n[haberler · 13:06] Bakan Işıkhan'dan emekli maaşı açıklaması: Yasal artışa ilave iyileştirme yapılacak\n[akit · 13:17] Bakan Işıkhan’dan emeklilere müjde: Maaşlara yasal zammın dışında ilave iyileştirme geliyor — Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, kamuoyunun merakla beklediği emekli maaşı düzenlemelerine ilişkin kritik mesajı paylaştı. Enflasyon oranlarına dayalı rutin artışın ötesine geçileceğini belirten Bakan Işıkhan, yasal zammın üzerine ilave iyileştirmelerin …\n[aksam · 13:41] Resmen tarih verildi: Emekliye ilave iyileştirme yolda\n[trthaber · 13:41] Bakan Işıkhan'dan emekli maaşı açıklaması"
+  },
+  {
+   "key": "s1661__framing-effect",
+   "output_file": "runs/bg/explain/s1661__framing-effect.json",
+   "event_title": "Fransa'da sokaklar karıştı: Paris ve Lyon'da sokağa çıkma yasağı uzatıldı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Fransa’da kısmi sokağa çıkma yasağı kararı: Başbakandan valilere talimat",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Protestolar kontrolden çıktı! Fransa'da sokağa çıkma yasağı ilan edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Başbakan Lecornu, bazı kentlerde sınırlı sokağa çıkma yasakları uygulanacağını açıkladı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı sokağa çıkma yasağı bazı kurumlarda idari 'kısmi' önlem, bazılarında 'kontrolden çıkma' ve 'alev alev yanma' çerçevesiyle sunuluyor.",
+   "skeptic_alternative": "Farklı kurumlar farklı zamanlarda ve farklı kapsamda (Avrupa geneli) bilgiye sahip olabilir.",
+   "missing_context": [
+    "Olgusal eşdeğerliğin açıkça belirtilmesi",
+    "Ordunun gerçekten sokağa indiğine dair resmi kaynak",
+    "Protestoların ülkelere göre ölçeği",
+    "Çerçevenin bir yargıyı değiştirdiğine dair ifade"
+   ],
+   "headlines": "[turkiyegz · 14:01] Fransa'da protestolar durdurulamıyor! Hükümetten sokağa çıkma yasağı talimatı — Fransa'da hafta sonu yaşanan şiddet olaylarının ardından Başbakan Sebastien Lecornu, valilerden kısmi ve bölgesel sokağa çıkma yasakları uygulamalarını talep etti.\n[sozcu · 14:27] Fransa’da kısmi sokağa çıkma yasağı talimatı: OHAL de masada — Fransa Başbakanı Sébastien Lecornu, 17 Ekim’de yaşanan şiddet olaylarının ardından valilere bazı bölgelerde kısmi sokağa çıkma yasaklarını devreye almaları talimatı verdiğini açıkladı. Lecornu, gerekli görülmesi halinde olağanüstü hal ilan edilebileceğini de söyledi.\n[bloomberght · 14:28] Fransa'dan sokağa çıkma yasağı hamlesi — Fransa Başbakanı Sebastien Lecornu, hafta sonu Paris ve diğer kentlerde düzenlenen protestoların ayaklanmalara dönüşmesi üzerine ülkenin bazı bölgelerde kısmi sokağa çıkma yasağı uygulayacağını açıkladı.\n[milligazete · 14:40] Fransa’da protestolar büyüyor! Sokağa çıkma yasağı talimatı verildi — Fransa’da hayat pahalılığı ve eğitim koşullarına karşı başlayan protestoların şiddet olaylarına dönüşmesi üzerine hükümet harekete geçti. Bazı bölgelerde…\n[ntv · 14:53] Fransa'da bazı kentlerde sokağa çıkma yasağı ilan edildi — Fransa'da, aralarında Lille'in de bulunduğu kuzey kentlerinde bugün ve yarın 20.00'dan 06.00'a kadar sokağa çıkma yasağı ilan edildi. Başkent Paris'te de bazı sokaklarda yasak uygulanacak.\n[haberturk · 14:53] Fransa'da hükümetten sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve okullardaki koşullara yönelik protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni önlemleri devreye alıyor. Başbakan Lecornu, bazı kentlerde sınırlı sokağa çıkma yasakları uygulanacağını açıkladı\n[mynet · 15:13] Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi — Fransa'da başlayıp Avrupa'nın birçok ülkesinde hayat pahalılığı protestoları giderek hızlanıyor. Gösteriler Arnavutluk, Belçika, İspanya, İtalya, Yunanistan ve Portekiz'e de sıçradı. Fransa'da ülke çapında lüks markaların mağazaları talan edilirken ülkedeki birçok kentte sokağa …\n[karar · 15:46] Fransa’da kısmi sokağa çıkma yasağı kararı: Başbakandan valilere talimat — Fransa’da hafta sonu düzenlenen gösterilerde yaşanan şiddet ve yağma olaylarının ardından bazı bölgelerde kısmi sokağa çıkma yasağı uygulanacak. Başbakan Sebastien Lecornu, valilere bu akşamdan itibaren gerekli görülen yerlerde sokağa çıkma yasağı ilan edilmesi talimatı verdi. …\n[cumhuriyet · 15:54] Fransa'da protestoların ardından OHAL gündemde: Başbakan'dan sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve kamu hizmetlerindeki sorunlar nedeniyle başlayan protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni güvenlik önlemlerini gündemine aldı. Başbakan Sébastien Lecornu, gerekirse olağanüstü hal ilan edilebileceğini açıklarken bazı …\n[diken · 20:42] Fransa'da Lille dahil dört şehirde sokağa çıkma yasağı — 19.10.2026 - Protestoların ülke geneline yayıldığı Fransa'da Lille dahil dört şehirde akşamları sokağa çıkmak yasaklandı.\n[star · 21:53] Protestolar kontrolden çıktı! Fransa'da sokağa çıkma yasağı ilan edildi — Fransa'da yağma ve şiddet olaylarının ardından kuzeydeki Lille şehri ile çevresindeki Douai, Wattignies ve Denain kentlerinde bugünden itibaren iki gün süreyle 20.00-06.00 saatlerinde arasında sokağa çıkma yasağı ilan edildi.\n[dirilis · 22:35] Fransa’nın birçok kentinde kısmi sokağa çıkma yasağı ilan edildi — Fransa Başbakanı Sebastien Lecornu, hafta sonu şiddet ve yağmalama sahnelerinin yaşandığı gösterilerin ardından valilere bu akşamdan itibaren ülkedeki bazı yerlerde kısmi sokağa çıkma yasağı uygulanması talimatını verdi.\n[yeniasya · 00:00] Fransa'nın birçok şehrinde kısmi sokağa çıkma yasağı kararı\n[sabah · 07:03] Fransa’da sokağa çıkma yasakları devreye girdi — Avrupa, eylemcilere karşı kontrolü kaybediyor. Belçika’nın ardından Fransa’da da sokağa çıkma yasağı devreye giriyor. İtalya’da gözaltına alınanların yüzde 80’i reşit olmayan eylemciler çıktı. Halk ise yağmacılara sıcak sularla müdahale ediyor\n[ahaber · 07:36] Fransa'da sokağa çıkma yasakları ve yeni güvenlik önlemleri — Fransa'da yeni protestolar öncesi polis ve askerlerin katılacağı geniş çaplı operasyon hazırlanırken İtalya, Milano'da 500 askeri görevlendirme kararı aldı.\n[trthaber · 17:35] Paris ve Lyon'da kısmi sokağa çıkma yasağı 1 gün uzatıldı — Fransa’da şiddet olaylarının yaşandığı sarı yelekliler eylemlerinin ardından bazı şehirlerde kısmi sokağa çıkma yasağı uygulanırken başkent Paris ve Lyon'daki yasağın 1 gün daha uzatıldığı bildirildi."
+  },
+  {
+   "key": "s1661__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s1661__leveling-and-sharpening.json",
+   "event_title": "Fransa'da sokaklar karıştı: Paris ve Lyon'da sokağa çıkma yasağı uzatıldı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "aralarında Lille'in de bulunduğu kuzey kentlerinde bugün ve yarın 20.00'dan 06.00'a kadar sokağa çıkma yasağı ilan edildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Avrupa, eylemcilere karşı kontrolü kaybediyor.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "sarı yelekliler eylemlerinin ardından",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "hayat pahalılığı ve eğitim koşullarına karşı başlayan protestoların",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "NTV'nin sınırlı kent ve saat ayrıntısı taban alındığında bazı başlıklar olayı 'Avrupa alev alev yanıyor', 'ordu sokağa indi' biçiminde büyütüyor; TRT Haber protestoları diğerlerinden farklı biçimde 'sarı yelekliler'e bağlıyor.",
+   "skeptic_alternative": "Olay günler içinde gelişti; farklı kaynaklar ve zaman damgaları farklılığı açıklayabilir.",
+   "missing_context": [
+    "Bağımsız resmi kayıt (ilan edilen bölgeler, asker görevlendirmesi)",
+    "Farkların bir sonuca haksız biçimde etki ettiğine dair kanıt",
+    "Fransız resmi açıklamaları",
+    "Hareketin örgütleyicileri hakkında güvenilir bilgi"
+   ],
+   "headlines": "[turkiyegz · 14:01] Fransa'da protestolar durdurulamıyor! Hükümetten sokağa çıkma yasağı talimatı — Fransa'da hafta sonu yaşanan şiddet olaylarının ardından Başbakan Sebastien Lecornu, valilerden kısmi ve bölgesel sokağa çıkma yasakları uygulamalarını talep etti.\n[sozcu · 14:27] Fransa’da kısmi sokağa çıkma yasağı talimatı: OHAL de masada — Fransa Başbakanı Sébastien Lecornu, 17 Ekim’de yaşanan şiddet olaylarının ardından valilere bazı bölgelerde kısmi sokağa çıkma yasaklarını devreye almaları talimatı verdiğini açıkladı. Lecornu, gerekli görülmesi halinde olağanüstü hal ilan edilebileceğini de söyledi.\n[bloomberght · 14:28] Fransa'dan sokağa çıkma yasağı hamlesi — Fransa Başbakanı Sebastien Lecornu, hafta sonu Paris ve diğer kentlerde düzenlenen protestoların ayaklanmalara dönüşmesi üzerine ülkenin bazı bölgelerde kısmi sokağa çıkma yasağı uygulayacağını açıkladı.\n[milligazete · 14:40] Fransa’da protestolar büyüyor! Sokağa çıkma yasağı talimatı verildi — Fransa’da hayat pahalılığı ve eğitim koşullarına karşı başlayan protestoların şiddet olaylarına dönüşmesi üzerine hükümet harekete geçti. Bazı bölgelerde…\n[ntv · 14:53] Fransa'da bazı kentlerde sokağa çıkma yasağı ilan edildi — Fransa'da, aralarında Lille'in de bulunduğu kuzey kentlerinde bugün ve yarın 20.00'dan 06.00'a kadar sokağa çıkma yasağı ilan edildi. Başkent Paris'te de bazı sokaklarda yasak uygulanacak.\n[haberturk · 14:53] Fransa'da hükümetten sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve okullardaki koşullara yönelik protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni önlemleri devreye alıyor. Başbakan Lecornu, bazı kentlerde sınırlı sokağa çıkma yasakları uygulanacağını açıkladı\n[mynet · 15:13] Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi — Fransa'da başlayıp Avrupa'nın birçok ülkesinde hayat pahalılığı protestoları giderek hızlanıyor. Gösteriler Arnavutluk, Belçika, İspanya, İtalya, Yunanistan ve Portekiz'e de sıçradı. Fransa'da ülke çapında lüks markaların mağazaları talan edilirken ülkedeki birçok kentte sokağa …\n[karar · 15:46] Fransa’da kısmi sokağa çıkma yasağı kararı: Başbakandan valilere talimat — Fransa’da hafta sonu düzenlenen gösterilerde yaşanan şiddet ve yağma olaylarının ardından bazı bölgelerde kısmi sokağa çıkma yasağı uygulanacak. Başbakan Sebastien Lecornu, valilere bu akşamdan itibaren gerekli görülen yerlerde sokağa çıkma yasağı ilan edilmesi talimatı verdi. …\n[cumhuriyet · 15:54] Fransa'da protestoların ardından OHAL gündemde: Başbakan'dan sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve kamu hizmetlerindeki sorunlar nedeniyle başlayan protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni güvenlik önlemlerini gündemine aldı. Başbakan Sébastien Lecornu, gerekirse olağanüstü hal ilan edilebileceğini açıklarken bazı …\n[diken · 20:42] Fransa'da Lille dahil dört şehirde sokağa çıkma yasağı — 19.10.2026 - Protestoların ülke geneline yayıldığı Fransa'da Lille dahil dört şehirde akşamları sokağa çıkmak yasaklandı.\n[star · 21:53] Protestolar kontrolden çıktı! Fransa'da sokağa çıkma yasağı ilan edildi — Fransa'da yağma ve şiddet olaylarının ardından kuzeydeki Lille şehri ile çevresindeki Douai, Wattignies ve Denain kentlerinde bugünden itibaren iki gün süreyle 20.00-06.00 saatlerinde arasında sokağa çıkma yasağı ilan edildi.\n[dirilis · 22:35] Fransa’nın birçok kentinde kısmi sokağa çıkma yasağı ilan edildi — Fransa Başbakanı Sebastien Lecornu, hafta sonu şiddet ve yağmalama sahnelerinin yaşandığı gösterilerin ardından valilere bu akşamdan itibaren ülkedeki bazı yerlerde kısmi sokağa çıkma yasağı uygulanması talimatını verdi.\n[yeniasya · 00:00] Fransa'nın birçok şehrinde kısmi sokağa çıkma yasağı kararı\n[sabah · 07:03] Fransa’da sokağa çıkma yasakları devreye girdi — Avrupa, eylemcilere karşı kontrolü kaybediyor. Belçika’nın ardından Fransa’da da sokağa çıkma yasağı devreye giriyor. İtalya’da gözaltına alınanların yüzde 80’i reşit olmayan eylemciler çıktı. Halk ise yağmacılara sıcak sularla müdahale ediyor\n[ahaber · 07:36] Fransa'da sokağa çıkma yasakları ve yeni güvenlik önlemleri — Fransa'da yeni protestolar öncesi polis ve askerlerin katılacağı geniş çaplı operasyon hazırlanırken İtalya, Milano'da 500 askeri görevlendirme kararı aldı.\n[trthaber · 17:35] Paris ve Lyon'da kısmi sokağa çıkma yasağı 1 gün uzatıldı — Fransa’da şiddet olaylarının yaşandığı sarı yelekliler eylemlerinin ardından bazı şehirlerde kısmi sokağa çıkma yasağı uygulanırken başkent Paris ve Lyon'daki yasağın 1 gün daha uzatıldığı bildirildi."
+  },
+  {
+   "key": "s1661__salience-bias",
+   "output_file": "runs/bg/explain/s1661__salience-bias.json",
+   "event_title": "Fransa'da sokaklar karıştı: Paris ve Lyon'da sokağa çıkma yasağı uzatıldı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Avrupa alev alev yanıyor!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Halk ise yağmacılara sıcak sularla müdahale ediyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fransa'da bazı kentlerde sokağa çıkma yasağı ilan edildi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Canlı ve duygusal ögeler (alev, sıcak su ile müdahale) bazı kurumlarda öne çıkarken diğerleri sınırlı yasak bilgisini veriyor.",
+   "skeptic_alternative": "Görsel ve çarpıcı ayrıntılar haber anlatısının olağan parçasıdır.",
+   "missing_context": [
+    "Ayrıntının kaynağı ve yaygınlığı",
+    "Çarpıcı ayrıntının sıklık ya da genelleme kanıtı olarak kullanıldığına dair açık ifade yok"
+   ],
+   "headlines": "[turkiyegz · 14:01] Fransa'da protestolar durdurulamıyor! Hükümetten sokağa çıkma yasağı talimatı — Fransa'da hafta sonu yaşanan şiddet olaylarının ardından Başbakan Sebastien Lecornu, valilerden kısmi ve bölgesel sokağa çıkma yasakları uygulamalarını talep etti.\n[sozcu · 14:27] Fransa’da kısmi sokağa çıkma yasağı talimatı: OHAL de masada — Fransa Başbakanı Sébastien Lecornu, 17 Ekim’de yaşanan şiddet olaylarının ardından valilere bazı bölgelerde kısmi sokağa çıkma yasaklarını devreye almaları talimatı verdiğini açıkladı. Lecornu, gerekli görülmesi halinde olağanüstü hal ilan edilebileceğini de söyledi.\n[bloomberght · 14:28] Fransa'dan sokağa çıkma yasağı hamlesi — Fransa Başbakanı Sebastien Lecornu, hafta sonu Paris ve diğer kentlerde düzenlenen protestoların ayaklanmalara dönüşmesi üzerine ülkenin bazı bölgelerde kısmi sokağa çıkma yasağı uygulayacağını açıkladı.\n[milligazete · 14:40] Fransa’da protestolar büyüyor! Sokağa çıkma yasağı talimatı verildi — Fransa’da hayat pahalılığı ve eğitim koşullarına karşı başlayan protestoların şiddet olaylarına dönüşmesi üzerine hükümet harekete geçti. Bazı bölgelerde…\n[ntv · 14:53] Fransa'da bazı kentlerde sokağa çıkma yasağı ilan edildi — Fransa'da, aralarında Lille'in de bulunduğu kuzey kentlerinde bugün ve yarın 20.00'dan 06.00'a kadar sokağa çıkma yasağı ilan edildi. Başkent Paris'te de bazı sokaklarda yasak uygulanacak.\n[haberturk · 14:53] Fransa'da hükümetten sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve okullardaki koşullara yönelik protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni önlemleri devreye alıyor. Başbakan Lecornu, bazı kentlerde sınırlı sokağa çıkma yasakları uygulanacağını açıkladı\n[mynet · 15:13] Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi — Fransa'da başlayıp Avrupa'nın birçok ülkesinde hayat pahalılığı protestoları giderek hızlanıyor. Gösteriler Arnavutluk, Belçika, İspanya, İtalya, Yunanistan ve Portekiz'e de sıçradı. Fransa'da ülke çapında lüks markaların mağazaları talan edilirken ülkedeki birçok kentte sokağa …\n[karar · 15:46] Fransa’da kısmi sokağa çıkma yasağı kararı: Başbakandan valilere talimat — Fransa’da hafta sonu düzenlenen gösterilerde yaşanan şiddet ve yağma olaylarının ardından bazı bölgelerde kısmi sokağa çıkma yasağı uygulanacak. Başbakan Sebastien Lecornu, valilere bu akşamdan itibaren gerekli görülen yerlerde sokağa çıkma yasağı ilan edilmesi talimatı verdi. …\n[cumhuriyet · 15:54] Fransa'da protestoların ardından OHAL gündemde: Başbakan'dan sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve kamu hizmetlerindeki sorunlar nedeniyle başlayan protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni güvenlik önlemlerini gündemine aldı. Başbakan Sébastien Lecornu, gerekirse olağanüstü hal ilan edilebileceğini açıklarken bazı …\n[diken · 20:42] Fransa'da Lille dahil dört şehirde sokağa çıkma yasağı — 19.10.2026 - Protestoların ülke geneline yayıldığı Fransa'da Lille dahil dört şehirde akşamları sokağa çıkmak yasaklandı.\n[star · 21:53] Protestolar kontrolden çıktı! Fransa'da sokağa çıkma yasağı ilan edildi — Fransa'da yağma ve şiddet olaylarının ardından kuzeydeki Lille şehri ile çevresindeki Douai, Wattignies ve Denain kentlerinde bugünden itibaren iki gün süreyle 20.00-06.00 saatlerinde arasında sokağa çıkma yasağı ilan edildi.\n[dirilis · 22:35] Fransa’nın birçok kentinde kısmi sokağa çıkma yasağı ilan edildi — Fransa Başbakanı Sebastien Lecornu, hafta sonu şiddet ve yağmalama sahnelerinin yaşandığı gösterilerin ardından valilere bu akşamdan itibaren ülkedeki bazı yerlerde kısmi sokağa çıkma yasağı uygulanması talimatını verdi.\n[yeniasya · 00:00] Fransa'nın birçok şehrinde kısmi sokağa çıkma yasağı kararı\n[sabah · 07:03] Fransa’da sokağa çıkma yasakları devreye girdi — Avrupa, eylemcilere karşı kontrolü kaybediyor. Belçika’nın ardından Fransa’da da sokağa çıkma yasağı devreye giriyor. İtalya’da gözaltına alınanların yüzde 80’i reşit olmayan eylemciler çıktı. Halk ise yağmacılara sıcak sularla müdahale ediyor\n[ahaber · 07:36] Fransa'da sokağa çıkma yasakları ve yeni güvenlik önlemleri — Fransa'da yeni protestolar öncesi polis ve askerlerin katılacağı geniş çaplı operasyon hazırlanırken İtalya, Milano'da 500 askeri görevlendirme kararı aldı.\n[trthaber · 17:35] Paris ve Lyon'da kısmi sokağa çıkma yasağı 1 gün uzatıldı — Fransa’da şiddet olaylarının yaşandığı sarı yelekliler eylemlerinin ardından bazı şehirlerde kısmi sokağa çıkma yasağı uygulanırken başkent Paris ve Lyon'daki yasağın 1 gün daha uzatıldığı bildirildi."
+  },
+  {
+   "key": "s1661__negativity-bias",
+   "output_file": "runs/bg/explain/s1661__negativity-bias.json",
+   "event_title": "Fransa'da sokaklar karıştı: Paris ve Lyon'da sokağa çıkma yasağı uzatıldı",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Avrupa, eylemcilere karşı kontrolü kaybediyor.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Protestolar kontrolden çıktı!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Olumsuz gelişmeler genelleştirilerek vurgulanıyor; ancak karşılaştırılabilir olumlu bilgi metinde yok.",
+   "skeptic_alternative": "Şiddet ve sokağa çıkma yasağı gerçekten olumsuz bir gelişmedir; vurgu orantılı olabilir.",
+   "missing_context": [
+    "Karşılaştırılabilir olumlu kanıtın göz ardı edildiğine dair veri",
+    "Olay sayılarına dair veriler",
+    "Olay ölçeğine dair resmi istatistik",
+    "Sakinleşme ya da müzakere haberleri"
+   ],
+   "headlines": "[turkiyegz · 14:01] Fransa'da protestolar durdurulamıyor! Hükümetten sokağa çıkma yasağı talimatı — Fransa'da hafta sonu yaşanan şiddet olaylarının ardından Başbakan Sebastien Lecornu, valilerden kısmi ve bölgesel sokağa çıkma yasakları uygulamalarını talep etti.\n[sozcu · 14:27] Fransa’da kısmi sokağa çıkma yasağı talimatı: OHAL de masada — Fransa Başbakanı Sébastien Lecornu, 17 Ekim’de yaşanan şiddet olaylarının ardından valilere bazı bölgelerde kısmi sokağa çıkma yasaklarını devreye almaları talimatı verdiğini açıkladı. Lecornu, gerekli görülmesi halinde olağanüstü hal ilan edilebileceğini de söyledi.\n[bloomberght · 14:28] Fransa'dan sokağa çıkma yasağı hamlesi — Fransa Başbakanı Sebastien Lecornu, hafta sonu Paris ve diğer kentlerde düzenlenen protestoların ayaklanmalara dönüşmesi üzerine ülkenin bazı bölgelerde kısmi sokağa çıkma yasağı uygulayacağını açıkladı.\n[milligazete · 14:40] Fransa’da protestolar büyüyor! Sokağa çıkma yasağı talimatı verildi — Fransa’da hayat pahalılığı ve eğitim koşullarına karşı başlayan protestoların şiddet olaylarına dönüşmesi üzerine hükümet harekete geçti. Bazı bölgelerde…\n[ntv · 14:53] Fransa'da bazı kentlerde sokağa çıkma yasağı ilan edildi — Fransa'da, aralarında Lille'in de bulunduğu kuzey kentlerinde bugün ve yarın 20.00'dan 06.00'a kadar sokağa çıkma yasağı ilan edildi. Başkent Paris'te de bazı sokaklarda yasak uygulanacak.\n[haberturk · 14:53] Fransa'da hükümetten sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve okullardaki koşullara yönelik protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni önlemleri devreye alıyor. Başbakan Lecornu, bazı kentlerde sınırlı sokağa çıkma yasakları uygulanacağını açıkladı\n[mynet · 15:13] Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi — Fransa'da başlayıp Avrupa'nın birçok ülkesinde hayat pahalılığı protestoları giderek hızlanıyor. Gösteriler Arnavutluk, Belçika, İspanya, İtalya, Yunanistan ve Portekiz'e de sıçradı. Fransa'da ülke çapında lüks markaların mağazaları talan edilirken ülkedeki birçok kentte sokağa …\n[karar · 15:46] Fransa’da kısmi sokağa çıkma yasağı kararı: Başbakandan valilere talimat — Fransa’da hafta sonu düzenlenen gösterilerde yaşanan şiddet ve yağma olaylarının ardından bazı bölgelerde kısmi sokağa çıkma yasağı uygulanacak. Başbakan Sebastien Lecornu, valilere bu akşamdan itibaren gerekli görülen yerlerde sokağa çıkma yasağı ilan edilmesi talimatı verdi. …\n[cumhuriyet · 15:54] Fransa'da protestoların ardından OHAL gündemde: Başbakan'dan sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve kamu hizmetlerindeki sorunlar nedeniyle başlayan protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni güvenlik önlemlerini gündemine aldı. Başbakan Sébastien Lecornu, gerekirse olağanüstü hal ilan edilebileceğini açıklarken bazı …\n[diken · 20:42] Fransa'da Lille dahil dört şehirde sokağa çıkma yasağı — 19.10.2026 - Protestoların ülke geneline yayıldığı Fransa'da Lille dahil dört şehirde akşamları sokağa çıkmak yasaklandı.\n[star · 21:53] Protestolar kontrolden çıktı! Fransa'da sokağa çıkma yasağı ilan edildi — Fransa'da yağma ve şiddet olaylarının ardından kuzeydeki Lille şehri ile çevresindeki Douai, Wattignies ve Denain kentlerinde bugünden itibaren iki gün süreyle 20.00-06.00 saatlerinde arasında sokağa çıkma yasağı ilan edildi.\n[dirilis · 22:35] Fransa’nın birçok kentinde kısmi sokağa çıkma yasağı ilan edildi — Fransa Başbakanı Sebastien Lecornu, hafta sonu şiddet ve yağmalama sahnelerinin yaşandığı gösterilerin ardından valilere bu akşamdan itibaren ülkedeki bazı yerlerde kısmi sokağa çıkma yasağı uygulanması talimatını verdi.\n[yeniasya · 00:00] Fransa'nın birçok şehrinde kısmi sokağa çıkma yasağı kararı\n[sabah · 07:03] Fransa’da sokağa çıkma yasakları devreye girdi — Avrupa, eylemcilere karşı kontrolü kaybediyor. Belçika’nın ardından Fransa’da da sokağa çıkma yasağı devreye giriyor. İtalya’da gözaltına alınanların yüzde 80’i reşit olmayan eylemciler çıktı. Halk ise yağmacılara sıcak sularla müdahale ediyor\n[ahaber · 07:36] Fransa'da sokağa çıkma yasakları ve yeni güvenlik önlemleri — Fransa'da yeni protestolar öncesi polis ve askerlerin katılacağı geniş çaplı operasyon hazırlanırken İtalya, Milano'da 500 askeri görevlendirme kararı aldı.\n[trthaber · 17:35] Paris ve Lyon'da kısmi sokağa çıkma yasağı 1 gün uzatıldı — Fransa’da şiddet olaylarının yaşandığı sarı yelekliler eylemlerinin ardından bazı şehirlerde kısmi sokağa çıkma yasağı uygulanırken başkent Paris ve Lyon'daki yasağın 1 gün daha uzatıldığı bildirildi."
+  },
+  {
+   "key": "s1661__availability-heuristic",
+   "output_file": "runs/bg/explain/s1661__availability-heuristic.json",
+   "event_title": "Fransa'da sokaklar karıştı: Paris ve Lyon'da sokağa çıkma yasağı uzatıldı",
+   "concept": "Availability Heuristic",
+   "definition": "A judgment shortcut in which readily recalled examples or associations influence estimates or choices. It becomes a bias-consistent reasoning pattern when explicit text treats ease of recall, vividness, recency, or exposure as a proxy for likelihood, prevalence, or merit and that influence is unsupported or conflicts with better evidence. The shortcut can be useful; its presence alone does not establish an error or diagnose a person.",
+   "quotes": [
+    {
+     "quote": "Belçika’nın ardından Fransa’da da sokağa çıkma yasağı devreye giriyor.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İtalya’da gözaltına alınanların yüzde 80’i reşit olmayan eylemciler çıktı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Gösteriler Arnavutluk, Belçika, İspanya, İtalya, Yunanistan ve Portekiz'e de sıçradı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Avrupa, eylemcilere karşı kontrolü kaybediyor.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Yakın tarihli ülke örnekleri sıralanarak 'Avrupa kontrolü kaybediyor' gibi geniş bir genellemeye varılıyor gibi görünüyor.",
+   "skeptic_alternative": "Birden çok ülkedeki eş zamanlı olaylar genellemeyi kısmen destekleyebilir.",
+   "missing_context": [
+    "Hatırlanabilirliğin açıkça gerekçe olarak kullanılması",
+    "Ülke bazında karşılaştırmalı olay verisi",
+    "Ülkeler bazında olay ve gözaltı sayıları"
+   ],
+   "headlines": "[turkiyegz · 14:01] Fransa'da protestolar durdurulamıyor! Hükümetten sokağa çıkma yasağı talimatı — Fransa'da hafta sonu yaşanan şiddet olaylarının ardından Başbakan Sebastien Lecornu, valilerden kısmi ve bölgesel sokağa çıkma yasakları uygulamalarını talep etti.\n[sozcu · 14:27] Fransa’da kısmi sokağa çıkma yasağı talimatı: OHAL de masada — Fransa Başbakanı Sébastien Lecornu, 17 Ekim’de yaşanan şiddet olaylarının ardından valilere bazı bölgelerde kısmi sokağa çıkma yasaklarını devreye almaları talimatı verdiğini açıkladı. Lecornu, gerekli görülmesi halinde olağanüstü hal ilan edilebileceğini de söyledi.\n[bloomberght · 14:28] Fransa'dan sokağa çıkma yasağı hamlesi — Fransa Başbakanı Sebastien Lecornu, hafta sonu Paris ve diğer kentlerde düzenlenen protestoların ayaklanmalara dönüşmesi üzerine ülkenin bazı bölgelerde kısmi sokağa çıkma yasağı uygulayacağını açıkladı.\n[milligazete · 14:40] Fransa’da protestolar büyüyor! Sokağa çıkma yasağı talimatı verildi — Fransa’da hayat pahalılığı ve eğitim koşullarına karşı başlayan protestoların şiddet olaylarına dönüşmesi üzerine hükümet harekete geçti. Bazı bölgelerde…\n[ntv · 14:53] Fransa'da bazı kentlerde sokağa çıkma yasağı ilan edildi — Fransa'da, aralarında Lille'in de bulunduğu kuzey kentlerinde bugün ve yarın 20.00'dan 06.00'a kadar sokağa çıkma yasağı ilan edildi. Başkent Paris'te de bazı sokaklarda yasak uygulanacak.\n[haberturk · 14:53] Fransa'da hükümetten sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve okullardaki koşullara yönelik protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni önlemleri devreye alıyor. Başbakan Lecornu, bazı kentlerde sınırlı sokağa çıkma yasakları uygulanacağını açıkladı\n[mynet · 15:13] Avrupa alev alev yanıyor! Fransa'da sokağa çıkma yasağı, ordu sokağa indi — Fransa'da başlayıp Avrupa'nın birçok ülkesinde hayat pahalılığı protestoları giderek hızlanıyor. Gösteriler Arnavutluk, Belçika, İspanya, İtalya, Yunanistan ve Portekiz'e de sıçradı. Fransa'da ülke çapında lüks markaların mağazaları talan edilirken ülkedeki birçok kentte sokağa …\n[karar · 15:46] Fransa’da kısmi sokağa çıkma yasağı kararı: Başbakandan valilere talimat — Fransa’da hafta sonu düzenlenen gösterilerde yaşanan şiddet ve yağma olaylarının ardından bazı bölgelerde kısmi sokağa çıkma yasağı uygulanacak. Başbakan Sebastien Lecornu, valilere bu akşamdan itibaren gerekli görülen yerlerde sokağa çıkma yasağı ilan edilmesi talimatı verdi. …\n[cumhuriyet · 15:54] Fransa'da protestoların ardından OHAL gündemde: Başbakan'dan sokağa çıkma yasağı talimatı — Fransa'da hayat pahalılığı ve kamu hizmetlerindeki sorunlar nedeniyle başlayan protestoların şiddet olaylarına dönüşmesinin ardından hükümet yeni güvenlik önlemlerini gündemine aldı. Başbakan Sébastien Lecornu, gerekirse olağanüstü hal ilan edilebileceğini açıklarken bazı …\n[diken · 20:42] Fransa'da Lille dahil dört şehirde sokağa çıkma yasağı — 19.10.2026 - Protestoların ülke geneline yayıldığı Fransa'da Lille dahil dört şehirde akşamları sokağa çıkmak yasaklandı.\n[star · 21:53] Protestolar kontrolden çıktı! Fransa'da sokağa çıkma yasağı ilan edildi — Fransa'da yağma ve şiddet olaylarının ardından kuzeydeki Lille şehri ile çevresindeki Douai, Wattignies ve Denain kentlerinde bugünden itibaren iki gün süreyle 20.00-06.00 saatlerinde arasında sokağa çıkma yasağı ilan edildi.\n[dirilis · 22:35] Fransa’nın birçok kentinde kısmi sokağa çıkma yasağı ilan edildi — Fransa Başbakanı Sebastien Lecornu, hafta sonu şiddet ve yağmalama sahnelerinin yaşandığı gösterilerin ardından valilere bu akşamdan itibaren ülkedeki bazı yerlerde kısmi sokağa çıkma yasağı uygulanması talimatını verdi.\n[yeniasya · 00:00] Fransa'nın birçok şehrinde kısmi sokağa çıkma yasağı kararı\n[sabah · 07:03] Fransa’da sokağa çıkma yasakları devreye girdi — Avrupa, eylemcilere karşı kontrolü kaybediyor. Belçika’nın ardından Fransa’da da sokağa çıkma yasağı devreye giriyor. İtalya’da gözaltına alınanların yüzde 80’i reşit olmayan eylemciler çıktı. Halk ise yağmacılara sıcak sularla müdahale ediyor\n[ahaber · 07:36] Fransa'da sokağa çıkma yasakları ve yeni güvenlik önlemleri — Fransa'da yeni protestolar öncesi polis ve askerlerin katılacağı geniş çaplı operasyon hazırlanırken İtalya, Milano'da 500 askeri görevlendirme kararı aldı.\n[trthaber · 17:35] Paris ve Lyon'da kısmi sokağa çıkma yasağı 1 gün uzatıldı — Fransa’da şiddet olaylarının yaşandığı sarı yelekliler eylemlerinin ardından bazı şehirlerde kısmi sokağa çıkma yasağı uygulanırken başkent Paris ve Lyon'daki yasağın 1 gün daha uzatıldığı bildirildi."
+  },
+  {
+   "key": "s4256__framing-effect",
+   "output_file": "runs/bg/explain/s4256__framing-effect.json",
+   "event_title": "İstanbul Barosu Başkanı Ümit Kocasakal oldu",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu! Kaboğlu dönemi resmen bitti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Barosu geri döndü ifadelerini kullandı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Barosu seçimleri: Ümit Kocasakal yeni başkan seçildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kaboğlu dönemi resmen bitti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Barosu geri döndü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Barosu başkanlığına Ümit Kocasakal seçildi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı seçim sonucu bir kurumda yeni başkanın seçilmesi, bir diğerinde önceki dönemin 'bitmesi' olarak, kayıp çerçevesiyle sunuluyor.",
+   "skeptic_alternative": "'Geri döndü' kazananın kendi sözünün aktarımıdır; farklı vurgu, farklı haber açılarından kaynaklanabilir.",
+   "missing_context": [
+    "Resmi kesin sonuçlar",
+    "Seçim kampanyasının arka planı",
+    "Çerçevenin bir yargı veya tercihi değiştirdiğine dair açık ifade"
+   ],
+   "headlines": "[birgun · 11:43] İstanbul Barosu seçimleri: Ümit Kocasakal yeni başkan seçildi\n[karar · 11:44] İstanbul Barosu Başkanlık Seçimi ne zaman bitiyor? Ümit Kocasakal hangi gruptan, İbrahim Kaboğlu yeniden aday mı? — İstanbul Barosu'nun 2026-2028 döneminde görev yapacak yeni başkanını ve yönetim kurullarını belirlemek için 25 Ekim 2026 Pazar günü Haliç Kongre Merkezi'nde oy verme işlemi başladı.\n[haberturk · 15:49] İstanbul Barosu seçimleri sonuçlandı: Ümit Kocasakal başkan seçildi — İstanbul Barosu 128’inci Olağan Genel Kurulu’nun ikinci gününde başkanlık seçimi için oy kullanma işlemi sona erdi. Oy sayımının tamamlanmasının ardından resmi olmayan sonuçlara göre Ümit Kocasakal seçimi 9 bin 548 oy ile kazandı.\n[sozcu · 18:00] İstanbul Barosu Başkanı Ümit Kocasakal oldu — Son Dakika... İstanbul Barosu’nun 128. Olağan Genel Kurulu’nda avukatlar bugün sandık başına gitti. İstanbul Barosunun yeni başkanı belli oldu. Resmi olmayan seçim sonuçlarına göre Ümit Kocasakal seçimi kazandı.\n[diken · 18:07] İstanbul Barosu başkanlık seçimini Ümit Kocasakal kazandı — 25.10.2026 - İstanbul Barosu genel kurulunda Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasasal resmi olmayan sonuçlara göre seçimi kazanarak başkan seçildi.\n[cumhuriyet · 18:10] İstanbul Barosu seçimleri: Kazanan Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal oldu — İstanbul Barosu’nun 128. Olağan Genel Kurulu’nda, Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal, seçimi kazanarak başkan seçildi. Kocasakal yaptığı konuşmada Herkese hayırlı uğurlu olsun. İstanbul Barosu geri döndü ifadelerini kullandı.\n[tgrt · 18:28] İstanbul Barosu Başkanı Ümit Kocasakal kimdir, nereli? Ümit Kocasakal listesi — İstanbul Barosu'nun 128. Olağan Genel Kurulu'nda başkan seçilen Prof. Dr. Ümit Kocasakal'ın hayatı ve kariyeri merak ediliyor. Daha önce 2010-2016 yılları arasında üç dönem başkanlık yapan Kocasakal, 10 yıl aradan sonra yeniden bu göreve geldi. Peki, Ümit Kocasakal kimdir, kaç …\n[sabah · 18:41] İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu! Kaboğlu dönemi resmen bitti — İstanbul Barosu’nda başkanlık seçimi için sandık başına giden avukatlar tercihini yaptı. Seçim yarışında kazanan Ümit Kocasakal oldu.\n[yenisafak · 18:59] İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu — İstanbul Barosu başkanlık seçiminde resmi olmayan sonuçlara göre Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak seçimi önde tamamladı. Değişim İçin Avukatlar Grubu adayı Prof. Dr. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.\n[turkiyegz · 19:02] İstanbul Barosu Başkanı Ümit Kocasakal oldu — İstanbul Barosu başkanlık seçiminde resmi olmayan sonuçlara göre Ümit Kocasakal, 9 bin 970 oyla başkan seçildi. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.\n[mynet · 19:17] İstanbul Barosunun yeni başkanı Ümit Kocasakal oldu — İstanbul Barosunda başkanlık seçimi tamamlandı. Haliç Kongre Merkezi'nde 172 sandıkta gerçekleştirilen oylamanın ardından resmi olmayan sonuçlar açıklandı. Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak 6 bin 860 oyda kalan Prof. Dr. İbrahim Özden …\n[milligazete · 21:33] İstanbul Barosu 2026 seçim sonuçları! Kim birinci oldu? Kocasakal kaç oy aldı? Kaboğlu kaç oyda kaldı? — İstanbul Barosu'nun 25 Ekim 2026 tarihinde yapılan 128. Olağan Genel Kurulu'nda başkanlık seçimi tamamlandı. Cumhuriyetçi Güç Birliği İttifakı'nın adayı…\n[ntv · 22:21] İstanbul Barosu başkanlığına Ümit Kocasakal seçildi\n[takvim · 07:57] İstanbul Barosu seçim sonuçları belli oldu! Ümit Kocasakal 10 bin 227 oyla başkan seçildi\n[ahaber · 10:16] İstanbul Barosu'nda başkanlık seçimini Ümit Kocasakal kazandı! 10 bin 227 oy aldı\n[haberler · 13:28] Ağıralioğlu, İstanbul Barosu Başkanı seçilen Kocasakal'a tebrik mesajı gönderdi"
+  },
+  {
+   "key": "s4256__in-group-bias",
+   "output_file": "runs/bg/explain/s4256__in-group-bias.json",
+   "event_title": "İstanbul Barosu Başkanı Ümit Kocasakal oldu",
+   "concept": "In-group Bias",
+   "definition": "A tendency to favor people identified as members of one's own group over people identified with another group. In text review, flag only reasoning that explicitly lets group membership distort evaluation or treatment without a relevant justification. Group loyalty or a shortcut is not automatically an error, and this is not a diagnosis.",
+   "quotes": [
+    {
+     "quote": "Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak seçimi önde tamamladı. Değişim İçin Avukatlar Grubu adayı Prof. Dr. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ağıralioğlu, İstanbul Barosu Başkanı seçilen Kocasakal'a tebrik mesajı gönderdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Barosu geri döndü",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Adayların grup üyelikleri açıkça belirtiliyor; ancak grup üyeliğinin bir değerlendirmeyi çarpıttığı gösterilmiyor.",
+   "skeptic_alternative": "İfade kazanan adayın sözü olarak aktarılmıştır; yayın kuruluşunun grup kayırması değildir.",
+   "missing_context": [
+    "Benzer seçimlerde kurumların tutumu",
+    "Gruba göre farklı standart uygulandığına dair karşılaştırma",
+    "Kurumların adaylarla ilişkisine dair açık bilgi",
+    "Tebrik mesajının içeriği"
+   ],
+   "headlines": "[birgun · 11:43] İstanbul Barosu seçimleri: Ümit Kocasakal yeni başkan seçildi\n[karar · 11:44] İstanbul Barosu Başkanlık Seçimi ne zaman bitiyor? Ümit Kocasakal hangi gruptan, İbrahim Kaboğlu yeniden aday mı? — İstanbul Barosu'nun 2026-2028 döneminde görev yapacak yeni başkanını ve yönetim kurullarını belirlemek için 25 Ekim 2026 Pazar günü Haliç Kongre Merkezi'nde oy verme işlemi başladı.\n[haberturk · 15:49] İstanbul Barosu seçimleri sonuçlandı: Ümit Kocasakal başkan seçildi — İstanbul Barosu 128’inci Olağan Genel Kurulu’nun ikinci gününde başkanlık seçimi için oy kullanma işlemi sona erdi. Oy sayımının tamamlanmasının ardından resmi olmayan sonuçlara göre Ümit Kocasakal seçimi 9 bin 548 oy ile kazandı.\n[sozcu · 18:00] İstanbul Barosu Başkanı Ümit Kocasakal oldu — Son Dakika... İstanbul Barosu’nun 128. Olağan Genel Kurulu’nda avukatlar bugün sandık başına gitti. İstanbul Barosunun yeni başkanı belli oldu. Resmi olmayan seçim sonuçlarına göre Ümit Kocasakal seçimi kazandı.\n[diken · 18:07] İstanbul Barosu başkanlık seçimini Ümit Kocasakal kazandı — 25.10.2026 - İstanbul Barosu genel kurulunda Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasasal resmi olmayan sonuçlara göre seçimi kazanarak başkan seçildi.\n[cumhuriyet · 18:10] İstanbul Barosu seçimleri: Kazanan Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal oldu — İstanbul Barosu’nun 128. Olağan Genel Kurulu’nda, Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal, seçimi kazanarak başkan seçildi. Kocasakal yaptığı konuşmada Herkese hayırlı uğurlu olsun. İstanbul Barosu geri döndü ifadelerini kullandı.\n[tgrt · 18:28] İstanbul Barosu Başkanı Ümit Kocasakal kimdir, nereli? Ümit Kocasakal listesi — İstanbul Barosu'nun 128. Olağan Genel Kurulu'nda başkan seçilen Prof. Dr. Ümit Kocasakal'ın hayatı ve kariyeri merak ediliyor. Daha önce 2010-2016 yılları arasında üç dönem başkanlık yapan Kocasakal, 10 yıl aradan sonra yeniden bu göreve geldi. Peki, Ümit Kocasakal kimdir, kaç …\n[sabah · 18:41] İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu! Kaboğlu dönemi resmen bitti — İstanbul Barosu’nda başkanlık seçimi için sandık başına giden avukatlar tercihini yaptı. Seçim yarışında kazanan Ümit Kocasakal oldu.\n[yenisafak · 18:59] İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu — İstanbul Barosu başkanlık seçiminde resmi olmayan sonuçlara göre Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak seçimi önde tamamladı. Değişim İçin Avukatlar Grubu adayı Prof. Dr. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.\n[turkiyegz · 19:02] İstanbul Barosu Başkanı Ümit Kocasakal oldu — İstanbul Barosu başkanlık seçiminde resmi olmayan sonuçlara göre Ümit Kocasakal, 9 bin 970 oyla başkan seçildi. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.\n[mynet · 19:17] İstanbul Barosunun yeni başkanı Ümit Kocasakal oldu — İstanbul Barosunda başkanlık seçimi tamamlandı. Haliç Kongre Merkezi'nde 172 sandıkta gerçekleştirilen oylamanın ardından resmi olmayan sonuçlar açıklandı. Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak 6 bin 860 oyda kalan Prof. Dr. İbrahim Özden …\n[milligazete · 21:33] İstanbul Barosu 2026 seçim sonuçları! Kim birinci oldu? Kocasakal kaç oy aldı? Kaboğlu kaç oyda kaldı? — İstanbul Barosu'nun 25 Ekim 2026 tarihinde yapılan 128. Olağan Genel Kurulu'nda başkanlık seçimi tamamlandı. Cumhuriyetçi Güç Birliği İttifakı'nın adayı…\n[ntv · 22:21] İstanbul Barosu başkanlığına Ümit Kocasakal seçildi\n[takvim · 07:57] İstanbul Barosu seçim sonuçları belli oldu! Ümit Kocasakal 10 bin 227 oyla başkan seçildi\n[ahaber · 10:16] İstanbul Barosu'nda başkanlık seçimini Ümit Kocasakal kazandı! 10 bin 227 oy aldı\n[haberler · 13:28] Ağıralioğlu, İstanbul Barosu Başkanı seçilen Kocasakal'a tebrik mesajı gönderdi"
+  },
+  {
+   "key": "s4256__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4256__leveling-and-sharpening.json",
+   "event_title": "İstanbul Barosu Başkanı Ümit Kocasakal oldu",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "resmi olmayan sonuçlara göre Ümit Kocasakal seçimi 9 bin 548 oy ile kazandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ümit Kocasakal, 9 bin 970 oyla başkan seçildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ümit Kocasakal 10 bin 227 oyla başkan seçildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasasal",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Ümit Kocasakal seçimi 9 bin 548 oy ile kazandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "9 bin 970 oy alarak seçimi önde tamamladı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Kurumlar arasında oy sayısı aktarımı farklılaşıyor (9.548, 9.970, 10.227); bazıları 'resmi olmayan' nitelemesini koruyor, bazıları düşürüyor.",
+   "skeptic_alternative": "Sayım ilerledikçe güncellenen resmi olmayan sonuçlar farklı anlarda aktarılmıştır.",
+   "missing_context": [
+    "Farkın bir sonuca etki ettiğine dair kanıt",
+    "Her rakamın açıklandığı saat",
+    "Kesin resmi sonuç",
+    "Kesin resmi sonuçlar"
+   ],
+   "headlines": "[birgun · 11:43] İstanbul Barosu seçimleri: Ümit Kocasakal yeni başkan seçildi\n[karar · 11:44] İstanbul Barosu Başkanlık Seçimi ne zaman bitiyor? Ümit Kocasakal hangi gruptan, İbrahim Kaboğlu yeniden aday mı? — İstanbul Barosu'nun 2026-2028 döneminde görev yapacak yeni başkanını ve yönetim kurullarını belirlemek için 25 Ekim 2026 Pazar günü Haliç Kongre Merkezi'nde oy verme işlemi başladı.\n[haberturk · 15:49] İstanbul Barosu seçimleri sonuçlandı: Ümit Kocasakal başkan seçildi — İstanbul Barosu 128’inci Olağan Genel Kurulu’nun ikinci gününde başkanlık seçimi için oy kullanma işlemi sona erdi. Oy sayımının tamamlanmasının ardından resmi olmayan sonuçlara göre Ümit Kocasakal seçimi 9 bin 548 oy ile kazandı.\n[sozcu · 18:00] İstanbul Barosu Başkanı Ümit Kocasakal oldu — Son Dakika... İstanbul Barosu’nun 128. Olağan Genel Kurulu’nda avukatlar bugün sandık başına gitti. İstanbul Barosunun yeni başkanı belli oldu. Resmi olmayan seçim sonuçlarına göre Ümit Kocasakal seçimi kazandı.\n[diken · 18:07] İstanbul Barosu başkanlık seçimini Ümit Kocasakal kazandı — 25.10.2026 - İstanbul Barosu genel kurulunda Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasasal resmi olmayan sonuçlara göre seçimi kazanarak başkan seçildi.\n[cumhuriyet · 18:10] İstanbul Barosu seçimleri: Kazanan Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal oldu — İstanbul Barosu’nun 128. Olağan Genel Kurulu’nda, Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal, seçimi kazanarak başkan seçildi. Kocasakal yaptığı konuşmada Herkese hayırlı uğurlu olsun. İstanbul Barosu geri döndü ifadelerini kullandı.\n[tgrt · 18:28] İstanbul Barosu Başkanı Ümit Kocasakal kimdir, nereli? Ümit Kocasakal listesi — İstanbul Barosu'nun 128. Olağan Genel Kurulu'nda başkan seçilen Prof. Dr. Ümit Kocasakal'ın hayatı ve kariyeri merak ediliyor. Daha önce 2010-2016 yılları arasında üç dönem başkanlık yapan Kocasakal, 10 yıl aradan sonra yeniden bu göreve geldi. Peki, Ümit Kocasakal kimdir, kaç …\n[sabah · 18:41] İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu! Kaboğlu dönemi resmen bitti — İstanbul Barosu’nda başkanlık seçimi için sandık başına giden avukatlar tercihini yaptı. Seçim yarışında kazanan Ümit Kocasakal oldu.\n[yenisafak · 18:59] İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu — İstanbul Barosu başkanlık seçiminde resmi olmayan sonuçlara göre Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak seçimi önde tamamladı. Değişim İçin Avukatlar Grubu adayı Prof. Dr. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.\n[turkiyegz · 19:02] İstanbul Barosu Başkanı Ümit Kocasakal oldu — İstanbul Barosu başkanlık seçiminde resmi olmayan sonuçlara göre Ümit Kocasakal, 9 bin 970 oyla başkan seçildi. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.\n[mynet · 19:17] İstanbul Barosunun yeni başkanı Ümit Kocasakal oldu — İstanbul Barosunda başkanlık seçimi tamamlandı. Haliç Kongre Merkezi'nde 172 sandıkta gerçekleştirilen oylamanın ardından resmi olmayan sonuçlar açıklandı. Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak 6 bin 860 oyda kalan Prof. Dr. İbrahim Özden …\n[milligazete · 21:33] İstanbul Barosu 2026 seçim sonuçları! Kim birinci oldu? Kocasakal kaç oy aldı? Kaboğlu kaç oyda kaldı? — İstanbul Barosu'nun 25 Ekim 2026 tarihinde yapılan 128. Olağan Genel Kurulu'nda başkanlık seçimi tamamlandı. Cumhuriyetçi Güç Birliği İttifakı'nın adayı…\n[ntv · 22:21] İstanbul Barosu başkanlığına Ümit Kocasakal seçildi\n[takvim · 07:57] İstanbul Barosu seçim sonuçları belli oldu! Ümit Kocasakal 10 bin 227 oyla başkan seçildi\n[ahaber · 10:16] İstanbul Barosu'nda başkanlık seçimini Ümit Kocasakal kazandı! 10 bin 227 oy aldı\n[haberler · 13:28] Ağıralioğlu, İstanbul Barosu Başkanı seçilen Kocasakal'a tebrik mesajı gönderdi"
+  },
+  {
+   "key": "s4256__salience-bias",
+   "output_file": "runs/bg/explain/s4256__salience-bias.json",
+   "event_title": "İstanbul Barosu Başkanı Ümit Kocasakal oldu",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Kaboğlu dönemi resmen bitti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Barosu başkanlığına Ümit Kocasakal seçildi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurum önceki başkanın döneminin sona ermesini başlıkta öne çıkarırken diğerleri yalnızca seçimi aktarıyor.",
+   "skeptic_alternative": "Görevdeki başkanın kaybetmesi haber değeri taşıyan meşru bir vurgudur.",
+   "missing_context": [
+    "Okur yargısına etkiyi gösteren veri",
+    "Öne çıkan ögenin bir yargıyı haksız biçimde yönlendirdiğine dair açık kanıt"
+   ],
+   "headlines": "[birgun · 11:43] İstanbul Barosu seçimleri: Ümit Kocasakal yeni başkan seçildi\n[karar · 11:44] İstanbul Barosu Başkanlık Seçimi ne zaman bitiyor? Ümit Kocasakal hangi gruptan, İbrahim Kaboğlu yeniden aday mı? — İstanbul Barosu'nun 2026-2028 döneminde görev yapacak yeni başkanını ve yönetim kurullarını belirlemek için 25 Ekim 2026 Pazar günü Haliç Kongre Merkezi'nde oy verme işlemi başladı.\n[haberturk · 15:49] İstanbul Barosu seçimleri sonuçlandı: Ümit Kocasakal başkan seçildi — İstanbul Barosu 128’inci Olağan Genel Kurulu’nun ikinci gününde başkanlık seçimi için oy kullanma işlemi sona erdi. Oy sayımının tamamlanmasının ardından resmi olmayan sonuçlara göre Ümit Kocasakal seçimi 9 bin 548 oy ile kazandı.\n[sozcu · 18:00] İstanbul Barosu Başkanı Ümit Kocasakal oldu — Son Dakika... İstanbul Barosu’nun 128. Olağan Genel Kurulu’nda avukatlar bugün sandık başına gitti. İstanbul Barosunun yeni başkanı belli oldu. Resmi olmayan seçim sonuçlarına göre Ümit Kocasakal seçimi kazandı.\n[diken · 18:07] İstanbul Barosu başkanlık seçimini Ümit Kocasakal kazandı — 25.10.2026 - İstanbul Barosu genel kurulunda Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasasal resmi olmayan sonuçlara göre seçimi kazanarak başkan seçildi.\n[cumhuriyet · 18:10] İstanbul Barosu seçimleri: Kazanan Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal oldu — İstanbul Barosu’nun 128. Olağan Genel Kurulu’nda, Cumhuriyetçi Güç Birliği Grubu adayı Ümit Kocasakal, seçimi kazanarak başkan seçildi. Kocasakal yaptığı konuşmada Herkese hayırlı uğurlu olsun. İstanbul Barosu geri döndü ifadelerini kullandı.\n[tgrt · 18:28] İstanbul Barosu Başkanı Ümit Kocasakal kimdir, nereli? Ümit Kocasakal listesi — İstanbul Barosu'nun 128. Olağan Genel Kurulu'nda başkan seçilen Prof. Dr. Ümit Kocasakal'ın hayatı ve kariyeri merak ediliyor. Daha önce 2010-2016 yılları arasında üç dönem başkanlık yapan Kocasakal, 10 yıl aradan sonra yeniden bu göreve geldi. Peki, Ümit Kocasakal kimdir, kaç …\n[sabah · 18:41] İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu! Kaboğlu dönemi resmen bitti — İstanbul Barosu’nda başkanlık seçimi için sandık başına giden avukatlar tercihini yaptı. Seçim yarışında kazanan Ümit Kocasakal oldu.\n[yenisafak · 18:59] İstanbul Barosu’nun yeni başkanı Ümit Kocasakal oldu — İstanbul Barosu başkanlık seçiminde resmi olmayan sonuçlara göre Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak seçimi önde tamamladı. Değişim İçin Avukatlar Grubu adayı Prof. Dr. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.\n[turkiyegz · 19:02] İstanbul Barosu Başkanı Ümit Kocasakal oldu — İstanbul Barosu başkanlık seçiminde resmi olmayan sonuçlara göre Ümit Kocasakal, 9 bin 970 oyla başkan seçildi. İbrahim Özden Kaboğlu ise 6 bin 860 oy aldı.\n[mynet · 19:17] İstanbul Barosunun yeni başkanı Ümit Kocasakal oldu — İstanbul Barosunda başkanlık seçimi tamamlandı. Haliç Kongre Merkezi'nde 172 sandıkta gerçekleştirilen oylamanın ardından resmi olmayan sonuçlar açıklandı. Cumhuriyetçi Güç Birliği adayı Prof. Dr. Ümit Kocasakal, 9 bin 970 oy alarak 6 bin 860 oyda kalan Prof. Dr. İbrahim Özden …\n[milligazete · 21:33] İstanbul Barosu 2026 seçim sonuçları! Kim birinci oldu? Kocasakal kaç oy aldı? Kaboğlu kaç oyda kaldı? — İstanbul Barosu'nun 25 Ekim 2026 tarihinde yapılan 128. Olağan Genel Kurulu'nda başkanlık seçimi tamamlandı. Cumhuriyetçi Güç Birliği İttifakı'nın adayı…\n[ntv · 22:21] İstanbul Barosu başkanlığına Ümit Kocasakal seçildi\n[takvim · 07:57] İstanbul Barosu seçim sonuçları belli oldu! Ümit Kocasakal 10 bin 227 oyla başkan seçildi\n[ahaber · 10:16] İstanbul Barosu'nda başkanlık seçimini Ümit Kocasakal kazandı! 10 bin 227 oy aldı\n[haberler · 13:28] Ağıralioğlu, İstanbul Barosu Başkanı seçilen Kocasakal'a tebrik mesajı gönderdi"
+  },
+  {
+   "key": "s1700__framing-effect",
+   "output_file": "runs/bg/explain/s1700__framing-effect.json",
+   "event_title": "MERKEZ BANKASI FAİZ KARARI",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "9 ay sonra bir ilk: Merkez Bankası faizi indirdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkez Bankası, faizi 1 puan indirdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkez Bankası, politika faizini yüzde 36 olarak belirledi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye Cumhuriyet Merkez Bankası, politika faizini yüzde 36 olarak belirledi.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı 100 baz puanlık karar 'tarihi ilk', '1 puan indirim' ya da nötr 'yüzde 36 belirlendi' biçimlerinde farklı referans noktalarıyla sunuluyor.",
+   "skeptic_alternative": "Farklı ayrıntı düzeyi, son dakika hızına ve editoryal kısalığa bağlı olabilir.",
+   "missing_context": [
+    "Okur yorumuna etkiyi gösteren veri",
+    "PPK karar metninin tamamı",
+    "Çerçevenin bir yargıyı değiştirdiğine dair açık ifade"
+   ],
+   "headlines": "[dirilis · 00:05] MERKEZ BANKASI FAİZ KARARI — Yarın saat 14:00 itibarıyla Merkez Bankası Para Politikası Kurulu faiz hakkındaki kararını açıklayacak. Uluslararası konjonktürel değişimler ve diğer…\n[takvim · 01:43] Merkez Bankası faiz kararı! 9 ay sonra ilk — TCMB Ekim 2026 faiz kararı bugün saat 14.00'te açıklanacak. 20 ekonomistin katıldığı ankette 19 uzman 100 baz puan indirim bekliyor. İşte faiz tahminleri.\n[sabah · 14:34] Merkez Bankası faiz kararı ne zaman, saat kaçta açıklanacak? Gözler TCMB'nin ekim ayı toplantısında! — Ekim ayı Para Politikası Kurulu toplantısı faiz indirimi beklentileri ekonomi gündeminde yeniden hareketlilik yarattı. Kredi ve mevduat faizlerini de yakından ilgilendiren Merkez Bankası faiz kararı öncesinde piyasalar, TCMB’nin atacağı yeni adımı bekliyor. Peki, Merkez Bankası …\n[cumhuriyet · 17:47] 2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde? — Türkiye Cumhuriyet Merkez Bankası (TCMB) ekim ayı faiz kararı için gözler Para Politikası Kurulu toplantısına çevrildi. Peki, 2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde?\n[haberturk · 01:39] TCMB FAİZ TOPLANTISI TAKVİMİ 2026 | Merkez Bankası faiz kararı ne zaman açıklanacak, faizler düşecek mi, sabit mi kalacak? — Türkiye Cumhuriyet Merkez Bankası (TCMB) ekim ayı faiz kararı için geri sayım başladı. Para Politikası Kurulu (PPK) toplantısında alınacak karar, ekonomi gündeminin en çok takip edilen başlıkları arasında yer alıyor. Dolar, altın, borsa, kredi ve mevduat faizlerini yakından …\n[mynet · 07:43] Merkez Bankası faiz kararı bugün belli oluyor: İşte beklentiler — Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, bugün saat 14.00'te faiz kararını açıklayacak. İşte TCMB faiz kararına dair beklentiler...\n[ahaber · 08:40] 9 ay sonra ilk indirim! Merkez Bankası'nın faiz kararı belli oldu: Uzmanlar A Haber'de değerlendirdi — Piyasaların merakla beklediği Türkiye Cumhuriyet Merkez Bankası (TCMB), ekim ayı faiz kararını bugün açıkladı. Bu kapsamda Merkez Bankası Para Politikası Kurulu, politika faizi olan bir hafta vadeli repo ihale faiz oranını yüzde 36'ya indirdi. Merkez Bankası'nın 100 baz puanlık …\n[turkiyegz · 10:21] Merkez Bankası faiz kararı bugün! 9 ay sonra bir ilk bekleniyor — Merkez Bankası, bugün saat 14.00’te faiz kararını açıklayacak. Yıllık enflasyonun 5 yıl sonra ilk kez yüzde 30’un altına gerilemesi indirim beklentilerini güçlendirirken, ekonomistler politika faizinin 100 baz puan düşürülerek yüzde 36’ya çekilmesini bekliyor. Beklentilerin …\n[trthaber · 13:58] Merkez Bankası faiz kararını açıkladı — Türkiye Cumhuriyet Merkez Bankası (TCMB) Para Politikası Kurulu (PPK), politika faizi olan bir hafta vadeli repo ihale faiz oranını 1 puan düşürerek yüzde 36 seviyesine çekti.\n[diken · 14:00] Merkez Bankası faizi düşürdü — 22.10.2026 - Merkez Bankası (MB), faizi 100 baz puan düşürerek 36'ya indirdi.\n[ntv · 14:00] Merkez Bankası faiz kararını açıkladı — Türkiye Cumhuriyet Merkez Bankası, politika faizini yüzde 36 olarak belirledi.\n[karar · 14:00] 9 ay sonra bir ilk: Merkez Bankası faizi indirdi — TCMB, ekim ayı Para Politikası Kurulu toplantısında politika faizini 100 baz puan indirerek yüzde 36’ya çekti. Böylece Merkez Bankası, eylül ayındaki sabitleme kararının ardından ocak ayından bu yana ilk kez faiz indirimine gitmiş oldu. Merkez Bankası gecelik vadede borç verme …\n[sozcu · 14:00] Son dakika... Merkez Bankası yılın yedinci faiz kararını açıkladı — Son dakika... Türkiye Cumhuriyet Merkez Bankası (TCMB) yılın yedinci faiz kararını açıkladı. Merkez Bankası yılın yedinci PPK toplantında 9 ay sonra ilk defa faizi 100 baz puan indirerek faizi yüzde 36 seviyesine çekti. Karar metninde geçen \"Adımların büyüklüğü ve zamanlaması …\n[star · 14:01] 9 ay sonra bir ilk! Merkez Bankası faiz kararını duyurdu — Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, faiz kararını açıkladı. Merkez Bankası politika faizini 100 baz puan indirerek yüzde 36'ya çekti.\n[tele1 · 14:23] Merkez Bankası, faizi 1 puan indirdi\n[yeniasya · 17:00] Merkez Bankası faizi düşürdü"
+  },
+  {
+   "key": "s1700__anchoring-bias",
+   "output_file": "runs/bg/explain/s1700__anchoring-bias.json",
+   "event_title": "MERKEZ BANKASI FAİZ KARARI",
+   "concept": "Anchoring Bias",
+   "definition": "A reasoning pattern in which an initial value or piece of information becomes a reference point and exerts unwarranted influence on a later estimate or decision. Using a starting point is not by itself a bias or an error: identification here requires explicit evidence that the anchor distorts judgment or is given unjustified weight.",
+   "quotes": [
+    {
+     "quote": "20 ekonomistin katıldığı ankette 19 uzman 100 baz puan indirim bekliyor.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "ekonomistler politika faizinin 100 baz puan düşürülerek yüzde 36’ya çekilmesini bekliyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "20 ekonomistin katıldığı ankette 19 uzman 100 baz puan indirim bekliyor",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Anket beklentisi bir referans noktası sunuyor; ancak sonraki bir yargının bu çapaya haksız biçimde bağlandığı gösterilmiyor.",
+   "skeptic_alternative": "Piyasa beklentisini önceden aktarmak standart ekonomi haberciliğidir; karar beklentiyle örtüştü.",
+   "missing_context": [
+    "Anketin yöntemi",
+    "Beklentinin dayandığı veriler",
+    "Karar metninin gerekçesi",
+    "Kararın veya tahminin çapaya dayandırıldığına dair açık bağlantı"
+   ],
+   "headlines": "[dirilis · 00:05] MERKEZ BANKASI FAİZ KARARI — Yarın saat 14:00 itibarıyla Merkez Bankası Para Politikası Kurulu faiz hakkındaki kararını açıklayacak. Uluslararası konjonktürel değişimler ve diğer…\n[takvim · 01:43] Merkez Bankası faiz kararı! 9 ay sonra ilk — TCMB Ekim 2026 faiz kararı bugün saat 14.00'te açıklanacak. 20 ekonomistin katıldığı ankette 19 uzman 100 baz puan indirim bekliyor. İşte faiz tahminleri.\n[sabah · 14:34] Merkez Bankası faiz kararı ne zaman, saat kaçta açıklanacak? Gözler TCMB'nin ekim ayı toplantısında! — Ekim ayı Para Politikası Kurulu toplantısı faiz indirimi beklentileri ekonomi gündeminde yeniden hareketlilik yarattı. Kredi ve mevduat faizlerini de yakından ilgilendiren Merkez Bankası faiz kararı öncesinde piyasalar, TCMB’nin atacağı yeni adımı bekliyor. Peki, Merkez Bankası …\n[cumhuriyet · 17:47] 2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde? — Türkiye Cumhuriyet Merkez Bankası (TCMB) ekim ayı faiz kararı için gözler Para Politikası Kurulu toplantısına çevrildi. Peki, 2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde?\n[haberturk · 01:39] TCMB FAİZ TOPLANTISI TAKVİMİ 2026 | Merkez Bankası faiz kararı ne zaman açıklanacak, faizler düşecek mi, sabit mi kalacak? — Türkiye Cumhuriyet Merkez Bankası (TCMB) ekim ayı faiz kararı için geri sayım başladı. Para Politikası Kurulu (PPK) toplantısında alınacak karar, ekonomi gündeminin en çok takip edilen başlıkları arasında yer alıyor. Dolar, altın, borsa, kredi ve mevduat faizlerini yakından …\n[mynet · 07:43] Merkez Bankası faiz kararı bugün belli oluyor: İşte beklentiler — Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, bugün saat 14.00'te faiz kararını açıklayacak. İşte TCMB faiz kararına dair beklentiler...\n[ahaber · 08:40] 9 ay sonra ilk indirim! Merkez Bankası'nın faiz kararı belli oldu: Uzmanlar A Haber'de değerlendirdi — Piyasaların merakla beklediği Türkiye Cumhuriyet Merkez Bankası (TCMB), ekim ayı faiz kararını bugün açıkladı. Bu kapsamda Merkez Bankası Para Politikası Kurulu, politika faizi olan bir hafta vadeli repo ihale faiz oranını yüzde 36'ya indirdi. Merkez Bankası'nın 100 baz puanlık …\n[turkiyegz · 10:21] Merkez Bankası faiz kararı bugün! 9 ay sonra bir ilk bekleniyor — Merkez Bankası, bugün saat 14.00’te faiz kararını açıklayacak. Yıllık enflasyonun 5 yıl sonra ilk kez yüzde 30’un altına gerilemesi indirim beklentilerini güçlendirirken, ekonomistler politika faizinin 100 baz puan düşürülerek yüzde 36’ya çekilmesini bekliyor. Beklentilerin …\n[trthaber · 13:58] Merkez Bankası faiz kararını açıkladı — Türkiye Cumhuriyet Merkez Bankası (TCMB) Para Politikası Kurulu (PPK), politika faizi olan bir hafta vadeli repo ihale faiz oranını 1 puan düşürerek yüzde 36 seviyesine çekti.\n[diken · 14:00] Merkez Bankası faizi düşürdü — 22.10.2026 - Merkez Bankası (MB), faizi 100 baz puan düşürerek 36'ya indirdi.\n[ntv · 14:00] Merkez Bankası faiz kararını açıkladı — Türkiye Cumhuriyet Merkez Bankası, politika faizini yüzde 36 olarak belirledi.\n[karar · 14:00] 9 ay sonra bir ilk: Merkez Bankası faizi indirdi — TCMB, ekim ayı Para Politikası Kurulu toplantısında politika faizini 100 baz puan indirerek yüzde 36’ya çekti. Böylece Merkez Bankası, eylül ayındaki sabitleme kararının ardından ocak ayından bu yana ilk kez faiz indirimine gitmiş oldu. Merkez Bankası gecelik vadede borç verme …\n[sozcu · 14:00] Son dakika... Merkez Bankası yılın yedinci faiz kararını açıkladı — Son dakika... Türkiye Cumhuriyet Merkez Bankası (TCMB) yılın yedinci faiz kararını açıkladı. Merkez Bankası yılın yedinci PPK toplantında 9 ay sonra ilk defa faizi 100 baz puan indirerek faizi yüzde 36 seviyesine çekti. Karar metninde geçen \"Adımların büyüklüğü ve zamanlaması …\n[star · 14:01] 9 ay sonra bir ilk! Merkez Bankası faiz kararını duyurdu — Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, faiz kararını açıkladı. Merkez Bankası politika faizini 100 baz puan indirerek yüzde 36'ya çekti.\n[tele1 · 14:23] Merkez Bankası, faizi 1 puan indirdi\n[yeniasya · 17:00] Merkez Bankası faizi düşürdü"
+  },
+  {
+   "key": "s1700__salience-bias",
+   "output_file": "runs/bg/explain/s1700__salience-bias.json",
+   "event_title": "MERKEZ BANKASI FAİZ KARARI",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "9 ay sonra ilk indirim!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Karar metninde geçen \"Adımların büyüklüğü ve zamanlaması",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkez Bankası faizi düşürdü — 22.10.2026",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar 'ilk' olma niteliğini öne çıkarırken Sözcü karar metnindeki ileriye dönük ifadeye yer veriyor; diğerleri bunu aktarmıyor.",
+   "skeptic_alternative": "Politika yönündeki değişimi vurgulamak olgusal ve habere değer bir bilgidir.",
+   "missing_context": [
+    "Karar metninin tamamı",
+    "Okur yargısına etkiye dair veri",
+    "Öne çıkan ögenin bir yargıyı haksız biçimde yönlendirdiğine dair açık kanıt"
+   ],
+   "headlines": "[dirilis · 00:05] MERKEZ BANKASI FAİZ KARARI — Yarın saat 14:00 itibarıyla Merkez Bankası Para Politikası Kurulu faiz hakkındaki kararını açıklayacak. Uluslararası konjonktürel değişimler ve diğer…\n[takvim · 01:43] Merkez Bankası faiz kararı! 9 ay sonra ilk — TCMB Ekim 2026 faiz kararı bugün saat 14.00'te açıklanacak. 20 ekonomistin katıldığı ankette 19 uzman 100 baz puan indirim bekliyor. İşte faiz tahminleri.\n[sabah · 14:34] Merkez Bankası faiz kararı ne zaman, saat kaçta açıklanacak? Gözler TCMB'nin ekim ayı toplantısında! — Ekim ayı Para Politikası Kurulu toplantısı faiz indirimi beklentileri ekonomi gündeminde yeniden hareketlilik yarattı. Kredi ve mevduat faizlerini de yakından ilgilendiren Merkez Bankası faiz kararı öncesinde piyasalar, TCMB’nin atacağı yeni adımı bekliyor. Peki, Merkez Bankası …\n[cumhuriyet · 17:47] 2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde? — Türkiye Cumhuriyet Merkez Bankası (TCMB) ekim ayı faiz kararı için gözler Para Politikası Kurulu toplantısına çevrildi. Peki, 2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde?\n[haberturk · 01:39] TCMB FAİZ TOPLANTISI TAKVİMİ 2026 | Merkez Bankası faiz kararı ne zaman açıklanacak, faizler düşecek mi, sabit mi kalacak? — Türkiye Cumhuriyet Merkez Bankası (TCMB) ekim ayı faiz kararı için geri sayım başladı. Para Politikası Kurulu (PPK) toplantısında alınacak karar, ekonomi gündeminin en çok takip edilen başlıkları arasında yer alıyor. Dolar, altın, borsa, kredi ve mevduat faizlerini yakından …\n[mynet · 07:43] Merkez Bankası faiz kararı bugün belli oluyor: İşte beklentiler — Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, bugün saat 14.00'te faiz kararını açıklayacak. İşte TCMB faiz kararına dair beklentiler...\n[ahaber · 08:40] 9 ay sonra ilk indirim! Merkez Bankası'nın faiz kararı belli oldu: Uzmanlar A Haber'de değerlendirdi — Piyasaların merakla beklediği Türkiye Cumhuriyet Merkez Bankası (TCMB), ekim ayı faiz kararını bugün açıkladı. Bu kapsamda Merkez Bankası Para Politikası Kurulu, politika faizi olan bir hafta vadeli repo ihale faiz oranını yüzde 36'ya indirdi. Merkez Bankası'nın 100 baz puanlık …\n[turkiyegz · 10:21] Merkez Bankası faiz kararı bugün! 9 ay sonra bir ilk bekleniyor — Merkez Bankası, bugün saat 14.00’te faiz kararını açıklayacak. Yıllık enflasyonun 5 yıl sonra ilk kez yüzde 30’un altına gerilemesi indirim beklentilerini güçlendirirken, ekonomistler politika faizinin 100 baz puan düşürülerek yüzde 36’ya çekilmesini bekliyor. Beklentilerin …\n[trthaber · 13:58] Merkez Bankası faiz kararını açıkladı — Türkiye Cumhuriyet Merkez Bankası (TCMB) Para Politikası Kurulu (PPK), politika faizi olan bir hafta vadeli repo ihale faiz oranını 1 puan düşürerek yüzde 36 seviyesine çekti.\n[diken · 14:00] Merkez Bankası faizi düşürdü — 22.10.2026 - Merkez Bankası (MB), faizi 100 baz puan düşürerek 36'ya indirdi.\n[ntv · 14:00] Merkez Bankası faiz kararını açıkladı — Türkiye Cumhuriyet Merkez Bankası, politika faizini yüzde 36 olarak belirledi.\n[karar · 14:00] 9 ay sonra bir ilk: Merkez Bankası faizi indirdi — TCMB, ekim ayı Para Politikası Kurulu toplantısında politika faizini 100 baz puan indirerek yüzde 36’ya çekti. Böylece Merkez Bankası, eylül ayındaki sabitleme kararının ardından ocak ayından bu yana ilk kez faiz indirimine gitmiş oldu. Merkez Bankası gecelik vadede borç verme …\n[sozcu · 14:00] Son dakika... Merkez Bankası yılın yedinci faiz kararını açıkladı — Son dakika... Türkiye Cumhuriyet Merkez Bankası (TCMB) yılın yedinci faiz kararını açıkladı. Merkez Bankası yılın yedinci PPK toplantında 9 ay sonra ilk defa faizi 100 baz puan indirerek faizi yüzde 36 seviyesine çekti. Karar metninde geçen \"Adımların büyüklüğü ve zamanlaması …\n[star · 14:01] 9 ay sonra bir ilk! Merkez Bankası faiz kararını duyurdu — Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, faiz kararını açıkladı. Merkez Bankası politika faizini 100 baz puan indirerek yüzde 36'ya çekti.\n[tele1 · 14:23] Merkez Bankası, faizi 1 puan indirdi\n[yeniasya · 17:00] Merkez Bankası faizi düşürdü"
+  },
+  {
+   "key": "s1700__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s1700__leveling-and-sharpening.json",
+   "event_title": "MERKEZ BANKASI FAİZ KARARI",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "politika faizi olan bir hafta vadeli repo ihale faiz oranını 1 puan düşürerek yüzde 36 seviyesine çekti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ahaber · 08:40] 9 ay sonra ilk indirim! Merkez Bankası'nın faiz kararı belli oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[trthaber · 13:58] Merkez Bankası faiz kararını açıkladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Karar metninde geçen \"Adımların büyüklüğü ve zamanlaması",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Merkez Bankası (MB), faizi 100 baz puan düşürerek 36'ya indirdi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye Cumhuriyet Merkez Bankası, politika faizini yüzde 36 olarak belirledi.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Karar metnindeki ileriye dönük yönlendirme yalnızca Sözcü'de yer alıyor, diğerlerinde düzleşiyor; bazı kayıtların zaman damgası 14:00 açıklamasından önceye düşüyor.",
+   "skeptic_alternative": "İlk son dakika flaşı kısa tutulmuş ve sonradan güncellenmiş olabilir; maddi anlam değişmiyor.",
+   "missing_context": [
+    "Farkın maddi bir sonuca etki ettiğine dair kanıt",
+    "Farkın okur kararına etkisi",
+    "Haberlerin güncellenmiş sürümleri",
+    "Haberlerin ilk yayın ve güncelleme saatleri"
+   ],
+   "headlines": "[dirilis · 00:05] MERKEZ BANKASI FAİZ KARARI — Yarın saat 14:00 itibarıyla Merkez Bankası Para Politikası Kurulu faiz hakkındaki kararını açıklayacak. Uluslararası konjonktürel değişimler ve diğer…\n[takvim · 01:43] Merkez Bankası faiz kararı! 9 ay sonra ilk — TCMB Ekim 2026 faiz kararı bugün saat 14.00'te açıklanacak. 20 ekonomistin katıldığı ankette 19 uzman 100 baz puan indirim bekliyor. İşte faiz tahminleri.\n[sabah · 14:34] Merkez Bankası faiz kararı ne zaman, saat kaçta açıklanacak? Gözler TCMB'nin ekim ayı toplantısında! — Ekim ayı Para Politikası Kurulu toplantısı faiz indirimi beklentileri ekonomi gündeminde yeniden hareketlilik yarattı. Kredi ve mevduat faizlerini de yakından ilgilendiren Merkez Bankası faiz kararı öncesinde piyasalar, TCMB’nin atacağı yeni adımı bekliyor. Peki, Merkez Bankası …\n[cumhuriyet · 17:47] 2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde? — Türkiye Cumhuriyet Merkez Bankası (TCMB) ekim ayı faiz kararı için gözler Para Politikası Kurulu toplantısına çevrildi. Peki, 2026 Ekim Merkez Bankası faiz kararı ne zaman? Ekonomistlerin beklentileri ne yönde?\n[haberturk · 01:39] TCMB FAİZ TOPLANTISI TAKVİMİ 2026 | Merkez Bankası faiz kararı ne zaman açıklanacak, faizler düşecek mi, sabit mi kalacak? — Türkiye Cumhuriyet Merkez Bankası (TCMB) ekim ayı faiz kararı için geri sayım başladı. Para Politikası Kurulu (PPK) toplantısında alınacak karar, ekonomi gündeminin en çok takip edilen başlıkları arasında yer alıyor. Dolar, altın, borsa, kredi ve mevduat faizlerini yakından …\n[mynet · 07:43] Merkez Bankası faiz kararı bugün belli oluyor: İşte beklentiler — Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, bugün saat 14.00'te faiz kararını açıklayacak. İşte TCMB faiz kararına dair beklentiler...\n[ahaber · 08:40] 9 ay sonra ilk indirim! Merkez Bankası'nın faiz kararı belli oldu: Uzmanlar A Haber'de değerlendirdi — Piyasaların merakla beklediği Türkiye Cumhuriyet Merkez Bankası (TCMB), ekim ayı faiz kararını bugün açıkladı. Bu kapsamda Merkez Bankası Para Politikası Kurulu, politika faizi olan bir hafta vadeli repo ihale faiz oranını yüzde 36'ya indirdi. Merkez Bankası'nın 100 baz puanlık …\n[turkiyegz · 10:21] Merkez Bankası faiz kararı bugün! 9 ay sonra bir ilk bekleniyor — Merkez Bankası, bugün saat 14.00’te faiz kararını açıklayacak. Yıllık enflasyonun 5 yıl sonra ilk kez yüzde 30’un altına gerilemesi indirim beklentilerini güçlendirirken, ekonomistler politika faizinin 100 baz puan düşürülerek yüzde 36’ya çekilmesini bekliyor. Beklentilerin …\n[trthaber · 13:58] Merkez Bankası faiz kararını açıkladı — Türkiye Cumhuriyet Merkez Bankası (TCMB) Para Politikası Kurulu (PPK), politika faizi olan bir hafta vadeli repo ihale faiz oranını 1 puan düşürerek yüzde 36 seviyesine çekti.\n[diken · 14:00] Merkez Bankası faizi düşürdü — 22.10.2026 - Merkez Bankası (MB), faizi 100 baz puan düşürerek 36'ya indirdi.\n[ntv · 14:00] Merkez Bankası faiz kararını açıkladı — Türkiye Cumhuriyet Merkez Bankası, politika faizini yüzde 36 olarak belirledi.\n[karar · 14:00] 9 ay sonra bir ilk: Merkez Bankası faizi indirdi — TCMB, ekim ayı Para Politikası Kurulu toplantısında politika faizini 100 baz puan indirerek yüzde 36’ya çekti. Böylece Merkez Bankası, eylül ayındaki sabitleme kararının ardından ocak ayından bu yana ilk kez faiz indirimine gitmiş oldu. Merkez Bankası gecelik vadede borç verme …\n[sozcu · 14:00] Son dakika... Merkez Bankası yılın yedinci faiz kararını açıkladı — Son dakika... Türkiye Cumhuriyet Merkez Bankası (TCMB) yılın yedinci faiz kararını açıkladı. Merkez Bankası yılın yedinci PPK toplantında 9 ay sonra ilk defa faizi 100 baz puan indirerek faizi yüzde 36 seviyesine çekti. Karar metninde geçen \"Adımların büyüklüğü ve zamanlaması …\n[star · 14:01] 9 ay sonra bir ilk! Merkez Bankası faiz kararını duyurdu — Türkiye Cumhuriyet Merkez Bankası Para Politikası Kurulu, faiz kararını açıkladı. Merkez Bankası politika faizini 100 baz puan indirerek yüzde 36'ya çekti.\n[tele1 · 14:23] Merkez Bankası, faizi 1 puan indirdi\n[yeniasya · 17:00] Merkez Bankası faizi düşürdü"
+  },
+  {
+   "key": "s4784__framing-effect",
+   "output_file": "runs/bg/explain/s4784__framing-effect.json",
+   "event_title": "15 yaş altı sosyal medya yasağı başladı mı? 15 yaş altı sosyal medya yasağı yaş doğrulaması nasıl yapılacak?",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "15 yaş altına sosyal medya yasağı yarın başlıyor: Hesaplar tek tek silinecek",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sosyal medyada 15 yaş sınırı yürürlüğe girdi, yaş doğrulaması e-Devlet'ten yapılacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "15 yaş altına sosyal medya yasağı yarın başlıyor: Kimlik değil yaş doğrulanacak",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı düzenleme 'yasak' ve 'hesaplar silinecek' kayıp çerçevesiyle ya da 'yaş sınırı' gibi daha nötr bir ifadeyle sunuluyor.",
+   "skeptic_alternative": "Kurumlar düzenlemenin farklı ama gerçek unsurlarını öne çıkarıyor olabilir.",
+   "missing_context": [
+    "Hesapların silinip silinmeyeceğine dair resmi açıklama",
+    "Yönetmeliğin tam metni",
+    "Çerçevenin bir tercih veya yargıyı değiştirdiğine dair açık ifade"
+   ],
+   "headlines": "[karar · 07:39] 15 yaş altına sosyal medya yasağı yarın başlıyor: Kimlik değil yaş doğrulanacak — Türkiye'de 15 yaş altındaki çocuklara sosyal medya kullanımını kısıtlayan yasal düzenleme 1 Kasım itibarıyla yürürlüğe giriyor. Yeni dönemde 15 yaşından küçüklerin sosyal medya hesapları kapatılacak, yaş doğrulama işlemleri ise e-Devlet üzerinden oluşturulacak belirteçlerle …\n[tgrt · 09:49] 15 yaş altına sosyal medya yasağı yarın başlıyor: Hesaplar tek tek silinecek\n[birgun · 10:54] Sosyal medya yasağı başlıyor: Hesaplar kapatılacak\n[onedio · 11:00] Sosyal Medya Yasağı Başlıyor: Kimleri Kapsıyor, e-Devlet'ten Yaş Doğrulama Nasıl Yapılacak?\n[dirilis · 11:49] 15 yaş altına sosyal medya yasağı yarın başlıyor!\n[sabah · 12:01] Sosyal medyada 15 yaş altı yasağı yarın başlıyor! Yaş doğrulaması nasıl yapılacak?\n[ahaber · 12:29] Sosyal medyada 15 yaş altı yasağı başlıyor: Yaş doğrulaması nasıl yapılacak?\n[milligazete · 14:44] Sosyal medyada 15 yaş altı çocuklara yasak başlıyor: Yaş doğrulaması nasıl yapılır?\n[turkiyegz · 15:44] 15 yaş altı sosyal medya yasağı ne zaman başlayacak? e-Devlet yaş doğrulama süreci\n[haberturk · 20:47] 15 yaş altı sosyal medya yasağı başladı! Yaş doğrulaması nasıl yapılır, sosyal medya yasağı hangi uygulamaları kapsayacak? — Türkiye'de 15 yaş altı sosyal medya kullanımına ilişkin yeni düzenleme için geri sayım sona eriyor. 15 yaşını doldurmamış çocukların sosyal ağ hizmetlerinden yararlanmasını engelleyecek yönetmelik, 1 Kasım 2026 itibarıyla yürürlüğe giriyor. Yeni dönemde sosyal medya platformları …\n[haberler · 22:07] Sosyal medya yaş doğrulaması nasıl yapılır? 1 Kasım sosyal medya yasağı hangi uygulamaları kapsayacak?\n[cumhuriyet · 22:28] 15 yaş altı sosyal medya yasağı ne zaman başlıyor? 15 yaş altı sosyal medya düzenlemesi maddeleri neler?\n[sondakika · 23:14] Sosyal medyada 15 yaş sınırı yürürlüğe girdi, yaş doğrulaması e-Devlet'ten yapılacak\n[yenisafak · 04:00] 15 yaş altına sosyal medya bugünden itibaren yasak\n[ntv · 11:50] E-Devlet yaş doğrulaması yapma ekranı. Sosyal medya yaş doğrulaması nasıl ve nereden yapılacak?\n[sozcu · 13:18] Bakan Göktaş duyurdu: Sosyal medya yasağı resmen başladı"
+  },
+  {
+   "key": "s4784__salience-bias",
+   "output_file": "runs/bg/explain/s4784__salience-bias.json",
+   "event_title": "15 yaş altı sosyal medya yasağı başladı mı? 15 yaş altı sosyal medya yasağı yaş doğrulaması nasıl yapılacak?",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Hesaplar tek tek silinecek",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "yaş doğrulama işlemleri ise e-Devlet üzerinden oluşturulacak belirteçlerle",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bir kurum hesapların 'tek tek silinmesi' gibi çarpıcı ayrıntıyı öne çıkarırken diğeri doğrulama yöntemini aktarıyor.",
+   "skeptic_alternative": "Hesap kapatma, düzenlemenin kullanıcıya en doğrudan etkisidir; vurgu orantılı olabilir.",
+   "missing_context": [
+    "Okur tepkisine dair veri",
+    "Çarpıcı ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair kanıt"
+   ],
+   "headlines": "[karar · 07:39] 15 yaş altına sosyal medya yasağı yarın başlıyor: Kimlik değil yaş doğrulanacak — Türkiye'de 15 yaş altındaki çocuklara sosyal medya kullanımını kısıtlayan yasal düzenleme 1 Kasım itibarıyla yürürlüğe giriyor. Yeni dönemde 15 yaşından küçüklerin sosyal medya hesapları kapatılacak, yaş doğrulama işlemleri ise e-Devlet üzerinden oluşturulacak belirteçlerle …\n[tgrt · 09:49] 15 yaş altına sosyal medya yasağı yarın başlıyor: Hesaplar tek tek silinecek\n[birgun · 10:54] Sosyal medya yasağı başlıyor: Hesaplar kapatılacak\n[onedio · 11:00] Sosyal Medya Yasağı Başlıyor: Kimleri Kapsıyor, e-Devlet'ten Yaş Doğrulama Nasıl Yapılacak?\n[dirilis · 11:49] 15 yaş altına sosyal medya yasağı yarın başlıyor!\n[sabah · 12:01] Sosyal medyada 15 yaş altı yasağı yarın başlıyor! Yaş doğrulaması nasıl yapılacak?\n[ahaber · 12:29] Sosyal medyada 15 yaş altı yasağı başlıyor: Yaş doğrulaması nasıl yapılacak?\n[milligazete · 14:44] Sosyal medyada 15 yaş altı çocuklara yasak başlıyor: Yaş doğrulaması nasıl yapılır?\n[turkiyegz · 15:44] 15 yaş altı sosyal medya yasağı ne zaman başlayacak? e-Devlet yaş doğrulama süreci\n[haberturk · 20:47] 15 yaş altı sosyal medya yasağı başladı! Yaş doğrulaması nasıl yapılır, sosyal medya yasağı hangi uygulamaları kapsayacak? — Türkiye'de 15 yaş altı sosyal medya kullanımına ilişkin yeni düzenleme için geri sayım sona eriyor. 15 yaşını doldurmamış çocukların sosyal ağ hizmetlerinden yararlanmasını engelleyecek yönetmelik, 1 Kasım 2026 itibarıyla yürürlüğe giriyor. Yeni dönemde sosyal medya platformları …\n[haberler · 22:07] Sosyal medya yaş doğrulaması nasıl yapılır? 1 Kasım sosyal medya yasağı hangi uygulamaları kapsayacak?\n[cumhuriyet · 22:28] 15 yaş altı sosyal medya yasağı ne zaman başlıyor? 15 yaş altı sosyal medya düzenlemesi maddeleri neler?\n[sondakika · 23:14] Sosyal medyada 15 yaş sınırı yürürlüğe girdi, yaş doğrulaması e-Devlet'ten yapılacak\n[yenisafak · 04:00] 15 yaş altına sosyal medya bugünden itibaren yasak\n[ntv · 11:50] E-Devlet yaş doğrulaması yapma ekranı. Sosyal medya yaş doğrulaması nasıl ve nereden yapılacak?\n[sozcu · 13:18] Bakan Göktaş duyurdu: Sosyal medya yasağı resmen başladı"
+  },
+  {
+   "key": "s4784__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4784__leveling-and-sharpening.json",
+   "event_title": "15 yaş altı sosyal medya yasağı başladı mı? 15 yaş altı sosyal medya yasağı yaş doğrulaması nasıl yapılacak?",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "15 yaşından küçüklerin sosyal medya hesapları kapatılacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Hesaplar tek tek silinecek",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "15 yaş altı sosyal medya yasağı başladı! Yaş doğrulaması nasıl yapılır",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "yönetmelik, 1 Kasım 2026 itibarıyla yürürlüğe giriyor",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "15 yaş altı sosyal medya yasağı başladı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "1 Kasım 2026 itibarıyla yürürlüğe giriyor",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Karar'daki 'hesaplar kapatılacak' ifadesi TGRT'de 'tek tek silinecek' olarak keskinleşiyor; Habertürk başlığı 'başladı' derken kendi özeti yürürlüğe girişi ileri tarihe koyuyor.",
+   "skeptic_alternative": "Kapatma ve silme gündelik dilde eş anlamlı kullanılabilir; başlık yayın gününe göre güncellenmiş olabilir.",
+   "missing_context": [
+    "Farkın maddi bir sonuca etki ettiğine dair kanıt",
+    "Haberlerin güncellenme saatleri",
+    "Yönetmelikteki hesap işlemleri hükmü",
+    "Yönetmeliğin resmi metni"
+   ],
+   "headlines": "[karar · 07:39] 15 yaş altına sosyal medya yasağı yarın başlıyor: Kimlik değil yaş doğrulanacak — Türkiye'de 15 yaş altındaki çocuklara sosyal medya kullanımını kısıtlayan yasal düzenleme 1 Kasım itibarıyla yürürlüğe giriyor. Yeni dönemde 15 yaşından küçüklerin sosyal medya hesapları kapatılacak, yaş doğrulama işlemleri ise e-Devlet üzerinden oluşturulacak belirteçlerle …\n[tgrt · 09:49] 15 yaş altına sosyal medya yasağı yarın başlıyor: Hesaplar tek tek silinecek\n[birgun · 10:54] Sosyal medya yasağı başlıyor: Hesaplar kapatılacak\n[onedio · 11:00] Sosyal Medya Yasağı Başlıyor: Kimleri Kapsıyor, e-Devlet'ten Yaş Doğrulama Nasıl Yapılacak?\n[dirilis · 11:49] 15 yaş altına sosyal medya yasağı yarın başlıyor!\n[sabah · 12:01] Sosyal medyada 15 yaş altı yasağı yarın başlıyor! Yaş doğrulaması nasıl yapılacak?\n[ahaber · 12:29] Sosyal medyada 15 yaş altı yasağı başlıyor: Yaş doğrulaması nasıl yapılacak?\n[milligazete · 14:44] Sosyal medyada 15 yaş altı çocuklara yasak başlıyor: Yaş doğrulaması nasıl yapılır?\n[turkiyegz · 15:44] 15 yaş altı sosyal medya yasağı ne zaman başlayacak? e-Devlet yaş doğrulama süreci\n[haberturk · 20:47] 15 yaş altı sosyal medya yasağı başladı! Yaş doğrulaması nasıl yapılır, sosyal medya yasağı hangi uygulamaları kapsayacak? — Türkiye'de 15 yaş altı sosyal medya kullanımına ilişkin yeni düzenleme için geri sayım sona eriyor. 15 yaşını doldurmamış çocukların sosyal ağ hizmetlerinden yararlanmasını engelleyecek yönetmelik, 1 Kasım 2026 itibarıyla yürürlüğe giriyor. Yeni dönemde sosyal medya platformları …\n[haberler · 22:07] Sosyal medya yaş doğrulaması nasıl yapılır? 1 Kasım sosyal medya yasağı hangi uygulamaları kapsayacak?\n[cumhuriyet · 22:28] 15 yaş altı sosyal medya yasağı ne zaman başlıyor? 15 yaş altı sosyal medya düzenlemesi maddeleri neler?\n[sondakika · 23:14] Sosyal medyada 15 yaş sınırı yürürlüğe girdi, yaş doğrulaması e-Devlet'ten yapılacak\n[yenisafak · 04:00] 15 yaş altına sosyal medya bugünden itibaren yasak\n[ntv · 11:50] E-Devlet yaş doğrulaması yapma ekranı. Sosyal medya yaş doğrulaması nasıl ve nereden yapılacak?\n[sozcu · 13:18] Bakan Göktaş duyurdu: Sosyal medya yasağı resmen başladı"
+  },
+  {
+   "key": "s4784__authority-bias",
+   "output_file": "runs/bg/explain/s4784__authority-bias.json",
+   "event_title": "15 yaş altı sosyal medya yasağı başladı mı? 15 yaş altı sosyal medya yasağı yaş doğrulaması nasıl yapılacak?",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "Bakan Göktaş duyurdu: Sosyal medya yasağı resmen başladı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Yasağın başladığı bilgisi bakan beyanına dayandırılıyor; makamın belirleyici ağırlık verdiği gösterilmiyor.",
+   "skeptic_alternative": "Yasal düzenlemenin başlangıcını ilgili bakana atfetmek olağan kaynak gösterimidir.",
+   "missing_context": [
+    "Bağımsız değerlendirmeler",
+    "Karşıt kanıtın makam nedeniyle göz ardı edildiğine dair açık ifade",
+    "Resmi Gazete kaydı"
+   ],
+   "headlines": "[karar · 07:39] 15 yaş altına sosyal medya yasağı yarın başlıyor: Kimlik değil yaş doğrulanacak — Türkiye'de 15 yaş altındaki çocuklara sosyal medya kullanımını kısıtlayan yasal düzenleme 1 Kasım itibarıyla yürürlüğe giriyor. Yeni dönemde 15 yaşından küçüklerin sosyal medya hesapları kapatılacak, yaş doğrulama işlemleri ise e-Devlet üzerinden oluşturulacak belirteçlerle …\n[tgrt · 09:49] 15 yaş altına sosyal medya yasağı yarın başlıyor: Hesaplar tek tek silinecek\n[birgun · 10:54] Sosyal medya yasağı başlıyor: Hesaplar kapatılacak\n[onedio · 11:00] Sosyal Medya Yasağı Başlıyor: Kimleri Kapsıyor, e-Devlet'ten Yaş Doğrulama Nasıl Yapılacak?\n[dirilis · 11:49] 15 yaş altına sosyal medya yasağı yarın başlıyor!\n[sabah · 12:01] Sosyal medyada 15 yaş altı yasağı yarın başlıyor! Yaş doğrulaması nasıl yapılacak?\n[ahaber · 12:29] Sosyal medyada 15 yaş altı yasağı başlıyor: Yaş doğrulaması nasıl yapılacak?\n[milligazete · 14:44] Sosyal medyada 15 yaş altı çocuklara yasak başlıyor: Yaş doğrulaması nasıl yapılır?\n[turkiyegz · 15:44] 15 yaş altı sosyal medya yasağı ne zaman başlayacak? e-Devlet yaş doğrulama süreci\n[haberturk · 20:47] 15 yaş altı sosyal medya yasağı başladı! Yaş doğrulaması nasıl yapılır, sosyal medya yasağı hangi uygulamaları kapsayacak? — Türkiye'de 15 yaş altı sosyal medya kullanımına ilişkin yeni düzenleme için geri sayım sona eriyor. 15 yaşını doldurmamış çocukların sosyal ağ hizmetlerinden yararlanmasını engelleyecek yönetmelik, 1 Kasım 2026 itibarıyla yürürlüğe giriyor. Yeni dönemde sosyal medya platformları …\n[haberler · 22:07] Sosyal medya yaş doğrulaması nasıl yapılır? 1 Kasım sosyal medya yasağı hangi uygulamaları kapsayacak?\n[cumhuriyet · 22:28] 15 yaş altı sosyal medya yasağı ne zaman başlıyor? 15 yaş altı sosyal medya düzenlemesi maddeleri neler?\n[sondakika · 23:14] Sosyal medyada 15 yaş sınırı yürürlüğe girdi, yaş doğrulaması e-Devlet'ten yapılacak\n[yenisafak · 04:00] 15 yaş altına sosyal medya bugünden itibaren yasak\n[ntv · 11:50] E-Devlet yaş doğrulaması yapma ekranı. Sosyal medya yaş doğrulaması nasıl ve nereden yapılacak?\n[sozcu · 13:18] Bakan Göktaş duyurdu: Sosyal medya yasağı resmen başladı"
+  },
+  {
+   "key": "s5432__salience-bias",
+   "output_file": "runs/bg/explain/s5432__salience-bias.json",
+   "event_title": "Mersin'deki 19 yıllık 'mumya ceset' cinayetinde 6 gözaltı, 3 şüpheli tutuklandı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "19 yıllık 'mumya ceset' cinayetinde kan donduran itiraf!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Buzdolabına sığmayınca bacaklarını kesmişler",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mersin'de 19 yıllık 'mumya ceset' dosyasında 6 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "cinayetinde 19 yıl sonra 6 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar ürkütücü ve canlı ayrıntıyı (bacakların kesilmesi) başlığa taşırken diğerleri gözaltı bilgisini yalın aktarıyor.",
+   "skeptic_alternative": "Ayrıntı ifadelerde geçen olgusal bir bilgidir; çarpıcı ayrıntıyı başlığa koymak yaygın editoryal pratiktir.",
+   "missing_context": [
+    "Okur yargısına etki verisi",
+    "Savcılık ifadelerinin tam metni",
+    "Çarpıcı ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair açık kanıt"
+   ],
+   "headlines": "[sondakika · 15:02] Mersin'de 'mumya ceset' cinayetinde 19 yıl sonra 6 şüpheli gözaltına alındı\n[takvim · 15:06] Mersin'de 19 yıllık mumya ceset cinayeti çözüldü: Altın ve parayı paylaşıp Sefer'i gömmüşler!\n[yenisafak · 16:08] Mersin'de 'mumya ceset' cinayetinde kan donduran itiraf: Buzdolabına sığmayınca...\n[tgrt · 16:18] Mersin'de 19 yıllık 'Mumya ceset' cinayetinde kan donduran detay: Buzdolabına sığmayınca bacaklarını kesmişler\n[haberturk · 16:19] 19 yıllık 'mumya ceset' cinayetinde kan donduran itiraf!\n[haberler · 17:58] Mersin'de 19 yıllık 'mumya ceset' dosyasında 6 şüpheli gözaltına alındı\n[cumhuriyet · 18:15] 'Mumya ceset’ cinayetinde korkunç iddialar: 'Buzdolabına sığmayınca parçalamışlar'\n[ntv · 18:22] \"Mumya ceset\" cinayetinde 19 yıl sonra itiraf. Buzdolabına sığmayınca parçalamışlar\n[aksam · 18:42] 19 yıllık \"mumya ceset\" cinayetinde kan donduran itiraf: Buzdolabına sığmayınca bacaklarını kesmişler\n[mynet · 21:51] Mersin'deki 'mumya ceset’ cinayetinde namus meselesi iddiası\n[sabah · 06:59] 19 yıllık ‘mumya ceset’ cinayeti çözüldü\n[ahaber · 13:53] Mersin'deki Mumya Ceset cinayetinde 19 yıl sonra yeni gelişme! Savcılık ifadeleri ortaya çıktı\n[hurriyet · 19:34] 19 yıllık 'mumya ceset' cinayetinde yeni gelişme: 3 kişi tutuklandı — Mersin Cumhuriyet Başsavcılığı tarafından yeniden açılan soruşturma çerçevesinde 19 yıl önce bir evin avlusunda, etrafı tuğlalarla örülüp üzeri betonla kapatılmış dondurucunun içerisinde bulunan 'mumya ceset' olarak bilinen cinayetle ilgili gözaltına alınan şüphelilerden 3'ü …\n[karar · 20:53] Mersin'deki 'mumya ceset' cinayetinde 19 yıl sonra yeni gelişme: 3 kişi tutuklandı — Mersin'de 2007 yılında bir evin avlusunda, üzeri betonla kapatılmış buzdolabının içinde cesedi bulunan Bahaddin Sefer'in öldürülmesine ilişkin yeniden açılan soruşturmada 3 kişi tutuklandı. Yıllarca faili meçhul kalan cinayete ilişkin ifadelerde, Sefer'in öldürüldükten sonra …\n[sozcu · 21:01] Mersin'deki 'mumya ceset’ cinayetinde 3 tutuklama\n[akit · 21:55] Mersin'deki 19 yıllık 'mumya ceset' cinayetinde 6 gözaltı, 3 şüpheli tutuklandı"
+  },
+  {
+   "key": "s5432__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5432__leveling-and-sharpening.json",
+   "event_title": "Mersin'deki 19 yıllık 'mumya ceset' cinayetinde 6 gözaltı, 3 şüpheli tutuklandı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Mersin'de 'mumya ceset' cinayetinde 19 yıl sonra 6 şüpheli gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Mersin'de 19 yıllık mumya ceset cinayeti çözüldü: Altın ve parayı paylaşıp Sefer'i gömmüşler!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "'Mumya ceset’ cinayetinde korkunç iddialar",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "üzeri betonla kapatılmış dondurucunun içerisinde bulunan",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "üzeri betonla kapatılmış buzdolabının içinde cesedi bulunan",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "19 yıllık mumya ceset cinayeti çözüldü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "cinayetinde yeni gelişme: 3 kişi tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "cinayetinde korkunç iddialar",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Gözaltı aşamasındaki soruşturma bazı başlıklarda 'çözüldü' kesinliğine büyütülüyor; Cumhuriyet aynı ifadeleri 'iddia' olarak sunarken diğerleri 'itiraf' diyor; 'dondurucu' ve 'buzdolabı' ayrıntısı farklılaşıyor.",
+   "skeptic_alternative": "Emniyet açıklaması 'aydınlatıldı' ifadesini kullanmış olabilir; kurum bunu aktarmış olabilir.",
+   "missing_context": [
+    "Emniyet/savcılık açıklamasındaki ifade",
+    "Farkın bir sonuca etki ettiğine dair kanıt",
+    "Savcılık veya emniyet açıklamasının tam metni",
+    "Yargılama süreci ve mahkeme kararı"
+   ],
+   "headlines": "[sondakika · 15:02] Mersin'de 'mumya ceset' cinayetinde 19 yıl sonra 6 şüpheli gözaltına alındı\n[takvim · 15:06] Mersin'de 19 yıllık mumya ceset cinayeti çözüldü: Altın ve parayı paylaşıp Sefer'i gömmüşler!\n[yenisafak · 16:08] Mersin'de 'mumya ceset' cinayetinde kan donduran itiraf: Buzdolabına sığmayınca...\n[tgrt · 16:18] Mersin'de 19 yıllık 'Mumya ceset' cinayetinde kan donduran detay: Buzdolabına sığmayınca bacaklarını kesmişler\n[haberturk · 16:19] 19 yıllık 'mumya ceset' cinayetinde kan donduran itiraf!\n[haberler · 17:58] Mersin'de 19 yıllık 'mumya ceset' dosyasında 6 şüpheli gözaltına alındı\n[cumhuriyet · 18:15] 'Mumya ceset’ cinayetinde korkunç iddialar: 'Buzdolabına sığmayınca parçalamışlar'\n[ntv · 18:22] \"Mumya ceset\" cinayetinde 19 yıl sonra itiraf. Buzdolabına sığmayınca parçalamışlar\n[aksam · 18:42] 19 yıllık \"mumya ceset\" cinayetinde kan donduran itiraf: Buzdolabına sığmayınca bacaklarını kesmişler\n[mynet · 21:51] Mersin'deki 'mumya ceset’ cinayetinde namus meselesi iddiası\n[sabah · 06:59] 19 yıllık ‘mumya ceset’ cinayeti çözüldü\n[ahaber · 13:53] Mersin'deki Mumya Ceset cinayetinde 19 yıl sonra yeni gelişme! Savcılık ifadeleri ortaya çıktı\n[hurriyet · 19:34] 19 yıllık 'mumya ceset' cinayetinde yeni gelişme: 3 kişi tutuklandı — Mersin Cumhuriyet Başsavcılığı tarafından yeniden açılan soruşturma çerçevesinde 19 yıl önce bir evin avlusunda, etrafı tuğlalarla örülüp üzeri betonla kapatılmış dondurucunun içerisinde bulunan 'mumya ceset' olarak bilinen cinayetle ilgili gözaltına alınan şüphelilerden 3'ü …\n[karar · 20:53] Mersin'deki 'mumya ceset' cinayetinde 19 yıl sonra yeni gelişme: 3 kişi tutuklandı — Mersin'de 2007 yılında bir evin avlusunda, üzeri betonla kapatılmış buzdolabının içinde cesedi bulunan Bahaddin Sefer'in öldürülmesine ilişkin yeniden açılan soruşturmada 3 kişi tutuklandı. Yıllarca faili meçhul kalan cinayete ilişkin ifadelerde, Sefer'in öldürüldükten sonra …\n[sozcu · 21:01] Mersin'deki 'mumya ceset’ cinayetinde 3 tutuklama\n[akit · 21:55] Mersin'deki 19 yıllık 'mumya ceset' cinayetinde 6 gözaltı, 3 şüpheli tutuklandı"
+  },
+  {
+   "key": "s5432__framing-effect",
+   "output_file": "runs/bg/explain/s5432__framing-effect.json",
+   "event_title": "Mersin'deki 19 yıllık 'mumya ceset' cinayetinde 6 gözaltı, 3 şüpheli tutuklandı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "'Mumya ceset’ cinayetinde korkunç iddialar: 'Buzdolabına sığmayınca parçalamışlar'",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "\"Mumya ceset\" cinayetinde 19 yıl sonra itiraf. Buzdolabına sığmayınca parçalamışlar",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "cinayetinde kan donduran itiraf",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "cinayetinde korkunç iddialar",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı ifade içeriği bir kurumda 'iddia', diğerinde 'itiraf' olarak sunuluyor; kesinlik algısı çerçeveye göre değişiyor.",
+   "skeptic_alternative": "İfadelerin hukuki niteliği belirsiz olabilir; kurumlar farklı ajans metinlerini izlemiş olabilir.",
+   "missing_context": [
+    "Çerçevenin bir yargıyı değiştirdiğine dair açık ifade",
+    "İfadelerin şüpheli itirafı mı tanık beyanı mı olduğu"
+   ],
+   "headlines": "[sondakika · 15:02] Mersin'de 'mumya ceset' cinayetinde 19 yıl sonra 6 şüpheli gözaltına alındı\n[takvim · 15:06] Mersin'de 19 yıllık mumya ceset cinayeti çözüldü: Altın ve parayı paylaşıp Sefer'i gömmüşler!\n[yenisafak · 16:08] Mersin'de 'mumya ceset' cinayetinde kan donduran itiraf: Buzdolabına sığmayınca...\n[tgrt · 16:18] Mersin'de 19 yıllık 'Mumya ceset' cinayetinde kan donduran detay: Buzdolabına sığmayınca bacaklarını kesmişler\n[haberturk · 16:19] 19 yıllık 'mumya ceset' cinayetinde kan donduran itiraf!\n[haberler · 17:58] Mersin'de 19 yıllık 'mumya ceset' dosyasında 6 şüpheli gözaltına alındı\n[cumhuriyet · 18:15] 'Mumya ceset’ cinayetinde korkunç iddialar: 'Buzdolabına sığmayınca parçalamışlar'\n[ntv · 18:22] \"Mumya ceset\" cinayetinde 19 yıl sonra itiraf. Buzdolabına sığmayınca parçalamışlar\n[aksam · 18:42] 19 yıllık \"mumya ceset\" cinayetinde kan donduran itiraf: Buzdolabına sığmayınca bacaklarını kesmişler\n[mynet · 21:51] Mersin'deki 'mumya ceset’ cinayetinde namus meselesi iddiası\n[sabah · 06:59] 19 yıllık ‘mumya ceset’ cinayeti çözüldü\n[ahaber · 13:53] Mersin'deki Mumya Ceset cinayetinde 19 yıl sonra yeni gelişme! Savcılık ifadeleri ortaya çıktı\n[hurriyet · 19:34] 19 yıllık 'mumya ceset' cinayetinde yeni gelişme: 3 kişi tutuklandı — Mersin Cumhuriyet Başsavcılığı tarafından yeniden açılan soruşturma çerçevesinde 19 yıl önce bir evin avlusunda, etrafı tuğlalarla örülüp üzeri betonla kapatılmış dondurucunun içerisinde bulunan 'mumya ceset' olarak bilinen cinayetle ilgili gözaltına alınan şüphelilerden 3'ü …\n[karar · 20:53] Mersin'deki 'mumya ceset' cinayetinde 19 yıl sonra yeni gelişme: 3 kişi tutuklandı — Mersin'de 2007 yılında bir evin avlusunda, üzeri betonla kapatılmış buzdolabının içinde cesedi bulunan Bahaddin Sefer'in öldürülmesine ilişkin yeniden açılan soruşturmada 3 kişi tutuklandı. Yıllarca faili meçhul kalan cinayete ilişkin ifadelerde, Sefer'in öldürüldükten sonra …\n[sozcu · 21:01] Mersin'deki 'mumya ceset’ cinayetinde 3 tutuklama\n[akit · 21:55] Mersin'deki 19 yıllık 'mumya ceset' cinayetinde 6 gözaltı, 3 şüpheli tutuklandı"
+  },
+  {
+   "key": "s5095__framing-effect",
+   "output_file": "runs/bg/explain/s5095__framing-effect.json",
+   "event_title": "TOBB Nefes Kredisi'nde yeni dilim başvuruları 3 Kasım'da başlıyor",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "TOBB Nefes Kredisi'nde yeni dilimle firma başına limit 5 milyon liraya çıktı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "TOBB Nefes Kredisi'nde yeni dilim 3 Kasım'da başlıyor, firma başına limit 5 milyon TL",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Milyonlarca KOBİ bekliyordu! TOBB Nefes Kredisi'ne başvurular başladı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Milyonlarca KOBİ bekliyordu!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı limit bilgisi bir kurumda artış ('çıktı') kazanç çerçevesiyle, diğerinde nötr biçimde veriliyor.",
+   "skeptic_alternative": "Hizmet haberciliği formatı (başvuru şartları, tarihler) olağan bir sunumdur.",
+   "missing_context": [
+    "Kredi koşullarının resmi metni",
+    "Çerçevenin bir tercihi değiştirdiğine dair açık ifade",
+    "Önceki dilimin limiti"
+   ],
+   "headlines": "[sondakika · 07:20] TOBB Nefes Kredisi'nde yeni dilim 3 Kasım'da başlıyor, firma başına limit 5 milyon TL\n[haberler · 10:16] TOBB Nefes Kredisi'nde yeni dilimle firma başına limit 5 milyon liraya çıktı\n[aa · 10:17] TOBB Nefes Kredisi'nde yeni dilim başvuruları 3 Kasım'da başlayacak\n[diken · 10:28] 'Nefes kredisi' başvuruları başlıyor: Limit 5 milyon liraya çıktı\n[mynet · 10:31] TOBB Nefes Kredisi başvuruları 3 Kasım'da başlıyor: 50 milyar TL destek - Finans haberlerinin doğru adresi — TOBB Nefes Kredisi'nde yeni dönem için başvurular 3 Kasım'da başlayacak. KOBİ'lere 50 milyar liralık ek finansman sağlanırken firma başına kredi limiti 5 milyon TL olacak.\n[ntv · 11:14] TOBB Nefes Kredisi'nde başvurular 3 Kasım'da başlıyor\n[haberturk · 11:21] TOBB Nefes Kredisi yeniden başlıyor\n[bloomberght · 13:15] TOBB Nefes Kredisi'nde yeni dilim başvuruları 3 Kasım'da başlayacak\n[yenisafak · 23:21] TOBB Nefes Kredisi başvuruları başladı mı, ne zaman başlayacak? Toplam limit ne kadar? İşte başvuru şartları ve tarihleri\n[takvim · 08:23] TOBB Nefes Kredisi başvuruları 3 Kasım'da başlıyor! 5 milyon TL kredi için şartlar neler, hangi bankalar veriyor?\n[birgun · 13:21] 2026 TOBB Nefes Kredisi Başvuruları: Başvuru Şartları Neler, Başvurular Ne Zaman ve Nasıl Yapılır?\n[cumhuriyet · 14:11] 2026 TOBB Nefes Kredisi başvuruları başladı mı? TOBB Nefes Kredisi başvurusu nasıl yapılır?\n[milligazete · 15:02] TOBB Nefes Kredisi başvuru ekranı 2026! Nereden başvurulur, hangi belgeler gerekli, kimler alabilir, faiz ne kadar?\n[karar · 00:02] 2026 TOBB Nefes Kredisi başvurusu başladı mı? 5 Milyon TL için faiz oranları, vade sayısı ve anlaşmalı bankalar hangileri? — Türkiye Odalar ve Borsalar Birliği (TOBB) öncülüğünde KGF teminatıyla hayata geçirilen TOBB Nefes Kredisi 2026 projesinde yeni dilim başvuruları 3 Kasım (BUGÜN) itibarıyla başlıyor. KOBİ'lerin finansman ihtiyacını karşılamak üzere firma başına azami limit 5 milyon TL'ye …\n[turkiyegz · 12:17] TOBB Nefes Kredisi yeniden başladı! TOBB Nefes Kredisi nedir, hangi bankalar sunuyor?\n[tgrt · 12:29] Milyonlarca KOBİ bekliyordu! TOBB Nefes Kredisi'ne başvurular başladı: İşte şartlar"
+  }
+ ]
+}

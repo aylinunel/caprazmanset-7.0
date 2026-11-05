@@ -1,0 +1,1524 @@
+{
+ "instructions": "Write plain Turkish for a general reader. For each item write {\"noticed\": ..., \"why\": ...} to its output_file. noticed = what the headlines show, naming the outlets. why = why that is not proof. Each field is 1-2 sentences, 40-320 characters. Use only quotes given in the item (inside “…”), exactly as given. Never use the words 'bağlam gerekli', 'desteklendi', 'uncertain'.",
+ "items": [
+  {
+   "key": "s4478__salience-bias",
+   "output_file": "runs/bg/explain/s4478__salience-bias.json",
+   "event_title": "İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Sarf ettiği sözleri gerekçe gösterildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Cumhuriyet Başsavcılığı duyurdu: Aday Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[birgun · 20:46] İstanbul Barosu seçimindeki konuşması nedeniyle Prof. Dr. Kanadoğlu hakkında soruşturma başlatıldı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar soruşturmanın gerekçesini ('sözleri') veya kaynağını (Başsavcılık) öne çıkararak belirli ayrıntıları belirginleştiriyor.",
+   "skeptic_alternative": "Gerekçe ve unvan, olayın temel bilgileridir; öne çıkarılmaları olağan haber yazımıdır.",
+   "missing_context": [
+    "Daha az görünür bilgilerin (sözlerin içeriği, adayın yanıtı) karşılaştırmalı ele alınışı",
+    "Hangi sözlerin soruşturmaya konu olduğu",
+    "Taban oranı veya karşı kanıt karşılaştırması",
+    "Öne çıkan ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair açık ifade"
+   ],
+   "headlines": "[cumhuriyet · 20:07] AHG'nin İstanbul Barosu başkan adayı olan Osman Korkut Kanadoğlu'na soruşturma başlatıldı: İlk açıklamasını Cumhuriyet'e yaptı\n[sabah · 20:07] İstanbul Barosu başkan adayı Kanadoğlu’nun sözlerine soruşturma\n[sozcu · 20:18] Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[haberler · 20:25] İstanbul Cumhuriyet Başsavcılığı, baro adayı Kanadoğlu hakkında soruşturma başlattı\n[ntv · 20:28] İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[mynet · 20:32] İstanbul Baro Başkanı adayı Osman Korkut Kanadoğlu hakkında soruşturma\n[birgun · 20:46] İstanbul Barosu seçimindeki konuşması nedeniyle Prof. Dr. Kanadoğlu hakkında soruşturma başlatıldı\n[dirilis · 20:48] İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[tgrt · 20:49] Baro seçimlerindeki sözleri nedeniyle Kanadoğlu hakkında soruşturma\n[turkiyegz · 20:53] Osman Korkut Kanadoğlu hakkında resen soruşturma kararı\n[aksam · 20:56] İstanbul Cumhuriyet Başsavcılığı duyurdu: Aday Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[trthaber · 21:07] İstanbul Barosu Başkan Adayı Kanadoğlu hakkında resen soruşturma başlatıldı\n[star · 22:11] İstanbul Barosu Başkan Adayı Kanadoğlu hakkında resen soruşturma başlatıldı — İstanbul Cumhuriyet Başsavcılığı, İstanbul Barosunun Olağan Genel Kurulu'nda sarf ettiği sözler nedeniyle Avukat Hakları Grubu'nun adayı Osman Korkut Kanadoğlu hakkında resen soruşturma başlattı.\n[yenisafak · 22:44] Sarf ettiği sözleri gerekçe gösterildi: İstanbul Barosu Başkan Adayı Kanadoğlu hakkında resen soruşturma başlatıldı\n[haberturk · 01:18] Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[karar · 09:31] Osman Korkut Kanadoğlu hakkında soruşturma — İstanbul Cumhuriyet Başsavcılığı, İstanbul Barosu’nun Olağan Genel Kurulu’nda yaptığı konuşmadaki ifadeleri gerekçesiyle Avukat Hakları Grubu’nun başkan adayı Prof. Dr. Osman Korkut Kanadoğlu hakkında resen soruşturma açtı."
+  },
+  {
+   "key": "s4478__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4478__leveling-and-sharpening.json",
+   "event_title": "İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "İstanbul Cumhuriyet Başsavcılığı, İstanbul Barosunun Olağan Genel Kurulu'nda sarf ettiği sözler nedeniyle Avukat Hakları Grubu'nun adayı Osman Korkut Kanadoğlu hakkında resen soruşturma başlattı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İlk açıklamasını Cumhuriyet'e yaptı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sozcu · 20:18] Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Ayrıntılı spotla karşılaştırıldığında bazı başlıklar gerekçe ve 'resen' bilgisini atlıyor (düzleştirme), Cumhuriyet ise adayın kendisine yaptığı açıklamayı öne çıkarıyor (keskinleştirme).",
+   "skeptic_alternative": "Kısa başlıklar ayrıntıyı habere bırakır; anlamı maddi olarak değiştiren bir eksiltme gösterilmiyor.",
+   "missing_context": [
+    "Atlanan ayrıntının okur yargısını maddi biçimde değiştirdiğine dair kanıt",
+    "Eksiltmenin bir sonuca etkisine dair kanıt",
+    "Haberlerin tam metinleri"
+   ],
+   "headlines": "[cumhuriyet · 20:07] AHG'nin İstanbul Barosu başkan adayı olan Osman Korkut Kanadoğlu'na soruşturma başlatıldı: İlk açıklamasını Cumhuriyet'e yaptı\n[sabah · 20:07] İstanbul Barosu başkan adayı Kanadoğlu’nun sözlerine soruşturma\n[sozcu · 20:18] Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[haberler · 20:25] İstanbul Cumhuriyet Başsavcılığı, baro adayı Kanadoğlu hakkında soruşturma başlattı\n[ntv · 20:28] İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[mynet · 20:32] İstanbul Baro Başkanı adayı Osman Korkut Kanadoğlu hakkında soruşturma\n[birgun · 20:46] İstanbul Barosu seçimindeki konuşması nedeniyle Prof. Dr. Kanadoğlu hakkında soruşturma başlatıldı\n[dirilis · 20:48] İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[tgrt · 20:49] Baro seçimlerindeki sözleri nedeniyle Kanadoğlu hakkında soruşturma\n[turkiyegz · 20:53] Osman Korkut Kanadoğlu hakkında resen soruşturma kararı\n[aksam · 20:56] İstanbul Cumhuriyet Başsavcılığı duyurdu: Aday Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[trthaber · 21:07] İstanbul Barosu Başkan Adayı Kanadoğlu hakkında resen soruşturma başlatıldı\n[star · 22:11] İstanbul Barosu Başkan Adayı Kanadoğlu hakkında resen soruşturma başlatıldı — İstanbul Cumhuriyet Başsavcılığı, İstanbul Barosunun Olağan Genel Kurulu'nda sarf ettiği sözler nedeniyle Avukat Hakları Grubu'nun adayı Osman Korkut Kanadoğlu hakkında resen soruşturma başlattı.\n[yenisafak · 22:44] Sarf ettiği sözleri gerekçe gösterildi: İstanbul Barosu Başkan Adayı Kanadoğlu hakkında resen soruşturma başlatıldı\n[haberturk · 01:18] Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[karar · 09:31] Osman Korkut Kanadoğlu hakkında soruşturma — İstanbul Cumhuriyet Başsavcılığı, İstanbul Barosu’nun Olağan Genel Kurulu’nda yaptığı konuşmadaki ifadeleri gerekçesiyle Avukat Hakları Grubu’nun başkan adayı Prof. Dr. Osman Korkut Kanadoğlu hakkında resen soruşturma açtı."
+  },
+  {
+   "key": "s4478__authority-bias",
+   "output_file": "runs/bg/explain/s4478__authority-bias.json",
+   "event_title": "İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "İstanbul Cumhuriyet Başsavcılığı duyurdu:",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Prof. Dr. Kanadoğlu hakkında soruşturma başlatıldı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aksam · 20:56] İstanbul Cumhuriyet Başsavcılığı duyurdu: Aday Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başlıklar ya savcılığın kurumsal otoritesini ya da adayın akademik unvanını öne çıkarıyor.",
+   "skeptic_alternative": "Resmi kurumu kaynak göstermek standart atıf pratiğidir.",
+   "missing_context": [
+    "Adayın veya baronun karşı açıklaması",
+    "Karşı görüşlerin göz ardı edildiğine dair kanıt",
+    "Otoritenin bir iddiayı tek başına doğruladığına dair açık gerekçe",
+    "Soruşturma gerekçesinin içeriği"
+   ],
+   "headlines": "[cumhuriyet · 20:07] AHG'nin İstanbul Barosu başkan adayı olan Osman Korkut Kanadoğlu'na soruşturma başlatıldı: İlk açıklamasını Cumhuriyet'e yaptı\n[sabah · 20:07] İstanbul Barosu başkan adayı Kanadoğlu’nun sözlerine soruşturma\n[sozcu · 20:18] Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[haberler · 20:25] İstanbul Cumhuriyet Başsavcılığı, baro adayı Kanadoğlu hakkında soruşturma başlattı\n[ntv · 20:28] İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[mynet · 20:32] İstanbul Baro Başkanı adayı Osman Korkut Kanadoğlu hakkında soruşturma\n[birgun · 20:46] İstanbul Barosu seçimindeki konuşması nedeniyle Prof. Dr. Kanadoğlu hakkında soruşturma başlatıldı\n[dirilis · 20:48] İstanbul Barosu başkan adayı Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[tgrt · 20:49] Baro seçimlerindeki sözleri nedeniyle Kanadoğlu hakkında soruşturma\n[turkiyegz · 20:53] Osman Korkut Kanadoğlu hakkında resen soruşturma kararı\n[aksam · 20:56] İstanbul Cumhuriyet Başsavcılığı duyurdu: Aday Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[trthaber · 21:07] İstanbul Barosu Başkan Adayı Kanadoğlu hakkında resen soruşturma başlatıldı\n[star · 22:11] İstanbul Barosu Başkan Adayı Kanadoğlu hakkında resen soruşturma başlatıldı — İstanbul Cumhuriyet Başsavcılığı, İstanbul Barosunun Olağan Genel Kurulu'nda sarf ettiği sözler nedeniyle Avukat Hakları Grubu'nun adayı Osman Korkut Kanadoğlu hakkında resen soruşturma başlattı.\n[yenisafak · 22:44] Sarf ettiği sözleri gerekçe gösterildi: İstanbul Barosu Başkan Adayı Kanadoğlu hakkında resen soruşturma başlatıldı\n[haberturk · 01:18] Osman Korkut Kanadoğlu hakkında soruşturma başlatıldı\n[karar · 09:31] Osman Korkut Kanadoğlu hakkında soruşturma — İstanbul Cumhuriyet Başsavcılığı, İstanbul Barosu’nun Olağan Genel Kurulu’nda yaptığı konuşmadaki ifadeleri gerekçesiyle Avukat Hakları Grubu’nun başkan adayı Prof. Dr. Osman Korkut Kanadoğlu hakkında resen soruşturma açtı."
+  },
+  {
+   "key": "s5137__framing-effect",
+   "output_file": "runs/bg/explain/s5137__framing-effect.json",
+   "event_title": "Rusya: Zelenskiy ararsa Putin telefonu açacak",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rusya’dan Ukrayna’ya yeşil ışık:",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Moskova kapıyı araladı: Zelenski ararsa Putin telefonu açar",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kremlin'den Ukrayna'ya yeşil ışık:",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Rusya: Zelenskiy ararsa Putin telefonu açacak",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[aa · 10:13] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sabah · 22:39] Rusya’dan Ukrayna’ya yeşil ışık: “Zelenskiy ararsa Putin telefonu açar”",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[star · 00:27] Moskova kapıyı araladı: Zelenski ararsa Putin telefonu açar",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı açıklama bazı kurumlarda nötr aktarılırken bazılarında 'yeşil ışık' veya 'kapıyı araladı' gibi olumlu bir çerçeveyle sunuluyor.",
+   "skeptic_alternative": "Yorum katan başlıklar açıklamanın diplomatik anlamını özetleme girişimi olabilir; olgu aynı kalıyor.",
+   "missing_context": [
+    "Açıklamanın tam metni ve koşulları",
+    "Okur algısına dair veri",
+    "Çerçevenin bir yargı veya tercih farkına yol açtığına dair kanıt"
+   ],
+   "headlines": "[aa · 10:13] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak\n[sondakika · 18:52] Uşakov, Zelenskiy'i Moskova'ya çağırdı, ararsa Putin'in telefonu açacağını söyledi\n[haberler · 21:48] Kremlin Danışmanı Uşakov, Zelenskiy ararsa Putin'in telefonu açacağını söyledi\n[ntv · 21:52] Rusya: Zelenski'nin araması halinde Putin telefonu açacak\n[aksam · 21:57] Zelenski'nin teklifine Rusya'dan yanıt: \"Aranması halinde Putin telefonu açar\"\n[mynet · 21:58] Rusya'dan dikkat çeken açıklama! \"Zelenskiy'nin araması halinde Putin telefonu açacak\"\n[milliyet · 22:24] Rusya ve Ukrayna arasında 'telefon' diplomasisi! Kremlin 'Zelenskiy ararsa, Putin telefonu açar mı?' sorusuna yanıt verdi — Uşakov, Rus televizyon kanalı Rossiya'ya, Ukrayna krizinin çözümüne ilişkin açıklamalarda bulundu. Ukrayna konusunda Birleşik Arap Emirlikleri'nin (BAE) başkenti Abu Dabi'de yapılması planlanan üçlü müzakerelere Avrupalı temsilcilerin katılması ihtimalini değerlendiren Uşakov, …\n[sabah · 22:39] Rusya’dan Ukrayna’ya yeşil ışık: “Zelenskiy ararsa Putin telefonu açar” — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna krizine ilişkin açıklamalarda bulundu. Ukrayna Devlet Başkanı Zelenskiy’nin Rusya Devlet Başkanı Putin ile Moskova’da görüşebileceğini belirten Uşakov, Zelenskiy ararsa, Putin telefonu açar mı?’ sorusuna, Putin’in açacağını …\n[dirilis · 22:44] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak\n[star · 00:27] Moskova kapıyı araladı: Zelenski ararsa Putin telefonu açar — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna Devlet Başkanı Volodimir Zelenski'nin araması halinde Rusya Devlet Başkanı Vladimir Putin'in telefonu açacağını söyledi. Uşakov, Putin'in hiçbir zaman görüşmekten vazgeçmediğini belirtti.\n[haberturk · 01:17] Rusya: Zelenskiy ararsa Putin telefonu açacak\n[yeniasya · 04:44] Uşakov: Zelenskiy'nin araması halinde Putin telefonu açacak\n[karar · 09:17] Kremlin: Zelenskiy ararsa Putin telefonu açacak — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna Devlet Başkanı Volodimir Zelenskiy’nin Rusya Devlet Başkanı Vladimir Putin’i araması halinde Putin’in görüşmeye yanıt vereceğini söyledi. Uşakov, Abu Dabi’de yapılması planlanan Ukrayna-Rusya-ABD arasındaki üçlü müzakerelerin …\n[cnnturk · 11:41] Kremlin'den Ukrayna'ya yeşil ışık: \"Zelenski ararsa Putin telefonu açar\" — Kremlin'den Ukrayna ile olası görüşmelere ilişkin yeni bir açıklama geldi. Kremlin Dış Politika Danışmanı Yuri Uşakov, \"Zelenski'nin araması halinde Putin'in telefonu açacağını\" söyledi. Uşakov, Ukrayna liderini Moskova'ya da davet etti.\n[yenisafak · 11:50] Zelenskiy ararsa telefonu Putin açacak\n[trthaber · 12:13] Kremlin: Zelenski'nin araması halinde Putin telefonu açacak"
+  },
+  {
+   "key": "s5137__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5137__leveling-and-sharpening.json",
+   "event_title": "Rusya: Zelenskiy ararsa Putin telefonu açacak",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Uşakov, Zelenskiy'i Moskova'ya çağırdı, ararsa Putin'in telefonu açacağını söyledi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Uşakov, Putin'in hiçbir zaman görüşmekten vazgeçmediğini belirtti.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Uşakov, Ukrayna liderini Moskova'ya da davet etti.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Zelenskiy ararsa telefonu Putin açacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sondakika · 18:52] Uşakov, Zelenskiy'i Moskova'ya çağırdı, ararsa Putin'in telefonu açacağını söyledi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Moskova daveti ve Abu Dabi müzakereleri gibi ayrıntılar bazı haberlerde yer alırken çoğu başlıkta yalnızca telefon ifadesi keskinleştiriliyor.",
+   "skeptic_alternative": "Başlık kısalığı nedeniyle tek çarpıcı cümlenin seçilmesi olağandır; maddi çarpıtma gösterilmiyor.",
+   "missing_context": [
+    "Atlanan davet koşullarının anlamı değiştirip değiştirmediği",
+    "Eksiltmenin bir sonuca etkisi",
+    "Uşakov röportajının orijinal metni",
+    "Uşakov'un açıklamasının orijinal metni"
+   ],
+   "headlines": "[aa · 10:13] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak\n[sondakika · 18:52] Uşakov, Zelenskiy'i Moskova'ya çağırdı, ararsa Putin'in telefonu açacağını söyledi\n[haberler · 21:48] Kremlin Danışmanı Uşakov, Zelenskiy ararsa Putin'in telefonu açacağını söyledi\n[ntv · 21:52] Rusya: Zelenski'nin araması halinde Putin telefonu açacak\n[aksam · 21:57] Zelenski'nin teklifine Rusya'dan yanıt: \"Aranması halinde Putin telefonu açar\"\n[mynet · 21:58] Rusya'dan dikkat çeken açıklama! \"Zelenskiy'nin araması halinde Putin telefonu açacak\"\n[milliyet · 22:24] Rusya ve Ukrayna arasında 'telefon' diplomasisi! Kremlin 'Zelenskiy ararsa, Putin telefonu açar mı?' sorusuna yanıt verdi — Uşakov, Rus televizyon kanalı Rossiya'ya, Ukrayna krizinin çözümüne ilişkin açıklamalarda bulundu. Ukrayna konusunda Birleşik Arap Emirlikleri'nin (BAE) başkenti Abu Dabi'de yapılması planlanan üçlü müzakerelere Avrupalı temsilcilerin katılması ihtimalini değerlendiren Uşakov, …\n[sabah · 22:39] Rusya’dan Ukrayna’ya yeşil ışık: “Zelenskiy ararsa Putin telefonu açar” — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna krizine ilişkin açıklamalarda bulundu. Ukrayna Devlet Başkanı Zelenskiy’nin Rusya Devlet Başkanı Putin ile Moskova’da görüşebileceğini belirten Uşakov, Zelenskiy ararsa, Putin telefonu açar mı?’ sorusuna, Putin’in açacağını …\n[dirilis · 22:44] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak\n[star · 00:27] Moskova kapıyı araladı: Zelenski ararsa Putin telefonu açar — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna Devlet Başkanı Volodimir Zelenski'nin araması halinde Rusya Devlet Başkanı Vladimir Putin'in telefonu açacağını söyledi. Uşakov, Putin'in hiçbir zaman görüşmekten vazgeçmediğini belirtti.\n[haberturk · 01:17] Rusya: Zelenskiy ararsa Putin telefonu açacak\n[yeniasya · 04:44] Uşakov: Zelenskiy'nin araması halinde Putin telefonu açacak\n[karar · 09:17] Kremlin: Zelenskiy ararsa Putin telefonu açacak — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna Devlet Başkanı Volodimir Zelenskiy’nin Rusya Devlet Başkanı Vladimir Putin’i araması halinde Putin’in görüşmeye yanıt vereceğini söyledi. Uşakov, Abu Dabi’de yapılması planlanan Ukrayna-Rusya-ABD arasındaki üçlü müzakerelerin …\n[cnnturk · 11:41] Kremlin'den Ukrayna'ya yeşil ışık: \"Zelenski ararsa Putin telefonu açar\" — Kremlin'den Ukrayna ile olası görüşmelere ilişkin yeni bir açıklama geldi. Kremlin Dış Politika Danışmanı Yuri Uşakov, \"Zelenski'nin araması halinde Putin'in telefonu açacağını\" söyledi. Uşakov, Ukrayna liderini Moskova'ya da davet etti.\n[yenisafak · 11:50] Zelenskiy ararsa telefonu Putin açacak\n[trthaber · 12:13] Kremlin: Zelenski'nin araması halinde Putin telefonu açacak"
+  },
+  {
+   "key": "s5137__salience-bias",
+   "output_file": "runs/bg/explain/s5137__salience-bias.json",
+   "event_title": "Rusya: Zelenskiy ararsa Putin telefonu açacak",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Rusya'dan dikkat çeken açıklama!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rusya ve Ukrayna arasında 'telefon' diplomasisi!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[mynet · 21:58] Rusya'dan dikkat çeken açıklama!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Ünlem ve 'dikkat çeken' ifadesi telefon ayrıntısını çarpıcı hale getiriyor.",
+   "skeptic_alternative": "Dikkat çekici ifade tık odaklı başlık üslubudur, akıl yürütme hatası değildir.",
+   "missing_context": [
+    "Karşılaştırmalı ağırlıklandırma kanıtı",
+    "Çarpıcılığın bir değerlendirmeyi haksız biçimde yönlendirdiğine dair kanıt"
+   ],
+   "headlines": "[aa · 10:13] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak\n[sondakika · 18:52] Uşakov, Zelenskiy'i Moskova'ya çağırdı, ararsa Putin'in telefonu açacağını söyledi\n[haberler · 21:48] Kremlin Danışmanı Uşakov, Zelenskiy ararsa Putin'in telefonu açacağını söyledi\n[ntv · 21:52] Rusya: Zelenski'nin araması halinde Putin telefonu açacak\n[aksam · 21:57] Zelenski'nin teklifine Rusya'dan yanıt: \"Aranması halinde Putin telefonu açar\"\n[mynet · 21:58] Rusya'dan dikkat çeken açıklama! \"Zelenskiy'nin araması halinde Putin telefonu açacak\"\n[milliyet · 22:24] Rusya ve Ukrayna arasında 'telefon' diplomasisi! Kremlin 'Zelenskiy ararsa, Putin telefonu açar mı?' sorusuna yanıt verdi — Uşakov, Rus televizyon kanalı Rossiya'ya, Ukrayna krizinin çözümüne ilişkin açıklamalarda bulundu. Ukrayna konusunda Birleşik Arap Emirlikleri'nin (BAE) başkenti Abu Dabi'de yapılması planlanan üçlü müzakerelere Avrupalı temsilcilerin katılması ihtimalini değerlendiren Uşakov, …\n[sabah · 22:39] Rusya’dan Ukrayna’ya yeşil ışık: “Zelenskiy ararsa Putin telefonu açar” — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna krizine ilişkin açıklamalarda bulundu. Ukrayna Devlet Başkanı Zelenskiy’nin Rusya Devlet Başkanı Putin ile Moskova’da görüşebileceğini belirten Uşakov, Zelenskiy ararsa, Putin telefonu açar mı?’ sorusuna, Putin’in açacağını …\n[dirilis · 22:44] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak\n[star · 00:27] Moskova kapıyı araladı: Zelenski ararsa Putin telefonu açar — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna Devlet Başkanı Volodimir Zelenski'nin araması halinde Rusya Devlet Başkanı Vladimir Putin'in telefonu açacağını söyledi. Uşakov, Putin'in hiçbir zaman görüşmekten vazgeçmediğini belirtti.\n[haberturk · 01:17] Rusya: Zelenskiy ararsa Putin telefonu açacak\n[yeniasya · 04:44] Uşakov: Zelenskiy'nin araması halinde Putin telefonu açacak\n[karar · 09:17] Kremlin: Zelenskiy ararsa Putin telefonu açacak — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna Devlet Başkanı Volodimir Zelenskiy’nin Rusya Devlet Başkanı Vladimir Putin’i araması halinde Putin’in görüşmeye yanıt vereceğini söyledi. Uşakov, Abu Dabi’de yapılması planlanan Ukrayna-Rusya-ABD arasındaki üçlü müzakerelerin …\n[cnnturk · 11:41] Kremlin'den Ukrayna'ya yeşil ışık: \"Zelenski ararsa Putin telefonu açar\" — Kremlin'den Ukrayna ile olası görüşmelere ilişkin yeni bir açıklama geldi. Kremlin Dış Politika Danışmanı Yuri Uşakov, \"Zelenski'nin araması halinde Putin'in telefonu açacağını\" söyledi. Uşakov, Ukrayna liderini Moskova'ya da davet etti.\n[yenisafak · 11:50] Zelenskiy ararsa telefonu Putin açacak\n[trthaber · 12:13] Kremlin: Zelenski'nin araması halinde Putin telefonu açacak"
+  },
+  {
+   "key": "s5137__messenger-effect",
+   "output_file": "runs/bg/explain/s5137__messenger-effect.json",
+   "event_title": "Rusya: Zelenskiy ararsa Putin telefonu açacak",
+   "concept": "Messenger Effect",
+   "definition": "The Decision Lab describes the messenger effect as judging information’s validity or relevance through impressions of its source rather than evaluating its content. As an operational bias label, use it only when evidence shows that source impressions unjustifiably changed a claim’s evaluation; source credibility can be relevant when it bears on expertise, provenance, or reliability.",
+   "quotes": [
+    {
+     "quote": "Kremlin Danışmanı Uşakov, Zelenskiy ararsa Putin'in telefonu açacağını söyledi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kremlin: Zelenski'nin araması halinde Putin telefonu açacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Uşakov: Zelenskiy'nin araması halinde Putin telefonu açacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rusya’dan Ukrayna’ya yeşil ışık:",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[karar · 09:17] Kremlin: Zelenskiy ararsa Putin telefonu açacak",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[yeniasya · 04:44] Uşakov: Zelenskiy'nin araması halinde Putin telefonu açacak",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı iddia 'Rusya', 'Kremlin' veya 'Uşakov' gibi farklı kaynak etiketleriyle aktarılıyor ve bazı kurumlarca olumlu biçimde değerlendiriliyor.",
+   "skeptic_alternative": "Atıf farkları kaynak adlandırma tercihidir; iddia her kurumda aynı aktarılıyor.",
+   "missing_context": [
+    "Aynı iddianın farklı kaynakla farklı değerlendirildiğine dair kanıt",
+    "Değerlendirmenin kaynağa göre değiştiğine dair karşılaştırmalı kanıt"
+   ],
+   "headlines": "[aa · 10:13] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak\n[sondakika · 18:52] Uşakov, Zelenskiy'i Moskova'ya çağırdı, ararsa Putin'in telefonu açacağını söyledi\n[haberler · 21:48] Kremlin Danışmanı Uşakov, Zelenskiy ararsa Putin'in telefonu açacağını söyledi\n[ntv · 21:52] Rusya: Zelenski'nin araması halinde Putin telefonu açacak\n[aksam · 21:57] Zelenski'nin teklifine Rusya'dan yanıt: \"Aranması halinde Putin telefonu açar\"\n[mynet · 21:58] Rusya'dan dikkat çeken açıklama! \"Zelenskiy'nin araması halinde Putin telefonu açacak\"\n[milliyet · 22:24] Rusya ve Ukrayna arasında 'telefon' diplomasisi! Kremlin 'Zelenskiy ararsa, Putin telefonu açar mı?' sorusuna yanıt verdi — Uşakov, Rus televizyon kanalı Rossiya'ya, Ukrayna krizinin çözümüne ilişkin açıklamalarda bulundu. Ukrayna konusunda Birleşik Arap Emirlikleri'nin (BAE) başkenti Abu Dabi'de yapılması planlanan üçlü müzakerelere Avrupalı temsilcilerin katılması ihtimalini değerlendiren Uşakov, …\n[sabah · 22:39] Rusya’dan Ukrayna’ya yeşil ışık: “Zelenskiy ararsa Putin telefonu açar” — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna krizine ilişkin açıklamalarda bulundu. Ukrayna Devlet Başkanı Zelenskiy’nin Rusya Devlet Başkanı Putin ile Moskova’da görüşebileceğini belirten Uşakov, Zelenskiy ararsa, Putin telefonu açar mı?’ sorusuna, Putin’in açacağını …\n[dirilis · 22:44] Rusya: Zelenskiy'nin araması halinde Putin telefonu açacak\n[star · 00:27] Moskova kapıyı araladı: Zelenski ararsa Putin telefonu açar — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna Devlet Başkanı Volodimir Zelenski'nin araması halinde Rusya Devlet Başkanı Vladimir Putin'in telefonu açacağını söyledi. Uşakov, Putin'in hiçbir zaman görüşmekten vazgeçmediğini belirtti.\n[haberturk · 01:17] Rusya: Zelenskiy ararsa Putin telefonu açacak\n[yeniasya · 04:44] Uşakov: Zelenskiy'nin araması halinde Putin telefonu açacak\n[karar · 09:17] Kremlin: Zelenskiy ararsa Putin telefonu açacak — Kremlin Dış Politika Danışmanı Yuriy Uşakov, Ukrayna Devlet Başkanı Volodimir Zelenskiy’nin Rusya Devlet Başkanı Vladimir Putin’i araması halinde Putin’in görüşmeye yanıt vereceğini söyledi. Uşakov, Abu Dabi’de yapılması planlanan Ukrayna-Rusya-ABD arasındaki üçlü müzakerelerin …\n[cnnturk · 11:41] Kremlin'den Ukrayna'ya yeşil ışık: \"Zelenski ararsa Putin telefonu açar\" — Kremlin'den Ukrayna ile olası görüşmelere ilişkin yeni bir açıklama geldi. Kremlin Dış Politika Danışmanı Yuri Uşakov, \"Zelenski'nin araması halinde Putin'in telefonu açacağını\" söyledi. Uşakov, Ukrayna liderini Moskova'ya da davet etti.\n[yenisafak · 11:50] Zelenskiy ararsa telefonu Putin açacak\n[trthaber · 12:13] Kremlin: Zelenski'nin araması halinde Putin telefonu açacak"
+  },
+  {
+   "key": "s1562__framing-effect",
+   "output_file": "runs/bg/explain/s1562__framing-effect.json",
+   "event_title": "Eski SPK Başkanı Gönül hakkında soruşturma izni",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Fon skandalında soruşturma SPK'nın eski yönetimine uzandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakan Şimşek'ten eski SPK Başkanı İbrahim Ömer Gönül hakkında kritik karar",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Eski SPK Başkanı Gönül hakkında soruşturma izni",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Eski SPK Başkanı Gönül hakkında soruşturma izni",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[karar · 18:11] Fon skandalında soruşturma SPK'nın eski yönetimine uzandı: Şimşek'ten İbrahim Ömer Gönül için izin",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[trthaber · 17:39] Eski SPK Başkanı Gönül hakkında soruşturma izni",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı soruşturma izni bazı kurumlarda 'fon skandalı' veya 'kritik karar' çerçevesiyle, bazılarında nötr biçimde sunuluyor.",
+   "skeptic_alternative": "Fon skandalı bağlamı soruşturmanın gerçek arka planı olabilir; bağlam eklemek çerçeve hatası değildir.",
+   "missing_context": [
+    "Fon skandalı ile soruşturmanın resmi bağlantısı",
+    "Fon skandalının ayrıntıları",
+    "Okur etkisine dair veri",
+    "Çerçeve farkının bir yargıya yol açtığına dair kanıt"
+   ],
+   "headlines": "[star · 17:38] Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni! Bakan Şimşek talimat verdi — Hazine ve Maliye Bakanı Mehmet Şimşek, Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden eski Sermaye Piyasası Kurulu (SPK) Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[trthaber · 17:39] Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[sabah · 17:40] SON DAKİKA I Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi — Son Dakika Haberleri... Hazine ve Maliye Bakanı Mehmet Şimşek, Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[mynet · 17:41] Bakan Şimşek, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi — Bakan Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[haberturk · 17:42] Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi\n[diken · 17:43] Mehmet Şimşek, eski SPK başkanı Ömer Gönül hakkında soruşturma izni verdi — 14.10.2026 - Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[ntv · 17:44] Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön incelemenin ardından eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[takvim · 17:44] Bakan Şimşek'ten eski SPK Başkanı İbrahim Ömer Gönül hakkında kritik karar: Soruşturma izni verildi — Mehmet Şimşek, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi. Savcılığın talebinde fon denetimleri ve yatırımcı mağduriyetleri yer aldı.\n[sozcu · 17:45] Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi — Son Dakika... Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığı'nın talebi üzerine eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[ahaber · 17:45] Mehmet Şimşek’ten eski SPK Başkanı Gönül için soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığı'nın talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[bloomberght · 17:48] Eski SPK Başkanı Gönül hakkında soruşturma izni — Bakan Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığı'nın talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[cumhuriyet · 17:55] Son dakika... Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön incelemenin ardından eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[milligazete · 18:00] Eski SPK Başkanı İbrahim Ömer Gönül’e soruşturma! — İstanbul Cumhuriyet Başsavcılığının talebi üzerine eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma açılmasını onayladı. Karar, yatırım fonları ve…\n[karar · 18:11] Fon skandalında soruşturma SPK'nın eski yönetimine uzandı: Şimşek'ten İbrahim Ömer Gönül için izin — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi. Fon skandalı kapsamında “görevi kötüye kullanma” suçlamasıyla yürütülmek istenen soruşturma için Bakanlık Teftiş …\n[dirilis · 18:12] Eski SPK Başkanı İbrahim Ömer Gönül Hakkında Soruşturma İzni verildi — Hazine ve Maliye Bakanı Mehmet Şimşek, Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden eski Sermaye Piyasası Kurulu (SPK) Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[yeniasya · 00:00] Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi"
+  },
+  {
+   "key": "s1562__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s1562__leveling-and-sharpening.json",
+   "event_title": "Eski SPK Başkanı Gönül hakkında soruşturma izni",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni! Bakan Şimşek talimat verdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Savcılığın talebinde fon denetimleri ve yatırımcı mağduriyetleri yer aldı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fon skandalı kapsamında “görevi kötüye kullanma” suçlamasıyla",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden eski Sermaye Piyasası Kurulu (SPK) Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Star başlıkta 'izin'i 'talimat' olarak keskinleştiriyor; bazı haberler savcılık talebini, bazıları teftiş raporunu öne çıkarıp diğerini atlıyor.",
+   "skeptic_alternative": "İki anlatım aynı sürecin parçalarıdır; farklı ayrıntı seçimi maddi bir çarpıtma göstermiyor.",
+   "missing_context": [
+    "Bakanlığın resmi açıklama metni",
+    "Eksiltmenin bir sonuca etkisi",
+    "Farkın okur yargısını maddi olarak etkilediğine dair kanıt"
+   ],
+   "headlines": "[star · 17:38] Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni! Bakan Şimşek talimat verdi — Hazine ve Maliye Bakanı Mehmet Şimşek, Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden eski Sermaye Piyasası Kurulu (SPK) Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[trthaber · 17:39] Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[sabah · 17:40] SON DAKİKA I Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi — Son Dakika Haberleri... Hazine ve Maliye Bakanı Mehmet Şimşek, Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[mynet · 17:41] Bakan Şimşek, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi — Bakan Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[haberturk · 17:42] Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi\n[diken · 17:43] Mehmet Şimşek, eski SPK başkanı Ömer Gönül hakkında soruşturma izni verdi — 14.10.2026 - Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[ntv · 17:44] Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön incelemenin ardından eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[takvim · 17:44] Bakan Şimşek'ten eski SPK Başkanı İbrahim Ömer Gönül hakkında kritik karar: Soruşturma izni verildi — Mehmet Şimşek, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi. Savcılığın talebinde fon denetimleri ve yatırımcı mağduriyetleri yer aldı.\n[sozcu · 17:45] Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi — Son Dakika... Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığı'nın talebi üzerine eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[ahaber · 17:45] Mehmet Şimşek’ten eski SPK Başkanı Gönül için soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığı'nın talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[bloomberght · 17:48] Eski SPK Başkanı Gönül hakkında soruşturma izni — Bakan Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığı'nın talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[cumhuriyet · 17:55] Son dakika... Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön incelemenin ardından eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[milligazete · 18:00] Eski SPK Başkanı İbrahim Ömer Gönül’e soruşturma! — İstanbul Cumhuriyet Başsavcılığının talebi üzerine eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma açılmasını onayladı. Karar, yatırım fonları ve…\n[karar · 18:11] Fon skandalında soruşturma SPK'nın eski yönetimine uzandı: Şimşek'ten İbrahim Ömer Gönül için izin — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi. Fon skandalı kapsamında “görevi kötüye kullanma” suçlamasıyla yürütülmek istenen soruşturma için Bakanlık Teftiş …\n[dirilis · 18:12] Eski SPK Başkanı İbrahim Ömer Gönül Hakkında Soruşturma İzni verildi — Hazine ve Maliye Bakanı Mehmet Şimşek, Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden eski Sermaye Piyasası Kurulu (SPK) Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[yeniasya · 00:00] Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi"
+  },
+  {
+   "key": "s1562__salience-bias",
+   "output_file": "runs/bg/explain/s1562__salience-bias.json",
+   "event_title": "Eski SPK Başkanı Gönül hakkında soruşturma izni",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "SON DAKİKA I Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Eski SPK Başkanı İbrahim Ömer Gönül’e soruşturma!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[milligazete · 18:00] Eski SPK Başkanı İbrahim Ömer Gönül’e soruşturma!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Son dakika' etiketi ve ünlemler olayı daha çarpıcı kılıyor.",
+   "skeptic_alternative": "Vurgu işaretleri biçimsel başlık tercihidir.",
+   "missing_context": [
+    "Karşılaştırmalı ağırlıklandırma kanıtı",
+    "Çarpıcılığın haksız bir yargıya yol açtığına dair kanıt"
+   ],
+   "headlines": "[star · 17:38] Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni! Bakan Şimşek talimat verdi — Hazine ve Maliye Bakanı Mehmet Şimşek, Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden eski Sermaye Piyasası Kurulu (SPK) Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[trthaber · 17:39] Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[sabah · 17:40] SON DAKİKA I Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi — Son Dakika Haberleri... Hazine ve Maliye Bakanı Mehmet Şimşek, Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[mynet · 17:41] Bakan Şimşek, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi — Bakan Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[haberturk · 17:42] Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi\n[diken · 17:43] Mehmet Şimşek, eski SPK başkanı Ömer Gönül hakkında soruşturma izni verdi — 14.10.2026 - Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Başsavcılığının talebi üzerine yapılan ön inceleme sonucu, eski SPK başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[ntv · 17:44] Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön incelemenin ardından eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[takvim · 17:44] Bakan Şimşek'ten eski SPK Başkanı İbrahim Ömer Gönül hakkında kritik karar: Soruşturma izni verildi — Mehmet Şimşek, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi. Savcılığın talebinde fon denetimleri ve yatırımcı mağduriyetleri yer aldı.\n[sozcu · 17:45] Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi — Son Dakika... Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığı'nın talebi üzerine eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[ahaber · 17:45] Mehmet Şimşek’ten eski SPK Başkanı Gönül için soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığı'nın talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[bloomberght · 17:48] Eski SPK Başkanı Gönül hakkında soruşturma izni — Bakan Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığı'nın talebi üzerine yapılan ön inceleme sonucu, eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[cumhuriyet · 17:55] Son dakika... Eski SPK Başkanı Gönül hakkında soruşturma izni — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine yapılan ön incelemenin ardından eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[milligazete · 18:00] Eski SPK Başkanı İbrahim Ömer Gönül’e soruşturma! — İstanbul Cumhuriyet Başsavcılığının talebi üzerine eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma açılmasını onayladı. Karar, yatırım fonları ve…\n[karar · 18:11] Fon skandalında soruşturma SPK'nın eski yönetimine uzandı: Şimşek'ten İbrahim Ömer Gönül için izin — Hazine ve Maliye Bakanı Mehmet Şimşek, İstanbul Cumhuriyet Başsavcılığının talebi üzerine eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi. Fon skandalı kapsamında “görevi kötüye kullanma” suçlamasıyla yürütülmek istenen soruşturma için Bakanlık Teftiş …\n[dirilis · 18:12] Eski SPK Başkanı İbrahim Ömer Gönül Hakkında Soruşturma İzni verildi — Hazine ve Maliye Bakanı Mehmet Şimşek, Bakanlık Teftiş Başkanlığı ön inceleme raporuna istinaden eski Sermaye Piyasası Kurulu (SPK) Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verdi.\n[yeniasya · 00:00] Eski SPK Başkanı İbrahim Ömer Gönül hakkında soruşturma izni verildi"
+  },
+  {
+   "key": "s5521__framing-effect",
+   "output_file": "runs/bg/explain/s5521__framing-effect.json",
+   "event_title": "MİT Başkanı Kalın'dan BAE'ye ziyaret",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "MİT Başkanı İbrahim Kalın'dan BAE'ye kritik ziyaret",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MİT Başkanı İbrahim Kalın'dan BAE'ye ziyaret: Ana gündem güvenlik",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MİT Başkanı Kalın BAE'yi ziyaret etti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: MİT Başkanı Kalın'dan BAE'ye ziyaret",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[yenisafak · 17:37] MİT Başkanı İbrahim Kalın'dan BAE'ye kritik ziyaret",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ahaber · 17:38] MİT Başkanı İbrahim Kalın'dan BAE'ye ziyaret: Ana gündem güvenlik",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[aa · 05:32] MİT Başkanı Kalın, Birleşik Arap Emirlikleri'ni ziyaret etti",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı ziyaret bazı kurumlarda 'kritik' veya 'ana gündem güvenlik' nitelemesiyle, diğerlerinde nötr sunuluyor.",
+   "skeptic_alternative": "'Kritik' nitelemesi yaygın başlık kalıbıdır; 'güvenlik' gündemi ayrı bir bilgiye dayanıyor olabilir.",
+   "missing_context": [
+    "'Kritik' ve 'güvenlik' nitelemelerinin dayanağı",
+    "Okur etkisine dair veri",
+    "Ziyaretin resmi gündemi",
+    "Çerçevenin bir yargıyı değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[aa · 05:32] MİT Başkanı Kalın, Birleşik Arap Emirlikleri'ni ziyaret etti\n[sabah · 17:36] MİT Başkanı Kalın BAE’ye ziyarette bulundu!\n[aksam · 17:36] MİT Başkanı Kalın'dan BAE'ye ziyaret\n[yenisafak · 17:37] MİT Başkanı İbrahim Kalın'dan BAE'ye kritik ziyaret\n[ahaber · 17:38] MİT Başkanı İbrahim Kalın'dan BAE'ye ziyaret: Ana gündem güvenlik\n[turkiyegz · 17:39] MİT Başkanı İbrahim Kalın'dan BAE'ye kritik ziyaret\n[star · 17:40] MİT Başkanı Kalın'dan BAE'ye ziyaret — Milli İstihbarat Teşkilatı (MİT) Başkanı İbrahim Kalın, Birleşik Arap Emirlikleri'ne (BAE) ziyarette bulundu.\n[mynet · 17:41] MİT Başkanı Kalın'dan BAE ziyareti\n[ntv · 17:43] MİT Başkanı Kalın'dan Birleşik Arap Emirlikleri'ne ziyaret\n[hurriyet · 17:48] MİT Başkanı Kalın'dan BAE'ye ziyaret — Milli İstihbarat Teşkilatı (MİT) Başkanı İbrahim Kalın, Birleşik Arap Emirlikleri'ne (BAE) ziyarette bulundu.\n[sozcu · 17:48] MİT Başkanı İbrahim Kalın'dan BAE'ye ziyaret\n[dirilis · 17:49] MİT Başkanı Kalın, Birleşik Arap Emirlikleri'ni ziyaret etti\n[trthaber · 18:03] MİT Başkanı Kalın BAE'yi ziyaret etti\n[haberturk · 18:21] MİT Başkanı Kalın, BAE'yi ziyaret etti\n[cumhuriyet · 18:40] MİT Başkanı Kalın, Birleşik Arap Emirlikleri'ni ziyaret etti\n[cnnturk · 20:55] MİT Başkanı Kalın'dan BAE'ye ziyaret — Milli İstihbarat Teşkilatı (MİT) Başkanı İbrahim Kalın, Birleşik Arap Emirlikleri'ne (BAE) ziyarette bulundu."
+  },
+  {
+   "key": "s5521__salience-bias",
+   "output_file": "runs/bg/explain/s5521__salience-bias.json",
+   "event_title": "MİT Başkanı Kalın'dan BAE'ye ziyaret",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "BAE'ye kritik ziyaret",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MİT Başkanı Kalın BAE’ye ziyarette bulundu!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sabah · 17:36] MİT Başkanı Kalın BAE’ye ziyarette bulundu!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "'Kritik' kelimesi ve ünlem ziyareti daha dikkat çekici kılıyor.",
+   "skeptic_alternative": "Kısa ajans bilgisinin tekrarı; ünlem biçimsel bir tercihtir.",
+   "missing_context": [
+    "Vurgunun yargıyı haksız biçimde yönlendirdiğine dair kanıt",
+    "Ziyaretin içeriğine dair bilgi",
+    "Ziyaretin içeriğine dair ek bilgi"
+   ],
+   "headlines": "[aa · 05:32] MİT Başkanı Kalın, Birleşik Arap Emirlikleri'ni ziyaret etti\n[sabah · 17:36] MİT Başkanı Kalın BAE’ye ziyarette bulundu!\n[aksam · 17:36] MİT Başkanı Kalın'dan BAE'ye ziyaret\n[yenisafak · 17:37] MİT Başkanı İbrahim Kalın'dan BAE'ye kritik ziyaret\n[ahaber · 17:38] MİT Başkanı İbrahim Kalın'dan BAE'ye ziyaret: Ana gündem güvenlik\n[turkiyegz · 17:39] MİT Başkanı İbrahim Kalın'dan BAE'ye kritik ziyaret\n[star · 17:40] MİT Başkanı Kalın'dan BAE'ye ziyaret — Milli İstihbarat Teşkilatı (MİT) Başkanı İbrahim Kalın, Birleşik Arap Emirlikleri'ne (BAE) ziyarette bulundu.\n[mynet · 17:41] MİT Başkanı Kalın'dan BAE ziyareti\n[ntv · 17:43] MİT Başkanı Kalın'dan Birleşik Arap Emirlikleri'ne ziyaret\n[hurriyet · 17:48] MİT Başkanı Kalın'dan BAE'ye ziyaret — Milli İstihbarat Teşkilatı (MİT) Başkanı İbrahim Kalın, Birleşik Arap Emirlikleri'ne (BAE) ziyarette bulundu.\n[sozcu · 17:48] MİT Başkanı İbrahim Kalın'dan BAE'ye ziyaret\n[dirilis · 17:49] MİT Başkanı Kalın, Birleşik Arap Emirlikleri'ni ziyaret etti\n[trthaber · 18:03] MİT Başkanı Kalın BAE'yi ziyaret etti\n[haberturk · 18:21] MİT Başkanı Kalın, BAE'yi ziyaret etti\n[cumhuriyet · 18:40] MİT Başkanı Kalın, Birleşik Arap Emirlikleri'ni ziyaret etti\n[cnnturk · 20:55] MİT Başkanı Kalın'dan BAE'ye ziyaret — Milli İstihbarat Teşkilatı (MİT) Başkanı İbrahim Kalın, Birleşik Arap Emirlikleri'ne (BAE) ziyarette bulundu."
+  },
+  {
+   "key": "s13__salience-bias",
+   "output_file": "runs/bg/explain/s13__salience-bias.json",
+   "event_title": "Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur gözaltına alındı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Kurtlar Vadisi - Pusu ile gündeme Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Oğuzhan Uğur'un babası emekli albay Hasan Atilla Uğur da yer alıyor.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur detayı! hap detayı mercek altında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Son dakika haberi: Kurtlar Vadisi - Pusu ile gündeme Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kozinoğlu'nun koğuş arkadaşı ve Oğuzhan Uğur'un babası emekli albay Hasan Atilla Uğur da yer alıyor.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Dizi göndermesi, ünlü bir kişiyle akrabalık ve 'hap' ayrıntısı gibi çarpıcı unsurlar öne çıkarılıyor.",
+   "skeptic_alternative": "Kamuoyunun tanıdığı bağlantıları anmak okura bağlam sağlar; isim çoğu kurumda zaten başlıkta.",
+   "missing_context": [
+    "Diğer şüphelilere ayrılan yer karşılaştırması",
+    "Okur etkisine dair veri",
+    "Soruşturma belgelerindeki temel bulgular",
+    "Çarpıcı ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair açık ifade"
+   ],
+   "headlines": "[ahaber · 10:13] Kaşif Kozinoğlu soruşturmasında yeni gelişme: Hasan Atilla Uğur ile Hasan Ataman Yıldırım'a ev hapsi... — Silivri Cezaevi’nde 2011 yılında şüpheli şekilde hayatını kaybeden eski MİT mensubu Kaşif Kozinoğlu’nun ölümüne ilişkin yürütülen soruşturmada çok kritik adli kararlar alındı. Soruşturma kapsamında gözaltına alınan dönemin başsavcısı Ali İşgören ile Cezaevi Savcısı Necip Doğan …\n[mynet · 10:14] Son dakika | Hasan Atilla Uğur da aralarında! Kaşif Kozinoğlu soruşturmasında 4 yeni gözaltı kararı - Güncel Haberler — Son dakika haberi: Kurtlar Vadisi - Pusu ile gündeme Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti. Gözaltı kararı verilen isimler arasında Kozinoğlu'nun koğuş arkadaşı ve Oğuzhan Uğur'un babası emekli albay Hasan Atilla Uğur da yer alıyor.\n[ntv · 10:14] Kaşif Kozinoğlu soruşturması. Eski savcılara tutuklama, Hasan Atilla Uğur'a ev hapsi — Eski MİT görevlisi Kaşif Kozinoğlu'nun şüpheli ölümü soruşturmasında eski savcılar Ali İşgören ile Necip Doğan tutuklandı. Hasan Atilla Uğur ile Hasan Ataman Yıldırım'a ise ev hapsi verildi.\n[takvim · 10:17] Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur detayı! hap detayı mercek altında — Kaşif Kozinoğlu'nun ölümüne ilişkin soruşturmada Ali İşgören, Necip Doğan tutuklandı. Hasan Ataman Yıldırım ve Hasan Atilla Uğur'a ev hapsi verildi.\n[milligazete · 10:29] Kaşif Kozinoğlu soruşturmasında 4 isim için gözaltı kararı! Aralarında Hasan Atilla Uğur da var — Silivri Cezaevi'nde 2011 yılında şüpheli şekilde hayatını kaybeden eski MİT yöneticisi Kaşif Kozinoğlu'nun ölümüne ilişkin yürütülen soruşturmada aralarında dönemin savcıları ve koğuş arkadaşlarının da bulunduğu 4 kritik isim hakkında gözaltı kararı verildi; 3 kişi yakalandı.\n[dirilis · 11:11] Kozinoğlu soruşturmasında flaş gelişme: Hasan Atilla Uğur dahil 4 isim için gözaltı kararı! — Kaşif Kozinoğlu’nun cezaevindeki şüpheli ölümüne ilişkin yürütülen soruşturma kapsamında yeni bir gelişme yaşandı. Soruşturma kapsamında aralarında…\n[sozcu · 01:03] Hasan Atilla Uğur havalimanında gözaltına alındı — Kaşif Kozinoğlu’nun cezaevindeki şüpheli ölümüne ilişkin soruşturmada 4 şüpheli hakkında yakalama kararı çıkarıldı. Kıbrıs’ta bulunan şüphelilerden Hasan Atilla Uğur, Türkiye'ye döndü. Uğur'un uçağı 23.36’da havalimanına inerken, Uğur pasaport kontrolünün ardından gözaltına …\n[sabah · 01:07] Kaşif Kozinoğlu soruşturmasında yeni gelişme! Hasan Atilla Uğur havalimanında gözaltına alındı — Son dakika haberleri: MİT eski mensubu Kaşif Kozinoğlu’nun Silivri Cezaevi’ndeki şüpheli ölümüne ilişkin yürütülen soruşturmada sıcak gelişme yaşandı. Kıbrıs’tan Türkiye’ye giriş yapan emekli Albay Hasan Atilla Uğur, İstanbul Havalimanı’nda jandarma ekiplerince gözaltına Alındı.\n[star · 06:58] Kaşif Kozinoğlu soruşturması: Hasan Atilla Uğur havalimanında gözaltına alındı — Eski MİT görevlisi Kaşif Kozinoğlu'nun cezaevinde ölümüne ilişkin yeniden başlatılan soruşturma kapsamında, olay tarihinde Kozinoğlu'nun koğuş arkadaşı olan Hasan Atilla Uğur gözaltına alındı.\n[karar · 07:16] Hasan Atilla Uğur havalimanında gözaltına alındı — MİT mensubu Kâşif Kozinoğlu’nun 2011 yılında Silivri Cezaevi’nde hayatını kaybetmesine ilişkin yeniden açılan soruşturma kapsamında, hakkında gözaltı kararı bulunan emekli Jandarma Albay Hasan Atilla Uğur, Kıbrıs dönüşü havalimanında yakalandı.\n[tele1 · 08:03] Kaşif Kozinoğlu soruşturması; Hasan Atilla Uğur gözaltına alındı\n[cumhuriyet · 09:09] Son dakika... Kaşif Kozinoğlu soruşturması: Hasan Atilla Uğur gözaltına alındı — Son dakika haberi... Kaşif Kozinoğlu’nun 2011 yılında Silivri Cezaevi’nde ölümüne ilişkin yürütülen soruşturma kapsamında hakkında gözaltı kararı verilen koğuş arkadaşı emekli Jandarma Albay Hasan Atilla Uğur, İstanbul Havalimanı’nda gözaltına alındı.\n[aydinlik · 09:35] Hasan Atilla Uğur havaalanında gözaltına alındı — Kaşif Kozinoğlu'nun cezaevinde ölümüne ilişkin yeniden başlatılan soruşturma kapsamında, koğuş arkadaşı Hasan Atilla Uğur İstanbul Havalimanı'nda gözaltına alındı.\n[diken · 09:38] Kozinoğlu soruşturması: Hasan Atilla Uğur gözaltına alındı — 18.09.2026 - Eski MİT görevlisi Kaşif Kozinoğlu'nun cezaevinde öldüğü dönemdeki koğuş arkadaşı Hasan Atilla Uğur, İstanbul Havalimanı'nda gözaltına alındı.\n[haberturk · 17:11] Kozinoğlu soruşturmasında Hasan Atilla Uğur’un ifadesinde hap, bardak ve kamera kayıtları soruldu - Son Dakika Habertürk — Kaşif Kozinoğlu’nun cezaevindeki ölümüyle ilgili soruşturmada Hasan Atilla Uğur’un ifadesindeki ayrıntılar ortaya çıktı. Uğur’a, Kozinoğlu’na verilen dil altı hapı, kamera kayıtlarında görülen cisim ve odadan çıkarılan bardakla ilgili sorular yöneltildi. Kozinoğlu soruşturması …"
+  },
+  {
+   "key": "s13__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s13__leveling-and-sharpening.json",
+   "event_title": "Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur gözaltına alındı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Kaşif Kozinoğlu soruşturmasında 4 yeni gözaltı kararı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Hasan Atilla Uğur ile Hasan Ataman Yıldırım'a ise ev hapsi verildi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Hasan Atilla Uğur havalimanında gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "eski MİT yöneticisi Kaşif Kozinoğlu'nun",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "eski MİT mensubu Kaşif Kozinoğlu’nun",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Haberler arasında sayı (4 karar / 3 gözaltı), tedbir türü (ev hapsi / gözaltı) ve unvan (mensup / yönetici) farkları var.",
+   "skeptic_alternative": "Farklar olayın farklı günlerdeki aşamalarından (karar, yakalama, adli kontrol) kaynaklanabilir; çarpıtma değil güncelleme olabilir.",
+   "missing_context": [
+    "Farkların okur yargısını maddi olarak etkilediğine dair kanıt",
+    "Her haberin yayın tarihi ve aşaması",
+    "Resmi savcılık açıklaması"
+   ],
+   "headlines": "[ahaber · 10:13] Kaşif Kozinoğlu soruşturmasında yeni gelişme: Hasan Atilla Uğur ile Hasan Ataman Yıldırım'a ev hapsi... — Silivri Cezaevi’nde 2011 yılında şüpheli şekilde hayatını kaybeden eski MİT mensubu Kaşif Kozinoğlu’nun ölümüne ilişkin yürütülen soruşturmada çok kritik adli kararlar alındı. Soruşturma kapsamında gözaltına alınan dönemin başsavcısı Ali İşgören ile Cezaevi Savcısı Necip Doğan …\n[mynet · 10:14] Son dakika | Hasan Atilla Uğur da aralarında! Kaşif Kozinoğlu soruşturmasında 4 yeni gözaltı kararı - Güncel Haberler — Son dakika haberi: Kurtlar Vadisi - Pusu ile gündeme Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti. Gözaltı kararı verilen isimler arasında Kozinoğlu'nun koğuş arkadaşı ve Oğuzhan Uğur'un babası emekli albay Hasan Atilla Uğur da yer alıyor.\n[ntv · 10:14] Kaşif Kozinoğlu soruşturması. Eski savcılara tutuklama, Hasan Atilla Uğur'a ev hapsi — Eski MİT görevlisi Kaşif Kozinoğlu'nun şüpheli ölümü soruşturmasında eski savcılar Ali İşgören ile Necip Doğan tutuklandı. Hasan Atilla Uğur ile Hasan Ataman Yıldırım'a ise ev hapsi verildi.\n[takvim · 10:17] Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur detayı! hap detayı mercek altında — Kaşif Kozinoğlu'nun ölümüne ilişkin soruşturmada Ali İşgören, Necip Doğan tutuklandı. Hasan Ataman Yıldırım ve Hasan Atilla Uğur'a ev hapsi verildi.\n[milligazete · 10:29] Kaşif Kozinoğlu soruşturmasında 4 isim için gözaltı kararı! Aralarında Hasan Atilla Uğur da var — Silivri Cezaevi'nde 2011 yılında şüpheli şekilde hayatını kaybeden eski MİT yöneticisi Kaşif Kozinoğlu'nun ölümüne ilişkin yürütülen soruşturmada aralarında dönemin savcıları ve koğuş arkadaşlarının da bulunduğu 4 kritik isim hakkında gözaltı kararı verildi; 3 kişi yakalandı.\n[dirilis · 11:11] Kozinoğlu soruşturmasında flaş gelişme: Hasan Atilla Uğur dahil 4 isim için gözaltı kararı! — Kaşif Kozinoğlu’nun cezaevindeki şüpheli ölümüne ilişkin yürütülen soruşturma kapsamında yeni bir gelişme yaşandı. Soruşturma kapsamında aralarında…\n[sozcu · 01:03] Hasan Atilla Uğur havalimanında gözaltına alındı — Kaşif Kozinoğlu’nun cezaevindeki şüpheli ölümüne ilişkin soruşturmada 4 şüpheli hakkında yakalama kararı çıkarıldı. Kıbrıs’ta bulunan şüphelilerden Hasan Atilla Uğur, Türkiye'ye döndü. Uğur'un uçağı 23.36’da havalimanına inerken, Uğur pasaport kontrolünün ardından gözaltına …\n[sabah · 01:07] Kaşif Kozinoğlu soruşturmasında yeni gelişme! Hasan Atilla Uğur havalimanında gözaltına alındı — Son dakika haberleri: MİT eski mensubu Kaşif Kozinoğlu’nun Silivri Cezaevi’ndeki şüpheli ölümüne ilişkin yürütülen soruşturmada sıcak gelişme yaşandı. Kıbrıs’tan Türkiye’ye giriş yapan emekli Albay Hasan Atilla Uğur, İstanbul Havalimanı’nda jandarma ekiplerince gözaltına Alındı.\n[star · 06:58] Kaşif Kozinoğlu soruşturması: Hasan Atilla Uğur havalimanında gözaltına alındı — Eski MİT görevlisi Kaşif Kozinoğlu'nun cezaevinde ölümüne ilişkin yeniden başlatılan soruşturma kapsamında, olay tarihinde Kozinoğlu'nun koğuş arkadaşı olan Hasan Atilla Uğur gözaltına alındı.\n[karar · 07:16] Hasan Atilla Uğur havalimanında gözaltına alındı — MİT mensubu Kâşif Kozinoğlu’nun 2011 yılında Silivri Cezaevi’nde hayatını kaybetmesine ilişkin yeniden açılan soruşturma kapsamında, hakkında gözaltı kararı bulunan emekli Jandarma Albay Hasan Atilla Uğur, Kıbrıs dönüşü havalimanında yakalandı.\n[tele1 · 08:03] Kaşif Kozinoğlu soruşturması; Hasan Atilla Uğur gözaltına alındı\n[cumhuriyet · 09:09] Son dakika... Kaşif Kozinoğlu soruşturması: Hasan Atilla Uğur gözaltına alındı — Son dakika haberi... Kaşif Kozinoğlu’nun 2011 yılında Silivri Cezaevi’nde ölümüne ilişkin yürütülen soruşturma kapsamında hakkında gözaltı kararı verilen koğuş arkadaşı emekli Jandarma Albay Hasan Atilla Uğur, İstanbul Havalimanı’nda gözaltına alındı.\n[aydinlik · 09:35] Hasan Atilla Uğur havaalanında gözaltına alındı — Kaşif Kozinoğlu'nun cezaevinde ölümüne ilişkin yeniden başlatılan soruşturma kapsamında, koğuş arkadaşı Hasan Atilla Uğur İstanbul Havalimanı'nda gözaltına alındı.\n[diken · 09:38] Kozinoğlu soruşturması: Hasan Atilla Uğur gözaltına alındı — 18.09.2026 - Eski MİT görevlisi Kaşif Kozinoğlu'nun cezaevinde öldüğü dönemdeki koğuş arkadaşı Hasan Atilla Uğur, İstanbul Havalimanı'nda gözaltına alındı.\n[haberturk · 17:11] Kozinoğlu soruşturmasında Hasan Atilla Uğur’un ifadesinde hap, bardak ve kamera kayıtları soruldu - Son Dakika Habertürk — Kaşif Kozinoğlu’nun cezaevindeki ölümüyle ilgili soruşturmada Hasan Atilla Uğur’un ifadesindeki ayrıntılar ortaya çıktı. Uğur’a, Kozinoğlu’na verilen dil altı hapı, kamera kayıtlarında görülen cisim ve odadan çıkarılan bardakla ilgili sorular yöneltildi. Kozinoğlu soruşturması …"
+  },
+  {
+   "key": "s13__framing-effect",
+   "output_file": "runs/bg/explain/s13__framing-effect.json",
+   "event_title": "Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur gözaltına alındı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Kozinoğlu soruşturmasında flaş gelişme:",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "soruşturmada sıcak gelişme yaşandı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kaşif Kozinoğlu soruşturması; Hasan Atilla Uğur gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur gözaltına alındı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[takvim · 10:17] Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur detayı! hap detayı mercek altında",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[tele1 · 08:03] Kaşif Kozinoğlu soruşturması; Hasan Atilla Uğur gözaltına alındı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı gelişme bazı kurumlarda 'flaş' veya 'sıcak' nitelemesiyle, diğerlerinde nötr sunuluyor.",
+   "skeptic_alternative": "Hap ayrıntısı soruşturmanın gerçek bir unsuru olabilir (ifadede soruldu); aktarılması çerçeve hatası değildir.",
+   "missing_context": [
+    "Soruşturma dosyasındaki iddiaların içeriği",
+    "Çerçevenin bir yargı veya tercih farkına yol açtığına dair kanıt"
+   ],
+   "headlines": "[ahaber · 10:13] Kaşif Kozinoğlu soruşturmasında yeni gelişme: Hasan Atilla Uğur ile Hasan Ataman Yıldırım'a ev hapsi... — Silivri Cezaevi’nde 2011 yılında şüpheli şekilde hayatını kaybeden eski MİT mensubu Kaşif Kozinoğlu’nun ölümüne ilişkin yürütülen soruşturmada çok kritik adli kararlar alındı. Soruşturma kapsamında gözaltına alınan dönemin başsavcısı Ali İşgören ile Cezaevi Savcısı Necip Doğan …\n[mynet · 10:14] Son dakika | Hasan Atilla Uğur da aralarında! Kaşif Kozinoğlu soruşturmasında 4 yeni gözaltı kararı - Güncel Haberler — Son dakika haberi: Kurtlar Vadisi - Pusu ile gündeme Kaşif Kozinoğlu soruşturmasında 3 yeni gözaltı işlemi gerçekleşti. Gözaltı kararı verilen isimler arasında Kozinoğlu'nun koğuş arkadaşı ve Oğuzhan Uğur'un babası emekli albay Hasan Atilla Uğur da yer alıyor.\n[ntv · 10:14] Kaşif Kozinoğlu soruşturması. Eski savcılara tutuklama, Hasan Atilla Uğur'a ev hapsi — Eski MİT görevlisi Kaşif Kozinoğlu'nun şüpheli ölümü soruşturmasında eski savcılar Ali İşgören ile Necip Doğan tutuklandı. Hasan Atilla Uğur ile Hasan Ataman Yıldırım'a ise ev hapsi verildi.\n[takvim · 10:17] Kaşif Kozinoğlu soruşturmasında Hasan Atilla Uğur detayı! hap detayı mercek altında — Kaşif Kozinoğlu'nun ölümüne ilişkin soruşturmada Ali İşgören, Necip Doğan tutuklandı. Hasan Ataman Yıldırım ve Hasan Atilla Uğur'a ev hapsi verildi.\n[milligazete · 10:29] Kaşif Kozinoğlu soruşturmasında 4 isim için gözaltı kararı! Aralarında Hasan Atilla Uğur da var — Silivri Cezaevi'nde 2011 yılında şüpheli şekilde hayatını kaybeden eski MİT yöneticisi Kaşif Kozinoğlu'nun ölümüne ilişkin yürütülen soruşturmada aralarında dönemin savcıları ve koğuş arkadaşlarının da bulunduğu 4 kritik isim hakkında gözaltı kararı verildi; 3 kişi yakalandı.\n[dirilis · 11:11] Kozinoğlu soruşturmasında flaş gelişme: Hasan Atilla Uğur dahil 4 isim için gözaltı kararı! — Kaşif Kozinoğlu’nun cezaevindeki şüpheli ölümüne ilişkin yürütülen soruşturma kapsamında yeni bir gelişme yaşandı. Soruşturma kapsamında aralarında…\n[sozcu · 01:03] Hasan Atilla Uğur havalimanında gözaltına alındı — Kaşif Kozinoğlu’nun cezaevindeki şüpheli ölümüne ilişkin soruşturmada 4 şüpheli hakkında yakalama kararı çıkarıldı. Kıbrıs’ta bulunan şüphelilerden Hasan Atilla Uğur, Türkiye'ye döndü. Uğur'un uçağı 23.36’da havalimanına inerken, Uğur pasaport kontrolünün ardından gözaltına …\n[sabah · 01:07] Kaşif Kozinoğlu soruşturmasında yeni gelişme! Hasan Atilla Uğur havalimanında gözaltına alındı — Son dakika haberleri: MİT eski mensubu Kaşif Kozinoğlu’nun Silivri Cezaevi’ndeki şüpheli ölümüne ilişkin yürütülen soruşturmada sıcak gelişme yaşandı. Kıbrıs’tan Türkiye’ye giriş yapan emekli Albay Hasan Atilla Uğur, İstanbul Havalimanı’nda jandarma ekiplerince gözaltına Alındı.\n[star · 06:58] Kaşif Kozinoğlu soruşturması: Hasan Atilla Uğur havalimanında gözaltına alındı — Eski MİT görevlisi Kaşif Kozinoğlu'nun cezaevinde ölümüne ilişkin yeniden başlatılan soruşturma kapsamında, olay tarihinde Kozinoğlu'nun koğuş arkadaşı olan Hasan Atilla Uğur gözaltına alındı.\n[karar · 07:16] Hasan Atilla Uğur havalimanında gözaltına alındı — MİT mensubu Kâşif Kozinoğlu’nun 2011 yılında Silivri Cezaevi’nde hayatını kaybetmesine ilişkin yeniden açılan soruşturma kapsamında, hakkında gözaltı kararı bulunan emekli Jandarma Albay Hasan Atilla Uğur, Kıbrıs dönüşü havalimanında yakalandı.\n[tele1 · 08:03] Kaşif Kozinoğlu soruşturması; Hasan Atilla Uğur gözaltına alındı\n[cumhuriyet · 09:09] Son dakika... Kaşif Kozinoğlu soruşturması: Hasan Atilla Uğur gözaltına alındı — Son dakika haberi... Kaşif Kozinoğlu’nun 2011 yılında Silivri Cezaevi’nde ölümüne ilişkin yürütülen soruşturma kapsamında hakkında gözaltı kararı verilen koğuş arkadaşı emekli Jandarma Albay Hasan Atilla Uğur, İstanbul Havalimanı’nda gözaltına alındı.\n[aydinlik · 09:35] Hasan Atilla Uğur havaalanında gözaltına alındı — Kaşif Kozinoğlu'nun cezaevinde ölümüne ilişkin yeniden başlatılan soruşturma kapsamında, koğuş arkadaşı Hasan Atilla Uğur İstanbul Havalimanı'nda gözaltına alındı.\n[diken · 09:38] Kozinoğlu soruşturması: Hasan Atilla Uğur gözaltına alındı — 18.09.2026 - Eski MİT görevlisi Kaşif Kozinoğlu'nun cezaevinde öldüğü dönemdeki koğuş arkadaşı Hasan Atilla Uğur, İstanbul Havalimanı'nda gözaltına alındı.\n[haberturk · 17:11] Kozinoğlu soruşturmasında Hasan Atilla Uğur’un ifadesinde hap, bardak ve kamera kayıtları soruldu - Son Dakika Habertürk — Kaşif Kozinoğlu’nun cezaevindeki ölümüyle ilgili soruşturmada Hasan Atilla Uğur’un ifadesindeki ayrıntılar ortaya çıktı. Uğur’a, Kozinoğlu’na verilen dil altı hapı, kamera kayıtlarında görülen cisim ve odadan çıkarılan bardakla ilgili sorular yöneltildi. Kozinoğlu soruşturması …"
+  },
+  {
+   "key": "s4205__framing-effect",
+   "output_file": "runs/bg/explain/s4205__framing-effect.json",
+   "event_title": "Albay Sayit Gökgöz askeri araç kazasında şehit oldu",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Ankara'dan kahreden haber! MSB açıkladı: Albay Sayit Gökgöz şehit oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Askeri araç kazasında albay şehit oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MSB acı haberi duyurdu: İstihbarat Albay Sayit Gökgöz şehit oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Albay Sayit Gökgöz askeri araç kazasında şehit oldu",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[star · 00:09] Ankara'dan kahreden haber! MSB açıkladı: Albay Sayit Gökgöz şehit oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 00:21] Askeri araç kazasında albay şehit oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı kaza bazı kurumlarda 'kahreden' / 'acı haber' duygusal çerçevesiyle, NTV'de nötr sunuluyor.",
+   "skeptic_alternative": "Şehit haberlerinde taziye dili yerleşik bir gazetecilik geleneğidir; olgular tüm kurumlarda aynı.",
+   "missing_context": [
+    "Kazanın nedeni",
+    "Okur yargısına etkiye dair veri",
+    "Çerçevenin bir yargıya etki ettiğine dair kanıt"
+   ],
+   "headlines": "[trthaber · 00:00] Albay Sayit Gökgöz askeri araç kazasında şehit oldu — Milli Savunma Bakanlığı, Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz'ün şehit olduğunu, 2 personelin yaralandığını açıklandı.\n[mynet · 00:08] Ankara’da meydana gelen askeri araç kazasından acı haber: Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara’da meydana gelen askeri araç kazasında Albay Sayit Gökgöz’ün şehit olduğunu, 2 personelin yaralandığını bildirdi.\n[star · 00:09] Ankara'dan kahreden haber! MSB açıkladı: Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz'ün şehit olduğunu duyurdu. 2 personelin yaralandığını bildirdi.\n[yenisafak · 00:09] Ankara’da askeri araç kazası: Albay Sayit Gökgöz şehit oldu iki personel yaralandı — Ankara’da meydana gelen askeri araç kazasında Albay Sayit Gökgöz şehit oldu, iki asker yaralandı. Milli Savunma Bakanlığı, 24 Ekim 2026’da yaşanan kazada yaralanan personelin hastanedeki tedavilerinin sürdüğünü bildirdi.\n[cumhuriyet · 00:10] Ankara’da askeri araç kazası: Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara’da meydana gelen askeri araç kazasında Albay Sayit Gökgöz’ün şehit olduğunu, 2 personelin yaralandığını açıkladı.\n[milligazete · 00:20] Ankara'da askeri araç kazasında Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz'ün şehit olduğunu, 2 personelin ise yaralandığını duyurdu.\n[ntv · 00:21] Askeri araç kazasında albay şehit oldu — Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz şehit oldu. 2 personel de yaralandı.\n[takvim · 00:24] MSB acı haberi duyurdu: İstihbarat Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı (MSB), İstihbarat Albay Sayit Gökgöz'ün askerî araç kazasında şehit olduğunu açıkladı. Bakan Yaşar Güler'den taziye mesajı...\n[haberturk · 00:25] Albay Sayit Gökgöz askerî araç kazasında şehit oldu — Milli Savunma Bakanlığı (MSB), İstihbarat Albay Sayit Gökgöz’ün askerî araç kazasında şehit olduğunu açıkladı\n[dirilis · 00:27] Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz'ün şehit olduğunu, 2 personelin yaralandığını bildirdi.\n[ahaber · 00:37] Ankara'dan acı haber! Albay Sayit Gökgöz şehit oldu — Ankara'da 24 Ekim 2026'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz şehit olurken, 2 asker yaralandı. Acı haberi Milli Savunma Bakanlığı duyurdu. Yaralı askerlerin hastanedeki tedavileri sürerken, kazanın ardından siyasilerden art arda taziye mesajları geldi.\n[sabah · 09:57] Ankara’da askeri araç kazası: Albay Sayit Gökgöz şehit oldu — Ankara’da 24 Ekim’de meydana gelen askeri araç kazasında İstihbarat Albayı Sayit Gökgöz şehit oldu, 2 askeri personel yaralandı. Acı haberin ardından Adalet Bakanı Akın Gürlek, İçişleri Bakanı Mustafa Çiftçi ve Milli Savunma Bakanı Yaşar Güler taziye mesajları yayımladı.\n[aa · 12:21] Şehit Albay Sayit Gökgöz, Ankara'da son yolculuğuna uğurlandı\n[aksam · 09:34] Başkan Erdoğan'dan şehit Albay Sayit Gökgöz'ün ailesine taziye mesajı\n[tgrt · 09:56] Cumhurbaşkanı Erdoğan'dan şehit Albay Sayit Gökgöz'ün ailesine başsağlığı mesajı"
+  },
+  {
+   "key": "s4205__salience-bias",
+   "output_file": "runs/bg/explain/s4205__salience-bias.json",
+   "event_title": "Albay Sayit Gökgöz askeri araç kazasında şehit oldu",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "kazanın ardından siyasilerden art arda taziye mesajları geldi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Adalet Bakanı Akın Gürlek, İçişleri Bakanı Mustafa Çiftçi ve Milli Savunma Bakanı Yaşar Güler taziye mesajları yayımladı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstihbarat Albay Sayit Gökgöz",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MSB acı haberi duyurdu: İstihbarat Albay Sayit Gökgöz şehit oldu",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı kurumlar taziye mesajlarını ve albayın istihbarat görevini öne çıkarıyor; kazanın nedeni hiçbir haberde yer almıyor.",
+   "skeptic_alternative": "Unvan resmi açıklamadaki bilgidir; aktarılması doğal.",
+   "missing_context": [
+    "Kazanın nedeni ve koşullarına dair bilgi",
+    "Kazanın nedeni ve soruşturma bilgisi",
+    "Öne çıkan ayrıntının bir yargıyı yönlendirdiğine dair kanıt"
+   ],
+   "headlines": "[trthaber · 00:00] Albay Sayit Gökgöz askeri araç kazasında şehit oldu — Milli Savunma Bakanlığı, Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz'ün şehit olduğunu, 2 personelin yaralandığını açıklandı.\n[mynet · 00:08] Ankara’da meydana gelen askeri araç kazasından acı haber: Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara’da meydana gelen askeri araç kazasında Albay Sayit Gökgöz’ün şehit olduğunu, 2 personelin yaralandığını bildirdi.\n[star · 00:09] Ankara'dan kahreden haber! MSB açıkladı: Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz'ün şehit olduğunu duyurdu. 2 personelin yaralandığını bildirdi.\n[yenisafak · 00:09] Ankara’da askeri araç kazası: Albay Sayit Gökgöz şehit oldu iki personel yaralandı — Ankara’da meydana gelen askeri araç kazasında Albay Sayit Gökgöz şehit oldu, iki asker yaralandı. Milli Savunma Bakanlığı, 24 Ekim 2026’da yaşanan kazada yaralanan personelin hastanedeki tedavilerinin sürdüğünü bildirdi.\n[cumhuriyet · 00:10] Ankara’da askeri araç kazası: Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara’da meydana gelen askeri araç kazasında Albay Sayit Gökgöz’ün şehit olduğunu, 2 personelin yaralandığını açıkladı.\n[milligazete · 00:20] Ankara'da askeri araç kazasında Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz'ün şehit olduğunu, 2 personelin ise yaralandığını duyurdu.\n[ntv · 00:21] Askeri araç kazasında albay şehit oldu — Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz şehit oldu. 2 personel de yaralandı.\n[takvim · 00:24] MSB acı haberi duyurdu: İstihbarat Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı (MSB), İstihbarat Albay Sayit Gökgöz'ün askerî araç kazasında şehit olduğunu açıkladı. Bakan Yaşar Güler'den taziye mesajı...\n[haberturk · 00:25] Albay Sayit Gökgöz askerî araç kazasında şehit oldu — Milli Savunma Bakanlığı (MSB), İstihbarat Albay Sayit Gökgöz’ün askerî araç kazasında şehit olduğunu açıkladı\n[dirilis · 00:27] Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz şehit oldu — Milli Savunma Bakanlığı, Ankara'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz'ün şehit olduğunu, 2 personelin yaralandığını bildirdi.\n[ahaber · 00:37] Ankara'dan acı haber! Albay Sayit Gökgöz şehit oldu — Ankara'da 24 Ekim 2026'da meydana gelen askeri araç kazasında Albay Sayit Gökgöz şehit olurken, 2 asker yaralandı. Acı haberi Milli Savunma Bakanlığı duyurdu. Yaralı askerlerin hastanedeki tedavileri sürerken, kazanın ardından siyasilerden art arda taziye mesajları geldi.\n[sabah · 09:57] Ankara’da askeri araç kazası: Albay Sayit Gökgöz şehit oldu — Ankara’da 24 Ekim’de meydana gelen askeri araç kazasında İstihbarat Albayı Sayit Gökgöz şehit oldu, 2 askeri personel yaralandı. Acı haberin ardından Adalet Bakanı Akın Gürlek, İçişleri Bakanı Mustafa Çiftçi ve Milli Savunma Bakanı Yaşar Güler taziye mesajları yayımladı.\n[aa · 12:21] Şehit Albay Sayit Gökgöz, Ankara'da son yolculuğuna uğurlandı\n[aksam · 09:34] Başkan Erdoğan'dan şehit Albay Sayit Gökgöz'ün ailesine taziye mesajı\n[tgrt · 09:56] Cumhurbaşkanı Erdoğan'dan şehit Albay Sayit Gökgöz'ün ailesine başsağlığı mesajı"
+  },
+  {
+   "key": "s4848__salience-bias",
+   "output_file": "runs/bg/explain/s4848__salience-bias.json",
+   "event_title": "İstanbul Maratonu'nda rekor kırıldı!",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "48. İstanbul Maratonu'nda parkur rekoru geldi! İşte para ödülü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "48. İstanbul Maratonu'na geri sayım. 12 milyon lira para ödülü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "İstanbul Maratonu'nda rekor kırıldı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sozcu · 16:43] İstanbul Maratonu'nda rekor kırıldı!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Rekor ve para ödülü gibi çarpıcı unsurlar başlıklarda öne çıkıyor.",
+   "skeptic_alternative": "Parkur rekoru yarışın haber değeri en yüksek sonucudur; öne çıkarılması orantılıdır.",
+   "missing_context": [
+    "Diğer sonuçlara (kadınlar kategorisi vb.) ayrılan yer karşılaştırması",
+    "Vurgunun bir yargıyı haksız biçimde yönlendirdiğine dair kanıt"
+   ],
+   "headlines": "[sondakika · 09:45] 48. İstanbul Maratonu yarın koşulacak\n[aa · 12:40] 48. İstanbul Maratonu bugün koşulacak\n[haberler · 12:42] 48. İstanbul Maratonu yarın koşulacak\n[birgun · 12:48] İstanbul Maratonu yarın 48. kez koşulacak\n[ntv · 14:01] 48. İstanbul Maratonu'na geri sayım. 12 milyon lira para ödülü\n[akit · 09:50] 48. İstanbul Maratonu için start verildi\n[ahaber · 10:07] 48. İstanbul Maratonu'nda parkur rekoru geldi! İşte para ödülü\n[yenisafak · 10:44] 48. İstanbul Maratonu başladı\n[star · 11:33] 48. İstanbul Maratonu'nda rekor galibiyet — 48. İstanbul Maratonu'nu erkeklerde Kenyalı Philimon Kiptoo Kipchumba, rekor kırarak kazandı.\n[tgrt · 11:43] 48. İstanbul Maratonu'nda kazananlar belli oldu: 7 yıllık rekor kırıldı\n[cumhuriyet · 11:47] 48. İstanbul Maratonu'nda rekorla gelen zafer\n[milligazete · 12:15] 48. İstanbul Maratonu'nda erkekler kategorisinde rekor kırıldı! Zirve Kenyalının atletin\n[sozcu · 16:43] İstanbul Maratonu'nda rekor kırıldı!\n[onedio · 18:52] 48. İstanbul Maratonu'nda Erkeklerde Rekor Süre, Kadınlarda Etiyopyalı Baze Kazandı\n[hurriyet · 07:00] 48. kez İstanbul Maratonu — DÜNYANIN kıtalar arasında koşulan tek maratonu olma özelliğini taşıyan Türkiye İş Bankası 48’inci İstanbul Maratonu rekorla tamamlandı."
+  },
+  {
+   "key": "s4848__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4848__leveling-and-sharpening.json",
+   "event_title": "İstanbul Maratonu'nda rekor kırıldı!",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "48. İstanbul Maratonu'nda Erkeklerde Rekor Süre, Kadınlarda Etiyopyalı Baze Kazandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "48. İstanbul Maratonu'nda erkekler kategorisinde rekor kırıldı! Zirve Kenyalının atletin",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye İş Bankası 48’inci İstanbul Maratonu rekorla tamamlandı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "48. İstanbul Maratonu'nu erkeklerde Kenyalı Philimon Kiptoo Kipchumba, rekor kırarak kazandı.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Onedio kadınlar kategorisinin galibini de verirken çoğu haber yalnızca erkekler rekorunu keskinleştiriyor, kadın galibi düzleştiriliyor.",
+   "skeptic_alternative": "Genel ifade özetleme kısaltmasıdır; maddi bir sonuç etkisi gösterilmiyor.",
+   "missing_context": [
+    "Atlanan bilginin bir sonucu maddi olarak etkilediğine dair kanıt",
+    "Eksiltmenin bir yargıya etkisi",
+    "Haberlerin tam metinleri",
+    "Resmi yarış sonuçları"
+   ],
+   "headlines": "[sondakika · 09:45] 48. İstanbul Maratonu yarın koşulacak\n[aa · 12:40] 48. İstanbul Maratonu bugün koşulacak\n[haberler · 12:42] 48. İstanbul Maratonu yarın koşulacak\n[birgun · 12:48] İstanbul Maratonu yarın 48. kez koşulacak\n[ntv · 14:01] 48. İstanbul Maratonu'na geri sayım. 12 milyon lira para ödülü\n[akit · 09:50] 48. İstanbul Maratonu için start verildi\n[ahaber · 10:07] 48. İstanbul Maratonu'nda parkur rekoru geldi! İşte para ödülü\n[yenisafak · 10:44] 48. İstanbul Maratonu başladı\n[star · 11:33] 48. İstanbul Maratonu'nda rekor galibiyet — 48. İstanbul Maratonu'nu erkeklerde Kenyalı Philimon Kiptoo Kipchumba, rekor kırarak kazandı.\n[tgrt · 11:43] 48. İstanbul Maratonu'nda kazananlar belli oldu: 7 yıllık rekor kırıldı\n[cumhuriyet · 11:47] 48. İstanbul Maratonu'nda rekorla gelen zafer\n[milligazete · 12:15] 48. İstanbul Maratonu'nda erkekler kategorisinde rekor kırıldı! Zirve Kenyalının atletin\n[sozcu · 16:43] İstanbul Maratonu'nda rekor kırıldı!\n[onedio · 18:52] 48. İstanbul Maratonu'nda Erkeklerde Rekor Süre, Kadınlarda Etiyopyalı Baze Kazandı\n[hurriyet · 07:00] 48. kez İstanbul Maratonu — DÜNYANIN kıtalar arasında koşulan tek maratonu olma özelliğini taşıyan Türkiye İş Bankası 48’inci İstanbul Maratonu rekorla tamamlandı."
+  },
+  {
+   "key": "s5119__framing-effect",
+   "output_file": "runs/bg/explain/s5119__framing-effect.json",
+   "event_title": "Liverpool maçı öncesi Fenerbahçe'ye müjde",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Liverpool maçı öncesi Fenerbahçe'ye müjde",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Eyvah, bir bu eksikti! Fenerbahçe'de Liverpool maçı öncesi deprem...",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Liverpool maçı öncesi Fenerbahçe'ye müjde",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[sozcu · 15:03] Liverpool maçı öncesi Fenerbahçe'ye müjde",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 14:59] Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[sondakika · 17:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı hazırlık süreci bazı kurumlarda 'müjde', bazılarında 'deprem' ve 'şok' olarak çerçeveleniyor.",
+   "skeptic_alternative": "Müjde ve kötü haber farklı oyunculara ilişkin farklı olgular olabilir; eşdeğer bilgilerin farklı sunumu kanıtlanmıyor.",
+   "missing_context": [
+    "'Müjde'nin hangi gelişmeyi kastettiği",
+    "'Müjde'nin hangi olguya dayandığı",
+    "Haberlerin aynı olguları aktardığına dair kanıt",
+    "Haberlerin tam metinleri"
+   ],
+   "headlines": "[cumhuriyet · 09:07] Fenerbahçe'de Liverpool maçı öncesi Oppong şoku\n[karar · 10:55] Fenerbahçe’ye Liverpool maçı öncesi kötü haber: Oppong’un sakatlığı ciddi — Fenerbahçe’de Göztepe maçında sakatlanarak oyundan çıkan Kojo Oppong’un durumunun ciddi olduğu ve Liverpool karşılaşmasında forma giymesinin beklenmediği öne sürüldü. Ganalı stoperin yetişememesi halinde sarı-lacivertlilerin savunma merkezinde Milan Skriniar ile Yiğit Efe Demir …\n[turkiyegz · 11:06] Fenerbahçe'ye Liverpool maçı öncesi bir darbe daha: Genç yıldızdan kötü haber\n[yenisafak · 14:40] Fenerbahçe'de Liverpool mesaisi başladı\n[star · 14:43] Fenerbahçe'de Liverpool mesaisi başladı\n[akit · 15:23] Eyvah, bir bu eksikti! Fenerbahçe'de Liverpool maçı öncesi deprem...\n[sondakika · 17:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi\n[haberler · 20:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi\n[birgun · 09:38] Kojo Oppong, Liverpool maçında forma giyemeyecek\n[mynet · 11:33] Fenerbahçe'ye Şampiyonlar Ligi'ndeki Liverpool maçı öncesi sakatlık şoku!\n[ntv · 14:59] Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber\n[sozcu · 15:03] Liverpool maçı öncesi Fenerbahçe'ye müjde\n[aksam · 15:18] Fenerbahçe'de Liverpool mesaisi devam etti\n[haberturk · 17:00] Fenerbahçe'de Liverpool mesaisi!\n[sabah · 09:48] Fenerbahçe'de Liverpool maçı öncesi son durum"
+  },
+  {
+   "key": "s5119__negativity-bias",
+   "output_file": "runs/bg/explain/s5119__negativity-bias.json",
+   "event_title": "Liverpool maçı öncesi Fenerbahçe'ye müjde",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Fenerbahçe'de Liverpool maçı öncesi Oppong şoku",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "bir müjde, bir kötü haber",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Liverpool maçı öncesi Fenerbahçe'ye müjde",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[akit · 15:23] Eyvah, bir bu eksikti! Fenerbahçe'de Liverpool maçı öncesi deprem...",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[ntv · 14:59] Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "NTV hem olumlu hem olumsuz gelişmeyi verirken birçok kurum yalnızca sakatlığı 'şok' ve 'deprem' diliyle öne çıkarıyor.",
+   "skeptic_alternative": "Kilit bir stoperin sakatlığı maç açısından olumlu gelişmeden daha önemli olabilir; ayrıca haberler farklı günlere yayılıyor.",
+   "missing_context": [
+    "Kurumların olağan spor başlık üslubu",
+    "Olumlu gelişmenin içeriği ve zamanı",
+    "Olumlu gelişmenin içeriği ve önemi",
+    "Olumsuz vurgunun bir değerlendirmeyi haksız biçimde etkilediğine dair kanıt"
+   ],
+   "headlines": "[cumhuriyet · 09:07] Fenerbahçe'de Liverpool maçı öncesi Oppong şoku\n[karar · 10:55] Fenerbahçe’ye Liverpool maçı öncesi kötü haber: Oppong’un sakatlığı ciddi — Fenerbahçe’de Göztepe maçında sakatlanarak oyundan çıkan Kojo Oppong’un durumunun ciddi olduğu ve Liverpool karşılaşmasında forma giymesinin beklenmediği öne sürüldü. Ganalı stoperin yetişememesi halinde sarı-lacivertlilerin savunma merkezinde Milan Skriniar ile Yiğit Efe Demir …\n[turkiyegz · 11:06] Fenerbahçe'ye Liverpool maçı öncesi bir darbe daha: Genç yıldızdan kötü haber\n[yenisafak · 14:40] Fenerbahçe'de Liverpool mesaisi başladı\n[star · 14:43] Fenerbahçe'de Liverpool mesaisi başladı\n[akit · 15:23] Eyvah, bir bu eksikti! Fenerbahçe'de Liverpool maçı öncesi deprem...\n[sondakika · 17:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi\n[haberler · 20:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi\n[birgun · 09:38] Kojo Oppong, Liverpool maçında forma giyemeyecek\n[mynet · 11:33] Fenerbahçe'ye Şampiyonlar Ligi'ndeki Liverpool maçı öncesi sakatlık şoku!\n[ntv · 14:59] Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber\n[sozcu · 15:03] Liverpool maçı öncesi Fenerbahçe'ye müjde\n[aksam · 15:18] Fenerbahçe'de Liverpool mesaisi devam etti\n[haberturk · 17:00] Fenerbahçe'de Liverpool mesaisi!\n[sabah · 09:48] Fenerbahçe'de Liverpool maçı öncesi son durum"
+  },
+  {
+   "key": "s5119__salience-bias",
+   "output_file": "runs/bg/explain/s5119__salience-bias.json",
+   "event_title": "Liverpool maçı öncesi Fenerbahçe'ye müjde",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Eyvah, bir bu eksikti!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Fenerbahçe'ye Şampiyonlar Ligi'ndeki Liverpool maçı öncesi sakatlık şoku!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Duygusal ünlemler sakatlık haberini çarpıcı hale getiriyor.",
+   "skeptic_alternative": "Spor basınında abartılı sözcükler yerleşik üsluptur.",
+   "missing_context": [
+    "Karşılaştırmalı ağırlıklandırma kanıtı",
+    "Çarpıcılığın bir yargıyı haksız biçimde yönlendirdiğine dair kanıt"
+   ],
+   "headlines": "[cumhuriyet · 09:07] Fenerbahçe'de Liverpool maçı öncesi Oppong şoku\n[karar · 10:55] Fenerbahçe’ye Liverpool maçı öncesi kötü haber: Oppong’un sakatlığı ciddi — Fenerbahçe’de Göztepe maçında sakatlanarak oyundan çıkan Kojo Oppong’un durumunun ciddi olduğu ve Liverpool karşılaşmasında forma giymesinin beklenmediği öne sürüldü. Ganalı stoperin yetişememesi halinde sarı-lacivertlilerin savunma merkezinde Milan Skriniar ile Yiğit Efe Demir …\n[turkiyegz · 11:06] Fenerbahçe'ye Liverpool maçı öncesi bir darbe daha: Genç yıldızdan kötü haber\n[yenisafak · 14:40] Fenerbahçe'de Liverpool mesaisi başladı\n[star · 14:43] Fenerbahçe'de Liverpool mesaisi başladı\n[akit · 15:23] Eyvah, bir bu eksikti! Fenerbahçe'de Liverpool maçı öncesi deprem...\n[sondakika · 17:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi\n[haberler · 20:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi\n[birgun · 09:38] Kojo Oppong, Liverpool maçında forma giyemeyecek\n[mynet · 11:33] Fenerbahçe'ye Şampiyonlar Ligi'ndeki Liverpool maçı öncesi sakatlık şoku!\n[ntv · 14:59] Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber\n[sozcu · 15:03] Liverpool maçı öncesi Fenerbahçe'ye müjde\n[aksam · 15:18] Fenerbahçe'de Liverpool mesaisi devam etti\n[haberturk · 17:00] Fenerbahçe'de Liverpool mesaisi!\n[sabah · 09:48] Fenerbahçe'de Liverpool maçı öncesi son durum"
+  },
+  {
+   "key": "s5119__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s5119__leveling-and-sharpening.json",
+   "event_title": "Liverpool maçı öncesi Fenerbahçe'ye müjde",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Liverpool karşılaşmasında forma giymesinin beklenmediği öne sürüldü.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kojo Oppong, Liverpool maçında forma giyemeyecek",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Genç yıldızdan kötü haber",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Liverpool karşılaşmasında forma giymesinin beklenmediği öne sürüldü",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[birgun · 09:38] Kojo Oppong, Liverpool maçında forma giyemeyecek",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Karar'da 'öne sürüldü' biçimindeki iddia, BirGün'de kesin bir bilgiye ('forma giyemeyecek') dönüşüyor; belirsizlik düzleştiriliyor.",
+   "skeptic_alternative": "BirGün'ün haberi daha geç ve kulüp açıklamasına dayanıyor olabilir; kesinleşmiş bilgi aktarımı olabilir.",
+   "missing_context": [
+    "Haberlerin tarihleri",
+    "Haberlerin yayım zamanları arasındaki yeni bilgi",
+    "Kulübün resmi sağlık açıklaması"
+   ],
+   "headlines": "[cumhuriyet · 09:07] Fenerbahçe'de Liverpool maçı öncesi Oppong şoku\n[karar · 10:55] Fenerbahçe’ye Liverpool maçı öncesi kötü haber: Oppong’un sakatlığı ciddi — Fenerbahçe’de Göztepe maçında sakatlanarak oyundan çıkan Kojo Oppong’un durumunun ciddi olduğu ve Liverpool karşılaşmasında forma giymesinin beklenmediği öne sürüldü. Ganalı stoperin yetişememesi halinde sarı-lacivertlilerin savunma merkezinde Milan Skriniar ile Yiğit Efe Demir …\n[turkiyegz · 11:06] Fenerbahçe'ye Liverpool maçı öncesi bir darbe daha: Genç yıldızdan kötü haber\n[yenisafak · 14:40] Fenerbahçe'de Liverpool mesaisi başladı\n[star · 14:43] Fenerbahçe'de Liverpool mesaisi başladı\n[akit · 15:23] Eyvah, bir bu eksikti! Fenerbahçe'de Liverpool maçı öncesi deprem...\n[sondakika · 17:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi\n[haberler · 20:52] Fenerbahçe'de Liverpool maçı öncesi sakatlık depremi\n[birgun · 09:38] Kojo Oppong, Liverpool maçında forma giyemeyecek\n[mynet · 11:33] Fenerbahçe'ye Şampiyonlar Ligi'ndeki Liverpool maçı öncesi sakatlık şoku!\n[ntv · 14:59] Fenerbahçe'ye Liverpool öncesi bir müjde, bir kötü haber\n[sozcu · 15:03] Liverpool maçı öncesi Fenerbahçe'ye müjde\n[aksam · 15:18] Fenerbahçe'de Liverpool mesaisi devam etti\n[haberturk · 17:00] Fenerbahçe'de Liverpool mesaisi!\n[sabah · 09:48] Fenerbahçe'de Liverpool maçı öncesi son durum"
+  },
+  {
+   "key": "s10__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s10__leveling-and-sharpening.json",
+   "event_title": "Gülistan Doku soruşturmasında 4 tutuklama daha: tutuklu sayısı 36",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "adliyeye sevk edilen 5 zanlıdan 4'ü tutuklandı, 1'i adli kontrol şartıyla serbest bırakıldı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Gülistan Doku soruşturmasında adliyeye sevk edilen 6 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "aralarında emniyet mensuplarının da bulunduğu 6'sı tutuklanarak cezaevine gönderildi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Gülistan Doku soruşturmasında yeni gelişme: Tutuklu sayısı 38'e yükseldi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[takvim · 11:56] Gülistan Doku soruşturmasında adliyeye sevk edilen 6 şüpheli tutuklandı",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Diğer kurumlar 5 zanlıdan 4'ünün tutuklandığını yazarken Takvim 6 tutuklama veriyor ve emniyet mensuplarını öne çıkarıyor.",
+   "skeptic_alternative": "Takvim'in rakamı daha sonraki işlemleri birleştirmiş veya hatalı olabilir; kasıt veya etkisi gösterilmiyor.",
+   "missing_context": [
+    "Resmi savcılık açıklaması",
+    "Resmi savcılık veya mahkeme açıklaması",
+    "Takvim haberinin güncellenme zamanı",
+    "Tutuklananların emniyet mensubu olup olmadığına dair doğrulama"
+   ],
+   "headlines": "[trthaber · 11:20] Gülistan Doku soruşturmasında 4 zanlı daha tutuklandı — Tunceli'de 5 Ocak 2020'den beri haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 5 zanlıdan 4'ü tutuklandı, 1'i adli kontrol şartıyla serbest bırakıldı.\n[aydinlik · 11:22] Gülistan Doku soruşturmasında yeni gelişme! 4 zanlı daha tutuklandı — Gülistan Doku dosyasında 4 kişi tutuklandı. 6. dalga operasyonunda adliyeye çıkarılan zanlılarla birlikte tutuklu sayısı 36'ya yükseldi.\n[sozcu · 11:25] Gülistan Doku soruşturmasında 4 zanlı daha tutuklandı — Tunceli’de 5 Ocak 2020’den bu yana kendisinden haber alınamayan üniversite öğrencisi Gülistan Doku’nun kaybolmasına ilişkin soruşturmanın 6’ncı dalga operasyonunda gözaltına alınan 11 şüpheliden 5’inin işlemleri tamamlandı. Adliyeye sevk edilen şüphelilerden 4’ü tutuklanırken, 1 …\n[cumhuriyet · 11:28] Son dakika... Gülistan Doku soruşturmasında 4 tutuklama kararı daha — Son dakika haberi... Üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 5 zanlıdan 4'ü tutuklandı. Bir zanlı ise, adli kontrol şartıyla serbest bırakıldı. Soruşturma kapsamında tutuklu sayısı 36'ya yükseldi.\n[karar · 11:32] Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu — Gülistan Doku soruşturmasının 6. dalga operasyonunda gözaltına alınan 11 şüpheliden 5'i adliyeye sevk edildi. Şüphelilerden 4'ü tutuklanırken, 1 kişi adli kontrolle serbest bırakıldı; soruşturmadaki toplam tutuklu sayısı 36'ya yükseldi.\n[mynet · 11:42] Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu - Güncel Haberler — Tunceli’de kaybolan üniversite öğrencisi Gülistan Doku soruşturması kapsamında 6’ncı dalgada gözaltına alınan 11 şüphelilerden 4’ü tutuklandı. Soruşturmasda tutuklu sayısı 36 oldu\n[diken · 11:44] Gülistan Doku soruşturması: Dört tutuklama daha — 15.09.2026 - Gülistan Doku soruşturmasında dört zanlı daha tutuklandı.\n[ahaber · 11:45] Gülistan Doku soruşturmasında 4 şüpheli tutuklandı: Dosyada sayı 36'ya çıktı — Gülistan Doku soruşturmasında 7 ilde düzenlenen 6. dalga operasyonun ardından gözaltına alınan 11 şüpheliden 5'inin işlemleri tamamlandı. Savcılık 4 zanlı için tutuklama, 1 zanlı için adli kontrol istedi. Hakimlik, savcılığın talebine uyarken dosyada tutuklu sayısı 36'ya …\n[sabah · 11:46] Gülistan Doku soruşturmasında 6'ıncı dalga operasyonu: 4 tutuklama — Tunceli’de kaybolan üniversite öğrencisi Gülistan Doku soruşturması kapsamında 6’ncı dalgada gözaltına alınan 11 şüphelilerden 4’ü tutuklandı. Soruşturmasında tutuklu sayısı 36 oldu.\n[takvim · 11:56] Gülistan Doku soruşturmasında adliyeye sevk edilen 6 şüpheli tutuklandı — Gülistan Doku soruşturmasının 6. dalga operasyonunda gözaltına alınan 11 şüpheliden, aralarında emniyet mensuplarının da bulunduğu 6'sı tutuklanarak cezaevine gönderildi.\n[tele1 · 12:39] Gülistan Doku soruşturmasında 4 tutuklama daha\n[haberturk · 20:23] Erzurum’da Gülistan Doku soruşturmasında tutuklu sayısı 36’ya yükseldi - Haberler Habertürk — Tunceli’de 5 Ocak 2020’den bu yana haber alınamayan üniversite öğrencisi Gülistan Doku’ya ilişkin yürütülen soruşturmada adliyeye sevk edilen 5 şüpheliden 4’ü tutuklandı, 1’i adli kontrol şartıyla serbest bırakıldı\n[star · 09:26] Gülistan Doku soruşturmasında yeni gelişme: Tutuklu sayısı 38'e yükseldi — Tunceli'de 5 Ocak 2020'den beri haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 6 zanlıdan 2'si tutuklandı, 2'si adli kontrol şartıyla, 2'si de savcılık ifadesi sonrası serbest bırakıldı.\n[dirilis · 10:34] Gülistan Doku soruşturmasında dikkat çeken gelişme! — Tunceli'de 5 Ocak 2020'den beri haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 6 zanlıdan 2'si tutuklandı, 2'si adli kontrol şartıyla, 2'si de savcılık ifadesi sonrası serbest bırakıldı.\n[milligazete · 12:28] Gülistan Doku dosyasında yeni dalga! Tutuklu sayısı 38 oldu — Gülistan Doku soruşturmasında gözaltına alınan şüphelilerden 2'si daha tutuklandı; dosyada demir parmaklıklar ardındaki şüpheli sayısı 38'e ulaştı."
+  },
+  {
+   "key": "s10__salience-bias",
+   "output_file": "runs/bg/explain/s10__salience-bias.json",
+   "event_title": "Gülistan Doku soruşturmasında 4 tutuklama daha: tutuklu sayısı 36",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "aralarında emniyet mensuplarının da bulunduğu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Gülistan Doku soruşturmasında dikkat çeken gelişme!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "dosyada demir parmaklıklar ardındaki şüpheli sayısı 38'e ulaştı.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[dirilis · 10:34] Gülistan Doku soruşturmasında dikkat çeken gelişme!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Emniyet mensuplarının varlığı ve 'demir parmaklıklar' gibi canlı ifadeler öne çıkarılıyor.",
+   "skeptic_alternative": "Uzun süreli kamu ilgisi olan bir dosyada gelişmeyi vurgulamak olağandır.",
+   "missing_context": [
+    "Karşılaştırmalı ağırlıklandırma kanıtı",
+    "Öne çıkan ayrıntının bir yargıyı haksız biçimde yönlendirdiğine dair kanıt"
+   ],
+   "headlines": "[trthaber · 11:20] Gülistan Doku soruşturmasında 4 zanlı daha tutuklandı — Tunceli'de 5 Ocak 2020'den beri haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 5 zanlıdan 4'ü tutuklandı, 1'i adli kontrol şartıyla serbest bırakıldı.\n[aydinlik · 11:22] Gülistan Doku soruşturmasında yeni gelişme! 4 zanlı daha tutuklandı — Gülistan Doku dosyasında 4 kişi tutuklandı. 6. dalga operasyonunda adliyeye çıkarılan zanlılarla birlikte tutuklu sayısı 36'ya yükseldi.\n[sozcu · 11:25] Gülistan Doku soruşturmasında 4 zanlı daha tutuklandı — Tunceli’de 5 Ocak 2020’den bu yana kendisinden haber alınamayan üniversite öğrencisi Gülistan Doku’nun kaybolmasına ilişkin soruşturmanın 6’ncı dalga operasyonunda gözaltına alınan 11 şüpheliden 5’inin işlemleri tamamlandı. Adliyeye sevk edilen şüphelilerden 4’ü tutuklanırken, 1 …\n[cumhuriyet · 11:28] Son dakika... Gülistan Doku soruşturmasında 4 tutuklama kararı daha — Son dakika haberi... Üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 5 zanlıdan 4'ü tutuklandı. Bir zanlı ise, adli kontrol şartıyla serbest bırakıldı. Soruşturma kapsamında tutuklu sayısı 36'ya yükseldi.\n[karar · 11:32] Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu — Gülistan Doku soruşturmasının 6. dalga operasyonunda gözaltına alınan 11 şüpheliden 5'i adliyeye sevk edildi. Şüphelilerden 4'ü tutuklanırken, 1 kişi adli kontrolle serbest bırakıldı; soruşturmadaki toplam tutuklu sayısı 36'ya yükseldi.\n[mynet · 11:42] Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu - Güncel Haberler — Tunceli’de kaybolan üniversite öğrencisi Gülistan Doku soruşturması kapsamında 6’ncı dalgada gözaltına alınan 11 şüphelilerden 4’ü tutuklandı. Soruşturmasda tutuklu sayısı 36 oldu\n[diken · 11:44] Gülistan Doku soruşturması: Dört tutuklama daha — 15.09.2026 - Gülistan Doku soruşturmasında dört zanlı daha tutuklandı.\n[ahaber · 11:45] Gülistan Doku soruşturmasında 4 şüpheli tutuklandı: Dosyada sayı 36'ya çıktı — Gülistan Doku soruşturmasında 7 ilde düzenlenen 6. dalga operasyonun ardından gözaltına alınan 11 şüpheliden 5'inin işlemleri tamamlandı. Savcılık 4 zanlı için tutuklama, 1 zanlı için adli kontrol istedi. Hakimlik, savcılığın talebine uyarken dosyada tutuklu sayısı 36'ya …\n[sabah · 11:46] Gülistan Doku soruşturmasında 6'ıncı dalga operasyonu: 4 tutuklama — Tunceli’de kaybolan üniversite öğrencisi Gülistan Doku soruşturması kapsamında 6’ncı dalgada gözaltına alınan 11 şüphelilerden 4’ü tutuklandı. Soruşturmasında tutuklu sayısı 36 oldu.\n[takvim · 11:56] Gülistan Doku soruşturmasında adliyeye sevk edilen 6 şüpheli tutuklandı — Gülistan Doku soruşturmasının 6. dalga operasyonunda gözaltına alınan 11 şüpheliden, aralarında emniyet mensuplarının da bulunduğu 6'sı tutuklanarak cezaevine gönderildi.\n[tele1 · 12:39] Gülistan Doku soruşturmasında 4 tutuklama daha\n[haberturk · 20:23] Erzurum’da Gülistan Doku soruşturmasında tutuklu sayısı 36’ya yükseldi - Haberler Habertürk — Tunceli’de 5 Ocak 2020’den bu yana haber alınamayan üniversite öğrencisi Gülistan Doku’ya ilişkin yürütülen soruşturmada adliyeye sevk edilen 5 şüpheliden 4’ü tutuklandı, 1’i adli kontrol şartıyla serbest bırakıldı\n[star · 09:26] Gülistan Doku soruşturmasında yeni gelişme: Tutuklu sayısı 38'e yükseldi — Tunceli'de 5 Ocak 2020'den beri haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 6 zanlıdan 2'si tutuklandı, 2'si adli kontrol şartıyla, 2'si de savcılık ifadesi sonrası serbest bırakıldı.\n[dirilis · 10:34] Gülistan Doku soruşturmasında dikkat çeken gelişme! — Tunceli'de 5 Ocak 2020'den beri haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 6 zanlıdan 2'si tutuklandı, 2'si adli kontrol şartıyla, 2'si de savcılık ifadesi sonrası serbest bırakıldı.\n[milligazete · 12:28] Gülistan Doku dosyasında yeni dalga! Tutuklu sayısı 38 oldu — Gülistan Doku soruşturmasında gözaltına alınan şüphelilerden 2'si daha tutuklandı; dosyada demir parmaklıklar ardındaki şüpheli sayısı 38'e ulaştı."
+  },
+  {
+   "key": "s10__framing-effect",
+   "output_file": "runs/bg/explain/s10__framing-effect.json",
+   "event_title": "Gülistan Doku soruşturmasında 4 tutuklama daha: tutuklu sayısı 36",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Gülistan Doku soruşturmasında 4 zanlı daha tutuklandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Gülistan Doku soruşturmasında 4 tutuklama daha: tutuklu sayısı 36",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "[karar · 11:32] Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "[diken · 11:44] Gülistan Doku soruşturması: Dört tutuklama daha",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı gelişme bazı kurumlarda yeni tutuklama sayısıyla, bazılarında toplam tutuklu sayısıyla çerçeveleniyor.",
+   "skeptic_alternative": "Toplam ve artış aynı olgunun iki tamamlayıcı ifadesidir; değerlik farkı yok.",
+   "missing_context": [
+    "Okur etkisine dair veri",
+    "Çerçeve farkının okur yargısını değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[trthaber · 11:20] Gülistan Doku soruşturmasında 4 zanlı daha tutuklandı — Tunceli'de 5 Ocak 2020'den beri haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 5 zanlıdan 4'ü tutuklandı, 1'i adli kontrol şartıyla serbest bırakıldı.\n[aydinlik · 11:22] Gülistan Doku soruşturmasında yeni gelişme! 4 zanlı daha tutuklandı — Gülistan Doku dosyasında 4 kişi tutuklandı. 6. dalga operasyonunda adliyeye çıkarılan zanlılarla birlikte tutuklu sayısı 36'ya yükseldi.\n[sozcu · 11:25] Gülistan Doku soruşturmasında 4 zanlı daha tutuklandı — Tunceli’de 5 Ocak 2020’den bu yana kendisinden haber alınamayan üniversite öğrencisi Gülistan Doku’nun kaybolmasına ilişkin soruşturmanın 6’ncı dalga operasyonunda gözaltına alınan 11 şüpheliden 5’inin işlemleri tamamlandı. Adliyeye sevk edilen şüphelilerden 4’ü tutuklanırken, 1 …\n[cumhuriyet · 11:28] Son dakika... Gülistan Doku soruşturmasında 4 tutuklama kararı daha — Son dakika haberi... Üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 5 zanlıdan 4'ü tutuklandı. Bir zanlı ise, adli kontrol şartıyla serbest bırakıldı. Soruşturma kapsamında tutuklu sayısı 36'ya yükseldi.\n[karar · 11:32] Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu — Gülistan Doku soruşturmasının 6. dalga operasyonunda gözaltına alınan 11 şüpheliden 5'i adliyeye sevk edildi. Şüphelilerden 4'ü tutuklanırken, 1 kişi adli kontrolle serbest bırakıldı; soruşturmadaki toplam tutuklu sayısı 36'ya yükseldi.\n[mynet · 11:42] Gülistan Doku soruşturmasında tutuklu sayısı 36 oldu - Güncel Haberler — Tunceli’de kaybolan üniversite öğrencisi Gülistan Doku soruşturması kapsamında 6’ncı dalgada gözaltına alınan 11 şüphelilerden 4’ü tutuklandı. Soruşturmasda tutuklu sayısı 36 oldu\n[diken · 11:44] Gülistan Doku soruşturması: Dört tutuklama daha — 15.09.2026 - Gülistan Doku soruşturmasında dört zanlı daha tutuklandı.\n[ahaber · 11:45] Gülistan Doku soruşturmasında 4 şüpheli tutuklandı: Dosyada sayı 36'ya çıktı — Gülistan Doku soruşturmasında 7 ilde düzenlenen 6. dalga operasyonun ardından gözaltına alınan 11 şüpheliden 5'inin işlemleri tamamlandı. Savcılık 4 zanlı için tutuklama, 1 zanlı için adli kontrol istedi. Hakimlik, savcılığın talebine uyarken dosyada tutuklu sayısı 36'ya …\n[sabah · 11:46] Gülistan Doku soruşturmasında 6'ıncı dalga operasyonu: 4 tutuklama — Tunceli’de kaybolan üniversite öğrencisi Gülistan Doku soruşturması kapsamında 6’ncı dalgada gözaltına alınan 11 şüphelilerden 4’ü tutuklandı. Soruşturmasında tutuklu sayısı 36 oldu.\n[takvim · 11:56] Gülistan Doku soruşturmasında adliyeye sevk edilen 6 şüpheli tutuklandı — Gülistan Doku soruşturmasının 6. dalga operasyonunda gözaltına alınan 11 şüpheliden, aralarında emniyet mensuplarının da bulunduğu 6'sı tutuklanarak cezaevine gönderildi.\n[tele1 · 12:39] Gülistan Doku soruşturmasında 4 tutuklama daha\n[haberturk · 20:23] Erzurum’da Gülistan Doku soruşturmasında tutuklu sayısı 36’ya yükseldi - Haberler Habertürk — Tunceli’de 5 Ocak 2020’den bu yana haber alınamayan üniversite öğrencisi Gülistan Doku’ya ilişkin yürütülen soruşturmada adliyeye sevk edilen 5 şüpheliden 4’ü tutuklandı, 1’i adli kontrol şartıyla serbest bırakıldı\n[star · 09:26] Gülistan Doku soruşturmasında yeni gelişme: Tutuklu sayısı 38'e yükseldi — Tunceli'de 5 Ocak 2020'den beri haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 6 zanlıdan 2'si tutuklandı, 2'si adli kontrol şartıyla, 2'si de savcılık ifadesi sonrası serbest bırakıldı.\n[dirilis · 10:34] Gülistan Doku soruşturmasında dikkat çeken gelişme! — Tunceli'de 5 Ocak 2020'den beri haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili son soruşturma kapsamında adliyeye sevk edilen 6 zanlıdan 2'si tutuklandı, 2'si adli kontrol şartıyla, 2'si de savcılık ifadesi sonrası serbest bırakıldı.\n[milligazete · 12:28] Gülistan Doku dosyasında yeni dalga! Tutuklu sayısı 38 oldu — Gülistan Doku soruşturmasında gözaltına alınan şüphelilerden 2'si daha tutuklandı; dosyada demir parmaklıklar ardındaki şüpheli sayısı 38'e ulaştı."
+  },
+  {
+   "key": "s4629__framing-effect",
+   "output_file": "runs/bg/explain/s4629__framing-effect.json",
+   "event_title": "Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 ölü, 7 yaralı",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Katliam gibi kaza! Antalya-Isparta kara yolunda yolcu otobüsü devrildi: 1 ölü 8 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Burdur'da yolcu otobüsü devrildi: 1 kişi öldü, 8 kişi yaralandı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Olay: Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 ölü, 7 yaralı",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Aynı kaza (1 ölü, 8 yaralı) bir kurumda 'Katliam gibi kaza' çerçevesiyle, diğerinde nötr dille verilmiş; çerçeve farkı gözlenebilir.",
+   "skeptic_alternative": "Duygusal başlık bir yayın üslubu ve tık stratejisi olabilir; okurun ya da karar vericinin değerlendirmesinin sunuma göre değiştiğine dair kanıt yok.",
+   "missing_context": [
+    "Başlık sunumunun okur yargısını etkilediğine dair karşılaştırmalı veri",
+    "Kurumların genel başlık üslubu taban çizgisi",
+    "Kurumun benzer kazalardaki başlık dili",
+    "Okur veya karar vericinin bu çerçeveye göre farklı yargıya vardığına dair kanıt"
+   ],
+   "headlines": "[sondakika · 11:44] Burdur Ağlasun'da Buzlu firmasına ait otobüs devrildi, 1 kişi öldü, 8 kişi yaralandı\n[haberturk · 12:13] Isparta- Antalya kara yolunda yolcu otobüsü devrildi\n[sozcu · 12:14] Son dakika... Yolcu otobüsü devrildi: 1 ölü, 8 yaralı\n[tgrt · 12:15] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: Ölü ve yaralılar var\n[haberler · 12:15] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: Ölü ve yaralılar var\n[ahaber · 12:16] Katliam gibi kaza! Antalya-Isparta kara yolunda yolcu otobüsü devrildi: 1 ölü 8 yaralı\n[birgun · 12:16] Burdur'da yolcu otobüsü devrildi: 1 kişi öldü, 8 kişi yaralandı\n[yenisafak · 12:16] Katliam gibi kaza: Yolcu otobüsü devrildi ölü ve yaralılar var\n[sabah · 12:17] SON DAKİKA… Isparta- Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: 1 ölü 8 yaralı!\n[cumhuriyet · 12:19] Isparta-Antalya karayolunda yolcu otobüsü devrildi: Ölü ve yaralılar var!\n[mynet · 12:19] Son dakika | Burdur'da Isparta - Antalya yolunda yolcu otobüsü kazası! 1 ölü, 9 yaralı\n[takvim · 12:26] Burdur’da yolcu otobüsü devrildi! Kazada 1 kişi hayatını kaybetti, 9 kişi yaralandı\n[akit · 12:27] Isparta-Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: Ölü ve yaralılar var\n[turkiyegz · 12:35] Isparta’da yolcu otobüsü devrildi! 1 ölü 9 yaralı\n[ntv · 13:32] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 kişi hayatını kaybetti"
+  },
+  {
+   "key": "s4629__negativity-bias",
+   "output_file": "runs/bg/explain/s4629__negativity-bias.json",
+   "event_title": "Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 ölü, 7 yaralı",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Katliam gibi kaza: Yolcu otobüsü devrildi ölü ve yaralılar var",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Isparta- Antalya kara yolunda feci kaza!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Katliam gibi kaza!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar olumsuz yönü abartılı ifadelerle öne çıkarıyor.",
+   "skeptic_alternative": "Ölümlü bir kaza haberinde olumsuz vurgu olayın doğasından kaynaklanır ve orantılı olabilir.",
+   "missing_context": [
+    "Bir değerlendirme veya kararın etkilendiğine dair kanıt",
+    "Değerlendirme veya karar üzerinde etki kanıtı",
+    "Karşılaştırılabilir olumlu bilgi",
+    "Karşılaştırılabilir olumlu kanıtın göz ardı edildiğine dair belge"
+   ],
+   "headlines": "[sondakika · 11:44] Burdur Ağlasun'da Buzlu firmasına ait otobüs devrildi, 1 kişi öldü, 8 kişi yaralandı\n[haberturk · 12:13] Isparta- Antalya kara yolunda yolcu otobüsü devrildi\n[sozcu · 12:14] Son dakika... Yolcu otobüsü devrildi: 1 ölü, 8 yaralı\n[tgrt · 12:15] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: Ölü ve yaralılar var\n[haberler · 12:15] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: Ölü ve yaralılar var\n[ahaber · 12:16] Katliam gibi kaza! Antalya-Isparta kara yolunda yolcu otobüsü devrildi: 1 ölü 8 yaralı\n[birgun · 12:16] Burdur'da yolcu otobüsü devrildi: 1 kişi öldü, 8 kişi yaralandı\n[yenisafak · 12:16] Katliam gibi kaza: Yolcu otobüsü devrildi ölü ve yaralılar var\n[sabah · 12:17] SON DAKİKA… Isparta- Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: 1 ölü 8 yaralı!\n[cumhuriyet · 12:19] Isparta-Antalya karayolunda yolcu otobüsü devrildi: Ölü ve yaralılar var!\n[mynet · 12:19] Son dakika | Burdur'da Isparta - Antalya yolunda yolcu otobüsü kazası! 1 ölü, 9 yaralı\n[takvim · 12:26] Burdur’da yolcu otobüsü devrildi! Kazada 1 kişi hayatını kaybetti, 9 kişi yaralandı\n[akit · 12:27] Isparta-Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: Ölü ve yaralılar var\n[turkiyegz · 12:35] Isparta’da yolcu otobüsü devrildi! 1 ölü 9 yaralı\n[ntv · 13:32] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 kişi hayatını kaybetti"
+  },
+  {
+   "key": "s4629__salience-bias",
+   "output_file": "runs/bg/explain/s4629__salience-bias.json",
+   "event_title": "Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 ölü, 7 yaralı",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "SON DAKİKA… Isparta- Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: 1 ölü 8 yaralı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Isparta- Antalya kara yolunda feci kaza!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Çarpıcı ifadeler başlıkta öne çıkarılmış, ancak bir yargıya bağlanmamış.",
+   "skeptic_alternative": "Son dakika haberinde dikkat çekici dil olağan bir sunum biçimidir; sıklık çıkarımı yapılmıyor.",
+   "missing_context": [
+    "Belirgin ayrıntının bir yargıyı yönlendirdiğine dair açık ifade",
+    "Taban oranları veya karşılaştırmalı davranış",
+    "Çarpıcı ayrıntının sıklık ya da risk yargısına dönüştürüldüğüne dair ifade"
+   ],
+   "headlines": "[sondakika · 11:44] Burdur Ağlasun'da Buzlu firmasına ait otobüs devrildi, 1 kişi öldü, 8 kişi yaralandı\n[haberturk · 12:13] Isparta- Antalya kara yolunda yolcu otobüsü devrildi\n[sozcu · 12:14] Son dakika... Yolcu otobüsü devrildi: 1 ölü, 8 yaralı\n[tgrt · 12:15] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: Ölü ve yaralılar var\n[haberler · 12:15] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: Ölü ve yaralılar var\n[ahaber · 12:16] Katliam gibi kaza! Antalya-Isparta kara yolunda yolcu otobüsü devrildi: 1 ölü 8 yaralı\n[birgun · 12:16] Burdur'da yolcu otobüsü devrildi: 1 kişi öldü, 8 kişi yaralandı\n[yenisafak · 12:16] Katliam gibi kaza: Yolcu otobüsü devrildi ölü ve yaralılar var\n[sabah · 12:17] SON DAKİKA… Isparta- Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: 1 ölü 8 yaralı!\n[cumhuriyet · 12:19] Isparta-Antalya karayolunda yolcu otobüsü devrildi: Ölü ve yaralılar var!\n[mynet · 12:19] Son dakika | Burdur'da Isparta - Antalya yolunda yolcu otobüsü kazası! 1 ölü, 9 yaralı\n[takvim · 12:26] Burdur’da yolcu otobüsü devrildi! Kazada 1 kişi hayatını kaybetti, 9 kişi yaralandı\n[akit · 12:27] Isparta-Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: Ölü ve yaralılar var\n[turkiyegz · 12:35] Isparta’da yolcu otobüsü devrildi! 1 ölü 9 yaralı\n[ntv · 13:32] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 kişi hayatını kaybetti"
+  },
+  {
+   "key": "s4629__leveling-and-sharpening",
+   "output_file": "runs/bg/explain/s4629__leveling-and-sharpening.json",
+   "event_title": "Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 ölü, 7 yaralı",
+   "concept": "Leveling and Sharpening",
+   "definition": "Leveling is omitting or blurring details in recollection; sharpening is emphasizing or enlarging selected details. These memory processes can simplify a story or experience, but may alter a retelling and, when consequential and unsupported, distort a conclusion.",
+   "quotes": [
+    {
+     "quote": "Olay: Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 ölü, 7 yaralı",
+     "outlets": [],
+     "source": "context"
+    },
+    {
+     "quote": "Burdur'da Isparta - Antalya yolunda yolcu otobüsü kazası! 1 ölü, 9 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yolcu otobüsü devrildi: 1 ölü, 8 yaralı",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "devrildi: 1 ölü, 7 yaralı",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Yaralı sayısı kurumlar arasında 7, 8 ve 9 olarak farklı aktarılmış; anlatımlar arasında ayrışma var.",
+   "skeptic_alternative": "Farklı saatlerde güncellenen resmi açıklamalar veya ilk bilgilerin belirsizliği sayısal farkı açıklayabilir.",
+   "missing_context": [
+    "Farkın bir sonuca etki ettiğine dair kanıt",
+    "Farkın okur yargısını etkilediğine dair kanıt",
+    "Resmi kesin yaralı sayısı ve açıklanma saati",
+    "Resmi yaralı sayısı ve açıklama saati"
+   ],
+   "headlines": "[sondakika · 11:44] Burdur Ağlasun'da Buzlu firmasına ait otobüs devrildi, 1 kişi öldü, 8 kişi yaralandı\n[haberturk · 12:13] Isparta- Antalya kara yolunda yolcu otobüsü devrildi\n[sozcu · 12:14] Son dakika... Yolcu otobüsü devrildi: 1 ölü, 8 yaralı\n[tgrt · 12:15] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: Ölü ve yaralılar var\n[haberler · 12:15] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: Ölü ve yaralılar var\n[ahaber · 12:16] Katliam gibi kaza! Antalya-Isparta kara yolunda yolcu otobüsü devrildi: 1 ölü 8 yaralı\n[birgun · 12:16] Burdur'da yolcu otobüsü devrildi: 1 kişi öldü, 8 kişi yaralandı\n[yenisafak · 12:16] Katliam gibi kaza: Yolcu otobüsü devrildi ölü ve yaralılar var\n[sabah · 12:17] SON DAKİKA… Isparta- Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: 1 ölü 8 yaralı!\n[cumhuriyet · 12:19] Isparta-Antalya karayolunda yolcu otobüsü devrildi: Ölü ve yaralılar var!\n[mynet · 12:19] Son dakika | Burdur'da Isparta - Antalya yolunda yolcu otobüsü kazası! 1 ölü, 9 yaralı\n[takvim · 12:26] Burdur’da yolcu otobüsü devrildi! Kazada 1 kişi hayatını kaybetti, 9 kişi yaralandı\n[akit · 12:27] Isparta-Antalya kara yolunda feci kaza! Yolcu otobüsü devrildi: Ölü ve yaralılar var\n[turkiyegz · 12:35] Isparta’da yolcu otobüsü devrildi! 1 ölü 9 yaralı\n[ntv · 13:32] Isparta-Antalya kara yolunda yolcu otobüsü devrildi: 1 kişi hayatını kaybetti"
+  },
+  {
+   "key": "s5099__framing-effect",
+   "output_file": "runs/bg/explain/s5099__framing-effect.json",
+   "event_title": "Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Bahçeli'nin seçim adımı 100 il 1000 ilçe",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Devlet Bahçeli'den dev reform önerisi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Bahçeli'den 100 il 1000 ilçe önerisi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye’nin haritası değişebilir!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı öneri bir kurumda 'seçim adımı', diğerinde 'dev reform' olarak, bir başkasında nötr 'öneri' olarak çerçevelenmiş.",
+   "skeptic_alternative": "Farklı çerçeveler, önerinin siyasi bağlamına dair meşru editoryal yorumlar olabilir.",
+   "missing_context": [
+    "Sozcu ve yenisafak haberlerinin tam metni",
+    "Sunum farkının okur değerlendirmesini değiştirdiğine dair veri",
+    "Çerçeve farkının okur yargısını değiştirdiğine dair kanıt",
+    "Öneri metninin tamamı"
+   ],
+   "headlines": "[sondakika · 07:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[tgrt · 09:30] Devlet Bahçeli'den dev reform önerisi: \"100 il 1000 ilçe vizyonu\"\n[turkiyegz · 09:30] 100 il 1000 ilçe! Türkiye'nin il haritası değişebilir: MHP lideri Bahçeli'den 19 yeni il ve 78 ilçe açıklaması\n[cumhuriyet · 10:18] Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi\n[sabah · 10:33] Son dakika: MHP lideri Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı: 19 yeni il ve 78 yeni ilçe mi olacak?\n[milligazete · 10:50] Devlet Bahçeli'den 100 il ve 1000 ilçe çıkışı! 19 yeni il nasıl belirlenecek?\n[diken · 10:50] MHP'den ‘100 il 1000 ilçe’ projesi\n[haberler · 10:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[aksam · 11:07] Türkiye'nin idari haritası değişebilir! Bahçeli'den 19 yeni il ve 78 ilçe önerisi\n[trthaber · 11:57] Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı\n[haberturk · 12:07] MHP Genel Başkanı Devlet Bahçeli'den “100 İl 1000 İlçe Projesi” açıklaması\n[ntv · 12:08] MHP'den \"100 il 1000 ilçe\" projesi. Bahçeli: 19 yeni il ve 78 yeni ilçe kurulmasını öneriyoruz\n[sozcu · 02:30] Bahçeli'nin seçim adımı 100 il 1000 ilçe\n[yenisafak · 04:00] Bahçeli'den 100 il 1000 ilçe önerisi\n[hurriyet · 07:00] Bahçeli’den proje: ‘100 İl 1000 İlçe’ — MHP Genel Başkanı Devlet Bahçeli, kamu idaresini yeni yönetim sistemiyle uyumlu hale getirmeyi amaçladığı projesi kapsamında 19 yeni il ve 78 yeni ilçe kurulmasını önerdi."
+  },
+  {
+   "key": "s5099__authority-bias",
+   "output_file": "runs/bg/explain/s5099__authority-bias.json",
+   "event_title": "Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi",
+   "concept": "Authority Bias",
+   "definition": "A reasoning pattern in which a perceived authority’s status or instruction has undue influence on a claim or decision, substituting for evaluation of relevant reasons. Deference to qualified, relevant expertise can be efficient and justified; authority bias is not established by trust or obedience alone.",
+   "quotes": [
+    {
+     "quote": "MHP lideri Bahçeli'den 19 yeni il ve 78 ilçe açıklaması",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MHP Genel Başkanı Devlet Bahçeli'den “100 İl 1000 İlçe Projesi” açıklaması",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "MHP Genel Başkanı Devlet Bahçeli",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Haber, önerinin kaynağını parti lideri statüsüyle öne çıkarıyor.",
+   "skeptic_alternative": "Haberin konusu bir parti liderinin açıklaması olduğundan kaynağın adının öne çıkması doğaldır.",
+   "missing_context": [
+    "Karşı görüşlerin göz ardı edildiğine dair kanıt",
+    "Uzman değerlendirmeleri",
+    "Önerinin statü nedeniyle doğru kabul edildiğine dair ifade",
+    "Önerinin yalnızca statü nedeniyle kabul edildiğine dair ifade"
+   ],
+   "headlines": "[sondakika · 07:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[tgrt · 09:30] Devlet Bahçeli'den dev reform önerisi: \"100 il 1000 ilçe vizyonu\"\n[turkiyegz · 09:30] 100 il 1000 ilçe! Türkiye'nin il haritası değişebilir: MHP lideri Bahçeli'den 19 yeni il ve 78 ilçe açıklaması\n[cumhuriyet · 10:18] Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi\n[sabah · 10:33] Son dakika: MHP lideri Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı: 19 yeni il ve 78 yeni ilçe mi olacak?\n[milligazete · 10:50] Devlet Bahçeli'den 100 il ve 1000 ilçe çıkışı! 19 yeni il nasıl belirlenecek?\n[diken · 10:50] MHP'den ‘100 il 1000 ilçe’ projesi\n[haberler · 10:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[aksam · 11:07] Türkiye'nin idari haritası değişebilir! Bahçeli'den 19 yeni il ve 78 ilçe önerisi\n[trthaber · 11:57] Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı\n[haberturk · 12:07] MHP Genel Başkanı Devlet Bahçeli'den “100 İl 1000 İlçe Projesi” açıklaması\n[ntv · 12:08] MHP'den \"100 il 1000 ilçe\" projesi. Bahçeli: 19 yeni il ve 78 yeni ilçe kurulmasını öneriyoruz\n[sozcu · 02:30] Bahçeli'nin seçim adımı 100 il 1000 ilçe\n[yenisafak · 04:00] Bahçeli'den 100 il 1000 ilçe önerisi\n[hurriyet · 07:00] Bahçeli’den proje: ‘100 İl 1000 İlçe’ — MHP Genel Başkanı Devlet Bahçeli, kamu idaresini yeni yönetim sistemiyle uyumlu hale getirmeyi amaçladığı projesi kapsamında 19 yeni il ve 78 yeni ilçe kurulmasını önerdi."
+  },
+  {
+   "key": "s5099__salience-bias",
+   "output_file": "runs/bg/explain/s5099__salience-bias.json",
+   "event_title": "Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi",
+   "concept": "Salience Bias",
+   "definition": "The Decision Lab describes salience bias as attending disproportionately to information that stands out through prominence, vividness, recency, or emotional force, potentially giving it more weight than less noticeable information. Salience itself is a normal feature of attention; it becomes a reasoning error only when prominence unjustifiably drives a judgment or choice.",
+   "quotes": [
+    {
+     "quote": "Türkiye’nin haritası değişebilir!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Türkiye'nin il haritası değişebilir",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Çarpıcı 'harita değişebilir' ifadesi başlıkta öne çıkarılmış.",
+   "skeptic_alternative": "Dikkat çekici başlık, önerinin kapsamını özetleyen olağan bir sunumdur.",
+   "missing_context": [
+    "Belirginliğin bir karar veya çıkarıma bağlandığı açık ifade",
+    "Çarpıcı ayrıntının bir yargıyı haksız biçimde etkilediğine dair kanıt"
+   ],
+   "headlines": "[sondakika · 07:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[tgrt · 09:30] Devlet Bahçeli'den dev reform önerisi: \"100 il 1000 ilçe vizyonu\"\n[turkiyegz · 09:30] 100 il 1000 ilçe! Türkiye'nin il haritası değişebilir: MHP lideri Bahçeli'den 19 yeni il ve 78 ilçe açıklaması\n[cumhuriyet · 10:18] Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi\n[sabah · 10:33] Son dakika: MHP lideri Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı: 19 yeni il ve 78 yeni ilçe mi olacak?\n[milligazete · 10:50] Devlet Bahçeli'den 100 il ve 1000 ilçe çıkışı! 19 yeni il nasıl belirlenecek?\n[diken · 10:50] MHP'den ‘100 il 1000 ilçe’ projesi\n[haberler · 10:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[aksam · 11:07] Türkiye'nin idari haritası değişebilir! Bahçeli'den 19 yeni il ve 78 ilçe önerisi\n[trthaber · 11:57] Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı\n[haberturk · 12:07] MHP Genel Başkanı Devlet Bahçeli'den “100 İl 1000 İlçe Projesi” açıklaması\n[ntv · 12:08] MHP'den \"100 il 1000 ilçe\" projesi. Bahçeli: 19 yeni il ve 78 yeni ilçe kurulmasını öneriyoruz\n[sozcu · 02:30] Bahçeli'nin seçim adımı 100 il 1000 ilçe\n[yenisafak · 04:00] Bahçeli'den 100 il 1000 ilçe önerisi\n[hurriyet · 07:00] Bahçeli’den proje: ‘100 İl 1000 İlçe’ — MHP Genel Başkanı Devlet Bahçeli, kamu idaresini yeni yönetim sistemiyle uyumlu hale getirmeyi amaçladığı projesi kapsamında 19 yeni il ve 78 yeni ilçe kurulmasını önerdi."
+  },
+  {
+   "key": "s5099__optimism-bias",
+   "output_file": "runs/bg/explain/s5099__optimism-bias.json",
+   "event_title": "Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi",
+   "concept": "Optimism Bias",
+   "definition": "The Decision Lab describes optimism bias as overestimating the likelihood of positive events and underestimating the likelihood of negative events. Operationally, flag only explicit forecasts or decisions where the text shows an unjustified optimistic probability judgment—for example, discounting relevant base rates or comparable outcomes—not optimism, confidence, or risk-taking by itself.",
+   "quotes": [
+    {
+     "quote": "Türkiye'nin idari haritası değişebilir!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "19 yeni il ve 78 yeni ilçe mi olacak?",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başlıklar önerinin hayata geçebileceği beklentisini ifade ediyor.",
+   "skeptic_alternative": "Soru biçimli başlık belirsizliği kabul ediyor; iyimser bir olasılık hatası ifade edilmiyor.",
+   "missing_context": [
+    "Benzer önerilerin geçmiş sonuçları",
+    "Önerinin hayata geçme olasılığına dair açık tahmin",
+    "Önerinin yasalaşma olasılığına dair taban oran veya karşı kanıt"
+   ],
+   "headlines": "[sondakika · 07:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[tgrt · 09:30] Devlet Bahçeli'den dev reform önerisi: \"100 il 1000 ilçe vizyonu\"\n[turkiyegz · 09:30] 100 il 1000 ilçe! Türkiye'nin il haritası değişebilir: MHP lideri Bahçeli'den 19 yeni il ve 78 ilçe açıklaması\n[cumhuriyet · 10:18] Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi\n[sabah · 10:33] Son dakika: MHP lideri Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı: 19 yeni il ve 78 yeni ilçe mi olacak?\n[milligazete · 10:50] Devlet Bahçeli'den 100 il ve 1000 ilçe çıkışı! 19 yeni il nasıl belirlenecek?\n[diken · 10:50] MHP'den ‘100 il 1000 ilçe’ projesi\n[haberler · 10:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[aksam · 11:07] Türkiye'nin idari haritası değişebilir! Bahçeli'den 19 yeni il ve 78 ilçe önerisi\n[trthaber · 11:57] Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı\n[haberturk · 12:07] MHP Genel Başkanı Devlet Bahçeli'den “100 İl 1000 İlçe Projesi” açıklaması\n[ntv · 12:08] MHP'den \"100 il 1000 ilçe\" projesi. Bahçeli: 19 yeni il ve 78 yeni ilçe kurulmasını öneriyoruz\n[sozcu · 02:30] Bahçeli'nin seçim adımı 100 il 1000 ilçe\n[yenisafak · 04:00] Bahçeli'den 100 il 1000 ilçe önerisi\n[hurriyet · 07:00] Bahçeli’den proje: ‘100 İl 1000 İlçe’ — MHP Genel Başkanı Devlet Bahçeli, kamu idaresini yeni yönetim sistemiyle uyumlu hale getirmeyi amaçladığı projesi kapsamında 19 yeni il ve 78 yeni ilçe kurulmasını önerdi."
+  },
+  {
+   "key": "s5099__messenger-effect",
+   "output_file": "runs/bg/explain/s5099__messenger-effect.json",
+   "event_title": "Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi",
+   "concept": "Messenger Effect",
+   "definition": "The Decision Lab describes the messenger effect as judging information’s validity or relevance through impressions of its source rather than evaluating its content. As an operational bias label, use it only when evidence shows that source impressions unjustifiably changed a claim’s evaluation; source credibility can be relevant when it bears on expertise, provenance, or reliability.",
+   "quotes": [
+    {
+     "quote": "Bahçeli'nin seçim adımı 100 il 1000 ilçe",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Devlet Bahçeli'den dev reform önerisi",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Aynı öneri farklı kurumlarca farklı değerlendirilmiş; değerlendirmenin mesajı verene bağlı olduğu açık değil.",
+   "skeptic_alternative": "Nitelendirme önerinin ölçeğini (19 il, 78 ilçe) yansıtıyor olabilir.",
+   "missing_context": [
+    "Aynı önerinin farklı bir kaynaktan geldiğinde nasıl sunulduğuna dair karşılaştırma",
+    "Aynı önerinin farklı bir kişiden geldiğinde nasıl verildiğine dair karşılaştırma"
+   ],
+   "headlines": "[sondakika · 07:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[tgrt · 09:30] Devlet Bahçeli'den dev reform önerisi: \"100 il 1000 ilçe vizyonu\"\n[turkiyegz · 09:30] 100 il 1000 ilçe! Türkiye'nin il haritası değişebilir: MHP lideri Bahçeli'den 19 yeni il ve 78 ilçe açıklaması\n[cumhuriyet · 10:18] Bahçeli'den 100 il, 1000 ilçe çıkışı: 19 yeni il ve 78 ilçe önerisi\n[sabah · 10:33] Son dakika: MHP lideri Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı: 19 yeni il ve 78 yeni ilçe mi olacak?\n[milligazete · 10:50] Devlet Bahçeli'den 100 il ve 1000 ilçe çıkışı! 19 yeni il nasıl belirlenecek?\n[diken · 10:50] MHP'den ‘100 il 1000 ilçe’ projesi\n[haberler · 10:55] Türkiye’nin haritası değişebilir! Bahçeli’den \"100 il, 1000 ilçe\" projesi\n[aksam · 11:07] Türkiye'nin idari haritası değişebilir! Bahçeli'den 19 yeni il ve 78 ilçe önerisi\n[trthaber · 11:57] Bahçeli ‘100 il 1000 ilçe’ projesini kamuoyuyla paylaştı\n[haberturk · 12:07] MHP Genel Başkanı Devlet Bahçeli'den “100 İl 1000 İlçe Projesi” açıklaması\n[ntv · 12:08] MHP'den \"100 il 1000 ilçe\" projesi. Bahçeli: 19 yeni il ve 78 yeni ilçe kurulmasını öneriyoruz\n[sozcu · 02:30] Bahçeli'nin seçim adımı 100 il 1000 ilçe\n[yenisafak · 04:00] Bahçeli'den 100 il 1000 ilçe önerisi\n[hurriyet · 07:00] Bahçeli’den proje: ‘100 İl 1000 İlçe’ — MHP Genel Başkanı Devlet Bahçeli, kamu idaresini yeni yönetim sistemiyle uyumlu hale getirmeyi amaçladığı projesi kapsamında 19 yeni il ve 78 yeni ilçe kurulmasını önerdi."
+  },
+  {
+   "key": "s4285__automation-bias",
+   "output_file": "runs/bg/explain/s4285__automation-bias.json",
+   "event_title": "Galatasaray-Fenerbahçe derbisinin VAR hakemi kim, Carlos del Cerro Grande kimdir?",
+   "concept": "Automation Bias",
+   "definition": "Automation bias is a tendency to give an automated system’s output undue weight in judgment or action, including when available evidence conflicts with it. Using automation, accepting a correct recommendation, or relying on it for a justified reason is not by itself evidence of bias.",
+   "quotes": [
+    {
+     "quote": "Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "yapay zeka, derbinin 15'er dakikalık bölümlerini, olası gol senaryolarını ve maç istatistiklerini değerlendirdi",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Dev mücadele öncesinde yapay zeka, derbinin 15'er dakikalık bölümlerini, olası gol senaryolarını ve maç istatistiklerini değerlendirdi.",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Başlık, yapay zekanın tahminini 'galibini açıkladı' diyerek kesin bir sonuç gibi sunuyor.",
+   "skeptic_alternative": "İçerik eğlence amaçlı bir tahmin haberi olabilir; kesin sonuç gibi sunulması üslup tercihidir.",
+   "missing_context": [
+    "Haberin tam metninde belirsizlik veya uyarı bulunup bulunmadığı",
+    "Metnin devamında belirsizlik uyarısı olup olmadığı",
+    "Yapay zeka çıktısına dayanarak verilen bir karar",
+    "Çıktıya dayanılarak verilen bir karar"
+   ],
+   "headlines": "[ahaber · 16:44] Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı! — Trendyol Süper Lig'in 9. haftasında Galatasaray ile Fenerbahçe, 26 Ekim Pazartesi günü RAMS Park'ta 407. kez karşı karşıya gelecek. Dev mücadele öncesinde yapay zeka, derbinin 15'er dakikalık bölümlerini, olası gol senaryolarını ve maç istatistiklerini değerlendirdi. Peki yapay …\n[sabah · 12:01] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu...\n[sozcu · 12:02] Galatasaray-Fenerbahçe maçının VAR hakemi belli oldu\n[star · 12:05] Galatasaray-Fenerbahçe maçının VAR hakemi belli oldu — Süper Lig'de bu akşam oynanacak Galatasaray-Fenerbahçe derbisinin VAR hakemi İspanya'dan Carlos Del Cerro Grande oldu.\n[haberler · 12:05] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[mynet · 12:06] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu!\n[cumhuriyet · 12:07] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[milligazete · 12:08] Galatasaray-Fenerbahçe maçının VAR hakemi açıklandı\n[tgrt · 12:10] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[aksam · 12:15] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[haberturk · 12:21] Galatasaray - Fenerbahçe derbisinin VAR'ı Carlos del Cerro Grande!\n[turkiyegz · 13:10] MHK'den kritik atama: Galatasaray-Fenerbahçe maçının VAR'ı belli oldu\n[diken · 20:32] Galatasaray ve Fenerbahçe'nin 11'leri belli oldu\n[onedio · 20:33] Galatasaray - Fenerbahçe Derbisinin İlk 11'leri Belli Oldu\n[dirilis · 20:37] Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu"
+  },
+  {
+   "key": "s4285__illusion-of-validity",
+   "output_file": "runs/bg/explain/s4285__illusion-of-validity.json",
+   "event_title": "Galatasaray-Fenerbahçe derbisinin VAR hakemi kim, Carlos del Cerro Grande kimdir?",
+   "concept": "Illusion of Validity",
+   "definition": "The Decision Lab describes illusion of validity as excessive confidence in the accuracy of judgments, especially interpretations and predictions from a data set. This operational paraphrase treats it as a possible reasoning error only when evidence shows confidence is unwarranted, not as a label for confidence alone.",
+   "quotes": [
+    {
+     "quote": "Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Somut bir maç tahmini kesinlik ima eden bir dille veriliyor.",
+   "skeptic_alternative": "Tahmin haberleri kalibrasyon iddiası taşımadan okur ilgisi için yayımlanabilir.",
+   "missing_context": [
+    "Benzer tahminlerin geçmiş isabet oranı",
+    "Maç sonucu",
+    "Taban oran bilgisi",
+    "Tahminin güven düzeyi",
+    "Tahminin isabet oranı veya maç sonucu"
+   ],
+   "headlines": "[ahaber · 16:44] Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı! — Trendyol Süper Lig'in 9. haftasında Galatasaray ile Fenerbahçe, 26 Ekim Pazartesi günü RAMS Park'ta 407. kez karşı karşıya gelecek. Dev mücadele öncesinde yapay zeka, derbinin 15'er dakikalık bölümlerini, olası gol senaryolarını ve maç istatistiklerini değerlendirdi. Peki yapay …\n[sabah · 12:01] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu...\n[sozcu · 12:02] Galatasaray-Fenerbahçe maçının VAR hakemi belli oldu\n[star · 12:05] Galatasaray-Fenerbahçe maçının VAR hakemi belli oldu — Süper Lig'de bu akşam oynanacak Galatasaray-Fenerbahçe derbisinin VAR hakemi İspanya'dan Carlos Del Cerro Grande oldu.\n[haberler · 12:05] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[mynet · 12:06] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu!\n[cumhuriyet · 12:07] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[milligazete · 12:08] Galatasaray-Fenerbahçe maçının VAR hakemi açıklandı\n[tgrt · 12:10] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[aksam · 12:15] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[haberturk · 12:21] Galatasaray - Fenerbahçe derbisinin VAR'ı Carlos del Cerro Grande!\n[turkiyegz · 13:10] MHK'den kritik atama: Galatasaray-Fenerbahçe maçının VAR'ı belli oldu\n[diken · 20:32] Galatasaray ve Fenerbahçe'nin 11'leri belli oldu\n[onedio · 20:33] Galatasaray - Fenerbahçe Derbisinin İlk 11'leri Belli Oldu\n[dirilis · 20:37] Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu"
+  },
+  {
+   "key": "s4285__ai-literacy-gap",
+   "output_file": "runs/bg/explain/s4285__ai-literacy-gap.json",
+   "event_title": "Galatasaray-Fenerbahçe derbisinin VAR hakemi kim, Carlos del Cerro Grande kimdir?",
+   "concept": "AI Literacy Gap",
+   "definition": "The Decision Lab describes an AI literacy gap as a mismatch between people's ease or confidence in using generative AI and the knowledge, skills, and attitudes needed to understand outputs, anticipate failures, and use systems responsibly. This is a competency and interaction concept, not by itself evidence of faulty reasoning.",
+   "quotes": [
+    {
+     "quote": "Dev mücadele öncesinde yapay zeka, derbinin 15'er dakikalık bölümlerini, olası gol senaryolarını ve maç istatistiklerini değerlendirdi.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Dev mücadele öncesinde yapay zeka, derbinin 15'er dakikalık bölümlerini",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Yapay zeka destekli tahmin görevi ve çıktının haber olarak yayımlanması kararı görülüyor.",
+   "skeptic_alternative": "Yapay zeka kullanımı tek başına okuryazarlık eksikliği göstermez.",
+   "missing_context": [
+    "Güven iddiası ile başarısızlık arasında uyumsuzluk kanıtı",
+    "Çıktıdaki somut bir hata ve buna dayanılması",
+    "Çıktının nasıl kontrol edildiği",
+    "Çıktının sınırlılıklarının değerlendirilip değerlendirilmediği"
+   ],
+   "headlines": "[ahaber · 16:44] Yapay zeka Galatasaray-Fenerbahçe derbisinin galibini açıkladı! — Trendyol Süper Lig'in 9. haftasında Galatasaray ile Fenerbahçe, 26 Ekim Pazartesi günü RAMS Park'ta 407. kez karşı karşıya gelecek. Dev mücadele öncesinde yapay zeka, derbinin 15'er dakikalık bölümlerini, olası gol senaryolarını ve maç istatistiklerini değerlendirdi. Peki yapay …\n[sabah · 12:01] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu...\n[sozcu · 12:02] Galatasaray-Fenerbahçe maçının VAR hakemi belli oldu\n[star · 12:05] Galatasaray-Fenerbahçe maçının VAR hakemi belli oldu — Süper Lig'de bu akşam oynanacak Galatasaray-Fenerbahçe derbisinin VAR hakemi İspanya'dan Carlos Del Cerro Grande oldu.\n[haberler · 12:05] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[mynet · 12:06] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu!\n[cumhuriyet · 12:07] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[milligazete · 12:08] Galatasaray-Fenerbahçe maçının VAR hakemi açıklandı\n[tgrt · 12:10] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[aksam · 12:15] Galatasaray-Fenerbahçe derbisinin VAR hakemi belli oldu\n[haberturk · 12:21] Galatasaray - Fenerbahçe derbisinin VAR'ı Carlos del Cerro Grande!\n[turkiyegz · 13:10] MHK'den kritik atama: Galatasaray-Fenerbahçe maçının VAR'ı belli oldu\n[diken · 20:32] Galatasaray ve Fenerbahçe'nin 11'leri belli oldu\n[onedio · 20:33] Galatasaray - Fenerbahçe Derbisinin İlk 11'leri Belli Oldu\n[dirilis · 20:37] Galatasaray-Fenerbahçe derbisinin ilk 11'leri belli oldu"
+  },
+  {
+   "key": "s5568__framing-effect",
+   "output_file": "runs/bg/explain/s5568__framing-effect.json",
+   "event_title": "Tenerife’nin futbolcusu Jesus de Miguel hayatını kaybetti",
+   "concept": "Framing Effect",
+   "definition": "A framing effect is a change in evaluation or choice caused by how information is presented, such as emphasizing equivalent outcomes as gains or losses. For this review card, flag only explicit textual reasoning that treats the presentation as a reason to choose despite stated factual equivalence and without a decision-relevant justification. Framing and heuristics are not inherently errors.",
+   "quotes": [
+    {
+     "quote": "Rakibi faul yaptı, kalbi durdu. Jesus de Miguel maç sonunda hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Kaleciyle çarpışan futbolcu Jesus De Miguel hayatını kaybetti!",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Rakibi faul yaptı, kalbi durdu.",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sert faule maruz kalan Jesus de Miguel hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Tenerife’nin futbolcusu Jesus de Miguel hayatını kaybetti",
+     "outlets": [],
+     "source": "context"
+    }
+   ],
+   "advocate_mechanism": "Aynı olay bir kurumda rakibin faulü, diğerinde çarpışma olarak çerçevelenmiş.",
+   "skeptic_alternative": "Faul ifadesi maç raporuna veya görüntülere dayanan doğru bir bilgi olabilir.",
+   "missing_context": [
+    "Hakem raporu veya resmi açıklamada pozisyonun faul olarak kaydedilip kaydedilmediği",
+    "Pozisyonun hakem değerlendirmesi",
+    "Sunumun okur yargısına etkisi",
+    "Çerçevenin bir yargıyı değiştirdiğine dair kanıt"
+   ],
+   "headlines": "[sondakika · 10:04] Tenerife Kulübü, Jesus de Miguel Alameda'nın Andorra maçında öldüğünü açıkladı\n[haberturk · 11:54] İspanya'dan acı haber: Kaleciyle çarpışan futbolcu Jesus De Miguel hayatını kaybetti!\n[tgrt · 12:11] Kaleciyle çarpışan İspanyol futbolcu Jesus de Miguel hayatını kaybetti! Acı haberi kulübü duyurdu\n[birgun · 12:11] Tenerife futbolcusu Jesus de Miguel sahada aldığı darbe sonucu hayatını kaybetti\n[ntv · 12:13] Rakibi faul yaptı, kalbi durdu. Jesus de Miguel maç sonunda hayatını kaybetti\n[akit · 12:14] Futbol dünyası şokta! Sert faule maruz kalan Jesus de Miguel hayatını kaybetti\n[onedio · 12:14] Jesús de Miguel Hayatını Kaybetti: Kaleciyle Çarpışan Tenerifeli Forvet 30 Yaşında Yaşama Veda Etti\n[turkiyegz · 12:29] Tenerife Andorra maçı ertelendi mi, maçta ne oldu? Jesus de Miguel hayatını kaybetti\n[haberler · 12:41] Tenerife futbolcusu Jesus de Miguel Alameda rakip kaleciyle çarpıştığı maçta öldü\n[aa · 12:51] Kaleci ile çarpıştığı pozisyonda kalbi duran İspanyol futbolcu Jesus de Miguel hayatını kaybetti\n[dirilis · 13:23] Jesus de Miguel hayatını kaybetti, Tenerife yasta\n[takvim · 13:41] İspanya 2. Ligi'nde kaleciyle çarpışan futbolcu Jesús de Miguel hayatını kaybetti: İşte o görüntüler\n[ahaber · 13:49] Sahada korkunç ölüm! Göğsüne gelen diz sonrası Jesus de Miguel hayatını kaybetti\n[star · 16:57] Futbol dünyasını yasa boğan haber! Jesus de Miguel hayatını kaybetti — Tenerife, Andorra ile oynanan maçta kaleci Jesus Owono ile sert bir şekilde çarpışarak yere yığılan Jesus de Miguel'in vefat ettiğini açıkladı.\n[diken · 17:27] Kaleciyle çarpıştıktan sonra kalbi duran İspanyol futbolcu Jesus de Miguel öldü"
+  },
+  {
+   "key": "s5568__negativity-bias",
+   "output_file": "runs/bg/explain/s5568__negativity-bias.json",
+   "event_title": "Tenerife’nin futbolcusu Jesus de Miguel hayatını kaybetti",
+   "concept": "Negativity Bias",
+   "definition": "Negative information—events, feedback, or outcomes—can have greater psychological impact and receive more weight in judgment or memory than equally relevant positive information. The Decision Lab describes this asymmetry as a cognitive bias and relates it to decision weighting. The observed tendency is not, by itself, a reasoning error; this card flags only an unjustified influence on judgment or action.",
+   "quotes": [
+    {
+     "quote": "Sahada korkunç ölüm! Göğsüne gelen diz sonrası Jesus de Miguel hayatını kaybetti",
+     "outlets": [],
+     "source": "text"
+    },
+    {
+     "quote": "Sahada korkunç ölüm!",
+     "outlets": [],
+     "source": "text"
+    }
+   ],
+   "advocate_mechanism": "Bazı başlıklar ölümün dehşet verici yönünü vurguluyor.",
+   "skeptic_alternative": "Bir sporcunun ölümü haberinde olumsuz vurgu olayla orantılıdır.",
+   "missing_context": [
+    "Karşılaştırılabilir olumlu bilgi ve karar etkisi",
+    "Olumlu kanıta göre orantısız ağırlık verildiğine dair belge"
+   ],
+   "headlines": "[sondakika · 10:04] Tenerife Kulübü, Jesus de Miguel Alameda'nın Andorra maçında öldüğünü açıkladı\n[haberturk · 11:54] İspanya'dan acı haber: Kaleciyle çarpışan futbolcu Jesus De Miguel hayatını kaybetti!\n[tgrt · 12:11] Kaleciyle çarpışan İspanyol futbolcu Jesus de Miguel hayatını kaybetti! Acı haberi kulübü duyurdu\n[birgun · 12:11] Tenerife futbolcusu Jesus de Miguel sahada aldığı darbe sonucu hayatını kaybetti\n[ntv · 12:13] Rakibi faul yaptı, kalbi durdu. Jesus de Miguel maç sonunda hayatını kaybetti\n[akit · 12:14] Futbol dünyası şokta! Sert faule maruz kalan Jesus de Miguel hayatını kaybetti\n[onedio · 12:14] Jesús de Miguel Hayatını Kaybetti: Kaleciyle Çarpışan Tenerifeli Forvet 30 Yaşında Yaşama Veda Etti\n[turkiyegz · 12:29] Tenerife Andorra maçı ertelendi mi, maçta ne oldu? Jesus de Miguel hayatını kaybetti\n[haberler · 12:41] Tenerife futbolcusu Jesus de Miguel Alameda rakip kaleciyle çarpıştığı maçta öldü\n[aa · 12:51] Kaleci ile çarpıştığı pozisyonda kalbi duran İspanyol futbolcu Jesus de Miguel hayatını kaybetti\n[dirilis · 13:23] Jesus de Miguel hayatını kaybetti, Tenerife yasta\n[takvim · 13:41] İspanya 2. Ligi'nde kaleciyle çarpışan futbolcu Jesús de Miguel hayatını kaybetti: İşte o görüntüler\n[ahaber · 13:49] Sahada korkunç ölüm! Göğsüne gelen diz sonrası Jesus de Miguel hayatını kaybetti\n[star · 16:57] Futbol dünyasını yasa boğan haber! Jesus de Miguel hayatını kaybetti — Tenerife, Andorra ile oynanan maçta kaleci Jesus Owono ile sert bir şekilde çarpışarak yere yığılan Jesus de Miguel'in vefat ettiğini açıkladı.\n[diken · 17:27] Kaleciyle çarpıştıktan sonra kalbi duran İspanyol futbolcu Jesus de Miguel öldü"
+  }
+ ]
+}

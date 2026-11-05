@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import gzip
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -239,9 +240,99 @@ def apply(run: Path) -> dict[str, Any]:
     return {"summary": summary, "events": results}
 
 
+BANNED = ("bağlam gerekli", "desteklendi", "uncertain")
+_QUOTE = re.compile(r"[“\"]([^”\"]+)[”\"]")
+
+
+def validate_explain(x: dict, event_text: str | None = None) -> list[str]:
+    """Problems with a public explanation ({"noticed","why"}); empty list = publishable."""
+    probs: list[str] = []
+    for k in ("noticed", "why"):
+        v = x.get(k) if isinstance(x, dict) else None
+        if not isinstance(v, str):
+            probs.append(f"{k}: missing")
+            continue
+        v = v.strip()
+        if not 40 <= len(v) <= 320:
+            probs.append(f"{k}: length {len(v)} not in 40-320")
+        if not 1 <= len(re.findall(r"[^.!?…]+[.!?…]+(?=\s|$)|[^.!?…]+$", v)) <= 2:
+            probs.append(f"{k}: must be 1-2 sentences")
+        low = v.lower()
+        probs += [f"{k}: banned phrase '{b}'" for b in BANNED if b in low]
+        if event_text is not None:
+            probs += [f"{k}: quote not in event text: {q[:40]}" for q in _QUOTE.findall(v)
+                      if len(q) > 8 and q not in event_text]
+    return probs
+
+
+def explain_dir(run: Path) -> Path:
+    return run / "explain"
+
+
+def explain_tasks(run: Path, batch: int) -> list[Path]:
+    """Writer batches for live findings (supported + uncertain) that have no valid explanation yet."""
+    res = json.loads((run / "biasguard.json").read_text())
+    texts = {it["event"]: it["text"] for it in _inputs(run)}
+    tdir = explain_dir(run) / "tasks"
+    tdir.mkdir(parents=True, exist_ok=True)
+    for old in tdir.glob("batch-*.json"):
+        old.unlink()
+    todo = []
+    for ev in res["events"]:
+        for f in ev.get("supported", []) + ev.get("uncertain", []):
+            key = f"{ev['event']}__{f['id']}"
+            p = explain_dir(run) / f"{key}.json"
+            if p.exists():
+                try:
+                    if not validate_explain(json.loads(p.read_text()), texts.get(ev["event"], "")):
+                        continue
+                except Exception:
+                    pass
+            role = lambda ms, r: next((m["text"] for m in ms if m.get("role") == r), None) or [m["text"] for m in ms]
+            todo.append({
+                "key": key, "output_file": f"runs/bg/explain/{key}.json", "event_title": ev.get("title"),
+                "concept": f["name"], "definition": f["definition"],
+                "quotes": [{"quote": e["q"], "outlets": e.get("o", []), "source": e["src"]} for e in f["evidence"]],
+                "advocate_mechanism": role(f["mechanisms"], "advocate"),
+                "skeptic_alternative": role(f["alternatives"], "skeptic"),
+                "missing_context": f["missing"],
+                "headlines": texts.get(ev["event"], "")})
+    instr = ("Write plain Turkish for a general reader. For each item write {\"noticed\": ..., \"why\": ...} to its "
+             "output_file. noticed = what the headlines show, naming the outlets. why = why that is not proof. "
+             "Each field is 1-2 sentences, 40-320 characters. Use only quotes given in the item (inside “…”), "
+             "exactly as given. Never use the words 'bağlam gerekli', 'desteklendi', 'uncertain'.")
+    paths = []
+    for n in range(0, len(todo), batch):
+        p = tdir / f"batch-{n // batch:03d}.json"
+        p.write_text(json.dumps({"instructions": instr, "items": todo[n:n + batch]}, ensure_ascii=False, indent=1))
+        paths.append(p)
+    return paths
+
+
+def merge_explain(bg: dict, run: Path) -> dict[str, int]:
+    """Attach valid runs/<run>/explain/<event>__<card>.json as finding['explain']; skip invalid or missing."""
+    texts = {it["event"]: it["text"] for it in _inputs(run)} if (run / "inputs.jsonl").exists() else {}
+    live = explained = 0
+    for ev in bg.get("events", []):
+        for f in ev.get("supported", []) + ev.get("uncertain", []):
+            live += 1
+            p = explain_dir(run) / f"{ev['event']}__{f['id']}.json"
+            if not p.exists():
+                continue
+            try:
+                x = json.loads(p.read_text())
+                if validate_explain(x, texts.get(ev["event"], "")):
+                    continue
+            except Exception:
+                continue
+            f["explain"] = {"noticed": x["noticed"].strip(), "why": x["why"].strip()}
+            explained += 1
+    return {"explained": explained, "live": live}
+
+
 def main() -> None:
     p = argparse.ArgumentParser(prog="python -m biasguard.news")
-    p.add_argument("cmd", choices=["inputs", "tasks", "apply", "pack"])
+    p.add_argument("cmd", choices=["inputs", "tasks", "apply", "pack", "explain-tasks", "explain-apply"])
     p.add_argument("--build", type=Path)
     p.add_argument("--run", type=Path, required=True)
     p.add_argument("--top", type=int, default=150)
@@ -257,11 +348,22 @@ def main() -> None:
     elif a.cmd == "tasks":
         for path in write_tasks(a.run, a.stage, a.batch):
             print(path)
+    elif a.cmd == "explain-tasks":
+        for path in explain_tasks(a.run, a.batch):
+            print(path)
+    elif a.cmd == "explain-apply":
+        # merge into the run's biasguard.json (and --out, e.g. dist/.../biasguard.json); pack re-merges anyway
+        res = json.loads((a.run / "biasguard.json").read_text())
+        print(json.dumps(merge_explain(res, a.run)))
+        for out in (a.run / "biasguard.json", a.out):
+            if out:
+                out.write_text(json.dumps(res, ensure_ascii=False))
     elif a.cmd == "pack":
         # Same keys build.py adds, without re-running the 20-minute pipeline.
         core_path = a.build / "core.bin"
         core = _load(core_path)
         core["BG"] = json.loads((a.build / "biasguard.json").read_text())
+        print(json.dumps(merge_explain(core["BG"], a.run)))
         import sys; sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "pipeline"))
         from capraz_pipeline.narratives import merge
         merge(core)
