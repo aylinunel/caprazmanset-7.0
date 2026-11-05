@@ -9,3 +9,9 @@ Reviewed with the task reviewer's findings (review-ab6d208..0abfe81) as input.
 - Security: no new inputs; canvas text comes from the site's own data, rendered via fillText (no HTML injection); hidden paragraph uses esc().
 - Karpathy check: every changed line traces to the hero/restyle request; no unrelated edits. Spec is docs only.
 Decision: push as requested, with the open findings above recorded; round 2 follows in the next push.
+
+## Push of 4d876ad, 9865df6 (hero fix rounds 2–3)
+- Correctness: band text legible (≥7 dot rows), reduced-motion still frame at t=1, Inter 700/800 + Turkish glyphs awaited, header band draws joined text once. Tests: logic 11/11, smoke ok.
+- Simplicity: dead hero branches removed from dmMake (Karpathy: orphans our change created, removed).
+- Note: this hero is about to be replaced by the Lumen-style fog hero (user request); the dot engine stays for header bands and feed cards.
+Decision: push.
