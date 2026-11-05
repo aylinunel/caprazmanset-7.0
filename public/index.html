@@ -1378,7 +1378,7 @@ th{font-family:var(--ff-m);text-transform:uppercase;letter-spacing:.1em;border-b
 :root[data-theme="dark"]{
   --paper:#1B1813; --surface:#24211A; --raise:#2B271F; --sunk:#14120E;
   --line:#3A352B; --line2:#4E4839; --ink:#F5F0E3; --ink2:#DDD5C2; --muted:#BDB4A0; --mist:#8F8774;
-  --left:#E8556B; --right:#4586EE; --mid:#8A93B0; --hot:#F59E0B; --hot-fill:#3A2A0C; --ok:#4ADE80;
+  --left:#E8556B; --right:#4586EE; --mid:#C9C2B2; --hot:#F59E0B; --hot-fill:#3A2A0C; --ok:#4ADE80;
   --seq1:#4A3410; --seq2:#8A6118; --seq3:#C08828; --seq4:#F59E0B;
   --shadow:none;
 }
@@ -1963,6 +1963,88 @@ th{color:var(--ink);border-bottom-width:3px}
 .v7-hnet-t .v7-hh{margin:0}
 .v7-hnet-t .lede{font-size:15px;color:var(--ink2)}
 @media (max-width:820px){.v7-hnet{grid-template-columns:1fr}}
+
+/* ===================================================== 7.0 · charts (site/js/v7/viz.js)
+   Replaces the bar charts. Thin marks on hairline grids; dots carry a 2px surface ring; text stays in ink tokens. */
+.vz{display:grid;position:relative}
+.vz-r{display:grid;grid-template-columns:minmax(96px,var(--lw)) minmax(0,1fr) var(--vw);column-gap:12px;align-items:center;min-height:30px;border-radius:4px}
+.vz-r[data-k]:hover,.vz-r[data-k]:focus-visible{background:color-mix(in srgb,var(--sunk) 70%,transparent)}
+.vz-r[data-go]{cursor:pointer}
+.vz-l{font-size:13px;line-height:1.25;color:var(--ink);min-width:0;overflow-wrap:anywhere;display:flex;align-items:center;gap:7px}
+.vz-l em{flex:none;width:8px;height:8px;border-radius:50%}
+.vz-l small{color:var(--muted);font-size:11px}
+.vz-v{font-family:var(--ff-m);font-variant-numeric:tabular-nums;font-size:12px;color:var(--ink2);text-align:right;white-space:nowrap;padding-right:3px}
+.vz-t{position:relative;height:30px}
+.vz-gl{position:absolute;top:0;bottom:0;width:1px;background:var(--line)}
+.vz-all{position:absolute;top:0;bottom:0;width:0;border-left:1.5px solid var(--ink2);opacity:.55}
+.vz-span{position:absolute;top:calc(50% - 1px);height:2px;background:var(--line2);border-radius:1px}
+.vz-ci{position:absolute;top:calc(50% - 4px);height:8px;border-left:1.5px solid var(--c);border-right:1.5px solid var(--c);
+  background:linear-gradient(var(--c),var(--c)) center/100% 2px no-repeat;opacity:.55}
+.vz-ref{position:absolute;top:7px;bottom:7px;width:2px;margin-left:-1px;background:var(--ink);border-radius:1px}
+.vz-d{position:absolute;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--c);box-shadow:0 0 0 2px var(--surface)}
+.vz-d.big{width:13px;height:13px;margin:-6.5px 0 0 -6.5px}
+.vz-d.o{background:var(--surface);border:2px solid var(--c)}
+.vz-anim .vz-d{animation:vzIn .75s cubic-bezier(.2,.8,.2,1) both}
+.vz-anim .vz-span,.vz-anim .vz-ci{animation:vzFade .6s .25s ease both}
+@keyframes vzIn{from{left:var(--x0)}}
+@keyframes vzFade{from{opacity:0}}
+.vz-ax{min-height:22px}
+.vz-ax .vz-t{height:22px}
+.vz-ax .vz-t span{position:absolute;top:4px;transform:translateX(-50%);font-family:var(--ff-m);font-size:10.5px;color:var(--muted);white-space:nowrap}
+.vz-ax .vz-t .vz-allt{top:auto;bottom:-14px;color:var(--ink2)}
+.vz-ax .vz-l{font-family:var(--ff-m);font-size:10.5px;color:var(--muted)}
+.vz-axt{margin:16px 0 0;font-size:12px;color:var(--muted)}
+.vz-key{display:flex;flex-wrap:wrap;gap:6px 16px;margin:10px 0 2px;font-size:12px;color:var(--ink2)}
+.vz-key span{display:inline-flex;align-items:center;gap:6px}
+.vz-key i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--c)}
+.vz-key i.o{background:var(--surface);border:2px solid var(--c)}
+.vz-key i.t{width:2px;height:12px;border-radius:1px;background:var(--ink)}
+.vz-key i.ci{width:18px;height:8px;border-radius:0;background:linear-gradient(var(--ink2),var(--ink2)) center/100% 2px no-repeat;border-left:1.5px solid var(--ink2);border-right:1.5px solid var(--ink2)}
+.vz-key i.al{width:0;height:12px;border-radius:0;border-left:1.5px solid var(--ink2)}
+@media (max-width:640px){
+  .vz-r{grid-template-columns:minmax(0,1fr) auto;row-gap:0;padding:4px 0}
+  .vz-r .vz-t{grid-column:1/-1;order:3}
+  .vz-ax .vz-l{display:none}
+}
+/* distribution */
+.vz-dist{display:grid;grid-template-columns:40px minmax(0,1fr);grid-template-rows:auto auto;column-gap:8px}
+.vz-dy{position:relative;font-family:var(--ff-m);font-size:10.5px;color:var(--muted)}
+.vz-dy span{position:absolute;right:0;transform:translateY(50%)}
+.vz-dp{position:relative;height:200px;border-bottom:1px solid var(--line2);cursor:crosshair;touch-action:pan-y;user-select:none}
+.vz-dp svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.vz-area{fill:var(--ink);opacity:.1}
+.vz-ln{fill:none;stroke:var(--ink);stroke-width:2;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.vz-gh{position:absolute;left:0;right:0;height:0;border-top:1px solid var(--line)}
+.vz-iqr{position:absolute;top:0;bottom:0;background:var(--sunk);opacity:.9}
+.vz-med,.vz-dref{position:absolute;top:0;bottom:0;width:0;border-left:2px solid var(--ink)}
+.vz-dref{border-left:1.5px solid var(--hot)}
+.vz-med span,.vz-dref span{position:absolute;top:2px;left:6px;font-family:var(--ff-m);font-size:10.5px;color:var(--ink);white-space:nowrap;background:color-mix(in srgb,var(--surface) 85%,transparent);padding:0 3px;border-radius:2px}
+.vz-dref span{top:20px;color:var(--ink2)}
+.vz-sel{position:absolute;top:0;bottom:0;background:var(--hl);opacity:.35;border-left:1px solid var(--ink);border-right:1px solid var(--ink)}
+.vz-xh{position:absolute;top:0;bottom:0;width:0;border-left:1px solid var(--ink2);pointer-events:none}
+.vz-dx{grid-column:2;position:relative;height:20px;font-family:var(--ff-m);font-size:10.5px;color:var(--muted)}
+.vz-dx span{position:absolute;top:4px;transform:translateX(-50%);white-space:nowrap}
+.vz-dx span:first-child{transform:none}.vz-dx span:last-child{transform:translateX(-100%)}
+.vz-ax .vz-t span:last-of-type{transform:translateX(-100%)}
+.vz-k{display:inline-flex;align-items:center;gap:6px;margin-left:10px}
+.vz-k-iqr{display:inline-block;width:16px;height:10px;background:var(--sunk);border:1px solid var(--line2)}
+.vz-pre{margin-top:10px}
+/* lines */
+.vz-line{display:grid;grid-template-columns:40px minmax(0,1fr);column-gap:8px}
+.vz-ly{position:relative;font-family:var(--ff-m);font-size:10.5px;color:var(--muted)}
+.vz-ly span{position:absolute;right:0;transform:translateY(50%)}
+.vz-lp{position:relative;height:200px;border-bottom:1px solid var(--line2);margin-right:8px}
+.vz-lp svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.vz-l1{fill:none;stroke:var(--c);stroke-width:2;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+.vz-l1.thin{stroke-width:1;opacity:.45}
+.vz-la{fill:var(--c);opacity:.1;stroke:none}
+.vz-end{position:absolute;width:9px;height:9px;margin:-4.5px 0 0 -4.5px;border-radius:50%;background:var(--c);box-shadow:0 0 0 2px var(--surface);pointer-events:none}
+.vz-band{position:absolute;top:0;bottom:0;background:var(--sunk)}
+.vz-band span{position:absolute;top:2px;left:4px;font-family:var(--ff-m);font-size:10px;color:var(--muted);white-space:nowrap}
+.vz-lx{grid-column:2;position:relative;height:20px;font-family:var(--ff-m);font-size:10.5px;color:var(--muted);margin-right:8px}
+.vz-lx span{position:absolute;top:4px;transform:translateX(-50%);white-space:nowrap}
+.vz-lx span:first-child{transform:none}.vz-lx span:last-child{transform:translateX(-100%)}
+@media (prefers-reduced-motion:reduce){.vz-r{transition:none!important}}
 
 </style>
 </head>
@@ -7972,6 +8054,7 @@ function pgAdminV2(q) {
 }
 
 /* ================================================================ wiring */
+function vzPut(id, html) { var t = document.getElementById(id); if (t) { t.innerHTML = html; wireGo(t); } }
 function wireGo(root) {
   [].forEach.call((root || document).querySelectorAll("[data-go]"), function (n) {
     if (n._go) return; n._go = 1;
@@ -9083,11 +9166,13 @@ function v3noticeRows() {
   }).sort(function (x, y) { return CM3.cmp(y.a.d, x.a.d) || CM3.cmp(x.a.t, y.a.t); });
   return V3.nlRows;
 }
+/* Families (filled) with their kinds beneath (hollow), as shares of all notices on one axis. */
 function v3bars(rows, total) {
-  return '<div class="cm3-bars">' + rows.map(function (r) {
-    return '<div class="cm3-bar' + (r.sub ? " sub" : "") + '"><span class="lb">' + esc(r.label) + '</span><span class="tr" aria-hidden="true"><i style="width:' +
-      Math.max(1, Math.round(100 * r.n / total)) + '%"></i></span><span class="num">' + r.n.toLocaleString("tr") + "</span></div>";
-  }).join("") + "</div>";
+  return vzRows(rows.map(function (r, i) {
+    return { k: "k" + i, label: (r.sub ? "· " : "") + r.label, span: "zero", val: r.n.toLocaleString("tr"),
+      pts: [{ v: 100 * r.n / total, c: r.sub ? "var(--ink2)" : "var(--ink)", hollow: !!r.sub, big: !r.sub }],
+      tip: "<span class='k'>" + esc(r.label) + "</span>" + r.n.toLocaleString("tr") + " ilan · " + orP(r.n / total) };
+  }), { min: 0, max: Math.min(100, Math.ceil(110 * Math.max.apply(null, rows.map(function (r) { return r.n; })) / total / 10) * 10), fmt: function (v) { return "%" + v; }, lw: 230, vw: 64, axis: "Bütün ilanlar içindeki pay. Dolu nokta ilan ailesi, içi boş nokta o ailedeki tür." });
 }
 function v3noticeEventsPage() {
   if (!v3on("noticeSplit")) return "";
@@ -9123,10 +9208,11 @@ function v3noticeEventsPage() {
     }).join("") + "</tbody></table></div><p class=\"xsmall\" style=\"margin-top:6px\">" + v3est() + "</p></section>";
   // 3. days
   var dk = DAYS.filter(function (d) { return d >= "2026-09-01" && d <= "2026-10-10"; }), max = Math.max.apply(null, dk.map(function (d) { return days[d] || 0; }).concat([1]));
-  h += '<section class="sec"><h2>' + esc(t3("nlDayHead")) + '</h2><div class="cm3-days" role="img" aria-label="' + esc(t3("nlDayHead")) + '">' + dk.map(function (d) {
-    var v = days[d] || 0, lab = fmtD(d + "T00:00");
-    return '<span class="cm3-day" title="' + esc(t3("nlDayTip", { d: lab, n: v })) + '"><i style="height:' + Math.round(100 * v / max) + '%"></i></span>';
-  }).join("") + '</div><div class="cm3-days-ax xsmall mono"><span>' + fmtD(dk[0] + "T00:00") + "</span><span>" + fmtD(dk[dk.length - 1] + "T00:00") + "</span></div></section>";
+  var dvs = dk.map(function (d) { return days[d] || 0; });
+  h += '<section class="sec"><h2>' + esc(t3("nlDayHead")) + "</h2>" + vzLine("ilan-gun", dk.map(function (d) { return fmtD(d + "T00:00"); }), [
+      { k: "d", label: "Günlük ilan", vals: dvs, c: "var(--ink2)", thin: true },
+      { k: "m", label: "7 günlük ortalama", vals: vzRoll(dvs, 7), c: "var(--ink)", area: true }],
+    { label: t3("nlDayHead") }) + "</section>";
   // 4. every notice
   h += '<section class="sec" id="cm3nl-list"><h2>' + esc(t3("nlListHead")) + '</h2><div class="cm3-nl-ctl">' +
     '<div class="cm3-chiprow" role="group">' + ["all"].concat(V3_FAMS.filter(function (f) { return fam[f]; })).map(function (f) {
@@ -10051,19 +10137,34 @@ function route() {
   }
 
   if (path === "/kurumlar" && tab === "genel") {
-    put("cmean", barChart(LIVE.map(function (k) {
-      return { label: SRC[k] ? SRC[k].n : k, value: +(STAT[k].mean || 0).toFixed(1),
-        color: seq((STAT[k].mean || 0) * 3),
-        tip: "<span class='k'>" + esc(SRC[k] ? SRC[k].n : k) + "</span>Ortalama " +
-          (STAT[k].mean || 0).toFixed(1) + " · " + STAT[k].pol + " siyasi haber" }; })
-      .sort(function (x, y) { return y.value - x.value; }), { padL: 132 }));
-    var kk = {}; D.A.forEach(function (x) { x.k.forEach(function (k) { kk[k] = (kk[k] || 0) + 1; }); });
-    put("ckeys", barChart(Object.keys(kk).sort(function (x, y) { return kk[y] - kk[x]; })
-      .map(function (k) {
-        return { label: BIA[k] ? BIA[k].en : k, value: kk[k],
-          tip: "<span class='k'>" + esc(BIA[k] ? BIA[k].en : k) + " · " +
-            esc(BIA[k] ? BIA[k].tr : "") + "</span>" + esc(BIA[k] ? BIA[k].df : "") }; }),
-      { padL: 210 }));
+    /* Mean load with its 95 % interval: a mean bar hid how sure each number is (small outlets swing). */
+    var cmRows = LIVE.filter(function (k) { return STAT[k].pol >= 20; }).map(function (k) {
+      var xs = polOf(k).map(function (a) { return a.v; }), n = xs.length || STAT[k].pol, m = STAT[k].mean || 0;
+      var sd = Math.sqrt(xs.reduce(function (t, v) { return t + (v - m) * (v - m); }, 0) / Math.max(1, xs.length - 1)), se = xs.length > 1 ? 1.96 * sd / Math.sqrt(xs.length) : 0;
+      return { k: k, label: srcName(k), sw: lean(SRC[k] ? SRC[k].lean : null), go: "#/kurum?s=" + k, val: dec(m, 1),
+        pts: [{ v: m, lo: Math.max(0, m - se), hi: m + se, c: lean(SRC[k] ? SRC[k].lean : null), big: true }],
+        tip: "<span class='k'>" + esc(srcName(k)) + "</span>Ortalama " + dec(m, 1) + " · %95 aralık " + dec(Math.max(0, m - se), 1) + "–" + dec(m + se, 1) + "<br>" + orN(n) + " siyasi haber<br>Tıklayın: kurum sayfası" };
+    }).sort(function (x, y) { return y.pts[0].v - x.pts[0].v; });
+    var cmAll = 0, cmN = 0; D.A.forEach(function (a) { if (a.p) { cmAll += a.v; cmN++; } });
+    vzPut("cmean", vzKey([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { kind: "ci", t: "%95 aralık" }, { kind: "al", t: "bütün siyasi haberler" }]) +
+      vzRows(cmRows, { min: Math.floor(Math.min.apply(null, cmRows.map(function (r) { return r.pts[0].lo; })) * .9), max: Math.ceil(Math.max.apply(null, cmRows.map(function (r) { return r.pts[0].hi; })) * 1.1 / 5) * 5, refAll: { v: cmAll / (cmN || 1), label: "tümü " + dec(cmAll / (cmN || 1), 1) },
+        lw: 140, vw: 48, fmt: function (v) { return v; }, axis: "Aralıkları örtüşen kurumlar arasındaki fark şansla açıklanabilir; en az 20 siyasi haberi olan kurumlar." }));
+    /* Each framing structure by bloc: rate per 100 political headlines, so the larger bloc does not win by volume. */
+    var kk = {}, kb = { left: {}, mid: {}, right: {} }, nb = { left: 0, mid: 0, right: 0 };
+    D.A.forEach(function (x) { var b = bloc(x.s); if (x.p && nb[b] != null) nb[b]++;
+      x.k.forEach(function (k) { kk[k] = (kk[k] || 0) + 1; if (x.p && kb[b]) kb[b][k] = (kb[b][k] || 0) + 1; }); });
+    var bks = ["left", "mid", "right"].filter(function (b) { return nb[b]; }), rate = function (b, k) { return 100 * (kb[b][k] || 0) / nb[b]; };
+    var kRows = Object.keys(kk).sort(function (x, y) { return kk[y] - kk[x]; }).map(function (k) {
+      var vs = bks.map(function (b) { return rate(b, k); }), sp = Math.max.apply(null, vs) / Math.max(.01, Math.min.apply(null, vs));
+      return { k: k, label: BIA[k] ? BIA[k].en : k, sub: BIA[k] ? BIA[k].tr : "", span: "pts", val: orN(kk[k]),
+        pts: bks.map(function (b) { return { v: rate(b, k), c: "var(--" + b + ")" }; }),
+        tip: "<span class='k'>" + esc(BIA[k] ? BIA[k].en : k) + " · " + esc(BIA[k] ? BIA[k].tr : "") + "</span>" + orN(kk[k]) + " başlık<br>" +
+          bks.map(function (b) { return SIDE[b] + ": 100 siyasi başlıkta " + dec(rate(b, k), 2); }).join("<br>") + (BIA[k] && BIA[k].df ? "<br>" + esc(BIA[k].df) : "") };
+    });
+    vzPut("ckeys", vzKey(bks.map(function (b) { return { c: "var(--" + b + ")", t: SIDE[b] + " bloğu" }; })) +
+      vzRows(kRows, { log: true, min: .01, max: Math.max(1, Math.pow(10, Math.ceil(Math.log10(Math.max.apply(null, kRows.map(function (r) { return Math.max.apply(null, r.pts.map(function (p) { return p.v; })); })))))),
+        ticks: null, fmt: function (v) { return v < 1 ? dec(v, 2) : v; }, lw: 270, vw: 60,
+        axis: "100 siyasi başlıkta görülme sayısı, bloklara göre (logaritmik ölçek: her çizgi bir öncekinin 10 katı). Sağdaki sayı bütün başlıklardaki toplam. Uzun çizgi, yapının bir blokta belirgin biçimde daha sık olduğunu gösterir." }));
     put("cheat", topicHeat());
     put("cspread", spreadChart(D.E.slice().sort(function (x, y) { return y.p - x.p; }).slice(0, 26)));
   }
@@ -10143,10 +10244,22 @@ function route() {
             mine[k] + " başlıkta · bütün haberlerin ortalamasının " +
             (ar ? (mr / ar).toFixed(1) : "0") + " katı" };
       }).sort(function (x, y) { return y.value - x.value; });
-      if (fp.length) put("cfp", barChart(fp, { padL: 200, ref: 1,
-        refLabel: "1.0× bütün haberlerin ortalaması", axis: "bütün haberlerin ortalamasına oran" }));
-      put("sdays", barChart(DAYS.map(function (d) {
-        return { label: fmtD(d + "T00:00"), value: st2.days[d] || 0 }; }), { padL: 66 }));
+      /* Ratios are multiplicative, so they sit on a log axis centred on 1×: 2× and ½× are the same distance from average. */
+      var fpv = fp.filter(function (x) { return x.value > 0; });
+      if (fpv.length) {
+        var flo = Math.min(.5, Math.min.apply(null, fpv.map(function (x) { return x.value; })) * .8), fhi = Math.max(2, Math.max.apply(null, fpv.map(function (x) { return x.value; })) * 1.2);
+        vzPut("cfp", vzKey([{ c: "var(--seq4)", t: "ortalamadan sık" }, { c: "var(--muted)", t: "ortalamadan seyrek" }]) +
+          vzRows(fpv.map(function (x) { return { k: x.label, label: x.label, ref: 1, span: "ref", val: x.display, tip: x.tip,
+            pts: [{ v: x.value, c: x.value >= 1 ? "var(--seq4)" : "var(--muted)" }] }; }),
+          { log: true, min: flo, max: fhi, from: 1, ticks: [.125, .25, .5, 1, 2, 4, 8, 16].filter(function (t) { return t >= flo && t <= fhi; }),
+            fmt: function (v) { return (v < 1 ? "1/" + Math.round(1 / v) : v) + "×"; }, refAll: { v: 1, label: "ortalama" }, lw: 200, vw: 50,
+            axis: "Logaritmik ölçek: 2× ve ½× ortalamaya eşit uzaklıkta. Çizgi ortalamadan sapmayı gösterir." }));
+      }
+      var dv = DAYS.map(function (d) { return st2.days[d] || 0; });
+      vzPut("sdays", vzLine("sdays-" + params.s, DAYS.map(function (d) { return fmtD(d + "T00:00"); }), [
+        { k: "d", label: "Günlük haber", vals: dv, c: "var(--ink2)", thin: true },
+        { k: "m", label: "7 günlük ortalama", vals: vzRoll(dv, 7), c: "var(--ink)", area: true }],
+        { label: "Günlük toplanan haber, 7 günlük ortalamayla", legend: "Çizgi" }));
     }
     var sa = $("#srcarts"); if (sa) wireDevices(sa);
   }
@@ -11013,6 +11126,211 @@ G6K.blame = function (arg, t) {
     layout: { type: "d3-force", animation: false, link: { distance: 130, strength: .4 }, manyBody: { strength: -420 }, collide: { radius: 36 }, x: { strength: .06 }, y: { strength: .06 } } } };
 };
 
+/* v7 charts that replace the site's bar charts (dataviz method: form by job, thin marks, hover on every mark).
+   Three primitives, html + inline svg so text stays crisp and wraps at phone width:
+   - vzRows: one row per item on a shared axis — dots, intervals (95 % Wilson), dumbbells, a reference tick.
+   - vzDist: a distribution of every event as an area, with median, a reference line and a drag-to-select range.
+   - vzLine: lines over time with a crosshair, end labels and an optional rolling mean.
+   Tooltips use data-vtip (delegated below), so they work on any page; every value is also printed or in a list. */
+var VZ = {};
+
+function vzCalm() { return matchMedia("(prefers-reduced-motion: reduce)").matches; }
+/* 95 % Wilson interval for k of n. */
+function vzWilson(k, n) {
+  if (!n) return [0, 0];
+  var z = 1.96, p = k / n, d = 1 + z * z / n, c = p + z * z / (2 * n), r = z * Math.sqrt(p * (1 - p) / n + z * z / (4 * n * n));
+  return [Math.max(0, (c - r) / d), Math.min(1, (c + r) / d)];
+}
+function vzQ(xs, q) { var a = xs.slice().sort(function (x, y) { return x - y; }); if (!a.length) return 0; var i = (a.length - 1) * q, lo = Math.floor(i); return a[lo] + (a[Math.ceil(i)] - a[lo]) * (i - lo); }
+/* Small html key for row charts. items: [{c, t, kind: "dot"|"o"|"t"|"ci"|"al"}] */
+function vzKey(items) {
+  return '<div class="vz-key">' + items.map(function (x) { return '<span><i class="' + (x.kind && x.kind !== "dot" ? x.kind : "") + '" style="--c:' + (x.c || "var(--ink)") + '"></i>' + esc(x.t) + "</span>"; }).join("") + "</div>";
+}
+function vzRoll(vals, w) { return vals.map(function (v, i) { var s = 0, n = 0; for (var j = Math.max(0, i - w + 1); j <= i; j++) if (vals[j] != null) { s += vals[j]; n++; } return n ? s / n : null; }); }
+function vzTipAttr(html) {
+  return ' data-vtip="' + esc(html) + '" aria-label="' + esc(html.replace(/<br>/g, ". ").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()) + '"';
+}
+/* Clean ticks for [lo, hi]. */
+function vzTicks(lo, hi, n) {
+  var span = hi - lo || 1, raw = span / (n || 4), mag = Math.pow(10, Math.floor(Math.log10(raw))), st = [1, 2, 2.5, 5, 10].map(function (m) { return m * mag; })
+    .filter(function (s) { return s >= raw; })[0] || raw, out = [];
+  for (var v = Math.ceil(lo / st) * st; v <= hi + 1e-9; v += st) out.push(+v.toFixed(10));
+  return out;
+}
+
+/* ------------------------------------------------------------------ rows */
+/* rows: [{k, label, sw (swatch colour), pts: [{v, c, lo, hi, hollow, key}], ref, span: "pts"|"ref"|false, val (html), tip, go}]
+   o: {min, max, log, ticks, fmt, axis, refAll: {v, label}, lw, vw} */
+function vzRows(rows, o) {
+  o = o || {};
+  var all = []; rows.forEach(function (r) { r.pts.forEach(function (p) { all.push(p.v, p.lo, p.hi); }); if (r.ref != null) all.push(r.ref); });
+  all = all.filter(function (v) { return v != null && isFinite(v); });
+  var lo = o.min != null ? o.min : Math.min.apply(null, all), hi = o.max != null ? o.max : Math.max.apply(null, all);
+  if (hi === lo) hi = lo + 1;
+  var X = o.log ? function (v) { return 100 * (Math.log(Math.max(v, lo)) - Math.log(lo)) / (Math.log(hi) - Math.log(lo)); }
+    : function (v) { return 100 * (v - lo) / (hi - lo); };
+  var pc = function (v) { return Math.max(0, Math.min(100, X(v))).toFixed(2) + "%"; };
+  var ticks = o.ticks || (o.log ? [.001, .01, .1, 1, 10, 100, 1000, 1e4].filter(function (t) { return t >= lo && t <= hi; }) : vzTicks(lo, hi, 4)), fmt = o.fmt || function (v) { return dec(v, 1); };
+  var grid = ticks.map(function (t) { return '<i class="vz-gl" style="left:' + pc(t) + '"></i>'; }).join("") +
+    (o.refAll ? '<i class="vz-all" style="left:' + pc(o.refAll.v) + '"></i>' : "");
+  var x0 = o.from != null ? pc(o.from) : o.refAll ? pc(o.refAll.v) : "0%";
+  var body = rows.map(function (r) {
+    var vs = r.pts.map(function (p) { return p.v; }).filter(function (v) { return v != null; });
+    var a = r.span === "ref" && r.ref != null ? [r.ref].concat(vs) : r.span === "zero" ? [o.log ? lo : Math.max(lo, 0)].concat(vs) : vs, s0 = Math.min.apply(null, a), s1 = Math.max.apply(null, a);
+    var marks = (r.span !== false && a.length > 1 ? '<i class="vz-span" style="left:' + pc(s0) + ";width:calc(" + pc(s1) + " - " + pc(s0) + ')"></i>' : "") +
+      (r.ref != null ? '<i class="vz-ref" style="left:' + pc(r.ref) + '"></i>' : "") +
+      r.pts.map(function (p) {
+        if (p.v == null) return "";
+        return (p.lo != null ? '<i class="vz-ci" style="left:' + pc(p.lo) + ";width:calc(" + pc(p.hi) + " - " + pc(p.lo) + ");--c:" + (p.c || "var(--ink2)") + '"></i>' : "") +
+          '<b class="vz-d' + (p.hollow ? " o" : "") + (p.big ? " big" : "") + '" style="left:' + pc(p.v) + ";--x0:" + x0 + ";--c:" + (p.c || "var(--ink)") + '"></b>';
+      }).join("");
+    return '<div class="vz-r" data-k="' + esc(r.k || r.label) + '"' + (r.tip ? vzTipAttr(r.tip) : "") + (r.go ? ' data-go="' + r.go + '" role="link"' : "") + ' tabindex="0">' +
+      '<span class="vz-l">' + (r.sw ? '<em style="background:' + r.sw + '"></em>' : "") + esc(r.label) + (r.sub ? ' <small>' + esc(r.sub) + "</small>" : "") + "</span>" +
+      '<span class="vz-t">' + grid + marks + '</span><span class="vz-v">' + (r.val || "") + "</span></div>";
+  }).join("");
+  var axis = '<div class="vz-r vz-ax" aria-hidden="true"><span class="vz-l">' + esc(o.axisL || "") + '</span><span class="vz-t">' +
+    ticks.map(function (t) { return '<span style="left:' + pc(t) + '">' + fmt(t) + "</span>"; }).join("") +
+    (o.refAll ? '<span class="vz-allt" style="left:' + pc(o.refAll.v) + '">' + esc(o.refAll.label) + "</span>" : "") + "</span><span></span></div>";
+  return '<div class="vz' + (vzCalm() ? "" : " vz-anim") + '" style="--lw:' + (o.lw || 170) + "px;--vw:" + (o.vw || 74) + 'px">' + body + axis + "</div>" +
+    (o.axis ? '<p class="vz-axt">' + o.axis + "</p>" : "");
+}
+/* Re-render a vzRows host and slide rows from their old place to the new one (sort changes read as motion). */
+function vzSwap(host, html) {
+  var old = {}, calm = vzCalm();
+  if (!calm) [].forEach.call(host.querySelectorAll(".vz-r[data-k]"), function (r) { old[r.getAttribute("data-k")] = r.getBoundingClientRect().top; });
+  host.innerHTML = html;
+  if (calm) return;
+  [].forEach.call(host.querySelectorAll(".vz-r[data-k]"), function (r) {
+    var k = r.getAttribute("data-k"); if (old[k] == null) return;
+    var d = old[k] - r.getBoundingClientRect().top; if (!d) return;
+    r.style.transform = "translateY(" + d + "px)"; r.style.transition = "none";
+    requestAnimationFrame(function () { r.style.transition = "transform .45s cubic-bezier(.2,.8,.2,1)"; r.style.transform = ""; });
+  });
+}
+
+/* ------------------------------------------------------------------ distribution */
+/* id: unique; xs: values; o: {min, max, bins, fmt, axis, ref: {v, label}, presets: [[lo, hi, label]], detail(lo, hi) -> html, unit} */
+function vzDist(id, xs, o) {
+  var lo = o.min, hi = o.max, nb = o.bins || 40, c = [], i;
+  for (i = 0; i < nb; i++) c.push(0);
+  xs.forEach(function (v) { c[Math.min(nb - 1, Math.max(0, Math.floor(nb * (v - lo) / (hi - lo))))]++; });
+  var mx = Math.max.apply(null, c) || 1, H = 160, W = 1000, bw = W / nb;
+  var pts = c.map(function (n, k) { var y = H - (H - 6) * n / mx; return "L" + (k * bw) + " " + y + " L" + ((k + 1) * bw) + " " + y; }).join(" ");
+  var path = "M0 " + H + " " + pts + " L" + W + " " + H + " Z", line = "M0 " + H + " " + pts + " L" + W + " " + H;
+  var med = vzQ(xs, .5), q1 = vzQ(xs, .25), q3 = vzQ(xs, .75), P = function (v) { return (100 * (v - lo) / (hi - lo)).toFixed(2) + "%"; };
+  VZ[id] = { o: o, xs: xs, lo: lo, hi: hi, nb: nb, c: c };
+  var ticks = vzTicks(lo, hi, 5), fmt = o.fmt || function (v) { return v; };
+  var yt = vzTicks(0, mx, 2).filter(function (t) { return t > 0; });
+  return '<div class="vz-dist" data-vz="' + id + '"><div class="vz-dy" aria-hidden="true">' + yt.map(function (t) { return '<span style="bottom:' + (100 * (H - 6) / H * t / mx).toFixed(1) + '%">' + orN(t) + "</span>"; }).join("") + "</div>" +
+    '<div class="vz-dp" tabindex="0" role="img" aria-label="' + esc(o.label + ": " + orN(xs.length) + " olay; ortanca " + fmt(Math.round(med)) + ", çeyrekler " + fmt(Math.round(q1)) + "–" + fmt(Math.round(q3))) + '">' +
+    yt.map(function (t) { return '<i class="vz-gh" style="bottom:' + (100 * (H - 6) / H * t / mx).toFixed(1) + '%"></i>'; }).join("") +
+    '<i class="vz-iqr" style="left:' + P(q1) + ";width:calc(" + P(q3) + " - " + P(q1) + ')"></i>' +
+    '<svg viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="none" aria-hidden="true"><path class="vz-area" d="' + path + '"/><path class="vz-ln" d="' + line + '"/></svg>' +
+    (o.ref ? '<i class="vz-dref" style="left:' + P(o.ref.v) + '"><span>' + esc(o.ref.label) + "</span></i>" : "") +
+    '<i class="vz-med" style="left:' + P(med) + '"><span>ortanca ' + fmt(Math.round(med * 10) / 10) + "</span></i>" +
+    '<i class="vz-sel" hidden></i><i class="vz-xh" hidden></i></div>' +
+    '<div class="vz-dx" aria-hidden="true">' + ticks.map(function (t) { return '<span style="left:' + P(t) + '">' + fmt(t) + "</span>"; }).join("") + "</div></div>" +
+    '<p class="vz-axt">' + o.axis + ' <span class="vz-k"><i class="vz-k-iqr"></i>ortadaki %50 (çeyrekler arası)</span></p>' +
+    '<div class="or-ctl vz-pre" data-vz="' + id + '"><span class="or-cl">Aralık</span>' + o.presets.map(function (p, k) {
+      return '<button type="button" class="chip" data-vzp="' + k + '" aria-pressed="false">' + esc(p[2]) + "</button>"; }).join("") + "</div>" +
+    '<div class="or-panel" id="vz-d-' + id + '" aria-live="polite">' + o.detail(null) + "</div>";
+}
+function vzDistSel(id, a, b) {
+  var S = VZ[id]; if (!S) return;
+  var box = document.querySelector('.vz-dist[data-vz="' + id + '"] .vz-dp'), sel = box && box.querySelector(".vz-sel"), d = document.getElementById("vz-d-" + id);
+  [].forEach.call(document.querySelectorAll('.vz-pre[data-vz="' + id + '"] [data-vzp]'), function (x) {
+    var p = S.o.presets[+x.getAttribute("data-vzp")]; x.setAttribute("aria-pressed", a != null && p[0] === a && p[1] === b); });
+  if (a == null) { if (sel) sel.hidden = true; if (d) d.innerHTML = S.o.detail(null); return; }
+  if (sel) { sel.hidden = false; sel.style.left = (100 * (a - S.lo) / (S.hi - S.lo)) + "%"; sel.style.width = (100 * (b - a) / (S.hi - S.lo)) + "%"; }
+  if (d) { d.innerHTML = S.o.detail(a, b); wireGo(d); }
+}
+(function () {
+  var drag = null;
+  var at = function (ev) { var p = ev.target.closest && ev.target.closest(".vz-dp"); if (!p) return null; var id = p.parentNode.getAttribute("data-vz"), S = VZ[id], r = p.getBoundingClientRect();
+    var f = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)); return { p: p, id: id, S: S, f: f, v: S.lo + f * (S.hi - S.lo) }; };
+  document.addEventListener("pointermove", function (ev) {
+    var h = at(ev);
+    if (drag) {
+      var r = drag.p.getBoundingClientRect(), f = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)), S = VZ[drag.id], v = S.lo + f * (S.hi - S.lo);
+      var a = Math.min(drag.v, v), b = Math.max(drag.v, v), sel = drag.p.querySelector(".vz-sel");
+      sel.hidden = false; sel.style.left = (100 * (a - S.lo) / (S.hi - S.lo)) + "%"; sel.style.width = (100 * (b - a) / (S.hi - S.lo)) + "%"; drag.moved = Math.abs(f - drag.f) > .015;
+    }
+    if (!h || !h.S) return;
+    var k = Math.min(h.S.nb - 1, Math.floor(h.f * h.S.nb)), bl = h.S.lo + k * (h.S.hi - h.S.lo) / h.S.nb, bh = bl + (h.S.hi - h.S.lo) / h.S.nb, xh = h.p.querySelector(".vz-xh"), fm = h.S.o.fmt || String;
+    xh.hidden = false; xh.style.left = (100 * (k + .5) / h.S.nb) + "%";
+    tipOn(ev, "<span class='k'>" + fm(Math.round(bl)) + " – " + fm(Math.round(bh)) + "</span>" + orN(h.S.c[k]) + " olay · " + orP(h.S.c[k] / (h.S.xs.length || 1)) + "<br>Sürükleyin: bir aralık seçin");
+  });
+  document.addEventListener("pointerout", function (ev) { var p = ev.target.closest && ev.target.closest(".vz-dp"); if (p && !p.contains(ev.relatedTarget)) { p.querySelector(".vz-xh").hidden = true; tipOff(); } });
+  document.addEventListener("pointerdown", function (ev) { var h = at(ev); if (!h || !h.S) return; drag = { p: h.p, id: h.id, v: h.v, f: h.f }; ev.preventDefault(); });
+  document.addEventListener("pointerup", function (ev) {
+    if (!drag) return; var d = drag, S = VZ[d.id]; drag = null;
+    var r = d.p.getBoundingClientRect(), f = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)), v = S.lo + f * (S.hi - S.lo), w = (S.hi - S.lo) / S.nb;
+    if (!d.moved) { var k = Math.min(S.nb - 1, Math.floor(d.f * S.nb)); return vzDistSel(d.id, S.lo + k * w, S.lo + (k + 1) * w); }
+    vzDistSel(d.id, Math.min(d.v, v), Math.max(d.v, v));
+  });
+  document.addEventListener("click", function (ev) {
+    var b = ev.target.closest && ev.target.closest(".vz-pre [data-vzp]"); if (!b) return;
+    var id = b.closest(".vz-pre").getAttribute("data-vz"), p = VZ[id].o.presets[+b.getAttribute("data-vzp")];
+    if (b.getAttribute("aria-pressed") === "true") vzDistSel(id, null); else vzDistSel(id, p[0], p[1]);
+  });
+  /* Row tooltips anywhere on the site. */
+  var tp = function (ev) { return ev.target.closest && ev.target.closest("[data-vtip]"); };
+  document.addEventListener("pointerover", function (ev) { var t = tp(ev); if (t) tipOn(ev, t.getAttribute("data-vtip")); });
+  document.addEventListener("pointermove", function (ev) { var t = tp(ev); if (t) tipOn(ev, t.getAttribute("data-vtip")); });
+  document.addEventListener("pointerout", function (ev) { if (tp(ev)) tipOff(); });
+  document.addEventListener("focusin", function (ev) { var t = tp(ev); if (t) { var r = t.getBoundingClientRect(); tipOn({ clientX: r.left + r.width / 2, clientY: r.top }, t.getAttribute("data-vtip")); } });
+  document.addEventListener("focusout", function (ev) { if (tp(ev)) tipOff(); });
+})();
+
+/* ------------------------------------------------------------------ lines */
+/* id; xl: x labels; series: [{k, label, vals, c, thin, area}]; o: {fmt, unit, tipX(i), min, axis, band: [i0, i1, label]} */
+function vzLine(id, xl, series, o) {
+  o = o || {};
+  var n = xl.length, mx = 0; series.forEach(function (s) { s.vals.forEach(function (v) { if (v != null && v > mx) mx = v; }); });
+  var t0 = vzTicks(0, mx || 1, 3), st = t0.length > 1 ? t0[1] - t0[0] : (mx || 1), top = Math.max(st, Math.ceil((mx || 1) / st) * st), ticks = vzTicks(0, top, 3), H = 200, W = 1000;
+  var X = function (i) { return n < 2 ? W / 2 : W * i / (n - 1); }, Y = function (v) { return H - H * v / top; };
+  VZ[id] = { xl: xl, series: series, o: o, n: n, top: top };
+  var paths = series.map(function (s) {
+    var d = "", pen = false;
+    s.vals.forEach(function (v, i) { if (v == null) { pen = false; return; } d += (pen ? "L" : "M") + X(i).toFixed(1) + " " + Y(v).toFixed(1) + " "; pen = true; });
+    var area = s.area ? '<path class="vz-la" style="--c:' + s.c + '" d="' + d + "L" + X(n - 1) + " " + H + " L0 " + H + ' Z"/>' : "";
+    return area + '<path class="vz-l1' + (s.thin ? " thin" : "") + '" style="--c:' + s.c + '" d="' + d + '"/>';
+  }).join("");
+  var ends = series.filter(function (s) { return !s.thin; }).map(function (s) {
+    var i = s.vals.length - 1; while (i >= 0 && s.vals[i] == null) i--; if (i < 0) return "";
+    return '<i class="vz-end" style="left:' + (100 * X(i) / W) + "%;top:" + (100 * Y(s.vals[i]) / H) + "%;--c:" + s.c + '"></i>';
+  }).join("");
+  var xt = [0, Math.round((n - 1) / 2), n - 1].filter(function (v, i, a) { return a.indexOf(v) === i; });
+  return '<div class="vz-line" data-vl="' + id + '"><div class="vz-ly" aria-hidden="true">' + ticks.map(function (t) { return '<span style="bottom:' + (100 * t / top) + '%">' + (o.fmt || orN)(t) + "</span>"; }).join("") + "</div>" +
+    '<div class="vz-lp" tabindex="0" role="img" aria-label="' + esc(o.label || "") + '">' + ticks.map(function (t) { return '<i class="vz-gh" style="bottom:' + (100 * t / top) + '%"></i>'; }).join("") +
+    (o.band ? '<i class="vz-band" style="left:' + (100 * X(o.band[0]) / W) + "%;width:" + (100 * (X(o.band[1]) - X(o.band[0])) / W) + '%"><span>' + esc(o.band[2]) + "</span></i>" : "") +
+    '<svg viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="none" aria-hidden="true">' + paths + "</svg>" + ends + '<i class="vz-xh" hidden></i><span class="vz-dots"></span></div>' +
+    '<div class="vz-lx" aria-hidden="true">' + xt.map(function (i) { return '<span style="left:' + (100 * X(i) / W) + '%">' + esc(xl[i]) + "</span>"; }).join("") + "</div></div>" +
+    legendHTML(series.map(function (s) { return { c: s.c, line: 1, t: s.label }; }), o.legend || "Çizgi");
+}
+(function () {
+  var hit = function (ev) { var p = ev.target.closest && ev.target.closest(".vz-lp"); if (!p) return null; var id = p.parentNode.getAttribute("data-vl"); return { p: p, S: VZ[id] }; };
+  var show = function (p, S, i, ev) {
+    var xh = p.querySelector(".vz-xh"), dots = p.querySelector(".vz-dots"), top = S.top;
+    var X = S.n < 2 ? 50 : 100 * i / (S.n - 1);
+    xh.hidden = false; xh.style.left = X + "%";
+    dots.innerHTML = S.series.map(function (s) { var v = s.vals[i]; return v == null ? "" : '<i class="vz-end on" style="left:' + X + "%;top:" + (100 - 100 * v / top) + "%;--c:" + s.c + '"></i>'; }).join("");
+    tipOn(ev, "<span class='k'>" + esc(S.o.tipX ? S.o.tipX(i) : S.xl[i]) + "</span>" + S.series.map(function (s) {
+      var v = s.vals[i]; return v == null ? "" : esc(s.label) + ": <b>" + (S.o.fmt || orN)(s.thin ? v : Math.round(v * 10) / 10) + "</b>"; }).filter(Boolean).join("<br>"));
+  };
+  document.addEventListener("pointermove", function (ev) {
+    var h = hit(ev); if (!h || !h.S) return;
+    var r = h.p.getBoundingClientRect(), i = Math.round((h.S.n - 1) * Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)));
+    show(h.p, h.S, i, ev);
+  });
+  document.addEventListener("pointerout", function (ev) { var p = ev.target.closest && ev.target.closest(".vz-lp"); if (p && !p.contains(ev.relatedTarget)) { p.querySelector(".vz-xh").hidden = true; p.querySelector(".vz-dots").innerHTML = ""; tipOff(); } });
+  document.addEventListener("keydown", function (ev) {
+    var p = document.activeElement; if (!p || !p.classList || !p.classList.contains("vz-lp") || (ev.key !== "ArrowLeft" && ev.key !== "ArrowRight")) return;
+    var S = VZ[p.parentNode.getAttribute("data-vl")]; p._i = Math.max(0, Math.min(S.n - 1, (p._i == null ? S.n - 1 : p._i) + (ev.key === "ArrowLeft" ? -1 : 1)));
+    var r = p.getBoundingClientRect(); show(p, S, p._i, { clientX: r.left + r.width * p._i / Math.max(1, S.n - 1), clientY: r.top }); ev.preventDefault();
+  });
+})();
+
 /* Homepage: what the site does, one live card per function. Each card states the function in one line
    and shows one number computed from this build's data. */
 function pgHome7() {
@@ -11414,18 +11732,18 @@ function orMantelText(r, p, subject) {
 function orCoverage() {
   var ev = orEvents(), bins = [], i;
   for (i = 0; i < 10; i++) bins.push({ lo: i * 10, hi: i * 10 + 10, ev: [] });
-  var zl = 0, zr = 0, shares = [];
+  var zl = 0, zr = 0, shares = [], pts = [];
   ev.forEach(function (e) {
     var c = covOf(e), t = c[0] + c[1] + c[2];
     if (!t) return;
-    var sh = c[0] / t; shares.push(sh);
+    var sh = c[0] / t; shares.push(sh); pts.push({ e: e, v: 100 * sh });
     if (!c[0]) zl++;
     if (!c[2]) zr++;
     bins[Math.min(9, Math.floor(sh * 10))].ev.push(e);
   });
   shares.sort(function (a, b) { return a - b; });
   bins.forEach(function (b) { b.ev.sort(function (x, y) { return y.s.length - x.s.length; }); });
-  return { bins: bins, n: shares.length, zl: zl, zr: zr, med: shares.length ? shares[Math.floor((shares.length - 1) / 2)] : 0 };
+  return { bins: bins, pts: pts, n: shares.length, zl: zl, zr: zr, med: shares.length ? shares[Math.floor((shares.length - 1) / 2)] : 0 };
 }
 function orCovDetail(b, tot) {
   if (!b) return '<p class="or-hint">Bir sütuna dokunun ya da tıklayın: o aralıktaki en çok kurumun verdiği olaylar burada listelenir.</p>';
@@ -11445,17 +11763,25 @@ function orCols(set, bins, o) {
 }
 function orFindCoverage() {
   var C = ORD.cov = orCoverage(), act = V2.active || {}, tot = (act.left || 0) + (act.mid || 0) + (act.right || 0) || 1;
-  var cols = orCols("cov", C.bins, { n: C.n, label: function (b) { return "Sol payı %" + b.lo + "–" + b.hi; },
-    axis: "Olayı veren, yerleşimi bilinen kurumlar içinde sola yerleşik olanların payı (%)", detail: function (b) { return orCovDetail(b, C.n); } });
+  var exp = 100 * (act.left || 0) / tot;
+  var cols = vzDist("cov", C.pts.map(function (p) { return p.v; }), { min: 0, max: 100, bins: 40, fmt: function (v) { return "%" + v; },
+    label: "Olayların sol payı dağılımı", axis: "Olayı veren, yerleşimi bilinen kurumlar içinde sola yerleşik olanların payı (%). Bir aralık seçmek için sürükleyin ya da tıklayın.",
+    ref: { v: exp, label: "kurum oranı %" + Math.round(exp) },
+    presets: [[0, 1, "%0 · hiç sol yok"], [1, 25, "%1–25"], [25, 50, "%25–50"], [50, 100.01, "%50 ve üstü"]],
+    detail: function (a, b) {
+      if (a == null) return '<p class="or-hint">Grafikte bir aralık seçin ya da üstteki düğmelerden birine basın: o aralıktaki en çok kurumun verdiği olaylar burada listelenir.</p>';
+      var ev = C.pts.filter(function (p) { return p.v >= a && (p.v < b || (b >= 100 && p.v <= 100)); }).map(function (p) { return p.e; }).sort(function (x, y) { return y.s.length - x.s.length; });
+      return "<p><b>" + (a === 0 && b <= 1 ? "Hiç sola yerleşik kurumun vermediği" : "Sol payı %" + Math.round(a) + "–" + Math.min(100, Math.round(b)) + " olan") + "</b> " + orN(ev.length) + " olay (" + orP(ev.length / (C.n || 1)) + "). En çok kurumun verdiği " + Math.min(8, ev.length) + ":</p>" +
+        (ev.length ? orEvList(ev.slice(0, 8)) : '<p class="or-hint">Bu aralıkta olay yok.</p>'); } });
   return { id: "secim-kapsama",
     claim: "<b>" + orN(C.n) + "</b> olayın <b>" + orN(C.zl) + "</b> tanesini sola yerleşik hiçbir kurum vermedi; sağa yerleşik hiçbir kurumun vermediği olay sayısı <b>" + orN(C.zr) + "</b>.",
     viz: cols,
-    means: "Kayıt defterindeki etkin kurumların " + orP((act.left || 0) / tot) + "’si sola, " + orP((act.right || 0) / tot) + "’si sağa yerleşik; olayların ortanca sol payı " + orP(C.med) + ". " +
+    means: "Kayıt defterindeki etkin kurumların " + orP((act.left || 0) / tot) + "’si sola, " + orP((act.right || 0) / tot) + "’si sağa yerleşik; olayların ortanca sol payı " + orP(C.med) + ". Turuncu çizgi, solun etkin kurumlar içindeki payıdır: olay seçiminde hiç fark olmasaydı olaylar bu çizginin çevresinde toplanırdı. " +
       "Sol payının düşük çıkması kısmen bu dağılımdan gelir: sol kurum sayısı az olduğu için, olay seçiminde bir fark olmasa da çoğu olayda sol payı düşük kalır. " +
       "Bu şerit tek başına bir kurumun neyi seçtiğini göstermez; taraf sayısına göre düzeltilmiş okuma bir sonraki bulguda.",
     how: orHow(["Birim: en az " + (D.meta.params && D.meta.params.event_min_outlets || 5) + " kurumun verdiği olay (resmî ilan olayları hariç), n = " + orN(C.n) + ".",
       "Sol payı = olayı veren sola yerleşik kurum sayısı / yerleşimi bilinen kurum sayısı. Yerleşim kayıt defterinden gelir ve doğrulanmamıştır: 45’in altı sol, 55’in üstü sağ.",
-      "Sütun genişliği %10; son sütun %100’ü içerir."], "olay") };
+      "Alan, 2,5 puanlık dilimlerdeki olay sayısıdır; gri bant ortadaki %50’yi, siyah çizgi ortancayı gösterir."], "olay") };
 }
 
 function orFindBlind() {
@@ -11529,15 +11855,15 @@ function orFindTopics() {
   var order = th.map(function (t, i) { return i; }).sort(function (a, b) { return T.pool[b] - T.pool[a]; });
   var diff = th.map(function (t, i) { return { i: i, d: B.share.right[i] - B.share.left[i] }; }).sort(function (a, b) { return Math.abs(b.d) - Math.abs(a.d); })[0];
   var mx = Math.max.apply(null, blocs.map(function (b) { return Math.max.apply(null, B.share[b]); })) || 1;
-  var rows = order.map(function (i) {
-    return '<div class="or-tr"><span class="or-bl">' + esc(th[i].l) + "</span>" + blocs.map(function (b) {
-      var v = B.share[b][i], r = v / (T.pool[i] || 1);
-      return '<span class="or-tc"' + orTip("<span class='k'>" + esc(th[i].l) + " · " + SIDE[b] + " bloğu</span>Başlıkların " + orP(v) + "’si<br>Tüm kurumların ortalaması " + orP(T.pool[i]) + " · " + dec(r, 2) + " katı") +
-        '><i style="width:' + Math.max(1, 100 * v / mx) + "%;background:var(--" + b + ')"></i><b>' + Math.round(100 * v) + "</b></span>";
-    }).join("") + "</div>";
-  }).join("");
-  var viz = '<div class="or-topics" style="--c:' + blocs.length + '">' + rows + "</div>" +
-    legendHTML(blocs.map(function (b) { return { c: "var(--" + b + ")", t: SIDE[b] + " bloğunun " + B.n[b] + " kurumu" }; }), "Blok");
+  var gap = function (i) { var vs = blocs.map(function (b) { return B.share[b][i]; }); return Math.max.apply(null, vs) - Math.min.apply(null, vs); };
+  var viz = vzKey(blocs.map(function (b) { return { c: "var(--" + b + ")", t: SIDE[b] + " bloğu (" + B.n[b] + " kurum)" }; }).concat([{ kind: "t", t: "bütün kurumlar" }])) +
+    vzRows(order.slice().sort(function (a, b) { return gap(b) - gap(a); }).map(function (i) {
+      return { k: "t" + i, label: th[i].l, ref: 100 * T.pool[i], span: "pts", val: dec(100 * gap(i), 1) + " puan",
+        pts: blocs.map(function (b) { return { v: 100 * B.share[b][i], c: "var(--" + b + ")" }; }),
+        tip: "<span class='k'>" + esc(th[i].l) + "</span>" + blocs.map(function (b) { return SIDE[b] + " bloğu: " + orP(B.share[b][i]); }).join("<br>") +
+          "<br>Bütün kurumlar: " + orP(T.pool[i]) + "<br>En uç iki blok arası " + dec(100 * gap(i), 1) + " puan" };
+    }), { min: 0, max: Math.ceil(100 * mx * 1.08 / 5) * 5, fmt: function (v) { return "%" + v; }, lw: 190, vw: 78,
+      axis: "Temanın bloktaki başlıklar içindeki payı. Satırlar blokların en çok ayrıştığı temadan en az ayrıştığına sıralı; sağdaki sayı en uç iki blok arasındaki fark." });
   return { id: "secim-konu",
     claim: "Bloklar arasındaki en büyük konu farkı <b>" + esc(th[diff.i].l) + "</b> temasında: sağ bloğun başlıklarının " + orP(B.share.right[diff.i]) + "’i, sol bloğunkilerin " + orP(B.share.left[diff.i]) + "’i bu temada.",
     viz: viz,
@@ -11556,10 +11882,12 @@ function orFindWeekly() {
   ev.forEach(function (e) { var w = W[wk7(e.f)]; if (!w) return; w.ev++; if (e.bs === "left") w.l++; if (e.bs === "right") w.r++; });
   var mx = Math.max.apply(null, W.map(function (w) { return Math.max(w.l, w.r); })) || 1;
   var lab = function (k) { return fmtD(new Date(Date.parse(DAYS[0] + "T00:00Z") + k * 7 * 864e5).toISOString().slice(0, 10) + "T00:00"); };
-  var viz = '<div class="or-wk" style="--n:' + nW + '">' + W.map(function (w, k) {
-    return '<div class="or-wc" tabindex="0"' + orTip("<span class='k'>" + lab(k) + " haftası" + (w.days < 7 ? " (" + w.days + " gün)" : "") + "</span>" + orN(w.ev) + " olay<br>Solun az verdiği: " + w.l + " · Sağın az verdiği: " + w.r) +
-      '><span class="or-wb"><i style="height:' + (100 * w.l / mx) + '%;background:var(--left)"></i><i style="height:' + (100 * w.r / mx) + '%;background:var(--right)"></i></span><span class="or-wn">' + (w.l + w.r) + "</span><span class=\"or-wd\">" + lab(k) + "</span></div>";
-  }).join("") + "</div>" + legendHTML([{ c: "var(--left)", t: "solun az verdiği olay" }, { c: "var(--right)", t: "sağın az verdiği olay" }], "Sütun çifti");
+  var viz = vzLine("hafta", W.map(function (w, k) { return lab(k); }), [
+      { k: "l", label: "Solun az verdiği olay", vals: W.map(function (w) { return w.l; }), c: "var(--left)" },
+      { k: "r", label: "Sağın az verdiği olay", vals: W.map(function (w) { return w.r; }), c: "var(--right)" }],
+    { label: "Haftalık kör nokta sayısı, sol ve sağ", tipX: function (k) { return lab(k) + " haftası" + (W[k].days < 7 ? " (" + W[k].days + " gün)" : "") + " · " + orN(W[k].ev) + " olay"; },
+      band: W[nW - 1].days < 7 ? [nW - 2, nW - 1, "kısmi"] : null }) +
+    '<p class="or-hint">Çizginin üzerinde gezinin (ya da odaklanıp ok tuşlarını kullanın): haftanın olay sayısı ve iki tarafın kör noktaları görünür.</p>';
   var tot = W.reduce(function (t, w) { return t + w.l + w.r; }, 0);
   var peak = W.map(function (w, k) { return { k: k, n: w.l + w.r }; }).sort(function (a, b) { return b.n - a.n; })[0];
   var low = W.filter(function (w) { return w.days >= 7; }).map(function (w) { return w.l + w.r; });
@@ -11583,12 +11911,14 @@ function orFindRange() {
   var ps = ev.map(function (e) { return e.p || 0; }).sort(function (a, b) { return a - b; }), med = ps[Math.floor((ps.length - 1) / 2)];
   var widest = ev.slice().sort(function (a, b) { return b.p - a.p; })[0];
   ORD.widest = ev.filter(function (e) { return e.s.length >= 8 && defaultPair(e); }).sort(function (a, b) { return b.p - a.p; }).slice(0, 3);
-  var cols = orCols("rng", bins, { n: n, label: function (b) { return "Puan aralığı " + b.lo + "–" + (b.hi - 1); },
-    axis: "Aynı olaydaki en yüklü ve en sakin başlığın puanı arasındaki fark",
-    detail: function (b) {
-      if (!b) return '<p class="or-hint">Bir sütuna dokunun ya da tıklayın: o aralıktaki en geniş farklı olaylar listelenir.</p>';
-      return "<p><b>Aralık " + b.lo + "–" + (b.hi - 1) + " puan</b> olan " + orN(b.ev.length) + " olay. En geniş " + Math.min(8, b.ev.length) + ":</p>" +
-        (b.ev.length ? orEvList(b.ev.slice(0, 8), function (e) { return "aralık " + e.p; }) : '<p class="or-hint">Bu aralıkta olay yok.</p>'); } });
+  var cols = vzDist("rng", ev.map(function (e) { return e.p || 0; }), { min: 0, max: 100, bins: 50,
+    label: "Olayların yüklü dil aralığı dağılımı", axis: "Aynı olaydaki en yüklü ve en sakin başlığın puanı arasındaki fark. Bir aralık seçmek için sürükleyin ya da tıklayın.",
+    presets: [[0, 10, "0–9"], [10, 20, "10–19"], [20, 40, "20–39"], [40, 101, "40 ve üstü"]],
+    detail: function (a, b) {
+      if (a == null) return '<p class="or-hint">Grafikte bir aralık seçin ya da bir düğmeye basın: o aralıktaki en geniş farklı olaylar listelenir.</p>';
+      var es = ev.filter(function (e) { var p = e.p || 0; return p >= a && p < b; }).sort(function (x, y) { return y.p - x.p || y.s.length - x.s.length; });
+      return "<p><b>Aralık " + Math.round(a) + "–" + Math.min(100, Math.round(b)) + " puan</b> olan " + orN(es.length) + " olay. En geniş " + Math.min(8, es.length) + ":</p>" +
+        (es.length ? orEvList(es.slice(0, 8), function (e) { return "aralık " + e.p; }) : '<p class="or-hint">Bu aralıkta olay yok.</p>'); } });
   return { id: "dil-aralik",
     claim: "Olayların <b>" + orP(low / n) + "</b>’inde başlıklar arasındaki yüklü dil puanı farkı 10’un altında; <b>" + orN(hi4) + "</b> olayda 40 puan ve üzeri. En geniş fark <b>" + widest.p + "</b> puan.",
     viz: cols,
@@ -11596,7 +11926,7 @@ function orFindRange() {
       "Geniş aralık, bir kurumun diğerlerinden çok sert bir sözcük seçtiği anlamına gelir; hangi kurumun hangi yönde ayrıştığı bu grafikten okunmaz. " +
       "Ayrışan olayları tek tek açmak için bir sütuna tıklayın.",
     how: orHow(["Her başlık kural tabanlı puanlayıcıyla 0–100 puanlanır (Yöntem › yüklü dil). Aralık = olaydaki en yüksek puan − en düşük puan.",
-      "Birim: resmî ilan olayları hariç " + orN(n) + " olay. Sütun genişliği 10 puan."], "dil") };
+      "Birim: resmî ilan olayları hariç " + orN(n) + " olay. Alan 2 puanlık dilimlerdeki olay sayısıdır."], "dil") };
 }
 
 function orLangRows(metric) {
@@ -11620,18 +11950,29 @@ function orLangHtml() {
   else rows.sort(function (a, b) { return b[key] - a[key]; });
   var fmt = function (v) { return key === "share" ? orP(v) : dec(v, 1); };
   var bl = orLangBlocs(ORD.langRows);
-  var bars = ["left", "mid", "right"].filter(function (b) { return bl[b]; }).map(function (b) {
-    var v = key === "share" ? bl[b].hot / bl[b].n : bl[b].sum / bl[b].n;
-    return { label: SIDE[b] + " bloğu", v: v, disp: fmt(v), c: "var(--" + b + ")", tip: "<span class='k'>" + SIDE[b] + " bloğu</span>" + bl[b].outlets + " kurum · " + orN(bl[b].n) + " siyasi başlık" };
-  });
+  var bv = function (b) { return bl[b] ? (key === "share" ? bl[b].hot / bl[b].n : bl[b].sum / bl[b].n) : null; };
+  var mul = key === "share" ? 100 : 1, f2 = function (v) { return key === "share" ? "%" + dec(v, 0) : dec(v, 0); };
+  var tn = 0, ts = 0, th = 0; ORD.langRows.forEach(function (r) { tn += r.n; ts += r.sum; th += r.hot; });
+  var allv = key === "share" ? th / (tn || 1) : ts / (tn || 1);
+  if (st.sort === "dev") rows.sort(function (a, b) { return (b[key] - bv(bloc(b.s))) - (a[key] - bv(bloc(a.s))); });
+  var bk = ["left", "mid", "right"].filter(function (b) { return bl[b]; });
   var chip = function (a, v, t, on) { return '<button type="button" class="chip" data-' + a + '="' + v + '" aria-pressed="' + on + '">' + t + "</button>"; };
+  var hiV = Math.max.apply(null, rows.map(function (r) { return r[key]; })) * mul;
+  var vr = [{ k: "blok", label: "Blok ortalamaları", span: "pts", val: dec(mul * (Math.max.apply(null, bk.map(bv)) - Math.min.apply(null, bk.map(bv))), 1) + " fark",
+    pts: bk.map(function (b) { return { v: mul * bv(b), c: "var(--" + b + ")", big: true }; }),
+    tip: "<span class='k'>Blok ortalamaları</span>" + bk.map(function (b) { return SIDE[b] + ": " + fmt(bv(b)) + " (" + bl[b].outlets + " kurum, " + orN(bl[b].n) + " başlık)"; }).join("<br>") }]
+    .concat(rows.map(function (r) {
+      var b = bloc(r.s), d = r[key] - (bv(b) || 0);
+      return { k: r.s, label: srcName(r.s), sw: lean(r.lean), go: "#/kurum?s=" + r.s, ref: bv(b) == null ? null : mul * bv(b), span: "ref", val: fmt(r[key]),
+        pts: [{ v: mul * r[key], c: lean(r.lean) }],
+        tip: "<span class='k'>" + esc(srcName(r.s)) + "</span>" + orN(r.n) + " siyasi başlık<br>Ortalama puan " + dec(r.mean, 1) + " · yüklü başlık payı " + orP(r.share) +
+          (bv(b) != null ? "<br>Kendi bloğunun ortalamasından " + (d >= 0 ? "+" : "−") + fmt(Math.abs(d)).replace("%", "") + (key === "share" ? " puan" : "") : "") + "<br>Tıklayın: kurum sayfası" };
+    }));
   return '<div class="or-ctl"><span class="or-cl">Ölçü</span>' + chip("lm", "mean", "Ortalama puan", key === "mean") + chip("lm", "share", "Yüklü başlık payı", key === "share") +
-    '<span class="or-cl">Sıra</span>' + chip("ls", "val", "Değere göre", st.sort === "val") + chip("ls", "lean", "Yerleşime göre", st.sort === "lean") + chip("ls", "name", "Ada göre", st.sort === "name") + "</div>" +
-    '<h4 class="or-h4">Bloklar</h4>' + orBars(bars, Math.max.apply(null, rows.map(function (r) { return r[key]; })) * 1.05) + '<h4 class="or-h4">Kurumlar</h4>' +
-    orBars(rows.map(function (r) {
-      return { label: srcName(r.s), v: r[key], disp: fmt(r[key]), c: lean(r.lean), go: "#/kurum?s=" + r.s,
-        tip: "<span class='k'>" + esc(srcName(r.s)) + "</span>" + orN(r.n) + " siyasi başlık<br>Ortalama puan " + dec(r.mean, 1) + " · yüklü başlık payı " + orP(r.share) + "<br>Tıklayın: kurum sayfası" };
-    }), Math.max.apply(null, rows.map(function (r) { return r[key]; })) * 1.05);
+    '<span class="or-cl">Sıra</span>' + chip("ls", "val", "Değere göre", st.sort === "val") + chip("ls", "dev", "Bloğundan sapmaya göre", st.sort === "dev") + chip("ls", "lean", "Yerleşime göre", st.sort === "lean") + chip("ls", "name", "Ada göre", st.sort === "name") + "</div>" +
+    vzKey([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { kind: "t", t: "kurumun kendi bloğunun ortalaması" }, { kind: "al", t: "bütün siyasi başlıklar" }]) +
+    vzRows(vr, { min: Math.max(0, Math.floor(Math.min.apply(null, rows.map(function (r) { return r[key]; })) * mul * .85)), max: Math.ceil(hiV * 1.08), fmt: f2, refAll: { v: mul * allv, label: "tümü " + fmt(allv) }, lw: 170, vw: 64,
+      axis: "Çizgi, kurumun değerini kendi bloğunun ortalamasına bağlar: uzun çizgi, kurumun bloğundan ayrıştığını gösterir." });
 }
 function orFindLoaded() {
   ORD.lang = ORD.lang || { metric: "mean", sort: "val" };
@@ -11738,7 +12079,10 @@ function orFindAI() {
   var R = orBlocAI();
   if (!R) return { id: "dil-yz", claim: "YZ incelemesi verisi bu yapıda yok " + yzBadge() + ".", viz: yzBlock("<p>Veri yok.</p>", "Yapay zekâ incelemesi"), means: "İnceleme sonuçları yüklenmediği için bu bulgu hesaplanamadı.", how: orHow(["İnceleme verisi yok."], "yz") };
   var blocs = ["left", "mid", "right"].filter(function (b) { return R.cov[b]; }), rate = function (b) { return R.cov[b] ? R.hit[b] / R.cov[b] : 0; };
-  var bars = orBars(blocs.map(function (b) { return { label: SIDE[b] + " bloğu", v: rate(b), disp: orP(rate(b)), c: "var(--" + b + ")", tip: "<span class='k'>" + SIDE[b] + " bloğu</span>" + R.hit[b] + " / " + R.cov[b] + " olay" }; }), 1);
+  var bars = vzRows(blocs.map(function (b) { var ci = vzWilson(R.hit[b], R.cov[b]);
+      return { k: b, label: SIDE[b] + " bloğu", val: orP(rate(b)), pts: [{ v: 100 * rate(b), lo: 100 * ci[0], hi: 100 * ci[1], c: "var(--" + b + ")", big: true }],
+        tip: "<span class='k'>" + SIDE[b] + " bloğu</span>" + R.hit[b] + " / " + R.cov[b] + " olay · " + orP(rate(b)) + "<br>%95 aralık " + orP(ci[0]) + " – " + orP(ci[1]) }; }),
+    { min: 0, max: 100, fmt: function (v) { return "%" + v; }, lw: 120, vw: 60, axis: "Nokta oran, yatay çizgi %95 güven aralığı: az olaylı blokta aralık geniştir; aralıkları örtüşen bloklar arasındaki fark şansla açıklanabilir." });
   var cs = Object.keys(R.byC).sort(function (a, b) { return R.byC[b].n - R.byC[a].n; }).slice(0, 6);
   var tbl = '<div class="scroller"><table><thead><tr><th>Kavram</th>' + blocs.map(function (b) { return '<th class="r">' + SIDE[b] + "</th>"; }).join("") + "</tr></thead><tbody>" + cs.map(function (k) {
     var r = R.byC[k]; return "<tr><td>" + esc(k) + "</td>" + blocs.map(function (b) { return '<td class="r">' + (r.cov[b] ? Math.round(100 * r.hit[b] / r.cov[b]) + "% · " + r.cov[b] : "—") + "</td>"; }).join("") + "</tr>"; }).join("") + "</tbody></table></div>" +
@@ -11771,12 +12115,17 @@ function orAnKeys(sel) {
 function orAnBars(sel) {
   var keys = orAnKeys(sel), sh = dimShares(D.N, keys), n = keys.length;
   var ai = keys.filter(function (k) { return D.N[k].status === "agent_coded"; }).length;
+  var allK = orAnKeys("all"), all = dimShares(D.N, allK), cmp = sel !== "all";
+  var ord = NORD.slice().sort(function (a, b) { return all[b] - all[a]; });
   return '<p class="or-meta2">' + orN(n) + " olay" + (ai ? " · bunların " + ai + " tanesi YZ ile kodlandı " + yzBadge() : "") + "</p>" +
-    orBars(NORD.map(function (d) {
-      var c = Math.round(sh[d] * n);
-      return { label: NDL[d], v: sh[d], disp: orP(sh[d]), c: "var(--ink2)", go: sel !== "all" && sel !== "hand" && sel !== "ai" ? "#/anlati?w=" + sel : "",
-        tip: "<span class='k'>" + esc(NDL[d]) + "</span>" + c + " / " + n + " olayda odak boyutu<br>" + orP(sh[d]) };
-    }), 1);
+    vzKey([{ c: "var(--ink)", t: "seçilen olaylarda pay" }, { kind: "ci", t: "%95 aralık" }].concat(cmp ? [{ kind: "t", t: "bütün kodlanan olaylar" }] : [])) +
+    vzRows(ord.map(function (d) {
+      var c = Math.round(sh[d] * n), ci = vzWilson(c, n);
+      return { k: d, label: NDL[d], val: orP(sh[d]), ref: cmp ? 100 * all[d] : null, span: cmp ? "ref" : false,
+        pts: [{ v: 100 * sh[d], lo: 100 * ci[0], hi: 100 * ci[1], c: "var(--ink)" }], go: sel !== "all" && sel !== "hand" && sel !== "ai" ? "#/anlati?w=" + sel : "",
+        tip: "<span class='k'>" + esc(NDL[d]) + "</span>" + c + " / " + n + " olayda odak boyutu · " + orP(sh[d]) + "<br>%95 aralık " + orP(ci[0]) + " – " + orP(ci[1]) + (cmp ? "<br>Bütün kodlanan olaylarda " + orP(all[d]) : "") };
+    }), { min: 0, max: 100, fmt: function (v) { return "%" + v; }, lw: 170, vw: 60,
+      axis: cmp ? "Siyah çentik bütün kodlanan olaylardaki pay; nokta çentikten uzaksa bu seçim genel resimden ayrışıyor (aralık çentiği kesmiyorsa fark şansla açıklanamayacak kadar büyük)." : "Nokta pay, yatay çizgi %95 güven aralığı. Bir hafta seçince o haftanın payı bütün olaylarla karşılaştırılır." });
 }
 function orFindDims() {
   var ws = v7Weeks().filter(function (w) { return w.keys.length; }), all = orAnKeys("all"), sh = dimShares(D.N, all), n = all.length;
@@ -11806,7 +12155,7 @@ function orFindBlame() {
   var keys = orAnKeys("all"), rows = blameByBloc(D.N, keys, bloc).filter(function (r) { return !UNSET(r.value); }), who = orBlameOutlets(keys);
   var tot = function (r) { return r.left + r.mid + r.right + r.none; }, top = rows.slice(0, 10), mx = top.length ? tot(top[0]) : 1;
   var all = 0, withB = 0; keys.forEach(function (k) { ((D.N[k] && D.N[k].rows) || []).forEach(function (r) { all++; if (String(r.blame || "").trim() && !UNSET(r.blame)) withB++; }); });
-  var viz = '<div class="or-bars">' + top.map(function (r) {
+  var viz0 = '<div class="or-bars">' + top.map(function (r) {
     var w = who[r.value] || {}, tip = "<span class='k'>" + esc(r.value) + "</span>" + ["left", "mid", "right"].map(function (b) {
       var o = w[b] || {}, names = Object.keys(o).sort(function (a, c) { return o[c] - o[a]; }).map(function (s) { return esc(srcName(s)) + (o[s] > 1 ? " ×" + o[s] : ""); });
       return SIDE[b] + " (" + r[b] + "): " + (names.join(", ") || "—"); }).join("<br>");
@@ -11814,9 +12163,16 @@ function orFindBlame() {
       ["left", "mid", "right"].map(function (b) { return r[b] ? '<i style="flex:' + r[b] + ";background:var(--" + b + ')"></i>' : ""; }).join("") + "</span><b>" + tot(r) + "</b></div>";
   }).join("") + "</div>" + legendHTML([{ c: "var(--left)", t: "sola yerleşik kurum" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik kurum" }], "Renk") +
     '<p class="or-hint">Bir çubuğa gelin: hangi kurumların başlığında bu aktörün sorumlu tutulduğu görünür.</p>';
+  var act = V2.active || {}, viz = vzKey([{ c: "var(--left)", t: "sol" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağ" }]) +
+    vzRows(top.map(function (r) {
+      return { k: r.value, label: r.value, span: "pts", val: tot(r) + " satır",
+        pts: ["left", "mid", "right"].filter(function (b) { return act[b]; }).map(function (b) { return { v: 100 * r[b] / act[b], c: "var(--" + b + ")" }; }),
+        tip: "<span class='k'>" + esc(r.value) + "</span>" + ["left", "mid", "right"].map(function (b) { return SIDE[b] + ": " + r[b] + " satır" + (act[b] ? " · etkin kurum başına " + dec(r[b] / act[b], 2) : ""); }).join("<br>") };
+    }), { min: 0, fmt: function (v) { return dec(v / 100, 1); }, lw: 190, vw: 70,
+      axis: "Etkin kurum başına sorumlu tutma sayısı: blokların kurum sayısı farklı olduğu için ham sayı yerine kurum başına değer. Uzun çizgi bloklar arasında ayrışmayı gösterir." });
   viz = g6Switch("sorumlu", g6Box("blame", "", "Kurumlardan sorumlu tutulan aktörlere giden ağ") +
     legendHTML([{ c: "var(--hot)", t: "sorumlu tutulan aktör (kare)" }, { c: "var(--left)", t: "sola yerleşik kurum" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik kurum" }], "Ağ") +
-    '<p class="or-hint">Her çizgi bir kurumun başlığında o aktörü sorumlu tuttuğu olaylar; kalınlık olay sayısı. Aynı aktöre bağlanan kurumlar bir araya toplanır.</p>', viz, "Çubuk");
+    '<p class="or-hint">Her çizgi bir kurumun başlığında o aktörü sorumlu tuttuğu olaylar; kalınlık olay sayısı. Aynı aktöre bağlanan kurumlar bir araya toplanır.</p>', viz, "Kurum başına");
   var t0 = top[0] || { value: "—", left: 0, mid: 0, right: 0, none: 0 };
   return { id: "anlati-sorumlu",
     claim: "En sık sorumlu tutulan taraf <b>" + esc(t0.value) + "</b>: " + tot(t0) + " kurum satırında (sol " + t0.left + ", merkez " + t0.mid + ", sağ " + t0.right + ").",
@@ -11879,8 +12235,16 @@ function orFindLead() {
 function orFindBlocLag() {
   var B = (V5.leadLag || {}).blocs || {}, rows = [["left>right", "Sol → sağ"], ["right>left", "Sağ → sol"], ["left>mid", "Sol → merkez"], ["right>mid", "Sağ → merkez"]].filter(function (r) { return B[r[0]]; });
   var tip = function (k, t) { return "<span class='k'>" + t + "</span>" + orN(B[k].n) + " olay<br>Karşı taraftan en az biri verdi: " + pc5(B[k].coveredShare) + "<br>Ortanca gecikme " + dur5(B[k].medLag); };
-  var viz = '<p class="or-hint">Okuma: “Sol → sağ”: olayı ilk veren kurum sola yerleşik; satır, bu olayları sağdan en az bir kurumun da verdiği payı ve gecikmeyi gösterir.</p><h4 class="or-h4">Karşı bloktan en az bir kurumun verdiği olay payı</h4>' + orBars(rows.map(function (r) { return { label: r[1], v: B[r[0]].coveredShare, disp: pc5(B[r[0]].coveredShare), c: "var(--ink2)", tip: tip(r[0], r[1]) }; }), 1) +
-    '<h4 class="or-h4">Ortanca gecikme</h4>' + orBars(rows.map(function (r) { return { label: r[1], v: B[r[0]].medLag, disp: dur5(B[r[0]].medLag), c: "var(--ink2)", tip: tip(r[0], r[1]) }; }));
+  var src = function (k) { return "var(--" + k.split(">")[0] + ")"; };
+  var viz = '<p class="or-hint">Okuma: “Sol → sağ”: olayı ilk veren kurum sola yerleşik; satır, bu olayları sağdan en az bir kurumun da verdiği payı ve gecikmeyi gösterir. Nokta rengi olayı açan blok.</p><h4 class="or-h4">Karşı bloktan en az bir kurumun verdiği olay payı</h4>' +
+    vzRows(rows.map(function (r) { var b = B[r[0]], ci = vzWilson(Math.round(b.coveredShare * b.n), b.n);
+      return { k: r[0], label: r[1], val: pc5(b.coveredShare), pts: [{ v: 100 * b.coveredShare, lo: 100 * ci[0], hi: 100 * ci[1], c: src(r[0]), big: true }], tip: tip(r[0], r[1]) + "<br>%95 aralık " + orP(ci[0]) + " – " + orP(ci[1]) }; }),
+      { min: 0, max: 100, fmt: function (v) { return "%" + v; }, lw: 130, vw: 64 }) +
+    '<h4 class="or-h4">Ortanca gecikme</h4>' +
+    vzRows(rows.map(function (r) { return { k: r[0] + "l", label: r[1], val: dur5(B[r[0]].medLag), span: "zero", pts: [{ v: B[r[0]].medLag, c: src(r[0]), big: true }], tip: tip(r[0], r[1]) }; }),
+      { min: 0, max: Math.ceil(Math.max.apply(null, rows.map(function (r) { return B[r[0]].medLag; })) / 60) * 60,
+        ticks: (function () { var m = Math.ceil(Math.max.apply(null, rows.map(function (r) { return B[r[0]].medLag; })) / 60) * 60, t = []; for (var v = 0; v <= m; v += 60) t.push(v); return t; })(),
+        fmt: function (v) { return v ? v / 60 + " sa" : "0"; }, lw: 130, vw: 64, axis: "Pay satırlarındaki yatay çizgi %95 güven aralığıdır; olay sayısı az olan yönde aralık geniştir." });
   var lr = B["left>right"], rl = B["right>left"];
   return { id: "hiz-blok",
     claim: lr && rl ? "Sol kurumların açtığı olayların <b>" + pc5(lr.coveredShare) + "</b>’i sağdan en az bir kurum tarafından verildi (ortanca " + dur5(lr.medLag) + " sonra); sağın açtığı olayların <b>" + pc5(rl.coveredShare) + "</b>’i soldan (" + dur5(rl.medLag) + " sonra)." : "Blok geçişi verisi yok.",
@@ -11892,10 +12256,14 @@ function orFindGap() {
   var GP = V5.gap || {}, O = GP.outlets || {}, ks = ACT5.filter(function (s) { return O[s] && O[s].hotter != null; }).sort(function (a, b) { return O[b].hotter - O[a].hotter; });
   var th = GP.threshold || 15, top = (GP.top || []).slice(0, 6).filter(function (x) { return ART[x.i]; });
   var mx = Math.max.apply(null, ks.map(function (s) { return O[s].hotter; })) * 1.05;
-  var viz = orBars(ks.map(function (s) {
-    return { label: srcName(s), v: O[s].hotter, disp: pc5(O[s].hotter), c: lean(SRC[s] ? SRC[s].lean : null), go: "#/kurum?s=" + s,
-      tip: "<span class='k'>" + esc(srcName(s)) + "</span>Başlığı spotundan en az " + th + " puan yüklü: " + pc5(O[s].hotter) + "<br>Spotu başlığından en az " + th + " puan yüklü: " + pc5(O[s].cooler) + "<br>" + orN(O[s].n) + " spotlu haber" };
-  }), mx) + (top.length ? '<h4 class="or-h4">En büyük farklar</h4><div class="xcmp-list">' + top.map(function (x) { var a = ART[x.i];
+  var viz = vzKey([{ c: "var(--ink)", t: "başlık spottan yüklü" }, { kind: "o", c: "var(--ink)", t: "spot başlıktan yüklü" }]) +
+    vzRows(ks.slice().sort(function (a, b) { return (O[b].hotter - O[b].cooler) - (O[a].hotter - O[a].cooler); }).map(function (s) {
+    var net = O[s].hotter - O[s].cooler;
+    return { k: s, label: srcName(s), sw: lean(SRC[s] ? SRC[s].lean : null), go: "#/kurum?s=" + s, span: "pts", val: (net >= 0 ? "+" : "−") + dec(100 * Math.abs(net), 1),
+      pts: [{ v: 100 * O[s].cooler, c: "var(--ink)", hollow: true }, { v: 100 * O[s].hotter, c: "var(--ink)" }],
+      tip: "<span class='k'>" + esc(srcName(s)) + "</span>Başlığı spotundan en az " + th + " puan yüklü: " + pc5(O[s].hotter) + "<br>Spotu başlığından en az " + th + " puan yüklü: " + pc5(O[s].cooler) + "<br>Fark " + (net >= 0 ? "+" : "−") + dec(100 * Math.abs(net), 1) + " puan · " + orN(O[s].n) + " spotlu haber" };
+  }), { min: 0, max: Math.ceil(100 * Math.max(mx, Math.max.apply(null, ks.map(function (s) { return O[s].cooler; }))) / 5) * 5, fmt: function (v) { return "%" + v; }, lw: 150, vw: 56,
+    axis: "Satırlar farka göre sıralı (sağdaki sayı, iki pay arasındaki fark, puan). Dolu nokta sağdaysa kurumun başlıkları spotlarından daha sert." }) + (top.length ? '<h4 class="or-h4">En büyük farklar</h4><div class="xcmp-list">' + top.map(function (x) { var a = ART[x.i];
     return '<section class="xcmp-i"><p class="eyebrow">' + esc(srcName(a.s)) + " · " + fmtDT(a.d) + " · başlık " + a.v + ", spot " + a.lv + '</p><p><a class="hlnk" href="' + esc(a.u) + '" target="_blank" rel="noopener">' + esc(a.t) + '</a></p><p class="xsmall">' + esc(x.l) + "</p></section>"; }).join("") + "</div>" : "");
   var neg = ks.filter(function (s) { return O[s].mean < 0; }).length, hi = ks[0], lo = ks[ks.length - 1];
   return { id: "hiz-spot",
@@ -11977,7 +12345,7 @@ function wireOruntu(q, f) {
     root.addEventListener("click", function (ev) {
       var b = ev.target.closest && ev.target.closest("[data-an]"); if (!b) return;
       [].forEach.call(root.querySelectorAll("[data-an]"), function (x) { x.setAttribute("aria-pressed", x === b); });
-      var t = document.getElementById("or-an"); if (t) { t.innerHTML = orAnBars(b.getAttribute("data-an")); wireGo(t); }
+      var t = document.getElementById("or-an"); if (t) { vzSwap(t, orAnBars(b.getAttribute("data-an"))); wireGo(t); }
     });
   }
   if (q === "dil") {
@@ -11991,7 +12359,7 @@ function wireOruntu(q, f) {
           var t = document.getElementById("or-t20"); if (t) t.innerHTML = orTop20Html(b.getAttribute("data-tf"));
         } else {
           if (b.hasAttribute("data-lm")) ORD.lang.metric = b.getAttribute("data-lm"); else ORD.lang.sort = b.getAttribute("data-ls");
-          var l = document.getElementById("or-lang"); if (l) { l.innerHTML = orLangHtml(); wireGo(l); }
+          var l = document.getElementById("or-lang"); if (l) { vzSwap(l, orLangHtml()); wireGo(l); }
         }
       });
     }

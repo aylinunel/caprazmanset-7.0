@@ -4267,6 +4267,7 @@ function pgAdminV2(q) {
 }
 
 /* ================================================================ wiring */
+function vzPut(id, html) { var t = document.getElementById(id); if (t) { t.innerHTML = html; wireGo(t); } }
 function wireGo(root) {
   [].forEach.call((root || document).querySelectorAll("[data-go]"), function (n) {
     if (n._go) return; n._go = 1;
@@ -5378,11 +5379,13 @@ function v3noticeRows() {
   }).sort(function (x, y) { return CM3.cmp(y.a.d, x.a.d) || CM3.cmp(x.a.t, y.a.t); });
   return V3.nlRows;
 }
+/* Families (filled) with their kinds beneath (hollow), as shares of all notices on one axis. */
 function v3bars(rows, total) {
-  return '<div class="cm3-bars">' + rows.map(function (r) {
-    return '<div class="cm3-bar' + (r.sub ? " sub" : "") + '"><span class="lb">' + esc(r.label) + '</span><span class="tr" aria-hidden="true"><i style="width:' +
-      Math.max(1, Math.round(100 * r.n / total)) + '%"></i></span><span class="num">' + r.n.toLocaleString("tr") + "</span></div>";
-  }).join("") + "</div>";
+  return vzRows(rows.map(function (r, i) {
+    return { k: "k" + i, label: (r.sub ? "· " : "") + r.label, span: "zero", val: r.n.toLocaleString("tr"),
+      pts: [{ v: 100 * r.n / total, c: r.sub ? "var(--ink2)" : "var(--ink)", hollow: !!r.sub, big: !r.sub }],
+      tip: "<span class='k'>" + esc(r.label) + "</span>" + r.n.toLocaleString("tr") + " ilan · " + orP(r.n / total) };
+  }), { min: 0, max: Math.min(100, Math.ceil(110 * Math.max.apply(null, rows.map(function (r) { return r.n; })) / total / 10) * 10), fmt: function (v) { return "%" + v; }, lw: 230, vw: 64, axis: "Bütün ilanlar içindeki pay. Dolu nokta ilan ailesi, içi boş nokta o ailedeki tür." });
 }
 function v3noticeEventsPage() {
   if (!v3on("noticeSplit")) return "";
@@ -5418,10 +5421,11 @@ function v3noticeEventsPage() {
     }).join("") + "</tbody></table></div><p class=\"xsmall\" style=\"margin-top:6px\">" + v3est() + "</p></section>";
   // 3. days
   var dk = DAYS.filter(function (d) { return d >= "2026-09-01" && d <= "2026-10-10"; }), max = Math.max.apply(null, dk.map(function (d) { return days[d] || 0; }).concat([1]));
-  h += '<section class="sec"><h2>' + esc(t3("nlDayHead")) + '</h2><div class="cm3-days" role="img" aria-label="' + esc(t3("nlDayHead")) + '">' + dk.map(function (d) {
-    var v = days[d] || 0, lab = fmtD(d + "T00:00");
-    return '<span class="cm3-day" title="' + esc(t3("nlDayTip", { d: lab, n: v })) + '"><i style="height:' + Math.round(100 * v / max) + '%"></i></span>';
-  }).join("") + '</div><div class="cm3-days-ax xsmall mono"><span>' + fmtD(dk[0] + "T00:00") + "</span><span>" + fmtD(dk[dk.length - 1] + "T00:00") + "</span></div></section>";
+  var dvs = dk.map(function (d) { return days[d] || 0; });
+  h += '<section class="sec"><h2>' + esc(t3("nlDayHead")) + "</h2>" + vzLine("ilan-gun", dk.map(function (d) { return fmtD(d + "T00:00"); }), [
+      { k: "d", label: "Günlük ilan", vals: dvs, c: "var(--ink2)", thin: true },
+      { k: "m", label: "7 günlük ortalama", vals: vzRoll(dvs, 7), c: "var(--ink)", area: true }],
+    { label: t3("nlDayHead") }) + "</section>";
   // 4. every notice
   h += '<section class="sec" id="cm3nl-list"><h2>' + esc(t3("nlListHead")) + '</h2><div class="cm3-nl-ctl">' +
     '<div class="cm3-chiprow" role="group">' + ["all"].concat(V3_FAMS.filter(function (f) { return fam[f]; })).map(function (f) {
@@ -6346,19 +6350,34 @@ function route() {
   }
 
   if (path === "/kurumlar" && tab === "genel") {
-    put("cmean", barChart(LIVE.map(function (k) {
-      return { label: SRC[k] ? SRC[k].n : k, value: +(STAT[k].mean || 0).toFixed(1),
-        color: seq((STAT[k].mean || 0) * 3),
-        tip: "<span class='k'>" + esc(SRC[k] ? SRC[k].n : k) + "</span>Ortalama " +
-          (STAT[k].mean || 0).toFixed(1) + " · " + STAT[k].pol + " siyasi haber" }; })
-      .sort(function (x, y) { return y.value - x.value; }), { padL: 132 }));
-    var kk = {}; D.A.forEach(function (x) { x.k.forEach(function (k) { kk[k] = (kk[k] || 0) + 1; }); });
-    put("ckeys", barChart(Object.keys(kk).sort(function (x, y) { return kk[y] - kk[x]; })
-      .map(function (k) {
-        return { label: BIA[k] ? BIA[k].en : k, value: kk[k],
-          tip: "<span class='k'>" + esc(BIA[k] ? BIA[k].en : k) + " · " +
-            esc(BIA[k] ? BIA[k].tr : "") + "</span>" + esc(BIA[k] ? BIA[k].df : "") }; }),
-      { padL: 210 }));
+    /* Mean load with its 95 % interval: a mean bar hid how sure each number is (small outlets swing). */
+    var cmRows = LIVE.filter(function (k) { return STAT[k].pol >= 20; }).map(function (k) {
+      var xs = polOf(k).map(function (a) { return a.v; }), n = xs.length || STAT[k].pol, m = STAT[k].mean || 0;
+      var sd = Math.sqrt(xs.reduce(function (t, v) { return t + (v - m) * (v - m); }, 0) / Math.max(1, xs.length - 1)), se = xs.length > 1 ? 1.96 * sd / Math.sqrt(xs.length) : 0;
+      return { k: k, label: srcName(k), sw: lean(SRC[k] ? SRC[k].lean : null), go: "#/kurum?s=" + k, val: dec(m, 1),
+        pts: [{ v: m, lo: Math.max(0, m - se), hi: m + se, c: lean(SRC[k] ? SRC[k].lean : null), big: true }],
+        tip: "<span class='k'>" + esc(srcName(k)) + "</span>Ortalama " + dec(m, 1) + " · %95 aralık " + dec(Math.max(0, m - se), 1) + "–" + dec(m + se, 1) + "<br>" + orN(n) + " siyasi haber<br>Tıklayın: kurum sayfası" };
+    }).sort(function (x, y) { return y.pts[0].v - x.pts[0].v; });
+    var cmAll = 0, cmN = 0; D.A.forEach(function (a) { if (a.p) { cmAll += a.v; cmN++; } });
+    vzPut("cmean", vzKey([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { kind: "ci", t: "%95 aralık" }, { kind: "al", t: "bütün siyasi haberler" }]) +
+      vzRows(cmRows, { min: Math.floor(Math.min.apply(null, cmRows.map(function (r) { return r.pts[0].lo; })) * .9), max: Math.ceil(Math.max.apply(null, cmRows.map(function (r) { return r.pts[0].hi; })) * 1.1 / 5) * 5, refAll: { v: cmAll / (cmN || 1), label: "tümü " + dec(cmAll / (cmN || 1), 1) },
+        lw: 140, vw: 48, fmt: function (v) { return v; }, axis: "Aralıkları örtüşen kurumlar arasındaki fark şansla açıklanabilir; en az 20 siyasi haberi olan kurumlar." }));
+    /* Each framing structure by bloc: rate per 100 political headlines, so the larger bloc does not win by volume. */
+    var kk = {}, kb = { left: {}, mid: {}, right: {} }, nb = { left: 0, mid: 0, right: 0 };
+    D.A.forEach(function (x) { var b = bloc(x.s); if (x.p && nb[b] != null) nb[b]++;
+      x.k.forEach(function (k) { kk[k] = (kk[k] || 0) + 1; if (x.p && kb[b]) kb[b][k] = (kb[b][k] || 0) + 1; }); });
+    var bks = ["left", "mid", "right"].filter(function (b) { return nb[b]; }), rate = function (b, k) { return 100 * (kb[b][k] || 0) / nb[b]; };
+    var kRows = Object.keys(kk).sort(function (x, y) { return kk[y] - kk[x]; }).map(function (k) {
+      var vs = bks.map(function (b) { return rate(b, k); }), sp = Math.max.apply(null, vs) / Math.max(.01, Math.min.apply(null, vs));
+      return { k: k, label: BIA[k] ? BIA[k].en : k, sub: BIA[k] ? BIA[k].tr : "", span: "pts", val: orN(kk[k]),
+        pts: bks.map(function (b) { return { v: rate(b, k), c: "var(--" + b + ")" }; }),
+        tip: "<span class='k'>" + esc(BIA[k] ? BIA[k].en : k) + " · " + esc(BIA[k] ? BIA[k].tr : "") + "</span>" + orN(kk[k]) + " başlık<br>" +
+          bks.map(function (b) { return SIDE[b] + ": 100 siyasi başlıkta " + dec(rate(b, k), 2); }).join("<br>") + (BIA[k] && BIA[k].df ? "<br>" + esc(BIA[k].df) : "") };
+    });
+    vzPut("ckeys", vzKey(bks.map(function (b) { return { c: "var(--" + b + ")", t: SIDE[b] + " bloğu" }; })) +
+      vzRows(kRows, { log: true, min: .01, max: Math.max(1, Math.pow(10, Math.ceil(Math.log10(Math.max.apply(null, kRows.map(function (r) { return Math.max.apply(null, r.pts.map(function (p) { return p.v; })); })))))),
+        ticks: null, fmt: function (v) { return v < 1 ? dec(v, 2) : v; }, lw: 270, vw: 60,
+        axis: "100 siyasi başlıkta görülme sayısı, bloklara göre (logaritmik ölçek: her çizgi bir öncekinin 10 katı). Sağdaki sayı bütün başlıklardaki toplam. Uzun çizgi, yapının bir blokta belirgin biçimde daha sık olduğunu gösterir." }));
     put("cheat", topicHeat());
     put("cspread", spreadChart(D.E.slice().sort(function (x, y) { return y.p - x.p; }).slice(0, 26)));
   }
@@ -6438,10 +6457,22 @@ function route() {
             mine[k] + " başlıkta · bütün haberlerin ortalamasının " +
             (ar ? (mr / ar).toFixed(1) : "0") + " katı" };
       }).sort(function (x, y) { return y.value - x.value; });
-      if (fp.length) put("cfp", barChart(fp, { padL: 200, ref: 1,
-        refLabel: "1.0× bütün haberlerin ortalaması", axis: "bütün haberlerin ortalamasına oran" }));
-      put("sdays", barChart(DAYS.map(function (d) {
-        return { label: fmtD(d + "T00:00"), value: st2.days[d] || 0 }; }), { padL: 66 }));
+      /* Ratios are multiplicative, so they sit on a log axis centred on 1×: 2× and ½× are the same distance from average. */
+      var fpv = fp.filter(function (x) { return x.value > 0; });
+      if (fpv.length) {
+        var flo = Math.min(.5, Math.min.apply(null, fpv.map(function (x) { return x.value; })) * .8), fhi = Math.max(2, Math.max.apply(null, fpv.map(function (x) { return x.value; })) * 1.2);
+        vzPut("cfp", vzKey([{ c: "var(--seq4)", t: "ortalamadan sık" }, { c: "var(--muted)", t: "ortalamadan seyrek" }]) +
+          vzRows(fpv.map(function (x) { return { k: x.label, label: x.label, ref: 1, span: "ref", val: x.display, tip: x.tip,
+            pts: [{ v: x.value, c: x.value >= 1 ? "var(--seq4)" : "var(--muted)" }] }; }),
+          { log: true, min: flo, max: fhi, from: 1, ticks: [.125, .25, .5, 1, 2, 4, 8, 16].filter(function (t) { return t >= flo && t <= fhi; }),
+            fmt: function (v) { return (v < 1 ? "1/" + Math.round(1 / v) : v) + "×"; }, refAll: { v: 1, label: "ortalama" }, lw: 200, vw: 50,
+            axis: "Logaritmik ölçek: 2× ve ½× ortalamaya eşit uzaklıkta. Çizgi ortalamadan sapmayı gösterir." }));
+      }
+      var dv = DAYS.map(function (d) { return st2.days[d] || 0; });
+      vzPut("sdays", vzLine("sdays-" + params.s, DAYS.map(function (d) { return fmtD(d + "T00:00"); }), [
+        { k: "d", label: "Günlük haber", vals: dv, c: "var(--ink2)", thin: true },
+        { k: "m", label: "7 günlük ortalama", vals: vzRoll(dv, 7), c: "var(--ink)", area: true }],
+        { label: "Günlük toplanan haber, 7 günlük ortalamayla", legend: "Çizgi" }));
     }
     var sa = $("#srcarts"); if (sa) wireDevices(sa);
   }

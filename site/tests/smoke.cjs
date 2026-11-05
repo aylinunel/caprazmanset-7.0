@@ -54,7 +54,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         if (fs.length < 3) return `only ${fs.length} .v7-find`;
         if (fs.some((f) => !((f.querySelector(".v7-means") || {}).textContent || "").replace("Bu ne anlama geliyor.", "").trim())) return "empty .v7-means";
         const v = document.querySelector(".v7-viz");
-        if (!v || !v.querySelector("[data-go],[data-tip]")) return "first .v7-viz has no [data-go]/[data-tip]";
+        if (!v || !v.querySelector("[data-go],[data-tip],[data-vtip],.vz-dp,.vz-lp")) return "first .v7-viz has no interactive mark";
         if (/bağlam gerekli/i.test(document.body.innerText)) return "text 'bağlam gerekli'";
         return "";
       });

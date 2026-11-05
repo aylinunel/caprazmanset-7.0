@@ -59,18 +59,18 @@ function orMantelText(r, p, subject) {
 function orCoverage() {
   var ev = orEvents(), bins = [], i;
   for (i = 0; i < 10; i++) bins.push({ lo: i * 10, hi: i * 10 + 10, ev: [] });
-  var zl = 0, zr = 0, shares = [];
+  var zl = 0, zr = 0, shares = [], pts = [];
   ev.forEach(function (e) {
     var c = covOf(e), t = c[0] + c[1] + c[2];
     if (!t) return;
-    var sh = c[0] / t; shares.push(sh);
+    var sh = c[0] / t; shares.push(sh); pts.push({ e: e, v: 100 * sh });
     if (!c[0]) zl++;
     if (!c[2]) zr++;
     bins[Math.min(9, Math.floor(sh * 10))].ev.push(e);
   });
   shares.sort(function (a, b) { return a - b; });
   bins.forEach(function (b) { b.ev.sort(function (x, y) { return y.s.length - x.s.length; }); });
-  return { bins: bins, n: shares.length, zl: zl, zr: zr, med: shares.length ? shares[Math.floor((shares.length - 1) / 2)] : 0 };
+  return { bins: bins, pts: pts, n: shares.length, zl: zl, zr: zr, med: shares.length ? shares[Math.floor((shares.length - 1) / 2)] : 0 };
 }
 function orCovDetail(b, tot) {
   if (!b) return '<p class="or-hint">Bir sütuna dokunun ya da tıklayın: o aralıktaki en çok kurumun verdiği olaylar burada listelenir.</p>';
@@ -90,17 +90,25 @@ function orCols(set, bins, o) {
 }
 function orFindCoverage() {
   var C = ORD.cov = orCoverage(), act = V2.active || {}, tot = (act.left || 0) + (act.mid || 0) + (act.right || 0) || 1;
-  var cols = orCols("cov", C.bins, { n: C.n, label: function (b) { return "Sol payı %" + b.lo + "–" + b.hi; },
-    axis: "Olayı veren, yerleşimi bilinen kurumlar içinde sola yerleşik olanların payı (%)", detail: function (b) { return orCovDetail(b, C.n); } });
+  var exp = 100 * (act.left || 0) / tot;
+  var cols = vzDist("cov", C.pts.map(function (p) { return p.v; }), { min: 0, max: 100, bins: 40, fmt: function (v) { return "%" + v; },
+    label: "Olayların sol payı dağılımı", axis: "Olayı veren, yerleşimi bilinen kurumlar içinde sola yerleşik olanların payı (%). Bir aralık seçmek için sürükleyin ya da tıklayın.",
+    ref: { v: exp, label: "kurum oranı %" + Math.round(exp) },
+    presets: [[0, 1, "%0 · hiç sol yok"], [1, 25, "%1–25"], [25, 50, "%25–50"], [50, 100.01, "%50 ve üstü"]],
+    detail: function (a, b) {
+      if (a == null) return '<p class="or-hint">Grafikte bir aralık seçin ya da üstteki düğmelerden birine basın: o aralıktaki en çok kurumun verdiği olaylar burada listelenir.</p>';
+      var ev = C.pts.filter(function (p) { return p.v >= a && (p.v < b || (b >= 100 && p.v <= 100)); }).map(function (p) { return p.e; }).sort(function (x, y) { return y.s.length - x.s.length; });
+      return "<p><b>" + (a === 0 && b <= 1 ? "Hiç sola yerleşik kurumun vermediği" : "Sol payı %" + Math.round(a) + "–" + Math.min(100, Math.round(b)) + " olan") + "</b> " + orN(ev.length) + " olay (" + orP(ev.length / (C.n || 1)) + "). En çok kurumun verdiği " + Math.min(8, ev.length) + ":</p>" +
+        (ev.length ? orEvList(ev.slice(0, 8)) : '<p class="or-hint">Bu aralıkta olay yok.</p>'); } });
   return { id: "secim-kapsama",
     claim: "<b>" + orN(C.n) + "</b> olayın <b>" + orN(C.zl) + "</b> tanesini sola yerleşik hiçbir kurum vermedi; sağa yerleşik hiçbir kurumun vermediği olay sayısı <b>" + orN(C.zr) + "</b>.",
     viz: cols,
-    means: "Kayıt defterindeki etkin kurumların " + orP((act.left || 0) / tot) + "’si sola, " + orP((act.right || 0) / tot) + "’si sağa yerleşik; olayların ortanca sol payı " + orP(C.med) + ". " +
+    means: "Kayıt defterindeki etkin kurumların " + orP((act.left || 0) / tot) + "’si sola, " + orP((act.right || 0) / tot) + "’si sağa yerleşik; olayların ortanca sol payı " + orP(C.med) + ". Turuncu çizgi, solun etkin kurumlar içindeki payıdır: olay seçiminde hiç fark olmasaydı olaylar bu çizginin çevresinde toplanırdı. " +
       "Sol payının düşük çıkması kısmen bu dağılımdan gelir: sol kurum sayısı az olduğu için, olay seçiminde bir fark olmasa da çoğu olayda sol payı düşük kalır. " +
       "Bu şerit tek başına bir kurumun neyi seçtiğini göstermez; taraf sayısına göre düzeltilmiş okuma bir sonraki bulguda.",
     how: orHow(["Birim: en az " + (D.meta.params && D.meta.params.event_min_outlets || 5) + " kurumun verdiği olay (resmî ilan olayları hariç), n = " + orN(C.n) + ".",
       "Sol payı = olayı veren sola yerleşik kurum sayısı / yerleşimi bilinen kurum sayısı. Yerleşim kayıt defterinden gelir ve doğrulanmamıştır: 45’in altı sol, 55’in üstü sağ.",
-      "Sütun genişliği %10; son sütun %100’ü içerir."], "olay") };
+      "Alan, 2,5 puanlık dilimlerdeki olay sayısıdır; gri bant ortadaki %50’yi, siyah çizgi ortancayı gösterir."], "olay") };
 }
 
 function orFindBlind() {
@@ -174,15 +182,15 @@ function orFindTopics() {
   var order = th.map(function (t, i) { return i; }).sort(function (a, b) { return T.pool[b] - T.pool[a]; });
   var diff = th.map(function (t, i) { return { i: i, d: B.share.right[i] - B.share.left[i] }; }).sort(function (a, b) { return Math.abs(b.d) - Math.abs(a.d); })[0];
   var mx = Math.max.apply(null, blocs.map(function (b) { return Math.max.apply(null, B.share[b]); })) || 1;
-  var rows = order.map(function (i) {
-    return '<div class="or-tr"><span class="or-bl">' + esc(th[i].l) + "</span>" + blocs.map(function (b) {
-      var v = B.share[b][i], r = v / (T.pool[i] || 1);
-      return '<span class="or-tc"' + orTip("<span class='k'>" + esc(th[i].l) + " · " + SIDE[b] + " bloğu</span>Başlıkların " + orP(v) + "’si<br>Tüm kurumların ortalaması " + orP(T.pool[i]) + " · " + dec(r, 2) + " katı") +
-        '><i style="width:' + Math.max(1, 100 * v / mx) + "%;background:var(--" + b + ')"></i><b>' + Math.round(100 * v) + "</b></span>";
-    }).join("") + "</div>";
-  }).join("");
-  var viz = '<div class="or-topics" style="--c:' + blocs.length + '">' + rows + "</div>" +
-    legendHTML(blocs.map(function (b) { return { c: "var(--" + b + ")", t: SIDE[b] + " bloğunun " + B.n[b] + " kurumu" }; }), "Blok");
+  var gap = function (i) { var vs = blocs.map(function (b) { return B.share[b][i]; }); return Math.max.apply(null, vs) - Math.min.apply(null, vs); };
+  var viz = vzKey(blocs.map(function (b) { return { c: "var(--" + b + ")", t: SIDE[b] + " bloğu (" + B.n[b] + " kurum)" }; }).concat([{ kind: "t", t: "bütün kurumlar" }])) +
+    vzRows(order.slice().sort(function (a, b) { return gap(b) - gap(a); }).map(function (i) {
+      return { k: "t" + i, label: th[i].l, ref: 100 * T.pool[i], span: "pts", val: dec(100 * gap(i), 1) + " puan",
+        pts: blocs.map(function (b) { return { v: 100 * B.share[b][i], c: "var(--" + b + ")" }; }),
+        tip: "<span class='k'>" + esc(th[i].l) + "</span>" + blocs.map(function (b) { return SIDE[b] + " bloğu: " + orP(B.share[b][i]); }).join("<br>") +
+          "<br>Bütün kurumlar: " + orP(T.pool[i]) + "<br>En uç iki blok arası " + dec(100 * gap(i), 1) + " puan" };
+    }), { min: 0, max: Math.ceil(100 * mx * 1.08 / 5) * 5, fmt: function (v) { return "%" + v; }, lw: 190, vw: 78,
+      axis: "Temanın bloktaki başlıklar içindeki payı. Satırlar blokların en çok ayrıştığı temadan en az ayrıştığına sıralı; sağdaki sayı en uç iki blok arasındaki fark." });
   return { id: "secim-konu",
     claim: "Bloklar arasındaki en büyük konu farkı <b>" + esc(th[diff.i].l) + "</b> temasında: sağ bloğun başlıklarının " + orP(B.share.right[diff.i]) + "’i, sol bloğunkilerin " + orP(B.share.left[diff.i]) + "’i bu temada.",
     viz: viz,
@@ -201,10 +209,12 @@ function orFindWeekly() {
   ev.forEach(function (e) { var w = W[wk7(e.f)]; if (!w) return; w.ev++; if (e.bs === "left") w.l++; if (e.bs === "right") w.r++; });
   var mx = Math.max.apply(null, W.map(function (w) { return Math.max(w.l, w.r); })) || 1;
   var lab = function (k) { return fmtD(new Date(Date.parse(DAYS[0] + "T00:00Z") + k * 7 * 864e5).toISOString().slice(0, 10) + "T00:00"); };
-  var viz = '<div class="or-wk" style="--n:' + nW + '">' + W.map(function (w, k) {
-    return '<div class="or-wc" tabindex="0"' + orTip("<span class='k'>" + lab(k) + " haftası" + (w.days < 7 ? " (" + w.days + " gün)" : "") + "</span>" + orN(w.ev) + " olay<br>Solun az verdiği: " + w.l + " · Sağın az verdiği: " + w.r) +
-      '><span class="or-wb"><i style="height:' + (100 * w.l / mx) + '%;background:var(--left)"></i><i style="height:' + (100 * w.r / mx) + '%;background:var(--right)"></i></span><span class="or-wn">' + (w.l + w.r) + "</span><span class=\"or-wd\">" + lab(k) + "</span></div>";
-  }).join("") + "</div>" + legendHTML([{ c: "var(--left)", t: "solun az verdiği olay" }, { c: "var(--right)", t: "sağın az verdiği olay" }], "Sütun çifti");
+  var viz = vzLine("hafta", W.map(function (w, k) { return lab(k); }), [
+      { k: "l", label: "Solun az verdiği olay", vals: W.map(function (w) { return w.l; }), c: "var(--left)" },
+      { k: "r", label: "Sağın az verdiği olay", vals: W.map(function (w) { return w.r; }), c: "var(--right)" }],
+    { label: "Haftalık kör nokta sayısı, sol ve sağ", tipX: function (k) { return lab(k) + " haftası" + (W[k].days < 7 ? " (" + W[k].days + " gün)" : "") + " · " + orN(W[k].ev) + " olay"; },
+      band: W[nW - 1].days < 7 ? [nW - 2, nW - 1, "kısmi"] : null }) +
+    '<p class="or-hint">Çizginin üzerinde gezinin (ya da odaklanıp ok tuşlarını kullanın): haftanın olay sayısı ve iki tarafın kör noktaları görünür.</p>';
   var tot = W.reduce(function (t, w) { return t + w.l + w.r; }, 0);
   var peak = W.map(function (w, k) { return { k: k, n: w.l + w.r }; }).sort(function (a, b) { return b.n - a.n; })[0];
   var low = W.filter(function (w) { return w.days >= 7; }).map(function (w) { return w.l + w.r; });
@@ -228,12 +238,14 @@ function orFindRange() {
   var ps = ev.map(function (e) { return e.p || 0; }).sort(function (a, b) { return a - b; }), med = ps[Math.floor((ps.length - 1) / 2)];
   var widest = ev.slice().sort(function (a, b) { return b.p - a.p; })[0];
   ORD.widest = ev.filter(function (e) { return e.s.length >= 8 && defaultPair(e); }).sort(function (a, b) { return b.p - a.p; }).slice(0, 3);
-  var cols = orCols("rng", bins, { n: n, label: function (b) { return "Puan aralığı " + b.lo + "–" + (b.hi - 1); },
-    axis: "Aynı olaydaki en yüklü ve en sakin başlığın puanı arasındaki fark",
-    detail: function (b) {
-      if (!b) return '<p class="or-hint">Bir sütuna dokunun ya da tıklayın: o aralıktaki en geniş farklı olaylar listelenir.</p>';
-      return "<p><b>Aralık " + b.lo + "–" + (b.hi - 1) + " puan</b> olan " + orN(b.ev.length) + " olay. En geniş " + Math.min(8, b.ev.length) + ":</p>" +
-        (b.ev.length ? orEvList(b.ev.slice(0, 8), function (e) { return "aralık " + e.p; }) : '<p class="or-hint">Bu aralıkta olay yok.</p>'); } });
+  var cols = vzDist("rng", ev.map(function (e) { return e.p || 0; }), { min: 0, max: 100, bins: 50,
+    label: "Olayların yüklü dil aralığı dağılımı", axis: "Aynı olaydaki en yüklü ve en sakin başlığın puanı arasındaki fark. Bir aralık seçmek için sürükleyin ya da tıklayın.",
+    presets: [[0, 10, "0–9"], [10, 20, "10–19"], [20, 40, "20–39"], [40, 101, "40 ve üstü"]],
+    detail: function (a, b) {
+      if (a == null) return '<p class="or-hint">Grafikte bir aralık seçin ya da bir düğmeye basın: o aralıktaki en geniş farklı olaylar listelenir.</p>';
+      var es = ev.filter(function (e) { var p = e.p || 0; return p >= a && p < b; }).sort(function (x, y) { return y.p - x.p || y.s.length - x.s.length; });
+      return "<p><b>Aralık " + Math.round(a) + "–" + Math.min(100, Math.round(b)) + " puan</b> olan " + orN(es.length) + " olay. En geniş " + Math.min(8, es.length) + ":</p>" +
+        (es.length ? orEvList(es.slice(0, 8), function (e) { return "aralık " + e.p; }) : '<p class="or-hint">Bu aralıkta olay yok.</p>'); } });
   return { id: "dil-aralik",
     claim: "Olayların <b>" + orP(low / n) + "</b>’inde başlıklar arasındaki yüklü dil puanı farkı 10’un altında; <b>" + orN(hi4) + "</b> olayda 40 puan ve üzeri. En geniş fark <b>" + widest.p + "</b> puan.",
     viz: cols,
@@ -241,7 +253,7 @@ function orFindRange() {
       "Geniş aralık, bir kurumun diğerlerinden çok sert bir sözcük seçtiği anlamına gelir; hangi kurumun hangi yönde ayrıştığı bu grafikten okunmaz. " +
       "Ayrışan olayları tek tek açmak için bir sütuna tıklayın.",
     how: orHow(["Her başlık kural tabanlı puanlayıcıyla 0–100 puanlanır (Yöntem › yüklü dil). Aralık = olaydaki en yüksek puan − en düşük puan.",
-      "Birim: resmî ilan olayları hariç " + orN(n) + " olay. Sütun genişliği 10 puan."], "dil") };
+      "Birim: resmî ilan olayları hariç " + orN(n) + " olay. Alan 2 puanlık dilimlerdeki olay sayısıdır."], "dil") };
 }
 
 function orLangRows(metric) {
@@ -265,18 +277,29 @@ function orLangHtml() {
   else rows.sort(function (a, b) { return b[key] - a[key]; });
   var fmt = function (v) { return key === "share" ? orP(v) : dec(v, 1); };
   var bl = orLangBlocs(ORD.langRows);
-  var bars = ["left", "mid", "right"].filter(function (b) { return bl[b]; }).map(function (b) {
-    var v = key === "share" ? bl[b].hot / bl[b].n : bl[b].sum / bl[b].n;
-    return { label: SIDE[b] + " bloğu", v: v, disp: fmt(v), c: "var(--" + b + ")", tip: "<span class='k'>" + SIDE[b] + " bloğu</span>" + bl[b].outlets + " kurum · " + orN(bl[b].n) + " siyasi başlık" };
-  });
+  var bv = function (b) { return bl[b] ? (key === "share" ? bl[b].hot / bl[b].n : bl[b].sum / bl[b].n) : null; };
+  var mul = key === "share" ? 100 : 1, f2 = function (v) { return key === "share" ? "%" + dec(v, 0) : dec(v, 0); };
+  var tn = 0, ts = 0, th = 0; ORD.langRows.forEach(function (r) { tn += r.n; ts += r.sum; th += r.hot; });
+  var allv = key === "share" ? th / (tn || 1) : ts / (tn || 1);
+  if (st.sort === "dev") rows.sort(function (a, b) { return (b[key] - bv(bloc(b.s))) - (a[key] - bv(bloc(a.s))); });
+  var bk = ["left", "mid", "right"].filter(function (b) { return bl[b]; });
   var chip = function (a, v, t, on) { return '<button type="button" class="chip" data-' + a + '="' + v + '" aria-pressed="' + on + '">' + t + "</button>"; };
+  var hiV = Math.max.apply(null, rows.map(function (r) { return r[key]; })) * mul;
+  var vr = [{ k: "blok", label: "Blok ortalamaları", span: "pts", val: dec(mul * (Math.max.apply(null, bk.map(bv)) - Math.min.apply(null, bk.map(bv))), 1) + " fark",
+    pts: bk.map(function (b) { return { v: mul * bv(b), c: "var(--" + b + ")", big: true }; }),
+    tip: "<span class='k'>Blok ortalamaları</span>" + bk.map(function (b) { return SIDE[b] + ": " + fmt(bv(b)) + " (" + bl[b].outlets + " kurum, " + orN(bl[b].n) + " başlık)"; }).join("<br>") }]
+    .concat(rows.map(function (r) {
+      var b = bloc(r.s), d = r[key] - (bv(b) || 0);
+      return { k: r.s, label: srcName(r.s), sw: lean(r.lean), go: "#/kurum?s=" + r.s, ref: bv(b) == null ? null : mul * bv(b), span: "ref", val: fmt(r[key]),
+        pts: [{ v: mul * r[key], c: lean(r.lean) }],
+        tip: "<span class='k'>" + esc(srcName(r.s)) + "</span>" + orN(r.n) + " siyasi başlık<br>Ortalama puan " + dec(r.mean, 1) + " · yüklü başlık payı " + orP(r.share) +
+          (bv(b) != null ? "<br>Kendi bloğunun ortalamasından " + (d >= 0 ? "+" : "−") + fmt(Math.abs(d)).replace("%", "") + (key === "share" ? " puan" : "") : "") + "<br>Tıklayın: kurum sayfası" };
+    }));
   return '<div class="or-ctl"><span class="or-cl">Ölçü</span>' + chip("lm", "mean", "Ortalama puan", key === "mean") + chip("lm", "share", "Yüklü başlık payı", key === "share") +
-    '<span class="or-cl">Sıra</span>' + chip("ls", "val", "Değere göre", st.sort === "val") + chip("ls", "lean", "Yerleşime göre", st.sort === "lean") + chip("ls", "name", "Ada göre", st.sort === "name") + "</div>" +
-    '<h4 class="or-h4">Bloklar</h4>' + orBars(bars, Math.max.apply(null, rows.map(function (r) { return r[key]; })) * 1.05) + '<h4 class="or-h4">Kurumlar</h4>' +
-    orBars(rows.map(function (r) {
-      return { label: srcName(r.s), v: r[key], disp: fmt(r[key]), c: lean(r.lean), go: "#/kurum?s=" + r.s,
-        tip: "<span class='k'>" + esc(srcName(r.s)) + "</span>" + orN(r.n) + " siyasi başlık<br>Ortalama puan " + dec(r.mean, 1) + " · yüklü başlık payı " + orP(r.share) + "<br>Tıklayın: kurum sayfası" };
-    }), Math.max.apply(null, rows.map(function (r) { return r[key]; })) * 1.05);
+    '<span class="or-cl">Sıra</span>' + chip("ls", "val", "Değere göre", st.sort === "val") + chip("ls", "dev", "Bloğundan sapmaya göre", st.sort === "dev") + chip("ls", "lean", "Yerleşime göre", st.sort === "lean") + chip("ls", "name", "Ada göre", st.sort === "name") + "</div>" +
+    vzKey([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { kind: "t", t: "kurumun kendi bloğunun ortalaması" }, { kind: "al", t: "bütün siyasi başlıklar" }]) +
+    vzRows(vr, { min: Math.max(0, Math.floor(Math.min.apply(null, rows.map(function (r) { return r[key]; })) * mul * .85)), max: Math.ceil(hiV * 1.08), fmt: f2, refAll: { v: mul * allv, label: "tümü " + fmt(allv) }, lw: 170, vw: 64,
+      axis: "Çizgi, kurumun değerini kendi bloğunun ortalamasına bağlar: uzun çizgi, kurumun bloğundan ayrıştığını gösterir." });
 }
 function orFindLoaded() {
   ORD.lang = ORD.lang || { metric: "mean", sort: "val" };
@@ -383,7 +406,10 @@ function orFindAI() {
   var R = orBlocAI();
   if (!R) return { id: "dil-yz", claim: "YZ incelemesi verisi bu yapıda yok " + yzBadge() + ".", viz: yzBlock("<p>Veri yok.</p>", "Yapay zekâ incelemesi"), means: "İnceleme sonuçları yüklenmediği için bu bulgu hesaplanamadı.", how: orHow(["İnceleme verisi yok."], "yz") };
   var blocs = ["left", "mid", "right"].filter(function (b) { return R.cov[b]; }), rate = function (b) { return R.cov[b] ? R.hit[b] / R.cov[b] : 0; };
-  var bars = orBars(blocs.map(function (b) { return { label: SIDE[b] + " bloğu", v: rate(b), disp: orP(rate(b)), c: "var(--" + b + ")", tip: "<span class='k'>" + SIDE[b] + " bloğu</span>" + R.hit[b] + " / " + R.cov[b] + " olay" }; }), 1);
+  var bars = vzRows(blocs.map(function (b) { var ci = vzWilson(R.hit[b], R.cov[b]);
+      return { k: b, label: SIDE[b] + " bloğu", val: orP(rate(b)), pts: [{ v: 100 * rate(b), lo: 100 * ci[0], hi: 100 * ci[1], c: "var(--" + b + ")", big: true }],
+        tip: "<span class='k'>" + SIDE[b] + " bloğu</span>" + R.hit[b] + " / " + R.cov[b] + " olay · " + orP(rate(b)) + "<br>%95 aralık " + orP(ci[0]) + " – " + orP(ci[1]) }; }),
+    { min: 0, max: 100, fmt: function (v) { return "%" + v; }, lw: 120, vw: 60, axis: "Nokta oran, yatay çizgi %95 güven aralığı: az olaylı blokta aralık geniştir; aralıkları örtüşen bloklar arasındaki fark şansla açıklanabilir." });
   var cs = Object.keys(R.byC).sort(function (a, b) { return R.byC[b].n - R.byC[a].n; }).slice(0, 6);
   var tbl = '<div class="scroller"><table><thead><tr><th>Kavram</th>' + blocs.map(function (b) { return '<th class="r">' + SIDE[b] + "</th>"; }).join("") + "</tr></thead><tbody>" + cs.map(function (k) {
     var r = R.byC[k]; return "<tr><td>" + esc(k) + "</td>" + blocs.map(function (b) { return '<td class="r">' + (r.cov[b] ? Math.round(100 * r.hit[b] / r.cov[b]) + "% · " + r.cov[b] : "—") + "</td>"; }).join("") + "</tr>"; }).join("") + "</tbody></table></div>" +
@@ -416,12 +442,17 @@ function orAnKeys(sel) {
 function orAnBars(sel) {
   var keys = orAnKeys(sel), sh = dimShares(D.N, keys), n = keys.length;
   var ai = keys.filter(function (k) { return D.N[k].status === "agent_coded"; }).length;
+  var allK = orAnKeys("all"), all = dimShares(D.N, allK), cmp = sel !== "all";
+  var ord = NORD.slice().sort(function (a, b) { return all[b] - all[a]; });
   return '<p class="or-meta2">' + orN(n) + " olay" + (ai ? " · bunların " + ai + " tanesi YZ ile kodlandı " + yzBadge() : "") + "</p>" +
-    orBars(NORD.map(function (d) {
-      var c = Math.round(sh[d] * n);
-      return { label: NDL[d], v: sh[d], disp: orP(sh[d]), c: "var(--ink2)", go: sel !== "all" && sel !== "hand" && sel !== "ai" ? "#/anlati?w=" + sel : "",
-        tip: "<span class='k'>" + esc(NDL[d]) + "</span>" + c + " / " + n + " olayda odak boyutu<br>" + orP(sh[d]) };
-    }), 1);
+    vzKey([{ c: "var(--ink)", t: "seçilen olaylarda pay" }, { kind: "ci", t: "%95 aralık" }].concat(cmp ? [{ kind: "t", t: "bütün kodlanan olaylar" }] : [])) +
+    vzRows(ord.map(function (d) {
+      var c = Math.round(sh[d] * n), ci = vzWilson(c, n);
+      return { k: d, label: NDL[d], val: orP(sh[d]), ref: cmp ? 100 * all[d] : null, span: cmp ? "ref" : false,
+        pts: [{ v: 100 * sh[d], lo: 100 * ci[0], hi: 100 * ci[1], c: "var(--ink)" }], go: sel !== "all" && sel !== "hand" && sel !== "ai" ? "#/anlati?w=" + sel : "",
+        tip: "<span class='k'>" + esc(NDL[d]) + "</span>" + c + " / " + n + " olayda odak boyutu · " + orP(sh[d]) + "<br>%95 aralık " + orP(ci[0]) + " – " + orP(ci[1]) + (cmp ? "<br>Bütün kodlanan olaylarda " + orP(all[d]) : "") };
+    }), { min: 0, max: 100, fmt: function (v) { return "%" + v; }, lw: 170, vw: 60,
+      axis: cmp ? "Siyah çentik bütün kodlanan olaylardaki pay; nokta çentikten uzaksa bu seçim genel resimden ayrışıyor (aralık çentiği kesmiyorsa fark şansla açıklanamayacak kadar büyük)." : "Nokta pay, yatay çizgi %95 güven aralığı. Bir hafta seçince o haftanın payı bütün olaylarla karşılaştırılır." });
 }
 function orFindDims() {
   var ws = v7Weeks().filter(function (w) { return w.keys.length; }), all = orAnKeys("all"), sh = dimShares(D.N, all), n = all.length;
@@ -451,7 +482,7 @@ function orFindBlame() {
   var keys = orAnKeys("all"), rows = blameByBloc(D.N, keys, bloc).filter(function (r) { return !UNSET(r.value); }), who = orBlameOutlets(keys);
   var tot = function (r) { return r.left + r.mid + r.right + r.none; }, top = rows.slice(0, 10), mx = top.length ? tot(top[0]) : 1;
   var all = 0, withB = 0; keys.forEach(function (k) { ((D.N[k] && D.N[k].rows) || []).forEach(function (r) { all++; if (String(r.blame || "").trim() && !UNSET(r.blame)) withB++; }); });
-  var viz = '<div class="or-bars">' + top.map(function (r) {
+  var viz0 = '<div class="or-bars">' + top.map(function (r) {
     var w = who[r.value] || {}, tip = "<span class='k'>" + esc(r.value) + "</span>" + ["left", "mid", "right"].map(function (b) {
       var o = w[b] || {}, names = Object.keys(o).sort(function (a, c) { return o[c] - o[a]; }).map(function (s) { return esc(srcName(s)) + (o[s] > 1 ? " ×" + o[s] : ""); });
       return SIDE[b] + " (" + r[b] + "): " + (names.join(", ") || "—"); }).join("<br>");
@@ -459,9 +490,16 @@ function orFindBlame() {
       ["left", "mid", "right"].map(function (b) { return r[b] ? '<i style="flex:' + r[b] + ";background:var(--" + b + ')"></i>' : ""; }).join("") + "</span><b>" + tot(r) + "</b></div>";
   }).join("") + "</div>" + legendHTML([{ c: "var(--left)", t: "sola yerleşik kurum" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik kurum" }], "Renk") +
     '<p class="or-hint">Bir çubuğa gelin: hangi kurumların başlığında bu aktörün sorumlu tutulduğu görünür.</p>';
+  var act = V2.active || {}, viz = vzKey([{ c: "var(--left)", t: "sol" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağ" }]) +
+    vzRows(top.map(function (r) {
+      return { k: r.value, label: r.value, span: "pts", val: tot(r) + " satır",
+        pts: ["left", "mid", "right"].filter(function (b) { return act[b]; }).map(function (b) { return { v: 100 * r[b] / act[b], c: "var(--" + b + ")" }; }),
+        tip: "<span class='k'>" + esc(r.value) + "</span>" + ["left", "mid", "right"].map(function (b) { return SIDE[b] + ": " + r[b] + " satır" + (act[b] ? " · etkin kurum başına " + dec(r[b] / act[b], 2) : ""); }).join("<br>") };
+    }), { min: 0, fmt: function (v) { return dec(v / 100, 1); }, lw: 190, vw: 70,
+      axis: "Etkin kurum başına sorumlu tutma sayısı: blokların kurum sayısı farklı olduğu için ham sayı yerine kurum başına değer. Uzun çizgi bloklar arasında ayrışmayı gösterir." });
   viz = g6Switch("sorumlu", g6Box("blame", "", "Kurumlardan sorumlu tutulan aktörlere giden ağ") +
     legendHTML([{ c: "var(--hot)", t: "sorumlu tutulan aktör (kare)" }, { c: "var(--left)", t: "sola yerleşik kurum" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik kurum" }], "Ağ") +
-    '<p class="or-hint">Her çizgi bir kurumun başlığında o aktörü sorumlu tuttuğu olaylar; kalınlık olay sayısı. Aynı aktöre bağlanan kurumlar bir araya toplanır.</p>', viz, "Çubuk");
+    '<p class="or-hint">Her çizgi bir kurumun başlığında o aktörü sorumlu tuttuğu olaylar; kalınlık olay sayısı. Aynı aktöre bağlanan kurumlar bir araya toplanır.</p>', viz, "Kurum başına");
   var t0 = top[0] || { value: "—", left: 0, mid: 0, right: 0, none: 0 };
   return { id: "anlati-sorumlu",
     claim: "En sık sorumlu tutulan taraf <b>" + esc(t0.value) + "</b>: " + tot(t0) + " kurum satırında (sol " + t0.left + ", merkez " + t0.mid + ", sağ " + t0.right + ").",
@@ -524,8 +562,16 @@ function orFindLead() {
 function orFindBlocLag() {
   var B = (V5.leadLag || {}).blocs || {}, rows = [["left>right", "Sol → sağ"], ["right>left", "Sağ → sol"], ["left>mid", "Sol → merkez"], ["right>mid", "Sağ → merkez"]].filter(function (r) { return B[r[0]]; });
   var tip = function (k, t) { return "<span class='k'>" + t + "</span>" + orN(B[k].n) + " olay<br>Karşı taraftan en az biri verdi: " + pc5(B[k].coveredShare) + "<br>Ortanca gecikme " + dur5(B[k].medLag); };
-  var viz = '<p class="or-hint">Okuma: “Sol → sağ”: olayı ilk veren kurum sola yerleşik; satır, bu olayları sağdan en az bir kurumun da verdiği payı ve gecikmeyi gösterir.</p><h4 class="or-h4">Karşı bloktan en az bir kurumun verdiği olay payı</h4>' + orBars(rows.map(function (r) { return { label: r[1], v: B[r[0]].coveredShare, disp: pc5(B[r[0]].coveredShare), c: "var(--ink2)", tip: tip(r[0], r[1]) }; }), 1) +
-    '<h4 class="or-h4">Ortanca gecikme</h4>' + orBars(rows.map(function (r) { return { label: r[1], v: B[r[0]].medLag, disp: dur5(B[r[0]].medLag), c: "var(--ink2)", tip: tip(r[0], r[1]) }; }));
+  var src = function (k) { return "var(--" + k.split(">")[0] + ")"; };
+  var viz = '<p class="or-hint">Okuma: “Sol → sağ”: olayı ilk veren kurum sola yerleşik; satır, bu olayları sağdan en az bir kurumun da verdiği payı ve gecikmeyi gösterir. Nokta rengi olayı açan blok.</p><h4 class="or-h4">Karşı bloktan en az bir kurumun verdiği olay payı</h4>' +
+    vzRows(rows.map(function (r) { var b = B[r[0]], ci = vzWilson(Math.round(b.coveredShare * b.n), b.n);
+      return { k: r[0], label: r[1], val: pc5(b.coveredShare), pts: [{ v: 100 * b.coveredShare, lo: 100 * ci[0], hi: 100 * ci[1], c: src(r[0]), big: true }], tip: tip(r[0], r[1]) + "<br>%95 aralık " + orP(ci[0]) + " – " + orP(ci[1]) }; }),
+      { min: 0, max: 100, fmt: function (v) { return "%" + v; }, lw: 130, vw: 64 }) +
+    '<h4 class="or-h4">Ortanca gecikme</h4>' +
+    vzRows(rows.map(function (r) { return { k: r[0] + "l", label: r[1], val: dur5(B[r[0]].medLag), span: "zero", pts: [{ v: B[r[0]].medLag, c: src(r[0]), big: true }], tip: tip(r[0], r[1]) }; }),
+      { min: 0, max: Math.ceil(Math.max.apply(null, rows.map(function (r) { return B[r[0]].medLag; })) / 60) * 60,
+        ticks: (function () { var m = Math.ceil(Math.max.apply(null, rows.map(function (r) { return B[r[0]].medLag; })) / 60) * 60, t = []; for (var v = 0; v <= m; v += 60) t.push(v); return t; })(),
+        fmt: function (v) { return v ? v / 60 + " sa" : "0"; }, lw: 130, vw: 64, axis: "Pay satırlarındaki yatay çizgi %95 güven aralığıdır; olay sayısı az olan yönde aralık geniştir." });
   var lr = B["left>right"], rl = B["right>left"];
   return { id: "hiz-blok",
     claim: lr && rl ? "Sol kurumların açtığı olayların <b>" + pc5(lr.coveredShare) + "</b>’i sağdan en az bir kurum tarafından verildi (ortanca " + dur5(lr.medLag) + " sonra); sağın açtığı olayların <b>" + pc5(rl.coveredShare) + "</b>’i soldan (" + dur5(rl.medLag) + " sonra)." : "Blok geçişi verisi yok.",
@@ -537,10 +583,14 @@ function orFindGap() {
   var GP = V5.gap || {}, O = GP.outlets || {}, ks = ACT5.filter(function (s) { return O[s] && O[s].hotter != null; }).sort(function (a, b) { return O[b].hotter - O[a].hotter; });
   var th = GP.threshold || 15, top = (GP.top || []).slice(0, 6).filter(function (x) { return ART[x.i]; });
   var mx = Math.max.apply(null, ks.map(function (s) { return O[s].hotter; })) * 1.05;
-  var viz = orBars(ks.map(function (s) {
-    return { label: srcName(s), v: O[s].hotter, disp: pc5(O[s].hotter), c: lean(SRC[s] ? SRC[s].lean : null), go: "#/kurum?s=" + s,
-      tip: "<span class='k'>" + esc(srcName(s)) + "</span>Başlığı spotundan en az " + th + " puan yüklü: " + pc5(O[s].hotter) + "<br>Spotu başlığından en az " + th + " puan yüklü: " + pc5(O[s].cooler) + "<br>" + orN(O[s].n) + " spotlu haber" };
-  }), mx) + (top.length ? '<h4 class="or-h4">En büyük farklar</h4><div class="xcmp-list">' + top.map(function (x) { var a = ART[x.i];
+  var viz = vzKey([{ c: "var(--ink)", t: "başlık spottan yüklü" }, { kind: "o", c: "var(--ink)", t: "spot başlıktan yüklü" }]) +
+    vzRows(ks.slice().sort(function (a, b) { return (O[b].hotter - O[b].cooler) - (O[a].hotter - O[a].cooler); }).map(function (s) {
+    var net = O[s].hotter - O[s].cooler;
+    return { k: s, label: srcName(s), sw: lean(SRC[s] ? SRC[s].lean : null), go: "#/kurum?s=" + s, span: "pts", val: (net >= 0 ? "+" : "−") + dec(100 * Math.abs(net), 1),
+      pts: [{ v: 100 * O[s].cooler, c: "var(--ink)", hollow: true }, { v: 100 * O[s].hotter, c: "var(--ink)" }],
+      tip: "<span class='k'>" + esc(srcName(s)) + "</span>Başlığı spotundan en az " + th + " puan yüklü: " + pc5(O[s].hotter) + "<br>Spotu başlığından en az " + th + " puan yüklü: " + pc5(O[s].cooler) + "<br>Fark " + (net >= 0 ? "+" : "−") + dec(100 * Math.abs(net), 1) + " puan · " + orN(O[s].n) + " spotlu haber" };
+  }), { min: 0, max: Math.ceil(100 * Math.max(mx, Math.max.apply(null, ks.map(function (s) { return O[s].cooler; }))) / 5) * 5, fmt: function (v) { return "%" + v; }, lw: 150, vw: 56,
+    axis: "Satırlar farka göre sıralı (sağdaki sayı, iki pay arasındaki fark, puan). Dolu nokta sağdaysa kurumun başlıkları spotlarından daha sert." }) + (top.length ? '<h4 class="or-h4">En büyük farklar</h4><div class="xcmp-list">' + top.map(function (x) { var a = ART[x.i];
     return '<section class="xcmp-i"><p class="eyebrow">' + esc(srcName(a.s)) + " · " + fmtDT(a.d) + " · başlık " + a.v + ", spot " + a.lv + '</p><p><a class="hlnk" href="' + esc(a.u) + '" target="_blank" rel="noopener">' + esc(a.t) + '</a></p><p class="xsmall">' + esc(x.l) + "</p></section>"; }).join("") + "</div>" : "");
   var neg = ks.filter(function (s) { return O[s].mean < 0; }).length, hi = ks[0], lo = ks[ks.length - 1];
   return { id: "hiz-spot",
@@ -622,7 +672,7 @@ function wireOruntu(q, f) {
     root.addEventListener("click", function (ev) {
       var b = ev.target.closest && ev.target.closest("[data-an]"); if (!b) return;
       [].forEach.call(root.querySelectorAll("[data-an]"), function (x) { x.setAttribute("aria-pressed", x === b); });
-      var t = document.getElementById("or-an"); if (t) { t.innerHTML = orAnBars(b.getAttribute("data-an")); wireGo(t); }
+      var t = document.getElementById("or-an"); if (t) { vzSwap(t, orAnBars(b.getAttribute("data-an"))); wireGo(t); }
     });
   }
   if (q === "dil") {
@@ -636,7 +686,7 @@ function wireOruntu(q, f) {
           var t = document.getElementById("or-t20"); if (t) t.innerHTML = orTop20Html(b.getAttribute("data-tf"));
         } else {
           if (b.hasAttribute("data-lm")) ORD.lang.metric = b.getAttribute("data-lm"); else ORD.lang.sort = b.getAttribute("data-ls");
-          var l = document.getElementById("or-lang"); if (l) { l.innerHTML = orLangHtml(); wireGo(l); }
+          var l = document.getElementById("or-lang"); if (l) { vzSwap(l, orLangHtml()); wireGo(l); }
         }
       });
     }
