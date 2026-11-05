@@ -255,7 +255,8 @@ def validate_explain(x: dict, event_text: str | None = None) -> list[str]:
         v = v.strip()
         if not 40 <= len(v) <= 320:
             probs.append(f"{k}: length {len(v)} not in 40-320")
-        if not 1 <= len(re.findall(r"[^.!?…]+[.!?…]+(?=\s|$)|[^.!?…]+$", v)) <= 2:
+        bare = re.sub(r"\d[.,]\d", "0", _QUOTE.sub("Q", v))  # quoted spans and decimals don't end sentences
+        if not 1 <= len(re.findall(r"[^.!?…]+[.!?…]+(?=\s|$)|[^.!?…]+$", bare)) <= 2:
             probs.append(f"{k}: must be 1-2 sentences")
         low = v.lower()
         probs += [f"{k}: banned phrase '{b}'" for b in BANNED if b in low]
@@ -288,7 +289,7 @@ def explain_tasks(run: Path, batch: int) -> list[Path]:
                         continue
                 except Exception:
                     pass
-            role = lambda ms, r: next((m["text"] for m in ms if m.get("role") == r), None) or [m["text"] for m in ms]
+            role = lambda ms, r: " ".join(m["text"] for m in ms if m.get("role") == r) or " ".join(m["text"] for m in ms)
             todo.append({
                 "key": key, "output_file": f"runs/bg/explain/{key}.json", "event_title": ev.get("title"),
                 "concept": f["name"], "definition": f["definition"],

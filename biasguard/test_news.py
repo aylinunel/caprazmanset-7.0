@@ -107,6 +107,13 @@ class ExplainTests(unittest.TestCase):
         three = "Bir cümle burada yazıyor. İkinci cümle de burada yazıyor. Üçüncü cümle fazla olur burada."
         self.assertTrue(validate_explain({"noticed": three, "why": GOOD["why"]}, TEXT))
 
+    def test_sentence_count_ignores_quotes_and_decimals(self):
+        t = "[A · 09:00] Kanser tedavisi görüyordu! İş adamı Ahmet hayatını kaybetti\n[B · 09:01] 3.5 milyon lira"
+        a = {"noticed": "A haberi “Kanser tedavisi görüyordu! İş adamı Ahmet hayatını kaybetti” diye verdi.", "why": GOOD["why"]}
+        self.assertEqual(validate_explain(a, t), [])
+        b = {"noticed": "B haberi 3.5 milyon lira diye verdi, A ise rakam vermedi ve başka bir çerçeve seçti.", "why": GOOD["why"]}
+        self.assertEqual(validate_explain(b, t), [])
+
     def test_pack_carries_explain(self):
         with tempfile.TemporaryDirectory() as d:
             run = Path(d)
