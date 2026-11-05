@@ -40,3 +40,9 @@ Decision: push.
 - Simplicity/Karpathy: old 10-card grid and its stats removed (replaced by the spec's feed); appeal button no longer nested inside card links (invalid HTML).
 - Performance: effect runs only on hover/focus or once per card in view on touch; off under reduced motion.
 Decision: push.
+
+## Push of 86525c1, 70cdc81, 6635d55 (UX Task 5: finding block, glossary, tables)
+- Correctness: logic 15/15 (glossTerms); smoke covers popover open by tap, Tab into link, Esc close + focus return, close on navigation.
+- Accessibility: popover in DOM order after its term; focus management fixed; shadow token for dark mode.
+- Simplicity/Karpathy: findingBlock backward compatible (old findings render without undefined); no unrelated edits.
+Decision: push.
