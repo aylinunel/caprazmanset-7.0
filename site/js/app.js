@@ -4545,7 +4545,7 @@ function cyberChrome(path) {
 function v2bAfter(path, tab, params) {
   cyberChrome(path);
   if (path === "/" || path === "/anlati" || path === "/olay") wireAnlati(document.getElementById("view"));
-  if (path === "/oruntu") wireOruntu(params.q || "secim");
+  if (path === "/oruntu") wireOruntu(params.q || "secim", params.f);
   if (path === "/yontem" && params.s) { var tg = document.getElementById("s" + params.s); if (tg) setTimeout(function () { tg.scrollIntoView({ block: "start" }); }, 30); }
 }
 
@@ -5075,7 +5075,7 @@ function pgSource(q) {
   var blk = '<section class="sec" style="margin-top:18px"><h2>Altı eksenli profil</h2>' +
     '<p class="sub">Kayıt defterindeki yerleşim (0–100), her eksen kendi iki ucuyla. Bu bir yerleşimdir, hüküm değil; kaynağı ' +
     '<a class="lnk" href="#/yontem?s=2">Yöntem § 2</a>. ' + fixLink("kurum", k, p.n) + "</p>" +
-    sixRows([[k, "var(--ink)"]]) + "</section>" + v5Profile(k) + bg7Outlet(k);
+    sixRows([[k, "var(--ink)"]]) + "</section>" + v5Profile(k) + kurumLines7(k);
   var i = h.indexOf('<section class="sec" style="margin-top:8px">');
   return i < 0 ? h.replace('<div class="grid g3">', blk + '<div class="grid g3">') : h.slice(0, i) + blk + h.slice(i);
 }
@@ -7011,14 +7011,6 @@ function bg7Rates() {
   });
   var R = {}; Object.keys(cov).forEach(function (s) { R[s] = { cov: cov[s], hit: hit[s] || 0, rate: (hit[s] || 0) / cov[s], c: byC[s] || {} }; });
   return R;
-}
-function bg7Outlet(k) {
-  var r = bg7Rates()[k]; if (!r || r.cov < 5) return "";
-  var cs = Object.keys(r.c).sort(function (a, b) { return r.c[b] - r.c[a]; }).slice(0, 5);
-  return '<section class="sec yz" style="margin-top:18px"><h2>Bilişsel inceleme ' + bg7AiTag() + "</h2><p>" + esc(srcName(k)) +
-    " incelenen " + r.cov + " olayı verdi; bunların " + r.hit + bg7loc(r.hit) + " başlığı, bir kavram için “bağlam gerekli” sonucunun kanıtı olarak alıntılandı (%" +
-    Math.round(100 * r.rate) + "). Bu bir yanlılık hükmü değildir: alıntı, başlığın diğer kurumlardan farklı yazıldığını gösterir, farkın nedenini değil.</p>" +
-    (cs.length ? "<p>En sık alıntılandığı kavramlar: " + cs.map(function (c) { return esc(c) + " (" + r.c[c] + ")"; }).join(", ") + ".</p>" : "") + "</section>";
 }
 function wk7(d) { var t0 = Date.parse(DAYS[0] + "T00:00Z"); return Math.floor((Date.parse(d.slice(0, 10) + "T00:00Z") - t0) / 864e5 / 7); }
 /*@@V7@@*/

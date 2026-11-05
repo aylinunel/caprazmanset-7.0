@@ -585,9 +585,10 @@ function orWire(root) {
 }
 function orPut(id, node) { var t = document.getElementById(id); if (t && node) t.appendChild(node); }
 
-function wireOruntu(q) {
+function wireOruntu(q, f) {
   var root = document.getElementById("view"); if (!root) return;
   orWire(root); wireGo(root);
+  if (f) setTimeout(function () { var t = document.getElementById(f); if (t) t.scrollIntoView({ block: "start" }); }, 30);
   q = OR_PAGES[q] ? q : "secim";
   if (q === "secim") {
     orPut("adv-a", advHeat());

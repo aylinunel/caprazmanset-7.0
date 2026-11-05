@@ -60,6 +60,16 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       });
       if (bad) fails.push(`${tag}: oruntu ${bad}`);
     }
+    if (route.startsWith("#/kurum?s=")) {
+      const bad = await page.evaluate(() => {
+        const n = document.querySelectorAll('.v7-kurum-lines a[href^="#/oruntu"]').length;
+        if (n < 4) return `only ${n} oruntu links`;
+        if (document.querySelectorAll(".v7-kurum-lines .yz").length !== 1) return "need exactly one .yz";
+        if (/bağlam gerekli|desteklendi/i.test(document.querySelector(".v7-kurum-lines").textContent)) return "status word in lines";
+        return "";
+      });
+      if (bad) fails.push(`${tag}: kurum ${bad}`);
+    }
     for (const [er, js] of evals) if (er === route && !(await page.evaluate(js))) fails.push(`${tag}: eval false: ${js}`);
     if (await page.$(".v7-empty-bug")) fails.push(`${tag}: .v7-empty-bug present`);
     await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-${w}-${theme}.png`) });
