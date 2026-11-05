@@ -157,6 +157,12 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       if (w === 390 && await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) fails.push(`${tag}: horizontal scroll after click ${sel}`);
       await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-click-${w}-${theme}.png`) });
     }
+    if (route === "#/oruntu?q=secim" && w === 1280 && theme === "light") {
+      await page.$eval(".gl", (e) => e.focus()); await page.keyboard.press("Tab"); await sleep(200);
+      if (!(await page.evaluate(() => { const a = document.activeElement; return !!(a && a.closest(".gl-pop") && a.tagName === "A"); }))) fails.push(`${tag}: Tab from .gl does not reach popover link`);
+      await page.evaluate(() => { location.hash = "#/kurumlar"; }); await sleep(800);
+      if (await page.$(".gl-pop")) fails.push(`${tag}: .gl-pop survives navigation`);
+    }
     await ctx.close();
   }
   await browser.close(); srv.close();

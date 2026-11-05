@@ -24,18 +24,20 @@ function findingBlock(f) {
   var tbl = f.table ? '<details class="v7-tbl"><summary>Tabloyu göster</summary>' + f.table + "</details>" : "";
   return '<section class="v7-find" id="' + esc(f.id || "") + '"><p class="v7-claim">' + glossTerms(f.claim || "") + "</p>" +
     '<div class="v7-viz">' + (f.viz || "") + "</div>" + (f.read ? '<p class="v7-read">' + f.read + "</p>" : "") + why +
-    '<details class="v7-how"><summary>Nasıl ölçtük?</summary>' + (f.how || "") + tbl + "</details></section>";
+    (f.how || tbl ? '<details class="v7-how"><summary>Nasıl ölçtük?</summary>' + (f.how || "") + tbl + "</details>" : "") + "</section>";
 }
 
-/* Glossary popover: tap/focus/hover on .gl shows the definition; Esc or any click elsewhere closes. */
+/* Glossary popover: click/focus on .gl shows the definition right after the term in the DOM (so Tab reaches "Sözlük →");
+   Esc, a click elsewhere, focus leaving both, or navigation closes it. */
 function glClose() { var p = document.querySelector(".gl-pop"); if (p) p.parentNode.removeChild(p); }
 function glOpen(b) {
+  var cur = document.querySelector(".gl-pop"); if (cur && cur.previousSibling === b) return;
   glClose(); var t = b.getAttribute("data-gl"), d = GLOSSARY[t]; if (!d) return;
-  var p = document.createElement("div"); p.className = "gl-pop"; p.setAttribute("role", "dialog"); p.setAttribute("aria-label", t);
+  var p = document.createElement("span"); p.className = "gl-pop"; p.setAttribute("role", "dialog"); p.setAttribute("aria-label", t); p.tabIndex = -1;
   p.innerHTML = "<b>" + esc(t) + "</b> " + esc(d) + ' <a href="#/yontem?s=sozluk">Sözlük →</a>';
-  document.body.appendChild(p);
-  var r = b.getBoundingClientRect(), w = p.offsetWidth, x = Math.max(8, Math.min(innerWidth - w - 8, r.left + scrollX));
-  p.style.left = x + "px"; p.style.top = (r.bottom + scrollY + 6) + "px";
+  b.parentNode.insertBefore(p, b.nextSibling);
+  var r = b.getBoundingClientRect(), w = p.offsetWidth, o = (p.offsetParent || document.documentElement).getBoundingClientRect();
+  p.style.left = (Math.max(8, Math.min(innerWidth - w - 8, r.left)) - o.left) + "px"; p.style.top = (r.bottom - o.top + 6) + "px";
 }
 document.addEventListener("click", function (ev) {
   var b = ev.target.closest && ev.target.closest(".gl");
@@ -43,4 +45,13 @@ document.addEventListener("click", function (ev) {
   if (!(ev.target.closest && ev.target.closest(".gl-pop"))) glClose();
 });
 document.addEventListener("focusin", function (ev) { var b = ev.target.closest && ev.target.closest(".gl"); if (b) glOpen(b); });
-document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") glClose(); });
+document.addEventListener("focusout", function (ev) {
+  var n = ev.relatedTarget;
+  if (n && n.closest && !n.closest(".gl") && !n.closest(".gl-pop")) glClose();
+});
+window.addEventListener("hashchange", glClose);
+document.addEventListener("keydown", function (ev) {
+  if (ev.key !== "Escape") return;
+  var p = document.querySelector(".gl-pop"), inside = p && p.contains(document.activeElement), b = p && p.previousSibling;
+  glClose(); if (inside && b && b.focus) b.focus();
+});

@@ -1712,8 +1712,8 @@ th{color:var(--ink);border-bottom-width:3px}
 .v7-dt td{font-family:var(--ff-m)}
 .gl{all:unset;cursor:help;text-decoration:underline dotted;text-underline-offset:3px;color:inherit;font:inherit}
 .gl:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
-.gl-pop{position:absolute;z-index:60;max-width:min(320px,calc(100vw - 16px));background:var(--surface);color:var(--ink);border:1px solid var(--line2);
-  border-radius:8px;padding:10px 12px;font:400 13px/1.45 var(--ff-b);box-shadow:0 6px 24px rgba(0,0,0,.14);animation:glin .15s ease}
+.gl-pop{display:block;position:absolute;z-index:60;max-width:min(320px,calc(100vw - 16px));background:var(--surface);color:var(--ink);border:1px solid var(--line2);
+  border-radius:8px;padding:10px 12px;font:400 13px/1.45 var(--ff-b);box-shadow:var(--shadow-pop);animation:glin .15s ease}
 .gl-pop a{display:inline-block;min-height:24px;color:var(--ink);font-weight:600;white-space:nowrap}
 @keyframes glin{from{opacity:0}to{opacity:1}}
 @media (prefers-reduced-motion:reduce){.gl-pop{animation:none}}
@@ -2259,3 +2259,8 @@ canvas.dm-word{position:absolute;left:0;top:0;width:100%;height:100%;pointer-eve
 #bu-hafta{scroll-margin-top:64px}
 .v7-fc-t{max-width:none}
 .v7-fm .xbtn[hidden]{display:none}
+
+/* popover shadow token */
+:root{--shadow-pop:0 6px 24px rgba(0,0,0,.14)}
+:root[data-theme="dark"]{--shadow-pop:0 0 0 1px var(--line2),0 6px 24px rgba(0,0,0,.6)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--shadow-pop:0 0 0 1px var(--line2),0 6px 24px rgba(0,0,0,.6)}}
