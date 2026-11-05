@@ -20,6 +20,16 @@ function weekEvents(N, NW, week, ok) {
   });
 }
 
+/* Which week to show: an existing week stays selected even when empty (empty:true); unknown/v1 -> latest non-empty. */
+function pickWeek(NW, N, ok, wanted) {
+  var weeks = (NW || []).filter(function (w) { return w.k !== "v1"; });
+  var has = function (w) { return weekEvents(N, NW, w.k, ok).length > 0; };
+  var hit = weeks.filter(function (w) { return w.k === wanted; })[0];
+  if (hit) return { week: hit.k, empty: !has(hit) };
+  var full = weeks.filter(has);
+  return full.length ? { week: full[full.length - 1].k, empty: false } : { week: null, empty: true };
+}
+
 function narrGroups(rows, dim) {
   var m = {};
   rows.forEach(function (r) {
@@ -96,6 +106,6 @@ function redirectRoute(path, params) {
 }
 
 if (typeof module !== "undefined" && module.exports) {
-  module.exports = { trFold: trFold, weekEvents: weekEvents, narrGroups: narrGroups, orderOutlets: orderOutlets,
+  module.exports = { trFold: trFold, weekEvents: weekEvents, pickWeek: pickWeek, narrGroups: narrGroups, orderOutlets: orderOutlets,
     dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute };
 }

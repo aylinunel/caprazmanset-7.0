@@ -28,18 +28,18 @@ function v7Colors(rows, dims) {
   return col;
 }
 
-function v7Lean(s) { return SRC[s] ? SRC[s].lean : null; }
+function v7Lean(s) { return SRC[s] && SRC[s].lean != null ? SRC[s].lean : null; }
 
 function v7Cell(r, d, col, active) {
   var v = String(r[d] || "").trim();
   if (!v || UNSET(v)) return '<td class="v7-e"><span class="v7-none">başlıkta yok</span></td>';
-  return '<td><span class="v7-pill' + (active === d ? " v7-on" : "") + '" tabindex="0" data-d="' + d + '" data-v="' + esc(v) +
+  return '<td><span class="v7-pill' + (active === d ? " v7-on" : "") + '" role="button" aria-label="' + esc(srcName(r.s) + ": " + NDL[d] + " — " + v) + '" tabindex="0" data-d="' + d + '" data-v="' + esc(v) +
     '" style="--c:' + col[d][v] + '">' + esc(v) + "</span></td>";
 }
 
 function v7Row(r, dims, col, opts) {
-  var open = (opts.open || []).indexOf(r.s) >= 0, b = bloc(r.s);
-  return '<tr class="v7-row ' + b + '"><th scope="row" class="v7-o" style="--c:' + (b === "none" ? "var(--line2)" : lean(v7Lean(r.s))) + '">' +
+  var open = (opts.open || []).indexOf(r.s) >= 0, b = bloc(r.s), lv = v7Lean(r.s);
+  return '<tr class="v7-row ' + b + '"><th scope="row" class="v7-o" style="--c:' + (lv == null ? "var(--line2)" : lean(lv)) + '">' +
     '<button type="button" class="v7-out" data-s="' + esc(r.s) + '" aria-expanded="' + open + '">' + esc(srcName(r.s)) + "</button></th>" +
     dims.map(function (d) { return v7Cell(r, d, col, opts.active); }).join("") + "</tr>" +
     '<tr class="v7-hlr"' + (open ? "" : " hidden") + '><td colspan="' + (dims.length + 1) + '"><q class="v7-hl">' +
@@ -82,21 +82,32 @@ function v7Side(n, e) {
   return '<aside class="v7-side">' + (ai ? yzBlock(inner, "Kısaca") : inner) + link + "</aside>";
 }
 
+function v7WeekBar(weeks, cur) {
+  return '<div class="v7-weeks" role="group" aria-label="Hafta">' + weeks.map(function (w) {
+    return '<button type="button" class="chip" data-w="' + w.k + '" aria-pressed="' + (w.k === cur) + '"' + (w.keys.length ? "" : " disabled") + ">" +
+      esc(w.l) + ' <span class="v7-cnt">' + w.keys.length + "</span></button>";
+  }).join("") + "</div>";
+}
+
 function pgAnlati(q) {
   q = q || {};
   var weeks = v7Weeks(), full = weeks.filter(function (w) { return w.keys.length; });
-  if (!full.length) return '<div class="wrap page"><p class="v7-purpose">' + V7_PURPOSE + "</p></div>";
-  var latest = full[full.length - 1], wk = latest;
+  var purpose = '<p class="v7-purpose">' + esc(V7_PURPOSE) + "</p>";
+  if (!full.length) return '<div class="wrap page v7-an">' + purpose + '<h1 class="v7-emptyh">Bu hafta için gösterilecek olay yok.</h1></div>';
+  var latest = full[full.length - 1];
   var byN = q.n && D.N[q.n] ? full.filter(function (w) { return w.k === D.N[q.n].w; })[0] : null;
-  var byW = full.filter(function (w) { return w.k === q.w; })[0];
-  wk = byN || byW || latest;
+  var pk = pickWeek(NW, D.N, narrOk, byN ? byN.k : q.w);
+  var wk = weeks.filter(function (w) { return w.k === pk.week; })[0];
+  if (pk.empty) {
+    var coded = (NW.filter(function (w) { return w.k === wk.k; })[0] || { keys: [] }).keys.length;
+    return '<div class="wrap page v7-an">' + purpose + '<h1 class="v7-emptyh">Bu hafta için gösterilecek olay yok.</h1><p class="v7-note">' +
+      (coded ? "Bu haftanın kodlanmış olaylarının hepsi editör incelemesinde kaldırıldı." : "Bu hafta için kodlanmış olay yok.") + "</p>" +
+      v7WeekBar(weeks, wk.k) + "</div>";
+  }
   var key = q.n && wk.keys.indexOf(q.n) >= 0 ? q.n : wk.keys[0], n = D.N[key], e = EV[n.ev];
   var title = narrName(key, 140), ai = n.status === "agent_coded";
   var h = '<div class="wrap page v7-an"><p class="v7-purpose">' + esc(V7_PURPOSE) + "</p><h1>" + esc(title) + "</h1>";
-  h += '<div class="v7-weeks" role="group" aria-label="Hafta">' + weeks.map(function (w) {
-    return '<button type="button" class="chip" data-w="' + w.k + '" aria-pressed="' + (w.k === wk.k) + '"' + (w.keys.length ? "" : " disabled") + ">" +
-      esc(w.l) + ' <span class="v7-cnt">' + w.keys.length + "</span></button>";
-  }).join("") + "</div>";
+  h += v7WeekBar(weeks, wk.k);
   h += '<div class="v7-events" role="group" aria-label="Olay">' + wk.keys.map(function (k) {
     return '<button type="button" class="chip" data-w="' + wk.k + '" data-n="' + k + '" aria-pressed="' + (k === key) + '">' + esc(narrName(k, 44)) + "</button>";
   }).join("") + "</div>";

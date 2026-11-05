@@ -49,3 +49,14 @@ test("redirectRoute", () => {
   assert.equal(L.redirectRoute("/anlati", {}), null);
 });
 test("trFold", () => assert.equal(L.trFold("İSTANBUL IŞIK çğöü"), "istanbul isik cgou"));
+
+test("pickWeek: existing-but-empty stays; unknown and v1 fall back to latest non-empty", () => {
+  const { pickWeek } = require("../js/v7/logic.js");
+  const NW = [{ k: "v1", keys: ["a"] }, { k: "w1", keys: ["b"] }, { k: "w2", keys: ["c"] }, { k: "w3", keys: [] }];
+  const N = { a: {}, b: {}, c: {} }, ok = () => true;
+  assert.deepStrictEqual(pickWeek(NW, N, ok, "w3"), { week: "w3", empty: true });
+  assert.deepStrictEqual(pickWeek(NW, N, (k) => k !== "b", "w1"), { week: "w1", empty: true });
+  assert.deepStrictEqual(pickWeek(NW, N, ok, "zzz"), { week: "w2", empty: false });
+  assert.deepStrictEqual(pickWeek(NW, N, ok, "v1"), { week: "w2", empty: false });
+  assert.deepStrictEqual(pickWeek(NW, N, ok, "w1"), { week: "w1", empty: false });
+});
