@@ -4814,7 +4814,7 @@ function navHTML(path, over, tab) {
     '<nav class="pill-nav" aria-label="Ana gezinme"><ul class="xnav-l">' + items + "</ul></nav>" +
     '<div class="navtools">' +
       '<a class="xutil' + (path === "/ilan" ? " on" : "") + '" href="#/ilan">Resmî ilan bul</a>' +
-      '<a class="xutil' + (g === "/benim" ? " on" : "") + '" href="#/benim">Benim</a>' +
+      '<a class="xutil xpill' + (g === "/benim" ? " on" : "") + '" href="#/benim">Benim</a>' +
       '<a class="icobtn" href="#/ara" aria-label="Ara"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="6.5" cy="6.5" r="4.3"/><path d="m9.8 9.8 3.4 3.4"/></svg></a>' +
       '<button class="icobtn" id="theme" aria-label="Açık/koyu tema"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7.5 1.6a5.9 5.9 0 1 0 5.9 5.9 4.6 4.6 0 0 1-5.9-5.9Z"/></svg></button>' +
       '<button class="icobtn burger" id="burger" aria-label="Menü" aria-expanded="false"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h11M2 10.5h11"/></svg></button>' +
