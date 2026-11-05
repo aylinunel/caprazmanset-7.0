@@ -14,8 +14,8 @@ function pgHome7() {
     return '<a class="v7-hc' + (ai ? " yz" : "") + '" href="' + href + '"><span class="eyebrow">' + kick + (ai ? " " + yzBadge() : "") + "</span><b>" + title +
       "</b><span class=\"v7-hfig\">" + fig + "</span><span>" + line + "</span></a>";
   };
-  var h = '<div class="wrap page v7-home"><div class="v7-htop"><div><p class="eyebrow">' + esc(WIN.range) + " · " + m.articles.toLocaleString("tr") + " başlık · " +
-    D.E.length.toLocaleString("tr") + " olay · " + D.meta.sources.length + ' kurum</p><h1>Aynı olay, farklı manşet.</h1><p class="lede">' + esc(V7_PURPOSE) +
+  var h = dmHero(lead) + '<div class="wrap page v7-home"><div class="v7-htop"><div><p class="eyebrow">' + esc(WIN.range) + " · " + m.articles.toLocaleString("tr") + " başlık · " +
+    D.E.length.toLocaleString("tr") + " olay · " + D.meta.sources.length + ' kurum</p><h2 class="v7-hh">Bir olay, iki manşet</h2><p class="lede">' + esc(V7_PURPOSE) +
     " Hüküm vermez: yalnızca kimin neyi nasıl yazdığını yan yana koyar ve bu farkların tekrar edip etmediğini ölçer.</p>" +
     '<a class="xbtn" href="#/anlati">Anlatı haritasını aç →</a></div>';
   if (lead && defaultPair(lead)) h += '<div class="v7-hlead"><p class="eyebrow">Örnek · <a class="lnk" href="#/olay?e=' + lead.i + '">' + esc(storyLabel(lead, 90)) + "</a></p>" + splitCard(lead) + "</div>";
