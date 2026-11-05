@@ -1,3 +1,4 @@
 pipeline/.data/
 __pycache__/
 dist/
+.superpowers/
