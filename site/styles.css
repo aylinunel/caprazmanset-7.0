@@ -1863,3 +1863,12 @@ th{color:var(--ink);border-bottom-width:3px}
 .or-sx{position:absolute;bottom:0;right:0;font-size:11px;color:var(--muted);font-family:var(--ff-m)}
 .or-sy{position:absolute;top:2px;left:22px;font-size:11px;color:var(--muted);font-family:var(--ff-m)}
 @media (max-width:640px){.or-dot span{display:none}.or-sc{padding-left:6px}.or-scp{margin-right:12px;height:300px}}
+.v7-ilan-f{display:grid;gap:10px;margin:14px 0;max-width:720px}
+.v7-ilan-f label{font-family:var(--ff-m);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);display:grid;gap:4px;min-width:0}
+.v7-ilan-f input,.v7-ilan-f select{min-height:40px;max-width:100%;min-width:0;width:100%;box-sizing:border-box}
+.v7-ilan-chips,.v7-ilan-r{display:flex;flex-wrap:wrap;gap:8px}
+.v7-ilan-r label{flex:1 1 140px}
+.v7-ilan-chips .chip,#ilanmore{min-height:40px}
+.v7-ilan-list{list-style:none;margin:8px 0;padding:0;display:grid}
+.v7-ilan-row{display:grid;gap:2px;padding:10px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.v7-ilan-empty{font-family:var(--ff-b);font-size:15px;color:var(--ink2);max-width:60ch;margin:16px 0}

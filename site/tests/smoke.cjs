@@ -70,6 +70,15 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       });
       if (bad) fails.push(`${tag}: kurum ${bad}`);
     }
+    if (route === "#/ilan") {
+      const rows = async (t) => { await page.fill("#ilanq", t); await sleep(400); return page.evaluate(() => [document.querySelectorAll(".v7-ilan-row").length, (document.querySelector("#ilanres") || {}).textContent || ""]); };
+      const [n] = await rows("icra");
+      if (n < 1) fails.push(`${tag}: ilan 'icra' gives no .v7-ilan-row`);
+      const [, txt] = await rows("zzzz");
+      if (!txt.includes("Bu aramayla eşleşen ilan bizim derlemimizde yok. Resmî ilanların tamamı için ilan.gov.tr adresine bakabilirsiniz.")) fails.push(`${tag}: ilan empty-state text missing`);
+      await rows("");
+      if (w === 390 && await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) fails.push(`${tag}: ilan horizontal scroll after typing`);
+    }
     for (const [er, js] of evals) if (er === route && !(await page.evaluate(js))) fails.push(`${tag}: eval false: ${js}`);
     if (await page.$(".v7-empty-bug")) fails.push(`${tag}: .v7-empty-bug present`);
     await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-${w}-${theme}.png`) });

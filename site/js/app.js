@@ -4546,6 +4546,7 @@ function v2bAfter(path, tab, params) {
   cyberChrome(path);
   if (path === "/" || path === "/anlati" || path === "/olay") wireAnlati(document.getElementById("view"));
   if (path === "/oruntu") wireOruntu(params.q || "secim", params.f);
+  if (path === "/ilan") wireIlan();
   if (path === "/yontem" && params.s) { var tg = document.getElementById("s" + params.s); if (tg) setTimeout(function () { tg.scrollIntoView({ block: "start" }); }, 30); }
 }
 
