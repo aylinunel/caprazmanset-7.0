@@ -21,6 +21,11 @@ and every finding opens into a technical "Nasıl ölçtük" layer.
    an outlined "YZ" badge plus a dotted left rule. No new accent colour, no monospace body text.
 5. The public site never shows the status label "bağlam gerekli"; each AI finding instead says in plain
    words what the AI noticed and why that is not conclusive.
+6. **Priority rule (owner, 2026-11-05):** the Anlatı haritası graph and advanced, interactive analyses of
+   the existing data always come first. Wherever a page could show a static table or an interactive view
+   of the same data, it shows the interactive view (filter, hover, click-through, recolour) with the table
+   behind "Nasıl ölçtük"; the narrative map is the first thing on the homepage and on every coded event
+   page, and each Örüntüler page leads with its most interactive chart.
 
 **Kept unchanged:** data, collection, pipeline analyses, 6.0 visual identity (Newsreader, IBM Plex Sans,
 IBM Plex Mono for numbers only, left/right colours, yellow highlight for differing words), the artifact
