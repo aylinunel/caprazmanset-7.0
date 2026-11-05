@@ -34,3 +34,9 @@ Decision: push.
 - Simplicity/Karpathy: tabs merged by reusing existing renderers; dead code (v3noticeEventsPage, v3sub stub) noted for Task 10 cleanup rather than removed here.
 - Security: search input goes to #/ara via the existing search renderer (escaped there).
 Decision: push.
+
+## Push of 836dde9, 986f824 (UX Task 4: splits feed, feed-card dot effect)
+- Correctness: weeklySplits/whatDiffers unit-tested (logic 14/14); smoke covers feed, more-button hiding, zero-event state, hover effect. Taps always navigate (wide-audience ruling).
+- Simplicity/Karpathy: old 10-card grid and its stats removed (replaced by the spec's feed); appeal button no longer nested inside card links (invalid HTML).
+- Performance: effect runs only on hover/focus or once per card in view on touch; off under reduced motion.
+Decision: push.
