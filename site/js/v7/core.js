@@ -5,7 +5,7 @@ NAV = [["/anlati", "Anlatı", []], ["/olaylar", "Olaylar", ["/olay"]], ["/oruntu
   ["/kurumlar", "Kurumlar", ["/kurum", "/karsilastir"]], ["/yontem", "Yöntem", []]];
 SUB["/oruntu"] = [["/oruntu", "secim", "Kim neyi haber yapıyor"], ["/oruntu", "dil", "Nasıl anlatıyor"],
   ["/oruntu", "anlati", "Kimi sorumlu tutuyor"], ["/oruntu", "hiz", "Kim önce veriyor"]];
-SECTIONS[0].fn = pgAnlati;
+SECTIONS[0].fn = pgHome7;
 SECTIONS.forEach(function (s) { if (s.p === "/anlati") s.fn = pgAnlati; });
 SECTIONS.push({ p: "/oruntu", label: "Örüntüler", fn: pgOruntu }, { p: "/ilan", label: "Resmî ilan bul", fn: pgIlan });
 DETAIL["/ilan"] = { fn: pgIlan, of: "/ilan" };

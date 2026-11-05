@@ -104,7 +104,8 @@ function pgAnlati(q) {
       (coded ? "Bu haftanın kodlanmış olaylarının hepsi editör incelemesinde kaldırıldı." : "Bu hafta için kodlanmış olay yok.") + "</p>" +
       v7WeekBar(weeks, wk.k) + "</div>";
   }
-  var key = q.n && wk.keys.indexOf(q.n) >= 0 ? q.n : wk.keys[0], n = D.N[key], e = EV[n.ev];
+  var key = q.n && wk.keys.indexOf(q.n) >= 0 ? q.n : wk.keys[0], n = D.N[key], e = EV[n.ev], tab = q.v === "tablo";
+  V7VIEW = tab ? "tablo" : "";
   var title = narrName(key, 140), ai = n.status === "agent_coded";
   var h = '<div class="wrap page v7-an"><p class="v7-purpose">' + esc(V7_PURPOSE) + "</p><h1>" + esc(title) + "</h1>";
   h += v7WeekBar(weeks, wk.k);
@@ -112,7 +113,12 @@ function pgAnlati(q) {
     return '<button type="button" class="chip" data-w="' + wk.k + '" data-n="' + k + '" aria-pressed="' + (k === key) + '">' + esc(narrName(k, 44)) + "</button>";
   }).join("") + "</div>";
   h += '<div class="v7-body"><div class="v7-mapbox"><p class="v7-meta">' + (ai ? yzBadge() + " Başlıklardan yapay zekâ ile kodlandı. " : "Başlıklardan elle kodlandı. ") +
-    '<a class="lnk" href="#/yontem">Yöntem</a></p><div id="v7-map" data-key="' + esc(key) + '">' + narrMap(key) + "</div></div>" + v7Side(n, e) + "</div>";
+    '<a class="lnk" href="#/yontem">Yöntem</a></p>' + v7ViewBar(wk.k, key, tab) +
+    (tab ? '<div id="v7-map" data-key="' + esc(key) + '">' + narrMap(key) + "</div>" :
+      '<div class="v7-scroll"><div id="v7-flow" data-key="' + esc(key) + '"></div></div><p class="v7-note">Her çizgi bir kurum; rengi kurumun yerleşimini gösterir. ' +
+      "Aynı kutudan geçen çizgiler aynı seçimi yapmıştır. Bir çizginin üzerine gelince kurumun seçimleri görünür.</p>" +
+      '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>') +
+    "</div>" + v7Side(n, e) + "</div>";
   h += '<section class="v7-readbox"><h2>Nasıl okunur</h2><ol class="v7-read">' + V7_READ.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ol></section>";
   var top = latest.keys.map(function (k) { return EV[D.N[k].ev]; }).filter(Boolean)
     .sort(function (a, b) { return b.s.length - a.s.length; }).slice(0, 3);
@@ -122,8 +128,20 @@ function pgAnlati(q) {
   return h + "</div>";
 }
 
+var V7VIEW = "";
+/* Graph is the primary view; the table is one click away for reading every outlet's choice. */
+function v7ViewBar(w, key, tab) {
+  var u = "#/anlati?w=" + w + "&n=" + encodeURIComponent(key);
+  return '<div class="v7-view" role="group" aria-label="Görünüm"><a class="chip" href="' + u + '" aria-pressed="' + !tab + '">Grafik</a>' +
+    '<a class="chip" href="' + u + '&v=tablo" aria-pressed="' + tab + '">Tablo</a></div>';
+}
 function wireAnlati(root) {
   if (!root) return;
+  var fl = root.querySelector("#v7-flow");
+  if (fl && !fl.firstChild) {
+    var nf = D.N[fl.getAttribute("data-key")], keep = NFOC;
+    NFOC = nf.focus; fl.appendChild(narrativeFlow(nf.rows)); NFOC = keep;
+  }
   var box = root.querySelector("#v7-map");
   var openList = function () { return [].map.call(box.querySelectorAll(".v7-out[aria-expanded=true]"), function (b) { return b.getAttribute("data-s"); }); };
   var same = function (el) {
@@ -138,7 +156,7 @@ function wireAnlati(root) {
     if ((b = t.closest("[data-w]"))) {
       if (b.disabled) return;
       var nn = b.getAttribute("data-n");
-      location.hash = "#/anlati?w=" + b.getAttribute("data-w") + (nn ? "&n=" + encodeURIComponent(nn) : "");
+      location.hash = "#/anlati?w=" + b.getAttribute("data-w") + (nn ? "&n=" + encodeURIComponent(nn) : "") + (V7VIEW ? "&v=" + V7VIEW : "");
     } else if ((b = t.closest("th[data-dim]")) && box) {
       var d = b.getAttribute("data-dim"), cur = box.getAttribute("data-active");
       var next = cur === d ? "" : d, open = openList();

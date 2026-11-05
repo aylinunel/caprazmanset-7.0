@@ -1908,6 +1908,23 @@ th{color:var(--ink);border-bottom-width:3px}
 .v7-ctr{margin:4px 0 6px;font-size:13.5px;color:var(--muted)}
 .v7-cdf{margin:0;font-size:14px;line-height:1.55;color:var(--ink2)}
 @media (max-width:640px){.v7-tr-block dl{grid-template-columns:minmax(0,1fr);gap:2px}.v7-tr-block dd{margin-bottom:10px}}
+/* 7.0 homepage + Anlatı view switch */
+.v7-home h1{font-family:var(--ff-d);font-size:clamp(34px,6vw,56px);line-height:1.05;margin:6px 0 10px}
+.v7-home .lede{max-width:62ch}
+.v7-hlead{margin:22px 0 8px}
+.v7-hh{font-size:26px;margin:34px 0 14px}
+.v7-hgrid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.v7-hc{display:grid;gap:6px;align-content:start;padding:16px;border:1px solid var(--line);border-radius:6px;background:var(--surface);text-decoration:none;color:var(--ink);min-width:0}
+.v7-hc:hover,.v7-hc:focus-visible{border-color:var(--ink2)}
+.v7-hc b{font-family:var(--ff-d);font-size:20px;font-weight:500;line-height:1.2}
+.v7-hc span:last-child{color:var(--ink2);font-size:13.5px;line-height:1.5}
+.v7-hfig{font-family:var(--ff-m);font-size:13px;color:var(--ink)}
+.v7-view{display:flex;gap:6px;margin:4px 0 10px}
+#v7-flow svg{display:block;max-width:none}
+.v7-htop{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:32px;align-items:start}
+.v7-htop .v7-hlead{margin:0}
+.v7-htop .xbtn{margin-top:16px}
+@media (max-width:900px){.v7-htop{grid-template-columns:1fr;gap:18px}}
 
 </style>
 </head>
@@ -10641,7 +10658,7 @@ NAV = [["/anlati", "Anlatı", []], ["/olaylar", "Olaylar", ["/olay"]], ["/oruntu
   ["/kurumlar", "Kurumlar", ["/kurum", "/karsilastir"]], ["/yontem", "Yöntem", []]];
 SUB["/oruntu"] = [["/oruntu", "secim", "Kim neyi haber yapıyor"], ["/oruntu", "dil", "Nasıl anlatıyor"],
   ["/oruntu", "anlati", "Kimi sorumlu tutuyor"], ["/oruntu", "hiz", "Kim önce veriyor"]];
-SECTIONS[0].fn = pgAnlati;
+SECTIONS[0].fn = pgHome7;
 SECTIONS.forEach(function (s) { if (s.p === "/anlati") s.fn = pgAnlati; });
 SECTIONS.push({ p: "/oruntu", label: "Örüntüler", fn: pgOruntu }, { p: "/ilan", label: "Resmî ilan bul", fn: pgIlan });
 DETAIL["/ilan"] = { fn: pgIlan, of: "/ilan" };
@@ -10659,6 +10676,47 @@ function findingBlock(f) {
     '<div class="v7-viz">' + (f.viz || "") + "</div>" +
     '<p class="v7-means"><b>Bu ne anlama geliyor.</b> ' + (f.means || "") + "</p>" +
     '<details class="v7-how"><summary>Nasıl ölçtük</summary>' + (f.how || "") + "</details></section>";
+}
+
+/* Homepage: what the site does, one live card per function. Each card states the function in one line
+   and shows one number computed from this build's data. */
+function pgHome7() {
+  var m = D.meta.counts, lead = leadEvent();
+  var coded = [], shares;
+  NW.forEach(function (w) { if (w.k !== "v1") coded = coded.concat(w.keys.filter(narrOk)); });
+  shares = dimShares(D.N, coded);
+  var bs = D.E.filter(function (e) { return e.bs; }).length;
+  var ps = D.E.map(function (e) { return e.p; }).sort(function (a, b) { return a - b; }), med = ps[Math.floor(ps.length / 2)] || 0;
+  var LL = (D.V5 && D.V5.leadLag && D.V5.leadLag.outlets) || {};
+  var first = Object.keys(LL).sort(function (a, b) { return LL[b].firstShare - LL[a].firstShare; })[0];
+  var B = bg7(), nIlan = CM3.notices(D).total;
+  var card = function (href, kick, title, line, fig, ai) {
+    return '<a class="v7-hc' + (ai ? " yz" : "") + '" href="' + href + '"><span class="eyebrow">' + kick + (ai ? " " + yzBadge() : "") + "</span><b>" + title +
+      "</b><span class=\"v7-hfig\">" + fig + "</span><span>" + line + "</span></a>";
+  };
+  var h = '<div class="wrap page v7-home"><div class="v7-htop"><div><p class="eyebrow">' + esc(WIN.range) + " · " + m.articles.toLocaleString("tr") + " başlık · " +
+    D.E.length.toLocaleString("tr") + " olay · " + D.meta.sources.length + ' kurum</p><h1>Aynı olay, farklı manşet.</h1><p class="lede">' + esc(V7_PURPOSE) +
+    " Hüküm vermez: yalnızca kimin neyi nasıl yazdığını yan yana koyar ve bu farkların tekrar edip etmediğini ölçer.</p>" +
+    '<a class="xbtn" href="#/anlati">Anlatı haritasını aç →</a></div>';
+  if (lead && defaultPair(lead)) h += '<div class="v7-hlead"><p class="eyebrow">Örnek · <a class="lnk" href="#/olay?e=' + lead.i + '">' + esc(storyLabel(lead, 90)) + "</a></p>" + splitCard(lead) + "</div>";
+  h += "</div>";
+  h += '<h2 class="v7-hh">Neler yapabilirsiniz</h2><div class="v7-hgrid">' +
+    card("#/anlati", "Anlatı haritası", "Aynı olay, hangi hikâye?", "Kurumların bir olayı hangi çerçeveye, hangi sorumluya, hangi çözüme bağladığını tek grafikte görün.",
+      coded.length + " olay kodlandı") +
+    card("#/olaylar", "Olaylar", "Başlıklar yan yana", "Her olayda bütün kurumların başlıkları, ayrışan sözcükler işaretli.", D.E.length.toLocaleString("tr") + " olay") +
+    card("#/oruntu?q=secim", "Örüntü 1", "Kim neyi haber yapıyor?", "Yelpazenin bir yanının belirgin biçimde az verdiği olaylar ve gündem benzerliği.", bs + " kör nokta") +
+    card("#/oruntu?q=dil", "Örüntü 2", "Nasıl anlatıyor?", "Aynı olayın başlıkları arasındaki yüklü dil farkı ve en sık çerçeveleme yapıları.", "ortanca aralık " + med + " puan") +
+    card("#/oruntu?q=anlati", "Örüntü 3", "Kimi sorumlu tutuyor?", "Kodlanan olaylarda kurumların en çok hangi boyutta ayrıştığı.",
+      "%" + Math.round(100 * (shares.blame || 0)) + " olayda sorumlu ayrışıyor") +
+    card("#/oruntu?q=hiz", "Örüntü 4", "Kim önce veriyor?", "Olayı ilk veren kurumlar ve spotun başlıktan ne kadar farklı olduğu.",
+      first ? esc(srcName(first)) + " %" + Math.round(100 * LL[first].firstShare) + " ilk" : "—") +
+    card("#/kurumlar", "Kurumlar", "Kurum profilleri", "Her kurumun örüntülerdeki yeri; iki kurumu karşılaştırın.", D.meta.sources.length + " kurum") +
+    (B ? card("#/yontem?s=yz", "Bilişsel inceleme", "Yapay zekâ ne fark etti?", "En çok kurumun verdiği olaylarda başlıklardaki bilişsel örüntüler, kanıt alıntılarıyla ve neden kesin olmadığıyla.",
+      B.summary.completed + " olay incelendi", true) : "") +
+    card("#/ilan", "Resmî ilan bul", "İlanınızı arayın", "Mahkeme, icra ve kamu ilanlarını sözcük, tür, tarih ve gazeteye göre bulun.", nIlan.toLocaleString("tr") + " ilan") +
+    card("#/yontem?s=turkiye", "Yöntem", "Türkiye için nasıl ayarlandı", "Türkçe ekler, resmî ilanlar, sağa ağırlıklı kurum dağılımı ve diğer uyarlamalar.", "10 uyarlama") +
+    "</div></div>";
+  return h;
 }
 
 /* v7 Anlatı: the homepage. A map of how outlets told one event: rows = outlets, columns = narrative dimensions. */
@@ -10767,7 +10825,8 @@ function pgAnlati(q) {
       (coded ? "Bu haftanın kodlanmış olaylarının hepsi editör incelemesinde kaldırıldı." : "Bu hafta için kodlanmış olay yok.") + "</p>" +
       v7WeekBar(weeks, wk.k) + "</div>";
   }
-  var key = q.n && wk.keys.indexOf(q.n) >= 0 ? q.n : wk.keys[0], n = D.N[key], e = EV[n.ev];
+  var key = q.n && wk.keys.indexOf(q.n) >= 0 ? q.n : wk.keys[0], n = D.N[key], e = EV[n.ev], tab = q.v === "tablo";
+  V7VIEW = tab ? "tablo" : "";
   var title = narrName(key, 140), ai = n.status === "agent_coded";
   var h = '<div class="wrap page v7-an"><p class="v7-purpose">' + esc(V7_PURPOSE) + "</p><h1>" + esc(title) + "</h1>";
   h += v7WeekBar(weeks, wk.k);
@@ -10775,7 +10834,12 @@ function pgAnlati(q) {
     return '<button type="button" class="chip" data-w="' + wk.k + '" data-n="' + k + '" aria-pressed="' + (k === key) + '">' + esc(narrName(k, 44)) + "</button>";
   }).join("") + "</div>";
   h += '<div class="v7-body"><div class="v7-mapbox"><p class="v7-meta">' + (ai ? yzBadge() + " Başlıklardan yapay zekâ ile kodlandı. " : "Başlıklardan elle kodlandı. ") +
-    '<a class="lnk" href="#/yontem">Yöntem</a></p><div id="v7-map" data-key="' + esc(key) + '">' + narrMap(key) + "</div></div>" + v7Side(n, e) + "</div>";
+    '<a class="lnk" href="#/yontem">Yöntem</a></p>' + v7ViewBar(wk.k, key, tab) +
+    (tab ? '<div id="v7-map" data-key="' + esc(key) + '">' + narrMap(key) + "</div>" :
+      '<div class="v7-scroll"><div id="v7-flow" data-key="' + esc(key) + '"></div></div><p class="v7-note">Her çizgi bir kurum; rengi kurumun yerleşimini gösterir. ' +
+      "Aynı kutudan geçen çizgiler aynı seçimi yapmıştır. Bir çizginin üzerine gelince kurumun seçimleri görünür.</p>" +
+      '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>') +
+    "</div>" + v7Side(n, e) + "</div>";
   h += '<section class="v7-readbox"><h2>Nasıl okunur</h2><ol class="v7-read">' + V7_READ.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ol></section>";
   var top = latest.keys.map(function (k) { return EV[D.N[k].ev]; }).filter(Boolean)
     .sort(function (a, b) { return b.s.length - a.s.length; }).slice(0, 3);
@@ -10785,8 +10849,20 @@ function pgAnlati(q) {
   return h + "</div>";
 }
 
+var V7VIEW = "";
+/* Graph is the primary view; the table is one click away for reading every outlet's choice. */
+function v7ViewBar(w, key, tab) {
+  var u = "#/anlati?w=" + w + "&n=" + encodeURIComponent(key);
+  return '<div class="v7-view" role="group" aria-label="Görünüm"><a class="chip" href="' + u + '" aria-pressed="' + !tab + '">Grafik</a>' +
+    '<a class="chip" href="' + u + '&v=tablo" aria-pressed="' + tab + '">Tablo</a></div>';
+}
 function wireAnlati(root) {
   if (!root) return;
+  var fl = root.querySelector("#v7-flow");
+  if (fl && !fl.firstChild) {
+    var nf = D.N[fl.getAttribute("data-key")], keep = NFOC;
+    NFOC = nf.focus; fl.appendChild(narrativeFlow(nf.rows)); NFOC = keep;
+  }
   var box = root.querySelector("#v7-map");
   var openList = function () { return [].map.call(box.querySelectorAll(".v7-out[aria-expanded=true]"), function (b) { return b.getAttribute("data-s"); }); };
   var same = function (el) {
@@ -10801,7 +10877,7 @@ function wireAnlati(root) {
     if ((b = t.closest("[data-w]"))) {
       if (b.disabled) return;
       var nn = b.getAttribute("data-n");
-      location.hash = "#/anlati?w=" + b.getAttribute("data-w") + (nn ? "&n=" + encodeURIComponent(nn) : "");
+      location.hash = "#/anlati?w=" + b.getAttribute("data-w") + (nn ? "&n=" + encodeURIComponent(nn) : "") + (V7VIEW ? "&v=" + V7VIEW : "");
     } else if ((b = t.closest("th[data-dim]")) && box) {
       var d = b.getAttribute("data-dim"), cur = box.getAttribute("data-active");
       var next = cur === d ? "" : d, open = openList();
