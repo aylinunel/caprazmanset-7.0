@@ -487,6 +487,63 @@ function orAnlati() {
   return orPage("anlati", [orFindDims(), orFindBlame(), orFindTrend()], orExamples("anlati"));
 }
 
+/* ======================================================= hiz */
+function orFindLead() {
+  var LL = (V5.leadLag || {}).outlets || {}, ks = ACT5.filter(function (s) { return LL[s] && LL[s].firstShare != null && LL[s].medLag != null; });
+  var xs = ks.map(function (s) { return LL[s].firstShare * 100; }), ys = ks.map(function (s) { return LL[s].medLag; });
+  var xm = Math.ceil(Math.max.apply(null, xs) / 5) * 5, ym = Math.ceil(Math.max.apply(null, ys) / 60) * 60, med = function (a) { return median5(a.slice()); };
+  var mx = med(xs), my = med(ys);
+  var dots = ks.map(function (s) {
+    var o = LL[s], l = 100 * (o.firstShare * 100) / xm, t = 100 - 100 * o.medLag / ym;
+    return '<a class="or-dot" href="#/kurum?s=' + s + '" data-go="#/kurum?s=' + s + '" style="left:' + l + "%;top:" + t + "%;--c:" + lean(SRC[s] ? SRC[s].lean : null) + '"' +
+      orTip("<span class='k'>" + esc(srcName(s)) + "</span>İlk veren olduğu olay payı " + pc5(o.firstShare) + " (" + orN(o.first) + " / " + orN(o.events) + ")<br>Ortanca gecikme " + dur5(o.medLag) + "<br>Tıklayın: kurum sayfası") + '><span>' + esc(srcName(s)) + "</span></a>";
+  }).join("");
+  var viz = '<div class="or-sc"><div class="or-scp"><i class="or-mx" style="left:' + (100 * mx / xm) + '%"></i><i class="or-my" style="top:' + (100 - 100 * my / ym) + '%"></i>' + dots +
+    '</div><span class="or-sx">İlk veren olduğu olayların payı (%) → ' + xm + '</span><span class="or-sy">↑ ortanca gecikme ' + dur5(ym) + "</span></div>" +
+    legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { dash: 1, t: "kurumların ortancası" }]) +
+    '<p class="or-hint">Bir noktaya gelin: kurumun ilk yayınlama payı ve gecikmesi; tıklayınca kurum sayfası açılır.</p>';
+  var fast = ks.slice().sort(function (a, b) { return LL[b].firstShare - LL[a].firstShare; })[0];
+  var cor = (function () { var r = function (a) { var o = a.map(function (v, i) { return [v, i]; }).sort(function (p, q) { return p[0] - q[0]; }), x = []; o.forEach(function (p, i) { x[p[1]] = i; }); return x; };
+    var a = r(xs), b = r(ys), n = a.length, d = 0; for (var i = 0; i < n; i++) d += Math.pow(a[i] - b[i], 2); return 1 - 6 * d / (n * (n * n - 1)); })();
+  return { id: "hiz-ilk",
+    claim: "Olayı ilk veren kurum payı <b>" + esc(srcName(fast)) + "</b> için <b>" + pc5(LL[fast].firstShare) + "</b> ile en yüksek; kurumların ortanca ilk-veren payı %" + dec(mx, 1) + ", ortanca gecikme " + dur5(my) + ".",
+    viz: viz,
+    means: "Sıra korelasyonu " + dec(cor, 2) + ": " + (cor < -.3 ? "ilk veren payı yüksek kurumların gecikmesi genellikle kısa." : cor > .3 ? "ilk veren payı yüksek kurumların gecikmesi de uzun." : "ilk veren payı ile gecikme arasında belirgin bir ilişki yok.") + " " +
+      "Bir kurumun çok olayı ilk vermesi daha hızlı olduğunu da, daha çok haber yayımladığını da gösterebilir; ölçü yalnızca aynı olaydaki sıralamaya bakar. Gecikme, kurumun ilk olmadığı olaylarda ilk habere göre ölçülür.",
+    how: orHow(["Her olayda kurumun ilk başlığının saati; ilk yayınlayan kurum ve diğerlerinin ilk habere göre gecikmesi. Birim: olay başına kurum, " + (V5.leadLag.horizonHours || 48) + " saatlik pencere içinde.",
+      "Etkin kurumlar (" + ks.length + "), yalnızca kendi haberlerinin payı; ham sayılar karşılaştırılmaz."], "v5") };
+}
+function orFindBlocLag() {
+  var B = (V5.leadLag || {}).blocs || {}, rows = [["left>right", "Sol → sağ"], ["right>left", "Sağ → sol"], ["left>mid", "Sol → merkez"], ["right>mid", "Sağ → merkez"]].filter(function (r) { return B[r[0]]; });
+  var tip = function (k, t) { return "<span class='k'>" + t + "</span>" + orN(B[k].n) + " olay<br>Karşı taraftan en az biri verdi: " + pc5(B[k].coveredShare) + "<br>Ortanca gecikme " + dur5(B[k].medLag); };
+  var viz = '<p class="or-hint">Okuma: “Sol → sağ”: olayı ilk veren kurum sola yerleşik; satır, bu olayları sağdan en az bir kurumun da verdiği payı ve gecikmeyi gösterir.</p><h4 class="or-h4">Karşı bloktan en az bir kurumun verdiği olay payı</h4>' + orBars(rows.map(function (r) { return { label: r[1], v: B[r[0]].coveredShare, disp: pc5(B[r[0]].coveredShare), c: "var(--ink2)", tip: tip(r[0], r[1]) }; }), 1) +
+    '<h4 class="or-h4">Ortanca gecikme</h4>' + orBars(rows.map(function (r) { return { label: r[1], v: B[r[0]].medLag, disp: dur5(B[r[0]].medLag), c: "var(--ink2)", tip: tip(r[0], r[1]) }; }));
+  var lr = B["left>right"], rl = B["right>left"];
+  return { id: "hiz-blok",
+    claim: lr && rl ? "Sol kurumların açtığı olayların <b>" + pc5(lr.coveredShare) + "</b>’i sağdan en az bir kurum tarafından verildi (ortanca " + dur5(lr.medLag) + " sonra); sağın açtığı olayların <b>" + pc5(rl.coveredShare) + "</b>’i soldan (" + dur5(rl.medLag) + " sonra)." : "Blok geçişi verisi yok.",
+    viz: viz,
+    means: lr && rl ? "Sağ blokta çok daha fazla kurum olduğu için bir olayın sağdan en az bir kurum tarafından verilme şansı kendiliğinden yüksektir (sol açılan " + orN(lr.n) + ", sağ açılan " + orN(rl.n) + " olay). Pay farkı bir yayın tercihinden çok kurum sayısı farkını yansıtabilir; gecikme ise karşı bloğun ilk kurumunun ne kadar sonra yetiştiğini gösterir." : "Blok verisi bulunamadı.",
+    how: orHow(["Blok geçişi: bir bloktan bir kurumun ilk verdiği olayı, öbür bloktan en az bir kurumun pencere içinde vermesi. Gecikme ortancadır.", "Bloklar kayıt defterindeki yerleşimdendir ve doğrulanmamıştır."], "v5") };
+}
+function orFindGap() {
+  var GP = V5.gap || {}, O = GP.outlets || {}, ks = ACT5.filter(function (s) { return O[s] && O[s].hotter != null; }).sort(function (a, b) { return O[b].hotter - O[a].hotter; });
+  var th = GP.threshold || 15, top = (GP.top || []).slice(0, 6).filter(function (x) { return ART[x.i]; });
+  var mx = Math.max.apply(null, ks.map(function (s) { return O[s].hotter; })) * 1.05;
+  var viz = orBars(ks.map(function (s) {
+    return { label: srcName(s), v: O[s].hotter, disp: pc5(O[s].hotter), c: lean(SRC[s] ? SRC[s].lean : null), go: "#/kurum?s=" + s,
+      tip: "<span class='k'>" + esc(srcName(s)) + "</span>Başlığı spotundan en az " + th + " puan yüklü: " + pc5(O[s].hotter) + "<br>Spotu başlığından en az " + th + " puan yüklü: " + pc5(O[s].cooler) + "<br>" + orN(O[s].n) + " spotlu haber" };
+  }), mx) + (top.length ? '<h4 class="or-h4">En büyük farklar</h4><div class="xcmp-list">' + top.map(function (x) { var a = ART[x.i];
+    return '<section class="xcmp-i"><p class="eyebrow">' + esc(srcName(a.s)) + " · " + fmtDT(a.d) + " · başlık " + a.v + ", spot " + a.lv + '</p><p><a class="hlnk" href="' + esc(a.u) + '" target="_blank" rel="noopener">' + esc(a.t) + '</a></p><p class="xsmall">' + esc(x.l) + "</p></section>"; }).join("") + "</div>" : "");
+  var neg = ks.filter(function (s) { return O[s].mean < 0; }).length, hi = ks[0], lo = ks[ks.length - 1];
+  return { id: "hiz-spot",
+    claim: "Başlığı, haberin kendi spotundan en az " + th + " puan daha yüklü olan haberlerin payı <b>" + esc(srcName(lo)) + "</b>’de " + pc5(O[lo].hotter) + ", <b>" + esc(srcName(hi)) + "</b>’de " + pc5(O[hi].hotter) + ".",
+    viz: viz,
+    means: "Aynı kural kümesi başlığa ve spota ayrı uygulandı. Spotlar başlıktan uzun olduğu için çoğu zaman daha çok kural tetikler; ortalama fark bu yüzden " + neg + " / " + ks.length + " kurumda negatif. " +
+      "Bu pay, başlığın kendi haberinden daha sert bir dil kurduğu haberleri sayar; haberin yanlış olduğunu ya da başlığın kasıtlı olduğunu göstermez.",
+    how: orHow(["Başlık puanı − aynı haberin spot puanı; ≥ " + th + " puan ‘başlık spotundan yüklü’ sayıldı. Spotu olmayan ya da başlıkla aynı olan haberler dışarıda.", "Birim: etkin kurumların spotlu haberleri (kurum başına n bilgisi ipucunda). Pay kurumun kendi haberleri üzerindendir."], "v5") };
+}
+function orHiz() { return orPage("hiz", [orFindLead(), orFindBlocLag(), orFindGap()], orExamples("hiz")); }
+
 function orExamples(q) {
   var ev = orEvents().filter(function (e) { return e.s.length >= 5; }), top = function (f) { return ev.filter(f).sort(function (a, b) { return b.s.length - a.s.length; })[0]; };
   var pick = [];
@@ -512,7 +569,8 @@ function pgOruntu(q) {
   if (k === "secim") return orSecim();
   if (k === "dil") return orDil();
   if (k === "anlati") return orAnlati();
-  return '<div class="wrap page"><div class="phead"><h1>' + OR_PAGES[k][0] + '</h1><p class="lede">Hazırlanıyor.</p></div></div>';
+  if (k === "hiz") return orHiz();
+  return orSecim();
 }
 
 /* ---- after-render wiring ---- */

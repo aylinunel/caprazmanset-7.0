@@ -1852,3 +1852,14 @@ th{color:var(--ink);border-bottom-width:3px}
 .or-tbl tbody th{position:sticky;left:0;background:var(--paper);z-index:1}
 .or-hm{text-align:center;font-family:var(--ff-m);font-size:11px;padding:6px 8px;border-radius:3px;color:var(--ink);
   background:color-mix(in srgb,var(--seq4) var(--v),var(--surface))}
+.or-sc{position:relative;padding:20px 0 22px 22px}
+.or-scp{position:relative;height:360px;border-left:1px solid var(--line2);border-bottom:1px solid var(--line2);margin-right:56px}
+.or-mx,.or-my{position:absolute;background:none;pointer-events:none}
+.or-mx{top:0;bottom:0;border-left:1px dashed var(--line2)}.or-my{left:0;right:0;border-top:1px dashed var(--line2)}
+.or-dot{position:absolute;width:44px;height:44px;margin:-22px 0 0 -22px;display:flex;align-items:center;justify-content:center;color:var(--ink)}
+.or-dot::before{content:"";width:12px;height:12px;border-radius:50%;background:color-mix(in srgb,var(--c) 40%,var(--surface));border:2px solid var(--c)}
+.or-dot span{position:absolute;left:34px;font-size:10.5px;white-space:nowrap;text-shadow:0 0 3px var(--paper),0 0 3px var(--paper);pointer-events:none}
+.or-dot:hover::before,.or-dot:focus-visible::before{background:var(--c)}
+.or-sx{position:absolute;bottom:0;right:0;font-size:11px;color:var(--muted);font-family:var(--ff-m)}
+.or-sy{position:absolute;top:2px;left:22px;font-size:11px;color:var(--muted);font-family:var(--ff-m)}
+@media (max-width:640px){.or-dot span{display:none}.or-sc{padding-left:6px}.or-scp{margin-right:12px;height:300px}}
