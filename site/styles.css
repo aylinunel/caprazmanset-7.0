@@ -1706,26 +1706,21 @@ th{color:var(--ink);border-bottom-width:3px}
 .xfchip{font-size:12px;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--line);color:inherit}
 .xfcount{margin-bottom:10px}
 
-/* 7.0 · AI-generated analysis. Violet + mono is used for nothing else on the public pages, so a reader can
-   always tell an AI result from a rule-based measurement or a supplied fact. */
-:root{--ai:#6D28D9;--ai-soft:#F4F0FF;--ai-line:#C9B8F5}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ai:#C4B5FD;--ai-soft:#1E1838;--ai-line:#4C3D8F}}
-:root[data-theme="dark"]{--ai:#C4B5FD;--ai-soft:#1E1838;--ai-line:#4C3D8F}
-.ai{font-family:var(--ff-m);color:var(--ai)}
-.ai-box{border:1px solid var(--ai-line);border-left:3px solid var(--ai);background:var(--ai-soft);border-radius:6px;padding:12px 14px;
-  font-family:var(--ff-m);font-size:12.5px;line-height:1.6;color:var(--ink);min-width:0;overflow-wrap:anywhere}
-.ai-box h2,.ai-box h3,.ai-box h4,.ai-box b{color:var(--ai)}
-.ai-box h2,.ai-box h3{font-family:var(--ff-m);font-weight:500;letter-spacing:-.01em}
-.ai-box table td,.ai-box table th{font-family:var(--ff-m)}
-.ai-box .cm3-voices summary{color:var(--ai);border-color:var(--ai-line)}
-.ai-tag{display:inline-block;font-family:var(--ff-m);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ai);
-  border:1px solid var(--ai);border-radius:99px;padding:1px 7px;white-space:nowrap;vertical-align:middle}
-.ai-line{font-family:var(--ff-m);font-size:11.5px;color:var(--ai);margin:8px 0 2px;line-height:1.5}
-.ai-ed{display:block;margin-top:6px;color:var(--ink);font-family:var(--ff-b)}
-.ai-ed b{color:var(--ink)}
-tr.ai-row td{font-family:var(--ff-m);color:var(--ai)}
+/* 7.0 · YZ marker: AI-generated content is an outlined badge plus a dotted left rule, in the ordinary palette. */
+.yz{border-left:2px dotted var(--line2);padding-left:14px;margin:14px 0;min-width:0;overflow-wrap:anywhere}
+.yz-badge{display:inline-block;font-family:var(--ff-m);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);
+  border:1px solid var(--ink2);border-radius:99px;padding:1px 7px;white-space:nowrap;vertical-align:middle}
+.yz-line{font-size:11.5px;color:var(--ink2);margin:8px 0 2px;line-height:1.5}
+.yz-ed{display:block;margin-top:6px;color:var(--ink)}
+.v7-find{margin:28px 0}
+.v7-claim{font-family:var(--ff-d);font-size:22px;line-height:1.3;margin:0 0 12px;color:var(--ink)}
+.v7-viz{margin:12px 0;min-width:0}
+.v7-means{font-family:var(--ff-b);font-size:15px;line-height:1.55;color:var(--ink2);margin:10px 0}
+.v7-how{margin:10px 0 0;font-size:13px}
+.v7-how summary{display:inline-flex;align-items:center;min-height:44px;cursor:pointer;font-family:var(--ff-m);font-size:12.5px;
+  border:1px solid var(--line);border-radius:99px;padding:0 14px;background:var(--surface);list-style:none}
+.v7-how summary::-webkit-details-marker{display:none}
+.v7-how[open] summary{border-color:var(--ink2)}
 .rev-ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
 .rev-ctl input{font:inherit;min-height:40px;padding:6px 10px;border:1px solid var(--line2);border-radius:5px;background:var(--paper);color:var(--ink);flex:1 1 220px;min-width:0}
 .rev-ctl button{min-height:40px}
-.xnarr-home{margin-top:8px}
-.xnarr-home h2{font-size:clamp(24px,3vw,32px);line-height:1.2;margin:6px 0 8px;max-width:30ch}

@@ -5211,7 +5211,7 @@ function pgNarrative(q) {
       legend: legendHTML([{c:"var(--left)",t:"sola yerleşik"},{c:"var(--mid)",t:"merkez"},{c:"var(--right)",t:"sağa yerleşik"}]),
       take: "Bir satırda tek renk varsa, o aktörü yalnızca tek bir blok sorumlu tutuyor demektir." }) +
     '<p class="xhint" id="cblame-n"></p></section>';
-  h += '<div class="' + (W.coded === "agent" ? "ai-box" : "note warn") + '" style="margin-top:22px"><b>Kodlama.</b> ' + (W.coded === "agent" ? bg7AiTag() + " " : "") +
+  h += '<div class="' + (W.coded === "agent" ? "yz" : "note warn") + '" style="margin-top:22px"><b>Kodlama.</b> ' + (W.coded === "agent" ? bg7AiTag() + " " : "") +
     (isV1 ? "1–8 Eylül arşivi: dört olay elle, diğerleri makine desteğiyle kodlandı; burada yalnızca en az beş " +
       "kurumu olan ve iki boyutta ayrışan olaylar gösteriliyor. " :
       (W.coded === "agent" ? "Başlıklardan otomatik kodlandı (Claude ajanı, insan denetimi yok); aynı şema ve seçim kuralı. " :
@@ -5993,12 +5993,13 @@ function navHTML(path, over, tab) {
     return '<li><a class="xnav-a' + (n[0] === g ? " on" : "") + '" href="#' + n[0] + '"' + (n[0] === g ? ' aria-current="page"' : "") + ">" + n[1] + "</a></li>";
   }).join("");
   var mob = NAV.map(function (n) { return '<a href="#' + n[0] + '" class="' + (n[0] === g ? "is-active" : "") + '">' + n[1] + "</a>"; }).join("") +
-    '<a href="#/benim" class="' + (g === "/benim" ? "is-active" : "") + '">Benim</a><a href="#/ara">Ara</a>';
+    '<a href="#/ilan" class="' + (path === "/ilan" ? "is-active" : "") + '">Resmî ilan bul</a><a href="#/benim" class="' + (g === "/benim" ? "is-active" : "") + '">Benim</a><a href="#/ara">Ara</a>';
   var h = '<header class="navbar xnav" id="nav"><div class="navrow">' +
     '<a class="brand" href="#/" aria-label="Çapraz Manşet, giriş"><img class="xlogo xlogo-l" src="' + (LOGO.h || "") + '" alt="Çapraz Manşet">' +
     '<img class="xlogo xlogo-d" src="' + (LOGO.hd || "") + '" alt="" aria-hidden="true"></a>' +
     '<nav class="pill-nav" aria-label="Ana gezinme"><ul class="xnav-l">' + items + "</ul></nav>" +
     '<div class="navtools">' +
+      '<a class="xutil' + (path === "/ilan" ? " on" : "") + '" href="#/ilan">Resmî ilan bul</a>' +
       '<a class="xutil' + (g === "/benim" ? " on" : "") + '" href="#/benim">Benim</a>' +
       '<a class="icobtn" href="#/ara" aria-label="Ara"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="6.5" cy="6.5" r="4.3"/><path d="m9.8 9.8 3.4 3.4"/></svg></a>' +
       '<button class="icobtn" id="theme" aria-label="Açık/koyu tema"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7.5 1.6a5.9 5.9 0 1 0 5.9 5.9 4.6 4.6 0 0 1-5.9-5.9Z"/></svg></button>' +
@@ -6008,7 +6009,7 @@ function navHTML(path, over, tab) {
   if (sub && DETAILP.indexOf(path) < 0) {
     h += '<div class="subnav"><div class="subrow">' + sub.map(function (s) {
       var on = s[0] === path && (s[1] === null || s[1] === tab);
-      return '<a class="subtab' + (on ? " on" : "") + '" href="#' + s[0] + (s[1] ? "?t=" + s[1] : "") + '"' + (on ? ' aria-current="page"' : "") + ">" + s[2] + "</a>";
+      return '<a class="subtab' + (on ? " on" : "") + '" href="#' + s[0] + (s[1] ? (s[0] === "/oruntu" ? "?q=" : "?t=") + s[1] : "") + '"' + (on ? ' aria-current="page"' : "") + ">" + s[2] + "</a>";
     }).join("") + "</div></div>";
   }
   return h;
@@ -7582,6 +7583,8 @@ function route() {
       if (kv[0]) params[decodeURIComponent(kv[0])] = decodeURIComponent(kv[1] || "");
     });
   }
+  var rd = redirectRoute(path, params);
+  if (rd) { location.replace("#" + rd); return; }
   var det = DETAIL[path];
   var sec = secFor(path);
   var fn = det ? det.fn : sec.fn;
@@ -7593,7 +7596,7 @@ function route() {
   var skip = '<a class="skip visually-hidden focusable" href="#view">İçeriğe atla</a>';
   document.getElementById("app").innerHTML = skip + (admin
     ? adminShell(tab) + '<main id="view" tabindex="-1">' + fn(params) + "</main>" + adminFoot()
-    : navHTML(path, home, tab) + '<main id="view" tabindex="-1">' + fn(params) + "</main>" + footer2());
+    : navHTML(path, home, tab || (path === "/oruntu" ? params.q || "secim" : null)) + '<main id="view" tabindex="-1">' + fn(params) + "</main>" + footer2());
   closeModal();
   scrollTo(0, 0);
   if (!admin) layoutPills();
@@ -7898,7 +7901,7 @@ function bg7tag(st) {
 function bg7finding(f, ev0) {
   var ev = (f.evidence || []).map(function (x) {
     return "<li>“" + esc(x.q) + "”" + ((x.o || []).length ? " — " + x.o.map(function (o) { return esc(srcName(o)); }).join(", ") : "") +
-      (x.kind === "behavioral" ? ' <span class="ai-tag">karşılaştırmalı</span>' : "") + "</li>";
+      (x.kind === "behavioral" ? ' <span class="yz-badge">karşılaştırmalı</span>' : "") + "</li>";
   }).join("");
   var mech = (f.mechanisms || []).map(function (m) {
     return "<li><b>" + (m.role === "advocate" ? "Savunan" : "Sorgulayan") + ":</b> " + esc(m.text) + "</li>"; }).join("");
@@ -7971,7 +7974,7 @@ function bg7Ctl(key) {
 }
 function bg7AdminFindings(x) {
   return (x.supported || []).concat(x.uncertain || []).map(function (f) {
-    return '<div class="ai-box" style="margin-top:6px">' + bg7finding(f, x.event) + bg7Ctl(x.event + "__" + f.id) + "</div>"; }).join("");
+    return '<div class="yz" style="margin-top:6px">' + bg7finding(f, x.event) + bg7Ctl(x.event + "__" + f.id) + "</div>"; }).join("");
 }
 function bg7NarrAdmin() {
   var ks = Object.keys(D.N).filter(function (k) { return D.N[k].status === "agent_coded"; });
@@ -7980,7 +7983,7 @@ function bg7NarrAdmin() {
     " olay. Reddedilen olay haritadan ve anasayfadan kalkar.</p><div class=\"cm3-qs\">" + ks.map(function (k) {
       var n = D.N[k], e = EV[n.ev];
       return '<div class="cm3-q"><div class="cm3-q-h"><a href="#/anlati?n=' + k + '"><b>' + esc(e ? storyLabel(e, 100) : k) + "</b></a></div>" +
-        '<p class="ai-line">' + esc(n.q.differ || "") + "</p>" + bg7Ctl("narr__" + k) + "</div>"; }).join("") + "</div></section>";
+        '<p class="yz-line">' + esc(n.q.differ || "") + "</p>" + bg7Ctl("narr__" + k) + "</div>"; }).join("") + "</div></section>";
 }
 function bg7sim() {
   var M = D.BGS; if (!M) return "";
@@ -8008,7 +8011,7 @@ function bg7sim() {
 function bg7Event(e) {
   var B = bg7(); if (!B) return "";
   var x = bg7ev(e.i);
-  var h = '<section class="sec ai-box" style="margin-top:22px"><h2>Bilişsel inceleme ' + bg7AiTag() + '</h2>';
+  var h = '<section class="sec yz" style="margin-top:22px"><h2>Bilişsel inceleme ' + bg7AiTag() + '</h2>';
   if (!x) return h + '<p class="sub">Bu olay, incelenen en geniş kapsamlı ' + B.summary.planned + ' olay arasında değil.</p></section>';
   h += '<div class="cm3-set" style="margin-bottom:8px">' + bg7tag(x.status) + "</div>";
   if (x.status !== "review_complete")
@@ -8048,7 +8051,7 @@ function bg7Method(sec) {
     "sınamasında 52 senaryonun 23’ü tamamlanmış, tamamlananlarda beklenen 26 etiketin 24’ü yakalanmıştır; etiketler insan doğrulamasından geçmemiştir. " +
     '<a class="lnk" href="#/bulgular?t=bilissel">Sonuçlar →</a></p>' +
     sec(12, "Yapay zekâ ile üretilen içerik") +
-    "<p>Sitede yapay zekâ ile üretilen her içerik <span class=\"ai\">mor, eş aralıklı yazı</span> ve “YZ analizi” etiketiyle gösterilir; kural tabanlı ölçümler ve sağlanan veriler bu biçimi hiç kullanmaz. Üretilen içerik:</p><ul>" +
+    "<p>Sitede yapay zekâ ile üretilen her içerik noktalı sol çizgi ve “YZ” etiketiyle gösterilir; kural tabanlı ölçümler ve sağlanan veriler bu biçimi hiç kullanmaz. Üretilen içerik:</p><ul>" +
     "<li><b>BiasGuard incelemeleri:</b> kavram seçimleri, “desteklendi / belirsiz / desteklenmedi” kararları ve bütün Türkçe açıklamalar (gerekçe, yanlılık dışı açıklama, eksik bağlam) " +
     "Claude Code ortamında çalışan Claude modelleri tarafından yazılmıştır. Alıntılar metinden birebir alınır ve kodla denetlenir; açıklamalar denetlenmez.</li>" +
     (ag.length ? "<li><b>Anlatı haritası:</b> " + ag.join(", ") + " haftalarının dokuz boyutlu kodlaması ve olay özetleri (ne oldu, nerede uzlaşıyorlar, nerede ayrışıyorlar, neden önemli) bir Claude modeli tarafından üretilmiştir; önceki haftalar elle kodlanmıştır.</li>" : "") +
@@ -8081,7 +8084,7 @@ function bg7Stats() {
 }
 /* "150’sinde": possessive suffix from the shared Turkish layer, then the locative by vowel harmony. */
 function bg7loc(n) { var x = CM3.trSuffix(n); return "’" + x + (/[ıu]$/.test(x) ? "nda" : "nde"); }
-function bg7AiTag() { return '<span class="ai-tag" title="Yapay zekâ ile üretildi; Yöntem § 12">YZ analizi</span>'; }
+function bg7AiTag() { return yzBadge(); }
 /* Editor review (Yönetim › Bilişsel inceleme). AI results stay public until the owner rejects or corrects
    them; decisions live in the artifact's shared store ("reviews"), readable by all, writable by the owner. */
 var REV7 = {}, REV7OWNER = false, REV7DB = null, REV7MSG = "";
@@ -8091,7 +8094,7 @@ function bg7Live(x) {
 }
 function narrOk(k) { var r = rev7("narr__" + k); return !(r && r.status === "rejected"); }
 function rev7Note(key) {
-  var r = rev7(key); return r && r.status === "corrected" && r.note ? '<span class="ai-ed"><b>Editör düzeltmesi:</b> ' + esc(r.note) + "</span>" : "";
+  var r = rev7(key); return r && r.status === "corrected" && r.note ? '<span class="yz-ed"><b>Editör düzeltmesi:</b> ' + esc(r.note) + "</span>" : "";
 }
 async function rev7Init() {
   if (!window.claude || !window.claude.use) return;
@@ -8121,12 +8124,12 @@ document.addEventListener("click", function (ev) {
 function bg7CardLine(e) {
   var x = bg7ev(e.i); if (!x || x.status !== "review_complete") return "";
   var fs = bg7Live(x);
-  return '<p class="ai-line">' + bg7AiTag() + " " +
+  return '<p class="yz-line">' + bg7AiTag() + " " +
     (fs.length ? "bağlam gerekli: " + fs.map(function (f) { return esc(f.name); }).join(", ") : "seçilen kavramların hiçbiri öne çıkmadı") + "</p>";
 }
 function bg7Concept(key) {
   var r = bg7Stats()[key]; if (!r) return "";
-  return '<div class="mdl-s ai-box"><h4>Bilişsel inceleme ' + bg7AiTag() + "</h4><p>BiasGuard bu kavramı incelenen " + bg7().summary.completed +
+  return '<div class="mdl-s yz"><h4>Bilişsel inceleme ' + bg7AiTag() + "</h4><p>BiasGuard bu kavramı incelenen " + bg7().summary.completed +
     " olayın " + r.sel + bg7loc(r.sel) + " seçti; " + r.sup + " olayda desteklendi, " + r.unc + " olayda <b>bağlam gerekli</b> sonucu çıktı.</p>" +
     (r.ev.length ? "<ul>" + r.ev.slice(0, 6).map(function (i) { var e = EV[i];
       return e ? '<li><a class="lnk" href="#/olay?e=' + i + '">' + esc(storyLabel(e, 90)) + "</a></li>" : ""; }).join("") + "</ul>" : "") +
@@ -8142,7 +8145,7 @@ function bg7Finding(n) {
   var mp = function (xs) { var v = xs.map(function (x) { return EV[x.event] ? EV[x.event].p : null; }).filter(function (v) { return v != null; });
     return v.length ? v.reduce(function (t, a) { return t + a; }, 0) / v.length : null; };
   var a = mp(hiN), b = mp(loN);
-  return '<section class="find ai-box"><div class="find-h"><div class="find-n">' + (n < 10 ? "0" + n : n) + "</div><div>" +
+  return '<section class="find yz"><div class="find-h"><div class="find-n">' + (n < 10 ? "0" + n : n) + "</div><div>" +
     "<h3>Bilişsel inceleme: kanıt başlıkta değil, bağlamda " + bg7AiTag() + "</h3>" +
     '<div style="margin:14px 0 4px"><div class="bignum" style="color:var(--hot)">' + withNc.length + " / " + done.length +
     '</div><div class="bignum-l">olayda en az bir kavram için “bağlam gerekli”</div></div>' +
@@ -8225,7 +8228,7 @@ function homeNarr() {
     "<h2>" + esc(e ? storyLabel(e, 120) : narrName(k, 120)) + "</h2>" +
     '<p class="sub' + (ai ? " ai" : "") + '">' + esc(n.q.happened || "") + " " + esc(n.q.differ || "") + "</p>" + mx +
     '<p class="xsmall">Her satır bir kurum, yelpazedeki yerleşimine göre sıralı; aynı renk aynı seçimi gösterir. Boş hücre: başlıkta yok.' +
-    (ai ? ' <span class="ai">Bu olay YZ ile kodlandı (Yöntem § 12).</span>' : "") + "</p></section>";
+    (ai ? ' Bu olay YZ ile kodlandı (Yöntem § 12).' : "") + "</p></section>";
 }
 function top20() {
   var st = deviceStats(), rules = Object.keys(st).filter(function (k) { return st[k].n; }).sort(function (a, b) { return st[b].n - st[a].n; });
@@ -8239,12 +8242,12 @@ function top20() {
     return best ? srcName(best[0]) : "—"; };
   var name = function (k) { return (BREG[k] || BIA[k] || {}).en || S[k] && S[k].name || k; };
   return '<section class="sec"><h2>Bu dönemin ' + (rules.length + ai.length) + ' yapısı</h2><p class="sub">Kural tabanlı puanlayıcının saptadığı yapılar ' +
-    "(başlık sayısı) ve YZ incelemesinin “bağlam gerekli” bulduğu kavramlar (" + '<span class="ai">olay sayısı, mor</span>' +
+    "(başlık sayısı) ve YZ incelemesinin “bağlam gerekli” bulduğu kavramlar (" + 'olay sayısı' +
     "). İki sayı farklı birimdedir. Bir satıra tıklayınca tanım, örnekler ve ilgili olaylar açılır; bütün kavramlar Kütüphane’de.</p>" +
     '<div class="scroller panel"><table><thead><tr><th>Yapı</th><th>Kaynak</th><th class="r">Sayı</th><th>En çok görülen kurum</th></tr></thead><tbody>' +
     rules.map(function (k) { return '<tr data-bias7="' + esc(k) + '" style="cursor:pointer"><td><b>' + esc(name(k)) + "</b></td><td>Kural</td>" +
       '<td class="r num">' + st[k].n.toLocaleString("tr") + " başlık</td><td>" + esc(top(k)) + "</td></tr>"; }).join("") +
-    ai.map(function (k) { return '<tr class="ai-row" data-bias7="' + esc(k) + '" style="cursor:pointer"><td>' + esc(name(k)) + "</td><td>YZ analizi</td>" +
+    ai.map(function (k) { return '<tr class="yz-row" data-bias7="' + esc(k) + '" style="cursor:pointer"><td>' + esc(name(k)) + "</td><td>YZ analizi</td>" +
       '<td class="r">' + (S[k].unc + S[k].sup) + " olay</td><td>" + esc(topAI(k)) + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
 }
 document.addEventListener("click", function (ev) {
@@ -8268,7 +8271,7 @@ function bg7Rates() {
 function bg7Outlet(k) {
   var r = bg7Rates()[k]; if (!r || r.cov < 5) return "";
   var cs = Object.keys(r.c).sort(function (a, b) { return r.c[b] - r.c[a]; }).slice(0, 5);
-  return '<section class="sec ai-box" style="margin-top:18px"><h2>Bilişsel inceleme ' + bg7AiTag() + "</h2><p>" + esc(srcName(k)) +
+  return '<section class="sec yz" style="margin-top:18px"><h2>Bilişsel inceleme ' + bg7AiTag() + "</h2><p>" + esc(srcName(k)) +
     " incelenen " + r.cov + " olayı verdi; bunların " + r.hit + bg7loc(r.hit) + " başlığı, bir kavram için “bağlam gerekli” sonucunun kanıtı olarak alıntılandı (%" +
     Math.round(100 * r.rate) + "). Bu bir yanlılık hükmü değildir: alıntı, başlığın diğer kurumlardan farklı yazıldığını gösterir, farkın nedenini değil.</p>" +
     (cs.length ? "<p>En sık alıntılandığı kavramlar: " + cs.map(function (c) { return esc(c) + " (" + r.c[c] + ")"; }).join(", ") + ".</p>" : "") + "</section>";
@@ -8307,7 +8310,7 @@ function pgVeriler() {
     NORD.slice(0, 7).map(function (d) { return '<th class="r">' + esc(NDL[d]) + "</th>"; }).join("") + "</tr></thead><tbody>" +
     nw.map(function (w) { var ks = w.keys.filter(narrOk), c = {};
       ks.forEach(function (k) { (D.N[k].focus || []).forEach(function (d) { c[d] = (c[d] || 0) + 1; }); });
-      return "<tr" + (w.coded === "agent" ? ' class="ai-row"' : "") + '><td><a class="lnk" href="#/anlati?w=' + w.k + '">' + esc(w.l) + '</a></td><td class="r num">' + ks.length + "</td>" +
+      return "<tr" + (w.coded === "agent" ? ' class="yz-row"' : "") + '><td><a class="lnk" href="#/anlati?w=' + w.k + '">' + esc(w.l) + '</a></td><td class="r num">' + ks.length + "</td>" +
         NORD.slice(0, 7).map(function (d) { return '<td class="r num">' + (ks.length ? Math.round(100 * (c[d] || 0) / ks.length) + "%" : "—") + "</td>"; }).join("") + "</tr>"; }).join("") +
     "</tbody></table></div></section>";
   /* 4 · AI trends by bloc and outlet */
@@ -8322,7 +8325,7 @@ function pgVeriler() {
         (f.evidence || []).forEach(function (q) { (q.o || []).forEach(function (o) { hit[bloc(o)] = 1; }); });
         sides.forEach(function (sd) { if (cov[sd]) { r.cov[sd] = (r.cov[sd] || 0) + 1; if (hit[sd]) r.hit[sd] = (r.hit[sd] || 0) + 1; } }); }); });
     var os = Object.keys(R).filter(function (s) { return R[s].cov >= 20; }).sort(function (a, b) { return R[b].rate - R[a].rate; });
-    h += '<section class="sec ai-box"><h2>YZ incelemesi: bloklar ve kurumlar ' + bg7AiTag() + "</h2>" +
+    h += '<section class="sec yz"><h2>YZ incelemesi: bloklar ve kurumlar ' + bg7AiTag() + "</h2>" +
       "<p>Kaynak: en çok kurumun verdiği " + B.summary.planned + " olayda YZ incelemesi (Yöntem § 11). Oran, bir kavram için “bağlam gerekli” çıkan olaylarda o bloğun " +
       "en az bir başlığının kanıt olarak alıntılandığı olayların payıdır. Alıntı yanlılık hükmü değildir; başlığın farklı yazıldığını gösterir.</p>" +
       '<div class="scroller"><table><thead><tr><th>Kavram</th>' + sides.map(function (sd) { return '<th class="r">' + SIDE[sd] + "</th>"; }).join("") + "</tr></thead><tbody>" +

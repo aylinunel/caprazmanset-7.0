@@ -1,7 +1,9 @@
 // node smoke.cjs <siteDir> <outDir> [routes...]  — exits 1 on console error, h-scroll at 390px, or .v7-empty-bug
 const http = require("http"), fs = require("fs"), path = require("path");
 const { chromium } = require("playwright");
-const [siteDir, outDir, ...argRoutes] = process.argv.slice(2);
+const argv = process.argv.slice(2), ni = argv.indexOf("--expect-nav");
+const expectNav = ni >= 0 ? argv.splice(ni, 2)[1] : null;
+const [siteDir, outDir, ...argRoutes] = argv;
 if (!siteDir || !outDir) { console.log("usage: node smoke.cjs <siteDir> <outDir> [routes...]"); process.exit(0); }
 const ROUTES = argRoutes.length ? argRoutes : ["#/", "#/olaylar", "#/olay?e=s4374", "#/oruntu?q=secim", "#/oruntu?q=dil",
   "#/oruntu?q=anlati", "#/oruntu?q=hiz", "#/kurumlar", "#/kurum?s=takvim", "#/karsilastir", "#/yontem", "#/ilan", "#/benim", "#/yonetim?t=bilissel"];
@@ -26,6 +28,10 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     await page.goto(`http://127.0.0.1:${port}/index.html${route}`);
     await sleep(first ? 9000 : 2500); first = false;
     if (w === 390 && await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) fails.push(`${tag}: horizontal scroll`);
+    if (expectNav && w === 1280) {
+      const got = (await page.$$eval(".xnav-l a", (as) => as.map((a) => a.textContent.trim()))).join(",");
+      if (got !== expectNav) fails.push(`${tag}: nav "${got}" != "${expectNav}"`);
+    }
     if (await page.$(".v7-empty-bug")) fails.push(`${tag}: .v7-empty-bug present`);
     await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-${w}-${theme}.png`) });
     await ctx.close();
