@@ -22,3 +22,9 @@ Decision: push.
 - Performance/leaks: observers not disconnected on removal (minor, deferred; guarded by alive()).
 - Security: headline text goes through esc()/markText(); no new inputs.
 Decision: push.
+
+## Push of ae6a8cf (UX Task 2: tokens, Inter, chrome)
+- Correctness: tokens match spec in both themes; hero colours tokenised and mixed on --k/--k2. Tests: logic 11/11, smoke ok. Task review: Approved.
+- Simplicity/Karpathy: one appended override block (house style: later rules win); dead warm rules left shadowed — deferred cleanup (Task 10) rather than a sweeping delete in this task.
+- Security/performance: CSS + one class name; nothing new at runtime.
+Decision: push.
