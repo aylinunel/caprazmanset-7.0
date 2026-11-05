@@ -74,12 +74,54 @@ function narrMap(key, opts) {
     '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>';
 }
 
-function v7Side(n, e) {
-  var ai = n.status === "agent_coded", q = n.q || {};
-  var rows = [["Ne oldu", q.happened], ["Ortak nokta", q.agree], ["Ayrışan nokta", q.differ]].filter(function (x) { return x[1]; });
+var V7_BL = { left: "sol", mid: "merkez", right: "sağ", none: "yerleşimsiz" };
+function v7Vals(n, d) {
+  var m = {};
+  n.rows.forEach(function (r) {
+    var v = String(r[d] || "").trim(); if (UNSET(v)) return;
+    var o = m[v] = m[v] || { v: v, n: 0, b: { left: 0, mid: 0, right: 0, none: 0 }, s: [] };
+    o.n++; o.b[bloc(r.s)]++; o.s.push(r.s);
+  });
+  return Object.keys(m).map(function (k) { return m[k]; }).sort(function (x, y) { return y.n - x.n; });
+}
+function v7BlocTxt(b) {
+  return ["left", "mid", "right", "none"].filter(function (k) { return b[k]; })
+    .map(function (k) { return b[k] + " " + V7_BL[k]; }).join(", ");
+}
+/* Main-body context: the coded summary (YZ when agent-made), where outlets split, and the two furthest stories. */
+function v7Body(n, e) {
+  var ai = n.status === "agent_coded", q = n.q || {}, dims = v7Dims(n), tot = n.rows.length;
+  var rows = [["Ne oldu", q.happened], ["Ortak nokta", q.agree], ["Ayrışan nokta", q.differ], ["Okuyucu için ne değişiyor", q.care]]
+    .filter(function (x) { return x[1]; });
   var inner = rows.map(function (x) { return "<h3>" + x[0] + "</h3><p>" + esc(x[1]) + "</p>"; }).join("");
-  var link = e ? '<p><a class="lnk" href="#/olay?e=' + e.i + '">Olayın bütün başlıkları →</a></p>' : "";
-  return '<aside class="v7-side">' + (ai ? yzBlock(inner, "Kısaca") : inner) + link + "</aside>";
+  var h = '<section class="v7-ctx">' + (ai ? yzBlock(inner, "Kısaca") : "<h2>Kısaca</h2>" + inner) + "</section>";
+  var split = dims.map(function (d) {
+    var vs = v7Vals(n, d), filled = vs.reduce(function (a, x) { return a + x.n; }, 0);
+    if (vs.length < 2) return "";
+    var li = vs.slice(0, 4).map(function (x) {
+      return "<li><b>“" + esc(x.v) + "”</b> — " + x.n + " kurum <span class=\"v7-cnt\">(" + v7BlocTxt(x.b) + ")</span><br><span class=\"v7-note\">" +
+        x.s.map(srcName).map(esc).join(", ") + "</span></li>";
+    }).join("");
+    var gap = tot - filled;
+    return "<div class=\"v7-dim\"><h3>" + esc(NDL[d] || d) + " <span class=\"v7-cnt\">" + vs.length + " farklı yanıt</span></h3><ul>" + li + "</ul>" +
+      (gap ? '<p class="v7-note">' + gap + " kurumun başlığı bu konuda bir şey söylemiyor.</p>" : "") + "</div>";
+  }).join("");
+  if (split) h += '<section class="v7-ctx"><h2>Kurumlar nerede ayrışıyor</h2><p class="v7-note">Her boyutta aynı olay için seçilen farklı yanıtlar; okuyucunun önce gördüğü şeyi bu seçimler belirler.</p><div class="v7-dims">' + split + "</div></section>";
+  var best = null;
+  for (var i = 0; i < n.rows.length; i++) for (var j = i + 1; j < n.rows.length; j++) {
+    var A = n.rows[i], B = n.rows[j], c = dims.filter(function (d) { var x = String(A[d] || "").trim(), y = String(B[d] || "").trim(); return !UNSET(x) && !UNSET(y) && x !== y; }).length;
+    if (!best || c > best.c) best = { c: c, a: A, b: B };
+  }
+  if (best && best.c >= 2) {
+    var card = function (r) {
+      return '<div class="v7-far1"><p class="v7-cnt">' + esc(srcName(r.s)) + " · " + V7_BL[bloc(r.s)] + '</p><p class="v7-hl">“' + esc(r.hl || "") + "”</p><dl>" +
+        dims.map(function (d) { var v = String(r[d] || "").trim(); return UNSET(v) ? "" : "<dt>" + esc(NDL[d] || d) + "</dt><dd>" + esc(v) + "</dd>"; }).join("") + "</dl></div>";
+    };
+    h += '<section class="v7-ctx"><h2>En uzak iki anlatı</h2><p class="v7-note">' + best.c + " boyutta farklı seçim yapan iki kurum. Aynı olay, iki ayrı hikâye.</p>" +
+      '<div class="v7-far">' + card(best.a) + card(best.b) + "</div></section>";
+  }
+  if (e) h += '<p><a class="lnk" href="#/olay?e=' + e.i + '">Olayın bütün başlıkları →</a></p>';
+  return h;
 }
 
 function v7WeekBar(weeks, cur) {
@@ -118,7 +160,7 @@ function pgAnlati(q) {
       '<div class="v7-scroll"><div id="v7-flow" data-key="' + esc(key) + '"></div></div><p class="v7-note">Her çizgi bir kurum; rengi kurumun yerleşimini gösterir. ' +
       "Aynı kutudan geçen çizgiler aynı seçimi yapmıştır. Bir çizginin üzerine gelince kurumun seçimleri görünür.</p>" +
       '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>') +
-    "</div>" + v7Side(n, e) + "</div>";
+    "</div></div>" + v7Body(n, e);
   h += '<section class="v7-readbox"><h2>Nasıl okunur</h2><ol class="v7-read">' + V7_READ.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ol></section>";
   var top = latest.keys.map(function (k) { return EV[D.N[k].ev]; }).filter(Boolean)
     .sort(function (a, b) { return b.s.length - a.s.length; }).slice(0, 3);

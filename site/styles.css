@@ -1913,3 +1913,18 @@ th{color:var(--ink);border-bottom-width:3px}
 .v7-htop .v7-hlead{margin:0}
 .v7-htop .xbtn{margin-top:16px}
 @media (max-width:900px){.v7-htop{grid-template-columns:1fr;gap:18px}}
+.v7-an .v7-body{grid-template-columns:minmax(0,1fr)}
+.v7-ctx{margin-top:28px}
+.v7-ctx h2{font-size:20px;margin:0 0 6px}
+.v7-ctx h3{font-family:var(--ff-m);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
+.v7-ctx p{font-size:15px;line-height:1.55;margin:0 0 6px}
+.v7-dims{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.v7-dim ul{list-style:none;padding:0;margin:0}
+.v7-dim li{padding:6px 0;border-top:1px solid var(--rule,#ddd);font-size:14.5px}
+.v7-far{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.v7-far1{border-top:2px solid var(--ink);padding-top:8px}
+.v7-hl{font-size:17px;font-weight:600}
+.v7-far1 dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:14px;margin:8px 0 0}
+.v7-far1 dt{color:var(--muted)}
+.v7-far1 dd{margin:0}
+@media (max-width:700px){.v7-far{grid-template-columns:1fr}}
