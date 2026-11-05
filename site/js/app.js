@@ -532,7 +532,7 @@ var SECTIONS = [
     ["bicimler", "Üretim aşamaları"], ["turkiye", "Türkiye bağlamı"]] },
   { p: "/yontem", label: "Yöntem", fn: pgMethod }
 ];
-var DETAIL = { "/olay": { fn: pgEvent, of: "/olaylar" }, "/kurum": { fn: pgSource, of: "/kurumlar" },
+var DETAIL = { "/olay": { fn: pgOlay7, of: "/olaylar" }, "/kurum": { fn: pgSource, of: "/kurumlar" },
   "/konu": { fn: pgTopic, of: "/olaylar" }, "/ara": { fn: pgSearch, of: "/" } };
 var ADMIN = { p: "/yonetim", label: "Yönetim", fn: pgAdmin, tabs: [
   ["panel", "Panel"], ["bilissel", "Bilişsel inceleme (YZ)"], ["inceleme", "İnceleme kuyruğu"], ["ozet", "Özet bildirimleri"], ["saglik", "Akış sağlığı"]] };
@@ -4808,17 +4808,6 @@ function artRows(e) {
       (read.indexOf(a.i) >= 0 ? '<span class="tag g">okundu</span>' : "") + "</div></div>";
   }).join("") || '<p class="xempty">Bu tarafta haber yok.</p>';
 }
-function pgEventV2(q) {
-  var e = EV[q.e];
-  if (!e) return pgEventV1(q);
-  logStory(e.i);
-  var deep = pgEventV1(q);
-  /* v1's own header repeats the title; drop it and keep its analysis. */
-  deep = deep.replace(/^<div class="wrap page"><div class="phead">[\s\S]*?<\/p><\/div>/, '<div class="wrap page">');
-  return storyTop(e) + '<div class="wrap"><div class="xdivider"><span>Derin analiz</span>' +
-    "<p>Ortak unsurlar, ayrışan kelimeler ve tetiklenen çerçeveleme yapıları (v1 çözümleyicisi).</p></div></div>" + deep;
-}
-
 /* ================================================================ BENİM */
 function forYou() {
   var f = follows();
@@ -5187,7 +5176,7 @@ function cyberChrome(path) {
 }
 function v2bAfter(path, tab, params) {
   cyberChrome(path);
-  if (path === "/" || path === "/anlati") wireAnlati(document.getElementById("view"));
+  if (path === "/" || path === "/anlati" || path === "/olay") wireAnlati(document.getElementById("view"));
   if (path === "/bulgular" && tab === "ileri") advDraw();
   if (path === "/bulgular" && tab === "hiz") v5Draw();
   if (path === "/yontem" && params.s) { var tg = document.getElementById("s" + params.s); if (tg) setTimeout(function () { tg.scrollIntoView({ block: "start" }); }, 30); }
@@ -6013,16 +6002,6 @@ function leadEvent() {
   return D.E[0];
 }
 /* ---------------------------------------------------------------- event */
-function pgEvent(q) {
-  var e = EV[q.e];
-  var h = pgEventV2(q);
-  if (!e) return h;
-  h = h.replace("</h1>", "</h1>" + splitBlock(e));
-  h = h.replace('<div id="alist"></div>', ledeButton5() + '<div id="alist"></div>' + fixLink("olay", e.i, e.t));
-  var bg = bg7Event(e), k = h.indexOf('<div class="wrap"><div class="xdivider">');
-  return bg ? (k < 0 ? h + '<div class="wrap">' + bg + "</div>" : h.slice(0, k) + '<div class="wrap">' + bg + "</div>" + h.slice(k)) : h;
-}
-
 /* --------------------------------------------------------------- outlet */
 function sixRows(list) {
   /* list: [[slug, colour]] — one or two outlets on the same six bipolar rows */
@@ -7849,19 +7828,6 @@ function bg7sim() {
     "Senaryolar ve etiketler yapay zekâ tarafından yazılıp yapay zekâ tarafından gözden geçirildi; insan doğrulaması yok. " +
     "<b>7.0’daki düzeltmeler:</b> kanıt türü (karşılaştırmalı/ifade) artık alanın adından bağımsız; sağlayıcı hataları ayrıntısıyla kaydediliyor; " +
     "art arda " + 5 + " başarısızlıkta çalışma duruyor ve kalan olaylar “çalıştırılmadı” sayılıyor; her inceleme en çok 6 kavramla sınırlı (uzunluk hatasına karşı).</div></section>";
-}
-function bg7Event(e) {
-  var B = bg7(); if (!B) return "";
-  var x = bg7ev(e.i);
-  var h = '<section class="sec yz" style="margin-top:22px"><h2>Bilişsel inceleme ' + bg7AiTag() + '</h2>';
-  if (!x) return h + '<p class="sub">Bu olay, incelenen en geniş kapsamlı ' + B.summary.planned + ' olay arasında değil.</p></section>';
-  h += '<div class="cm3-set" style="margin-bottom:8px">' + bg7tag(x.status) + "</div>";
-  if (x.status !== "review_complete")
-    return h + '<p class="sub">İnceleme tamamlanmadı; bu, olayda yanlılık olmadığı anlamına gelmez.</p></section>';
-  var fs = bg7Live(x);
-  h += fs.length ? fs.map(function (f) { return bg7finding(f, x.event); }).join("") : '<p class="sub">Seçilen ' + (x.selected || []).length + " kavramın hiçbiri iki inceleyicinin ortak desteğini ya da bağlam isteğini almadı. " +
-    "Bu, olayda yanlılık olmadığı anlamına gelmez; katalog ve seçim sınırlıdır.</p>";
-  return h + '<p class="xsmall" style="margin-top:8px"><a class="lnk" href="#/yontem?s=11">Yöntem § 11</a> · <a class="lnk" href="#/bulgular?t=veriler">Bütün dönemin YZ eğilimleri →</a></p></section>';
 }
 function bg7Method(sec) {
   var B = bg7(), S = B && B.summary;

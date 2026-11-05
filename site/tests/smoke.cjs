@@ -3,6 +3,8 @@ const http = require("http"), fs = require("fs"), path = require("path");
 const { chromium } = require("playwright");
 const argv = process.argv.slice(2), ni = argv.indexOf("--expect-nav");
 const expectNav = ni >= 0 ? argv.splice(ni, 2)[1] : null;
+const evals = [];
+for (let ei = argv.indexOf("--eval"); ei >= 0; ei = argv.indexOf("--eval")) { const v = argv.splice(ei, 2)[1], k = v.indexOf("|"); evals.push([v.slice(0, k), v.slice(k + 1)]); }
 const clicks = [];
 for (let ci = argv.indexOf("--click"); ci >= 0; ci = argv.indexOf("--click")) { const v = argv.splice(ci, 2)[1], k = v.indexOf(":"); clicks.push([v.slice(0, k), v.slice(k + 1)]); }
 const [siteDir, outDir, ...argRoutes] = argv;
@@ -34,6 +36,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       const got = (await page.$$eval(".xnav-l a", (as) => as.map((a) => a.textContent.trim()))).join(",");
       if (got !== expectNav) fails.push(`${tag}: nav "${got}" != "${expectNav}"`);
     }
+    for (const [er, js] of evals) if (er === route && !(await page.evaluate(js))) fails.push(`${tag}: eval false: ${js}`);
     if (await page.$(".v7-empty-bug")) fails.push(`${tag}: .v7-empty-bug present`);
     await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-${w}-${theme}.png`) });
     for (const [cr, sel] of clicks) if (cr === route) {
