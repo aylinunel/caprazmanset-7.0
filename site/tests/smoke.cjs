@@ -42,7 +42,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         const sp = document.querySelector(".xspwrap");
         if (sp && !(m.compareDocumentPosition(sp) & 4)) return ".v7-map must precede .xspwrap";
         for (const el of document.querySelectorAll("[data-cm3], .cm3-voices, .cm3-counter, .xvoices"))
-          if (el.compareDocumentPosition(m) & 2) return "v3 block before .v7-map";
+          if (el.compareDocumentPosition(m) & 4) return "v3 block before .v7-map: " + el.className + " " + el.outerHTML.slice(0, 80);
         const yz = [].map.call(document.querySelectorAll(".yz"), (x) => x.textContent).join(" ");
         return /bağlam gerekli|desteklendi|inceleyiciler ayrıştı/.test(yz) ? "status label in .yz" : "ok";
       });
