@@ -4435,23 +4435,10 @@ function narrFocusChart() {
   }), { padL: 168 });
 }
 
-var XTICK = null;
-function tickerHTML() {
-  if (!XTICK) {
-    var ev = D.E.filter(function (e) { return e.s.length >= 9; }).sort(function (a, b) { return b.l.localeCompare(a.l); }).slice(0, 16);
-    XTICK = ev.map(function (e) { return '<a href="#/olay?e=' + e.i + '"><b>' + e.s.length + " KRM</b>" + esc(storyLabel(e, 90)) + "</a>"; }).join("");
-  }
-  return '<div class="xtick" aria-label="Son sinyaller"><div class="xtick-l">SİNYAL</div><div class="xtick-t">' + XTICK + XTICK + "</div></div>";
-}
-function cyberChrome(path) {
-  var vw = document.getElementById("view");
-  if (vw && document.querySelector(".navbar") && !document.querySelector(".xtick")) vw.insertAdjacentHTML("afterbegin", tickerHTML());
-}
 function v2bAfter(path, tab, params) {
-  cyberChrome(path);
   if (path === "/" || path === "/anlati" || path === "/olay") wireAnlati(document.getElementById("view"));
   g6Mount(document.getElementById("view"));
-  dmHeads(document.getElementById("view")); dmMount(document.getElementById("view"));
+  dmHeads(document.getElementById("view")); dmMount(document.getElementById("view")); fogMount(document.getElementById("view"));
   if (path === "/oruntu") wireOruntu(params.q || "secim", params.f);
   if (path === "/ilan") wireIlan();
   if (path === "/yontem") wireYontem(params);

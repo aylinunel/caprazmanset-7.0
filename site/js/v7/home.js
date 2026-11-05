@@ -1,7 +1,7 @@
 /* Homepage: what the site does, one live card per function. Each card states the function in one line
    and shows one number computed from this build's data. */
 function pgHome7() {
-  var m = D.meta.counts, lead = leadEvent();
+  var lead = leadEvent();
   var coded = [], shares;
   NW.forEach(function (w) { if (w.k !== "v1") coded = coded.concat(w.keys.filter(narrOk)); });
   shares = dimShares(D.N, coded);
@@ -14,12 +14,7 @@ function pgHome7() {
     return '<a class="v7-hc' + (ai ? " yz" : "") + '" href="' + href + '"><span class="eyebrow">' + kick + (ai ? " " + yzBadge() : "") + "</span><b>" + title +
       "</b><span class=\"v7-hfig\">" + fig + "</span><span>" + line + "</span></a>";
   };
-  var h = dmHero(lead) + '<div class="wrap page v7-home"><div class="v7-htop"><div><p class="eyebrow">' + esc(WIN.range) + " · " + m.articles.toLocaleString("tr") + " başlık · " +
-    D.E.length.toLocaleString("tr") + " olay · " + D.meta.sources.length + ' kurum</p><h2 class="v7-hh">Bir olay, iki manşet</h2><p class="lede">' + esc(V7_PURPOSE) +
-    " Hüküm vermez: yalnızca kimin neyi nasıl yazdığını yan yana koyar ve bu farkların tekrar edip etmediğini ölçer.</p>" +
-    '<a class="xbtn" href="#/anlati">Anlatı haritasını aç →</a></div>';
-  if (lead && defaultPair(lead)) h += '<div class="v7-hlead"><p class="eyebrow">Örnek · <a class="lnk" href="#/olay?e=' + lead.i + '">' + esc(storyLabel(lead, 90)) + "</a></p>" + splitCard(lead) + "</div>";
-  h += "</div>";
+  var h = fogHero(lead) + '<section id="bu-hafta" class="v7-feed"></section><div class="wrap page v7-home">';
   if (ADV && ADV.agenda) h += '<section class="v7-hnet"><div class="v7-hnet-t"><p class="eyebrow">Gündem ağı · ' + ADV.agenda.order.length + ' kurum</p><h2 class="v7-hh">Kim kiminle aynı olayları seçiyor?</h2>' +
     '<p class="lede">Birlikte çok olay haber yapan kurumlar birbirine çekilir. Renk kayıt defterindeki yerleşim, büyüklük verilen olay sayısı. Bir kuruma gelin, komşuları öne çıksın.</p>' +
     '<a class="lnk" href="#/oruntu?q=secim&f=secim-gundem">Bulgunun tamamı →</a></div>' + g6Box("agenda", "", "Kurumların gündem benzerliği ağı") + "</section>";

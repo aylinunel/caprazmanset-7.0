@@ -106,6 +106,19 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       await rows("");
       if (w === 390 && await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) fails.push(`${tag}: ilan horizontal scroll after typing`);
     }
+    if (await page.$(".xtick")) fails.push(`${tag}: .xtick present`);
+    if (route === "#/") {
+      const g = await page.evaluate(() => { const b = [...document.querySelectorAll(".fh [role=group] button")]; return [b.length, b.filter((x) => x.getAttribute("aria-pressed") === "true").length, (document.querySelector(".fh-cta") || {}).textContent, document.querySelector(".fh-cta") && document.querySelector(".fh-cta").getAttribute("href"), !!document.getElementById("bu-hafta")]; });
+      if (g[0] !== 2 || g[1] !== 1) fails.push(`${tag}: .fh toggle has ${g[0]} buttons, ${g[1]} pressed`);
+      if (g[2] !== "Bu haftanın ayrışmalarını gör ↓" || g[3] !== "#bu-hafta" || !g[4]) fails.push(`${tag}: .fh-cta / #bu-hafta wrong: ${g}`);
+      const b2 = await page.$(".fh [role=group] button:nth-child(2)");
+      if (b2) {
+        await b2.click(); await sleep(1200);
+        const on = await page.evaluate(() => [!!document.querySelector(".fh-set.r.is-on"), !document.querySelector(".fh-set.l.is-on"), document.querySelector(".fh [role=group] button:nth-child(2)").getAttribute("aria-pressed")]);
+        if (!on[0] || !on[1] || on[2] !== "true") fails.push(`${tag}: right set not on after click: ${on}`);
+        if (w === 390 && await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) fails.push(`${tag}: horizontal scroll after fog switch`);
+      }
+    }
     for (const [er, js] of evals) if (er === route && !(await page.evaluate(js))) fails.push(`${tag}: eval false: ${js}`);
     if (await page.$(".v7-empty-bug")) fails.push(`${tag}: .v7-empty-bug present`);
     await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-${w}-${theme}.png`) });
