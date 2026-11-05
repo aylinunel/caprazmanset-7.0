@@ -160,6 +160,11 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     if (route === "#/oruntu?q=secim" && w === 1280 && theme === "light") {
       await page.$eval(".gl", (e) => e.focus()); await page.keyboard.press("Tab"); await sleep(200);
       if (!(await page.evaluate(() => { const a = document.activeElement; return !!(a && a.closest(".gl-pop") && a.tagName === "A"); }))) fails.push(`${tag}: Tab from .gl does not reach popover link`);
+      if (!(await page.$(".gl-pop"))) fails.push(`${tag}: .gl-pop missing after Tab`);
+      await page.keyboard.press("Escape"); await sleep(200);
+      if (await page.$(".gl-pop") || !(await page.evaluate(() => document.activeElement.classList.contains("gl")))) fails.push(`${tag}: Escape did not close popover and refocus .gl`);
+      await page.keyboard.press("Tab"); await sleep(100); await page.keyboard.press("Shift+Tab"); await sleep(200);
+      if (!(await page.$(".gl-pop"))) fails.push(`${tag}: .gl-pop missing before navigation`);
       await page.evaluate(() => { location.hash = "#/kurumlar"; }); await sleep(800);
       if (await page.$(".gl-pop")) fails.push(`${tag}: .gl-pop survives navigation`);
     }

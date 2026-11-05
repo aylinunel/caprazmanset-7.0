@@ -44,7 +44,8 @@ document.addEventListener("click", function (ev) {
   if (b) { glOpen(b); return; }
   if (!(ev.target.closest && ev.target.closest(".gl-pop"))) glClose();
 });
-document.addEventListener("focusin", function (ev) { var b = ev.target.closest && ev.target.closest(".gl"); if (b) glOpen(b); });
+var glMute = false;
+document.addEventListener("focusin", function (ev) { var b = ev.target.closest && ev.target.closest(".gl"); if (b && !glMute) glOpen(b); });
 document.addEventListener("focusout", function (ev) {
   var n = ev.relatedTarget;
   if (n && n.closest && !n.closest(".gl") && !n.closest(".gl-pop")) glClose();
@@ -53,5 +54,5 @@ window.addEventListener("hashchange", glClose);
 document.addEventListener("keydown", function (ev) {
   if (ev.key !== "Escape") return;
   var p = document.querySelector(".gl-pop"), inside = p && p.contains(document.activeElement), b = p && p.previousSibling;
-  glClose(); if (inside && b && b.focus) b.focus();
+  glClose(); if (inside && b && b.focus) { glMute = true; b.focus(); glMute = false; }
 });
