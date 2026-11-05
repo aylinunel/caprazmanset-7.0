@@ -2037,34 +2037,28 @@ th{color:var(--ink);border-bottom-width:3px}
 /* ===== 7.0 · Kindred hero ===== */
 .dm-hero{position:relative;margin:0 calc(50% - 50vw);width:100vw;height:calc(100vh - 96px);min-height:640px;overflow:hidden;background:var(--paper)}
 .dm-hero canvas[data-dm="hero"]{position:absolute;inset:0;width:100%;height:100%;display:block}
-.dm-copy{position:absolute;left:50%;top:9%;transform:translateX(-50%);text-align:center;width:min(92vw,720px);z-index:3}
-.dm-copy h1{font-family:"Inter",system-ui,sans-serif;font-weight:500;letter-spacing:-.035em;line-height:1.04;font-size:clamp(38px,3.75vw,68px);color:var(--ink);margin:0}
+.dm-copy{position:absolute;left:50%;top:7%;transform:translateX(-50%);text-align:center;width:min(92vw,720px);z-index:3}
+.dm-copy h1{font-family:"Inter",system-ui,sans-serif;font-weight:500;letter-spacing:-.035em;line-height:1.04;font-size:clamp(34px,3.2vw,58px);color:var(--ink);margin:0}
 .dm-copy h1 span{display:block;color:var(--mist)}
 .dm-copy p{margin:20px auto 0;max-width:360px;color:var(--muted);font-size:clamp(13px,1.02vw,15.5px);line-height:1.4}
-.dm-cta{display:inline-block;position:relative;margin-top:clamp(26px,3vw,44px)}
+.dm-cta{display:inline-block;position:relative;margin-top:clamp(22px,2.6vw,38px)}
 .dm-cta a{position:relative;z-index:1;display:inline-block;background:#111;color:#fff;font-size:13.5px;font-weight:500;padding:11px 20px;border-radius:999px;text-decoration:none;transition:.3s}
 .dm-cta a:hover{transform:translateY(-1px)}
 .dm-cta::before{content:"";position:absolute;left:10%;right:10%;bottom:-6px;height:16px;border-radius:50%;background:linear-gradient(90deg,#ffcf5a,#7dffa8,#5ad7ff,#9b7bff,#ff6fd8,#ffb36b);filter:blur(9px);opacity:.85;z-index:0;transition:.3s}
 .dm-cta:hover::before{opacity:1;filter:blur(12px);bottom:-9px}
 :root[data-theme="dark"] .dm-cta a{background:#f2f2f0;color:#111}
-.dm-cap{position:absolute;z-index:2;margin:0;font-family:var(--ff-m);font-size:11px;letter-spacing:.12em;color:var(--muted);display:flex;align-items:center;gap:7px;top:49%}
-.dm-cap i{width:8px;height:8px;border-radius:50%;flex:none}
-.dm-cap.l{left:3%;width:42%;justify-content:flex-end;text-align:right}
-.dm-cap.r{left:55%;width:42%}
-.dm-ev{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(clamp(28px,6vh,64px) + 40px);z-index:3;font-size:13px;color:var(--muted);text-decoration:underline;text-underline-offset:3px;max-width:92vw;text-align:center;background:var(--paper)}
-.dm-ev:hover{color:var(--ink)}
-.dm-logos{position:absolute;bottom:clamp(20px,4vh,44px);width:100%;display:flex;justify-content:center;flex-wrap:wrap;gap:clamp(20px,3.6vw,52px);padding:0 16px;color:var(--muted);font-size:clamp(13px,1.05vw,15px);font-weight:500;letter-spacing:-.01em;z-index:3;box-sizing:border-box}
+.dm-lab{position:absolute;z-index:2;margin:0;font-family:var(--ff-m);font-size:11px;letter-spacing:.12em;color:var(--muted);display:flex;align-items:center;gap:7px;white-space:nowrap}
+.dm-lab i{width:7px;height:7px;border-radius:50%;flex:none}
+.dm-lab.l{left:3%;top:calc(var(--ya) - var(--lo,7.6%))}
+.dm-lab.r{right:3%;top:calc(var(--yb) - var(--lo,7.6%))}
+.dm-logos{position:absolute;bottom:clamp(20px,4vh,40px);width:100%;display:flex;justify-content:center;flex-wrap:wrap;gap:clamp(26px,4.6vw,66px);padding:0 16px;color:var(--muted);font-size:clamp(14px,1.18vw,17px);font-weight:500;letter-spacing:-.01em;z-index:3;box-sizing:border-box}
 .dm-logos a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:7px}
 .dm-logos a:hover{color:var(--ink)}
 .dm-band{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
 .phead>*:not(canvas){position:relative;z-index:1}
 @media (max-width:760px){
   .dm-copy{top:6%}
-  .dm-cap{top:38%}
-  .dm-cap.l{left:6%;width:88%;justify-content:flex-start;text-align:left}
-  .dm-cap.r{top:59%;left:6%;width:88%;justify-content:flex-end;text-align:right}
-  .dm-ev{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100% - 32px);bottom:96px}
-  .dm-logos{gap:10px 18px;font-size:12.5px}
+          .dm-logos{gap:14px 24px;font-size:13px}
   .dm-logos a:nth-child(n+7){display:none}
 }
 @media (prefers-reduced-motion:reduce){.dm-cta a,.dm-cta::before{transition:none}}
