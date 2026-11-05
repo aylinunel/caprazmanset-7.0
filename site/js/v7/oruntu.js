@@ -400,14 +400,102 @@ function orDil() {
   return orPage("dil", fs, orExamples("dil"));
 }
 
+/* ======================================================= anlati */
+function orAnKeys(sel) {
+  var ws = v7Weeks();
+  if (sel === "hand") ws = ws.filter(function (w) { return w.coded !== "agent"; });
+  else if (sel === "ai") ws = ws.filter(function (w) { return w.coded === "agent"; });
+  else if (sel !== "all") ws = ws.filter(function (w) { return w.k === sel; });
+  return ws.reduce(function (a, w) { return a.concat(w.keys); }, []);
+}
+function orAnBars(sel) {
+  var keys = orAnKeys(sel), sh = dimShares(D.N, keys), n = keys.length;
+  var ai = keys.filter(function (k) { return D.N[k].status === "agent_coded"; }).length;
+  return '<p class="or-meta2">' + orN(n) + " olay" + (ai ? " · bunların " + ai + " tanesi YZ ile kodlandı " + yzBadge() : "") + "</p>" +
+    orBars(NORD.map(function (d) {
+      var c = Math.round(sh[d] * n);
+      return { label: NDL[d], v: sh[d], disp: orP(sh[d]), c: "var(--ink2)", go: sel !== "all" && sel !== "hand" && sel !== "ai" ? "#/anlati?w=" + sel : "",
+        tip: "<span class='k'>" + esc(NDL[d]) + "</span>" + c + " / " + n + " olayda odak boyutu<br>" + orP(sh[d]) };
+    }), 1);
+}
+function orFindDims() {
+  var ws = v7Weeks().filter(function (w) { return w.keys.length; }), all = orAnKeys("all"), sh = dimShares(D.N, all), n = all.length;
+  var ord = NORD.slice().sort(function (a, b) { return sh[b] - sh[a]; });
+  var chip = function (v, t, on) { return '<button type="button" class="chip" data-an="' + v + '" aria-pressed="' + on + '">' + t + "</button>"; };
+  var nAi = orAnKeys("ai").length;
+  var viz = '<div class="or-ctl"><span class="or-cl">Hafta</span>' + chip("all", "Hepsi", true) + chip("hand", "Elle kodlanan", false) + chip("ai", "YZ ile kodlanan " + yzBadge(), false) +
+    ws.map(function (w) { return chip(w.k, esc(w.l), false); }).join("") + '</div><div id="or-an">' + orAnBars("all") + "</div>";
+  return { id: "anlati-boyut",
+    claim: "Kodlanan <b>" + orN(n) + "</b> olayda en sık odak boyutu <b>" + esc(NDL[ord[0]]) + "</b> (" + orP(sh[ord[0]]) + "), en seyreği <b>" + esc(NDL[ord[ord.length - 1]]) + "</b> (" + orP(sh[ord[ord.length - 1]]) + ").",
+    viz: viz,
+    means: "Odak boyutu, kurumların o olayda en çok ayrıştığı boyuttur; yüksek pay, o boyutta ayrışmanın sık olduğunu gösterir, ayrışmanın iyi ya da kötü olduğunu değil. " +
+      "Payların içine YZ ile kodlanan " + orN(nAi) + " olay da giriyor " + yzBadge() + "; elle ve YZ ile kodlanan olayları ayrı görmek için üstteki seçimleri kullanın. " +
+      "Olayların çoğu en çok kurumun verdiği olaylardan seçildiği için bu paylar bütün haberlerin değil, öne çıkan olayların resmidir.",
+    how: orHow(["Birim: editörce reddedilmemiş kodlanmış olaylar (n = " + orN(n) + "). Pay = bir boyutun odak boyutu olarak işaretlendiği olay sayısı / seçilen olay sayısı.",
+      "Dokuz boyutlu kodlama; ilk altı hafta elle, sonrası yapay zekâ ile kodlandı (Yöntem › anlatı kodlaması)."], 6) };
+}
+
+function orBlameOutlets(keys) {
+  var m = {};
+  keys.forEach(function (k) { ((D.N[k] && D.N[k].rows) || []).forEach(function (r) {
+    var v = String(r.blame == null ? "" : r.blame).trim(); if (!v || UNSET(v)) return;
+    var b = bloc(r.s), c = ((m[v] = m[v] || {})[b] = m[v][b] || {}); c[r.s] = (c[r.s] || 0) + 1; }); });
+  return m;
+}
+function orFindBlame() {
+  var keys = orAnKeys("all"), rows = blameByBloc(D.N, keys, bloc).filter(function (r) { return !UNSET(r.value); }), who = orBlameOutlets(keys);
+  var tot = function (r) { return r.left + r.mid + r.right + r.none; }, top = rows.slice(0, 10), mx = top.length ? tot(top[0]) : 1;
+  var all = 0, withB = 0; keys.forEach(function (k) { ((D.N[k] && D.N[k].rows) || []).forEach(function (r) { all++; if (String(r.blame || "").trim() && !UNSET(r.blame)) withB++; }); });
+  var viz = '<div class="or-bars">' + top.map(function (r) {
+    var w = who[r.value] || {}, tip = "<span class='k'>" + esc(r.value) + "</span>" + ["left", "mid", "right"].map(function (b) {
+      var o = w[b] || {}, names = Object.keys(o).sort(function (a, c) { return o[c] - o[a]; }).map(function (s) { return esc(srcName(s)) + (o[s] > 1 ? " ×" + o[s] : ""); });
+      return SIDE[b] + " (" + r[b] + "): " + (names.join(", ") || "—"); }).join("<br>");
+    return '<div class="or-bar or-st" tabindex="0"' + orTip(tip) + '><span class="or-bl">' + esc(r.value) + '</span><span class="or-bt or-stk" style="width:' + (100 * tot(r) / mx) + '%">' +
+      ["left", "mid", "right"].map(function (b) { return r[b] ? '<i style="flex:' + r[b] + ";background:var(--" + b + ')"></i>' : ""; }).join("") + "</span><b>" + tot(r) + "</b></div>";
+  }).join("") + "</div>" + legendHTML([{ c: "var(--left)", t: "sola yerleşik kurum" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik kurum" }], "Renk") +
+    '<p class="or-hint">Bir çubuğa gelin: hangi kurumların başlığında bu aktörün sorumlu tutulduğu görünür.</p>';
+  var t0 = top[0] || { value: "—", left: 0, mid: 0, right: 0, none: 0 };
+  return { id: "anlati-sorumlu",
+    claim: "En sık sorumlu tutulan taraf <b>" + esc(t0.value) + "</b>: " + tot(t0) + " kurum satırında (sol " + t0.left + ", merkez " + t0.mid + ", sağ " + t0.right + ").",
+    viz: viz,
+    means: "Kodlanan kurum satırlarının " + orP(withB / (all || 1)) + "’inde başlık birini sorumlu tutuyor; geri kalanı sorumluluk atfetmiyor. " +
+      "Bu grafik kimin gerçekten sorumlu olduğunu değil, hangi kurumların başlığında kimin sorumlu gösterildiğini sayar. Blok sayıları kurum sayısına bağlıdır (sağ blokta daha çok kurum var), bu yüzden bloklar arası sayı farkı tek başına bir tercih göstermez.",
+    how: orHow(["Birim: " + orN(keys.length) + " kodlanmış olayın kurum satırları; değer = ‘Sorumlu tutulan’ boyutuna yazılan ifade, boş ve ‘belirtilmiyor’ değerleri sayılmaz.",
+      "En sık " + top.length + " değer gösterilir. Blok: kayıt defterindeki yerleşim (doğrulanmamış)."], 6) };
+}
+
+function orFindTrend() {
+  var ws = v7Weeks().filter(function (w) { return w.keys.length; });
+  var head = "<tr><th></th>" + ws.map(function (w) { return "<th>" + esc(w.l) + (w.coded === "agent" ? " " + yzBadge() : "") + "</th>"; }).join("") + "</tr>";
+  var shs = ws.map(function (w) { return dimShares(D.N, w.keys); });
+  var body = NORD.map(function (d) {
+    return "<tr><th scope=\"row\">" + esc(NDL[d]) + "</th>" + ws.map(function (w, i) {
+      var v = shs[i][d], c = Math.round(v * w.keys.length);
+      return '<td class="or-hm" style="--v:' + Math.round(v * 100) + '%" tabindex="0"' + orTip("<span class='k'>" + esc(NDL[d]) + " · " + esc(w.l) + "</span>" + c + " / " + w.keys.length + " olay · " + orP(v) + (w.coded === "agent" ? "<br>YZ ile kodlandı" : "<br>Elle kodlandı")) + ">" + Math.round(v * 100) + "</td>"; }).join("") + "</tr>"; }).join("");
+  var sz = ws.map(function (w) { return w.keys.length; }), ai = ws.filter(function (w) { return w.coded === "agent"; }).length;
+  var mv = NORD.map(function (d) { var xs = shs.map(function (s) { return s[d]; }); return { d: d, r: Math.max.apply(null, xs) - Math.min.apply(null, xs) }; }).sort(function (a, b) { return b.r - a.r; })[0];
+  return { id: "anlati-hafta",
+    claim: "Odak boyutlarının haftalık payı <b>" + ws.length + "</b> hafta boyunca en çok <b>" + esc(NDL[mv.d]) + "</b> boyutunda oynuyor: en düşük ve en yüksek hafta arasında " + dec(100 * mv.r, 0) + " puan.",
+    viz: '<div class="scroller"><table class="or-tbl"><thead>' + head + "</thead><tbody>" + body + '</tbody></table></div><p class="or-hint">Hücre: haftanın kodlanmış olaylarında o boyutun odak olduğu olayların yüzdesi; koyu hücre yüksek paydır. ' +
+      '<a class="lnk" href="#/anlati">Haftanın anlatı haritasını aç →</a></p>',
+    means: "Haftalık olay sayısı " + Math.min.apply(null, sz) + " ile " + Math.max.apply(null, sz) + " arasında; " + ai + " hafta yapay zekâ ile kodlandı " + yzBadge() + ", kalanı elle. " +
+      "Kodlama yöntemi değiştiği için bu iki grup arasındaki sıçramalar gerçek bir değişimden olduğu kadar kodlama farkından da gelebilir; haftalar arası eğilim olarak okunmamalıdır. Her hafta o haftanın en çok kurumun verdiği olaylarından seçildi.",
+    how: orHow(["Birim: hafta başına editörce reddedilmemiş kodlanmış olaylar. Hücre = odak boyutu olarak işaretlenen olay / haftanın olayları.", "YZ rozeti taşıyan haftalar yapay zekâ ile kodlandı; elle kodlananlarda her kurumun en çok paylaşılan başlığı okundu."], 6) };
+}
+
+function orAnlati() {
+  return orPage("anlati", [orFindDims(), orFindBlame(), orFindTrend()], orExamples("anlati"));
+}
+
 function orExamples(q) {
   var ev = orEvents().filter(function (e) { return e.s.length >= 5; }), top = function (f) { return ev.filter(f).sort(function (a, b) { return b.s.length - a.s.length; })[0]; };
   var pick = [];
   var add = function (e) { if (e && pick.indexOf(e) < 0) pick.push(e); };
   if (q === "secim") { add(ORD.bs.L[0]); add(ORD.bs.R[0]); add(top(function () { return true; })); }
   else if (q === "dil") { ev.slice().sort(function (a, b) { return b.p - a.p || b.s.length - a.s.length; }).slice(0, 3).forEach(add); }
-  else if (q === "anlati") { v7Weeks().forEach(function (w) { w.keys.forEach(function (k) { var e = EV[D.N[k].ev]; if (e) ORD.nx = (ORD.nx || []).concat([[e, D.N[k].score || 0]]); }); });
-    (ORD.nx || []).sort(function (a, b) { return b[1] - a[1]; }).slice(0, 3).forEach(function (x) { add(x[0]); }); ORD.nx = null; }
+  else if (q === "anlati") {
+    var nx = []; v7Weeks().forEach(function (w) { w.keys.forEach(function (k) { var e = EV[D.N[k].ev]; if (e) nx.push([e, D.N[k].score || 0]); }); });
+    nx.sort(function (a, b) { return b[1] - a[1]; }).slice(0, 3).forEach(function (x) { add(x[0]); }); }
   else { ev.filter(function (e) { return e.s.length >= 12; }).slice().sort(function (a, b) { return b.s.length - a.s.length; }).slice(0, 3).forEach(add); }
   var fill = ev.slice().sort(function (a, b) { return b.s.length - a.s.length; });
   for (var i = 0; pick.length < 3 && i < fill.length; i++) add(fill[i]);
@@ -423,6 +511,7 @@ function pgOruntu(q) {
   var k = OR_PAGES[q && q.q] ? q.q : "secim";
   if (k === "secim") return orSecim();
   if (k === "dil") return orDil();
+  if (k === "anlati") return orAnlati();
   return '<div class="wrap page"><div class="phead"><h1>' + OR_PAGES[k][0] + '</h1><p class="lede">Hazırlanıyor.</p></div></div>';
 }
 
@@ -444,6 +533,14 @@ function wireOruntu(q) {
   q = OR_PAGES[q] ? q : "secim";
   if (q === "secim") {
     orPut("adv-a", advHeat());
+  }
+  if (q === "anlati" && !root._ora) {
+    root._ora = 1;
+    root.addEventListener("click", function (ev) {
+      var b = ev.target.closest && ev.target.closest("[data-an]"); if (!b) return;
+      [].forEach.call(root.querySelectorAll("[data-an]"), function (x) { x.setAttribute("aria-pressed", x === b); });
+      var t = document.getElementById("or-an"); if (t) { t.innerHTML = orAnBars(b.getAttribute("data-an")); wireGo(t); }
+    });
   }
   if (q === "dil") {
     orPut("adv-b", advScatter());

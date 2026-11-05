@@ -1843,3 +1843,12 @@ th{color:var(--ink);border-bottom-width:3px}
 .or-h4{font-family:var(--ff-m);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px;font-weight:400}
 .or-sp{margin:0 0 20px}
 .or tr[data-bias7]{cursor:pointer}
+.or-meta2{font-size:13px;color:var(--ink2);margin:0 0 8px}
+.or-stk{display:flex;background:none}
+.or-stk i{display:block;height:100%}
+.or-st .or-bt{height:14px}
+.or-tbl{border-collapse:separate;border-spacing:2px;font-size:12.5px;min-width:max-content}
+.or-tbl th{font-weight:400;font-size:11px;color:var(--ink2);padding:4px 6px;text-align:left;white-space:nowrap}
+.or-tbl tbody th{position:sticky;left:0;background:var(--paper);z-index:1}
+.or-hm{text-align:center;font-family:var(--ff-m);font-size:11px;padding:6px 8px;border-radius:3px;color:var(--ink);
+  background:color-mix(in srgb,var(--seq4) var(--v),var(--surface))}
