@@ -126,6 +126,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         await sleep(1300);
         if (await page.$("canvas.dm-word")) fails.push(`${tag}: canvas.dm-word left after effect`);
       }
+      if (fd[0]) {
+        await page.evaluate(() => { for (let i = 0; i < 400 && !document.getElementById("feed-more").hidden; i++) document.getElementById("feed-more").click(); });
+        if (await page.isVisible("#feed-more")) fails.push(`${tag}: #feed-more still visible after all cards shown`);
+      }
+      await page.evaluate(() => { window.__E = CM.data.E; CM.data.E = window.__E.slice(0, 1); location.hash = "#/olaylar"; });
+      await sleep(600); await page.evaluate(() => { location.hash = "#/"; }); await sleep(1500);
+      const zero = await page.evaluate(() => { CM.data.E = window.__E; return [document.querySelectorAll("#bu-hafta .v7-fc").length, (document.querySelector("#bu-hafta .v7-fc-none") || {}).textContent, (document.querySelector("#bu-hafta .lnk") || {}).textContent, !document.querySelector("#feed-more") || document.querySelector("#feed-more").hidden]; });
+      if (zero[0] !== 0 || zero[1] !== "Bu hafta iki taraftan da verilen olay yok" || zero[2] !== "Tüm olaylar →" || !zero[3]) fails.push(`${tag}: zero-event feed wrong: ${zero}`);
       const b2 = await page.$(".fh [role=group] button:nth-child(2)");
       if (b2) {
         await b2.click(); await sleep(1200);

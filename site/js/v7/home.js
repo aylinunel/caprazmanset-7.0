@@ -13,6 +13,7 @@ function feedMore() {
   g.insertAdjacentHTML("beforeend", FEED.list.slice(FEED.shown, FEED.shown + 6).map(feedCard).join(""));
   FEED.shown = Math.min(FEED.list.length, FEED.shown + 6);
   if (b) b.hidden = FEED.shown >= FEED.list.length;
+  dmFeedWatch(g);
 }
 document.addEventListener("click", function (ev) { if (ev.target.closest && ev.target.closest("#feed-more")) feedMore(); });
 function feedHTML(lead) {

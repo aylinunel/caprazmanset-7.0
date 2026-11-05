@@ -100,7 +100,7 @@ function dmWordFx(mk) {
   if (mk._fx || dmCalm()) return;
   var W = mk.offsetWidth, H = mk.offsetHeight; if (!W || !H) return;
   var step = Math.max(2, Math.round(H / 9)), cols = Math.max(1, Math.ceil(W / step)), rows = Math.max(1, Math.ceil(H / step)), DPR = Math.min(2, devicePixelRatio || 1);
-  var F = document.createElement("canvas"), fc = F.getContext("2d", { willReadFrequently: true }), cv = document.createElement("canvas"), ctx = cv.getContext("2d"), cs = getComputedStyle(mk);
+  var F = document.createElement("canvas"), fc = F.getContext("2d", { willReadFrequently: true }), cv = document.createElement("canvas"), ctx = cv.getContext("2d"), cs = getComputedStyle(mk), ink = cs.color;
   F.width = cols; F.height = rows; fc.fillStyle = "#fff"; fc.fillRect(0, 0, cols, rows); fc.scale(cols / W, rows / H);
   fc.font = cs.fontWeight + " " + cs.fontSize + " " + cs.fontFamily; fc.fillStyle = "#000"; fc.textBaseline = "middle"; fc.fillText(mk.textContent, parseFloat(cs.paddingLeft) || 0, H / 2);
   var px = fc.getImageData(0, 0, cols, rows).data, LEVELS = [0, .26, .52, .78, 1], dots = [];
@@ -115,7 +115,7 @@ function dmWordFx(mk) {
   (function frame(now) {
     var t = (now - t0) / DUR; if (t >= 1 || !document.body.contains(mk)) return done();
     if (now - last >= 33) {
-      last = now; ctx.setTransform(DPR, 0, 0, DPR, 0, 0); ctx.clearRect(0, 0, W, H); ctx.fillStyle = "#1B1813";
+      last = now; ctx.setTransform(DPR, 0, 0, DPR, 0, 0); ctx.clearRect(0, 0, W, H); ctx.fillStyle = ink;
       var u = dmSmooth(0, .5, t), r = dmSmooth(.5, 1, t), P = new Path2D();
       for (var k = 0; k < dots.length; k++) {
         var d = dots[k], here = t < .5 ? d.sd >= u : d.sd <= r, edge = Math.abs(d.sd - (t < .5 ? u : r)) < .12;
@@ -129,15 +129,21 @@ function dmWordFx(mk) {
   })(t0);
 }
 function dmCardFx(card) { [].forEach.call(card.querySelectorAll("mark.mw"), dmWordFx); }
+/* Touch devices have no hover: each card plays once when it is first 60% in view. A tap always navigates. */
+function dmFeedWatch(root) {
+  if (!matchMedia("(hover:none)").matches || !("IntersectionObserver" in window)) return;
+  [].forEach.call((root || document).querySelectorAll(".v7-fc"), function (c) {
+    if (c._io) return;
+    var io = c._io = new IntersectionObserver(function (es) {
+      if (!es[0].isIntersecting) return; io.disconnect(); dmCardFx(c);
+    }, { threshold: .6 });
+    io.observe(c);
+  });
+}
 (function () {
-  var touch = false, armed = null;
   document.addEventListener("pointerover", function (e) {
-    var c = e.target.closest && e.target.closest(".v7-fc"); touch = e.pointerType === "touch";
-    if (c && !touch && !(e.relatedTarget && c.contains(e.relatedTarget))) dmCardFx(c);
+    var c = e.target.closest && e.target.closest(".v7-fc");
+    if (c && e.pointerType !== "touch" && !(e.relatedTarget && c.contains(e.relatedTarget))) dmCardFx(c);
   });
   document.addEventListener("focusin", function (e) { var c = e.target.closest && e.target.closest(".v7-fc"); if (c) dmCardFx(c); });
-  document.addEventListener("click", function (e) {
-    var c = e.target.closest && e.target.closest(".v7-fc"); if (!c || !touch || dmCalm() || armed === c) return;
-    e.preventDefault(); armed = c; dmCardFx(c); setTimeout(function () { if (armed === c) armed = null; }, 4000);
-  });
 })();
