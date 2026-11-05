@@ -1728,7 +1728,7 @@ th{color:var(--ink);border-bottom-width:3px}
 /* 7.0 · Anlatı map (homepage) */
 .v7-an{padding-top:26px}
 .v7-purpose{font-family:var(--ff-d);font-size:17px;line-height:1.5;color:var(--ink2);max-width:62ch;margin:0 0 14px}
-.v7-an h1{font-family:var(--ff-d);font-size:clamp(26px,5vw,38px);line-height:1.15;margin:0 0 18px;max-width:30ch}
+.v7-an h1,.v7-emptyh{font-family:var(--ff-d);font-size:clamp(26px,5vw,38px);line-height:1.15;margin:0 0 18px;max-width:30ch}
 .v7-weeks,.v7-events{display:flex;gap:6px;margin-bottom:10px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
 .v7-weeks .chip,.v7-events .chip{flex:none;white-space:nowrap}
 .v7-an .chip{min-height:40px;display:inline-flex;align-items:center;gap:6px;text-align:left}

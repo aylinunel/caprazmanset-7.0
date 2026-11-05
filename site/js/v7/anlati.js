@@ -33,7 +33,7 @@ function v7Lean(s) { return SRC[s] && SRC[s].lean != null ? SRC[s].lean : null; 
 function v7Cell(r, d, col, active) {
   var v = String(r[d] || "").trim();
   if (!v || UNSET(v)) return '<td class="v7-e"><span class="v7-none">başlıkta yok</span></td>';
-  return '<td><span class="v7-pill' + (active === d ? " v7-on" : "") + '" role="button" aria-label="' + esc(srcName(r.s) + ": " + NDL[d] + " — " + v) + '" tabindex="0" data-d="' + d + '" data-v="' + esc(v) +
+  return '<td><span class="v7-pill' + (active === d ? " v7-on" : "") + '" role="note" aria-label="' + esc(srcName(r.s) + ": " + NDL[d] + " — " + v) + '" tabindex="0" data-d="' + d + '" data-v="' + esc(v) +
     '" style="--c:' + col[d][v] + '">' + esc(v) + "</span></td>";
 }
 
