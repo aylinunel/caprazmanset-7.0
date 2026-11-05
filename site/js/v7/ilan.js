@@ -23,7 +23,7 @@ function pgIlan() {
     wk = last ? new Date(Date.parse(last + ":00Z") - 7 * 864e5).toISOString().slice(0, 16) : "",
     week = all.filter(function (i) { return i.d >= wk; }).length, q = ILAN.q;
   var srcs = {}; all.forEach(function (i) { srcs[i.s] = 1; });
-  return '<div class="wrap page v7-ilan"><div class="phead"><div class="eyebrow">Resmî ilan bul</div><h1>Resmî ilan bul</h1>' +
+  return '<div class="wrap page v7-ilan"><div class="phead"><h1>Resmî ilan bul</h1>' +
     '<p class="lede">Resmî ilan; mahkeme, icra dairesi ya da bir kamu kurumunun yasa gereği gazetede yayımlattığı bildirimdir. Haber olmadığı için olay tespitinden ayrı tutulur. ' +
     "Burada, topladığımız başlıklar arasında ilan olarak ayrılanlar aranır: toplam <b>" + orN(all.length) + "</b>, son bir haftada <b>" + orN(week) + "</b>.</p></div>" +
     '<form class="v7-ilan-f" onsubmit="return false"><label for="ilanq">Başlıkta ara</label><input type="search" id="ilanq" value="' + esc(q.text) + '" autocomplete="off">' +
@@ -36,10 +36,12 @@ function pgIlan() {
 }
 function wireIlan() {
   var root = document.getElementById("view"), res = document.getElementById("ilanres"); if (!root || !res) return;
-  var redo = function () { ILAN.n = 50; res.innerHTML = ilanResults(); };
+  var redo = function () { var r = document.getElementById("ilanres"); if (!r) return; ILAN.n = 50; r.innerHTML = ilanResults(); };
   var bind = function (id, k) { var el = document.getElementById(id); if (el) el.addEventListener("input", function () { ILAN.q[k] = el.value; redo(); }); };
   bind("ilanq", "text"); bind("ilanfrom", "from"); bind("ilanto", "to"); bind("ilansrc", "src");
+  if (root._ilan) return; root._ilan = 1;
   root.addEventListener("click", function (ev) {
+    var res = document.getElementById("ilanres"); if (!res) return;
     var f = ev.target.closest && ev.target.closest("[data-fam]"), m = ev.target.closest && ev.target.closest("#ilanmore");
     if (f) { ILAN.q.family = f.getAttribute("data-fam"); [].forEach.call(root.querySelectorAll("[data-fam]"), function (x) { x.setAttribute("aria-pressed", x === f); }); redo(); }
     if (m) { ILAN.n += 50; res.innerHTML = ilanResults(); }
