@@ -1712,7 +1712,25 @@ th{color:var(--ink);border-bottom-width:3px}
 .v7-claim{font-family:var(--ff-d);font-size:22px;line-height:1.3;margin:0 0 12px;color:var(--ink)}
 .v7-viz{margin:12px 0;min-width:0}
 .v7-means{font-family:var(--ff-b);font-size:15px;line-height:1.55;color:var(--ink2);margin:10px 0}
-.v7-how{margin:10px 0 0;font-size:13px}
+.v7-read{font-family:var(--ff-m);font-size:12.5px;color:var(--muted);margin:6px 0 10px}
+.v7-why,.v7-how{margin:10px 0 0;font-size:13px}
+.v7-why summary,.v7-tbl summary{display:inline-flex;align-items:center;min-height:44px;cursor:pointer;font-family:var(--ff-m);font-size:12.5px;
+  border:1px solid var(--line);border-radius:99px;padding:0 14px;background:var(--surface);list-style:none}
+.v7-why summary::-webkit-details-marker,.v7-tbl summary::-webkit-details-marker{display:none}
+.v7-why[open]>summary,.v7-tbl[open]>summary{border-color:var(--ink2)}
+.v7-why,.v7-tbl{margin:8px 0}
+.v7-dt{border-collapse:collapse;font-size:13px;min-width:100%}
+.v7-dt th,.v7-dt td{padding:6px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+.v7-dt td{font-family:var(--ff-m)}
+.gl{all:unset;cursor:help;text-decoration:underline dotted;text-underline-offset:3px;color:inherit;font:inherit}
+.gl:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.gl-pop{position:absolute;z-index:60;max-width:min(320px,calc(100vw - 16px));background:var(--surface);color:var(--ink);border:1px solid var(--line2);
+  border-radius:8px;padding:10px 12px;font:400 13px/1.45 var(--ff-b);box-shadow:0 6px 24px rgba(0,0,0,.14);animation:glin .15s ease}
+.gl-pop a{display:inline-block;min-height:24px;color:var(--ink);font-weight:600;white-space:nowrap}
+@keyframes glin{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.gl-pop{animation:none}}
+.v7-gloss dt{font-weight:600;margin-top:12px}
+.v7-gloss dd{margin:2px 0 0;color:var(--ink2)}
 .v7-how summary{display:inline-flex;align-items:center;min-height:44px;cursor:pointer;font-family:var(--ff-m);font-size:12.5px;
   border:1px solid var(--line);border-radius:99px;padding:0 14px;background:var(--surface);list-style:none}
 .v7-how summary::-webkit-details-marker{display:none}
@@ -11025,9 +11043,33 @@ function redirectRoute(path, params) {
   return null;
 }
 
+/* Glossary: one plain sentence per term; glossTerms wraps the first occurrence of each term in the text parts of an html string. */
+var GLOSSARY = {
+  "kör nokta": "Bir olayı yalnızca bir tarafın (sol ya da sağ kanadın) haberleştirmesi, diğer tarafın hiç yazmamasıdır.",
+  "yerleşim": "Bir kurumun, elimizdeki kayda göre 0 ile 100 arasındaki siyasi konumudur; bu konumu biz doğrulamadık.",
+  "yüklü dil": "Haberin olguyu aktarmakla kalmayıp yargı ya da duygu taşıyan sözcüklerle anlatılmasıdır.",
+  "çerçeve": "Bir olayın hangi yönüyle öne çıkarıldığı, yani haberin neyi merkeze koyduğudur.",
+  "φ": "İki kurumun aynı olayları ne ölçüde seçtiğini gösteren sayıdır; -1 ile 1 arasında değer alır.",
+  "spot": "Haberin başlığının altındaki kısa özet cümlesidir.",
+  "kodlama": "Her başlığın hangi çerçeveye ve hangi anlatı unsurlarına girdiğinin tek tek işaretlenmesidir."
+};
+function glossTerms(html) {
+  var seen = {}, keys = Object.keys(GLOSSARY).sort(function (a, b) { return b.length - a.length; });
+  return String(html == null ? "" : html).split(/(<[^>]*>)/).map(function (part) {
+    if (part.charAt(0) === "<") return part;
+    keys.forEach(function (k) {
+      if (seen[k]) return;
+      var i = part.indexOf(k); if (i < 0) return;
+      seen[k] = 1;
+      part = part.slice(0, i) + '<button type="button" class="gl" data-gl="' + k + '">' + k + "</button>" + part.slice(i + k.length);
+    });
+    return part;
+  }).join("");
+}
+
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { trFold: trFold, weekEvents: weekEvents, pickWeek: pickWeek, narrGroups: narrGroups, orderOutlets: orderOutlets,
-    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor, weeklySplits: weeklySplits, whatDiffers: whatDiffers };
+    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor, weeklySplits: weeklySplits, whatDiffers: whatDiffers, GLOSSARY: GLOSSARY, glossTerms: glossTerms };
 }
 
 /* v7 core: navigation, YZ marker and the finding block (inlined into app.js IIFE after logic.js). */
@@ -11048,13 +11090,34 @@ function yzBlock(innerHtml, title) {
   return '<section class="yz">' + (title ? "<h3>" + esc(title) + " " + yzBadge() + "</h3>" : "") + innerHtml + "</section>";
 }
 
-/* One finding: claim, picture, what it means, how it was measured. `viz`, `means`, `how` are html. */
+/* One finding: claim, picture, how to read it, why it matters, how it was measured.
+   f = {id, claim, viz, read, means, example (event id|null), how, table}; all html except example. Missing parts are omitted. */
 function findingBlock(f) {
-  return '<section class="v7-find" id="' + esc(f.id || "") + '"><p class="v7-claim">' + f.claim + "</p>" +
-    '<div class="v7-viz">' + (f.viz || "") + "</div>" +
-    '<p class="v7-means"><b>Bu ne anlama geliyor.</b> ' + (f.means || "") + "</p>" +
-    '<details class="v7-how"><summary>Nasıl ölçtük</summary>' + (f.how || "") + "</details></section>";
+  var why = f.means || f.example ? '<details class="v7-why"><summary>Neden önemli?</summary>' + (f.means ? '<p class="v7-means">' + glossTerms(f.means) + "</p>" : "") +
+    (f.example ? '<p><a href="#/olay?e=' + encodeURIComponent(f.example) + '">Bir örnek olay →</a></p>' : "") + "</details>" : "";
+  var tbl = f.table ? '<details class="v7-tbl"><summary>Tabloyu göster</summary>' + f.table + "</details>" : "";
+  return '<section class="v7-find" id="' + esc(f.id || "") + '"><p class="v7-claim">' + glossTerms(f.claim || "") + "</p>" +
+    '<div class="v7-viz">' + (f.viz || "") + "</div>" + (f.read ? '<p class="v7-read">' + f.read + "</p>" : "") + why +
+    '<details class="v7-how"><summary>Nasıl ölçtük?</summary>' + (f.how || "") + tbl + "</details></section>";
 }
+
+/* Glossary popover: tap/focus/hover on .gl shows the definition; Esc or any click elsewhere closes. */
+function glClose() { var p = document.querySelector(".gl-pop"); if (p) p.parentNode.removeChild(p); }
+function glOpen(b) {
+  glClose(); var t = b.getAttribute("data-gl"), d = GLOSSARY[t]; if (!d) return;
+  var p = document.createElement("div"); p.className = "gl-pop"; p.setAttribute("role", "dialog"); p.setAttribute("aria-label", t);
+  p.innerHTML = "<b>" + esc(t) + "</b> " + esc(d) + ' <a href="#/yontem?s=sozluk">Sözlük →</a>';
+  document.body.appendChild(p);
+  var r = b.getBoundingClientRect(), w = p.offsetWidth, x = Math.max(8, Math.min(innerWidth - w - 8, r.left + scrollX));
+  p.style.left = x + "px"; p.style.top = (r.bottom + scrollY + 6) + "px";
+}
+document.addEventListener("click", function (ev) {
+  var b = ev.target.closest && ev.target.closest(".gl");
+  if (b) { glOpen(b); return; }
+  if (!(ev.target.closest && ev.target.closest(".gl-pop"))) glClose();
+});
+document.addEventListener("focusin", function (ev) { var b = ev.target.closest && ev.target.closest(".gl"); if (b) glOpen(b); });
+document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") glClose(); });
 
 /* v7 graphs: network views drawn with AntV G6 (vendor/g6.min.js, loaded on first use).
    A view puts <div class="g6-box" data-g6="kind" data-arg="..."> in its html; g6Mount() (called after
@@ -11360,6 +11423,11 @@ G6K.blame = function (arg, t) {
    Tooltips use data-vtip (delegated below), so they work on any page; every value is also printed or in a list. */
 var VZ = {};
 
+/* Data table twin of a chart: headers: string[], rows: (string|number)[][]; φ in headers gets a glossary popover. */
+function vzTable(headers, rows) {
+  return '<div class="scroller"><table class="v7-dt"><thead><tr>' + headers.map(function (h) { return '<th scope="col">' + glossTerms(esc(h)) + "</th>"; }).join("") +
+    "</tr></thead><tbody>" + rows.map(function (r) { return "<tr>" + r.map(function (c) { return "<td>" + esc(String(c)) + "</td>"; }).join("") + "</tr>"; }).join("") + "</tbody></table></div>";
+}
 function vzCalm() { return matchMedia("(prefers-reduced-motion: reduce)").matches; }
 /* 95 % Wilson interval for k of n. */
 function vzWilson(k, n) {
@@ -12932,6 +13000,9 @@ function kurumLines7(s) {
 
 var YM_TOC = [["veri", "Veri"], ["olay", "Olay tespiti"], ["dil", "Yüklü dil"], ["anlati", "Anlatı kodlaması"], ["yz", "Bilişsel inceleme (YZ)"],
   ["yzicerik", "YZ ile üretilen içerik"], ["turkiye", "Türkiye bağlamı"], ["kavramlar", "Kavram kütüphanesi"], ["sozluk", "Sözlük"], ["kapsama", "Kapsama"], ["sinir", "Sınırlılıklar"], ["kaynak", "Kaynaklar"]];
+function glossaryHTML() {
+  return "<dl class=\"v7-gloss\">" + Object.keys(GLOSSARY).sort(trCmp).map(function (k) { return "<dt>" + esc(k) + "</dt><dd>" + esc(GLOSSARY[k]) + "</dd>"; }).join("") + "</dl>";
+}
 var YM_TIER = { detected: "Kural saptıyor", codable: "İnsan kodlaması", reference: "Okur davranışı" };
 
 /* Events where the AI picked this concept, minus the ones whose finding the editor rejected. */
@@ -13137,7 +13208,7 @@ function pgYontem7(params) {
     h2("turkiye", "Türkiye bağlamı") + '<p>Başlık analizi için İngilizce dünyada geliştirilmiş birçok varsayım Türkçede çalışmaz. Her uyarlama için sorunu, ne yaptığımızı ve sınırını yazdık; rakamlar kodun ve verinin kendisinden okunur.</p>' +
     '<div class="v7-tr">' + turkiyeBlocks() + "</div>" +
     h2("kavramlar", "Kavram kütüphanesi") + conceptLibrary() +
-    h2("sozluk", "Sözlük") + "<p>Terimler sözlüğü.</p>" + h2("kapsama", "Kapsama") + kapsamaHTML() +
+    h2("sozluk", "Sözlük") + glossaryHTML() + h2("kapsama", "Kapsama") + kapsamaHTML() +
     h2("sinir", "Sınırlılıklar") + M.sinir + h2("kaynak", "Kaynaklar") + kaynakHtml(M.refs) + "</article>" + X.fix + "</div>";
 }
 

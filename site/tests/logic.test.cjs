@@ -105,3 +105,10 @@ test("whatDiffers rules", () => {
   assert.equal(L.whatDiffers({ p: 45 }, { rows: [{ blame: "A" }, { blame: "B" }] }), "Sorumlu tutulan farklı");
   assert.equal(L.whatDiffers({ p: 45 }, { rows: [{ blame: "A" }, { blame: "A" }] }), "Birinde belirgin biçimde daha sert bir dil var");
 });
+test("glossTerms wraps first occurrence outside tags only", () => {
+  const h = L.glossTerms("Bu bir kör nokta olayı, ikinci kör nokta.");
+  assert.equal((h.match(/data-gl="kör nokta"/g) || []).length, 1);
+  assert.equal(L.glossTerms('<a title="kör nokta">x</a>'), '<a title="kör nokta">x</a>');
+  assert.equal(L.glossTerms("düz metin"), "düz metin");
+  assert.ok(Object.keys(L.GLOSSARY).length === 7 && L.GLOSSARY["φ"]);
+});

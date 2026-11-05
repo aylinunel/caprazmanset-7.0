@@ -6,6 +6,11 @@
    Tooltips use data-vtip (delegated below), so they work on any page; every value is also printed or in a list. */
 var VZ = {};
 
+/* Data table twin of a chart: headers: string[], rows: (string|number)[][]; φ in headers gets a glossary popover. */
+function vzTable(headers, rows) {
+  return '<div class="scroller"><table class="v7-dt"><thead><tr>' + headers.map(function (h) { return '<th scope="col">' + glossTerms(esc(h)) + "</th>"; }).join("") +
+    "</tr></thead><tbody>" + rows.map(function (r) { return "<tr>" + r.map(function (c) { return "<td>" + esc(String(c)) + "</td>"; }).join("") + "</tr>"; }).join("") + "</tbody></table></div>";
+}
 function vzCalm() { return matchMedia("(prefers-reduced-motion: reduce)").matches; }
 /* 95 % Wilson interval for k of n. */
 function vzWilson(k, n) {

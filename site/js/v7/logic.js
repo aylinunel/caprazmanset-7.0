@@ -145,7 +145,31 @@ function redirectRoute(path, params) {
   return null;
 }
 
+/* Glossary: one plain sentence per term; glossTerms wraps the first occurrence of each term in the text parts of an html string. */
+var GLOSSARY = {
+  "kör nokta": "Bir olayı yalnızca bir tarafın (sol ya da sağ kanadın) haberleştirmesi, diğer tarafın hiç yazmamasıdır.",
+  "yerleşim": "Bir kurumun, elimizdeki kayda göre 0 ile 100 arasındaki siyasi konumudur; bu konumu biz doğrulamadık.",
+  "yüklü dil": "Haberin olguyu aktarmakla kalmayıp yargı ya da duygu taşıyan sözcüklerle anlatılmasıdır.",
+  "çerçeve": "Bir olayın hangi yönüyle öne çıkarıldığı, yani haberin neyi merkeze koyduğudur.",
+  "φ": "İki kurumun aynı olayları ne ölçüde seçtiğini gösteren sayıdır; -1 ile 1 arasında değer alır.",
+  "spot": "Haberin başlığının altındaki kısa özet cümlesidir.",
+  "kodlama": "Her başlığın hangi çerçeveye ve hangi anlatı unsurlarına girdiğinin tek tek işaretlenmesidir."
+};
+function glossTerms(html) {
+  var seen = {}, keys = Object.keys(GLOSSARY).sort(function (a, b) { return b.length - a.length; });
+  return String(html == null ? "" : html).split(/(<[^>]*>)/).map(function (part) {
+    if (part.charAt(0) === "<") return part;
+    keys.forEach(function (k) {
+      if (seen[k]) return;
+      var i = part.indexOf(k); if (i < 0) return;
+      seen[k] = 1;
+      part = part.slice(0, i) + '<button type="button" class="gl" data-gl="' + k + '">' + k + "</button>" + part.slice(i + k.length);
+    });
+    return part;
+  }).join("");
+}
+
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { trFold: trFold, weekEvents: weekEvents, pickWeek: pickWeek, narrGroups: narrGroups, orderOutlets: orderOutlets,
-    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor, weeklySplits: weeklySplits, whatDiffers: whatDiffers };
+    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor, weeklySplits: weeklySplits, whatDiffers: whatDiffers, GLOSSARY: GLOSSARY, glossTerms: glossTerms };
 }

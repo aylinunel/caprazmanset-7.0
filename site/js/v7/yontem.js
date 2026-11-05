@@ -3,6 +3,9 @@
 
 var YM_TOC = [["veri", "Veri"], ["olay", "Olay tespiti"], ["dil", "Yüklü dil"], ["anlati", "Anlatı kodlaması"], ["yz", "Bilişsel inceleme (YZ)"],
   ["yzicerik", "YZ ile üretilen içerik"], ["turkiye", "Türkiye bağlamı"], ["kavramlar", "Kavram kütüphanesi"], ["sozluk", "Sözlük"], ["kapsama", "Kapsama"], ["sinir", "Sınırlılıklar"], ["kaynak", "Kaynaklar"]];
+function glossaryHTML() {
+  return "<dl class=\"v7-gloss\">" + Object.keys(GLOSSARY).sort(trCmp).map(function (k) { return "<dt>" + esc(k) + "</dt><dd>" + esc(GLOSSARY[k]) + "</dd>"; }).join("") + "</dl>";
+}
 var YM_TIER = { detected: "Kural saptıyor", codable: "İnsan kodlaması", reference: "Okur davranışı" };
 
 /* Events where the AI picked this concept, minus the ones whose finding the editor rejected. */
@@ -208,7 +211,7 @@ function pgYontem7(params) {
     h2("turkiye", "Türkiye bağlamı") + '<p>Başlık analizi için İngilizce dünyada geliştirilmiş birçok varsayım Türkçede çalışmaz. Her uyarlama için sorunu, ne yaptığımızı ve sınırını yazdık; rakamlar kodun ve verinin kendisinden okunur.</p>' +
     '<div class="v7-tr">' + turkiyeBlocks() + "</div>" +
     h2("kavramlar", "Kavram kütüphanesi") + conceptLibrary() +
-    h2("sozluk", "Sözlük") + "<p>Terimler sözlüğü.</p>" + h2("kapsama", "Kapsama") + kapsamaHTML() +
+    h2("sozluk", "Sözlük") + glossaryHTML() + h2("kapsama", "Kapsama") + kapsamaHTML() +
     h2("sinir", "Sınırlılıklar") + M.sinir + h2("kaynak", "Kaynaklar") + kaynakHtml(M.refs) + "</article>" + X.fix + "</div>";
 }
 

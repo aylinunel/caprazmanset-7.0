@@ -149,7 +149,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       const el = await page.$(sel);
       if (!el) { fails.push(`${tag}: click target ${sel} missing`); continue; }
       await el.click(); await sleep(300);
-      const want = sel.includes("th[data-dim]") ? ".v7-group" : sel.includes(".v7-out") ? ".v7-hl" : null;
+      const want = sel.includes("th[data-dim]") ? ".v7-group" : sel.includes(".v7-out") ? ".v7-hl" : sel.startsWith(".gl") ? ".gl-pop" : null;
       if (want) {
         const n = await page.$$eval(want, (xs) => xs.filter((x) => x.offsetParent !== null).length);
         if (n < 1) fails.push(`${tag}: after click ${sel} no visible ${want}`);

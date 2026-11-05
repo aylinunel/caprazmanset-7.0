@@ -1700,7 +1700,25 @@ th{color:var(--ink);border-bottom-width:3px}
 .v7-claim{font-family:var(--ff-d);font-size:22px;line-height:1.3;margin:0 0 12px;color:var(--ink)}
 .v7-viz{margin:12px 0;min-width:0}
 .v7-means{font-family:var(--ff-b);font-size:15px;line-height:1.55;color:var(--ink2);margin:10px 0}
-.v7-how{margin:10px 0 0;font-size:13px}
+.v7-read{font-family:var(--ff-m);font-size:12.5px;color:var(--muted);margin:6px 0 10px}
+.v7-why,.v7-how{margin:10px 0 0;font-size:13px}
+.v7-why summary,.v7-tbl summary{display:inline-flex;align-items:center;min-height:44px;cursor:pointer;font-family:var(--ff-m);font-size:12.5px;
+  border:1px solid var(--line);border-radius:99px;padding:0 14px;background:var(--surface);list-style:none}
+.v7-why summary::-webkit-details-marker,.v7-tbl summary::-webkit-details-marker{display:none}
+.v7-why[open]>summary,.v7-tbl[open]>summary{border-color:var(--ink2)}
+.v7-why,.v7-tbl{margin:8px 0}
+.v7-dt{border-collapse:collapse;font-size:13px;min-width:100%}
+.v7-dt th,.v7-dt td{padding:6px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+.v7-dt td{font-family:var(--ff-m)}
+.gl{all:unset;cursor:help;text-decoration:underline dotted;text-underline-offset:3px;color:inherit;font:inherit}
+.gl:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.gl-pop{position:absolute;z-index:60;max-width:min(320px,calc(100vw - 16px));background:var(--surface);color:var(--ink);border:1px solid var(--line2);
+  border-radius:8px;padding:10px 12px;font:400 13px/1.45 var(--ff-b);box-shadow:0 6px 24px rgba(0,0,0,.14);animation:glin .15s ease}
+.gl-pop a{display:inline-block;min-height:24px;color:var(--ink);font-weight:600;white-space:nowrap}
+@keyframes glin{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.gl-pop{animation:none}}
+.v7-gloss dt{font-weight:600;margin-top:12px}
+.v7-gloss dd{margin:2px 0 0;color:var(--ink2)}
 .v7-how summary{display:inline-flex;align-items:center;min-height:44px;cursor:pointer;font-family:var(--ff-m);font-size:12.5px;
   border:1px solid var(--line);border-radius:99px;padding:0 14px;background:var(--surface);list-style:none}
 .v7-how summary::-webkit-details-marker{display:none}
