@@ -8,7 +8,7 @@ function trFold(s) {
 function trCmp(a, b) { return String(a).localeCompare(String(b), "tr"); }
 
 function weekEvents(N, NW, week, ok) {
-  var w = NW && NW[week];
+  var w = (NW || []).filter(function (x) { return x.k === week; })[0];
   if (!w) return [];
   var sc = function (k) { var v = N[k] && N[k].score; return typeof v === "number" ? v : null; };
   return w.keys.filter(function (k) { return ok(k); }).sort(function (a, b) {

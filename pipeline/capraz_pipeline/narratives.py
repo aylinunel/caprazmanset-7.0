@@ -129,8 +129,8 @@ def merge(core: dict) -> None:
         core["CL"] = json.loads(cl.read_text())
     if OUT.exists():
         x = json.loads(OUT.read_text())
-        core["N"] = {**core["N"], **x["N"]}
-        core["NW"] = [w for w in core["NW"] if w["k"] not in {y["k"] for y in x["NW"]}] + x["NW"]
+        core["N"] = {**core.get("N", {}), **x["N"]}
+        core["NW"] = [w for w in core.get("NW", []) if w["k"] not in {y["k"] for y in x["NW"]}] + x["NW"]
 
 
 if __name__ == "__main__":

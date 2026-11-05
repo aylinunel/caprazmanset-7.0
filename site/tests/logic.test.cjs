@@ -3,9 +3,9 @@ const L = require("../js/v7/logic.js");
 
 test("weekEvents filters, orders by score desc, unknown week", () => {
   const N = { a: { score: 0.2 }, b: { score: 0.9 }, c: { score: 0.5 }, d: {} };
-  const NW = [{ keys: ["a", "b", "c", "d"] }];
-  assert.deepEqual(L.weekEvents(N, NW, 0, (k) => k !== "c"), ["b", "a", "d"]);
-  assert.deepEqual(L.weekEvents(N, NW, 5, () => true), []);
+  const NW = [{ k: "w8", keys: ["a", "b", "c", "d"] }];
+  assert.deepEqual(L.weekEvents(N, NW, "w8", (k) => k !== "c"), ["b", "a", "d"]);
+  assert.deepEqual(L.weekEvents(N, NW, "w99", () => true), []);
 });
 test("narrGroups", () => {
   const rows = [["a", "Şüpheliler"], ["b", "Şüpheliler"], ["c", "Çete"], ["d", ""]].map(([s, blame]) => ({ s, blame }));
