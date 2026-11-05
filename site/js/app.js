@@ -5095,6 +5095,7 @@ function cyberChrome(path) {
 function v2bAfter(path, tab, params) {
   cyberChrome(path);
   if (path === "/" || path === "/anlati" || path === "/olay") wireAnlati(document.getElementById("view"));
+  if (path === "/oruntu") wireOruntu(params.q || "secim");
   if (path === "/bulgular" && tab === "ileri") advDraw();
   if (path === "/bulgular" && tab === "hiz") v5Draw();
   if (path === "/yontem" && params.s) { var tg = document.getElementById("s" + params.s); if (tg) setTimeout(function () { tg.scrollIntoView({ block: "start" }); }, 30); }
@@ -5385,7 +5386,7 @@ function advHeat() {
         fill: i === j ? "var(--line)" : col(v) });
       s.appendChild(r);
       if (i !== j) bindTip(r, "<span class='k'>" + esc(SRC[a] ? SRC[a].n : a) + " ↔ " + esc(SRC[b] ? SRC[b].n : b) +
-        "</span>φ = " + dec(v, 2) + "<br>" + A.size[a] + " ve " + A.size[b] + " olay");
+        "</span>φ = " + dec(v, 2) + "<br>Birlikte verdikleri: " + orN(orShared(a, b)) + " olay<br>" + A.size[a] + " ve " + A.size[b] + " olay");
     });
   });
   return s;
@@ -7849,7 +7850,7 @@ function bg7CardLine(e) {
   var x = bg7ev(e.i); if (!x || x.status !== "review_complete") return "";
   var fs = bg7Live(x);
   return '<p class="yz-line">' + bg7AiTag() + " " +
-    (fs.length ? "bağlam gerekli: " + fs.map(function (f) { return esc(f.name); }).join(", ") : "seçilen kavramların hiçbiri öne çıkmadı") + "</p>";
+    (fs.length ? "dikkat çektiği kavramlar (kesin değil): " + fs.map(function (f) { return esc(f.name); }).join(", ") : "seçilen kavramların hiçbiri öne çıkmadı") + "</p>";
 }
 function bg7Concept(key) {
   var r = bg7Stats()[key]; if (!r) return "";

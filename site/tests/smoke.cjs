@@ -48,6 +48,18 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       });
       if (ok !== "ok") fails.push(`${tag}: ${ok}`);
     }
+    if (route.startsWith("#/oruntu?q=")) {
+      const bad = await page.evaluate(() => {
+        const fs = [...document.querySelectorAll(".v7-find")];
+        if (fs.length < 3) return `only ${fs.length} .v7-find`;
+        if (fs.some((f) => !((f.querySelector(".v7-means") || {}).textContent || "").replace("Bu ne anlama geliyor.", "").trim())) return "empty .v7-means";
+        const v = document.querySelector(".v7-viz");
+        if (!v || !v.querySelector("[data-go],[data-tip]")) return "first .v7-viz has no [data-go]/[data-tip]";
+        if (/bağlam gerekli/i.test(document.body.innerText)) return "text 'bağlam gerekli'";
+        return "";
+      });
+      if (bad) fails.push(`${tag}: oruntu ${bad}`);
+    }
     for (const [er, js] of evals) if (er === route && !(await page.evaluate(js))) fails.push(`${tag}: eval false: ${js}`);
     if (await page.$(".v7-empty-bug")) fails.push(`${tag}: .v7-empty-bug present`);
     await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-${w}-${theme}.png`) });
