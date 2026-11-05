@@ -15,3 +15,10 @@ Decision: push as requested, with the open findings above recorded; round 2 foll
 - Simplicity: dead hero branches removed from dmMake (Karpathy: orphans our change created, removed).
 - Note: this hero is about to be replaced by the Lumen-style fog hero (user request); the dot engine stays for header bands and feed cards.
 Decision: push.
+
+## Push of c456113 (UX Task 1: fog split-card hero, ticker removed)
+- Correctness: clock constants/shader match the reference; queued clicks; reduced motion instant; IO gate + 30 fps; WebGL2 fallback. Tests: logic 11/11, smoke ok (new toggle + click checks). Task review: Approved.
+- Simplicity/Karpathy: old LED hero code and ticker removed (orphans of this change); no unrelated edits.
+- Performance/leaks: observers not disconnected on removal (minor, deferred; guarded by alive()).
+- Security: headline text goes through esc()/markText(); no new inputs.
+Decision: push.
