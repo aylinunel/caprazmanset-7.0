@@ -146,8 +146,8 @@ function pgAnlati(q) {
       (coded ? "Bu haftanın kodlanmış olaylarının hepsi editör incelemesinde kaldırıldı." : "Bu hafta için kodlanmış olay yok.") + "</p>" +
       v7WeekBar(weeks, wk.k) + "</div>";
   }
-  var key = q.n && wk.keys.indexOf(q.n) >= 0 ? q.n : wk.keys[0], n = D.N[key], e = EV[n.ev], tab = q.v === "tablo";
-  V7VIEW = tab ? "tablo" : "";
+  var key = q.n && wk.keys.indexOf(q.n) >= 0 ? q.n : wk.keys[0], n = D.N[key], e = EV[n.ev], tab = q.v === "tablo", net = q.v === "ag";
+  V7VIEW = tab ? "tablo" : net ? "ag" : "";
   var title = narrName(key, 140), ai = n.status === "agent_coded";
   var h = '<div class="wrap page v7-an"><p class="v7-purpose">' + esc(V7_PURPOSE) + "</p><h1>" + esc(title) + "</h1>";
   h += v7WeekBar(weeks, wk.k);
@@ -156,7 +156,9 @@ function pgAnlati(q) {
   }).join("") + "</div>";
   h += '<div class="v7-body"><div class="v7-mapbox"><p class="v7-meta">' + (ai ? yzBadge() + " Başlıklardan yapay zekâ ile kodlandı. " : "Başlıklardan elle kodlandı. ") +
     '<a class="lnk" href="#/yontem">Yöntem</a></p>' + v7ViewBar(wk.k, key, tab) +
-    (tab ? '<div id="v7-map" data-key="' + esc(key) + '">' + narrMap(key) + "</div>" :
+    (tab ? '<div id="v7-map" data-key="' + esc(key) + '">' + narrMap(key) + "</div>" : net ? g6Box("narr", key, "Kurumlar ve seçtikleri anlatılar ağı") +
+      '<p class="v7-note">Daireler kurum, kareler bir boyuttaki seçim (çerçeve, sorumlu, çözüm…). Aynı kareye bağlanan kurumlar aynı seçimi yaptı; çok seçimi paylaşan kurumlar birbirine yakın durur. Kare büyüklüğü seçimi yapan kurum sayısı.</p>' +
+      '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>' :
       '<div class="v7-scroll"><div id="v7-flow" data-key="' + esc(key) + '"></div></div><p class="v7-note">Her çizgi bir kurum; rengi kurumun yerleşimini gösterir. ' +
       "Aynı kutudan geçen çizgiler aynı seçimi yapmıştır. Bir çizginin üzerine gelince kurumun seçimleri görünür.</p>" +
       '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>') +
@@ -174,7 +176,8 @@ var V7VIEW = "";
 /* Graph is the primary view; the table is one click away for reading every outlet's choice. */
 function v7ViewBar(w, key, tab) {
   var u = "#/anlati?w=" + w + "&n=" + encodeURIComponent(key);
-  return '<div class="v7-view" role="group" aria-label="Görünüm"><a class="chip" href="' + u + '" aria-pressed="' + !tab + '">Grafik</a>' +
+  return '<div class="v7-view" role="group" aria-label="Görünüm"><a class="chip" href="' + u + '" aria-pressed="' + (V7VIEW === "") + '">Akış</a>' +
+    '<a class="chip" href="' + u + '&v=ag" aria-pressed="' + (V7VIEW === "ag") + '">Ağ</a>' +
     '<a class="chip" href="' + u + '&v=tablo" aria-pressed="' + tab + '">Tablo</a></div>';
 }
 function wireAnlati(root) {

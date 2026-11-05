@@ -4449,6 +4449,7 @@ function cyberChrome(path) {
 function v2bAfter(path, tab, params) {
   cyberChrome(path);
   if (path === "/" || path === "/anlati" || path === "/olay") wireAnlati(document.getElementById("view"));
+  g6Mount(document.getElementById("view"));
   if (path === "/oruntu") wireOruntu(params.q || "secim", params.f);
   if (path === "/ilan") wireIlan();
   if (path === "/yontem") wireYontem(params);

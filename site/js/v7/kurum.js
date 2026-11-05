@@ -14,6 +14,9 @@ function kurumLines7(s) {
   var r = bg7Rates()[s];
   if (r && r.cov >= 5) L.push(kuLink("dil", "dil-yz", "YZ incelemesi") + " " + yzBadge() + ": incelenen " + orN(r.cov) + " olayın " + orN(r.hit) +
     bg7loc(r.hit) + " başlığı YZ incelemesinde kanıt olarak alıntılandı (" + orP(r.rate) + "). Alıntı bir yanlılık hükmü değildir.");
-  return '<section class="sec v7-kurum-lines" style="margin-top:18px"><h2>Bu kurumun sayıları</h2><ul class="or-how">' +
+  var A = ADV && ADV.agenda, ego = A && A.phi[s] ? '<section class="sec v7-ego" style="margin-top:18px"><h2>Gündem komşuları</h2>' +
+    '<p class="sub">Olay seçimi bu kuruma en çok benzeyen yedi kurum. Çizgi kalınlığı benzerlik (φ); kesikli çizgi benzerliğin şanstan farksız olduğunu gösterir. ' +
+    kuLink("secim", "secim-gundem", "Bütün ağ") + "</p>" + g6Box("agenda", s, "Bu kurumun gündem komşuları ağı") + "</section>" : "";
+  return ego + '<section class="sec v7-kurum-lines" style="margin-top:18px"><h2>Bu kurumun sayıları</h2><ul class="or-how">' +
     L.map(function (x) { return "<li" + (x.indexOf("yz-badge") >= 0 ? ' class="yz"' : "") + ">" + x + "</li>"; }).join("") + "</ul></section>";
 }

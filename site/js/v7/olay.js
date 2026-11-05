@@ -50,6 +50,9 @@ function olayTiming(e) {
   }
   var gap = firsts.filter(function (a) { return a.lv != null && a.v - a.lv >= 15; }).sort(function (a, b) { return (b.v - b.lv) - (a.v - a.lv); })[0];
   if (gap) h += "<p>Başlığı spotundan en çok yüklü kurum: <b>" + esc(srcName(gap.s)) + "</b> (" + (gap.v - gap.lv) + " puan fark).</p>";
+  if (firsts.length >= 3) h += '<div class="v7-scroll g6-spread">' + g6Box("spread", e.i, "Kurumların bu olaydaki ilk başlıklarının zaman sırası") + "</div>" +
+    legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }], "Yayılım") +
+    '<p class="v7-note">Soldan sağa: ilk başlıktan sonra geçen süre (karekök ölçek, ilk saatler geniş). Yukarıdan aşağıya: kurumun yerleşimi, sol üstte. Her düğüm kurumun bu olaydaki ilk başlığıdır.</p>';
   return h ? '<section class="sec v7-time"><h2>Zamanlama</h2>' + h + "</section>" : "";
 }
 

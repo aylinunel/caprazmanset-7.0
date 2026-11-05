@@ -142,10 +142,15 @@ function orFindAgenda() {
   ord.forEach(function (a, i) { ord.forEach(function (b, j) { if (j > i) pairs.push([a, b, A.phi[a][b]]); }); });
   pairs.sort(function (x, y) { return y[2] - x[2]; });
   var hi = pairs[0], lo = pairs[pairs.length - 1];
+  var net = g6Box("agenda", "", "Kurumların gündem benzerliği ağı: φ ≥ 0,05 olan çiftler bağlı") +
+    legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" },
+      { line: 1, c: "var(--ink2)", t: "kalın çizgi · φ ≥ 0,15" }, { line: 1, c: "var(--line2)", t: "ince · 0,05 – 0,15" }], "Ağ") +
+    '<p class="or-hint">Düğüm büyüklüğü kurumun verdiği olay sayısı; birlikte çok olay seçen kurumlar birbirine çekilir. Tıklayınca kurum sayfası açılır.</p>';
   var viz = fig("adv-a", "gündem benzerliği (φ) · kümeleme sırasına göre", {
     legend: legendHTML([{ c: "var(--seq4)", t: "φ ≥ 0,15 · çok benzer" }, { c: "var(--seq3)", t: "0,05 – 0,15" },
       { c: "var(--seq2)", t: "şanstan farksız" }, { c: "var(--seq1)", t: "φ < −0,05 · farklı" }]) }) +
     '<p class="or-hint">Bir kareye gelin: iki kurumun benzerliği ve birlikte verdikleri olay sayısı görünür.</p>';
+  viz = g6Switch("gundem", net, viz, "Matris");
   return { id: "secim-gundem",
     claim: "Gündemi en çok örtüşen kurum çifti <b>" + esc(srcName(hi[0])) + " – " + esc(srcName(hi[1])) + "</b> (φ = " + dec(hi[2], 2) + "), en az örtüşen <b>" + esc(srcName(lo[0])) + " – " + esc(srcName(lo[1])) + "</b> (φ = " + dec(lo[2], 2) + ").",
     viz: viz,
@@ -454,6 +459,9 @@ function orFindBlame() {
       ["left", "mid", "right"].map(function (b) { return r[b] ? '<i style="flex:' + r[b] + ";background:var(--" + b + ')"></i>' : ""; }).join("") + "</span><b>" + tot(r) + "</b></div>";
   }).join("") + "</div>" + legendHTML([{ c: "var(--left)", t: "sola yerleşik kurum" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik kurum" }], "Renk") +
     '<p class="or-hint">Bir çubuğa gelin: hangi kurumların başlığında bu aktörün sorumlu tutulduğu görünür.</p>';
+  viz = g6Switch("sorumlu", g6Box("blame", "", "Kurumlardan sorumlu tutulan aktörlere giden ağ") +
+    legendHTML([{ c: "var(--hot)", t: "sorumlu tutulan aktör (kare)" }, { c: "var(--left)", t: "sola yerleşik kurum" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik kurum" }], "Ağ") +
+    '<p class="or-hint">Her çizgi bir kurumun başlığında o aktörü sorumlu tuttuğu olaylar; kalınlık olay sayısı. Aynı aktöre bağlanan kurumlar bir araya toplanır.</p>', viz, "Çubuk");
   var t0 = top[0] || { value: "—", left: 0, mid: 0, right: 0, none: 0 };
   return { id: "anlati-sorumlu",
     claim: "En sık sorumlu tutulan taraf <b>" + esc(t0.value) + "</b>: " + tot(t0) + " kurum satırında (sol " + t0.left + ", merkez " + t0.mid + ", sağ " + t0.right + ").",
@@ -542,7 +550,23 @@ function orFindGap() {
       "Bu pay, başlığın kendi haberinden daha sert bir dil kurduğu haberleri sayar; haberin yanlış olduğunu ya da başlığın kasıtlı olduğunu göstermez.",
     how: orHow(["Başlık puanı − aynı haberin spot puanı; ≥ " + th + " puan ‘başlık spotundan yüklü’ sayıldı. Spotu olmayan ya da başlıkla aynı olan haberler dışarıda.", "Birim: etkin kurumların spotlu haberleri (kurum başına n bilgisi ipucunda). Pay kurumun kendi haberleri üzerindendir."], "veri") };
 }
-function orHiz() { return orPage("hiz", [orFindLead(), orFindBlocLag(), orFindGap()], orExamples("hiz")); }
+function orFindFollow() {
+  var F = g6FollowData(), top = F.all.slice().sort(function (a, b) { return b.n - a.n; })[0];
+  var cross = F.all.filter(function (x) { var p = bloc(x.a), q = bloc(x.b); return (p === "left" && q === "right") || (p === "right" && q === "left"); })
+    .reduce(function (t, x) { return t + x.n; }, 0), tot = F.all.reduce(function (t, x) { return t + x.n; }, 0) || 1;
+  return { id: "hiz-ag",
+    claim: top ? "En sık tekrarlanan sıra <b>" + esc(srcName(top.a)) + " → " + esc(srcName(top.b)) + "</b>: " + orN(top.n) + " olayda önce " + esc(srcName(top.a)) + " verdi, " +
+      esc(srcName(top.b)) + " ortanca " + dur5(median5(top.lags.slice())) + " sonra." : "Sıra verisi yok.",
+    viz: g6Box("follow", "", "İlk veren kurumdan sonra gelen kurumlara giden oklar") +
+      legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { line: 1, c: "var(--ink2)", t: "ok: önce veren → sonra veren" }], "Ağ") +
+      '<p class="or-hint">Kurumlar yerleşim sırasıyla çember üzerinde; düğüm büyüklüğü ilk veren olduğu olay sayısı. Okun rengi önce veren kurumun yerleşimi, kalınlığı olay sayısı.</p>',
+    means: "Okların " + orP(cross / tot) + "’i yelpazenin bir ucundan öbür ucuna (sol ↔ sağ) gidiyor. " +
+      "Bir okun kalın olması iki kurumun birbirini izlediğini göstermez: çok haber yayımlayan kurum çok olayda önce çıkar ve sık yayımlayan başka kurumlar onu doğal olarak izler. " +
+      "Ağ, bir olayı kimin önce, kimin sonra verdiğinin tekrar eden düzenini gösterir, haberin nereden alındığını değil.",
+    how: orHow(["Birim: en az 5 kurumun verdiği olaylar (resmî ilanlar hariç). Her olayda ilk başlığı atan kurumdan, 48 saat içinde ilk başlığını atan her kuruma bir ok sayılır.",
+      "Gösterilen oklar: her kurum için onu en sık önceleyen iki kurum ve bütün ağın en sık 24 sırası. Gecikme ortancadır."], "veri") };
+}
+function orHiz() { return orPage("hiz", [orFindLead(), orFindFollow(), orFindBlocLag(), orFindGap()], orExamples("hiz")); }
 
 function orExamples(q) {
   var ev = orEvents().filter(function (e) { return e.s.length >= 5; }), top = function (f) { return ev.filter(f).sort(function (a, b) { return b.s.length - a.s.length; })[0]; };

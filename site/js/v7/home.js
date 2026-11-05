@@ -20,6 +20,9 @@ function pgHome7() {
     '<a class="xbtn" href="#/anlati">Anlatı haritasını aç →</a></div>';
   if (lead && defaultPair(lead)) h += '<div class="v7-hlead"><p class="eyebrow">Örnek · <a class="lnk" href="#/olay?e=' + lead.i + '">' + esc(storyLabel(lead, 90)) + "</a></p>" + splitCard(lead) + "</div>";
   h += "</div>";
+  if (ADV && ADV.agenda) h += '<section class="v7-hnet"><div class="v7-hnet-t"><p class="eyebrow">Gündem ağı · ' + ADV.agenda.order.length + ' kurum</p><h2 class="v7-hh">Kim kiminle aynı olayları seçiyor?</h2>' +
+    '<p class="lede">Birlikte çok olay haber yapan kurumlar birbirine çekilir. Renk kayıt defterindeki yerleşim, büyüklük verilen olay sayısı. Bir kuruma gelin, komşuları öne çıksın.</p>' +
+    '<a class="lnk" href="#/oruntu?q=secim&f=secim-gundem">Bulgunun tamamı →</a></div>' + g6Box("agenda", "", "Kurumların gündem benzerliği ağı") + "</section>";
   h += '<h2 class="v7-hh">Neler yapabilirsiniz</h2><div class="v7-hgrid">' +
     card("#/anlati", "Anlatı haritası", "Aynı olay, hangi hikâye?", "Kurumların bir olayı hangi çerçeveye, hangi sorumluya, hangi çözüme bağladığını tek grafikte görün.",
       coded.length + " olay kodlandı") +
