@@ -11400,7 +11400,7 @@ function dmMake(cv, mode, data) {
     fc.setTransform(1, 0, 0, 1, 0, 0); fc.fillStyle = "#fff"; fc.fillRect(0, 0, cols, rows);
     fc.setTransform(cols / W, 0, 0, rows / H, 0, 0); fc.translate(W, H / 2); fc.rotate(-.012 * Math.sin(a + 2.1)); fc.scale(sc, sc); fc.translate(-W - reach, -H / 2);
     fc.font = DM_FONT.replace("{px}", px); fc.fillStyle = "#2a2a2a"; fc.textAlign = "right"; fc.textBaseline = "alphabetic";
-    data.words.forEach(function (o, k) { fc.fillText(o.w, W * .98, H / 2 + px * .36); });
+    fc.fillText(data.words.map(function (o) { return o.w; }).join(" "), W * .98, H / 2 + px * .36);
     var D = fc.getImageData(0, 0, cols, rows).data, P = new Path2D();
     ctx.setTransform(g.DPR, 0, 0, g.DPR, 0, 0); ctx.clearRect(0, 0, W, H);
     for (var j = 0; j < rows; j++) {
