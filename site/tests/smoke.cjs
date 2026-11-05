@@ -3,6 +3,8 @@ const http = require("http"), fs = require("fs"), path = require("path");
 const { chromium } = require("playwright");
 const argv = process.argv.slice(2), ni = argv.indexOf("--expect-nav");
 const expectNav = ni >= 0 ? argv.splice(ni, 2)[1] : null;
+const clicks = [];
+for (let ci = argv.indexOf("--click"); ci >= 0; ci = argv.indexOf("--click")) { const v = argv.splice(ci, 2)[1], k = v.indexOf(":"); clicks.push([v.slice(0, k), v.slice(k + 1)]); }
 const [siteDir, outDir, ...argRoutes] = argv;
 if (!siteDir || !outDir) { console.log("usage: node smoke.cjs <siteDir> <outDir> [routes...]"); process.exit(0); }
 const ROUTES = argRoutes.length ? argRoutes : ["#/", "#/olaylar", "#/olay?e=s4374", "#/oruntu?q=secim", "#/oruntu?q=dil",
@@ -34,6 +36,18 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     }
     if (await page.$(".v7-empty-bug")) fails.push(`${tag}: .v7-empty-bug present`);
     await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-${w}-${theme}.png`) });
+    for (const [cr, sel] of clicks) if (cr === route) {
+      const el = await page.$(sel);
+      if (!el) { fails.push(`${tag}: click target ${sel} missing`); continue; }
+      await el.click(); await sleep(300);
+      const want = sel.includes("th[data-dim]") ? ".v7-group" : sel.includes(".v7-out") ? ".v7-hl" : null;
+      if (want) {
+        const n = await page.$$eval(want, (xs) => xs.filter((x) => x.offsetParent !== null).length);
+        if (n < 1) fails.push(`${tag}: after click ${sel} no visible ${want}`);
+      }
+      if (w === 390 && await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) fails.push(`${tag}: horizontal scroll after click ${sel}`);
+      await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-click-${w}-${theme}.png`) });
+    }
     await ctx.close();
   }
   await browser.close(); srv.close();

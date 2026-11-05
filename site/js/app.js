@@ -515,12 +515,12 @@ function spreadChart(evs) {
    itself the signal that the section holds more than one thing. Detail pages
    (an event, an outlet) belong to a section and keep its pill lit. */
 var SECTIONS = [
-  { p: "/", label: "Giriş", fn: pgHome },
+  { p: "/", label: "Giriş", fn: pgAnlati },
   { p: "/olaylar", label: "Olaylar", fn: pgEvents, tabs: [
     ["liste", "Tüm olaylar"], ["kor", "Kör noktalar"], ["konular", "Konular"], ["kapsama", "Kapsama"], ["ilan", ""]] },
   { p: "/benim", label: "Benim", fn: pgMine, tabs: [
     ["akis", "Size özel"], ["denge", "Haber dengem"], ["takip", "Takip ettiklerim"]] },
-  { p: "/anlati", label: "Anlatı", fn: pgNarrative },
+  { p: "/anlati", label: "Anlatı", fn: pgAnlati },
   { p: "/bulgular", label: "Bulgular", fn: pgFindings, tabs: [
     ["veriler", "Veriler"], ["yorumlar", "Yorumlar"], ["ileri", "İleri analiz"], ["hiz", "Hız, spot, benzerlik"]] },
   { p: "/kurumlar", label: "Kurumlar", fn: pgSources, tabs: [
@@ -5165,98 +5165,6 @@ function narrativeCards(rows) {
   }).join("") + "</div>";
 }
 
-function pgNarrative(q) {
-  q = q || {};
-  NARRW = narrWeek(q);
-  var weeks = NW.filter(function (w) { return w.k !== "v1"; });
-  var shown = weeks.reduce(function (t, w) { return t + w.keys.length; }, 0);
-  var pool = weeks.reduce(function (t, w) { return t + (w.pool || 0); }, 0);
-  var h = '<div class="wrap page">';
-  h += '<div class="phead"><div class="eyebrow">Anlatı haritası · olay örgüsü</div>' +
-    "<h1>Aynı olay, farklı hikâye</h1>" +
-    '<p class="lede">Yüklü dil yoğunluğu bir başlığın ne kadar yüklü olduğunu ölçer. Anlatı haritası başka bir ' +
-    "şey sorar: kurum bu olayı <b>hangi hikâyenin parçası</b> sayıyor? Burada yalnızca kurumların " +
-    "<b>en az iki boyutta</b> belirgin biçimde ayrıştığı olaylar var: " + (weeks.length ? weeks[0].l.split(/[–-]/)[0].trim() + " " + weeks[0].l.split(" ").pop() + " – " + weeks[weeks.length - 1].l.split(/[–-]/).pop().trim() : "") +
-    " döneminde kodlanan " + pool +
-    " olaydan " + shown + " tanesi. Her olayda yalnızca gerçekten ayrışılan boyutlar çiziliyor.</p></div>";
-  /* week strip: overview first, then weeks, v1 archive last */
-  var strip = [{ k: "all", l: "Tüm haftalar", n: shown + " olay" }].concat(weeks.map(function (w) {
-    return { k: w.k, l: w.l, n: w.keys.length + " olay" }; })).concat(NW.filter(function (w) { return w.k === "v1"; }).map(function (w) {
-    return { k: "v1", l: "1–8 Eylül arşivi", n: w.keys.length + " olay" }; }));
-  h += '<div class="xweeks" role="tablist">' + strip.map(function (w) {
-    return '<a class="xweek' + (w.k === NARRW ? " on" : "") + '" href="#/anlati?w=' + w.k + '" role="tab" aria-selected="' +
-      (w.k === NARRW) + '"><b>' + esc(w.l) + "</b><span>" + w.n + "</span></a>";
-  }).join("") + "</div>";
-  if (NARRW === "all") return h + narrOverview() + v5NarrAuto() + "</div>";
-
-  var W = NW.filter(function (x) { return x.k === NARRW; })[0] || { keys: [] };
-  var keys = W.keys.filter(narrOk), isV1 = W.k === "v1";
-  var cur = q.n && D.N[q.n] ? q.n : keys[0];
-  var coded = keys.reduce(function (t, k) { return t + (D.N[k].rows || []).length; }, 0);
-  h += '<div class="ctl">' + keys.map(function (k) {
-    var nn = D.N[k];
-    return '<button class="chip" data-narr="' + k + '" aria-pressed="' + (k === cur) + '">' +
-      esc(narrName(k, 34)) + ' <span style="opacity:.6">' + (nn.focus || []).length + "×</span></button>"; }).join("") +
-    '<span style="margin-left:auto;display:flex;gap:4px">' +
-    '<button class="chip" id="vflow" aria-pressed="true">Akış</button>' +
-    '<button class="chip" id="vcard" aria-pressed="false">Kartlar</button>' +
-    '<button class="chip" id="vtable" aria-pressed="false">Tablo</button></span></div>';
-  h += '<p class="xhint">Düğmedeki sayı, o olayda kurumların belirgin biçimde ayrıştığı boyut sayısıdır. Olaylar ayrışmanın gücüne göre sıralı.</p>';
-  h += '<div id="narrbox"></div>';
-  h += '<section class="sec"><h2>Sorumluluk kime yükleniyor</h2>' +
-    '<p class="sub">Seçili olayda (<b id="cblame-t">' + esc(cur ? narrName(cur, 80) : "") + "</b>) haberlerin sorumlu olarak " +
-    "gösterdiği aktörler ve onları gösteren kurumlar. Başka bir olay seçtiğinizde grafik o olaya göre yeniden çizilir. " +
-    "Sorumlu göstermemek de bir tercihtir: başlığında sorumlu olmayan kurumlar grafikte görünmez, sayıları altta yazar.</p>" +
-    fig("cblame", "sorumlu tutulan aktör × kurumun yerleşimi", {
-      legend: legendHTML([{c:"var(--left)",t:"sola yerleşik"},{c:"var(--mid)",t:"merkez"},{c:"var(--right)",t:"sağa yerleşik"}]),
-      take: "Bir satırda tek renk varsa, o aktörü yalnızca tek bir blok sorumlu tutuyor demektir." }) +
-    '<p class="xhint" id="cblame-n"></p></section>';
-  h += '<div class="' + (W.coded === "agent" ? "yz" : "note warn") + '" style="margin-top:22px"><b>Kodlama.</b> ' + (W.coded === "agent" ? bg7AiTag() + " " : "") +
-    (isV1 ? "1–8 Eylül arşivi: dört olay elle, diğerleri makine desteğiyle kodlandı; burada yalnızca en az beş " +
-      "kurumu olan ve iki boyutta ayrışan olaylar gösteriliyor. " :
-      (W.coded === "agent" ? "Başlıklardan otomatik kodlandı (Claude ajanı, insan denetimi yok); aynı şema ve seçim kuralı. " :
-        "Başlıklardan, tek kodlayıcıyla elle kodlandı. ") + "Boş hücre “başlıkta yok” demektir. Seçim kuralı ve ölçüt için " +
-      '<a class="lnk" href="#/yontem?s=6">Yöntem § 6</a>. ') +
-    "Seçili haftada " + coded + " kurum-satırı. Bir <b>örnek</b>tir, genelleme değil.</div>";
-  return h + v5NarrAuto() + "</div>";
-}
-
-/* "Haftalar boyunca" lives once, on the overview tab. */
-function narrOverview() {
-  var weeks = NW.filter(function (w) { return w.k !== "v1"; });
-  var dimCount = {};
-  var rowsH = weeks.map(function (w) {
-    var n = w.keys.length, rowsN = 0, noBlame = 0, frames = 0;
-    w.keys.forEach(function (k) {
-      var rows = D.N[k].rows || []; rowsN += rows.length;
-      rows.forEach(function (r) { if (UNSET(r.blame)) noBlame++; });
-      var fr = {}; rows.forEach(function (r) { if (!UNSET(r.frame)) fr[r.frame] = 1; });
-      frames += Object.keys(fr).length;
-      (D.N[k].focus || []).forEach(function (d) { dimCount[d] = (dimCount[d] || 0) + 1; });
-    });
-    return '<tr><td><a class="lnk" href="#/anlati?w=' + w.k + '">' + esc(w.l) + '</a></td><td class="r num">' + (w.pool || n) +
-      '</td><td class="r num">' + n + '</td><td class="r num">' + (n ? (frames / n).toFixed(1) : "—") +
-      '</td><td class="r num">%' + Math.round(100 * noBlame / Math.max(1, rowsN)) + "</td></tr>";
-  }).join("");
-  var dims = Object.keys(dimCount).sort(function (a, b) { return dimCount[b] - dimCount[a]; });
-  var tot = weeks.reduce(function (t, w) { return t + w.keys.length; }, 0);
-  var h = '<section class="sec"><h2>Haftalar boyunca</h2><p class="sub">Her hafta için kodlanan aday olay sayısı, ' +
-    "seçim kuralını geçen (en az iki boyutta ayrışan) olay sayısı, bir olayda ortalama kaç ayrı çerçeve kurulduğu ve " +
-    "başlıkların ne kadarının kimseyi sorumlu göstermediği.</p>" +
-    '<div class="scroller panel"><table><thead><tr><th>Hafta</th><th class="r">Aday</th><th class="r">Gösterilen</th>' +
-    '<th class="r">Olay başına çerçeve</th><th class="r">Sorumlu yok</th></tr></thead><tbody>' + rowsH + "</tbody></table></div></section>";
-  h += '<section class="sec"><h2>Kurumlar en çok nerede ayrışıyor</h2><p class="sub">Gösterilen ' + tot +
-    " olayda, ayrışmanın taşındığı boyutlar (bir olay birden fazla boyutta ayrışabilir).</p>" +
-    fig("nfoc", "boyut · kaç olayda belirgin ayrışma", { take: "Çerçeve neredeyse her olayda ayrışıyor; " +
-      "sorumluluk ve ahlaki çerçeve daha az olayda ayrışıyor ama ayrıştığında hikâyeyi en çok değiştiren boyutlar onlar." }) + "</section>";
-  h += '<section class="sec"><h2>Haftanın en çarpıcı ayrışması</h2><div class="xnbest">' + weeks.map(function (w) {
-    var k = w.keys[0]; if (!k) return "";
-    var n = D.N[k];
-    return '<a class="xnb" href="#/anlati?n=' + k + '"><span class="eyebrow">' + esc(w.l) + "</span><b>" + esc(narrName(k, 80)) + "</b>" +
-      "<span>" + (n.focus || []).slice(0, 3).map(function (d) { return esc(NDL[d]); }).join(" · ") + "</span></a>";
-  }).join("") + "</div></section>";
-  return h;
-}
 function narrFocusChart() {
   var weeks = NW.filter(function (w) { return w.k !== "v1"; }), c = {};
   weeks.forEach(function (w) { w.keys.forEach(function (k) { (D.N[k].focus || []).forEach(function (d) { c[d] = (c[d] || 0) + 1; }); }); });
@@ -5279,43 +5187,7 @@ function cyberChrome(path) {
 }
 function v2bAfter(path, tab, params) {
   cyberChrome(path);
-  if (path === "/anlati" && NARRW === "all") { var nf = $("#nfoc"); if (nf) nf.appendChild(narrFocusChart()); }
-  if (path === "/anlati" && NARRW !== "all") {
-    var k = NKEY && params.n && D.N[params.n] ? params.n : null;
-    var box = $("#narrbox");
-    if (box) {
-      var cur = k || narrWeekKeys(params)[0];
-      var link = function () {
-        var n = D.N[cur], a = $("#narrlink");
-        if (a) a.remove();
-        if (n && n.ev && EV[n.ev]) {
-          var p = box.querySelector(".panel");
-          if (p) p.insertAdjacentHTML("beforeend", '<p id="narrlink" style="margin-top:12px"><a class="lnk" href="#/olay?e=' +
-            n.ev + '">Olayın bütün başlıkları ve kapsaması →</a></p>');
-        }
-      };
-      var blame = function () {
-        var cb = $("#cblame"); if (!cb) return;
-        cb.innerHTML = "";
-        var st = blameStats(), ch = blameChart();
-        if (ch) cb.appendChild(ch);
-        else cb.innerHTML = '<p style="color:var(--muted);font-size:13.5px">Bu olayda hiçbir başlık bir aktörü sorumlu göstermiyor.</p>';
-        var t = $("#cblame-t"); if (t) t.textContent = narrName(cur, 80);
-        var nn = $("#cblame-n");
-        if (nn) nn.textContent = st.rows + " kurumdan " + st.attributed + " tanesi başlığında bir aktörü sorumlu gösteriyor; " +
-          (st.rows - st.attributed) + " tanesi göstermiyor.";
-      };
-      link(); blame();
-      [].forEach.call(document.querySelectorAll("[data-narr]"), function (bt) {
-        var old = bt.onclick;
-        bt.onclick = function () { cur = bt.getAttribute("data-narr"); if (old) old(); link(); blame(); };
-      });
-      ["#vflow", "#vcard", "#vtable"].forEach(function (s) {
-        var bt = $(s); if (!bt) return; var old = bt.onclick;
-        bt.onclick = function () { if (old) old(); link(); };
-      });
-    }
-  }
+  if (path === "/" || path === "/anlati") wireAnlati(document.getElementById("view"));
   if (path === "/bulgular" && tab === "ileri") advDraw();
   if (path === "/bulgular" && tab === "hiz") v5Draw();
   if (path === "/yontem" && params.s) { var tg = document.getElementById("s" + params.s); if (tg) setTimeout(function () { tg.scrollIntoView({ block: "start" }); }, 30); }
@@ -6140,36 +6012,6 @@ function leadEvent() {
   }
   return D.E[0];
 }
-function pgHome() {
-  var m = D.meta.counts, lead = leadEvent();
-  var es = D.E.slice().sort(function (a, b) { return b.s.length - a.s.length || b.l.localeCompare(a.l); }).filter(function (e) { return e !== lead; });
-  var bs = D.E.filter(function (e) { return e.bs; }).sort(function (a, b) { return b.s.length - a.s.length; });
-  var h = '<div class="wrap page xhome3"><section class="xhero">' +
-    '<div class="xhero-l"><p class="eyebrow">' + WIN.range + '</p>' +
-    '<p class="xwm">Çapraz oku.</p>' +
-    '<h1 class="xhero-h">Aynı olay, <mark class="mw">farklı</mark> manşet.</h1>' +
-    '<p class="lede">Aynı olguyu bildiren başlıklar yan yana durur; farkı yaratan kelime işaretlenir. Manşet bütün kalır.</p>' +
-    '<a class="xbtn" href="#/olay?e=' + lead.i + '">Çapraz oku →</a>' +
-    '<p class="xcount"><span class="num">' + m.articles.toLocaleString("tr") + '</span> başlık · <span class="num">' + D.E.length.toLocaleString("tr") +
-    '</span> olay · <span class="num">' + D.meta.sources.length + "</span> kurum</p></div>" +
-    '<div class="xhero-r"><p class="eyebrow">Günün olayı · ' + fmtD(storyDay(lead) + "T00:00") + ' · <a class="lnk" href="#/olay?e=' + lead.i + '">' + esc(lead.t) + "</a></p>" +
-    splitCard(lead) + '<p class="xsp-leg"><span><mark class="mw">İşaretli kelime</mark>: kurumlar arasında ayrışan</span></p></div></section>';
-  h += homeNarr();
-  h += '<section class="sec"><div class="xsec-h"><h2>Öne çıkan olaylar</h2><a class="lnk" href="#/olaylar">Tümü →</a></div>' +
-    '<div class="xcards three">' + cards(es.slice(0, 6)) + "</div></section>";
-  h += '<section class="sec xink"><div class="xsec-h"><h2>Kör noktalar</h2><a class="lnk" href="#/olaylar?t=kor">Tümü →</a></div>' +
-    '<p class="sub">Yelpazenin bir tarafının, kendi kurum sayısına göre beklenenden belirgin biçimde az verdiği olaylar.</p>' +
-    '<div class="xrail">' + cards(bs.slice(0, 8), "compact") + "</div></section>";
-  h += '<section class="sec">' + briefHTML() + "</section>";
-  ["siyaset", "yargi", "ekonomi", "dunya"].forEach(function (k) {
-    var t = TPX[k]; if (!t) return;
-    var tes = t.e.map(function (i) { return EV[i]; }).sort(function (a, b) { return b.s.length - a.s.length; });
-    h += '<section class="sec xtopic-mod"><div class="xsec-h"><h2>' + esc(t.n) + "</h2>" + followBtn("t", k) +
-      '<a class="lnk" href="#/konu?k=' + k + '">Konuya git →</a></div><div class="xcards three">' + cards(tes.slice(0, 3)) + "</div></section>";
-  });
-  return h + "</div>";
-}
-
 /* ---------------------------------------------------------------- event */
 function pgEvent(q) {
   var e = EV[q.e];
@@ -8218,18 +8060,6 @@ function formEx7(f) {
 }
 
 /* ---- 7.0 public views built on the reviews ---- */
-function homeNarr() {
-  var weeks = NW.filter(function (w) { return w.k !== "v1" && w.keys.filter(narrOk).length; });
-  if (!weeks.length) return "";
-  var W = weeks[weeks.length - 1], k = W.keys.filter(narrOk)[0], n = D.N[k], e = EV[n.ev], ai = n.status === "agent_coded";
-  var keep = NFOC; NFOC = n.focus; var mx = pillMatrix(n.rows); NFOC = keep;
-  return '<section class="sec xnarr-home"><div class="xsec-h"><div><p class="eyebrow">Anlatı haritası · ' + esc(W.l) +
-    (ai ? " " + bg7AiTag() : "") + '</p></div><a class="lnk" href="#/anlati?n=' + k + '">Haritanın tamamı →</a></div>' +
-    "<h2>" + esc(e ? storyLabel(e, 120) : narrName(k, 120)) + "</h2>" +
-    '<p class="sub' + (ai ? " ai" : "") + '">' + esc(n.q.happened || "") + " " + esc(n.q.differ || "") + "</p>" + mx +
-    '<p class="xsmall">Her satır bir kurum, yelpazedeki yerleşimine göre sıralı; aynı renk aynı seçimi gösterir. Boş hücre: başlıkta yok.' +
-    (ai ? ' Bu olay YZ ile kodlandı (Yöntem § 12).' : "") + "</p></section>";
-}
 function top20() {
   var st = deviceStats(), rules = Object.keys(st).filter(function (k) { return st[k].n; }).sort(function (a, b) { return st[b].n - st[a].n; });
   var S = bg7Stats(), ai = Object.keys(S).filter(function (k) { return S[k].unc + S[k].sup; })
