@@ -100,7 +100,7 @@ function orFindCoverage() {
       "Bu şerit tek başına bir kurumun neyi seçtiğini göstermez; taraf sayısına göre düzeltilmiş okuma bir sonraki bulguda.",
     how: orHow(["Birim: en az " + (D.meta.params && D.meta.params.event_min_outlets || 5) + " kurumun verdiği olay (resmî ilan olayları hariç), n = " + orN(C.n) + ".",
       "Sol payı = olayı veren sola yerleşik kurum sayısı / yerleşimi bilinen kurum sayısı. Yerleşim kayıt defterinden gelir ve doğrulanmamıştır: 45’in altı sol, 55’in üstü sağ.",
-      "Sütun genişliği %10; son sütun %100’ü içerir."], 5) };
+      "Sütun genişliği %10; son sütun %100’ü içerir."], "olay") };
 }
 
 function orFindBlind() {
@@ -122,7 +122,7 @@ function orFindBlind() {
       "Kör nokta bir suçlama değildir; bir olayın bir tarafta az görünmesi editoryal tercihten, akış eksikliğinden ya da olayın yerel olmasından doğabilir.",
     how: orHow(["Kural Ground News formülünün bu kayıt defterine uyarlanmasıdır: her taraf kendi etkin kurum sayısına bölünür ve şansla açıklanabilen durumlar binom testiyle (p &lt; 0,10) çıkarılır.",
       "Birim: resmî ilan olayları hariç " + orN(ev.length) + " olay; ham sayım için en az 4 kurumun verdiği " + orN(big) + " olay.",
-      "Etkin kurum: dönemin en az " + WIN.half + " gününü kapsayan kurum."], 5) };
+      "Etkin kurum: dönemin en az " + WIN.half + " gününü kapsayan kurum."], "olay") };
 }
 
 function orShared(a, b) {
@@ -154,7 +154,7 @@ function orFindAgenda() {
       " Bu, kurumların neden aynı olayları seçtiğini açıklamaz; yalnızca seçimin yerleşimle hizalanıp hizalanmadığını gösterir.",
     how: orHow(["Her kurum verdiği olayların kümesiyle temsil edilir; kurum çiftlerinin phi korelasyonu hesaplanır (kurum büyüklüğüne duyarsızdır) ve ortalama bağlantıyla kümelenir.",
       "Yerleşim farkıyla ilişki: Mantel testi, 9.999 permütasyon. Birim: en az 150 olaya giren ya da en az 1.000 siyasi başlığı olan " + ord.length + " kurum.",
-      "Hücredeki ortak olay sayısı bütün olaylar (resmî ilanlar dâhil) üzerinden sayılır; φ’nin hesapladığı küme ile aynıdır."], 7) };
+      "Hücredeki ortak olay sayısı bütün olaylar (resmî ilanlar dâhil) üzerinden sayılır; φ’nin hesapladığı küme ile aynıdır."], "dil") };
 }
 
 /* Mean topic profile of each bloc's outlets (equal weight per outlet). */
@@ -186,7 +186,7 @@ function orFindTopics() {
       "Bir temada fark olması, o kurumların başka konulardan kaçındığı anlamına gelmez; yalnızca başlık karışımının farklı olduğunu gösterir.",
     how: orHow(["" + th.length + " tema: siyasi başlıklara " + T.N.toLocaleString("tr") + " başlık üzerinde Dirichlet çok terimli karışım (GSDMM) uygulandı; her konu, sözcükleri en çok örtüşen referans temaya bağlandı.",
       "Blok değeri = o bloktaki kurumların tema paylarının ortalaması. Hücredeki sayı yüzdedir; çubuklar bütün hücreler arasında aynı ölçektedir.",
-      "Konu–yerleşim ilişkisi: Mantel testi (9.999 permütasyon). Yerleşim sağlanmış veridir."], 7) };
+      "Konu–yerleşim ilişkisi: Mantel testi (9.999 permütasyon). Yerleşim sağlanmış veridir."], "dil") };
 }
 
 function orFindWeekly() {
@@ -210,7 +210,7 @@ function orFindWeekly() {
       "Haftalar arası fark, o haftanın olay sayısıyla birlikte oynayabilir; bu yüzden bir haftanın yüksek çıkması tek başına bir eğilim kanıtı değildir. " +
       "Son hafta kısmi olabilir (gün sayısı sütun ipucunda yazar).",
     how: orHow(["Birim: olayın ilk başlığının düştüğü hafta (pencerenin ilk gününden başlayan 7 günlük dilimler). Resmî ilan olayları hariç.",
-      "Kör nokta: önceki bulgudaki kural (taraf başına normalize, binom testi)."], 5) };
+      "Kör nokta: önceki bulgudaki kural (taraf başına normalize, binom testi)."], "olay") };
 }
 
 /* ======================================================= dil */
@@ -236,7 +236,7 @@ function orFindRange() {
       "Geniş aralık, bir kurumun diğerlerinden çok sert bir sözcük seçtiği anlamına gelir; hangi kurumun hangi yönde ayrıştığı bu grafikten okunmaz. " +
       "Ayrışan olayları tek tek açmak için bir sütuna tıklayın.",
     how: orHow(["Her başlık kural tabanlı puanlayıcıyla 0–100 puanlanır (Yöntem › yüklü dil). Aralık = olaydaki en yüksek puan − en düşük puan.",
-      "Birim: resmî ilan olayları hariç " + orN(n) + " olay. Sütun genişliği 10 puan."], 4) };
+      "Birim: resmî ilan olayları hariç " + orN(n) + " olay. Sütun genişliği 10 puan."], "dil") };
 }
 
 function orLangRows(metric) {
@@ -285,7 +285,7 @@ function orFindLoaded() {
       "Puan, sözcük kurallarının saptadığı yüklü ifade yoğunluğudur; bir kurumun yazdığı konular farklı olduğundan (savaş ya da yargı haberi daha çok yüklü sözcük içerir) fark yalnızca üslup farkı değildir. " +
       "Ölçüyü ve sırayı değiştirerek aynı verinin başka okumalarına bakabilirsiniz.",
     how: orHow(["Başlıklar kural tabanlı puanlayıcıyla puanlanır; ‘yüklü başlık’ = puan 25 ve üzeri (tek yüklü unsur bandı ve üstü).",
-      "Birim: en az 20 siyasi başlığı olan etkin kurumlar (" + rows.length + " kurum). Blok değeri başlık sayısıyla ağırlıklıdır.", "Yerleşim kayıt defterinden gelir, doğrulanmamıştır."], 4) };
+      "Birim: en az 20 siyasi başlığı olan etkin kurumlar (" + rows.length + " kurum). Blok değeri başlık sayısıyla ağırlıklıdır.", "Yerleşim kayıt defterinden gelir, doğrulanmamıştır."], "dil") };
 }
 
 function orTop20Rows(f) {
@@ -320,7 +320,7 @@ function orFindTop20() {
     means: "Kural satırlarının sayısı başlık, YZ satırlarının sayısı olay birimindedir; iki sayı doğrudan karşılaştırılamaz. " +
       "Kural saptaması aynı metinde her zaman aynı sonucu verir ama yalnızca yüzeydeki ifadeleri görür; YZ satırları bir okumadır ve insan incelemesinden geçmemiş olabilir. Bir yapının sık çıkması, o yapıyı kullanan başlığın hatalı ya da kasıtlı olduğunu göstermez.",
     how: orHow(["Kural yapıları: başlık sayısı, resmî ilan dışı tüm başlıklar. YZ kavramları: incelenen olaylarda öne çıkan kavramlar, olay sayısı; editörün reddettikleri sayılmaz.",
-      "Liste 20 satırla sınırlıdır: önce kural yapıları, kalan yer YZ kavramlarına verilir."], 4) };
+      "Liste 20 satırla sınırlıdır: önce kural yapıları, kalan yer YZ kavramlarına verilir."], "dil") };
 }
 
 function orFindWords() {
@@ -335,7 +335,7 @@ function orFindWords() {
     means: "Sarı işaretli sözcükler, iki uçtaki başlığın birbirinden ayrışan kısmıdır; ortak sözcükler işaretsiz kalır. " +
       "Yelpazenin en solundaki ve en sağındaki kurumun başlığı yan yana konur; bu ikisi diğer kurumları temsil etmez ve fark çoğu zaman tek bir sıfat ya da fiilden gelir. " +
       "Olayın bütün başlıklarını görmek için olay sayfasına gidin.",
-    how: orHow(["Seçim: en az 8 kurumun verdiği, puan aralığı en geniş " + list.length + " olay; çift = yerleşimi bilinen en sol ve en sağ kurumun başlığı.", "Sözcük işareti: iki başlık arasında ortak olmayan sözcükler (köke indirgenmiş eşleşme)."], 4) };
+    how: orHow(["Seçim: en az 8 kurumun verdiği, puan aralığı en geniş " + list.length + " olay; çift = yerleşimi bilinen en sol ve en sağ kurumun başlığı.", "Sözcük işareti: iki başlık arasında ortak olmayan sözcükler (köke indirgenmiş eşleşme)."], "dil") };
 }
 
 function orFindStyle() {
@@ -348,7 +348,7 @@ function orFindStyle() {
       "Eksenin en çok beslendiği yapılar: " + P.load1.slice(0, 3).map(function (x) { return esc((BIA[x[0]] || {}).en || x[0]); }).join(", ") + ". " +
       "Bu bir kurumun yazı biçiminin özetidir, hangi yazının doğru olduğu hakkında bir şey söylemez; yalnızca " + Object.keys(P.pts).length + " kurum var, bu yüzden resim kolayca fazla okunur.",
     how: orHow(["Her kurumun siyasi başlıklarında " + P.nkeys + " çerçeveleme yapısının sıklığı standartlaştırıldı ve temel bileşenler analizi (PCA) uygulandı.",
-      "Yerleşimle ilişki: Spearman ρ, permütasyon testi. Yerleşim sağlanmış veridir."], 7) };
+      "Yerleşimle ilişki: Spearman ρ, permütasyon testi. Yerleşim sağlanmış veridir."], "dil") };
 }
 
 /* Evidence quotes carry no outlet in the bundle (q.o is empty), so a quote is matched to the event headlines that contain it. */
@@ -376,7 +376,7 @@ function orBlocAI() {
 }
 function orFindAI() {
   var R = orBlocAI();
-  if (!R) return { id: "dil-yz", claim: "YZ incelemesi verisi bu yapıda yok " + yzBadge() + ".", viz: yzBlock("<p>Veri yok.</p>", "Yapay zekâ incelemesi"), means: "İnceleme sonuçları yüklenmediği için bu bulgu hesaplanamadı.", how: orHow(["İnceleme verisi yok."], 11) };
+  if (!R) return { id: "dil-yz", claim: "YZ incelemesi verisi bu yapıda yok " + yzBadge() + ".", viz: yzBlock("<p>Veri yok.</p>", "Yapay zekâ incelemesi"), means: "İnceleme sonuçları yüklenmediği için bu bulgu hesaplanamadı.", how: orHow(["İnceleme verisi yok."], "yz") };
   var blocs = ["left", "mid", "right"].filter(function (b) { return R.cov[b]; }), rate = function (b) { return R.cov[b] ? R.hit[b] / R.cov[b] : 0; };
   var bars = orBars(blocs.map(function (b) { return { label: SIDE[b] + " bloğu", v: rate(b), disp: orP(rate(b)), c: "var(--" + b + ")", tip: "<span class='k'>" + SIDE[b] + " bloğu</span>" + R.hit[b] + " / " + R.cov[b] + " olay" }; }), 1);
   var cs = Object.keys(R.byC).sort(function (a, b) { return R.byC[b].n - R.byC[a].n; }).slice(0, 6);
@@ -392,7 +392,7 @@ function orFindAI() {
     means: "Oranlar en yüksekten en düşüğe " + top.map(function (b) { return SIDE[b].toLocaleLowerCase("tr"); }).join(", ") + " blok; fark " + dec(100 * (rate(top[0]) - rate(top[top.length - 1])), 1) + " puan. " +
       "Bir blokta oranın yüksek olması o bloğun başlıklarının daha sık farklı yazıldığını gösterebilir, ama blokların kurum sayıları farklıdır ve çok kurumlu blokta alıntılanma şansı daha yüksektir. Bu bir yanlılık hükmü değildir.",
     how: orHow(["Kaynak: en çok kurumun verdiği olaylarda YZ incelemesi; editörün reddettiği sonuçlar sayılmaz. Birim: incelenen " + orN(R.nEv) + " olay.",
-      "Oran = bloktan en az bir başlığı kanıt olarak alıntılanan olay / bloğun yer aldığı incelenen olay. Kurum bazında oranlar Kurumlar sayfasındadır."], 11) };
+      "Oran = bloktan en az bir başlığı kanıt olarak alıntılanan olay / bloğun yer aldığı incelenen olay. Kurum bazında oranlar Kurumlar sayfasındadır."], "yz") };
 }
 
 function orDil() {
@@ -432,7 +432,7 @@ function orFindDims() {
       "Payların içine YZ ile kodlanan " + orN(nAi) + " olay da giriyor " + yzBadge() + "; elle ve YZ ile kodlanan olayları ayrı görmek için üstteki seçimleri kullanın. " +
       "Olayların çoğu en çok kurumun verdiği olaylardan seçildiği için bu paylar bütün haberlerin değil, öne çıkan olayların resmidir.",
     how: orHow(["Birim: editörce reddedilmemiş kodlanmış olaylar (n = " + orN(n) + "). Pay = bir boyutun odak boyutu olarak işaretlendiği olay sayısı / seçilen olay sayısı.",
-      "Dokuz boyutlu kodlama; ilk altı hafta elle, sonrası yapay zekâ ile kodlandı (Yöntem › anlatı kodlaması)."], 6) };
+      "Dokuz boyutlu kodlama; ilk altı hafta elle, sonrası yapay zekâ ile kodlandı (Yöntem › anlatı kodlaması)."], "anlati") };
 }
 
 function orBlameOutlets(keys) {
@@ -461,7 +461,7 @@ function orFindBlame() {
     means: "Kodlanan kurum satırlarının " + orP(withB / (all || 1)) + "’inde başlık birini sorumlu tutuyor; geri kalanı sorumluluk atfetmiyor. " +
       "Bu grafik kimin gerçekten sorumlu olduğunu değil, hangi kurumların başlığında kimin sorumlu gösterildiğini sayar. Blok sayıları kurum sayısına bağlıdır (sağ blokta daha çok kurum var), bu yüzden bloklar arası sayı farkı tek başına bir tercih göstermez.",
     how: orHow(["Birim: " + orN(keys.length) + " kodlanmış olayın kurum satırları; değer = ‘Sorumlu tutulan’ boyutuna yazılan ifade, boş ve ‘belirtilmiyor’ değerleri sayılmaz.",
-      "En sık " + top.length + " değer gösterilir. Blok: kayıt defterindeki yerleşim (doğrulanmamış)."], 6) };
+      "En sık " + top.length + " değer gösterilir. Blok: kayıt defterindeki yerleşim (doğrulanmamış)."], "anlati") };
 }
 
 function orFindTrend() {
@@ -480,7 +480,7 @@ function orFindTrend() {
       '<a class="lnk" href="#/anlati">Haftanın anlatı haritasını aç →</a></p>',
     means: "Haftalık olay sayısı " + Math.min.apply(null, sz) + " ile " + Math.max.apply(null, sz) + " arasında; " + ai + " hafta yapay zekâ ile kodlandı " + yzBadge() + ", kalanı elle. " +
       "Kodlama yöntemi değiştiği için bu iki grup arasındaki sıçramalar gerçek bir değişimden olduğu kadar kodlama farkından da gelebilir; haftalar arası eğilim olarak okunmamalıdır. Her hafta o haftanın en çok kurumun verdiği olaylarından seçildi.",
-    how: orHow(["Birim: hafta başına editörce reddedilmemiş kodlanmış olaylar. Hücre = odak boyutu olarak işaretlenen olay / haftanın olayları.", "YZ rozeti taşıyan haftalar yapay zekâ ile kodlandı; elle kodlananlarda her kurumun en çok paylaşılan başlığı okundu."], 6) };
+    how: orHow(["Birim: hafta başına editörce reddedilmemiş kodlanmış olaylar. Hücre = odak boyutu olarak işaretlenen olay / haftanın olayları.", "YZ rozeti taşıyan haftalar yapay zekâ ile kodlandı; elle kodlananlarda her kurumun en çok paylaşılan başlığı okundu."], "anlati") };
 }
 
 function orAnlati() {
@@ -511,7 +511,7 @@ function orFindLead() {
     means: "Sıra korelasyonu " + dec(cor, 2) + ": " + (cor < -.3 ? "ilk veren payı yüksek kurumların gecikmesi genellikle kısa." : cor > .3 ? "ilk veren payı yüksek kurumların gecikmesi de uzun." : "ilk veren payı ile gecikme arasında belirgin bir ilişki yok.") + " " +
       "Bir kurumun çok olayı ilk vermesi daha hızlı olduğunu da, daha çok haber yayımladığını da gösterebilir; ölçü yalnızca aynı olaydaki sıralamaya bakar. Gecikme, kurumun ilk olmadığı olaylarda ilk habere göre ölçülür.",
     how: orHow(["Her olayda kurumun ilk başlığının saati; ilk yayınlayan kurum ve diğerlerinin ilk habere göre gecikmesi. Birim: olay başına kurum, " + (V5.leadLag.horizonHours || 48) + " saatlik pencere içinde.",
-      "Etkin kurumlar (" + ks.length + "), yalnızca kendi haberlerinin payı; ham sayılar karşılaştırılmaz."], "v5") };
+      "Etkin kurumlar (" + ks.length + "), yalnızca kendi haberlerinin payı; ham sayılar karşılaştırılmaz."], "veri") };
 }
 function orFindBlocLag() {
   var B = (V5.leadLag || {}).blocs || {}, rows = [["left>right", "Sol → sağ"], ["right>left", "Sağ → sol"], ["left>mid", "Sol → merkez"], ["right>mid", "Sağ → merkez"]].filter(function (r) { return B[r[0]]; });
@@ -523,7 +523,7 @@ function orFindBlocLag() {
     claim: lr && rl ? "Sol kurumların açtığı olayların <b>" + pc5(lr.coveredShare) + "</b>’i sağdan en az bir kurum tarafından verildi (ortanca " + dur5(lr.medLag) + " sonra); sağın açtığı olayların <b>" + pc5(rl.coveredShare) + "</b>’i soldan (" + dur5(rl.medLag) + " sonra)." : "Blok geçişi verisi yok.",
     viz: viz,
     means: lr && rl ? "Sağ blokta çok daha fazla kurum olduğu için bir olayın sağdan en az bir kurum tarafından verilme şansı kendiliğinden yüksektir (sol açılan " + orN(lr.n) + ", sağ açılan " + orN(rl.n) + " olay). Pay farkı bir yayın tercihinden çok kurum sayısı farkını yansıtabilir; gecikme ise karşı bloğun ilk kurumunun ne kadar sonra yetiştiğini gösterir." : "Blok verisi bulunamadı.",
-    how: orHow(["Blok geçişi: bir bloktan bir kurumun ilk verdiği olayı, öbür bloktan en az bir kurumun pencere içinde vermesi. Gecikme ortancadır.", "Bloklar kayıt defterindeki yerleşimdendir ve doğrulanmamıştır."], "v5") };
+    how: orHow(["Blok geçişi: bir bloktan bir kurumun ilk verdiği olayı, öbür bloktan en az bir kurumun pencere içinde vermesi. Gecikme ortancadır.", "Bloklar kayıt defterindeki yerleşimdendir ve doğrulanmamıştır."], "veri") };
 }
 function orFindGap() {
   var GP = V5.gap || {}, O = GP.outlets || {}, ks = ACT5.filter(function (s) { return O[s] && O[s].hotter != null; }).sort(function (a, b) { return O[b].hotter - O[a].hotter; });
@@ -540,7 +540,7 @@ function orFindGap() {
     viz: viz,
     means: "Aynı kural kümesi başlığa ve spota ayrı uygulandı. Spotlar başlıktan uzun olduğu için çoğu zaman daha çok kural tetikler; ortalama fark bu yüzden " + neg + " / " + ks.length + " kurumda negatif. " +
       "Bu pay, başlığın kendi haberinden daha sert bir dil kurduğu haberleri sayar; haberin yanlış olduğunu ya da başlığın kasıtlı olduğunu göstermez.",
-    how: orHow(["Başlık puanı − aynı haberin spot puanı; ≥ " + th + " puan ‘başlık spotundan yüklü’ sayıldı. Spotu olmayan ya da başlıkla aynı olan haberler dışarıda.", "Birim: etkin kurumların spotlu haberleri (kurum başına n bilgisi ipucunda). Pay kurumun kendi haberleri üzerindendir."], "v5") };
+    how: orHow(["Başlık puanı − aynı haberin spot puanı; ≥ " + th + " puan ‘başlık spotundan yüklü’ sayıldı. Spotu olmayan ya da başlıkla aynı olan haberler dışarıda.", "Birim: etkin kurumların spotlu haberleri (kurum başına n bilgisi ipucunda). Pay kurumun kendi haberleri üzerindendir."], "veri") };
 }
 function orHiz() { return orPage("hiz", [orFindLead(), orFindBlocLag(), orFindGap()], orExamples("hiz")); }
 

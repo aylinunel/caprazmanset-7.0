@@ -60,3 +60,12 @@ test("pickWeek: existing-but-empty stays; unknown and v1 fall back to latest non
   assert.deepStrictEqual(pickWeek(NW, N, ok, "v1"), { week: "w2", empty: false });
   assert.deepStrictEqual(pickWeek(NW, N, ok, "w1"), { week: "w1", empty: false });
 });
+
+test("yontemAnchor maps old numeric anchors, passes new ids through", () => {
+  const m = { 2: "veri", 3: "olay", 5: "olay", 4: "dil", 6: "anlati", 7: "dil", 11: "yz", 12: "yzicerik", v5: "veri", kutuphane: "kavramlar" };
+  for (const k of Object.keys(m)) assert.equal(L.yontemAnchor(k), m[k]);
+  assert.equal(L.yontemAnchor("turkiye"), "turkiye");
+  assert.equal(L.yontemAnchor("kayit"), "kayit");
+  assert.equal(L.yontemAnchor(undefined), "");
+  assert.equal(L.yontemAnchor("constructor"), "constructor");
+});

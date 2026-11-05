@@ -70,6 +70,33 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       });
       if (bad) fails.push(`${tag}: kurum ${bad}`);
     }
+    if (route.startsWith("#/yontem")) {
+      const bad = await page.evaluate((r) => {
+        const ids = ["veri", "olay", "dil", "anlati", "yz", "yzicerik", "turkiye", "kavramlar", "sinir", "kaynak"];
+        const miss = ids.filter((i) => !document.getElementById(i));
+        if (miss.length) return "missing section ids " + miss.join(",");
+        const yz = [].map.call(document.querySelectorAll(".yz"), (x) => x.textContent).join(" ");
+        if (/bağlam gerekli|desteklendi|inceleyiciler ayrıştı/i.test(yz + " " + document.querySelector(".xpaper").textContent)) return "status label on page";
+        const tb = [...document.querySelectorAll(".v7-tr-block")];
+        if (tb.length < 9) return `only ${tb.length} .v7-tr-block`;
+        if (tb.some((b) => [...b.querySelectorAll("dt")].map((d) => d.textContent).join("|") !== "Sorun|Ne yaptık|Sınır" || [...b.querySelectorAll("dd")].some((d) => d.textContent.trim().length < 20))) return "tr-block parts incomplete";
+        if (/NaN|undefined|\[object/.test(document.querySelector(".v7-tr").textContent)) return "NaN/undefined in tr blocks";
+        const cs = document.querySelectorAll(".v7-concept").length;
+        if (cs < 129) return `only ${cs} .v7-concept`;
+        if (document.querySelectorAll(".v7-concept .yz-badge").length < 1) return "no yz badge in concepts";
+        return "";
+      }, route);
+      if (bad) fails.push(`${tag}: yontem ${bad}`);
+      if (route === "#/yontem?s=kavramlar") {
+        await page.fill("#cq", "kisiye saldiri"); await sleep(300);
+        const n = await page.evaluate(() => [...document.querySelectorAll(".v7-concept")].filter((c) => !c.hidden).length);
+        if (n < 1 || n > 20) fails.push(`${tag}: folded search 'kisiye saldiri' shows ${n}`);
+        await page.fill("#cq", ""); await page.click('.v7-cl-chips [data-tier="detected"]'); await sleep(200);
+        const d = await page.evaluate(() => [...document.querySelectorAll(".v7-concept")].filter((c) => !c.hidden).every((c) => c.dataset.tier === "detected") && [...document.querySelectorAll(".v7-concept")].filter((c) => !c.hidden).length);
+        if (!d) fails.push(`${tag}: tier chip filter wrong`);
+        await page.click('.v7-cl-chips [data-tier="all"]');
+      }
+    }
     if (route === "#/ilan") {
       const rows = async (t) => { await page.fill("#ilanq", t); await sleep(400); return page.evaluate(() => [document.querySelectorAll(".v7-ilan-row").length, (document.querySelector("#ilanres") || {}).textContent || ""]); };
       const [n] = await rows("icra");

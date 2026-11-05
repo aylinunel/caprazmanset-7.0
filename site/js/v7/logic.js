@@ -97,6 +97,14 @@ function ilanSearch(items, q) {
   }).sort(function (a, b) { return a.d < b.d ? 1 : a.d > b.d ? -1 : 0; });
 }
 
+/* Yöntem anchors: new ids pass through; the numeric ones other pages used before 7.0 map onto them. */
+var YONTEM_OLD = { "2": "veri", "3": "olay", "4": "dil", "5": "olay", "6": "anlati", "7": "dil", "8": "veri", "9": "sinir", "10": "veri",
+  "11": "yz", "12": "yzicerik", "v5": "veri", "kutuphane": "kavramlar" };
+function yontemAnchor(s) {
+  s = s == null ? "" : String(s);
+  return Object.prototype.hasOwnProperty.call(YONTEM_OLD, s) ? YONTEM_OLD[s] : s;
+}
+
 function redirectRoute(path, params) {
   params = params || {};
   if (path.indexOf("/bulgular") === 0) return "/oruntu?q=secim";
@@ -107,5 +115,5 @@ function redirectRoute(path, params) {
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { trFold: trFold, weekEvents: weekEvents, pickWeek: pickWeek, narrGroups: narrGroups, orderOutlets: orderOutlets,
-    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute };
+    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, yontemAnchor: yontemAnchor };
 }

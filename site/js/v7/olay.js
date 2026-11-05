@@ -1,7 +1,7 @@
 /* v7 Olay: the single event page. Header, narrative map, split card + all headlines, cognitive review, timing, outlets. */
 
 function olayHead(e) {
-  var bs = e.bs ? bsBadge(e, true) : '<span class="xsmall">Kör nokta kuralını karşılamıyor. <a class="lnk" href="#/yontem?s=5">Kural</a></span>';
+  var bs = e.bs ? bsBadge(e, true) : '<span class="xsmall">Kör nokta kuralını karşılamıyor. <a class="lnk" href="#/yontem?s=olay">Kural</a></span>';
   return '<div class="xcrumb"><a href="#/olaylar">Olaylar</a> › ' + tpChips(e, 4) + "</div>" +
     '<h1 class="xh1">' + esc(e.t) + "</h1>" +
     '<div class="xmeta" style="margin-top:10px"><span class="xdt">' + fmtDT(e.f) + " – " + fmtDT(e.l) + "</span><span>" + e.n + " başlık · " +
