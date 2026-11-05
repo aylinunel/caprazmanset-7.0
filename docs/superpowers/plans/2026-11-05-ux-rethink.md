@@ -34,21 +34,23 @@
 
 ---
 
-### Task 1: Homepage hero finish and ticker removal
+### Task 1: Fog split-card hero and ticker removal
 
-Builds on the hero already in `site/js/v7/dots.js` (dmHero / dmHeroMake, being finished in the restyle plan's fix round).
+Replaces the LED-billboard hero (dmHero / dmHeroMake in `site/js/v7/dots.js`) with the spec §3.1.1 fog hero. The dot engine's page-header band (`dmMake`, `dmHeads`, `dmMount`) stays.
 
-**Files:** Modify `site/js/v7/dots.js` (dmHero copy), `site/js/v7/home.js` (pgHome7), `site/js/app.js` (`cyberChrome`), `site/styles.css`, `site/tests/smoke.cjs`.
+**Files:** Create `site/js/v7/fog.js` (hero markup builder + clock + WebGL2 fog); modify `pipeline/capraz_pipeline/site.py` (`V7_ORDER`: add "fog" after "dots"), `site/js/v7/dots.js` (delete dmHero/dmHeroMake and their CSS hooks), `site/js/v7/home.js`, `site/js/app.js` (`cyberChrome`, `v2bAfter` → call `fogMount(view)`), `site/styles.css`, `site/tests/smoke.cjs`.
 
-**Interfaces:** Produces element `#bu-hafta` (the feed section anchor, filled by Task 4).
+**Interfaces:**
+- Produces `fogHero(e) -> html` (uses `SPLITPAIR[e.i] || defaultPair(e)`, `artOf`, `compareHeads`, `markText`, `bloc`, `SRC`, `srcName`) and `fogMount(root)` (starts the clock on `.fh` if present; stops when removed or off-screen).
+- Produces element `#bu-hafta` (feed anchor, filled by Task 4) and `.fh-cta` link `href="#bu-hafta"`.
 
-- [ ] **Step 1:** In smoke.cjs add a check for route `#/`: `document.querySelector(".xtick")` must be null on every route, and `.dm-hero .dm-cta a` text must equal `Bu haftanın ayrışmalarını gör ↓` with `href="#bu-hafta"`. Run smoke → FAIL.
-- [ ] **Step 2:** `cyberChrome(path)` no longer inserts the ticker (delete the insertion; keep the function as a no-op only if other code calls it, else remove the call in `v2bAfter`).
-- [ ] **Step 3:** dmHero: primary button text `Bu haftanın ayrışmalarını gör ↓` linking `#bu-hafta` (smooth scroll via `scrollIntoView({behavior: reduced ? "auto" : "smooth"})` on click, `preventDefault`), plus a text link `Anlatı haritası` → `#/anlati` beside it (13px, underline, muted).
-- [ ] **Step 4:** pgHome7: remove the `.v7-htop` block (lede, example split card, button); after the hero emit `<section id="bu-hafta" class="v7-feed"></section>` (Task 4 fills it), then the rest of the page.
-- [ ] **Step 5:** Rebuild, run logic + smoke → pass. Screenshot `#/` 1280 light/dark, 390 light; confirm no ticker, button scrolls to the anchor.
-- [ ] **Step 6:** Commit `feat(site): hero CTA to this week's splits, remove ticker`.
-
+- [ ] **Step 1:** Smoke additions: on every route `.xtick` is null; on `#/` `.fh [role=group] button` count is 2 with exactly one `aria-pressed="true"`; clicking the second button (`--click ".fh [role=group] button:nth-child(2)"`), after 1.2 s the right set `.fh-set.r` has class `is-on`; `.fh-cta` text is `Bu haftanın ayrışmalarını gör ↓`. Run → FAIL.
+- [ ] **Step 2:** Ticker: `cyberChrome` no longer inserts `.xtick`.
+- [ ] **Step 3:** fog.js per spec §3.1.1 — port the reference's clock and shader verbatim except: the palette (left warm red-grey day `(.96,.90,.88)`/`(.80,.72,.71)`, right cool blue-grey `(.88,.91,.97)`/`(.70,.75,.85)`; dark theme: left `(.30,.20,.21)`/`(.14,.09,.10)`, right `(.20,.25,.36)`/`(.08,.11,.18)`, chosen by a uniform `D` = 1 in dark theme), no porch glow, 30 fps cap, IntersectionObserver gate, theme change re-reads colours. `--k`, `--k2`, `--dip`, `--sink` are set on the `.fh` element (not `:root`). Starts on the left set (k=0). Without WebGL2: `.fh-fog` gets a CSS gradient class and the clock still runs sink/colours.
+- [ ] **Step 4:** CSS (`/* 7.0 · fog hero */` block): sizes on `--u:min(calc(100vw/1600),calc(100vh/900))` (1px ≤ 820px), hero `height:calc(100svh - 64px)`, `min-height:560px`; sky fields as radial gradients blurred; card at hero scale (max-width calc(1100*var(--u)), headline Inter 500 calc(46*var(--u)) with `mark.mw` yellow highlights, label IBM Plex Mono, rail 6u in `--left`/`--right`, the tilted black band with the shared words in `--hl`); glass toggle 524u × 86u, radius 16u, rgba(120,132,140,.34) bg, 1px rgba(255,255,255,.2) border, blur(14u), `:before` highlight `linear-gradient(160deg,#f7f8dc,#e2ee9f 90%)` with opacity `--on`; text colours `color-mix` on `--k`; phone rules from spec.
+- [ ] **Step 5:** home.js: `fogHero(lead)` before `.wrap.page`; remove `.v7-htop` (lede, example split card, button) and the dmHero call; emit `<section id="bu-hafta" class="v7-feed"></section>` after the hero. dots.js: delete the hero code paths and their CSS.
+- [ ] **Step 6:** Rebuild; logic + smoke pass; screenshots of `#/` at 1280×800 light, 1280×800 dark, 390×844 light — at rest (left), mid-switch (≈300 ms after clicking right: card sunk in fog) and after the switch (right set, blue-tinted). LOOK at them.
+- [ ] **Step 7:** Commit `feat(site): fog split-card hero, remove ticker`.
 ### Task 2: Kindred tokens, type and chrome
 
 **Files:** Modify `site/styles.css` (one final block `/* 7.0 · Kindred style */` at the end), `site/head.html`, `site/js/app.js` (`navHTML`).
@@ -96,6 +98,7 @@ Builds on the hero already in `site/js/v7/dots.js` (dmHero / dmHeroMake, being f
 - [ ] **Step 1: Failing tests:** `weeklySplits` keeps events with `f` (first headline `"YYYY-MM-DDTHH:MM"`) within the 7 days ending `lastDay` (inclusive), `cov[0] ≥ 1 && cov[2] ≥ 1`, `s.length ≥ 6`, excludes `opt.exclude` ids, sorts by `p` desc then `s.length` desc; returns `[]` for none. Fixtures: 5 events covering each rule (pass `opt.cov` as a function so the test needs no D). `whatDiffers`: `{p:45}` → `"Birinde belirgin biçimde daha sert bir dil var"`; `{p:25}` → `"Birinde daha yüklü bir dil var"`; `{p:5}` → `"Aynı olay, farklı sözcükler"`; with `narr = {rows:[{blame:"A"},{blame:"B"}]}` and `{p:45}` → `"Sorumlu tutulan farklı"`. Run → FAIL.
 - [ ] **Step 2:** Implement both in logic.js and export. Run → PASS.
 - [ ] **Step 3:** home.js fills `#bu-hafta`: `<h2>Bu hafta en farklı anlatılan olaylar</h2>`, a 2-column (1 on ≤760px) grid of 6 cards, each `<a class="v7-fc" href="#/olay?e=ID">` with title (storyLabel 90), `splitCard(e, null, {small:true, link:false})`, the whatDiffers line and `N kurum verdi`; buttons `Daha fazla göster` (+6, hidden when none left) and link `Tüm olaylar →` (`#/olaylar`). Zero events → the Review-Focus line. Exclude the hero's event.
+- [ ] **Step 3b:** Feed-card dot effect: on `pointerenter`/`focus` (and first tap on touch) of a `.v7-fc`, overlay each `mark.mw` in the card with a small canvas that renders the word as dots (reuse dots.js helpers: `dmHash`, quantised LEVELS) and runs a 1.2 s crackle-and-reform once (seed-ordered dissolve front, then re-form); nothing runs while idle; disabled under reduced motion. Smoke: hovering the first `.v7-fc` adds a `canvas.dm-word` inside it.
 - [ ] **Step 4:** Replace the 10-card grid with `Çapraz Manşet nasıl çalışır` (three steps: Karşılaştır — "Aynı olayın bütün başlıklarını yan yana koyarız."; Fark et — "Kurumlar arasında ayrışan sözcükleri işaretleriz."; Ölç — "Bu farkların haftalar boyunca tekrar edip etmediğini sayarız.") and `Daha derine in` (five links: label + NAV_SUB). Keep the agenda network section, retitled `Kim kiminle aynı haberleri seçiyor?`.
 - [ ] **Step 5:** Rebuild; logic + smoke; screenshot `#/` scrolled to the feed at 1280 and 390.
 - [ ] **Step 6:** Commit `feat(site): this week's splits feed on the homepage`.
