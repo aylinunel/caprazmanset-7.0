@@ -28,3 +28,9 @@ Decision: push.
 - Simplicity/Karpathy: one appended override block (house style: later rules win); dead warm rules left shadowed — deferred cleanup (Task 10) rather than a sweeping delete in this task.
 - Security/performance: CSS + one class name; nothing new at runtime.
 Decision: push.
+
+## Push of b7329d5, bcb795d (UX Task 3: nav names, tabs, redirects)
+- Correctness: redirect table unit-tested (logic 12/12); smoke ok incl. old routes and a topic-chip filter assertion; touch targets 44px.
+- Simplicity/Karpathy: tabs merged by reusing existing renderers; dead code (v3noticeEventsPage, v3sub stub) noted for Task 10 cleanup rather than removed here.
+- Security: search input goes to #/ara via the existing search renderer (escaped there).
+Decision: push.
