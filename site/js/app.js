@@ -8336,6 +8336,7 @@ function pgVeriler() {
   }
   return h + "</div>";
 }
+/*@@V7@@*/
 rev7Init();
 /* The measures are exposed for inspection. This is a research tool: anyone
    who wants to check a published number should be able to recompute it in the

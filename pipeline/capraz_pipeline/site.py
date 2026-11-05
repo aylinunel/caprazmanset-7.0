@@ -12,6 +12,7 @@ from pathlib import Path
 from .config import REPO, SCORER
 
 SITE = REPO / "site"
+V7_ORDER = ["logic", "core", "anlati", "olay", "oruntu", "kurum", "yontem", "ilan"]
 
 
 def assemble(data_dir: Path, dest: Path, title: str = "Çapraz Manşet 7.0", fragment: bool = False) -> Path:
@@ -20,6 +21,9 @@ def assemble(data_dir: Path, dest: Path, title: str = "Çapraz Manşet 7.0", fra
     app = (SITE / "js" / "app.js").read_text(encoding="utf-8")
     assert "/*@@RULES@@*/" in app, "app.js lost its shared-rules marker"
     app = app.replace("/*@@RULES@@*/", rules)
+    assert "/*@@V7@@*/" in app, "app.js lost its v7 marker"
+    v7 = [SITE / "js" / "v7" / (n + ".js") for n in V7_ORDER]
+    app = app.replace("/*@@V7@@*/", "\n".join(f.read_text(encoding="utf-8") for f in v7 if f.exists()))
     code = lambda s: s.replace("</script", "<\\/script")  # keep inline code from closing its tag
     html = "\n".join([
         "<!doctype html>", '<html lang="tr">', "<head>", '<meta charset="utf-8">',
