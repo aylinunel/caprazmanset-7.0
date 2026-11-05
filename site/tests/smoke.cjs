@@ -36,6 +36,12 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       const got = (await page.$$eval(".xnav-l a", (as) => as.map((a) => a.textContent.trim()))).join(",");
       if (got !== expectNav) fails.push(`${tag}: nav "${got}" != "${expectNav}"`);
     }
+    if (route.startsWith("#/olaylar?t=liste&f=konu") && w === 1280) {
+      const n0 = await page.$eval("#fcount", (e) => e.textContent);
+      await page.click(".v7-tchips .chip"); await sleep(800);
+      const n1 = await page.$eval("#fcount", (e) => e.textContent);
+      if (n0 === n1) fails.push(`${tag}: topic chip did not change event count (${n0})`);
+    }
     if (route.startsWith("#/olay?e=")) {
       const ok = await page.evaluate(() => {
         const m = document.querySelector(".v7-map"); if (!m) return "ok";
