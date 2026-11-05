@@ -16,6 +16,16 @@ a section on each reviewed event's page, and Yöntem § 11.
 | Source | `backfill-data` branch of `aylinunel/turkish-news-scraper` (runs and `data/recent` up to 4 Nov 14:42 UTC) |
 | BiasGuard | 116-concept catalog, top events by outlet count, reviewed by separate Claude Code agents (no API key); see `biasguard/AGENT_REVIEW.md` |
 
+## Site structure (7.0)
+
+Anlatı (homepage: interactive narrative map) · Olaylar (list + one complete page per event) ·
+Örüntüler (four question pages: Kim neyi haber yapıyor, Nasıl anlatıyor, Kimi sorumlu tutuyor,
+Kim önce veriyor) · Kurumlar · Yöntem (incl. Türkiye bağlamı and the concept library) · Resmî ilan bul ·
+Benim · Yönetim (owner-only AI review desk). AI-made content carries a "YZ" badge and a dotted rule.
+Design: `docs/superpowers/specs/2026-11-05-capraz-7-structure-design.md`; plan:
+`docs/superpowers/plans/2026-11-05-capraz-7-structure.md`. Views live in `site/js/v7/`; tests in
+`site/tests/` (`node --test site/tests/logic.test.cjs`, `node site/tests/smoke.cjs <site> <out>`).
+
 ## Open the site
 
 `public/` is the whole site. Serve it with any static server:

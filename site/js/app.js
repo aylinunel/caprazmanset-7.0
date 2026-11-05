@@ -3920,7 +3920,7 @@ function feedFilters() {
     (bg7() ? '<div class="xf"><span class="xfl">Bilişsel inceleme</span>' + fSel("fbg", "Bütün olaylar", [["rev", "İncelenen olaylar (" + bg7().summary.completed + ")"]].concat(
       Object.keys(bg7Stats()).filter(function (k) { return bg7Stats()[k].unc + bg7Stats()[k].sup; })
         .sort(function (a, b) { return bg7Stats()[b].unc - bg7Stats()[a].unc; })
-        .map(function (k) { return [k, "Bağlam gerekli: " + bg7Stats()[k].name + " (" + (bg7Stats()[k].unc + bg7Stats()[k].sup) + ")"]; })), "Bilişsel inceleme") + "</div>" : "") +
+        .map(function (k) { return [k, "YZ: " + bg7Stats()[k].name + " (" + (bg7Stats()[k].unc + bg7Stats()[k].sup) + ")"]; })), "Bilişsel inceleme") + "</div>" : "") +
     '</div><p class="xsmall">Taraf, her tarafın verdiği kurum sayısı kendi etkin kurum sayısına bölündükten sonra ' +
     'hesaplanır (kör nokta kuralıyla aynı): sol payı %60 ve üstü “solda daha çok”, %40 ve altı “sağda daha çok”. ' +
     'Haber türü olaydaki başlıkların çoğunun bölümü; yanlılık türü, olaydaki en az bir başlıkta görülen yapı.</p></details>';
@@ -3943,7 +3943,7 @@ function feedChips() {
   if (F.side) c.push({ left: "solda daha çok", mid: "dengeli", right: "sağda daha çok", bs: "kör nokta" }[F.side]);
   if (F.src) c.push(srcName(F.src));
   if (F.vmin) c.push("yoğunluk ≥ " + F.vmin);
-  if (F.bg) c.push(F.bg === "rev" ? "bilişsel inceleme yapılan" : "bağlam gerekli: " + (bg7Stats()[F.bg] || {}).name);
+  if (F.bg) c.push(F.bg === "rev" ? "bilişsel inceleme yapılan" : "YZ: " + (bg7Stats()[F.bg] || {}).name);
   box.innerHTML = c.length ? c.map(function (x) { return '<span class="xfchip">' + esc(x) + "</span>"; }).join("") +
     '<button class="chip" data-freset>Temizle</button>' : "";
   wireFeedReset(box);
