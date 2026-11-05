@@ -36,6 +36,18 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       const got = (await page.$$eval(".xnav-l a", (as) => as.map((a) => a.textContent.trim()))).join(",");
       if (got !== expectNav) fails.push(`${tag}: nav "${got}" != "${expectNav}"`);
     }
+    if (route.startsWith("#/olay?e=")) {
+      const ok = await page.evaluate(() => {
+        const m = document.querySelector(".v7-map"); if (!m) return "ok";
+        const sp = document.querySelector(".xspwrap");
+        if (sp && !(m.compareDocumentPosition(sp) & 4)) return ".v7-map must precede .xspwrap";
+        for (const el of document.querySelectorAll("[data-cm3], .cm3-voices, .cm3-counter, .xvoices"))
+          if (el.compareDocumentPosition(m) & 2) return "v3 block before .v7-map";
+        const yz = [].map.call(document.querySelectorAll(".yz"), (x) => x.textContent).join(" ");
+        return /bağlam gerekli|desteklendi|inceleyiciler ayrıştı/.test(yz) ? "status label in .yz" : "ok";
+      });
+      if (ok !== "ok") fails.push(`${tag}: ${ok}`);
+    }
     for (const [er, js] of evals) if (er === route && !(await page.evaluate(js))) fails.push(`${tag}: eval false: ${js}`);
     if (await page.$(".v7-empty-bug")) fails.push(`${tag}: .v7-empty-bug present`);
     await page.screenshot({ path: path.join(outDir, `${route.replace(/[^a-z0-9]+/gi, "_")}-${w}-${theme}.png`) });

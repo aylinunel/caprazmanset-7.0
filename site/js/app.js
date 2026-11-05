@@ -4705,74 +4705,6 @@ function mixBar(counts, colors) {
 var OWNCOL = ["var(--ink2)", "var(--muted)", "var(--line2)", "#9a8f7a", "#7f8fa6", "#b7a99a", "#a3b1a1", "#c9c2d6"];
 
 var ARTSIDE = "all", ARTSORT = "time";
-function storyTop(e) {
-  var c = covOf(e), act = V2.active || {};
-  var arts = e.a.map(function (i) { return ART[i]; });
-  var own = {}, grp = {};
-  e.s.forEach(function (s) { var o = ownOf(s); own[o[0]] = (own[o[0]] || 0) + 1; grp[o[1]] = (grp[o[1]] || 0) + 1; });
-  var nrep = Object.keys(e.rep || {}).length;
-  var related = D.E.filter(function (x) { return x !== e && x.tp.some(function (k) { return e.tp.indexOf(k) >= 0; }); })
-    .sort(function (a, b) {
-      var sa = a.tp.filter(function (k) { return e.tp.indexOf(k) >= 0; }).length,
-        sb = b.tp.filter(function (k) { return e.tp.indexOf(k) >= 0; }).length;
-      return sb - sa || b.s.length - a.s.length; }).slice(0, 4);
-  var flagged = (lsGet("cm2-sumflags", []) || []).some(function (f) { return f.e === e.i; });
-
-  var h = '<div class="wrap page xstory"><div class="xcrumb"><a href="#/olaylar">Olaylar</a> › ' + tpChips(e, 4) + "</div>" +
-    '<div class="xmeta" style="margin-top:10px"><span class="xpl">' + esc(e.pl) + '</span><span class="xdt">İlk haber ' +
-    fmtDT(e.f) + " · son haber " + fmtDT(e.l) + "</span>" + bsBadge(e, true) + "</div>" +
-    '<h1 class="xh1">' + esc(e.t) + "</h1>" +
-    '<div class="xstory-grid"><div>' +
-    '<div class="xsum"><div class="xsum-h"><span class="eyebrow">Özet</span>' +
-    (e.sum ? '<button class="xflag' + (flagged ? " on" : "") + '" id="sumflag" data-e="' + e.i + '">' +
-    (flagged ? "Bildirildi — teşekkürler" : "Bu özet yanlış mı?") + "</button>" : "") + "</div>" +
-    (e.sum ? "<p>" + esc(e.sum) + "</p>" : '<p class="xsmall" style="font-size:14px">Bu olay için elle yazılmış bir özet yok. ' +
-      "Özetler, en az 10 kurumun verdiği " + (V2.hand || 0) + " olay için yazıldı; bu olayın başlığı en az yüklü başlıktan alındı. " +
-      "Aşağıda bütün başlıklar var.</p>") +
-    '<div class="xflagform" id="flagform" hidden><label class="xsmall" for="flagnote">Neyin yanlış olduğunu kısaca yazın (isteğe bağlı)</label>' +
-    '<textarea id="flagnote" rows="2" maxlength="400"></textarea><button class="chip" id="flagsend">Bildir</button></div>' +
-    (e.sum ? '<p class="xsmall">Özet, bu olaydaki ' + e.n + " başlıktan yazıldı; haber metinleri okunmadı. " +
-    "Kurumların farklı verdiği rakamlar özette ayrıca belirtilir.</p>" : "") + "</div>" +
-    '<div class="xsec-h" style="margin-top:28px"><h2>Bütün haberler</h2><span class="mono xsmall">' + v3evCountLine(e) + "</span></div>" +
-    '<div class="xtabs" id="atabs">' + [["all", "Hepsi", e.n], ["left", "Sol", 0], ["mid", "Merkez", 0], ["right", "Sağ", 0]]
-      .map(function (t) {
-        var n = t[0] === "all" ? t[2] : arts.filter(function (a) { return sideOf(a.s) === t[0]; }).length;
-        return '<button class="xtab' + (t[0] === ARTSIDE ? " on" : "") + '" data-as="' + t[0] + '"' + (n ? "" : " disabled") + ">" +
-          t[1] + ' <span class="num">' + n + "</span></button>"; }).join("") +
-    '<select id="asort" style="margin-left:auto"><option value="time">Zamana göre</option>' +
-    '<option value="lean">Yerleşime göre (sol → sağ)</option><option value="load">Yüklü dile göre</option></select></div>' +
-    '<div id="alist"></div>' +
-    "</div>" +
-    '<aside class="xpanel"><div class="eyebrow">Kapsama ayrıntısı</div>' +
-    '<div class="xkpis"><div><b class="num">' + v3newsOutletCount(e) + "</b><span>kurum</span></div>" +
-    '<div><b class="num" style="color:var(--left)">' + c[0] + "</b><span>sol</span></div>" +
-    '<div><b class="num" style="color:var(--mid)">' + c[1] + "</b><span>merkez</span></div>" +
-    '<div><b class="num" style="color:var(--right)">' + c[2] + "</b><span>sağ</span></div></div>" +
-    bbar(e, true) +
-    '<p class="xsmall" style="margin-top:8px">Kendi kurum sayısına göre (sol ' + ((e.auto && D.meta.v3 ? D.meta.v3.active : act).left || "?") + ", sağ " + ((e.auto && D.meta.v3 ? D.meta.v3.active : act).right || "?") +
-    " etkin kurum): sol %" + (e.ns ? e.ns[0] : "?") + ", sağ %" + (e.ns ? e.ns[1] : "?") + ". " +
-    (e.bs ? "Bu fark kör nokta kuralını karşılıyor." : "Kör nokta kuralını karşılamıyor.") +
-    ' <a class="lnk" href="#/yontem?s=5">Kural</a></p>' +
-    '<div class="xstrip">' + ["left", "mid", "right"].map(function (sd) {
-      var ss = e.s.filter(function (s) { return sideOf(s) === sd; });
-      return ss.length ? '<div><span class="xlean ' + sd + '">' + SIDE[sd] + "</span>" + ss.map(function (s) {
-        return '<a href="#/kurum?s=' + s + '">' + esc(srcName(s)) + "</a>"; }).join("") + "</div>" : "";
-    }).join("") + "</div>" +
-    '<div class="eyebrow" style="margin-top:20px">Sahiplik</div>' + mixBar(own, OWNCOL) +
-    '<p class="xsmall" style="margin-top:6px">' + Object.keys(grp).filter(function (g) { return grp[g] > 1; })
-      .map(function (g) { return "<b>" + esc(g) + "</b> grubundan " + grp[g] + " kurum"; }).join(" · ") +
-    (Object.keys(grp).some(function (g) { return grp[g] > 1; }) ? ". " : "") +
-    "Sahiplik bilgisi kayıt defterinden; tarihsiz ve doğrulanmamıştır.</p>" +
-    '<div class="eyebrow" style="margin-top:20px">Özgün başlık</div>' +
-    '<p style="margin-top:6px"><b class="num">%' + Math.round(100 * (e.n - nrep) / e.n) + "</b> " +
-    (nrep ? "— " + nrep + " başlık başka bir kurumun başlığının neredeyse aynısı (ajans aktarımı ya da kopya)." :
-      "— kopya başlık saptanmadı.") + "</p>" +
-    '<div class="eyebrow" style="margin-top:20px">Yüklü dil</div><p style="margin-top:6px">Ortalama yoğunluk <b class="num">' + e.m +
-    "</b>, başlıklar arası aralık <b class=\"num\">" + e.p + "</b> puan.</p>" +
-    "</aside></div>";
-  if (related.length) h += '<section class="sec"><h2>İlgili olaylar</h2><div class="xcards">' + cards(related) + "</div></section>";
-  return h + "</div>";
-}
 /* Ledes are loaded on demand (window.cmLedes, see loader.js) and then shown under each headline. */
 var LEDES5 = null;
 function ledeButton5() {
@@ -5050,20 +4982,6 @@ function v2After(path, tab, params) {
     ARTSIDE = "all";
     [].forEach.call(document.querySelectorAll("[data-as]"), function (o) { o.classList.toggle("on", o.getAttribute("data-as") === "all"); });
     draw();
-    var fb = $("#sumflag");
-    if (fb) fb.onclick = function () {
-      var fl = lsGet("cm2-sumflags", []) || [];
-      if (fl.some(function (f) { return f.e === e.i; })) return;
-      var ff = $("#flagform"); if (ff) { ff.hidden = false; var ta = $("#flagnote"); if (ta) ta.focus(); }
-    };
-    var fs = $("#flagsend");
-    if (fs) fs.onclick = function () {
-      var fl = lsGet("cm2-sumflags", []) || [];
-      fl.push({ e: e.i, at: new Date().toISOString(), note: (($("#flagnote") || {}).value || "").slice(0, 400) });
-      var ok = lsSet("cm2-sumflags", fl), ff = $("#flagform");
-      if (ff) ff.hidden = true;
-      if (fb) { fb.textContent = ok ? "Bildirildi — teşekkürler" : "Bu tarayıcıda kaydedilemedi"; if (ok) fb.classList.add("on"); }
-    };
   }
   if (path === "/benim" && tab === "denge") {
     var cr = $("#clearread");
@@ -7338,15 +7256,13 @@ function v3After(path, tab, params) {
   }
 
   if (v3ext()) {
-    if (path === "/olay" && EV[params.e]) add(view.querySelector(".xh1"), "afterend", v3extEventNote(EV[params.e]));
     if (path === "/olaylar" && (!tab || tab === "liste")) add(view.querySelector(".phead"), "beforeend", v3extFeedNote());
     if (path === "/yontem") add(document.getElementById("s3"), "beforebegin", v3extMethod());
   }
 
   if (path === "/olay" && EV[params.e]) {
     var e = EV[params.e];
-    if (v3on("ownerVoices")) add(view.querySelector(".xh1"), "afterend", v3voices(e));
-    if (v3on("echoChain")) {
+        if (v3on("echoChain")) {
       add(view.querySelector("#alist"), "afterend", v3echo(e));
       add(view.querySelector(".divg"), "afterend", '<p class="xsmall" data-cm3>' + esc(t3("countedOnce")) + "</p>");
     }
