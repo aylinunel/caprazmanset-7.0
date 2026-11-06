@@ -26,7 +26,8 @@ function feedHTML(lead) {
     '<div class="v7-fm"><button type="button" class="xbtn" id="feed-more"' + (FEED.shown >= FEED.list.length ? " hidden" : "") + ">Daha fazla göster</button>" + all + "</div></div>";
 }
 function pgHome7() {
-  var lead = leadEvent();
+  var top = weeklySplits(D.E, DAYS[DAYS.length - 1], { cov: covOf }).filter(function (e) { return defaultPair(e); });
+  var lead = top[0] || leadEvent();
   var step = function (n, t, l) { return '<li><span class="num">' + n + "</span><b>" + t + "</b><span>" + l + "</span></li>"; };
   var deep = ["/olaylar", "/anlati", "/oruntu", "/kurumlar", "/yontem"].map(function (r) {
     var nv = NAV.filter(function (n) { return n[0] === r; })[0];
@@ -39,7 +40,7 @@ function pgHome7() {
     step(3, "Ölç", "Bu farkların haftalar boyunca tekrar edip etmediğini sayarız.") + "</ol></section>";
   h += '<section><h2 class="v7-hh">Daha derine in</h2><div class="v7-hgrid">' + deep + "</div></section>";
   if (ADV && ADV.agenda) h += '<section class="v7-hnet"><div class="v7-hnet-t"><p class="eyebrow">Gündem ağı · ' + ADV.agenda.order.length + ' kurum</p><h2 class="v7-hh">Kim kiminle aynı haberleri seçiyor?</h2>' +
-    '<p class="lede">Birlikte çok olay haber yapan kurumlar birbirine çekilir. Renk kayıt defterindeki yerleşim, büyüklük verilen olay sayısı. Bir kuruma gelin, komşuları öne çıksın.</p>' +
+    '<p class="lede">Birlikte çok olay haber yapan kurumlar birbirine çekilir. Renk kayıt defterindeki yerleşim, büyüklük verilen olay sayısı. Bir kuruma " + orTap() + ", komşuları öne çıksın.</p>' +
     '<a class="lnk" href="#/oruntu?q=secim&f=secim-gundem">Bulgunun tamamı →</a></div>' + g6Box("agenda", "", "Kurumların gündem benzerliği ağı") + "</section>";
   return h + "</div>";
 }

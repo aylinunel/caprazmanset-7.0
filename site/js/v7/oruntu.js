@@ -353,7 +353,7 @@ function orFindLoaded() {
     read: "Her nokta bir kurum; sağa gittikçe daha yüklü dil. Çizgi kurumu kendi bloğunun ortalamasına bağlar.",
     table: vzTable(["Kurum", "Blok", "Siyasi başlık", "Ortalama puan", "Yüklü başlık payı", "Bloğunun ortalaması"], by.map(function (r) {
       var b = bloc(r.s); return [srcName(r.s), SIDE[b] || "yerleşimsiz", orN(r.n), dec(r.mean, 1), orP(r.share), bm(b) == null ? "—" : dec(bm(b), 1)]; })),
-    means: "Kurumlar arasındaki fark " + dec(hi.mean - lo.mean, 1) + " puan; blok ortalamaları arasındaki en büyük fark " + dec(Math.max(bm("left"), bm("mid"), bm("right")) - Math.min(bm("left"), bm("mid"), bm("right")), 1) + " puan. " +
+    means: "Kurumlar arasındaki fark " + dec(hi.mean - lo.mean, 1) + " puan; blok ortalamaları arasındaki en büyük fark " + (bv.length ? dec(Math.max.apply(null, bv) - Math.min.apply(null, bv), 1) : "0") + " puan. " +
       "Puan, sözcük kurallarının saptadığı yüklü ifade yoğunluğudur; bir kurumun yazdığı konular farklı olduğundan (savaş ya da yargı haberi daha çok yüklü sözcük içerir) fark yalnızca üslup farkı değildir. " +
       "Ölçüyü ve sırayı değiştirerek aynı verinin başka okumalarına bakabilirsiniz.",
     how: orHow(["Başlıklar kural tabanlı puanlayıcıyla puanlanır; ‘yüklü başlık’ = puan 25 ve üzeri (tek yüklü unsur bandı ve üstü).",

@@ -28,7 +28,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     await ctx.addInitScript((t) => { try { localStorage.setItem("yh-theme", t); } catch (e) {} }, theme);
     const page = await ctx.newPage(), tag = `${route} ${w} ${theme}`;
     page.on("pageerror", (e) => fails.push(`${tag}: pageerror ${e.message}`));
-    page.on("console", (m) => { if (m.type() === "error") fails.push(`${tag}: console ${m.text()}`); });
+    page.on("console", (m) => { if (m.type() === "error") fails.push(`${tag}: console ${m.text()}`); if (/Too many active WebGL contexts/.test(m.text())) fails.push(`${tag}: WebGL context leak: ${m.text()}`); });
     await page.goto(`http://127.0.0.1:${port}/index.html${route}`);
     await sleep(first ? 9000 : 2500); first = false;
     if (w === 390 && await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) fails.push(`${tag}: horizontal scroll`);
@@ -183,6 +183,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       const fd = await page.evaluate(() => [document.querySelectorAll("#bu-hafta .v7-fc").length, !!document.querySelector("#bu-hafta h2"), !!document.querySelector(".v7-steps"), document.querySelectorAll(".v7-hgrid .v7-hc").length, document.documentElement.scrollWidth > innerWidth]);
       if (fd[0] > 6 || !fd[1] || !fd[2] || fd[3] !== 5) fails.push(`${tag}: homepage feed/steps/links wrong: ${fd}`);
       if (w === 390 && fd[4]) fails.push(`${tag}: home horizontal scroll`);
+      const hid = await page.evaluate(() => { const E = {}; CM.data.E.forEach((e) => { E[e.i] = e; }); const fh = document.querySelector(".fh"), h = fh && E[fh.getAttribute("data-e")], cards = [...document.querySelectorAll("#bu-hafta .v7-fc")].map((c) => E[c.getAttribute("href").split("e=")[1]]);
+        return [h ? h.i : null, cards.some((c) => c && h && c.i === h.i), cards[0] && h ? h.p >= cards[0].p : true, h ? h.s.length >= 6 : false]; });
+      if (!hid[0] || hid[1] || !hid[2] || !hid[3]) fails.push(`${tag}: hero event is not the week's biggest split (repeated in feed ${hid[1]}, p >= first card ${hid[2]}, >=6 outlets ${hid[3]}): ${hid[0]}`);
+      if (w === 1280 && theme === "light") {
+        for (let i = 0; i < 10; i++) { await page.evaluate(() => { location.hash = "#/olaylar"; }); await sleep(250); await page.evaluate(() => { location.hash = "#/"; }); await sleep(350); }
+        const nc = await page.evaluate(() => document.querySelectorAll(".fh canvas").length);
+        if (nc !== 1) fails.push(`${tag}: ${nc} .fh canvas after 10 revisits`);
+      }
       if (fd[0] && w >= 1280) {
         await page.hover("#bu-hafta .v7-fc"); await sleep(250);
         if (!await page.$("#bu-hafta .v7-fc canvas.dm-word")) fails.push(`${tag}: hover adds no canvas.dm-word`);

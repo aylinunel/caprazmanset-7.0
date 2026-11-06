@@ -29,6 +29,7 @@ var FOG_FS = "#version 300 es\nprecision highp float;\n" +
   "  O=vec4(c*a,a);\n" +
   "}";
 
+var FOG_LIVE = null;
 function fogDark() {
   var t = document.documentElement.getAttribute("data-theme");
   return t === "dark" || (t !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
@@ -54,7 +55,7 @@ function fogHero(e) {
     btns = '<div class="fh-toggle" role="group" aria-label="Hangi kurumun başlığı">' + btn(a, true) + btn(b, false) + "</div>";
     cap = shared ? '<p class="fh-cap">Ortak olan: ' + esc(shared) + "</p>" : "";
   }
-  return '<section class="fh' + (sets ? "" : " empty") + '" aria-label="Çapraz Manşet">' +
+  return '<section class="fh' + (sets ? "" : " empty") + '"' + (e ? ' data-e="' + esc(e.i) + '"' : "") + ' aria-label="Çapraz Manşet">' +
     '<div class="fh-sky" aria-hidden="true"><i class="fh-sk l"></i><i class="fh-sk r"></i></div>' +
     (sets ? '<div class="fh-home"><div class="fh-card">' + sets + band + "</div></div>" : "") +
     '<div class="fh-tilt" aria-hidden="true"></div><canvas class="fh-fog" aria-hidden="true"></canvas>' +
@@ -65,7 +66,9 @@ function fogHero(e) {
 
 function fogMount(root) {
   var el = (root || document).querySelector(".fh");
+  if (FOG_LIVE && FOG_LIVE !== el) { FOG_LIVE._down && FOG_LIVE._down(); FOG_LIVE = null; }
   if (!el || el._fh) return;
+  FOG_LIVE = el;
   var cv = el.querySelector(".fh-fog"), bt = [].slice.call(el.querySelectorAll(".fh-toggle button")), sets = [el.querySelector(".fh-set.l"), el.querySelector(".fh-set.r")];
   var S = el._fh = { k: 0, target: 0, from: 0, start: 0, queued: null, swapped: true, animating: false, vis: true, last: 0, raf: 0, dark: fogDark() ? 1 : 0, still: 0 };
   var gl = null, U = {};
@@ -113,7 +116,15 @@ function fogMount(root) {
     draw(now, s);
   };
   var begin = function (n, now) { S.target = n; S.from = S.k; S.start = now; S.swapped = false; S.animating = true; };
-  var alive = function () { return document.body.contains(el); };
+  var offs = [], down = function () {
+    if (S.dead) return; S.dead = true; S.vis = false;
+    if (S.raf) cancelAnimationFrame(S.raf);
+    offs.forEach(function (f) { f(); }); offs = [];
+    try { var x = gl && gl.getExtension("WEBGL_lose_context"); if (x) x.loseContext(); } catch (e) {}
+    el._down = null; if (FOG_LIVE === el) FOG_LIVE = null;
+  };
+  el._down = down;
+  var alive = function () { if (S.dead) return false; if (document.body.contains(el)) return true; down(); return false; };
   var loop = function () {
     if (S.raf || !S.vis || !alive() || dmCalm()) return;
     S.raf = requestAnimationFrame(function (now) {
@@ -137,11 +148,16 @@ function fogMount(root) {
     ev.preventDefault(); t.scrollIntoView({ behavior: dmCalm() ? "auto" : "smooth", block: "start" });
   });
   /* Off-screen: stop. Theme change: re-read the colours (the CSS side follows the tokens by itself). */
-  if ("IntersectionObserver" in window) new IntersectionObserver(function (es) { S.vis = es[0].isIntersecting; if (S.vis) loop(); }).observe(el);
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) { if (!alive()) return; S.vis = es[0].isIntersecting; if (S.vis) loop(); }); io.observe(el);
+    offs.push(function () { io.disconnect(); });
+  }
   var retheme = function () { if (!alive()) return; S.dark = fogDark() ? 1 : 0; if (dmCalm() || !S.vis) still(); };
-  new MutationObserver(retheme).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
-  var mq = matchMedia("(prefers-color-scheme: dark)"); if (mq.addEventListener) mq.addEventListener("change", retheme);
-  addEventListener("resize", function () { if (alive()) { size(); if (dmCalm()) frame(performance.now()); } });
+  var mo = new MutationObserver(retheme); mo.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  offs.push(function () { mo.disconnect(); });
+  var mq = matchMedia("(prefers-color-scheme: dark)"); if (mq.addEventListener) { mq.addEventListener("change", retheme); offs.push(function () { mq.removeEventListener("change", retheme); }); }
+  var rz = function () { if (alive()) { size(); if (dmCalm()) frame(performance.now()); } };
+  addEventListener("resize", rz); offs.push(function () { removeEventListener("resize", rz); });
   set("--k", "0"); set("--k2", "0"); set("--dip", "0"); set("--sink", "0px"); set("--surge", "0");
   size(); frame(performance.now()); loop();
 }

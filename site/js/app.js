@@ -1167,8 +1167,8 @@ function pgSources(q) {
   var tab = tabOf(secFor("/kurumlar"), q);
   var h = '<div class="wrap page">';
   var kurumSwitch = function (v) {
-    return '<div class="v7-vsw" role="group" aria-label="Görünüm"><a class="chip" href="#/kurumlar?t=liste" aria-pressed="' + (v !== "harita") + '">Liste</a>' +
-      '<a class="chip" href="#/kurumlar?t=liste&v=harita" aria-pressed="' + (v === "harita") + '">Harita</a></div>';
+    return '<div class="v7-vsw" role="group" aria-label="Görünüm"><a class="chip" href="#/kurumlar?t=liste"' + (v !== "harita" ? ' aria-current="page"' : "") + '>Liste</a>' +
+      '<a class="chip" href="#/kurumlar?t=liste&v=harita"' + (v === "harita" ? ' aria-current="page"' : "") + '>Harita</a></div>';
   };
   var phToH2 = function (html) {
     return html.replace(/<div class="phead"><div class="eyebrow">[^<]*<\/div><h1>([^<]*)<\/h1>(<p class="lede">[\s\S]*?<\/p>)?<\/div>/,
@@ -4675,7 +4675,8 @@ function navHTML(path, over, tab) {
     return '<li><a class="xnav-a' + (n[0] === g ? " on" : "") + '" href="#' + n[0] + '" title="' + esc(NAV_SUB[n[0]] || "") + '"' + (n[0] === g ? ' aria-current="page"' : "") + ">" + n[1] + "</a></li>";
   }).join("");
   var mob = NAV.map(function (n) { return '<a href="#' + n[0] + '" class="' + (n[0] === g ? "is-active" : "") + '"><span>' + n[1] + '</span><small class="msub">' + esc(NAV_SUB[n[0]] || "") + "</small></a>"; }).join("") +
-    '<a href="#/benim" class="' + (g === "/benim" ? "is-active" : "") + '"><span>Benim</span></a><a href="#/ara"><span>Ara</span></a>';
+    '<a href="#/benim" class="' + (g === "/benim" ? "is-active" : "") + '"><span>Benim</span></a><a href="#/ara"><span>Ara</span></a>' +
+    '<button type="button" class="mobtheme theme-t" aria-label="Açık/koyu tema">Açık / koyu tema</button>';
   var h = '<header class="navbar xnav" id="nav"><div class="navrow">' +
     '<a class="brand" href="#/" aria-label="Çapraz Manşet, giriş"><img class="xlogo xlogo-l" src="' + (LOGO.h || "") + '" alt="Çapraz Manşet">' +
     '<img class="xlogo xlogo-d" src="' + (LOGO.hd || "") + '" alt="" aria-hidden="true"></a>' +
@@ -4850,7 +4851,7 @@ function pgSource(q) {
     nb: rr ? rr.nb.slice(0, 2).map(srcName) : [] });
   h += '<section class="sec v7-kisaca"><h2>Kısaca</h2><ul class="v7-brief">' + kis.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></section>";
   var rs = recentSplits(evs, k, { bloc: function (s) { return SRC[s] && SRC[s].lean != null ? bloc(s) : "none"; },
-    load: function (e, s) { var a = artOf(e, s); return a ? a.v : null; } });
+    load: function (e, s) { var a = artOf(e, s); return a ? a.v : null; }, min: 20 });
   if (rs.length) h += '<section class="sec"><h2>Son ayrışan başlıkları</h2><p class="sub">Bu kurumun, karşı yerleşimdeki bir kurumla başlık dilinin en çok ayrıştığı son beş olay.</p><div class="v7-fg">' +
     rs.map(function (x) {
       var a = artOf(x.e, k), b = artOf(x.e, x.other);
@@ -5372,9 +5373,10 @@ function v3ilanOverview() {
   var dk = DAYS.filter(function (d) { return d >= d0 && d <= d1; }), dvs = dk.map(function (d) { return days[d] || 0; });
   var dsum = dvs.reduce(function (a, b) { return a + b; }, 0);
   var pct = function (n) { return "%" + CM3.pct1(n / total); };
+  var pctP = function (n) { var s = CM3.pct1(n / total), d = s.replace(/\D/g, ""); return "%" + s + "’" + CM3.trSuffix(parseInt(d.slice(-1), 10)); };
   var dayWord = function (d) { return d ? +d.slice(8, 10) + " " + V3MONTH[+d.slice(5, 7) - 1] : ""; };
   return findingBlock({ id: "ilan-makam",
-    claim: "Resmî ilanların " + pct(top.n) + "'i “" + esc(top.label) + "” ailesinden; toplam " + orN(total) + " ilan var.",
+    claim: "Resmî ilanların " + pctP(top.n) + " “" + esc(top.label) + "” ailesinden; toplam " + orN(total) + " ilan var.",
     viz: v3bars(kr, total),
     read: "Dolu nokta ilan ailesini, içi boş nokta o ailedeki türü gösterir; her nokta bütün ilanlar içindeki payıdır.",
     how: "<p>" + esc(t3("nlKindSub")) + "</p>",
@@ -6455,14 +6457,13 @@ function route() {
     var open = mm.classList.toggle("open");
     b3.setAttribute("aria-expanded", open ? "true" : "false");
   };
-  var th = document.getElementById("theme");
-  if (th) th.onclick = function () {
+  [].slice.call(document.querySelectorAll("#theme, .theme-t")).forEach(function (th) { th.onclick = function () {
     var cur2 = document.documentElement.getAttribute("data-theme");
     var next = cur2 === "dark" ? "light" : cur2 === "light" ? "dark" :
       matchMedia("(prefers-color-scheme:dark)").matches ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next);
     try { localStorage.setItem("yh-theme", next); } catch (e) {}
-  };
+  }; });
 }
 
 /* ============================================================ 7.0 views

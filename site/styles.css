@@ -2315,3 +2315,13 @@ canvas.dm-word{position:absolute;left:0;top:0;width:100%;height:100%;pointer-eve
   outline:2px solid var(--ink);outline-offset:2px;box-shadow:0 0 0 4px var(--paper);border-radius:6px}
 .chip:focus-visible,.kp-chip:focus-visible{border-radius:999px}
 @media (max-width:760px){li>a[target=_blank]:first-child{display:inline-flex;align-items:center;min-height:44px;min-width:44px}}
+
+/* final fixes */
+.fh-cap{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+.mobtheme{display:none}
+@media (max-width:1080px){.xutil.xnav-pill{display:inline-flex;align-items:center;min-height:44px}}
+@media (max-width:760px){
+  .navtools #theme{display:none}
+  .mobmenu .mobtheme{display:block;width:100%;min-height:44px;margin-top:6px;padding:11px 14px;border:0;border-top:1px solid var(--line);border-radius:0;background:none;color:var(--ink2);font:500 14px var(--ff-b);text-align:left;cursor:pointer}
+}
+.xcrumb{align-items:center}.xcrumb [aria-current]{color:var(--ink2);overflow-wrap:anywhere;min-width:0}

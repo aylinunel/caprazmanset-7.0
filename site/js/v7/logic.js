@@ -150,7 +150,7 @@ function outletKisaca(o) {
 }
 
 /* The outlet's 5 most recent events (>= 5 outlets) where its headline load and an opposite-bloc outlet's load differ most.
-   opt.load(e, s) -> number|null, opt.bloc(s) -> "left"|"mid"|"right"|"none". Mid outlets compare with either side. */
+   opt.load(e, s) -> number|null, opt.bloc(s) -> "left"|"mid"|"right"|"none", opt.min = least load difference to list (default 0). Mid outlets compare with either side. */
 function recentSplits(events, s, opt) {
   var mine = opt.bloc(s), out = [];
   var cand = events.filter(function (e) { return e.s.indexOf(s) >= 0 && e.s.length >= 5 && e.f; })
@@ -163,7 +163,7 @@ function recentSplits(events, s, opt) {
       if (x === s || w == null || (b !== "left" && b !== "right") || b === mine) return;
       if (Math.abs(v - w) > bd) { bd = Math.abs(v - w); best = x; }
     });
-    if (best) out.push({ e: e, other: best });
+    if (best && bd >= (opt.min || 0)) out.push({ e: e, other: best });
   }
   return out;
 }
@@ -208,7 +208,7 @@ function redirectRoute(path, params) {
 
 /* Glossary: one plain sentence per term; glossTerms wraps the first occurrence of each term in the text parts of an html string. */
 var GLOSSARY = {
-  "kör nokta": "Bir olayı yalnızca bir tarafın (sol ya da sağ kanadın) haberleştirmesi, diğer tarafın hiç yazmamasıdır.",
+  "kör nokta": "Bir olayı bir taraftaki kurumların, kendi sayılarına göre belirgin biçimde az vermesidir.",
   "yerleşim": "Bir kurumun, elimizdeki kayda göre 0 ile 100 arasındaki siyasi konumudur; bu konumu biz doğrulamadık.",
   "yüklü dil": "Haberin olguyu aktarmakla kalmayıp yargı ya da duygu taşıyan sözcüklerle anlatılmasıdır.",
   "çerçeve": "Bir olayın hangi yönüyle öne çıkarıldığı, yani haberin neyi merkeze koyduğudur.",

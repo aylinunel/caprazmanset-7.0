@@ -150,6 +150,19 @@ test("recentSplits: recency, opposite bloc only, <=5, min 5 outlets", () => {
   assert.deepEqual(L.recentSplits([ev(1, "2026-11-01T10:00", { a: 10 })], "a", opt), []);
   assert.deepEqual(L.recentSplits(evs, "z", opt), []);
 });
+test("recentSplits: min difference threshold and empty case", () => {
+  const bl = { a: "left", c: "right", d: "right", e: "left", f: "right" };
+  const opt = { bloc: (s) => bl[s], load: (e, s) => e.v[s] ?? null, min: 20 };
+  const ss = ["a", "c", "d", "e", "f"];
+  const hi = { i: 1, f: "2026-11-02T10:00", s: ss, v: { a: 10, c: 12, d: 30, e: 11, f: 14 } };
+  const lo = { i: 2, f: "2026-11-03T10:00", s: ss, v: { a: 10, c: 12, d: 29, e: 11, f: 14 } };
+  assert.deepEqual(L.recentSplits([lo, hi], "a", opt).map((x) => x.e.i), [1]);
+  assert.deepEqual(L.recentSplits([lo], "a", opt), []);
+  assert.equal(L.recentSplits([lo], "a", { bloc: opt.bloc, load: opt.load }).length, 1);
+});
+test("glossary: kör nokta follows the site rule", () => {
+  assert.ok(/az vermesi/.test(L.GLOSSARY["kör nokta"]) && !/hiç/.test(L.GLOSSARY["kör nokta"]));
+});
 test("kuDat reads acronyms and digits as spoken", () => {
   const k = (n) => L.outletKisaca({ name: "X", events: 1, total: 2, placed: false, nb: [n] })[1];
   assert.ok(k("NTV").endsWith("NTV’ye benziyor."));

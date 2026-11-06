@@ -3,12 +3,26 @@
 function olayHead(e) {
   var c = covOf(e), side = e.bs === "left" ? "Sol" : "Sağ";
   var bs = e.bs ? '<span class="xbs ' + e.bs + '">' + side + " kurumların çoğu bu olayı vermedi</span>" : "";
-  return '<div class="xcrumb"><a href="#/olaylar">Olaylar</a> › ' + tpChips(e, 4) + "</div>" +
+  return '<nav class="xcrumb" aria-label="Konum"><a href="#/olaylar">Olaylar</a><span aria-hidden="true">›</span><span aria-current="page">' + esc(storyLabel(e, 40)) + "</span></nav>" +
     '<h1 class="xh1">' + esc(e.t) + "</h1>" +
+    '<div class="xmeta" style="margin-top:8px">' + tpChips(e, 4) + "</div>" +
     '<div class="xmeta" style="margin-top:10px"><span>' + e.s.length + " kurum verdi · " + c[0] + " sol, " + c[1] + " merkez, " + c[2] + " sağ" + (e.s.length > c[0] + c[1] + c[2] ? ", " + (e.s.length - c[0] - c[1] - c[2]) + " yerleşimsiz" : "") + " · " +
     '<span class="xdt">' + fmtDT(e.f) + " – " + fmtDT(e.l) + "</span></span>" + bs + "</div>" + bbar(e, true);
 }
 
+/* Content words (stemmed, as compareHeads) that more than half of the outlets' first headlines share; one display form each. */
+function olayCommon(e) {
+  var first = {}, n = 0, cnt = {}, form = {};
+  e.a.forEach(function (i) { var a = ART[i]; if (a && !first[a.s]) { first[a.s] = a; n++; } });
+  Object.keys(first).forEach(function (s) {
+    var seen = {};
+    htoks(first[s].t).forEach(function (t) {
+      if (!t.content || seen[t.stem]) return;
+      seen[t.stem] = 1; cnt[t.stem] = (cnt[t.stem] || 0) + 1; if (!form[t.stem]) form[t.stem] = t.core;
+    });
+  });
+  return Object.keys(cnt).filter(function (k) { return cnt[k] * 2 > n; }).sort(function (x, y) { return cnt[y] - cnt[x] || form[y].length - form[x].length; }).map(function (k) { return form[k]; });
+}
 /* "Kısaca": the coded summary (YZ badge when agent-coded), else one generated line. */
 function olayKisaca(e) {
   var nk = NBYEV[e.i], n = nk && narrOk(nk) && D.N[nk], q = (n && n.q) || {};
@@ -19,9 +33,14 @@ function olayKisaca(e) {
   }
   var pair = SPLITPAIR[e.i] || defaultPair(e), a = pair && artOf(e, pair[0]), b = pair && artOf(e, pair[1]);
   if (!a || !b) return '<section class="sec v7-kisaca"><h2>Kısaca</h2><p>' + e.s.length + " kurum bu olayı verdi.</p></section>";
-  var sh = compareHeads(a, b).shared.slice(0, 3), far = a.v >= b.v ? a : b;
-  return '<section class="sec v7-kisaca"><h2>Kısaca</h2><p>' + (sh.length ? "Kurumların çoğu “" + esc(sh.join(" ")) + "” dedi; en" : "En") +
-    " farklı başlık " + esc(srcName(far.s)) + " kurumundan.</p></section>";
+  var far = a.v >= b.v ? a : b, many = olayCommon(e), txt;
+  if (many.length >= 2) txt = "Kurumların çoğu “" + esc(many.slice(0, 3).join(" ")) + "” dedi; yüklü dili en yüksek başlık " + esc(srcName(far.s)) + " kurumundan.";
+  else {
+    var sh = compareHeads(a, b).shared.slice(0, 3);
+    txt = esc(srcName(a.s)) + " ve " + esc(srcName(b.s)) + (sh.length ? " ortak olarak “" + esc(sh.join(" ")) + "” dedi; " : " arasında ortak kelime yok; ") +
+      "bu ikisinden yüklü dili yüksek olan " + esc(srcName(far.s)) + " kurumunun başlığı.";
+  }
+  return '<section class="sec v7-kisaca"><h2>Kısaca</h2><p>' + txt + "</p></section>";
 }
 
 function olayDeep(key, title, body) {
