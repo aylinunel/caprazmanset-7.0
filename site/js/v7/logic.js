@@ -116,9 +116,16 @@ function kuPoss(n) {
   if (n % 10) return "’" + KU_ONES[n % 10];
   return "’" + KU_TENS[n];
 }
-/* Dative after an outlet name: "Birgün’e", "Takvim’e", "Sabah’a", "Sözcü’ye", "Star’a". */
+/* Dative after an outlet name: "Birgün’e", "Takvim’e", "Sabah’a", "Sözcü’ye", "Star’a"; acronyms and trailing digits are read
+   as spoken ("NTV’ye", "Halk TV’ye", "TELE1’e"). */
+var KU_LET = { A: "ya", B: "ye", C: "ye", Ç: "ye", D: "ye", E: "ye", F: "e", G: "ye", Ğ: "ye", H: "ye", I: "ya", İ: "ye", J: "ye", K: "ya", L: "e", M: "e", N: "e",
+  O: "ya", Ö: "ye", P: "ye", R: "e", S: "e", Ş: "e", T: "ye", U: "ya", Ü: "ye", V: "ye", Y: "e", Z: "ye" };
+var KU_DIG = { 0: "a", 1: "e", 2: "ye", 3: "e", 4: "e", 5: "e", 6: "ya", 7: "ye", 8: "e", 9: "a" };
 function kuDat(name) {
-  var w = String(name).trim(), low = w.toLocaleLowerCase("tr"), v = (low.match(/[aıoueiöü]/g) || ["e"]).pop();
+  var w = String(name).trim().split(/\s+/).pop(), last = w.charAt(w.length - 1);
+  if (/[0-9]$/.test(w)) return "’" + KU_DIG[last];
+  if (/^[A-ZÇĞİÖŞÜ]{2,}$/.test(w)) return "’" + KU_LET[last];
+  var low = w.toLocaleLowerCase("tr"), v = (low.match(/[aıoueiöü]/g) || ["e"]).pop();
   return "’" + (/[aıoueiöü]$/.test(low) ? "y" : "") + (/[aıou]/.test(v) ? "a" : "e");
 }
 function outletKisaca(o) {

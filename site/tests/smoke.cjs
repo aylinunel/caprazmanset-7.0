@@ -91,6 +91,15 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       });
       if (bad) fails.push(`${tag}: oruntu ${bad}`);
     }
+    if (route === "#/kurum?s=takvim" && w === 1280 && theme === "light") {
+      for (const key of ["arts", "evs"]) {
+        const sel = `details[data-lazy="${key}"]`;
+        if (!(await page.$(sel))) { fails.push(`${tag}: missing ${key} row`); continue; }
+        if (await page.$eval(sel + " .v7-lz", (e) => e.childElementCount)) fails.push(`${tag}: ${key} built before open`);
+        await page.click(sel + " summary"); await sleep(600);
+        if (!(await page.$eval(sel + " .v7-lz", (e) => e.querySelectorAll("a").length))) fails.push(`${tag}: ${key} row empty after open`);
+      }
+    }
     if (route.startsWith("#/kurum?s=")) {
       const bad = await page.evaluate(() => {
         const n = document.querySelectorAll('.v7-kurum-lines a[href^="#/oruntu"]').length;

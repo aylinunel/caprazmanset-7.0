@@ -150,3 +150,11 @@ test("recentSplits: recency, opposite bloc only, <=5, min 5 outlets", () => {
   assert.deepEqual(L.recentSplits([ev(1, "2026-11-01T10:00", { a: 10 })], "a", opt), []);
   assert.deepEqual(L.recentSplits(evs, "z", opt), []);
 });
+test("kuDat reads acronyms and digits as spoken", () => {
+  const k = (n) => L.outletKisaca({ name: "X", events: 1, total: 2, placed: false, nb: [n] })[1];
+  assert.ok(k("NTV").endsWith("NTV’ye benziyor."));
+  assert.ok(k("Halk TV").endsWith("Halk TV’ye benziyor."));
+  assert.ok(k("Bloomberg HT").endsWith("Bloomberg HT’ye benziyor."));
+  assert.ok(k("TELE1").endsWith("TELE1’e benziyor."));
+  assert.ok(k("Star").endsWith("Star’a benziyor."));
+});

@@ -4857,6 +4857,8 @@ function pgSource(q) {
         '<p class="v7-fc-d">' + "Yüklü dil puanı: " + esc(p.n) + " " + a.v + ", " + esc(srcName(x.other)) + " " + b.v + '</p><p class="v7-fc-n num">' + esc(fmtD(x.e.f)) + " · " + x.e.s.length + " kurum verdi</p></a>";
     }).join("") + "</div></section>";
   h += kurumFindings7(k);
+  h += '<details class="v7-dd" data-lazy="arts" data-k="' + esc(k) + '"><summary>En yüklü başlıkları</summary><div class="v7-lz"></div></details>';
+  h += '<details class="v7-dd" data-lazy="evs" data-k="' + esc(k) + '"><summary>Verdiği olaylar</summary><div class="v7-lz"></div></details>';
   var det = function (t, body) { return '<details class="v7-dd"><summary>' + t + "</summary>" + body + "</details>"; };
   h += det("Kayıt ve sahiplik", '<section class="sec"><h2>Altı eksenli profil</h2>' +
     '<p class="sub">Kayıt defterindeki yerleşim (0–100), her eksen kendi iki ucuyla. Bu bir yerleşimdir, hüküm değil; kaynağı <a class="lnk" href="#/yontem?s=veri">Yöntem › Veri</a>. ' + fixLink("kurum", k, p.n) + "</p>" +
@@ -4944,6 +4946,19 @@ function renderCompare() {
   box.innerHTML = h;
   v3decorateSplits(box);
 }
+/* Collapsed rows on the outlet page fill on first open: 12 most loaded headlines (marked words explained), 6 events with most outlets. */
+document.addEventListener("toggle", function (ev) {
+  var d = ev.target; if (!d.matches || !d.matches("details[data-lazy]") || !d.open) return;
+  var box = d.querySelector(".v7-lz"), k = d.getAttribute("data-k"); if (!box || box.firstChild) return;
+  if (d.getAttribute("data-lazy") === "arts") {
+    box.innerHTML = '<p class="sub">İşaretli kelimeler kuralı tetikleyen kelimelerdir. Üzerlerine gelin ya da yapı adına tıklayın.</p><div class="panel" style="padding:4px 18px 14px">' +
+      D.A.filter(function (a) { return a.s === k; }).sort(function (x, y) { return y.v - x.v; }).slice(0, 12).map(function (a) { return artRow(a, { noSrc: 1 }); }).join("") + "</div>";
+    wireDevices(box);
+  } else {
+    box.innerHTML = '<div class="xcards">' + cards(D.E.filter(function (e) { return e.s.indexOf(k) >= 0; }).sort(function (a, b) { return b.s.length - a.s.length; }).slice(0, 6)) + "</div>";
+    wireGo(box);
+  }
+}, true);
 /* Grouped outlet chips (Sol / Merkez / Sağ / Yerleşimsiz). href(s) makes links; without it chips are toggle buttons (data-w picks which side). */
 var KP_GROUPS = [["left", "Sol"], ["mid", "Merkez"], ["right", "Sağ"], ["none", "Yerleşimsiz"]];
 function outletPicker(id, href, w) {

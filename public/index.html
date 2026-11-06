@@ -8919,6 +8919,8 @@ function pgSource(q) {
         '<p class="v7-fc-d">' + "Yüklü dil puanı: " + esc(p.n) + " " + a.v + ", " + esc(srcName(x.other)) + " " + b.v + '</p><p class="v7-fc-n num">' + esc(fmtD(x.e.f)) + " · " + x.e.s.length + " kurum verdi</p></a>";
     }).join("") + "</div></section>";
   h += kurumFindings7(k);
+  h += '<details class="v7-dd" data-lazy="arts" data-k="' + esc(k) + '"><summary>En yüklü başlıkları</summary><div class="v7-lz"></div></details>';
+  h += '<details class="v7-dd" data-lazy="evs" data-k="' + esc(k) + '"><summary>Verdiği olaylar</summary><div class="v7-lz"></div></details>';
   var det = function (t, body) { return '<details class="v7-dd"><summary>' + t + "</summary>" + body + "</details>"; };
   h += det("Kayıt ve sahiplik", '<section class="sec"><h2>Altı eksenli profil</h2>' +
     '<p class="sub">Kayıt defterindeki yerleşim (0–100), her eksen kendi iki ucuyla. Bu bir yerleşimdir, hüküm değil; kaynağı <a class="lnk" href="#/yontem?s=veri">Yöntem › Veri</a>. ' + fixLink("kurum", k, p.n) + "</p>" +
@@ -9006,6 +9008,19 @@ function renderCompare() {
   box.innerHTML = h;
   v3decorateSplits(box);
 }
+/* Collapsed rows on the outlet page fill on first open: 12 most loaded headlines (marked words explained), 6 events with most outlets. */
+document.addEventListener("toggle", function (ev) {
+  var d = ev.target; if (!d.matches || !d.matches("details[data-lazy]") || !d.open) return;
+  var box = d.querySelector(".v7-lz"), k = d.getAttribute("data-k"); if (!box || box.firstChild) return;
+  if (d.getAttribute("data-lazy") === "arts") {
+    box.innerHTML = '<p class="sub">İşaretli kelimeler kuralı tetikleyen kelimelerdir. Üzerlerine gelin ya da yapı adına tıklayın.</p><div class="panel" style="padding:4px 18px 14px">' +
+      D.A.filter(function (a) { return a.s === k; }).sort(function (x, y) { return y.v - x.v; }).slice(0, 12).map(function (a) { return artRow(a, { noSrc: 1 }); }).join("") + "</div>";
+    wireDevices(box);
+  } else {
+    box.innerHTML = '<div class="xcards">' + cards(D.E.filter(function (e) { return e.s.indexOf(k) >= 0; }).sort(function (a, b) { return b.s.length - a.s.length; }).slice(0, 6)) + "</div>";
+    wireGo(box);
+  }
+}, true);
 /* Grouped outlet chips (Sol / Merkez / Sağ / Yerleşimsiz). href(s) makes links; without it chips are toggle buttons (data-w picks which side). */
 var KP_GROUPS = [["left", "Sol"], ["mid", "Merkez"], ["right", "Sağ"], ["none", "Yerleşimsiz"]];
 function outletPicker(id, href, w) {
@@ -10971,9 +10986,16 @@ function kuPoss(n) {
   if (n % 10) return "’" + KU_ONES[n % 10];
   return "’" + KU_TENS[n];
 }
-/* Dative after an outlet name: "Birgün’e", "Takvim’e", "Sabah’a", "Sözcü’ye", "Star’a". */
+/* Dative after an outlet name: "Birgün’e", "Takvim’e", "Sabah’a", "Sözcü’ye", "Star’a"; acronyms and trailing digits are read
+   as spoken ("NTV’ye", "Halk TV’ye", "TELE1’e"). */
+var KU_LET = { A: "ya", B: "ye", C: "ye", Ç: "ye", D: "ye", E: "ye", F: "e", G: "ye", Ğ: "ye", H: "ye", I: "ya", İ: "ye", J: "ye", K: "ya", L: "e", M: "e", N: "e",
+  O: "ya", Ö: "ye", P: "ye", R: "e", S: "e", Ş: "e", T: "ye", U: "ya", Ü: "ye", V: "ye", Y: "e", Z: "ye" };
+var KU_DIG = { 0: "a", 1: "e", 2: "ye", 3: "e", 4: "e", 5: "e", 6: "ya", 7: "ye", 8: "e", 9: "a" };
 function kuDat(name) {
-  var w = String(name).trim(), low = w.toLocaleLowerCase("tr"), v = (low.match(/[aıoueiöü]/g) || ["e"]).pop();
+  var w = String(name).trim().split(/\s+/).pop(), last = w.charAt(w.length - 1);
+  if (/[0-9]$/.test(w)) return "’" + KU_DIG[last];
+  if (/^[A-ZÇĞİÖŞÜ]{2,}$/.test(w)) return "’" + KU_LET[last];
+  var low = w.toLocaleLowerCase("tr"), v = (low.match(/[aıoueiöü]/g) || ["e"]).pop();
   return "’" + (/[aıoueiöü]$/.test(low) ? "y" : "") + (/[aıou]/.test(v) ? "a" : "e");
 }
 function outletKisaca(o) {
