@@ -150,6 +150,18 @@ function vzDistSel(id, a, b) {
   });
   /* Row tooltips anywhere on the site. */
   var tp = function (ev) { return ev.target.closest && ev.target.closest("[data-vtip]"); };
+  /* Touch: a tap pins the tooltip until a tap elsewhere; on a row that also navigates (data-go) the first tap only pins, the second follows the link. */
+  var pt = function (ev) { return ev.target.closest && ev.target.closest("[data-vtip],[data-tip]"); };
+  var touchy = function (ev) { return ev.pointerType ? ev.pointerType !== "mouse" : matchMedia("(hover:none)").matches; };
+  window.addEventListener("hashchange", function () { tipOff(true); });
+  document.addEventListener("click", function (ev) {
+    var t = pt(ev);
+    if (!t) { if (TIPPIN) tipOff(true); return; }
+    if (!touchy(ev) || TIPPIN === t) return;
+    var r = t.getBoundingClientRect();
+    tipOn({ clientX: r.left + Math.min(r.width / 2, 120), clientY: r.top }, t.getAttribute("data-vtip") || t.getAttribute("data-tip"), t);
+    if (t.hasAttribute("data-go")) ev.stopPropagation();
+  }, true);
   document.addEventListener("pointerover", function (ev) { var t = tp(ev); if (t) tipOn(ev, t.getAttribute("data-vtip")); });
   document.addEventListener("pointermove", function (ev) { var t = tp(ev); if (t) tipOn(ev, t.getAttribute("data-vtip")); });
   document.addEventListener("pointerout", function (ev) { if (tp(ev)) tipOff(); });

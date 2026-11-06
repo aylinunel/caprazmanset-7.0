@@ -32,6 +32,33 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     await page.goto(`http://127.0.0.1:${port}/index.html${route}`);
     await sleep(first ? 9000 : 2500); first = false;
     if (w === 390 && await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) fails.push(`${tag}: horizontal scroll`);
+    if (w === 390) {
+      /* Touch targets: every a/button/[role=link]/summary in #view is >= 44x44, unless inline text in a paragraph (.lnk, .gl always allowed). */
+      const small = await page.evaluate(() => {
+        const out = [];
+        for (const el of document.querySelectorAll("#view a, #view button, #view [role=link], #view summary")) {
+          if (el.closest(".lnk, .gl, [hidden]") && (el.matches(".lnk, .gl") || el.closest("[hidden]"))) continue;
+          /* EXEMPT: a.xstretch's ::after covers its whole card, so the card is the hit area */
+          const r = (el.matches("a.xstretch") ? el.closest(".xcard, .v7-fc") || el : el).getBoundingClientRect();
+          if (!r.width || !r.height || el.offsetParent === null && getComputedStyle(el).position !== "fixed") continue;
+          if (r.width >= 43.5 && r.height >= 43.5) continue;
+          const p = el.closest("p, li, dd, figcaption, .sub, .lede");
+          if (p && p !== el && getComputedStyle(el).display === "inline" && p.textContent.replace(el.textContent, "").trim().length > 12) continue; // inline text link
+          /* EXEMPT_SMALL: add selectors here only with a comment saying why 44px is impossible */
+          out.push((el.tagName + "." + (el.className || "").toString().split(" ")[0] + " " + el.textContent.trim().slice(0, 24) + " " + Math.round(r.width) + "x" + Math.round(r.height)));
+        }
+        return out;
+      });
+      /* EXEMPT: #/yonetim is the dense admin review table, out of scope for the phone pass (spec section 7); it still gets the no-overflow rule below */
+      if (small.length && !route.startsWith("#/yonetim")) fails.push(`${tag}: ${small.length} touch target(s) < 44px: ${[...new Set(small)].slice(0, 6).join(" | ")}`);
+      const wide = await page.evaluate(() => [...document.querySelectorAll("#view *")].filter((e) => {
+        const r = e.getBoundingClientRect(); if (!(r.width && (r.right > innerWidth + 1 || r.left < -1)) || getComputedStyle(e).position === "fixed") return false;
+        /* wide content is fine inside its own scrolling or clipping box */
+        for (let a = e.parentElement; a && a.id !== "view"; a = a.parentElement) if (getComputedStyle(a).overflowX !== "visible") return false;
+        return true;
+      }).slice(0, 3).map((e) => e.tagName + "." + e.className));
+      if (wide.length) fails.push(`${tag}: element wider than viewport: ${wide.join(" | ")}`);
+    }
     if (expectNav && w === 1280) {
       const got = (await page.$$eval(".xnav-l a", (as) => as.map((a) => a.textContent.trim()))).join(",");
       if (got !== expectNav) fails.push(`${tag}: nav "${got}" != "${expectNav}"`);
@@ -185,6 +212,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       const el = await page.$(sel);
       if (!el) { fails.push(`${tag}: click target ${sel} missing`); continue; }
       await el.click(); await sleep(300);
+      if (sel.includes("data-vtip") && !(await page.$eval("#tip", (t) => t.classList.contains("on")))) fails.push(`${tag}: after click ${sel} #tip is not .on`);
       const want = sel.includes("th[data-dim]") ? ".v7-group" : sel.includes(".v7-out") ? ".v7-hl" : sel.startsWith(".gl") ? ".gl-pop" : null;
       if (want) {
         const n = await page.$$eval(want, (xs) => xs.filter((x) => x.offsetParent !== null).length);
@@ -203,6 +231,32 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       if (!(await page.$(".gl-pop"))) fails.push(`${tag}: .gl-pop missing before navigation`);
       await page.evaluate(() => { location.hash = "#/kurumlar"; }); await sleep(800);
       if (await page.$(".gl-pop")) fails.push(`${tag}: .gl-pop survives navigation`);
+    }
+    await ctx.close();
+  }
+  /* Touch: a tap on a chart row pins its tooltip; a tap elsewhere closes it. */
+  {
+    const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => fails.push(`touch: pageerror ${e.message}`));
+    await page.goto(`http://127.0.0.1:${port}/index.html#/oruntu?q=secim`); await sleep(2500);
+    const row = await page.$(".vz-r[data-vtip]");
+    if (!row) fails.push("touch: no .vz-r[data-vtip] on #/oruntu?q=secim");
+    else {
+      await row.scrollIntoViewIfNeeded(); await row.tap(); await sleep(500);
+      const on = () => page.$eval("#tip", (t) => t.classList.contains("on"));
+      if (!(await on())) fails.push("touch: tap on .vz-r did not show #tip.on");
+      else {
+        await sleep(1500);
+        if (!(await on())) fails.push("touch: pinned tooltip vanished by itself");
+        await page.evaluate(() => { const h = document.querySelector("#view h1, #view h2"); h.scrollIntoView({ block: "start" }); });
+        await sleep(300);
+        const pt = await page.evaluate(() => { const h = document.querySelector("#view h1, #view h2").getBoundingClientRect(); return [h.left + 4, h.top + h.height / 2]; });
+        await page.touchscreen.tap(pt[0], pt[1]); await sleep(400);
+        if (await on()) fails.push("touch: tap elsewhere did not hide the pinned tooltip");
+      }
+      const hint = await page.evaluate(() => [...document.querySelectorAll("#view .or-hint, #view .v7-read")].map((e) => e.textContent).join(" "));
+      if (/\bgelin\b/.test(hint)) fails.push("touch: hint text still says 'gelin' under (hover:none)");
     }
     await ctx.close();
   }

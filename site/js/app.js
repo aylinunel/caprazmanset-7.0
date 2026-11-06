@@ -183,15 +183,17 @@ function startAcid(cv) {
 }
 
 /* ============================================================== tooltip */
-var TIP = null;
-function tipOn(e, html) {
+var TIP = null, TIPPIN = null; /* TIPPIN: element whose tooltip a tap pinned; only tipOff(true) or a new pin changes it */
+function tipOn(e, html, pin) {
+  if (TIPPIN && !pin) return;
+  if (pin) TIPPIN = pin;
   TIP = TIP || $("#tip"); TIP.innerHTML = html; TIP.classList.add("on");
   var w = TIP.offsetWidth, h = TIP.offsetHeight;
   var x = Math.min(Math.max(8, e.clientX + 14), innerWidth - w - 8);
   var y = e.clientY - h - 12; if (y < 8) y = e.clientY + 18;
   TIP.style.left = x + "px"; TIP.style.top = y + "px";
 }
-function tipOff() { if (TIP) TIP.classList.remove("on"); }
+function tipOff(force) { if (TIPPIN && !force) return; TIPPIN = null; if (TIP) TIP.classList.remove("on"); }
 function bindTip(node, html) {
   node.addEventListener("pointerenter", function (e) { tipOn(e, html); });
   node.addEventListener("pointermove", function (e) { tipOn(e, html); });
@@ -4652,8 +4654,7 @@ var LOGO = window.CM_LOGO || {};
 function svgURI(s) { return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(s); }
 
 /* ---------------------------------------------------------------- nav */
-var NAV = [["/anlati", "Anlatı", []], ["/olaylar", "Olaylar", ["/olay", "/konu"]], ["/kurumlar", "Kurumlar", ["/kurum", "/harita"]],
-  ["/bulgular", "Bulgular", []], ["/yanlilik", "Çerçeveleme", []], ["/yontem", "Yöntem", []]];
+var NAV; /* defined in v7/core.js */
 var SUB = {
   "/olaylar": [["/olaylar", "liste", "Tüm olaylar"], ["/olaylar", "kor", "Kör noktalar"], ["/olaylar", "ilan", "Resmî ilanlar"]],
   "/kurumlar": [["/kurumlar", "liste", "Kurumlar"], ["/kurumlar", "karsilastir", "Karşılaştır"], ["/kurumlar", "kayit", "Kayıt ve güven"]],
@@ -4681,12 +4682,12 @@ function navHTML(path, over, tab) {
     '<nav class="pill-nav" aria-label="Ana gezinme"><ul class="xnav-l">' + items + "</ul></nav>" +
     '<div class="navtools">' +
       '<form class="xsearch navq" role="search" onsubmit="location.hash=\'#/ara?q=\'+encodeURIComponent(this.q.value);return false"><input type="search" name="q" id="navq" placeholder="Olay ya da kurum ara" aria-label="Olay ya da kurum ara" autocomplete="off"></form>' +
-      '<a class="xutil xpill' + (g === "/benim" ? " on" : "") + '" href="#/benim">Benim</a>' +
+      '<a class="xutil xnav-pill' + (g === "/benim" ? " on" : "") + '" href="#/benim">Benim</a>' +
       '<a class="icobtn navqi" href="#/ara" aria-label="Ara"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="6.5" cy="6.5" r="4.3"/><path d="m9.8 9.8 3.4 3.4"/></svg></a>' +
       '<button class="icobtn" id="theme" aria-label="Açık/koyu tema"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7.5 1.6a5.9 5.9 0 1 0 5.9 5.9 4.6 4.6 0 0 1-5.9-5.9Z"/></svg></button>' +
       '<button class="icobtn burger" id="burger" aria-label="Menü" aria-expanded="false"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h11M2 10.5h11"/></svg></button>' +
     "</div></div>" + '<div class="mobmenu" id="mobmenu">' + mob + "</div></header>";
-  var sub = g && v3sub(g, SUB[g]);
+  var sub = g && SUB[g];
   if (sub && DETAILP.indexOf(path) < 0) {
     h += '<div class="subnav"><div class="subrow">' + sub.map(function (s) {
       var on = s[0] === path && (s[1] === null || s[1] === tab);
@@ -5321,7 +5322,6 @@ function v3evCountLine(e) {
   return esc(t3("evCountsSplit", { h: x.haber, i: x.ilan, k: x.newsOutlets.length }));
 }
 function v3noticeTag(a) { return v3isIlanArt(a) ? '<span class="tag cm3-ntag" data-cm3>' + esc(t3("notice")) + "</span>" : ""; }
-function v3sub(g, list) { return list; }
 function v3noticeLines() {
   return '<div class="cm3-lines" data-cm3><p>' + esc(t3("noticeLine1")) + "</p><p>" + esc(t3("noticeLine2")) + "</p><p>" +
     esc(t3("noticeLine3")) + "</p></div>";
@@ -5368,9 +5368,11 @@ function v3ilanOverview() {
       .forEach(function (k) { kr.push({ label: t3(V3_KIND[k]), n: kind[k], sub: true }); });
   });
   var top = kr.filter(function (r) { return !r.sub; }).sort(function (a, b) { return b.n - a.n; })[0];
-  var dk = DAYS.filter(function (d) { return d >= "2026-09-01" && d <= "2026-10-10"; }), dvs = dk.map(function (d) { return days[d] || 0; });
+  var nd = Object.keys(days).sort(), d0 = nd[0] || "", d1 = nd[nd.length - 1] || "";
+  var dk = DAYS.filter(function (d) { return d >= d0 && d <= d1; }), dvs = dk.map(function (d) { return days[d] || 0; });
   var dsum = dvs.reduce(function (a, b) { return a + b; }, 0);
   var pct = function (n) { return "%" + CM3.pct1(n / total); };
+  var dayWord = function (d) { return d ? +d.slice(8, 10) + " " + V3MONTH[+d.slice(5, 7) - 1] : ""; };
   return findingBlock({ id: "ilan-makam",
     claim: "Resmî ilanların " + pct(top.n) + "'i “" + esc(top.label) + "” ailesinden; toplam " + orN(total) + " ilan var.",
     viz: v3bars(kr, total),
@@ -5378,7 +5380,7 @@ function v3ilanOverview() {
     how: "<p>" + esc(t3("nlKindSub")) + "</p>",
     table: vzTable(["İlanı veren makam", "İlan", "Pay"], kr.map(function (r) { return [(r.sub ? "· " : "") + r.label, orN(r.n), pct(r.n)]; })) }) +
   findingBlock({ id: "ilan-gun",
-    claim: "Eylül başından 10 Ekim'e kadar günde ortalama " + dec(dsum / Math.max(1, dk.length), 1) + " ilan yayımlandı.",
+    claim: dayWord(d0) + " ile " + dayWord(d1) + " arasında günde ortalama " + dec(dsum / Math.max(1, dk.length), 1) + " ilan yayımlandı.",
     viz: vzLine("ilan-gun", dk.map(function (d) { return fmtD(d + "T00:00"); }), [
       { k: "d", label: "Günlük ilan", vals: dvs, c: "var(--ink2)", thin: true },
       { k: "m", label: "7 günlük ortalama", vals: vzRoll(dvs, 7), c: "var(--ink)", area: true }],
@@ -5386,79 +5388,6 @@ function v3ilanOverview() {
     read: "İnce çizgi her günün ilan sayısı, kalın çizgi ve dolgu 7 günlük ortalamadır.",
     how: "<p>Her ilan başlığı, yayımlandığı günün sayacına eklenir; ortalama son 7 günü kapsar.</p>",
     table: vzTable(["Gün", "İlan"], dk.map(function (d, i) { return [fmtD(d + "T00:00"), dvs[i]]; })) });
-}
-function v3noticeEventsPage() {
-  if (!v3on("noticeSplit")) return "";
-  var n = v3N(), rows = v3noticeRows(), total = rows.length;
-  var outlets = {}, days = {}, places = {}, fam = {}, kind = {};
-  rows.forEach(function (r) {
-    outlets[r.a.s] = (outlets[r.a.s] || 0) + 1; days[r.a.d.slice(0, 10)] = (days[r.a.d.slice(0, 10)] || 0) + 1;
-    if (r.place) places[r.place] = 1;
-    fam[r.fam] = (fam[r.fam] || 0) + 1; kind[r.kind] = (kind[r.kind] || 0) + 1;
-  });
-  var h = '<div class="phead" data-cm3><div class="eyebrow">' + esc(t3("nlEyebrow")) + "</div><h1>" + esc(t3("nlHead")) + "</h1>" +
-    '<p class="lede">' + esc(t3("nlLede", { n: total.toLocaleString("tr"), x: CM3.pct1(total / D.A.length) })) + " " + v3est() + "</p></div>";
-  h += '<div class="cm3-nl" data-cm3><p class="cm3-nl-tiles"><b class="num">' + total.toLocaleString("tr") + "</b> " +
-    esc(t3("nlTiles", { o: Object.keys(outlets).length, d: Object.keys(days).length, p: Object.keys(places).length })) + "</p>" + v3noticeLines();
-  // 2. sites, alphabetical (no ranking by share)
-  var os = Object.keys(outlets).sort(function (a, b) { return srcName(a).localeCompare(srcName(b), "tr"); });
-  h += '<section class="sec"><h2>' + esc(t3("nlSiteHead")) + '</h2><p class="sub">' + esc(t3("nlSiteSub")) + "</p>" +
-    '<div class="scroller panel"><table><thead><tr><th>' + esc(t3("nlSite")) + '</th><th class="r">' + esc(t3("nlCount")) + '</th><th class="r">' + esc(t3("nlNews")) +
-    '</th><th class="r">' + esc(t3("nlShare")) + "</th></tr></thead><tbody>" + os.map(function (s) {
-      var o = n.byOutlet[s];
-      return '<tr><td><a class="lnk" href="#/kurum?s=' + s + '">' + esc(srcName(s)) + '</a></td><td class="r num">' + o.ilan + '</td><td class="r num">' + o.haber +
-        '</td><td class="r num">%' + CM3.pct1(o.ilan / o.all) + "</td></tr>";
-    }).join("") + "</tbody></table></div><p class=\"xsmall\" style=\"margin-top:6px\">" + v3est() + "</p></section>";
-  // 4. every notice
-  h += '<section class="sec" id="cm3nl-list"><h2>' + esc(t3("nlListHead")) + '</h2><div class="cm3-nl-ctl">' +
-    '<div class="cm3-chiprow" role="group">' + ["all"].concat(V3_FAMS.filter(function (f) { return fam[f]; })).map(function (f) {
-      return '<button type="button" class="chip" data-nlf="' + f + '" aria-pressed="' + (V3.nl.fam === f) + '">' + esc(f === "all" ? t3("nlAll") : t3(V3_FAM[f])) +
-        ' <span class="num">' + (f === "all" ? total : fam[f]) + "</span></button>";
-    }).join("") + "</div>" +
-    '<label class="cm3-field"><span class="visually-hidden">' + esc(t3("nlSite")) + '</span><select id="cm3nl-o"><option value="">' + esc(t3("nlOutletAll")) + "</option>" +
-    os.map(function (s) { return '<option value="' + s + '"' + (V3.nl.outlet === s ? " selected" : "") + ">" + esc(srcName(s)) + "</option>"; }).join("") + "</select></label>" +
-    '<label class="cm3-field"><span class="visually-hidden">' + esc(t3("nlSearch")) + '</span><input type="search" id="cm3nl-q" placeholder="' + esc(t3("nlSearch")) + '" value="' + esc(V3.nl.q) + '"></label></div>' +
-    '<p class="xsmall mono" id="cm3nl-count" aria-live="polite"></p><ol class="cm3-nl-list" id="cm3nl-rows"></ol></section>';
-  // 5. what changed from 2.0
-  var old = D.E.filter(function (e) { return n.events[e.i].isIlan; }).sort(function (a, b) { return b.a.length - a.a.length; });
-  if (old.length) {
-    var big = old[0], bodies = {};
-    big.a.forEach(function (i) { bodies[ART[i].t] = 1; });
-    h += '<section class="sec"><h2>' + esc(t3("nlOldHead")) + "</h2><p>" + esc(t3("nlOld", { n: old.length, m: Object.keys(bodies).length, k: big.a.length })) +
-      '</p><p class="xsmall" style="margin-top:8px">' + esc(t3("nlRule")) + ' <a class="lnk" href="#/yonetim?t=dogrulama">' + esc(t3("nlReview")) + "</a></p></section>";
-  }
-  return h + "</div>";
-}
-function v3noticeList() {
-  var box = document.getElementById("cm3nl-rows"); if (!box) return;
-  var q = CM3.trLower(V3.nl.q.trim());
-  var rows = v3noticeRows().filter(function (r) {
-    return (V3.nl.fam === "all" || r.fam === V3.nl.fam) && (!V3.nl.outlet || r.a.s === V3.nl.outlet) &&
-      (!q || CM3.trLower(r.a.t).indexOf(q) >= 0 || (r.place && CM3.trLower(r.place).indexOf(q) >= 0));
-  });
-  var shown = rows.slice(0, V3.nl.shown);
-  box.innerHTML = shown.length ? shown.map(function (r) {
-    return '<li class="cm3-nl-row"><span class="cm3-kind f-' + r.fam + '">' + esc(t3(V3_KIND[r.kind])) + "</span>" +
-      '<a href="' + esc(r.a.u) + '" target="_blank" rel="noopener">' + esc(r.a.t) + "</a>" +
-      '<span class="xsmall">' + esc(srcName(r.a.s)) + " · " + esc(r.place || t3("nlPlaceNone")) + '</span><span class="mono xsmall">' + v3time(r.a) + "</span></li>";
-  }).join("") : '<li class="xempty">' + esc(t3("nlNone")) + "</li>";
-  if (rows.length > shown.length) box.insertAdjacentHTML("beforeend", '<li><button type="button" class="chip xmore" id="cm3nl-more">' +
-    esc(t3("nlMore", { n: Math.min(60, rows.length - shown.length) })) + "</button></li>");
-  var c = document.getElementById("cm3nl-count"); if (c) c.textContent = t3("nlShown", { a: shown.length, n: rows.length });
-}
-function v3noticeWire(view) {
-  var sec = view.querySelector("#cm3nl-list"); if (!sec) return;
-  sec.addEventListener("click", function (ev) {
-    var b = ev.target.closest("button"); if (!b) return;
-    if (b.hasAttribute("data-nlf")) {
-      V3.nl.fam = b.getAttribute("data-nlf"); V3.nl.shown = 60;
-      [].forEach.call(sec.querySelectorAll("[data-nlf]"), function (o) { o.setAttribute("aria-pressed", o === b ? "true" : "false"); });
-      v3noticeList();
-    } else if (b.id === "cm3nl-more") { V3.nl.shown += 60; v3noticeList(); }
-  });
-  sec.querySelector("#cm3nl-o").onchange = function () { V3.nl.outlet = this.value; V3.nl.shown = 60; v3noticeList(); };
-  sec.querySelector("#cm3nl-q").oninput = function () { V3.nl.q = this.value; V3.nl.shown = 60; v3noticeList(); };
-  v3noticeList();
 }
 /* Notices are not news: with the split on, their clusters leave topic lists, and the notices carry the "İlan" section.
    Done once per page load; switching the flag off (preview) restores the originals. */
@@ -6293,6 +6222,7 @@ function route() {
   closeModal();
   scrollTo(0, 0);
   if (!admin) layoutPills();
+  var onTab = document.querySelector(".subrow .subtab.on"); if (onTab && onTab.scrollIntoView) onTab.scrollIntoView({ inline: "center", block: "nearest" });
   if (home) { var cv = document.getElementById("acid"); if (cv) startAcid(cv); }
   else if (acid) { acid.stop(); acid = null; }
 

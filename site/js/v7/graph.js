@@ -107,7 +107,7 @@ function g6EdgeStyle(t, o) {
 }
 function g6Box(kind, arg, label, cls) {
   return '<div class="g6-wrap' + (cls ? " " + cls : "") + '"><div class="g6-box" data-g6="' + kind + '" data-arg="' + esc(arg || "") + '" role="img" aria-label="' + esc(label) +
-    '"><p class="g6-wait">Ağ çiziliyor…</p></div><p class="g6-help">Bir düğümün üzerine gelin: bağlantıları öne çıkar. Düğümleri sürükleyebilirsiniz; yakınlaştırmak için Ctrl + tekerlek.</p></div>';
+    '"><p class="g6-wait">Ağ çiziliyor…</p></div><p class="g6-help">Bir düğüme ' + orTap() + ': bağlantıları öne çıkar. Düğümleri sürükleyebilirsiniz; yakınlaştırmak için Ctrl + tekerlek.</p></div>';
 }
 /* Two views of one finding: the network first, the original chart one click away. */
 function g6Switch(id, netHtml, oldHtml, oldLabel) {
@@ -134,7 +134,7 @@ function g6AgendaData(t, focus) {
     return { id: s, data: { label: srcName(s), c: g6Bloc(t, s), size: 14 + 26 * Math.sqrt((A.size[s] || 1) / mxs), go: "#/kurum?s=" + s,
       ring: s === focus ? t.ink : null, bold: s === focus,
       tip: "<span class='k'>" + esc(srcName(s)) + "</span>" + orN(A.size[s] || 0) + " olay<br>Gündemi en çok benzeyen: " +
-        nb.map(function (x) { return esc(srcName(x)) + " (φ " + dec(A.phi[s][x], 2) + ")"; }).join(", ") + "<br>Tıklayın: kurum sayfası" } };
+        nb.map(function (x) { return esc(srcName(x)) + " (φ " + dec(A.phi[s][x], 2) + ")"; }).join(", ") + "<br>" + orGo() + ": kurum sayfası" } };
   });
   var edges = [];
   keep.forEach(function (a, i) { keep.forEach(function (b, j) {
@@ -196,7 +196,7 @@ G6K.follow = function (arg, t) {
   var mf = Math.max.apply(null, ks.map(function (s) { return F.first[s] || 0; })) || 1, mx = Math.max.apply(null, F.edges.map(function (x) { return x.n; })) || 1;
   return { opts: {
     data: { nodes: ks.map(function (s) { return { id: s, data: { label: srcName(s), c: g6Bloc(t, s), size: 14 + 30 * Math.sqrt((F.first[s] || 0) / mf), go: "#/kurum?s=" + s,
-      tip: "<span class='k'>" + esc(srcName(s)) + "</span>İlk veren olduğu olay: " + orN(F.first[s] || 0) + "<br>Verdiği olay (≥ 5 kurumlu): " + orN(F.cov[s] || 0) + "<br>Tıklayın: kurum sayfası" } }; }),
+      tip: "<span class='k'>" + esc(srcName(s)) + "</span>İlk veren olduğu olay: " + orN(F.first[s] || 0) + "<br>Verdiği olay (≥ 5 kurumlu): " + orN(F.cov[s] || 0) + "<br>" + orGo() + ": kurum sayfası" } }; }),
       edges: F.edges.map(function (x) { return { source: x.a, target: x.b, data: { w: .8 + 7 * x.n / mx, c: g6Bloc(t, x.a), op: .55,
         tip: "<span class='k'>" + esc(srcName(x.a)) + " → " + esc(srcName(x.b)) + "</span>" + orN(x.n) + " olayda önce " + esc(srcName(x.a)) + " verdi, " + esc(srcName(x.b)) +
           " sonra (ortanca " + dur5(median5(x.lags.slice())) + ")<br>" + esc(srcName(x.b)) + " olaylarının " + orP(x.share) + "’i" } }; }) },

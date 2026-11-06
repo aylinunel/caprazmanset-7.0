@@ -160,7 +160,7 @@ function pgAnlati(q) {
       '<p class="v7-note">Daireler kurum, kareler bir boyuttaki seçim (çerçeve, sorumlu, çözüm…). Aynı kareye bağlanan kurumlar aynı seçimi yaptı; çok seçimi paylaşan kurumlar birbirine yakın durur. Kare büyüklüğü seçimi yapan kurum sayısı.</p>' +
       '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>' :
       '<div class="v7-scroll"><div id="v7-flow" data-key="' + esc(key) + '"></div></div><p class="v7-note">Her çizgi bir kurum; rengi kurumun yerleşimini gösterir. ' +
-      "Aynı kutudan geçen çizgiler aynı seçimi yapmıştır. Bir çizginin üzerine gelince kurumun seçimleri görünür.</p>" +
+      "Aynı kutudan geçen çizgiler aynı seçimi yapmıştır. Bir çizgiye " + orTap() + ": kurumun seçimleri görünür.</p>" +
       '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>') +
     "</div></div>" + v7Body(n, e);
   h += '<section class="v7-readbox"><h2>Nasıl okunur</h2><ol class="v7-read">' + V7_READ.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ol></section>";

@@ -267,8 +267,6 @@
 .phead .cm3-tag{color:inherit;border-color:currentColor;opacity:.85}
 
 /* Resmî ilanlar page */
-.cm3-nl-tiles{font-size:15px;margin:0 0 6px}
-.cm3-nl-tiles b{font-size:28px;margin-right:6px}
 .cm3-bars{display:grid;gap:6px;max-width:760px}
 .cm3-bar{display:grid;grid-template-columns:minmax(150px,240px) 1fr 52px;gap:10px;align-items:center;font-size:13.5px}
 .cm3-bar .lb{font-weight:600}
@@ -281,25 +279,15 @@
 .cm3-day{height:100%;display:flex;align-items:flex-end}
 .cm3-day i{display:block;width:100%;background:var(--ink2);border-radius:2px 2px 0 0;min-height:1px}
 .cm3-days-ax{display:flex;justify-content:space-between;max-width:760px;margin-top:4px;color:var(--muted)}
-.cm3-nl-ctl{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:8px}
 .cm3-chiprow{display:flex;flex-wrap:wrap;gap:6px}
 .cm3-chiprow .chip{min-height:40px}
 .cm3-chiprow .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.cm3-nl-ctl .cm3-field{min-width:180px;flex:1 1 180px;max-width:320px}
-.cm3-nl-list{list-style:none;margin:0;padding:0}
-.cm3-nl-row{display:grid;grid-template-columns:minmax(150px,210px) 1fr auto;gap:4px 14px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
-.cm3-nl-row>a{text-decoration:none;min-width:0;overflow-wrap:anywhere}
-.cm3-nl-row>a:hover{text-decoration:underline}
-.cm3-nl-row>.xsmall:not(.mono){grid-column:2}
-.cm3-nl-row>.mono{grid-column:3;grid-row:1;white-space:nowrap;color:var(--muted)}
 .cm3-kind{font-family:var(--ff-m);font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink2);border-left:3px solid var(--line2);padding-left:7px}
 .cm3-kind.f-court{border-left-color:var(--ink)}
 .cm3-kind.f-enforcement{border-left-style:double;border-left-color:var(--ink)}
 .cm3-kind.f-public{border-left-style:dashed;border-left-color:var(--ink2)}
 @media (max-width:640px){
   .cm3-bar{grid-template-columns:1fr 44px}.cm3-bar .tr{grid-column:1/-1;order:3}
-  .cm3-nl-row{grid-template-columns:1fr auto}.cm3-nl-row>.cm3-kind{grid-column:1}.cm3-nl-row>.mono{grid-column:2;grid-row:1}
-  .cm3-nl-row>a,.cm3-nl-row>.xsmall:not(.mono){grid-column:1/-1}
 }
 .xink .cm3-n{color:inherit;border-color:currentColor;opacity:.85}
 @media (max-width:640px){.cm3-bars{gap:12px}.cm3-bar{row-gap:4px}}
@@ -1480,17 +1468,16 @@ mark.mw,.mw{color:#1B1813;background-color:transparent;background-image:linear-g
 .xsp-p.top{padding-bottom:calc(8cqw + 14px);animation:spTop .4s ease-out both}
 .xsp-p.bot{padding-top:calc(8cqw + 18px);animation:spBot .4s ease-out both}
 .xsp-o{font-family:var(--ff-m);font-size:12px;letter-spacing:.12em;color:var(--muted);margin:0 0 8px}
-.xsp-o .num{letter-spacing:0;margin-left:4px;opacity:.85}
+.xsp-o .num{letter-spacing:0;margin-left:4px}
 .xsp-h{font-family:var(--ff-d);font-weight:500;font-size:clamp(19px,2.2vw,26px);line-height:1.28;margin:0;max-width:44ch}
 .xsp-h a{color:inherit;text-decoration:none}.xsp-h a:hover{text-decoration:underline;text-decoration-color:var(--line2)}
-.xsp-band{position:relative;z-index:2;margin:0 -6%;padding:14px 10%;background:#1B1813;color:#F6C453;transform:rotate(-8deg);
+.xsp-band{position:relative;z-index:2;margin:0 -6%;padding:14px 10%;color:#F6C453;transform:rotate(-8deg);
   display:flex;gap:14px;align-items:baseline;justify-content:center;flex-wrap:nowrap;text-align:center}
 .xsp-bl{font-family:var(--ff-m);font-size:11px;letter-spacing:.16em;color:#BDB4A0}
 .xsp-bw{font-family:var(--ff-d);font-weight:600;font-size:clamp(15px,1.8vw,21px);line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:78%}
 .xsplit.small .xsp-h{font-size:clamp(16px,1.7vw,19px)}
 .xsplit.small .xsp-bw{font-size:clamp(14px,1.5vw,17px)}
 :root[data-theme="dark"] .xsplit{border-color:#BDB4A0}
-:root[data-theme="dark"] .xsp-band{background:#0E0C09}
 @keyframes spTop{from{transform:translateY(-10px);opacity:.4}to{transform:none;opacity:1}}
 @keyframes spBot{from{transform:translateY(10px);opacity:.4}to{transform:none;opacity:1}}
 .xspwrap{margin:22px 0 8px}
@@ -1576,7 +1563,7 @@ mark.mw,.mw{color:#1B1813;background-color:transparent;background-image:linear-g
 @media (max-width:560px){.xfix-2{grid-template-columns:1fr}}
 
 /* ---- footer: ink, with the v1 pill as the only bridge */
-.foot.xfoot{background:#1B1813;color:#BDB4A0;border-top:0;padding:44px 0 30px}
+.foot.xfoot{color:#BDB4A0;border-top:0;padding:44px 0 30px}
 .xfoot-g{display:grid;grid-template-columns:minmax(0,1.3fr) 1fr 1fr;gap:36px}
 .xfoot h4{font-family:var(--ff-m);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#F5F0E3;margin-bottom:10px}
 .xfoot a{color:#F5F0E3;text-decoration:none;display:block;padding:3px 0}
@@ -1666,9 +1653,9 @@ th{color:var(--ink);border-bottom-width:3px}
 :root[data-theme="dark"] .sec.xink{background:#0E0C09}
 
 /* ---- halftone on the other ink surfaces */
-.xsp-band{background-color:#1B1813;background-image:var(--dots);background-size:6px 6px}
-.xpromise{background-color:#1B1813;background-image:var(--dots);background-size:7px 7px;background-position:right top}
-.foot.xfoot{background-color:#1B1813;background-image:linear-gradient(to bottom,#1B1813 20%,transparent),var(--dots);background-size:auto,7px 7px}
+.xsp-band{background-image:var(--dots);background-size:6px 6px}
+.xpromise{background-image:var(--dots);background-size:7px 7px;background-position:right top}
+.foot.xfoot{background-image:var(--dots);background-size:auto,7px 7px}
 .xbtn{background-image:var(--dots);background-size:5px 5px}
 .chip[aria-pressed=true],.xweek.on{background-image:var(--dots);background-size:5px 5px}
 /* a light screen on newsprint for rules and empty triangles of the seam */
@@ -2112,7 +2099,7 @@ ol.v7-read{margin:0;padding-left:20px;display:grid;gap:6px;font-size:14.5px;line
 /* 7.0 · Kindred style */
 :root{
   --paper:#f7f7f5; --surface:#ffffff; --raise:#fcfcfb; --sunk:#efefec;
-  --line:#e5e5e1; --line2:#cfcfca; --ink:#111111; --ink2:#3a3a3a; --muted:#7b7b7b; --mist:#9a9a9a;
+  --line:#e5e5e1; --line2:#cfcfca; --ink:#111111; --ink2:#3a3a3a; --muted:#686868; --mist:#9a9a9a;
   --left:#E11D48; --right:#2563EB; --mid:#79839A;
   --band:#111111; --band-ink:#f7f7f5; --band-mute:#b4b4b0; --band-card:#1c1c1c; --band-line:#333333;
   --on-hl:#161a0e;
@@ -2127,12 +2114,14 @@ ol.v7-read{margin:0;padding-left:20px;display:grid;gap:6px;font-size:14.5px;line
   --line:#262626; --line2:#3a3a3a; --ink:#f2f2f0; --ink2:#d4d4d0; --muted:#9a9a9a; --mist:#7b7b7b;
   --left:#E8556B; --right:#4586EE; --mid:#C9C2B2;
   --band:#000000; --band-card:#171717; --band-line:#2a2a2a;
+  --grain:none; --fibre:none; --dots:none; --dots-ink:none;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --paper:#0f0f0f; --surface:#171717; --raise:#1c1c1c; --sunk:#0a0a0a;
   --line:#262626; --line2:#3a3a3a; --ink:#f2f2f0; --ink2:#d4d4d0; --muted:#9a9a9a; --mist:#7b7b7b;
   --left:#E8556B; --right:#4586EE; --mid:#C9C2B2;
   --band:#000000; --band-card:#171717; --band-line:#2a2a2a;
+  --grain:none; --fibre:none; --dots:none; --dots-ink:none;
 }}
 body{background:var(--paper);background-image:none;font-family:var(--ff-b)}
 ::selection{background:var(--hl);color:#111}
@@ -2207,8 +2196,8 @@ h2,h3,.sec>h2,.xpaper h2,.find h3,.xcard h3,.xcard h2{letter-spacing:-.02em}
 .xnav-a{font-family:var(--ff-b);font-size:14px;color:var(--ink2);border-bottom:2px solid transparent}
 .xnav-a:hover{color:var(--ink)}
 .xnav-a.on{color:var(--ink);font-weight:600;border-bottom-color:var(--ink)}
-:root:root .xutil.xpill,:root:root .xutil.xpill.on{background:var(--ink);color:var(--paper);border:0;padding:7px 16px;font-weight:500;transition:transform .15s,background .15s}
-:root:root .xutil.xpill:hover{background:var(--ink2);color:var(--paper);transform:translateY(-1px)}
+.xutil.xnav-pill,.xutil.xnav-pill.on{background:var(--ink);color:var(--paper);border:0;padding:7px 16px;font-weight:500;transition:transform .15s,background .15s}
+.xutil.xnav-pill:hover{background:var(--ink2);color:var(--paper);transform:translateY(-1px)}
 
 /* fog hero: tokens instead of literals, colour follows --k / --k2 */
 .fh-band{background:var(--band);color:var(--hl)}
@@ -2226,7 +2215,7 @@ h2,h3,.sec>h2,.xpaper h2,.find h3,.xcard h3,.xcard h2{letter-spacing:-.02em}
 .navtools .xsearch.navq input{width:100%;height:44px;padding:0 16px;border:1px solid var(--line2);border-radius:999px;background:var(--surface);color:var(--ink);font:inherit;font-size:14px}
 .navtools .xsearch.navq input:focus{outline:2px solid var(--ink);outline-offset:1px}
 .navqi{display:none}
-@media (max-width:1080px){.navtools .xsearch.navq{display:none}.navqi{display:inline-grid}.xutil:not(.xpill){display:none}}
+@media (max-width:1080px){.navtools .xsearch.navq{display:none}.navqi{display:inline-grid}.xutil:not(.xnav-pill){display:none}}
 .mobmenu a .msub{display:block;margin-top:2px;font-size:13px;font-weight:400;color:var(--muted);line-height:1.35}
 .v7-vsw{display:flex;gap:6px;margin:0 0 22px}
 .v7-vsw .chip{text-decoration:none;display:inline-flex;align-items:center;min-height:44px;padding:0 18px}
@@ -2314,6 +2303,30 @@ canvas.dm-word{position:absolute;left:0;top:0;width:100%;height:100%;pointer-eve
 .v7-cta{margin:26px 0 0}
 .v7-cta .xbtn{min-height:44px;max-width:100%;white-space:normal}
 .v7-kp .v7-fg{grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr))}
+
+/* 7.0 · mobile and accessibility pass: 44px targets on phones, focus rings, touch hints */
+@media (max-width:760px){
+  .chip,.xtab,.kp-chip,.devchip,.xfollow,.xfixlink,.v7-cb,.v7-dh,.v7-out,.xpm-s,.xsrc,.xtp,.hlnk,.xart-t,.xtoc a,.xcrumb>a,.xtopic-h>a,.v7-view .chip,.subtab{
+    display:inline-flex;align-items:center;min-height:44px;box-sizing:border-box}
+  .xart-t,.v7-dh{display:flex}
+  .xtp,.xsrc,.xpm-s,.hlnk,.xcrumb>a,.xtoc a,.v7-cb{min-width:44px}
+  .v7-whyblock p>a:only-child,.xcmp-i .eyebrow>a{display:inline-flex;align-items:center;min-height:44px}
+  .xfixlink::before{margin-right:4px}
+  .chip,.v7-out,.xsp-h a,.v7-outlets a{min-height:44px!important}
+  .chip,.v7-out{min-width:44px}
+  .xsp-h a,.v7-outlets a{display:flex;align-items:center}
+  summary{display:flex;align-items:center;min-height:44px}
+  details p>a:only-child{display:inline-flex;align-items:center;min-height:44px}
+  .xtopic-h>a{min-width:44px}
+  .subrow{scroll-padding:0 24px}
+}
+.subrow{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}
+.subtab{flex:0 0 auto}
+/* focus rings: chips, expanders, chart rows, popovers, sub-tabs */
+.chip:focus-visible,summary:focus-visible,.vz-r:focus-visible,.gl-pop:focus-visible,.gl-pop a:focus-visible,.subtab:focus-visible,.xtab:focus-visible,.v7-cb:focus-visible,.kp-chip:focus-visible{
+  outline:2px solid var(--ink);outline-offset:2px;box-shadow:0 0 0 4px var(--paper);border-radius:6px}
+.chip:focus-visible,.kp-chip:focus-visible{border-radius:999px}
+@media (max-width:760px){li>a[target=_blank]:first-child{display:inline-flex;align-items:center;min-height:44px;min-width:44px}}
 
 </style>
 </head>
@@ -4239,15 +4252,17 @@ function startAcid(cv) {
 }
 
 /* ============================================================== tooltip */
-var TIP = null;
-function tipOn(e, html) {
+var TIP = null, TIPPIN = null; /* TIPPIN: element whose tooltip a tap pinned; only tipOff(true) or a new pin changes it */
+function tipOn(e, html, pin) {
+  if (TIPPIN && !pin) return;
+  if (pin) TIPPIN = pin;
   TIP = TIP || $("#tip"); TIP.innerHTML = html; TIP.classList.add("on");
   var w = TIP.offsetWidth, h = TIP.offsetHeight;
   var x = Math.min(Math.max(8, e.clientX + 14), innerWidth - w - 8);
   var y = e.clientY - h - 12; if (y < 8) y = e.clientY + 18;
   TIP.style.left = x + "px"; TIP.style.top = y + "px";
 }
-function tipOff() { if (TIP) TIP.classList.remove("on"); }
+function tipOff(force) { if (TIPPIN && !force) return; TIPPIN = null; if (TIP) TIP.classList.remove("on"); }
 function bindTip(node, html) {
   node.addEventListener("pointerenter", function (e) { tipOn(e, html); });
   node.addEventListener("pointermove", function (e) { tipOn(e, html); });
@@ -8708,8 +8723,7 @@ var LOGO = window.CM_LOGO || {};
 function svgURI(s) { return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(s); }
 
 /* ---------------------------------------------------------------- nav */
-var NAV = [["/anlati", "Anlatı", []], ["/olaylar", "Olaylar", ["/olay", "/konu"]], ["/kurumlar", "Kurumlar", ["/kurum", "/harita"]],
-  ["/bulgular", "Bulgular", []], ["/yanlilik", "Çerçeveleme", []], ["/yontem", "Yöntem", []]];
+var NAV; /* defined in v7/core.js */
 var SUB = {
   "/olaylar": [["/olaylar", "liste", "Tüm olaylar"], ["/olaylar", "kor", "Kör noktalar"], ["/olaylar", "ilan", "Resmî ilanlar"]],
   "/kurumlar": [["/kurumlar", "liste", "Kurumlar"], ["/kurumlar", "karsilastir", "Karşılaştır"], ["/kurumlar", "kayit", "Kayıt ve güven"]],
@@ -8737,12 +8751,12 @@ function navHTML(path, over, tab) {
     '<nav class="pill-nav" aria-label="Ana gezinme"><ul class="xnav-l">' + items + "</ul></nav>" +
     '<div class="navtools">' +
       '<form class="xsearch navq" role="search" onsubmit="location.hash=\'#/ara?q=\'+encodeURIComponent(this.q.value);return false"><input type="search" name="q" id="navq" placeholder="Olay ya da kurum ara" aria-label="Olay ya da kurum ara" autocomplete="off"></form>' +
-      '<a class="xutil xpill' + (g === "/benim" ? " on" : "") + '" href="#/benim">Benim</a>' +
+      '<a class="xutil xnav-pill' + (g === "/benim" ? " on" : "") + '" href="#/benim">Benim</a>' +
       '<a class="icobtn navqi" href="#/ara" aria-label="Ara"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="6.5" cy="6.5" r="4.3"/><path d="m9.8 9.8 3.4 3.4"/></svg></a>' +
       '<button class="icobtn" id="theme" aria-label="Açık/koyu tema"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7.5 1.6a5.9 5.9 0 1 0 5.9 5.9 4.6 4.6 0 0 1-5.9-5.9Z"/></svg></button>' +
       '<button class="icobtn burger" id="burger" aria-label="Menü" aria-expanded="false"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h11M2 10.5h11"/></svg></button>' +
     "</div></div>" + '<div class="mobmenu" id="mobmenu">' + mob + "</div></header>";
-  var sub = g && v3sub(g, SUB[g]);
+  var sub = g && SUB[g];
   if (sub && DETAILP.indexOf(path) < 0) {
     h += '<div class="subnav"><div class="subrow">' + sub.map(function (s) {
       var on = s[0] === path && (s[1] === null || s[1] === tab);
@@ -9377,7 +9391,6 @@ function v3evCountLine(e) {
   return esc(t3("evCountsSplit", { h: x.haber, i: x.ilan, k: x.newsOutlets.length }));
 }
 function v3noticeTag(a) { return v3isIlanArt(a) ? '<span class="tag cm3-ntag" data-cm3>' + esc(t3("notice")) + "</span>" : ""; }
-function v3sub(g, list) { return list; }
 function v3noticeLines() {
   return '<div class="cm3-lines" data-cm3><p>' + esc(t3("noticeLine1")) + "</p><p>" + esc(t3("noticeLine2")) + "</p><p>" +
     esc(t3("noticeLine3")) + "</p></div>";
@@ -9424,9 +9437,11 @@ function v3ilanOverview() {
       .forEach(function (k) { kr.push({ label: t3(V3_KIND[k]), n: kind[k], sub: true }); });
   });
   var top = kr.filter(function (r) { return !r.sub; }).sort(function (a, b) { return b.n - a.n; })[0];
-  var dk = DAYS.filter(function (d) { return d >= "2026-09-01" && d <= "2026-10-10"; }), dvs = dk.map(function (d) { return days[d] || 0; });
+  var nd = Object.keys(days).sort(), d0 = nd[0] || "", d1 = nd[nd.length - 1] || "";
+  var dk = DAYS.filter(function (d) { return d >= d0 && d <= d1; }), dvs = dk.map(function (d) { return days[d] || 0; });
   var dsum = dvs.reduce(function (a, b) { return a + b; }, 0);
   var pct = function (n) { return "%" + CM3.pct1(n / total); };
+  var dayWord = function (d) { return d ? +d.slice(8, 10) + " " + V3MONTH[+d.slice(5, 7) - 1] : ""; };
   return findingBlock({ id: "ilan-makam",
     claim: "Resmî ilanların " + pct(top.n) + "'i “" + esc(top.label) + "” ailesinden; toplam " + orN(total) + " ilan var.",
     viz: v3bars(kr, total),
@@ -9434,7 +9449,7 @@ function v3ilanOverview() {
     how: "<p>" + esc(t3("nlKindSub")) + "</p>",
     table: vzTable(["İlanı veren makam", "İlan", "Pay"], kr.map(function (r) { return [(r.sub ? "· " : "") + r.label, orN(r.n), pct(r.n)]; })) }) +
   findingBlock({ id: "ilan-gun",
-    claim: "Eylül başından 10 Ekim'e kadar günde ortalama " + dec(dsum / Math.max(1, dk.length), 1) + " ilan yayımlandı.",
+    claim: dayWord(d0) + " ile " + dayWord(d1) + " arasında günde ortalama " + dec(dsum / Math.max(1, dk.length), 1) + " ilan yayımlandı.",
     viz: vzLine("ilan-gun", dk.map(function (d) { return fmtD(d + "T00:00"); }), [
       { k: "d", label: "Günlük ilan", vals: dvs, c: "var(--ink2)", thin: true },
       { k: "m", label: "7 günlük ortalama", vals: vzRoll(dvs, 7), c: "var(--ink)", area: true }],
@@ -9442,79 +9457,6 @@ function v3ilanOverview() {
     read: "İnce çizgi her günün ilan sayısı, kalın çizgi ve dolgu 7 günlük ortalamadır.",
     how: "<p>Her ilan başlığı, yayımlandığı günün sayacına eklenir; ortalama son 7 günü kapsar.</p>",
     table: vzTable(["Gün", "İlan"], dk.map(function (d, i) { return [fmtD(d + "T00:00"), dvs[i]]; })) });
-}
-function v3noticeEventsPage() {
-  if (!v3on("noticeSplit")) return "";
-  var n = v3N(), rows = v3noticeRows(), total = rows.length;
-  var outlets = {}, days = {}, places = {}, fam = {}, kind = {};
-  rows.forEach(function (r) {
-    outlets[r.a.s] = (outlets[r.a.s] || 0) + 1; days[r.a.d.slice(0, 10)] = (days[r.a.d.slice(0, 10)] || 0) + 1;
-    if (r.place) places[r.place] = 1;
-    fam[r.fam] = (fam[r.fam] || 0) + 1; kind[r.kind] = (kind[r.kind] || 0) + 1;
-  });
-  var h = '<div class="phead" data-cm3><div class="eyebrow">' + esc(t3("nlEyebrow")) + "</div><h1>" + esc(t3("nlHead")) + "</h1>" +
-    '<p class="lede">' + esc(t3("nlLede", { n: total.toLocaleString("tr"), x: CM3.pct1(total / D.A.length) })) + " " + v3est() + "</p></div>";
-  h += '<div class="cm3-nl" data-cm3><p class="cm3-nl-tiles"><b class="num">' + total.toLocaleString("tr") + "</b> " +
-    esc(t3("nlTiles", { o: Object.keys(outlets).length, d: Object.keys(days).length, p: Object.keys(places).length })) + "</p>" + v3noticeLines();
-  // 2. sites, alphabetical (no ranking by share)
-  var os = Object.keys(outlets).sort(function (a, b) { return srcName(a).localeCompare(srcName(b), "tr"); });
-  h += '<section class="sec"><h2>' + esc(t3("nlSiteHead")) + '</h2><p class="sub">' + esc(t3("nlSiteSub")) + "</p>" +
-    '<div class="scroller panel"><table><thead><tr><th>' + esc(t3("nlSite")) + '</th><th class="r">' + esc(t3("nlCount")) + '</th><th class="r">' + esc(t3("nlNews")) +
-    '</th><th class="r">' + esc(t3("nlShare")) + "</th></tr></thead><tbody>" + os.map(function (s) {
-      var o = n.byOutlet[s];
-      return '<tr><td><a class="lnk" href="#/kurum?s=' + s + '">' + esc(srcName(s)) + '</a></td><td class="r num">' + o.ilan + '</td><td class="r num">' + o.haber +
-        '</td><td class="r num">%' + CM3.pct1(o.ilan / o.all) + "</td></tr>";
-    }).join("") + "</tbody></table></div><p class=\"xsmall\" style=\"margin-top:6px\">" + v3est() + "</p></section>";
-  // 4. every notice
-  h += '<section class="sec" id="cm3nl-list"><h2>' + esc(t3("nlListHead")) + '</h2><div class="cm3-nl-ctl">' +
-    '<div class="cm3-chiprow" role="group">' + ["all"].concat(V3_FAMS.filter(function (f) { return fam[f]; })).map(function (f) {
-      return '<button type="button" class="chip" data-nlf="' + f + '" aria-pressed="' + (V3.nl.fam === f) + '">' + esc(f === "all" ? t3("nlAll") : t3(V3_FAM[f])) +
-        ' <span class="num">' + (f === "all" ? total : fam[f]) + "</span></button>";
-    }).join("") + "</div>" +
-    '<label class="cm3-field"><span class="visually-hidden">' + esc(t3("nlSite")) + '</span><select id="cm3nl-o"><option value="">' + esc(t3("nlOutletAll")) + "</option>" +
-    os.map(function (s) { return '<option value="' + s + '"' + (V3.nl.outlet === s ? " selected" : "") + ">" + esc(srcName(s)) + "</option>"; }).join("") + "</select></label>" +
-    '<label class="cm3-field"><span class="visually-hidden">' + esc(t3("nlSearch")) + '</span><input type="search" id="cm3nl-q" placeholder="' + esc(t3("nlSearch")) + '" value="' + esc(V3.nl.q) + '"></label></div>' +
-    '<p class="xsmall mono" id="cm3nl-count" aria-live="polite"></p><ol class="cm3-nl-list" id="cm3nl-rows"></ol></section>';
-  // 5. what changed from 2.0
-  var old = D.E.filter(function (e) { return n.events[e.i].isIlan; }).sort(function (a, b) { return b.a.length - a.a.length; });
-  if (old.length) {
-    var big = old[0], bodies = {};
-    big.a.forEach(function (i) { bodies[ART[i].t] = 1; });
-    h += '<section class="sec"><h2>' + esc(t3("nlOldHead")) + "</h2><p>" + esc(t3("nlOld", { n: old.length, m: Object.keys(bodies).length, k: big.a.length })) +
-      '</p><p class="xsmall" style="margin-top:8px">' + esc(t3("nlRule")) + ' <a class="lnk" href="#/yonetim?t=dogrulama">' + esc(t3("nlReview")) + "</a></p></section>";
-  }
-  return h + "</div>";
-}
-function v3noticeList() {
-  var box = document.getElementById("cm3nl-rows"); if (!box) return;
-  var q = CM3.trLower(V3.nl.q.trim());
-  var rows = v3noticeRows().filter(function (r) {
-    return (V3.nl.fam === "all" || r.fam === V3.nl.fam) && (!V3.nl.outlet || r.a.s === V3.nl.outlet) &&
-      (!q || CM3.trLower(r.a.t).indexOf(q) >= 0 || (r.place && CM3.trLower(r.place).indexOf(q) >= 0));
-  });
-  var shown = rows.slice(0, V3.nl.shown);
-  box.innerHTML = shown.length ? shown.map(function (r) {
-    return '<li class="cm3-nl-row"><span class="cm3-kind f-' + r.fam + '">' + esc(t3(V3_KIND[r.kind])) + "</span>" +
-      '<a href="' + esc(r.a.u) + '" target="_blank" rel="noopener">' + esc(r.a.t) + "</a>" +
-      '<span class="xsmall">' + esc(srcName(r.a.s)) + " · " + esc(r.place || t3("nlPlaceNone")) + '</span><span class="mono xsmall">' + v3time(r.a) + "</span></li>";
-  }).join("") : '<li class="xempty">' + esc(t3("nlNone")) + "</li>";
-  if (rows.length > shown.length) box.insertAdjacentHTML("beforeend", '<li><button type="button" class="chip xmore" id="cm3nl-more">' +
-    esc(t3("nlMore", { n: Math.min(60, rows.length - shown.length) })) + "</button></li>");
-  var c = document.getElementById("cm3nl-count"); if (c) c.textContent = t3("nlShown", { a: shown.length, n: rows.length });
-}
-function v3noticeWire(view) {
-  var sec = view.querySelector("#cm3nl-list"); if (!sec) return;
-  sec.addEventListener("click", function (ev) {
-    var b = ev.target.closest("button"); if (!b) return;
-    if (b.hasAttribute("data-nlf")) {
-      V3.nl.fam = b.getAttribute("data-nlf"); V3.nl.shown = 60;
-      [].forEach.call(sec.querySelectorAll("[data-nlf]"), function (o) { o.setAttribute("aria-pressed", o === b ? "true" : "false"); });
-      v3noticeList();
-    } else if (b.id === "cm3nl-more") { V3.nl.shown += 60; v3noticeList(); }
-  });
-  sec.querySelector("#cm3nl-o").onchange = function () { V3.nl.outlet = this.value; V3.nl.shown = 60; v3noticeList(); };
-  sec.querySelector("#cm3nl-q").oninput = function () { V3.nl.q = this.value; V3.nl.shown = 60; v3noticeList(); };
-  v3noticeList();
 }
 /* Notices are not news: with the split on, their clusters leave topic lists, and the notices carry the "İlan" section.
    Done once per page load; switching the flag off (preview) restores the originals. */
@@ -10349,6 +10291,7 @@ function route() {
   closeModal();
   scrollTo(0, 0);
   if (!admin) layoutPills();
+  var onTab = document.querySelector(".subrow .subtab.on"); if (onTab && onTab.scrollIntoView) onTab.scrollIntoView({ inline: "center", block: "nearest" });
   if (home) { var cv = document.getElementById("acid"); if (cv) startAcid(cv); }
   else if (acid) { acid.stop(); acid = null; }
 
@@ -11286,7 +11229,7 @@ function g6EdgeStyle(t, o) {
 }
 function g6Box(kind, arg, label, cls) {
   return '<div class="g6-wrap' + (cls ? " " + cls : "") + '"><div class="g6-box" data-g6="' + kind + '" data-arg="' + esc(arg || "") + '" role="img" aria-label="' + esc(label) +
-    '"><p class="g6-wait">Ağ çiziliyor…</p></div><p class="g6-help">Bir düğümün üzerine gelin: bağlantıları öne çıkar. Düğümleri sürükleyebilirsiniz; yakınlaştırmak için Ctrl + tekerlek.</p></div>';
+    '"><p class="g6-wait">Ağ çiziliyor…</p></div><p class="g6-help">Bir düğüme ' + orTap() + ': bağlantıları öne çıkar. Düğümleri sürükleyebilirsiniz; yakınlaştırmak için Ctrl + tekerlek.</p></div>';
 }
 /* Two views of one finding: the network first, the original chart one click away. */
 function g6Switch(id, netHtml, oldHtml, oldLabel) {
@@ -11313,7 +11256,7 @@ function g6AgendaData(t, focus) {
     return { id: s, data: { label: srcName(s), c: g6Bloc(t, s), size: 14 + 26 * Math.sqrt((A.size[s] || 1) / mxs), go: "#/kurum?s=" + s,
       ring: s === focus ? t.ink : null, bold: s === focus,
       tip: "<span class='k'>" + esc(srcName(s)) + "</span>" + orN(A.size[s] || 0) + " olay<br>Gündemi en çok benzeyen: " +
-        nb.map(function (x) { return esc(srcName(x)) + " (φ " + dec(A.phi[s][x], 2) + ")"; }).join(", ") + "<br>Tıklayın: kurum sayfası" } };
+        nb.map(function (x) { return esc(srcName(x)) + " (φ " + dec(A.phi[s][x], 2) + ")"; }).join(", ") + "<br>" + orGo() + ": kurum sayfası" } };
   });
   var edges = [];
   keep.forEach(function (a, i) { keep.forEach(function (b, j) {
@@ -11375,7 +11318,7 @@ G6K.follow = function (arg, t) {
   var mf = Math.max.apply(null, ks.map(function (s) { return F.first[s] || 0; })) || 1, mx = Math.max.apply(null, F.edges.map(function (x) { return x.n; })) || 1;
   return { opts: {
     data: { nodes: ks.map(function (s) { return { id: s, data: { label: srcName(s), c: g6Bloc(t, s), size: 14 + 30 * Math.sqrt((F.first[s] || 0) / mf), go: "#/kurum?s=" + s,
-      tip: "<span class='k'>" + esc(srcName(s)) + "</span>İlk veren olduğu olay: " + orN(F.first[s] || 0) + "<br>Verdiği olay (≥ 5 kurumlu): " + orN(F.cov[s] || 0) + "<br>Tıklayın: kurum sayfası" } }; }),
+      tip: "<span class='k'>" + esc(srcName(s)) + "</span>İlk veren olduğu olay: " + orN(F.first[s] || 0) + "<br>Verdiği olay (≥ 5 kurumlu): " + orN(F.cov[s] || 0) + "<br>" + orGo() + ": kurum sayfası" } }; }),
       edges: F.edges.map(function (x) { return { source: x.a, target: x.b, data: { w: .8 + 7 * x.n / mx, c: g6Bloc(t, x.a), op: .55,
         tip: "<span class='k'>" + esc(srcName(x.a)) + " → " + esc(srcName(x.b)) + "</span>" + orN(x.n) + " olayda önce " + esc(srcName(x.a)) + " verdi, " + esc(srcName(x.b)) +
           " sonra (ortanca " + dur5(median5(x.lags.slice())) + ")<br>" + esc(srcName(x.b)) + " olaylarının " + orP(x.share) + "’i" } }; }) },
@@ -11625,6 +11568,18 @@ function vzDistSel(id, a, b) {
   });
   /* Row tooltips anywhere on the site. */
   var tp = function (ev) { return ev.target.closest && ev.target.closest("[data-vtip]"); };
+  /* Touch: a tap pins the tooltip until a tap elsewhere; on a row that also navigates (data-go) the first tap only pins, the second follows the link. */
+  var pt = function (ev) { return ev.target.closest && ev.target.closest("[data-vtip],[data-tip]"); };
+  var touchy = function (ev) { return ev.pointerType ? ev.pointerType !== "mouse" : matchMedia("(hover:none)").matches; };
+  window.addEventListener("hashchange", function () { tipOff(true); });
+  document.addEventListener("click", function (ev) {
+    var t = pt(ev);
+    if (!t) { if (TIPPIN) tipOff(true); return; }
+    if (!touchy(ev) || TIPPIN === t) return;
+    var r = t.getBoundingClientRect();
+    tipOn({ clientX: r.left + Math.min(r.width / 2, 120), clientY: r.top }, t.getAttribute("data-vtip") || t.getAttribute("data-tip"), t);
+    if (t.hasAttribute("data-go")) ev.stopPropagation();
+  }, true);
   document.addEventListener("pointerover", function (ev) { var t = tp(ev); if (t) tipOn(ev, t.getAttribute("data-vtip")); });
   document.addEventListener("pointermove", function (ev) { var t = tp(ev); if (t) tipOn(ev, t.getAttribute("data-vtip")); });
   document.addEventListener("pointerout", function (ev) { if (tp(ev)) tipOff(); });
@@ -12247,7 +12202,7 @@ function pgAnlati(q) {
       '<p class="v7-note">Daireler kurum, kareler bir boyuttaki seçim (çerçeve, sorumlu, çözüm…). Aynı kareye bağlanan kurumlar aynı seçimi yaptı; çok seçimi paylaşan kurumlar birbirine yakın durur. Kare büyüklüğü seçimi yapan kurum sayısı.</p>' +
       '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>' :
       '<div class="v7-scroll"><div id="v7-flow" data-key="' + esc(key) + '"></div></div><p class="v7-note">Her çizgi bir kurum; rengi kurumun yerleşimini gösterir. ' +
-      "Aynı kutudan geçen çizgiler aynı seçimi yapmıştır. Bir çizginin üzerine gelince kurumun seçimleri görünür.</p>" +
+      "Aynı kutudan geçen çizgiler aynı seçimi yapmıştır. Bir çizgiye " + orTap() + ": kurumun seçimleri görünür.</p>" +
       '<p class="v7-leg"><span class="left">sola yerleşik</span><span class="mid">merkez</span><span class="right">sağa yerleşik</span></p>') +
     "</div></div>" + v7Body(n, e);
   h += '<section class="v7-readbox"><h2>Nasıl okunur</h2><ol class="v7-read">' + V7_READ.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ol></section>";
@@ -12461,6 +12416,7 @@ function orLoc(name) {
   return "’" + (/[fstkçşhp]$/.test(low) ? "t" : "d") + (/[aıou]/.test(v) ? "a" : "e");
 }
 /* Caption verb: "dokunun" on touch screens, "gelin" with a pointer. */
+function orGo() { return orTap() === "dokunun" ? "Tekrar dokunun" : "Tıklayın"; }
 function orTap() { return typeof matchMedia === "function" && matchMedia("(hover: none)").matches ? "dokunun" : "gelin"; }
 function orHow(lines, sec) {
   return "<ul class=\"or-how\">" + lines.map(function (l) { return "<li>" + l + "</li>"; }).join("") + "</ul>" +
@@ -12535,7 +12491,7 @@ function orCols(set, bins, o) {
   var mx = Math.max.apply(null, bins.map(function (b) { return b.ev.length; })) || 1, tot = o.n || 1;
   return '<div class="or-cols" style="--n:' + bins.length + '">' + bins.map(function (b, i) {
     return '<button type="button" class="or-col" data-set="' + set + '" data-bin="' + i + '" aria-pressed="false"' +
-      orTip("<span class='k'>" + o.label(b) + "</span>" + orN(b.ev.length) + " olay<br>" + orP(b.ev.length / tot) + " · tıklayın") +
+      orTip("<span class='k'>" + o.label(b) + "</span>" + orN(b.ev.length) + " olay<br>" + orP(b.ev.length / tot) + " · " + orGo().toLowerCase()) +
       '><b>' + orN(b.ev.length) + '</b><i style="height:' + Math.max(2, 120 * b.ev.length / mx) + 'px"></i></button>';
   }).join("") + '</div><div class="or-axis" style="--n:' + bins.length + '">' + bins.map(function (b) { return "<span>" + b.lo + "</span>"; }).join("") +
     '</div><p class="or-axt">' + o.axis + '</p><div class="or-panel" id="or-d-' + set + '" aria-live="polite">' + o.detail(null) + "</div>";
@@ -12612,11 +12568,11 @@ function orFindAgenda() {
   var net = g6Box("agenda", "", "Kurumların gündem benzerliği ağı: φ ≥ 0,05 olan çiftler bağlı") +
     legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" },
       { line: 1, c: "var(--ink2)", t: "kalın çizgi · φ ≥ 0,15" }, { line: 1, c: "var(--line2)", t: "ince · 0,05 – 0,15" }], "Ağ") +
-    '<p class="or-hint">Düğüm büyüklüğü kurumun verdiği olay sayısı; birlikte çok olay seçen kurumlar birbirine çekilir. Tıklayınca kurum sayfası açılır.</p>';
+    '<p class="or-hint">Düğüm büyüklüğü kurumun verdiği olay sayısı; birlikte çok olay seçen kurumlar birbirine çekilir. ' + (orTap() === "dokunun" ? "Dokununca" : "Tıklayınca") + ' kurum sayfası açılır.</p>';
   var viz = fig("adv-a", "gündem benzerliği (φ) · kümeleme sırasına göre", {
     legend: legendHTML([{ c: "var(--seq4)", t: "φ ≥ 0,15 · çok benzer" }, { c: "var(--seq3)", t: "0,05 – 0,15" },
       { c: "var(--seq2)", t: "şanstan farksız" }, { c: "var(--seq1)", t: "φ < −0,05 · farklı" }]) }) +
-    '<p class="or-hint">Bir kareye gelin: iki kurumun benzerliği ve birlikte verdikleri olay sayısı görünür.</p>';
+    '<p class="or-hint">Bir kareye ' + orTap() + ': iki kurumun benzerliği ve birlikte verdikleri olay sayısı görünür.</p>';
   viz = g6Switch("gundem", net, viz, "Matris");
   return { id: "secim-gundem",
     claim: "Haber yaptıkları olaylar en çok <b>" + esc(srcName(hi[0])) + "</b> ile <b>" + esc(srcName(hi[1])) + "</b> arasında örtüşüyor, en az <b>" + esc(srcName(lo[0])) + "</b> ile <b>" + esc(srcName(lo[1])) + "</b> arasında.",
@@ -12764,7 +12720,7 @@ function orLangHtml() {
       return { k: r.s, label: srcName(r.s), sw: lean(r.lean), go: "#/kurum?s=" + r.s, ref: bv(b) == null ? null : mul * bv(b), span: "ref", val: fmt(r[key]),
         pts: [{ v: mul * r[key], c: lean(r.lean) }],
         tip: "<span class='k'>" + esc(srcName(r.s)) + "</span>" + orN(r.n) + " siyasi başlık<br>Ortalama puan " + dec(r.mean, 1) + " · yüklü başlık payı " + orP(r.share) +
-          (bv(b) != null ? "<br>Kendi bloğunun ortalamasından " + (d >= 0 ? "+" : "−") + fmt(Math.abs(d)).replace("%", "") + (key === "share" ? " puan" : "") : "") + "<br>Tıklayın: kurum sayfası" };
+          (bv(b) != null ? "<br>Kendi bloğunun ortalamasından " + (d >= 0 ? "+" : "−") + fmt(Math.abs(d)).replace("%", "") + (key === "share" ? " puan" : "") : "") + "<br>" + orGo() + ": kurum sayfası" };
     }));
   return '<div class="or-ctl"><span class="or-cl">Ölçü</span>' + chip("lm", "mean", "Ortalama puan", key === "mean") + chip("lm", "share", "Yüklü başlık payı", key === "share") +
     '<span class="or-cl">Sıra</span>' + chip("ls", "val", "Değere göre", st.sort === "val") + chip("ls", "dev", "Bloğundan sapmaya göre", st.sort === "dev") + chip("ls", "lean", "Yerleşime göre", st.sort === "lean") + chip("ls", "name", "Ada göre", st.sort === "name") + "</div>" +
@@ -12780,7 +12736,7 @@ function orFindLoaded() {
   var bv = ["left", "mid", "right"].map(bm).filter(function (v) { return v != null; });
   return { id: "dil-yuklu",
     claim: "Siyasi başlıklarda en yüklü dili <b>" + esc(srcName(hi.s)) + "</b> (ortalama " + dec(hi.mean, 1) + "), en sakinini <b>" + esc(srcName(lo.s)) + "</b> (" + dec(lo.mean, 1) +
-      ") kullanıyor; sol, merkez ve sağ blokların ortalaması " + dec(Math.min.apply(null, bv), 1) + " ile " + dec(Math.max.apply(null, bv), 1) + " arasında.",
+      ") kullanıyor" + (bv.length ? "; sol, merkez ve sağ blokların ortalaması " + dec(Math.min.apply(null, bv), 1) + " ile " + dec(Math.max.apply(null, bv), 1) + " arasında." : "."),
     viz: '<div id="or-lang">' + orLangHtml() + "</div>",
     read: "Her nokta bir kurum; sağa gittikçe daha yüklü dil. Çizgi kurumu kendi bloğunun ortalamasına bağlar.",
     table: vzTable(["Kurum", "Blok", "Siyasi başlık", "Ortalama puan", "Yüklü başlık payı", "Bloğunun ortalaması"], by.map(function (r) {
@@ -12819,7 +12775,7 @@ function orFindTop20() {
   var st = deviceStats(), top = Object.keys(st).sort(function (a, b) { return st[b].n - st[a].n; })[0];
   var nm = function (k) { var x = BREG[k] || BIA[k] || {}; return x.tr && x.en ? x.tr + " (" + x.en + ")" : x.en || k; };
   return { id: "dil-yapilar",
-    claim: (top ? "Başlıklarda en sık rastlanan çerçeveleme yapısı <b>" + esc(nm(top)) + "</b>: bu dönemde <b>" + orN(st[top].n) + "</b> başlıkta. " : "") +
+    claim: (top ? "Sözcük kurallarının en sık bulduğu yapı <b>" + esc(nm(top)) + "</b>: <b>" + orN(st[top].n) + "</b> başlıkta. " : "") +
       "Listedeki " + (all.nr + all.na) + " yapının " + orNS(all.nr) + " sözcük kurallarıyla, " + orNS(all.na) + " yapay zekâ incelemesiyle bulundu.",
     viz: '<div class="or-ctl"><span class="or-cl">Kaynak</span>' + chip("hepsi", "Hepsi", true) + chip("kural", "Kural", false) + chip("yz", "YZ " + yzBadge(), false) +
       '</div><div id="or-t20">' + orTop20Html("hepsi") + "</div>",
@@ -12854,11 +12810,11 @@ function orFindStyle() {
     claim: pcSig ? "Kurumların başlık yazma biçimi yelpazedeki yerleriyle örtüşüyor: <b>" + side + " yerleşik</b> kurumlar çerçeveleme yapılarını daha sık kullananlar tarafında toplanıyor."
       : "Kurumların başlık yazma biçimi ile yelpazedeki yerleri arasında belirgin bir örtüşme görülmedi.",
     viz: fig("adv-b", "1. bileşen × 2. bileşen · nokta rengi yerleşim", { legend: legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }]) }) +
-      '<p class="or-hint">Bir noktaya gelin: kurum, yerleşimi ve siyasi başlık sayısı görünür.</p>',
+      '<p class="or-hint">Bir noktaya ' + orTap() + ': kurum, yerleşimi ve siyasi başlık sayısı görünür.</p>',
     read: "Her nokta bir kurum; sağa gittikçe başlıklarında çerçeveleme yapıları daha sık. Renk kurumun yerleşimi.",
     table: vzTable(["Kurum", "Blok", "1. bileşen", "2. bileşen"], Object.keys(P.pts).sort(function (a, b) { return P.pts[b][0] - P.pts[a][0]; }).map(function (k) {
       return [srcName(k), SIDE[bloc(k)] || "—", dec(P.pts[k][0], 2), dec(P.pts[k][1], 2)]; })),
-    means: (pcSig ? "Başlıkların yazılış biçimi kurumun yelpazedeki yeriyle birlikte değişiyor. " : "Bir ilişki görülmemesi, ilişkinin olmadığını değil, bu kadar az kurumla saptanamadığını gösterir. ") +
+    means: (pcSig ? "Başlıkların yazılış biçimi kurumun yelpazedeki yeriyle birlikte değişiyor. " : "Bir ilişki görülmemesi, ilişkinin olmadığını değil, saptanamadığını gösterir. ") +
       "Eksenin en çok beslendiği yapılar: " + P.load1.slice(0, 3).map(function (x) { return esc((BIA[x[0]] || {}).en || x[0]); }).join(", ") + ". " +
       "Bu bir kurumun yazı biçiminin özetidir, hangi yazının doğru olduğu hakkında bir şey söylemez; yalnızca " + Object.keys(P.pts).length + " kurum var, bu yüzden resim kolayca fazla okunur.",
     how: orHow(["Yazma biçiminin ana ekseni (1. bileşen) kurumlar arasındaki farkların " + orPcS(P["var"][0], "i") + " açıklıyor; yerleşimle ρ = " + dec(P.rho1, 2) + " (p = " + dec(P.p1, 3) + ").",
@@ -12984,7 +12940,7 @@ function orFindBlame() {
     return '<div class="or-bar or-st" tabindex="0"' + orTip(tip) + '><span class="or-bl">' + esc(r.value) + '</span><span class="or-bt or-stk" style="width:' + (100 * tot(r) / mx) + '%">' +
       ["left", "mid", "right"].map(function (b) { return r[b] ? '<i style="flex:' + r[b] + ";background:var(--" + b + ')"></i>' : ""; }).join("") + "</span><b>" + tot(r) + "</b></div>";
   }).join("") + "</div>" + legendHTML([{ c: "var(--left)", t: "sola yerleşik kurum" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik kurum" }], "Renk") +
-    '<p class="or-hint">Bir çubuğa gelin: hangi kurumların başlığında bu aktörün sorumlu tutulduğu görünür.</p>';
+    '<p class="or-hint">Bir çubuğa ' + orTap() + ': hangi kurumların başlığında bu aktörün sorumlu tutulduğu görünür.</p>';
   var act = V2.active || {}, viz = vzKey([{ c: "var(--left)", t: "sol" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağ" }]) +
     vzRows(top.map(function (r) {
       return { k: r.value, label: r.value, span: "pts", val: tot(r) + " satır",
@@ -12997,7 +12953,7 @@ function orFindBlame() {
     '<p class="or-hint">Her çizgi bir kurumun başlığında o aktörü sorumlu tuttuğu olaylar; kalınlık olay sayısı. Aynı aktöre bağlanan kurumlar bir araya toplanır.</p>', viz, "Kurum başına");
   var t0 = top[0] || { value: "—", left: 0, mid: 0, right: 0, none: 0 };
   return { id: "anlati-sorumlu",
-    claim: "Başlıklarda en sık sorumlu tutulan taraf “" + esc(t0.value) + "”: <b>" + tot(t0) + "</b> kurum başlığında; bunların " + orNS(t0.right) + " sağdaki, " + orNS(t0.mid) + " merkezdeki, " + orNS(t0.left) + " soldaki kurumlardan.",
+    claim: "Başlıklarda en sık sorumlu tutulan taraf “" + esc(t0.value) + "”: <b>" + tot(t0) + "</b> kurum başlığında; yerleşimli olanların " + orNS(t0.right) + " sağdaki, " + orNS(t0.mid) + " merkezdeki, " + orNS(t0.left) + " soldaki kurumlardan.",
     viz: viz,
     read: "Her çizgi bir kurumdan, başlığında sorumlu tuttuğu aktöre gider; kalın çizgi daha çok olay. Bir düğüme " + orTap() + ": bağlantıları öne çıkar.",
     table: (function () { var out = []; top.forEach(function (r) { var w = who[r.value] || {};
@@ -13042,12 +12998,12 @@ function orFindLead() {
   var dots = ks.map(function (s) {
     var o = LL[s], l = 100 * (o.firstShare * 100) / xm, t = 100 - 100 * o.medLag / ym;
     return '<a class="or-dot" href="#/kurum?s=' + s + '" data-go="#/kurum?s=' + s + '" style="left:' + l + "%;top:" + t + "%;--c:" + lean(SRC[s] ? SRC[s].lean : null) + '"' +
-      orTip("<span class='k'>" + esc(srcName(s)) + "</span>İlk veren olduğu olay payı " + pc5(o.firstShare) + " (" + orN(o.first) + " / " + orN(o.events) + ")<br>Ortanca gecikme " + dur5(o.medLag) + "<br>Tıklayın: kurum sayfası") + '><span>' + esc(srcName(s)) + "</span></a>";
+      orTip("<span class='k'>" + esc(srcName(s)) + "</span>İlk veren olduğu olay payı " + pc5(o.firstShare) + " (" + orN(o.first) + " / " + orN(o.events) + ")<br>Ortanca gecikme " + dur5(o.medLag) + "<br>" + orGo() + ": kurum sayfası") + '><span>' + esc(srcName(s)) + "</span></a>";
   }).join("");
   var viz = '<div class="or-sc"><div class="or-scp"><i class="or-mx" style="left:' + (100 * mx / xm) + '%"></i><i class="or-my" style="top:' + (100 - 100 * my / ym) + '%"></i>' + dots +
     '</div><span class="or-sx">İlk veren olduğu olayların payı (%) → ' + xm + '</span><span class="or-sy">↑ ortanca gecikme ' + dur5(ym) + "</span></div>" +
     legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { dash: 1, t: "kurumların ortancası" }]) +
-    '<p class="or-hint">Bir noktaya gelin: kurumun ilk yayınlama payı ve gecikmesi; tıklayınca kurum sayfası açılır.</p>';
+    '<p class="or-hint">Bir noktaya ' + orTap() + ': kurumun ilk yayınlama payı ve gecikmesi; ' + (orTap() === "dokunun" ? "tekrar dokununca" : "tıklayınca") + ' kurum sayfası açılır.</p>';
   var fast = ks.slice().sort(function (a, b) { return LL[b].firstShare - LL[a].firstShare; })[0];
   var cor = (function () { var r = function (a) { var o = a.map(function (v, i) { return [v, i]; }).sort(function (p, q) { return p[0] - q[0]; }), x = []; o.forEach(function (p, i) { x[p[1]] = i; }); return x; };
     var a = r(xs), b = r(ys), n = a.length, d = 0; for (var i = 0; i < n; i++) d += Math.pow(a[i] - b[i], 2); return 1 - 6 * d / (n * (n * n - 1)); })();

@@ -28,6 +28,7 @@ function orLoc(name) {
   return "’" + (/[fstkçşhp]$/.test(low) ? "t" : "d") + (/[aıou]/.test(v) ? "a" : "e");
 }
 /* Caption verb: "dokunun" on touch screens, "gelin" with a pointer. */
+function orGo() { return orTap() === "dokunun" ? "Tekrar dokunun" : "Tıklayın"; }
 function orTap() { return typeof matchMedia === "function" && matchMedia("(hover: none)").matches ? "dokunun" : "gelin"; }
 function orHow(lines, sec) {
   return "<ul class=\"or-how\">" + lines.map(function (l) { return "<li>" + l + "</li>"; }).join("") + "</ul>" +
@@ -102,7 +103,7 @@ function orCols(set, bins, o) {
   var mx = Math.max.apply(null, bins.map(function (b) { return b.ev.length; })) || 1, tot = o.n || 1;
   return '<div class="or-cols" style="--n:' + bins.length + '">' + bins.map(function (b, i) {
     return '<button type="button" class="or-col" data-set="' + set + '" data-bin="' + i + '" aria-pressed="false"' +
-      orTip("<span class='k'>" + o.label(b) + "</span>" + orN(b.ev.length) + " olay<br>" + orP(b.ev.length / tot) + " · tıklayın") +
+      orTip("<span class='k'>" + o.label(b) + "</span>" + orN(b.ev.length) + " olay<br>" + orP(b.ev.length / tot) + " · " + orGo().toLowerCase()) +
       '><b>' + orN(b.ev.length) + '</b><i style="height:' + Math.max(2, 120 * b.ev.length / mx) + 'px"></i></button>';
   }).join("") + '</div><div class="or-axis" style="--n:' + bins.length + '">' + bins.map(function (b) { return "<span>" + b.lo + "</span>"; }).join("") +
     '</div><p class="or-axt">' + o.axis + '</p><div class="or-panel" id="or-d-' + set + '" aria-live="polite">' + o.detail(null) + "</div>";
@@ -179,11 +180,11 @@ function orFindAgenda() {
   var net = g6Box("agenda", "", "Kurumların gündem benzerliği ağı: φ ≥ 0,05 olan çiftler bağlı") +
     legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" },
       { line: 1, c: "var(--ink2)", t: "kalın çizgi · φ ≥ 0,15" }, { line: 1, c: "var(--line2)", t: "ince · 0,05 – 0,15" }], "Ağ") +
-    '<p class="or-hint">Düğüm büyüklüğü kurumun verdiği olay sayısı; birlikte çok olay seçen kurumlar birbirine çekilir. Tıklayınca kurum sayfası açılır.</p>';
+    '<p class="or-hint">Düğüm büyüklüğü kurumun verdiği olay sayısı; birlikte çok olay seçen kurumlar birbirine çekilir. ' + (orTap() === "dokunun" ? "Dokununca" : "Tıklayınca") + ' kurum sayfası açılır.</p>';
   var viz = fig("adv-a", "gündem benzerliği (φ) · kümeleme sırasına göre", {
     legend: legendHTML([{ c: "var(--seq4)", t: "φ ≥ 0,15 · çok benzer" }, { c: "var(--seq3)", t: "0,05 – 0,15" },
       { c: "var(--seq2)", t: "şanstan farksız" }, { c: "var(--seq1)", t: "φ < −0,05 · farklı" }]) }) +
-    '<p class="or-hint">Bir kareye gelin: iki kurumun benzerliği ve birlikte verdikleri olay sayısı görünür.</p>';
+    '<p class="or-hint">Bir kareye ' + orTap() + ': iki kurumun benzerliği ve birlikte verdikleri olay sayısı görünür.</p>';
   viz = g6Switch("gundem", net, viz, "Matris");
   return { id: "secim-gundem",
     claim: "Haber yaptıkları olaylar en çok <b>" + esc(srcName(hi[0])) + "</b> ile <b>" + esc(srcName(hi[1])) + "</b> arasında örtüşüyor, en az <b>" + esc(srcName(lo[0])) + "</b> ile <b>" + esc(srcName(lo[1])) + "</b> arasında.",
@@ -331,7 +332,7 @@ function orLangHtml() {
       return { k: r.s, label: srcName(r.s), sw: lean(r.lean), go: "#/kurum?s=" + r.s, ref: bv(b) == null ? null : mul * bv(b), span: "ref", val: fmt(r[key]),
         pts: [{ v: mul * r[key], c: lean(r.lean) }],
         tip: "<span class='k'>" + esc(srcName(r.s)) + "</span>" + orN(r.n) + " siyasi başlık<br>Ortalama puan " + dec(r.mean, 1) + " · yüklü başlık payı " + orP(r.share) +
-          (bv(b) != null ? "<br>Kendi bloğunun ortalamasından " + (d >= 0 ? "+" : "−") + fmt(Math.abs(d)).replace("%", "") + (key === "share" ? " puan" : "") : "") + "<br>Tıklayın: kurum sayfası" };
+          (bv(b) != null ? "<br>Kendi bloğunun ortalamasından " + (d >= 0 ? "+" : "−") + fmt(Math.abs(d)).replace("%", "") + (key === "share" ? " puan" : "") : "") + "<br>" + orGo() + ": kurum sayfası" };
     }));
   return '<div class="or-ctl"><span class="or-cl">Ölçü</span>' + chip("lm", "mean", "Ortalama puan", key === "mean") + chip("lm", "share", "Yüklü başlık payı", key === "share") +
     '<span class="or-cl">Sıra</span>' + chip("ls", "val", "Değere göre", st.sort === "val") + chip("ls", "dev", "Bloğundan sapmaya göre", st.sort === "dev") + chip("ls", "lean", "Yerleşime göre", st.sort === "lean") + chip("ls", "name", "Ada göre", st.sort === "name") + "</div>" +
@@ -347,7 +348,7 @@ function orFindLoaded() {
   var bv = ["left", "mid", "right"].map(bm).filter(function (v) { return v != null; });
   return { id: "dil-yuklu",
     claim: "Siyasi başlıklarda en yüklü dili <b>" + esc(srcName(hi.s)) + "</b> (ortalama " + dec(hi.mean, 1) + "), en sakinini <b>" + esc(srcName(lo.s)) + "</b> (" + dec(lo.mean, 1) +
-      ") kullanıyor; sol, merkez ve sağ blokların ortalaması " + dec(Math.min.apply(null, bv), 1) + " ile " + dec(Math.max.apply(null, bv), 1) + " arasında.",
+      ") kullanıyor" + (bv.length ? "; sol, merkez ve sağ blokların ortalaması " + dec(Math.min.apply(null, bv), 1) + " ile " + dec(Math.max.apply(null, bv), 1) + " arasında." : "."),
     viz: '<div id="or-lang">' + orLangHtml() + "</div>",
     read: "Her nokta bir kurum; sağa gittikçe daha yüklü dil. Çizgi kurumu kendi bloğunun ortalamasına bağlar.",
     table: vzTable(["Kurum", "Blok", "Siyasi başlık", "Ortalama puan", "Yüklü başlık payı", "Bloğunun ortalaması"], by.map(function (r) {
@@ -386,7 +387,7 @@ function orFindTop20() {
   var st = deviceStats(), top = Object.keys(st).sort(function (a, b) { return st[b].n - st[a].n; })[0];
   var nm = function (k) { var x = BREG[k] || BIA[k] || {}; return x.tr && x.en ? x.tr + " (" + x.en + ")" : x.en || k; };
   return { id: "dil-yapilar",
-    claim: (top ? "Başlıklarda en sık rastlanan çerçeveleme yapısı <b>" + esc(nm(top)) + "</b>: bu dönemde <b>" + orN(st[top].n) + "</b> başlıkta. " : "") +
+    claim: (top ? "Sözcük kurallarının en sık bulduğu yapı <b>" + esc(nm(top)) + "</b>: <b>" + orN(st[top].n) + "</b> başlıkta. " : "") +
       "Listedeki " + (all.nr + all.na) + " yapının " + orNS(all.nr) + " sözcük kurallarıyla, " + orNS(all.na) + " yapay zekâ incelemesiyle bulundu.",
     viz: '<div class="or-ctl"><span class="or-cl">Kaynak</span>' + chip("hepsi", "Hepsi", true) + chip("kural", "Kural", false) + chip("yz", "YZ " + yzBadge(), false) +
       '</div><div id="or-t20">' + orTop20Html("hepsi") + "</div>",
@@ -421,11 +422,11 @@ function orFindStyle() {
     claim: pcSig ? "Kurumların başlık yazma biçimi yelpazedeki yerleriyle örtüşüyor: <b>" + side + " yerleşik</b> kurumlar çerçeveleme yapılarını daha sık kullananlar tarafında toplanıyor."
       : "Kurumların başlık yazma biçimi ile yelpazedeki yerleri arasında belirgin bir örtüşme görülmedi.",
     viz: fig("adv-b", "1. bileşen × 2. bileşen · nokta rengi yerleşim", { legend: legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }]) }) +
-      '<p class="or-hint">Bir noktaya gelin: kurum, yerleşimi ve siyasi başlık sayısı görünür.</p>',
+      '<p class="or-hint">Bir noktaya ' + orTap() + ': kurum, yerleşimi ve siyasi başlık sayısı görünür.</p>',
     read: "Her nokta bir kurum; sağa gittikçe başlıklarında çerçeveleme yapıları daha sık. Renk kurumun yerleşimi.",
     table: vzTable(["Kurum", "Blok", "1. bileşen", "2. bileşen"], Object.keys(P.pts).sort(function (a, b) { return P.pts[b][0] - P.pts[a][0]; }).map(function (k) {
       return [srcName(k), SIDE[bloc(k)] || "—", dec(P.pts[k][0], 2), dec(P.pts[k][1], 2)]; })),
-    means: (pcSig ? "Başlıkların yazılış biçimi kurumun yelpazedeki yeriyle birlikte değişiyor. " : "Bir ilişki görülmemesi, ilişkinin olmadığını değil, bu kadar az kurumla saptanamadığını gösterir. ") +
+    means: (pcSig ? "Başlıkların yazılış biçimi kurumun yelpazedeki yeriyle birlikte değişiyor. " : "Bir ilişki görülmemesi, ilişkinin olmadığını değil, saptanamadığını gösterir. ") +
       "Eksenin en çok beslendiği yapılar: " + P.load1.slice(0, 3).map(function (x) { return esc((BIA[x[0]] || {}).en || x[0]); }).join(", ") + ". " +
       "Bu bir kurumun yazı biçiminin özetidir, hangi yazının doğru olduğu hakkında bir şey söylemez; yalnızca " + Object.keys(P.pts).length + " kurum var, bu yüzden resim kolayca fazla okunur.",
     how: orHow(["Yazma biçiminin ana ekseni (1. bileşen) kurumlar arasındaki farkların " + orPcS(P["var"][0], "i") + " açıklıyor; yerleşimle ρ = " + dec(P.rho1, 2) + " (p = " + dec(P.p1, 3) + ").",
@@ -551,7 +552,7 @@ function orFindBlame() {
     return '<div class="or-bar or-st" tabindex="0"' + orTip(tip) + '><span class="or-bl">' + esc(r.value) + '</span><span class="or-bt or-stk" style="width:' + (100 * tot(r) / mx) + '%">' +
       ["left", "mid", "right"].map(function (b) { return r[b] ? '<i style="flex:' + r[b] + ";background:var(--" + b + ')"></i>' : ""; }).join("") + "</span><b>" + tot(r) + "</b></div>";
   }).join("") + "</div>" + legendHTML([{ c: "var(--left)", t: "sola yerleşik kurum" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik kurum" }], "Renk") +
-    '<p class="or-hint">Bir çubuğa gelin: hangi kurumların başlığında bu aktörün sorumlu tutulduğu görünür.</p>';
+    '<p class="or-hint">Bir çubuğa ' + orTap() + ': hangi kurumların başlığında bu aktörün sorumlu tutulduğu görünür.</p>';
   var act = V2.active || {}, viz = vzKey([{ c: "var(--left)", t: "sol" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağ" }]) +
     vzRows(top.map(function (r) {
       return { k: r.value, label: r.value, span: "pts", val: tot(r) + " satır",
@@ -564,7 +565,7 @@ function orFindBlame() {
     '<p class="or-hint">Her çizgi bir kurumun başlığında o aktörü sorumlu tuttuğu olaylar; kalınlık olay sayısı. Aynı aktöre bağlanan kurumlar bir araya toplanır.</p>', viz, "Kurum başına");
   var t0 = top[0] || { value: "—", left: 0, mid: 0, right: 0, none: 0 };
   return { id: "anlati-sorumlu",
-    claim: "Başlıklarda en sık sorumlu tutulan taraf “" + esc(t0.value) + "”: <b>" + tot(t0) + "</b> kurum başlığında; bunların " + orNS(t0.right) + " sağdaki, " + orNS(t0.mid) + " merkezdeki, " + orNS(t0.left) + " soldaki kurumlardan.",
+    claim: "Başlıklarda en sık sorumlu tutulan taraf “" + esc(t0.value) + "”: <b>" + tot(t0) + "</b> kurum başlığında; yerleşimli olanların " + orNS(t0.right) + " sağdaki, " + orNS(t0.mid) + " merkezdeki, " + orNS(t0.left) + " soldaki kurumlardan.",
     viz: viz,
     read: "Her çizgi bir kurumdan, başlığında sorumlu tuttuğu aktöre gider; kalın çizgi daha çok olay. Bir düğüme " + orTap() + ": bağlantıları öne çıkar.",
     table: (function () { var out = []; top.forEach(function (r) { var w = who[r.value] || {};
@@ -609,12 +610,12 @@ function orFindLead() {
   var dots = ks.map(function (s) {
     var o = LL[s], l = 100 * (o.firstShare * 100) / xm, t = 100 - 100 * o.medLag / ym;
     return '<a class="or-dot" href="#/kurum?s=' + s + '" data-go="#/kurum?s=' + s + '" style="left:' + l + "%;top:" + t + "%;--c:" + lean(SRC[s] ? SRC[s].lean : null) + '"' +
-      orTip("<span class='k'>" + esc(srcName(s)) + "</span>İlk veren olduğu olay payı " + pc5(o.firstShare) + " (" + orN(o.first) + " / " + orN(o.events) + ")<br>Ortanca gecikme " + dur5(o.medLag) + "<br>Tıklayın: kurum sayfası") + '><span>' + esc(srcName(s)) + "</span></a>";
+      orTip("<span class='k'>" + esc(srcName(s)) + "</span>İlk veren olduğu olay payı " + pc5(o.firstShare) + " (" + orN(o.first) + " / " + orN(o.events) + ")<br>Ortanca gecikme " + dur5(o.medLag) + "<br>" + orGo() + ": kurum sayfası") + '><span>' + esc(srcName(s)) + "</span></a>";
   }).join("");
   var viz = '<div class="or-sc"><div class="or-scp"><i class="or-mx" style="left:' + (100 * mx / xm) + '%"></i><i class="or-my" style="top:' + (100 - 100 * my / ym) + '%"></i>' + dots +
     '</div><span class="or-sx">İlk veren olduğu olayların payı (%) → ' + xm + '</span><span class="or-sy">↑ ortanca gecikme ' + dur5(ym) + "</span></div>" +
     legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { dash: 1, t: "kurumların ortancası" }]) +
-    '<p class="or-hint">Bir noktaya gelin: kurumun ilk yayınlama payı ve gecikmesi; tıklayınca kurum sayfası açılır.</p>';
+    '<p class="or-hint">Bir noktaya ' + orTap() + ': kurumun ilk yayınlama payı ve gecikmesi; ' + (orTap() === "dokunun" ? "tekrar dokununca" : "tıklayınca") + ' kurum sayfası açılır.</p>';
   var fast = ks.slice().sort(function (a, b) { return LL[b].firstShare - LL[a].firstShare; })[0];
   var cor = (function () { var r = function (a) { var o = a.map(function (v, i) { return [v, i]; }).sort(function (p, q) { return p[0] - q[0]; }), x = []; o.forEach(function (p, i) { x[p[1]] = i; }); return x; };
     var a = r(xs), b = r(ys), n = a.length, d = 0; for (var i = 0; i < n; i++) d += Math.pow(a[i] - b[i], 2); return 1 - 6 * d / (n * (n * n - 1)); })();
