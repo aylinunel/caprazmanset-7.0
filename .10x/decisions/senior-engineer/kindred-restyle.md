@@ -52,3 +52,8 @@ Decision: push.
 - Karpathy: content-only rewrite inside the finding functions; one CSS scope fix (ol.v7-read) needed by the change.
 - Open (minor, logged): three wording-accuracy nits for the final pass.
 Decision: push.
+
+## Push of 62c94d3, afabf60, 0177c4d (UX Task 7: event page story-first)
+- Correctness: section order enforced by smoke; bar labels measured and never clipped (smoke-checked); count line sums; null-lean sort stable; feature flag preserved. logic 15/15, smoke ok.
+- Karpathy: reorders existing renderers; "Benzer başlıklar" moved, not deleted (ruling logged).
+Decision: push.
