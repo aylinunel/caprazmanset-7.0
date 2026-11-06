@@ -68,3 +68,9 @@ Decision: push.
 - Correctness: LED canvas drawing with overlays/interactions intact (brush lists events; crosshair tooltip works); repaint on resize, data-theme and OS scheme change; Resmî ilanlar overview charts restored (Task 3 regression) with smoke coverage. logic 19/19, smoke ok.
 - Karpathy: svg CSS removed with the svg; only orphaned notice sections removed now; fully dead v3noticeEventsPage scheduled for deletion in Task 10.
 Decision: push.
+
+## Push of c552e2b, 5fde126 (UX Task 10: mobile + accessibility, deferred cleanups)
+- Correctness: 44px targets ≤760px, tap-to-pin for non-navigating marks, first-tap navigation everywhere else, focus rings, contrast ≥4.5:1 both themes (contrast script), dokunun hints. logic 19/19, smoke ok (all routes, both widths/themes), contrast ok.
+- Karpathy: dead code scheduled earlier removed (v3noticeEventsPage family, v3sub, duplicate NAV, xpill hack); wording-accuracy fixes limited to the logged items.
+- Exemptions explicit and commented in smoke.cjs (admin route, stretched-link cards, own-scroll boxes).
+Decision: push.
