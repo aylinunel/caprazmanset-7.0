@@ -4086,7 +4086,7 @@ function mixBar(counts, colors) {
 }
 var OWNCOL = ["var(--ink2)", "var(--muted)", "var(--line2)", "#9a8f7a", "#7f8fa6", "#b7a99a", "#a3b1a1", "#c9c2d6"];
 
-var ARTSIDE = "all", ARTSORT = "time";
+var ARTSIDE = "all", ARTSORT = "lean";
 /* Ledes are loaded on demand (window.cmLedes, see loader.js) and then shown under each headline. */
 var LEDES5 = null;
 function ledeButton5() {
@@ -4961,9 +4961,10 @@ function splitBlock(e) {
       return '<option value="' + s + '"' + (s === cur ? " selected" : "") + ">" + esc(srcName(s)) + " · " + SIDE[bloc(s)] + "</option>"; }).join("") + "</select>";
   };
   var flagged = (lsGet("cm2-markflags", []) || []).some(function (f) { return f.e === e.i; });
-  return '<section class="xspwrap" id="spwrap"><div class="xsp-ctl"><span class="eyebrow">Çapraz oku</span>' +
-    '<label class="xsmall">Üst ' + sel("spA", pair[0]) + '</label><label class="xsmall">Alt ' + sel("spB", pair[1]) + "</label></div>" +
+  return '<section class="xspwrap" id="spwrap"><div class="xsec-h"><h2>En farklı iki başlık</h2></div>' +
     '<div id="spcard">' + splitCard(e, pair) + "</div>" +
+    '<div class="xsp-ctl"><span class="eyebrow">Başka iki kurumu karşılaştır</span>' +
+    '<label class="xsmall">Üst ' + sel("spA", pair[0]) + '</label><label class="xsmall">Alt ' + sel("spB", pair[1]) + "</label></div>" +
     '<div class="xsp-leg"><span><mark class="mw">İşaretli kelime</mark>: kurumlar arasında ayrışan</span>' +
     '<span>Varsayılan çift, olayı veren en soldaki ve en sağdaki kurum. Başlıklar kısaltılmadan, olduğu gibi.</span>' +
     '<button class="xflag' + (flagged ? " on" : "") + '" id="markflag">' + (flagged ? "Bildirildi — teşekkürler" : "Bu işaret yanlış mı?") + "</button></div></section>";

@@ -2264,3 +2264,14 @@ canvas.dm-word{position:absolute;left:0;top:0;width:100%;height:100%;pointer-eve
 :root{--shadow-pop:0 6px 24px rgba(0,0,0,.14)}
 :root[data-theme="dark"]{--shadow-pop:0 0 0 1px var(--line2),0 6px 24px rgba(0,0,0,.6)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--shadow-pop:0 0 0 1px var(--line2),0 6px 24px rgba(0,0,0,.6)}}
+/* 7.0 · event page order */
+.v7-kisaca{margin-top:24px}
+.v7-kisaca h2{font-size:20px;margin:0 0 6px}
+.v7-kisaca h3{font-family:var(--ff-m);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:12px 0 3px}
+.v7-kisaca p{font-size:16px;line-height:1.55;margin:0 0 6px;max-width:68ch}
+.v7-deep{border-top:1px solid var(--line);padding:12px 0}
+.v7-deep:last-of-type{border-bottom:1px solid var(--line)}
+.v7-deep>summary{cursor:pointer;font-weight:600;min-height:44px;display:flex;align-items:center}
+.v7-ld{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--mid)}
+.v7-ld.left{background:var(--left)}.v7-ld.right{background:var(--right)}
+.v7-outlets a{display:inline-block;margin:0 14px 0 0;padding:10px 0}

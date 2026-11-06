@@ -44,11 +44,23 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     }
     if (route.startsWith("#/olay?e=")) {
       const ok = await page.evaluate(() => {
-        const m = document.querySelector(".v7-map"); if (!m) return "ok";
-        const sp = document.querySelector(".xspwrap");
-        if (sp && !(m.compareDocumentPosition(sp) & 4)) return ".v7-map must precede .xspwrap";
+        const q = (s) => document.querySelector(s);
+        const seq = [q(".xstory .xh1") || q(".phead"), q(".v7-kisaca"), q(".xspwrap"), q("#alist"), q(".v7-time")]
+          .concat([...document.querySelectorAll("details.v7-deep")], [q(".v7-outsec")]);
+        const nm = ["header", ".v7-kisaca", ".xspwrap", "#alist", ".v7-time", "deep", "deep", "deep", ".v7-outsec"];
+        let prev = null;
+        for (let i = 0; i < seq.length; i++) {
+          if (!seq[i]) { if (i < 5 || i === seq.length - 1) return "missing " + nm[i]; continue; }
+          if (prev && !(prev.compareDocumentPosition(seq[i]) & 4)) return "order wrong at " + nm[i];
+          prev = seq[i];
+        }
+        if (document.querySelectorAll("details.v7-deep").length > 2) return "more than 2 deep rows";
+        const sh = q(".xspwrap h2"); if (!sh || sh.textContent.trim() !== "En farklı iki başlık") return "split block title";
+        if (!/Başka iki kurumu karşılaştır/.test(q(".xspwrap").textContent)) return "picker label";
+        if (!q("#asort") || q("#asort").value !== "lean") return "headline sort not lean";
+        if (!/kurum verdi · \d+ sol, \d+ merkez, \d+ sağ/.test(q(".xstory").textContent)) return "header count line";
         for (const el of document.querySelectorAll("[data-cm3], .cm3-voices, .cm3-counter, .xvoices"))
-          if (el.compareDocumentPosition(m) & 4) return "v3 block before .v7-map: " + el.className + " " + el.outerHTML.slice(0, 80);
+          if (el.compareDocumentPosition(q(".v7-kisaca")) & 4) return "v3 block before kisaca: " + el.className;
         const yz = [].map.call(document.querySelectorAll(".yz"), (x) => x.textContent).join(" ");
         return /bağlam gerekli|desteklendi|inceleyiciler ayrıştı/.test(yz) ? "status label in .yz" : "ok";
       });

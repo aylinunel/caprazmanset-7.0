@@ -2276,6 +2276,17 @@ canvas.dm-word{position:absolute;left:0;top:0;width:100%;height:100%;pointer-eve
 :root{--shadow-pop:0 6px 24px rgba(0,0,0,.14)}
 :root[data-theme="dark"]{--shadow-pop:0 0 0 1px var(--line2),0 6px 24px rgba(0,0,0,.6)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--shadow-pop:0 0 0 1px var(--line2),0 6px 24px rgba(0,0,0,.6)}}
+/* 7.0 · event page order */
+.v7-kisaca{margin-top:24px}
+.v7-kisaca h2{font-size:20px;margin:0 0 6px}
+.v7-kisaca h3{font-family:var(--ff-m);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:12px 0 3px}
+.v7-kisaca p{font-size:16px;line-height:1.55;margin:0 0 6px;max-width:68ch}
+.v7-deep{border-top:1px solid var(--line);padding:12px 0}
+.v7-deep:last-of-type{border-bottom:1px solid var(--line)}
+.v7-deep>summary{cursor:pointer;font-weight:600;min-height:44px;display:flex;align-items:center}
+.v7-ld{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--mid)}
+.v7-ld.left{background:var(--left)}.v7-ld.right{background:var(--right)}
+.v7-outlets a{display:inline-block;margin:0 14px 0 0;padding:10px 0}
 
 </style>
 </head>
@@ -8104,7 +8115,7 @@ function mixBar(counts, colors) {
 }
 var OWNCOL = ["var(--ink2)", "var(--muted)", "var(--line2)", "#9a8f7a", "#7f8fa6", "#b7a99a", "#a3b1a1", "#c9c2d6"];
 
-var ARTSIDE = "all", ARTSORT = "time";
+var ARTSIDE = "all", ARTSORT = "lean";
 /* Ledes are loaded on demand (window.cmLedes, see loader.js) and then shown under each headline. */
 var LEDES5 = null;
 function ledeButton5() {
@@ -8979,9 +8990,10 @@ function splitBlock(e) {
       return '<option value="' + s + '"' + (s === cur ? " selected" : "") + ">" + esc(srcName(s)) + " · " + SIDE[bloc(s)] + "</option>"; }).join("") + "</select>";
   };
   var flagged = (lsGet("cm2-markflags", []) || []).some(function (f) { return f.e === e.i; });
-  return '<section class="xspwrap" id="spwrap"><div class="xsp-ctl"><span class="eyebrow">Çapraz oku</span>' +
-    '<label class="xsmall">Üst ' + sel("spA", pair[0]) + '</label><label class="xsmall">Alt ' + sel("spB", pair[1]) + "</label></div>" +
+  return '<section class="xspwrap" id="spwrap"><div class="xsec-h"><h2>En farklı iki başlık</h2></div>' +
     '<div id="spcard">' + splitCard(e, pair) + "</div>" +
+    '<div class="xsp-ctl"><span class="eyebrow">Başka iki kurumu karşılaştır</span>' +
+    '<label class="xsmall">Üst ' + sel("spA", pair[0]) + '</label><label class="xsmall">Alt ' + sel("spB", pair[1]) + "</label></div>" +
     '<div class="xsp-leg"><span><mark class="mw">İşaretli kelime</mark>: kurumlar arasında ayrışan</span>' +
     '<span>Varsayılan çift, olayı veren en soldaki ve en sağdaki kurum. Başlıklar kısaltılmadan, olduğu gibi.</span>' +
     '<button class="xflag' + (flagged ? " on" : "") + '" id="markflag">' + (flagged ? "Bildirildi — teşekkürler" : "Bu işaret yanlış mı?") + "</button></div></section>";
@@ -12236,12 +12248,43 @@ function wireAnlati(root) {
 /* v7 Olay: the single event page. Header, narrative map, split card + all headlines, cognitive review, timing, outlets. */
 
 function olayHead(e) {
-  var bs = e.bs ? bsBadge(e, true) : '<span class="xsmall">Kör nokta kuralını karşılamıyor. <a class="lnk" href="#/yontem?s=olay">Kural</a></span>';
+  var c = covOf(e), side = e.bs === "left" ? "Sol" : "Sağ";
+  var bs = e.bs ? '<span class="xbs ' + e.bs + '">' + side + " kurumların çoğu bu olayı vermedi</span>" : "";
   return '<div class="xcrumb"><a href="#/olaylar">Olaylar</a> › ' + tpChips(e, 4) + "</div>" +
     '<h1 class="xh1">' + esc(e.t) + "</h1>" +
-    '<div class="xmeta" style="margin-top:10px"><span class="xdt">' + fmtDT(e.f) + " – " + fmtDT(e.l) + "</span><span>" + e.n + " başlık · " +
-    v3newsOutletCount(e) + " kurum</span>" + bs + "</div>" + bbar(e, true);
+    '<div class="xmeta" style="margin-top:10px"><span>' + e.s.length + " kurum verdi · " + c[0] + " sol, " + c[1] + " merkez, " + c[2] + " sağ · " +
+    '<span class="xdt">' + fmtDT(e.f) + " – " + fmtDT(e.l) + "</span></span>" + bs + "</div>" + bbar(e, true);
 }
+
+/* "Kısaca": the coded summary (YZ badge when agent-coded), else one generated line. */
+function olayKisaca(e) {
+  var nk = NBYEV[e.i], n = nk && narrOk(nk) && D.N[nk], q = (n && n.q) || {};
+  var rows = [["Ne oldu", q.happened], ["Ortak nokta", q.agree], ["Ayrışan nokta", q.differ]].filter(function (x) { return x[1]; });
+  if (rows.length) {
+    var inner = rows.map(function (x) { return "<h3>" + x[0] + "</h3><p>" + esc(x[1]) + "</p>"; }).join("");
+    return '<section class="sec v7-kisaca">' + (n.status === "agent_coded" ? yzBlock(inner, "Kısaca") : "<h2>Kısaca</h2>" + inner) + "</section>";
+  }
+  var pair = SPLITPAIR[e.i] || defaultPair(e), a = pair && artOf(e, pair[0]), b = pair && artOf(e, pair[1]);
+  if (!a || !b) return '<section class="sec v7-kisaca"><h2>Kısaca</h2><p>' + e.s.length + " kurum bu olayı verdi.</p></section>";
+  var sh = compareHeads(a, b).shared.slice(0, 3), far = a.v >= b.v ? a : b;
+  return '<section class="sec v7-kisaca"><h2>Kısaca</h2><p>' + (sh.length ? "Kurumların çoğu “" + esc(sh.join(" ")) + "” dedi; en" : "En") +
+    " farklı başlık " + esc(srcName(far.s)) + " kurumundan.</p></section>";
+}
+
+function olayDeep(key, title, body) {
+  return '<details class="v7-deep" data-deep="' + key + '"><summary>' + title + "</summary>" + body + "</details>";
+}
+/* Deep rows build their content on first open. */
+document.addEventListener("toggle", function (ev) {
+  var d = ev.target;
+  if (!d.matches || !d.matches("details.v7-deep") || !d.open || d.getAttribute("data-built")) return;
+  d.setAttribute("data-built", "1");
+  var e = EV[(location.hash.match(/[?&]e=([^&]+)/) || [])[1]];
+  if (!e) return;
+  if (d.getAttribute("data-deep") === "narr") {
+    var box = d.querySelector("#v7-map"); if (box) box.innerHTML = narrMap(box.getAttribute("data-key"));
+  } else d.insertAdjacentHTML("beforeend", olayReview(e));
+}, true);
 
 function olayHeadlines(e) {
   var arts = e.a.map(function (i) { return ART[i]; });
@@ -12249,8 +12292,8 @@ function olayHeadlines(e) {
     '<div class="xtabs" id="atabs">' + [["all", "Hepsi"], ["left", "Sol"], ["mid", "Merkez"], ["right", "Sağ"]].map(function (t) {
       var n = t[0] === "all" ? arts.length : arts.filter(function (a) { return sideOf(a.s) === t[0]; }).length;
       return '<button class="xtab' + (t[0] === ARTSIDE ? " on" : "") + '" data-as="' + t[0] + '"' + (n ? "" : " disabled") + ">" + t[1] + ' <span class="num">' + n + "</span></button>";
-    }).join("") + '<select id="asort" aria-label="Sırala" style="margin-left:auto"><option value="time">Zamana göre</option>' +
-    '<option value="lean">Yerleşime göre (sol → sağ)</option><option value="load">Yüklü dile göre</option></select></div>' +
+    }).join("") + '<select id="asort" aria-label="Sırala" style="margin-left:auto"><option value="lean">Yerleşime göre (sol → sağ)</option>' +
+    '<option value="time">Zamana göre</option><option value="load">Yüklü dile göre</option></select></div>' +
     ledeButton5() + '<div id="alist"></div>' + fixLink("olay", e.i, e.t) + "</section>";
 }
 
@@ -12288,23 +12331,24 @@ function olayTiming(e) {
   if (firsts.length >= 3) h += '<div class="v7-scroll g6-spread">' + g6Box("spread", e.i, "Kurumların bu olaydaki ilk başlıklarının zaman sırası") + "</div>" +
     legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }], "Yayılım") +
     '<p class="v7-note">Soldan sağa: ilk başlıktan sonra geçen süre (karekök ölçek, ilk saatler geniş). Yukarıdan aşağıya: kurumun yerleşimi, sol üstte. Her düğüm kurumun bu olaydaki ilk başlığıdır.</p>';
-  return h ? '<section class="sec v7-time"><h2>Zamanlama</h2>' + h + "</section>" : "";
+  return h ? '<section class="sec v7-time"><h2>Kim önce verdi</h2>' + h + "</section>" : "";
 }
 
 function olayOutlets(e) {
-  return '<section class="sec"><h2>Veren kurumlar</h2><p class="v7-outlets">' + e.s.map(function (s) {
-    return '<a class="lnk" href="#/kurum?s=' + s + '">' + esc(srcName(s)) + "</a>";
-  }).join(" · ") + "</p></section>";
+  var ss = e.s.slice().sort(function (x, y) { return (SRC[x] && SRC[x].lean != null ? SRC[x].lean : 999) - (SRC[y] && SRC[y].lean != null ? SRC[y].lean : 999); });
+  return '<section class="sec v7-outsec"><h2>Veren kurumlar</h2><p class="v7-outlets">' + ss.map(function (s) {
+    return '<a class="lnk" href="#/kurum?s=' + s + '"><i class="v7-ld ' + bloc(s) + '"></i>' + esc(srcName(s)) + "</a>";
+  }).join(" ") + "</p></section>";
 }
 
 function pgOlay7(q) {
   var e = EV[q.e];
   if (!e) return '<div class="wrap page"><div class="phead"><h1>Olay bulunamadı</h1><p class="lede"><a class="lnk" href="#/olaylar">Olay listesine dön</a></p></div></div>';
   logStory(e.i);
-  var nk = NBYEV[e.i], map = nk && narrOk(nk) && D.N[nk] ?
-    '<section class="sec"><div id="v7-map" data-key="' + esc(nk) + '">' + narrMap(nk) + "</div></section>" : "";
-  return '<div class="wrap page xstory">' + olayHead(e) + map +
-    splitBlock(e) + olayHeadlines(e) + olayReview(e) + olayTiming(e) + olayOutlets(e) + "</div>";
+  var nk = NBYEV[e.i], x = bg7ev(e.i), deep = "";
+  if (nk && narrOk(nk) && D.N[nk]) deep += olayDeep("narr", "Anlatı ayrıntısı", '<div id="v7-map" data-key="' + esc(nk) + '"></div>');
+  if (x && x.status === "review_complete" && bg7Live(x).length) deep += olayDeep("yz", "Yapay zekâ ne fark etti? (YZ)", "");
+  return '<div class="wrap page xstory">' + olayHead(e) + olayKisaca(e) + splitBlock(e) + olayHeadlines(e) + olayTiming(e) + deep + olayOutlets(e) + "</div>";
 }
 
 /* v7 Örüntüler: four question pages. Every number in a "Bu ne anlama geliyor" text is computed from the data. */
