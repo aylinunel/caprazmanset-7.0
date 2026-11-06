@@ -183,6 +183,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       const fd = await page.evaluate(() => [document.querySelectorAll("#bu-hafta .v7-fc").length, !!document.querySelector("#bu-hafta h2"), !!document.querySelector(".v7-steps"), document.querySelectorAll(".v7-hgrid .v7-hc").length, document.documentElement.scrollWidth > innerWidth]);
       if (fd[0] > 6 || !fd[1] || !fd[2] || fd[3] !== 5) fails.push(`${tag}: homepage feed/steps/links wrong: ${fd}`);
       if (w === 390 && fd[4]) fails.push(`${tag}: home horizontal scroll`);
+      const bt = await page.evaluate(() => document.body.innerText);
+      if (/orTap\(\)/.test(bt) || bt.indexOf('" + ') >= 0) fails.push(`${tag}: homepage text shows leaked code`);
       const hid = await page.evaluate(() => { const E = {}; CM.data.E.forEach((e) => { E[e.i] = e; }); const fh = document.querySelector(".fh"), h = fh && E[fh.getAttribute("data-e")], cards = [...document.querySelectorAll("#bu-hafta .v7-fc")].map((c) => E[c.getAttribute("href").split("e=")[1]]);
         return [h ? h.i : null, cards.some((c) => c && h && c.i === h.i), cards[0] && h ? h.p >= cards[0].p : true, h ? h.s.length >= 6 : false]; });
       if (!hid[0] || hid[1] || !hid[2] || !hid[3]) fails.push(`${tag}: hero event is not the week's biggest split (repeated in feed ${hid[1]}, p >= first card ${hid[2]}, >=6 outlets ${hid[3]}): ${hid[0]}`);
