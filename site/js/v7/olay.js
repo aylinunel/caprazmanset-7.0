@@ -102,7 +102,7 @@ function pgOlay7(q) {
   var nk = NBYEV[e.i], x = bg7ev(e.i), deep = "";
   if (nk && narrOk(nk) && D.N[nk]) deep += olayDeep("narr", "Anlatı ayrıntısı", '<div id="v7-map" data-key="' + esc(nk) + '"></div>');
   if (x && x.status === "review_complete" && bg7Live(x).length) deep += olayDeep("yz", "Yapay zekâ ne fark etti? (YZ)", "");
-  if ((CM3.clusters(D).byEvent[e.i] || []).length) deep += olayDeep("echo", "Benzer başlıklar", "");
+  if (v3on("echoChain") && (CM3.clusters(D).byEvent[e.i] || []).length) deep += olayDeep("echo", "Benzer başlıklar", "");
   return '<div class="wrap page xstory">' + olayHead(e) + olayKisaca(e) + splitBlock(e) + olayHeadlines(e) + olayTiming(e) + deep + olayOutlets(e) + "</div>";
 }
 
