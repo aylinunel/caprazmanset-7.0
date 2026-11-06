@@ -57,3 +57,9 @@ Decision: push.
 - Correctness: section order enforced by smoke; bar labels measured and never clipped (smoke-checked); count line sums; null-lean sort stable; feature flag preserved. logic 15/15, smoke ok.
 - Karpathy: reorders existing renderers; "Benzer başlıklar" moved, not deleted (ruling logged).
 Decision: push.
+
+## Push of decd456, 3dd0f4c, 45ee71d (UX Task 8: outlet picker, outlet page, compare)
+- Correctness: outletKisaca/recentSplits/kuDat unit-tested (logic 19/19); smoke covers placed + unplaced outlet pages, compare URL, lazy rows. Unplaced outlets omit the bloc sentence (no NaN).
+- Karpathy: old pgSourceV1/V2 removed because the page was rebuilt per spec; two sections restored on the user's decision; three left out.
+- Security: generated sentences and restored rows escaped (esc / artRow).
+Decision: push.
