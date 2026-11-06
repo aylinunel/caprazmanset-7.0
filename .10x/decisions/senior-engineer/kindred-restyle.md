@@ -63,3 +63,8 @@ Decision: push.
 - Karpathy: old pgSourceV1/V2 removed because the page was rebuilt per spec; two sections restored on the user's decision; three left out.
 - Security: generated sentences and restored rows escaped (esc / artRow).
 Decision: push.
+
+## Push of 7b2ff29, e19c132 (UX Task 9: dot-matrix charts, header bands, notice charts restored)
+- Correctness: LED canvas drawing with overlays/interactions intact (brush lists events; crosshair tooltip works); repaint on resize, data-theme and OS scheme change; Resmî ilanlar overview charts restored (Task 3 regression) with smoke coverage. logic 19/19, smoke ok.
+- Karpathy: svg CSS removed with the svg; only orphaned notice sections removed now; fully dead v3noticeEventsPage scheduled for deletion in Task 10.
+Decision: push.
