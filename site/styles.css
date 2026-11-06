@@ -1643,7 +1643,7 @@ th{color:var(--ink);border-bottom-width:3px}
 /* ---- halftone on the other ink surfaces */
 .xsp-band{background-image:var(--dots);background-size:6px 6px}
 .xpromise{background-image:var(--dots);background-size:7px 7px;background-position:right top}
-.foot.xfoot{background-image:var(--dots);background-size:auto,7px 7px}
+.foot.xfoot{background-image:var(--dots);background-size:7px 7px}
 .xbtn{background-image:var(--dots);background-size:5px 5px}
 .chip[aria-pressed=true],.xweek.on{background-image:var(--dots);background-size:5px 5px}
 /* a light screen on newsprint for rules and empty triangles of the seam */

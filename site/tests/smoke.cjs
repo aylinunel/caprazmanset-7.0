@@ -255,9 +255,27 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         await page.touchscreen.tap(pt[0], pt[1]); await sleep(400);
         if (await on()) fails.push("touch: tap elsewhere did not hide the pinned tooltip");
       }
+      /* a non-navigating mark pins without changing the hash */
+      const nav = await page.$(".vz-r[data-vtip]:not([data-go])");
+      if (nav) { const h0 = await page.evaluate(() => location.hash); await nav.scrollIntoViewIfNeeded(); await nav.tap(); await sleep(400);
+        if (!(await on()) || (await page.evaluate(() => location.hash)) !== h0) fails.push("touch: non-navigating .vz-r tap must pin #tip and keep the hash"); }
       const hint = await page.evaluate(() => [...document.querySelectorAll("#view .or-hint, #view .v7-read")].map((e) => e.textContent).join(" "));
       if (/\bgelin\b/.test(hint)) fails.push("touch: hint text still says 'gelin' under (hover:none)");
     }
+    /* anything that navigates does so on the FIRST tap */
+    await page.evaluate(() => { location.hash = "#/oruntu?q=hiz"; }); await sleep(2500);
+    /* dots overlap and the sticky nav can cover them: tap the centre of the first dot that is really on top there */
+    const pos = await page.evaluate(() => {
+      for (const d of document.querySelectorAll(".or-dot")) {
+        d.scrollIntoView({ block: "center" });
+        const r = d.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2, h = document.elementFromPoint(x, y);
+        if (h && h.closest(".or-dot") === d) return [x, y];
+      }
+      return null;
+    });
+    if (!pos) fails.push("touch: no tappable .or-dot on #/oruntu?q=hiz");
+    else { await page.touchscreen.tap(pos[0], pos[1]); await sleep(800);
+      if (!/^#\/kurum\?s=/.test(await page.evaluate(() => location.hash))) fails.push("touch: first tap on .or-dot did not navigate to #/kurum?s=..."); }
     await ctx.close();
   }
   await browser.close(); srv.close();

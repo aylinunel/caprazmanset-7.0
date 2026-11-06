@@ -28,7 +28,7 @@ function orLoc(name) {
   return "’" + (/[fstkçşhp]$/.test(low) ? "t" : "d") + (/[aıou]/.test(v) ? "a" : "e");
 }
 /* Caption verb: "dokunun" on touch screens, "gelin" with a pointer. */
-function orGo() { return orTap() === "dokunun" ? "Tekrar dokunun" : "Tıklayın"; }
+function orGo() { return orTap() === "dokunun" ? "Dokunun" : "Tıklayın"; }
 function orTap() { return typeof matchMedia === "function" && matchMedia("(hover: none)").matches ? "dokunun" : "gelin"; }
 function orHow(lines, sec) {
   return "<ul class=\"or-how\">" + lines.map(function (l) { return "<li>" + l + "</li>"; }).join("") + "</ul>" +
@@ -615,7 +615,7 @@ function orFindLead() {
   var viz = '<div class="or-sc"><div class="or-scp"><i class="or-mx" style="left:' + (100 * mx / xm) + '%"></i><i class="or-my" style="top:' + (100 - 100 * my / ym) + '%"></i>' + dots +
     '</div><span class="or-sx">İlk veren olduğu olayların payı (%) → ' + xm + '</span><span class="or-sy">↑ ortanca gecikme ' + dur5(ym) + "</span></div>" +
     legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { dash: 1, t: "kurumların ortancası" }]) +
-    '<p class="or-hint">Bir noktaya ' + orTap() + ': kurumun ilk yayınlama payı ve gecikmesi; ' + (orTap() === "dokunun" ? "tekrar dokununca" : "tıklayınca") + ' kurum sayfası açılır.</p>';
+    '<p class="or-hint">Bir noktaya ' + orTap() + ': kurumun ilk yayınlama payı ve gecikmesi; ' + (orTap() === "dokunun" ? "dokununca" : "tıklayınca") + ' kurum sayfası açılır.</p>';
   var fast = ks.slice().sort(function (a, b) { return LL[b].firstShare - LL[a].firstShare; })[0];
   var cor = (function () { var r = function (a) { var o = a.map(function (v, i) { return [v, i]; }).sort(function (p, q) { return p[0] - q[0]; }), x = []; o.forEach(function (p, i) { x[p[1]] = i; }); return x; };
     var a = r(xs), b = r(ys), n = a.length, d = 0; for (var i = 0; i < n; i++) d += Math.pow(a[i] - b[i], 2); return 1 - 6 * d / (n * (n * n - 1)); })();
