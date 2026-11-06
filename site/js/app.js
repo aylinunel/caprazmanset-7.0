@@ -5351,6 +5351,42 @@ function v3bars(rows, total) {
       tip: "<span class='k'>" + esc(r.label) + "</span>" + r.n.toLocaleString("tr") + " ilan · " + orP(r.n / total) };
   }), { min: 0, max: Math.min(100, Math.ceil(110 * Math.max.apply(null, rows.map(function (r) { return r.n; })) / total / 10) * 10), fmt: function (v) { return "%" + v; }, lw: 230, vw: 64, axis: "Bütün ilanlar içindeki pay. Dolu nokta ilan ailesi, içi boş nokta o ailedeki tür." });
 }
+/* Resmî ilanlar overview (above the finder): who issues them, and how many per day. */
+function v3ilanOverview() {
+  var rows = v3noticeRows(), total = rows.length; if (!total) return "";
+  var days = {}, fam = {}, kind = {};
+  rows.forEach(function (r) {
+    days[r.a.d.slice(0, 10)] = (days[r.a.d.slice(0, 10)] || 0) + 1;
+    fam[r.fam] = (fam[r.fam] || 0) + 1; kind[r.kind] = (kind[r.kind] || 0) + 1;
+  });
+  var kr = [];
+  V3_FAMS.forEach(function (f) {
+    if (!fam[f]) return;
+    kr.push({ label: t3(V3_FAM[f]), n: fam[f] });
+    Object.keys(V3_KIND).filter(function (k) { return kind[k] && rows.some(function (r) { return r.kind === k && r.fam === f; }); })
+      .sort(function (a, b) { return kind[b] - kind[a]; })
+      .forEach(function (k) { kr.push({ label: t3(V3_KIND[k]), n: kind[k], sub: true }); });
+  });
+  var top = kr.filter(function (r) { return !r.sub; }).sort(function (a, b) { return b.n - a.n; })[0];
+  var dk = DAYS.filter(function (d) { return d >= "2026-09-01" && d <= "2026-10-10"; }), dvs = dk.map(function (d) { return days[d] || 0; });
+  var dsum = dvs.reduce(function (a, b) { return a + b; }, 0);
+  var pct = function (n) { return "%" + CM3.pct1(n / total); };
+  return findingBlock({ id: "ilan-makam",
+    claim: "Resmî ilanların " + pct(top.n) + "'i “" + esc(top.label) + "” ailesinden; toplam " + orN(total) + " ilan var.",
+    viz: v3bars(kr, total),
+    read: "Dolu nokta ilan ailesini, içi boş nokta o ailedeki türü gösterir; her nokta bütün ilanlar içindeki payıdır.",
+    how: "<p>" + esc(t3("nlKindSub")) + "</p>",
+    table: vzTable(["İlanı veren makam", "İlan", "Pay"], kr.map(function (r) { return [(r.sub ? "· " : "") + r.label, orN(r.n), pct(r.n)]; })) }) +
+  findingBlock({ id: "ilan-gun",
+    claim: "Eylül başından 10 Ekim'e kadar günde ortalama " + dec(dsum / Math.max(1, dk.length), 1) + " ilan yayımlandı.",
+    viz: vzLine("ilan-gun", dk.map(function (d) { return fmtD(d + "T00:00"); }), [
+      { k: "d", label: "Günlük ilan", vals: dvs, c: "var(--ink2)", thin: true },
+      { k: "m", label: "7 günlük ortalama", vals: vzRoll(dvs, 7), c: "var(--ink)", area: true }],
+      { label: t3("nlDayHead") }),
+    read: "İnce çizgi her günün ilan sayısı, kalın çizgi ve dolgu 7 günlük ortalamadır.",
+    how: "<p>Her ilan başlığı, yayımlandığı günün sayacına eklenir; ortalama son 7 günü kapsar.</p>",
+    table: vzTable(["Gün", "İlan"], dk.map(function (d, i) { return [fmtD(d + "T00:00"), dvs[i]]; })) });
+}
 function v3noticeEventsPage() {
   if (!v3on("noticeSplit")) return "";
   var n = v3N(), rows = v3noticeRows(), total = rows.length;
@@ -5364,16 +5400,6 @@ function v3noticeEventsPage() {
     '<p class="lede">' + esc(t3("nlLede", { n: total.toLocaleString("tr"), x: CM3.pct1(total / D.A.length) })) + " " + v3est() + "</p></div>";
   h += '<div class="cm3-nl" data-cm3><p class="cm3-nl-tiles"><b class="num">' + total.toLocaleString("tr") + "</b> " +
     esc(t3("nlTiles", { o: Object.keys(outlets).length, d: Object.keys(days).length, p: Object.keys(places).length })) + "</p>" + v3noticeLines();
-  // 1. issuing body: families, then kinds inside each family
-  var kr = [];
-  V3_FAMS.forEach(function (f) {
-    if (!fam[f]) return;
-    kr.push({ label: t3(V3_FAM[f]), n: fam[f] });
-    Object.keys(V3_KIND).filter(function (k) { return kind[k] && rows.some(function (r) { return r.kind === k && r.fam === f; }); })
-      .sort(function (a, b) { return kind[b] - kind[a]; })
-      .forEach(function (k) { kr.push({ label: t3(V3_KIND[k]), n: kind[k], sub: true }); });
-  });
-  h += '<section class="sec"><h2>' + esc(t3("nlKindHead")) + '</h2><p class="sub">' + esc(t3("nlKindSub")) + "</p>" + v3bars(kr, total) + "</section>";
   // 2. sites, alphabetical (no ranking by share)
   var os = Object.keys(outlets).sort(function (a, b) { return srcName(a).localeCompare(srcName(b), "tr"); });
   h += '<section class="sec"><h2>' + esc(t3("nlSiteHead")) + '</h2><p class="sub">' + esc(t3("nlSiteSub")) + "</p>" +
@@ -5383,13 +5409,6 @@ function v3noticeEventsPage() {
       return '<tr><td><a class="lnk" href="#/kurum?s=' + s + '">' + esc(srcName(s)) + '</a></td><td class="r num">' + o.ilan + '</td><td class="r num">' + o.haber +
         '</td><td class="r num">%' + CM3.pct1(o.ilan / o.all) + "</td></tr>";
     }).join("") + "</tbody></table></div><p class=\"xsmall\" style=\"margin-top:6px\">" + v3est() + "</p></section>";
-  // 3. days
-  var dk = DAYS.filter(function (d) { return d >= "2026-09-01" && d <= "2026-10-10"; }), max = Math.max.apply(null, dk.map(function (d) { return days[d] || 0; }).concat([1]));
-  var dvs = dk.map(function (d) { return days[d] || 0; });
-  h += '<section class="sec"><h2>' + esc(t3("nlDayHead")) + "</h2>" + vzLine("ilan-gun", dk.map(function (d) { return fmtD(d + "T00:00"); }), [
-      { k: "d", label: "Günlük ilan", vals: dvs, c: "var(--ink2)", thin: true },
-      { k: "m", label: "7 günlük ortalama", vals: vzRoll(dvs, 7), c: "var(--ink)", area: true }],
-    { label: t3("nlDayHead") }) + "</section>";
   // 4. every notice
   h += '<section class="sec" id="cm3nl-list"><h2>' + esc(t3("nlListHead")) + '</h2><div class="cm3-nl-ctl">' +
     '<div class="cm3-chiprow" role="group">' + ["all"].concat(V3_FAMS.filter(function (f) { return fam[f]; })).map(function (f) {

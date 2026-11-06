@@ -259,6 +259,7 @@ function vzLine(id, xl, series, o) {
   new MutationObserver(all).observe(document.documentElement, { childList: true, subtree: true });
   new MutationObserver(all).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   addEventListener("resize", all);
+  var mq = matchMedia("(prefers-color-scheme: dark)"); if (mq.addEventListener) mq.addEventListener("change", all);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(all);
   all();
 })();

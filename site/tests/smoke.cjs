@@ -138,6 +138,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       }
     }
     if (route === "#/ilan") {
+      const ov = await page.evaluate(() => ({ line: !!document.querySelector(".vz-line"), rows: !!document.querySelector(".vz .vz-r"), cv: [...document.querySelectorAll("canvas.vz-cv")].map((c) => c.width > 0 && !!c.getContext("2d").getImageData(0, 0, c.width, c.height).data.some((v, i) => i % 4 === 3 && v)) }));
+      if (!ov.line || !ov.rows || !ov.cv.length || !ov.cv.every(Boolean)) fails.push(`${tag}: ilan overview missing .vz-line / .vz lollipop / painted canvas.vz-cv ${JSON.stringify(ov)}`);
       const rows = async (t) => { await page.fill("#ilanq", t); await sleep(400); return page.evaluate(() => [document.querySelectorAll(".v7-ilan-row").length, (document.querySelector("#ilanres") || {}).textContent || ""]); };
       const [n] = await rows("icra");
       if (n < 1) fails.push(`${tag}: ilan 'icra' gives no .v7-ilan-row`);

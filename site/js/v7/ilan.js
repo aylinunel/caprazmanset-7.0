@@ -25,7 +25,7 @@ function pgIlan() {
   var srcs = {}; all.forEach(function (i) { srcs[i.s] = 1; });
   return '<div class="wrap page v7-ilan"><div class="phead"><h1>Resmî ilan bul</h1>' +
     '<p class="lede">Resmî ilan; mahkeme, icra dairesi ya da bir kamu kurumunun yasa gereği gazetede yayımlattığı bildirimdir. Haber olmadığı için olay tespitinden ayrı tutulur. ' +
-    "Burada, topladığımız başlıklar arasında ilan olarak ayrılanlar aranır: toplam <b>" + orN(all.length) + "</b>, son bir haftada <b>" + orN(week) + "</b>.</p></div>" +
+    "Burada, topladığımız başlıklar arasında ilan olarak ayrılanlar aranır: toplam <b>" + orN(all.length) + "</b>, son bir haftada <b>" + orN(week) + "</b>.</p></div>" + v3ilanOverview() +
     '<form class="v7-ilan-f" onsubmit="return false"><label for="ilanq">Başlıkta ara</label><input type="search" id="ilanq" value="' + esc(q.text) + '" autocomplete="off">' +
     '<div class="v7-ilan-chips" role="group" aria-label="İlan türü">' + ILAN_FAM.map(function (f) {
       return '<button type="button" class="chip" data-fam="' + f[0] + '" aria-pressed="' + (q.family === f[0]) + '">' + f[1] + "</button>"; }).join("") + "</div>" +
