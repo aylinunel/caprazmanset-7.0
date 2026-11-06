@@ -91,9 +91,7 @@ function vzDist(id, xs, o) {
   var lo = o.min, hi = o.max, nb = o.bins || 40, c = [], i;
   for (i = 0; i < nb; i++) c.push(0);
   xs.forEach(function (v) { c[Math.min(nb - 1, Math.max(0, Math.floor(nb * (v - lo) / (hi - lo))))]++; });
-  var mx = Math.max.apply(null, c) || 1, H = 160, W = 1000, bw = W / nb;
-  var pts = c.map(function (n, k) { var y = H - (H - 6) * n / mx; return "L" + (k * bw) + " " + y + " L" + ((k + 1) * bw) + " " + y; }).join(" ");
-  var path = "M0 " + H + " " + pts + " L" + W + " " + H + " Z", line = "M0 " + H + " " + pts + " L" + W + " " + H;
+  var mx = Math.max.apply(null, c) || 1, H = 160;
   var med = vzQ(xs, .5), q1 = vzQ(xs, .25), q3 = vzQ(xs, .75), P = function (v) { return (100 * (v - lo) / (hi - lo)).toFixed(2) + "%"; };
   VZ[id] = { o: o, xs: xs, lo: lo, hi: hi, nb: nb, c: c };
   var ticks = vzTicks(lo, hi, 5), fmt = o.fmt || function (v) { return v; };
@@ -102,7 +100,7 @@ function vzDist(id, xs, o) {
     '<div class="vz-dp" tabindex="0" role="img" aria-label="' + esc(o.label + ": " + orN(xs.length) + " olay; ortanca " + fmt(Math.round(med)) + ", çeyrekler " + fmt(Math.round(q1)) + "–" + fmt(Math.round(q3))) + '">' +
     yt.map(function (t) { return '<i class="vz-gh" style="bottom:' + (100 * (H - 6) / H * t / mx).toFixed(1) + '%"></i>'; }).join("") +
     '<i class="vz-iqr" style="left:' + P(q1) + ";width:calc(" + P(q3) + " - " + P(q1) + ')"></i>' +
-    '<svg viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="none" aria-hidden="true"><path class="vz-area" d="' + path + '"/><path class="vz-ln" d="' + line + '"/></svg>' +
+    '<canvas class="vz-cv" data-cv="d:' + id + '" aria-hidden="true"></canvas>' +
     (o.ref ? '<i class="vz-dref" style="left:' + P(o.ref.v) + '"><span>' + esc(o.ref.label) + "</span></i>" : "") +
     '<i class="vz-med" style="left:' + P(med) + '"><span>ortanca ' + fmt(Math.round(med * 10) / 10) + "</span></i>" +
     '<i class="vz-sel" hidden></i><i class="vz-xh" hidden></i></div>' +
@@ -167,12 +165,6 @@ function vzLine(id, xl, series, o) {
   var t0 = vzTicks(0, mx || 1, 3), st = t0.length > 1 ? t0[1] - t0[0] : (mx || 1), top = Math.max(st, Math.ceil((mx || 1) / st) * st), ticks = vzTicks(0, top, 3), H = 200, W = 1000;
   var X = function (i) { return n < 2 ? W / 2 : W * i / (n - 1); }, Y = function (v) { return H - H * v / top; };
   VZ[id] = { xl: xl, series: series, o: o, n: n, top: top };
-  var paths = series.map(function (s) {
-    var d = "", pen = false;
-    s.vals.forEach(function (v, i) { if (v == null) { pen = false; return; } d += (pen ? "L" : "M") + X(i).toFixed(1) + " " + Y(v).toFixed(1) + " "; pen = true; });
-    var area = s.area ? '<path class="vz-la" style="--c:' + s.c + '" d="' + d + "L" + X(n - 1) + " " + H + " L0 " + H + ' Z"/>' : "";
-    return area + '<path class="vz-l1' + (s.thin ? " thin" : "") + '" style="--c:' + s.c + '" d="' + d + '"/>';
-  }).join("");
   var ends = series.filter(function (s) { return !s.thin; }).map(function (s) {
     var i = s.vals.length - 1; while (i >= 0 && s.vals[i] == null) i--; if (i < 0) return "";
     return '<i class="vz-end" style="left:' + (100 * X(i) / W) + "%;top:" + (100 * Y(s.vals[i]) / H) + "%;--c:" + s.c + '"></i>';
@@ -181,7 +173,7 @@ function vzLine(id, xl, series, o) {
   return '<div class="vz-line" data-vl="' + id + '"><div class="vz-ly" aria-hidden="true">' + ticks.map(function (t) { return '<span style="bottom:' + (100 * t / top) + '%">' + (o.fmt || orN)(t) + "</span>"; }).join("") + "</div>" +
     '<div class="vz-lp" tabindex="0" role="img" aria-label="' + esc(o.label || "") + '">' + ticks.map(function (t) { return '<i class="vz-gh" style="bottom:' + (100 * t / top) + '%"></i>'; }).join("") +
     (o.band ? '<i class="vz-band" style="left:' + (100 * X(o.band[0]) / W) + "%;width:" + (100 * (X(o.band[1]) - X(o.band[0])) / W) + '%"><span>' + esc(o.band[2]) + "</span></i>" : "") +
-    '<svg viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="none" aria-hidden="true">' + paths + "</svg>" + ends + '<i class="vz-xh" hidden></i><span class="vz-dots"></span></div>' +
+    '<canvas class="vz-cv" data-cv="l:' + id + '" aria-hidden="true"></canvas>' + ends + '<i class="vz-xh" hidden></i><span class="vz-dots"></span></div>' +
     '<div class="vz-lx" aria-hidden="true">' + xt.map(function (i) { return '<span style="left:' + (100 * X(i) / W) + '%">' + esc(xl[i]) + "</span>"; }).join("") + "</div></div>" +
     legendHTML(series.map(function (s) { return { c: s.c, line: 1, t: s.label }; }), o.legend || "Çizgi");
 }
@@ -206,4 +198,67 @@ function vzLine(id, xl, series, o) {
     var S = VZ[p.parentNode.getAttribute("data-vl")]; p._i = Math.max(0, Math.min(S.n - 1, (p._i == null ? S.n - 1 : p._i) + (ev.key === "ArrowLeft" ? -1 : 1)));
     var r = p.getBoundingClientRect(); show(p, S, p._i, { clientX: r.left + r.width * p._i / Math.max(1, S.n - 1), clientY: r.top }); ev.preventDefault();
   });
+})();
+
+/* ------------------------------------------------------------------ dot-matrix painting */
+/* Chart canvases (.vz-cv) are LED dots: a faint pinpoint wall everywhere, bright dots where the data is.
+   Painted when inserted, on resize and on theme change; colours are resolved from CSS at paint time. */
+(function () {
+  var Q = [.38, .52, .78];
+  var dot = function (P, x, y, r) { P.moveTo(x + r, y); P.arc(x, y, r, 0, 6.283); };
+  var fill = function (ctx, P, col, a) { ctx.globalAlpha = a; ctx.fillStyle = col; ctx.fill(P); ctx.globalAlpha = 1; };
+  var wall = function (ctx, W, H, col) {
+    var cols = Math.max(1, Math.round(W / 6)), rows = Math.max(1, Math.round(H / 6)), px = W / cols, py = H / rows, P = new Path2D();
+    for (var j = 0; j < rows; j++) for (var i = 0; i < cols; i++) dot(P, (i + .5) * px, (j + .5) * py, .7);
+    fill(ctx, P, col, 1);
+  };
+  var paintDist = function (ctx, S, W, H) {
+    var cols = Math.max(1, Math.round(W / 6)), rows = Math.max(1, Math.round(H / 6)), px = W / cols, py = H / rows, mx = Math.max.apply(null, S.c) || 1, P = new Path2D(), ink = dmColor("var(--ink)");
+    wall(ctx, W, H, dmColor("var(--line2)"));
+    for (var i = 0; i < cols; i++) {
+      var k = Math.min(S.nb - 1, Math.floor((i + .5) * S.nb / cols)), h = rows * (S.c[k] / mx) * (H - 6) / H, full = Math.floor(h), f = h - full;
+      for (var j = 0; j < full; j++) dot(P, (i + .5) * px, H - (j + .5) * py, 2.4);
+      if (f >= .12) dot(P, (i + .5) * px, H - (full + .5) * py, 2.4 * (f < .38 ? Q[0] : f < .65 ? Q[1] : f < .9 ? Q[2] : 1));
+    }
+    fill(ctx, P, ink, .85);
+  };
+  var paintLine = function (ctx, S, W, H) {
+    wall(ctx, W, H, dmColor("var(--line2)"));
+    S.series.forEach(function (s) {
+      var col = dmColor(s.c), Pa = new Path2D(), Pl = new Path2D(), n = S.n, step = 4, cols = Math.max(2, Math.round(W / step)), px = W / cols;
+      for (var i = 0; i <= cols; i++) {
+        var x = i * px, u = n < 2 ? 0 : x / W * (n - 1), i0 = Math.min(n - 1, Math.floor(u)), i1 = Math.min(n - 1, i0 + 1), v0 = s.vals[i0], v1 = s.vals[i1];
+        if (v0 == null || v1 == null) continue;
+        var v = v0 + (v1 - v0) * (u - i0), y = H - H * v / S.top;
+        dot(Pl, x, y, s.thin ? 1.2 : 2.2);
+        if (s.area) for (var yy = y + step; yy < H; yy += step) dot(Pa, x, yy, 1.1);
+      }
+      if (s.area) fill(ctx, Pa, col, .28);
+      fill(ctx, Pl, col, s.thin ? .5 : 1);
+    });
+  };
+  var paint = function (cv) {
+    var W = cv.clientWidth, H = cv.clientHeight, a = (cv.getAttribute("data-cv") || "").split(":"), S = VZ[a[1]];
+    if (!W || !H || !S) return;
+    var key = W + "x" + H + "|" + (document.documentElement.getAttribute("data-theme") || "") + (matchMedia("(prefers-color-scheme: dark)").matches ? "d" : "l");
+    if (cv._k === key) return;
+    cv._k = key;
+    var D = Math.min(2, devicePixelRatio || 1), ctx = cv.getContext("2d");
+    cv.width = Math.round(W * D); cv.height = Math.round(H * D);
+    ctx.setTransform(D, 0, 0, D, 0, 0); ctx.clearRect(0, 0, W, H);
+    if (a[0] === "d") paintDist(ctx, S, W, H); else paintLine(ctx, S, W, H);
+  };
+  var raf = 0, ro = window.ResizeObserver ? new ResizeObserver(function () { all(); }) : null;
+  function all() {
+    if (raf) return;
+    raf = requestAnimationFrame(function () {
+      raf = 0;
+      [].forEach.call(document.querySelectorAll("canvas.vz-cv"), function (cv) { if (ro && !cv._ro) { cv._ro = 1; ro.observe(cv); } paint(cv); });
+    });
+  }
+  new MutationObserver(all).observe(document.documentElement, { childList: true, subtree: true });
+  new MutationObserver(all).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  addEventListener("resize", all);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(all);
+  all();
 })();

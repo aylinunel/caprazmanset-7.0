@@ -1996,9 +1996,7 @@ ol.v7-read{margin:0;padding-left:20px;display:grid;gap:6px;font-size:14.5px;line
 .vz-dy{position:relative;font-family:var(--ff-m);font-size:10.5px;color:var(--muted)}
 .vz-dy span{position:absolute;right:0;transform:translateY(50%)}
 .vz-dp{position:relative;height:200px;border-bottom:1px solid var(--line2);cursor:crosshair;touch-action:pan-y;user-select:none}
-.vz-dp svg{position:absolute;inset:0;width:100%;height:100%;display:block}
-.vz-area{fill:var(--ink);opacity:.1}
-.vz-ln{fill:none;stroke:var(--ink);stroke-width:2;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.vz-cv{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
 .vz-gh{position:absolute;left:0;right:0;height:0;border-top:1px solid var(--line)}
 .vz-iqr{position:absolute;top:0;bottom:0;background:var(--sunk);opacity:.9}
 .vz-med,.vz-dref{position:absolute;top:0;bottom:0;width:0;border-left:2px solid var(--ink)}
@@ -2019,10 +2017,6 @@ ol.v7-read{margin:0;padding-left:20px;display:grid;gap:6px;font-size:14.5px;line
 .vz-ly{position:relative;font-family:var(--ff-m);font-size:10.5px;color:var(--muted)}
 .vz-ly span{position:absolute;right:0;transform:translateY(50%)}
 .vz-lp{position:relative;height:200px;border-bottom:1px solid var(--line2);margin-right:8px}
-.vz-lp svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
-.vz-l1{fill:none;stroke:var(--c);stroke-width:2;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
-.vz-l1.thin{stroke-width:1;opacity:.45}
-.vz-la{fill:var(--c);opacity:.1;stroke:none}
 .vz-end{position:absolute;width:9px;height:9px;margin:-4.5px 0 0 -4.5px;border-radius:50%;background:var(--c);box-shadow:0 0 0 2px var(--surface);pointer-events:none}
 .vz-band{position:absolute;top:0;bottom:0;background:var(--sunk)}
 .vz-band span{position:absolute;top:2px;left:4px;font-family:var(--ff-m);font-size:10px;color:var(--muted);white-space:nowrap}
@@ -2032,7 +2026,7 @@ ol.v7-read{margin:0;padding-left:20px;display:grid;gap:6px;font-size:14.5px;line
 @media (prefers-reduced-motion:reduce){.vz-r{transition:none!important}}
 
 /* ===== 7.0 · Kindred hero ===== */
-.dm-band{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.dm-band{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 60%);mask-image:linear-gradient(to right,transparent 0,#000 60%)}
 .phead>*:not(canvas){position:relative;z-index:1}
 
 /* 7.0 · fog hero */

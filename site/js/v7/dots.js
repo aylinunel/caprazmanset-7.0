@@ -48,7 +48,7 @@ function dmMake(cv, mode, data) {
         var r = g.R * (lv === 1 ? .38 : LEVELS[lv]), x = (i + .5) * g.step; P.moveTo(x + r, yy); P.arc(x, yy, r, 0, 6.283);
       }
     }
-    ctx.globalAlpha = .22; ctx.fillStyle = S.ink; ctx.fill(P); ctx.globalAlpha = 1;
+    ctx.globalAlpha = .16; ctx.fillStyle = S.ink; ctx.fill(P); ctx.globalAlpha = 1;
   };
   return S;
 }
@@ -86,7 +86,9 @@ function dmWords(text, marks) {
 function dmHeads(root) {
   [].forEach.call((root || document).querySelectorAll(".phead"), function (h) {
     if (h.querySelector("canvas[data-dm]")) return;
-    var eb = h.querySelector(".eyebrow"), h1 = h.querySelector("h1"), txt = ((eb && eb.textContent) || (h1 && h1.textContent) || "").trim().split(/\s+/).slice(0, 2).join(" ");
+    var eb = h.querySelector(".eyebrow"), h1 = h.querySelector("h1"), txt = ((eb && eb.textContent) || (h1 && h1.textContent) || "").trim().split(/\s+/).slice(0, 2).join(" "),
+      g = navGroup(location.hash.replace(/^#/, "").split("?")[0] || "/"), nv = g && NAV.filter(function (n) { return n[0] === g; })[0];
+    if (nv) txt = nv[1];
     if (!txt) return;
     var key = "band:" + txt; DM_DATA[key] = { words: dmWords(txt.toLocaleUpperCase("tr")), shared: [] };
     var cv = document.createElement("canvas"); cv.className = "dm-band"; cv.setAttribute("data-dm", "band"); cv.setAttribute("data-dk", key); cv.setAttribute("aria-hidden", "true");
