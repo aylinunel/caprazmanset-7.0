@@ -107,6 +107,52 @@ function yontemAnchor(s) {
 
 var NAV_SUB = { "/olaylar": "Bütün olaylar, arama ve kör noktalar", "/anlati": "Kurumlar bir olayı nasıl çerçeveledi",
   "/oruntu": "Haberlerde tekrar eden farklar", "/kurumlar": "Kim nasıl yazıyor, yan yana", "/yontem": "Yöntem, sözlük ve sınırlar" };
+/* Outlet page "Kısaca": up to three plain sentences. o = {name, events, total, mean, blocMean, placed, nb: [name, ...]}. */
+var KU_ONES = ["ı", "i", "si", "ü", "ü", "i", "sı", "si", "i", "u"];
+var KU_TENS = { 0: "ı", 10: "u", 20: "si", 30: "u", 40: "ı", 50: "si", 60: "ı", 70: "i", 80: "i", 90: "ı" };
+/* "%12" + possessive as Turkish reads the number: 12 → "’si", 20 → "’si", 30 → "’u", 100 → "’ü". */
+function kuPoss(n) {
+  if (n === 100) return "’ü";
+  if (n % 10) return "’" + KU_ONES[n % 10];
+  return "’" + KU_TENS[n];
+}
+/* Dative after an outlet name: "Birgün’e", "Takvim’e", "Sabah’a", "Sözcü’ye", "Star’a". */
+function kuDat(name) {
+  var w = String(name).trim(), low = w.toLocaleLowerCase("tr"), v = (low.match(/[aıoueiöü]/g) || ["e"]).pop();
+  return "’" + (/[aıoueiöü]$/.test(low) ? "y" : "") + (/[aıou]/.test(v) ? "a" : "e");
+}
+function outletKisaca(o) {
+  var out = [], n = o.total > 0 ? Math.round(100 * o.events / o.total) : 0;
+  out.push(o.name + " bu dönemde " + o.events + " olayı verdi (olayların %" + n + kuPoss(n) + ").");
+  if (o.placed && typeof o.mean === "number" && typeof o.blocMean === "number" && isFinite(o.mean) && isFinite(o.blocMean)) {
+    var d = o.mean - o.blocMean;
+    out.push(Math.abs(d) <= 1 + 1e-9 ? "Başlıkları kendi bloğunun ortalamasına yakın." :
+      d > 0 ? "Başlıkları kendi bloğunun ortalamasından biraz daha yüklü." : "Başlıkları kendi bloğunun ortalamasından daha sakin.");
+  }
+  var nb = o.nb || [];
+  if (nb.length) out.push("Gündemi en çok " + nb.slice(0, 2).map(function (x, i, a) { return x + (i === a.length - 1 ? kuDat(x) : ""); }).join(" ve ") + " benziyor.");
+  return out;
+}
+
+/* The outlet's 5 most recent events (>= 5 outlets) where its headline load and an opposite-bloc outlet's load differ most.
+   opt.load(e, s) -> number|null, opt.bloc(s) -> "left"|"mid"|"right"|"none". Mid outlets compare with either side. */
+function recentSplits(events, s, opt) {
+  var mine = opt.bloc(s), out = [];
+  var cand = events.filter(function (e) { return e.s.indexOf(s) >= 0 && e.s.length >= 5 && e.f; })
+    .sort(function (a, b) { return a.f < b.f ? 1 : a.f > b.f ? -1 : 0; });
+  for (var i = 0; i < cand.length && out.length < 5; i++) {
+    var e = cand[i], v = opt.load(e, s), best = null, bd = -1;
+    if (v == null) continue;
+    e.s.forEach(function (x) {
+      var b = opt.bloc(x), w = opt.load(e, x);
+      if (x === s || w == null || (b !== "left" && b !== "right") || b === mine) return;
+      if (Math.abs(v - w) > bd) { bd = Math.abs(v - w); best = x; }
+    });
+    if (best) out.push({ e: e, other: best });
+  }
+  return out;
+}
+
 /* Homepage feed: events first reported in the 7 days ending lastDay, covered by a left- and a right-placed outlet. */
 function weeklySplits(events, lastDay, opt) {
   opt = opt || {};
@@ -171,5 +217,5 @@ function glossTerms(html) {
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { trFold: trFold, weekEvents: weekEvents, pickWeek: pickWeek, narrGroups: narrGroups, orderOutlets: orderOutlets,
-    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor, weeklySplits: weeklySplits, whatDiffers: whatDiffers, GLOSSARY: GLOSSARY, glossTerms: glossTerms };
+    dimShares: dimShares, blameByBloc: blameByBloc, yzText: yzText, ilanSearch: ilanSearch, redirectRoute: redirectRoute, NAV_SUB: NAV_SUB, yontemAnchor: yontemAnchor, weeklySplits: weeklySplits, outletKisaca: outletKisaca, recentSplits: recentSplits, whatDiffers: whatDiffers, GLOSSARY: GLOSSARY, glossTerms: glossTerms };
 }

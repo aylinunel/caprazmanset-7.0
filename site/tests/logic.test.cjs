@@ -112,3 +112,41 @@ test("glossTerms wraps first occurrence outside tags only", () => {
   assert.equal(L.glossTerms("düz metin"), "düz metin");
   assert.ok(Object.keys(L.GLOSSARY).length === 7 && L.GLOSSARY["φ"]);
 });
+
+test("outletKisaca: placed, band edges, unplaced, empty nb", () => {
+  const base = { name: "Takvim", events: 50, total: 200, mean: 10, blocMean: 10, placed: true, nb: ["Sabah", "Sözcü"] };
+  const k = (o) => L.outletKisaca(Object.assign({}, base, o));
+  assert.deepEqual(k({}), ["Takvim bu dönemde 50 olayı verdi (olayların %25’i).", "Başlıkları kendi bloğunun ortalamasına yakın.", "Gündemi en çok Sabah ve Sözcü’ye benziyor."]);
+  assert.ok(k({ mean: 11 })[1].includes("yakın"));
+  assert.ok(k({ mean: 9 })[1].includes("yakın"));
+  assert.ok(k({ mean: 11.01 })[1].includes("biraz daha yüklü"));
+  assert.ok(k({ mean: 8.99 })[1].includes("daha sakin"));
+  const u = k({ placed: false, nb: [] });
+  assert.equal(u.length, 1);
+  assert.equal(k({ blocMean: null }).length, 2);
+  assert.equal(k({ mean: null }).length, 2);
+  assert.equal(k({ nb: [] }).length, 2);
+  assert.ok(!k({ total: 0 }).join(" ").match(/NaN|undefined/));
+  assert.ok(k({ events: 24, total: 200 })[0].includes("%12’si"));
+  assert.ok(k({ events: 40, total: 200 })[0].includes("%20’si"));
+  assert.ok(k({ nb: ["Birgün", "Hürriyet"] })[2].endsWith("Birgün ve Hürriyet’e benziyor."));
+  assert.ok(k({ nb: ["Sabah"] })[2].includes("Sabah’a benziyor"));
+});
+test("recentSplits: recency, opposite bloc only, <=5, min 5 outlets", () => {
+  const bl = { a: "left", b: "left", c: "right", d: "right", m: "mid", z: "none" };
+  const load = (e, s) => (e.v && e.v[s] != null ? e.v[s] : null);
+  const opt = { bloc: (s) => bl[s], load };
+  const ss = ["a", "b", "c", "d", "m"];
+  const ev = (i, f, v, s) => ({ i, f, v, s: s || ss });
+  const evs = [];
+  for (let i = 1; i <= 8; i++) evs.push(ev(i, "2026-11-0" + i + "T10:00", { a: 10, b: 30, c: 12, d: 20 + i, m: 50 }));
+  evs.push(ev(9, "2026-11-09T10:00", { a: 10, c: 11 }, ["a", "c", "d"]));
+  const r = L.recentSplits(evs, "a", opt);
+  assert.deepEqual(r.map((x) => x.e.i), [8, 7, 6, 5, 4]);
+  assert.ok(r.every((x) => x.other === "d"));
+  const rb = L.recentSplits([ev(1, "2026-11-01T10:00", { a: 10, b: 90, c: 12, d: 15, m: 80 })], "a", opt);
+  assert.equal(rb[0].other, "d");
+  assert.equal(L.recentSplits(evs, "m", opt)[0].other, "a");
+  assert.deepEqual(L.recentSplits([ev(1, "2026-11-01T10:00", { a: 10 })], "a", opt), []);
+  assert.deepEqual(L.recentSplits(evs, "z", opt), []);
+});

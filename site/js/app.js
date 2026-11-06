@@ -1179,7 +1179,10 @@ function pgSources(q) {
       "<h1>Hangi kurum ne kadar yüklü dil kullanıyor</h1>" +
       '<p class="lede">Tekil habere değil dağılıma bakan görünüm. Bir kuruma tıklayarak ' +
       "o kurumun dönem dökümüne geçebilirsiniz.</p></div>" + kurumSwitch("liste");
-    h += '<section class="sec" style="margin-top:0"><h2>Kurum başına ortalama yoğunluk</h2>' + kuFindMean() + "</section>";
+    h += '<section class="sec v7-pick" style="margin-top:0"><h2>Bir kurum seç</h2>' +
+      '<input type="search" class="kp-q" id="kq" data-for="kp-liste" placeholder="Kurum ara…" aria-label="Kurum ara">' +
+      outletPicker("kp-liste", function (s) { return "#/kurum?s=" + s; }) + "</section>";
+    h += '<section class="sec"><h2>Kurum başına ortalama yoğunluk</h2>' + kuFindMean() + "</section>";
     h += '<section class="sec"><h2>Hangi yapılar ne sıklıkta tetikleniyor</h2>' + kuFindKeys() + "</section>";
     h += '<section class="sec"><h2>Hangi kurum nerede sesini yükseltiyor</h2>' +
       '<p class="sub">Bölüm başına ortalama yoğunluk. Tek bir kurum ortalaması bunu ' +
@@ -1202,16 +1205,15 @@ function pgSources(q) {
   }
 
   if (tab === "karsilastir") {
-    var opts = LIVE.map(function (k) {
-      return '<option value="' + k + '">' + esc(SRC[k] ? SRC[k].n : k) + "</option>"; }).join("");
+    cmpState(q);
     h += '<div class="phead"><div class="eyebrow">İkili karşılaştırma</div>' +
       "<h1>İki kurumu yan yana koyun</h1>" +
-      '<p class="lede">İki kurum seçin: ikisinin de verdiği olaylarda başlıkları yan yana ' +
+      '<p class="lede">İki kurum seçin: ikisinin de verdiği olaylarda başlıklar yan yana ' +
       "gelsin. Aynı olguyu bildiren iki cümle arasındaki farkı görmenin en doğrudan yolu budur.</p></div>";
-    h += '<div class="ctl"><label class="eyebrow" for="cmpA">Kurum A</label>' +
-      '<select id="cmpA">' + opts + "</select>" +
-      '<label class="eyebrow" for="cmpB">Kurum B</label>' +
-      '<select id="cmpB">' + opts + "</select></div>";
+    h += '<div class="cmp-pick">' + ["a", "b"].map(function (w) {
+      return '<div class="cmp-p"><h2 class="kp-t">Kurum ' + w.toUpperCase() + ': <b id="cmpn-' + w + '">' + (CMP[w] ? esc(srcName(CMP[w])) : "seçilmedi") + "</b></h2>" +
+        '<input type="search" class="kp-q" data-for="kp-' + w + '" placeholder="Kurum ara…" aria-label="Kurum ' + w.toUpperCase() + ' ara">' + outletPicker("kp-" + w, null, w) + "</div>";
+    }).join("") + "</div>";
     h += '<div id="cmpbox"></div>';
   }
 
@@ -1351,166 +1353,6 @@ function renderSources() {
         (r.mean == null ? "—" : r.mean.toFixed(1)) + "</td>" +
       '<td style="color:var(--muted);font-size:12.5px">' + esc(r.own || "—") + "</td></tr>";
   }).join("");
-}
-
-function pgSourceV1(q) {
-  var k = q.s, p = SRC[k], st = STAT[k];
-  if (!p || !st) return '<div class="wrap page"><div class="phead"><h1>Kurum bulunamadı</h1>' +
-    '<p class="lede"><a class="lnk" href="#/kurumlar">Kurum listesine dön</a></p></div></div>';
-  var arts = D.A.filter(function (a) { return a.s === k; }).sort(function (x, y) { return y.v - x.v; });
-
-  /* Fingerprint: how often this outlet reaches for a device, against how often
-     the corpus does. A ratio, not a count — a big outlet triggers more of
-     everything, and that says nothing about its habits. */
-  var corpusRate = {}, myRate = {};
-  var corpusPol = 0; D.A.forEach(function (a) { if (a.p) corpusPol++; });
-  D.A.forEach(function (a) { if (a.p) a.k.forEach(function (kk) { corpusRate[kk] = (corpusRate[kk] || 0) + 1; }); });
-  arts.forEach(function (a) { if (a.p) a.k.forEach(function (kk) { myRate[kk] = (myRate[kk] || 0) + 1; }); });
-  var fp = Object.keys(myRate).map(function (kk) {
-    var mine = myRate[kk] / Math.max(1, st.pol), all = corpusRate[kk] / Math.max(1, corpusPol);
-    return { k: kk, n: myRate[kk], mine: mine, all: all, ratio: all ? mine / all : 0 };
-  }).sort(function (x, y) { return y.ratio - x.ratio; });
-
-  /* Where this outlet lands on stories it shared with others. */
-  var shared = [];
-  D.E.forEach(function (e) {
-    if (e.s.indexOf(k) < 0) return;
-    var as = e.a.map(function (i) { return ART[i]; });
-    var mine = as.filter(function (a) { return a.s === k; })[0]; if (!mine) return;
-    var others = as.filter(function (a) { return a.s !== k; });
-    if (!others.length) return;
-    var om = others.reduce(function (t, a) { return t + a.v; }, 0) / others.length;
-    shared.push({ e: e, mine: mine, othersMean: om, delta: mine.v - om });
-  });
-  shared.sort(function (x, y) { return y.delta - x.delta; });
-  var meanDelta = shared.length ?
-    shared.reduce(function (t, x) { return t + x.delta; }, 0) / shared.length : null;
-
-  var h = '<div class="wrap page"><div class="phead"><div class="eyebrow">Kurum</div>' +
-    "<h1>" + esc(p.n) + " bu dönemi nasıl verdi</h1>" +
-    '<p class="lede">' + esc(p.note || "") + "</p></div>";
-
-  h += '<div class="grid g3">' +
-    kpi(v3haberCount(k, st.n), "haber") + kpi(Object.keys(st.days).length + "/" + (DAYS.length - 1), "gün") +
-    kpi(st.mean == null ? "—" : st.mean.toFixed(1), "ortalama yoğunluk") +
-    kpi(meanDelta == null ? "—" : (meanDelta > 0 ? "+" : "") + meanDelta.toFixed(1),
-      "ortak olaylarda diğerlerine fark") + "</div>";
-
-  if (meanDelta != null) {
-    h += '<div class="note" style="margin-top:16px"><b>Nasıl okunur.</b> ' +
-      esc(p.n) + ", aynı olayı veren diğer kurumlarla karşılaştırıldığında ortalama " +
-      "<b>" + (meanDelta > 0 ? "+" : "") + meanDelta.toFixed(1) + " puan</b> " +
-      (meanDelta > 1.5 ? "daha yüklü" : meanDelta < -1.5 ? "daha yalın" : "hemen hemen aynı") +
-      " başlık kuruyor (" + shared.length + " ortak olay). Bu, kurumun genel ortalamasından " +
-      "daha anlamlıdır: aynı olguyu bildiren başlıkları karşılaştırır, farklı haber " +
-      "karışımlarını değil.</div>";
-  }
-
-  if (fp.length) {
-    h += '<section class="sec"><h2>Yapı parmak izi</h2>' +
-      '<p class="sub">Bu kurumun başlıklarında bir yapının görülme oranı, haber derlemesi ' +
-      "ortalamasına bölünmüş hâli. <b>1.0</b> ortalama demektir; <b>2.0</b> bu kurumun o " +
-      "yapıya iki kat sık başvurduğu anlamına gelir. Sayı yerine oran kullanılır, çünkü " +
-      "çok haber veren kurum her şeyden daha çok tetikler.</p>" +
-      fig("cfp", "bu kurum ÷ bütün haberlerin ortalaması", {
-        legend: legendHTML([{dash:1,t:"1.0× — bütün haberlerin ortalaması"}]),
-        take: "Kesikli çizginin <b>sağındaki</b> her çubuk, bu kurumun o yapıya haber derlemesi " +
-          "ortalamasından daha sık başvurduğu anlamına gelir; solundaki, daha seyrek." }) + "</section>";
-  }
-
-  if (shared.length) {
-    h += '<section class="sec"><h2>Ortak olaylarda ' + esc(p.n) +
-      " ve diğerleri</h2>" +
-      '<p class="sub">Bu kurumun da verdiği olaylarda, kendi başlığının yoğunluğu ile ' +
-      "aynı olayı veren diğer kurumların ortalaması. Fark büyüdükçe, kurum olayı " +
-      "diğerlerinden farklı kuruyor demektir.</p>" +
-      '<div class="scroller panel"><table><thead><tr><th>Olay</th>' +
-      '<th class="r">' + esc(p.n) + '</th><th class="r">Diğerleri (ort.)</th>' +
-      '<th class="r">Fark</th></tr></thead><tbody>' +
-      shared.slice(0, 12).map(function (x) {
-        return '<tr style="cursor:pointer" onclick="location.hash=\'/olay?e=' + x.e.i + '\'">' +
-          "<td>" + esc(storyLabel(x.e, 62)) + "</td>" +
-          '<td class="r num">' + x.mine.v + "</td>" +
-          '<td class="r num" style="color:var(--muted)">' + x.othersMean.toFixed(1) + "</td>" +
-          '<td class="r num" style="color:' + (x.delta > 4 ? "var(--hot)" : "var(--ink2)") + '">' +
-          (x.delta > 0 ? "+" : "") + x.delta.toFixed(1) + "</td></tr>";
-      }).join("") + "</tbody></table></div></section>";
-  }
-
-  h += '<section class="sec"><h2>En yüklü başlıkları</h2>' +
-    '<p class="sub">İşaretli kelimeler kuralı tetikleyen kelimelerdir. Üzerlerine gelin ' +
-    "ya da yapı adına tıklayın.</p>" +
-    '<div class="panel" style="padding:4px 18px 14px" id="srcarts">' +
-    arts.slice(0, 12).map(function (a) { return artRow(a, { noSrc: 1 }); }).join("") + "</div></section>";
-
-  /* Three axes, never merged into one score. Political placement, the
-     register's own alignment label, and ownership are different things that
-     happen to correlate; collapsing them would be exactly the conflation the
-     brief warns against. Each says where it came from. */
-  h += '<section class="sec"><h2>Üç ayrı eksen</h2>' +
-    '<p class="sub">Siyasi yerleşim, hükümetle hizalanma ve mülkiyet ayrı ayrı gösterilir. ' +
-    "Bunlar birbirinin yerine geçmez: bir yayın sağda konumlanıp hükümete eleştirel " +
-    "olabilir, bağımsız sahiplikte olup belirli bir çizgi izleyebilir. Hiçbiri " +
-    "<b>habercilik güvenilirliğinin</b> ölçüsü değildir — bu site onu ölçmez.</p>" +
-    '<div class="grid g3">' +
-    '<div class="card"><div class="eyebrow">1 · Siyasi yerleşim</div>' +
-    '<div class="spec" style="height:8px;margin:14px 0 9px"><i style="left:calc(' + p.lean +
-    '% - 1px);height:16px;top:-4px"></i></div>' +
-    '<div style="display:flex;justify-content:space-between;font-family:var(--ff-m);' +
-    'font-size:10px;letter-spacing:.07em;color:var(--muted)"><span>SOL 0</span>' +
-    "<span>50</span><span>SAĞ 100</span></div>" +
-    '<p style="margin-top:10px;font-size:12.5px;color:var(--muted)">Kayıt defterinden ' +
-    "gelen 0–100 değeri. Bu sitenin kendi değerlendirmesi değil.</p></div>" +
-    '<div class="card"><div class="eyebrow">2 · Sağlanan hizalanma etiketi</div>' +
-    '<div style="font-size:19px;font-family:var(--ff-d);margin:12px 0 4px">' +
-    esc(p.supp || "—") + "</div>" +
-    '<p style="margin-top:8px;font-size:12.5px;color:var(--muted)">Kayıt defterinin ' +
-    "kendi etiketi. Hükümete yakınlık ile ideolojik konum aynı şey değildir; bu etiket " +
-    "ikisini birden taşıyabilir ve bu sitede doğrulanmamıştır.</p></div>" +
-    '<div class="card"><div class="eyebrow">3 · Mülkiyet</div>' +
-    '<div style="font-size:16px;font-family:var(--ff-d);margin:12px 0 4px;line-height:1.3">' +
-    esc(p.own && p.own.grp ? p.own.grp : "Kayıt yok") + "</div>" +
-    (p.own && p.own.bik ? '<p style="margin-top:8px;font-size:12.5px">BİK resmî ilan ' +
-      "geliri: <b>" + Number(p.own.bik).toLocaleString("tr") + " TL</b></p>" : "") +
-    '<p style="margin-top:8px;font-size:12.5px;color:var(--muted)">Belgelenmiş yapısal ' +
-    "olgu. Mülkiyet, yayın çizgisini belirlemez — yalnızca ekonomik bağımlılığın nerede " +
-    "olduğunu gösterir.</p></div></div>";
-  if (p.own && p.own.bik) {
-    h += '<div class="note warn" style="margin-top:14px"><b>Bu rakam nasıl okunmalı.</b> ' +
-      "BİK üzerinden dağıtılan resmî ilan geliri, yayının devlet kaynaklı gelire ne " +
-      "ölçüde bağlı olduğunu gösteren <b>yapısal</b> bir veridir (kaynak: Yanatma 2021, " +
-      "Tablo 1). Yapısal bir koşul, tek bir haberin nasıl yazıldığını <b>açıklamaz</b>: " +
-      "bu sayfadaki hiçbir başlık analizi bu rakama dayandırılmamıştır. İkisi ayrı " +
-      'kanıt türüdür. <a class="lnk" href="#/yanlilik?t=turkiye">Türkiye bağlamı →</a></div>';
-  }
-  h += "</section>";
-
-  h += '<section class="sec"><h2>Künye</h2><div class="grid g2">' +
-    '<div class="card"><div class="eyebrow">Siyasi yerleşim</div>' +
-    '<div class="spec" style="height:8px;margin:14px 0 9px"><i style="left:calc(' + p.lean +
-    '% - 1px);height:16px;top:-4px"></i></div>' +
-    '<div style="display:flex;justify-content:space-between;font-family:var(--ff-m);' +
-    'font-size:10.5px;letter-spacing:.08em;color:var(--muted)"><span>SOL 0</span>' +
-    "<span>MERKEZ 50</span><span>SAĞ 100</span></div>" +
-    '<p style="margin-top:11px;font-size:13px;color:var(--ink2)">Sağlanan etiket: <b>' +
-    esc(p.supp || "—") + "</b>. Kayıt defterinden gelir; bu sitenin kendi değerlendirmesi değildir.</p></div>";
-  h += '<div class="card"><div class="eyebrow">Sahiplik</div>' +
-    '<p style="margin-top:9px;font-size:13.5px;color:var(--ink2);line-height:1.6">' +
-    (p.own ? "<b>" + esc(p.own.grp || "—") + "</b>" + (p.own.route ? "<br>" + esc(p.own.route) : "") +
-      (p.own.bik ? "<br><br>BİK resmî ilan geliri: <b>" + Number(p.own.bik).toLocaleString("tr") + " TL</b>" : "") +
-      (p.own.circ ? " · Tiraj: <b>" + Number(p.own.circ).toLocaleString("tr") + "</b>" : "")
-      : "Kayıt yok") + "</p>" +
-    (p.risj ? '<p style="margin-top:11px;font-size:13px;color:var(--muted)">Reuters ' +
-      "Institute: kullananlar arasında güven " + p.risj.trustUsed + "/10" +
-      (p.risj.weekly ? ", haftalık erişim %" + p.risj.weekly : "") +
-      ". Anket verisidir, kalite ölçüsü değildir.</p>" : "") + "</div></div></section>";
-
-  h += '<section class="sec"><h2>Günlük hacim</h2>' +
-    '<p class="sub">Kurumun akışlarından bu pencerede kaç haber toplandığı. ' +
-    "Yayın hacmi değil, <b>akışta görünen</b> hacimdir.</p>" +
-    fig("sdays", "gün başına toplanan haber") + "</section>";
-  h += '<p style="margin-top:22px"><a class="lnk" href="#/kurumlar">← Tüm kurumlar</a></p></div>';
-  return h;
 }
 
 /* Head-to-head: only stories BOTH outlets covered, so the comparison is on the
@@ -4246,33 +4088,6 @@ function renderSearch() {
 }
 
 /* ================================================================ OUTLET */
-function pgSourceV2(q) {
-  var v1 = pgSourceV1(q), k = q.s, om = (D.OM || {})[k], p = SRC[k];
-  if (!p || !STAT[k]) return v1;
-  var o = ownOf(k), sd = sideOf(k);
-  var block = '<div class="xsrc-top"><span class="xlean ' + sd + '">' + SIDE[sd] + " · yerleşim " + p.lean + "/100</span>" +
-    '<span class="xsmall">' + esc(o[0]) + " · " + esc(o[1]) + "</span>" + followBtn("s", k) + "</div>";
-  if (om) {
-    var mine = D.E.filter(function (e) { return e.s.indexOf(k) >= 0; });
-    var missed = D.E.filter(function (e) { return e.bs === sd && e.s.indexOf(k) < 0; });
-    block += '<section class="sec" style="margin-top:8px"><h2>Bu dönemde gözlenen davranış</h2>' +
-      '<p class="sub">Altı eksenli profil kayıt defterinden gelir; aşağıdaki ölçüler bu dönemin haberlerinden hesaplandı ' +
-      "ve profili gözlemle tamamlar.</p>" +
-      '<div class="xobs">' +
-      obs(om.share + "%", "olay kapsamı", D.E.length + " olaydan " + om.inS + " tanesini verdi") +
-      obs(om.fr + "%", "çerçeveleme oranı", "en az bir yapının tetiklendiği başlıkların payı") +
-      obs(om.load, "ortalama yoğunluk", "bütün başlıklarda (0–100)") +
-      obs(om.rep, "kopya başlık", "başka bir kurumun başlığının neredeyse aynısı") +
-      obs(om.bsIn, "kör noktada yer aldı", "verdiği olaylardan kör nokta olanlar") +
-      obs(missed.length, "kendi tarafının kör noktası", "kendi tarafının az verdiği ve bu kurumun da vermediği olaylar") +
-      "</div></section>";
-    if (mine.length) block += '<section class="sec"><h2>Verdiği olaylar</h2><div class="xcards">' +
-      cards(mine.sort(function (a, b) { return b.s.length - a.s.length; }).slice(0, 6)) + "</div></section>";
-  }
-  var i = v1.indexOf('<div class="grid g3">');
-  return i < 0 ? v1 : v1.slice(0, i) + block + v1.slice(i);
-}
-function obs(v, l, d) { return '<div class="xob"><b class="num">' + v + "</b><span>" + l + "</span><em>" + d + "</em></div>"; }
 
 /* ================================================================ METHOD */
 
@@ -5022,14 +4837,42 @@ function sixRows(list) {
   }).join("") + "</div>";
 }
 function pgSource(q) {
-  var h = pgSourceV2(q), k = q.s, p = SRC[k];
-  if (!p) return h;
-  var blk = '<section class="sec" style="margin-top:18px"><h2>Altı eksenli profil</h2>' +
-    '<p class="sub">Kayıt defterindeki yerleşim (0–100), her eksen kendi iki ucuyla. Bu bir yerleşimdir, hüküm değil; kaynağı ' +
-    '<a class="lnk" href="#/yontem?s=veri">Yöntem › Veri</a>. ' + fixLink("kurum", k, p.n) + "</p>" +
-    sixRows([[k, "var(--ink)"]]) + "</section>" + v5Profile(k) + kurumLines7(k);
-  var i = h.indexOf('<section class="sec" style="margin-top:8px">');
-  return i < 0 ? h.replace('<div class="grid g3">', blk + '<div class="grid g3">') : h.slice(0, i) + blk + h.slice(i);
+  var k = q.s, p = SRC[k], st = STAT[k];
+  if (!p || !st) return '<div class="wrap page"><div class="phead"><h1>Kurum bulunamadı</h1><p class="lede"><a class="lnk" href="#/kurumlar">Kurum listesine dön</a></p></div></div>';
+  var sd = sideOf(k), placed = p.lean != null, o = ownOf(k), name = esc(p.n);
+  var chip = '<span class="xlean ' + (placed ? sd : "none") + '">' + glossTerms(placed ? SIDE[sd] + " · yerleşim " + p.lean + "/100" : "Yerleşimsiz · yerleşim kaydı yok") + "</span>";
+  var h = '<div class="wrap page v7-kp"><nav class="v7-bc" aria-label="Konum"><a href="#/kurumlar">Kurumlar</a><span aria-hidden="true">›</span><span aria-current="page">' + name + "</span></nav>" +
+    '<div class="phead"><div class="eyebrow">Kurum</div><h1>' + name + "</h1>" + (p.note ? '<p class="lede">' + esc(p.note) + "</p>" : "") +
+    '<div class="xsrc-top">' + chip + '<span class="xsmall">' + esc(o[0]) + " · " + esc(o[1]) + '</span><span class="xsmall num">' + v3haberCount(k, st.n) + " haber</span>" + followBtn("s", k) + "</div></div>";
+  var evs = orEvents(), mine = evs.filter(function (e) { return e.s.indexOf(k) >= 0; }), dl = kuDil(k), rr = rank5Rows().filter(function (x) { return x.s === k; })[0];
+  var kis = outletKisaca({ name: p.n, events: mine.length, total: evs.length, mean: dl && dl.row.mean, blocMean: dl && dl.bl, placed: placed,
+    nb: rr ? rr.nb.slice(0, 2).map(srcName) : [] });
+  h += '<section class="sec v7-kisaca"><h2>Kısaca</h2><ul class="v7-brief">' + kis.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></section>";
+  var rs = recentSplits(evs, k, { bloc: function (s) { return SRC[s] && SRC[s].lean != null ? bloc(s) : "none"; },
+    load: function (e, s) { var a = artOf(e, s); return a ? a.v : null; } });
+  if (rs.length) h += '<section class="sec"><h2>Son ayrışan başlıkları</h2><p class="sub">Bu kurumun, karşı yerleşimdeki bir kurumla başlık dilinin en çok ayrıştığı son beş olay.</p><div class="v7-fg">' +
+    rs.map(function (x) {
+      var a = artOf(x.e, k), b = artOf(x.e, x.other);
+      return '<a class="v7-fc" href="#/olay?e=' + x.e.i + '"><h3 class="v7-fc-t">' + esc(storyLabel(x.e, 90)) + "</h3>" + splitCard(x.e, [k, x.other], { small: true, link: false }) +
+        '<p class="v7-fc-d">' + "Yüklü dil puanı: " + esc(p.n) + " " + a.v + ", " + esc(srcName(x.other)) + " " + b.v + '</p><p class="v7-fc-n num">' + esc(fmtD(x.e.f)) + " · " + x.e.s.length + " kurum verdi</p></a>";
+    }).join("") + "</div></section>";
+  h += kurumFindings7(k);
+  var det = function (t, body) { return '<details class="v7-dd"><summary>' + t + "</summary>" + body + "</details>"; };
+  h += det("Kayıt ve sahiplik", '<section class="sec"><h2>Altı eksenli profil</h2>' +
+    '<p class="sub">Kayıt defterindeki yerleşim (0–100), her eksen kendi iki ucuyla. Bu bir yerleşimdir, hüküm değil; kaynağı <a class="lnk" href="#/yontem?s=veri">Yöntem › Veri</a>. ' + fixLink("kurum", k, p.n) + "</p>" +
+    sixRows([[k, "var(--ink)"]]) + "</section>" +
+    '<section class="sec"><h2>Sahiplik ve güven</h2><p class="v7-own">Sağlanan hizalanma etiketi: <b>' + esc(p.supp || "—") + "</b>. Kayıt defterinin kendi etiketidir; doğrulanmamıştır.<br>" +
+    (p.own ? "Sahiplik: <b>" + esc(p.own.grp || "—") + "</b>" + (p.own.route ? " · " + esc(p.own.route) : "") +
+      (p.own.bik ? "<br>BİK resmî ilan geliri: <b>" + Number(p.own.bik).toLocaleString("tr") + " TL</b>" : "") +
+      (p.own.circ ? " · Tiraj: <b>" + Number(p.own.circ).toLocaleString("tr") + "</b>" : "") : "Sahiplik: kayıt yok") +
+    (p.risj ? "<br>Reuters Institute: kullananlar arasında güven " + p.risj.trustUsed + "/10" + (p.risj.weekly ? ", haftalık erişim %" + p.risj.weekly : "") + ". Anket verisidir, kalite ölçüsü değildir." : "") + "</p>" +
+    (p.own && p.own.bik ? '<div class="note warn"><b>Bu rakam nasıl okunmalı.</b> BİK resmî ilan geliri yapısal bir veridir (Yanatma 2021, Tablo 1); tek bir haberin nasıl yazıldığını açıklamaz ve bu sayfadaki hiçbir başlık analizi ona dayanmaz. ' +
+      '<a class="lnk" href="#/yontem?s=turkiye">Türkiye bağlamı →</a></div>' : "") + "</section>" + v5Profile(k));
+  h += det("Veri toplama", '<section class="sec"><h2>Günlük hacim</h2><p class="sub">Kurumun akışlarından bu pencerede kaç haber toplandığı. Yayın hacmi değil, <b>akışta görünen</b> hacimdir.</p>' +
+    fig("sdays", "gün başına toplanan haber") + "</section>");
+  h += '<p class="v7-cta"><a class="xbtn" href="#/kurumlar?t=karsilastir&a=' + encodeURIComponent(k) + '">Başka bir kurumla karşılaştır →</a></p>' +
+    '<p style="margin-top:22px"><a class="lnk" href="#/kurumlar">← Tüm kurumlar</a></p></div>';
+  return h;
 }
 
 /* -------------------------------------------------------------- compare */
@@ -5038,9 +4881,45 @@ function compareMark(a, b) {
   return '<img class="xcmp-mark" alt="Karşılaştırma işareti: üst yarı ' + esc(srcName(a)) + ", alt yarı " + esc(srcName(b)) + '" src="' +
     svgURI((LOGO.cmp || "").replace("#E8556B", col(a)).replace("#4586EE", col(b))) + '">';
 }
+var CMP = { a: "", b: "" };
+/* Opens on a pair that actually has shared stories and a real gap, so the view demonstrates itself instead of starting empty. */
+function cmpBest() {
+  var best = null;
+  LIVE.forEach(function (x) {
+    LIVE.forEach(function (y) {
+      if (x >= y) return;
+      var n = 0, gap = 0;
+      D.E.forEach(function (e) {
+        if (e.s.indexOf(x) < 0 || e.s.indexOf(y) < 0) return;
+        var fb = firstBy(e), ax = fb[x], ay = fb[y];
+        if (ax && ay) { n++; gap += Math.abs(ax.v - ay.v); }
+      });
+      if (n >= 3 && (!best || gap > best.gap)) best = { a: x, b: y, gap: gap };
+    });
+  });
+  return best || { a: "", b: "" };
+}
+function cmpState(q) {
+  var ok = function (s) { return s && STAT[s] ? s : ""; };
+  CMP = q.a === undefined && q.b === undefined ? cmpBest() : { a: ok(q.a), b: ok(q.b) };
+}
+function cmpBrief(A, B, rows) {
+  var nA = srcName(A), nB = srcName(B), inA = 0, inB = 0;
+  D.E.forEach(function (e) { if (e.s.indexOf(A) >= 0) inA++; if (e.s.indexOf(B) >= 0) inB++; });
+  var sh = orShared(A, B) || rows.length, un = inA + inB - sh, L = [];
+  if (!sh) return ["İki kurumun bu dönemde ortak olayı yok."];
+  var pa = Math.round(100 * sh / inA), pb = Math.round(100 * sh / inB);
+  L.push("İki kurumun gündemi %" + Math.round(100 * sh / un) + " örtüşüyor; ortak " + sh + " olay, " + nA + " için olayların %" + pa + kuPoss(pa) + ", " + nB + " için %" + pb + kuPoss(pb) + ".");
+  if (rows.length) {
+    var mA = rows.reduce(function (t, r) { return t + r.a.v; }, 0) / rows.length, mB = rows.reduce(function (t, r) { return t + r.b.v; }, 0) / rows.length;
+    L.push("Ortak olaylarda ortalama yüklü dil puanı " + nA + " için " + dec(mA, 1) + ", " + nB + " için " + dec(mB, 1) + ".");
+  }
+  return L;
+}
 function renderCompare() {
   var box = $("#cmpbox"); if (!box) return;
-  var A = $("#cmpA").value, B = $("#cmpB").value;
+  var A = CMP.a, B = CMP.b;
+  if (!A || !B) { box.innerHTML = '<div class="note">Karşılaştırmak için ' + (A || B ? "ikinci" : "iki") + " kurum seçin.</div>"; return; }
   if (A === B) { box.innerHTML = '<div class="note">İki farklı kurum seçin.</div>'; return; }
   var rows = [];
   D.E.forEach(function (e) {
@@ -5050,11 +4929,10 @@ function renderCompare() {
   });
   rows.sort(function (x, y) { return y.e.s.length - x.e.s.length || y.d - x.d; });
   var nA = srcName(A), nB = srcName(B);
-  if (!rows.length) {
-    box.innerHTML = '<div class="note"><b>' + esc(nA) + "</b> ve <b>" + esc(nB) + "</b> bu pencerede ortak bir olay vermedi.</div>"; return;
-  }
+  var h = '<section class="sec v7-kisaca"><h2>Kısaca</h2><ul class="v7-brief">' + cmpBrief(A, B, rows).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></section>";
+  if (!rows.length) { box.innerHTML = h; return; }
   var mA = rows.reduce(function (t, r) { return t + r.a.v; }, 0) / rows.length, mB = rows.reduce(function (t, r) { return t + r.b.v; }, 0) / rows.length;
-  var h = '<div class="xcmp-sum panel">' + compareMark(A, B) + '<div class="xcmp-k"><b class="num">' + rows.length + "</b><span>ortak olay</span></div>" +
+  h += '<div class="xcmp-sum panel">' + compareMark(A, B) + '<div class="xcmp-k"><b class="num">' + rows.length + "</b><span>ortak olay</span></div>" +
     '<div class="xcmp-k"><b class="num">' + mA.toFixed(1) + " · " + mB.toFixed(1) + "</b><span>ortalama yoğunluk, " + esc(nA) + " · " + esc(nB) + "</span></div>" +
     '<div class="xcmp-six"><div class="xcmp-leg"><span><i style="background:var(--ink)"></i>' + esc(nA) + '</span><span><i class="o"></i>' + esc(nB) + "</span></div>" +
     sixRows([[A, "var(--ink)"], [B, "var(--muted)"]]) + "</div></div>";
@@ -5064,7 +4942,40 @@ function renderCompare() {
   }).join("") + "</div>";
   if (rows.length > 14) h += '<p class="xsmall">' + (rows.length - 14) + " ortak olay daha var; en çok kurumun verdiği 14 olay gösteriliyor.</p>";
   box.innerHTML = h;
+  v3decorateSplits(box);
 }
+/* Grouped outlet chips (Sol / Merkez / Sağ / Yerleşimsiz). href(s) makes links; without it chips are toggle buttons (data-w picks which side). */
+var KP_GROUPS = [["left", "Sol"], ["mid", "Merkez"], ["right", "Sağ"], ["none", "Yerleşimsiz"]];
+function outletPicker(id, href, w) {
+  var by = { left: [], mid: [], right: [], none: [] };
+  LIVE.forEach(function (s) { if (SRC[s]) by[SRC[s].lean != null ? bloc(s) : "none"].push(s); });
+  return '<div class="kp" id="' + id + '">' + KP_GROUPS.filter(function (g) { return by[g[0]].length; }).map(function (g) {
+    var list = by[g[0]].sort(function (x, y) { var a = SRC[x].lean, b = SRC[y].lean; return (a == null ? 0 : a) - (b == null ? 0 : b) || trCmp(srcName(x), srcName(y)); });
+    return '<div class="kp-g"><h3 class="kp-h"><i class="v7-ld ' + g[0] + '"></i>' + g[1] + ' <span class="num">' + list.length + '</span></h3><div class="kp-c">' + list.map(function (s) {
+      var inner = '<i class="v7-ld ' + g[0] + '"></i>' + esc(srcName(s)), fold = ' data-n="' + esc(trFold(srcName(s))) + '"';
+      return href ? '<a class="chip kp-chip" href="' + href(s) + '"' + fold + ">" + inner + "</a>" :
+        '<button type="button" class="chip kp-chip" data-s="' + s + '" data-w="' + w + '" aria-pressed="' + (CMP[w] === s) + '"' + fold + ">" + inner + "</button>";
+    }).join("") + "</div></div>";
+  }).join("") + "</div>";
+}
+document.addEventListener("input", function (ev) {
+  var q = ev.target.closest && ev.target.closest(".kp-q"); if (!q) return;
+  var f = trFold(q.value.trim()), pk = document.getElementById(q.getAttribute("data-for")); if (!pk) return;
+  [].forEach.call(pk.querySelectorAll(".kp-g"), function (g) {
+    var any = 0;
+    [].forEach.call(g.querySelectorAll(".kp-chip"), function (c) { var on = !f || c.getAttribute("data-n").indexOf(f) >= 0; c.hidden = !on; if (on) any++; });
+    g.hidden = !any;
+  });
+});
+document.addEventListener("click", function (ev) {
+  var c = ev.target.closest && ev.target.closest(".kp-chip[data-s]"); if (!c) return;
+  var w = c.getAttribute("data-w"), s = c.getAttribute("data-s");
+  CMP[w] = CMP[w] === s ? "" : s;
+  [].forEach.call(document.querySelectorAll('.kp-chip[data-w="' + w + '"]'), function (x) { x.setAttribute("aria-pressed", x.getAttribute("data-s") === CMP[w]); });
+  var nm = document.getElementById("cmpn-" + w); if (nm) nm.textContent = CMP[w] ? srcName(CMP[w]) : "seçilmedi";
+  try { history.replaceState(null, "", "#/kurumlar?t=karsilastir&a=" + CMP.a + "&b=" + CMP.b); } catch (e) {}
+  renderCompare();
+});
 
 /* ------------------------------------------------------------ corrections */
 function fixLink(kind, id, label) {
@@ -6285,9 +6196,6 @@ function v3After(path, tab, params) {
       v3redecorateOnChange("#spA", view); v3redecorateOnChange("#spB", view);
     }
   }
-  if (path === "/kurumlar" && tab === "karsilastir" && v3on("appeal")) {
-    v3redecorateOnChange("#cmpA", view); v3redecorateOnChange("#cmpB", view);
-  }
   if (path === "/yanlilik" && tab === "turkiye" && v3on("echoChain")) {
     var hs = [].filter.call(view.querySelectorAll("section.sec"), function (s) { return s.querySelector(".note.warn"); })[0];
     add(hs, "beforebegin", v3flowTable());
@@ -6407,29 +6315,7 @@ function route() {
     renderSources();
     $("#ssearch").oninput = renderSources; $("#ssort").onchange = renderSources;
   }
-  if (path === "/kurumlar" && tab === "karsilastir") {
-    var selA = $("#cmpA"), selB = $("#cmpB");
-    if (selA && selB) {
-      /* Open on a pair that actually has shared stories and a real gap, so the
-         view demonstrates itself instead of starting empty. */
-      var best = null;
-      LIVE.forEach(function (x) {
-        LIVE.forEach(function (y) {
-          if (x >= y) return;
-          var n = 0, gap = 0;
-          D.E.forEach(function (e) {
-            if (e.s.indexOf(x) < 0 || e.s.indexOf(y) < 0) return;
-            var fb = firstBy(e), ax = fb[x], ay = fb[y];
-            if (ax && ay) { n++; gap += Math.abs(ax.v - ay.v); }
-          });
-          if (n >= 3 && (!best || gap > best.gap)) best = { x: x, y: y, gap: gap };
-        });
-      });
-      if (best) { selA.value = best.x; selB.value = best.y; }
-      selA.onchange = renderCompare; selB.onchange = renderCompare;
-      renderCompare();
-    }
-  }
+  if (path === "/kurumlar" && tab === "karsilastir") renderCompare();
   if (path === "/kurumlar" && tab === "kayit") {
     /* One figure, not two. The polarisation gap is a DISTANCE between two
        numbers, so it is drawn as one: the left dot is what the general public
@@ -6455,27 +6341,8 @@ function route() {
   if (path === "/kurum") {
     var st2 = STAT[params.s];
     if (st2) {
-      var corpusPol = 0, corpusRate = {};
-      D.A.forEach(function (x) {
-        if (!x.p) return; corpusPol++;
-        x.k.forEach(function (k) { corpusRate[k] = (corpusRate[k] || 0) + 1; });
-      });
-      var mine = {};
-      D.A.forEach(function (x) {
-        if (x.s !== params.s || !x.p) return;
-        x.k.forEach(function (k) { mine[k] = (mine[k] || 0) + 1; });
-      });
-      var fp = Object.keys(mine).map(function (k) {
-        var mr = mine[k] / Math.max(1, st2.pol), ar = corpusRate[k] / Math.max(1, corpusPol);
-        return { label: BIA[k] ? BIA[k].en : k, value: ar ? +(mr / ar).toFixed(2) : 0,
-          display: (ar ? (mr / ar).toFixed(1) : "0") + "×",
-          color: (ar && mr / ar >= 1.6) ? "var(--seq4)" : (ar && mr / ar >= 1) ? "var(--seq3)" : "var(--seq2)",
-          tip: "<span class='k'>" + esc(BIA[k] ? BIA[k].en : k) + "</span>" +
-            mine[k] + " başlıkta · bütün haberlerin ortalamasının " +
-            (ar ? (mr / ar).toFixed(1) : "0") + " katı" };
-      }).sort(function (x, y) { return y.value - x.value; });
+      var fpv = kuFp(params.s).filter(function (x) { return x.value > 0; }), k0 = params.s, lc = lean(SRC[k0].lean);
       /* Ratios are multiplicative, so they sit on a log axis centred on 1×: 2× and ½× are the same distance from average. */
-      var fpv = fp.filter(function (x) { return x.value > 0; });
       if (fpv.length) {
         var flo = Math.min(.5, Math.min.apply(null, fpv.map(function (x) { return x.value; })) * .8), fhi = Math.max(2, Math.max.apply(null, fpv.map(function (x) { return x.value; })) * 1.2);
         vzPut("cfp", vzKey([{ c: "var(--seq4)", t: "ortalamadan sık" }, { c: "var(--muted)", t: "ortalamadan seyrek" }]) +
@@ -6485,13 +6352,24 @@ function route() {
             fmt: function (v) { return (v < 1 ? "1/" + Math.round(1 / v) : v) + "×"; }, refAll: { v: 1, label: "ortalama" }, lw: 200, vw: 50,
             axis: "Logaritmik ölçek: 2× ve ½× ortalamaya eşit uzaklıkta. Çizgi ortalamadan sapmayı gösterir." }));
       }
+      var dd = kuDil(k0);
+      if (dd) vzPut("cdil", vzKey([{ c: lc, t: "bu kurum" }].concat(dd.bl != null ? [{ kind: "t", t: "kendi bloğunun ortalaması" }] : [])) +
+        vzRows([{ k: k0, label: srcName(k0), sw: lc, ref: dd.bl, span: dd.bl != null ? "ref" : false, val: dec(dd.row.mean, 1), pts: [{ v: dd.row.mean, c: lc, big: true }],
+          tip: "<span class='k'>" + esc(srcName(k0)) + "</span>Ortalama " + dec(dd.row.mean, 1) + (dd.bl != null ? "<br>Kendi bloğu " + dec(dd.bl, 1) : "") }],
+        { min: 0, max: Math.max(20, Math.ceil(Math.max(dd.row.mean, dd.bl || 0) * 1.4 / 5) * 5), lw: 120, vw: 40, fmt: function (v) { return v; },
+          axis: "Siyasi başlıklarda ortalama yüklü dil puanı (0–100)." }));
+      var ff = kuFirst(k0);
+      if (ff) vzPut("cfirst", vzKey([{ c: lc, t: "bu kurum" }, { kind: "t", t: "kurumların ortancası" }]) +
+        vzRows([{ k: k0, label: srcName(k0), sw: lc, ref: 100 * ff.med, span: "ref", val: orPc(ff.v), pts: [{ v: 100 * ff.v, c: lc, big: true }],
+          tip: "<span class='k'>" + esc(srcName(k0)) + "</span>İlk veren payı " + orPc(ff.v) + "<br>Kurumların ortancası " + orPc(ff.med) }],
+        { min: 0, max: Math.max(10, Math.ceil(100 * Math.max(ff.v, ff.med) * 1.4 / 5) * 5), lw: 120, vw: 40, fmt: function (v) { return "%" + v; },
+          axis: "Verdiği olaylarda ilk veren olma payı." }));
       var dv = DAYS.map(function (d) { return st2.days[d] || 0; });
       vzPut("sdays", vzLine("sdays-" + params.s, DAYS.map(function (d) { return fmtD(d + "T00:00"); }), [
         { k: "d", label: "Günlük haber", vals: dv, c: "var(--ink2)", thin: true },
         { k: "m", label: "7 günlük ortalama", vals: vzRoll(dv, 7), c: "var(--ink)", area: true }],
         { label: "Günlük toplanan haber, 7 günlük ortalamayla", legend: "Çizgi" }));
     }
-    var sa = $("#srcarts"); if (sa) wireDevices(sa);
   }
 
   if (path === "/olay") { var vw = $("#view"); if (vw) wireDevices(vw); }
