@@ -1104,6 +1104,63 @@ function pgEventV1(q) {
   return h;
 }
 
+/* Kurumlar overview rows, shared by the finding text (render) and the charts (v2After). */
+function kuMean() {
+  /* Mean load with its 95 % interval: a mean bar hid how sure each number is (small outlets swing). */
+  var rows = LIVE.filter(function (k) { return STAT[k].pol >= 20; }).map(function (k) {
+    var xs = polOf(k).map(function (a) { return a.v; }), n = xs.length || STAT[k].pol, m = STAT[k].mean || 0;
+    var sd = Math.sqrt(xs.reduce(function (t, v) { return t + (v - m) * (v - m); }, 0) / Math.max(1, xs.length - 1)), se = xs.length > 1 ? 1.96 * sd / Math.sqrt(xs.length) : 0;
+    return { k: k, n: n, label: srcName(k), sw: lean(SRC[k] ? SRC[k].lean : null), go: "#/kurum?s=" + k, val: dec(m, 1),
+      pts: [{ v: m, lo: Math.max(0, m - se), hi: m + se, c: lean(SRC[k] ? SRC[k].lean : null), big: true }],
+      tip: "<span class='k'>" + esc(srcName(k)) + "</span>Ortalama " + dec(m, 1) + " · %95 aralık " + dec(Math.max(0, m - se), 1) + "–" + dec(m + se, 1) + "<br>" + orN(n) + " siyasi haber<br>Tıklayın: kurum sayfası" };
+  }).sort(function (x, y) { return y.pts[0].v - x.pts[0].v; });
+  var all = 0, n = 0; D.A.forEach(function (a) { if (a.p) { all += a.v; n++; } });
+  return { rows: rows, all: all / (n || 1) };
+}
+function kuKeys() {
+  /* Each framing structure by bloc: rate per 100 political headlines, so the larger bloc does not win by volume. */
+  var kk = {}, kb = { left: {}, mid: {}, right: {} }, nb = { left: 0, mid: 0, right: 0 };
+  D.A.forEach(function (x) { var b = bloc(x.s); if (x.p && nb[b] != null) nb[b]++;
+    x.k.forEach(function (k) { kk[k] = (kk[k] || 0) + 1; if (x.p && kb[b]) kb[b][k] = (kb[b][k] || 0) + 1; }); });
+  var bks = ["left", "mid", "right"].filter(function (b) { return nb[b]; }), rate = function (b, k) { return 100 * (kb[b][k] || 0) / nb[b]; };
+  var rows = Object.keys(kk).sort(function (x, y) { return kk[y] - kk[x]; }).map(function (k) {
+    return { k: k, n: kk[k], label: BIA[k] ? BIA[k].en : k, sub: BIA[k] ? BIA[k].tr : "", span: "pts", val: orN(kk[k]),
+      pts: bks.map(function (b) { return { v: rate(b, k), c: "var(--" + b + ")" }; }),
+      tip: "<span class='k'>" + esc(BIA[k] ? BIA[k].en : k) + " · " + esc(BIA[k] ? BIA[k].tr : "") + "</span>" + orN(kk[k]) + " başlık<br>" +
+        bks.map(function (b) { return SIDE[b] + ": 100 siyasi başlıkta " + dec(rate(b, k), 2); }).join("<br>") + (BIA[k] && BIA[k].df ? "<br>" + esc(BIA[k].df) : "") };
+  });
+  return { rows: rows, bks: bks, rate: rate };
+}
+/* The two Kurumlar overview charts as finding blocks (claim, chart, caption, meaning, method, table). */
+function kuFindMean() {
+  var M = kuMean(), r = M.rows, hi = r[0], lo = r[r.length - 1];
+  if (!hi) return findingBlock({ id: "kurum-ortalama", claim: "Yeterli siyasi haberi olan kurum yok.", viz: fig("cmean", "kurum başına ortalama yoğunluk · 0–100") });
+  return findingBlock({ id: "kurum-ortalama",
+    claim: "Siyasi haberlerde en yüklü dili <b>" + esc(hi.label) + "</b> (ortalama " + dec(hi.pts[0].v, 1) + "), en sakinini <b>" + esc(lo.label) + "</b> (" + dec(lo.pts[0].v, 1) + ") kullanıyor; bütün siyasi haberlerin ortalaması " + dec(M.all, 1) + ".",
+    viz: fig("cmean", "kurum başına ortalama yoğunluk · 0–100", { right: scaleHTML(0, 100) }),
+    read: "Her nokta bir kurum; sağa gittikçe daha yüklü dil. Kurumun adına " + orTap() + ": sayılar; tıklayınca kurum sayfası.",
+    means: "Bu sıralama bir kalite sıralaması <b>değildir</b>. Üstteki kurum daha çok yanlış haber yapmıyor; olayı daha çok yeniden çerçeveleyen bir dil kuruyor. " +
+      "Düşük değer “yansız” demek değil; “başlık olayı yeniden çerçevelemeden bildiriyor” demektir.",
+    how: orHow(["0–100 ölçeği, yalnızca siyasi haberler; en az 20 siyasi haberi olan " + r.length + " kurum.",
+      "Noktanın iki yanındaki çizgi %95 güven aralığıdır (ortalama ± 1,96 standart hata); aralıkları örtüşen kurumlar arasındaki fark şansla açıklanabilir."], "dil"),
+    table: vzTable(["Kurum", "Siyasi haber", "Ortalama", "%95 aralık"], r.map(function (x) { var p = x.pts[0]; return [x.label, orN(x.n), dec(p.v, 1), dec(p.lo, 1) + " – " + dec(p.hi, 1)]; })) });
+}
+function kuFindKeys() {
+  var K = kuKeys(), r = K.rows, t = r[0];
+  if (!t) return findingBlock({ id: "kurum-yapilar", claim: "Bu dönemde saptanan yapı yok.", viz: fig("ckeys", "tüm haberlerde tetiklenme sayısı") });
+  var nm = function (x) { return x.sub ? x.sub + " (" + x.label + ")" : x.label; };
+  return findingBlock({ id: "kurum-yapilar",
+    claim: "Kural tarayıcısının en sık bulduğu yapı <b>" + esc(nm(t)) + "</b>: bu dönemde <b>" + orN(t.n) + "</b> başlıkta." + (r[1] ? " İkinci sırada " + esc(nm(r[1])) + ", " + orN(r[1].n) + " başlıkta." : ""),
+    viz: fig("ckeys", "tüm haberlerde tetiklenme sayısı"),
+    read: "Her satır bir yapı; renkli noktalar her bloğun 100 siyasi başlığında kaç kez görüldüğü. Uzun çizgi, bloklar arasında fark.",
+    means: "Bir yapının sık görülmesi, onun en <b>etkili</b> yapı olduğu anlamına gelmez — yalnızca kuralla saptanması en kolay olanların sık göründüğü anlamına gelir. " +
+      "Adlar özgün İngilizceleriyle; Türkçe karşılık ve örnek Nasıl çalışır bölümündedir.",
+    how: orHow(["Birim: bu dönemdeki bütün başlıklar (toplam sayı); blok değerleri yalnızca siyasi başlıklar üzerinden, 100 başlık başına.",
+      "Ölçek logaritmiktir: her çizgi bir öncekinin 10 katı."], "dil"),
+    table: vzTable(["Yapı", "Türkçesi", "Başlık"].concat(K.bks.map(function (b) { return SIDE[b] + " (100 siyasi başlıkta)"; })),
+      r.map(function (x) { return [x.label, x.sub || "—", orN(x.n)].concat(K.bks.map(function (b) { return dec(K.rate(b, x.k), 2); })); })) });
+}
+
 function pgSources(q) {
   var tab = tabOf(secFor("/kurumlar"), q);
   var h = '<div class="wrap page">';
@@ -1122,21 +1179,8 @@ function pgSources(q) {
       "<h1>Hangi kurum ne kadar yüklü dil kullanıyor</h1>" +
       '<p class="lede">Tekil habere değil dağılıma bakan görünüm. Bir kuruma tıklayarak ' +
       "o kurumun dönem dökümüne geçebilirsiniz.</p></div>" + kurumSwitch("liste");
-    h += '<section class="sec" style="margin-top:0"><h2>Kurum başına ortalama yoğunluk</h2>' +
-      '<p class="sub">0–100 ölçeği, yalnızca siyasi haberler üzerinden. Düşük değer ' +
-      '“yansız” demek değil; “başlık olayı yeniden çerçevelemeden bildiriyor” demektir.</p>' +
-      fig("cmean", "kurum başına ortalama yoğunluk · 0–100", {
-        right: scaleHTML(0, 100),
-        take: "Bu sıralama bir kalite sıralaması <b>değildir</b>. Üstteki kurum daha çok " +
-          "yanlış haber yapmıyor; olayı daha çok yeniden çerçeveleyen bir dil kuruyor." }) +
-      "</section>";
-    h += '<section class="sec"><h2>Hangi yapılar ne sıklıkta tetikleniyor</h2>' +
-      '<p class="sub">Tüm bu dönemdeki haberlerde kural tabanlı tarayıcının saydığı yapılar. Adlar özgün ' +
-      "İngilizceleriyle; Türkçe karşılık ve örnek Çerçeveleme bölümündedir.</p>" +
-      fig("ckeys", "tüm haberlerde tetiklenme sayısı", {
-        take: "Bir yapının sık görülmesi, onun en <b>etkili</b> yapı olduğu anlamına gelmez — " +
-          "yalnızca kuralla saptanması en kolay olanların sık göründüğü anlamına gelir." }) +
-      "</section>";
+    h += '<section class="sec" style="margin-top:0"><h2>Kurum başına ortalama yoğunluk</h2>' + kuFindMean() + "</section>";
+    h += '<section class="sec"><h2>Hangi yapılar ne sıklıkta tetikleniyor</h2>' + kuFindKeys() + "</section>";
     h += '<section class="sec"><h2>Hangi kurum nerede sesini yükseltiyor</h2>' +
       '<p class="sub">Bölüm başına ortalama yoğunluk. Tek bir kurum ortalaması bunu ' +
       "tamamen gizler: bir yayın ekonomide ölçülü, dünya haberlerinde sert olabilir. " +
@@ -6337,31 +6381,12 @@ function route() {
   }
 
   if (path === "/kurumlar" && tab === "liste" && params.v !== "harita") {
-    /* Mean load with its 95 % interval: a mean bar hid how sure each number is (small outlets swing). */
-    var cmRows = LIVE.filter(function (k) { return STAT[k].pol >= 20; }).map(function (k) {
-      var xs = polOf(k).map(function (a) { return a.v; }), n = xs.length || STAT[k].pol, m = STAT[k].mean || 0;
-      var sd = Math.sqrt(xs.reduce(function (t, v) { return t + (v - m) * (v - m); }, 0) / Math.max(1, xs.length - 1)), se = xs.length > 1 ? 1.96 * sd / Math.sqrt(xs.length) : 0;
-      return { k: k, label: srcName(k), sw: lean(SRC[k] ? SRC[k].lean : null), go: "#/kurum?s=" + k, val: dec(m, 1),
-        pts: [{ v: m, lo: Math.max(0, m - se), hi: m + se, c: lean(SRC[k] ? SRC[k].lean : null), big: true }],
-        tip: "<span class='k'>" + esc(srcName(k)) + "</span>Ortalama " + dec(m, 1) + " · %95 aralık " + dec(Math.max(0, m - se), 1) + "–" + dec(m + se, 1) + "<br>" + orN(n) + " siyasi haber<br>Tıklayın: kurum sayfası" };
-    }).sort(function (x, y) { return y.pts[0].v - x.pts[0].v; });
-    var cmAll = 0, cmN = 0; D.A.forEach(function (a) { if (a.p) { cmAll += a.v; cmN++; } });
+    var KM = kuMean(), cmRows = KM.rows;
     vzPut("cmean", vzKey([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { kind: "ci", t: "%95 aralık" }, { kind: "al", t: "bütün siyasi haberler" }]) +
-      vzRows(cmRows, { min: Math.floor(Math.min.apply(null, cmRows.map(function (r) { return r.pts[0].lo; })) * .9), max: Math.ceil(Math.max.apply(null, cmRows.map(function (r) { return r.pts[0].hi; })) * 1.1 / 5) * 5, refAll: { v: cmAll / (cmN || 1), label: "tümü " + dec(cmAll / (cmN || 1), 1) },
+      vzRows(cmRows, { min: Math.floor(Math.min.apply(null, cmRows.map(function (r) { return r.pts[0].lo; })) * .9), max: Math.ceil(Math.max.apply(null, cmRows.map(function (r) { return r.pts[0].hi; })) * 1.1 / 5) * 5, refAll: { v: KM.all, label: "tümü " + dec(KM.all, 1) },
         lw: 140, vw: 48, fmt: function (v) { return v; }, axis: "Aralıkları örtüşen kurumlar arasındaki fark şansla açıklanabilir; en az 20 siyasi haberi olan kurumlar." }));
-    /* Each framing structure by bloc: rate per 100 political headlines, so the larger bloc does not win by volume. */
-    var kk = {}, kb = { left: {}, mid: {}, right: {} }, nb = { left: 0, mid: 0, right: 0 };
-    D.A.forEach(function (x) { var b = bloc(x.s); if (x.p && nb[b] != null) nb[b]++;
-      x.k.forEach(function (k) { kk[k] = (kk[k] || 0) + 1; if (x.p && kb[b]) kb[b][k] = (kb[b][k] || 0) + 1; }); });
-    var bks = ["left", "mid", "right"].filter(function (b) { return nb[b]; }), rate = function (b, k) { return 100 * (kb[b][k] || 0) / nb[b]; };
-    var kRows = Object.keys(kk).sort(function (x, y) { return kk[y] - kk[x]; }).map(function (k) {
-      var vs = bks.map(function (b) { return rate(b, k); }), sp = Math.max.apply(null, vs) / Math.max(.01, Math.min.apply(null, vs));
-      return { k: k, label: BIA[k] ? BIA[k].en : k, sub: BIA[k] ? BIA[k].tr : "", span: "pts", val: orN(kk[k]),
-        pts: bks.map(function (b) { return { v: rate(b, k), c: "var(--" + b + ")" }; }),
-        tip: "<span class='k'>" + esc(BIA[k] ? BIA[k].en : k) + " · " + esc(BIA[k] ? BIA[k].tr : "") + "</span>" + orN(kk[k]) + " başlık<br>" +
-          bks.map(function (b) { return SIDE[b] + ": 100 siyasi başlıkta " + dec(rate(b, k), 2); }).join("<br>") + (BIA[k] && BIA[k].df ? "<br>" + esc(BIA[k].df) : "") };
-    });
-    vzPut("ckeys", vzKey(bks.map(function (b) { return { c: "var(--" + b + ")", t: SIDE[b] + " bloğu" }; })) +
+    var KK = kuKeys(), kRows = KK.rows;
+    vzPut("ckeys", vzKey(KK.bks.map(function (b) { return { c: "var(--" + b + ")", t: SIDE[b] + " bloğu" }; })) +
       vzRows(kRows, { log: true, min: .01, max: Math.max(1, Math.pow(10, Math.ceil(Math.log10(Math.max.apply(null, kRows.map(function (r) { return Math.max.apply(null, r.pts.map(function (p) { return p.v; })); })))))),
         ticks: null, fmt: function (v) { return v < 1 ? dec(v, 2) : v; }, lw: 270, vw: 60,
         axis: "100 siyasi başlıkta görülme sayısı, bloklara göre (logaritmik ölçek: her çizgi bir öncekinin 10 katı). Sağdaki sayı bütün başlıklardaki toplam. Uzun çizgi, yapının bir blokta belirgin biçimde daha sık olduğunu gösterir." }));

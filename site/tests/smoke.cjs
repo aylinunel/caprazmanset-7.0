@@ -62,6 +62,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         const v = document.querySelector(".v7-viz");
         if (!v || !v.querySelector("[data-go],[data-tip],[data-vtip],.vz-dp,.vz-lp")) return "first .v7-viz has no interactive mark";
         if (/bağlam gerekli/i.test(document.body.innerText)) return "text 'bağlam gerekli'";
+        const stat = /φ|ρ| r = | p = |%95|güven aralığı|PCA|Mantel|binom|Wilson|permütasyon/;
+        for (const f of fs) {
+          const c = (f.querySelector(".v7-claim") || {}).textContent || "";
+          if (stat.test(c)) return `#${f.id} claim has a statistical term: ${c.slice(0, 90)}`;
+          if (/NaN|undefined/.test(c)) return `#${f.id} claim has NaN/undefined`;
+          if (!f.querySelector(".v7-read")) return `#${f.id} has no .v7-read caption`;
+          if (f.querySelector(".v7-viz").querySelector(".vz-r,.vz-dp,.vz-lp,.g6-box,.fig-body,.or-sc,.or-bar") && !f.querySelector(".v7-tbl table")) return `#${f.id} chart has no .v7-tbl table`;
+        }
         return "";
       });
       if (bad) fails.push(`${tag}: oruntu ${bad}`);

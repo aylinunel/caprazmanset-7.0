@@ -10,6 +10,25 @@ var ORD = {};
 /* ---- small shared helpers ---- */
 function orP(x) { return "%" + dec(100 * x, 1); }
 function orN(n) { return (+n).toLocaleString("tr"); }
+/* Plain-language helpers for finding claims: whole-number percentages and Turkish suffixes after numbers and names. */
+function orPc(x) { return "%" + Math.round(100 * x); }
+/* "’sı" (possessive), kind "i" → "’sını" (accusative), "de" → "’sında" (locative), as Turkish reads the number n. */
+function orSuf(n, kind) {
+  var p = CM3.trSuffix(n);
+  return "’" + p + (kind === "i" ? "n" + p.slice(-1) : kind === "de" ? (/[ıu]$/.test(p) ? "nda" : "nde") : "");
+}
+function orPcS(x, kind) { var n = Math.round(100 * x); return "%" + n + orSuf(n, kind); }
+function orNS(n, kind) { return orN(n) + orSuf(n, kind); }
+/* Locative after an outlet name: "Star’da", "Yeni Şafak’ta", "NTV’de". */
+function orLoc(name) {
+  var w = String(name).trim().split(/\s+/).pop(), low = w.toLocaleLowerCase("tr");
+  if (/[0-9]$/.test(low)) low = ["sıfır", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"][+low.slice(-1)];
+  else if (w.length <= 4 && w === w.toLocaleUpperCase("tr") && LETTER5[low.slice(-1)]) low = LETTER5[low.slice(-1)];
+  var v = (low.match(/[aıoueiöü]/g) || ["e"]).pop();
+  return "’" + (/[fstkçşhp]$/.test(low) ? "t" : "d") + (/[aıou]/.test(v) ? "a" : "e");
+}
+/* Caption verb: "dokunun" on touch screens, "gelin" with a pointer. */
+function orTap() { return typeof matchMedia === "function" && matchMedia("(hover: none)").matches ? "dokunun" : "gelin"; }
 function orHow(lines, sec) {
   return "<ul class=\"or-how\">" + lines.map(function (l) { return "<li>" + l + "</li>"; }).join("") + "</ul>" +
     '<p><a class="lnk" href="#/yontem?s=' + sec + '">Yöntem bölümünün tamamı →</a></p>';
@@ -100,13 +119,18 @@ function orFindCoverage() {
       var ev = C.pts.filter(function (p) { return p.v >= a && (p.v < b || (b >= 100 && p.v <= 100)); }).map(function (p) { return p.e; }).sort(function (x, y) { return y.s.length - x.s.length; });
       return "<p><b>" + (a === 0 && b <= 1 ? "Hiç sola yerleşik kurumun vermediği" : "Sol payı %" + Math.round(a) + "–" + Math.min(100, Math.round(b)) + " olan") + "</b> " + orN(ev.length) + " olay (" + orP(ev.length / (C.n || 1)) + "). En çok kurumun verdiği " + Math.min(8, ev.length) + ":</p>" +
         (ev.length ? orEvList(ev.slice(0, 8)) : '<p class="or-hint">Bu aralıkta olay yok.</p>'); } });
+  var tb = []; for (var i = 0; i < 10; i++) tb.push([i * 10, i * 10 + 10, 0]);
+  C.pts.forEach(function (p) { tb[Math.min(9, Math.floor(p.v / 10))][2]++; });
   return { id: "secim-kapsama",
-    claim: "<b>" + orN(C.n) + "</b> olayın <b>" + orN(C.zl) + "</b> tanesini sola yerleşik hiçbir kurum vermedi; sağa yerleşik hiçbir kurumun vermediği olay sayısı <b>" + orN(C.zr) + "</b>.",
+    claim: "<b>" + orN(C.n) + "</b> olayın <b>" + orNS(C.zl, "i") + "</b> (" + orPc(C.zl / (C.n || 1)) + ") solda yer alan hiçbir kurum vermedi; sağdaki hiçbir kurumun vermediği olay yalnızca <b>" + orN(C.zr) + "</b>.",
     viz: cols,
-    means: "Kayıt defterindeki etkin kurumların " + orP((act.left || 0) / tot) + "’si sola, " + orP((act.right || 0) / tot) + "’si sağa yerleşik; olayların ortanca sol payı " + orP(C.med) + ". Turuncu çizgi, solun etkin kurumlar içindeki payıdır: olay seçiminde hiç fark olmasaydı olaylar bu çizginin çevresinde toplanırdı. " +
-      "Sol payının düşük çıkması kısmen bu dağılımdan gelir: sol kurum sayısı az olduğu için, olay seçiminde bir fark olmasa da çoğu olayda sol payı düşük kalır. " +
+    read: "Soldan sağa: olayı veren kurumlar içinde solda yer alanların payı; yükselti o paydaki olay sayısı. Turuncu çizgi, solun bütün kurumlar içindeki payı.",
+    means: "Bu, solun bu olayları görmezden geldiği anlamına gelmez. İzlediğimiz etkin kurumların yalnızca " + orPcS((act.left || 0) / tot) + " solda, " + orPcS((act.right || 0) / tot) + " sağda: " +
+      "sol kurum sayısı az olduğu için, olay seçiminde hiç fark olmasa da çoğu olayda solun payı düşük kalır. Olay seçiminde fark olmasaydı olaylar turuncu çizginin çevresinde toplanırdı. " +
       "Bu şerit tek başına bir kurumun neyi seçtiğini göstermez; taraf sayısına göre düzeltilmiş okuma bir sonraki bulguda.",
-    how: orHow(["Birim: en az " + (D.meta.params && D.meta.params.event_min_outlets || 5) + " kurumun verdiği olay (resmî ilan olayları hariç), n = " + orN(C.n) + ".",
+    table: vzTable(["Sol payı", "Olay", "Olayların payı"], tb.map(function (b) { return ["%" + b[0] + "–" + b[1], orN(b[2]), orP(b[2] / (C.n || 1))]; })),
+    how: orHow(["Olayların ortanca sol payı " + orP(C.med) + "; etkin kurumların " + orP((act.left || 0) / tot) + " kadarı sola, " + orP((act.right || 0) / tot) + " kadarı sağa yerleşik.",
+      "Birim: en az " + (D.meta.params && D.meta.params.event_min_outlets || 5) + " kurumun verdiği olay (resmî ilan olayları hariç), n = " + orN(C.n) + ".",
       "Sol payı = olayı veren sola yerleşik kurum sayısı / yerleşimi bilinen kurum sayısı. Yerleşim kayıt defterinden gelir ve doğrulanmamıştır: 45’in altı sol, 55’in üstü sağ.",
       "Alan, 2,5 puanlık dilimlerdeki olay sayısıdır; gri bant ortadaki %50’yi, siyah çizgi ortancayı gösterir."], "olay") };
 }
@@ -122,9 +146,11 @@ function orFindBlind() {
   };
   ORD.bs = { L: L, R: R };
   return { id: "secim-kor",
-    claim: "Taraf sayısına göre düzeltilmiş kural <b>" + bs.length + "</b> olayı kör nokta sayıyor: <b>" + L.length + "</b> olayı sol, <b>" + R.length + "</b> olayı sağ kurumlar belirgin biçimde az verdi.",
-    viz: '<div class="or-two">' + col("Solun az verdiği olaylar", L, "left") + col("Sağın az verdiği olaylar", R, "right") + "</div>" +
-      '<p class="or-hint">Her taraf için en çok kurumun verdiği dört olay; satıra tıklayınca olay sayfası açılır.</p>',
+    claim: "<b>" + bs.length + "</b> olay bir tarafın kör noktasında kaldı: <b>" + orNS(L.length, "i") + "</b> sol kurumlar, <b>" + orNS(R.length, "i") + "</b> sağ kurumlar kendi sayılarına göre belirgin biçimde az verdi.",
+    viz: '<div class="or-two">' + col("Solun az verdiği olaylar", L, "left") + col("Sağın az verdiği olaylar", R, "right") + "</div>",
+    read: "Her sütunda o tarafın az verdiği, en çok kurumun haber yaptığı dört olay; satıra " + (orTap() === "dokunun" ? "dokunun" : "tıklayın") + ", olay açılır.",
+    example: (L.concat(R).sort(function (a, b) { return b.s.length - a.s.length; })[0] || {}).i || null,
+    table: vzTable(["Az veren taraf", "Olay", "Veren kurum"], L.map(function (e) { return ["Sol", storyLabel(e, 90), e.s.length]; }).concat(R.map(function (e) { return ["Sağ", storyLabel(e, 90), e.s.length]; }))),
     means: "Düzeltmesiz sayımda (bir tarafın hiç vermediği olaylar) " + orN(raw) + " olay çıkıyor; düzeltilmiş sayı " + bs.length + ". Aradaki " + orN(Math.max(0, raw - bs.length)) +
       " olay, tarafların kurum sayısının eşit olmamasından geliyor: etkin kurumların " + (act.left || 0) + " tanesi solda, " + (act.right || 0) + " tanesi sağda. " +
       "Kör nokta bir suçlama değildir; bir olayın bir tarafta az görünmesi editoryal tercihten, akış eksikliğinden ya da olayın yerel olmasından doğabilir.",
@@ -160,12 +186,14 @@ function orFindAgenda() {
     '<p class="or-hint">Bir kareye gelin: iki kurumun benzerliği ve birlikte verdikleri olay sayısı görünür.</p>';
   viz = g6Switch("gundem", net, viz, "Matris");
   return { id: "secim-gundem",
-    claim: "Gündemi en çok örtüşen kurum çifti <b>" + esc(srcName(hi[0])) + " – " + esc(srcName(hi[1])) + "</b> (φ = " + dec(hi[2], 2) + "), en az örtüşen <b>" + esc(srcName(lo[0])) + " – " + esc(srcName(lo[1])) + "</b> (φ = " + dec(lo[2], 2) + ").",
+    claim: "Haber yaptıkları olaylar en çok <b>" + esc(srcName(hi[0])) + "</b> ile <b>" + esc(srcName(hi[1])) + "</b> arasında örtüşüyor, en az <b>" + esc(srcName(lo[0])) + "</b> ile <b>" + esc(srcName(lo[1])) + "</b> arasında.",
     viz: viz,
-    means: orMantelText(A.mantel_r, A.mantel_p, "Kurumların olay seçimi benzerliği, kayıt defterindeki yerleşim farkıyla") +
-      (A.mantel_p < .05 ? (A.mantel_r > 0 ? " Yelpazede birbirinden uzak kurumların seçtiği olaylar biraz daha az örtüşüyor." : " Yelpazede uzak kurumlar beklenenden çok aynı olayları seçiyor.") : "") +
+    read: "Her nokta bir kurum; birlikte çok olay seçen kurumlar birbirine yakın durur ve kalın çizgiyle bağlanır. Bir noktaya " + orTap() + ": en benzer üç kurum.",
+    means: (A.mantel_p < .05 ? (A.mantel_r > 0 ? "Yelpazede birbirinden uzak kurumların seçtiği olaylar biraz daha az örtüşüyor." : "Yelpazede birbirinden uzak kurumlar beklenenden çok aynı olayları seçiyor.")
+      : "Yelpazede birbirine yakın kurumların daha çok aynı olayları seçtiğine dair bir iz bulamadık; bu, böyle bir fark olmadığını değil, ölçümün onu yakalayamadığını gösterir.") +
       " Bu, kurumların neden aynı olayları seçtiğini açıklamaz; yalnızca seçimin yerleşimle hizalanıp hizalanmadığını gösterir.",
-    how: orHow(["Her kurum verdiği olayların kümesiyle temsil edilir; kurum çiftlerinin phi korelasyonu hesaplanır (kurum büyüklüğüne duyarsızdır) ve ortalama bağlantıyla kümelenir.",
+    table: vzTable(["Kurum A", "Kurum B", "Gündem benzerliği (φ)", "Ortak olay"], pairs.map(function (p) { return [srcName(p[0]), srcName(p[1]), dec(p[2], 2), orN(orShared(p[0], p[1]))]; })),
+    how: orHow(["En çok örtüşen çift φ = " + dec(hi[2], 2) + ", en az örtüşen φ = " + dec(lo[2], 2) + ". " + orMantelText(A.mantel_r, A.mantel_p, "Kurumların olay seçimi benzerliği, kayıt defterindeki yerleşim farkıyla"),"Her kurum verdiği olayların kümesiyle temsil edilir; kurum çiftlerinin phi korelasyonu hesaplanır (kurum büyüklüğüne duyarsızdır) ve ortalama bağlantıyla kümelenir.",
       "Yerleşim farkıyla ilişki: Mantel testi, 9.999 permütasyon. Birim: en az 150 olaya giren ya da en az 1.000 siyasi başlığı olan " + ord.length + " kurum.",
       "Hücredeki ortak olay sayısı bütün olaylar (resmî ilanlar dâhil) üzerinden sayılır; φ’nin hesapladığı küme ile aynıdır."], "dil") };
 }
@@ -192,14 +220,18 @@ function orFindTopics() {
     }), { min: 0, max: Math.ceil(100 * mx * 1.08 / 5) * 5, fmt: function (v) { return "%" + v; }, lw: 190, vw: 78,
       axis: "Temanın bloktaki başlıklar içindeki payı. Satırlar blokların en çok ayrıştığı temadan en az ayrıştığına sıralı; sağdaki sayı en uç iki blok arasındaki fark." });
   return { id: "secim-konu",
-    claim: "Bloklar arasındaki en büyük konu farkı <b>" + esc(th[diff.i].l) + "</b> temasında: sağ bloğun başlıklarının " + orP(B.share.right[diff.i]) + "’i, sol bloğunkilerin " + orP(B.share.left[diff.i]) + "’i bu temada.",
+    claim: "Sol ve sağ en çok <b>" + esc(th[diff.i].l) + "</b> konusunda ayrışıyor: sağ blok başlıklarının <b>" + orPcS(B.share.right[diff.i]) + "</b>, sol bloğunkilerin <b>" + orPcS(B.share.left[diff.i]) + "</b> bu konuda.",
     viz: viz,
-    means: orMantelText(T.mantel_r, T.mantel_p, "Kurumların konu karışımı farkı, yerleşim farkıyla") +
-      " Tema payları kurum başına eşit ağırlıkla ortalandığı için, çok başlık yazan bir kurum bloğunun görünümünü tek başına belirlemez. " +
+    read: "Her satır bir konu; renkli noktalar blokların payı, siyah çentik bütün kurumlar. Üstteki konularda bloklar en çok ayrışıyor.",
+    table: vzTable(["Konu"].concat(blocs.map(function (b) { return SIDE[b] + " bloğu"; }), ["Bütün kurumlar", "Uç bloklar arası fark (puan)"]),
+      order.slice().sort(function (a, b) { return gap(b) - gap(a); }).map(function (i) {
+        return [th[i].l].concat(blocs.map(function (b) { return orP(B.share[b][i]); }), [orP(T.pool[i]), dec(100 * gap(i), 1)]); })),
+    means: (T.mantel_p < .05 ? "Kurumların konu karışımı, yelpazedeki yerleriyle birlikte değişiyor. " : "Kurumların konu karışımı ile yelpazedeki yerleri arasında belirgin bir bağ bulamadık; bu, bağ olmadığını değil, ölçümün yakalayamadığını gösterir. ") +
+      "Tema payları kurum başına eşit ağırlıkla ortalandığı için, çok başlık yazan bir kurum bloğunun görünümünü tek başına belirlemez. " +
       "Bir temada fark olması, o kurumların başka konulardan kaçındığı anlamına gelmez; yalnızca başlık karışımının farklı olduğunu gösterir.",
     how: orHow(["" + th.length + " tema: siyasi başlıklara " + T.N.toLocaleString("tr") + " başlık üzerinde Dirichlet çok terimli karışım (GSDMM) uygulandı; her konu, sözcükleri en çok örtüşen referans temaya bağlandı.",
       "Blok değeri = o bloktaki kurumların tema paylarının ortalaması. Hücredeki sayı yüzdedir; çubuklar bütün hücreler arasında aynı ölçektedir.",
-      "Konu–yerleşim ilişkisi: Mantel testi (9.999 permütasyon). Yerleşim sağlanmış veridir."], "dil") };
+      "Konu–yerleşim ilişkisi: Mantel testi (9.999 permütasyon). " + orMantelText(T.mantel_r, T.mantel_p, "Kurumların konu karışımı farkı, yerleşim farkıyla") + " Yerleşim sağlanmış veridir."], "dil") };
 }
 
 function orFindWeekly() {
@@ -214,13 +246,15 @@ function orFindWeekly() {
       { k: "r", label: "Sağın az verdiği olay", vals: W.map(function (w) { return w.r; }), c: "var(--right)" }],
     { label: "Haftalık kör nokta sayısı, sol ve sağ", tipX: function (k) { return lab(k) + " haftası" + (W[k].days < 7 ? " (" + W[k].days + " gün)" : "") + " · " + orN(W[k].ev) + " olay"; },
       band: W[nW - 1].days < 7 ? [nW - 2, nW - 1, "kısmi"] : null }) +
-    '<p class="or-hint">Çizginin üzerinde gezinin (ya da odaklanıp ok tuşlarını kullanın): haftanın olay sayısı ve iki tarafın kör noktaları görünür.</p>';
+    '<p class="or-hint">Klavyeyle: çizgiye odaklanıp ok tuşlarını kullanın.</p>';
   var tot = W.reduce(function (t, w) { return t + w.l + w.r; }, 0);
   var peak = W.map(function (w, k) { return { k: k, n: w.l + w.r }; }).sort(function (a, b) { return b.n - a.n; })[0];
   var low = W.filter(function (w) { return w.days >= 7; }).map(function (w) { return w.l + w.r; });
   return { id: "secim-hafta",
-    claim: "Haftalık kör nokta sayısı en çok <b>" + peak.n + "</b> (" + lab(peak.k) + " haftası); " + nW + " haftanın toplamı <b>" + tot + "</b> olay.",
+    claim: "Kör noktalar en çok <b>" + lab(peak.k) + "</b> haftasında çıktı: <b>" + peak.n + "</b> olay. " + nW + " haftanın toplamı <b>" + tot + "</b>.",
     viz: viz,
+    read: "Her çizgi bir taraf; yükseldikçe o hafta o tarafın az verdiği olay artıyor. Çizgiye " + orTap() + ": haftanın olay sayısı.",
+    table: vzTable(["Hafta", "Gün", "Olay", "Solun az verdiği", "Sağın az verdiği"], W.map(function (w, k) { return [lab(k), w.days, orN(w.ev), w.l, w.r]; })),
     means: "Tam haftalarda sayı " + (low.length ? Math.min.apply(null, low) + " ile " + Math.max.apply(null, low) + " arasında değişiyor" : "hesaplanamadı") + ". " +
       "Haftalar arası fark, o haftanın olay sayısıyla birlikte oynayabilir; bu yüzden bir haftanın yüksek çıkması tek başına bir eğilim kanıtı değildir. " +
       "Son hafta kısmi olabilir (gün sayısı sütun ipucunda yazar).",
@@ -247,12 +281,16 @@ function orFindRange() {
       return "<p><b>Aralık " + Math.round(a) + "–" + Math.min(100, Math.round(b)) + " puan</b> olan " + orN(es.length) + " olay. En geniş " + Math.min(8, es.length) + ":</p>" +
         (es.length ? orEvList(es.slice(0, 8), function (e) { return "aralık " + e.p; }) : '<p class="or-hint">Bu aralıkta olay yok.</p>'); } });
   return { id: "dil-aralik",
-    claim: "Olayların <b>" + orP(low / n) + "</b>’inde başlıklar arasındaki yüklü dil puanı farkı 10’un altında; <b>" + orN(hi4) + "</b> olayda 40 puan ve üzeri. En geniş fark <b>" + widest.p + "</b> puan.",
+    claim: "Olayların <b>" + orPcS(low / n, "de") + "</b> kurumların başlıkları benzer tonda; <b>" + orN(hi4) + "</b> olayda en sakin ve en yüklü başlık arasında 40 puan ya da daha fazla fark var.",
     viz: cols,
-    means: "Ortanca olayda en yüklü ve en sakin başlık arasındaki fark " + med + " puan: aynı olay çoğunlukla benzer sözcüklerle anlatılıyor. " +
+    read: "Soldan sağa: aynı olaydaki en sakin ve en yüklü başlığın puan farkı; yükselti o farktaki olay sayısı.",
+    example: widest ? widest.i : null,
+    table: vzTable(["Puan farkı", "Olay", "Olayların payı"], bins.map(function (b) { return [b.lo + "–" + (b.hi === 100 ? 100 : b.hi - 1), orN(b.ev.length), orP(b.ev.length / (n || 1))]; })),
+    means: "Aynı olay çoğunlukla benzer sözcüklerle anlatılıyor: tipik bir olayda en yüklü ve en sakin başlık arasındaki fark " + med + " puan. En geniş fark " + widest.p + " puan (örnek olay aşağıda). " +
       "Geniş aralık, bir kurumun diğerlerinden çok sert bir sözcük seçtiği anlamına gelir; hangi kurumun hangi yönde ayrıştığı bu grafikten okunmaz. " +
       "Ayrışan olayları tek tek açmak için bir sütuna tıklayın.",
-    how: orHow(["Her başlık kural tabanlı puanlayıcıyla 0–100 puanlanır (Yöntem › yüklü dil). Aralık = olaydaki en yüksek puan − en düşük puan.",
+    how: orHow(["‘Benzer ton’: olaydaki en yüklü ve en sakin başlık arasındaki fark 10 puanın altında (" + orN(low) + " olay, " + orP(low / n) + "). En geniş fark " + widest.p + " puan.",
+      "Her başlık kural tabanlı puanlayıcıyla 0–100 puanlanır (Yöntem › yüklü dil). Aralık = olaydaki en yüksek puan − en düşük puan.",
       "Birim: resmî ilan olayları hariç " + orN(n) + " olay. Alan 2 puanlık dilimlerdeki olay sayısıdır."], "dil") };
 }
 
@@ -306,13 +344,19 @@ function orFindLoaded() {
   var rows = ORD.langRows = orLangRows(), bl = orLangBlocs(rows);
   var by = rows.slice().sort(function (a, b) { return b.mean - a.mean; }), hi = by[0], lo = by[by.length - 1];
   var bm = function (b) { return bl[b] ? bl[b].sum / bl[b].n : null; };
+  var bv = ["left", "mid", "right"].map(bm).filter(function (v) { return v != null; });
   return { id: "dil-yuklu",
-    claim: "Siyasi başlıklarda ortalama yüklü dil puanı kurumlar arasında <b>" + dec(lo.mean, 1) + "</b> (" + esc(srcName(lo.s)) + ") ile <b>" + dec(hi.mean, 1) + "</b> (" + esc(srcName(hi.s)) + ") arasında; bloklarda sol " + dec(bm("left"), 1) + ", merkez " + dec(bm("mid"), 1) + ", sağ " + dec(bm("right"), 1) + ".",
+    claim: "Siyasi başlıklarda en yüklü dili <b>" + esc(srcName(hi.s)) + "</b> (ortalama " + dec(hi.mean, 1) + "), en sakinini <b>" + esc(srcName(lo.s)) + "</b> (" + dec(lo.mean, 1) +
+      ") kullanıyor; sol, merkez ve sağ blokların ortalaması " + dec(Math.min.apply(null, bv), 1) + " ile " + dec(Math.max.apply(null, bv), 1) + " arasında.",
     viz: '<div id="or-lang">' + orLangHtml() + "</div>",
+    read: "Her nokta bir kurum; sağa gittikçe daha yüklü dil. Çizgi kurumu kendi bloğunun ortalamasına bağlar.",
+    table: vzTable(["Kurum", "Blok", "Siyasi başlık", "Ortalama puan", "Yüklü başlık payı", "Bloğunun ortalaması"], by.map(function (r) {
+      var b = bloc(r.s); return [srcName(r.s), SIDE[b] || "yerleşimsiz", orN(r.n), dec(r.mean, 1), orP(r.share), bm(b) == null ? "—" : dec(bm(b), 1)]; })),
     means: "Kurumlar arasındaki fark " + dec(hi.mean - lo.mean, 1) + " puan; blok ortalamaları arasındaki en büyük fark " + dec(Math.max(bm("left"), bm("mid"), bm("right")) - Math.min(bm("left"), bm("mid"), bm("right")), 1) + " puan. " +
       "Puan, sözcük kurallarının saptadığı yüklü ifade yoğunluğudur; bir kurumun yazdığı konular farklı olduğundan (savaş ya da yargı haberi daha çok yüklü sözcük içerir) fark yalnızca üslup farkı değildir. " +
       "Ölçüyü ve sırayı değiştirerek aynı verinin başka okumalarına bakabilirsiniz.",
     how: orHow(["Başlıklar kural tabanlı puanlayıcıyla puanlanır; ‘yüklü başlık’ = puan 25 ve üzeri (tek yüklü unsur bandı ve üstü).",
+      "Blok ortalamaları: " + ["left", "mid", "right"].filter(function (x) { return bl[x]; }).map(function (x) { return SIDE[x].toLocaleLowerCase("tr") + " " + dec(bm(x), 1); }).join(", ") + ".",
       "Birim: en az 20 siyasi başlığı olan etkin kurumlar (" + rows.length + " kurum). Blok değeri başlık sayısıyla ağırlıklıdır.", "Yerleşim kayıt defterinden gelir, doğrulanmamıştır."], "dil") };
 }
 
@@ -340,11 +384,13 @@ function orTop20Html(f) {
 function orFindTop20() {
   var all = orTop20Rows(), chip = function (v, t, on) { return '<button type="button" class="chip" data-tf="' + v + '" aria-pressed="' + on + '">' + t + "</button>"; };
   var st = deviceStats(), top = Object.keys(st).sort(function (a, b) { return st[b].n - st[a].n; })[0];
-  var nm = function (k) { return (BREG[k] || BIA[k] || {}).en || k; };
+  var nm = function (k) { var x = BREG[k] || BIA[k] || {}; return x.tr && x.en ? x.tr + " (" + x.en + ")" : x.en || k; };
   return { id: "dil-yapilar",
-    claim: "Bu dönemin en sık <b>" + (all.nr + all.na) + "</b> çerçeveleme yapısından <b>" + all.nr + "</b> tanesini kural tabanlı puanlayıcı saptıyor, <b>" + all.na + "</b> tanesi yapay zekâ incelemesinin dikkat çektiği kavramlar." + (top ? " En sık kural yapısı <b>" + esc(nm(top)) + "</b> (" + orN(st[top].n) + " başlık)." : ""),
+    claim: (top ? "Başlıklarda en sık rastlanan çerçeveleme yapısı <b>" + esc(nm(top)) + "</b>: bu dönemde <b>" + orN(st[top].n) + "</b> başlıkta. " : "") +
+      "Listedeki " + (all.nr + all.na) + " yapının " + orNS(all.nr) + " sözcük kurallarıyla, " + orNS(all.na) + " yapay zekâ incelemesiyle bulundu.",
     viz: '<div class="or-ctl"><span class="or-cl">Kaynak</span>' + chip("hepsi", "Hepsi", true) + chip("kural", "Kural", false) + chip("yz", "YZ " + yzBadge(), false) +
-      '</div><div id="or-t20">' + orTop20Html("hepsi") + '</div><p class="or-hint">Bir satıra tıklayın: tanım, örnekler ve ilgili olaylar açılır.</p>',
+      '</div><div id="or-t20">' + orTop20Html("hepsi") + "</div>",
+    read: "Her satır bir yapı; sayı kural satırlarında başlık, YZ satırlarında olay. Bir satıra " + (orTap() === "dokunun" ? "dokunun" : "tıklayın") + ": tanım, örnekler ve ilgili olaylar.",
     means: "Kural satırlarının sayısı başlık, YZ satırlarının sayısı olay birimindedir; iki sayı doğrudan karşılaştırılamaz. " +
       "Kural saptaması aynı metinde her zaman aynı sonucu verir ama yalnızca yüzeydeki ifadeleri görür; YZ satırları bir okumadır ve insan incelemesinden geçmemiş olabilir. Bir yapının sık çıkması, o yapıyı kullanan başlığın hatalı ya da kasıtlı olduğunu göstermez.",
     how: orHow(["Kural yapıları: başlık sayısı, resmî ilan dışı tüm başlıklar. YZ kavramları: incelenen olaylarda öne çıkan kavramlar, olay sayısı; editörün reddettikleri sayılmaz.",
@@ -358,24 +404,32 @@ function orFindWords() {
   }).join("");
   var e0 = list[0];
   return { id: "dil-sozcuk",
-    claim: e0 ? "En az sekiz kurumun verdiği olaylar içinde puan aralığı en geniş olan <b>" + esc(storyLabel(e0, 80)) + "</b> (" + e0.s.length + " kurum, " + e0.p + " puan)." : "Karşılaştırılacak olay yok.",
+    claim: e0 ? "Sekiz ya da daha çok kurumun verdiği olaylar içinde başlıkların tonu en çok “" + esc(storyLabel(e0, 80)) + "” olayında ayrıştı (" + e0.s.length + " kurum)." : "Karşılaştırılacak olay yok.",
     viz: viz || '<p class="or-hint">Bu ölçütte olay yok.</p>',
+    read: "Her kartta yelpazenin en solundaki ve en sağındaki kurumun başlığı; sarı sözcükler ikisinde farklı olanlar.",
+    example: e0 ? e0.i : null,
+    table: list.length ? vzTable(["Olay", "Kurum", "Puan aralığı"], list.map(function (e) { return [storyLabel(e, 90), e.s.length, e.p]; })) : "",
     means: "Sarı işaretli sözcükler, iki uçtaki başlığın birbirinden ayrışan kısmıdır; ortak sözcükler işaretsiz kalır. " +
       "Yelpazenin en solundaki ve en sağındaki kurumun başlığı yan yana konur; bu ikisi diğer kurumları temsil etmez ve fark çoğu zaman tek bir sıfat ya da fiilden gelir. " +
       "Olayın bütün başlıklarını görmek için olay sayfasına gidin.",
-    how: orHow(["Seçim: en az 8 kurumun verdiği, puan aralığı en geniş " + list.length + " olay; çift = yerleşimi bilinen en sol ve en sağ kurumun başlığı.", "Sözcük işareti: iki başlık arasında ortak olmayan sözcükler (köke indirgenmiş eşleşme)."], "dil") };
+    how: orHow([(e0 ? "Üstteki olayda en sakin ve en yüklü başlık arasında " + e0.p + " puan var. " : "") + "Seçim: en az 8 kurumun verdiği, puan aralığı en geniş " + list.length + " olay; çift = yerleşimi bilinen en sol ve en sağ kurumun başlığı.", "Sözcük işareti: iki başlık arasında ortak olmayan sözcükler (köke indirgenmiş eşleşme)."], "dil") };
 }
 
 function orFindStyle() {
   var P = ADV.pca, pcSig = P.p1 < .05, side = P.rho1 > 0 ? "sağa" : "sola";
   return { id: "dil-uslup",
-    claim: "Yazma biçiminin ana ekseni (farkların <b>%" + Math.round(100 * P["var"][0]) + "</b>’ini açıklıyor) yerleşimle ρ = <b>" + dec(P.rho1, 2) + "</b> (p = " + dec(P.p1, 3) + ").",
+    claim: pcSig ? "Kurumların başlık yazma biçimi yelpazedeki yerleriyle örtüşüyor: <b>" + side + " yerleşik</b> kurumlar çerçeveleme yapılarını daha sık kullananlar tarafında toplanıyor."
+      : "Kurumların başlık yazma biçimi ile yelpazedeki yerleri arasında belirgin bir örtüşme görülmedi.",
     viz: fig("adv-b", "1. bileşen × 2. bileşen · nokta rengi yerleşim", { legend: legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }]) }) +
       '<p class="or-hint">Bir noktaya gelin: kurum, yerleşimi ve siyasi başlık sayısı görünür.</p>',
-    means: (pcSig ? "Yazma biçimi yerleşimle ilişkili: " + side + " yerleşik kurumlar bu eksende daha yüksek konumda. " : "Yazma biçiminin ana ekseni yerleşimle anlamlı biçimde ilişkili değil; bu, ilişkinin olmadığını değil saptanamadığını gösterir. ") +
+    read: "Her nokta bir kurum; sağa gittikçe başlıklarında çerçeveleme yapıları daha sık. Renk kurumun yerleşimi.",
+    table: vzTable(["Kurum", "Blok", "1. bileşen", "2. bileşen"], Object.keys(P.pts).sort(function (a, b) { return P.pts[b][0] - P.pts[a][0]; }).map(function (k) {
+      return [srcName(k), SIDE[bloc(k)] || "—", dec(P.pts[k][0], 2), dec(P.pts[k][1], 2)]; })),
+    means: (pcSig ? "Başlıkların yazılış biçimi kurumun yelpazedeki yeriyle birlikte değişiyor. " : "Bir ilişki görülmemesi, ilişkinin olmadığını değil, bu kadar az kurumla saptanamadığını gösterir. ") +
       "Eksenin en çok beslendiği yapılar: " + P.load1.slice(0, 3).map(function (x) { return esc((BIA[x[0]] || {}).en || x[0]); }).join(", ") + ". " +
       "Bu bir kurumun yazı biçiminin özetidir, hangi yazının doğru olduğu hakkında bir şey söylemez; yalnızca " + Object.keys(P.pts).length + " kurum var, bu yüzden resim kolayca fazla okunur.",
-    how: orHow(["Her kurumun siyasi başlıklarında " + P.nkeys + " çerçeveleme yapısının sıklığı standartlaştırıldı ve temel bileşenler analizi (PCA) uygulandı.",
+    how: orHow(["Yazma biçiminin ana ekseni (1. bileşen) kurumlar arasındaki farkların " + orPcS(P["var"][0], "i") + " açıklıyor; yerleşimle ρ = " + dec(P.rho1, 2) + " (p = " + dec(P.p1, 3) + ").",
+      "Her kurumun siyasi başlıklarında " + P.nkeys + " çerçeveleme yapısının sıklığı standartlaştırıldı ve temel bileşenler analizi (PCA) uygulandı.",
       "Yerleşimle ilişki: Spearman ρ, permütasyon testi. Yerleşim sağlanmış veridir."], "dil") };
 }
 
@@ -418,11 +472,16 @@ function orFindAI() {
   var inner = "<p><b>Ne fark etti:</b> yapay zekâ, bazı olaylarda başlıkların aynı olguyu farklı çerçevelerle anlattığını okudu ve her kavram için başlıklardan alıntı yaptı. Aşağıdaki oran, bir bloğun en az bir başlığının alıntılandığı olayların payıdır.</p>" +
     bars + "<p><b>Neden kesin değil:</b> alıntı, başlığın diğer kurumlardan farklı yazıldığını gösterir; farkın nedenini ya da kasıt olup olmadığını göstermez. İnsan incelemesinden geçmemiş bir okumadır ve kurum bazında oranlar burada verilmez." + "</p>" + tbl;
   return { id: "dil-yz",
-    claim: "YZ incelemesinin <b>" + orN(R.nEv) + "</b> olayında, başlığı alıntılanan olayların payı " + top.map(function (b) { return SIDE[b].toLocaleLowerCase("tr") + " blokta <b>" + orP(rate(b)) + "</b>"; }).join(", ") + " " + yzBadge() + ".",
+    claim: "Yapay zekânın incelediği <b>" + orN(R.nEv) + "</b> olayda, en az bir başlığı alıntılanan olayların payı: " +
+      top.map(function (b) { return SIDE[b].toLocaleLowerCase("tr") + " blokta <b>" + orPc(rate(b)) + "</b>"; }).join(", ") + " " + yzBadge() + ".",
     viz: yzBlock(inner, "Yapay zekâ incelemesi"),
+    read: "Her nokta bir blok; sağa gittikçe o bloğun başlıkları daha sık alıntılanmış. Yatay çizgi, sayının ne kadar oynayabileceğini gösterir.",
+    table: vzTable(["Blok", "Alıntılanan olay", "Bloğun yer aldığı olay", "Oran", "%95 aralık"], blocs.map(function (b) { var ci = vzWilson(R.hit[b], R.cov[b]);
+      return [SIDE[b], R.hit[b], R.cov[b], orP(rate(b)), orP(ci[0]) + " – " + orP(ci[1])]; })),
     means: "Oranlar en yüksekten en düşüğe " + top.map(function (b) { return SIDE[b].toLocaleLowerCase("tr"); }).join(", ") + " blok; fark " + dec(100 * (rate(top[0]) - rate(top[top.length - 1])), 1) + " puan. " +
       "Bir blokta oranın yüksek olması o bloğun başlıklarının daha sık farklı yazıldığını gösterebilir, ama blokların kurum sayıları farklıdır ve çok kurumlu blokta alıntılanma şansı daha yüksektir. Bu bir yanlılık hükmü değildir.",
-    how: orHow(["Kaynak: en çok kurumun verdiği olaylarda YZ incelemesi; editörün reddettiği sonuçlar sayılmaz. Birim: incelenen " + orN(R.nEv) + " olay.",
+    how: orHow(["Oranlar: " + top.map(function (b) { return SIDE[b].toLocaleLowerCase("tr") + " " + orP(rate(b)) + " (" + R.hit[b] + " / " + R.cov[b] + ")"; }).join(", ") + "; çizgiler %95 Wilson aralığıdır.",
+      "Kaynak: en çok kurumun verdiği olaylarda YZ incelemesi; editörün reddettiği sonuçlar sayılmaz. Birim: incelenen " + orN(R.nEv) + " olay.",
       "Oran = bloktan en az bir başlığı kanıt olarak alıntılanan olay / bloğun yer aldığı incelenen olay. Kurum bazında oranlar Kurumlar sayfasındadır."], "yz") };
 }
 
@@ -458,16 +517,19 @@ function orFindDims() {
   var ws = v7Weeks().filter(function (w) { return w.keys.length; }), all = orAnKeys("all"), sh = dimShares(D.N, all), n = all.length;
   var ord = NORD.slice().sort(function (a, b) { return sh[b] - sh[a]; });
   var chip = function (v, t, on) { return '<button type="button" class="chip" data-an="' + v + '" aria-pressed="' + on + '">' + t + "</button>"; };
-  var nAi = orAnKeys("ai").length;
+  var nAi = orAnKeys("ai").length, c0 = Math.round(sh[ord[0]] * n), cl = ord[ord.length - 1];
   var viz = '<div class="or-ctl"><span class="or-cl">Hafta</span>' + chip("all", "Hepsi", true) + chip("hand", "Elle kodlanan", false) + chip("ai", "YZ ile kodlanan " + yzBadge(), false) +
     ws.map(function (w) { return chip(w.k, esc(w.l), false); }).join("") + '</div><div id="or-an">' + orAnBars("all") + "</div>";
   return { id: "anlati-boyut",
-    claim: "Kodlanan <b>" + orN(n) + "</b> olayda en sık odak boyutu <b>" + esc(NDL[ord[0]]) + "</b> (" + orP(sh[ord[0]]) + "), en seyreği <b>" + esc(NDL[ord[ord.length - 1]]) + "</b> (" + orP(sh[ord[ord.length - 1]]) + ").",
+    claim: "Kodlanan <b>" + orN(n) + "</b> olayın " + (c0 === n ? "hepsinde" : "<b>" + orNS(c0, "de") + "</b>") + " kurumlar “" + esc(NDL[ord[0]]) + "” boyutunda ayrıştı; “" + esc(NDL[cl]) + "” boyutunda ayrıştıkları olay yalnızca <b>" + orN(Math.round(sh[cl] * n)) + "</b>.",
     viz: viz,
+    read: "Her satır bir boyut; nokta, kurumların o boyutta ayrıştığı olayların payı. Üstten bir hafta seçince o hafta bütün olaylarla karşılaştırılır.",
+    table: vzTable(["Boyut", "Olay", "Pay", "%95 aralık"], ord.map(function (d) { var c = Math.round(sh[d] * n), ci = vzWilson(c, n); return [NDL[d], c + " / " + n, orP(sh[d]), orP(ci[0]) + " – " + orP(ci[1])]; })),
     means: "Odak boyutu, kurumların o olayda en çok ayrıştığı boyuttur; yüksek pay, o boyutta ayrışmanın sık olduğunu gösterir, ayrışmanın iyi ya da kötü olduğunu değil. " +
       "Payların içine YZ ile kodlanan " + orN(nAi) + " olay da giriyor " + yzBadge() + "; elle ve YZ ile kodlanan olayları ayrı görmek için üstteki seçimleri kullanın. " +
       "Olayların çoğu en çok kurumun verdiği olaylardan seçildiği için bu paylar bütün haberlerin değil, öne çıkan olayların resmidir.",
-    how: orHow(["Birim: editörce reddedilmemiş kodlanmış olaylar (n = " + orN(n) + "). Pay = bir boyutun odak boyutu olarak işaretlendiği olay sayısı / seçilen olay sayısı.",
+    how: orHow(["En sık odak boyutu " + esc(NDL[ord[0]]) + " (" + orP(sh[ord[0]]) + "), en seyreği " + esc(NDL[cl]) + " (" + orP(sh[cl]) + ").",
+      "Birim: editörce reddedilmemiş kodlanmış olaylar (n = " + orN(n) + "). Pay = bir boyutun odak boyutu olarak işaretlendiği olay sayısı / seçilen olay sayısı.",
       "Dokuz boyutlu kodlama; ilk altı hafta elle, sonrası yapay zekâ ile kodlandı (Yöntem › anlatı kodlaması)."], "anlati") };
 }
 
@@ -502,12 +564,16 @@ function orFindBlame() {
     '<p class="or-hint">Her çizgi bir kurumun başlığında o aktörü sorumlu tuttuğu olaylar; kalınlık olay sayısı. Aynı aktöre bağlanan kurumlar bir araya toplanır.</p>', viz, "Kurum başına");
   var t0 = top[0] || { value: "—", left: 0, mid: 0, right: 0, none: 0 };
   return { id: "anlati-sorumlu",
-    claim: "En sık sorumlu tutulan taraf <b>" + esc(t0.value) + "</b>: " + tot(t0) + " kurum satırında (sol " + t0.left + ", merkez " + t0.mid + ", sağ " + t0.right + ").",
+    claim: "Başlıklarda en sık sorumlu tutulan taraf “" + esc(t0.value) + "”: <b>" + tot(t0) + "</b> kurum başlığında; bunların " + orNS(t0.right) + " sağdaki, " + orNS(t0.mid) + " merkezdeki, " + orNS(t0.left) + " soldaki kurumlardan.",
     viz: viz,
+    read: "Her çizgi bir kurumdan, başlığında sorumlu tuttuğu aktöre gider; kalın çizgi daha çok olay. Bir düğüme " + orTap() + ": bağlantıları öne çıkar.",
+    table: (function () { var out = []; top.forEach(function (r) { var w = who[r.value] || {};
+        ["left", "mid", "right", "none"].forEach(function (b) { var o = w[b] || {}; Object.keys(o).forEach(function (s) { out.push([srcName(s), r.value, o[s], SIDE[b]]); }); }); });
+      return vzTable(["Kurum", "Sorumlu tutulan", "Olay", "Kurumun bloğu"], out); })(),
     means: "Kodlanan kurum satırlarının " + orP(withB / (all || 1)) + "’inde başlık birini sorumlu tutuyor; geri kalanı sorumluluk atfetmiyor. " +
       "Bu grafik kimin gerçekten sorumlu olduğunu değil, hangi kurumların başlığında kimin sorumlu gösterildiğini sayar. Blok sayıları kurum sayısına bağlıdır (sağ blokta daha çok kurum var), bu yüzden bloklar arası sayı farkı tek başına bir tercih göstermez.",
     how: orHow(["Birim: " + orN(keys.length) + " kodlanmış olayın kurum satırları; değer = ‘Sorumlu tutulan’ boyutuna yazılan ifade, boş ve ‘belirtilmiyor’ değerleri sayılmaz.",
-      "En sık " + top.length + " değer gösterilir. Blok: kayıt defterindeki yerleşim (doğrulanmamış)."], "anlati") };
+      "En sık " + top.length + " değer gösterilir. Blok: kayıt defterindeki yerleşim (doğrulanmamış). “" + esc(t0.value) + "”: sol " + t0.left + ", merkez " + t0.mid + ", sağ " + t0.right + ", yerleşimsiz " + t0.none + " satır."], "anlati") };
 }
 
 function orFindTrend() {
@@ -521,9 +587,10 @@ function orFindTrend() {
   var sz = ws.map(function (w) { return w.keys.length; }), ai = ws.filter(function (w) { return w.coded === "agent"; }).length;
   var mv = NORD.map(function (d) { var xs = shs.map(function (s) { return s[d]; }); return { d: d, r: Math.max.apply(null, xs) - Math.min.apply(null, xs) }; }).sort(function (a, b) { return b.r - a.r; })[0];
   return { id: "anlati-hafta",
-    claim: "Odak boyutlarının haftalık payı <b>" + ws.length + "</b> hafta boyunca en çok <b>" + esc(NDL[mv.d]) + "</b> boyutunda oynuyor: en düşük ve en yüksek hafta arasında " + dec(100 * mv.r, 0) + " puan.",
+    claim: "<b>" + ws.length + "</b> haftada en çok oynayan boyut “" + esc(NDL[mv.d]) + "”: kurumların bu boyutta ayrıştığı olayların payı, en düşük ve en yüksek hafta arasında <b>" + dec(100 * mv.r, 0) + "</b> puan değişti.",
     viz: '<div class="scroller"><table class="or-tbl"><thead>' + head + "</thead><tbody>" + body + '</tbody></table></div><p class="or-hint">Hücre: haftanın kodlanmış olaylarında o boyutun odak olduğu olayların yüzdesi; koyu hücre yüksek paydır. ' +
       '<a class="lnk" href="#/anlati">Haftanın anlatı haritasını aç →</a></p>',
+    read: "Her satır bir boyut, her sütun bir hafta; koyu hücre, o hafta kurumların o boyutta sık ayrıştığını gösterir.",
     means: "Haftalık olay sayısı " + Math.min.apply(null, sz) + " ile " + Math.max.apply(null, sz) + " arasında; " + ai + " hafta yapay zekâ ile kodlandı " + yzBadge() + ", kalanı elle. " +
       "Kodlama yöntemi değiştiği için bu iki grup arasındaki sıçramalar gerçek bir değişimden olduğu kadar kodlama farkından da gelebilir; haftalar arası eğilim olarak okunmamalıdır. Her hafta o haftanın en çok kurumun verdiği olaylarından seçildi.",
     how: orHow(["Birim: hafta başına editörce reddedilmemiş kodlanmış olaylar. Hücre = odak boyutu olarak işaretlenen olay / haftanın olayları.", "YZ rozeti taşıyan haftalar yapay zekâ ile kodlandı; elle kodlananlarda her kurumun en çok paylaşılan başlığı okundu."], "anlati") };
@@ -552,11 +619,15 @@ function orFindLead() {
   var cor = (function () { var r = function (a) { var o = a.map(function (v, i) { return [v, i]; }).sort(function (p, q) { return p[0] - q[0]; }), x = []; o.forEach(function (p, i) { x[p[1]] = i; }); return x; };
     var a = r(xs), b = r(ys), n = a.length, d = 0; for (var i = 0; i < n; i++) d += Math.pow(a[i] - b[i], 2); return 1 - 6 * d / (n * (n * n - 1)); })();
   return { id: "hiz-ilk",
-    claim: "Olayı ilk veren kurum payı <b>" + esc(srcName(fast)) + "</b> için <b>" + pc5(LL[fast].firstShare) + "</b> ile en yüksek; kurumların ortanca ilk-veren payı %" + dec(mx, 1) + ", ortanca gecikme " + dur5(my) + ".",
+    claim: "Olayları en sık ilk veren kurum <b>" + esc(srcName(fast)) + "</b>: verdiği olayların <b>" + orPcS(LL[fast].firstShare, "de") + "</b> ilk oydu; tipik bir kurumda bu oran %" + Math.round(mx) + ".",
     viz: viz,
-    means: "Sıra korelasyonu " + dec(cor, 2) + ": " + (cor < -.3 ? "ilk veren payı yüksek kurumların gecikmesi genellikle kısa." : cor > .3 ? "ilk veren payı yüksek kurumların gecikmesi de uzun." : "ilk veren payı ile gecikme arasında belirgin bir ilişki yok.") + " " +
+    read: "Her nokta bir kurum; sağa gittikçe daha sık ilk veren, yukarı çıktıkça ilk olmadığında daha geç yetişen.",
+    table: vzTable(["Kurum", "İlk verdiği olay", "Verdiği olay", "İlk veren payı", "Ortanca gecikme"], ks.slice().sort(function (a, b) { return LL[b].firstShare - LL[a].firstShare; }).map(function (s) {
+      var o = LL[s]; return [srcName(s), orN(o.first), orN(o.events), pc5(o.firstShare), dur5(o.medLag)]; })),
+    means: "İlk olmadığında tipik bir kurum ilk haberden " + dur5(my) + " sonra yetişiyor. " + (cor < -.3 ? "Sık ilk veren kurumlar, ilk olmadıklarında da genellikle çabuk yetişiyor." : cor > .3 ? "Sık ilk veren kurumlar, ilk olmadıklarında daha geç yetişiyor." : "Sık ilk veren olmak ile geç yetişmek arasında belirgin bir bağ yok.") + " " +
       "Bir kurumun çok olayı ilk vermesi daha hızlı olduğunu da, daha çok haber yayımladığını da gösterebilir; ölçü yalnızca aynı olaydaki sıralamaya bakar. Gecikme, kurumun ilk olmadığı olaylarda ilk habere göre ölçülür.",
-    how: orHow(["Her olayda kurumun ilk başlığının saati; ilk yayınlayan kurum ve diğerlerinin ilk habere göre gecikmesi. Birim: olay başına kurum, " + (V5.leadLag.horizonHours || 48) + " saatlik pencere içinde.",
+    how: orHow(["En yüksek ilk veren payı " + esc(srcName(fast)) + " " + pc5(LL[fast].firstShare) + "; kurumların ortanca ilk veren payı %" + dec(mx, 1) + ", ortanca gecikme " + dur5(my) + ". İlk veren payı ile gecikme arasındaki sıra korelasyonu " + dec(cor, 2) + ".",
+      "Her olayda kurumun ilk başlığının saati; ilk yayınlayan kurum ve diğerlerinin ilk habere göre gecikmesi. Birim: olay başına kurum, " + (V5.leadLag.horizonHours || 48) + " saatlik pencere içinde.",
       "Etkin kurumlar (" + ks.length + "), yalnızca kendi haberlerinin payı; ham sayılar karşılaştırılmaz."], "veri") };
 }
 function orFindBlocLag() {
@@ -574,10 +645,13 @@ function orFindBlocLag() {
         fmt: function (v) { return v ? v / 60 + " sa" : "0"; }, lw: 130, vw: 64, axis: "Pay satırlarındaki yatay çizgi %95 güven aralığıdır; olay sayısı az olan yönde aralık geniştir." });
   var lr = B["left>right"], rl = B["right>left"];
   return { id: "hiz-blok",
-    claim: lr && rl ? "Sol kurumların açtığı olayların <b>" + pc5(lr.coveredShare) + "</b>’i sağdan en az bir kurum tarafından verildi (ortanca " + dur5(lr.medLag) + " sonra); sağın açtığı olayların <b>" + pc5(rl.coveredShare) + "</b>’i soldan (" + dur5(rl.medLag) + " sonra)." : "Blok geçişi verisi yok.",
+    claim: lr && rl ? "Soldaki bir kurumun ilk verdiği olayların <b>" + orPcS(lr.coveredShare, "i") + "</b> sağdan en az bir kurum da verdi; sağın ilk verdiklerinin <b>" + orPcS(rl.coveredShare, "i") + "</b> soldan biri verdi." : "Blok geçişi verisi yok.",
     viz: viz,
-    means: lr && rl ? "Sağ blokta çok daha fazla kurum olduğu için bir olayın sağdan en az bir kurum tarafından verilme şansı kendiliğinden yüksektir (sol açılan " + orN(lr.n) + ", sağ açılan " + orN(rl.n) + " olay). Pay farkı bir yayın tercihinden çok kurum sayısı farkını yansıtabilir; gecikme ise karşı bloğun ilk kurumunun ne kadar sonra yetiştiğini gösterir." : "Blok verisi bulunamadı.",
-    how: orHow(["Blok geçişi: bir bloktan bir kurumun ilk verdiği olayı, öbür bloktan en az bir kurumun pencere içinde vermesi. Gecikme ortancadır.", "Bloklar kayıt defterindeki yerleşimdendir ve doğrulanmamıştır."], "veri") };
+    read: "Her satır bir yön; üstte karşı bloktan en az bir kurumun da verdiği olayların payı, altta karşı bloğun ne kadar sonra yetiştiği.",
+    table: vzTable(["Yön", "Olay", "Karşı bloktan verilen", "%95 aralık", "Ortanca gecikme"], rows.map(function (r) { var b = B[r[0]], ci = vzWilson(Math.round(b.coveredShare * b.n), b.n);
+      return [r[1], orN(b.n), pc5(b.coveredShare), orP(ci[0]) + " – " + orP(ci[1]), dur5(b.medLag)]; })),
+    means: lr && rl ? "Karşı blok soldan açılan olaylara tipik olarak " + dur5(lr.medLag) + ", sağdan açılanlara " + dur5(rl.medLag) + " sonra yetişti. Sağ blokta çok daha fazla kurum olduğu için bir olayın sağdan en az bir kurum tarafından verilme şansı kendiliğinden yüksektir (sol açılan " + orN(lr.n) + ", sağ açılan " + orN(rl.n) + " olay). Pay farkı bir yayın tercihinden çok kurum sayısı farkını yansıtabilir; gecikme ise karşı bloğun ilk kurumunun ne kadar sonra yetiştiğini gösterir." : "Blok verisi bulunamadı.",
+    how: orHow([lr && rl ? "Sol → sağ: " + pc5(lr.coveredShare) + ", ortanca " + dur5(lr.medLag) + "; sağ → sol: " + pc5(rl.coveredShare) + ", ortanca " + dur5(rl.medLag) + "." : "Blok verisi yok.", "Blok geçişi: bir bloktan bir kurumun ilk verdiği olayı, öbür bloktan en az bir kurumun pencere içinde vermesi. Gecikme ortancadır.", "Bloklar kayıt defterindeki yerleşimdendir ve doğrulanmamıştır."], "veri") };
 }
 function orFindGap() {
   var GP = V5.gap || {}, O = GP.outlets || {}, ks = ACT5.filter(function (s) { return O[s] && O[s].hotter != null; }).sort(function (a, b) { return O[b].hotter - O[a].hotter; });
@@ -594,19 +668,26 @@ function orFindGap() {
     return '<section class="xcmp-i"><p class="eyebrow">' + esc(srcName(a.s)) + " · " + fmtDT(a.d) + " · başlık " + a.v + ", spot " + a.lv + '</p><p><a class="hlnk" href="' + esc(a.u) + '" target="_blank" rel="noopener">' + esc(a.t) + '</a></p><p class="xsmall">' + esc(x.l) + "</p></section>"; }).join("") + "</div>" : "");
   var neg = ks.filter(function (s) { return O[s].mean < 0; }).length, hi = ks[0], lo = ks[ks.length - 1];
   return { id: "hiz-spot",
-    claim: "Başlığı, haberin kendi spotundan en az " + th + " puan daha yüklü olan haberlerin payı <b>" + esc(srcName(lo)) + "</b>’de " + pc5(O[lo].hotter) + ", <b>" + esc(srcName(hi)) + "</b>’de " + pc5(O[hi].hotter) + ".",
+    claim: "Başlığı, haberin kendi spotundan belirgin biçimde daha yüklü olan haberler <b>" + esc(srcName(hi)) + "</b>" + orLoc(srcName(hi)) + " " + orPc(O[hi].hotter) + ", <b>" + esc(srcName(lo)) + "</b>" + orLoc(srcName(lo)) + " " +
+      (O[lo].hotter < .005 ? "%1’in altında" : orPc(O[lo].hotter)) + ".",
     viz: viz,
+    read: "Her satır bir kurum; dolu nokta başlığı spottan yüklü haberlerin payı, boş nokta spotu başlıktan yüklü olanların.",
+    table: vzTable(["Kurum", "Spotlu haber", "Başlık spottan yüklü", "Spot başlıktan yüklü", "Fark (puan)"], ks.map(function (s) { var net = O[s].hotter - O[s].cooler;
+      return [srcName(s), orN(O[s].n), pc5(O[s].hotter), pc5(O[s].cooler), (net >= 0 ? "+" : "−") + dec(100 * Math.abs(net), 1)]; })),
     means: "Aynı kural kümesi başlığa ve spota ayrı uygulandı. Spotlar başlıktan uzun olduğu için çoğu zaman daha çok kural tetikler; ortalama fark bu yüzden " + neg + " / " + ks.length + " kurumda negatif. " +
       "Bu pay, başlığın kendi haberinden daha sert bir dil kurduğu haberleri sayar; haberin yanlış olduğunu ya da başlığın kasıtlı olduğunu göstermez.",
-    how: orHow(["Başlık puanı − aynı haberin spot puanı; ≥ " + th + " puan ‘başlık spotundan yüklü’ sayıldı. Spotu olmayan ya da başlıkla aynı olan haberler dışarıda.", "Birim: etkin kurumların spotlu haberleri (kurum başına n bilgisi ipucunda). Pay kurumun kendi haberleri üzerindendir."], "veri") };
+    how: orHow([esc(srcName(hi)) + " " + pc5(O[hi].hotter) + ", " + esc(srcName(lo)) + " " + pc5(O[lo].hotter) + ".", "Başlık puanı − aynı haberin spot puanı; ≥ " + th + " puan ‘başlık spotundan yüklü’ sayıldı. Spotu olmayan ya da başlıkla aynı olan haberler dışarıda.", "Birim: etkin kurumların spotlu haberleri (kurum başına n bilgisi ipucunda). Pay kurumun kendi haberleri üzerindendir."], "veri") };
 }
 function orFindFollow() {
   var F = g6FollowData(), top = F.all.slice().sort(function (a, b) { return b.n - a.n; })[0];
   var cross = F.all.filter(function (x) { var p = bloc(x.a), q = bloc(x.b); return (p === "left" && q === "right") || (p === "right" && q === "left"); })
     .reduce(function (t, x) { return t + x.n; }, 0), tot = F.all.reduce(function (t, x) { return t + x.n; }, 0) || 1;
   return { id: "hiz-ag",
-    claim: top ? "En sık tekrarlanan sıra <b>" + esc(srcName(top.a)) + " → " + esc(srcName(top.b)) + "</b>: " + orN(top.n) + " olayda önce " + esc(srcName(top.a)) + " verdi, " +
-      esc(srcName(top.b)) + " ortanca " + dur5(median5(top.lags.slice())) + " sonra." : "Sıra verisi yok.",
+    claim: top ? "En sık tekrar eden sıra <b>" + esc(srcName(top.a)) + " → " + esc(srcName(top.b)) + "</b>: " + orN(top.n) + " olayda önce " + esc(srcName(top.a)) + " verdi, " +
+      esc(srcName(top.b)) + " tipik olarak " + dur5(median5(top.lags.slice())) + " sonra." : "Sıra verisi yok.",
+    read: "Her nokta bir kurum; ok önce verenden sonra verene gider, kalın ok daha çok olay. Bir oka " + orTap() + ": kaç olay, ne kadar sonra.",
+    table: vzTable(["Önce veren", "Sonra veren", "Olay", "Ortanca gecikme"], F.edges.filter(function (x) { return ACT5.indexOf(x.a) >= 0 && ACT5.indexOf(x.b) >= 0; }).sort(function (a, b) { return b.n - a.n; })
+      .map(function (x) { return [srcName(x.a), srcName(x.b), orN(x.n), dur5(median5(x.lags.slice()))]; })),
     viz: g6Box("follow", "", "İlk veren kurumdan sonra gelen kurumlara giden oklar") +
       legendHTML([{ c: "var(--left)", t: "sola yerleşik" }, { c: "var(--mid)", t: "merkez" }, { c: "var(--right)", t: "sağa yerleşik" }, { line: 1, c: "var(--ink2)", t: "ok: önce veren → sonra veren" }], "Ağ") +
       '<p class="or-hint">Kurumlar yerleşim sırasıyla çember üzerinde; düğüm büyüklüğü ilk veren olduğu olay sayısı. Okun rengi önce veren kurumun yerleşimi, kalınlığı olay sayısı.</p>',
