@@ -46,3 +46,9 @@ Decision: push.
 - Accessibility: popover in DOM order after its term; focus management fixed; shadow token for dark mode.
 - Simplicity/Karpathy: findingBlock backward compatible (old findings render without undefined); no unrelated edits.
 Decision: push.
+
+## Push of 33f43d4 (UX Task 6: plain-language findings + tables)
+- Correctness: every statistic moved into "Nasıl ölçtük?" (reviewer checked each); caveats kept; tables built from chart rows; smoke bans statistical terms in claims and checks read/table presence; logic 15/15, smoke ok. Style-claim direction verified against PCA loadings.
+- Karpathy: content-only rewrite inside the finding functions; one CSS scope fix (ol.v7-read) needed by the change.
+- Open (minor, logged): three wording-accuracy nits for the final pass.
+Decision: push.
