@@ -5,7 +5,7 @@ function olayHead(e) {
   var bs = e.bs ? '<span class="xbs ' + e.bs + '">' + side + " kurumların çoğu bu olayı vermedi</span>" : "";
   return '<div class="xcrumb"><a href="#/olaylar">Olaylar</a> › ' + tpChips(e, 4) + "</div>" +
     '<h1 class="xh1">' + esc(e.t) + "</h1>" +
-    '<div class="xmeta" style="margin-top:10px"><span>' + e.s.length + " kurum verdi · " + c[0] + " sol, " + c[1] + " merkez, " + c[2] + " sağ · " +
+    '<div class="xmeta" style="margin-top:10px"><span>' + e.s.length + " kurum verdi · " + c[0] + " sol, " + c[1] + " merkez, " + c[2] + " sağ" + (e.s.length > c[0] + c[1] + c[2] ? ", " + (e.s.length - c[0] - c[1] - c[2]) + " yerleşimsiz" : "") + " · " +
     '<span class="xdt">' + fmtDT(e.f) + " – " + fmtDT(e.l) + "</span></span>" + bs + "</div>" + bbar(e, true);
 }
 
@@ -15,7 +15,7 @@ function olayKisaca(e) {
   var rows = [["Ne oldu", q.happened], ["Ortak nokta", q.agree], ["Ayrışan nokta", q.differ]].filter(function (x) { return x[1]; });
   if (rows.length) {
     var inner = rows.map(function (x) { return "<h3>" + x[0] + "</h3><p>" + esc(x[1]) + "</p>"; }).join("");
-    return '<section class="sec v7-kisaca">' + (n.status === "agent_coded" ? yzBlock(inner, "Kısaca") : "<h2>Kısaca</h2>" + inner) + "</section>";
+    return '<section class="sec v7-kisaca">' + (n.status === "agent_coded" ? '<div class="yz"><h2>Kısaca ' + yzBadge() + "</h2>" + inner + "</div>" : "<h2>Kısaca</h2>" + inner) + "</section>";
   }
   var pair = SPLITPAIR[e.i] || defaultPair(e), a = pair && artOf(e, pair[0]), b = pair && artOf(e, pair[1]);
   if (!a || !b) return '<section class="sec v7-kisaca"><h2>Kısaca</h2><p>' + e.s.length + " kurum bu olayı verdi.</p></section>";
@@ -36,7 +36,8 @@ document.addEventListener("toggle", function (ev) {
   if (!e) return;
   if (d.getAttribute("data-deep") === "narr") {
     var box = d.querySelector("#v7-map"); if (box) box.innerHTML = narrMap(box.getAttribute("data-key"));
-  } else d.insertAdjacentHTML("beforeend", olayReview(e));
+  } else if (d.getAttribute("data-deep") === "echo") d.insertAdjacentHTML("beforeend", v3echo(e));
+  else d.insertAdjacentHTML("beforeend", olayReview(e));
 }, true);
 
 function olayHeadlines(e) {
@@ -101,5 +102,22 @@ function pgOlay7(q) {
   var nk = NBYEV[e.i], x = bg7ev(e.i), deep = "";
   if (nk && narrOk(nk) && D.N[nk]) deep += olayDeep("narr", "Anlatı ayrıntısı", '<div id="v7-map" data-key="' + esc(nk) + '"></div>');
   if (x && x.status === "review_complete" && bg7Live(x).length) deep += olayDeep("yz", "Yapay zekâ ne fark etti? (YZ)", "");
+  if ((CM3.clusters(D).byEvent[e.i] || []).length) deep += olayDeep("echo", "Benzer başlıklar", "");
   return '<div class="wrap page xstory">' + olayHead(e) + olayKisaca(e) + splitBlock(e) + olayHeadlines(e) + olayTiming(e) + deep + olayOutlets(e) + "</div>";
+}
+
+/* Coverage-bar labels: full text, else just the percentage, else none; measured, never clipped. */
+function olayFitBar() {
+  var fit = function () {
+    [].forEach.call(document.querySelectorAll(".xbar.big i"), function (i) {
+      var sp = i.querySelector("span"); if (!sp) return;
+      var full = sp.getAttribute("data-full") || sp.textContent; sp.setAttribute("data-full", full);
+      var pct = full.slice(full.indexOf("%"));
+      sp.style.display = ""; sp.textContent = full;
+      if (sp.offsetWidth > i.clientWidth) sp.textContent = pct;
+      if (sp.offsetWidth > i.clientWidth) sp.style.display = "none";
+    });
+  };
+  fit();
+  if (!olayFitBar.on) { olayFitBar.on = 1; window.addEventListener("resize", function () { if (document.querySelector(".xbar.big")) fit(); }); }
 }

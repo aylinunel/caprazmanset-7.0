@@ -47,14 +47,19 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         const q = (s) => document.querySelector(s);
         const seq = [q(".xstory .xh1") || q(".phead"), q(".v7-kisaca"), q(".xspwrap"), q("#alist"), q(".v7-time")]
           .concat([...document.querySelectorAll("details.v7-deep")], [q(".v7-outsec")]);
-        const nm = ["header", ".v7-kisaca", ".xspwrap", "#alist", ".v7-time", "deep", "deep", "deep", ".v7-outsec"];
+        const nm = ["header", ".v7-kisaca", ".xspwrap", "#alist", ".v7-time", "deep", "deep", "deep", "deep", ".v7-outsec"];
         let prev = null;
         for (let i = 0; i < seq.length; i++) {
           if (!seq[i]) { if (i < 5 || i === seq.length - 1) return "missing " + nm[i]; continue; }
           if (prev && !(prev.compareDocumentPosition(seq[i]) & 4)) return "order wrong at " + nm[i];
           prev = seq[i];
         }
-        if (document.querySelectorAll("details.v7-deep").length > 2) return "more than 2 deep rows";
+        if (document.querySelectorAll("details.v7-deep").length > 3) return "more than 3 deep rows";
+        for (const i of document.querySelectorAll(".xbar.big i")) {
+          const sp = i.querySelector("span"); if (!sp || sp.offsetParent === null) continue;
+          const a = sp.getBoundingClientRect(), b = i.getBoundingClientRect();
+          if (a.left < b.left - 0.5 || a.right > b.right + 0.5) return "coverage bar label clipped: " + sp.textContent;
+        }
         const sh = q(".xspwrap h2"); if (!sh || sh.textContent.trim() !== "En farklı iki başlık") return "split block title";
         if (!/Başka iki kurumu karşılaştır/.test(q(".xspwrap").textContent)) return "picker label";
         if (!q("#asort") || q("#asort").value !== "lean") return "headline sort not lean";

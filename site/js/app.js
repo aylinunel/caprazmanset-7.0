@@ -4103,7 +4103,11 @@ function artRows(e) {
   var arts = e.a.map(function (i) { return ART[i]; }).filter(function (a) {
     return ARTSIDE === "all" || sideOf(a.s) === ARTSIDE; });
   arts.sort(function (x, y) {
-    if (ARTSORT === "lean") return (SRC[x.s] ? SRC[x.s].lean : 50) - (SRC[y.s] ? SRC[y.s].lean : 50);
+    if (ARTSORT === "lean") {
+      var lx = SRC[x.s] && SRC[x.s].lean != null ? SRC[x.s].lean : null, ly = SRC[y.s] && SRC[y.s].lean != null ? SRC[y.s].lean : null;
+      if (lx == null || ly == null) { if (lx != null) return -1; if (ly != null) return 1; return x.d.localeCompare(y.d); }
+      return lx - ly || x.d.localeCompare(y.d);
+    }
     if (ARTSORT === "load") return y.v - x.v;
     return x.d.localeCompare(y.d);
   });
@@ -4465,6 +4469,7 @@ function narrFocusChart() {
 
 function v2bAfter(path, tab, params) {
   if (path === "/" || path === "/anlati" || path === "/olay") wireAnlati(document.getElementById("view"));
+  if (path === "/olay") olayFitBar();
   g6Mount(document.getElementById("view"));
   dmHeads(document.getElementById("view")); dmMount(document.getElementById("view")); fogMount(document.getElementById("view")); dmFeedWatch(document.getElementById("view"));
   if (path === "/oruntu") wireOruntu(params.q || "secim", params.f);
@@ -6273,7 +6278,6 @@ function v3After(path, tab, params) {
   if (path === "/olay" && EV[params.e]) {
     var e = EV[params.e];
         if (v3on("echoChain")) {
-      add(view.querySelector("#alist"), "afterend", v3echo(e));
       add(view.querySelector(".divg"), "afterend", '<p class="xsmall" data-cm3>' + esc(t3("countedOnce")) + "</p>");
     }
     if (v3on("appeal")) {
