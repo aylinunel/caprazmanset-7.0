@@ -74,3 +74,8 @@ Decision: push.
 - Karpathy: dead code scheduled earlier removed (v3noticeEventsPage family, v3sub, duplicate NAV, xpill hack); wording-accuracy fixes limited to the logged items.
 - Exemptions explicit and commented in smoke.cjs (admin route, stretched-link cards, own-scroll boxes).
 Decision: push.
+
+## Push of c357516, f536d18 (final review fix wave)
+- Correctness: WebGL/listener teardown per hero instance (verified by code reading); hero = week's biggest split (same weeklySplits args as feed); recent splits need ≥20-point gap; "çoğu" only when >half of outlets share the words; kör nokta glossary matches the rule; phone header shows Benim; breadcrumb per spec. logic 21/21, smoke ok.
+- Karpathy: each change traces to a final-review finding; M6/M7 accepted and left alone.
+Decision: push.
