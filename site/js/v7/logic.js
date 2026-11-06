@@ -118,13 +118,21 @@ function kuPoss(n) {
 }
 /* Dative after an outlet name: "Birgün’e", "Takvim’e", "Sabah’a", "Sözcü’ye", "Star’a"; acronyms and trailing digits are read
    as spoken ("NTV’ye", "Halk TV’ye", "TELE1’e"). */
-var KU_LET = { A: "ya", B: "ye", C: "ye", Ç: "ye", D: "ye", E: "ye", F: "e", G: "ye", Ğ: "ye", H: "ye", I: "ya", İ: "ye", J: "ye", K: "ya", L: "e", M: "e", N: "e",
-  O: "ya", Ö: "ye", P: "ye", R: "e", S: "e", Ş: "e", T: "ye", U: "ya", Ü: "ye", V: "ye", Y: "e", Z: "ye" };
-var KU_DIG = { 0: "a", 1: "e", 2: "ye", 3: "e", 4: "e", 5: "e", 6: "ya", 7: "ye", 8: "e", 9: "a" };
+/* Spoken letter names: all end in a vowel except X ("iks"); back vowels (a, ı, o, u) take ’ya, the rest ’ye. */
+var KU_LET = { A: "ya", I: "ya", O: "ya", U: "ya", X: "e", Q: "ye", W: "ye" };
+var KU_DONE = { 0: "a", 1: "e", 2: "ye", 3: "e", 4: "e", 5: "e", 6: "ya", 7: "ye", 8: "e", 9: "a" };
+var KU_DTEN = { 1: "a", 2: "ye", 3: "a", 4: "a", 5: "ye", 6: "a", 7: "e", 8: "e", 9: "a" };
+/* The last spoken word of a number decides: 24 "yirmi dört" ’e, 20 "yirmi" ’ye, 10 "on" ’a, 100 "yüz" ’e, 1000 "bin" ’e. */
+function kuNumDat(n) {
+  if (n === 0) return "’a";
+  if (n % 10) return "’" + KU_DONE[n % 10];
+  if (n % 100) return "’" + KU_DTEN[(n % 100) / 10];
+  return "’e";
+}
 function kuDat(name) {
-  var w = String(name).trim().split(/\s+/).pop(), last = w.charAt(w.length - 1);
-  if (/[0-9]$/.test(w)) return "’" + KU_DIG[last];
-  if (/^[A-ZÇĞİÖŞÜ]{2,}$/.test(w)) return "’" + KU_LET[last];
+  var w = String(name).trim().split(/\s+/).pop(), num = w.match(/[0-9]+$/);
+  if (num) return kuNumDat(parseInt(num[0], 10));
+  if (/^[A-ZÇĞİÖŞÜQWX]{2,}$/.test(w)) return "’" + (KU_LET[w.charAt(w.length - 1)] || "ye");
   var low = w.toLocaleLowerCase("tr"), v = (low.match(/[aıoueiöü]/g) || ["e"]).pop();
   return "’" + (/[aıoueiöü]$/.test(low) ? "y" : "") + (/[aıou]/.test(v) ? "a" : "e");
 }

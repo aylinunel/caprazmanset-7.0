@@ -158,3 +158,15 @@ test("kuDat reads acronyms and digits as spoken", () => {
   assert.ok(k("TELE1").endsWith("TELE1’e benziyor."));
   assert.ok(k("Star").endsWith("Star’a benziyor."));
 });
+test("kuDat: letter names and spoken numbers", () => {
+  const k = (n) => L.outletKisaca({ name: "X", events: 1, total: 2, placed: false, nb: [n] })[1];
+  for (const n of ["AF", "BŞ", "KY", "XZ", "TRT HE", "NTV"]) assert.ok(k(n).endsWith(n.split(" ").pop() + "’ye benziyor."), n);
+  for (const n of ["AA", "TRO", "XU"]) assert.ok(k(n).endsWith(n + "’ya benziyor."), n);
+  assert.ok(k("AX").endsWith("AX’e benziyor."));
+  assert.ok(k("T20").endsWith("T20’ye benziyor."));
+  assert.ok(k("T24").endsWith("T24’e benziyor."));
+  assert.ok(k("T10").endsWith("T10’a benziyor."));
+  assert.ok(k("T100").endsWith("T100’e benziyor."));
+  assert.ok(k("T50").endsWith("T50’ye benziyor."));
+  assert.ok(k("TELE1").endsWith("TELE1’e benziyor."));
+});

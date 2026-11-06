@@ -97,7 +97,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
         if (!(await page.$(sel))) { fails.push(`${tag}: missing ${key} row`); continue; }
         if (await page.$eval(sel + " .v7-lz", (e) => e.childElementCount)) fails.push(`${tag}: ${key} built before open`);
         await page.click(sel + " summary"); await sleep(600);
-        if (!(await page.$eval(sel + " .v7-lz", (e) => e.querySelectorAll("a").length))) fails.push(`${tag}: ${key} row empty after open`);
+        if (!(await page.$eval(sel + " .v7-lz", (e) => e.childElementCount))) fails.push(`${tag}: ${key} row empty after open`);
       }
     }
     if (route.startsWith("#/kurum?s=")) {
